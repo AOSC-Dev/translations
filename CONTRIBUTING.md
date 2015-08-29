@@ -15,6 +15,14 @@ You can report issues using our Issue feature. Be clear of what you are talking
 about. In most cases, you can fix the translation errors yourself by sending
 the correct ones for us to merge.
 
+Pull Requests
+-------------
+
+Pull requests are appreciated, but since GitHub's never going to run the merge
+driver for PO, you should merge it locally first.
+
+And never use the **Merge** button for PO files.
+
 Git
 ---
 
