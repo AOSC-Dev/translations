@@ -46,6 +46,10 @@ Our [Crowdin project](http://l10n.anthonos.org) can be used to contribute
 translations. However, we seldom use it, so don't expect your translations
 to be merged quickly.
 
+Crowdin Translations should be often synced with master, and each push to
+Crowdin should have the current commit hash recorded, so we can use the
+three-way driver for us.
+
 zhconv
 ------
 
