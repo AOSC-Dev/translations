@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: parted 3.1.90\n"
 "Report-Msgid-Bugs-To: bug-parted@gnu.org\n"
 "POT-Creation-Date: 2014-06-21 14:00-0400\n"
-"PO-Revision-Date: 2015-08-29 09:21+0800\n"
+"PO-Revision-Date: 2015-09-12 16:39-0400\n"
 "Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -2044,7 +2044,7 @@ msgstr "正收缩 HFS 包装程序"
 
 #: libparted/fs/r/hfs/hfs.c:1007
 msgid "Updating the HFS wrapper has failed."
-msgstr "正更新 HFS 包装程序失败。"
+msgstr "更新 HFS 包装程序失败。"
 
 #: libparted/fs/r/hfs/hfs.c:1109 libparted/fs/r/hfs/hfs.c:1194
 #, c-format
@@ -2117,7 +2117,7 @@ msgstr "某个延伸未被重寻址。"
 msgid ""
 "A reference to an extent comes from a place it should not.  You should check "
 "the file system!"
-msgstr "某个延伸的参考来自它不该来的地方。您应该检查一下文件系统！"
+msgstr "某个延伸的引用来自它不该来的地方。您应该检查一下文件系统！"
 
 #: libparted/fs/r/hfs/reloc.c:379
 msgid "This HFS volume has no catalog file.  This is very unusual!"
