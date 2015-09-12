@@ -1,0 +1,1816 @@
+# Simplified Chinese Messages for minicom.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the minicom package.
+# Based on zh_TW translation by:
+# OLS3 <ols3@lxer.idv.tw>, 2005.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2006, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: minicom 2.6.1.90\n"
+"Report-Msgid-Bugs-To: minicom-devel@lists.alioth.debian.org\n"
+"POT-Creation-Date: 2012-12-01 17:43+0100\n"
+"PO-Revision-Date: 2015-08-22 15:13-0400\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@hotmail.com>\n"
+"Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: src/config.c:75
+#, c-format
+msgid "minicom: cannot open macro file %s\n"
+msgstr "minicom: 无法打开宏文件 %s\n"
+
+#: src/config.c:245
+msgid " A - File name (empty=disable) :"
+msgstr " A - 文件名 (空白=停用)\t:"
+
+#: src/config.c:246
+msgid " B - Log connects and hangups  :"
+msgstr " B - 连接与挂断记录\t:"
+
+#: src/config.c:247
+msgid " C - Log file transfers        :"
+msgstr " C - 文件传输记录\t:"
+
+#: src/config.c:248 src/config.c:302 src/config.c:544 src/config.c:646
+#: src/config.c:1191 src/dial.c:1155
+msgid "Change which setting?"
+msgstr "变更设置？"
+
+#: src/config.c:252
+msgid "Logging options"
+msgstr "记录选项"
+
+# Here we use tabstops instead of the original spaces for better alignment control.
+# If upstream says this is bad, use `sed -e 's/\\t/\t/g' < minicom-2.6.1.90.zh_CN.po | expand > minicom-2.6.1.90.zh_CN_tabexpanded.po` to fix it.
+# Since there is no \t in msgid (yet), this will work fine.
+#: src/config.c:294
+msgid " A - Download directory :"
+msgstr " A - 下载目录\t\t:"
+
+#: src/config.c:295
+msgid " B - Upload directory   :"
+msgstr " B - 上传目录\t\t:"
+
+#: src/config.c:296
+msgid " C - Script directory   :"
+msgstr " C - 脚本目录\t\t:"
+
+#: src/config.c:297
+msgid " D - Script program     :"
+msgstr " D - 脚本程序\t\t:"
+
+#: src/config.c:298
+msgid " E - Kermit program     :"
+msgstr " E - Kermit 程序\t:"
+
+#: src/config.c:300
+msgid " F - Logging options"
+msgstr " F - 日志选项"
+
+#: src/config.c:355 src/rwconf.c:114 src/rwconf.c:147 src/rwconf.c:148
+msgid "Yes"
+msgstr "是 "
+
+#: src/config.c:355
+msgid "No "
+msgstr "否 "
+
+#: src/config.c:430
+msgid "M  Zmodem download string activates..."
+msgstr "M  Zmodem 下载字串启用................"
+
+#: src/config.c:431
+msgid "N  Use filename selection window......"
+msgstr "N  使用文件名选择窗口..................."
+
+#: src/config.c:432
+msgid "O  Prompt for download directory......"
+msgstr "O  提示询问下载目录..................."
+
+#: src/config.c:433
+msgid "Change which setting? (SPACE to delete)"
+msgstr "变更哪项设置？ (SPACE 表示删除)"
+
+#: src/config.c:436
+msgid "     Name             Program"
+msgstr "     名称             程序"
+
+#. TRANSLATORS:
+#. * Name: Protocol sends filename internally
+#. * U/D: Command is used for upload or download
+#. * FullScr: Command runs fullscreen
+#. * IO-Red: Redirect output of commands to logfile
+#. * Multi: Protocol can transfer multiple files at once
+#: src/config.c:445
+msgid "Name U/D FullScr IO-Red. Multi"
+msgstr "名称 上下 全屏 输出重定向 多重"
+
+#: src/config.c:476
+msgid "Delete which protocol? "
+msgstr "删除哪一项协议？"
+
+#: src/config.c:537
+msgid " A -    Serial Device      :"
+msgstr " A - 串行设备\t\t:"
+
+#: src/config.c:538
+msgid " B - Lockfile Location     :"
+msgstr " B - 锁文件位置\t\t:"
+
+#: src/config.c:539
+msgid " C -   Callin Program      :"
+msgstr " C - 拨入程序\t\t:"
+
+#: src/config.c:540
+msgid " D -  Callout Program      :"
+msgstr " D - 拨出程序\t\t:"
+
+#: src/config.c:541
+msgid " E -    Bps/Par/Bits       :"
+msgstr " E - Bps/Par/Bits\t:"
+
+#: src/config.c:542
+msgid " F - Hardware Flow Control :"
+msgstr " F - 硬件流控制\t\t:"
+
+#: src/config.c:543
+msgid " G - Software Flow Control :"
+msgstr " G - 软件流控制\t\t:"
+
+#: src/config.c:616
+msgid "DTE speed "
+msgstr "DTE 速度 "
+
+#: src/config.c:618
+msgid "line speed"
+msgstr "连接速度"
+
+#: src/config.c:626
+msgid " A - Init string ........."
+msgstr " A - 初始化字串 .........."
+
+#: src/config.c:627
+msgid " B - Reset string ........"
+msgstr " B - 重置字串 ............"
+
+#: src/config.c:628
+msgid " C - Dialing prefix #1...."
+msgstr " C - 拨号前缀 #1.........."
+
+#: src/config.c:629
+msgid " D - Dialing suffix #1...."
+msgstr " D - 拨号后缀 #1.........."
+
+#: src/config.c:630
+msgid " E - Dialing prefix #2...."
+msgstr " E - 拨号前缀 #2.........."
+
+#: src/config.c:631
+msgid " F - Dialing suffix #2...."
+msgstr " F - 拨号后缀 #2.........."
+
+#: src/config.c:632
+msgid " G - Dialing prefix #3...."
+msgstr " G - 拨号前缀 #3.........."
+
+#: src/config.c:633
+msgid " H - Dialing suffix #3...."
+msgstr " H - 拨号后缀 #3.........."
+
+#: src/config.c:634
+msgid " I - Connect string ......"
+msgstr " I - 连接字串 ............"
+
+#: src/config.c:635
+msgid " J - No connect strings .."
+msgstr " J - 没有连接字串 ........"
+
+#: src/config.c:636
+msgid " K - Hang-up string ......"
+msgstr " K - 挂断字串 ............"
+
+#: src/config.c:637
+msgid " L - Dial cancel string .."
+msgstr " L - 拨号取消字串 ........"
+
+#: src/config.c:638
+msgid " M - Dial time ..........."
+msgstr " M - 拨号时间 ............"
+
+#: src/config.c:639
+msgid " N - Delay before redial ."
+msgstr " N - 重拨之前延迟 ........"
+
+#: src/config.c:640
+msgid " O - Number of tries ....."
+msgstr " O - 尝试次数 ............"
+
+#: src/config.c:641
+msgid " P - DTR drop time (0=no)."
+msgstr " P - DTR 掉失时间 (0=无).."
+
+#: src/config.c:642
+msgid " Q - Auto bps detect ....."
+msgstr " Q - 自动 bps 侦测 ......."
+
+#: src/config.c:643
+msgid " R - Modem has DCD line .."
+msgstr " R - 调制解调器有 DCD 线 ....."
+
+#: src/config.c:644
+msgid " S - Status line shows ..."
+msgstr " S - 状态栏显示 .........."
+
+#: src/config.c:645
+msgid " T - Multi-line untag ...."
+msgstr " T - 取消多列标签 ........"
+
+#: src/config.c:657
+msgid "Modem and dialing parameter setup"
+msgstr "调制解调器和拨打参数设置"
+
+#: src/config.c:690
+msgid "    Return or Esc to exit. Edit A+B to get defaults."
+msgstr "    按回车或 Esc 以离开。编辑 A+B 以提取默认值。"
+
+#: src/config.c:828
+msgid " A - Command key is         :"
+msgstr " A - 命令按键是\t\t:"
+
+#: src/config.c:829
+msgid " B - Backspace key sends    :"
+msgstr " B - 退格键发送\t\t:"
+
+#: src/config.c:830
+msgid " C - Status line is         :"
+msgstr " C - 状态栏是\t\t:"
+
+#: src/config.c:831
+msgid " D - Alarm sound            :"
+msgstr " D - 警报声音\t\t:"
+
+#: src/config.c:832
+msgid " E - Foreground Color (menu):"
+msgstr " E - 前景色 (菜单)\t:"
+
+#: src/config.c:833
+msgid " F - Background Color (menu):"
+msgstr " F - 背景色 (菜单)\t:"
+
+#: src/config.c:834
+msgid " G - Foreground Color (term):"
+msgstr " G - 前景色 (终端)\t:"
+
+#: src/config.c:835
+msgid " H - Background Color (term):"
+msgstr " H - 背景色 (终端)\t:"
+
+#: src/config.c:836
+msgid " I - Foreground Color (stat):"
+msgstr " I - 前景色 (状态)\t:"
+
+#: src/config.c:837
+msgid " J - Background Color (stat):"
+msgstr " J - 背景色 (状态)\t:"
+
+#: src/config.c:838
+msgid " K - History Buffer Size    :"
+msgstr " K - 历史缓冲区大小\t:"
+
+#: src/config.c:839
+msgid " L - Macros file            :"
+msgstr " L - 宏文件\t\t:"
+
+#: src/config.c:840
+msgid " N - Macros enabled         :"
+msgstr " N - 启用宏功能\t\t:"
+
+#: src/config.c:841
+msgid " O - Character conversion   :"
+msgstr " O - 字符转换\t\t:"
+
+#: src/config.c:842
+msgid " P - Add linefeed           :"
+msgstr " P - 加入换列字符\t\t:"
+
+#: src/config.c:843
+msgid " Q - Local echo             :"
+msgstr " Q - 本地回应\t\t:"
+
+#: src/config.c:844
+msgid " R - Line Wrap              :"
+msgstr " R - 自动换行\t\t:"
+
+#: src/config.c:845
+msgid " S - Hex Display            :"
+msgstr " S - 十六进制显示\t:"
+
+#: src/config.c:846
+msgid " T - Add carriage return    :"
+msgstr " T - 加入回车字符\t\t:"
+
+#: src/config.c:847 src/config.c:1601
+msgid "Change which setting?  (Esc to exit)"
+msgstr "变更设置？ (ESC 离开)"
+
+#: src/config.c:851 src/config.c:1373
+msgid "Screen and keyboard"
+msgstr "屏幕和键盘"
+
+#: src/config.c:870
+msgid " M - Edit Macros\n"
+msgstr " M - 编辑宏\n"
+
+#: src/config.c:898
+msgid "You can't change colors in black and white mode"
+msgstr "您无法在黑白模式中变更颜色"
+
+#: src/config.c:910
+msgid "Menu foreground == background color, change!"
+msgstr "菜单前景 == 背景颜色，改掉！"
+
+#: src/config.c:919
+msgid "Terminal foreground == background color, change!"
+msgstr "终端前景 == 背景颜色，改掉！"
+
+#: src/config.c:931
+msgid "History Buffer Size"
+msgstr "历史缓冲区大小"
+
+#: src/config.c:932
+msgid ""
+"\n"
+"                You have changed the history buffer size.\n"
+"                You will need to save the configuration file and\n"
+"                restart minicom for the change to take effect.\n"
+"\n"
+"                Hit a key to Continue... "
+msgstr ""
+"\n"
+"                您已变更历史缓冲区大小。\n"
+"                您将需要保存配置文件和\n"
+"                重新启动 minicom 以使变更生效。\n"
+"\n"
+"                按下任意键继续…"
+
+#: src/config.c:949
+msgid "Program new command key"
+msgstr "程序新命令键"
+
+#: src/config.c:951
+msgid ""
+"\n"
+" Press the new command key. If you want to use\n"
+" the META or ALT key enter:\n"
+"\n"
+"  o SPACE if your meta key sets the 8th bit high\n"
+"  o ESC   if your meta key sends the ESCAPE prefix (standard)\n"
+"\n"
+"\n"
+" Press new command key: "
+msgstr ""
+"\n"
+" 按下新的指令键。如果您要使用\n"
+" META 或 ALT 键来输入:\n"
+"\n"
+"  o SPACE 如果您的 META 键设置了第八位\n"
+"  o ESC   如果您的 META 键发送 ESCAPE 前缀(标准)\n"
+"\n"
+"\n"
+" 按下新的指令键: "
+
+#: src/config.c:960
+msgid "Meta-8th bit "
+msgstr "中继第八位 "
+
+#: src/config.c:962
+msgid "Escape (Meta)"
+msgstr "退出 (中继)"
+
+#: src/config.c:996 src/config.c:1244
+msgid "disabled"
+msgstr "关闭"
+
+#: src/config.c:999 src/config.c:1247 src/rwconf.c:146
+msgid "enabled"
+msgstr "启用"
+
+#: src/config.c:1114
+msgid "ERROR: you do not have permission to create a file there!"
+msgstr "错误: 您无权在那里创建文件！"
+
+#: src/config.c:1120
+#, c-format
+msgid "ERROR: cannot open macro file %s"
+msgstr "错误: 无法打开宏文件 %s"
+
+#: src/config.c:1126
+msgid "Reading macros"
+msgstr "读取宏"
+
+#: src/config.c:1185
+msgid " A -      Terminal emulation :"
+msgstr " A - 终端仿真\t\t:"
+
+#: src/config.c:1186
+msgid " B -     Backspace key sends :"
+msgstr " B - 退格键发送\t\t:"
+
+#: src/config.c:1187
+msgid " C -          Status line is :"
+msgstr " C - 状态栏是\t\t:"
+
+#: src/config.c:1188
+msgid " D -   Newline tx delay (ms) :"
+msgstr " D - 换行 tx 延迟 (ms)\t:"
+
+#: src/config.c:1189
+msgid " E -          ENQ answerback :"
+msgstr " E - ENQ 回应\t\t:"
+
+#: src/config.c:1190
+msgid " F - Character tx delay (ms) :"
+msgstr " F - 字符 tx 延迟 (ms)\t:"
+
+#: src/config.c:1194
+msgid "Terminal settings"
+msgstr "终端设置"
+
+#: src/config.c:1298
+#, c-format
+msgid "Cannot write to %s"
+msgstr "无法写入至 %s"
+
+#: src/config.c:1305
+msgid "Configuration saved"
+msgstr "设置文件保存"
+
+#: src/config.c:1320
+msgid "ERROR: Macros have changed but no filename is set!"
+msgstr "错误: 宏已变更但是没有设置任何文件名！"
+
+#: src/config.c:1324
+#, c-format
+msgid "Cannot write macros file %s"
+msgstr "无法写入宏文件 %s"
+
+#: src/config.c:1330
+msgid "Macros saved"
+msgstr "宏已保存"
+
+#: src/config.c:1347
+msgid "Give name to save this configuration?"
+msgstr "给定保存文件名称？"
+
+#: src/config.c:1369
+msgid "Filenames and paths"
+msgstr "文件名和路径"
+
+#: src/config.c:1370
+msgid "File transfer protocols"
+msgstr "文件传输协定"
+
+#: src/config.c:1371
+msgid "Serial port setup"
+msgstr "串口设置"
+
+#: src/config.c:1372
+msgid "Modem and dialing"
+msgstr "调制解调器和拨接"
+
+#: src/config.c:1375
+msgid "Save setup as.."
+msgstr "另存设置为…"
+
+#: src/config.c:1376
+msgid "Exit"
+msgstr "离开本画面"
+
+#: src/config.c:1377
+msgid "Exit from Minicom"
+msgstr "离开 Minicom"
+
+#: src/config.c:1389
+#, c-format
+msgid "Save setup as %s"
+msgstr "保存设置为 %s"
+
+#: src/config.c:1395
+msgid "configuration"
+msgstr "设置"
+
+#: src/config.c:1404
+msgid "BLACK"
+msgstr "黑"
+
+#: src/config.c:1404
+msgid "RED"
+msgstr "红"
+
+#: src/config.c:1404
+msgid "GREEN"
+msgstr "绿"
+
+#: src/config.c:1404
+msgid "YELLOW"
+msgstr "黄"
+
+#: src/config.c:1405
+msgid "BLUE"
+msgstr "蓝"
+
+#: src/config.c:1405
+msgid "MAGENTA"
+msgstr "洋红"
+
+#: src/config.c:1405
+msgid "CYAN"
+msgstr "青"
+
+#: src/config.c:1405
+msgid "WHITE"
+msgstr "白"
+
+#: src/config.c:1435
+msgid "Comm Parameters"
+msgstr "通信参数"
+
+#: src/config.c:1440
+msgid " Speed            Parity      Data\n"
+msgstr " 速度             同位        数据\n"
+
+#: src/config.c:1441
+msgid " A: <next>        L: None     S: 5\n"
+msgstr " A: <next>        L: 无       S: 5\n"
+
+#: src/config.c:1442
+msgid " B: <prev>        M: Even     T: 6\n"
+msgstr " B: <prev>        M: 甚至     T: 6\n"
+
+#: src/config.c:1443
+msgid " C:   9600        N: Odd      U: 7\n"
+msgstr " C:   9600        N: 奇数     U: 7\n"
+
+#: src/config.c:1444
+msgid " D:  38400        O: Mark     V: 8\n"
+msgstr " D:  38400        O: 标记     V: 8\n"
+
+#: src/config.c:1445
+msgid " E: 115200        P: Space\n"
+msgstr " E: 115200        P: 空格\n"
+
+#: src/config.c:1447
+msgid " Stopbits\n"
+msgstr " 停止位\n"
+
+#: src/config.c:1448
+msgid " W: 1             Q: 8-N-1\n"
+msgstr " W: 1             Q: 8-N-1\n"
+
+#: src/config.c:1449
+msgid " X: 2             R: 7-E-1\n"
+msgstr " X: 2             R: 7-E-1\n"
+
+#: src/config.c:1451
+msgid " K: Current\n"
+msgstr " K: 目前的\n"
+
+#: src/config.c:1454
+msgid ""
+"\n"
+" Choice, or <Enter> to exit? "
+msgstr ""
+"\n"
+" 选择，或按 <Enter> 离开？ "
+
+#: src/config.c:1462
+#, c-format
+msgid "Current: %5s %s%s%s  "
+msgstr "目前: %5s %s%s%s  "
+
+#: src/config.c:1604
+msgid "F1 to F10 Macros"
+msgstr "F1 到 F10 的宏"
+
+#: src/config.c:1623
+msgid " (LEGEND: ^M = C-M, ^L = C-L, ^G = C-G, ^R = C-R, ^~ = pause 1 second,"
+msgstr " (键例: ^M = C-M, ^L = C-L, ^G = C-G, ^R = C-R, ^~ = 暂停 1 秒，"
+
+#: src/config.c:1625
+msgid "  \\u = username, \\p = password, \\\\ = \\, \\e = toggle echo, "
+msgstr " \\u = 用户名，\\p = 密码，\\\\ = \\，\\e = 切换回应，"
+
+#: src/config.c:1627
+msgid ""
+"  \\l = toggle LF, \\bX1..Xn<sp> = change baud rate. Example: \"\\beq \""
+msgstr "  \\l = 切换 LF，\\bX1..Xn<sp> = 变更波特率。范例:“\\beq ”"
+
+#: src/config.c:1629
+msgid ""
+"  = 115200 8N1. (See the \"Comm Parameters\" menu for valid values of X.))"
+msgstr "  = 115200 8N1。(参看“Comm 参数”菜单以了解 X 的有效值。))"
+
+#: src/config.c:1644
+msgid "CHANGED"
+msgstr "已变更"
+
+#: src/config.c:1731
+msgid "Character conversion"
+msgstr "字符转换"
+
+#: src/config.c:1736
+msgid " char    in out    char    in out    char    in out    char    in out\n"
+msgstr ""
+" 字符    入 出     字符    入 出     字符    入 出     字符    入 出 \n"
+
+#: src/config.c:1758
+msgid ""
+"\n"
+" A - load table\tB - save table"
+msgstr ""
+"\n"
+" A - 加载表格  \tB - 保存表格"
+
+#: src/config.c:1760
+#, c-format
+msgid "\tfile:%s"
+msgstr "\t文件:%s"
+
+#: src/config.c:1761
+msgid ""
+"\n"
+" C - edit char\tD - next screen\tE - prev screen\n"
+msgstr ""
+"\n"
+" C - 编辑字符 \tD - 下一个屏幕 \tE - 上一个屏幕\n"
+
+#: src/config.c:1762
+#, c-format
+msgid " F - convert capture: %s\n"
+msgstr " F - 转换截取: %s\n"
+
+#: src/config.c:1777
+#, c-format
+msgid "Load file: %s"
+msgstr "加载文件: %s"
+
+#: src/config.c:1789
+#, c-format
+msgid "Save as file: %s"
+msgstr "存盘为: %s"
+
+#: src/config.c:1800
+msgid "Character to be edited: "
+msgstr "将要编辑的字符: "
+
+#: src/config.c:1808 src/config.c:1820 src/config.c:1832
+msgid "Input character ascii value 0-255"
+msgstr "输入字符的 ASCII 值 0-255"
+
+#: src/config.c:1814
+#, c-format
+msgid "Change input to: %s"
+msgstr "改变输入至: %s"
+
+#: src/config.c:1826
+#, c-format
+msgid "Change output to: %s"
+msgstr "改变输出至: %s"
+
+#: src/config.c:1864
+#, c-format
+msgid "Cannot open conversion table %s"
+msgstr "无法打开转换表 %s"
+
+#: src/config.c:1878
+#, c-format
+msgid "Cannot write conversion table %s"
+msgstr "无法写入转换表 %s"
+
+#: src/dial.c:250
+msgid "Initializing Modem"
+msgstr "初始化调制解调器"
+
+#: src/dial.c:266
+msgid "Resetting Modem"
+msgstr "重置调制解调器"
+
+#: src/dial.c:280
+msgid "Hanging up"
+msgstr "挂断"
+
+#: src/dial.c:284
+#, c-format
+msgid "Hangup (%ld:%02ld:%02ld)"
+msgstr "挂断 (%ld:%02ld:%02ld)"
+
+#: src/dial.c:316
+msgid "Sending BREAK"
+msgstr "送出 BREAK"
+
+#: src/dial.c:382
+#, c-format
+msgid "    No connection: %s.      \n"
+msgstr "    没有连通: %s.      \n"
+
+#: src/dial.c:384
+msgid "   Press any key to continue..    "
+msgstr "   按任意键继续..   "
+
+#: src/dial.c:389 src/dial.c:401
+#, c-format
+msgid "     Retry in %2d seconds             "
+msgstr "     每 %2d 秒重试             "
+
+#: src/dial.c:427
+msgid "Max retries"
+msgstr "最大重试次数"
+
+#: src/dial.c:437
+msgid "You are already online! Hang up first."
+msgstr "您已连接！请先挂断。"
+
+#: src/dial.c:442
+msgid "Autodial"
+msgstr "重拨"
+
+#: src/dial.c:446 src/dial.c:476
+msgid "Dialing"
+msgstr "拨接"
+
+#: src/dial.c:447 src/dial.c:479
+#, c-format
+msgid "      At : %s"
+msgstr "      在 : %s"
+
+#: src/dial.c:450 src/dial.c:483
+#, c-format
+msgid " Last on : %s at %s"
+msgstr " 上次打开: %s 在 %s"
+
+#: src/dial.c:498
+#, c-format
+msgid "    Time : %-3d"
+msgstr "    时间 : %-3d"
+
+#: src/dial.c:500
+#, c-format
+msgid "     Attempt #%d"
+msgstr "    尝试次数 #%d"
+
+#: src/dial.c:501
+msgid ""
+"\n"
+"\n"
+"\n"
+" Escape to cancel, space to retry."
+msgstr ""
+"\n"
+"\n"
+"\n"
+" ESC 取消，空白键可重试。"
+
+#: src/dial.c:542
+msgid "Cancelled"
+msgstr "已取消"
+
+#: src/dial.c:598
+msgid "Connected. Press any key to continue"
+msgstr "已连通。按任意键继续"
+
+#: src/dial.c:678
+msgid "Timeout"
+msgstr "逾时"
+
+#: src/dial.c:858
+msgid "Manually entered number"
+msgstr "手动输入号码"
+
+#: src/dial.c:867
+msgid "Cannot open ~/.dialdir: permission denied"
+msgstr "无法打开 ~/.dialdir: 权限被拒"
+
+#: src/dial.c:919
+msgid "Phonelist garbled (unknown version?)"
+msgstr "电话列表错乱 (不明版本？)"
+
+#: src/dial.c:926 src/dial.c:934
+msgid "Phonelist corrupted"
+msgstr "电话列表损坏"
+
+#: src/dial.c:939
+msgid "Unknown dialing directory version"
+msgstr "不明的拨接电话簿版本"
+
+#: src/dial.c:946
+msgid "Phonelist garbled (?)"
+msgstr "电话列表错乱 (？)"
+
+#: src/dial.c:968
+msgid "Out of memory while reading dialing directory"
+msgstr "读取拨接电话簿时耗尽内存"
+
+#: src/dial.c:1015
+#, c-format
+msgid "Converted dialdir to new format, old saved as %s.v%hd"
+msgstr "已转换拨接电话簿为新格式，旧版已保存为 %s.v%hd"
+
+#: src/dial.c:1050
+msgid "Cannot open ~/.dialdir for writing!"
+msgstr "无法打开 ~/.dialdir 用于写入！"
+
+#: src/dial.c:1066 src/dial.c:1078
+msgid "Error writing to ~/.dialdir!"
+msgstr "写入 ~/.dialdir 时发生错误！"
+
+#: src/dial.c:1143
+msgid " A -  Name                :"
+msgstr " A -  名称\t\t:"
+
+#: src/dial.c:1144
+msgid " B -  Number              :"
+msgstr " B -  号码\t\t:"
+
+#: src/dial.c:1145
+msgid " C -  Dial string #       :"
+msgstr " C -  拨号字串 #\t\t:"
+
+#: src/dial.c:1146
+msgid " D -  Local echo          :"
+msgstr " D -  本地回应\t\t:"
+
+#: src/dial.c:1147
+msgid " E -  Script              :"
+msgstr " E -  脚本\t\t:"
+
+#: src/dial.c:1148
+msgid " F -  Username            :"
+msgstr " F -  用户名\t\t:"
+
+#: src/dial.c:1149
+msgid " G -  Password            :"
+msgstr " G -  密码\t\t:"
+
+#: src/dial.c:1150
+msgid " H -  Terminal Emulation  :"
+msgstr " H -  终端仿真\t\t:"
+
+#: src/dial.c:1151
+msgid " I -  Backspace key sends :"
+msgstr " I -  退格键发送\t:"
+
+#: src/dial.c:1152
+msgid " J -  Linewrap            :"
+msgstr " J -  自动换行\t\t:"
+
+#: src/dial.c:1153
+msgid " K -  Line Settings       :"
+msgstr " K -  行设置\t\t:"
+
+#: src/dial.c:1154
+msgid " L -  Conversion table    :"
+msgstr " L -  转换表\t\t:"
+
+#: src/dial.c:1167 src/dial.c:1239 src/dial.c:1246
+msgid "Delete"
+msgstr "删除"
+
+#: src/dial.c:1167 src/dial.c:1239 src/dial.c:1246
+msgid "Backspace"
+msgstr "退格"
+
+#: src/dial.c:1169 src/dial.c:1241 src/dial.c:1251
+msgid "On"
+msgstr "开"
+
+#: src/dial.c:1169 src/dial.c:1241 src/dial.c:1251
+msgid "Off"
+msgstr "关"
+
+#: src/dial.c:1173
+#, c-format
+msgid "      Last dialed         : %s %s\n"
+msgstr "      最近一次拨号         : %s %s\n"
+
+#: src/dial.c:1174
+#, c-format
+msgid "      Times on            : %d"
+msgstr "      次数                : %d"
+
+#. TRANSLATORS: Translation of each of these menu items should not be
+#. * longer than 7 characters. The upper-case letter is a shortcut,
+#. * so keep them unique and ASCII; 'h', 'j', 'k', 'l' are reserved
+#: src/dial.c:1275
+msgid "Dial"
+msgstr "拨接"
+
+#: src/dial.c:1275
+msgid "Find"
+msgstr "寻找"
+
+#: src/dial.c:1275
+msgid "Add"
+msgstr "加入"
+
+#: src/dial.c:1275
+msgid "Edit"
+msgstr "编辑"
+
+#: src/dial.c:1275
+msgid "Remove"
+msgstr "移除"
+
+#: src/dial.c:1275
+msgid "moVe"
+msgstr "移动"
+
+#: src/dial.c:1276
+msgid "Manual"
+msgstr "手动"
+
+#: src/dial.c:1422 src/file.c:71 src/minicom.c:68 src/minicom.c:71
+msgid "   Yes  "
+msgstr "   是   "
+
+#: src/dial.c:1422 src/file.c:71 src/minicom.c:68 src/minicom.c:71
+msgid "   No   "
+msgstr "   否   "
+
+#: src/dial.c:1515
+#, c-format
+msgid "Entry \"%s\" not found. Enter dialdir?"
+msgstr "找不到“%s”条目。进入拨号电话簿？"
+
+#: src/dial.c:1545 src/file.c:429
+msgid "( Escape to exit, Space to tag )"
+msgstr "( Escape 以离开，空白以标记)"
+
+#: src/dial.c:1546
+msgid " Move entry up/down, Escape to exit"
+msgstr " 向上/向下移动条目，Escape 以离开"
+
+#: src/dial.c:1566
+msgid "Dialing Directory"
+msgstr "拨接电话簿"
+
+#: src/dial.c:1568
+msgid "     Name            Number            Last on      Times Script\n"
+msgstr "     名称            号码              最后一次     次数脚本\n"
+
+#: src/dial.c:1742
+msgid "Find an entry"
+msgstr "寻找项目"
+
+#: src/dial.c:1803
+msgid "Remove entry?"
+msgstr "移除项目？"
+
+#: src/dial.c:1847
+msgid "Enter number"
+msgstr "输入号码"
+
+#. TRANSLATORS: Translation of each of these menu items should not be
+#. * longer than 7 characters. The upper-case letter is a shortcut,
+#. * so keep them unique and ASCII; 'h', 'j', 'k', 'l' are reserved
+#: src/file.c:59
+msgid "[Goto]"
+msgstr "[前往]G"
+
+#: src/file.c:59
+msgid "[Prev]"
+msgstr "[上个]P"
+
+#: src/file.c:59
+msgid "[Show]"
+msgstr "[显示]S"
+
+#: src/file.c:59
+msgid "[Tag]"
+msgstr "[标签]T"
+
+#: src/file.c:59
+msgid "[Untag]"
+msgstr "[取消]U"
+
+#: src/file.c:60
+msgid "[Okay]"
+msgstr "[确认]O"
+
+#: src/file.c:322
+#, c-format
+msgid "Could not change to directory %s (%s)"
+msgstr "无法变更为目录 %s (%s)"
+
+#: src/file.c:346
+msgid "Select one or more files for download"
+msgstr "选取一个或更多要下载的文件"
+
+#: src/file.c:348
+msgid "Select a file for download"
+msgstr "选取一个要下载的文件"
+
+#: src/file.c:350
+msgid "Select a directory for download"
+msgstr "选取一个要下载的目录"
+
+#: src/file.c:353
+msgid "Select one or more files for upload"
+msgstr "选取一个或更多要上传的文件"
+
+#: src/file.c:355
+msgid "Select a file for upload"
+msgstr "选取一个要上传的文件"
+
+#: src/file.c:357
+msgid "Select a directory for upload"
+msgstr "选取一个要上传的目录"
+
+#: src/file.c:366
+#, c-format
+msgid "Directory: %%-%ds"
+msgstr "目录: %%-%ds"
+
+#: src/file.c:454
+msgid "Can't back up!"
+msgstr "无法备份！"
+
+#: src/file.c:552 src/file.c:565
+msgid "Too many files tagged - buffer would overflow"
+msgstr "太多文件被加标签 - 缓冲区将会溢出"
+
+#: src/file.c:669 src/file.c:796
+msgid "Can select only one!"
+msgstr "只可以选取一个！"
+
+#: src/file.c:771
+msgid "Goto directory:"
+msgstr "前往目录:"
+
+#: src/file.c:785
+msgid "Filename pattern:"
+msgstr "文件名模式:"
+
+#: src/file.c:802
+msgid "Tag pattern:"
+msgstr "标签模式:"
+
+#: src/file.c:806
+msgid "No file(s) tagged"
+msgstr "没有文件被加标签"
+
+#: src/file.c:823
+msgid "Untag pattern:"
+msgstr "取消标签模式:"
+
+#: src/file.c:827
+msgid "No file(s) untagged"
+msgstr "没有文件被取消标签"
+
+#: src/file.c:843
+msgid "No file selected - enter filename:"
+msgstr "未选取文件 - 请输入文件名:"
+
+#: src/file.c:853
+#, c-format
+msgid "File: \"%s\" exists! Overwrite?"
+msgstr "文件: \"%s\" 已存在！要覆盖它吗？"
+
+#: src/file.c:864
+msgid "no such file!"
+msgstr "没有这个文件！"
+
+#: src/getsdir.c:315
+#, c-format
+msgid "%d files:\n"
+msgstr "%d 个文件:\n"
+
+#: src/help.c:41
+msgid "Minicom Command Summary"
+msgstr "Minicom 命令总表"
+
+#: src/help.c:45
+#, c-format
+msgid "Commands can be called by %s<key>"
+msgstr "命令格式: %s+ 按键代码"
+
+#: src/help.c:51
+msgid "Main Functions"
+msgstr "主要功能"
+
+#: src/help.c:53
+msgid "Other Functions"
+msgstr "其它功能"
+
+#: src/help.c:55
+msgid " Dialing directory..D  run script (Go)....G | Clear Screen.......C\n"
+msgstr " 拨号电话本..........D  运行脚本...........G | 清除屏幕...........C\n"
+
+#: src/help.c:56
+msgid " Send files.........S  Receive files......R | cOnfigure Minicom..O\n"
+msgstr " 发送文件............S  接收文件...........R | 设置 Minicom.......O\n"
+
+#: src/help.c:57
+msgid " comm Parameters....P  Add linefeed.......A | "
+msgstr " 通信参数............P  加入换列字符.......A | "
+
+#: src/help.c:59
+msgid "Suspend minicom....J\n"
+msgstr "暂停 minicom.......J\n"
+
+#: src/help.c:61
+msgid "Jump to a shell....J\n"
+msgstr "跳至 shell 中......J\n"
+
+#: src/help.c:63
+msgid " Capture on/off.....L  Hangup.............H | eXit and reset.....X\n"
+msgstr " 截取 开/关..........L  挂断...............H | 离开并重置.........X\n"
+
+#: src/help.c:64
+msgid " send break.........F  initialize Modem...M | Quit with no reset.Q\n"
+msgstr " 送出 break.........F  初始化调制解调器.....M | 离开而不重置.......Q\n"
+
+#: src/help.c:65
+msgid " Terminal settings..T  run Kermit.........K | Cursor key mode....I\n"
+msgstr " 终端设置............T  运行 Kermit........K | 光标键模式.........I\n"
+
+#: src/help.c:66
+msgid " lineWrap on/off....W"
+msgstr " 自动换行 开/关.....W"
+
+#: src/help.c:67
+msgid "  local Echo on/off..E | Help screen........Z\n"
+msgstr "  本机回应 开/关.....E | 说明画面...........Z\n"
+
+#: src/help.c:68
+msgid " Paste file.........Y  Timestamp toggle...N | scroll Back........B\n"
+msgstr " 粘贴文件...........Y  时间戳记切换.......N | 回卷...............B\n"
+
+#: src/help.c:69
+msgid " Add Carriage Ret...U"
+msgstr " 加入换列字符.......U"
+
+#: src/help.c:71
+msgid "Select function or press Enter for none."
+msgstr "选择功能或按下 Enter 键表示不选。"
+
+#: src/help.c:79
+msgid "Written by Miquel van Smoorenburg 1991-1995"
+msgstr "设计者 Miquel van Smoorenburg 1991-1995"
+
+#: src/help.c:81
+msgid "Some additions by Jukka Lahtinen 1997-2000"
+msgstr "部分功能 Jukka Lahtinen 1997-2000"
+
+#: src/help.c:83
+msgid "i18n by Arnaldo Carvalho de Melo 1998"
+msgstr "多国语言 Arnaldo Carvalho de Melo 1998"
+
+#: src/main.c:213
+#, c-format
+msgid "Lockfile is stale. Overriding it..\n"
+msgstr "锁定文件已失去时效。要覆写它..\n"
+
+#: src/main.c:222 src/updown.c:490
+#, c-format
+msgid "Device %s is locked.\n"
+msgstr "设备 %s 已锁定。\n"
+
+#: src/main.c:237
+#, c-format
+msgid "Could not setup for dial out.\n"
+msgstr "无法设置为呼出。\n"
+
+#: src/main.c:288
+#, c-format
+msgid "minicom: cannot open %s: %s\n"
+msgstr "minicom: 无法打开文件 %s: %s\n"
+
+#: src/main.c:291
+#, c-format
+msgid "minicom: cannot open %s. Sorry.\n"
+msgstr "minicom: 无法打开 %s。抱歉。\n"
+
+#: src/main.c:298 src/main.c:754
+#, c-format
+msgid "Cannot open %s!"
+msgstr "无法打开 %s！"
+
+#: src/main.c:477
+msgid "Offline"
+msgstr "脱机"
+
+#: src/main.c:477
+msgid "OFFLINE"
+msgstr "脱机"
+
+#: src/main.c:479
+msgid "Online"
+msgstr "连接"
+
+#: src/main.c:479
+msgid "ONLINE"
+msgstr "连接"
+
+#: src/main.c:554
+#, c-format
+msgid "Gone offline (%ld:%02ld:%02ld)"
+msgstr "已挂断 (%ld:%02ld:%02ld)"
+
+#: src/main.c:635
+#, c-format
+msgid " %7.7sZ for help |           |     | Minicom %-6.6s |       | "
+msgstr " %7.7sZ 获得说明 |           |     | Minicom %-6.6s |       | "
+
+#: src/main.c:735
+msgid "Could not re-initialize window system."
+msgstr "无法重新初始化窗口系统。"
+
+#: src/minicom.c:56 src/minicom.c:58
+#, c-format
+msgid "Got signal %d"
+msgstr "得到信号 %d"
+
+#: src/minicom.c:69 src/minicom.c:70
+msgid "  Close "
+msgstr "  关闭  "
+
+#: src/minicom.c:69
+msgid " Pause  "
+msgstr " 暂停   "
+
+#: src/minicom.c:69 src/minicom.c:70
+msgid "  Exit  "
+msgstr "  离开  "
+
+#: src/minicom.c:70
+msgid " Unpause"
+msgstr " 恢复   "
+
+#: src/minicom.c:85
+msgid "Hang-up line?"
+msgstr "挂断连接？"
+
+#: src/minicom.c:96
+#, c-format
+msgid "Killed by signal %d !\n"
+msgstr "由信号 %d 所中止！\n"
+
+#: src/minicom.c:120
+msgid "Suspended. Type \"fg\" to resume.\n"
+msgstr "已悬置。输入“fg”以再续。\n"
+
+#: src/minicom.c:139
+msgid "SHELL variable not set"
+msgstr "SHELL 环境变量没有设置"
+
+#: src/minicom.c:143 src/updown.c:311 src/updown.c:518 src/updown.c:716
+msgid "Out of memory: could not fork()"
+msgstr "内存耗尽: 无法 fork()"
+
+#: src/minicom.c:153
+msgid "Shelled out. Type \"exit\" to return.\n"
+msgstr "进入子 Shell。输入“exit”以返回。\n"
+
+#: src/minicom.c:266
+msgid "SEARCH FOR (ESC=Exit)"
+msgstr "搜索 (ESC=离开)"
+
+#: src/minicom.c:316 src/minicom.c:337
+msgid "Search Wrapping Around to Start!"
+msgstr "启始时搜索四周！"
+
+#: src/minicom.c:462
+msgid ""
+"HISTORY: U=Up D=Down F=PgDn B=PgUp s=Srch S=CaseLess N=Next C=Cite ESC=Exit "
+msgstr ""
+"历史: U=上笔 D=下笔 F=下页 B=上页 s=搜索 S=无大小写 N=下一个 C=引用 ESC=离开"
+
+#: src/minicom.c:501
+msgid "History buffer Disabled!"
+msgstr "历史缓冲区已停用！"
+
+#: src/minicom.c:506
+msgid "History buffer empty!"
+msgstr "历史缓冲区为空！"
+
+#: src/minicom.c:564
+msgid ""
+"No previous search!\n"
+"  Please 's' or 'S' first!"
+msgstr ""
+"没有前一个搜索！\n"
+"  请先按 s 或 S！"
+
+#: src/minicom.c:721 src/minicom.c:764
+msgid ""
+"  CITATION: ENTER=select start line ESC=exit                               "
+msgstr ""
+"  引用: ENTER=选取开始列 ESC=离开                                          "
+
+#: src/minicom.c:738
+msgid ""
+"  CITATION: ENTER=select end line ESC=exit                                 "
+msgstr ""
+"  引用: ENTER=选取结束列 ESC=离开                                          "
+
+#: src/minicom.c:798
+#, c-format
+msgid "Wrong option in environment MINICOM=\"%s\"\n"
+msgstr "错误的选项于环境变量 MINICOM=“%s”\n"
+
+#: src/minicom.c:799
+#, c-format
+msgid "Type \"minicom %s\" for help.\n"
+msgstr "键入 \"minicom %s\" 以显示说明。\n"
+
+#: src/minicom.c:809
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... [configuration]\n"
+"A terminal program for Linux and other unix-like systems.\n"
+"\n"
+"  -b, --baudrate         : set baudrate (ignore the value from config)\n"
+"  -D, --device           : set device name (ignore the value from config)\n"
+"  -s, --setup            : enter setup mode\n"
+"  -o, --noinit           : do not initialize modem & lockfiles at startup\n"
+"  -m, --metakey          : use meta or alt key for commands\n"
+"  -M, --metakey8         : use 8bit meta key for commands\n"
+"  -l, --ansi             : literal; assume screen uses non IBM-PC character "
+"set\n"
+"  -L, --iso              : don't assume screen uses ISO8859\n"
+"  -w, --wrap             : Linewrap on\n"
+"  -H, --displayhex       : display output in hex\n"
+"  -z, --statline         : try to use terminal's status line\n"
+"  -7, --7bit             : force 7bit mode\n"
+"  -8, --8bit             : force 8bit mode\n"
+"  -c, --color=on/off     : ANSI style color usage on or off\n"
+"  -a, --attrib=on/off    : use reverse or highlight attributes on or off\n"
+"  -t, --term=TERM        : override TERM environment variable\n"
+"  -S, --script=SCRIPT    : run SCRIPT at startup\n"
+"  -d, --dial=ENTRY       : dial ENTRY from the dialing directory\n"
+"  -p, --ptty=TTYP        : connect to pseudo terminal\n"
+"  -C, --capturefile=FILE : start capturing to FILE\n"
+"  -T, --disabletime      : disable display of online time\n"
+"  -R, --remotecharset    : character set of communication partner\n"
+"  -v, --version          : output version information and exit\n"
+"  configuration          : configuration file to use\n"
+"\n"
+"These options can also be specified in the MINICOM environment variable.\n"
+msgstr ""
+"用法: %s [选项]… [配置]\n"
+"用于 Linux 和其他 unix 类似系统的终端程序。\n"
+"\n"
+"  -b, --baudrate         : 设置波特率 (忽略配置文件)\n"
+"  -D, --device           : 设置设备名称 (忽略配置文件)\n"
+"  -s, --setup            : 进入设置模式 (只能以 root 身分)\n"
+"  -o, --noinit           : 启动时不初始化调制解调器 & 锁定文件\n"
+"  -m, --metakey          : 使用 meta 或 alt 键于命令\n"
+"  -M, --metakey8         : 使用 8 位 meta 键于命令\n"
+"  -l, --ansi             : 实字；假设屏幕使用非 IBM-PC 字符集\n"
+"  -L, --iso              : 不假设屏幕使用 ISO8859\n"
+"  -w, --wrap             : 换行栏数\n"
+"  -H, --displayhex       : 以十六进制显示输出\n"
+"  -z, --statline         : 试着使用终端状态栏\n"
+"  -7, --7 位           : 强制 7 位模式\n"
+"  -8, --8 位           : 强制 8 位模式\n"
+"  -c, --color=on/off     : ANSI 样式颜色用法开或关\n"
+"  -a, --attrib=on/off    : 使用反向或突显属性开或关\n"
+"  -t, --term=TERM        : 强制变更环境变量 TERM\n"
+"  -S, --script=SCRIPT    : 启动时运行 SCRIPT\n"
+"  -d, --dial=ENTRY       : 从拨号电话簿拨号 ENTRY\n"
+"  -p, --ptty=TTYP        : 连接到 TTYP\n"
+"  -C, --capturefile=FILE : 开始截取到 FILE\n"
+"  -T, --disabletime      : 停用显示在线时间\n"
+"  -R, --remotecharset    : 通信对方的字符集\n"
+"  -v, --version          : 输出版本信息然后离开\n"
+"  configuration          : 要使用的配置文件\n"
+"\n"
+"这些选项也可以被指定于 MINICOM 环境变量中。\n"
+
+#: src/minicom.c:838
+#, c-format
+msgid "This variable is currently set to \"%s\".\n"
+msgstr "这个变量目前被设置为“%s”。\n"
+
+#: src/minicom.c:840
+#, c-format
+msgid "This variable is currently unset.\n"
+msgstr "这个变量目前未被设置。\n"
+
+#: src/minicom.c:843
+#, c-format
+msgid ""
+"The configuration directory for the access file and the configurations\n"
+"is compiled to %s.\n"
+"\n"
+"Report bugs to <minicom-devel@lists.alioth.debian.org>.\n"
+msgstr ""
+"用于访问文件和配置的配置目录\n"
+"己被编译到 %s。\n"
+"\n"
+"错误通报给 <minicom-devel@lists.alioth.debian.org>。\n"
+
+#: src/minicom.c:1159
+#, c-format
+msgid "%s version %s"
+msgstr "%s 版本 %s"
+
+#: src/minicom.c:1161
+#, c-format
+msgid " (compiled %s)"
+msgstr "(已编译 %s)"
+
+#: src/minicom.c:1164
+#, c-format
+msgid ""
+"Copyright (C) Miquel van Smoorenburg.\n"
+"\n"
+msgstr ""
+"版权所有 (C) Miquel van Smoorenburg。\n"
+"\n"
+
+#: src/minicom.c:1187
+#, c-format
+msgid "minicom: argument to -p must be a pty\n"
+msgstr "minicom: -p 之后的参数必须是一个 pty\n"
+
+#: src/minicom.c:1251 src/minicom.c:1571
+msgid "Cannot open capture file"
+msgstr "无法打开截取文件"
+
+#: src/minicom.c:1310
+msgid "You don't exist. Go away.\n"
+msgstr "您并不存在。请走开。\n"
+
+#: src/minicom.c:1385
+msgid "Sorry. Your screen is too small.\n"
+msgstr "抱歉。您的屏幕太小。\n"
+
+#: src/minicom.c:1454
+msgid "Welcome to minicom"
+msgstr "欢迎使用 minicom"
+
+#: src/minicom.c:1455
+msgid "OPTIONS"
+msgstr "选项"
+
+#: src/minicom.c:1457
+msgid "Compiled on"
+msgstr "编译于"
+
+#: src/minicom.c:1473
+msgid "Port"
+msgstr "通信端口"
+
+#: src/minicom.c:1476
+msgid "Using character set conversion"
+msgstr "使用字符集转换"
+
+#: src/minicom.c:1477
+#, c-format
+msgid ""
+"\n"
+"Press %sZ for help on special keys%c\n"
+"\n"
+msgstr ""
+"\n"
+"按 %sZ 说明特殊键 %c\n"
+"\n"
+
+#: src/minicom.c:1498
+msgid "Add linefeed ON"
+msgstr "打开加入换列键"
+
+#: src/minicom.c:1498
+msgid "Add linefeed OFF"
+msgstr "关闭加入换列键"
+
+#: src/minicom.c:1503
+msgid "Add carriage return ON"
+msgstr "打开加入换列字符"
+
+#: src/minicom.c:1503
+msgid "Add carriage return OFF"
+msgstr "关闭加入换列字符"
+
+#: src/minicom.c:1508
+msgid "Local echo ON"
+msgstr "打开本地回应"
+
+#: src/minicom.c:1508
+msgid "Local echo OFF"
+msgstr "关闭本地回应"
+
+#: src/minicom.c:1527
+msgid "You are online. Really initialize?"
+msgstr "您正在在线。真的要初始化？"
+
+#: src/minicom.c:1534
+msgid "Leave without reset?"
+msgstr "离开而不重置？"
+
+#: src/minicom.c:1538 src/minicom.c:1556
+msgid "Save macros?"
+msgstr "保存宏？"
+
+#: src/minicom.c:1548
+msgid "Leave Minicom?"
+msgstr "离开 Minicom？"
+
+#: src/minicom.c:1567
+msgid "Capture to which file? "
+msgstr "截取至那一个文件？"
+
+#: src/minicom.c:1576 src/minicom.c:1585
+msgid "Capture file"
+msgstr "截取的文件"
+
+#: src/minicom.c:1620
+msgid "Linewrap ON"
+msgstr "打开换行"
+
+#: src/minicom.c:1620
+msgid "Linewrap OFF"
+msgstr "关闭换行"
+
+#: src/minicom.c:1629
+msgid "Timestamp OFF"
+msgstr "关闭时间戳记"
+
+#: src/minicom.c:1632
+msgid "Timestamp every line (simple)"
+msgstr "每列时间戳记 (简单)"
+
+#: src/minicom.c:1635
+msgid "Timestamp every line (extended)"
+msgstr "每列时间戳记 (高端)"
+
+#: src/minicom.c:1638
+msgid "Timestamp lines every second"
+msgstr "每秒时间戳记列"
+
+#: src/minicom.c:1679
+msgid "Quit without reset while online."
+msgstr "若在在线离开时不会重置。"
+
+#: src/rwconf.c:115 src/rwconf.c:149
+msgid "No"
+msgstr "否"
+
+#: src/rwconf.c:226
+#, c-format
+msgid "# Machine-generated file - use \"minicom -s\" to change parameters.\n"
+msgstr "# 电脑产生的文件 - 使用“minicom -s”以变更参数。\n"
+
+#: src/rwconf.c:228
+#, c-format
+msgid ""
+"# Machine-generated file - use setup menu in minicom to change parameters.\n"
+msgstr "# 电脑产生的文件 - 使用 minicom 中的设置菜单以变更参数。\n"
+
+#: src/rwconf.c:253
+#, c-format
+msgid "Memory allocation failed.\n"
+msgstr "内存配置失败。\n"
+
+#: src/rwconf.c:322
+#, c-format
+msgid "** Line %d of the %s config file is unparsable.\n"
+msgstr "** 第 %d 列的 %s 配置文件无法解析。\n"
+
+#: src/rwconf.c:323
+msgid "global"
+msgstr "全域"
+
+#: src/rwconf.c:323
+msgid "personal"
+msgstr "个人"
+
+#: src/script.c:127
+#, c-format
+msgid "script \"%s\": syntax error in line %d %s%s\n"
+msgstr "脚本“%s”: 语法错误发生于第 %d 列 %s%s\n"
+
+#: src/script.c:151
+#, c-format
+msgid "script \"%s\": global timeout%s\n"
+msgstr "脚本“%s”: 全域时间用尽%s\n"
+
+#: src/script.c:290
+msgid "(word contains ESC or quote)"
+msgstr "(字词含有 ESC 或引言)"
+
+#: src/script.c:343
+#, c-format
+msgid "runscript: couldn't open \"%s\"%s\n"
+msgstr "runscript: 无法打开 \"%s\"%s\n"
+
+#: src/script.c:364 src/script.c:476
+#, c-format
+msgid "script \"%s\": out of memory%s\n"
+msgstr "脚本“%s”: 内存耗尽%s\n"
+
+#: src/script.c:470
+#, c-format
+msgid "script \"%s\" line %d: unknown variable \"%s\"%s\n"
+msgstr "脚本“%s”第 %d 列: 不明变量“%s”%s\n"
+
+#: src/script.c:515
+#, c-format
+msgid "script \"%s\": unexpected end of file%s\n"
+msgstr "脚本“%s”: 未预期结束的文件%s\n"
+
+#: src/script.c:523
+msgid "(garbage after })"
+msgstr "(} 之后的无用数据)"
+
+#: src/script.c:531
+msgid "(too many arguments)"
+msgstr "(太多参数)"
+
+#: src/script.c:550
+#, c-format
+msgid "script \"%s\" line %d: nested expect%s\n"
+msgstr "脚本“%s”第 %d 列: 嵌套 expect%s\n"
+
+#: src/script.c:560
+msgid "(garbage after {)"
+msgstr "({ 之后的无用数据)"
+
+#: src/script.c:581 src/script.c:846 src/script.c:914
+msgid "(argument expected)"
+msgstr "(预期的参数)"
+
+#: src/script.c:584 src/script.c:848
+msgid "(invalid argument)"
+msgstr "(无效的参数)"
+
+#: src/script.c:679
+msgid "(in goto/gosub label)"
+msgstr "(在 goto/gosub 标贴中)"
+
+#: src/script.c:686
+#, c-format
+msgid "script \"%s\" line %d: label \"%s\" not found%s\n"
+msgstr "脚本“%s”第 %d 列: 标贴“%s”无法找到%s\n"
+
+#: src/script.c:708
+#, c-format
+msgid "script \"%s\": no return from gosub%s\n"
+msgstr "脚本“%s”: 没有来自 gosub%s 的返回\n"
+
+#: src/script.c:751
+msgid "(missing var name)"
+msgstr "(缺少变量名称)"
+
+#: src/script.c:768 src/script.c:784
+msgid "(expected variable)"
+msgstr "(预期变量)"
+
+#: src/script.c:816
+msgid "(expected command after if)"
+msgstr "(if 之后预期的命令)"
+
+#: src/script.c:831
+msgid "(unknown operator)"
+msgstr "(不明运算符)"
+
+#: src/script.c:870
+msgid "(unexpected argument)"
+msgstr "(未预期的参数)"
+
+#: src/script.c:897
+#, c-format
+msgid "script \"%s\" line %d: break outside of expect%s\n"
+msgstr "脚本“%s”第 %d 列: 于 expect%s 外部中断\n"
+
+#: src/script.c:917
+#, c-format
+msgid "script \"%s\" line %d: call inside expect%s\n"
+msgstr "脚本“%s”第 %d 列: 于 expect%s 内部调用\n"
+
+#: src/script.c:985
+#, c-format
+msgid "script \"%s\" line %d: unknown command \"%s\"%s\n"
+msgstr "脚本“%s”第 %d 列: 不明命令“%s”%s\n"
+
+#: src/script.c:1026
+#, c-format
+msgid "runscript, part of minicom version %s\n"
+msgstr "runscript，minicom 的一部分，版本 %s\n"
+
+#: src/script.c:1031
+#, c-format
+msgid "Usage: runscript <scriptfile> [logfile [homedir]]%s\n"
+msgstr "用法: runscript <脚本文件> [日志文件 [个人目录]]%s\n"
+
+#: src/updown.c:71
+#, c-format
+msgid "Cannot chdir to %.30s"
+msgstr "无法变更目录至 %.30s"
+
+#: src/updown.c:223
+msgid "Upload"
+msgstr "上传"
+
+#: src/updown.c:223
+msgid "Download"
+msgstr "下载 "
+
+#: src/updown.c:279
+msgid "Please enter file names"
+msgstr "请输入文件名"
+
+#: src/updown.c:288
+msgid "Out of memory: could allocate buffer for command line"
+msgstr "内存耗尽: 可配置缓冲区用于命令行"
+
+#: src/updown.c:300
+#, c-format
+msgid "%.30s %s - Press CTRL-C to quit"
+msgstr "%.30s %s - 按 CTRL-C 可离开"
+
+#: src/updown.c:301
+msgid "upload"
+msgstr "上传"
+
+#: src/updown.c:301
+msgid "download"
+msgstr "下载"
+
+#: src/updown.c:430
+msgid ""
+"\n"
+" READY: press any key to continue..."
+msgstr ""
+"\n"
+" 就绪: 按任意键继续…"
+
+#: src/updown.c:474
+msgid "Cannot create lockfile!"
+msgstr "无法重新创建锁定文件！"
+
+#: src/updown.c:488
+#, c-format
+msgid "Cannot create lockfile for %s: %s\n"
+msgstr "无法创建锁定文件用于 %s: %s\n"
+
+#: src/updown.c:635
+msgid "Same as last"
+msgstr "与上一次相同"
+
+#: src/updown.c:636
+msgid " A -   Username        :"
+msgstr " A -  用户名\t\t:"
+
+#: src/updown.c:637
+msgid " B -   Password        :"
+msgstr " B -  密码\t\t:"
+
+#: src/updown.c:638
+msgid " C -   Name of script  :"
+msgstr " C -  脚本名称\t\t:"
+
+#: src/updown.c:639
+msgid "Change which setting?     (Return to run, ESC to stop)"
+msgstr "变更哪一项设置？            (回车运行, ESC 停止)"
+
+#: src/updown.c:644
+msgid "Run a script"
+msgstr "运行一份脚本"
+
+#: src/window.c:1938
+#, c-format
+msgid "Environment variable TERM not set\n"
+msgstr "没有设置 TERM 环境变量\n"
+
+#: src/window.c:1944
+#, c-format
+msgid "No termcap entry for %s\n"
+msgstr "没有 termcap 条目用于 %s\n"
+
+#: src/window.c:1947
+#, c-format
+msgid "No termcap database present!\n"
+msgstr "不具备 termcap 数据库！\n"
+
+#: src/window.c:1955
+#, c-format
+msgid "No cursor motion capability (cm)\n"
+msgstr "没有光标移动功能 (cm)\n"
+
+#: src/window.c:1964
+#, c-format
+msgid "Number of terminal lines unknown\n"
+msgstr "终端行数不明\n"
+
+#: src/window.c:1968
+#, c-format
+msgid "Number of terminal columns unknown\n"
+msgstr "终端列数不明\n"

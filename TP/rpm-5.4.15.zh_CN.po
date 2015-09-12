@@ -1,0 +1,8319 @@
+# Simplified Chinese translation for rpm.
+# Copyright (C) 2006 Free Software Foundation, Inc.
+# This file is distributed under the same license as the rpm package.
+#
+# Translators:
+# Lie_Ex <lilith.ex@gmail.com>, 2006.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2006, 2007, 2010, 2013.
+# Christopher Meng <cickumqt@gmail.com>, 2012-2013
+# dongfengweixia88616b04c28344fa <dongfengweixiao@gmail.com>, 2012
+# dongfengweixiao <dongfengweixiao@gmail.com>, 2013-2014
+# dongfengweixiao <dongfengweixiao@gmail.com>, 2012
+# Tommy He <lovenemesis@gmail.com>, 2012
+# Mike Manilone <zhtx10@gmail.com>, 2011
+# Ma Kai <crtmike@gmail.com>, 2011
+# qingxianhao <qinghao1@foxmail.com>, 2012
+# qingxianhao <qinghao1@foxmail.com>, 2012
+# Tiansworld <tiansworld@fedoraproject.org>, 2013
+# Tommy He <lovenemesis@gmail.com>, 2012
+# 白铭骢 <jeffbaichina@members.fsf.org>, 2015
+# Mingye Wang <arthur200126@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: rpm 5.4.15\n"
+"Report-Msgid-Bugs-To: <rpm-devel@rpm5.org>\n"
+"POT-Creation-Date: 2014-08-17 10:27-0400\n"
+"PO-Revision-Date: 2015-08-28 14:18+0800\n"
+"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: build.c:65
+msgid "Failed build dependencies"
+msgstr "组建依赖软件包时失败"
+
+#: build.c:92
+#, c-format
+msgid "Unable to open spec file %s: %s\n"
+msgstr "无法打开 spec 文件 %s: %s\n"
+
+#: build.c:166
+#, c-format
+msgid "Failed to read spec file from %s\n"
+msgstr "从 %s 读取 spec 文件失败\n"
+
+#: build.c:180
+#, c-format
+msgid "Failed to rename %s to %s: %m\n"
+msgstr "重命名 %s 为 %s 时失败：%m\n"
+
+#: build.c:221
+#, c-format
+msgid "failed to stat %s: %m\n"
+msgstr "stat %s 失败：%m\n"
+
+#: build.c:226
+#, c-format
+msgid "File %s is not a regular file.\n"
+msgstr "文件 %s 不是常规文件。\n"
+
+#: build.c:235
+#, c-format
+msgid "File %s does not appear to be a specfile.\n"
+msgstr "文件 %s 不像是 spec 文件。\n"
+
+#: build.c:322
+#, c-format
+msgid "Building target platforms: %s\n"
+msgstr "构建目标平台：%s\n"
+
+#: build.c:337 build/spec.c:998
+#, c-format
+msgid "    target platform: %s\n"
+msgstr "    目标平台：%s\n"
+
+#: rpmqv.c:172
+msgid "Query options (with -q or --query):"
+msgstr "查询选项（用 -q 或 --query）："
+
+#: rpmqv.c:175
+msgid "Verify options (with -V or --verify):"
+msgstr "验证选项（用 -V 或 --verify）："
+
+#: rpmqv.c:179
+msgid "Source options (with --query or --verify):"
+msgstr "源代码选项 (使用 --query 或 --verify)："
+
+#: rpmqv.c:186
+msgid "Dependency check/order options:"
+msgstr "依赖关系检查/排序选项："
+
+#: rpmqv.c:192
+msgid "File tree walk options (with --ftswalk):"
+msgstr "文件树遍历选项 (使用 --ftswalk)："
+
+#: rpmqv.c:198
+msgid "Signature options:"
+msgstr "签名选项："
+
+#: rpmqv.c:204
+msgid "Database options:"
+msgstr "数据库选项："
+
+#: rpmqv.c:210
+msgid "Build options with [ <specfile> | <tarball> | <source package> ]:"
+msgstr "适用于 [ <specfile> | <tarball> | <source package> ] 的构建选项："
+
+#: rpmqv.c:216
+msgid "Install/Upgrade/Erase options:"
+msgstr "安装/升级/擦除选项："
+
+#: rpmqv.c:221 tools/rpmdeps.c:160
+msgid "Common options:"
+msgstr "一般选项："
+
+#: rpmqv.c:238 lib/poptI.c:53
+#, c-format
+msgid "%s: %s\n"
+msgstr "%s：%s\n"
+
+#: rpmqv.c:572 rpmqv.c:609
+msgid "only one major mode may be specified"
+msgstr "仅能指定一个主模式"
+
+#: rpmqv.c:588
+msgid "one type of query/verify may be performed at a time"
+msgstr "每次仅能执行一种类型的查询/检验"
+
+#: rpmqv.c:592
+msgid "unexpected query flags"
+msgstr "意外查询标志"
+
+#: rpmqv.c:595
+msgid "unexpected query format"
+msgstr "意外的查询格式"
+
+#: rpmqv.c:598
+msgid "unexpected query source"
+msgstr "意外的查询源"
+
+#: rpmqv.c:641
+msgid "only installation, upgrading, rmsource and rmspec may be forced"
+msgstr "只有安装、更新、移除源代码文件、移除规格文件几种作业可被强制运行"
+
+#: rpmqv.c:643
+msgid "files may only be relocated during package installation"
+msgstr "文件仅能在软件包安装过程中重新分配"
+
+#: rpmqv.c:646
+msgid "cannot use --prefix with --relocate or --excludepath"
+msgstr "--prefix 不能和 --relocate 或 --excludepath 共同使用"
+
+#: rpmqv.c:649
+msgid ""
+"--relocate and --excludepath may only be used when installing new packages"
+msgstr "--relocate 和 --excludepath 只能在安装软件包时使用"
+
+#: rpmqv.c:652
+msgid "--prefix may only be used when installing new packages"
+msgstr "--prefix 只能在安装新软件包时使用"
+
+#: rpmqv.c:655
+msgid "arguments to --prefix must begin with a /"
+msgstr "--prefix 参数必须用 / 开始"
+
+#: rpmqv.c:658
+msgid "--hash (-h) may only be specified during package installation"
+msgstr "--hash (-h) 选项只能在软件包安装时指定"
+
+#: rpmqv.c:662
+msgid "--percent may only be specified during package installation"
+msgstr "--percent 选项只能在软件包安装时指定"
+
+#: rpmqv.c:666
+msgid "--replacepkgs may only be specified during package installation"
+msgstr "--replacepkgs 只能在软件包安装时指定"
+
+#: rpmqv.c:670
+msgid "--excludedocs may only be specified during package installation"
+msgstr "--excludedocs 只能在软件包安装时指定"
+
+#: rpmqv.c:674
+msgid "--includedocs may only be specified during package installation"
+msgstr "--includedocs 只能在软件包安装时指定"
+
+#: rpmqv.c:678
+msgid "only one of --excludedocs and --includedocs may be specified"
+msgstr "只能指定 --excludedocs 和 --includedocs 两者之一"
+
+#: rpmqv.c:682
+msgid "--ignorearch may only be specified during package installation"
+msgstr "--ignorearch 只能在软件包安装时指定"
+
+#: rpmqv.c:686
+msgid "--ignoreos may only be specified during package installation"
+msgstr "--ignoreos 只能在软件包安装时指定"
+
+#: rpmqv.c:690
+msgid "--allmatches may only be specified during package erasure"
+msgstr "--allmatches 只能在软件包擦除时指定"
+
+#: rpmqv.c:694
+msgid "--allfiles may only be specified during package installation"
+msgstr "--allfiles 只能在软件包安装时指定"
+
+#: rpmqv.c:699
+msgid "--justdb may only be specified during package installation and erasure"
+msgstr "--justdb 只能在软件包安装和擦除时指定"
+
+#: rpmqv.c:704
+msgid ""
+"script disabling options may only be specified during package installation "
+"and erasure"
+msgstr "禁用脚本选项只能在软件包安装和擦除时指定"
+
+#: rpmqv.c:709
+msgid ""
+"trigger disabling options may only be specified during package installation "
+"and erasure"
+msgstr "禁用触发器选项只能在软件包安装和擦除时指定"
+
+#: rpmqv.c:713
+msgid ""
+"--nodeps may only be specified during package building, rebuilding, "
+"recompilation, installation, erasure, and verification"
+msgstr "--nodeps 选项只能在软件包的组建、重建、重编译、安装、清除和校验时指定"
+
+#: rpmqv.c:718
+msgid ""
+"--test may only be specified during package installation, erasure, and "
+"building"
+msgstr "--test 选项只能在软件包的安装、清除和组建时指定"
+
+#: rpmqv.c:723
+msgid ""
+"--root (-r) may only be specified during installation, erasure, querying, "
+"and database rebuilds"
+msgstr "--root (-r) 选项只能在软件包的安装、清除、查找和数据库重建时指定"
+
+#: rpmqv.c:735
+msgid "arguments to --root (-r) must begin with a /"
+msgstr "--root (-r) 的参数必须以 / 开头"
+
+#: rpmqv.c:763
+#, c-format
+msgid "no files to sign\n"
+msgstr "没有要签名的文件\n"
+
+#: rpmqv.c:768
+#, c-format
+msgid "cannot access file %s\n"
+msgstr "无法访问文件 %s\n"
+
+#: rpmqv.c:789
+msgid "Enter pass phrase: "
+msgstr "输入密码："
+
+#: rpmqv.c:791
+#, c-format
+msgid "Pass phrase check failed\n"
+msgstr "密文侦测失败\n"
+
+#: rpmqv.c:795
+#, c-format
+msgid "Pass phrase is good.\n"
+msgstr "密码正确。\n"
+
+#: rpmqv.c:806
+#, c-format
+msgid "creating a pipe for --pipe failed: %m\n"
+msgstr "--pipe 创建一个管道失败：%m\n"
+
+#: rpmqv.c:815
+#, c-format
+msgid "exec failed\n"
+msgstr "执行失败\n"
+
+#: rpmqv.c:868
+msgid "no packages files given for rebuild"
+msgstr "没有指定要重建的软件包名称"
+
+#: rpmqv.c:968
+msgid "no spec files given for build"
+msgstr "没有指定用于组建的规格文件名称"
+
+#: rpmqv.c:970
+msgid "no tar files given for build"
+msgstr "没有指定用于组建的打包文件名称"
+
+#: rpmqv.c:996
+msgid "no packages given for erase"
+msgstr "未给出要擦除的软件包"
+
+#: rpmqv.c:1037
+msgid "no packages given for install"
+msgstr "未给出要安装的软件包"
+
+#: rpmqv.c:1057
+msgid "no arguments given for query"
+msgstr "未给出要查询的参数"
+
+#: rpmqv.c:1076
+msgid "no arguments given for verify"
+msgstr "未给出要检验的参数"
+
+#: rpmqv.c:1096
+msgid "no arguments given"
+msgstr "没有指定参数"
+
+#: build/build.c:198 build/pack.c:804
+msgid "Unable to open temp file.\n"
+msgstr "无法打开暂时文件。\n"
+
+#: build/build.c:272
+#, c-format
+msgid "Executing(%s): %s\n"
+msgstr "执行(%s): %s\n"
+
+#: build/build.c:284
+#, c-format
+msgid "Bad exit status from %s (%s)\n"
+msgstr "%s (%s) 退出状态不好\n"
+
+#: build/build.c:443
+msgid ""
+"\n"
+"\n"
+"RPM build errors:\n"
+msgstr ""
+"\n"
+"\n"
+"RPM 构建错误：\n"
+
+#: build/expression.c:230
+msgid "syntax error while parsing ==\n"
+msgstr "== 语法解析错误\n"
+
+#: build/expression.c:260
+msgid "syntax error while parsing &&\n"
+msgstr "&& 语法解析错误\n"
+
+#: build/expression.c:269
+msgid "syntax error while parsing ||\n"
+msgstr "解析 || 时有语法错误\n"
+
+#: build/expression.c:312
+msgid "parse error in expression\n"
+msgstr "表达式解析错误\n"
+
+#: build/expression.c:352
+msgid "unmatched (\n"
+msgstr "不匹配的 (\n"
+
+#: build/expression.c:388
+msgid "- only on numbers\n"
+msgstr "- 只用于数字\n"
+
+#: build/expression.c:404
+msgid "! only on numbers\n"
+msgstr "! 只用于数字\n"
+
+#: build/expression.c:453 build/expression.c:510 build/expression.c:579
+#: build/expression.c:680
+msgid "types must match\n"
+msgstr "类型必须匹配\n"
+
+#: build/expression.c:466
+msgid "* / not suported for strings\n"
+msgstr "* / 不支持字符串\n"
+
+#: build/expression.c:526
+msgid "- not suported for strings\n"
+msgstr "- 不支持字符串\n"
+
+#: build/expression.c:693
+msgid "&& and || not suported for strings\n"
+msgstr "&& 和 || 不支持字符串\n"
+
+#: build/expression.c:731 build/expression.c:778
+msgid "syntax error in expression\n"
+msgstr "表达式语法错误\n"
+
+#: build/files.c:290
+#, c-format
+msgid "TIMECHECK failure: %s\n"
+msgstr "时间检查失败：%s\n"
+
+#: build/files.c:357 build/files.c:563 build/files.c:753
+#, c-format
+msgid "Missing '(' in %s %s\n"
+msgstr "%s %s 中丢失 '(' \n"
+
+#: build/files.c:368 build/files.c:691 build/files.c:764
+#, c-format
+msgid "Missing ')' in %s(%s\n"
+msgstr "%s(%s 中丢失 ')'\n"
+
+#: build/files.c:407 build/files.c:716
+#, c-format
+msgid "Invalid %s token: %s\n"
+msgstr "无效的 %s 令牌：%s\n"
+
+#: build/files.c:524
+#, c-format
+msgid "Missing %s in %s %s\n"
+msgstr "%2$s %3$s 中丢失 %1$s\n"
+
+#: build/files.c:579
+#, c-format
+msgid "Non-white space follows %s(): %s\n"
+msgstr "%s() 后有非空白字符：%s\n"
+
+#: build/files.c:617
+#, c-format
+msgid "Bad syntax: %s(%s)\n"
+msgstr "语法错误：%s(%s)\n"
+
+#: build/files.c:627
+#, c-format
+msgid "Bad mode spec: %s(%s)\n"
+msgstr "spec 文件权限不好：%s(%s)\n"
+
+#: build/files.c:639
+#, c-format
+msgid "Bad dirmode spec: %s(%s)\n"
+msgstr "spec 目录权限不好：%s(%s)\n"
+
+#: build/files.c:791
+#, c-format
+msgid "Unusual locale length: \"%.*s\" in %%lang(%s)\n"
+msgstr "不寻常的语区长度：\"%.*s\" 于 %%lang(%s) 之中\n"
+
+#: build/files.c:802
+#, c-format
+msgid "Duplicate locale %.*s in %%lang(%s)\n"
+msgstr "重制语区 %.*s 于 %%lang(%s) 之中\n"
+
+#: build/files.c:931
+#, c-format
+msgid "Hit limit for %%docdir\n"
+msgstr "%%docdir 的数量上限\n"
+
+#: build/files.c:940
+#, c-format
+msgid "Only one arg for %%docdir\n"
+msgstr "%%docdir 只能有一个参数\n"
+
+#: build/files.c:975
+#, c-format
+msgid "Two files on one line: %s\n"
+msgstr "两个文件在同一行中：%s\n"
+
+#: build/files.c:997
+#, c-format
+msgid "File must begin with \"/\": %s\n"
+msgstr "文件必须以 \"/\" 开头： %s\n"
+
+#: build/files.c:1015
+#, c-format
+msgid "Can't mix special %%doc with other forms: %s\n"
+msgstr "无法将特殊 %%doc 与其他形式混合：%s\n"
+
+#: build/files.c:1037
+#, c-format
+msgid "illegal _docdir_fmt: %s\n"
+msgstr "不合法的 _docdir_fmt：%s\n"
+
+#: build/files.c:1389
+#, c-format
+msgid "File listed twice: %s\n"
+msgstr "被列出两次的文件：%s\n"
+
+#: build/files.c:1584
+#, c-format
+msgid "Symlink points to BuildRoot: %s -> %s\n"
+msgstr "符号链接指向了 BuildRoot：%s -> %s\n"
+
+#: build/files.c:1904
+#, c-format
+msgid "File doesn't match prefix (%s): %s\n"
+msgstr "文件与前缀不匹配 (%s)：%s\n"
+
+#: build/files.c:1930
+#, c-format
+msgid "Optional file not found: %s\n"
+msgstr "找不到可选用文件：%s\n"
+
+#: build/files.c:1933
+#, c-format
+msgid "File not found: %s\n"
+msgstr "没有找到文件：%s\n"
+
+#: build/files.c:2123
+#, c-format
+msgid "%s: can't load unknown tag (%d).\n"
+msgstr "%s: 无法加载未知标签(%d)。\n"
+
+#: build/files.c:2129
+#, c-format
+msgid "%s: public key read failed.\n"
+msgstr "%s: 公钥读取失败。\n"
+
+#: build/files.c:2133 lib/rpmchecksig.c:917
+#, c-format
+msgid "%s: not an armored public key.\n"
+msgstr "%s: 不是带装甲的(armored)公钥。\n"
+
+#: build/files.c:2141
+#, c-format
+msgid "%s: *.te policy read failed.\n"
+msgstr "%s: *.te 策略读取失败。\n"
+
+#: build/files.c:2200
+#, c-format
+msgid "File needs leading \"/\": %s\n"
+msgstr "文件需要 \"/\" 开头：%s\n"
+
+#: build/files.c:2224
+#, c-format
+msgid "Glob not permitted: %s\n"
+msgstr "不允许以通配符解析：%s\n"
+
+#: build/files.c:2239
+#, c-format
+msgid "Optional file not found by glob: %s\n"
+msgstr "以通配符解析找不到可选用文件：%s\n"
+
+#: build/files.c:2243
+#, c-format
+msgid "File not found by glob: %s\n"
+msgstr "文件未找到，所用 glob: %s\n"
+
+#: build/files.c:2308
+#, c-format
+msgid "Could not open %%files file %s: %s\n"
+msgstr "无法打开 %%files 的文件 %s: %s\n"
+
+#: build/files.c:2321 build/pack.c:144
+#, c-format
+msgid "line: %s\n"
+msgstr "行：%s\n"
+
+#: build/files.c:2807
+#, c-format
+msgid "Bad file: %s: %s\n"
+msgstr "坏文件：%s: %s\n"
+
+#: build/files.c:2827 build/parsePrep.c:58
+#, c-format
+msgid "Bad owner/group: %s\n"
+msgstr "坏的属主/群组：%s\n"
+
+#: build/files.c:2903
+#, c-format
+msgid "Checking for unpackaged file(s): %s\n"
+msgstr "检查未打包文件：%s\n"
+
+#: build/files.c:2918
+#, c-format
+msgid ""
+"Installed (but unpackaged) file(s) found:\n"
+"%s"
+msgstr ""
+"发现已安装(但未打包的)文件：\n"
+"%s"
+
+#: build/files.c:2970
+#, c-format
+msgid ""
+"File(s) packaged into both %s and %s:\n"
+"%s"
+msgstr ""
+"文件同时被打包进入 %s 和 %s：\n"
+"%s"
+
+#: build/files.c:3116
+#, c-format
+msgid ""
+"Unpackaged subdir(s) in %s:\n"
+"%s"
+msgstr ""
+"%s 中有未打包的子目录：\n"
+"%s"
+
+#: build/files.c:3161
+#, c-format
+msgid "Processing files: %s\n"
+msgstr "处理文件：%s\n"
+
+#: build/names.c:56
+msgid "getUname: too many uid's\n"
+msgstr "getUname：过多的 uid\n"
+
+#: build/names.c:80
+msgid "getUnameS: too many uid's\n"
+msgstr "getUnameS：过多的 uid\n"
+
+#: build/names.c:107
+msgid "getUidS: too many uid's\n"
+msgstr "getUidS：过多的 uid\n"
+
+#: build/names.c:134
+msgid "getGname: too many gid's\n"
+msgstr "getGname：过多的 gid\n"
+
+#: build/names.c:158
+msgid "getGnameS: too many gid's\n"
+msgstr "getGnameS：过多的 gid\n"
+
+#: build/names.c:185
+msgid "getGidS: too many gid's\n"
+msgstr "getGidS：过多的 gid\n"
+
+#: build/names.c:224
+#, c-format
+msgid "Could not canonicalize hostname: %s\n"
+msgstr "无法正规化主机名：%s\n"
+
+#: build/pack.c:78
+#, c-format
+msgid "create archive failed on file %s: %s\n"
+msgstr "对此文件创建归档失败 %s：%s\n"
+
+#: build/pack.c:81
+#, c-format
+msgid "create archive failed: %s\n"
+msgstr "创建归档失败： %s\n"
+
+#: build/pack.c:104
+#, c-format
+msgid "cpio_copy write failed: %s\n"
+msgstr "cpio_copy 写作业失败：%s\n"
+
+#: build/pack.c:111
+#, c-format
+msgid "cpio_copy read failed: %s\n"
+msgstr "cpio_copy 读作业失败：%s\n"
+
+#: build/pack.c:226
+#, c-format
+msgid "Could not open PreIn file: %s\n"
+msgstr "无法打开安装前脚本：%s\n"
+
+#: build/pack.c:233
+#, c-format
+msgid "Could not open PreUn file: %s\n"
+msgstr "无法打开清除前脚本：%s\n"
+
+#: build/pack.c:240
+#, c-format
+msgid "Could not open PreTrans file: %s\n"
+msgstr "无法打开事务前脚本：%s\n"
+
+#: build/pack.c:247
+#, c-format
+msgid "Could not open PostIn file: %s\n"
+msgstr "无法打开安装后脚本：%s\n"
+
+#: build/pack.c:254
+#, c-format
+msgid "Could not open PostUn file: %s\n"
+msgstr "无法打开清除后脚本：%s\n"
+
+#: build/pack.c:261
+#, c-format
+msgid "Could not open PostTrans file: %s\n"
+msgstr "无法打开事务后脚本：%s\n"
+
+#: build/pack.c:269
+#, c-format
+msgid "Could not open VerifyScript file: %s\n"
+msgstr "无法打开校验脚本文件：%s\n"
+
+#: build/pack.c:276
+#, c-format
+msgid "Could not open Test file: %s\n"
+msgstr "无法打开测试文件：%s\n"
+
+#: build/pack.c:301
+#, c-format
+msgid "Could not open Trigger script file: %s\n"
+msgstr "无法打开触发运行脚本文件：%s\n"
+
+#: build/pack.c:335
+#, c-format
+msgid "readRPM: open %s: %s\n"
+msgstr "readRPM：打开 %s：%s\n"
+
+#: build/pack.c:356
+#, c-format
+msgid "readRPM: read %s: %s\n"
+msgstr "readRPM：读取 %s：%s\n"
+
+#: build/pack.c:366
+#, c-format
+msgid "%s: Fseek failed: %s\n"
+msgstr "%s：检索失败：%s\n"
+
+#: build/pack.c:400
+#, c-format
+msgid "readRPM: %s is not an RPM package\n"
+msgstr "readRPM：%s 不是一个 RPM 软件包。\n"
+
+#: build/pack.c:405
+#, c-format
+msgid "readRPM: reading header from %s\n"
+msgstr "readRPM：正在读取 %s 的文件标头\n"
+
+#: build/pack.c:791
+msgid "Unable to create immutable header region.\n"
+msgstr "无法创建不可改变的头区。\n"
+
+#: build/pack.c:874
+#, c-format
+msgid "Generating signature: %d\n"
+msgstr "产生签名：%d\n"
+
+#: build/pack.c:920
+msgid "Unable to reload signature header.\n"
+msgstr "无法重载签名头。\n"
+
+#: build/pack.c:948
+#, c-format
+msgid "Could not open %s: %s\n"
+msgstr "无法打开%s: %s\n"
+
+#: build/pack.c:974 lib/psm.c:2541
+#, c-format
+msgid "Unable to write package: %s\n"
+msgstr "无法写入软件包：%s\n"
+
+#: build/pack.c:999
+#, c-format
+msgid "Unable to open sigtarget %s: %s\n"
+msgstr "无法打开签名目标 %s：%s\n"
+
+#: build/pack.c:1041
+#, c-format
+msgid "Unable to read payload from %s: %s\n"
+msgstr "无法从 %s 读取酬载: %s\n"
+
+#: build/pack.c:1048
+#, c-format
+msgid "Unable to write payload to %s: %s\n"
+msgstr "无法写入酬载到 %s: %s\n"
+
+#: build/pack.c:1087 lib/psm.c:2876
+#, c-format
+msgid "Wrote: %s\n"
+msgstr "已写至：%s\n"
+
+#: build/pack.c:1159
+#, c-format
+msgid "Executing \"%s\":\n"
+msgstr "正在执行 \"%s\"：\n"
+
+#: build/pack.c:1163
+#, c-format
+msgid "Execution of \"%s\" failed.\n"
+msgstr " \"%s\" 执行失败。\n"
+
+#: build/pack.c:1167
+#, c-format
+msgid "Package check \"%s\" failed.\n"
+msgstr "软件包检查 \"%s\" 失败。\n"
+
+#: build/pack.c:1230
+#, c-format
+msgid "Could not generate output filename for package %s: %s\n"
+msgstr "无法为软件包 %s 生成输出文件名: %s\n"
+
+#: build/pack.c:1249
+#, c-format
+msgid "cannot create %s: %s\n"
+msgstr "无法创建 %s: %s\n"
+
+#: build/parseBuildInstallClean.c:44
+#, c-format
+msgid "line %d: unknown specfile section\n"
+msgstr "行 %d：不明的规格档区段\n"
+
+#: build/parseBuildInstallClean.c:51
+#, c-format
+msgid "line %d: second %%%s section\n"
+msgstr "行 %d：次要的 %%%s 区段\n"
+
+#: build/parseChangelog.c:176
+#, c-format
+msgid "%%changelog entries must start with *\n"
+msgstr "%%changelog 各条内容需要以 * 符号开头\n"
+
+#: build/parseChangelog.c:184
+#, c-format
+msgid "incomplete %%changelog entry\n"
+msgstr "不完整的 %%changelog 条目\n"
+
+#: build/parseChangelog.c:201
+#, c-format
+msgid "bad date in %%changelog: %s\n"
+msgstr "%%changelog 中存在错误的日期：%s\n"
+
+#: build/parseChangelog.c:206
+#, c-format
+msgid "%%changelog not in descending chronological order\n"
+msgstr "%%changelog 没有按照时间顺序降序排列\n"
+
+#: build/parseChangelog.c:214 build/parseChangelog.c:225
+#, c-format
+msgid "missing name in %%changelog\n"
+msgstr "%%changelog 中没有名称\n"
+
+#: build/parseChangelog.c:232
+#, c-format
+msgid "no description in %%changelog\n"
+msgstr "%%changelog 中没有描述\n"
+
+#: build/parseDescription.c:57
+#, c-format
+msgid "line %d: Error parsing %%description: %s\n"
+msgstr "行 %d：解析 %%description 时发生错误：%s\n"
+
+#: build/parseDescription.c:71 build/parseFiles.c:58 build/parseScript.c:245
+#, c-format
+msgid "line %d: Bad option %s: %s\n"
+msgstr "行 %d：错误的选项 %s：%s\n"
+
+#: build/parseDescription.c:82 build/parseFiles.c:72 build/parseScript.c:259
+#, c-format
+msgid "line %d: Too many names: %s\n"
+msgstr "行 %d：过多的名称：%s\n"
+
+#: build/parseDescription.c:89 build/parseFiles.c:81 build/parseScript.c:268
+#, c-format
+msgid "line %d: Package does not exist: %s\n"
+msgstr "行 %d：软件包不存在：%s\n"
+
+#: build/parseFiles.c:44
+#, c-format
+msgid "line %d: Error parsing %%files: %s\n"
+msgstr "行 %d：解析 %%files 时发生错误：%s\n"
+
+#: build/parseFiles.c:88
+#, c-format
+msgid "line %d: Second %%files list\n"
+msgstr "行 %d：重复的 %%files 清单\n"
+
+#: build/parsePreamble.c:281
+#, c-format
+msgid "Architecture is excluded: %s\n"
+msgstr "架构已被排除： %s\n"
+
+#: build/parsePreamble.c:285
+#, c-format
+msgid "Architecture is not included: %s\n"
+msgstr "架构未被包含：%s\n"
+
+#: build/parsePreamble.c:289
+#, c-format
+msgid "OS is excluded: %s\n"
+msgstr "被排除的操作系統：%s\n"
+
+#: build/parsePreamble.c:293
+#, c-format
+msgid "OS is not included: %s\n"
+msgstr "操作系统未包含：%s\n"
+
+#: build/parsePreamble.c:318
+#, c-format
+msgid "%s field must be present in package: %s\n"
+msgstr "%s 字段必须在软件包中存在：%s\n"
+
+#: build/parsePreamble.c:350
+#, c-format
+msgid "Duplicate %s entries in package: %s\n"
+msgstr "%s 條目在软件包中重复：%s\n"
+
+#: build/parsePreamble.c:444
+msgid "No icon file in sources\n"
+msgstr "源代码中没有图标文件\n"
+
+#: build/parsePreamble.c:473
+#, c-format
+msgid "Invalid icon URL: %s\n"
+msgstr "无效的图标 URL：%s\n"
+
+#: build/parsePreamble.c:480
+#, c-format
+msgid "Unable to open icon %s: %s\n"
+msgstr "无法打开图标 %s：%s\n"
+
+#: build/parsePreamble.c:489
+#, c-format
+msgid "Unable to read icon %s: %s\n"
+msgstr "无法读取图标 %s: %s\n"
+
+#: build/parsePreamble.c:494
+#, c-format
+msgid "Icon %s is too big (max. %d bytes)\n"
+msgstr "图标 %s 太大 (最大 %d 字节)\n"
+
+#: build/parsePreamble.c:558
+#, c-format
+msgid "line %d: Tag takes single token only: %s\n"
+msgstr "行 %d：标签只需要一个令牌： %s\n"
+
+#: build/parsePreamble.c:587
+#, c-format
+msgid "line %d: invalid tag value(\"%s\") %s: %s\n"
+msgstr "行 %d：无效的标记值(\"%s\") %s：%s\n"
+
+#: build/parsePreamble.c:627
+#, c-format
+msgid "line %d: Malformed tag: %s\n"
+msgstr "行 %d：有缺陷的标签：%s\n"
+
+#: build/parsePreamble.c:635
+#, c-format
+msgid "line %d: Empty tag: %s\n"
+msgstr "行 %d：空的标签：%s\n"
+
+#: build/parsePreamble.c:665 build/parsePreamble.c:672 build/parseReqs.c:170
+#, c-format
+msgid "line %d: Illegal char '-' in %s: %s\n"
+msgstr "行 %d：在 %s 中出现违规字符“-”：%s\n"
+
+#: build/parsePreamble.c:725
+#, c-format
+msgid "BuildRoot can not be \"/\": %s\n"
+msgstr "BuildRoot 不能是“/”：%s\n"
+
+#: build/parsePreamble.c:742
+#, c-format
+msgid "line %d: Prefixes must begin with \"/\": %s\n"
+msgstr "行 %d：前缀必须以“/”开始：%s\n"
+
+#: build/parsePreamble.c:750
+#, c-format
+msgid "line %d: Prefixes must not end with \"/\": %s\n"
+msgstr "行 %d：前缀不能以 “/” 结尾：%s\n"
+
+#: build/parsePreamble.c:762
+#, c-format
+msgid "line %d: Docdir must begin with '/': %s\n"
+msgstr "行 %d：Docdir 必须以 “/\" 開頭：%s\n"
+
+#: build/parsePreamble.c:776
+#, c-format
+msgid "line %d: %s takes an integer value: %s\n"
+msgstr "行 %d：%s 需要一个整数值：%s\n"
+
+#: build/parsePreamble.c:822 build/parsePreamble.c:833
+#, c-format
+msgid "line %d: Bad %s: qualifiers: %s\n"
+msgstr "行 %d：错误的 %s：限定符：%s\n"
+
+#: build/parsePreamble.c:878
+#, c-format
+msgid "line %d: Bad BuildArchitecture format: %s\n"
+msgstr "行 %d：错误的 BuildArchitecture 格式：%s\n"
+
+#: build/parsePreamble.c:891
+#, c-format
+msgid "line %d: Only \"noarch\" sub-packages are supported: %s\n"
+msgstr "行 %d：只支持“noarch”的次级软件包：%s\n"
+
+#: build/parsePreamble.c:1019
+#, c-format
+msgid "Legacy syntax is unsupported: %s\n"
+msgstr "不支持旧语法：%s\n"
+
+#: build/parsePreamble.c:1120
+#, c-format
+msgid "Bad package specification: %s\n"
+msgstr "有问题的软件包规范：%s\n"
+
+#: build/parsePreamble.c:1170
+#, c-format
+msgid "line %d: Unknown tag: %s\n"
+msgstr "行 %d：未知标签：%s\n"
+
+#: build/parsePrep.c:53
+#, c-format
+msgid "Bad source: %s: %s\n"
+msgstr "问题来源： %s： %s\n"
+
+#: build/parsePrep.c:117
+#, c-format
+msgid "No patch number %d\n"
+msgstr "编号为 %d 的补丁不存在\n"
+
+#: build/parsePrep.c:238
+#, c-format
+msgid "No source number %d\n"
+msgstr "编号为 %d 的源代码文件不存在\n"
+
+#: build/parsePrep.c:429
+#, c-format
+msgid "Error parsing %%setup: %s\n"
+msgstr "解析 %%setup 时发生错误：%s\n"
+
+#: build/parsePrep.c:444
+#, c-format
+msgid "line %d: Bad arg to %%setup: %s\n"
+msgstr "行 %d：%%setup 中存在坏的参数：%s\n"
+
+#: build/parsePrep.c:460
+#, c-format
+msgid "line %d: Bad %%setup option %s: %s\n"
+msgstr "行 %d：错误的 %%setup 选项 %s: %s\n"
+
+#: build/parsePrep.c:627
+#, c-format
+msgid "line %d: Need arg to %%patch -b: %s\n"
+msgstr "行 %d：%%patch -b 需要参数：%s\n"
+
+#: build/parsePrep.c:636
+#, c-format
+msgid "line %d: Need arg to %%patch -z: %s\n"
+msgstr "行 %d：%%patch -z 需要参数：%s\n"
+
+#: build/parsePrep.c:649
+#, c-format
+msgid "line %d: Bad arg to %%patch -F: %s\n"
+msgstr "行 %d：%%patch -F 的参数错误：%s\n"
+
+#: build/parsePrep.c:658
+#, c-format
+msgid "line %d: Need arg to %%patch -d: %s\n"
+msgstr "行 %d：%%patch -d 需要参数：%s\n"
+
+#: build/parsePrep.c:670
+#, c-format
+msgid "line %d: Need arg to %%patch -p: %s\n"
+msgstr "行 %d：%%patch -p 需要参数：%s\n"
+
+#: build/parsePrep.c:677
+#, c-format
+msgid "line %d: Bad arg to %%patch -p: %s\n"
+msgstr "行 %d：%%patch -p 的参数错误：%s\n"
+
+#: build/parsePrep.c:684
+msgid "Too many patches!\n"
+msgstr "补丁过多！\n"
+
+#: build/parsePrep.c:688
+#, c-format
+msgid "line %d: Bad arg to %%patch: %s\n"
+msgstr "行 %d：%%patch 的参数错误：%s\n"
+
+#: build/parsePrep.c:841
+#, c-format
+msgid "Missing %s%d %s: %s\n"
+msgstr "缺少 %s%d %s：%s\n"
+
+#: build/parsePrep.c:853 build/parsePrep.c:868
+#, c-format
+msgid "Fetching(%s%d): %s\n"
+msgstr "截取(%s%d)时失败：%s\n"
+
+#: build/parsePrep.c:859 build/parsePrep.c:874
+#, c-format
+msgid "Fetching %s%d failed: %s\n"
+msgstr "截取 %s%d 时失败：%s\n"
+
+#: build/parsePrep.c:879
+#, c-format
+msgid "Missing %s%d: %s: %s\n"
+msgstr "缺少 %s%d：%s：%s\n"
+
+#: build/parsePrep.c:903
+#, c-format
+msgid "line %d: second %%prep\n"
+msgstr "行 %d：第二个 %%prep\n"
+
+#: build/parseReqs.c:117
+#, c-format
+msgid ""
+"line %d: Dependency \"%s\" must begin with alpha-numeric, '_' or '/': %s\n"
+msgstr "行 %d：依赖关系“%s”必须以文数字、“_”或“/”开始：%s\n"
+
+#: build/parseReqs.c:137
+#, c-format
+msgid "line %d: Versioned file name not permitted: %s\n"
+msgstr "行 %d: 不允许标上版本的文件名称：%s\n"
+
+#: build/parseReqs.c:165
+#, c-format
+msgid "line %d: %s must be specified: %s\n"
+msgstr "行 %d: %s 必须被指定：%s\n"
+
+#: build/parseReqs.c:184
+#, c-format
+msgid "line %d: %s does not parse: %s\n"
+msgstr "行 %d：%s 无法解析：%s\n"
+
+#: build/parseScript.c:197
+#, c-format
+msgid "line %d: triggers must have --: %s\n"
+msgstr "行 %d：触发器必须包含有 --：%s\n"
+
+#: build/parseScript.c:208 build/parseScript.c:284
+#, c-format
+msgid "line %d: Error parsing %s: %s\n"
+msgstr "行 %d：解析 %s 时发生错误：%s\n"
+
+#: build/parseScript.c:223
+#, c-format
+msgid "line %d: embedded interpreter token must end with '>': %s\n"
+msgstr "行 %d：内置解译器字组必须以“>”结尾：%s\n"
+
+#: build/parseScript.c:232
+#, c-format
+msgid "line %d: script program must begin with '/': %s\n"
+msgstr "行 %d：脚本程序必须以 “/” 开头：%s\n"
+
+#: build/parseScript.c:276
+#, c-format
+msgid "line %d: Second %s\n"
+msgstr "行 %d：第二个 %s\n"
+
+#: build/parseScript.c:394
+#, c-format
+msgid "line %d: unsupported internal script: %s\n"
+msgstr "行 %d：不支持的内部脚本：%s\n"
+
+#: build/parseSpec.c:243
+#, c-format
+msgid "line %d: %s\n"
+msgstr "行 %d: %s\n"
+
+#: build/parseSpec.c:298
+#, c-format
+msgid "Unable to open %s: %s\n"
+msgstr "不能打开 %s：%s\n"
+
+#: build/parseSpec.c:313
+#, c-format
+msgid "Unclosed %%if\n"
+msgstr "%%if 分支未关闭\n"
+
+#: build/parseSpec.c:407
+#, c-format
+msgid "%s:%d: parseExpressionBoolean returns %d\n"
+msgstr "%s:%d: parseExpressionBoolean 返回 %d\n"
+
+#: build/parseSpec.c:416
+#, c-format
+msgid "%s:%d: Got a %%else with no %%if\n"
+msgstr "%s:%d：有一个 %%else 没有对应的 %%if\n"
+
+#: build/parseSpec.c:428
+#, c-format
+msgid "%s:%d: Got a %%endif with no %%if\n"
+msgstr "%s:%d：有一个 %%endif 没有对应的 %%if\n"
+
+#: build/parseSpec.c:442 build/parseSpec.c:451
+#, c-format
+msgid "malformed %%include statement\n"
+msgstr "异常的 %%include 宣告\n"
+
+#: build/parseSpec.c:669
+msgid "No compatible architectures found for build\n"
+msgstr "没有找到可供构建的兼容构架\n"
+
+#: build/parseSpec.c:746
+#, c-format
+msgid "Package has no %%description: %s\n"
+msgstr "软件包没有 %%description：%s\n"
+
+#: build/poptBT.c:126
+#, c-format
+msgid "build through %prep (unpack sources and apply patches) from <specfile>"
+msgstr "依据 <specfile> 从 %prep (解压缩源代码并应用补丁) 开始构建"
+
+#: build/poptBT.c:127 build/poptBT.c:130 build/poptBT.c:133 build/poptBT.c:136
+#: build/poptBT.c:139 build/poptBT.c:142 build/poptBT.c:145 build/poptBT.c:149
+#: build/poptBT.c:152
+msgid "<specfile>"
+msgstr "<specfile>"
+
+#: build/poptBT.c:129
+msgid "build through %build (%prep, then compile) from <specfile>"
+msgstr "依据 <specfile> 从 %build (%prep 之后编译) 开始构建"
+
+#: build/poptBT.c:132
+msgid "build through %install (%prep, %build, then install) from <specfile>"
+msgstr "依据 <specfile> 从 %install (%prep、%build 后安装) 开始构建"
+
+#: build/poptBT.c:135
+#, c-format
+msgid "verify %files section from <specfile>"
+msgstr "依据 <specfile> 检验 %files 区域"
+
+#: build/poptBT.c:138
+msgid "build source and binary packages from <specfile>"
+msgstr "依据 <specfile> 构建源代码和二进制软件包"
+
+#: build/poptBT.c:141
+msgid "build binary package only from <specfile>"
+msgstr "依据 <specfile> 构建二进制软件包"
+
+#: build/poptBT.c:144
+msgid "build source package only from <specfile>"
+msgstr "依据 <specfile> 构建源代码软件包"
+
+#: build/poptBT.c:148
+msgid "track versions of sources from <specfile>"
+msgstr "从 <specfile> 追踪源代码版本"
+
+#: build/poptBT.c:151
+msgid "fetch missing source and patch files"
+msgstr "截取缺少的源代码和补丁程序文件"
+
+#: build/poptBT.c:155
+#, c-format
+msgid "build through %prep (unpack sources and apply patches) from <tarball>"
+msgstr "依据 <tarball> 从 %prep (解压源代码并应用补丁)开始构建"
+
+#: build/poptBT.c:156 build/poptBT.c:159 build/poptBT.c:162 build/poptBT.c:165
+#: build/poptBT.c:168 build/poptBT.c:171 build/poptBT.c:174
+msgid "<tarball>"
+msgstr "<tarball>"
+
+#: build/poptBT.c:158
+msgid "build through %build (%prep, then compile) from <tarball>"
+msgstr "依据 <tarball> 从 %build (%prep，之后编译)开始构建"
+
+#: build/poptBT.c:161
+msgid "build through %install (%prep, %build, then install) from <tarball>"
+msgstr "依据 <tarball> 从 %install (%prep、%build 然后安装)开始构建"
+
+#: build/poptBT.c:164
+#, c-format
+msgid "verify %files section from <tarball>"
+msgstr "依据 <tarball> 检验 %files 区域"
+
+#: build/poptBT.c:167
+msgid "build source and binary packages from <tarball>"
+msgstr "依据 <tarball> 构建源代码和二进制软件包"
+
+#: build/poptBT.c:170
+msgid "build binary package only from <tarball>"
+msgstr "依据 <tarball> 构建二进制软件包"
+
+#: build/poptBT.c:173
+msgid "build source package only from <tarball>"
+msgstr "依据 <tarball> 构建源代码软件包"
+
+#: build/poptBT.c:177
+msgid "build binary package from <source package>"
+msgstr "依据 <source package> 构建二进制软件包"
+
+#: build/poptBT.c:178 build/poptBT.c:181
+msgid "<source package>"
+msgstr "<source package>"
+
+#: build/poptBT.c:180
+msgid ""
+"build through %install (%prep, %build, then install) from <source package>"
+msgstr "依据 <source package> 从 %install (%prep、%build 然后安装)开始构建"
+
+#: build/poptBT.c:184
+msgid "remove build tree when done"
+msgstr "完成后移除构建树"
+
+#: build/poptBT.c:186
+msgid "do not execute any stages of the build"
+msgstr "不执行任何构建步骤 "
+
+#: build/poptBT.c:188
+msgid "do not verify build dependencies"
+msgstr "不检验构建依赖"
+
+#: build/poptBT.c:191
+msgid "disable automagic Provides: extraction"
+msgstr "停用自动提供：截取"
+
+#: build/poptBT.c:193
+msgid "disable automagic Requires: extraction"
+msgstr "停用自动需求：截取"
+
+#: build/poptBT.c:195
+msgid "disable tags forbidden by LSB"
+msgstr "停用被 LSB 禁止的标记"
+
+#: build/poptBT.c:198 lib/poptI.c:352 lib/poptQV.c:466 lib/poptQV.c:475
+#: lib/poptQV.c:520
+msgid "don't verify package digest(s)"
+msgstr "不校验软件包的摘要"
+
+#: build/poptBT.c:200 lib/poptI.c:354 lib/poptQV.c:469 lib/poptQV.c:477
+#: lib/poptQV.c:523
+msgid "don't verify database header(s) when retrieved"
+msgstr "检索时，不验证数据库头"
+
+#: build/poptBT.c:202 lib/poptI.c:356 lib/poptQV.c:472 lib/poptQV.c:479
+#: lib/poptQV.c:525
+msgid "don't verify package signature(s)"
+msgstr "不验证软件包签名"
+
+#: build/poptBT.c:205
+msgid "Debug Package objects"
+msgstr "调试软件包对象"
+
+#: build/poptBT.c:207
+msgid "Debug Spec objects"
+msgstr "调试规格档对象"
+
+#: build/poptBT.c:210
+msgid "do not accept i18n msgstr's from specfile"
+msgstr "不接受来自规格档的 i18n msgstr"
+
+#: build/poptBT.c:212
+msgid "remove sources when done"
+msgstr "完成时移除源代码"
+
+#: build/poptBT.c:214
+msgid "remove specfile when done"
+msgstr "完成时移除 specfile"
+
+#: build/poptBT.c:216
+msgid "skip straight to specified stage (only for c,i)"
+msgstr "直接跳转到指定步骤 (仅限 c,i)"
+
+#: build/poptBT.c:218
+msgid "generate PGP/GPG signature"
+msgstr "产生 PGP/GPG 签名"
+
+#: build/poptBT.c:220
+msgid "override target platform"
+msgstr "重载目标平台"
+
+#: build/poptBT.c:220 lib/poptALL.c:453 lib/poptQV.c:375
+msgid "CPU-VENDOR-OS"
+msgstr "CPU-VENDOR-OS"
+
+#: build/spec.c:343
+#, c-format
+msgid "line %d: Bad number: %s\n"
+msgstr "行 %d：错误的编号：%s\n"
+
+#: build/spec.c:349
+#, c-format
+msgid "line %d: Bad no%s number: %d\n"
+msgstr "行 %d: 不当的 no%s 数字：%d\n"
+
+#: build/spec.c:408
+#, c-format
+msgid "line %d: No ':' terminator: %s\n"
+msgstr "行 %d: 没有任何的 ':' 终止符号：%s\n"
+
+#: build/spec.c:419
+#, c-format
+msgid "%s %d defined multiple times\n"
+msgstr "%s %d 定义了许多次\n"
+
+#: build/spec.c:791
+#, c-format
+msgid "can't query %s: %s\n"
+msgstr "无法查找 %s：%s\n"
+
+#: build/spec.c:931
+#, c-format
+msgid "query of specfile %s failed, can't parse\n"
+msgstr "查询 spec 文件 %s 失败，无法解析\n"
+
+#: build/spec.c:986
+#, c-format
+msgid "Query specfile for platform(s): %s\n"
+msgstr "查找的规格档用于平台：%s\n"
+
+#: lib/depends.c:698
+#, c-format
+msgid "package %s was already added, skipping %s\n"
+msgstr "软件包 %s 已被加入，跳过 %s\n"
+
+#: lib/depends.c:712
+#, c-format
+msgid "package %s was already added, replacing with %s\n"
+msgstr "软件包 %s 已被加入，以 %s 替换\n"
+
+#: lib/depends.c:935
+msgid "(cached)"
+msgstr "(缓存)"
+
+#: lib/depends.c:951
+msgid "(function probe)"
+msgstr "(函数探查)"
+
+#: lib/depends.c:970
+msgid "(user lookup)"
+msgstr "(用户查找)"
+
+#: lib/depends.c:987
+msgid "(group lookup)"
+msgstr "(群组查找)"
+
+#: lib/depends.c:996
+msgid "(access probe)"
+msgstr "(访问探查)"
+
+#: lib/depends.c:1018
+msgid "(mtab probe)"
+msgstr "(mtab 探查)"
+
+#: lib/depends.c:1075
+msgid "(diskspace probe)"
+msgstr "(磁盘空间探查)"
+
+#: lib/depends.c:1117
+msgid "(digest probe)"
+msgstr "(摘要探查)"
+
+#: lib/depends.c:1141
+msgid "(signature probe)"
+msgstr "(签名探查)"
+
+#: lib/depends.c:1172
+msgid "(verify probe)"
+msgstr "(验证探查)"
+
+#: lib/depends.c:1194
+msgid "(gnupg probe)"
+msgstr "(gnupg 探查)"
+
+#: lib/depends.c:1207
+msgid "(macro probe)"
+msgstr "(宏探查)"
+
+#: lib/depends.c:1235
+msgid "(envvar probe)"
+msgstr "(环境变量探查)"
+
+#: lib/depends.c:1262
+msgid "(running probe)"
+msgstr "(运行探查)"
+
+#: lib/depends.c:1284
+msgid "(sanity probe)"
+msgstr "(明智探查)"
+
+#: lib/depends.c:1305
+msgid "(vcheck probe)"
+msgstr "(访问探查)"
+
+#: lib/depends.c:1326
+msgid "(sysinfo provides)"
+msgstr "(系统信息提供)"
+
+#: lib/depends.c:1345
+msgid "(rpmlib provides)"
+msgstr "(rpmlib 提供)"
+
+#: lib/depends.c:1360
+msgid "(cpuinfo provides)"
+msgstr "(cpuinfo 提供)"
+
+#: lib/depends.c:1375
+msgid "(getconf provides)"
+msgstr "(getconf 提供)"
+
+#: lib/depends.c:1390
+msgid "(uname provides)"
+msgstr "(uname 提供)"
+
+#: lib/depends.c:1423
+msgid "(soname provides)"
+msgstr "(soname 提供)"
+
+#: lib/depends.c:1446
+msgid "(root files)"
+msgstr "(根目录文件)"
+
+#: lib/depends.c:1454
+msgid "(db files)"
+msgstr "(数据库文件)"
+
+#: lib/depends.c:1466
+msgid "(db provides)"
+msgstr "(数据库提供)"
+
+#: lib/depends.c:1496
+msgid "(hint skipped)"
+msgstr "(提示略过)"
+
+#: lib/filetriggers.c:73 lib/rpmchecksig.c:75 lib/rpmchecksig.c:1366
+#, c-format
+msgid "%s: open failed: %s\n"
+msgstr "%s: 打开失败：%s\n"
+
+#: lib/fs.c:85
+#, c-format
+msgid "mntctl() failed to return size: %s\n"
+msgstr "mntctl() 返回大小失败：%s\n"
+
+#: lib/fs.c:100
+#, c-format
+msgid "mntctl() failed to return mount points: %s\n"
+msgstr "mntctl() 返回挂载点失败：%s\n"
+
+#: lib/fs.c:125 lib/fs.c:241 lib/fs.c:363
+#, c-format
+msgid "failed to stat %s: %s\n"
+msgstr "无法检验状态：%s：%s\n"
+
+#: lib/fs.c:176
+#, c-format
+msgid "failed to open %s: %s\n"
+msgstr "打开 %s 失败：%s\n"
+
+#: lib/fs.c:387
+#, c-format
+msgid "file %s is on an unknown device\n"
+msgstr "文件 %s 位于一个不明的设备上\n"
+
+#: lib/fsm.c:919 rpmio/iosm.c:974
+#, c-format
+msgid "user %s does not exist - using root\n"
+msgstr "用户%s 不存在 - 使用root\n"
+
+#: lib/fsm.c:929 rpmio/iosm.c:984
+#, c-format
+msgid "group %s does not exist - using root\n"
+msgstr "群组%s 不存在 - 使用root\n"
+
+#: lib/fsm.c:1824
+#, c-format
+msgid "archive file %s was not found in header file list\n"
+msgstr "保存文件 %s 在文件清单标头中找不到\n"
+
+#: lib/fsm.c:1967 lib/fsm.c:2087 rpmio/iosm.c:2008 rpmio/iosm.c:2127
+#, c-format
+msgid "%s saved as %s\n"
+msgstr "%s 已另存为 %s\n"
+
+#: lib/fsm.c:2114
+#, c-format
+msgid "%s rmdir of %s failed: Directory not empty\n"
+msgstr "%s 移除目录 %s 失败：目录非空\n"
+
+#: lib/fsm.c:2120
+#, c-format
+msgid "%s rmdir of %s failed: %s\n"
+msgstr "%s 移除目录 %s 失败：%s\n"
+
+#: lib/fsm.c:2135
+#, c-format
+msgid " %s: unlink of %s failed: %s\n"
+msgstr " %s：取消 %s 的链接时失败：%s\n"
+
+#: lib/fsm.c:2160 rpmio/iosm.c:2200
+#, c-format
+msgid "%s created as %s\n"
+msgstr "%s 已建立为 %s \n"
+
+#: lib/manifest.c:96
+#, c-format
+msgid "reading %s manifest failed: %s\n"
+msgstr "读取 %s 清单时失败：%s\n"
+
+#: lib/manifest.c:121
+#, c-format
+msgid "reading %s manifest, non-printable characters found\n"
+msgstr "读取 %s 清单时出现不可印出的字符\n"
+
+#: lib/misc.c:43
+#, c-format
+msgid "cannot create %%%s %s\n"
+msgstr "无法创建 %%%s %s\n"
+
+#: lib/order.c:169
+#, fuzzy, c-format
+msgid "ignore package name relation(s) [%d]\t%s -> %s\n"
+msgstr "没有软件包匹配：%s：%s\n"
+
+#: lib/order.c:377
+#, c-format
+msgid "removing %s \"%s\" from tsort relations.\n"
+msgstr ""
+
+#: lib/order.c:2188
+msgid "LOOP:\n"
+msgstr ""
+
+#: lib/order.c:2224
+#, c-format
+msgid "rpmtsOrder failed, %d elements remain\n"
+msgstr ""
+
+#: lib/poptALL.c:198 rpmio/poptIO.c:379
+#, c-format
+msgid "%s ("
+msgstr "%s ("
+
+#: lib/poptALL.c:385
+#, fuzzy
+msgid "Add packages to resolve dependencies"
+msgstr "不校验软件包的依赖关系"
+
+#: lib/poptALL.c:388
+msgid "Use anaconda \"presentation order\""
+msgstr "使用 anaconda\"演示文稿顺序\""
+
+#: lib/poptALL.c:391
+msgid "Print dependency loops as warning"
+msgstr "印出循环的依赖关系作为警告"
+
+#: lib/poptALL.c:394
+msgid "Do not suggest missing dependency resolution(s)"
+msgstr "不提供依赖关系解决方案的建议"
+
+#: lib/poptALL.c:397
+msgid "Do not check added package conflicts"
+msgstr "不检查已加入软件包间冲突"
+
+#: lib/poptALL.c:400
+msgid "Ignore added package requires on symlink targets"
+msgstr "忽略已加入软件包对于符号链接目标需求"
+
+#: lib/poptALL.c:403
+msgid "Ignore added package obsoletes"
+msgstr "忽略已加入软件包的淘汰名称"
+
+#: lib/poptALL.c:406
+msgid "Ignore added package requires on file parent directory"
+msgstr "忽略已加入软件包对于上层目录文件的需求"
+
+#: lib/poptALL.c:409
+msgid "Do not check added package requires"
+msgstr "不检查已加入软件包的需求"
+
+#: lib/poptALL.c:412
+msgid "Ignore added package upgrades"
+msgstr "忽略已加入软件包的升级"
+
+#: lib/poptALL.c:425 rpmio/poptIO.c:571
+msgid "Debug generic operations"
+msgstr "调试一般操作"
+
+#: lib/poptALL.c:428
+msgid "Predefine MACRO with value EXPR"
+msgstr "预先以 EXPR 值定义 MACRO"
+
+#: lib/poptALL.c:429 lib/poptALL.c:433 rpmio/poptIO.c:576
+msgid "'MACRO EXPR'"
+msgstr "“MACRO EXPR”"
+
+#: lib/poptALL.c:432 rpmio/poptIO.c:575
+msgid "Define MACRO with value EXPR"
+msgstr "以 EXPR 值定义 MACRO"
+
+#: lib/poptALL.c:435 rpmio/poptIO.c:578
+msgid "Undefine MACRO"
+msgstr "未定义 MACRO"
+
+#: lib/poptALL.c:436 rpmio/poptIO.c:579
+msgid "'MACRO'"
+msgstr "“MACRO”"
+
+#: lib/poptALL.c:438 rpmio/poptIO.c:581
+msgid "Print macro expansion of EXPR"
+msgstr "印出 EXPR 的宏展开"
+
+#: lib/poptALL.c:439 rpmio/poptIO.c:582
+msgid "'EXPR'"
+msgstr "“EXPR”"
+
+#: lib/poptALL.c:441 rpmio/poptIO.c:585
+msgid "Read <FILE:...> instead of default file(s)"
+msgstr "读取 <File:...> 以代替缺省文件"
+
+#: lib/poptALL.c:442 lib/poptALL.c:446 lib/poptALL.c:450 rpmio/poptIO.c:586
+#: rpmio/poptIO.c:590 rpmio/poptIO.c:594
+msgid "<FILE:...>"
+msgstr "<FILE:…>"
+
+#: lib/poptALL.c:445 rpmio/poptIO.c:589
+msgid "Read <FILE:...> instead of default RPM Lua file(s)"
+msgstr "读取 <File:...> 以代替缺省 RPM Lua 文件"
+
+#: lib/poptALL.c:449 rpmio/poptIO.c:593
+msgid "Read <FILE:...> instead of default POPT file(s)"
+msgstr "读取 <File:...> 以代替缺省 POPT 文件"
+
+#: lib/poptALL.c:453
+msgid "Specify target platform"
+msgstr "指定目标平台"
+
+#: lib/poptALL.c:456
+msgid "Don't verify package digest(s)"
+msgstr "不校验软件包摘要"
+
+#: lib/poptALL.c:458
+msgid "Don't verify database header(s) when retrieved"
+msgstr "取回时不验证数据库标头"
+
+#: lib/poptALL.c:460
+msgid "Don't verify package signature(s)"
+msgstr "不校验软件包签名"
+
+#: lib/poptALL.c:463
+msgid "Display known query tags"
+msgstr "显示已知的查找标记"
+
+#: lib/poptALL.c:465
+msgid "Display macro and configuration values"
+msgstr "显示宏与组配值"
+
+#: lib/poptALL.c:467 rpmio/poptIO.c:609
+msgid "Print the version"
+msgstr "印出版本信息"
+
+#: lib/poptALL.c:473
+msgid "Debug file FingerPrintS"
+msgstr "调试文件指纹"
+
+#: lib/poptALL.c:475
+msgid "Debug payload File State Machine"
+msgstr "调试酬载文件状态机"
+
+#: lib/poptALL.c:477
+msgid "Use threads for File State Machine"
+msgstr "使用线程作为文件状态机"
+
+#: lib/poptALL.c:483
+msgid "Display macros used"
+msgstr "显示已用宏"
+
+#: lib/poptALL.c:487
+msgid "Display OpenPGP (RFC 2440/4880) parsing"
+msgstr "显示 OpenPGP (RFC 2440/4880) 解析"
+
+#: lib/poptALL.c:489
+msgid "Debug Package State Machine"
+msgstr "调试软件包状态机"
+
+#: lib/poptALL.c:491
+msgid "Use threads for Package State Machine"
+msgstr "使用线程于软件包状态机"
+
+#: lib/poptALL.c:493
+msgid "Debug rpmds Dependency Set"
+msgstr "调试 rpmds 依赖关系集合"
+
+#: lib/poptALL.c:495
+msgid "Debug rpmfc File Classifier"
+msgstr "调试 rpmfc 文件分类器"
+
+#: lib/poptALL.c:497
+msgid "Debug rpmfi File Info"
+msgstr "调试 rpmfi 文件"
+
+#: lib/poptALL.c:499
+msgid "Debug rpmgi Generalized Iterator"
+msgstr "调试 rpmgi 一般化迭代器"
+
+#: lib/poptALL.c:501
+msgid "Debug rpmmi Match Iterator"
+msgstr "调试 rpmmi 匹配迭代器"
+
+#: lib/poptALL.c:503
+msgid "Debug rpmns Name Space"
+msgstr "调试 rpmns 命名空间"
+
+#: lib/poptALL.c:505
+msgid "Debug rpmps Problem Set"
+msgstr "调试 rpmps 问题设置"
+
+#: lib/poptALL.c:507
+msgid "Debug rpmte Transaction Element"
+msgstr "调试 rpmts 事务作业集"
+
+#: lib/poptALL.c:509
+msgid "Debug rpmts Transaction Set"
+msgstr "调试 rpmts 事务作业集"
+
+#: lib/poptALL.c:511
+msgid "Debug rpmwf Wrapper Format"
+msgstr "调试 rpmwf 包装格式"
+
+#: lib/poptALL.c:513 rpmio/poptIO.c:725
+msgid "Display operation statistics"
+msgstr "显示作业统计"
+
+#: lib/poptALL.c:821 rpmio/poptIO.c:898 rpmio/rpmsql.c:5412 rpmio/rpmtpm.c:150
+#, c-format
+msgid "%s: option table misconfigured (%d)\n"
+msgstr "%s：选项表配置不正确 (%d)\n"
+
+#: lib/poptI.c:81
+msgid "exclude paths must begin with a /"
+msgstr "被排除的路径必须以 / 开头"
+
+#: lib/poptI.c:89
+msgid "Option --relocate needs /old/path=/new/path argument"
+msgstr "选项 --relocate 需要 /old/path=/new/path 参数"
+
+#: lib/poptI.c:91
+msgid "relocations must begin with a /"
+msgstr "重定位必须以 / 开头"
+
+#: lib/poptI.c:94
+msgid "relocations must contain a ="
+msgstr "重定位必须包含有一个 ="
+
+#: lib/poptI.c:97
+msgid "relocations must have a / following the ="
+msgstr "重定位必须有 / 跟在 = 之后"
+
+#: lib/poptI.c:109
+msgid "Option --rbexclude needs transaction id argument(s)"
+msgstr "选项 --rbexclude 需要事务作业识别号参数"
+
+#: lib/poptI.c:140
+msgid "Option --rollback needs a time/date stamp argument"
+msgstr "选项 --rollback 需要时间/日期戳记参数"
+
+#: lib/poptI.c:144
+#, c-format
+msgid "Rollback goal:  %-24.24s (0x%08x)\n"
+msgstr "回溯目的： %-24.24s (0x%08x)\n"
+
+#: lib/poptI.c:148
+msgid "malformed rollback time/date stamp argument"
+msgstr "异常的回溯时间/日期戳记参数"
+
+#: lib/poptI.c:155
+msgid "arbgoal takes a time/date stamp argument"
+msgstr "arbgoal 需要时间/日期戳记参数"
+
+#: lib/poptI.c:162
+msgid "malformed arbgoal time/date stamp argument"
+msgstr "异常的 arbgoal 时间/日期戳记参数"
+
+#: lib/poptI.c:212
+msgid "install all files, even configurations which might otherwise be skipped"
+msgstr "安装全部文件，包含配置文件，否则配置文件会被跳过。"
+
+#: lib/poptI.c:217 lib/poptI.c:255 lib/poptI.c:258
+msgid "do not execute package scriptlet(s)"
+msgstr "不执行软件包脚本"
+
+#: lib/poptI.c:220
+msgid "save erased package files by renaming into sub-directory"
+msgstr "将清除的软件包内的文件重命名后转移到一个子目录中"
+
+#: lib/poptI.c:223 lib/poptI.c:231
+msgid "do not install configuration files"
+msgstr "不安装配置文件"
+
+#: lib/poptI.c:226 lib/poptI.c:234
+msgid "do not install documentation"
+msgstr "不安装程序文档"
+
+#: lib/poptI.c:228
+msgid "update the database, but do not modify the filesystem"
+msgstr "更新数据库，但不修改文件系统"
+
+#: lib/poptI.c:238
+msgid "don't install file security contexts"
+msgstr "不安装文件的安全上下文"
+
+#: lib/poptI.c:241 lib/poptI.c:246 lib/poptQV.c:406 lib/poptQV.c:409
+#: lib/poptQV.c:411
+msgid "don't verify file digests"
+msgstr "不验证文件摘要"
+
+#: lib/poptI.c:244 lib/poptQV.c:438
+msgid "don't verify file security contexts"
+msgstr "不验证文件安全上下文"
+
+#: lib/poptI.c:250
+msgid "don't register headers in rpmdb"
+msgstr "不注册 rpmdb 中的标头"
+
+#: lib/poptI.c:262
+#, c-format
+msgid "do not execute %%pretrans scriptlet (if any)"
+msgstr "不运行事务前的短脚本(如果存在)"
+
+#: lib/poptI.c:265
+#, c-format
+msgid "do not execute %%pre scriptlet (if any)"
+msgstr "不执行%%pre 脚本(如果有的话)"
+
+#: lib/poptI.c:268
+#, c-format
+msgid "do not execute %%post scriptlet (if any)"
+msgstr "不执行%%post 脚本(如果有的话)"
+
+#: lib/poptI.c:271
+#, c-format
+msgid "do not execute %%preun scriptlet (if any)"
+msgstr "不执行%%preun 脚本(如果有的话)"
+
+#: lib/poptI.c:274
+#, c-format
+msgid "do not execute %%postun scriptlet (if any)"
+msgstr "不执行%%postun 脚本(如果有的话)"
+
+#: lib/poptI.c:277
+#, c-format
+msgid "do not execute %%postrans scriptlet (if any)"
+msgstr "不运行事务后短脚本(如果存在)"
+
+#: lib/poptI.c:280
+msgid "do not execute any scriptlet(s) triggered by this package"
+msgstr "不执行本软件包触发的任何脚本"
+
+#: lib/poptI.c:283
+#, c-format
+msgid "do not execute any %%triggerprein scriptlet(s)"
+msgstr "不执行任何%%triggerprein 脚本"
+
+#: lib/poptI.c:286
+#, c-format
+msgid "do not execute any %%triggerin scriptlet(s)"
+msgstr "不执行任何%%triggerin 脚本"
+
+#: lib/poptI.c:289
+#, c-format
+msgid "do not execute any %%triggerun scriptlet(s)"
+msgstr "不执行任何%%triggerun 脚本"
+
+#: lib/poptI.c:292
+#, c-format
+msgid "do not execute any %%triggerpostun scriptlet(s)"
+msgstr "不执行任何%%triggerpostun 脚本"
+
+#: lib/poptI.c:296
+msgid "save erased package files by repackaging"
+msgstr "将已清除软件包内的文件另存为一个软件包"
+
+#: lib/poptI.c:298
+msgid "don't install, but tell if it would work or not"
+msgstr "不真正安装，只是判断下是否能安装"
+
+#: lib/poptI.c:302
+msgid ""
+"remove all packages which match <package> (normally an error is generated if "
+"<package> specified multiple packages)"
+msgstr ""
+"移除所有符合 <package> 的软件包(如果 <package> 被指定未多个软件包，常常会导致"
+"错误出现)"
+
+#: lib/poptI.c:307
+msgid "relocate files in non-relocatable package"
+msgstr "对不可重定位的软件包重新分配文件位置"
+
+#: lib/poptI.c:311
+msgid "erase (uninstall) package"
+msgstr "清除 (卸载) 软件包"
+
+#: lib/poptI.c:311
+msgid "<package>+"
+msgstr "<package>+"
+
+#: lib/poptI.c:313
+msgid "skip files with leading component <path> "
+msgstr "略过以 <path> 开头的文件"
+
+#: lib/poptI.c:314 tools/rpmmtree.c:3576
+msgid "<path>"
+msgstr "<path>"
+
+#: lib/poptI.c:318
+msgid "detect file conflicts between packages"
+msgstr "在软件包之间侦测会冲突的文件"
+
+#: lib/poptI.c:322
+msgid "upgrade package(s) if already installed"
+msgstr "如果软件包已经安装，升级软件包"
+
+#: lib/poptI.c:323 lib/poptI.c:341 lib/poptI.c:389
+msgid "<packagefile>+"
+msgstr "<packagefile>+"
+
+#: lib/poptI.c:325
+msgid "print hash marks as package installs (good with -v)"
+msgstr "软件包安装的时候列出哈希标记 (和 -v 一起使用效果更好)"
+
+#: lib/poptI.c:329
+msgid "don't verify package architecture"
+msgstr "不验证软件包架构"
+
+#: lib/poptI.c:332
+msgid "don't verify package operating system"
+msgstr "不验证软件包操作系统"
+
+#: lib/poptI.c:336
+msgid "don't check disk space before installing"
+msgstr "在安装前不检查磁盘空间"
+
+#: lib/poptI.c:338
+msgid "install documentation"
+msgstr "安装程序文档"
+
+#: lib/poptI.c:341
+msgid "install package(s)"
+msgstr "安装软件包"
+
+#: lib/poptI.c:344
+msgid "do not verify package dependencies"
+msgstr "不验证软件包依赖"
+
+#: lib/poptI.c:348
+msgid "do not reorder package installation to satisfy dependencies"
+msgstr "不对软件包安装重新排序以满足依赖关系"
+
+#: lib/poptI.c:360
+msgid ""
+"upgrade to an old version of the package (--force on upgrades does this "
+"automatically)"
+msgstr "更新到软件包的旧版本(带 --force 自动完成这一功能)"
+
+#: lib/poptI.c:364
+msgid "print percentages as package installs"
+msgstr "安装软件包时打印百分比"
+
+#: lib/poptI.c:366
+msgid "relocate the package to <dir>, if relocatable"
+msgstr "如果可重定位，便把软件包重定位到 <dir>"
+
+#: lib/poptI.c:367
+msgid "<dir>"
+msgstr "<dir>"
+
+#: lib/poptI.c:369
+msgid "relocate files from path <old> to <new>"
+msgstr "将文件从 <old> 重定位到 <new>"
+
+#: lib/poptI.c:370
+msgid "<old>=<new>"
+msgstr "<old>=<new>"
+
+#: lib/poptI.c:373
+msgid "ignore file conflicts between packages"
+msgstr "忽略软件包之间的冲突的文件"
+
+#: lib/poptI.c:376
+msgid "reinstall if the package is already present"
+msgstr "如果软件包已经有了，重新安装软件包"
+
+#: lib/poptI.c:378
+msgid "deinstall new, reinstall old, package(s), back to <date>"
+msgstr "反安装添加，重新安装旧的软件包，回到 <date>"
+
+#: lib/poptI.c:379 lib/poptI.c:382
+msgid "<date>"
+msgstr "<date>"
+
+#: lib/poptI.c:381
+msgid "If transaction fails rollback to <date>"
+msgstr "如果事务作业失败就回溯到 <date>"
+
+#: lib/poptI.c:384
+msgid "Exclude Transaction I.D. from rollback"
+msgstr "从回溯中排除事务作业识别号"
+
+#: lib/poptI.c:385
+msgid "<tid>"
+msgstr "<tid>"
+
+#: lib/poptI.c:388
+msgid "upgrade package(s)"
+msgstr "升级软件包"
+
+#: lib/poptQV.c:136
+msgid "query/verify all packages"
+msgstr "查询/验证所有软件包"
+
+#: lib/poptQV.c:138
+msgid "rpm checksig mode"
+msgstr "rpm 检查签名模式"
+
+#: lib/poptQV.c:140
+msgid "query/verify package(s) owning file"
+msgstr "查询/验证文件属于的软件包"
+
+#: lib/poptQV.c:142
+msgid "query/verify package(s) in group"
+msgstr "查询/验证组中的软件包"
+
+#: lib/poptQV.c:144
+msgid "query/verify a package file"
+msgstr "查询/验证一个软件包"
+
+#: lib/poptQV.c:147
+msgid "query/verify package(s) from TOP file tree walk"
+msgstr "从顶端遍历文件树查找/验证软件包"
+
+#: lib/poptQV.c:149
+msgid "query/verify package(s) from system HDLIST"
+msgstr "系统 HDLIST 查找/验证软件包从"
+
+#: lib/poptQV.c:152
+msgid "query/verify package(s) with source package identifier"
+msgstr "根据源代码软件包的识别查找/校验软件包"
+
+#: lib/poptQV.c:154
+msgid "query/verify package(s) with package identifier"
+msgstr "根据软件包的识别查找/校验软件包"
+
+#: lib/poptQV.c:156
+msgid "query/verify package(s) with header identifier"
+msgstr "根据标头识别查找/校验软件包"
+
+#: lib/poptQV.c:158
+msgid "query/verify package(s) with file identifier"
+msgstr "根据文件识别查找/校验软件包"
+
+#: lib/poptQV.c:161
+msgid "rpm query mode"
+msgstr "rpm 查询模式"
+
+#: lib/poptQV.c:163
+msgid "query/verify a header instance"
+msgstr "查询/验证头的实例"
+
+#: lib/poptQV.c:165
+msgid "query a spec file"
+msgstr "查找一个规格文件"
+
+#: lib/poptQV.c:165 lib/poptQV.c:167 tools/rpmmtree.c:3564
+msgid "<spec>"
+msgstr "<spec>"
+
+#: lib/poptQV.c:167
+msgid "query source metadata from spec file parse"
+msgstr "从 spec 文件剖析来查找源代码元数据"
+
+#: lib/poptQV.c:169
+msgid "query/verify package(s) from install transaction"
+msgstr "从安装事务作业查找/验证软件包"
+
+#: lib/poptQV.c:171
+msgid "query the package(s) triggered by the package"
+msgstr "查找由软件包所触发的软件包"
+
+#: lib/poptQV.c:173
+msgid "rpm verify mode"
+msgstr "rpm 校验模式"
+
+#: lib/poptQV.c:175
+msgid "query/verify the package(s) which require a dependency"
+msgstr "查找/校验需要某个依赖对象的软件包"
+
+#: lib/poptQV.c:177
+msgid "query/verify the package(s) which require any contained provide"
+msgstr "查找/验证需要所含提供名称的软件包"
+
+#: lib/poptQV.c:181
+msgid "query/verify the package(s) which provide a dependency"
+msgstr "查询/验证提供相关依赖的软件包"
+
+#: lib/poptQV.c:183
+msgid "query/verify the package(s) which conflict with a dependency"
+msgstr "查找/校验与某个依赖对象冲突的软件包"
+
+#: lib/poptQV.c:185
+msgid "query/verify the package(s) which obsolete a dependency"
+msgstr "查找/校验淘汰某个依赖对象的软件包"
+
+#: lib/poptQV.c:188
+msgid "create transaction set"
+msgstr "创建事务作业集"
+
+#: lib/poptQV.c:191
+msgid "do not order transaction set"
+msgstr "不排序事务作业集"
+
+#: lib/poptQV.c:194
+msgid "do not glob arguments"
+msgstr "不使用 glob 参数"
+
+#: lib/poptQV.c:196
+msgid "do not process non-package files as manifests"
+msgstr "不把非软件包文件作为清单处理"
+
+#: lib/poptQV.c:198
+msgid "do not read headers"
+msgstr "不读取标头"
+
+#: lib/poptQV.c:333
+msgid "list all configuration files"
+msgstr "列出所有配置文件"
+
+#: lib/poptQV.c:335
+msgid "list all documentation files"
+msgstr "列出所有程序文档"
+
+#: lib/poptQV.c:337
+msgid "dump basic file information"
+msgstr "转储基本文件信息"
+
+#: lib/poptQV.c:341
+msgid "list files in package"
+msgstr "列出软件包中的文件"
+
+#: lib/poptQV.c:345 lib/poptQV.c:392
+msgid "add suggested packages to transaction"
+msgstr "加入建议的软件包到事务作业"
+
+#: lib/poptQV.c:350 lib/poptQV.c:397
+#, c-format
+msgid "skip %%config files"
+msgstr "跳过 %%config 文件"
+
+#: lib/poptQV.c:353 lib/poptQV.c:400
+#, c-format
+msgid "skip %%doc files"
+msgstr "跳过 %%doc 文件"
+
+#: lib/poptQV.c:356
+#, c-format
+msgid "skip %%ghost files"
+msgstr "跳过%%ghost 文件"
+
+#: lib/poptQV.c:360
+#, c-format
+msgid "skip %%license files"
+msgstr "略过 %%license 文件"
+
+#: lib/poptQV.c:363
+#, c-format
+msgid "skip %%readme files"
+msgstr "略过 %%readme 文件"
+
+#: lib/poptQV.c:369
+msgid "use the following query format"
+msgstr "使用这种格式打印信息"
+
+#: lib/poptQV.c:369
+msgid "QUERYFORMAT"
+msgstr "QUERYFORMAT"
+
+#: lib/poptQV.c:371
+msgid "substitute i18n sections into spec file"
+msgstr "替代 i18n 区段进入规格文件"
+
+#: lib/poptQV.c:373
+msgid "display the states of the listed files"
+msgstr "显示列出文件的状态"
+
+#: lib/poptQV.c:375
+msgid "specify target platform"
+msgstr "指定目标平台"
+
+#: lib/poptQV.c:415
+msgid "don't verify size of files"
+msgstr "不验证文件大小"
+
+#: lib/poptQV.c:418
+msgid "don't verify symlink path of files"
+msgstr "不验证符号连接路径"
+
+#: lib/poptQV.c:421
+msgid "don't verify owner of files"
+msgstr "不验证文件所有者"
+
+#: lib/poptQV.c:424
+msgid "don't verify group of files"
+msgstr "不验证文件组信息"
+
+#: lib/poptQV.c:427
+msgid "don't verify modification time of files"
+msgstr "不验证文件修改时间"
+
+#: lib/poptQV.c:430 lib/poptQV.c:433
+msgid "don't verify mode of files"
+msgstr "不验证文件模式"
+
+#: lib/poptQV.c:436
+msgid "don't verify file HMAC's"
+msgstr "不验证文件的 HMAC"
+
+#: lib/poptQV.c:440
+msgid "don't verify files in package"
+msgstr "不验证软件包中文件"
+
+#: lib/poptQV.c:443 lib/poptQV.c:446
+msgid "don't verify package dependencies"
+msgstr "不验证包依赖"
+
+#: lib/poptQV.c:451 lib/poptQV.c:455 lib/poptQV.c:458 lib/poptQV.c:461
+msgid "don't execute verify script(s)"
+msgstr "不执行验证脚本"
+
+#: lib/poptQV.c:495
+msgid "sign package(s) (identical to --resign)"
+msgstr "对软件包签名 (与 --resign 含义相同)"
+
+#: lib/poptQV.c:497
+msgid "verify package signature(s)"
+msgstr "校验软件包签名"
+
+#: lib/poptQV.c:499
+msgid "delete package signatures"
+msgstr "删除软件包签名"
+
+#: lib/poptQV.c:501
+msgid "import an armored public key"
+msgstr "导入带装甲的(armored)公钥"
+
+#: lib/poptQV.c:503
+msgid "sign package(s) (identical to --addsign)"
+msgstr "签名包(同--addsign)"
+
+#: lib/poptQV.c:505
+msgid "generate signature"
+msgstr "产生签名"
+
+#: lib/poptQV.c:508
+msgid "specify trust metric"
+msgstr "指定信赖度量信息"
+
+#: lib/poptQV.c:508
+msgid "TRUST"
+msgstr "TRUST"
+
+#: lib/poptQV.c:511
+msgid "set ultimate trust when importing pubkey(s)"
+msgstr "导入 pubkey 时设置最大信赖"
+
+#: lib/poptQV.c:514
+msgid "unset ultimate trust when importing pubkey(s)"
+msgstr "导入 pubkey 时解除设置最大信赖"
+
+#: lib/poptQV.c:516
+msgid "disable password challenge"
+msgstr "停用密码挑战"
+
+#: lib/psm.c:198
+#, c-format
+msgid "cannot write to %%%s %s\n"
+msgstr "无法写入 %%%s %s\n"
+
+#: lib/psm.c:200
+#, fuzzy, c-format
+msgid "cannot chown %%%s %s\n"
+msgstr "无法打开文件 %s：%s\n"
+
+#: lib/psm.c:247
+msgid "source package expected, binary found\n"
+msgstr "期望源代码包，但找到二进制包\n"
+
+#: lib/psm.c:342
+msgid "source package contains no .spec file\n"
+msgstr "源代码包中没有找到 .spec 文件\n"
+
+#: lib/psm.c:1129 lib/rpmfc.c:125
+#, c-format
+msgid "Couldn't fork %s: %s\n"
+msgstr "无法抽取分支 %s：%s\n"
+
+#: lib/psm.c:1140
+#, c-format
+msgid "%s(%s) scriptlet failed, waitpid(%d) rc %d: %s\n"
+msgstr "%s(%s) 短脚本运行失败，waitpid(%d) rc %d：%s\n"
+
+#: lib/psm.c:1150
+#, c-format
+msgid "%s(%s) scriptlet failed, signal %d\n"
+msgstr "%s(%s) 短脚本运行失败，信号 %d\n"
+
+#: lib/psm.c:1156
+#, c-format
+msgid "%s(%s) scriptlet failed, exit status %d\n"
+msgstr "%s(%s) 短脚本运行失败，离开状态 %d\n"
+
+#: lib/psm.c:2432
+#, c-format
+msgid "%s: %s scriptlet failed (%d), skipping %s\n"
+msgstr "%s：%s 短脚本运行失败 (%d)，略过 %s\n"
+
+#: lib/psm.c:2556
+msgid "Unable to reload signature header\n"
+msgstr "无法重载签名标头\n"
+
+#: lib/psm.c:2699
+#, c-format
+msgid "unpacking of archive failed%s%s: %s\n"
+msgstr "解压压缩文件 %s%s 失败：%s\n"
+
+#: lib/psm.c:2700
+msgid " on file "
+msgstr "  在文件"
+
+#: lib/psm.c:2885
+#, c-format
+msgid "%s failed on file %s: %s\n"
+msgstr "%s 失败的于文件 %s: %s\n"
+
+#: lib/psm.c:2888
+#, c-format
+msgid "%s failed: %s\n"
+msgstr "%s 失败：%s\n"
+
+#: lib/query.c:177
+#, c-format
+msgid "incorrect format: %s\n"
+msgstr "不正确的格式：%s\n"
+
+#: lib/query.c:247
+msgid "(contains no files)"
+msgstr "(没有包含文件)"
+
+#: lib/query.c:345
+msgid "normal        "
+msgstr "正常"
+
+#: lib/query.c:348
+msgid "replaced      "
+msgstr "替换"
+
+#: lib/query.c:351
+msgid "not installed "
+msgstr "未安装"
+
+#: lib/query.c:354
+msgid "net shared    "
+msgstr "网络共享"
+
+#: lib/query.c:357
+msgid "wrong color   "
+msgstr "不对的颜色"
+
+#: lib/query.c:360
+msgid "(no state)    "
+msgstr "(无状态)    "
+
+#: lib/query.c:363
+#, c-format
+msgid "(unknown %3d) "
+msgstr "(未知 %3d) "
+
+#: lib/query.c:380 lib/query.c:410
+msgid "package without owner/group tags\n"
+msgstr "软件包内没有文件拥有者/群组记录\n"
+
+#: lib/query.c:536
+#, c-format
+msgid "key \"%s\" not found in %s table\n"
+msgstr "在 %2$s 表格中找不到索引键 %1$s\n"
+
+#: lib/query.c:570
+#, c-format
+msgid "group %s does not contain any packages\n"
+msgstr "没有找到属于 %s 组的软件包\n"
+
+#: lib/query.c:579
+#, c-format
+msgid "no package triggers %s\n"
+msgstr "没有软件包触发器 %s\n"
+
+#: lib/query.c:596 lib/query.c:620 lib/query.c:642 lib/query.c:677
+#, c-format
+msgid "malformed %s: %s\n"
+msgstr "格式不对 %s：%s\n"
+
+#: lib/query.c:608 lib/query.c:626 lib/query.c:653 lib/query.c:682
+#, c-format
+msgid "no package matches %s: %s\n"
+msgstr "没有软件包和 %s 匹配：%s\n"
+
+#: lib/query.c:693
+#, c-format
+msgid "no package requires %s\n"
+msgstr "没有软件包需要 %s\n"
+
+#: lib/query.c:704
+#, c-format
+msgid "no package provides %s\n"
+msgstr "没有软件包提供 %s\n"
+
+#: lib/query.c:756
+#, c-format
+msgid "file %s: %s\n"
+msgstr "文件 %s：%s\n"
+
+#: lib/query.c:759
+#, c-format
+msgid "file %s is not owned by any package\n"
+msgstr "文件 %s 不属于任何软件包\n"
+
+#: lib/query.c:784
+#, c-format
+msgid "invalid package number: %s\n"
+msgstr "无效的软件包编号：%s\n"
+
+#: lib/query.c:791
+#, c-format
+msgid "record %u could not be read\n"
+msgstr "记录 %u 不能读取\n"
+
+#: lib/query.c:800 lib/query.c:806 lib/rpminstall.c:839
+#, c-format
+msgid "package %s is not installed\n"
+msgstr "未安装软件包 %s \n"
+
+#: lib/rpmal.c:371
+msgid "(added files)"
+msgstr "(加入的文件)"
+
+#: lib/rpmal.c:453
+msgid "(added provide)"
+msgstr "(加入的提供物)"
+
+#: lib/rpmchecksig.c:87
+msgid "rpmTempFile failed\n"
+msgstr "rpmTempFile 失败\n"
+
+#: lib/rpmchecksig.c:129
+#, c-format
+msgid "%s: Fwrite failed: %s\n"
+msgstr "%s: Fwrite 失败: %s\n"
+
+#: lib/rpmchecksig.c:135 rpmdb/package.c:339
+#, c-format
+msgid "%s: Fread failed: %s\n"
+msgstr "%s：Fread 函数执行失败：%s\n"
+
+#: lib/rpmchecksig.c:139
+#, c-format
+msgid "%s: Fflush failed: %s\n"
+msgstr "%s: Fflush 失败：%s\n"
+
+#: lib/rpmchecksig.c:265 lib/rpmchecksig.c:1104 rpmdb/package.c:171
+#, c-format
+msgid "%s: No signature available\n"
+msgstr "%s：未发现签名\n"
+
+#: lib/rpmchecksig.c:410
+#, c-format
+msgid "%s: was already signed by key ID %s, skipping\n"
+msgstr "%s: 已经由键值识别号 %s 所签名, 跳过\n"
+
+#: lib/rpmchecksig.c:912
+#, c-format
+msgid "%s: import read failed(%d).\n"
+msgstr "%s：导入读取时失败(%d)。\n"
+
+#: lib/rpmchecksig.c:924
+#, c-format
+msgid "%s: import failed.\n"
+msgstr "%s：导入失败。\n"
+
+#: lib/rpmchecksig.c:1002
+msgid "headerGet failed"
+msgstr "headerGet 失败"
+
+#: lib/rpmchecksig.c:1003
+msgid "failed to retrieve original header\n"
+msgstr "截取原始标头时失败\n"
+
+#: lib/rpmchecksig.c:1027 rpmdb/pkgio.c:600 rpmdb/pkgio.c:791
+#: rpmdb/pkgio.c:1463
+#, c-format
+msgid "XAR file not found (or no XAR support)"
+msgstr "找不到 XAR 文件 (或是不支持 XAR)"
+
+#: lib/rpmchecksig.c:1037
+msgid "Fread failed"
+msgstr "Fread 失败"
+
+#: lib/rpmchecksig.c:1193 rpmdb/package.c:292 rpmdb/package.c:305
+#: rpmdb/package.c:318
+#, c-format
+msgid "skipping package %s with unverifiable V%u signature\n"
+msgstr "跳过具有无法确认 V%2$u 签名的软件包 %1$s \n"
+
+#: lib/rpmchecksig.c:1287
+msgid "NOT_OK"
+msgstr "不正确"
+
+#: lib/rpmchecksig.c:1288 lib/rpmchecksig.c:1302
+msgid " (MISSING KEYS:"
+msgstr " (丢失的密钥："
+
+#: lib/rpmchecksig.c:1290 lib/rpmchecksig.c:1304
+msgid ") "
+msgstr ") "
+
+#: lib/rpmchecksig.c:1291 lib/rpmchecksig.c:1305
+msgid " (UNTRUSTED KEYS:"
+msgstr " (不受信任的密钥："
+
+#: lib/rpmchecksig.c:1293 lib/rpmchecksig.c:1307
+msgid ")"
+msgstr ")"
+
+#: lib/rpmchecksig.c:1301
+msgid "OK"
+msgstr "确定"
+
+#: lib/rpmds.c:908 lib/rpmds.c:4167
+msgid "NO "
+msgstr "否"
+
+#: lib/rpmds.c:908 lib/rpmds.c:4167
+msgid "YES"
+msgstr "是"
+
+#: lib/rpmds.c:1455
+msgid "PreReq:, Provides:, and Obsoletes: dependencies support versions."
+msgstr "PreReq:、Provides:、以及 Obsoletes: 依赖支持版本。"
+
+#: lib/rpmds.c:1458
+msgid "file name(s) stored as (dirName,baseName,dirIndex) tuple, not as path."
+msgstr "文件名称保存为 (dirName、baseName、dirIndex) 字组，而非路径。"
+
+#: lib/rpmds.c:1462
+msgid "package payload can be compressed using bzip2."
+msgstr "软件包净负荷可以使用 bzip2 压缩。"
+
+#: lib/rpmds.c:1466
+msgid "package payload file(s) have \"./\" prefix."
+msgstr "软件包净负荷有\"./\" 前缀。"
+
+#: lib/rpmds.c:1469
+msgid "package name-version-release is not implicitly provided."
+msgstr "软件包 name-version-release 没有隐含地提供。"
+
+#: lib/rpmds.c:1472
+msgid "header tags are always sorted after being loaded."
+msgstr "头标签总是排序后被加载。"
+
+#: lib/rpmds.c:1475
+msgid "the scriptlet interpreter can use arguments from header."
+msgstr "脚本解译器可以从标头中调用参数。"
+
+#: lib/rpmds.c:1478
+msgid "a hardlink file set may be installed without being complete."
+msgstr "硬链接文件集没有被完整的安装。"
+
+#: lib/rpmds.c:1481
+msgid "package scriptlets may access the rpm database while installing."
+msgstr "软件包脚本在安装过程中允许访问 rpm 数据库。"
+
+#: lib/rpmds.c:1485
+msgid "internal embedded lua scripts."
+msgstr "内部嵌入的 lua 脚本。"
+
+#: lib/rpmds.c:1490
+msgid "internal embedded Augeas."
+msgstr "内部嵌入的 Augeas。"
+
+#: lib/rpmds.c:1495
+msgid "internal embedded FICL."
+msgstr "内部嵌入的 FICL。"
+
+#: lib/rpmds.c:1500
+#, fuzzy
+msgid "internal embedded JVM BeanShell."
+msgstr "内部嵌入的 Augeas。"
+
+#: lib/rpmds.c:1505
+msgid "internal embedded JavaScript."
+msgstr "内部嵌入的 JavaScript。"
+
+#: lib/rpmds.c:1510
+#, fuzzy
+msgid "internal embedded Mruby scripts."
+msgstr "内部嵌入的 ruby 脚本。"
+
+#: lib/rpmds.c:1515
+msgid "internal embedded perl scripts."
+msgstr "内部嵌入的 perl 脚本。"
+
+#: lib/rpmds.c:1520
+msgid "internal embedded python scripts."
+msgstr "内部嵌入的 python 脚本。"
+
+#: lib/rpmds.c:1525
+#, fuzzy
+msgid "internal embedded Cruby scripts."
+msgstr "内部嵌入的 ruby 脚本。"
+
+#: lib/rpmds.c:1530
+msgid "internal embedded Spook scripts."
+msgstr "内部嵌入的 Spook 脚本。"
+
+#: lib/rpmds.c:1535
+msgid "internal embedded sqlite3 scripts."
+msgstr "内部嵌入的 sqlite3 脚本。"
+
+#: lib/rpmds.c:1540
+msgid "internal embedded squirrel scripts."
+msgstr "内部嵌入的 squirrel 脚本。"
+
+#: lib/rpmds.c:1545
+msgid "internal embedded tcl scripts."
+msgstr "内部嵌入的 tcl 脚本。"
+
+#: lib/rpmds.c:1549
+msgid "header tag data can be of type uint64_t."
+msgstr "标头标记数据可以是 uint64_t 型态。"
+
+#: lib/rpmds.c:1552
+msgid "package payload can be in ustar tar archive format."
+msgstr "软件包酬载可以存在 ustar 打包格式之中。"
+
+#: lib/rpmds.c:1556
+msgid "package payload can be compressed using lzma."
+msgstr "软件包净负荷可以使用 lzma 压缩。"
+
+#: lib/rpmds.c:1560 lib/rpmds.c:1563
+msgid "file digests can be other than MD5."
+msgstr "文件摘要可以不是 MD5。"
+
+#: lib/rpmds.c:1567
+msgid "package payload can be in ar archive format."
+msgstr "软件包酬载可以存在 ar 打包格式之中。"
+
+#: lib/rpmds.c:1572
+msgid "package payload can be compressed using xz."
+msgstr "软件包净负荷可以使用 xz 压缩。"
+
+#: lib/rpmds.c:1577
+msgid "dependencies support set/subset versions."
+msgstr ""
+
+#: lib/rpmds.c:1668 lib/rpmds.c:3920
+#, c-format
+msgid "%s:%d \"%s\" has invalid name. Skipping ...\n"
+msgstr "%s:%d“%s”的名称无效。跳过…\n"
+
+#: lib/rpmds.c:1691 lib/rpmds.c:3937
+#, c-format
+msgid "%s:%d \"%s\" has no comparison operator. Skipping ...\n"
+msgstr "%s:%d“%s”没有比较运算符。跳过…\n"
+
+#: lib/rpmds.c:1702 lib/rpmds.c:3952
+#, c-format
+msgid "%s:%d \"%s\" has no EVR string. Skipping ...\n"
+msgstr "%s:%d“%s”没有 EVR 字串。跳过…\n"
+
+#: lib/rpmds.c:3919 lib/rpmds.c:3936 lib/rpmds.c:3948
+#, c-format
+msgid "running \"%s\" pipe command\n"
+msgstr "正在运行“%s”管道命令\n"
+
+#: lib/rpmds.c:3950
+#, c-format
+msgid ""
+"\tline %d: No EVR comparison value found.\n"
+" Skipping ..."
+msgstr ""
+"\t行 %d：找不到 EVR 比较值。\n"
+"跳过…"
+
+#: lib/rpmds.c:4099
+#, c-format
+msgid ""
+"The \"B\" dependency needs an epoch (assuming same epoch as \"A\")\n"
+"\tA = \"%s\"\tB = \"%s\"\n"
+msgstr ""
+"“B”依赖关系需要 epoch (假设与“A”为相同 epoch)\n"
+"\tA = “%s”\tB = “%s”\n"
+
+#: lib/rpmds.c:4129 lib/rpmds.c:4131 rpmdb/rpmevr.c:322 rpmdb/rpmevr.c:324
+#, fuzzy, c-format
+msgid "failed to decode %s\n"
+msgstr "打开 %s 失败：%s\n"
+
+#: lib/rpmfc.c:96
+#, c-format
+msgid "Couldn't create pipe for %s: %m\n"
+msgstr "无法为 %s建立管道： %m\n"
+
+#: lib/rpmfc.c:120
+#, c-format
+msgid "Couldn't exec %s: %s\n"
+msgstr "无法执行%s：%s\n"
+
+#: lib/rpmfc.c:216
+#, c-format
+msgid "Command \"%s\" failed, exit(%d)\n"
+msgstr "命令“%s”失败，离开(%d)\n"
+
+#: lib/rpmfc.c:222
+#, c-format
+msgid "failed to write all data to %s\n"
+msgstr "写入所有数据到 %s 时失败\n"
+
+#: lib/rpmfc.c:361
+#, c-format
+msgid "Compilation of pattern '%s' (expanded from '%s') failed. Skipping ...\n"
+msgstr "模式‘%s’的编译 (展开自‘%s’) 失败。跳过…\n"
+
+#: lib/rpmfc.c:391
+#, c-format
+msgid "Skipping %c: '%s'\n"
+msgstr "跳过 %c：'%s'\n"
+
+#: lib/rpmfc.c:1163
+#, c-format
+msgid "skipping %s provides detection\n"
+msgstr "跳过 %s 提供软件包检查\n"
+
+#: lib/rpmfc.c:1173
+#, c-format
+msgid "skipping %s requires detection\n"
+msgstr "跳过 %s 需求软件包检查\n"
+
+#: lib/rpmfc.c:1579
+#, c-format
+msgid "Finding  %s: %s\n"
+msgstr "正在查找 %s：%s\n"
+
+#: lib/rpmfc.c:1584 lib/rpmfc.c:1596
+#, c-format
+msgid "Failed to find %s:\n"
+msgstr "查找 %s 失败：\n"
+
+#: lib/rpmgi.c:104 lib/rpminstall.c:165 lib/rpmrollback.c:197 lib/rpmts.c:486
+#: tools/rpmdigest.c:645
+#, c-format
+msgid "open of %s failed: %s\n"
+msgstr "打开 %s 失败： %s\n"
+
+#: lib/rpmgi.c:244
+#, fuzzy, c-format
+msgid "not signed: %s\n"
+msgstr " 未修改：%s)\n"
+
+#: lib/rpmgi.c:468
+#, c-format
+msgid "unknown tag: \"%s\"\n"
+msgstr "未知标签：\"%s\"\n"
+
+#: lib/rpminstall.c:237
+msgid "Preparing..."
+msgstr "准备中..."
+
+#: lib/rpminstall.c:239
+msgid "Preparing packages for installation..."
+msgstr "正在准备要安装的软件包…"
+
+#: lib/rpminstall.c:257
+msgid "Repackaging..."
+msgstr "重新打包中…"
+
+#: lib/rpminstall.c:259
+msgid "Repackaging erased files..."
+msgstr "正在重新打包被清除的文件…"
+
+#: lib/rpminstall.c:278
+msgid "Upgrading..."
+msgstr "更新中…"
+
+#: lib/rpminstall.c:280
+msgid "Upgrading packages..."
+msgstr "正在更新软件包…"
+
+#: lib/rpminstall.c:325
+msgid "    Suggested resolutions:\n"
+msgstr "    推荐解决方案：\n"
+
+#: lib/rpminstall.c:339
+msgid "Failed dependencies"
+msgstr "依赖关系失败"
+
+#: lib/rpminstall.c:346
+msgid "Ordering problems"
+msgstr "定序问题"
+
+#: lib/rpminstall.c:353
+msgid "Install/Erase problems"
+msgstr "安装/清除问题"
+
+#: lib/rpminstall.c:626
+#, c-format
+msgid "package \"%s\" cannot be found\n"
+msgstr "找不到软件包“%s”\n"
+
+#: lib/rpminstall.c:648
+#, c-format
+msgid "package \"%s\" cannot be erased\n"
+msgstr "无法移除软件包“%s”\n"
+
+#: lib/rpminstall.c:675
+#, c-format
+msgid "package %s is not relocatable\n"
+msgstr "软件包 %s 不能重定位\n"
+
+#: lib/rpminstall.c:848
+#, c-format
+msgid "\"%s\" specifies multiple packages\n"
+msgstr "“%s”指定了多个软件包\n"
+
+#: lib/rpminstall.c:893
+#, c-format
+msgid "cannot open %s: %s\n"
+msgstr "无法打开 %s：%s\n"
+
+#: lib/rpminstall.c:898
+#, c-format
+msgid "Installing %s\n"
+msgstr "正在安装 %s\n"
+
+#: lib/rpminstall.c:909
+#, c-format
+msgid "%s cannot be installed\n"
+msgstr "不能安装 %s \n"
+
+#: lib/rpmlock.c:156 lib/rpmlock.c:166
+#, c-format
+msgid "can't create transaction lock on %s (%s)\n"
+msgstr "无法于 %s (%s) 创建事务作业锁定\n"
+
+#: lib/rpmlock.c:162
+#, c-format
+msgid "waiting for transaction lock on %s\n"
+msgstr "于 %s 等待事务作业锁定\n"
+
+#: lib/rpmps.c:238
+msgid "different"
+msgstr "不同"
+
+#: lib/rpmps.c:246
+#, c-format
+msgid "package %s is intended for a %s platform"
+msgstr "软件包 %s 是适用于用于 %s 平台"
+
+#: lib/rpmps.c:251
+#, c-format
+msgid "package %s is already installed"
+msgstr "软件包 %s 已经安装"
+
+#: lib/rpmps.c:256
+#, c-format
+msgid "re-packaged package with %s: %s is missing"
+msgstr "以 %s 重新包装软件包：缺少 %s"
+
+#: lib/rpmps.c:261
+#, c-format
+msgid "path %s in package %s is not relocatable"
+msgstr "在软件包 %s 中的路径 %s 无法重新部署"
+
+#: lib/rpmps.c:266
+#, c-format
+msgid "file %s conflicts between attempted installs of %s and %s"
+msgstr "试图安装 %2$s 和 %3$s 会导致文件 %1$s 冲突"
+
+#: lib/rpmps.c:271
+#, c-format
+msgid "file %s from install of %s conflicts with file from package %s"
+msgstr "从 %s 安装的文件 %s 与来自软件包 %s 的文件产生冲突"
+
+#: lib/rpmps.c:276
+#, c-format
+msgid "package %s (which is newer than %s) is already installed"
+msgstr "软件包 %s (比 %s 还要新) 已经安装"
+
+#: lib/rpmps.c:281
+#, c-format
+msgid "installing package %s needs %lu%cB on the %s filesystem"
+msgstr "安装软件包 %s 时需要 %lu%cB 空间于文件系统 %s 上"
+
+#: lib/rpmps.c:291
+#, c-format
+msgid "installing package %s needs %lu inodes on the %s filesystem"
+msgstr "安装软件包 %s 时需要 %lu 个节点于文件系统 %s 上"
+
+#: lib/rpmps.c:296
+#, c-format
+msgid "package %s pre-transaction syscall(s): %s failed: %s"
+msgstr "软件包 %s 的事务作业前系统调用：%s 失败：%s"
+
+#: lib/rpmps.c:300
+#, c-format
+msgid "%s is needed by %s%s"
+msgstr "%s 被 %s%s 需要"
+
+#: lib/rpmps.c:302 lib/rpmps.c:307
+msgid "(installed) "
+msgstr "(已安裝) "
+
+#: lib/rpmps.c:305
+#, c-format
+msgid "%s conflicts with %s%s"
+msgstr "%s 与 %s%s 冲突"
+
+#: lib/rpmps.c:311
+#, c-format
+msgid "installing package %s on %s rdonly filesystem"
+msgstr "安装软件包 %s 于 %s 只读文件系统"
+
+#: lib/rpmps.c:316
+#, c-format
+msgid "unknown error %d encountered while manipulating package %s"
+msgstr "遇到未知错误 %d 在处理包 %s 时"
+
+#: lib/rpmrc.c:1217
+#, c-format
+msgid "Configured system provides (from %s):\n"
+msgstr "已组配的系统提供 (来自 %s)：\n"
+
+#: lib/rpmrc.c:1232
+#, c-format
+msgid "Features provided by rpmlib installer:\n"
+msgstr "由 rpmlib 安装程序提供的功能：\n"
+
+#: lib/rpmrc.c:1253
+#, c-format
+msgid "Features provided by current cpuinfo (from %s):\n"
+msgstr "由目前 cpuinfo 提供的功能 (来自 %s)：\n"
+
+#: lib/rpmrc.c:1273
+#, c-format
+msgid "Features provided by current getconf:\n"
+msgstr "由目前 getconf 提供的功能：\n"
+
+#: lib/rpmrc.c:1288
+#, c-format
+msgid "Features provided by current uname:\n"
+msgstr "由目前 uname 提供的功能：\n"
+
+#: lib/rpmrollback.c:548
+#, c-format
+msgid "Excluding TID from rollback: %-24.24s (0x%08x)\n"
+msgstr "排除 TID 自回溯：%-24.24s (0x%08x)\n"
+
+#: lib/rpmrollback.c:652
+msgid "Missing re-packaged package(s)"
+msgstr "缺少重新打包的软件包"
+
+#: lib/rpmrollback.c:660
+#, c-format
+msgid "Rollback packages (+%d/-%d) to %-24.24s (0x%08x):\n"
+msgstr "回溯软件包 (+%d/-%d) to %-24.24s (0x%08x)：\n"
+
+#: lib/rpmrollback.c:686
+msgid "Cleaning up repackaged packages:\n"
+msgstr "正在清除重新产生的打包：\n"
+
+#: lib/rpmrollback.c:693
+#, c-format
+msgid "\tRemoving %s:\n"
+msgstr "\t正在移除 %s：\n"
+
+#: lib/rpmts.c:130 rpmdb/pkgio.c:252
+#, c-format
+msgid "cannot open Packages database in %s\n"
+msgstr "无法从 %s 打开软件包数据库\n"
+
+#: lib/rpmts.c:315
+#, c-format
+msgid "cannot open Solve database in %s\n"
+msgstr "无法打开解析数据库于 %s\n"
+
+#: lib/rpmts.c:476
+#, c-format
+msgid "incorrect solve path format: %s\n"
+msgstr "不正确的路径解析格式：%s\n"
+
+#: lib/transaction.c:1565
+#, c-format
+msgid "Unable to change root directory: %m\n"
+msgstr "无法更改根目录： %m\n"
+
+#: lib/transaction.c:2066
+#, c-format
+msgid "rpmdb erase failed. NEVRA: %s\n"
+msgstr "rpmdb 清除失败。NEVRA：%s\n"
+
+#: lib/transaction.c:2084
+#, c-format
+msgid "Rollback to %-24.24s (0x%08x)\n"
+msgstr "回溯到 %-24.24s (0x%08x)\n"
+
+#: lib/transaction.c:2176
+msgid "Invalid number of transaction elements.\n"
+msgstr "无效的事务作业组件号码。\n"
+
+#: lib/verify.c:352
+#, c-format
+msgid "missing   %c %s"
+msgstr "遗漏   %c %s"
+
+#: lib/verify.c:509
+#, c-format
+msgid "Unsatisfied dependencies for %s:\n"
+msgstr "未满足的依赖关系 %s：\n"
+
+#: rpmdb/db3.c:1954
+#, fuzzy, c-format
+msgid "db3: header #%u cannot be loaded -- skipping.\n"
+msgstr "rpmdb：无法加载标头 #%u -- 跳过。\n"
+
+#: rpmdb/db3.c:2466
+msgid "Re-opening dbenv with DB_RECOVER ...\n"
+msgstr "重新以 DB_RECOVER 打开 dbenv…\n"
+
+#: rpmdb/db3.c:2472
+msgid ""
+"\n"
+"recovery failed. Exiting ...\n"
+msgstr ""
+"\n"
+"复原失败。离开…\n"
+
+#: rpmdb/db3.c:2475
+msgid ""
+".\n"
+"recovery succeeded.\n"
+msgstr ""
+"。\n"
+"复原成功。\n"
+
+#: rpmdb/db3.c:2762
+#, c-format
+msgid "cannot get %s lock on %s/%s\n"
+msgstr "无法取得 %s 位于 %s/%s 的锁定\n"
+
+#: rpmdb/db3.c:2764
+msgid "exclusive"
+msgstr "排他"
+
+#: rpmdb/db3.c:2764
+msgid "shared"
+msgstr "已共享"
+
+#: rpmdb/dbconfig.c:536
+#, c-format
+msgid "unrecognized db option: \"%s\" ignored.\n"
+msgstr "无法识别的数据库选项：\"%s\" 已忽略。\n"
+
+#: rpmdb/dbconfig.c:575
+#, c-format
+msgid "%s has invalid numeric value, skipped\n"
+msgstr "%s 有无效的数值，忽略\n"
+
+#: rpmdb/dbconfig.c:584
+#, c-format
+msgid "%s has too large or too small long value, skipped\n"
+msgstr "%s 有过大或者是过小的 long 数值，忽略\n"
+
+#: rpmdb/dbconfig.c:593
+#, c-format
+msgid "%s has too large or too small integer value, skipped\n"
+msgstr "%s 有过大或者是过小的整数值，忽略\n"
+
+#: rpmdb/hdrfmt.c:103 rpmdb/hdrfmt.c:209
+msgid "(not a number)"
+msgstr "(不是数字)"
+
+#: rpmdb/hdrfmt.c:237
+#, c-format
+msgid "%c"
+msgstr "%c"
+
+#: rpmdb/hdrfmt.c:249
+msgid "%a %b %d %Y"
+msgstr "%a %b %d %Y"
+
+#: rpmdb/hdrfmt.c:303
+msgid "invalid type"
+msgstr "无效型态"
+
+#: rpmdb/hdrfmt.c:663 rpmdb/hdrfmt.c:694 rpmdb/hdrfmt.c:717 rpmdb/hdrfmt.c:787
+#: rpmdb/hdrfmt.c:1462 rpmdb/hdrfmt.c:1514
+msgid "(invalid type)"
+msgstr "(无效类型)"
+
+#: rpmdb/hdrfmt.c:775
+msgid "(not base64)"
+msgstr "(非base64)"
+
+#: rpmdb/hdrfmt.c:818
+msgid "(invalid type :base64)"
+msgstr "(无效型态：base64)"
+
+#: rpmdb/hdrfmt.c:975 rpmdb/hdrfmt.c:1006 rpmdb/hdrfmt.c:3495
+#: rpmdb/hdrfmt.c:4342
+msgid "(not a string)"
+msgstr "(不是字符串)"
+
+#: rpmdb/hdrfmt.c:1065
+msgid "(invalid xml type)"
+msgstr "(无效的xml 类型)"
+
+#: rpmdb/hdrfmt.c:1216
+msgid "(invalid yaml type)"
+msgstr "(无效的 yaml 型态)"
+
+#: rpmdb/hdrfmt.c:1322
+#, fuzzy
+msgid "(invalid json type)"
+msgstr "(无效型态)"
+
+#: rpmdb/hdrfmt.c:1377
+msgid "(not a blob)"
+msgstr "(非blob)"
+
+#: rpmdb/hdrfmt.c:1400
+msgid "(not an OpenPGP signature)"
+msgstr "(不是OpenPGP 签名)"
+
+#: rpmdb/hdrfmt.c:4554
+msgid "(invalid type :digest)"
+msgstr "(无效型态：digest)"
+
+#: rpmdb/hdrfmt.c:4613
+msgid "(invalid type :stat)"
+msgstr "(无效型态：stat)"
+
+#: rpmdb/hdrfmt.c:4787
+msgid "(invalid type :uuid)"
+msgstr "(无效型态：uuid)"
+
+#: rpmdb/hdrfmt.c:4795 rpmdb/hdrfmt.c:4828
+#, fuzzy
+msgid "(invalid tag :uuid)"
+msgstr "(无效型态：uuid)"
+
+#: rpmdb/hdrfmt.c:4894
+msgid "(invalid type :rpn)"
+msgstr "(无效型态：rpn)"
+
+#: rpmdb/hdrfmt.c:4906
+msgid "(invalid string :rpn)"
+msgstr "(无效字串：rpn)"
+
+#: rpmdb/hdrfmt.c:4922
+msgid "(expected number :rpn)"
+msgstr "(预期为数字：rpn)"
+
+#: rpmdb/hdrfmt.c:4926
+msgid "(stack overflow :rpn)"
+msgstr "(堆叠向上溢出：rpn)"
+
+#: rpmdb/hdrfmt.c:4932
+msgid "(invalid number :rpn)"
+msgstr "(无效的数字：rpn)"
+
+#: rpmdb/hdrfmt.c:4937
+msgid "(stack underflow :rpn)"
+msgstr "(堆叠向下溢出：rpn)"
+
+#: rpmdb/hdrfmt.c:4950
+msgid "(divide by zero :rpn)"
+msgstr "(被零除：rpn)"
+
+#: rpmdb/hdrfmt.c:4993
+msgid "(invalid type :strsub)"
+msgstr "(无效型态：strsub)"
+
+#: rpmdb/hdrfmt.c:4998
+msgid "(invalid args :strsub)"
+msgstr "(无效的参数：strsub)"
+
+#: rpmdb/hdrfmt.c:5862
+msgid "missing { after %"
+msgstr "% 之后遗漏 {"
+
+#: rpmdb/hdrfmt.c:5896
+msgid "missing } after %{"
+msgstr "在 %{ 之后丢失了 } "
+
+#: rpmdb/hdrfmt.c:5912
+msgid "empty tag format"
+msgstr "空白标签格式"
+
+#: rpmdb/hdrfmt.c:5933
+msgid "malformed parameter list"
+msgstr "异常的参数表表"
+
+#: rpmdb/hdrfmt.c:5954
+msgid "empty tag name"
+msgstr "空白标签名称"
+
+#: rpmdb/hdrfmt.c:5963
+msgid "unknown tag"
+msgstr "未知标签"
+
+#: rpmdb/hdrfmt.c:5993
+msgid "] expected at end of array"
+msgstr "] 预期于数组结尾"
+
+#: rpmdb/hdrfmt.c:6010
+msgid "unexpected ]"
+msgstr "未预期的 ]"
+
+#: rpmdb/hdrfmt.c:6025
+msgid "unexpected }"
+msgstr "未预期的 }"
+
+#: rpmdb/hdrfmt.c:6104
+msgid "? expected in expression"
+msgstr "? 预期于表达式中"
+
+#: rpmdb/hdrfmt.c:6111
+msgid "{ expected after ? in expression"
+msgstr "{ 预期于运算式中 ? 之后"
+
+#: rpmdb/hdrfmt.c:6123 rpmdb/hdrfmt.c:6163
+msgid "} expected in expression"
+msgstr "} 预期在表达式中"
+
+#: rpmdb/hdrfmt.c:6131
+msgid ": expected following ? subexpression"
+msgstr "： 预期跟着子运算式"
+
+#: rpmdb/hdrfmt.c:6149
+msgid "{ expected after : in expression"
+msgstr "{ 预期于运算式中 : 之后"
+
+#: rpmdb/hdrfmt.c:6171
+msgid "| expected at end of expression"
+msgstr "| 预期于表达式结尾"
+
+#: rpmdb/hdrfmt.c:6511
+msgid "array iterator used with different sized arrays"
+msgstr "使用不同大小数组的数组的迭代器"
+
+#: rpmdb/package.c:165
+msgid "read failed\n"
+msgstr "读取失败\n"
+
+#: rpmdb/pkgio.c:89
+msgid "write of NULL header"
+msgstr "NULL 标头的写入"
+
+#: rpmdb/pkgio.c:96
+msgid "headerUnload failed"
+msgstr "headerUnload 失败"
+
+#: rpmdb/pkgio.c:108
+msgid "short write of header magic"
+msgstr "标头幻数的短式写入"
+
+#: rpmdb/pkgio.c:120
+msgid "short write of header"
+msgstr "标头的短式写入"
+
+#: rpmdb/pkgio.c:568 rpmdb/pkgio.c:573
+#, c-format
+msgid "lead size(%u): BAD, read(%d), %s(%d)"
+msgstr "导语大小(%u):不当，读取(%d)，%s(%d)"
+
+#: rpmdb/pkgio.c:607
+#, c-format
+msgid "lead size(%u): BAD, xar read(%u)"
+msgstr "导语大小(%u):不当，xar 读取(%u)"
+
+#: rpmdb/pkgio.c:624
+#, c-format
+msgid "lead magic: BAD, read %02x%02x%02x%02x"
+msgstr "导语幻数：不当，读取 %02x%02x%02x%02x"
+
+#: rpmdb/pkgio.c:633
+#, c-format
+msgid "lead version(%u): UNSUPPORTED"
+msgstr "导语版本(%u)：不支持"
+
+#: rpmdb/pkgio.c:644
+#, c-format
+msgid "sigh type(%u): UNSUPPORTED"
+msgstr "sigh 型态 (%u)：不支持"
+
+#: rpmdb/pkgio.c:799
+#, c-format
+msgid "sigh size(%d): BAD, read returned %d"
+msgstr "sigh 大小(%d):不当，读取返回的 %d"
+
+#: rpmdb/pkgio.c:811
+#, c-format
+msgid "sigh magic: BAD, read %02x%02x%02x%02x%02x%02x%02x%02x"
+msgstr "sigh 幻数：BAD，读取 %02x%02x%02x%02x%02x%02x%02x%02x"
+
+#: rpmdb/pkgio.c:819
+#, c-format
+msgid "sigh tags: BAD, no. of tags(%u) out of range"
+msgstr "sigh 标记：不当，标记(%u)的号码超出范围"
+
+#: rpmdb/pkgio.c:825
+#, c-format
+msgid "sigh data: BAD, no. of bytes(%u) out of range"
+msgstr "sigh 数据：不当，字节(%u)的号码超出范围"
+
+#: rpmdb/pkgio.c:853
+#, c-format
+msgid "sigh blob(%u): BAD, read returned %d"
+msgstr "sigh 通配符解析(%u):不当，读取返回的 %d"
+
+#: rpmdb/pkgio.c:874 rpmdb/pkgio.c:1120 rpmdb/pkgio.c:1266
+#, c-format
+msgid "tag[%d]: BAD, tag %u type %u offset %d count %u"
+msgstr "标记[%d]:不当，标记 %u 型态 %u 偏移 %d 计数 %u"
+
+#: rpmdb/pkgio.c:889 rpmdb/pkgio.c:1138
+#, fuzzy, c-format
+msgid "region tag: BAD, tag %u type %u offset %d count %u"
+msgstr "区域结尾：不当，标记 %u 型态 %u 偏移 %d 计数 %u"
+
+#: rpmdb/pkgio.c:903 rpmdb/pkgio.c:1148
+#, c-format
+msgid "region offset: BAD, tag %u type %u offset %d count %u"
+msgstr "区域偏移：不当，标记 %u 型态 %u 偏移 %d 计数 %u"
+
+#: rpmdb/pkgio.c:928 rpmdb/pkgio.c:1167
+#, c-format
+msgid "region trailer: BAD, tag %u type %u offset %d count %u"
+msgstr "区域结尾：不当，标记 %u 型态 %u 偏移 %d 计数 %u"
+
+#: rpmdb/pkgio.c:940 rpmdb/pkgio.c:1179
+#, c-format
+msgid "region size: BAD, ril(%u) > il(%u)"
+msgstr "区域大小：不当，ril(%u) > il(%u)"
+
+#: rpmdb/pkgio.c:951
+#, c-format
+msgid "sigh tag[%u]: BAD, tag %u type %u offset %d count %u"
+msgstr "sigh 标记[%u]:不当，标记 %u 型态 %u 偏移 %d 计数 %u"
+
+#: rpmdb/pkgio.c:961
+#, c-format
+msgid "sigh load: BAD"
+msgstr "sigh 载入: BAD"
+
+#: rpmdb/pkgio.c:978
+#, c-format
+msgid "sigh pad(%u): BAD, read %d bytes"
+msgstr "sigh 填充(%u):不当，读取 %d 字节"
+
+#: rpmdb/pkgio.c:991
+#, c-format
+msgid "sigh sigSize(%u): BAD, Fstat(2) failed"
+msgstr "sigh sigSize(%u):不当，fstat(2) 失败"
+
+#: rpmdb/pkgio.c:1111
+#, c-format
+msgid "blob size(%d): BAD, 8 + 16 * il(%u) + dl(%u)"
+msgstr "blob 大小(%d):不当，8 + 16 * il(%u) + dl(%u)"
+
+#: rpmdb/pkgio.c:1188
+#, c-format
+msgid "tag[%u]: BAD, tag %u type %u offset %d count %u"
+msgstr "标记[%u]:不当，标记 %u 型态 %u 偏移 %d 计数 %u"
+
+#: rpmdb/pkgio.c:1207
+#, c-format
+msgid "hdr SHA1: BAD, not hex"
+msgstr "标头 SHA1:不当，不是十六进制"
+
+#: rpmdb/pkgio.c:1219
+#, c-format
+msgid "hdr RSA: BAD, not binary"
+msgstr "标头 RSA：不当，并非二进制"
+
+#: rpmdb/pkgio.c:1229
+#, c-format
+msgid "hdr DSA: BAD, not binary"
+msgstr "标头 DSA：不当，不是二进制"
+
+#: rpmdb/pkgio.c:1239
+#, fuzzy, c-format
+msgid "hdr ECDSA: BAD, not binary"
+msgstr "标头 DSA：不当，不是二进制"
+
+#: rpmdb/pkgio.c:1305 rpmdb/pkgio.c:1324 rpmdb/pkgio.c:1343
+#, c-format
+msgid "skipping header with unverifiable V%u signature\n"
+msgstr "跳过具有无法确认 V%u 签名的标头\n"
+
+#: rpmdb/pkgio.c:1476
+#, c-format
+msgid "hdr size(%u): BAD, read returned %d"
+msgstr "标头大小(%u):不当，读取返回 %d"
+
+#: rpmdb/pkgio.c:1486
+#, c-format
+msgid "hdr magic: BAD, read %02x%02x%02x%02x%02x%02x%02x%02x"
+msgstr "标头幻数：BAD，读取 %02x%02x%02x%02x%02x%02x%02x%02x"
+
+#: rpmdb/pkgio.c:1494
+#, c-format
+msgid "hdr tags: BAD, no. of tags(%u) out of range"
+msgstr "标头标记：不当，标记(%u)的号码超出范围"
+
+#: rpmdb/pkgio.c:1501
+#, c-format
+msgid "hdr data: BAD, no. of bytes(%u) out of range\n"
+msgstr "标头数据：不当，字节(%u)的号码超出范围\n"
+
+#: rpmdb/pkgio.c:1528
+#, c-format
+msgid "hdr blob(%u): BAD, read returned %d"
+msgstr "标头 blob(%u):不当，读取返回 %d"
+
+#: rpmdb/pkgio.c:1549
+#, c-format
+msgid "hdr load: BAD\n"
+msgstr "标头加载：不当\n"
+
+#: rpmdb/poptDB.c:39
+msgid "rebuild database inverted lists from installed package headers"
+msgstr "从已安装软件包包头重建数据库反向列表"
+
+#: rpmdb/poptDB.c:43
+msgid "Debug rpmdb DataBase"
+msgstr "调试 rpmdb 数据库"
+
+#: rpmdb/poptDB.c:45
+msgid "Debug dbiIndex DataBase Index"
+msgstr "调试 dbiIndex 数据库索引"
+
+#: rpmdb/poptDB.c:47
+msgid "Debug rpmlio database Log I/O"
+msgstr "调试 rpmlio 数据库记录 I/O "
+
+#: rpmdb/poptDB.c:49
+#, fuzzy
+msgid "Debug rpmmdb Mongo DB"
+msgstr "调试 rpmdb 数据库"
+
+#: rpmdb/poptDB.c:51
+msgid "Debug rpmrepo repository wrappers "
+msgstr ""
+
+#: rpmdb/poptDB.c:53
+msgid "Debug rpmtxn database Transaction"
+msgstr "调试 rpmtxn 数据库事务作业"
+
+#: rpmdb/poptDB.c:56
+#, fuzzy
+msgid "Debug SQLDB cursors"
+msgstr "调试内嵌的 SQL 虚拟光标"
+
+#: rpmdb/poptDB.c:58
+msgid "Debug SQLDB"
+msgstr "调试 SQLDB"
+
+#: rpmdb/rpmdb.c:269
+#, c-format
+msgid ""
+"cannot open %s(%u) index: %s(%d)\n"
+"\tDB: %s\n"
+msgstr ""
+"无法打开 %s(%u) 索引：%s(%d)\n"
+"\tDB: %s\n"
+
+#: rpmdb/rpmdb.c:590
+#, c-format
+msgid "incorrect format: \"%s\": %s\n"
+msgstr "不正确格式：“%s”：%s\n"
+
+#: rpmdb/rpmdb.c:1027
+msgid "no dbpath has been set\n"
+msgstr "没有设置 dbpath\n"
+
+#: rpmdb/rpmdb.c:1231 rpmdb/rpmdb.c:1591
+#, c-format
+msgid "error(%d) getting records from %s index\n"
+msgstr "从 %2$s 索引取得记录时产生错误(%1$d)\n"
+
+#: rpmdb/rpmdb.c:1462
+#, c-format
+msgid "error(%d) getting keys from %s index\n"
+msgstr "从 %2$s 索引取得记录时产生错误(%1$d)\n"
+
+#: rpmdb/rpmdb.c:1660
+#, c-format
+msgid "error(%d) storing record h#%u into %s\n"
+msgstr "保存记录 h#%2$u 进入 %3$s 时产生错误(%1$d)\n"
+
+#: rpmdb/rpmdb.c:2389
+#, c-format
+msgid "rpmdb: header #%u cannot be loaded -- skipping.\n"
+msgstr "rpmdb：无法加载标头 #%u -- 跳过。\n"
+
+#: rpmdb/rpmdb.c:2800
+#, c-format
+msgid "%s: cannot read header at 0x%x\n"
+msgstr "%s：无法读取位于 0x%x 的表头\n"
+
+#: rpmdb/rpmrepo.c:511
+#, c-format
+msgid "Cannot create/verify %s: %s"
+msgstr "无法创建/验证 %s：%s"
+
+#: rpmdb/rpmrepo.c:544
+#, c-format
+msgid "Directory %s must exist"
+msgstr "目录 %s 必须存在"
+
+#: rpmdb/rpmrepo.c:551
+#, c-format
+msgid "Directory %s does not exist."
+msgstr "目录 %s 不存在。"
+
+#: rpmdb/rpmrepo.c:555
+#, c-format
+msgid "Directory %s must be writable."
+msgstr "目录 %s 必须为可写入。"
+
+#: rpmdb/rpmrepo.c:565
+#, c-format
+msgid "Old data directory exists, please remove: %s"
+msgstr "旧的数据目录已存在，请移除：%s"
+
+#: rpmdb/rpmrepo.c:581
+#, c-format
+msgid "Path must be writable: %s"
+msgstr "路径必须可写入：%s"
+
+#: rpmdb/rpmrepo.c:601
+#, c-format
+msgid "groupfile %s cannot be found."
+msgstr "找不到群组文件 %s。"
+
+#: rpmdb/rpmrepo.c:632
+#, c-format
+msgid "Fts_open: %s"
+msgstr "Fts_open：%s"
+
+#: rpmdb/rpmrepo.c:693
+#, c-format
+msgid "cannot get to file: %s"
+msgstr "无法访问文件：%s"
+
+#: rpmdb/rpmrepo.c:720 rpmdb/rpmrepo.c:790
+#, c-format
+msgid "Fwrite failed: expected write %u != %u bytes: %s\n"
+msgstr "Fwrite 失败：预期写入 %u != %u 字节：%s\n"
+
+#: rpmdb/rpmrepo.c:989
+#, c-format
+msgid "Saving %s metadata"
+msgstr "保存 %s 元数据"
+
+#: rpmdb/rpmrepo.c:1118
+msgid "Generating sqlite DBs"
+msgstr "产生 sqlite 数据库"
+
+#: rpmdb/rpmrepo.c:1145
+#, c-format
+msgid "Starting %s db creation: %s"
+msgstr "启始 %s 数据库创建：%s"
+
+#: rpmdb/rpmrepo.c:1211
+#, c-format
+msgid "Ending %s db creation: %s"
+msgstr "结束 %s 数据库创建：%s"
+
+#: rpmdb/rpmrepo.c:1245
+msgid "Sqlite DBs complete"
+msgstr "Sqlite 数据库完成"
+
+#: rpmdb/rpmrepo.c:1256
+#, c-format
+msgid "Error saving temp file for %s%s%s: %s"
+msgstr "保存 %s%s%s 暂时文件时发生错误: %s"
+
+#: rpmdb/rpmrepo.c:1261
+#, c-format
+msgid "Could not save temp file: %s"
+msgstr "无法保存暂时文件：%s"
+
+#: rpmdb/rpmrepo.c:1280
+#, c-format
+msgid "Error moving final %s to old dir %s"
+msgstr "移动最后的 %s 到旧目录 %s 时发生错误"
+
+#: rpmdb/rpmrepo.c:1288
+msgid "Error moving final metadata into place"
+msgstr "移动最后的元数据到位时发生错误"
+
+#: rpmdb/rpmrepo.c:1313
+#, fuzzy, c-format
+msgid "Could not remove old metadata directory: %s: %s"
+msgstr "无法移除旧的元数据目录：%s：%s"
+
+#: rpmdb/rpmrepo.c:1320 rpmdb/rpmrepo.c:1329
+#, c-format
+msgid "Could not remove old metadata file: %s: %s"
+msgstr "无法移除旧的元数据文件：%s：%s"
+
+#: rpmdb/rpmrepo.c:1333
+#, c-format
+msgid "Could not restore old non-metadata file: %s -> %s: %s"
+msgstr "无法回存旧的元数据文件：%s→%s：%s"
+
+#: rpmdb/rpmrepo.c:1342
+#, fuzzy, c-format
+msgid "Could not remove old metadata symlink: %s: %s"
+msgstr "无法移除旧的元数据目录：%s：%s"
+
+#: rpmdb/rpmrepo.c:1390
+#, c-format
+msgid "%s: Fread(%s) failed: %s\n"
+msgstr "%s: Fread(%s) 失败：%s\n"
+
+#: rpmdb/rpmrepo.c:1436 rpmdb/rpmrepo.c:1460
+#, c-format
+msgid "headerSprintf(%s): %s"
+msgstr "headerSprintf(%s)：%s"
+
+#: rpmdb/rpmrepo.c:1657
+msgid "don't compress"
+msgstr "不压缩"
+
+#: rpmdb/rpmrepo.c:1659
+msgid "use gzip compression"
+msgstr "使用 gzip 压缩"
+
+#: rpmdb/rpmrepo.c:1661
+msgid "use bzip2 compression"
+msgstr "使用 bzip2 压缩"
+
+#: rpmdb/rpmrepo.c:1663
+msgid "use lzma compression"
+msgstr "使用 lzma 压缩"
+
+#: rpmdb/rpmrepo.c:1665
+msgid "use xz compression"
+msgstr "使用 xz 压缩"
+
+#: rpmdb/rpmrepo.c:1673
+msgid "output nothing except for serious errors"
+msgstr "除非严重的错误否则不输出任何东西"
+
+#: rpmdb/rpmrepo.c:1675
+msgid "output more debugging info."
+msgstr "输出更多调试信息。"
+
+#: rpmdb/rpmrepo.c:1677
+msgid "sanity check arguments, don't create metadata"
+msgstr "健全检查参数，不创建元数据"
+
+#: rpmdb/rpmrepo.c:1679
+msgid "glob PATTERN(s) to exclude"
+msgstr "通配符模式用于排除"
+
+#: rpmdb/rpmrepo.c:1679 rpmdb/rpmrepo.c:1681
+msgid "PATTERN"
+msgstr "PATTERN"
+
+#: rpmdb/rpmrepo.c:1681
+msgid "glob PATTERN(s) to include"
+msgstr "通配符模式用于包含"
+
+#: rpmdb/rpmrepo.c:1683
+msgid "top level directory"
+msgstr "顶层目录"
+
+#: rpmdb/rpmrepo.c:1683 rpmdb/rpmrepo.c:1701 rpmio/rpmaug.c:121
+#: tools/roto.c:4093 tools/roto.c:4097 tools/roto.c:4104 tools/rpmwget.c:1316
+msgid "DIR"
+msgstr "DIR"
+
+#: rpmdb/rpmrepo.c:1685
+msgid "baseurl to append on all files"
+msgstr "附加于所有文件的基本网址"
+
+#: rpmdb/rpmrepo.c:1685
+msgid "BASEURL"
+msgstr "BASEURL"
+
+#: rpmdb/rpmrepo.c:1688
+msgid "path to groupfile to include in metadata"
+msgstr "用于包含在元数据中的群组文件路径"
+
+#: rpmdb/rpmrepo.c:1688 rpmdb/rpmrepo.c:1699 rpmio/rpmsql.c:5235
+#: tools/rpmwget.c:1131 tools/rpmwget.c:1133 tools/rpmwget.c:1145
+#: tools/rpmwget.c:1165 tools/rpmwget.c:1280 tools/rpmwget.c:1282
+#: tools/rpmwget.c:1288 tools/rpmwget.c:1306 tools/rpmwget.c:1310
+#: tools/rpmwget.c:1314 tools/rpmwget.c:1318 tools/rpmwget.c:1320
+#: tools/semodule.c:116 tools/semodule.c:118 tools/semodule.c:120
+#: tools/spooktool.c:75 tools/spooktool.c:77 tools/spooktool.c:79
+#: tools/spooktool.c:320 tools/spooktool.c:322 tools/spooktool.c:324
+msgid "FILE"
+msgstr "FILE"
+
+#: rpmdb/rpmrepo.c:1691
+msgid "make sure all xml generated is formatted"
+msgstr "确定所有产生的 xml 已被格式化"
+
+#: rpmdb/rpmrepo.c:1693
+msgid "check timestamps on files vs the metadata to see if we need to update"
+msgstr "比对检查文件的时间戳记与元数据，来看看是否需要更新"
+
+#: rpmdb/rpmrepo.c:1695
+msgid "create sqlite3 database files"
+msgstr "创建 sqlite3 数据库文件"
+
+#: rpmdb/rpmrepo.c:1697
+msgid "generate split media"
+msgstr "产生分割媒体"
+
+#: rpmdb/rpmrepo.c:1699
+msgid "use only the files listed in this file from the directory specified"
+msgstr "只使用从目录指定的文件所列出的文件"
+
+#: rpmdb/rpmrepo.c:1701
+msgid "<dir> = optional directory to output to"
+msgstr "<dir> = 可选的输出目录"
+
+#: rpmdb/rpmrepo.c:1703
+msgid "ignore symlinks of packages"
+msgstr "忽略软件包的符号链接"
+
+#: rpmdb/rpmrepo.c:1705
+msgid "include the file's checksum in the filename, helps with proxies"
+msgstr "在文件名中包含文件的总和检查码，借助代理服务器"
+
+#: rpmdb/rpmrepo.c:1715
+#, fuzzy
+msgid "Repository options:"
+msgstr "其他选项："
+
+#: rpmdb/rpmrepo.c:1718 tools/cp.c:847 tools/rpmmtree.c:3597
+msgid "Fts(3) traversal options:"
+msgstr "Fts(3) 遍历选项："
+
+#: rpmdb/rpmrepo.c:1721
+msgid "Available compressions:"
+msgstr "可用的压缩方法："
+
+#: rpmdb/rpmrepo.c:1724 tools/cp.c:850 tools/rpmdigest.c:891
+#: tools/rpmmtree.c:3600
+msgid "Available digests:"
+msgstr "可用摘要："
+
+#: rpmdb/rpmrepo.c:1727 rpmio/rpmgit.c:2595 rpmio/rpmsql.c:5272
+#: rpmio/rpmz.c:1833 rpmio/set.c:1484 tools/augtool.c:337 tools/cp.c:854
+#: tools/cudftool.c:29 tools/roto.c:4131 tools/rpmdigest.c:894
+#: tools/rpmgrep.c:1381 tools/rpmkey.c:1549 tools/rpmmtree.c:3603
+#: tools/rpmwget.c:1433 tools/semodule.c:132 tools/spooktool.c:336
+msgid "Common options for all rpmio executables:"
+msgstr "用于所有 rpmio 可运行文件的共同选项："
+
+#: rpmdb/rpmrepo.c:1800
+msgid "Must specify path(s) to index."
+msgstr "必须指定索引路径。"
+
+#: rpmdb/rpmrepo.c:1815 tools/rpmrepo.c:118
+#, c-format
+msgid "Realpath(%s): %s"
+msgstr "实际路径(%s)：%s"
+
+#: rpmdb/signature.c:91 rpmdb/signature.c:100 rpmdb/signature.c:105
+#: rpmdb/signature.c:111
+#, c-format
+msgid "error creating temporary file %s\n"
+msgstr "创建暂时文件 %s 时发生错误\n"
+
+#: rpmdb/signature.c:177
+#, c-format
+msgid "Couldn't create pipe for signing: %m"
+msgstr "无法创建签名用的管道：%m"
+
+#: rpmdb/signature.c:196 rpmdb/signature.c:581
+#, c-format
+msgid "Could not exec %s: %s\n"
+msgstr "无法exec %s: %s\n"
+
+#: rpmdb/signature.c:206 rpmdb/signature.c:591
+#, c-format
+msgid "Failed rpmkuPassPhrase(passPhrase): %s\n"
+msgstr "失败的 rpmkuPassPhrase (密语)：%s\n"
+
+#: rpmdb/signature.c:227
+#, c-format
+msgid "gpg exec failed (%d)\n"
+msgstr "gpg 执行失败 (%d)\n"
+
+#: rpmdb/signature.c:234
+msgid "gpg failed to write signature\n"
+msgstr "写入签名时 gpg 验证失败\n"
+
+#: rpmdb/signature.c:253
+msgid "unable to read the signature\n"
+msgstr "无法读取签名\n"
+
+#: rpmdb/signature.c:638
+msgid "Header+Payload size: "
+msgstr "标头+酬载大小："
+
+#: rpmdb/signature.c:681 rpmdb/signature.c:745
+msgid " digest: "
+msgstr "摘要："
+
+#: rpmdb/signature.c:741 rpmdb/signature.c:821 rpmdb/signature.c:918
+#: rpmdb/signature.c:1024
+msgid "Header "
+msgstr "头"
+
+#: rpmdb/signature.c:838 rpmdb/signature.c:935 rpmdb/signature.c:1041
+msgid " signature: "
+msgstr " 签名："
+
+#: rpmdb/signature.c:1112
+#, c-format
+msgid "Verify signature: BAD PARAMETERS\n"
+msgstr "验证签名：不当的参数\n"
+
+#: rpmdb/signature.c:1146
+#, c-format
+msgid "Signature: UNKNOWN (%u)\n"
+msgstr "签名：不明 (%u)\n"
+
+#: rpmdb/sqlite.c:767
+#, c-format
+msgid "Unable to get lock on db %s, retrying... (%d)\n"
+msgstr "无法取得数据库 %s 的锁定，重试中…(%d)\n"
+
+#: rpmio/iosm.c:1864
+#, c-format
+msgid "archive file %s was not found in header\n"
+msgstr "保存文件 %s 在标头中找不到\n"
+
+#: rpmio/iosm.c:2153
+#, c-format
+msgid "rmdir of %s failed: Directory not empty\n"
+msgstr "rmdir 移除目录 %s 失败：目录不是空的\n"
+
+#: rpmio/iosm.c:2159
+#, c-format
+msgid "rmdir of %s failed: %s\n"
+msgstr "rmdir 移除目录 %s 失败：%s\n"
+
+#: rpmio/iosm.c:2174
+#, c-format
+msgid "unlink of %s failed: %s\n"
+msgstr "unlink 取消 %s 的链接时失败：%s\n"
+
+#: rpmio/iosm.c:2779
+#, c-format
+msgid "(error 0x%x)"
+msgstr "(错误 0x%x)"
+
+#: rpmio/iosm.c:2782
+msgid "Bad magic"
+msgstr "Bad magic"
+
+#: rpmio/iosm.c:2783
+msgid "Bad/unreadable header"
+msgstr "不当/不可读取的标头"
+
+#: rpmio/iosm.c:2805
+msgid "Header size too big"
+msgstr "头部太大"
+
+#: rpmio/iosm.c:2806
+msgid "Unknown file type"
+msgstr "未知文件类型"
+
+#: rpmio/iosm.c:2807
+msgid "Missing hard link(s)"
+msgstr "缺少的硬式链接"
+
+#: rpmio/iosm.c:2808
+msgid "File digest mismatch"
+msgstr "文件摘要不匹配"
+
+#: rpmio/iosm.c:2809
+msgid "Internal error"
+msgstr "内部错误"
+
+#: rpmio/iosm.c:2810
+msgid "Archive file not in header"
+msgstr "在头中不存在归档"
+
+#: rpmio/iosm.c:2821
+msgid " failed - "
+msgstr " 失败 - "
+
+#: rpmio/macro.c:315
+#, c-format
+msgid "======================== active %d empty %d\n"
+msgstr "======================== 作用中 %d 清空 %d\n"
+
+#: rpmio/macro.c:505
+#, c-format
+msgid "%3d>%*s(empty)"
+msgstr "%3d>%*s(清空)"
+
+#: rpmio/macro.c:548
+#, c-format
+msgid "%3d<%*s(empty)\n"
+msgstr "%3d<%*s(清空)\n"
+
+#: rpmio/macro.c:770
+#, c-format
+msgid "Macro %%%s has unterminated opts\n"
+msgstr "宏 %%%s 具有未结束的选项\n"
+
+#: rpmio/macro.c:783 rpmio/macro.c:821
+#, c-format
+msgid "Macro %%%s has unterminated body\n"
+msgstr "宏 %%%s 主体未结束\n"
+
+#: rpmio/macro.c:842
+#, c-format
+msgid "Macro %%%s has illegal name (%%define)\n"
+msgstr "宏 %%%s 中存在无效的名称 (%%define)\n"
+
+#: rpmio/macro.c:847
+#, c-format
+msgid "Macro %%%s has empty body\n"
+msgstr "宏 %%%s 中存在空内容\n"
+
+#: rpmio/macro.c:853
+#, c-format
+msgid "Macro %%%s failed to expand\n"
+msgstr "宏 %%%s 展开失败\n"
+
+#: rpmio/macro.c:893
+#, c-format
+msgid "Macro %%%s has illegal name (%%undefine)\n"
+msgstr "宏 %%%s 中存在无效的名称 (%%undefine)\n"
+
+#: rpmio/macro.c:1012
+#, c-format
+msgid "Macro %%%s (%s) was not used below level %d\n"
+msgstr "宏 %%%s (%s) 在等级 %d 之下未被使用\n"
+
+#: rpmio/macro.c:1166
+#, c-format
+msgid "Unknown option in macro %s(%s): %s: %s\n"
+msgstr "在宏 %s(%s) 中有不明的选项：%s：%s\n"
+
+#: rpmio/macro.c:1678
+#, c-format
+msgid "Recursion depth(%d) greater than max(%d)\n"
+msgstr "递归深度(%d)大于最大值(%d)\n"
+
+#: rpmio/macro.c:1752 rpmio/macro.c:1769
+#, c-format
+msgid "Unterminated %c: %s\n"
+msgstr "未结束的 %c：%s\n"
+
+#: rpmio/macro.c:1814
+#, c-format
+msgid "A %% is followed by an unparseable macro\n"
+msgstr "在一个不可解析的宏之之后跟着 %%\n"
+
+#: rpmio/macro.c:1832
+#, c-format
+msgid "%s: load macros failed\n"
+msgstr "%s：导入宏时失败\n"
+
+#: rpmio/macro.c:2490
+#, c-format
+msgid "Macro %%%.*s not found, skipping\n"
+msgstr "找不到宏 %%%.*s，跳过\n"
+
+#: rpmio/macro.c:2735
+msgid "Macro expansion too big for target buffer\n"
+msgstr "对于目标缓冲区的宏展开太大\n"
+
+#: rpmio/macro.c:2769
+#, c-format
+msgid "Macro '%s' is readonly and cannot be changed.\n"
+msgstr "宏“%s”是只读而无法变更。\n"
+
+#: rpmio/macro.c:2898
+#, c-format
+msgid "%s:%u Missing '}' in \"%s\", skipping.\n"
+msgstr "%s:%u 在“%s”中缺少 '}'，跳过。\n"
+
+#: rpmio/macro.c:2907
+#, c-format
+msgid "%s:%u load depth exceeded, \"%s\" ignored.\n"
+msgstr "%s:%u 已超出加载深度，已忽略“%s”。\n"
+
+#: rpmio/macro.c:3097 rpmio/macro.c:3103
+#, c-format
+msgid "File %s: %s\n"
+msgstr "文件 %s：%s\n"
+
+#: rpmio/macro.c:3106
+#, c-format
+msgid "File %s is smaller than %u bytes\n"
+msgstr "文件 %s 小于 %u 字节\n"
+
+#: rpmio/mire.c:313
+#, c-format
+msgid "%s: Failed to set locale %s (obtained from %s)\n"
+msgstr "%s：无法设置语区 %s (获自 %s)\n"
+
+#: rpmio/mire.c:351
+#, c-format
+msgid "pcre_compile2 failed: %s(%d) at offset %d of \"%s\"\n"
+msgstr "pcre_compile2 失败：%1$s(%2$d) 于“%4$s”的偏移 %3$d\n"
+
+#: rpmio/mire.c:370
+#, c-format
+msgid "%s: regcomp failed: %s\n"
+msgstr "%s: regcomp 函数执行失败: %s\n"
+
+#: rpmio/mire.c:436
+#, c-format
+msgid "%s: regexec failed: %s(%d)\n"
+msgstr "%s：regexec 失败：%s(%d)\n"
+
+#: rpmio/mire.c:457
+#, c-format
+msgid "pcre_exec failed: return %d\n"
+msgstr "pcre_exec 失败：返回 %d\n"
+
+#: rpmio/mire.c:473
+#, c-format
+msgid "fnmatch failed: return %d\n"
+msgstr "fnmatch 失败：返回 %d\n"
+
+#: rpmio/mire.c:583
+#, c-format
+msgid " number %d"
+msgstr " 编号 %d"
+
+#: rpmio/mire.c:584
+#, c-format
+msgid "%s: Error while studying regex%s: %s\n"
+msgstr "%s：研究 regex%s 时发生错误：%s\n"
+
+#: rpmio/poptIO.c:154
+msgid "MD2 digest (RFC-1319)"
+msgstr "MD2 摘要 (RFC-1319)"
+
+#: rpmio/poptIO.c:156
+msgid "MD4 digest"
+msgstr "MD4 摘要"
+
+#: rpmio/poptIO.c:158
+msgid "MD5 digest (RFC-1321)"
+msgstr "MD5 摘要 (RFC-1321)"
+
+#: rpmio/poptIO.c:160
+msgid "SHA-1 digest (FIPS-180-1)"
+msgstr "SHA-1 摘要 (FIPS-180-1)"
+
+#: rpmio/poptIO.c:162
+msgid "SHA-224 digest (FIPS-180-2)"
+msgstr "SHA-224 摘要 (FIPS-180-2)"
+
+#: rpmio/poptIO.c:164
+msgid "SHA-256 digest (FIPS-180-2)"
+msgstr "SHA-256 摘要 (FIPS-180-2)"
+
+#: rpmio/poptIO.c:166
+msgid "SHA-384 digest (FIPS-180-2)"
+msgstr "SHA-384 摘要 (FIPS-180-2)"
+
+#: rpmio/poptIO.c:168
+msgid "SHA-512 digest (FIPS-180-2)"
+msgstr "SHA-512 摘要 (FIPS-180-2)"
+
+#: rpmio/poptIO.c:170
+msgid "SKEIN-224 digest"
+msgstr "SKEIN-224 摘要"
+
+#: rpmio/poptIO.c:172
+msgid "SKEIN-256 digest"
+msgstr "SKEIN-256 摘要"
+
+#: rpmio/poptIO.c:174
+msgid "SKEIN-384 digest"
+msgstr "SKEIN-384 摘要"
+
+#: rpmio/poptIO.c:176
+msgid "SKEIN-512 digest"
+msgstr "SKEIN-512 摘要"
+
+#: rpmio/poptIO.c:178
+msgid "SKEIN-1024 digest"
+msgstr "SKEIN-1024 摘要"
+
+#: rpmio/poptIO.c:180
+msgid "Arirang-224 digest"
+msgstr "Arirang-224 摘要"
+
+#: rpmio/poptIO.c:182
+msgid "Arirang-256 digest"
+msgstr "Arirang-25 摘要"
+
+#: rpmio/poptIO.c:184
+msgid "Arirang-384 digest"
+msgstr "Arirang-384 摘要"
+
+#: rpmio/poptIO.c:186
+msgid "Arirang-512 digest"
+msgstr "Arirang-512 摘要"
+
+#: rpmio/poptIO.c:188
+msgid "Blake-224 digest"
+msgstr "Blake-224 摘要"
+
+#: rpmio/poptIO.c:190
+msgid "Blake-256 digest"
+msgstr "Blake-256 摘要"
+
+#: rpmio/poptIO.c:192
+msgid "Blake-384 digest"
+msgstr "Blake-384 摘要"
+
+#: rpmio/poptIO.c:194
+msgid "Blake-512 digest"
+msgstr "Blake-512 摘要"
+
+#: rpmio/poptIO.c:196
+msgid "Blake2b digest"
+msgstr "Blake2b 摘要"
+
+#: rpmio/poptIO.c:198
+msgid "Blake2bp digest"
+msgstr "Blake2bp 摘要"
+
+#: rpmio/poptIO.c:200
+msgid "Blake2s digest"
+msgstr "Blake2s 摘要"
+
+#: rpmio/poptIO.c:202
+msgid "Blake2sp digest"
+msgstr "Blake2sp 摘要"
+
+#: rpmio/poptIO.c:204
+msgid "BlueMidnightWish-224 digest"
+msgstr "BlueMidnightWish-224 摘要"
+
+#: rpmio/poptIO.c:206
+msgid "BlueMidnightWish-256 digest"
+msgstr "BlueMidnightWish-256 摘要"
+
+#: rpmio/poptIO.c:208
+msgid "BlueMidnightWish-384 digest"
+msgstr "BlueMidnightWish-384 摘要"
+
+#: rpmio/poptIO.c:210
+msgid "BlueMidnightWish-512 digest"
+msgstr "BlueMidnightWish-512 摘要"
+
+#: rpmio/poptIO.c:212
+msgid "Chi-224 digest"
+msgstr "Chi-224 摘要"
+
+#: rpmio/poptIO.c:214
+msgid "Chi-256 digest"
+msgstr "Chi-256 摘要"
+
+#: rpmio/poptIO.c:216
+msgid "Chi-384 digest"
+msgstr "Chi-384 摘要"
+
+#: rpmio/poptIO.c:218
+msgid "Chi-512 digest"
+msgstr "Chi-512 摘要"
+
+#: rpmio/poptIO.c:220
+msgid "CubeHash-224 digest"
+msgstr "CubeHash-22 摘要"
+
+#: rpmio/poptIO.c:222
+msgid "CubeHash-256 digest"
+msgstr "CubeHash-256 摘要"
+
+#: rpmio/poptIO.c:224
+msgid "CubeHash-384 digest"
+msgstr "CubeHash-384 摘要"
+
+#: rpmio/poptIO.c:226
+msgid "CubeHash-512 digest"
+msgstr "CubeHash-512 摘要"
+
+#: rpmio/poptIO.c:228
+msgid "Echo-224 digest"
+msgstr "Echo-224 摘要"
+
+#: rpmio/poptIO.c:230
+msgid "Echo-256 digest"
+msgstr "Echo-256 摘要"
+
+#: rpmio/poptIO.c:232
+msgid "Echo-384 digest"
+msgstr "Echo-384 摘要"
+
+#: rpmio/poptIO.c:234
+msgid "Echo-512 digest"
+msgstr "Echo-512 摘要"
+
+#: rpmio/poptIO.c:236
+msgid "EdonR-224 digest"
+msgstr "EdonR-224 摘要"
+
+#: rpmio/poptIO.c:238
+msgid "EdonR-256 digest"
+msgstr "EdonR-256 摘要"
+
+#: rpmio/poptIO.c:240
+msgid "EdonR-384 digest"
+msgstr "EdonR-384 摘要"
+
+#: rpmio/poptIO.c:242
+msgid "EdonR-512 digest"
+msgstr "EdonR-512 摘要"
+
+#: rpmio/poptIO.c:244
+msgid "Fugue-224 digest"
+msgstr "Fugue-224 摘要"
+
+#: rpmio/poptIO.c:246
+msgid "Fugue-256 digest"
+msgstr "Fugue-256 摘要"
+
+#: rpmio/poptIO.c:248
+msgid "Fugue-384 digest"
+msgstr "Fugue-384 摘要"
+
+#: rpmio/poptIO.c:250
+msgid "Fugue-512 digest"
+msgstr "Fugue-512 摘要"
+
+#: rpmio/poptIO.c:252
+msgid "Groestl-224 digest"
+msgstr "Groestl-224 摘要"
+
+#: rpmio/poptIO.c:254
+msgid "Groestl-256 digest"
+msgstr " Groestl-256 摘要"
+
+#: rpmio/poptIO.c:256
+msgid "Groestl-384 digest"
+msgstr "Groestl-384 摘要"
+
+#: rpmio/poptIO.c:258
+msgid "Groestl-512 digest"
+msgstr "Groestl-512 摘要"
+
+#: rpmio/poptIO.c:260
+msgid "Hamsi-224 digest"
+msgstr "Hamsi-224 摘要"
+
+#: rpmio/poptIO.c:262
+msgid "Hamsi-256 digest"
+msgstr "Hamsi-256 摘要"
+
+#: rpmio/poptIO.c:264
+msgid "Hamsi-384 digest"
+msgstr "Hamsi-384 摘要"
+
+#: rpmio/poptIO.c:266
+msgid "Hamsi-512 digest"
+msgstr "Hamsi-512 摘要"
+
+#: rpmio/poptIO.c:268
+msgid "JH-224 digest"
+msgstr "JH-224 摘要"
+
+#: rpmio/poptIO.c:270
+msgid "JH-256 digest"
+msgstr "JH-256 摘要"
+
+#: rpmio/poptIO.c:272
+msgid "JH-384 digest"
+msgstr "JH-384 摘要"
+
+#: rpmio/poptIO.c:274
+msgid "JH-512 digest"
+msgstr "JH-512 摘要"
+
+#: rpmio/poptIO.c:276
+msgid "Keccak-224 digest"
+msgstr "Keccak-224 摘要"
+
+#: rpmio/poptIO.c:278
+msgid "Keccak-256 digest"
+msgstr "Keccak-256 摘要"
+
+#: rpmio/poptIO.c:280
+msgid "Keccak-384 digest"
+msgstr "Keccak-384 摘要"
+
+#: rpmio/poptIO.c:282
+msgid "Keccak-512 digest"
+msgstr "Keccak-512 摘要"
+
+#: rpmio/poptIO.c:284
+msgid "Lane-224 digest"
+msgstr "Lane-224 摘要"
+
+#: rpmio/poptIO.c:286
+msgid "Lane-256 digest"
+msgstr "Lane-256 摘要"
+
+#: rpmio/poptIO.c:288
+msgid "Lane-384 digest"
+msgstr "Lane-384 摘要"
+
+#: rpmio/poptIO.c:290
+msgid "Lane-512 digest"
+msgstr "Lane-512 摘要"
+
+#: rpmio/poptIO.c:292
+msgid "Luffa-224 digest"
+msgstr "Luffa-224 摘要"
+
+#: rpmio/poptIO.c:294
+msgid "Luffa-256 digest"
+msgstr "Luffa-256 摘要"
+
+#: rpmio/poptIO.c:296
+msgid "Luffa-384 digest"
+msgstr "Luffa-384 摘要"
+
+#: rpmio/poptIO.c:298
+msgid "Luffa-512 digest"
+msgstr "Luffa-512 摘要"
+
+#: rpmio/poptIO.c:300
+msgid "MD6-224 digest"
+msgstr "MD6-224 摘要"
+
+#: rpmio/poptIO.c:302
+msgid "MD6-256 digest"
+msgstr "MD6-256 摘要"
+
+#: rpmio/poptIO.c:304
+msgid "MD6-384 digest"
+msgstr "MD6-384 摘要"
+
+#: rpmio/poptIO.c:306
+msgid "MD6-512digest"
+msgstr "MD6-512 摘要"
+
+#: rpmio/poptIO.c:308
+msgid "RadioGatun32-256 digest"
+msgstr "RadioGatun32-256 摘要"
+
+#: rpmio/poptIO.c:310
+msgid "RadioGatun64-256 digest"
+msgstr "RadioGatun64-256 摘要"
+
+#: rpmio/poptIO.c:312
+msgid "Shabal-224 digest"
+msgstr "Shabal-224 摘要"
+
+#: rpmio/poptIO.c:314
+msgid "Shabal-256 digest"
+msgstr "Shabal-256 摘要"
+
+#: rpmio/poptIO.c:316
+msgid "Shabal-384 digest"
+msgstr "Shabal-384 摘要"
+
+#: rpmio/poptIO.c:318
+msgid "Shabal-512 digest"
+msgstr "Shabal-512 摘要"
+
+#: rpmio/poptIO.c:320
+msgid "SHAvite3-224 digest"
+msgstr "SHAvite3-224 摘要"
+
+#: rpmio/poptIO.c:322
+msgid "SHAvite3-256 digest"
+msgstr "SHAvite3-256 摘要"
+
+#: rpmio/poptIO.c:324
+msgid "SHAvite3-384 digest"
+msgstr "SHAvite3-384 摘要"
+
+#: rpmio/poptIO.c:326
+msgid "SHAvite3-512 digest"
+msgstr "SHAvite3-512 摘要"
+
+#: rpmio/poptIO.c:328
+msgid "SIMD-224 digest"
+msgstr "SIMD-224 摘要"
+
+#: rpmio/poptIO.c:330
+msgid "SIMD-256 digest"
+msgstr "SIMD-25 摘要"
+
+#: rpmio/poptIO.c:332
+msgid "SIMD-384 digest"
+msgstr "SIMD-384 摘要"
+
+#: rpmio/poptIO.c:334
+msgid "SIMD-512 digest"
+msgstr "SIMD-512 摘要"
+
+#: rpmio/poptIO.c:336
+msgid "TIB3-224 digest"
+msgstr "TIB3-224 摘要"
+
+#: rpmio/poptIO.c:338
+msgid "TIB3-256 digest"
+msgstr "TIB3-256 摘要"
+
+#: rpmio/poptIO.c:340
+msgid "TIB3-384 digest"
+msgstr "TIB3-384 摘要"
+
+#: rpmio/poptIO.c:342
+msgid "TIB3-512 digest"
+msgstr "TIB3-512 摘要"
+
+#: rpmio/poptIO.c:344
+msgid "SALSA-10 hash"
+msgstr "SALSA-10 哈希"
+
+#: rpmio/poptIO.c:346
+msgid "SALSA-20 hash"
+msgstr "SALSA-20 哈希"
+
+#: rpmio/poptIO.c:348
+msgid "RIPEMD-128 digest"
+msgstr "RIPEMD-128 摘要"
+
+#: rpmio/poptIO.c:350
+msgid "RIPEMD-160 digest"
+msgstr "RIPEMD-160 摘要"
+
+#: rpmio/poptIO.c:352
+msgid "RIPEMD-256 digest"
+msgstr "RIPEMD-256 摘要"
+
+#: rpmio/poptIO.c:354
+msgid "RIPEMD-320 digest"
+msgstr "RIPEMD-320 摘要"
+
+#: rpmio/poptIO.c:356
+msgid "TIGER digest"
+msgstr "TIGER 摘要"
+
+#: rpmio/poptIO.c:358
+msgid "CRC-32 checksum"
+msgstr "CRC-32 总和检查"
+
+#: rpmio/poptIO.c:360
+msgid "CRC-64 checksum"
+msgstr "CRC-64 总和检查"
+
+#: rpmio/poptIO.c:362
+msgid "ADLER-32 checksum"
+msgstr "ADLER-32 总和检查"
+
+#: rpmio/poptIO.c:364
+msgid "Lookup3 hash"
+msgstr "Lookup3 哈希"
+
+#: rpmio/poptIO.c:366
+msgid "No hash algorithm"
+msgstr "没有任何哈希算法"
+
+#: rpmio/poptIO.c:368
+msgid "All hash algorithm(s)"
+msgstr "所有哈希算法"
+
+#: rpmio/poptIO.c:544
+msgid "FTS_COMFOLLOW: follow command line symlinks"
+msgstr "FTS_COMFOLLOW：跟随命令行符号链接"
+
+#: rpmio/poptIO.c:546
+msgid "FTS_LOGICAL: logical walk"
+msgstr "FTS_LOGICAL：逻辑遍历"
+
+#: rpmio/poptIO.c:548
+msgid "FTS_NOCHDIR: don't change directories"
+msgstr "FTS_NOCHDIR：不变更目录"
+
+#: rpmio/poptIO.c:550
+msgid "FTS_NOSTAT: don't get stat info"
+msgstr "FTS_NOSTAT：不取得状态信息"
+
+#: rpmio/poptIO.c:552
+msgid "FTS_PHYSICAL: physical walk"
+msgstr "FTS_PHYSICAL：实体遍历"
+
+#: rpmio/poptIO.c:554
+msgid "FTS_SEEDOT: return dot and dot-dot"
+msgstr "FTS_SEEDOT：返回 . 和 .."
+
+#: rpmio/poptIO.c:556
+msgid "FTS_XDEV: don't cross devices"
+msgstr "FTS_XDEV：不交叉设备"
+
+#: rpmio/poptIO.c:558
+msgid "FTS_WHITEOUT: return whiteout information"
+msgstr "FTS_WHITEOUT：返回空白化信息"
+
+#: rpmio/poptIO.c:598
+msgid "Send stdout to CMD"
+msgstr "发送标准输出到 CMD"
+
+#: rpmio/poptIO.c:599
+msgid "CMD"
+msgstr "CMD"
+
+#: rpmio/poptIO.c:601
+msgid "Use ROOT as top level directory"
+msgstr "使用 ROOT 作为顶层目录"
+
+#: rpmio/poptIO.c:602 rpmio/rpmaug.c:119
+msgid "ROOT"
+msgstr "ROOT"
+
+#: rpmio/poptIO.c:605
+msgid "Provide less detailed output"
+msgstr "提供较少细节的输出"
+
+#: rpmio/poptIO.c:607
+msgid "Provide more detailed output"
+msgstr "提供较多细节的输出"
+
+#: rpmio/poptIO.c:613
+msgid "Disable use of libio(3) API"
+msgstr "停止使用 libio(3) API"
+
+#: rpmio/poptIO.c:617
+msgid "Select cryptography implementation"
+msgstr "选取密码学实作"
+
+#: rpmio/poptIO.c:618
+msgid "CRYPTO"
+msgstr "CRYPTO"
+
+#: rpmio/poptIO.c:621
+msgid "Debug ar archives"
+msgstr "调试 ar 存盘"
+
+#: rpmio/poptIO.c:623
+msgid "Debug argv collections"
+msgstr "调试 argv 收集"
+
+#: rpmio/poptIO.c:625
+msgid "Debug cpio archives"
+msgstr "调试 cpio 存盘"
+
+#: rpmio/poptIO.c:627
+msgid "Debug digest contexts"
+msgstr "调试摘要内容"
+
+#: rpmio/poptIO.c:629
+msgid "Debug WebDAV data stream"
+msgstr "调试 WebDAV 数据串流"
+
+#: rpmio/poptIO.c:631
+msgid "Debug FTP/HTTP data stream"
+msgstr "调试 FTP/HTTP 数据串流"
+
+#: rpmio/poptIO.c:633
+msgid "Debug Fts(3) traverse"
+msgstr "调试 Fts(3) 遍历"
+
+#: rpmio/poptIO.c:635
+msgid "Debug hash tables"
+msgstr "调试哈希表"
+
+#: rpmio/poptIO.c:637
+msgid "Debug HTML parsing"
+msgstr "调试 HTML 解析"
+
+#: rpmio/poptIO.c:639
+msgid "Debug I/O state machine"
+msgstr "调试 I/O 状态机"
+
+#: rpmio/poptIO.c:641
+msgid "Debug miRE patterns"
+msgstr "调试 miRE 模式"
+
+#: rpmio/poptIO.c:643
+msgid "Debug PGP usage"
+msgstr "调试 PGP 用法"
+
+#: rpmio/poptIO.c:645
+msgid "Print PGP keys"
+msgstr "印出 PGP 键"
+
+#: rpmio/poptIO.c:647
+msgid "Debug rpmio I/O"
+msgstr "调试 rpmio I/O "
+
+#: rpmio/poptIO.c:649
+msgid "Debug rpmio I/O buffers"
+msgstr "调试 rpmio I/O 缓冲区"
+
+#: rpmio/poptIO.c:652
+#, fuzzy
+msgid "Debug embedded ASN.1 interpreter"
+msgstr "调试内嵌的 Nix 解译器"
+
+#: rpmio/poptIO.c:654
+msgid "Debug depsolver wrappers "
+msgstr ""
+
+#: rpmio/poptIO.c:656
+#, fuzzy
+msgid "Debug CVS wrappers "
+msgstr "调试 rpmwf 包装格式"
+
+#: rpmio/poptIO.c:658
+#, fuzzy
+msgid "Debug GIT wrappers "
+msgstr "调试 rpmwf 包装格式"
+
+#: rpmio/poptIO.c:660
+msgid "Debug SET-VERSION wrappers "
+msgstr ""
+
+#: rpmio/poptIO.c:662
+msgid "Debug Subversion wrappers "
+msgstr ""
+
+#: rpmio/poptIO.c:664
+#, fuzzy
+msgid "Debug TPM emulator"
+msgstr "调试 HTML 解析"
+
+#: rpmio/poptIO.c:667
+msgid "Debug embedded Augeas interpreter"
+msgstr "调试内嵌的 Augeas 解译器"
+
+#: rpmio/poptIO.c:669
+msgid "Debug Bloom filters"
+msgstr "调试 Bloom 筛选器"
+
+#: rpmio/poptIO.c:671
+msgid "Debug embedded CUDF parser"
+msgstr "调试内嵌的 CUDF 解析器"
+
+#: rpmio/poptIO.c:673
+msgid "Debug embedded FICL interpreter"
+msgstr "调试内嵌的 FICL 解译器"
+
+#: rpmio/poptIO.c:675
+msgid "Debug hkp:// keyring"
+msgstr "调试 hkp:// 钥匙圈"
+
+#: rpmio/poptIO.c:677
+msgid "Debug embedded JavaScript interpreter"
+msgstr "调试内嵌的 JavaScript 解译器"
+
+#: rpmio/poptIO.c:680
+msgid "Debug embedded Lua interpreter"
+msgstr "调试内嵌的 Lua 解译器"
+
+#: rpmio/poptIO.c:683
+msgid "Debug rpmmg magic"
+msgstr "调试 rpmmg 幻数"
+
+#: rpmio/poptIO.c:685
+#, fuzzy
+msgid "Debug embedded MRuby interpreter"
+msgstr "调试内嵌的 Ruby 解译器"
+
+#: rpmio/poptIO.c:687
+#, fuzzy
+msgid "Debug Mongo DB connection"
+msgstr "调试 argv 收集"
+
+#: rpmio/poptIO.c:689
+msgid "Debug embedded Nix interpreter"
+msgstr "调试内嵌的 Nix 解译器"
+
+#: rpmio/poptIO.c:691
+#, fuzzy
+msgid "Debug embedded ODBC interface"
+msgstr "调试内嵌的 TCL 解译器"
+
+#: rpmio/poptIO.c:693
+msgid "Debug embedded Perl interpreter"
+msgstr "调试内嵌的 Perl 解译器"
+
+#: rpmio/poptIO.c:695
+msgid "Debug embedded Python interpreter"
+msgstr "调试内嵌的 Python 解译器"
+
+#: rpmio/poptIO.c:697
+msgid "Debug embedded Ruby interpreter"
+msgstr "调试内嵌的 Ruby 解译器"
+
+#: rpmio/poptIO.c:699
+msgid "Debug rpmsq Signal Queue"
+msgstr "调试 rpmsq 信号队列"
+
+#: rpmio/poptIO.c:701 rpmio/rpmsql.c:5230
+msgid "Debug embedded SQL interpreter"
+msgstr "调试内嵌的 SQL 解译器"
+
+#: rpmio/poptIO.c:703
+msgid "Debug embedded SQUIRREL interpreter"
+msgstr "调试内嵌的 SQUIRREL 解译器"
+
+#: rpmio/poptIO.c:705
+msgid "Debug semanage"
+msgstr "调试 semanage "
+
+#: rpmio/poptIO.c:707
+msgid "Debug sepol"
+msgstr "调试 sepol "
+
+#: rpmio/poptIO.c:709
+msgid "Debug selinux"
+msgstr "调试 selinux "
+
+#: rpmio/poptIO.c:711
+msgid "Debug embedded TCL interpreter"
+msgstr "调试内嵌的 TCL 解译器"
+
+#: rpmio/poptIO.c:713
+msgid "Debug embedded SQL virtual cursor"
+msgstr "调试内嵌的 SQL 虚拟光标"
+
+#: rpmio/poptIO.c:715
+msgid "Debug embedded SQL virtual table"
+msgstr "调试内嵌的 SQL 虚拟表格"
+
+#: rpmio/poptIO.c:718
+msgid "Debug rpmzq Job Queuing"
+msgstr "调试 rpmzq 工作队列"
+
+#: rpmio/poptIO.c:721
+msgid "Debug xar archives"
+msgstr "调试 xar 存盘"
+
+#: rpmio/poptIO.c:723
+msgid "Debug tar archives"
+msgstr "调试 tar 存盘"
+
+#: rpmio/poptIO.c:727
+msgid "Debug URL cache handling"
+msgstr "调试 URL 缓存处理"
+
+#: rpmio/rpmaug.c:113
+msgid "Type check lenses"
+msgstr "型态检查镜片"
+
+#: rpmio/rpmaug.c:115
+msgid "Backup modified files with suffix '.augsave'"
+msgstr "备份后缀为‘.augsave’的已修改文件"
+
+#: rpmio/rpmaug.c:117
+msgid "Save modified files with suffix '.augnew'"
+msgstr "保存后缀为‘.augnew’的已修改文件"
+
+#: rpmio/rpmaug.c:119
+msgid "Use ROOT as the root of the filesystem"
+msgstr "使用 ROOT 作为文件系统的根目录"
+
+#: rpmio/rpmaug.c:121
+msgid "Search DIR for modules (may be used more than once)"
+msgstr "搜索模块 DIR (可能被使用一次以上)"
+
+#: rpmio/rpmaug.c:123
+msgid "Do not search default modules path"
+msgstr "不搜索缺省模块路径"
+
+#: rpmio/rpmaug.c:125
+msgid "Do not load files into tree on startup"
+msgstr "启动时不加载文件到树状结构"
+
+#: rpmio/rpmaug.c:127
+msgid "Do not autoload modules from the search path"
+msgstr "不自动从搜索路径加载模块"
+
+#: rpmio/rpmaug.c:685
+msgid "List the direct children of PATH"
+msgstr "列出 PATH 的直接子路径"
+
+#: rpmio/rpmaug.c:685 rpmio/rpmaug.c:693 rpmio/rpmaug.c:713 rpmio/rpmaug.c:716
+msgid "<PATH>"
+msgstr "<PATH>"
+
+#: rpmio/rpmaug.c:688
+msgid ""
+"Find all paths that match the path expression PATH. If VALUE is given,\n"
+"        only the matching paths whose value equals VALUE are printed"
+msgstr ""
+"寻找所有匹配路径运算式 PATH 的路径。如果 VALUE 已给定，\n"
+"        只有其值等于 VALUE 的匹配路径才会被印出"
+
+#: rpmio/rpmaug.c:690
+msgid "<PATH> [<VALUE>]"
+msgstr "<PATH> [<VALUE>]"
+
+#: rpmio/rpmaug.c:693
+msgid "Delete PATH and all its children from the tree"
+msgstr "从树状结构中删除 PATH 和它的所有子目录"
+
+#: rpmio/rpmaug.c:696
+msgid ""
+"Move node SRC to DST. SRC must match exactly one node in the tree.\n"
+"        DST must either match exactly one node in the tree, or may not\n"
+"        exist yet. If DST exists already, it and all its descendants are\n"
+"        deleted. If DST does not exist yet, it and all its missing \n"
+"        ancestors are created."
+msgstr ""
+"将节点 SRC 移动到 DST。SRC 必须精确匹配树状结构中的一个节点。\n"
+"        DST 必须精确匹配树状结构中的一个节点，或是尚不存在。\n"
+"        如果 DST 已经存在、它和它的所有子节点则被\n"
+"        删除。如果 DST 尚未存在、它和它所有的缺少\n"
+"        原始节点则被创建。"
+
+#: rpmio/rpmaug.c:701
+msgid "<SRC> <DST>"
+msgstr "<SRC> <DST>"
+
+#: rpmio/rpmaug.c:704
+msgid ""
+"Associate VALUE with PATH. If PATH is not in the tree yet,\n"
+"        it and all its ancestors will be created. These new tree entries\n"
+"        will appear last amongst their siblings"
+msgstr ""
+"将 VALUE 与 PATH 关联。如果 PATH 尚未在树状结构之中，\n"
+"        它和它的所有原始节点都将被创建。这些新的树状条目\n"
+"        将出现于与它们同层级的最后一笔"
+
+#: rpmio/rpmaug.c:707
+msgid "<PATH> <VALUE>"
+msgstr "<PATH> <VALUE>"
+
+#: rpmio/rpmaug.c:710
+msgid ""
+"Set the value for PATH to NULL. If PATH is not in the tree yet,\n"
+"        it and all its ancestors will be created. These new tree entries\n"
+"        will appear last amongst their siblings"
+msgstr ""
+"将 PATH 的值设置为 NULL。如果 PATH 尚未在树状结构之中，\n"
+"        它和它所有的原始节点都将被创建。这些新的树状条目\n"
+"        将出现于与它们同层级的最后一笔"
+
+#: rpmio/rpmaug.c:716
+msgid "Print the value associated with PATH"
+msgstr "印出与 PATH 相关联的值"
+
+#: rpmio/rpmaug.c:719
+msgid ""
+"Print entries in the tree. If PATH is given, printing starts there,\n"
+"        otherwise the whole tree is printed"
+msgstr ""
+"印出树状结构中的条目。如果 PATH 已给定，就从那里开始印出，\n"
+"        否则印出整个树状结构"
+
+#: rpmio/rpmaug.c:721
+msgid "[<PATH>]"
+msgstr "[<PATH>]"
+
+#: rpmio/rpmaug.c:724
+msgid ""
+"Insert a new node with label LABEL right before or after PATH into\n"
+"        the tree. WHERE must be either 'before' or 'after'."
+msgstr ""
+"在树状结构中以 LABEL 标签插入新的节点恰于 PATH 之前与之后。\n"
+"        WHERE 必须是‘before’或‘after’之一。"
+
+#: rpmio/rpmaug.c:726
+msgid "<LABEL> <WHERE> <PATH>"
+msgstr "<LABEL> <WHERE> <PATH>"
+
+#: rpmio/rpmaug.c:729
+msgid ""
+"Save all pending changes to disk. For now, files are not overwritten.\n"
+"        Instead, new files with extension .augnew are created"
+msgstr ""
+"保存所有搁置的变更到磁盘。现在而言，文件未被覆写。\n"
+"        具备扩充文件名 .augnew 的新文件将作为替代而被创建"
+
+#: rpmio/rpmaug.c:734
+msgid "Load files accordig to the transforms in /augeas/load."
+msgstr "根据 /augeas/load 中的变换而加载文件。"
+
+#: rpmio/rpmaug.c:737
+msgid ""
+"Define the variable NAME to the result of evalutating EXPR. The\n"
+"        variable can be used in path expressions as $NAME. Note that EXPR\n"
+"        is evaluated when the variable is defined, not when it is used."
+msgstr ""
+"定义变量 NAME 为 EXPR 求值的结果。\n"
+"        变量可以在路径运算式中以 $NAME 形式被使用。要注意的是，EXPR\n"
+"        是在变量被定义时求值，而不是它被使用时。"
+
+#: rpmio/rpmaug.c:740
+msgid "<NAME> <EXPR>"
+msgstr "<NAME> <EXPR>"
+
+#: rpmio/rpmaug.c:743
+msgid ""
+"Define the variable NAME to the result of evalutating EXPR, which\n"
+"        must be a nodeset. If no node matching EXPR exists yet, one\n"
+"        is created and NAME will refer to it. If VALUE is given, this\n"
+"        is the same as 'set EXPR VALUE'; if VALUE is not given, the\n"
+"        node is created as if with 'clear EXPR' would and NAME refers\n"
+"        to that node."
+msgstr ""
+"定义变量 NAME 为 EXPR 求值的结果。\n"
+"        它必须是一个节点集。如果尚无匹配 EXPR 的节点存在，就会\n"
+"        创建一个被 NAME 所参考的节点。如果 VALUE 已给定，这就\n"
+"        如同‘set EXPR VALUE’；如果 VALUE 未给定，\n"
+"        节点将如同以‘clear EXPR’被创建，而 NAME 将会参考\n"
+"        到该节点。"
+
+#: rpmio/rpmaug.c:749
+msgid "<NAME> <EXPR> [<VALUE>]"
+msgstr "<NAME> <EXPR> [<VALUE>]"
+
+#: rpmio/rpmaug.c:752 rpmio/rpmaug.c:755
+msgid "Exit the program"
+msgstr "离开程序"
+
+#: rpmio/rpmaug.c:758 tools/spooktool.c:88
+msgid "Print this help text"
+msgstr "印出这份说明文本"
+
+#: rpmio/rpmdav.c:831
+msgid "Authorization Required"
+msgstr "授权必要"
+
+#: rpmio/rpmdav.c:833
+msgid "Redirect"
+msgstr "重新导向"
+
+#: rpmio/rpmdav.c:835
+msgid "Server Error"
+msgstr "服务器错误"
+
+#: rpmio/rpmdav.c:837
+msgid "Unknown Error"
+msgstr "不明的错误"
+
+#: rpmio/rpmgit.c:1061
+msgid "Create a bare repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:1063
+#, fuzzy
+msgid "Specify the <template> directory."
+msgstr "指定目标平台"
+
+#: rpmio/rpmgit.c:1063
+#, fuzzy
+msgid "<template>"
+msgstr "<date>"
+
+#: rpmio/rpmgit.c:1066
+msgid "Specify how the git repository is to be shared."
+msgstr ""
+
+#: rpmio/rpmgit.c:1067
+msgid "{false|true|umask|group|all|world|everybody|0xxx}"
+msgstr "{false|true|umask|group|all|world|everybody|0xxx}"
+
+#: rpmio/rpmgit.c:1069
+msgid "Specify a separate <gitdir> directory."
+msgstr ""
+
+#: rpmio/rpmgit.c:1069
+#, fuzzy
+msgid "<gitdir>"
+msgstr "<dir>"
+
+#: rpmio/rpmgit.c:1071 rpmio/rpmgit.c:1467
+#, fuzzy
+msgid "Quiet mode."
+msgstr "无消息模式"
+
+#: rpmio/rpmgit.c:1073
+msgid "Initial commit.."
+msgstr "初始提交.."
+
+#: rpmio/rpmgit.c:1323 rpmio/rpmgit.c:1465
+msgid "Verbose mode."
+msgstr ""
+
+#: rpmio/rpmgit.c:1670
+#, fuzzy
+msgid "Generate patch."
+msgstr "产生签名"
+
+#: rpmio/rpmgit.c:1687
+msgid "Show only names of changed files."
+msgstr ""
+
+#: rpmio/rpmgit.c:1690
+msgid "Show only names and status of changed files."
+msgstr ""
+
+#: rpmio/rpmgit.c:1694
+msgid "Show colored diff."
+msgstr ""
+
+#: rpmio/rpmgit.c:1696
+msgid "Turn off colored diff."
+msgstr ""
+
+#: rpmio/rpmgit.c:1709
+msgid "Swap two inputs."
+msgstr ""
+
+#: rpmio/rpmgit.c:1712
+#, fuzzy
+msgid "Treat all files as text."
+msgstr "将输入文件视为 HTML。"
+
+#: rpmio/rpmgit.c:1714
+msgid "Ignore changes in whitespace at EOL."
+msgstr ""
+
+#: rpmio/rpmgit.c:1716
+msgid "Ignore changes in amount of whitespace."
+msgstr ""
+
+#: rpmio/rpmgit.c:1718
+#, fuzzy
+msgid "Ignore whitespace when comparing lines."
+msgstr "匹配文件/目录时忽略大小写。"
+
+#: rpmio/rpmgit.c:1724
+msgid "Generate a diff using the \"patience diff\" algorithm."
+msgstr ""
+
+#: rpmio/rpmgit.c:1726
+msgid "Generate a minimal diff."
+msgstr ""
+
+#: rpmio/rpmgit.c:1749
+msgid "Generate diffs with <n> lines of context."
+msgstr ""
+
+#: rpmio/rpmgit.c:1749
+msgid "<n>"
+msgstr "<n>"
+
+#: rpmio/rpmgit.c:1752
+msgid "Show the context between diff hunks."
+msgstr ""
+
+#: rpmio/rpmgit.c:1752
+#, fuzzy
+msgid "<lines>"
+msgstr "列：%s\n"
+
+#: rpmio/rpmgit.c:1755
+msgid "<XXX>"
+msgstr "<XXX>"
+
+#: rpmio/rpmgit.c:1762
+msgid "Ignore changes to submodules in the diff generation."
+msgstr ""
+
+#: rpmio/rpmgit.c:1764
+msgid "Show the given source <prefix> instead of \"a/\"."
+msgstr ""
+
+#: rpmio/rpmgit.c:1764 rpmio/rpmgit.c:1766
+msgid "<prefix>"
+msgstr "<prefix>"
+
+#: rpmio/rpmgit.c:1766
+msgid "Show the given destination prefix instead of \"b/\"."
+msgstr ""
+
+#: rpmio/rpmgit.c:2233
+msgid "Give the output in the short-format."
+msgstr ""
+
+#: rpmio/rpmgit.c:2235
+msgid "Give the output in the long-format."
+msgstr ""
+
+#: rpmio/rpmgit.c:2237
+msgid "Give the output in a stable, easy-to-parse format for scripts."
+msgstr ""
+
+#: rpmio/rpmgit.c:2239 rpmio/rpmgit.c:2241 rpmio/rpmgit.c:2243
+#: rpmio/rpmgit.c:2254 rpmio/rpmgit.c:2505
+msgid "."
+msgstr ""
+
+#: rpmio/rpmgit.c:2248
+msgid "Show untracked files."
+msgstr ""
+
+#: rpmio/rpmgit.c:2248
+msgid "{no|normal|all}"
+msgstr ""
+
+#: rpmio/rpmgit.c:2250
+msgid "Ignore sub-modules."
+msgstr ""
+
+#: rpmio/rpmgit.c:2250
+msgid "{all}"
+msgstr ""
+
+#: rpmio/rpmgit.c:2252
+msgid "Repeat every <sec> seconds."
+msgstr ""
+
+#: rpmio/rpmgit.c:2252
+msgid "<sec>"
+msgstr "<sec>"
+
+#: rpmio/rpmgit.c:2367
+msgid "Add file contents to the index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2370
+msgid "Find by binary search the change that introduced a bug."
+msgstr ""
+
+#: rpmio/rpmgit.c:2372
+msgid "List, create, or delete branches."
+msgstr ""
+
+#: rpmio/rpmgit.c:2374
+msgid "Checkout a branch or paths to the working tree."
+msgstr ""
+
+#: rpmio/rpmgit.c:2376
+msgid "Clone a repository into a new directory."
+msgstr ""
+
+#: rpmio/rpmgit.c:2379
+msgid "Record changes to the repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:2381
+msgid "Show changes between commits, commit and working tree, etc."
+msgstr ""
+
+#: rpmio/rpmgit.c:2384
+msgid "Download objects and refs from another repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:2386
+msgid "Print lines matching a pattern."
+msgstr ""
+
+#: rpmio/rpmgit.c:2390
+msgid "Create an empty git repository or reinitialize an existing one."
+msgstr ""
+
+#: rpmio/rpmgit.c:2393
+msgid "Show commit logs."
+msgstr ""
+
+#: rpmio/rpmgit.c:2395
+msgid "Join two or more development histories together."
+msgstr ""
+
+#: rpmio/rpmgit.c:2397
+msgid "Move or rename a file, a directory, or a symlink."
+msgstr ""
+
+#: rpmio/rpmgit.c:2399
+msgid "Fetch from and merge with another repository or a local branch."
+msgstr ""
+
+#: rpmio/rpmgit.c:2401
+msgid "Update remote refs along with associated objects."
+msgstr ""
+
+#: rpmio/rpmgit.c:2403
+msgid "Forward-port local commits to the updated upstream head."
+msgstr ""
+
+#: rpmio/rpmgit.c:2405
+msgid "Reset current HEAD to the specified state."
+msgstr ""
+
+#: rpmio/rpmgit.c:2407
+msgid "Remove files from the working tree and from the index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2409
+msgid "Show various types of objects."
+msgstr ""
+
+#: rpmio/rpmgit.c:2412
+msgid "Show the working tree status."
+msgstr ""
+
+#: rpmio/rpmgit.c:2415
+msgid "Create, list, delete or verify a tag object signed with GPG."
+msgstr ""
+
+#: rpmio/rpmgit.c:2421
+msgid "Apply a patch to files and/or to the index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2423
+msgid "Copy files from the index to the working tree."
+msgstr ""
+
+#: rpmio/rpmgit.c:2425
+msgid "Create a new commit object."
+msgstr ""
+
+#: rpmio/rpmgit.c:2427
+msgid "Compute object ID and optionally creates a blob from a file."
+msgstr ""
+
+#: rpmio/rpmgit.c:2429
+msgid "Build pack index file for an existing packed archive."
+msgstr ""
+
+#: rpmio/rpmgit.c:2431
+msgid "Run a three-way file merge."
+msgstr ""
+
+#: rpmio/rpmgit.c:2433
+msgid "Run a merge for files needing merging."
+msgstr ""
+
+#: rpmio/rpmgit.c:2435
+msgid "Creates a tag object."
+msgstr ""
+
+#: rpmio/rpmgit.c:2437
+msgid "Build a tree-object from ls-tree formatted text."
+msgstr ""
+
+#: rpmio/rpmgit.c:2439
+msgid "Create a packed archive of objects."
+msgstr ""
+
+#: rpmio/rpmgit.c:2441
+msgid "Remove extra objects that are already in pack files."
+msgstr ""
+
+#: rpmio/rpmgit.c:2443
+msgid "iReads tree information into the index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2445
+msgid "iRead and modify symbolic refs."
+msgstr ""
+
+#: rpmio/rpmgit.c:2447
+msgid "Unpack objects from a packed archive."
+msgstr ""
+
+#: rpmio/rpmgit.c:2449
+msgid "Register file contents in the working tree to the index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2451
+msgid "Update the object name stored in a ref safely."
+msgstr ""
+
+#: rpmio/rpmgit.c:2453
+msgid "Create a tree object from the current index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2459
+msgid "Create a tar/zip archive of the files in the named tree object."
+msgstr ""
+
+#: rpmio/rpmgit.c:2461
+msgid "Provide content or type and size information for repository objects."
+msgstr ""
+
+#: rpmio/rpmgit.c:2463
+msgid "Compares files in the working tree and the index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2465
+msgid "Compares content and mode of blobs between the index and repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:2467
+msgid "Compares the content and mode of blobs found via two tree objects."
+msgstr ""
+
+#: rpmio/rpmgit.c:2469
+msgid "Output information on each ref."
+msgstr ""
+
+#: rpmio/rpmgit.c:2471
+msgid "Show information about files in the index and the working tree."
+msgstr ""
+
+#: rpmio/rpmgit.c:2473
+msgid "List references in a remote repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:2475
+msgid "List the contents of a tree object."
+msgstr ""
+
+#: rpmio/rpmgit.c:2477
+msgid "Find as good common ancestors as possible for a merge."
+msgstr ""
+
+#: rpmio/rpmgit.c:2479
+msgid "Find symbolic names for given revs."
+msgstr ""
+
+#: rpmio/rpmgit.c:2481
+msgid "Find redundant pack files."
+msgstr ""
+
+#: rpmio/rpmgit.c:2483
+#, fuzzy
+msgid "Lists commit objects in reverse chronological order."
+msgstr "%%changelog 无法继承年代顺序的描述。\n"
+
+#: rpmio/rpmgit.c:2485
+msgid "Show packed archive index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2487
+msgid "List references in a local repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:2489
+msgid "Creates a temporary file with blob contents."
+msgstr ""
+
+#: rpmio/rpmgit.c:2491
+msgid "Show a git logical variable."
+msgstr ""
+
+#: rpmio/rpmgit.c:2493
+msgid "Validate packed git archive files."
+msgstr ""
+
+#: rpmio/rpmgit.c:2499
+#, fuzzy
+msgid "Show git configuration."
+msgstr "不安装配置文件"
+
+#: rpmio/rpmgit.c:2501
+msgid "Show git index."
+msgstr ""
+
+#: rpmio/rpmgit.c:2503
+msgid "Show git references."
+msgstr ""
+
+#: rpmio/rpmgit.c:2508
+msgid "Index a <PACKFILE>."
+msgstr ""
+
+#: rpmio/rpmgit.c:2508
+msgid "<PACKFILE>"
+msgstr "<PACKFILE>"
+
+#: rpmio/rpmgit.c:2567
+msgid "Set exec path to <DIR>. env(GIT_EXEC_PATH)"
+msgstr ""
+
+#: rpmio/rpmgit.c:2567 rpmio/rpmgit.c:2569 rpmio/rpmgit.c:2571
+#: rpmio/rpmgit.c:2573 rpmio/rpmgit.c:2585 rpmio/rpmgit.c:2587
+msgid "<DIR>"
+msgstr "<DIR>"
+
+#: rpmio/rpmgit.c:2569
+msgid "Set html path to <DIR>. env(GIT_HTML_PATH)"
+msgstr ""
+
+#: rpmio/rpmgit.c:2571
+msgid "Set man path to <DIR>."
+msgstr ""
+
+#: rpmio/rpmgit.c:2573
+msgid "Set info path to <DIR>."
+msgstr ""
+
+#: rpmio/rpmgit.c:2576 rpmio/rpmgit.c:2578
+msgid "Set paginate. env(PAGER)"
+msgstr ""
+
+#: rpmio/rpmgit.c:2580
+msgid "Do not use replacement refs for objects."
+msgstr ""
+
+#: rpmio/rpmgit.c:2582
+msgid "Treat as a bare repository."
+msgstr ""
+
+#: rpmio/rpmgit.c:2585
+msgid "Set git repository dir to <DIR>. env(GIT_DIR)"
+msgstr ""
+
+#: rpmio/rpmgit.c:2587
+msgid "Set git work tree to <DIR>. env(GIT_WORK_TREE)"
+msgstr ""
+
+#: rpmio/rpmgit.c:2590
+msgid "The most commonly used git commands are::"
+msgstr ""
+
+#: rpmio/rpmgit.c:2603
+msgid ""
+"usage: git [--version] [--exec-path[=GIT_EXEC_PATH]] [--html-path]\n"
+"           [-p|--paginate|--no-pager] [--no-replace-objects]\n"
+"           [--bare] [--git-dir=GIT_DIR] [--work-tree=GIT_WORK_TREE]\n"
+"           [--help] COMMAND [ARGS]\n"
+"\n"
+"The most commonly used git commands are:\n"
+"   add        Add file contents to the index\n"
+"   bisect     Find by binary search the change that introduced a bug\n"
+"   branch     List, create, or delete branches\n"
+"   checkout   Checkout a branch or paths to the working tree\n"
+"   clone      Clone a repository into a new directory\n"
+"   commit     Record changes to the repository\n"
+"   diff       Show changes between commits, commit and working tree, etc\n"
+"   fetch      Download objects and refs from another repository\n"
+"   grep       Print lines matching a pattern\n"
+"   init       Create an empty git repository or reinitialize an existing "
+"one\n"
+"   log        Show commit logs\n"
+"   merge      Join two or more development histories together\n"
+"   mv         Move or rename a file, a directory, or a symlink\n"
+"   pull       Fetch from and merge with another repository or a local "
+"branch\n"
+"   push       Update remote refs along with associated objects\n"
+"   rebase     Forward-port local commits to the updated upstream head\n"
+"   reset      Reset current HEAD to the specified state\n"
+"   rm         Remove files from the working tree and from the index\n"
+"   show       Show various types of objects\n"
+"   status     Show the working tree status\n"
+"   tag        Create, list, delete or verify a tag object signed with GPG\n"
+"\n"
+"See 'git COMMAND --help' for more information on a specific command.\n"
+msgstr ""
+
+#: rpmio/rpmio.c:757
+msgid "Success"
+msgstr "成功"
+
+#: rpmio/rpmio.c:780
+msgid "Bad server response"
+msgstr "不当的服务器回应"
+
+#: rpmio/rpmio.c:782
+msgid "Server I/O error"
+msgstr "服务器 I/O 错误"
+
+#: rpmio/rpmio.c:784
+msgid "Server timeout"
+msgstr "服务器逾时"
+
+#: rpmio/rpmio.c:786
+msgid "Unable to lookup server host address"
+msgstr "无法查找服务器主机地址"
+
+#: rpmio/rpmio.c:788
+msgid "Unable to lookup server host name"
+msgstr "无法查找服务器主机名称"
+
+#: rpmio/rpmio.c:790
+msgid "Failed to connect to server"
+msgstr "连接到服务器时失败"
+
+#: rpmio/rpmio.c:792
+msgid "Failed to establish data connection to server"
+msgstr "创建数据连接到服务器时失败"
+
+#: rpmio/rpmio.c:794
+msgid "I/O error to local file"
+msgstr "到本机文件的 I/O 错误"
+
+#: rpmio/rpmio.c:796
+msgid "Error setting remote server to passive mode"
+msgstr "设置远程服务器为被动模式时发生错误"
+
+#: rpmio/rpmio.c:798
+msgid "File not found on server"
+msgstr "文件在服务器上找不到"
+
+#: rpmio/rpmio.c:800
+msgid "Abort in progress"
+msgstr "正在进行放弃"
+
+#: rpmio/rpmio.c:804
+msgid "Unknown or unexpected error"
+msgstr "不明的或非预期错误"
+
+#: rpmio/rpmio.c:821
+msgid "Malformed URL"
+msgstr "异常的 URL"
+
+#: rpmio/rpmjs.c:92
+msgid "Allow (read-only) access to caller's environmen"
+msgstr "允许 (只读) 访问调用者的环境"
+
+#: rpmio/rpmjs.c:94
+msgid "Disables compiler caching via JSScript XDR serialization"
+msgstr "停用编译器透过 JSScript XDR 串行化缓存"
+
+#: rpmio/rpmjs.c:96
+msgid "Load RC file for interpreter based on script filename."
+msgstr "基于脚本文件名加载用于解译器的 RC 文件。"
+
+#: rpmio/rpmjs.c:98
+msgid "Do not report warnings"
+msgstr "不回报警告"
+
+#: rpmio/rpmjs.c:101
+msgid "Do not limit regexps to n^3 levels of backtracking"
+msgstr "不限制 regexps 到回溯的 n^3 等级"
+
+#: rpmio/rpmjs.c:103
+msgid "Disable nanojit"
+msgstr "停用 nanojit"
+
+#: rpmio/rpmjs.c:105
+msgid "Disable Strict mode"
+msgstr "停用严格模式"
+
+#: rpmio/rpmjs.c:107
+msgid "Disable UTF-8 C string processing"
+msgstr "停用 UTF-8 C 字串处理"
+
+#: rpmio/rpmjs.c:109
+msgid "Parse <!-- comments --> as E4X tokens"
+msgstr "剖析 <!-- 注释 --> 为 E4X 字组"
+
+#: rpmio/rpmjs.c:112 rpmio/rpmjs.c:114
+msgid "Parse //@line number [\"filename\"] for XUL"
+msgstr "剖析 //@行号 [文件名] 用于 XUL"
+
+#: rpmio/rpmjs.c:116
+msgid "Convert warnings to errors"
+msgstr "转换警告为错误"
+
+#: rpmio/rpmlog.c:39
+msgid "(no error)"
+msgstr "(没有错误)"
+
+#: rpmio/rpmlog.c:177 rpmio/rpmlog.c:178 rpmio/rpmlog.c:179
+msgid "fatal error: "
+msgstr "致命错误："
+
+#: rpmio/rpmlog.c:180
+msgid "error: "
+msgstr "错误："
+
+#: rpmio/rpmlog.c:181
+msgid "warning: "
+msgstr "警告："
+
+#: rpmio/rpmlua.c:671
+#, c-format
+msgid "invalid syntax in Lua scriptlet: %s\n"
+msgstr "Lua 短脚本中无效的语法：%s\n"
+
+#: rpmio/rpmlua.c:687
+#, c-format
+msgid "invalid syntax in Lua script: %s\n"
+msgstr "Lua 脚本中无效的语法：%s\n"
+
+#: rpmio/rpmlua.c:692 rpmio/rpmlua.c:711
+#, c-format
+msgid "Lua script failed: %s\n"
+msgstr "Lua 脚本失败：%s\n"
+
+#: rpmio/rpmlua.c:706
+#, c-format
+msgid "invalid syntax in Lua file: %s\n"
+msgstr "Lua 文件中无效的语法：%s\n"
+
+#: rpmio/rpmlua.c:924
+#, c-format
+msgid "lua hook failed: %s\n"
+msgstr "lua hook 执行失败：%s\n"
+
+#: rpmio/rpmmalloc.c:30
+#, c-format
+msgid "memory alloc (%u bytes) returned NULL.\n"
+msgstr "内在分配 (%u 字节) 返回 NULL。\n"
+
+#: rpmio/rpmmg.c:70
+#, c-format
+msgid "magic_load(ms, %s) failed: %s\n"
+msgstr "magic_load(ms，“%s”) 失败：%s\n"
+
+#: rpmio/rpmmg.c:75
+#, c-format
+msgid "magic_open(0x%x) failed: %s\n"
+msgstr "magic_open(0x%x) 失败：%s\n"
+
+#: rpmio/rpmmg.c:126
+#, c-format
+msgid "magic_file(ms, %s) failed: %s\n"
+msgstr "magic_file(ms，“%s”) 失败：%s\n"
+
+#: rpmio/rpmmg.c:156
+#, c-format
+msgid "magic_buffer(ms, %p[%u]) failed: %s\n"
+msgstr "magic_buffer(ms, %p[%u]) 失败：%s\n"
+
+#: rpmio/rpmrpc.c:1541 rpmio/rpmrpc.c:1585
+#, c-format
+msgid "%s(%d,0x%x,0x%x) failed: rc %d\n"
+msgstr "%s(%d,0x%x,0x%x) 失败：rc %d\n"
+
+#: rpmio/rpmrpc.c:1598
+#, c-format
+msgid "%s(%p[%u],0x%x,0x%x,%p,0x%x) failed: %m\n"
+msgstr "%s(%p[%u],0x%x,0x%x,%p,0x%x) 失败：%m\n"
+
+#: rpmio/rpmrpc.c:1610
+#, c-format
+msgid "%s(%p[%u]) failed: %m\n"
+msgstr "%s(%p[%u]) 失败：%m\n"
+
+#: rpmio/rpmrpc.c:1621 rpmio/rpmrpc.c:1634
+#, c-format
+msgid "%s(%p[%u],%d) failed: %m\n"
+msgstr "%s(%p[%u],%d) 失败：%m\n"
+
+#: rpmio/rpmrpc.c:1665
+#, c-format
+msgid "%s(%d,%d,0x%x,0x%x) failed: %m\n"
+msgstr "%s(%d,%d,0x%x,0x%x) 失败：%m\n"
+
+#: rpmio/rpmsql.c:2939
+#, fuzzy, c-format
+msgid "unable to open database \"%s\": %s"
+msgstr "无法打开签名目标 %s：%s\n"
+
+#: rpmio/rpmsql.c:4120 rpmio/rpmsql.c:4198 rpmio/rpmsql.c:4440
+#: rpmio/rpmsql.c:4661 rpmio/rpmsql.c:4689
+#, fuzzy, c-format
+msgid "cannot open \"%s\""
+msgstr "无法打开文件 %s：%s\n"
+
+#: rpmio/rpmsql.c:4389
+msgid "non-null separator required for import"
+msgstr ""
+
+#: rpmio/rpmsql.c:4479
+#, fuzzy, c-format
+msgid "%s line %d: expected %d columns of data but found %d"
+msgstr "%s%s 预期为 %lu 却找到 %lu"
+
+#: rpmio/rpmsql.c:4549 rpmio/rpmsql.c:4866
+msgid "querying sqlite_master and sqlite_temp_master"
+msgstr ""
+
+#: rpmio/rpmsql.c:4611
+#, c-format
+msgid "mode should be one of: %s"
+msgstr ""
+
+#: rpmio/rpmsql.c:4622
+#, c-format
+msgid "invalid arguments:  \"%s\". Enter \".help\" for help"
+msgstr ""
+
+#: rpmio/rpmsql.c:4720
+msgid "source database is busy"
+msgstr ""
+
+#: rpmio/rpmsql.c:4799
+#, fuzzy
+msgid "querying schema information"
+msgstr "调出基本的文件信息"
+
+#: rpmio/rpmsql.c:4911
+#, c-format
+msgid "unknown command or invalid arguments:  \"%s\". Enter \".help\" for help"
+msgstr ""
+
+#: rpmio/rpmsql.c:5131
+#, c-format
+msgid "incomplete SQL: %s"
+msgstr ""
+
+#: rpmio/rpmsql.c:5213
+#, c-format
+msgid "%s: Unknown callback(0x%x)\n"
+msgstr ""
+
+#: rpmio/rpmsql.c:5232
+#, fuzzy
+msgid "create database if not exists"
+msgstr "创建 sqlite3 数据库文件"
+
+#: rpmio/rpmsql.c:5235
+msgid "read/process named FILE"
+msgstr ""
+
+#: rpmio/rpmsql.c:5237
+msgid "print commands before execution"
+msgstr ""
+
+#: rpmio/rpmsql.c:5240
+msgid "disable extension loading (normally enabled)"
+msgstr ""
+
+#: rpmio/rpmsql.c:5242
+msgid "turn headers on or off"
+msgstr ""
+
+#: rpmio/rpmsql.c:5245
+msgid "stop after hitting an error"
+msgstr ""
+
+#: rpmio/rpmsql.c:5248
+msgid "force interactive I/O"
+msgstr ""
+
+#: rpmio/rpmsql.c:5250
+msgid "force batch I/O"
+msgstr ""
+
+#: rpmio/rpmsql.c:5253
+msgid "set output mode to 'column'"
+msgstr ""
+
+#: rpmio/rpmsql.c:5255
+msgid "set output mode to 'csv'"
+msgstr ""
+
+#: rpmio/rpmsql.c:5257
+msgid "set output mode to HTML"
+msgstr ""
+
+#: rpmio/rpmsql.c:5259
+msgid "set output mode to 'line'"
+msgstr ""
+
+#: rpmio/rpmsql.c:5261
+msgid "set output mode to 'list'"
+msgstr ""
+
+#: rpmio/rpmsql.c:5263
+msgid "set output field separator (|)"
+msgstr ""
+
+#: rpmio/rpmsql.c:5263
+msgid "CHAR"
+msgstr "字符"
+
+#: rpmio/rpmsql.c:5265
+msgid "set text string for NULL values"
+msgstr ""
+
+#: rpmio/rpmsql.c:5265
+msgid "TEXT"
+msgstr ""
+
+#: rpmio/rpmsql.c:5268
+#, fuzzy
+msgid "show SQLite version"
+msgstr "印出版本信息"
+
+#: rpmio/rpmsql.c:5277
+msgid ""
+"Usage: dbsql [OPTIONS] FILENAME [SQL]\n"
+"FILENAME is the name of an SQLite database. A new database is created\n"
+"if the file does not previously exist.\n"
+"\n"
+"OPTIONS include:\n"
+"   -help                show this message\n"
+"   -init filename       read/process named file\n"
+"   -echo                print commands before execution\n"
+"   -[no]header          turn headers on or off\n"
+"   -bail                stop after hitting an error\n"
+"   -interactive         force interactive I/O\n"
+"   -batch               force batch I/O\n"
+"   -column              set output mode to 'column'\n"
+"   -csv                 set output mode to 'csv'\n"
+"   -html                set output mode to HTML\n"
+"   -line                set output mode to 'line'\n"
+"   -list                set output mode to 'list'\n"
+"   -separator 'x'       set output field separator (|)\n"
+"   -nullvalue 'text'    set text string for NULL values\n"
+"   -version             show SQLite version\n"
+msgstr ""
+
+#: rpmio/rpmsql.c:5679
+#, fuzzy, c-format
+msgid "unable to process SQL \"%s\""
+msgstr "无法打开 %s：%s\n"
+
+#: rpmio/rpmuuid.c:35
+msgid "invalid UUID version number"
+msgstr "无效的 UUID 版本编号"
+
+#: rpmio/rpmuuid.c:39
+msgid "namespace or data required for requested UUID version\n"
+msgstr "命名空间或数据对于要求的 UUID 版本为必要\n"
+
+#: rpmio/rpmuuid.c:43
+msgid "either string or binary result buffer required\n"
+msgstr "字串或二进制结果缓冲区为必要\n"
+
+#: rpmio/rpmuuid.c:49
+#, c-format
+msgid "failed to create UUID object: %s\n"
+msgstr "创建 UUID 对象时失败：%s\n"
+
+#: rpmio/rpmuuid.c:56
+#, c-format
+msgid "failed to create UUID namespace object: %s\n"
+msgstr "创建 UUID 命名空间对象时失败：%s\n"
+
+#: rpmio/rpmuuid.c:61
+#, c-format
+msgid "failed to import UUID namespace object: %s\n"
+msgstr "导入 UUID 命名空间对象时失败：%s\n"
+
+#: rpmio/rpmuuid.c:77
+#, c-format
+msgid "failed to make UUID object: %s\n"
+msgstr "产生 UUID 对象时失败：%s\n"
+
+#: rpmio/rpmuuid.c:86
+#, c-format
+msgid "failed to export UUID object as string representation: %s\n"
+msgstr "导出 UUID 对象为字串表示时失败：%s\n"
+
+#: rpmio/rpmuuid.c:94
+#, c-format
+msgid "failed to export UUID object as binary representation: %s\n"
+msgstr "导出 UUID 对象为二进制表示时失败：%s\n"
+
+#: rpmio/rpmuuid.c:108
+msgid "UUID generator not available!\n"
+msgstr "UUID 产生器无法使用！\n"
+
+#: rpmio/rpmz.c:149
+#, c-format
+msgid "%s: File seems to be moved, not removing\n"
+msgstr ""
+
+#: rpmio/rpmz.c:154 rpmio/rpmz.c:157
+#, fuzzy, c-format
+msgid "%s: Cannot remove: %s\n"
+msgstr "，未被移除：%s"
+
+#: rpmio/rpmz.c:182
+#, fuzzy, c-format
+msgid "%s: Cannot set the file owner: %s\n"
+msgstr "无法访问文件：%s"
+
+#: rpmio/rpmz.c:188
+#, fuzzy, c-format
+msgid "%s: Cannot set the file group: %s\n"
+msgstr "无法访问文件：%s"
+
+#: rpmio/rpmz.c:207
+#, fuzzy, c-format
+msgid "%s: Cannot set the file permissions: %s\n"
+msgstr "无法访问文件：%s"
+
+#: rpmio/rpmz.c:554
+#, fuzzy, c-format
+msgid "%s: Closing output file failed: %s\n"
+msgstr "%s：打开失败：%s\n"
+
+#: rpmio/rpmz.c:562
+#, fuzzy, c-format
+msgid "%s: Closing input file failed: %s\n"
+msgstr "%s：打开失败：%s\n"
+
+#: rpmio/rpmz.c:970
+#, c-format
+msgid "%s: %s: Options must be `name=value' pairs separated with commas\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1000
+#, fuzzy, c-format
+msgid "%s: %s: Invalid option value\n"
+msgstr "%s：无效的值“%s”用于 -d\n"
+
+#: rpmio/rpmz.c:1013
+#, c-format
+msgid "%s: %s: Invalid option name\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1129
+#, c-format
+msgid "LZMA1/LZMA2 preset %u is not supported\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1204
+#, c-format
+msgid "%s: Maximum number of filters is %d\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1322
+#, c-format
+msgid ""
+"Memory usage limit (%llu MiB) is too small for the given filter setup (%llu "
+"MiB)\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1363
+msgid "Using a preset in raw mode is discouraged.\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1364
+msgid "The exact options of the presets may vary between software versions.\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1395
+msgid "With --format=lzma only the LZMA1 filter is supported\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1415
+#, c-format
+msgid ""
+"%'llu MiB (%'llu B) of memory is required per thread, limit is %'llu MiB "
+"(%'llu B)\n"
+msgstr ""
+
+#: rpmio/rpmz.c:1525 tools/rpmdigest.c:312 tools/rpmwget.c:936
+#, c-format
+msgid "%s: Failed to open %s\n"
+msgstr "%s：打开 %s 时失败\n"
+
+#: rpmio/rpmz.c:1616
+#, fuzzy, c-format
+msgid "%s: Invalid memory scaling suffix \"%s\"\n"
+msgstr "%s：无效的新列指定符号“%s”\n"
+
+#: rpmio/rpmz.c:1632
+#, fuzzy, c-format
+msgid "%s: Unknown integrity check method \"%s\"\n"
+msgstr "%s：%s：不明的摘要 algo 名称“%s”\n"
+
+#: rpmio/rpmz.c:1656
+#, fuzzy, c-format
+msgid "%s: Unknown file format type \"%s\"\n"
+msgstr "%s：不明的颜色设置“%s”\n"
+
+#: rpmio/rpmz.c:1684 tools/cp.c:806 tools/rpmdigest.c:834 tools/rpmgrep.c:1282
+#: tools/rpmmtree.c:3534 tools/rpmwget.c:1098 tools/semodule.c:83
+#: tools/spooktool.c:287
+#, c-format
+msgid "%s: Unknown option -%c\n"
+msgstr "%s：不明选项 -%c\n"
+
+#: rpmio/rpmz.c:1713
+msgid "LZMA1 filter"
+msgstr "LZMA1 过滤器"
+
+#: rpmio/rpmz.c:1713 rpmio/rpmz.c:1715 rpmio/rpmz.c:1742 rpmio/rpmz.c:1751
+msgid "OPTS"
+msgstr "参数"
+
+#: rpmio/rpmz.c:1715
+msgid "LZMA2 filter"
+msgstr "LZMA2 过滤器"
+
+#: rpmio/rpmz.c:1718
+msgid "ix86 filter (sometimes called BCJ filter)"
+msgstr "ix86 过滤器（有时叫 BCJ 过滤器）"
+
+#: rpmio/rpmz.c:1720
+msgid "x86 filter (also called BCJ filter)"
+msgstr "x86 过滤器（也叫 BCJ 过滤器）"
+
+#: rpmio/rpmz.c:1722 rpmio/rpmz.c:1724
+msgid "PowerPC (big endian) filter"
+msgstr "PowerPC (大端序) 过滤器"
+
+#: rpmio/rpmz.c:1726 rpmio/rpmz.c:1728
+msgid "IA64 (Itanium) filter"
+msgstr ""
+
+#: rpmio/rpmz.c:1730
+msgid "ARM filter"
+msgstr ""
+
+#: rpmio/rpmz.c:1732
+msgid "ARM-Thumb filter"
+msgstr ""
+
+#: rpmio/rpmz.c:1734
+msgid "SPARC filter"
+msgstr ""
+
+#: rpmio/rpmz.c:1742
+#, fuzzy
+msgid "Delta filter"
+msgstr "调试 Bloom 筛选器"
+
+#: rpmio/rpmz.c:1751
+msgid "Subblock filter"
+msgstr ""
+
+#: rpmio/rpmz.c:1766
+#, fuzzy
+msgid "debug spewage"
+msgstr "调试 semanage "
+
+#: rpmio/rpmz.c:1769
+msgid "file FORMAT {auto|xz|lzma|alone|raw|gz|bz2}"
+msgstr ""
+
+#: rpmio/rpmz.c:1769
+msgid "FORMAT"
+msgstr "FORMAT"
+
+#: rpmio/rpmz.c:1771
+msgid "integrity check METHOD {none|crc32|crc64|sha256}"
+msgstr ""
+
+#: rpmio/rpmz.c:1771
+msgid "METHOD"
+msgstr ""
+
+#: rpmio/rpmz.c:1773
+msgid "use roughly NUM Mbytes of memory at maximum"
+msgstr ""
+
+#: rpmio/rpmz.c:1773 tools/rpmwget.c:1264
+msgid "NUM"
+msgstr "NUM"
+
+#: rpmio/rpmz.c:1777
+msgid "Read file names from MANIFEST"
+msgstr ""
+
+#: rpmio/rpmz.c:1777 tools/rpmdigest.c:861 tools/rpmdigest.c:865
+msgid "MANIFEST"
+msgstr "MANIFEST"
+
+#: rpmio/rpmz.c:1780
+msgid "suppress warnings; specify twice to suppress errors too"
+msgstr ""
+
+#: rpmio/rpmz.c:1782
+msgid "be verbose; specify twice for even more verbose"
+msgstr ""
+
+#: rpmio/rpmz.c:1784 rpmio/rpmz.c:1786
+msgid "display this help and exit"
+msgstr "显示此帮助信息并退出"
+
+#: rpmio/rpmz.c:1789
+msgid "Display software version"
+msgstr ""
+
+#: rpmio/rpmz.c:1791
+#, fuzzy
+msgid "Display softwre license"
+msgstr "显示已安装的策略模块清单"
+
+#: rpmio/rpmz.c:1803
+msgid ""
+"  Compress or decompress FILEs.\n"
+"\n"
+"Options:"
+msgstr ""
+
+#: rpmio/rpmz.c:1811
+msgid "Compression options: "
+msgstr "压缩选项："
+
+#: rpmio/rpmz.c:1817 rpmio/rpmzq.c:189
+msgid "extreme compression"
+msgstr "极限压缩"
+
+#: rpmio/rpmz.c:1822
+msgid "Filters:"
+msgstr ""
+
+#: rpmio/rpmz.c:1827
+msgid ""
+"sign the data with GnuPG when compressing, or verify the signature when "
+"decompressing"
+msgstr ""
+
+#: rpmio/rpmz.c:1827
+msgid "PUBKEY"
+msgstr ""
+
+#: rpmio/rpmz.c:1840
+msgid ""
+"Usage: rpmz [OPTION]... [FILE]...\n"
+"  Compress or decompress FILEs."
+msgstr ""
+
+#: rpmio/rpmzq.c:112
+#, fuzzy, c-format
+msgid "Unknown option -%c\n"
+msgstr "%s：不明选项 -%c\n"
+
+#: rpmio/rpmzq.c:184
+msgid "fast compression"
+msgstr "最快压缩"
+
+#: rpmio/rpmzq.c:186
+msgid "best compression"
+msgstr "最好压缩"
+
+#: rpmio/rpmzq.c:213 rpmio/rpmzq.c:220
+msgid "Set compression block size to mmmK"
+msgstr ""
+
+#: rpmio/rpmzq.c:213 rpmio/rpmzq.c:220
+msgid "mmm"
+msgstr ""
+
+#: rpmio/rpmzq.c:216 rpmio/rpmzq.c:223 rpmio/rpmzq.c:234
+msgid "Allow up to n compression threads"
+msgstr ""
+
+#: rpmio/rpmzq.c:216 rpmio/rpmzq.c:223 rpmio/rpmzq.c:234
+msgid "n"
+msgstr ""
+
+#: rpmio/rpmzq.c:227
+msgid "Compress blocks independently for damage recovery"
+msgstr ""
+
+#: rpmio/rpmzq.c:230
+msgid "Input-determined block locations for rsync"
+msgstr ""
+
+#: rpmio/rpmzq.c:239
+msgid "force compression"
+msgstr "强制压缩"
+
+#: rpmio/rpmzq.c:241
+msgid "force decompression"
+msgstr "强制解压"
+
+#: rpmio/rpmzq.c:243
+msgid "Decompress the compressed input"
+msgstr ""
+
+#: rpmio/rpmzq.c:245
+msgid "Test the integrity of the compressed input"
+msgstr ""
+
+#: rpmio/rpmzq.c:247
+msgid "List the contents of the compressed input"
+msgstr ""
+
+#: rpmio/rpmzq.c:249
+msgid "list block sizes, total sizes, and possible metadata"
+msgstr ""
+
+#: rpmio/rpmzq.c:251
+msgid "Force: --overwrite --recompress --symlinks --tty"
+msgstr ""
+
+#: rpmio/rpmzq.c:254
+msgid "  Permit overwrite of output files"
+msgstr ""
+
+#: rpmio/rpmzq.c:257
+msgid "  Permit compress of already compressed files"
+msgstr ""
+
+#: rpmio/rpmzq.c:260
+msgid "  Permit symlink input file to be compressed"
+msgstr ""
+
+#: rpmio/rpmzq.c:263
+msgid "  Permit compressed output to terminal"
+msgstr ""
+
+#: rpmio/rpmzq.c:268
+#, fuzzy
+msgid "Process the contents of all subdirectories"
+msgstr "强制创建目录。"
+
+#: rpmio/rpmzq.c:270
+msgid "Use suffix .sss instead of .gz (for compression)"
+msgstr ""
+
+#: rpmio/rpmzq.c:270
+msgid ".sss"
+msgstr ""
+
+#: rpmio/rpmzq.c:272 rpmio/rpmzq.c:274
+msgid "Compress to LZW (.Z) instead of gzip format"
+msgstr ""
+
+#: rpmio/rpmzq.c:276
+msgid "Compress to zlib (.zz) instead of gzip format"
+msgstr ""
+
+#: rpmio/rpmzq.c:278
+msgid "Compress to PKWare zip (.zip) single entry format"
+msgstr ""
+
+#: rpmio/rpmzq.c:280
+msgid "Do not delete original file after processing"
+msgstr ""
+
+#: rpmio/rpmzq.c:282
+msgid "Write all processed output to stdout (won't delete)"
+msgstr ""
+
+#: rpmio/rpmzq.c:284
+msgid "write to standard output and don't delete input files"
+msgstr ""
+
+#: rpmio/rpmzq.c:289
+msgid "Store/restore file name and mod time in/from header"
+msgstr ""
+
+#: rpmio/rpmzq.c:291
+msgid "Do not store or restore file name in/from header"
+msgstr ""
+
+#: rpmio/rpmzq.c:294
+msgid "Do not store or restore mod time in/from header"
+msgstr ""
+
+#: rpmio/url.c:106
+#, c-format
+msgid "warning: u %p ctrl %p nrefs != 0 (%s %s)\n"
+msgstr "警告：u %p 控制 %p nrefs != 0(%s %s)\n"
+
+#: rpmio/url.c:126
+#, c-format
+msgid "warning: u %p data %p nrefs != 0 (%s %s)\n"
+msgstr "警告：u %p 数据 %p nrefs != 0(%s %s)\n"
+
+#: rpmio/url.c:213
+#, c-format
+msgid "warning: _url_cache[%d] %p nrefs(%ld) != 1 (%s %s)\n"
+msgstr "警告：_url_cache[%d] %p nrefs(%ld) != 1 (%s %s)\n"
+
+#: rpmio/url.c:309
+#, c-format
+msgid "Password for %s@%s: "
+msgstr "密码用于 %s@%s："
+
+#: rpmio/url.c:338 rpmio/url.c:365
+#, c-format
+msgid "error: %sport must be a number\n"
+msgstr "错误：%sport 必须是数字\n"
+
+#: rpmio/url.c:549
+msgid "url port must be a number\n"
+msgstr "网址连接端口必须是数字\n"
+
+#: tools/augtool.c:333
+msgid "Options:"
+msgstr "选项："
+
+#: tools/chroot.c:45
+msgid "Set primary USER"
+msgstr "设置主要用户"
+
+#: tools/chroot.c:45 tools/rpmwget.c:1221 tools/rpmwget.c:1251
+#: tools/rpmwget.c:1266 tools/rpmwget.c:1327
+msgid "USER"
+msgstr "USER"
+
+#: tools/chroot.c:47
+msgid "Set primary GROUP"
+msgstr "设置主要群组"
+
+#: tools/chroot.c:47
+msgid "GROUP"
+msgstr "GROUP"
+
+#: tools/chroot.c:49
+msgid "Set primary GROUPS"
+msgstr "设置主要的群组"
+
+#: tools/chroot.c:49
+msgid "GROUPS"
+msgstr "GROUPS"
+
+#: tools/cp.c:821
+msgid "Follow command-line symbolic links"
+msgstr "跟随命令行符号链接"
+
+#: tools/cp.c:823
+msgid "Always follow symbolic links"
+msgstr "一律跟随符号链接"
+
+#: tools/cp.c:825
+msgid "Never follow symbolic links"
+msgstr "永不跟随符号链接"
+
+#: tools/cp.c:827 tools/cp.c:829
+msgid "Copy directories recursively"
+msgstr "递归复制目录"
+
+#: tools/cp.c:831
+msgid "Archive mode (same as -RpP)"
+msgstr "存盘模式 (如同 -RpP)"
+
+#: tools/cp.c:833
+msgid "Unlink and retry if 1st open fails"
+msgstr "如果首次打开失败就取消链接并重试"
+
+#: tools/cp.c:835
+msgid "Prompt before overwriting a file"
+msgstr "覆写文件之前先提示"
+
+#: tools/cp.c:837
+msgid "Link files instead of copying"
+msgstr "以链接文件代替复制"
+
+#: tools/cp.c:839
+msgid "Do not overwrite an existing file"
+msgstr "不覆写现有文件"
+
+#: tools/cp.c:841
+msgid "Preserve mode/ownership/timestamps"
+msgstr "保留模式/所有权/时间戳记"
+
+#: tools/cp.c:843
+msgid "Stay on thgis file system"
+msgstr "保持于这个文件系统"
+
+#: tools/roto.c:4039
+msgid "initialize the chroot, do not build anything"
+msgstr ""
+
+#: tools/roto.c:4041
+msgid "completely remove the specified chroot"
+msgstr ""
+
+#: tools/roto.c:4044
+msgid ""
+"completely remove the specified chroot or cache dir or all of the chroot and "
+"cache"
+msgstr ""
+
+#: tools/roto.c:4047
+msgid "rebuild the specified SRPM(s)"
+msgstr ""
+
+#: tools/roto.c:4050
+msgid ""
+"Build a SRPM from spec (--spec ...) and sources (--sources ...) or from SCM"
+msgstr ""
+
+#: tools/roto.c:4053
+msgid ""
+"run the specified command interactively within the chroot. Default command: /"
+"bin/sh"
+msgstr ""
+
+#: tools/roto.c:4055
+msgid "run the specified command noninteractively within the chroot."
+msgstr ""
+
+#: tools/roto.c:4058
+#, fuzzy
+msgid "install build dependencies for a specified SRPM"
+msgstr "无法满足 %s 的依赖关系\n"
+
+#: tools/roto.c:4061
+msgid "install packages using yum"
+msgstr "用 yum 安装软件包"
+
+#: tools/roto.c:4063
+msgid "update installed packages using yum"
+msgstr "用 yum 更新软件包"
+
+#: tools/roto.c:4065
+msgid "Kill all processes using specified buildroot."
+msgstr ""
+
+#: tools/roto.c:4068
+msgid "Copy file(s) into the specified chroot"
+msgstr ""
+
+#: tools/roto.c:4071
+msgid "Copy file(s) from the specified chroot"
+msgstr ""
+
+#: tools/roto.c:4074
+msgid "activate 'offline' mode."
+msgstr ""
+
+#: tools/roto.c:4076
+#, fuzzy
+msgid "do not clean chroot before building"
+msgstr "不运行组建进程里的任何步骤"
+
+#: tools/roto.c:4078
+msgid ""
+"Clean chroot after building. Use with --resultdir. Only active for 'rebuild'."
+msgstr ""
+
+#: tools/roto.c:4081
+msgid "Sets kernel personality()."
+msgstr ""
+
+#: tools/roto.c:4081 tools/roto.c:4083
+msgid "ARCH"
+msgstr "架构"
+
+#: tools/roto.c:4083
+msgid "passed to rpmbuild as --target"
+msgstr ""
+
+#: tools/roto.c:4085
+#, fuzzy
+msgid "define an rpm macro (may be used more than once)"
+msgstr "指定模式 (也许会使用一次以上)"
+
+#: tools/roto.c:4085
+msgid "MACRO EXPR"
+msgstr "MACRO EXPR"
+
+#: tools/roto.c:4088
+#, fuzzy
+msgid "enable configure option for build (may be used more than once)"
+msgstr "从文件读取模式 (也许会使用一次以上)"
+
+#: tools/roto.c:4088 tools/roto.c:4090 tools/roto.c:4125
+msgid "OPTION"
+msgstr ""
+
+#: tools/roto.c:4090
+#, fuzzy
+msgid "disable configure option for build (may be used more than once)"
+msgstr "从文件读取模式 (也许会使用一次以上)"
+
+#: tools/roto.c:4093
+msgid "path for resulting files to be put"
+msgstr ""
+
+#: tools/roto.c:4095
+msgid "Arbitrary, unique extension to append to buildroot directory name"
+msgstr ""
+
+#: tools/roto.c:4095
+msgid "EXT"
+msgstr ""
+
+#: tools/roto.c:4097
+msgid "Change where config files are found"
+msgstr ""
+
+#: tools/roto.c:4099
+msgid "Fail build if rpmbuild takes longer than 'timeout' seconds"
+msgstr ""
+
+#: tools/roto.c:4099 tools/rpmwget.c:1181 tools/rpmwget.c:1183
+#: tools/rpmwget.c:1185 tools/rpmwget.c:1187 tools/rpmwget.c:1189
+#: tools/rpmwget.c:1192
+msgid "SECONDS"
+msgstr "SECONDS"
+
+#: tools/roto.c:4102
+msgid "Drop privileges before running command when using --chroot"
+msgstr ""
+
+#: tools/roto.c:4104
+msgid ""
+"Change to the specified directory (relative to the chroot) before running "
+"command when using --chroot"
+msgstr ""
+
+#: tools/roto.c:4107
+msgid ""
+"Specifies spec file to use to build an SRPM (used only with --buildsrpm)"
+msgstr ""
+
+#: tools/roto.c:4107
+msgid "SPEC"
+msgstr ""
+
+#: tools/roto.c:4109
+msgid ""
+"Specifies sources (either a single file or a directory of files) to use to "
+"build an SRPM (used only with --buildsrpm)"
+msgstr ""
+
+#: tools/roto.c:4109
+msgid "SOURCES"
+msgstr ""
+
+#: tools/roto.c:4112
+msgid "Enable internal mock tracing output."
+msgstr ""
+
+#: tools/roto.c:4115
+msgid "Enable plugin."
+msgstr ""
+
+#: tools/roto.c:4117
+msgid "Disable plugin."
+msgstr "禁用插件。"
+
+#: tools/roto.c:4120
+msgid "print path to chroot root"
+msgstr ""
+
+#: tools/roto.c:4123
+msgid "build from SCM repository"
+msgstr ""
+
+#: tools/roto.c:4125
+#, fuzzy
+msgid "define an SCM option (may be used more than once)"
+msgstr "指定模式 (也许会使用一次以上)"
+
+#: tools/roto.c:4128
+msgid "disable unshare(2)"
+msgstr ""
+
+#: tools/rpm2cpio.c:104
+#, c-format
+msgid "argument is not an RPM package\n"
+msgstr "参数不是一个 RPM 软件包\n"
+
+#: tools/rpm2cpio.c:109
+#, c-format
+msgid "error reading header from package\n"
+msgstr "读取软件包头部错误\n"
+
+#: tools/rpm2cpio.c:139
+#, c-format
+msgid "cannot re-open payload: %s\n"
+msgstr "不能重新打开荷载：%s\n"
+
+#: tools/rpmcache.c:552
+msgid "don't verify header+payload signature"
+msgstr "不验证报头+净负荷签名"
+
+#: tools/rpmcache.c:555
+msgid "update cache database"
+msgstr "更新缓存数据库"
+
+#: tools/rpmcache.c:557
+msgid "don't update cache database, only print package paths"
+msgstr "不更新缓存数据库，只印出软件包路径"
+
+#: tools/rpmcache.c:560
+msgid "File tree walk options:"
+msgstr "文件树遍历选项："
+
+#: tools/rpmcache.c:564
+msgid "Common options for all rpm modes and executables:"
+msgstr "所有 rpm 模式和可执行文件的通用选项："
+
+#: tools/rpmcache.c:596
+#, c-format
+msgid "%s: %%{_cache_dbpath} macro is mis-configured.\n"
+msgstr "%s：%%{_cache_dbpath} 宏被错误组配了。\n"
+
+#: tools/rpmcache.c:652
+#, c-format
+msgid "%s: cache operation failed: ec %d.\n"
+msgstr "%s：操作缓存时失败：ec %d。\n"
+
+#: tools/rpmcmp.c:82
+#, c-format
+msgid "skipping malformed comparison: \"%s\"\n"
+msgstr "跳过异常的比较：“%s”\n"
+
+#: tools/rpmdeps.c:164
+msgid "print cpuinfo(...) dependency set"
+msgstr "印出 cpuinfo(...) 依赖关系集合"
+
+#: tools/rpmdeps.c:166
+msgid "print rpmlib(...) dependency set"
+msgstr "印出 rpmlib(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:168
+msgid "print /etc/rpm/sysinfo dependency set"
+msgstr "印出 /etc/rpm/sysinfo 依赖关系集合"
+
+#: tools/rpmdeps.c:170
+msgid "print getconf(...) dependency set"
+msgstr "印出 getconf(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:172
+msgid "print soname(...) dependencies for elf files"
+msgstr "印出 soname(...) 用于 elf 文件的依赖关系"
+
+#: tools/rpmdeps.c:174
+msgid "print soname(...) dependencies from /etc/ld.so.cache"
+msgstr "印出 soname(...) 来自 /etc/ld.so.cache 的依赖关系"
+
+#: tools/rpmdeps.c:176
+msgid "print uname(...) dependency set"
+msgstr "印出 uname(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:178
+msgid "print dependency set from a command pipe"
+msgstr "印出来自命令管道的依赖关系集合"
+
+#: tools/rpmdeps.c:181
+msgid "print perl(...) dependency set"
+msgstr "印出 perl(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:183
+msgid "print python(...) dependency set"
+msgstr "印出 python(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:185
+msgid "print libtool(...) dependency set"
+msgstr "印出 libtool(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:187
+msgid "print pkgconfig(...) dependency set"
+msgstr "印出 pkgconfig(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:190
+msgid "print pubkey(...) dependency set"
+msgstr "印出 pubkey(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:192
+msgid "print arch(...) dependency set"
+msgstr "印出 arch(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:194
+msgid "print file(...) dependency set"
+msgstr "印出 file(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:196
+msgid "print soname(...) dependency set"
+msgstr "印出 soname(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:198
+msgid "print package(...) dependency set"
+msgstr "印出 package(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:201
+msgid "print java(...) dependency set"
+msgstr "印出 java(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:203
+msgid "print php(...) dependency set"
+msgstr "印出 php(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:205
+msgid "print ruby(...) dependency set"
+msgstr "印出 ruby(...) 的依赖关系集合"
+
+#: tools/rpmdeps.c:207
+msgid "print /var/lib/dpkg Provides: dependency set"
+msgstr "印出 /var/lib/dpkg Provides: 的依赖关系集合"
+
+#: tools/rpmdeps.c:209
+msgid "print /var/lib/dpkg Requires: dependency set"
+msgstr "印出 /var/lib/dpkg Requires: 的依赖关系集合"
+
+#: tools/rpmdeps.c:212
+msgid "print Provides: dependency set"
+msgstr "印出 Provides: 的依赖关系集合"
+
+#: tools/rpmdeps.c:214
+msgid "print Requires: dependency set"
+msgstr "印出 Requires: 的依赖关系集合"
+
+#: tools/rpmdeps.c:216
+msgid "check Requires: against Provides: for dependency closure"
+msgstr "检查 Requires: 针对 Provides: 以结束依赖关系"
+
+#: tools/rpmdigest.c:164 tools/rpmgrep.c:1041 tools/rpmgrep.c:1176
+#, c-format
+msgid "%s: Failed to open %s: %s\n"
+msgstr "%s：打开 %s 时失败：%s\n"
+
+#: tools/rpmdigest.c:208
+#, c-format
+msgid "%s: %s line %u: No file path found.\n"
+msgstr "%s：%s 行 %u：找不到任何文件路径。\n"
+
+#: tools/rpmdigest.c:219
+#, c-format
+msgid "%s: %s line %u: Unknown digest name \"%s\"\n"
+msgstr "%s：%s 行 %u：不明摘要名称“%s”\n"
+
+#: tools/rpmdigest.c:327
+#, c-format
+msgid "%s: %s: Manifest needs \"algo=digest\" as last line\n"
+msgstr "%s：%s：清单需要“algo=digest”于最后一列\n"
+
+#: tools/rpmdigest.c:337
+#, c-format
+msgid "%s: %s: Manifest is empty\n"
+msgstr "%s：%s：清单是空的\n"
+
+#: tools/rpmdigest.c:345
+#, c-format
+msgid "%s: %s: Unknown digest algo name \"%s\"\n"
+msgstr "%s：%s：不明的摘要 algo 名称“%s”\n"
+
+#: tools/rpmdigest.c:363
+#, c-format
+msgid "%s: %s: Manifest digest check: Expected(%s) != (%s)\n"
+msgstr "%s：%s：清单摘要检查：预期为(%s) != (%s)\n"
+
+#: tools/rpmdigest.c:397
+#, c-format
+msgid "%s: %s line %u: Malformed digest field.\n"
+msgstr "%s：%s 行 %u：异常的 digest 字段。\n"
+
+#: tools/rpmdigest.c:406
+#, c-format
+msgid "%s: %s line %u: Malformed mtime field.\n"
+msgstr "%s：%s 行 %u：异常的 mtime 字段。\n"
+
+#: tools/rpmdigest.c:415
+#, c-format
+msgid "%s: %s line %u: Malformed size field.\n"
+msgstr "%s：%s 行 %u：异常的。\n"
+
+#: tools/rpmdigest.c:422
+#, c-format
+msgid "%s: %s line %u: No file path.\n"
+msgstr "%s：%s 行 %u：没有任何文件路径。\n"
+
+#: tools/rpmdigest.c:853
+msgid "Print 0install manifest"
+msgstr "印出 0install 清单"
+
+#: tools/rpmdigest.c:856
+msgid "Read in binary mode"
+msgstr "以二进制模式读入"
+
+#: tools/rpmdigest.c:860 tools/rpmdigest.c:864
+msgid "Read digests from MANIFEST file and verify (may be used more than once)"
+msgstr "从 MANIFEST 文件读取摘要并验证 (也许会使用一次以上)"
+
+#: tools/rpmdigest.c:868 tools/rpmmtree.c:3558
+msgid "Print file tree specification to stdout"
+msgstr "印出文件树状规格档到标准输出"
+
+#: tools/rpmdigest.c:870 tools/rpmmtree.c:3560
+msgid "Directories only"
+msgstr "只有目录"
+
+#: tools/rpmdigest.c:873
+msgid "read in text mode (default)"
+msgstr "以文本模式读入 (缺省)"
+
+#: tools/rpmdigest.c:876
+msgid "generate HMAC's instead"
+msgstr "代之以产生 HMAC"
+
+#: tools/rpmdigest.c:880
+msgid "The following two options are useful only when verifying digests:"
+msgstr "下列两选项只当验证摘要时有用："
+
+#: tools/rpmdigest.c:886
+msgid "no output when verifying"
+msgstr "验证时没有输出"
+
+#: tools/rpmdigest.c:888
+msgid "warn about improperly formatted checksum lines"
+msgstr "警告关于不当格式化的总和检查列"
+
+#: tools/rpmdigest.c:900
+msgid ""
+"When checking, the input should be a former output of this program.  The\n"
+"default mode is to print a line with digest, a character indicating type\n"
+"(`*' for binary, ` ' for text), and name for each FILE.\n"
+msgstr ""
+"检查时的输入应该是这个程序之前的输出。\n"
+"缺省模式是将摘要印出，一个字符指出型态\n"
+"(‘*’表示二进制，‘ ’表示文本)，而名称用于每个文件。\n"
+
+#: tools/rpmgrep.c:582
+#, c-format
+msgid "%s: pcre_exec() error %d while matching "
+msgstr "%s：pcre_exec() 匹配时发生错误 %d"
+
+#: tools/rpmgrep.c:583
+#, c-format
+msgid "pattern number %d to "
+msgstr "模式编号 %d 到 "
+
+#: tools/rpmgrep.c:584
+#, c-format
+msgid "this line:\n"
+msgstr "这一列：\n"
+
+#: tools/rpmgrep.c:592
+#, c-format
+msgid "%s: error %d means that a resource limit was exceeded\n"
+msgstr "%s：错误 %d 表示超出了某个资源限制\n"
+
+#: tools/rpmgrep.c:595
+#, c-format
+msgid "%s: check your regex for nested unlimited loops\n"
+msgstr "%s：检查您的 regex 看看是否有嵌套的无限制循环\n"
+
+#: tools/rpmgrep.c:600
+#, c-format
+msgid "%s: too many errors - abandoned\n"
+msgstr "%s：太多错误 - 已放弃\n"
+
+#: tools/rpmgrep.c:972
+#, c-format
+msgid "%s: Failed to open directory %s: %s\n"
+msgstr "%s：打开目录 %s 时失败：%s\n"
+
+#: tools/rpmgrep.c:1082
+#, c-format
+msgid "%s: Too many patterns (max %d)\n"
+msgstr "%s：太多模式 (最大值 %d)\n"
+
+#: tools/rpmgrep.c:1107
+#, c-format
+msgid "%s: Error in"
+msgstr "%s：错误发生于"
+
+#: tools/rpmgrep.c:1109
+#, c-format
+msgid " command-line %d"
+msgstr " 命令行 %d"
+
+#: tools/rpmgrep.c:1111
+#, c-format
+msgid " file:line %s:%d"
+msgstr " 文件：列号 %s：%d"
+
+#: tools/rpmgrep.c:1112
+#, c-format
+msgid " regex at offset %d: %s\n"
+msgstr " regex 于偏移 %d：%s\n"
+
+#: tools/rpmgrep.c:1231
+#, c-format
+msgid "%s: Invalid value \"%s\" for -d\n"
+msgstr "%s：无效的值“%s”用于 -d\n"
+
+#: tools/rpmgrep.c:1241
+#, c-format
+msgid "%s: Invalid value \"%s\" for -D\n"
+msgstr "%s：无效的值“%s”用于 -D\n"
+
+#: tools/rpmgrep.c:1258
+#, c-format
+msgid "%s: Unknown color setting \"%s\"\n"
+msgstr "%s：不明的颜色设置“%s”\n"
+
+#: tools/rpmgrep.c:1274
+#, c-format
+msgid "%s %s (PCRE version %s)\n"
+msgstr "%s %s (PCRE 版本 %s)\n"
+
+#: tools/rpmgrep.c:1277
+#, c-format
+msgid "%s %s (without PCRE)\n"
+msgstr "%s %s (不具 PCRE)\n"
+
+#: tools/rpmgrep.c:1300
+msgid "set number of following context lines"
+msgstr "设置下列状态组合列数"
+
+#: tools/rpmgrep.c:1300 tools/rpmgrep.c:1302 tools/rpmgrep.c:1304
+msgid "=number"
+msgstr "=数字"
+
+#: tools/rpmgrep.c:1302
+msgid "set number of prior context lines"
+msgstr "设置之前状态组合列数"
+
+#: tools/rpmgrep.c:1304
+msgid "set number of context lines, before & after"
+msgstr "设置之前 & 之后的状态组合列数"
+
+#: tools/rpmgrep.c:1306
+msgid "print only a count of matching lines per FILE"
+msgstr "只印出各文件匹配列的计数"
+
+#: tools/rpmgrep.c:1308
+msgid "matched text color option (auto|always|never)"
+msgstr "匹配的文本颜色选项 (自动|一律|永不)"
+
+#: tools/rpmgrep.c:1308 tools/rpmgrep.c:1310
+msgid "=option"
+msgstr "=选项"
+
+#: tools/rpmgrep.c:1310
+msgid "matched text colour option (auto|always|never)"
+msgstr "匹配的文本颜色选项 (自动|一律|永不)"
+
+#: tools/rpmgrep.c:1313
+msgid "device, FIFO, or socket action (read|skip)"
+msgstr "设备、FIFO 或通信端动作 (读取|跳过)"
+
+#: tools/rpmgrep.c:1313 tools/rpmgrep.c:1315
+msgid "=action"
+msgstr "=动作"
+
+#: tools/rpmgrep.c:1315
+msgid "directory action (read|skip|recurse)"
+msgstr "目录动作 (读取|跳过|递归)"
+
+#: tools/rpmgrep.c:1317
+msgid "specify pattern (may be used more than once)"
+msgstr "指定模式 (也许会使用一次以上)"
+
+#: tools/rpmgrep.c:1317 tools/rpmgrep.c:1374 tools/rpmgrep.c:1376
+msgid "(p)"
+msgstr "(p)"
+
+#: tools/rpmgrep.c:1319
+msgid "patterns are sets of newline-separated strings"
+msgstr "模式是以新列字符分隔的字串集合"
+
+#: tools/rpmgrep.c:1321
+msgid "read patterns from file (may be used more than once)"
+msgstr "从文件读取模式 (也许会使用一次以上)"
+
+#: tools/rpmgrep.c:1322
+msgid "=path"
+msgstr "=路径"
+
+#: tools/rpmgrep.c:1324
+msgid "output file offsets, not text"
+msgstr "输出文件偏移而非文本"
+
+#: tools/rpmgrep.c:1326
+msgid "force the prefixing filename on output"
+msgstr "输出时强制前缀文件名"
+
+#: tools/rpmgrep.c:1328
+msgid "suppress the prefixing filename on output"
+msgstr "输出时抑制前缀文件名"
+
+#: tools/rpmgrep.c:1330
+msgid "ignore case distinctions"
+msgstr "忽略大小写分别"
+
+#: tools/rpmgrep.c:1332
+msgid "print only FILE names containing matches"
+msgstr "只印出包含匹配的 FILE 名称"
+
+#: tools/rpmgrep.c:1334
+msgid "print only FILE names not containing matches"
+msgstr "只印出不包含匹配的 FILE 名称"
+
+#: tools/rpmgrep.c:1336
+msgid "set name for standard input"
+msgstr "设置用于标准输入的名称"
+
+#: tools/rpmgrep.c:1336
+msgid "=name"
+msgstr "=名称"
+
+#: tools/rpmgrep.c:1338
+msgid "output line numbers and offsets, not text"
+msgstr "输出列号和偏移而非文本"
+
+#: tools/rpmgrep.c:1341
+msgid "use the named locale"
+msgstr "使用具名的语区"
+
+#: tools/rpmgrep.c:1341
+msgid "=locale"
+msgstr "=语区"
+
+#: tools/rpmgrep.c:1343
+msgid "run in multiline mode"
+msgstr "在多列模式中运行"
+
+#: tools/rpmgrep.c:1345
+msgid "set newline type (CR|LF|CRLF|ANYCRLF|ANY)"
+msgstr "设置新列字符型态 (CR|LF|CRLF|ANYCRLF|ANY)"
+
+#: tools/rpmgrep.c:1345
+msgid "=type"
+msgstr "=型态"
+
+#: tools/rpmgrep.c:1347
+msgid "print line number with output lines"
+msgstr "输出列时印出列号"
+
+#: tools/rpmgrep.c:1349
+msgid "show only the part of the line that matched"
+msgstr "只显示匹配列的部分"
+
+#: tools/rpmgrep.c:1352
+msgid "suppress output, just set return code"
+msgstr "抑制输出，仅设置传回码"
+
+#: tools/rpmgrep.c:1354
+msgid "recursively scan sub-directories"
+msgstr "递归扫描子目录"
+
+#: tools/rpmgrep.c:1356
+msgid "exclude matching files when recursing (may be used more than once)"
+msgstr "递归时排除匹配文件 (也许会使用一次以上)"
+
+#: tools/rpmgrep.c:1357 tools/rpmgrep.c:1360
+msgid "=pattern"
+msgstr "=模式"
+
+#: tools/rpmgrep.c:1359
+msgid "include matching files when recursing (may be used more than once)"
+msgstr "递归时包含匹配文件 (也许会使用一次以上)"
+
+#: tools/rpmgrep.c:1362 tools/rpmgrep.c:1364
+msgid "suppress error messages"
+msgstr "抑制错误消息"
+
+#: tools/rpmgrep.c:1366
+msgid "use UTF-8 mode"
+msgstr "使用 UTF-8 模式"
+
+#: tools/rpmgrep.c:1369
+msgid "print version information and exit"
+msgstr "印出版本信息并离开"
+
+#: tools/rpmgrep.c:1372
+msgid "select non-matching lines"
+msgstr "选取非匹配列"
+
+#: tools/rpmgrep.c:1374
+msgid "force patterns to match only as words"
+msgstr "强制只能以字词匹配模式"
+
+#: tools/rpmgrep.c:1376
+msgid "force patterns to match only whole lines"
+msgstr "强制只能以整列匹配模式"
+
+#: tools/rpmgrep.c:1387
+msgid ""
+"Usage: rpmgrep [OPTION...] [PATTERN] [FILE1 FILE2 ...]\n"
+"\n"
+"  Search for PATTERN in each FILE or standard input.\n"
+"  PATTERN must be present if neither -e nor -f is used.\n"
+"  \"-\" can be used as a file name to mean STDIN.\n"
+"  All files are read as plain files, without any interpretation.\n"
+"\n"
+"Example: rpmgrep -i 'hello.*world' menu.h main.c"
+msgstr ""
+"用法：rpmgrep [选项...] [模式] [文件1 文件2...]\n"
+"\n"
+"  在每个文件或标准输入中搜索模式。\n"
+"  若无使用 -e 或 -f，就必须要使用模式。\n"
+" “-”可以作为文件名称以表示标准输入。\n"
+"  所有文件都以普通文件方式读取，而不经任何解译。\n"
+"\n"
+"范例：rpmgrep -i 'hello.*world' menu.h main.c"
+
+#: tools/rpmgrep.c:1397
+msgid ""
+"  When reading patterns from a file instead of using a command line option,\n"
+"  trailing white space is removed and blank lines are ignored.\n"
+"\n"
+"  With no FILEs, read standard input. If fewer than two FILEs given, assume -"
+"h.\n"
+msgstr ""
+"  当从文件读取模式以代替使用命令行选项时，\n"
+"  尾随空白将被移除并忽略空列。\n"
+"\n"
+"  如果未指定文件就读取标准输入。如果给定的文件少于两个，就假设有 -h。\n"
+
+#: tools/rpmgrep.c:1464
+#, c-format
+msgid "%s: Cannot mix --only-matching, --file-offsets and/or --line-offsets\n"
+msgstr "%s：无法混用 --only-matching, --file-offsets 和/或 --line-offsets\n"
+
+#: tools/rpmgrep.c:1484
+#, c-format
+msgid "%s: Invalid newline specifier \"%s\"\n"
+msgstr "%s：无效的新列指定符号“%s”\n"
+
+#: tools/rpmgrep.c:1543
+#, c-format
+msgid "%s: Error in 'exclude' regex at offset %d: %s\n"
+msgstr "%s：'exclude' regex 于偏移 %d 时发生错误：%s\n"
+
+#: tools/rpmgrep.c:1555
+#, c-format
+msgid "%s: Error in 'include' regex at offset %d: %s\n"
+msgstr "%s：'include' regex 于偏移 %d 时发生错误：%s\n"
+
+#: tools/rpmkey.c:1481 tools/rpmkey.c:1503
+msgid "Add a key to a keyring"
+msgstr "将一个索引键加入钥匙圈"
+
+#: tools/rpmkey.c:1481
+msgid "<type> <desc> <data> <keyring>"
+msgstr "<type> <desc> <data> <keyring>"
+
+#: tools/rpmkey.c:1483 tools/rpmkey.c:1485
+msgid "Change the access controls on a key"
+msgstr "变更对于某索引键的访问控制"
+
+#: tools/rpmkey.c:1483
+msgid "<key> <gid>"
+msgstr "<key> <gid>"
+
+#: tools/rpmkey.c:1485
+msgid "<key> <uid>"
+msgstr "<key> <uid>"
+
+#: tools/rpmkey.c:1487
+msgid "Clear a keyring"
+msgstr "清空钥匙圈"
+
+#: tools/rpmkey.c:1487 tools/rpmkey.c:1489 tools/rpmkey.c:1495
+#: tools/rpmkey.c:1528
+msgid "<keyring>"
+msgstr "<keyring>"
+
+#: tools/rpmkey.c:1489 tools/rpmkey.c:1516
+msgid "Describe a key"
+msgstr "描述一个索引键"
+
+#: tools/rpmkey.c:1491 tools/rpmkey.c:1497 tools/rpmkey.c:1505
+msgid "Instantiate a key"
+msgstr "举例说明一个索引键"
+
+#: tools/rpmkey.c:1491
+msgid "<key> <data> <keyring>"
+msgstr "<key> <data> <keyring>"
+
+#: tools/rpmkey.c:1493
+msgid "Link a key to a keyring"
+msgstr "链结索引键到钥匙圈"
+
+#: tools/rpmkey.c:1493 tools/rpmkey.c:1505 tools/rpmkey.c:1544
+msgid "<key> <keyring>"
+msgstr "<key> <keyring>"
+
+#: tools/rpmkey.c:1495 tools/rpmkey.c:1528
+msgid "List a keyring"
+msgstr "列出钥匙圈"
+
+#: tools/rpmkey.c:1497
+msgid "<key> <timeout> <keyring>"
+msgstr "<key> <timeout> <keyring>"
+
+#: tools/rpmkey.c:1499
+#, fuzzy
+msgid "Install a new session keyring"
+msgstr "以新的钥匙圈开始新的作业阶段"
+
+#: tools/rpmkey.c:1499 tools/rpmkey.c:1507 tools/rpmkey.c:1511
+#: tools/rpmkey.c:1513 tools/rpmkey.c:1518 tools/rpmkey.c:1526
+#: tools/rpmkey.c:1533 tools/rpmmtree.c:3568 tools/rpmmtree.c:3570
+msgid "<key>"
+msgstr "<key>"
+
+#: tools/rpmkey.c:1501
+msgid "Create a keyring"
+msgstr "创建一个钥匙圈"
+
+#: tools/rpmkey.c:1501
+msgid "<name> <keyring>"
+msgstr "<name> <keyring>"
+
+#: tools/rpmkey.c:1503
+msgid "<type> <desc> <keyring>"
+msgstr "<type> <desc> <keyring>"
+
+#: tools/rpmkey.c:1507 tools/rpmkey.c:1511 tools/rpmkey.c:1518
+msgid "Read a key"
+msgstr "读取一个索引键"
+
+#: tools/rpmkey.c:1509 tools/rpmkey.c:1522 tools/rpmkey.c:1524
+msgid "Request a key"
+msgstr "要求一个索引键"
+
+#: tools/rpmkey.c:1509 tools/rpmkey.c:1522
+msgid "<type> <desc> [<dest_keyring>]"
+msgstr "<type> <desc> [<dest_keyring>]"
+
+#: tools/rpmkey.c:1513 tools/rpmkey.c:1546
+msgid "Update a key"
+msgstr "更新一个索引键"
+
+#: tools/rpmkey.c:1516
+msgid "<keyring> [sep]"
+msgstr "<keyring> [sep]"
+
+#: tools/rpmkey.c:1524
+msgid "<type> <desc> <info> [<dest_keyring>]"
+msgstr "<type> <desc> <info> [<dest_keyring>]"
+
+#: tools/rpmkey.c:1526
+msgid "Revoke a key"
+msgstr "取消一个索引键"
+
+#: tools/rpmkey.c:1530
+msgid "Search a keyring"
+msgstr "搜索钥匙圈"
+
+#: tools/rpmkey.c:1531
+msgid "<keyring> <type> <desc> [<dest_keyring>]"
+msgstr "<keyring> <type> <desc> [<dest_keyring>]"
+
+#: tools/rpmkey.c:1533
+#, fuzzy
+msgid "Retrieve a key's security context"
+msgstr "不校验文件的安全关联"
+
+#: tools/rpmkey.c:1535
+msgid "Start a new session with fresh keyrings"
+msgstr "以新的钥匙圈开始新的作业阶段"
+
+#: tools/rpmkey.c:1536
+msgid "[{-|<name>} [<prog> <arg1> <arg2> ...]]"
+msgstr "[{-|<name>} [<prog> <arg1> <arg2> ...]]"
+
+#: tools/rpmkey.c:1538
+msgid "Set the permissions mask on a key"
+msgstr "设置对于某索引键的权限遮罩"
+
+#: tools/rpmkey.c:1538
+msgid "<key> <mask>"
+msgstr "<key> <mask>"
+
+#: tools/rpmkey.c:1540
+msgid "Show process keyrings"
+msgstr "显示处理钥匙圈"
+
+#: tools/rpmkey.c:1542
+msgid "Set the expiry time on a key"
+msgstr "设置对于某索引键的逾期时间"
+
+#: tools/rpmkey.c:1542
+msgid "<key> <timeout>"
+msgstr "<key> <timeout>"
+
+#: tools/rpmkey.c:1544
+msgid "Unlink a key from a keyring"
+msgstr "取消索引键链接自钥匙圈"
+
+#: tools/rpmkey.c:1546
+msgid "<key> <data>"
+msgstr "<key> <data>"
+
+#: tools/rpmkey.c:1556
+msgid ""
+"Format:\n"
+"  keyctl add <type> <desc> <data> <keyring>\n"
+"  keyctl chgrp <key> <gid>\n"
+"  keyctl chown <key> <uid>\n"
+"  keyctl clear <keyring>\n"
+"  keyctl describe <keyring>\n"
+"  keyctl instantiate <key> <data> <keyring>\n"
+"  keyctl link <key> <keyring>\n"
+"  keyctl list <keyring>\n"
+"  keyctl negate <key> <timeout> <keyring>\n"
+"  keyctl new_session \n"
+"  keyctl newring <name> <keyring>\n"
+"  keyctl padd <type> <desc> <keyring>\n"
+"  keyctl pinstantiate <key> <keyring>\n"
+"  keyctl pipe <key>\n"
+"  keyctl prequest2 <type> <desc> [<dest_keyring>]\n"
+"  keyctl print <key>\n"
+"  keyctl pupdate <key>\n"
+"  keyctl rdescribe <keyring> [sep]\n"
+"  keyctl read <key>\n"
+"  keyctl request <type> <desc> [<dest_keyring>]\n"
+"  keyctl request2 <type> <desc> <info> [<dest_keyring>]\n"
+"  keyctl revoke <key>\n"
+"  keyctl rlist <keyring>\n"
+"  keyctl search <keyring> <type> <desc> [<dest_keyring>]\n"
+"  keyctl security <key>\n"
+"  keyctl session \n"
+"  keyctl session - [<prog> <arg1> <arg2> ...]\n"
+"  keyctl session <name> [<prog> <arg1> <arg2> ...]\n"
+"  keyctl setperm <key> <mask>\n"
+"  keyctl show \n"
+"  keyctl timeout <key> <timeout>\n"
+"  keyctl unlink <key> <keyring>\n"
+"  keyctl update <key> <data>\n"
+"\n"
+"Key/keyring ID:\n"
+"  <nnn>   numeric keyring ID\n"
+"  @t      thread keyring\n"
+"  @p      process keyring\n"
+"  @s      session keyring\n"
+"  @u      user keyring\n"
+"  @us     user default session keyring\n"
+"  @g      group keyring\n"
+"  @a      assumed request_key authorisation key\n"
+"\n"
+"<type> can be \"user\" for a user-defined keyring\n"
+"If you do this, prefix the description with \"<subtype>:\"\n"
+msgstr ""
+
+#: tools/rpmmtree.c:320
+#, c-format
+msgid "%s: failed at line %d of the specification\n"
+msgstr "%s：失败于规格档的行 %d\n"
+
+#: tools/rpmmtree.c:1480 tools/rpmmtree.c:1670
+#, c-format
+msgid "%s: filename (%s) encoded incorrectly\n"
+msgstr "%s：文件名 (%s) 被不正确编码\n"
+
+#: tools/rpmmtree.c:2041
+#, c-format
+msgid "%s changed\n"
+msgstr "%s 已变更\n"
+
+#: tools/rpmmtree.c:2121
+#, c-format
+msgid "\ttype expected %s found %s)\n"
+msgstr "\t型态预期为 %s 却找到 %s)\n"
+
+#: tools/rpmmtree.c:2131 tools/rpmmtree.c:2144
+#, c-format
+msgid "%s%s expected %lu found %lu"
+msgstr "%s%s 预期为 %lu 却找到 %lu"
+
+#: tools/rpmmtree.c:2135 tools/rpmmtree.c:2148 tools/rpmmtree.c:2175
+#: tools/rpmmtree.c:2236
+#, c-format
+msgid " not modified: %s)\n"
+msgstr " 未修改：%s)\n"
+
+#: tools/rpmmtree.c:2137 tools/rpmmtree.c:2150 tools/rpmmtree.c:2177
+#, c-format
+msgid " modified)\n"
+msgstr " 已修改)\n"
+
+#: tools/rpmmtree.c:2171
+#, c-format
+msgid "%s%s expected %#o found %#o"
+msgstr "%s%s 预期为 %#o 却找到 %#o"
+
+#: tools/rpmmtree.c:2188
+#, c-format
+msgid "%s%s expected %lu found %lu)\n"
+msgstr "%s%s 预期为 %lu 却找到 %lu)\n"
+
+#: tools/rpmmtree.c:2195
+#, c-format
+msgid "%s%s expected %llu found %llu\n"
+msgstr "%s%s 预期为 %llu 却找到 %llu\n"
+
+#: tools/rpmmtree.c:2231
+#, c-format
+msgid "%s%s expected %.24s "
+msgstr "%s%s 预期为 %.24s "
+
+#: tools/rpmmtree.c:2232
+#, c-format
+msgid "found %.24s"
+msgstr "却找到 %.24s"
+
+#: tools/rpmmtree.c:2238
+#, c-format
+msgid " modified\n"
+msgstr " 已修改\n"
+
+#: tools/rpmmtree.c:2281
+#, c-format
+msgid "%s%s expected %lu found %lu\n"
+msgstr "%s%s 预期为 %lu 却找到 %lu\n"
+
+#: tools/rpmmtree.c:2299 tools/rpmmtree.c:2319
+#, c-format
+msgid "%s%s expected %s found %s\n"
+msgstr "%s%s 预期为 %s 却找到 %s\n"
+
+#: tools/rpmmtree.c:2328
+#, c-format
+msgid "%s%s expected \"%s\""
+msgstr "%s%s 预期为“%s”"
+
+#: tools/rpmmtree.c:2332
+#, c-format
+msgid " found \"%s\""
+msgstr " 却找到“%s”"
+
+#: tools/rpmmtree.c:2454 tools/rpmmtree.c:2561
+#, c-format
+msgid "%s: Could not get uname for uid=%lu\n"
+msgstr "%s：无法取得 uid=%lu 的 uname\n"
+
+#: tools/rpmmtree.c:2467 tools/rpmmtree.c:2576
+#, c-format
+msgid "%s: Could not get gname for gid=%lu\n"
+msgstr "%s：无法取得 gid=%lu 的 gname\n"
+
+#: tools/rpmmtree.c:2615 tools/rpmmtree.c:2640
+#, c-format
+msgid "%s: %s: cksum: %s\n"
+msgstr "%s：%s：检查总和值：%s\n"
+
+#: tools/rpmmtree.c:2760
+#, c-format
+msgid "%s: open of %s failed: %s\n"
+msgstr "%s：打开 %s 时失败：%s\n"
+
+#: tools/rpmmtree.c:3262
+#, c-format
+msgid "missing: %s"
+msgstr "缺少：%s"
+
+#: tools/rpmmtree.c:3273
+#, c-format
+msgid " (%s not created: user not specified)"
+msgstr " (%s 未创建：尚未指定用户)"
+
+#: tools/rpmmtree.c:3275
+#, c-format
+msgid " (%s not created: group not specified))"
+msgstr " (%s 未创建：尚未指定群组))"
+
+#: tools/rpmmtree.c:3278
+#, c-format
+msgid " (%s not created: %s)\n"
+msgstr " (%s 未创建：%s)\n"
+
+#: tools/rpmmtree.c:3281
+#, c-format
+msgid " (%s created)\n"
+msgstr " (%s 已创建)\n"
+
+#: tools/rpmmtree.c:3294 tools/rpmmtree.c:3330
+#, c-format
+msgid "%s: %s not modified: %s\n"
+msgstr "%s：%s 未修改：%s\n"
+
+#: tools/rpmmtree.c:3299
+#, c-format
+msgid " (%s not created: mode not specified)"
+msgstr " (%s 未创建：尚未指定模式)"
+
+#: tools/rpmmtree.c:3301
+#, c-format
+msgid " (%s not created: %s)"
+msgstr " (%s 未创建：%s)"
+
+#: tools/rpmmtree.c:3304
+#, c-format
+msgid " (%s created)"
+msgstr " (%s 已创建)"
+
+#: tools/rpmmtree.c:3335
+#, c-format
+msgid "%s: permissions not set: %s\n"
+msgstr "%s：权限未设置：%s\n"
+
+#: tools/rpmmtree.c:3340
+#, c-format
+msgid "%s: file flags not set: %s\n"
+msgstr "%s：文件旗标未设置：%s\n"
+
+#: tools/rpmmtree.c:3452
+#, c-format
+msgid ", not removed: %s"
+msgstr "，未被移除：%s"
+
+#: tools/rpmmtree.c:3454
+#, c-format
+msgid ", removed"
+msgstr "，已移除"
+
+#: tools/rpmmtree.c:3550
+msgid "Follow symlinks"
+msgstr "跟随符号链接"
+
+#: tools/rpmmtree.c:3553
+msgid "Don't follow symlinks"
+msgstr "不跟随符号链接"
+
+#: tools/rpmmtree.c:3555
+msgid "Read fnmatch(3) exclude patterns from <file>"
+msgstr "从 <file> 读取 fnmatch(3) 时排除模式"
+
+#: tools/rpmmtree.c:3555
+msgid "<file>"
+msgstr "<file>"
+
+#: tools/rpmmtree.c:3562
+msgid "Don't complain about files not in the specification"
+msgstr "不抱怨关于不列在规格档中的文件"
+
+#: tools/rpmmtree.c:3564
+msgid "Read file tree <spec>"
+msgstr "读取文件树状结构 <spec>"
+
+#: tools/rpmmtree.c:3566
+msgid "Indent sub-directories"
+msgstr "缩进子目录"
+
+#: tools/rpmmtree.c:3568
+msgid "Add <key> to specification"
+msgstr "将 <key> 加入规格档"
+
+#: tools/rpmmtree.c:3570
+msgid "Use \"type\" keywords instead"
+msgstr "使用“type”关键字作为替代"
+
+#: tools/rpmmtree.c:3572
+msgid "Loose permissions check"
+msgstr "失去权限检查"
+
+#: tools/rpmmtree.c:3574
+msgid "Don't include sub-directory comments"
+msgstr "不包含子目录注释"
+
+#: tools/rpmmtree.c:3576
+msgid "Use <path> rather than current directory"
+msgstr "使用 <path> 而非现行目录"
+
+#: tools/rpmmtree.c:3579
+msgid "Quiet mode"
+msgstr "无消息模式"
+
+#: tools/rpmmtree.c:3581
+msgid "Remove files not in specification"
+msgstr "移除不在规格档中的文件"
+
+#: tools/rpmmtree.c:3583
+msgid "Display crc for file(s) with <seed>"
+msgstr "以 <seed> 显示文件的循环冗余检查"
+
+#: tools/rpmmtree.c:3583
+msgid "<seed>"
+msgstr "<seed>"
+
+#: tools/rpmmtree.c:3585
+msgid "Touch files iff timestamp differs"
+msgstr "如果时间戳记不同就对文件运行 touch"
+
+#: tools/rpmmtree.c:3587
+msgid "Update owner/group/permissions to match specification"
+msgstr "更新拥有者/群组/权限以匹配规格档"
+
+#: tools/rpmmtree.c:3589
+msgid "Same as -u, but ignore match status on exit"
+msgstr "如同 -u, 但是离开时忽略匹配状态"
+
+#: tools/rpmmtree.c:3591
+msgid "Treat missing uid/gid as warning"
+msgstr "将缺少 uid/gid 视为警告"
+
+#: tools/rpmmtree.c:3594
+msgid "Don't cross mount points"
+msgstr "不交叉挂载点"
+
+#: tools/rpmmtree.c:3632
+#, c-format
+msgid "(no controlling terminal) %s"
+msgstr "(没有控制中的终端机) %s"
+
+#: tools/rpmmtree.c:3637
+#, c-format
+msgid "(no controlling terminal) #%d"
+msgstr "(没有控制中的终端机) #%d"
+
+#: tools/rpmmtree.c:3778 tools/rpmmtree.c:3793
+#, c-format
+msgid "%s: %s checksum: %u\n"
+msgstr "%s：%s 总和检查码：%u\n"
+
+#: tools/rpmrepo.c:123
+msgid "--split and --checkts options are mutually exclusive"
+msgstr "--split 和 --checkts 选项彼此互斥"
+
+#: tools/rpmrepo.c:143
+msgid "Error loading exclude glob patterns."
+msgstr "加载排除通配符模式时发生错误。"
+
+#: tools/rpmrepo.c:146
+msgid "Error loading include glob patterns."
+msgstr "加载包含通配符模式时发生错误。"
+
+#: tools/rpmrepo.c:189
+#, c-format
+msgid "repo is up to date\n"
+msgstr "软件包库已是最新\n"
+
+#: tools/rpmwget.c:723
+msgid "Spider mode enabled. Check if remote file exists.\n"
+msgstr "网络蜘蛛模式已启用。检查远程文件是否存在。\n"
+
+#: tools/rpmwget.c:731
+msgid "Remote file exists.\n"
+msgstr "远程文件已存在。\n"
+
+#: tools/rpmwget.c:733
+msgid "Remote file does not exist -- broken link!!!\n"
+msgstr "远程文件不存在 -- 中断的链接 !!!\n"
+
+#: tools/rpmwget.c:794
+#, c-format
+msgid "Ouptut file \"%s\" exists, skipping retrieve.\n"
+msgstr "输出文件“%s”已存在，跳过取回动作。\n"
+
+#: tools/rpmwget.c:806
+#, c-format
+msgid "Input for file \"%s\" is not newer, skipping retrieve.\n"
+msgstr "文件“%s”的输入不比较新，跳过取回动作。\n"
+
+#: tools/rpmwget.c:860
+#, c-format
+msgid "--%s-- (%3.1f KB/s) - `%s' saved [%lu]\n"
+msgstr "--%s-- (%3.1f KB/s) -‘%s’已保存 [%lu]\n"
+
+#: tools/rpmwget.c:908
+#, c-format
+msgid "Download quota of %lluK EXCEEDED!\n"
+msgstr "超出 %lluK 的下载配额！\n"
+
+#: tools/rpmwget.c:1109
+msgid "display the version of Wget and exit."
+msgstr "显示 Wget 版本并离开。"
+
+#: tools/rpmwget.c:1112
+msgid "print this help."
+msgstr "印出此说明。"
+
+#: tools/rpmwget.c:1115
+msgid "go to background after startup."
+msgstr "启动之后移往背景。"
+
+#: tools/rpmwget.c:1117
+msgid "execute a `.wgetrc'-style command."
+msgstr "运行‘.wgetrc’形式的命令。"
+
+#: tools/rpmwget.c:1117
+msgid "COMMAND"
+msgstr "COMMAND"
+
+#: tools/rpmwget.c:1131
+msgid "log messages to FILE."
+msgstr "将消息记录到 FILE。"
+
+#: tools/rpmwget.c:1133
+msgid "append log messages to FILE."
+msgstr "将消息附加记录到文件。"
+
+#: tools/rpmwget.c:1135
+msgid "print lots of debugging information."
+msgstr "印出大量除错信息"
+
+#: tools/rpmwget.c:1137
+msgid "quiet (no output)."
+msgstr "安静 (无输出)。"
+
+#: tools/rpmwget.c:1139
+msgid "be verbose (this is the default)."
+msgstr "详细 (这是缺省)。"
+
+#: tools/rpmwget.c:1141 tools/rpmwget.c:1143
+msgid "turn off verboseness, without being quiet."
+msgstr "关闭详细程度而无需设为安静。"
+
+#: tools/rpmwget.c:1145
+msgid "download URLs found in FILE."
+msgstr "下载在 FILE 中找到的网址。"
+
+#: tools/rpmwget.c:1147
+msgid "treat input file as HTML."
+msgstr "将输入文件视为 HTML。"
+
+#: tools/rpmwget.c:1149
+msgid "prepends URL to relative links in -F -i file."
+msgstr "在 -F -i 文件时将网址前置于相对链接。"
+
+#: tools/rpmwget.c:1149 tools/rpmwget.c:1270
+msgid "URL"
+msgstr "URL"
+
+#: tools/rpmwget.c:1161
+msgid "set number of retries to NUMBER (0 unlimits)."
+msgstr "设置重试数量为 NUMBER (0 表示不限)。"
+
+#: tools/rpmwget.c:1161 tools/rpmwget.c:1199 tools/rpmwget.c:1244
+#: tools/rpmwget.c:1348
+msgid "NUMBER"
+msgstr "NUMBER"
+
+#: tools/rpmwget.c:1163
+msgid "retry even if connection is refused."
+msgstr "即使连接被拒绝也要重试。"
+
+#: tools/rpmwget.c:1165
+msgid "write documents to FILE."
+msgstr "将文档写入 FILE。"
+
+#: tools/rpmwget.c:1167 tools/rpmwget.c:1169
+msgid "skip downloads that would download to existing files."
+msgstr "跳过既有文件的下载。"
+
+#: tools/rpmwget.c:1171
+msgid "resume getting a partially-downloaded file."
+msgstr "再续取得已部分下载的文件。"
+
+#: tools/rpmwget.c:1173
+msgid "select progress gauge type."
+msgstr "选取进度条类型。"
+
+#: tools/rpmwget.c:1173 tools/rpmwget.c:1308 tools/rpmwget.c:1312
+msgid "TYPE"
+msgstr "TYPE"
+
+#: tools/rpmwget.c:1175
+msgid "don't re-retrieve files unless newer than local."
+msgstr "不重新截取文件，除非比本地文件还新。"
+
+#: tools/rpmwget.c:1177
+msgid "print server response."
+msgstr "印表服务器回应。"
+
+#: tools/rpmwget.c:1179
+msgid "don't download anything."
+msgstr "不下载任何东西。"
+
+#: tools/rpmwget.c:1181
+msgid "set all timeout values to SECONDS."
+msgstr "设置所有逾时值为 SECONDS 秒。"
+
+#: tools/rpmwget.c:1183
+msgid "set the DNS lookup timeout to SECS."
+msgstr "设置 DNS 查找逾时为 SECS 秒。"
+
+#: tools/rpmwget.c:1185
+msgid "set the connect timeout to SECS."
+msgstr "设置连接逾时为 SECS 秒。"
+
+#: tools/rpmwget.c:1187
+msgid "set the read timeout to SECS."
+msgstr "设置读取逾时为 SECS 秒。"
+
+#: tools/rpmwget.c:1189
+msgid "wait SECONDS between retrievals."
+msgstr "于检索之间等待 SECONDS 秒。"
+
+#: tools/rpmwget.c:1192
+msgid "wait 1..SECONDS between retries of a retrieval."
+msgstr "于重试检索之间等待 1..SECONDS 秒。"
+
+#: tools/rpmwget.c:1195
+msgid "wait from 0...2*WAIT secs between retrievals."
+msgstr "于检索之间等待 0...2*WAIT 秒。"
+
+#: tools/rpmwget.c:1197
+msgid "explicitly turn off proxy."
+msgstr "明确地关闭代理服务器。"
+
+#: tools/rpmwget.c:1199
+msgid "set retrieval quota to NUMBER."
+msgstr "设置检索配额为 NUMBER。"
+
+#: tools/rpmwget.c:1203
+msgid "bind to ADDRESS (hostname or IP) on local host."
+msgstr "绑定到本地主机上的 ADDRESS (主机名称或 IP)。"
+
+#: tools/rpmwget.c:1203
+msgid "ADDRESS"
+msgstr "ADDRESS"
+
+#: tools/rpmwget.c:1206
+msgid "limit download rate to RATE."
+msgstr "限制下载比率为 RATE。"
+
+#: tools/rpmwget.c:1206
+msgid "RATE"
+msgstr "RATE"
+
+#: tools/rpmwget.c:1209
+msgid "disable caching DNS lookups."
+msgstr "停用缓存 DNS 查找。"
+
+#: tools/rpmwget.c:1211
+msgid "restrict chars in file names to ones OS allows."
+msgstr "限制文件名称中的字符为操作系统所允许者。"
+
+#: tools/rpmwget.c:1211
+msgid "OS"
+msgstr "OS"
+
+#: tools/rpmwget.c:1213
+msgid "ignore case when matching files/directories."
+msgstr "匹配文件/目录时忽略大小写。"
+
+#: tools/rpmwget.c:1215
+msgid "connect only to IPv4 addresses."
+msgstr "只连接到 IPv4 地址。"
+
+#: tools/rpmwget.c:1217
+msgid "connect only to IPv6 addresses."
+msgstr "只连接到 IPv6 地址。"
+
+#: tools/rpmwget.c:1219
+msgid ""
+"connect first to addresses of specified family, one of IPv6, IPv4, or none."
+msgstr "优先连接到指定 IP 家族的地址，必须是 IPv6, IPv4 或 none 之一。"
+
+#: tools/rpmwget.c:1219
+msgid "FAMILY"
+msgstr "FAMILY"
+
+#: tools/rpmwget.c:1221
+msgid "set both ftp and http user to USER."
+msgstr "设置 ftp 和 http 用户都是 USER。"
+
+#: tools/rpmwget.c:1223
+msgid "set both ftp and http password to PASS."
+msgstr "设置 ftp 和 http 密码都是 PASS。"
+
+#: tools/rpmwget.c:1223 tools/rpmwget.c:1253 tools/rpmwget.c:1268
+#: tools/rpmwget.c:1329
+msgid "PASS"
+msgstr "PASS"
+
+#: tools/rpmwget.c:1230 tools/rpmwget.c:1232
+msgid "don't create directories."
+msgstr "不创建目录"
+
+#: tools/rpmwget.c:1234
+msgid "force creation of directories."
+msgstr "强制创建目录。"
+
+#: tools/rpmwget.c:1236 tools/rpmwget.c:1238
+msgid "don't create host directories."
+msgstr "不创建主机目录。"
+
+#: tools/rpmwget.c:1240
+msgid "use protocol name in directories."
+msgstr "在目录中使用协定名称。"
+
+#: tools/rpmwget.c:1242
+msgid "save files to PREFIX/..."
+msgstr "保存文件到 PREFIX/..."
+
+#: tools/rpmwget.c:1242
+msgid "PREFIX"
+msgstr "PREFIX"
+
+#: tools/rpmwget.c:1244
+msgid "ignore NUMBER remote directory components."
+msgstr "忽略 NUMBER 的远程目录组成。"
+
+#: tools/rpmwget.c:1251
+msgid "set http user to USER."
+msgstr "设置 http 用户为 USER。"
+
+#: tools/rpmwget.c:1253
+msgid "set http password to PASS."
+msgstr "设置 http 密码为 PASS。"
+
+#: tools/rpmwget.c:1255
+msgid "disallow server-cached data."
+msgstr "不允许服务器端缓存数据。"
+
+#: tools/rpmwget.c:1257
+msgid "save HTML documents with `.html' extension."
+msgstr "以‘.html’延伸文件名保存 HTML 文档。"
+
+#: tools/rpmwget.c:1259
+msgid "ignore `Content-Length' header field."
+msgstr "忽略‘Content-Length’标头字段。"
+
+#: tools/rpmwget.c:1262
+msgid "insert STRING among the headers."
+msgstr "在标头之间插入字串。"
+
+#: tools/rpmwget.c:1262 tools/rpmwget.c:1286
+msgid "STRING"
+msgstr "STRING"
+
+#: tools/rpmwget.c:1264
+msgid "maximum redirections allowed per page."
+msgstr "每页允许的最大重新导向值。"
+
+#: tools/rpmwget.c:1266
+msgid "set USER as proxy username."
+msgstr "设置 USER 作为代理服务器用户名。"
+
+#: tools/rpmwget.c:1268
+msgid "set PASS as proxy password."
+msgstr "设置 PASS 作为代理服务器密码。"
+
+#: tools/rpmwget.c:1270
+msgid "include `Referer: URL' header in HTTP request."
+msgstr "在 HTTP 要求中包含‘Referer: URL’标头。"
+
+#: tools/rpmwget.c:1272
+msgid "save the HTTP headers to file."
+msgstr "保存 HTTP 标头到文件。"
+
+#: tools/rpmwget.c:1274
+msgid "identify as AGENT instead of Wget/VERSION."
+msgstr "自我识别为 AGENT 以代替 Wget/版本。"
+
+#: tools/rpmwget.c:1274
+msgid "AGENT"
+msgstr "AGENT"
+
+#: tools/rpmwget.c:1276
+msgid "disable HTTP keep-alive (persistent connections)."
+msgstr "停用 HTTP 的持续作用 (持续连接)。"
+
+#: tools/rpmwget.c:1278
+msgid "don't use cookies."
+msgstr "不使用 cookies。"
+
+#: tools/rpmwget.c:1280
+msgid "load cookies from FILE before session."
+msgstr "作业阶段之前从 FILE 加载 cookies。"
+
+#: tools/rpmwget.c:1282
+msgid "save cookies to FILE after session."
+msgstr "作业阶段之后保存 cookies 到 FILE。"
+
+#: tools/rpmwget.c:1284
+msgid "load and save session (non-permanent) cookies."
+msgstr "加载并保存作业阶段 (非永久性) cookies。"
+
+#: tools/rpmwget.c:1286
+msgid "use the POST method; send STRING as the data."
+msgstr "使用 POST 方法；发送 STRING 作为数据。"
+
+#: tools/rpmwget.c:1288
+msgid "use the POST method; send contents of FILE."
+msgstr "使用 POST 方法；发送 FILE 的内容。"
+
+#: tools/rpmwget.c:1290 tools/rpmwget.c:1293
+msgid ""
+"honor the Content-Disposition header when choosing local file names "
+"(EXPERIMENTAL)."
+msgstr "选择本机文件名称时尊重内容部署 (实验性质)。"
+
+#: tools/rpmwget.c:1295
+msgid ""
+"Send Basic HTTP authentication information without first waiting for the "
+"server's challenge."
+msgstr "发送基本 HTTP 认证信息而无需先等待服务器的挑战。"
+
+#: tools/rpmwget.c:1302
+msgid "choose secure protocol, one of auto, SSLv2, SSLv3, and TLSv1."
+msgstr "选择安全协定为 auto, SSLv2, SSLv3, 和 TLSv1 之一。"
+
+#: tools/rpmwget.c:1302
+msgid "PR"
+msgstr "PR"
+
+#: tools/rpmwget.c:1304
+msgid "don't validate the server's certificate."
+msgstr "不验证服务器凭证。"
+
+#: tools/rpmwget.c:1306
+msgid "client certificate file."
+msgstr "客户端凭证文件。"
+
+#: tools/rpmwget.c:1308
+msgid "client certificate type, PEM or DER."
+msgstr "客户端凭证类型，PEM 或 DER。"
+
+#: tools/rpmwget.c:1310
+msgid "private key file."
+msgstr "私钥文件。"
+
+#: tools/rpmwget.c:1312
+msgid "private key type, PEM or DER."
+msgstr "私钥型态，PEM 或 DER。"
+
+#: tools/rpmwget.c:1314
+msgid "file with the bundle of CA's."
+msgstr "具有 CA 约束的文件。"
+
+#: tools/rpmwget.c:1316
+msgid "directory where hash list of CA's is stored."
+msgstr "保存 CA 哈希清单的目录位置。"
+
+#: tools/rpmwget.c:1318
+msgid "file with random data for seeding the SSL PRNG."
+msgstr "以随机数据文件制作 SSL PRNG 种子。"
+
+#: tools/rpmwget.c:1320
+msgid "file naming the EGD socket with random data."
+msgstr "以 EGD 通信端随机数据命名文件。"
+
+#: tools/rpmwget.c:1327
+msgid "set ftp user to USER."
+msgstr "设置 ftp 用户为 USER。"
+
+#: tools/rpmwget.c:1329
+msgid "set ftp password to PASS."
+msgstr "设置 ftp 密码为 PASS。"
+
+#: tools/rpmwget.c:1331
+msgid "don't remove `.listing' files."
+msgstr "不移除‘.listing’文件。"
+
+#: tools/rpmwget.c:1333
+msgid "turn off FTP file name globbing."
+msgstr "关闭 FTP 文件名称通配符。"
+
+#: tools/rpmwget.c:1335
+msgid "disable the \"passive\" transfer mode."
+msgstr "停用“被动”转送模式。"
+
+#: tools/rpmwget.c:1337
+msgid "when recursing, get linked-to files (not dir)."
+msgstr "递归中时取得所链结文件 (非目录)。"
+
+#: tools/rpmwget.c:1339
+msgid "preserve remote file permissions."
+msgstr "保留远程文件权限。"
+
+#: tools/rpmwget.c:1346
+msgid "specify recursive download."
+msgstr "指定递归下载。"
+
+#: tools/rpmwget.c:1348
+msgid "maximum recursion depth (inf or 0 for infinite)."
+msgstr "最大递归深度 (inf 或 0 表示无限大)。"
+
+#: tools/rpmwget.c:1350
+msgid "delete files locally after downloading them."
+msgstr "下载它们之后删除本机文件。"
+
+#: tools/rpmwget.c:1352
+msgid "make links in downloaded HTML point to local files."
+msgstr "在下载的 HTML 中创建链接到本机文件。"
+
+#: tools/rpmwget.c:1354
+msgid "before converting file X, back up as X.orig."
+msgstr "转换文件 X 之前, 先备份为 X.orig。"
+
+#: tools/rpmwget.c:1357
+msgid "shortcut for -N -r -l inf --no-remove-listing."
+msgstr "作为 -N -r -l inf --no-remove-listing 的捷径。"
+
+#: tools/rpmwget.c:1359
+msgid "get all images, etc. needed to display HTML page."
+msgstr "取得显示 HTML 页面所需的所有影像…等等。"
+
+#: tools/rpmwget.c:1361
+msgid "turn on strict (SGML) handling of HTML comments."
+msgstr "打开 HTML 注释的严格 (SGML) 处理。"
+
+#: tools/rpmwget.c:1368
+msgid "comma-separated list of accepted extensions."
+msgstr "以逗号分隔的接受延伸功能清单。"
+
+#: tools/rpmwget.c:1368 tools/rpmwget.c:1370 tools/rpmwget.c:1372
+#: tools/rpmwget.c:1374 tools/rpmwget.c:1378 tools/rpmwget.c:1380
+#: tools/rpmwget.c:1386 tools/rpmwget.c:1388
+msgid "LIST"
+msgstr "LIST"
+
+#: tools/rpmwget.c:1370
+msgid "comma-separated list of rejected extensions."
+msgstr "以逗号分隔的拒绝延伸功能清单。"
+
+#: tools/rpmwget.c:1372
+msgid "comma-separated list of accepted domains."
+msgstr "以逗号分隔的接受网域清单。"
+
+#: tools/rpmwget.c:1374
+msgid "comma-separated list of rejected domains."
+msgstr "以逗号分隔的拒绝网域清单。"
+
+#: tools/rpmwget.c:1376
+msgid "follow FTP links from HTML documents."
+msgstr "从 HTML 文档跟随 FTP 链结。"
+
+#: tools/rpmwget.c:1378
+msgid "comma-separated list of followed HTML tags."
+msgstr "以逗号分隔的 HTML 标签跟随清单。"
+
+#: tools/rpmwget.c:1380
+msgid "comma-separated list of ignored HTML tags."
+msgstr "以逗号分隔的 HTML 标签忽略清单。"
+
+#: tools/rpmwget.c:1382
+msgid "go to foreign hosts when recursive."
+msgstr "递归时前往外部主机。"
+
+#: tools/rpmwget.c:1384
+msgid "follow relative links only."
+msgstr "只跟随相对链接。"
+
+#: tools/rpmwget.c:1386
+msgid "list of allowed directories."
+msgstr "允许目录的清单。"
+
+#: tools/rpmwget.c:1388
+msgid "list of excluded directories."
+msgstr "排除目录的清单。"
+
+#: tools/rpmwget.c:1390 tools/rpmwget.c:1392
+msgid "don't ascend to the parent directory."
+msgstr "不向上到上层目录。"
+
+#: tools/rpmwget.c:1406
+msgid "Startup:"
+msgstr "启动："
+
+#: tools/rpmwget.c:1409
+msgid "Logging and input file:"
+msgstr "记录档和输入文件："
+
+#: tools/rpmwget.c:1412
+msgid "Download:"
+msgstr "下载："
+
+#: tools/rpmwget.c:1415
+msgid "Directories:"
+msgstr "目录："
+
+#: tools/rpmwget.c:1418
+msgid "HTTP options:"
+msgstr "HTTP 选项："
+
+#: tools/rpmwget.c:1421
+msgid "HTTPS (SSL/TLS) options:"
+msgstr "HTTPS (SSL/TLS) 选项："
+
+#: tools/rpmwget.c:1424
+msgid "FTP options:"
+msgstr "FTP 选项："
+
+#: tools/rpmwget.c:1427
+msgid "Recursive download:"
+msgstr "递归下载："
+
+#: tools/rpmwget.c:1430
+msgid "Recursive accept/reject:"
+msgstr "递归接受/拒绝："
+
+#: tools/rpmwget.c:1439
+msgid ""
+"Usage: rpmwget [OPTION]... [URL]...\n"
+"\n"
+"Mandatory arguments to long options are mandatory for short options too.\n"
+"\n"
+"Mail bug reports and suggestions to <rpm-devel@rpm5.org>.\n"
+msgstr ""
+"用法：rpmwget [选项]... [网址]...\n"
+"\n"
+"对于长选项必要的参数对于短选项也同样必要。\n"
+"\n"
+"错误报告和建议请寄到 <rpm-devel@rpm5.org>。\n"
+
+#: tools/semodule.c:98 tools/spooktool.c:302
+msgid "Set the STORE to operate on (e.g. \"targeted\")"
+msgstr "设置保存以作用于 (例如：“targeted”)"
+
+#: tools/semodule.c:98 tools/spooktool.c:302
+msgid "STORE"
+msgstr "STORE"
+
+#: tools/semodule.c:100 tools/spooktool.c:304
+msgid "Do not reload policy after commit"
+msgstr "认可后不重新加载策略之"
+
+#: tools/semodule.c:102 tools/spooktool.c:306
+msgid "Remove dontaudits from policy"
+msgstr "从策略移除 dontaudits"
+
+#: tools/semodule.c:114 tools/spooktool.c:318
+msgid "Display list of installed policy modules"
+msgstr "显示已安装的策略模块清单"
+
+#: tools/semodule.c:114 tools/spooktool.c:318
+msgid "REGEX"
+msgstr "REGEX"
+
+#: tools/semodule.c:116 tools/spooktool.c:320
+msgid "Install a new module FILE"
+msgstr "安装新的模块文件"
+
+#: tools/semodule.c:118 tools/spooktool.c:322
+msgid "Upgrade an existing module FILE"
+msgstr "升级现有模块文件"
+
+#: tools/semodule.c:120 tools/spooktool.c:324
+msgid "Install a new base module FILE"
+msgstr "安装新的基本模块文件"
+
+#: tools/semodule.c:122 tools/spooktool.c:326
+msgid "Remove an existing MODULE"
+msgstr "移除现有模块"
+
+#: tools/semodule.c:122 tools/spooktool.c:81 tools/spooktool.c:326
+msgid "MODULE"
+msgstr "MODULE"
+
+#: tools/semodule.c:124 tools/spooktool.c:328
+msgid "Reload policy"
+msgstr "重新加载策略"
+
+#: tools/semodule.c:126 tools/spooktool.c:330
+msgid "Build and reload policy"
+msgstr "组建和重新加载策略"
+
+#: tools/semodule.c:129 tools/spooktool.c:333
+msgid "Other options:"
+msgstr "其他选项："
+
+#: tools/spooktool.c:72
+msgid "List installed policy modules that match REGEX."
+msgstr "列出匹配 REGEX 的已安装策略模块。"
+
+#: tools/spooktool.c:72
+msgid "[REGEX]"
+msgstr "[REGEX]"
+
+#: tools/spooktool.c:75
+msgid "Install a new base policy module FILE."
+msgstr "安装新的基本策略模块文件。"
+
+#: tools/spooktool.c:77
+msgid "Install a new policy module FILE."
+msgstr "安装新的策略模块文件。"
+
+#: tools/spooktool.c:79
+msgid "Upgrade an existing policy module FILE."
+msgstr "升级现有策略模块文件。"
+
+#: tools/spooktool.c:81
+msgid "Remove an existing policy MODULE."
+msgstr "移除现有策略模块。"
+
+#: tools/spooktool.c:83
+msgid "Reload policy."
+msgstr "重新加载策略。"
+
+#: tools/spooktool.c:85
+msgid "Build and reload policy."
+msgstr "组建和重新加载策略。"
+
+#: tools/spooktool.c:90 tools/spooktool.c:92
+msgid "Exit the program."
+msgstr "离开程序。"

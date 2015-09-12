@@ -1,0 +1,631 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dos2unix 7.3-beta8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-10 21:26+0200\n"
+"PO-Revision-Date: 2015-08-29 01:29-0400\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#: dos2unix.c:79
+msgid ""
+"Copyright (C) 2009-2015 Erwin Waterlander\n"
+"Copyright (C) 1998      Christian Wurll (Version 3.1)\n"
+"Copyright (C) 1998      Bernd Johannes Wuebben (Version 3.0)\n"
+"Copyright (C) 1994-1995 Benjamin Lin\n"
+"All rights reserved.\n"
+"\n"
+msgstr ""
+
+#: dos2unix.c:212 dos2unix.c:249 unix2dos.c:149 unix2dos.c:209
+#, c-format
+msgid "Binary symbol 0x00%02X found at line %u\n"
+msgstr ""
+
+#: dos2unix.c:305 dos2unix.c:488 unix2dos.c:261 unix2dos.c:461
+#, c-format
+msgid "program error, invalid conversion mode %d\n"
+msgstr ""
+
+#: dos2unix.c:313 dos2unix.c:494 unix2dos.c:269 unix2dos.c:467
+#, c-format
+msgid "Converted %u out of %u line breaks.\n"
+msgstr ""
+
+#: dos2unix.c:371 unix2dos.c:327
+#, c-format
+msgid "using code page %d.\n"
+msgstr ""
+
+#: dos2unix.c:395 dos2unix.c:432 unix2dos.c:349 unix2dos.c:409
+#, c-format
+msgid "Binary symbol 0x%02X found at line %u\n"
+msgstr ""
+
+#: dos2unix.c:525 unix2dos.c:498
+msgid "error: Value of environment variable DOS2UNIX_LOCALEDIR is too long.\n"
+msgstr ""
+
+#: unix2dos.c:69
+msgid ""
+"Copyright (C) 2009-2015 Erwin Waterlander\n"
+"Copyright (C) 1994-1995 Benjamin Lin\n"
+"All rights reserved.\n"
+"\n"
+msgstr ""
+
+#: common.c:598
+msgid ""
+"Redistribution and use in source and binary forms, with or without\n"
+"modification, are permitted provided that the following conditions\n"
+"are met:\n"
+"1. Redistributions of source code must retain the above copyright\n"
+"   notice, this list of conditions and the following disclaimer.\n"
+"2. Redistributions in binary form must reproduce the above copyright\n"
+"   notice in the documentation and/or other materials provided with\n"
+"   the distribution.\n"
+"\n"
+msgstr ""
+
+#: common.c:608
+msgid ""
+"THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY\n"
+"EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n"
+"IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n"
+"PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR BE LIABLE\n"
+"FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR\n"
+"CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT\n"
+"OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR\n"
+"BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n"
+"WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n"
+"OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN\n"
+"IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n"
+msgstr ""
+
+#: common.c:633
+#, c-format
+msgid "Usage: %s [options] [file ...] [-n infile outfile ...]\n"
+msgstr ""
+
+#: common.c:634
+#, c-format
+msgid " -ascii                convert only line breaks (default)\n"
+msgstr ""
+
+#: common.c:635
+#, c-format
+msgid ""
+" -iso                  conversion between DOS and ISO-8859-1 character set\n"
+msgstr ""
+
+#: common.c:636
+#, c-format
+msgid "   -1252               use Windows code page 1252 (Western European)\n"
+msgstr ""
+
+#: common.c:637
+#, c-format
+msgid "   -437                use DOS code page 437 (US) (default)\n"
+msgstr ""
+
+#: common.c:638
+#, c-format
+msgid "   -850                use DOS code page 850 (Western European)\n"
+msgstr ""
+
+#: common.c:639
+#, c-format
+msgid "   -860                use DOS code page 860 (Portuguese)\n"
+msgstr ""
+
+#: common.c:640
+#, c-format
+msgid "   -863                use DOS code page 863 (French Canadian)\n"
+msgstr ""
+
+#: common.c:641
+#, c-format
+msgid "   -865                use DOS code page 865 (Nordic)\n"
+msgstr ""
+
+#: common.c:642
+#, c-format
+msgid " -7                    convert 8 bit characters to 7 bit space\n"
+msgstr ""
+
+#: common.c:644
+#, c-format
+msgid " -b, --keep-bom        keep Byte Order Mark\n"
+msgstr ""
+
+#: common.c:646
+#, c-format
+msgid " -b, --keep-bom        keep Byte Order Mark (default)\n"
+msgstr ""
+
+#: common.c:647
+#, c-format
+msgid ""
+" -c, --convmode        conversion mode\n"
+"   convmode            ascii, 7bit, iso, mac, default to ascii\n"
+msgstr ""
+
+#: common.c:650
+#, c-format
+msgid ""
+" -D, --display-enc     set encoding of displayed text messages\n"
+"   encoding            ansi, unicode, utf8, default to ansi\n"
+msgstr ""
+
+#: common.c:653
+#, c-format
+msgid " -f, --force           force conversion of binary files\n"
+msgstr ""
+
+#: common.c:656
+#, c-format
+msgid " -gb, --gb18030        convert UTF-16 to GB18030\n"
+msgstr ""
+
+#: common.c:659
+#, c-format
+msgid " -h, --help            display this help text\n"
+msgstr ""
+
+#: common.c:660
+#, c-format
+msgid ""
+" -i, --info[=FLAGS]    display file information\n"
+"   file ...            files to analyze\n"
+msgstr ""
+
+#: common.c:662
+#, c-format
+msgid " -k, --keepdate        keep output file date\n"
+msgstr ""
+
+#: common.c:663
+#, c-format
+msgid " -L, --license         display software license\n"
+msgstr ""
+
+#: common.c:664
+#, c-format
+msgid " -l, --newline         add additional newline\n"
+msgstr ""
+
+#: common.c:665
+#, c-format
+msgid " -m, --add-bom         add Byte Order Mark (default UTF-8)\n"
+msgstr ""
+
+#: common.c:666
+#, c-format
+msgid ""
+" -n, --newfile         write to new file\n"
+"   infile              original file in new-file mode\n"
+"   outfile             output file in new-file mode\n"
+msgstr ""
+
+#: common.c:669
+#, c-format
+msgid ""
+" -o, --oldfile         write to old file (default)\n"
+"   file ...            files to convert in old-file mode\n"
+msgstr ""
+
+#: common.c:671
+#, c-format
+msgid " -q, --quiet           quiet mode, suppress all warnings\n"
+msgstr ""
+
+#: common.c:673
+#, c-format
+msgid " -r, --remove-bom      remove Byte Order Mark (default)\n"
+msgstr ""
+
+#: common.c:675
+#, c-format
+msgid " -r, --remove-bom      remove Byte Order Mark\n"
+msgstr ""
+
+#: common.c:676
+#, c-format
+msgid " -s, --safe            skip binary files (default)\n"
+msgstr ""
+
+#: common.c:678
+#, c-format
+msgid " -u,  --keep-utf16     keep UTF-16 encoding\n"
+msgstr ""
+
+#: common.c:679
+#, c-format
+msgid " -ul, --assume-utf16le assume that the input format is UTF-16LE\n"
+msgstr ""
+
+#: common.c:680
+#, c-format
+msgid " -ub, --assume-utf16be assume that the input format is UTF-16BE\n"
+msgstr ""
+
+#: common.c:682
+#, c-format
+msgid " -v,  --verbose        verbose operation\n"
+msgstr ""
+
+#: common.c:684
+#, c-format
+msgid " -F, --follow-symlink  follow symbolic links and convert the targets\n"
+msgstr ""
+
+#: common.c:687
+#, c-format
+msgid ""
+" -R, --replace-symlink replace symbolic links with converted files\n"
+"                         (original target files remain unchanged)\n"
+msgstr ""
+
+#: common.c:689
+#, c-format
+msgid ""
+" -S, --skip-symlink    keep symbolic links and targets unchanged (default)\n"
+msgstr ""
+
+#: common.c:691
+#, c-format
+msgid " -V, --version         display version number\n"
+msgstr ""
+
+#: common.c:703
+msgid "DOS 16 bit version (WATCOMC).\n"
+msgstr ""
+
+#: common.c:705
+msgid "DOS 16 bit version (TURBOC).\n"
+msgstr ""
+
+#: common.c:707
+msgid "DOS 32 bit version (WATCOMC).\n"
+msgstr ""
+
+#: common.c:709
+msgid "DOS 32 bit version (DJGPP).\n"
+msgstr ""
+
+#: common.c:711
+msgid "MSYS version.\n"
+msgstr ""
+
+#: common.c:713
+msgid "Cygwin version.\n"
+msgstr ""
+
+#: common.c:715
+msgid "Windows 64 bit version (MinGW-w64).\n"
+msgstr ""
+
+#: common.c:717
+msgid "Windows 32 bit version (WATCOMC).\n"
+msgstr ""
+
+#: common.c:719
+msgid "Windows 32 bit version (MinGW-w64).\n"
+msgstr ""
+
+#: common.c:721
+msgid "Windows 32 bit version (MinGW).\n"
+msgstr ""
+
+#: common.c:723
+#, c-format
+msgid "Windows 64 bit version (MSVC %d).\n"
+msgstr ""
+
+#: common.c:725
+#, c-format
+msgid "Windows 32 bit version (MSVC %d).\n"
+msgstr ""
+
+#: common.c:727
+msgid "OS/2 version (WATCOMC).\n"
+msgstr ""
+
+#: common.c:729
+msgid "OS/2 version (EMX).\n"
+msgstr ""
+
+#: common.c:731
+#, c-format
+msgid "%s version.\n"
+msgstr ""
+
+#: common.c:737
+msgid "With Unicode UTF-16 support.\n"
+msgstr ""
+
+#: common.c:739
+msgid "Without Unicode UTF-16 support.\n"
+msgstr ""
+
+#: common.c:743
+msgid "With Unicode file name support.\n"
+msgstr ""
+
+#: common.c:745
+msgid "Without Unicode file name support.\n"
+msgstr ""
+
+#: common.c:749
+msgid "With native language support.\n"
+msgstr ""
+
+#: common.c:1054 common.c:1061 common.c:1068 common.c:1075 common.c:1087
+#: common.c:1094
+#, c-format
+msgid "Writing %s BOM.\n"
+msgstr ""
+
+#: common.c:1054 common.c:1110 common.c:1632 common.c:1653
+msgid "UTF-16LE"
+msgstr ""
+
+#: common.c:1061 common.c:1113 common.c:1634 common.c:1655
+msgid "UTF-16BE"
+msgstr ""
+
+#: common.c:1068 common.c:1087 common.c:1119 common.c:1645
+msgid "GB18030"
+msgstr ""
+
+#: common.c:1075 common.c:1094 common.c:1116 common.c:1647
+msgid "UTF-8"
+msgstr ""
+
+#: common.c:1139
+#, c-format
+msgid "Input file %s has %s BOM.\n"
+msgstr ""
+
+#: common.c:1175 common.c:1218
+msgid "Assuming UTF-16LE encoding.\n"
+msgstr ""
+
+#: common.c:1179 common.c:1222
+msgid "Assuming UTF-16BE encoding.\n"
+msgstr ""
+
+#: common.c:1352
+#, c-format
+msgid "Failed to open temporary output file: %s\n"
+msgstr ""
+
+#: common.c:1359
+#, c-format
+msgid "using %s as temporary file\n"
+msgstr ""
+
+#: common.c:1424
+#, c-format
+msgid "Failed to write to temporary output file %s:"
+msgstr ""
+
+#: common.c:1455
+#, c-format
+msgid "Failed to change the permissions of temporary output file %s:"
+msgstr ""
+
+#: common.c:1472
+#, c-format
+msgid "Failed to change the owner and group of temporary output file %s:"
+msgstr ""
+
+#: common.c:1519
+#, c-format
+msgid "problems resolving symbolic link '%s'\n"
+msgstr ""
+
+#: common.c:1520 common.c:1552
+#, c-format
+msgid "          output file remains in '%s'\n"
+msgstr ""
+
+#: common.c:1546
+#, c-format
+msgid "problems renaming '%s' to '%s':"
+msgstr ""
+
+#: common.c:1550
+#, c-format
+msgid "          which is the target of symbolic link '%s'\n"
+msgstr ""
+
+#: common.c:1613 common.c:1699 common.c:1779
+#, c-format
+msgid "Skipping binary file %s\n"
+msgstr ""
+
+#: common.c:1616 common.c:1702 common.c:1782
+#, c-format
+msgid "code page %d is not supported.\n"
+msgstr ""
+
+#: common.c:1619 common.c:1705 common.c:1785 common.c:1839
+#, c-format
+msgid "Skipping UTF-16 file %s, the size of wchar_t is %d bytes.\n"
+msgstr ""
+
+#: common.c:1622 common.c:1708 common.c:1788
+#, c-format
+msgid ""
+"Skipping UTF-16 file %s, an UTF-16 conversion error occurred on line %u.\n"
+msgstr ""
+
+#: common.c:1687 common.c:1770 common.c:1829
+#, c-format
+msgid "Skipping %s, not a regular file.\n"
+msgstr ""
+
+#: common.c:1690
+#, c-format
+msgid "Skipping %s, output file %s is a symbolic link.\n"
+msgstr ""
+
+#: common.c:1693 common.c:1776 common.c:1834
+#, c-format
+msgid "Skipping symbolic link %s, target is not a regular file.\n"
+msgstr ""
+
+#: common.c:1696
+#, c-format
+msgid "Skipping %s, target of symbolic link %s is not a regular file.\n"
+msgstr ""
+
+#: common.c:1713
+#, c-format
+msgid "converting file %s to file %s in Unix format...\n"
+msgstr ""
+
+#: common.c:1716
+#, c-format
+msgid "converting file %s to file %s in Mac format...\n"
+msgstr ""
+
+#: common.c:1718
+#, c-format
+msgid "converting file %s to file %s in DOS format...\n"
+msgstr ""
+
+#. TRANSLATORS:
+#. 1st %s is encoding of input file.
+#. 2nd %s is name of input file.
+#. 3rd %s is encoding of output file.
+#. 4th %s is name of output file.
+#. E.g.: converting UTF-16LE file in.txt to UTF-8 file out.txt in Unix format...
+#: common.c:1729
+#, c-format
+msgid "converting %s file %s to %s file %s in Unix format...\n"
+msgstr ""
+
+#: common.c:1732
+#, c-format
+msgid "converting %s file %s to %s file %s in Mac format...\n"
+msgstr ""
+
+#: common.c:1734
+#, c-format
+msgid "converting %s file %s to %s file %s in DOS format...\n"
+msgstr ""
+
+#: common.c:1740
+#, c-format
+msgid "problems converting file %s to file %s\n"
+msgstr ""
+
+#: common.c:1773
+#, c-format
+msgid "Skipping symbolic link %s.\n"
+msgstr ""
+
+#: common.c:1793
+#, c-format
+msgid "converting file %s to Unix format...\n"
+msgstr ""
+
+#: common.c:1796
+#, c-format
+msgid "converting file %s to Mac format...\n"
+msgstr ""
+
+#: common.c:1798
+#, c-format
+msgid "converting file %s to DOS format...\n"
+msgstr ""
+
+#. TRANSLATORS:
+#. 1st %s is encoding of input file.
+#. 2nd %s is name of input file.
+#. 3rd %s is encoding of output (input file is overwritten).
+#. E.g.: converting UTF-16LE file foo.txt to UTF-8 Unix format...
+#: common.c:1808
+#, c-format
+msgid "converting %s file %s to %s Unix format...\n"
+msgstr ""
+
+#: common.c:1811
+#, c-format
+msgid "converting %s file %s to %s Mac format...\n"
+msgstr ""
+
+#: common.c:1813
+#, c-format
+msgid "converting %s file %s to %s DOS format...\n"
+msgstr ""
+
+#: common.c:1819
+#, c-format
+msgid "problems converting file %s\n"
+msgstr ""
+
+#: common.c:1885 common.c:1962
+#, c-format
+msgid "can not read from input file %s:"
+msgstr ""
+
+#: common.c:2137
+#, c-format
+msgid "wrong flag '%c' for option -i or --info\n"
+msgstr ""
+
+#: common.c:2262 common.c:2299
+#, c-format
+msgid "active code page: %d\n"
+msgstr ""
+
+#: common.c:2311
+#, c-format
+msgid "invalid %s conversion mode specified\n"
+msgstr ""
+
+#: common.c:2319 common.c:2345
+#, c-format
+msgid "option '%s' requires an argument\n"
+msgstr ""
+
+#: common.c:2337
+#, c-format
+msgid "invalid %s display encoding specified\n"
+msgstr ""
+
+#: common.c:2357 common.c:2370 common.c:2436
+#, c-format
+msgid "target of file %s not specified in new-file mode\n"
+msgstr ""
+
+#: common.c:2450
+#, c-format
+msgid "can not read from input file: %s\n"
+msgstr ""
+
+#: common.c:2462 common.c:2476
+#, c-format
+msgid "can not write to output file: %s\n"
+msgstr ""
+
+#: common.c:2553
+msgid "error: Invalid surrogate pair. Missing low surrogate.\n"
+msgstr ""
+
+#: common.c:2568
+msgid "error: Invalid surrogate pair. Missing high surrogate.\n"
+msgstr ""
