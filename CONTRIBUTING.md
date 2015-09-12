@@ -28,6 +28,8 @@ that you:
 project: language (locale code), number-of-non-finished, percentage-of-completion
 ```
 
+You should also read [zh_CN L10n Guide](https://repo.anthonos.org/misc/zh_CN_l10n.pdf).
+
 Pull Requests
 -------------
 
