@@ -15,6 +15,19 @@ You can report issues using our Issue feature. Be clear of what you are talking
 about. In most cases, you can fix the translation errors yourself by sending
 the correct ones for us to merge.
 
+Practices
+---------
+
+While we appreciate frequent updates on translation works, it is recommended
+that you:
+
+- Avoid commit-per-minute;
+- Use proper git commit format, as demonstrated below;
+
+```
+project: language (locale code), number-of-non-finished, percentage-of-completion
+```
+
 Pull Requests
 -------------
 
