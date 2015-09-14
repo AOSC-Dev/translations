@@ -41,3 +41,8 @@ Like what ReactOS guys say,
 You can always improve the translations, for example the famous idiotic
 zh_CN-MS term “内存不能为 read” (The memory cannot be read) should be
 changed.
+
+How Wine's Clean Room Guidelines apply to the translations are still unknown,
+so we suggest translators to do it the hard way, i.e. read the guide and try
+to follow it, instead of writing a crawler to crawl all error messages from
+MSDN (technically easy when you are feeling lucky).
