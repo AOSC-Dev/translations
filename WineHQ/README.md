@@ -52,5 +52,5 @@ How Wine's Clean Room Guidelines apply to the translations is still unknown,
 so we suggest translators to do it the hard way, i.e. read the guide and try
 to follow it, instead of writing a crawler to crawl all those error messages
 from MSDN (technically easy when you are feeling lucky). Using Microsoft's
-UI Strings for MSDN Suscribers is definitely wrong, since it's part of the
+UI Strings for MSDN Subscribers is definitely wrong, since it's part of the
 source code.
