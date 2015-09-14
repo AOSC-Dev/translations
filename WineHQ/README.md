@@ -44,5 +44,5 @@ changed.
 
 How Wine's Clean Room Guidelines apply to the translations are still unknown,
 so we suggest translators to do it the hard way, i.e. read the guide and try
-to follow it, instead of writing a crawler to crawl all error messages from
-MSDN (technically easy when you are feeling lucky).
+to follow it, instead of writing a crawler to crawl all those error messages
+from MSDN (technically easy when you are feeling lucky).
