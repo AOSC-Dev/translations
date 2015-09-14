@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
 "POT-Creation-Date: 2015-08-26 21:42+0800\n"
-"PO-Revision-Date: 2015-08-27 13:00+0100\n"
+"PO-Revision-Date: 2015-09-13 21:13-0600\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
-"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
@@ -123,13 +123,12 @@ msgstr ""
 
 #. type: ifnottex
 #: help2man.texi:74
-#, fuzzy
 msgid ""
 "@command{help2man} produces simple manual pages from the @samp{--help} and "
 "@samp{--version} output of other commands."
 msgstr ""
-"@command {help2man} 产生简单的手册页，从 @samp {— — 帮助} 和 @samp {— — 版"
-"本} 其他命令的输出。"
+"@command{help2man} 可从 @samp{--help} 和 @samp{--version} 其他命令的输出生成"
+"简单的手册页。"
 
 #. type: node
 #: help2man.texi:85 help2man.texi:88
@@ -139,9 +138,8 @@ msgstr "概览"
 
 #. type: menuentry
 #: help2man.texi:85
-#, fuzzy
 msgid "Overview of @command{help2man}."
-msgstr "@command{help2man} 概览"
+msgstr "@command{help2man} 概览。"
 
 #. type: node
 #: help2man.texi:85 help2man.texi:106
@@ -151,9 +149,8 @@ msgstr "调用 help2man"
 
 #. type: menuentry
 #: help2man.texi:85
-#, fuzzy
 msgid "How to run @command{help2man}."
-msgstr "@command{help2man} 概览"
+msgstr "如何运行 @command{help2man}。"
 
 #. type: node
 #: help2man.texi:85 help2man.texi:206
@@ -163,11 +160,8 @@ msgstr "--help 建议"
 
 #. type: menuentry
 #: help2man.texi:85
-#, fuzzy
 msgid "Recommended formatting for --help output."
-msgstr ""
-"\n"
-"格式化输出：\n"
+msgstr "建议的 --help 输出排版。"
 
 #. type: node
 #: help2man.texi:85 help2man.texi:302
@@ -188,9 +182,8 @@ msgstr "Makefile 用法"
 
 #. type: menuentry
 #: help2man.texi:85
-#, fuzzy
 msgid "Using @command{help2man} with @command{make}."
-msgstr "@command{help2man} 参考手册"
+msgstr "同 @command{make} 一起使用 @command{help2man}。"
 
 #. type: node
 #: help2man.texi:85 help2man.texi:399
@@ -244,11 +237,10 @@ msgstr "@command{help2man} 概览"
 
 #. type: Plain text
 #: help2man.texi:93
-#, fuzzy
 msgid ""
 "@command{help2man} is a tool for automatically generating simple manual "
 "pages from program output."
-msgstr "@command {help2man} 是一种工具用于从程序输出自动生成简单的手册页。"
+msgstr "@command{help2man} 是一种从程序输出自动生成简单的手册页的工具。"
 
 #. type: Plain text
 #: help2man.texi:97
@@ -284,39 +276,37 @@ msgstr ""
 
 #. type: chapter
 #: help2man.texi:107
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "How to Run @command{help2man}"
-msgstr "获取 @command{help2man}。"
+msgstr "如何运行 @command{help2man}。"
 
 #. type: Plain text
 #: help2man.texi:110
-#, fuzzy
 msgid "The format for running the @command{help2man} program is:"
-msgstr "运行 @command {help2man} 程序的格式是:"
+msgstr "运行 @command{help2man} 程序的格式为:"
 
 #. type: example
 #: help2man.texi:113
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "@command{help2man} [@var{option}]@dots{} @var{executable}\n"
-msgstr "@command {help2man} [@var {选项}] @dots {} @var {可执行文件}"
+msgstr "@command{help2man} [@var{选项}]@dots{} @var{可执行文件}\n"
 
 #. type: Plain text
 #: help2man.texi:116
-#, fuzzy
 msgid "@command{help2man} supports the following options:"
-msgstr "@command {help2man} 支持以下选项:"
+msgstr "@command{help2man} 支持以下选项: "
 
 #. type: item
 #: help2man.texi:118
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-n @var{string}"
-msgstr "#  sigfile=字串 (例如：$var/sig)\n"
+msgstr "-n @var{string}"
 
 #. type: itemx
 #: help2man.texi:119
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--name=@var{string}"
-msgstr "#  sigfile=字串 (例如：$var/sig)\n"
+msgstr "--name=@var{string}"
 
 #. type: table
 #: help2man.texi:122
@@ -345,15 +335,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:129
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-s @var{section}"
-msgstr "内存区段 %s+%x"
+msgstr "-s @var{section}"
 
 #. type: itemx
 #: help2man.texi:130
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--section @var{section}"
-msgstr "[=节]"
+msgstr "--section @var{section}"
 
 #. type: table
 #: help2man.texi:133
@@ -363,15 +353,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:134
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-m @var{manual}"
-msgstr "手动"
+msgstr "-m @var{manual}"
 
 #. type: itemx
 #: help2man.texi:135
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--manual=@var{manual}"
-msgstr "手动"
+msgstr "--manual=@var{manual}"
 
 #. type: table
 #: help2man.texi:140
@@ -384,15 +374,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:141
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-S @var{source}"
-msgstr "来源文件：%s"
+msgstr "-S @var{source}"
 
 #. type: itemx
 #: help2man.texi:142
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--source=@var{source}"
-msgstr "源不是一个指针"
+msgstr "--source=@var{source}"
 
 #. type: table
 #: help2man.texi:146
@@ -404,15 +394,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:147
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-L @var{locale}"
-msgstr "=语区"
+msgstr "-L @var{locale}"
 
 #. type: itemx
 #: help2man.texi:148
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--locale=@var{locale}"
-msgstr "=语区"
+msgstr "-L @var{locale}"
 
 #. type: table
 #: help2man.texi:152
@@ -424,15 +414,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:153
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-i @var{file}"
-msgstr "到本机文件的 I/O 错误"
+msgstr "-i @var{file}"
 
 #. type: itemx
 #: help2man.texi:154
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--include=@var{file}"
-msgstr "help2man 手册页的包含文件"
+msgstr "--include=@var{file}"
 
 #. type: table
 #: help2man.texi:156
@@ -441,15 +431,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:157
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-I @var{file}"
-msgstr "到本机文件的 I/O 错误"
+msgstr "-I @var{file}"
 
 #. type: itemx
 #: help2man.texi:158
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--opt-include=@var{file}"
-msgstr "help2man 手册页的包含文件"
+msgstr "--opt-include=@var{file}"
 
 #. type: table
 #: help2man.texi:161
@@ -460,77 +450,49 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:162
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-o @var{file}"
-msgstr "到本机文件的 I/O 错误"
+msgstr "-o @var{file}"
 
 #. type: itemx
 #: help2man.texi:163
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--output=@var{file}"
-msgstr "  -o <文件>                输出到 <文件>\n"
+msgstr "--output=@var{file}"
 
 #. type: table
 #: help2man.texi:165
 msgid "Send output to @var{file} rather than @code{stdout}."
-msgstr ""
+msgstr "将输出写入到 @var{file} 而非 @code{stdout}。"
 
 #. type: item
 #: help2man.texi:166
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-p @var{text}"
-msgstr "#  sigfile=字串 (例如：$var/sig)\n"
+msgstr "-p @var{text}"
 
 #. type: itemx
 #: help2man.texi:167
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--info-page=@var{text}"
-msgstr "版本变动信息"
+msgstr "--info-page=@var{text}"
 
 #. type: table
 #: help2man.texi:169
-#, fuzzy
 msgid "Name of Texinfo manual."
-msgstr ""
-"`%s' 根据 `--help' 和 `--version' 输出生成手册页面。\n"
-"\n"
-"用法：%s [选项]... 可执行程序\n"
-"\n"
-" -n, --name=STRING       名称段落的描述\n"
-" -s, --section=SECTION   手册页章节号 (1, 6, 8)\n"
-" -m, --manual=TEXT       手册名 (用户命令, ...)\n"
-" -S, --source=TEXT       程序来源 (FSF, Debian, ...)\n"
-" -L, --locale=STRING     选择语区 (默认 \"C\")\n"
-" -i, --include=FILE      从 `FILE' 包含材料\n"
-" -I, --opt-include=FILE  从 `FILE' 包含材料若其存在\n"
-" -o, --output=FILE       输出到 `FILE'\n"
-" -p, --info-page=TEXT    Texinfo 手册名\n"
-" -N, --no-info           不输出到 Texinfo 手册的指示\n"
-" -l, --libtool           从程序名中忽略 `lt-' 前缀\n"
-"     --help              打印此帮助并退出\n"
-"     --version           打印版本号并退出\n"
-"\n"
-"可执行程序应接纳 `--help' 和 `--version' 选项并输出到标准输出，尽管你也可以这"
-"样指定替代:\n"
-"\n"
-" -h, --help-option=STRING     帮助选项字串\n"
-" -v, --version-option=STRING  版本选项字串\n"
-" --version-string=STRING      版本字串\n"
-" --no-discard-stderr          解析输出时包含标准错误\n"
-"\n"
-"报告错误给 <bug-help2man@gnu.org>.\n"
+msgstr "Texinfo 手册名称。"
 
 #. type: item
 #: help2man.texi:170
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-N"
-msgstr "不可用"
+msgstr "-N"
 
 #. type: itemx
 #: help2man.texi:171
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--no-info"
-msgstr "无信息"
+msgstr "--no-info"
 
 #. type: table
 #: help2man.texi:174
@@ -541,15 +503,15 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:175
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-l"
-msgstr "%L处的 SOURCE 标记与%L处的类型指定冲突"
+msgstr "-l"
 
 #. type: itemx
 #: help2man.texi:176
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--libtool"
-msgstr "印出 libtool(...) 的依赖关系集合"
+msgstr "--libtool"
 
 #. type: table
 #: help2man.texi:180
@@ -561,21 +523,20 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:181
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--help"
-msgstr "--help 建议"
+msgstr "--help"
 
 #. type: itemx
 #: help2man.texi:182
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--version"
-msgstr "   版本：        %d\n"
+msgstr "--version"
 
 #. type: table
 #: help2man.texi:184
-#, fuzzy
 msgid "Show help or version information."
-msgstr "显示版本信息"
+msgstr "显示帮助或版本信息。"
 
 #. type: Plain text
 #: help2man.texi:189
@@ -587,150 +548,65 @@ msgstr ""
 
 #. type: item
 #: help2man.texi:191
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "-h @var{option}"
-msgstr "版本变动信息"
+msgstr "-h @var{option}"
 
 #. type: itemx
 #: help2man.texi:192
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--help-option=@var{option}"
-msgstr "显示选项帮助"
+msgstr "--help-option=@var{option}"
 
 #. type: table
 #: help2man.texi:194
-#, fuzzy
 msgid "Help option string."
-msgstr ""
-"`%s' 根据 `--help' 和 `--version' 输出生成手册页面。\n"
-"\n"
-"用法：%s [选项]... 可执行程序\n"
-"\n"
-" -n, --name=STRING       名称段落的描述\n"
-" -s, --section=SECTION   手册页章节号 (1, 6, 8)\n"
-" -m, --manual=TEXT       手册名 (用户命令, ...)\n"
-" -S, --source=TEXT       程序来源 (FSF, Debian, ...)\n"
-" -L, --locale=STRING     选择语区 (默认 \"C\")\n"
-" -i, --include=FILE      从 `FILE' 包含材料\n"
-" -I, --opt-include=FILE  从 `FILE' 包含材料若其存在\n"
-" -o, --output=FILE       输出到 `FILE'\n"
-" -p, --info-page=TEXT    Texinfo 手册名\n"
-" -N, --no-info           不输出到 Texinfo 手册的指示\n"
-" -l, --libtool           从程序名中忽略 `lt-' 前缀\n"
-"     --help              打印此帮助并退出\n"
-"     --version           打印版本号并退出\n"
-"\n"
-"可执行程序应接纳 `--help' 和 `--version' 选项并输出到标准输出，尽管你也可以这"
-"样指定替代:\n"
-"\n"
-" -h, --help-option=STRING     帮助选项字串\n"
-" -v, --version-option=STRING  版本选项字串\n"
-" --version-string=STRING      版本字串\n"
-" --no-discard-stderr          解析输出时包含标准错误\n"
-"\n"
-"报告错误给 <bug-help2man@gnu.org>.\n"
+msgstr "帮助选项字串。"
 
 #. type: item
 #: help2man.texi:195
 #, no-wrap
 msgid "-v @var{option}"
-msgstr ""
+msgstr "-v @var{option}"
 
 #. type: itemx
 #: help2man.texi:196
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--version-option=@var{option}"
-msgstr "版本变动信息"
+msgstr "-h @var{option}"
 
 #. type: table
 #: help2man.texi:198
-#, fuzzy
 msgid "Version option string."
-msgstr ""
-"`%s' 根据 `--help' 和 `--version' 输出生成手册页面。\n"
-"\n"
-"用法：%s [选项]... 可执行程序\n"
-"\n"
-" -n, --name=STRING       名称段落的描述\n"
-" -s, --section=SECTION   手册页章节号 (1, 6, 8)\n"
-" -m, --manual=TEXT       手册名 (用户命令, ...)\n"
-" -S, --source=TEXT       程序来源 (FSF, Debian, ...)\n"
-" -L, --locale=STRING     选择语区 (默认 \"C\")\n"
-" -i, --include=FILE      从 `FILE' 包含材料\n"
-" -I, --opt-include=FILE  从 `FILE' 包含材料若其存在\n"
-" -o, --output=FILE       输出到 `FILE'\n"
-" -p, --info-page=TEXT    Texinfo 手册名\n"
-" -N, --no-info           不输出到 Texinfo 手册的指示\n"
-" -l, --libtool           从程序名中忽略 `lt-' 前缀\n"
-"     --help              打印此帮助并退出\n"
-"     --version           打印版本号并退出\n"
-"\n"
-"可执行程序应接纳 `--help' 和 `--version' 选项并输出到标准输出，尽管你也可以这"
-"样指定替代:\n"
-"\n"
-" -h, --help-option=STRING     帮助选项字串\n"
-" -v, --version-option=STRING  版本选项字串\n"
-" --version-string=STRING      版本字串\n"
-" --no-discard-stderr          解析输出时包含标准错误\n"
-"\n"
-"报告错误给 <bug-help2man@gnu.org>.\n"
+msgstr "版本选项字串。"
 
 #. type: item
 #: help2man.texi:199
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--version-string=@var{string}"
-msgstr "#  sigfile=字串 (例如：$var/sig)\n"
+msgstr "--version-string=@var{string}"
 
 #. type: table
 #: help2man.texi:201
-#, fuzzy
 msgid "Version string."
-msgstr "版本字符串表"
+msgstr "版本字串。"
 
 #. type: item
 #: help2man.texi:202
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "--no-discard-stderr"
-msgstr "尝试 `--no-discard-stderr' 如果选项输出到了标准错误"
+msgstr "--no-discard-stderr"
 
 #. type: table
 #: help2man.texi:204
-#, fuzzy
 msgid "Include stderr when parsing option output."
 msgstr ""
-"`%s' 根据 `--help' 和 `--version' 输出生成手册页面。\n"
-"\n"
-"用法：%s [选项]... 可执行程序\n"
-"\n"
-" -n, --name=STRING       名称段落的描述\n"
-" -s, --section=SECTION   手册页章节号 (1, 6, 8)\n"
-" -m, --manual=TEXT       手册名 (用户命令, ...)\n"
-" -S, --source=TEXT       程序来源 (FSF, Debian, ...)\n"
-" -L, --locale=STRING     选择语区 (默认 \"C\")\n"
-" -i, --include=FILE      从 `FILE' 包含材料\n"
-" -I, --opt-include=FILE  从 `FILE' 包含材料若其存在\n"
-" -o, --output=FILE       输出到 `FILE'\n"
-" -p, --info-page=TEXT    Texinfo 手册名\n"
-" -N, --no-info           不输出到 Texinfo 手册的指示\n"
-" -l, --libtool           从程序名中忽略 `lt-' 前缀\n"
-"     --help              打印此帮助并退出\n"
-"     --version           打印版本号并退出\n"
-"\n"
-"可执行程序应接纳 `--help' 和 `--version' 选项并输出到标准输出，尽管你也可以这"
-"样指定替代:\n"
-"\n"
-" -h, --help-option=STRING     帮助选项字串\n"
-" -v, --version-option=STRING  版本选项字串\n"
-" --version-string=STRING      版本字串\n"
-" --no-discard-stderr          解析输出时包含标准错误\n"
-"\n"
-"报告错误给 <bug-help2man@gnu.org>.\n"
 
 #. type: chapter
 #: help2man.texi:207
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "@option{--help} Recommendations"
-msgstr "--help 建议"
+msgstr "@option{--help} 建议"
 
 #. type: Plain text
 #: help2man.texi:213
@@ -782,9 +658,9 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:240
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n"
-msgstr ""
+msgstr "将 SOURCE 拷贝到 DEST，或将多个 SOURCE 拷贝到 DIRECTORY。\n"
 
 #. type: itemize
 #: help2man.texi:251
@@ -846,7 +722,7 @@ msgstr ""
 #: help2man.texi:280
 #, no-wrap
 msgid "address for bug reports"
-msgstr ""
+msgstr "错误报告地址"
 
 #. type: cindex
 #: help2man.texi:281
@@ -906,48 +782,33 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:316
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "[section]\n"
 "text\n"
 "\n"
 msgstr ""
-"[section]\n"
-"text\n"
+"[章节]\n"
+"文本\n"
 "\n"
 
 #. type: example
 #: help2man.texi:319
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "/pattern/\n"
 "text\n"
 msgstr ""
-"附加材料可以通过\n"
-".B \\-\\-include\n"
-"和\n"
-".B \\-\\-opt\\-include\n"
-"选项加入生成的输出。格式很简单\n"
-"\n"
-"    [章节]\n"
-"    文字\n"
-"\n"
-"    /正则表达式/\n"
-"    文字\n"
+"/pattern/\n"
+"text\n"
 
 #. type: Plain text
 #: help2man.texi:324
-#, fuzzy
 msgid ""
 "Blocks of verbatim *roff text are inserted into the output either at the "
 "start of the given @samp{[section]} (case insensitive), or after a paragraph "
 "matching @samp{/pattern/}."
-msgstr ""
-"逐字 *roff 文字块将在给定的\n"
-".BI [ 章节 ]\n"
-"（大小写不敏感）开始处，或在匹配\n"
-".BI / 正则表达式 /\n"
-"的段后加入。\n"
+msgstr "逐字 *roff 文字块将在给定的"
 
 #. type: Plain text
 #: help2man.texi:328
@@ -1023,9 +884,9 @@ msgstr ""
 
 #. type: chapter
 #: help2man.texi:365
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Using @command{help2man} With @command{make}"
-msgstr "@command{help2man} 参考手册"
+msgstr "同 @command{make} 一起使用 @command{help2man}。"
 
 #. type: Plain text
 #: help2man.texi:370
@@ -1072,19 +933,18 @@ msgstr "AM_MISSING_PROG(HELP2MAN, help2man)\n"
 #. type: Plain text
 #: help2man.texi:392
 msgid "for @command{automake}, or something like:"
-msgstr ""
+msgstr "@command{automake}，或类似如下例子："
 
 #. type: example
 #: help2man.texi:395
 #, no-wrap
 msgid "AC_PATH_PROG(HELP2MAN, help2man, false // No help2man //)\n"
-msgstr ""
+msgstr "AC_PATH_PROG(HELP2MAN, help2man, false // No help2man //)\n"
 
 #. type: Plain text
 #: help2man.texi:398
-#, fuzzy
 msgid "for @command{autoconf} alone."
-msgstr "没有命令"
+msgstr "仅为 @command{autoconf} 专用。"
 
 #. type: chapter
 #: help2man.texi:400
@@ -1103,7 +963,7 @@ msgstr ""
 #: help2man.texi:408
 #, no-wrap
 msgid "help2man -L fr_FR@@euro -o cp.fr.1 cp\n"
-msgstr ""
+msgstr "help2man -L fr_FR@@euro -o cp.fr.1 cp\n"
 
 #. type: Plain text
 #: help2man.texi:413
@@ -1153,6 +1013,13 @@ msgid ""
 "  help2man -L fr_FR@@euro -i @var{prog}.fr.h2m -o @var{prog}.fr.1 @var{prog}\n"
 "rm -rf tmp\n"
 msgstr ""
+"mkdir -p tmp/fr/LC_MESSAGES\n"
+"cp po/fr.gmo tmp/fr/LC_MESSAGES/@var{prog}.mo\n"
+"LD_PRELOAD=\"/usr/lib/help2man/bindtextdomain.so\" \\\n"
+"  LOCALEDIR=tmp \\\n"
+"  TEXTDOMAIN=@var{prog} \\\n"
+"  help2man -L fr_FR@@euro -i @var{prog}.fr.h2m -o @var{prog}.fr.1 @var{prog}\n"
+"rm -rf tmp\n"
 
 #. type: Plain text
 #: help2man.texi:440
@@ -1184,7 +1051,7 @@ msgstr ""
 
 #. type: chapter
 #: help2man.texi:455
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Example @command{help2man} Output"
 msgstr "@command{help2man} 示例输出。"
 
@@ -1203,19 +1070,23 @@ msgid ""
 "GNU foo 1.1\n"
 "\n"
 msgstr ""
+"@exstrong{$ foo --version}\n"
+"GNU foo 1.1\n"
+"\n"
 
 #. type: example
 #: help2man.texi:487
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Copyright (C) 2011 Free Software Foundation, Inc.\n"
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 "\n"
 msgstr ""
-"版权所有 (C) %s 自由软件基金会。\n"
-"这是一个自由软件；请见源代码的授权条款。这没有担保；甚至也没有专为销\n"
-"售或者适合某些特殊目的。\n"
+"版权所有 (C) 2011 自由软件基金会。\n"
+"本软件为自由软件；请参阅源代码以获取许可条款。此软件不对包括商业使用以及其他\n"
+"特殊用途提供任何担保。\n"
+"\n"
 
 #. type: example
 #: help2man.texi:492
@@ -1230,11 +1101,14 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:494
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "Usage: foo [OPTION]...\n"
 "\n"
-msgstr "用法：%s [选项] 名称...\n"
+msgstr ""
+"用法: foo [选项] ...\n"
+"\n"
+"\n"
 
 #. type: example
 #: help2man.texi:499
@@ -1255,6 +1129,9 @@ msgid ""
 "      --version     output version information and exit\n"
 "\n"
 msgstr ""
+"      --help        显示此帮助信息并退出\n"
+"      --version     输出版本信息并退出\n"
+"\n"
 
 #. type: example
 #: help2man.texi:506
@@ -1265,12 +1142,16 @@ msgid ""
 "  foo --option      the same thing, giving `--option'\n"
 "\n"
 msgstr ""
+"示例:\n"
+"  foo               什么都不做\n"
+"  foo --option      效果一致，传入参数 `--option'\n"
+"\n"
 
 #. type: example
 #: help2man.texi:508
 #, no-wrap
 msgid "Report bugs to <bug-gnu-utils@@gnu.org>.\n"
-msgstr ""
+msgstr "请将问题报告给 <bug-gnu-utils@@gnu.org>。\n"
 
 #. type: Plain text
 #: help2man.texi:512
@@ -1286,6 +1167,8 @@ msgid ""
 "FOO(1)                         User Commands                        FOO(1)\n"
 "\n"
 msgstr ""
+"FOO(1)                         用户命令                        FOO(1)\n"
+"\n"
 
 #. type: example
 #: help2man.texi:519
@@ -1298,13 +1181,14 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:522
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "@exstrong{SYNOPSIS}\n"
 "       foo [OPTION]...\n"
 "\n"
 msgstr ""
-"              @exstrong{info foo}\n"
+"@exstrong{SYNOPSIS}\n"
+"       foo [OPTION]...\n"
 "\n"
 
 #. type: example
@@ -1338,20 +1222,26 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:535
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "       @exstrong{--help} display this help and exit\n"
 "\n"
-msgstr "      --help             显示这份说明然后离开\n"
+msgstr ""
+"\t@exstrong{--help} 显示此帮助信息并推出\n"
+"\n"
 
 #. type: example
 #: help2man.texi:538
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "       @exstrong{--version}\n"
 "              output version information and exit\n"
 "\n"
-msgstr "      --version\t\t显示版本信息并退出\n"
+msgstr ""
+"      @exstrong--version\n"
+"              输出版本信息并退出\n"
+"\n"
+"\n"
 
 #. type: example
 #: help2man.texi:541
@@ -1391,7 +1281,7 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:556
-#, fuzzy, no-wrap
+#, no-wrap
 msgid ""
 "@exstrong{COPYRIGHT}\n"
 "       Copyright @copyright{} 2011 Free Software Foundation, Inc.\n"
@@ -1400,9 +1290,11 @@ msgid ""
 "       PARTICULAR PURPOSE.\n"
 "\n"
 msgstr ""
-"版权所有 (C) %s 自由软件基金会。\n"
-"这是一个自由软件；请见源代码的授权条款。这没有担保；甚至也没有专为销\n"
-"售或者适合某些特殊目的。\n"
+"@exstrong{COPYRIGHT}\n"
+"       版权所有 (C) 2011 自由软件基金会。\n"
+"       本软件为自由软件；请参阅源代码以获取许可条款。此软件不对包括商业使用以及其他\n"
+"       特殊用途提供任何担保。\n"
+"\n"
 
 #. type: example
 #: help2man.texi:561
@@ -1437,7 +1329,7 @@ msgstr ""
 #: help2man.texi:568
 #, no-wrap
 msgid "foo 1.1                          May 2011                           FOO(1)\n"
-msgstr ""
+msgstr "foo 1.1                          2011 五月                           FOO(1)\n"
 
 #. type: chapter
 #: help2man.texi:571
@@ -1459,10 +1351,13 @@ msgid ""
 "translationproject.org/, Translation Project} see @url{http://"
 "translationproject.org/html/translators.html} for details."
 msgstr ""
+"翻译员们请注意: 软件翻译通过 @uref{http://translationproject.org/, "
+"Translation Project} 管理，请访问 @url{http://translationproject.org/html/"
+"translators.html} 以获取更多信息。"
 
 #. type: chapter
 #: help2man.texi:581
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Obtaining @command{help2man}"
 msgstr "获取 @command{help2man}。"
 
@@ -1470,7 +1365,7 @@ msgstr "获取 @command{help2man}。"
 #: help2man.texi:585
 msgid ""
 "The latest version of this distribution is available online from GNU mirrors:"
-msgstr ""
+msgstr "此发行的最新版本可从 GNU 在线镜像获取: "
 
 #. type: example
 #: help2man.texi:588
@@ -1481,7 +1376,7 @@ msgstr "@url{http://ftpmirror.gnu.org/help2man/}\n"
 #. type: Plain text
 #: help2man.texi:591
 msgid "If automatic redirection fails, the list of mirrors is at:"
-msgstr ""
+msgstr "如自动重定向失败，镜像列表位于: "
 
 #. type: example
 #: help2man.texi:594
@@ -1492,7 +1387,7 @@ msgstr "@url{http://www.gnu.org/order/ftp.html}\n"
 #. type: Plain text
 #: help2man.texi:597
 msgid "Or if need be you can use the main GNU ftp server:"
-msgstr ""
+msgstr "必要时可以使用 GNU 主 FTP 服务器: "
 
 #. type: example
 #: help2man.texi:599
