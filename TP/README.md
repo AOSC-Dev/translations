@@ -19,8 +19,9 @@ its [requirements](https://translationproject.org/html/robot.html), in short:
 - Header should contain valid license information, etc.
 - For projects that requires disclaiming, check for sender's disclaim.
 
-TP uses a terrible `--no-wrap`style for archiving, but since it does it
-automatically, we don't care about it.
+TP uses a terrible `--no-wrap` style for archiving, but since it does it
+automatically, we don't care about it. Just don't do this here or you will
+get a huge commit.
 
 Contact
 -------
