@@ -1,10 +1,11 @@
 WineHQ
 ======
 
-[WineHQ](http://winehq.org) Wine enables Linux, Mac, FreeBSD, and Solaris 
-users to run Windows applications without a copy of Microsoft Windows. Wine 
+[Wine](http://winehq.org) enables Linux, Mac, FreeBSD, and Solaris users
+to run Windows applications without a copy of Microsoft Windows. Wine 
 is free software under constant development. Other platforms may benefit 
-as well.
+as well, for example some Windows users find wine working better
+than compatibility mode with certain apps.
 
 * [WineHQ:Translating](http://wiki.winehq.org/Translating)
 * [ReactOS:TranslationIntro](https://reactos.org/wiki/Translation_Introduction)
