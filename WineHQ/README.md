@@ -11,6 +11,9 @@ than compatibility mode with certain apps.
   [ReactOS](https://reactos.org/wiki/Translation_Introduction)
 * StyleGuides: https://www.microsoft.com/Language/en-US/StyleGuides.aspx
 * Terminology: https://www.microsoft.com/Language/en-US/Terminology.aspx
+  This is in [TBX](https://en.wikipedia.org/wiki/TermBase_eXchange) format,
+  you may want some really CAT software to use it to help you, for example
+  [OmegaT](http://omegat.org). Or you can try Transifex or Crowdin.
 * Upstream: [Stats](http://fgouget.free.fr/wine-po/),
   [Git](https://source.winehq.org/git/wine.git/tree/HEAD:/po)
 
