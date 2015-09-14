@@ -7,10 +7,12 @@ is free software under constant development. Other platforms may benefit
 as well, for example some Windows users find wine working better
 than compatibility mode with certain apps.
 
-* [WineHQ:Translating](http://wiki.winehq.org/Translating)
-* [ReactOS:TranslationIntro](https://reactos.org/wiki/Translation_Introduction)
-* [MS zh_CN StyleGuide](http://ftp.asia.edu.tw/cpatch/g/glossary/microsoft_styleguide_chs.pdf)
-* [MS zh_TW StyleGuide](http://ftp.asia.edu.tw/cpatch/g/glossary/microsoft_styleguide_cht.pdf)
+* General Guides: [WineHQ](https://wiki.winehq.org/Translating),
+  [ReactOS](https://reactos.org/wiki/Translation_Introduction)
+* StyleGuides: https://www.microsoft.com/Language/en-US/StyleGuides.aspx
+* Terminology: https://www.microsoft.com/Language/en-US/Terminology.aspx
+* Upstream: [Stats](http://fgouget.free.fr/wine-po/),
+  [Git](https://source.winehq.org/git/wine.git/tree/HEAD:/po)
 
 Submission
 ----------
