@@ -37,6 +37,5 @@ Contact
 - [zh_HK](https://translationproject.org/team/zh_HK.html): *Chinese
   (Hong Kong)*, finally right.
   - This group is silent. No mailing lists available.
-
- 
-
+- [Coordinators](mailto:coordinator@translationproject.org) are useful if you
+  want to do something big. Non-Hostile, rich in protein.
