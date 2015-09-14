@@ -38,5 +38,6 @@ Like what ReactOS guys say,
 > Also, Try to keep your translation consistent, i.e. try to not translate
 > the same term differently in different places.
 
-You can always improve the translations, like the famous idiot zh_CN-MS
-term “内存不能为 read” (The memory cannot be read).
+You can always improve the translations, for example the famous idiot
+zh_CN-MS term “内存不能为 read” (The memory cannot be read) should be
+changed.
