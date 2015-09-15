@@ -8,6 +8,11 @@ by us.
 
 ![Workflow](https://cdn.rawgit.com/AOSC-Dev/translations/master/workflow.svg)
 
+You may want to check the commit history of translations so you don't mess up
+with someone else doing the same work as yours. [magtac](http://git.io/vZFnd)
+can be used to reverse the order of items in a PO file, so you can minimize the
+chance of conflict.
+
 Issues
 ------
 
@@ -30,6 +35,7 @@ project: language (locale code), number-of-non-finished, percentage-of-completio
 
 You should also read our
 [zh_CN L10n Guide](https://repo.anthonos.org/misc/l10n/zh_CN_l10n.pdf).
+
 
 Pull Requests
 -------------
