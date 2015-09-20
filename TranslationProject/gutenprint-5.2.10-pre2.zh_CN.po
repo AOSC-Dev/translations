@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gutenprint 20110308\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-19 21:11-0600\n"
+"PO-Revision-Date: 2015-09-19 21:40-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -26,30 +26,30 @@ msgstr "默认"
 #. descriptive name, of this algorithm.
 #: src/main/dither-main.c:47
 msgid "EvenTone"
-msgstr ""
+msgstr "EvenTone"
 
 #: src/main/dither-main.c:48
 msgid "Hybrid EvenTone"
-msgstr ""
+msgstr "混合式 EvenTone"
 
 #. TRANSLATORS: EvenTone, EvenBetter, and UniTone are proper
 #. * names, not descriptive.
 #.
 #: src/main/dither-main.c:53
 msgid "EvenBetter"
-msgstr ""
+msgstr "EvenBetter"
 
 #: src/main/dither-main.c:54
 msgid "Hybrid EvenBetter"
-msgstr ""
+msgstr "混合式 EvenBetter"
 
 #: src/main/dither-main.c:60
 msgid "UniTone"
-msgstr ""
+msgstr "UniTone"
 
 #: src/main/dither-main.c:61
 msgid "Hybrid UniTone"
-msgstr ""
+msgstr "混合式 UniTone"
 
 #: src/main/dither-main.c:63
 msgid "Adaptive Hybrid"
@@ -207,20 +207,20 @@ msgstr "分辨率"
 #: src/main/print-canon.c:334 src/main/print-lexmark.c:285
 #: src/main/print-olympus.c:3764
 msgid "Resolution and quality of the print"
-msgstr ""
+msgstr "印刷质量和分辨率"
 
 #: src/main/print-canon.c:344 src/main/print-escp2.c:239
 #: src/main/print-lexmark.c:290 src/main/print-olympus.c:3769
 #: src/main/print-pcl.c:1376 src/main/print-raw.c:80
 msgid "Ink Type"
-msgstr ""
+msgstr "墨水类型"
 
 #: src/main/print-canon.c:345 src/main/print-escp2.c:240
 #: src/main/print-escp2.c:252 src/main/print-lexmark.c:291
 #: src/main/print-olympus.c:3770 src/main/print-pcl.c:1377
 #: src/main/print-raw.c:81
 msgid "Type of ink in the printer"
-msgstr ""
+msgstr "打印机中的墨水类型"
 
 #: src/main/print-canon.c:350 src/main/print-canon.c:351
 #: src/main/print-escp2.c:323 src/main/print-escp2.c:324
@@ -252,7 +252,7 @@ msgstr ""
 #: src/main/print-canon.c:378 src/main/print-escp2.c:263
 #: src/main/print-olympus.c:3785
 msgid "Borderless"
-msgstr ""
+msgstr "无边框"
 
 #: src/main/print-canon.c:379 src/main/print-escp2.c:264
 #: src/main/print-olympus.c:3786
@@ -495,7 +495,7 @@ msgstr ""
 #: src/cups/genppd.c:1803 src/cups/genppd.c:1823 src/cups/genppd.c:1845
 #: src/cups/genppd.c:1862
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: src/main/print-canon.c:3403 src/main/print-escp2.c:2321
 #: src/main/print-pcl.c:1890 src/main/generic-options.c:213
@@ -527,7 +527,7 @@ msgstr "高精度"
 
 #: src/main/print-color.c:51
 msgid "Bright Colors"
-msgstr ""
+msgstr "亮色"
 
 #: src/main/print-color.c:52
 msgid "Correct Hue Only"
@@ -547,7 +547,7 @@ msgstr "阈值"
 
 #: src/main/print-color.c:57 src/main/print-color.c:133
 msgid "Raw"
-msgstr ""
+msgstr "Raw"
 
 #: src/main/print-color.c:58
 msgid "Pre-Dithered"
@@ -1749,15 +1749,15 @@ msgstr ""
 
 #: src/main/print-lexmark.c:577 src/main/print-lexmark.c:653
 msgid "300 DPI x 600 DPI"
-msgstr ""
+msgstr "300 DPI x 600 DPI"
 
 #: src/main/print-lexmark.c:578 src/main/print-lexmark.c:654
 msgid "600 DPI"
-msgstr ""
+msgstr "600 DPI"
 
 #: src/main/print-lexmark.c:579 src/main/print-lexmark.c:655
 msgid "600 DPI high quality"
-msgstr ""
+msgstr "600 DPI 高质量"
 
 #: src/main/print-lexmark.c:580 src/main/print-lexmark.c:656
 msgid "600 DPI Unidirectional"
@@ -1765,15 +1765,15 @@ msgstr ""
 
 #: src/main/print-lexmark.c:581 src/main/print-lexmark.c:657
 msgid "1200 DPI"
-msgstr ""
+msgstr "1200 DPI"
 
 #: src/main/print-lexmark.c:582 src/main/print-lexmark.c:658
 msgid "1200 DPI high quality"
-msgstr ""
+msgstr "1200 DPI 高质量"
 
 #: src/main/print-lexmark.c:583 src/main/print-lexmark.c:659
 msgid "1200 DPI highest quality"
-msgstr ""
+msgstr "1200 DPI 最高质量"
 
 #: src/main/print-lexmark.c:584 src/main/print-lexmark.c:660
 msgid "1200 DPI  Unidirectional"
@@ -1781,15 +1781,15 @@ msgstr ""
 
 #: src/main/print-lexmark.c:585
 msgid "2400 DPI x 1200 DPI"
-msgstr ""
+msgstr "2400 DPI x 1200 DPI"
 
 #: src/main/print-lexmark.c:586
 msgid "2400 DPI x 1200 DPI high quality"
-msgstr ""
+msgstr "2400 DPI x 1200 DPI 高质量"
 
 #: src/main/print-lexmark.c:587
 msgid "2400 DPI x 1200 DPI highest quality"
-msgstr ""
+msgstr "2400 DPI x 1200 DPI 最高质量"
 
 #: src/main/print-lexmark.c:589
 msgid "test print"
@@ -2392,31 +2392,31 @@ msgstr ""
 
 #: src/main/print-pcl.c:268
 msgid "150x150 DPI"
-msgstr ""
+msgstr "150x150 DPI"
 
 #: src/main/print-pcl.c:269
 msgid "300x300 DPI"
-msgstr ""
+msgstr "300x300 DPI"
 
 #: src/main/print-pcl.c:270
 msgid "600x300 DPI"
-msgstr ""
+msgstr "600x300 DPI"
 
 #: src/main/print-pcl.c:271
 msgid "600x600 DPI monochrome"
-msgstr ""
+msgstr "600x600 DPI 灰度"
 
 #: src/main/print-pcl.c:272
 msgid "600x600 DPI"
-msgstr ""
+msgstr "600x600 DPI"
 
 #: src/main/print-pcl.c:273
 msgid "1200x600 DPI"
-msgstr ""
+msgstr "1200x600 DPI"
 
 #: src/main/print-pcl.c:274
 msgid "2400x600 DPI"
-msgstr ""
+msgstr "2400x600 DPI"
 
 #: src/main/print-pcl.c:280 src/main/generic-options.c:35
 #: src/xml/xmli18n-tmp.h:3258 src/xml/xmli18n-tmp.h:3265
@@ -2442,11 +2442,11 @@ msgstr ""
 
 #: src/main/print-ps.c:68
 msgid "PPDFile"
-msgstr ""
+msgstr "PPDFile"
 
 #: src/main/print-ps.c:69 src/gutenprintui2/panel.c:1971
 msgid "PPD File"
-msgstr ""
+msgstr "PPD 文件"
 
 #: src/main/print-ps.c:80
 msgid "Model Name"
@@ -2462,11 +2462,11 @@ msgstr ""
 
 #: src/main/print-ps.c:352 src/xml/xmli18n-tmp.h:3307
 msgid "Letter"
-msgstr ""
+msgstr "信函"
 
 #: src/main/print-ps.c:354 src/xml/xmli18n-tmp.h:3358
 msgid "A4"
-msgstr ""
+msgstr "A4"
 
 #: src/main/print-ps.c:356 src/xml/xmli18n-tmp.h:3482
 msgid "Custom"
@@ -2478,7 +2478,7 @@ msgstr ""
 
 #: src/main/print-weave.c:1492 src/main/print-weave.c:1543
 msgid "Fatal error!"
-msgstr ""
+msgstr "致命错误！"
 
 #: src/main/print-weave.c:1528
 msgid "Please report the above information to gimp-print-devel@lists.sourceforge.net"
@@ -3010,7 +3010,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2175
 msgid "Image Size"
-msgstr ""
+msgstr "图像尺寸"
 
 #: src/gutenprintui2/panel.c:2200
 msgid "Scaling:"
@@ -3030,7 +3030,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2234
 msgid "Percent"
-msgstr ""
+msgstr "百分比"
 
 #: src/gutenprintui2/panel.c:2239
 msgid "Scale the print to the size of the page"
@@ -3038,7 +3038,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2243
 msgid "PPI"
-msgstr ""
+msgstr "PPI"
 
 #: src/gutenprintui2/panel.c:2248
 msgid "Scale the print to the number of dots per inch"
@@ -3072,11 +3072,11 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2309
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: src/gutenprintui2/panel.c:2338
 msgid "Image preview"
-msgstr ""
+msgstr " 图像预览"
 
 #: src/gutenprintui2/panel.c:2352
 msgid "View Output Channels:"
@@ -3084,11 +3084,11 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2443
 msgid "Output"
-msgstr ""
+msgstr "输出"
 
 #: src/gutenprintui2/panel.c:2471
 msgid "Output Type:"
-msgstr ""
+msgstr "输出类型:"
 
 #: src/gutenprintui2/panel.c:2475
 msgid "Select the desired output type"
@@ -3104,15 +3104,15 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2524
 msgid "Size Units:"
-msgstr ""
+msgstr "尺寸单位:"
 
 #: src/gutenprintui2/panel.c:2527
 msgid " "
-msgstr ""
+msgstr " "
 
 #: src/gutenprintui2/panel.c:2551
 msgid "Units:"
-msgstr ""
+msgstr "尺寸"
 
 #: src/gutenprintui2/panel.c:2556
 msgid "Select the base unit of measurement for printing"
@@ -3120,47 +3120,47 @@ msgstr ""
 
 #: src/gutenprintui2/plist.c:92 src/gutenprintui2/plist.c:101
 msgid "System V lp"
-msgstr ""
+msgstr "System V lp"
 
 #: src/gutenprintui2/plist.c:98
 msgid "CUPS"
-msgstr ""
+msgstr "CUPS"
 
 #: src/gutenprintui2/plist.c:104
 msgid "Berkeley lpd (/etc/lpc)"
-msgstr ""
+msgstr "Berkeley lpd (/etc/lpc)"
 
 #: src/gutenprintui2/plist.c:107
 msgid "Berkeley lpd (/usr/bsd/lpc)"
-msgstr ""
+msgstr "Berkeley lpd (/usr/bsd/lpc)"
 
 #: src/gutenprintui2/plist.c:110
 msgid "Berkeley lpd (/usr/etc/lpc"
-msgstr ""
+msgstr "Berkeley lpd (/usr/etc/lpc"
 
 #: src/gutenprintui2/plist.c:113
 msgid "Berkeley lpd (/usr/libexec/lpc)"
-msgstr ""
+msgstr "Berkeley lpd (/usr/libexec/lpc)"
 
 #: src/gutenprintui2/plist.c:116
 msgid "Berkeley lpd (/usr/sbin/lpc)"
-msgstr ""
+msgstr "Berkeley lpd (/usr/sbin/lpc)"
 
 #: src/gutenprintui2/plist.c:1053
 msgid "Printer"
-msgstr ""
+msgstr "打印机"
 
 #: src/gutenprintui2/plist.c:1246
 msgid "(Default Printer)"
-msgstr ""
+msgstr "(默认打印机)"
 
 #: src/cups/genppd.c:154
 msgid "Printer Features"
-msgstr ""
+msgstr "打印机特性"
 
 #: src/cups/genppd.c:155
 msgid "Output Control"
-msgstr ""
+msgstr "输出控制"
 
 #: src/cups/genppd.c:160
 msgid "Common"
@@ -3191,12 +3191,12 @@ msgstr ""
 #. * "Svenska".
 #: src/cups/genppd.c:1088
 msgid "English"
-msgstr ""
+msgstr "Simplified Chinese"
 
 #: src/cups/genppd.c:1284 src/cups/genppd.c:1302 src/cups/genppd.c:2457
 #: src/cups/genppd.c:2458
 msgid "Media Size"
-msgstr ""
+msgstr "媒体大小"
 
 #: src/cups/genppd.c:1377 src/cups/genppd.c:2493
 msgid "Color Model"
@@ -3208,37 +3208,37 @@ msgstr ""
 
 #: src/cups/genppd.c:1414 src/cups/genppd.c:2499
 msgid "RGB Color"
-msgstr ""
+msgstr "RGB 颜色"
 
 #: src/cups/genppd.c:1421 src/cups/genppd.c:2500
 msgid "CMY Color"
-msgstr ""
+msgstr "CMY 颜色"
 
 #: src/cups/genppd.c:1446 src/cups/genppd.c:2510
 msgid "Color Precision"
-msgstr ""
+msgstr "颜色精度"
 
 #: src/cups/genppd.c:1604 src/cups/genppd.c:1615 src/cups/genppd.c:1805
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: src/cups/genppd.c:1604 src/cups/genppd.c:1613 src/cups/genppd.c:1804
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: src/cups/genppd.c:1654 src/cups/genppd.c:1720 src/cups/genppd.c:1761
 #: src/cups/genppd.c:1825 src/cups/genppd.c:1856 src/cups/genppd.c:1872
 msgid "Value"
-msgstr ""
+msgstr "值"
 
 #: src/cups/genppd.c:1662 src/cups/genppd.c:1830
 msgid "Fine Adjustment"
-msgstr ""
+msgstr "微调"
 
 #: src/cups/genppd.c:1705 src/cups/genppd.c:1850
 #, c-format
 msgid "%.1f mm"
-msgstr ""
+msgstr "%.1f 毫米"
 
 #: src/cups/genppd.c:2314 src/cups/genppd.c:2604
 msgid "Reverse"
@@ -3246,27 +3246,27 @@ msgstr ""
 
 #: src/cups/genppd.c:2335 src/cups/genppd.c:2620
 msgid "2-Sided Printing"
-msgstr ""
+msgstr "双面印刷"
 
 #: src/cups/genppd.c:2360 src/cups/genppd.c:2637
 msgid "Shrink Page If Necessary to Fit Borders"
-msgstr ""
+msgstr "必要时缩小页面以贴合边界"
 
 #: src/cups/genppd.c:2365 src/cups/genppd.c:2638
 msgid "Shrink (print the whole page)"
-msgstr ""
+msgstr "缩小 (打印整页)"
 
 #: src/cups/genppd.c:2366 src/cups/genppd.c:2639
 msgid "Crop (preserve dimensions)"
-msgstr ""
+msgstr "裁剪 (保持比例)"
 
 #: src/cups/genppd.c:2367 src/cups/genppd.c:2640
 msgid "Expand (use maximum page area)"
-msgstr ""
+msgstr "拉伸 (最大化页面使用)"
 
 #: src/escputil/escputil.c:73
 msgid "Escputil version "
-msgstr ""
+msgstr "Escputil 版本 "
 
 #: src/escputil/escputil.c:79
 msgid ""
@@ -3404,27 +3404,27 @@ msgstr ""
 #: src/escputil/escputil.c:405
 #, c-format
 msgid "Unknown option %c\n"
-msgstr ""
+msgstr "未知选项 %c\n"
 
 #: src/escputil/escputil.c:413
 #, c-format
 msgid "Usage: %s [OPTIONS] command\n"
-msgstr ""
+msgstr "用法: %s [选项] 命令\n"
 
 #: src/escputil/escputil.c:415
 #, c-format
 msgid "Type `%s --help' for more information.\n"
-msgstr ""
+msgstr "输入 `%s --help' 以获取更多信息。\n"
 
 #: src/escputil/escputil.c:417
 #, c-format
 msgid "Type `%s -h' for more information.\n"
-msgstr ""
+msgstr "输入 `%s -h' 以获取更多信息。\n"
 
 #: src/escputil/escputil.c:486
 #, c-format
 msgid "Cannot open device %s: %s\n"
-msgstr ""
+msgstr "无法打开设备 %s: %s\n"
 
 #: src/escputil/escputil.c:509
 #, c-format
@@ -3434,17 +3434,17 @@ msgstr ""
 #: src/escputil/escputil.c:525 src/escputil/escputil.c:535
 #, c-format
 msgid "Unable to send command to printer\n"
-msgstr ""
+msgstr "无法发送指令到打印机\n"
 
 #: src/escputil/escputil.c:595
 #, c-format
 msgid "Read from printer timed out\n"
-msgstr ""
+msgstr "从打印机读取超时\n"
 
 #: src/escputil/escputil.c:600
 #, c-format
 msgid "Cannot read from %s: %s\n"
-msgstr ""
+msgstr "无法从 %s 读取: %s\n"
 
 #: src/escputil/escputil.c:780
 #, c-format
@@ -3459,12 +3459,12 @@ msgstr ""
 #: src/escputil/escputil.c:834
 #, c-format
 msgid "Unknown printer %s!\n"
-msgstr ""
+msgstr "未知打印机 %s!\n"
 
 #: src/escputil/escputil.c:895 src/escputil/escputil.c:1539
 #, c-format
 msgid "Cannot write to %s: %s\n"
-msgstr ""
+msgstr "无法写入到 %s: %s\n"
 
 #: src/escputil/escputil.c:946 src/escputil/escputil.c:1518
 #: src/escputil/escputil.c:1602
@@ -3473,6 +3473,8 @@ msgid ""
 "\n"
 "Cannot write to %s: %s\n"
 msgstr ""
+"\n"
+"无法写入到 %s: %s\n"
 
 #: src/escputil/escputil.c:989
 #, c-format
@@ -3481,6 +3483,9 @@ msgid ""
 "Cannot detect printer type.\n"
 "Please use -m to specify your printer model.\n"
 msgstr ""
+"\n"
+"无法探测打印机类型。\n"
+"请使用 -m 参数指定打印机型号。\n"
 
 #: src/escputil/escputil.c:1058 src/xml/xmli18n-tmp.h:208
 #: src/xml/xmli18n-tmp.h:230 src/xml/xmli18n-tmp.h:583
@@ -3498,7 +3503,7 @@ msgstr ""
 #: src/escputil/escputil.c:1066 src/escputil/escputil.c:1319
 #: src/escputil/escputil.c:1388 src/escputil/escputil.c:1425
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: src/escputil/escputil.c:1063 src/escputil/escputil.c:1083
 #: src/escputil/escputil.c:1351 src/xml/xmli18n-tmp.h:960
@@ -3619,7 +3624,7 @@ msgstr ""
 #: src/escputil/escputil.c:1104
 #, c-format
 msgid "Status: Error\n"
-msgstr ""
+msgstr "状态: 错误\n"
 
 #: src/escputil/escputil.c:1107
 #, c-format
@@ -3629,22 +3634,22 @@ msgstr ""
 #: src/escputil/escputil.c:1110
 #, c-format
 msgid "Status: Busy\n"
-msgstr ""
+msgstr "状态: 忙\n"
 
 #: src/escputil/escputil.c:1113
 #, c-format
 msgid "Status: Waiting\n"
-msgstr ""
+msgstr "状态: 正在等待\n"
 
 #: src/escputil/escputil.c:1116
 #, c-format
 msgid "Status: Idle\n"
-msgstr ""
+msgstr "状态: 空闲\n"
 
 #: src/escputil/escputil.c:1119
 #, c-format
 msgid "Status: Paused\n"
-msgstr ""
+msgstr "状态: 已暂停\n"
 
 #: src/escputil/escputil.c:1122
 #, c-format
@@ -3664,12 +3669,12 @@ msgstr ""
 #: src/escputil/escputil.c:1131
 #, c-format
 msgid "Status: Unknown (%d)\n"
-msgstr ""
+msgstr "状态: 未知 (%d)\n"
 
 #: src/escputil/escputil.c:1142
 #, c-format
 msgid "Error: Fatal Error\n"
-msgstr ""
+msgstr "错误: 致命错误\n"
 
 #: src/escputil/escputil.c:1145
 #, c-format
@@ -3689,12 +3694,12 @@ msgstr ""
 #: src/escputil/escputil.c:1154
 #, c-format
 msgid "Error: Ink out\n"
-msgstr ""
+msgstr "错误: 墨水耗尽\n"
 
 #: src/escputil/escputil.c:1157
 #, c-format
 msgid "Error: Paper out\n"
-msgstr ""
+msgstr "错误: 纸张耗尽\n"
 
 #: src/escputil/escputil.c:1160
 #, c-format
@@ -3781,7 +3786,7 @@ msgstr ""
 #: src/escputil/escputil.c:1217
 #, c-format
 msgid "Warning: %s Ink Low\n"
-msgstr ""
+msgstr "警告: %s 墨水量低\n"
 
 #: src/escputil/escputil.c:1220
 #, c-format
@@ -3809,9 +3814,9 @@ msgid "Warning: Maintenance request pending\n"
 msgstr ""
 
 #: src/escputil/escputil.c:1242
-#, c-format
+#, fuzzy, c-format
 msgid "Warning: Unknown (%d)\n"
-msgstr ""
+msgstr "警告: 未知 (%d)\n"
 
 #: src/escputil/escputil.c:1254
 #, c-format
@@ -3821,35 +3826,35 @@ msgstr ""
 #: src/escputil/escputil.c:1318 src/escputil/escputil.c:1387
 #, c-format
 msgid "Printer Name: %s\n"
-msgstr ""
+msgstr "打印机名称: %s\n"
 
 #: src/escputil/escputil.c:1356 src/escputil/escputil.c:1400
 #, c-format
 msgid "Ink Levels:\n"
-msgstr ""
+msgstr "墨水量:\n"
 
 #: src/escputil/escputil.c:1357 src/escputil/escputil.c:1401
 msgid "Ink color"
-msgstr ""
+msgstr "墨水颜色"
 
 #: src/escputil/escputil.c:1357 src/escputil/escputil.c:1401
 #: src/escputil/escputil.c:1698 src/escputil/escputil.c:1725
 #: src/escputil/escputil.c:1747 src/escputil/escputil.c:1764
 msgid "Percent remaining"
-msgstr ""
+msgstr "剩余百分比"
 
 #: src/escputil/escputil.c:1456
 #, c-format
 msgid "Job Name: "
-msgstr ""
+msgstr "任务名称: "
 
 #: src/escputil/escputil.c:1486
 msgid "ink levels"
-msgstr ""
+msgstr "墨水量"
 
 #: src/escputil/escputil.c:1489
 msgid "status"
-msgstr ""
+msgstr "状态"
 
 #: src/escputil/escputil.c:1494
 #, c-format
@@ -3859,17 +3864,17 @@ msgstr ""
 #: src/escputil/escputil.c:1698 src/escputil/escputil.c:1725
 #: src/escputil/escputil.c:1747 src/escputil/escputil.c:1764
 msgid "Ink cartridge"
-msgstr ""
+msgstr "墨盒"
 
 #: src/escputil/escputil.c:1698 src/escputil/escputil.c:1725
 #: src/escputil/escputil.c:1747 src/escputil/escputil.c:1764
 msgid "Part number"
-msgstr ""
+msgstr "部件编号"
 
 #: src/escputil/escputil.c:1699 src/escputil/escputil.c:1726
 #: src/escputil/escputil.c:1748 src/escputil/escputil.c:1765
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: src/escputil/escputil.c:1787
 #, c-format
@@ -3983,7 +3988,7 @@ msgstr ""
 #: src/escputil/escputil.c:2016 src/escputil/escputil.c:2185
 #, c-format
 msgid "Exiting\n"
-msgstr ""
+msgstr "正在退出\n"
 
 #: src/escputil/escputil.c:2019
 #, c-format
@@ -4001,7 +4006,7 @@ msgstr ""
 #: src/escputil/escputil.c:2051 src/escputil/escputil.c:2069
 #: src/escputil/escputil.c:2189
 msgid "> "
-msgstr ""
+msgstr "> "
 
 #: src/escputil/escputil.c:2034
 #, c-format
@@ -4040,12 +4045,12 @@ msgstr ""
 #: src/escputil/escputil.c:2074
 #, c-format
 msgid "About to save settings..."
-msgstr ""
+msgstr "正将保存设置……"
 
 #: src/escputil/escputil.c:2080
 #, c-format
 msgid "failed!\n"
-msgstr ""
+msgstr "失败！\n"
 
 #: src/escputil/escputil.c:2081
 #, c-format
@@ -4057,7 +4062,7 @@ msgstr ""
 #: src/escputil/escputil.c:2085
 #, c-format
 msgid "succeeded!\n"
-msgstr ""
+msgstr "成功！\n"
 
 #: src/escputil/escputil.c:2086
 #, c-format
@@ -4577,7 +4582,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2411 src/xml/xmli18n-tmp.h:2428
 #: src/xml/xmli18n-tmp.h:2445 src/xml/xmli18n-tmp.h:2462
 msgid "360 DPI"
-msgstr ""
+msgstr "360 DPI"
 
 #: src/xml/xmli18n-tmp.h:875 src/xml/xmli18n-tmp.h:888
 #: src/xml/xmli18n-tmp.h:901 src/xml/xmli18n-tmp.h:912
@@ -4640,7 +4645,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2413 src/xml/xmli18n-tmp.h:2430
 #: src/xml/xmli18n-tmp.h:2447 src/xml/xmli18n-tmp.h:2463
 msgid "720 x 360 DPI"
-msgstr ""
+msgstr "720 x 360 DPI"
 
 #: src/xml/xmli18n-tmp.h:876 src/xml/xmli18n-tmp.h:889
 #: src/xml/xmli18n-tmp.h:902 src/xml/xmli18n-tmp.h:913
@@ -4703,7 +4708,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2415 src/xml/xmli18n-tmp.h:2432
 #: src/xml/xmli18n-tmp.h:2449 src/xml/xmli18n-tmp.h:2464
 msgid "720 DPI"
-msgstr ""
+msgstr "720 DPI"
 
 #: src/xml/xmli18n-tmp.h:882 src/xml/xmli18n-tmp.h:895
 #: src/xml/xmli18n-tmp.h:1033 src/xml/xmli18n-tmp.h:1059
@@ -4836,7 +4841,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2434 src/xml/xmli18n-tmp.h:2451
 #: src/xml/xmli18n-tmp.h:2465
 msgid "1440 x 720 DPI"
-msgstr ""
+msgstr "1440 x 720 DPI"
 
 #: src/xml/xmli18n-tmp.h:916 src/xml/xmli18n-tmp.h:929
 #: src/xml/xmli18n-tmp.h:942 src/xml/xmli18n-tmp.h:955
@@ -4875,7 +4880,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:1842 src/xml/xmli18n-tmp.h:1919
 #: src/xml/xmli18n-tmp.h:1930 src/xml/xmli18n-tmp.h:1942
 msgid "2880 x 720 DPI"
-msgstr ""
+msgstr "2880 x 720 DPI"
 
 #: src/xml/xmli18n-tmp.h:1302 src/xml/xmli18n-tmp.h:1315
 #: src/xml/xmli18n-tmp.h:1328 src/xml/xmli18n-tmp.h:1343
@@ -4916,7 +4921,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2418 src/xml/xmli18n-tmp.h:2435
 #: src/xml/xmli18n-tmp.h:2452 src/xml/xmli18n-tmp.h:2466
 msgid "1440 x 1440 DPI"
-msgstr ""
+msgstr "1440 x 1440 DPI"
 
 #: src/xml/xmli18n-tmp.h:1457 src/xml/xmli18n-tmp.h:1480
 #: src/xml/xmli18n-tmp.h:1494 src/xml/xmli18n-tmp.h:1506
@@ -4955,7 +4960,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2419 src/xml/xmli18n-tmp.h:2436
 #: src/xml/xmli18n-tmp.h:2453 src/xml/xmli18n-tmp.h:2467
 msgid "2880 x 1440 DPI"
-msgstr ""
+msgstr "2880 x 1440 DPI"
 
 #: src/xml/xmli18n-tmp.h:1568 src/xml/xmli18n-tmp.h:1620
 #: src/xml/xmli18n-tmp.h:2743
@@ -4984,7 +4989,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2421 src/xml/xmli18n-tmp.h:2438
 #: src/xml/xmli18n-tmp.h:2455 src/xml/xmli18n-tmp.h:2469
 msgid "2880 x 2880 DPI"
-msgstr ""
+msgstr "2880 x 2880 DPI"
 
 #: src/xml/xmli18n-tmp.h:1720 src/xml/xmli18n-tmp.h:1735
 #: src/xml/xmli18n-tmp.h:1764 src/xml/xmli18n-tmp.h:1782
@@ -5004,7 +5009,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2437 src/xml/xmli18n-tmp.h:2454
 #: src/xml/xmli18n-tmp.h:2468
 msgid "5760 x 1440 DPI"
-msgstr ""
+msgstr "5760 x 1440 DPI"
 
 #: src/xml/xmli18n-tmp.h:1722 src/xml/xmli18n-tmp.h:1766
 #: src/xml/xmli18n-tmp.h:1784 src/xml/xmli18n-tmp.h:1813
@@ -5019,7 +5024,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2422 src/xml/xmli18n-tmp.h:2439
 #: src/xml/xmli18n-tmp.h:2456 src/xml/xmli18n-tmp.h:2470
 msgid "5760 x 2880 DPI"
-msgstr ""
+msgstr "5760 x 2880 DPI"
 
 #: src/xml/xmli18n-tmp.h:1852 src/xml/xmli18n-tmp.h:2032
 msgid "1440 x 720 DPI Transposed"
@@ -5036,12 +5041,12 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2009 src/xml/xmli18n-tmp.h:2206
 #: src/xml/xmli18n-tmp.h:2224
 msgid "Black 1"
-msgstr ""
+msgstr "黑色 1"
 
 #: src/xml/xmli18n-tmp.h:2010 src/xml/xmli18n-tmp.h:2207
 #: src/xml/xmli18n-tmp.h:2225
 msgid "Black 2"
-msgstr ""
+msgstr "黑色 2"
 
 #: src/xml/xmli18n-tmp.h:2016 src/xml/xmli18n-tmp.h:2100
 #: src/xml/xmli18n-tmp.h:2117 src/xml/xmli18n-tmp.h:2213
@@ -5245,7 +5250,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3046 src/xml/xmli18n-tmp.h:3155
 #: src/xml/xmli18n-tmp.h:3170
 msgid "Gray 3"
-msgstr ""
+msgstr "灰色 3"
 
 #: src/xml/xmli18n-tmp.h:2579 src/xml/xmli18n-tmp.h:2594
 #: src/xml/xmli18n-tmp.h:2609 src/xml/xmli18n-tmp.h:2630
@@ -5256,7 +5261,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3047 src/xml/xmli18n-tmp.h:3156
 #: src/xml/xmli18n-tmp.h:3171
 msgid "Gray 2"
-msgstr ""
+msgstr "灰色 2"
 
 #: src/xml/xmli18n-tmp.h:2580 src/xml/xmli18n-tmp.h:2595
 #: src/xml/xmli18n-tmp.h:2610 src/xml/xmli18n-tmp.h:2631
@@ -5267,7 +5272,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3048 src/xml/xmli18n-tmp.h:3157
 #: src/xml/xmli18n-tmp.h:3172
 msgid "Gray 1"
-msgstr ""
+msgstr "灰色 1"
 
 #: src/xml/xmli18n-tmp.h:2581 src/xml/xmli18n-tmp.h:2596
 #: src/xml/xmli18n-tmp.h:2611 src/xml/xmli18n-tmp.h:2632
@@ -5292,14 +5297,14 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2937 src/xml/xmli18n-tmp.h:3027
 #: src/xml/xmli18n-tmp.h:3052
 msgid "Gray 5"
-msgstr ""
+msgstr "灰色 5"
 
 #: src/xml/xmli18n-tmp.h:2636 src/xml/xmli18n-tmp.h:2863
 #: src/xml/xmli18n-tmp.h:2888 src/xml/xmli18n-tmp.h:2913
 #: src/xml/xmli18n-tmp.h:2938 src/xml/xmli18n-tmp.h:3028
 #: src/xml/xmli18n-tmp.h:3053
 msgid "Gray 4"
-msgstr ""
+msgstr "灰色 4"
 
 #: src/xml/xmli18n-tmp.h:2655 src/xml/xmli18n-tmp.h:2677
 msgid "One Color Raw Enhanced Gloss"
@@ -5418,27 +5423,27 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3315
 msgid "3x5"
-msgstr ""
+msgstr "3x5"
 
 #: src/xml/xmli18n-tmp.h:3316
 msgid "3 1/2 x5"
-msgstr ""
+msgstr "3 1/2 x5"
 
 #: src/xml/xmli18n-tmp.h:3317
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: src/xml/xmli18n-tmp.h:3318
 msgid "2x6"
-msgstr ""
+msgstr "2x6"
 
 #: src/xml/xmli18n-tmp.h:3319
 msgid "4x6"
-msgstr ""
+msgstr "4x6"
 
 #: src/xml/xmli18n-tmp.h:3320
 msgid "KG"
-msgstr ""
+msgstr "KG"
 
 #: src/xml/xmli18n-tmp.h:3321
 msgid "Epson 4x6 Photo Paper (tear-off borders)"
@@ -5450,39 +5455,39 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3323
 msgid "4x8"
-msgstr ""
+msgstr "4x8"
 
 #: src/xml/xmli18n-tmp.h:3324
 msgid "5x7"
-msgstr ""
+msgstr "5x7"
 
 #: src/xml/xmli18n-tmp.h:3325
 msgid "2L"
-msgstr ""
+msgstr "2L"
 
 #: src/xml/xmli18n-tmp.h:3326
 msgid "5x8"
-msgstr ""
+msgstr "5x8"
 
 #: src/xml/xmli18n-tmp.h:3327
 msgid "6x6"
-msgstr ""
+msgstr "6x6"
 
 #: src/xml/xmli18n-tmp.h:3328
 msgid "6x8"
-msgstr ""
+msgstr "6x8"
 
 #: src/xml/xmli18n-tmp.h:3329
 msgid "6x8.5"
-msgstr ""
+msgstr "6x8.5"
 
 #: src/xml/xmli18n-tmp.h:3330
 msgid "6x9"
-msgstr ""
+msgstr "6x9"
 
 #: src/xml/xmli18n-tmp.h:3331
 msgid "8x10"
-msgstr ""
+msgstr "8x10"
 
 #: src/xml/xmli18n-tmp.h:3332
 msgid "Rokukire"
@@ -5490,7 +5495,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3334
 msgid "12x18"
-msgstr ""
+msgstr "12x18"
 
 #: src/xml/xmli18n-tmp.h:3335
 msgid "Super B 13x19"
@@ -5502,15 +5507,15 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3337
 msgid "8x8"
-msgstr ""
+msgstr "8x8"
 
 #: src/xml/xmli18n-tmp.h:3338
 msgid "8x12"
-msgstr ""
+msgstr "8x12"
 
 #: src/xml/xmli18n-tmp.h:3339
 msgid "8.5x12"
-msgstr ""
+msgstr "8.5x12"
 
 #: src/xml/xmli18n-tmp.h:3340
 msgid "YonKire"
@@ -5518,7 +5523,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3341
 msgid "11x14"
-msgstr ""
+msgstr "11x14"
 
 #: src/xml/xmli18n-tmp.h:3342
 msgid "HanKire"
@@ -5526,351 +5531,351 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3343
 msgid "16x20"
-msgstr ""
+msgstr "16x20"
 
 #: src/xml/xmli18n-tmp.h:3344
 msgid "16x24"
-msgstr ""
+msgstr "16x24"
 
 #: src/xml/xmli18n-tmp.h:3345
 msgid "20x24"
-msgstr ""
+msgstr "20x24"
 
 #: src/xml/xmli18n-tmp.h:3346
 msgid "20x30"
-msgstr ""
+msgstr "20x30"
 
 #: src/xml/xmli18n-tmp.h:3347
 msgid "22x30"
-msgstr ""
+msgstr "22x30"
 
 #: src/xml/xmli18n-tmp.h:3348
 msgid "24x30"
-msgstr ""
+msgstr "24x30"
 
 #: src/xml/xmli18n-tmp.h:3349
 msgid "Super A1 24x36"
-msgstr ""
+msgstr "Super A1 24x36"
 
 #: src/xml/xmli18n-tmp.h:3350
 msgid "30x40"
-msgstr ""
+msgstr "30x40"
 
 #: src/xml/xmli18n-tmp.h:3351
 msgid "4A"
-msgstr ""
+msgstr "4A"
 
 #: src/xml/xmli18n-tmp.h:3352
 msgid "2A"
-msgstr ""
+msgstr "2A"
 
 #: src/xml/xmli18n-tmp.h:3353
 msgid "Super A0"
-msgstr ""
+msgstr "Super A0"
 
 #: src/xml/xmli18n-tmp.h:3354
 msgid "A0"
-msgstr ""
+msgstr "A0"
 
 #: src/xml/xmli18n-tmp.h:3355
 msgid "A1"
-msgstr ""
+msgstr "A1"
 
 #: src/xml/xmli18n-tmp.h:3356
 msgid "A2"
-msgstr ""
+msgstr "A2"
 
 #: src/xml/xmli18n-tmp.h:3357
 msgid "A3"
-msgstr ""
+msgstr "A3"
 
 #: src/xml/xmli18n-tmp.h:3359
 msgid "A5"
-msgstr ""
+msgstr "A5"
 
 #: src/xml/xmli18n-tmp.h:3360
 msgid "A6"
-msgstr ""
+msgstr "A6"
 
 #: src/xml/xmli18n-tmp.h:3361
 msgid "A7"
-msgstr ""
+msgstr "A7"
 
 #: src/xml/xmli18n-tmp.h:3362
 msgid "A8"
-msgstr ""
+msgstr "A8"
 
 #: src/xml/xmli18n-tmp.h:3363
 msgid "A9"
-msgstr ""
+msgstr "A9"
 
 #: src/xml/xmli18n-tmp.h:3364
 msgid "A10"
-msgstr ""
+msgstr "A10"
 
 #: src/xml/xmli18n-tmp.h:3365
 msgid "RA0"
-msgstr ""
+msgstr "RA0"
 
 #: src/xml/xmli18n-tmp.h:3366
 msgid "RA1"
-msgstr ""
+msgstr "RA1"
 
 #: src/xml/xmli18n-tmp.h:3367
 msgid "RA2"
-msgstr ""
+msgstr "RA2"
 
 #: src/xml/xmli18n-tmp.h:3368
 msgid "RA3"
-msgstr ""
+msgstr "RA3"
 
 #: src/xml/xmli18n-tmp.h:3369
 msgid "RA4"
-msgstr ""
+msgstr "RA4"
 
 #: src/xml/xmli18n-tmp.h:3370
 msgid "SRA0"
-msgstr ""
+msgstr "SRA0"
 
 #: src/xml/xmli18n-tmp.h:3371
 msgid "SRA1"
-msgstr ""
+msgstr "SRA1"
 
 #: src/xml/xmli18n-tmp.h:3372
 msgid "SRA2"
-msgstr ""
+msgstr "SRA2"
 
 #: src/xml/xmli18n-tmp.h:3373
 msgid "SRA3"
-msgstr ""
+msgstr "SRA3"
 
 #: src/xml/xmli18n-tmp.h:3374
 msgid "SRA4"
-msgstr ""
+msgstr "SRA4"
 
 #: src/xml/xmli18n-tmp.h:3375
 msgid "4B ISO"
-msgstr ""
+msgstr "4B ISO"
 
 #: src/xml/xmli18n-tmp.h:3376
 msgid "2B ISO"
-msgstr ""
+msgstr "2B ISO"
 
 #: src/xml/xmli18n-tmp.h:3377
 msgid "B0 ISO"
-msgstr ""
+msgstr "B0 ISO"
 
 #: src/xml/xmli18n-tmp.h:3378
 msgid "B1 ISO"
-msgstr ""
+msgstr "B1 ISO"
 
 #: src/xml/xmli18n-tmp.h:3379
 msgid "B2 ISO"
-msgstr ""
+msgstr "B2 ISO"
 
 #: src/xml/xmli18n-tmp.h:3380
 msgid "B3 ISO"
-msgstr ""
+msgstr "B3 ISO"
 
 #: src/xml/xmli18n-tmp.h:3381
 msgid "B4 ISO"
-msgstr ""
+msgstr "B4 ISO"
 
 #: src/xml/xmli18n-tmp.h:3382
 msgid "B5 ISO"
-msgstr ""
+msgstr "B5 ISO"
 
 #: src/xml/xmli18n-tmp.h:3383
 msgid "B6 ISO"
-msgstr ""
+msgstr "B6 ISO"
 
 #: src/xml/xmli18n-tmp.h:3384
 msgid "B7 ISO"
-msgstr ""
+msgstr "B7 ISO"
 
 #: src/xml/xmli18n-tmp.h:3385
 msgid "B8 ISO"
-msgstr ""
+msgstr "B8 ISO"
 
 #: src/xml/xmli18n-tmp.h:3386
 msgid "B9 ISO"
-msgstr ""
+msgstr "B9 ISO"
 
 #: src/xml/xmli18n-tmp.h:3387
 msgid "B10 ISO"
-msgstr ""
+msgstr "B10 ISO"
 
 #: src/xml/xmli18n-tmp.h:3388
 msgid "Super B0 JIS"
-msgstr ""
+msgstr "Super B0 JIS"
 
 #: src/xml/xmli18n-tmp.h:3389
 msgid "B0 JIS"
-msgstr ""
+msgstr "B0 JIS"
 
 #: src/xml/xmli18n-tmp.h:3390
 msgid "B1 JIS"
-msgstr ""
+msgstr "B1 JIS"
 
 #: src/xml/xmli18n-tmp.h:3391
 msgid "B2 JIS"
-msgstr ""
+msgstr "B2 JIS"
 
 #: src/xml/xmli18n-tmp.h:3392
 msgid "B3 JIS"
-msgstr ""
+msgstr "B3 JIS"
 
 #: src/xml/xmli18n-tmp.h:3393
 msgid "B4 JIS"
-msgstr ""
+msgstr "B4 JIS"
 
 #: src/xml/xmli18n-tmp.h:3394
 msgid "B5 JIS"
-msgstr ""
+msgstr "B5 JIS"
 
 #: src/xml/xmli18n-tmp.h:3395
 msgid "B6 JIS"
-msgstr ""
+msgstr "B6 JIS"
 
 #: src/xml/xmli18n-tmp.h:3396
 msgid "B7 JIS"
-msgstr ""
+msgstr "B7 JIS"
 
 #: src/xml/xmli18n-tmp.h:3397
 msgid "B8 JIS"
-msgstr ""
+msgstr "B8 JIS"
 
 #: src/xml/xmli18n-tmp.h:3398
 msgid "B9 JIS"
-msgstr ""
+msgstr "B9 JIS"
 
 #: src/xml/xmli18n-tmp.h:3399
 msgid "B10 JIS"
-msgstr ""
+msgstr "B10 JIS"
 
 #: src/xml/xmli18n-tmp.h:3400
 msgid "C0"
-msgstr ""
+msgstr "C0"
 
 #: src/xml/xmli18n-tmp.h:3401
 msgid "C0 landscape"
-msgstr ""
+msgstr "C0 水平"
 
 #: src/xml/xmli18n-tmp.h:3402
 msgid "C1"
-msgstr ""
+msgstr "C1"
 
 #: src/xml/xmli18n-tmp.h:3403
 msgid "C1 landscape"
-msgstr ""
+msgstr "C1 水平"
 
 #: src/xml/xmli18n-tmp.h:3404
 msgid "C2"
-msgstr ""
+msgstr "C2"
 
 #: src/xml/xmli18n-tmp.h:3405
 msgid "C2 landscape"
-msgstr ""
+msgstr "C2 水平"
 
 #: src/xml/xmli18n-tmp.h:3406
 msgid "C3"
-msgstr ""
+msgstr "C3"
 
 #: src/xml/xmli18n-tmp.h:3407
 msgid "C3 landscape"
-msgstr ""
+msgstr "C3 水平"
 
 #: src/xml/xmli18n-tmp.h:3408
 msgid "C4"
-msgstr ""
+msgstr "C4"
 
 #: src/xml/xmli18n-tmp.h:3409
 msgid "C4 landscape"
-msgstr ""
+msgstr "C4 水平"
 
 #: src/xml/xmli18n-tmp.h:3410
 msgid "C5"
-msgstr ""
+msgstr "C5"
 
 #: src/xml/xmli18n-tmp.h:3411
 msgid "C5 landscape"
-msgstr ""
+msgstr "C5 水平"
 
 #: src/xml/xmli18n-tmp.h:3412
 msgid "B6-C4"
-msgstr ""
+msgstr "B6-C4"
 
 #: src/xml/xmli18n-tmp.h:3413
 msgid "B6-C4 landscape"
-msgstr ""
+msgstr "B6-C4 水平"
 
 #: src/xml/xmli18n-tmp.h:3414
 msgid "C6"
-msgstr ""
+msgstr "C6"
 
 #: src/xml/xmli18n-tmp.h:3415
 msgid "C6 landscape"
-msgstr ""
+msgstr "C6 水平"
 
 #: src/xml/xmli18n-tmp.h:3416
 msgid "DL"
-msgstr ""
+msgstr "DL"
 
 #: src/xml/xmli18n-tmp.h:3417
 msgid "DL landscape"
-msgstr ""
+msgstr "DL 水平"
 
 #: src/xml/xmli18n-tmp.h:3418
 msgid "C7-6"
-msgstr ""
+msgstr "C7-6"
 
 #: src/xml/xmli18n-tmp.h:3419
 msgid "C7-6 landscape"
-msgstr ""
+msgstr "C7-6 水平"
 
 #: src/xml/xmli18n-tmp.h:3420
 msgid "C7"
-msgstr ""
+msgstr "C7"
 
 #: src/xml/xmli18n-tmp.h:3421
 msgid "C7 landscape"
-msgstr ""
+msgstr "C7 水平"
 
 #: src/xml/xmli18n-tmp.h:3422
 msgid "C8"
-msgstr ""
+msgstr "C8"
 
 #: src/xml/xmli18n-tmp.h:3423
 msgid "C8 landscape"
-msgstr ""
+msgstr "C8 水平"
 
 #: src/xml/xmli18n-tmp.h:3424
 msgid "C9"
-msgstr ""
+msgstr "C9"
 
 #: src/xml/xmli18n-tmp.h:3425
 msgid "C9 landscape"
-msgstr ""
+msgstr "C9 水平"
 
 #: src/xml/xmli18n-tmp.h:3426
 msgid "C10"
-msgstr ""
+msgstr "C10"
 
 #: src/xml/xmli18n-tmp.h:3427
 msgid "C10 landscape"
-msgstr ""
+msgstr "C10 水平"
 
 #: src/xml/xmli18n-tmp.h:3428
 msgid "EA5"
-msgstr ""
+msgstr "EA5"
 
 #: src/xml/xmli18n-tmp.h:3429
 msgid "EA5 landscape"
-msgstr ""
+msgstr "EA5 水平"
 
 #: src/xml/xmli18n-tmp.h:3430
 msgid "ArchA"
-msgstr ""
+msgstr "ArchA"
 
 #: src/xml/xmli18n-tmp.h:3431
 msgid "ArchA transposed"
@@ -5878,7 +5883,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3432
 msgid "ArchB"
-msgstr ""
+msgstr "ArchB"
 
 #: src/xml/xmli18n-tmp.h:3433
 msgid "ArchB transposed"
@@ -5886,7 +5891,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3434
 msgid "ArchC"
-msgstr ""
+msgstr "ArchC"
 
 #: src/xml/xmli18n-tmp.h:3435
 msgid "ArchC transposed"
@@ -5894,7 +5899,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3436
 msgid "ArchD"
-msgstr ""
+msgstr "ArchD"
 
 #: src/xml/xmli18n-tmp.h:3437
 msgid "ArchD transposed"
@@ -5902,7 +5907,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3438
 msgid "ArchE"
-msgstr ""
+msgstr "ArchE"
 
 #: src/xml/xmli18n-tmp.h:3439
 msgid "ArchE transposed"
@@ -6034,11 +6039,11 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3471
 msgid "4x5 3/8"
-msgstr ""
+msgstr "4x5 3/8"
 
 #: src/xml/xmli18n-tmp.h:3472
 msgid "4x7"
-msgstr ""
+msgstr "4x7"
 
 #: src/xml/xmli18n-tmp.h:3473
 msgid "Wide 101.6x180.6"
@@ -6046,7 +6051,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3474
 msgid "CP_L"
-msgstr ""
+msgstr "CP_L"
 
 #: src/xml/xmli18n-tmp.h:3475
 msgid "Credit Card"
@@ -6126,11 +6131,11 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3495
 msgid "PostScript Level 1"
-msgstr ""
+msgstr "PostScript 级别 1"
 
 #: src/xml/xmli18n-tmp.h:3496
 msgid "PostScript Level 2"
-msgstr ""
+msgstr "PostScript 级别 2"
 
 #: src/xml/xmli18n-tmp.h:3497
 msgid "Canon BJ-30"
