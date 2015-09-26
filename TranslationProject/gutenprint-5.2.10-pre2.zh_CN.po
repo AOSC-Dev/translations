@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gutenprint 20110308\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-19 21:40-0600\n"
+"PO-Revision-Date: 2015-09-26 08:56-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -527,11 +527,11 @@ msgstr "高精度"
 
 #: src/main/print-color.c:51
 msgid "Bright Colors"
-msgstr "亮色"
+msgstr "鲜艳"
 
 #: src/main/print-color.c:52
 msgid "Correct Hue Only"
-msgstr ""
+msgstr "仅纠正色调"
 
 #: src/main/print-color.c:53
 msgid "Uncorrected"
@@ -1761,7 +1761,7 @@ msgstr "600 DPI 高质量"
 
 #: src/main/print-lexmark.c:580 src/main/print-lexmark.c:656
 msgid "600 DPI Unidirectional"
-msgstr ""
+msgstr "600 DPI 单向"
 
 #: src/main/print-lexmark.c:581 src/main/print-lexmark.c:657
 msgid "1200 DPI"
@@ -1777,7 +1777,7 @@ msgstr "1200 DPI 最高质量"
 
 #: src/main/print-lexmark.c:584 src/main/print-lexmark.c:660
 msgid "1200 DPI  Unidirectional"
-msgstr ""
+msgstr "1200 DPI  单向"
 
 #: src/main/print-lexmark.c:585
 msgid "2400 DPI x 1200 DPI"
@@ -2404,7 +2404,7 @@ msgstr "600x300 DPI"
 
 #: src/main/print-pcl.c:271
 msgid "600x600 DPI monochrome"
-msgstr "600x600 DPI 灰度"
+msgstr "600x600 DPI 灰阶"
 
 #: src/main/print-pcl.c:272
 msgid "600x600 DPI"
@@ -3076,7 +3076,7 @@ msgstr "关闭"
 
 #: src/gutenprintui2/panel.c:2338
 msgid "Image preview"
-msgstr " 图像预览"
+msgstr "图像预览"
 
 #: src/gutenprintui2/panel.c:2352
 msgid "View Output Channels:"
@@ -3088,7 +3088,7 @@ msgstr "输出"
 
 #: src/gutenprintui2/panel.c:2471
 msgid "Output Type:"
-msgstr "输出类型:"
+msgstr "输出类型："
 
 #: src/gutenprintui2/panel.c:2475
 msgid "Select the desired output type"
@@ -3104,7 +3104,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2524
 msgid "Size Units:"
-msgstr "尺寸单位:"
+msgstr "尺寸单位："
 
 #: src/gutenprintui2/panel.c:2527
 msgid " "
@@ -3136,7 +3136,7 @@ msgstr "Berkeley lpd (/usr/bsd/lpc)"
 
 #: src/gutenprintui2/plist.c:110
 msgid "Berkeley lpd (/usr/etc/lpc"
-msgstr "Berkeley lpd (/usr/etc/lpc"
+msgstr "Berkeley lpd (/usr/etc/lpc)"
 
 #: src/gutenprintui2/plist.c:113
 msgid "Berkeley lpd (/usr/libexec/lpc)"
@@ -3191,7 +3191,7 @@ msgstr ""
 #. * "Svenska".
 #: src/cups/genppd.c:1088
 msgid "English"
-msgstr "Simplified Chinese"
+msgstr "Chinese (China)"
 
 #: src/cups/genppd.c:1284 src/cups/genppd.c:1302 src/cups/genppd.c:2457
 #: src/cups/genppd.c:2458
@@ -3409,7 +3409,7 @@ msgstr "未知选项 %c\n"
 #: src/escputil/escputil.c:413
 #, c-format
 msgid "Usage: %s [OPTIONS] command\n"
-msgstr "用法: %s [选项] 命令\n"
+msgstr "用法：%s [选项] 命令\n"
 
 #: src/escputil/escputil.c:415
 #, c-format
@@ -3424,7 +3424,7 @@ msgstr "输入 `%s -h' 以获取更多信息。\n"
 #: src/escputil/escputil.c:486
 #, c-format
 msgid "Cannot open device %s: %s\n"
-msgstr "无法打开设备 %s: %s\n"
+msgstr "无法打开设备 %s：%s\n"
 
 #: src/escputil/escputil.c:509
 #, c-format
@@ -3434,7 +3434,7 @@ msgstr ""
 #: src/escputil/escputil.c:525 src/escputil/escputil.c:535
 #, c-format
 msgid "Unable to send command to printer\n"
-msgstr "无法发送指令到打印机\n"
+msgstr "无法将命令发送到打印机\n"
 
 #: src/escputil/escputil.c:595
 #, c-format
@@ -3444,7 +3444,7 @@ msgstr "从打印机读取超时\n"
 #: src/escputil/escputil.c:600
 #, c-format
 msgid "Cannot read from %s: %s\n"
-msgstr "无法从 %s 读取: %s\n"
+msgstr "无法从 %s 读取：%s\n"
 
 #: src/escputil/escputil.c:780
 #, c-format
@@ -3464,7 +3464,7 @@ msgstr "未知打印机 %s!\n"
 #: src/escputil/escputil.c:895 src/escputil/escputil.c:1539
 #, c-format
 msgid "Cannot write to %s: %s\n"
-msgstr "无法写入到 %s: %s\n"
+msgstr "无法写入到 %s：%s\n"
 
 #: src/escputil/escputil.c:946 src/escputil/escputil.c:1518
 #: src/escputil/escputil.c:1602
@@ -3474,7 +3474,7 @@ msgid ""
 "Cannot write to %s: %s\n"
 msgstr ""
 "\n"
-"无法写入到 %s: %s\n"
+"无法写入到 %s：%s\n"
 
 #: src/escputil/escputil.c:989
 #, c-format
@@ -3624,7 +3624,7 @@ msgstr ""
 #: src/escputil/escputil.c:1104
 #, c-format
 msgid "Status: Error\n"
-msgstr "状态: 错误\n"
+msgstr "状态：错误\n"
 
 #: src/escputil/escputil.c:1107
 #, c-format
@@ -3634,22 +3634,22 @@ msgstr ""
 #: src/escputil/escputil.c:1110
 #, c-format
 msgid "Status: Busy\n"
-msgstr "状态: 忙\n"
+msgstr "状态：忙碌\n"
 
 #: src/escputil/escputil.c:1113
 #, c-format
 msgid "Status: Waiting\n"
-msgstr "状态: 正在等待\n"
+msgstr "状态：正在等待\n"
 
 #: src/escputil/escputil.c:1116
 #, c-format
 msgid "Status: Idle\n"
-msgstr "状态: 空闲\n"
+msgstr "状态：空闲\n"
 
 #: src/escputil/escputil.c:1119
 #, c-format
 msgid "Status: Paused\n"
-msgstr "状态: 已暂停\n"
+msgstr "状态：已暂停\n"
 
 #: src/escputil/escputil.c:1122
 #, c-format
@@ -3669,12 +3669,12 @@ msgstr ""
 #: src/escputil/escputil.c:1131
 #, c-format
 msgid "Status: Unknown (%d)\n"
-msgstr "状态: 未知 (%d)\n"
+msgstr "状态：未知 (%d)\n"
 
 #: src/escputil/escputil.c:1142
 #, c-format
 msgid "Error: Fatal Error\n"
-msgstr "错误: 致命错误\n"
+msgstr "错误：致命错误\n"
 
 #: src/escputil/escputil.c:1145
 #, c-format
@@ -3694,12 +3694,12 @@ msgstr ""
 #: src/escputil/escputil.c:1154
 #, c-format
 msgid "Error: Ink out\n"
-msgstr "错误: 墨水耗尽\n"
+msgstr "错误：墨水耗尽\n"
 
 #: src/escputil/escputil.c:1157
 #, c-format
 msgid "Error: Paper out\n"
-msgstr "错误: 纸张耗尽\n"
+msgstr "错误：纸张耗尽\n"
 
 #: src/escputil/escputil.c:1160
 #, c-format
@@ -3786,7 +3786,7 @@ msgstr ""
 #: src/escputil/escputil.c:1217
 #, c-format
 msgid "Warning: %s Ink Low\n"
-msgstr "警告: %s 墨水量低\n"
+msgstr "警告：%s 墨水量低\n"
 
 #: src/escputil/escputil.c:1220
 #, c-format
@@ -3816,7 +3816,7 @@ msgstr ""
 #: src/escputil/escputil.c:1242
 #, fuzzy, c-format
 msgid "Warning: Unknown (%d)\n"
-msgstr "警告: 未知 (%d)\n"
+msgstr "警告：未知 (%d)\n"
 
 #: src/escputil/escputil.c:1254
 #, c-format
@@ -3826,12 +3826,12 @@ msgstr ""
 #: src/escputil/escputil.c:1318 src/escputil/escputil.c:1387
 #, c-format
 msgid "Printer Name: %s\n"
-msgstr "打印机名称: %s\n"
+msgstr "打印机名称：%s\n"
 
 #: src/escputil/escputil.c:1356 src/escputil/escputil.c:1400
 #, c-format
 msgid "Ink Levels:\n"
-msgstr "墨水量:\n"
+msgstr "墨水量：\n"
 
 #: src/escputil/escputil.c:1357 src/escputil/escputil.c:1401
 msgid "Ink color"
@@ -3846,7 +3846,7 @@ msgstr "剩余百分比"
 #: src/escputil/escputil.c:1456
 #, c-format
 msgid "Job Name: "
-msgstr "任务名称: "
+msgstr "任务名称："
 
 #: src/escputil/escputil.c:1486
 msgid "ink levels"
@@ -4045,7 +4045,7 @@ msgstr ""
 #: src/escputil/escputil.c:2074
 #, c-format
 msgid "About to save settings..."
-msgstr "正将保存设置……"
+msgstr "即将保存设置……"
 
 #: src/escputil/escputil.c:2080
 #, c-format
@@ -5250,7 +5250,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3046 src/xml/xmli18n-tmp.h:3155
 #: src/xml/xmli18n-tmp.h:3170
 msgid "Gray 3"
-msgstr "灰色 3"
+msgstr "灰 3"
 
 #: src/xml/xmli18n-tmp.h:2579 src/xml/xmli18n-tmp.h:2594
 #: src/xml/xmli18n-tmp.h:2609 src/xml/xmli18n-tmp.h:2630
@@ -5261,7 +5261,7 @@ msgstr "灰色 3"
 #: src/xml/xmli18n-tmp.h:3047 src/xml/xmli18n-tmp.h:3156
 #: src/xml/xmli18n-tmp.h:3171
 msgid "Gray 2"
-msgstr "灰色 2"
+msgstr "灰 2"
 
 #: src/xml/xmli18n-tmp.h:2580 src/xml/xmli18n-tmp.h:2595
 #: src/xml/xmli18n-tmp.h:2610 src/xml/xmli18n-tmp.h:2631
@@ -5272,7 +5272,7 @@ msgstr "灰色 2"
 #: src/xml/xmli18n-tmp.h:3048 src/xml/xmli18n-tmp.h:3157
 #: src/xml/xmli18n-tmp.h:3172
 msgid "Gray 1"
-msgstr "灰色 1"
+msgstr "灰 1"
 
 #: src/xml/xmli18n-tmp.h:2581 src/xml/xmli18n-tmp.h:2596
 #: src/xml/xmli18n-tmp.h:2611 src/xml/xmli18n-tmp.h:2632
@@ -5283,7 +5283,7 @@ msgstr "灰色 1"
 #: src/xml/xmli18n-tmp.h:3049 src/xml/xmli18n-tmp.h:3158
 #: src/xml/xmli18n-tmp.h:3173
 msgid "MIS Quadtone"
-msgstr ""
+msgstr "4x6"
 
 #: src/xml/xmli18n-tmp.h:2633 src/xml/xmli18n-tmp.h:2860
 #: src/xml/xmli18n-tmp.h:2885 src/xml/xmli18n-tmp.h:2910
@@ -5447,7 +5447,7 @@ msgstr "KG"
 
 #: src/xml/xmli18n-tmp.h:3321
 msgid "Epson 4x6 Photo Paper (tear-off borders)"
-msgstr ""
+msgstr "爱普生相纸（定页撕纸）"
 
 #: src/xml/xmli18n-tmp.h:3322
 msgid "Epson L Photo Paper (tear-off borders)"
@@ -5875,7 +5875,7 @@ msgstr "EA5 水平"
 
 #: src/xml/xmli18n-tmp.h:3430
 msgid "ArchA"
-msgstr "ArchA"
+msgstr "建筑 A"
 
 #: src/xml/xmli18n-tmp.h:3431
 msgid "ArchA transposed"
@@ -5883,7 +5883,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3432
 msgid "ArchB"
-msgstr "ArchB"
+msgstr "建筑 B"
 
 #: src/xml/xmli18n-tmp.h:3433
 msgid "ArchB transposed"
@@ -5891,7 +5891,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3434
 msgid "ArchC"
-msgstr "ArchC"
+msgstr "建筑 C"
 
 #: src/xml/xmli18n-tmp.h:3435
 msgid "ArchC transposed"
@@ -5899,7 +5899,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3436
 msgid "ArchD"
-msgstr "ArchD"
+msgstr "建筑 D"
 
 #: src/xml/xmli18n-tmp.h:3437
 msgid "ArchD transposed"
@@ -5907,7 +5907,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3438
 msgid "ArchE"
-msgstr "ArchE"
+msgstr "建筑 E"
 
 #: src/xml/xmli18n-tmp.h:3439
 msgid "ArchE transposed"
