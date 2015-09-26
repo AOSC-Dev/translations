@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gutenprint 20110308\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-26 08:56-0600\n"
+"PO-Revision-Date: 2015-09-26 09:57-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -257,7 +257,7 @@ msgstr "无边框"
 #: src/main/print-canon.c:379 src/main/print-escp2.c:264
 #: src/main/print-olympus.c:3786
 msgid "Print without borders"
-msgstr ""
+msgstr "无边框打印"
 
 #: src/main/print-canon.c:384 src/main/print-escp2.c:186
 #: src/main/print-pcl.c:1394
@@ -347,9 +347,8 @@ msgid "Long Edge (Standard)"
 msgstr "长边(标准)"
 
 #: src/main/print-canon.c:482 src/main/print-pcl.c:1685
-#, fuzzy
 msgid "Short Edge (Flip)"
-msgstr "短边(翻转)"
+msgstr "短边 (翻转)"
 
 #: src/main/print-canon.c:3018 src/main/print-escp2.c:2228
 #: src/xml/xmli18n-tmp.h:3312
@@ -484,7 +483,7 @@ msgstr "黑"
 #: src/xml/xmli18n-tmp.h:3277 src/xml/xmli18n-tmp.h:3286
 #: src/xml/xmli18n-tmp.h:3295 src/xml/xmli18n-tmp.h:3303
 msgid "Photo"
-msgstr ""
+msgstr "照片"
 
 #: src/main/print-canon.c:3350 src/main/print-olympus.c:313
 #: src/main/print-olympus.c:1524 src/main/print-olympus.c:1597
@@ -535,11 +534,11 @@ msgstr "仅纠正色调"
 
 #: src/main/print-color.c:53
 msgid "Uncorrected"
-msgstr ""
+msgstr "不进行纠正"
 
 #: src/main/print-color.c:54
 msgid "Desaturated"
-msgstr ""
+msgstr "降低饱和度"
 
 #: src/main/print-color.c:55
 msgid "Threshold"
@@ -580,7 +579,7 @@ msgstr "KCMY"
 
 #: src/main/print-color.c:165 src/main/print-color.c:454
 msgid "Channel "
-msgstr ""
+msgstr "通道"
 
 #: src/main/print-color.c:166
 msgid "Gamma for raw channel "
@@ -629,7 +628,7 @@ msgstr ""
 
 #: src/main/print-color.c:217
 msgid "Do not correct for screen gamma"
-msgstr ""
+msgstr "不纠正屏幕伽马值"
 
 #: src/main/print-color.c:224
 msgid "Brightness"
@@ -645,11 +644,11 @@ msgstr "对比度"
 
 #: src/main/print-color.c:233
 msgid "Contrast of the print (0 is solid gray)"
-msgstr ""
+msgstr "印刷品对比度 (0 为纯灰)"
 
 #: src/main/print-color.c:240
 msgid "Linear Contrast Adjustment"
-msgstr ""
+msgstr "线性对比度调整"
 
 #: src/main/print-color.c:241
 msgid "Use linear vs. fixed end point contrast adjustment"
@@ -657,7 +656,7 @@ msgstr ""
 
 #: src/main/print-color.c:248
 msgid "Composite Gamma"
-msgstr ""
+msgstr "混合伽马值"
 
 #: src/main/print-color.c:249
 msgid "Adjust the gamma of the print. Larger values will produce a generally brighter print, while smaller values will produce a generally darker print. "
@@ -665,11 +664,11 @@ msgstr ""
 
 #: src/main/print-color.c:258
 msgid "AppGamma"
-msgstr ""
+msgstr "AppGamma"
 
 #: src/main/print-color.c:259
 msgid "Gamma value assumed by application"
-msgstr ""
+msgstr "由应用程序猜测伽马值"
 
 #: src/main/print-color.c:266 src/gutenprintui2/panel.c:2356
 #: src/escputil/escputil.c:1060 src/escputil/escputil.c:1080
@@ -989,7 +988,7 @@ msgstr ""
 
 #: src/main/print-color.c:346
 msgid "Saturation"
-msgstr ""
+msgstr "饱和度"
 
 #: src/main/print-color.c:347
 msgid ""
@@ -998,8 +997,9 @@ msgid ""
 msgstr ""
 
 #: src/main/print-color.c:357
+#, fuzzy
 msgid "Ink Limit"
-msgstr ""
+msgstr "墨水限度"
 
 #: src/main/print-color.c:358
 msgid "Limit the total ink printed to the page"
@@ -1035,7 +1035,7 @@ msgstr ""
 
 #: src/main/print-color.c:421
 msgid "Advanced Output Control"
-msgstr ""
+msgstr "高级输出控制"
 
 #: src/main/print-color.c:422
 msgid "Dump file for LUT for external color adjustment"
@@ -1148,22 +1148,22 @@ msgstr ""
 #: src/main/printers.c:597
 #, c-format
 msgid "Value must be set for %s\n"
-msgstr ""
+msgstr "必须为 %s 设置一个值\n"
 
 #: src/main/printers.c:610 src/main/printers.c:615
-#, c-format
+#, fuzzy, c-format
 msgid "`%s' is not a valid %s\n"
-msgstr ""
+msgstr "`%s' 不是有效的 %s\n"
 
 #: src/main/printers.c:634
 #, c-format
 msgid "%s must be between %f and %f (is %f)\n"
-msgstr ""
+msgstr "%s 数值必须介于 %f 及 %f 之间 (当前值为 %f)\n"
 
 #: src/main/printers.c:656 src/main/printers.c:680
 #, c-format
 msgid "%s must be between %d and %d (is %d)\n"
-msgstr ""
+msgstr "%s 数值必须介于 %d 及 %d 之间 (当前值为 %d)\n"
 
 #: src/main/printers.c:711
 #, c-format
@@ -1191,11 +1191,11 @@ msgstr ""
 #: src/main/printers.c:780 src/main/printers.c:791
 #, c-format
 msgid "%s out of range (value %d, min %d, max %d)\n"
-msgstr ""
+msgstr "%s 的数值超出范围 (数值为 %d, 最小值 %d, 最大值 %d)\n"
 
 #: src/main/printers.c:851
 msgid "Page size is not valid\n"
-msgstr ""
+msgstr "页面尺寸无效\n"
 
 #: src/main/printers.c:872
 #, c-format
@@ -1209,11 +1209,11 @@ msgstr ""
 
 #: src/main/printers.c:884
 msgid "Height must be greater than zero\n"
-msgstr ""
+msgstr "高度必须大于零\n"
 
 #: src/main/printers.c:890
 msgid "Width must be greater than zero\n"
-msgstr ""
+msgstr "宽度必须大于零\n"
 
 #: src/main/printers.c:896
 #, c-format
@@ -1227,11 +1227,11 @@ msgstr ""
 
 #: src/main/print-escp2.c:150
 msgid "Automatic Printing Mode"
-msgstr ""
+msgstr "自动打印模式"
 
 #: src/main/print-escp2.c:151
 msgid "Automatic printing mode"
-msgstr ""
+msgstr "自动打印模式"
 
 #: src/main/print-escp2.c:222
 msgid "CD Allow Other Media Sizes"
@@ -1243,7 +1243,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:229 src/main/print-pcl.c:1371
 msgid "Resolution of the print"
-msgstr ""
+msgstr "印刷品分辨率"
 
 #: src/main/print-escp2.c:245
 msgid "Enhanced Gloss"
@@ -1255,11 +1255,11 @@ msgstr ""
 
 #: src/main/print-escp2.c:257
 msgid "Printing Direction"
-msgstr ""
+msgstr "打印方向"
 
 #: src/main/print-escp2.c:258
 msgid "Printing direction (unidirectional is higher quality, but slower)"
-msgstr ""
+msgstr "打印方向 (单向打印质量更高，但速度较慢)"
 
 #: src/main/print-escp2.c:269
 msgid "Interleave Method"
@@ -1272,7 +1272,7 @@ msgstr ""
 #: src/main/print-escp2.c:275 src/main/print-escp2.c:276 src/cups/genppd.c:2308
 #: src/cups/genppd.c:2602
 msgid "Output Order"
-msgstr ""
+msgstr "输出顺序"
 
 #: src/main/print-escp2.c:281 src/main/print-escp2.c:282
 msgid "Alignment Passes"
@@ -1316,7 +1316,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:335 src/main/print-escp2.c:336
 msgid "Channel Names"
-msgstr ""
+msgstr "通道名称"
 
 #: src/main/print-escp2.c:348
 msgid "Raw Channel Count"
@@ -1695,23 +1695,24 @@ msgstr ""
 
 #: src/main/print-escp2.c:2214
 msgid "Full Manual Control"
-msgstr ""
+msgstr "完全手动控制"
 
 #: src/main/print-escp2.c:2216
+#, fuzzy
 msgid "Automatic Setting Control"
-msgstr ""
+msgstr "自动设置控制"
 
 #: src/main/print-escp2.c:2437 src/cups/genppd.c:2222 src/cups/genppd.c:2582
 msgid "Automatic"
-msgstr ""
+msgstr "自动"
 
 #: src/main/print-escp2.c:2439
 msgid "Bidirectional"
-msgstr ""
+msgstr "双向"
 
 #: src/main/print-escp2.c:2441
 msgid "Unidirectional"
-msgstr ""
+msgstr "单向"
 
 #: src/main/print-escp2.c:2472
 msgid "Alternate Fill"
@@ -1735,7 +1736,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:2516
 msgid "Short Edge(Flip)"
-msgstr ""
+msgstr "短边(翻转)"
 
 #: src/main/print-escp2.c:3134
 #, c-format
@@ -1793,7 +1794,7 @@ msgstr "2400 DPI x 1200 DPI 最高质量"
 
 #: src/main/print-lexmark.c:589
 msgid "test print"
-msgstr ""
+msgstr "打印测试"
 
 #: src/main/print-lexmark.c:601 src/main/print-lexmark.c:671
 #: src/xml/xmli18n-tmp.h:2540 src/xml/xmli18n-tmp.h:2548
@@ -1896,7 +1897,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:783 src/xml/xmli18n-tmp.h:805
 #: src/xml/xmli18n-tmp.h:828 src/xml/xmli18n-tmp.h:846
 msgid "Plain Paper"
-msgstr ""
+msgstr "普通纸"
 
 #: src/main/print-lexmark.c:860 src/xml/xmli18n-tmp.h:5
 #: src/xml/xmli18n-tmp.h:54 src/xml/xmli18n-tmp.h:75 src/xml/xmli18n-tmp.h:97
@@ -1940,7 +1941,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:790 src/xml/xmli18n-tmp.h:811
 #: src/xml/xmli18n-tmp.h:832 src/xml/xmli18n-tmp.h:851
 msgid "Transparencies"
-msgstr ""
+msgstr "透明纸"
 
 #: src/main/print-lexmark.c:868 src/xml/xmli18n-tmp.h:7
 #: src/xml/xmli18n-tmp.h:30 src/xml/xmli18n-tmp.h:56 src/xml/xmli18n-tmp.h:77
@@ -1962,7 +1963,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:791 src/xml/xmli18n-tmp.h:812
 #: src/xml/xmli18n-tmp.h:833 src/xml/xmli18n-tmp.h:852
 msgid "Envelopes"
-msgstr ""
+msgstr "信封"
 
 #: src/main/print-lexmark.c:872 src/xml/xmli18n-tmp.h:9
 #: src/xml/xmli18n-tmp.h:32 src/xml/xmli18n-tmp.h:58 src/xml/xmli18n-tmp.h:79
@@ -2054,7 +2055,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:818 src/xml/xmli18n-tmp.h:839
 #: src/xml/xmli18n-tmp.h:858
 msgid "Photo Paper"
-msgstr ""
+msgstr "相纸"
 
 #: src/main/print-lexmark.c:888 src/xml/xmli18n-tmp.h:15
 #: src/xml/xmli18n-tmp.h:38 src/xml/xmli18n-tmp.h:63 src/xml/xmli18n-tmp.h:84
@@ -2169,7 +2170,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:827 src/xml/xmli18n-tmp.h:845
 #: src/xml/xmli18n-tmp.h:865
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: src/main/print-lexmark.c:1117
 msgid "Auto Sheet Feeder"
@@ -2304,7 +2305,7 @@ msgstr ""
 
 #: src/main/print-pcl.c:184
 msgid "Plain"
-msgstr ""
+msgstr "普通"
 
 #: src/main/print-pcl.c:185
 msgid "Bond"
@@ -2388,7 +2389,7 @@ msgstr ""
 
 #: src/main/print-pcl.c:254
 msgid "Autoselect"
-msgstr ""
+msgstr "自动选择"
 
 #: src/main/print-pcl.c:268
 msgid "150x150 DPI"
@@ -2450,7 +2451,7 @@ msgstr "PPD 文件"
 
 #: src/main/print-ps.c:80
 msgid "Model Name"
-msgstr ""
+msgstr "型号名称"
 
 #: src/main/print-ps.c:81
 msgid "PPD File Model Name"
@@ -2470,7 +2471,7 @@ msgstr "A4"
 
 #: src/main/print-ps.c:356 src/xml/xmli18n-tmp.h:3482
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 #: src/main/print-raw.c:244
 msgid "Image dimensions must match paper dimensions"
@@ -2519,27 +2520,27 @@ msgstr ""
 
 #: src/main/generic-options.c:46
 msgid "Text"
-msgstr ""
+msgstr "文本"
 
 #: src/main/generic-options.c:47
 msgid "Graphics"
-msgstr ""
+msgstr "图像"
 
 #: src/main/generic-options.c:48
 msgid "Mixed Text and Graphics"
-msgstr ""
+msgstr "文本及图像混合"
 
 #: src/main/generic-options.c:49
 msgid "Photograph"
-msgstr ""
+msgstr "照片"
 
 #: src/main/generic-options.c:50
 msgid "Line Art"
-msgstr ""
+msgstr "线条艺术"
 
 #: src/main/generic-options.c:55
 msgid "Page"
-msgstr ""
+msgstr "页面"
 
 #: src/main/generic-options.c:56
 msgid "Job"
@@ -2547,7 +2548,7 @@ msgstr ""
 
 #: src/main/generic-options.c:68
 msgid "Image Type"
-msgstr ""
+msgstr "图像类型"
 
 #: src/main/generic-options.c:69
 msgid "Type of image being printed"
@@ -2611,7 +2612,7 @@ msgstr ""
 
 #: src/gutenprintui2/gammacurve.c:395
 msgid "Gamma"
-msgstr ""
+msgstr "伽马值"
 
 #: src/gutenprintui2/gammacurve.c:405
 msgid "_Gamma value"
@@ -2619,7 +2620,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:276
 msgid "Inch"
-msgstr ""
+msgstr "英寸"
 
 #: src/gutenprintui2/panel.c:276
 msgid "Set the base unit of measurement to inches"
@@ -2627,7 +2628,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:278
 msgid "cm"
-msgstr ""
+msgstr "厘米"
 
 #: src/gutenprintui2/panel.c:278
 msgid "Set the base unit of measurement to centimetres"
@@ -2635,7 +2636,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:280
 msgid "Points"
-msgstr ""
+msgstr "点"
 
 #: src/gutenprintui2/panel.c:280
 msgid "Set the base unit of measurement to points (1/72\")"
@@ -2643,7 +2644,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:282
 msgid "mm"
-msgstr ""
+msgstr "毫米"
 
 #: src/gutenprintui2/panel.c:282
 msgid "Set the base unit of measurement to millimetres"
@@ -2659,7 +2660,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:291
 msgid "Color output"
-msgstr ""
+msgstr "颜色输出"
 
 #: src/gutenprintui2/panel.c:293
 msgid "Print in shades of gray using black ink"
@@ -2667,7 +2668,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:305
 msgid "Standard Command"
-msgstr ""
+msgstr "标准命令"
 
 #: src/gutenprintui2/panel.c:305
 msgid "Use standard print command"
@@ -2675,7 +2676,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:306
 msgid "Custom Command"
-msgstr ""
+msgstr "自定义命令"
 
 #: src/gutenprintui2/panel.c:306
 msgid "Use custom print command"
@@ -2684,41 +2685,43 @@ msgstr ""
 #: src/gutenprintui2/panel.c:307 src/gutenprintui2/plist.c:704
 #: src/gutenprintui2/plist.c:787
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: src/gutenprintui2/panel.c:307
 msgid "Print to a file"
-msgstr ""
+msgstr "打印到文件"
 
 #: src/gutenprintui2/panel.c:523
 msgid "Edit Curve..."
-msgstr ""
+msgstr "编辑曲线 ..."
 
 #: src/gutenprintui2/panel.c:534
+#, fuzzy
 msgid "Set Default"
-msgstr ""
+msgstr "设置为默认值"
 
 #: src/gutenprintui2/panel.c:536
+#, fuzzy
 msgid "Restore Previous"
-msgstr ""
+msgstr "恢复到之前的配置"
 
 #: src/gutenprintui2/panel.c:538 src/gutenprintui2/panel.c:1736
 #: src/gutenprintui2/panel.c:1990 src/gutenprintui2/panel.c:2022
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 #: src/gutenprintui2/panel.c:540 src/gutenprintui2/panel.c:1400
 #: src/gutenprintui2/panel.c:1738 src/gutenprintui2/panel.c:1992
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/gutenprintui2/panel.c:642
 msgid "Select File..."
-msgstr ""
+msgstr "选择文件 ..."
 
 #: src/gutenprintui2/panel.c:1028
 msgid "Reset"
-msgstr ""
+msgstr "复位"
 
 #: src/gutenprintui2/panel.c:1383
 #, c-format
@@ -2727,27 +2730,29 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1392
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: src/gutenprintui2/panel.c:1394
+#, fuzzy
 msgid ""
 "Print and\n"
 "Save Settings"
-msgstr ""
+msgstr "打印并保存设置"
 
 #: src/gutenprintui2/panel.c:1396
+#, fuzzy
 msgid ""
 "Save\n"
 "Settings"
-msgstr ""
+msgstr "保存设置"
 
 #: src/gutenprintui2/panel.c:1398
 msgid "Print"
-msgstr ""
+msgstr "打印"
 
 #: src/gutenprintui2/panel.c:1451
 msgid "Preview"
-msgstr ""
+msgstr "预览"
 
 #: src/gutenprintui2/panel.c:1476
 msgid ""
@@ -2761,19 +2766,19 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1523
 msgid "Paper Size"
-msgstr ""
+msgstr "纸张尺寸"
 
 #: src/gutenprintui2/panel.c:1546
 msgid "Show All Paper Sizes"
-msgstr ""
+msgstr "显示所有纸张尺寸"
 
 #: src/gutenprintui2/panel.c:1562
 msgid "Dimensions:"
-msgstr ""
+msgstr "尺寸："
 
 #: src/gutenprintui2/panel.c:1567 src/gutenprintui2/panel.c:2266
 msgid "Width:"
-msgstr ""
+msgstr "宽度："
 
 #: src/gutenprintui2/panel.c:1568
 msgid "Width of the paper that you wish to print to"
@@ -2781,19 +2786,20 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1572 src/gutenprintui2/panel.c:2268
 msgid "Height:"
-msgstr ""
+msgstr "高度："
 
 #: src/gutenprintui2/panel.c:1573
 msgid "Height of the paper that you wish to print to"
 msgstr ""
 
 #: src/gutenprintui2/panel.c:1578
+#, fuzzy
 msgid "Automatic Paper Size"
-msgstr ""
+msgstr "自动调整纸张大小"
 
 #: src/gutenprintui2/panel.c:1595
 msgid "Number of Copies"
-msgstr ""
+msgstr "副本数量"
 
 #: src/gutenprintui2/panel.c:1607
 msgid "Select the number of copies to print; a value between 1 and 100"
@@ -2801,11 +2807,11 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1639
 msgid "Image Position"
-msgstr ""
+msgstr "图像位置"
 
 #: src/gutenprintui2/panel.c:1656
 msgid "Auto"
-msgstr ""
+msgstr "自动"
 
 #: src/gutenprintui2/panel.c:1658
 msgid "Portrait"
