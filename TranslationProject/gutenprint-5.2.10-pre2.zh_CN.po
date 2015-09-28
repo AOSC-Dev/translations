@@ -2,6 +2,8 @@
 # Copyright (C) 2011 Robert L. Krawitz (rlk@alum.mit.edu) and Mike Sweet (mike@easysw.com)
 # This file is distributed under the same license as the gutenprint package.
 # Wylmer Wang <wantinghard@gmail.com>, 2011.
+# Mingcong Bai <jeffbai@aosc.xyz>, 2015.
+# Mingye Wang <arthur200126@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
