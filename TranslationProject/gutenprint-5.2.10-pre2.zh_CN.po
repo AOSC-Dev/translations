@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gutenprint 20110308\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-29 07:35-0600\n"
+"PO-Revision-Date: 2015-09-29 08:13-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -55,7 +55,7 @@ msgstr "混合式 UniTone"
 
 #: src/main/dither-main.c:63
 msgid "Adaptive Hybrid"
-msgstr ""
+msgstr "自适应混合"
 
 #: src/main/dither-main.c:64
 msgid "Ordered"
@@ -74,16 +74,18 @@ msgid "Very Fast"
 msgstr "很快"
 
 #: src/main/dither-main.c:68
+#, fuzzy
 msgid "Hybrid Floyd-Steinberg"
-msgstr ""
+msgstr "混合弗洛伊德 - 斯坦伯格"
 
 #: src/main/dither-main.c:69
+#, fuzzy
 msgid "Predithered Input"
-msgstr ""
+msgstr "预先抖动输入"
 
 #: src/main/dither-main.c:70
 msgid "Drop Size Segmented"
-msgstr ""
+msgstr "液滴尺寸分段"
 
 #: src/main/dither-main.c:71
 msgid "Drop Size Segmented New"
@@ -95,11 +97,11 @@ msgstr "密度"
 
 #: src/main/dither-main.c:92
 msgid "Adjust the density (amount of ink) of the print. Reduce the density if the ink bleeds through the paper or smears; increase the density if black regions are not solid."
-msgstr ""
+msgstr "调整印刷密度（莫水量）。如墨水透出纸张或抹黑纸张则需降低印刷密度；如黑色块不均匀或过淡则需提高印刷密度。"
 
 #: src/main/dither-main.c:100
 msgid "Dither Algorithm"
-msgstr ""
+msgstr "抖动算法"
 
 #: src/main/dither-main.c:101
 msgid ""
@@ -113,7 +115,7 @@ msgstr ""
 
 #: src/main/module.c:52
 msgid "Miscellaneous (unclassified)"
-msgstr ""
+msgstr "杂项（未分类）"
 
 #: src/main/module.c:53
 msgid "Family driver"
@@ -121,11 +123,11 @@ msgstr ""
 
 #: src/main/module.c:54
 msgid "Color conversion module"
-msgstr ""
+msgstr "颜色转换模块"
 
 #: src/main/module.c:55
 msgid "Dither algorithm"
-msgstr ""
+msgstr "抖动算法"
 
 #: src/main/print-canon.c:285 src/main/print-escp2.c:168
 #: src/main/print-lexmark.c:266 src/main/print-olympus.c:3745
@@ -165,40 +167,40 @@ msgstr "媒质来源(进纸槽)"
 
 #: src/main/print-canon.c:303 src/main/print-escp2.c:192
 msgid "CD Hub Size"
-msgstr ""
+msgstr "CD 光盘毂尺寸"
 
 #: src/main/print-canon.c:304 src/main/print-escp2.c:193
 msgid "Print only outside of the hub of the CD, or all the way to the hole"
-msgstr ""
+msgstr "仅印刷 CD 光盘毂外的部分，或一直印刷到盘片中心孔处"
 
 #: src/main/print-canon.c:309 src/main/print-escp2.c:198
 msgid "CD Size (Custom)"
-msgstr "CD 尺寸(自定义)"
+msgstr "CD 光盘尺寸(自定义)"
 
 #: src/main/print-canon.c:310 src/main/print-escp2.c:199
 msgid "Variable adjustment for the outer diameter of CD"
-msgstr ""
+msgstr "调整 CD 光盘的外径"
 
 #: src/main/print-canon.c:315 src/main/print-escp2.c:204
 msgid "CD Hub Size (Custom)"
-msgstr ""
+msgstr "CD 光盘毂尺寸 (自定义)"
 
 #: src/main/print-canon.c:316 src/main/print-escp2.c:205
 msgid "Variable adjustment to the inner hub of the CD"
-msgstr ""
+msgstr "调整 CD 光盘的内毂"
 
 #: src/main/print-canon.c:321 src/main/print-escp2.c:210
 msgid "CD Horizontal Fine Adjustment"
-msgstr ""
+msgstr "CD 光盘水平微调"
 
 #: src/main/print-canon.c:322 src/main/print-canon.c:328
 #: src/main/print-escp2.c:211 src/main/print-escp2.c:217
 msgid "Fine adjustment to horizontal position for CD printing"
-msgstr ""
+msgstr "微调 CD 光盘印刷的水平位置"
 
 #: src/main/print-canon.c:327 src/main/print-escp2.c:216
 msgid "CD Vertical Fine Adjustment"
-msgstr ""
+msgstr "CD 光盘垂直微调"
 
 #: src/main/print-canon.c:333 src/main/print-escp2.c:228
 #: src/main/print-lexmark.c:284 src/main/print-olympus.c:3763
@@ -229,7 +231,7 @@ msgstr "打印机中的墨水类型"
 #: src/main/print-lexmark.c:296 src/main/print-lexmark.c:297
 #: src/main/print-pcl.c:1382 src/main/print-pcl.c:1383
 msgid "Ink Channels"
-msgstr ""
+msgstr "墨水通道"
 
 #: src/main/print-canon.c:361 src/main/print-escp2.c:341
 #: src/main/print-lexmark.c:302 src/main/print-olympus.c:3791
@@ -245,11 +247,11 @@ msgstr "打印输出模式"
 
 #: src/main/print-canon.c:372 src/main/print-escp2.c:251
 msgid "Ink Set"
-msgstr ""
+msgstr "墨水套装"
 
 #: src/main/print-canon.c:373
 msgid "Type of inkset in the printer"
-msgstr ""
+msgstr "打印机中的墨水套装"
 
 #: src/main/print-canon.c:378 src/main/print-escp2.c:263
 #: src/main/print-olympus.c:3785
@@ -269,7 +271,7 @@ msgstr "双面打印"
 #: src/main/print-canon.c:385 src/main/print-escp2.c:187
 #: src/main/print-pcl.c:1395
 msgid "Duplex/Tumble Setting"
-msgstr ""
+msgstr "双面打印/轮转设置"
 
 #: src/main/print-canon.c:390 src/main/print-canon.c:391
 #: src/main/print-escp2.c:162 src/main/print-escp2.c:163
@@ -281,60 +283,60 @@ msgstr "打印质量"
 #: src/main/print-canon.c:413 src/main/print-escp2.c:454
 #: src/main/print-lexmark.c:325 src/main/print-pcl.c:1417
 msgid "Cyan Density"
-msgstr ""
+msgstr "青色密度"
 
 #: src/main/print-canon.c:414 src/main/print-escp2.c:455
 #: src/main/print-lexmark.c:326 src/main/print-pcl.c:1418
 msgid "Adjust the cyan density"
-msgstr ""
+msgstr "调整青色密度"
 
 #: src/main/print-canon.c:421 src/main/print-escp2.c:462
 #: src/main/print-lexmark.c:333 src/main/print-pcl.c:1425
 msgid "Magenta Density"
-msgstr ""
+msgstr "品红密度"
 
 #: src/main/print-canon.c:422 src/main/print-escp2.c:463
 #: src/main/print-lexmark.c:334 src/main/print-pcl.c:1426
 msgid "Adjust the magenta density"
-msgstr ""
+msgstr "调整品红密度"
 
 #: src/main/print-canon.c:429 src/main/print-escp2.c:470
 #: src/main/print-lexmark.c:341 src/main/print-pcl.c:1433
 msgid "Yellow Density"
-msgstr ""
+msgstr "黄色密度"
 
 #: src/main/print-canon.c:430 src/main/print-escp2.c:471
 #: src/main/print-lexmark.c:342 src/main/print-pcl.c:1434
 msgid "Adjust the yellow density"
-msgstr ""
+msgstr "调整黄色密度"
 
 #: src/main/print-canon.c:437 src/main/print-escp2.c:478
 #: src/main/print-lexmark.c:349 src/main/print-pcl.c:1441
 msgid "Black Density"
-msgstr ""
+msgstr "黑色密度"
 
 #: src/main/print-canon.c:438 src/main/print-escp2.c:479
 #: src/main/print-lexmark.c:350 src/main/print-pcl.c:1442
 msgid "Adjust the black density"
-msgstr ""
+msgstr "调整黑色密度"
 
 #: src/main/print-canon.c:445 src/main/print-canon.c:446
 #: src/main/print-escp2.c:550 src/main/print-escp2.c:551
 #: src/main/print-lexmark.c:357 src/main/print-lexmark.c:358
 #: src/main/print-pcl.c:1449 src/main/print-pcl.c:1450
 msgid "Light Cyan Transition"
-msgstr ""
+msgstr "淡青色过渡"
 
 #: src/main/print-canon.c:453 src/main/print-canon.c:454
 #: src/main/print-escp2.c:582 src/main/print-escp2.c:583
 #: src/main/print-lexmark.c:365 src/main/print-lexmark.c:366
 #: src/main/print-pcl.c:1457 src/main/print-pcl.c:1458
 msgid "Light Magenta Transition"
-msgstr ""
+msgstr "淡品红色过渡"
 
 #: src/main/print-canon.c:461 src/main/print-canon.c:462
 msgid "Light Yellow Transition"
-msgstr ""
+msgstr "淡黄色过渡"
 
 #: src/main/print-canon.c:480 src/main/print-escp2.c:2512
 #: src/main/print-pcl.c:1683 src/xml/xmli18n-tmp.h:3236
@@ -375,7 +377,7 @@ msgstr "正常"
 
 #: src/main/print-canon.c:3062 src/main/print-escp2.c:2268
 msgid "Print To Hub"
-msgstr ""
+msgstr "打印到毂"
 
 #: src/main/print-canon.c:3240 src/main/print-canon.c:3256
 #: src/main/print-canon.c:3273 src/main/print-canon.c:3303
@@ -552,7 +554,7 @@ msgstr "Raw"
 
 #: src/main/print-color.c:58
 msgid "Pre-Dithered"
-msgstr ""
+msgstr "预抖"
 
 #: src/main/print-color.c:121 src/gutenprintui2/panel.c:292
 #: src/cups/genppd.c:1397 src/cups/genppd.c:2494
@@ -561,7 +563,7 @@ msgstr "灰度"
 
 #: src/main/print-color.c:123
 msgid "Whitescale"
-msgstr ""
+msgstr "白度"
 
 #: src/main/print-color.c:125
 msgid "RGB"
@@ -585,23 +587,23 @@ msgstr "通道"
 
 #: src/main/print-color.c:166
 msgid "Gamma for raw channel "
-msgstr ""
+msgstr "Raw 通道的伽马值 "
 
 #: src/main/print-color.c:176
 msgid "Color Correction"
-msgstr ""
+msgstr "色彩校正"
 
 #: src/main/print-color.c:177
 msgid "Color correction to be applied"
-msgstr ""
+msgstr "要应用的色彩校正"
 
 #: src/main/print-color.c:184
 msgid "Channel Bit Depth"
-msgstr ""
+msgstr "通道位深度"
 
 #: src/main/print-color.c:185
 msgid "Bit depth per channel"
-msgstr ""
+msgstr "每通道位深度"
 
 #: src/main/print-color.c:192
 msgid "Input Image Type"
@@ -622,11 +624,11 @@ msgstr "输出图像类型"
 #: src/main/print-color.c:208 src/main/print-color.c:209
 #: src/main/print-escp2.c:347
 msgid "Raw Channels"
-msgstr ""
+msgstr "Raw 通道"
 
 #: src/main/print-color.c:216
 msgid "SimpleGamma"
-msgstr ""
+msgstr "SimpleGamma"
 
 #: src/main/print-color.c:217
 msgid "Do not correct for screen gamma"
@@ -751,11 +753,11 @@ msgstr "由应用程序猜测伽马值"
 #: src/xml/xmli18n-tmp.h:3188 src/xml/xmli18n-tmp.h:3209
 #: src/xml/xmli18n-tmp.h:3219 src/xml/xmli18n-tmp.h:3229
 msgid "Cyan"
-msgstr ""
+msgstr "青色"
 
 #: src/main/print-color.c:267
 msgid "Adjust the cyan gamma"
-msgstr ""
+msgstr "调整青色伽马值"
 
 #: src/main/print-color.c:274 src/gutenprintui2/panel.c:2363
 #: src/escputil/escputil.c:1061 src/escputil/escputil.c:1081
@@ -836,11 +838,11 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3210 src/xml/xmli18n-tmp.h:3220
 #: src/xml/xmli18n-tmp.h:3230
 msgid "Magenta"
-msgstr ""
+msgstr "品红"
 
 #: src/main/print-color.c:275
 msgid "Adjust the magenta gamma"
-msgstr ""
+msgstr "调整品红色伽马值"
 
 #: src/main/print-color.c:282 src/gutenprintui2/panel.c:2370
 #: src/escputil/escputil.c:1062 src/escputil/escputil.c:1082
@@ -921,11 +923,11 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3192 src/xml/xmli18n-tmp.h:3211
 #: src/xml/xmli18n-tmp.h:3221 src/xml/xmli18n-tmp.h:3231
 msgid "Yellow"
-msgstr ""
+msgstr "黄色"
 
 #: src/main/print-color.c:283
 msgid "Adjust the yellow gamma"
-msgstr ""
+msgstr "调整黄色伽马值"
 
 #: src/main/print-color.c:290 src/gutenprintui2/panel.c:2384
 #: src/escputil/escputil.c:1069 src/escputil/escputil.c:1088
@@ -934,19 +936,19 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2081 src/xml/xmli18n-tmp.h:2648
 #: src/xml/xmli18n-tmp.h:2670 src/xml/xmli18n-tmp.h:2999
 msgid "Red"
-msgstr ""
+msgstr "红色"
 
 #: src/main/print-color.c:291
 msgid "Adjust the red gamma"
-msgstr ""
+msgstr "调整红色伽马值"
 
 #: src/main/print-color.c:298 src/gutenprintui2/panel.c:2391
 msgid "Green"
-msgstr ""
+msgstr "绿色"
 
 #: src/main/print-color.c:299
 msgid "Adjust the green gamma"
-msgstr ""
+msgstr "调整绿色伽马值"
 
 #: src/main/print-color.c:306 src/gutenprintui2/panel.c:2398
 #: src/escputil/escputil.c:1070 src/escputil/escputil.c:1089
@@ -954,39 +956,42 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:1773 src/xml/xmli18n-tmp.h:1850
 #: src/xml/xmli18n-tmp.h:2649 src/xml/xmli18n-tmp.h:3000
 msgid "Blue"
-msgstr ""
+msgstr "蓝色"
 
 #: src/main/print-color.c:307
 msgid "Adjust the blue gamma"
-msgstr ""
+msgstr "调整蓝色伽马值"
 
 #: src/main/print-color.c:315
 msgid "Adjust the black gamma"
-msgstr ""
+msgstr "调整黑色伽马值"
 
 #: src/main/print-color.c:322 src/main/print-olympus.c:3814
 msgid "Cyan Balance"
-msgstr ""
+msgstr "青色平衡"
 
 #: src/main/print-color.c:323
+#, fuzzy
 msgid "Adjust the cyan gray balance"
-msgstr ""
+msgstr "调整青色灰平衡"
 
 #: src/main/print-color.c:330 src/main/print-olympus.c:3822
 msgid "Magenta Balance"
-msgstr ""
+msgstr "品红色平衡"
 
 #: src/main/print-color.c:331
+#, fuzzy
 msgid "Adjust the magenta gray balance"
-msgstr ""
+msgstr "调整品红色灰平衡"
 
 #: src/main/print-color.c:338 src/main/print-olympus.c:3830
 msgid "Yellow Balance"
-msgstr ""
+msgstr "黄色平衡"
 
 #: src/main/print-color.c:339
+#, fuzzy
 msgid "Adjust the yellow gray balance"
-msgstr ""
+msgstr "调整黄色灰平衡"
 
 #: src/main/print-color.c:346
 msgid "Saturation"
@@ -997,43 +1002,49 @@ msgid ""
 "Adjust the saturation (color balance) of the print\n"
 "Use zero saturation to produce grayscale output using color and black inks"
 msgstr ""
+"调整印刷品的饱和度（颜色平衡）\n"
+"如饱和度为零则可使用彩色和黑色墨水打印输出灰色印刷品"
 
 #: src/main/print-color.c:357
-#, fuzzy
 msgid "Ink Limit"
-msgstr "墨水限度"
+msgstr "墨水限制"
 
 #: src/main/print-color.c:358
 msgid "Limit the total ink printed to the page"
-msgstr ""
+msgstr "限制打印到页面的墨水总量"
 
 #: src/main/print-color.c:365 src/main/print-escp2.c:878
 msgid "GCR Transition"
-msgstr ""
+msgstr "GCR 过渡"
 
 #: src/main/print-color.c:366 src/main/print-escp2.c:879
+#, fuzzy
 msgid "Adjust the gray component transition rate"
-msgstr ""
+msgstr "调整灰色成分过渡率"
 
 #: src/main/print-color.c:373 src/main/print-escp2.c:886
+#, fuzzy
 msgid "GCR Lower Bound"
-msgstr ""
+msgstr "GCR 下界"
 
 #: src/main/print-color.c:374 src/main/print-escp2.c:887
+#, fuzzy
 msgid "Lower bound of gray component reduction"
-msgstr ""
+msgstr "灰色成分减少的下界"
 
 #: src/main/print-color.c:381 src/main/print-escp2.c:894
+#, fuzzy
 msgid "GCR Upper Bound"
-msgstr ""
+msgstr "GCR 上界"
 
 #: src/main/print-color.c:382 src/main/print-escp2.c:895
+#, fuzzy
 msgid "Upper bound of gray component reduction"
-msgstr ""
+msgstr "灰色成分减少的上界"
 
 #: src/main/print-color.c:421
 msgid "LUT dump file"
-msgstr ""
+msgstr "LUT 转储文件"
 
 #: src/main/print-color.c:421
 msgid "Advanced Output Control"
@@ -1041,111 +1052,115 @@ msgstr "高级输出控制"
 
 #: src/main/print-color.c:422
 msgid "Dump file for LUT for external color adjustment"
-msgstr ""
+msgstr "转储 LUT 文件以进行色彩调整"
 
 #: src/main/print-color.c:456
 msgid "Curve for raw channel "
-msgstr ""
+msgstr "Raw 通道曲线 "
 
 #: src/main/print-color.c:466
 msgid "Cyan Curve"
-msgstr ""
+msgstr "青色曲线"
 
 #: src/main/print-color.c:467
 msgid "Cyan curve"
-msgstr ""
+msgstr "青色曲线"
 
 #: src/main/print-color.c:474
 msgid "Magenta Curve"
-msgstr ""
+msgstr "品红色曲线"
 
 #: src/main/print-color.c:475
 msgid "Magenta curve"
-msgstr ""
+msgstr "品红色曲线"
 
 #: src/main/print-color.c:482
 msgid "Yellow Curve"
-msgstr ""
+msgstr "黄色曲线"
 
 #: src/main/print-color.c:483
 msgid "Yellow curve"
-msgstr ""
+msgstr "黄色曲线"
 
 #: src/main/print-color.c:490
 msgid "Black Curve"
-msgstr ""
+msgstr "黑色曲线"
 
 #: src/main/print-color.c:491
 msgid "Black curve"
-msgstr ""
+msgstr "黑色曲线"
 
 #: src/main/print-color.c:498
 msgid "Red Curve"
-msgstr ""
+msgstr "红色曲线"
 
 #: src/main/print-color.c:499
 msgid "Red curve"
-msgstr ""
+msgstr "红色曲线"
 
 #: src/main/print-color.c:506
 msgid "Green Curve"
-msgstr ""
+msgstr "绿色曲线"
 
 #: src/main/print-color.c:507
 msgid "Green curve"
-msgstr ""
+msgstr "绿色曲线"
 
 #: src/main/print-color.c:514
 msgid "Blue Curve"
-msgstr ""
+msgstr "蓝色曲线"
 
 #: src/main/print-color.c:515
 msgid "Blue curve"
-msgstr ""
+msgstr "蓝色曲线"
 
 #: src/main/print-color.c:522
 msgid "White Curve"
-msgstr ""
+msgstr "白色曲线"
 
 #: src/main/print-color.c:523
 msgid "White curve"
-msgstr ""
+msgstr "白色曲线"
 
 #: src/main/print-color.c:530
+#, fuzzy
 msgid "Hue Map"
-msgstr ""
+msgstr "色相映射"
 
 #: src/main/print-color.c:531
 msgid "Hue adjustment curve"
-msgstr ""
+msgstr "色相调整曲线"
 
 #: src/main/print-color.c:538
+#, fuzzy
 msgid "Saturation Map"
-msgstr ""
+msgstr "饱和度映射"
 
 #: src/main/print-color.c:539
 msgid "Saturation adjustment curve"
-msgstr ""
+msgstr "饱和度调整曲线"
 
 #: src/main/print-color.c:546
 msgid "Luminosity Map"
-msgstr ""
+msgstr "流明度映射"
 
 #: src/main/print-color.c:547
 msgid "Luminosity adjustment curve"
-msgstr ""
+msgstr "流明度调整曲线"
 
 #: src/main/print-color.c:554
+#, fuzzy
 msgid "Gray Component Reduction"
-msgstr ""
+msgstr "灰色成分减少"
 
 #: src/main/print-color.c:555
+#, fuzzy
 msgid "Gray component reduction curve"
-msgstr ""
+msgstr "灰色成分减少曲线"
 
 #: src/main/print-color.c:1740
 msgid "Traditional Gutenprint color conversion"
-msgstr ""
+msgstr "传统 Gutenprint 色彩转换"
 
 #: src/main/printers.c:597
 #, c-format
@@ -1153,7 +1168,7 @@ msgid "Value must be set for %s\n"
 msgstr "必须为 %s 设置一个值\n"
 
 #: src/main/printers.c:610 src/main/printers.c:615
-#, fuzzy, c-format
+#, c-format
 msgid "`%s' is not a valid %s\n"
 msgstr "`%s' 不是有效的 %s\n"
 
