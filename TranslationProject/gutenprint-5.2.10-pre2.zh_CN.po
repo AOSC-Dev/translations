@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gutenprint 20110308\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-29 08:13-0600\n"
+"PO-Revision-Date: 2015-09-29 08:57-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1280,11 +1280,12 @@ msgstr "打印方向 (单向打印质量更高，但速度较慢)"
 
 #: src/main/print-escp2.c:269
 msgid "Interleave Method"
-msgstr ""
+msgstr "交织方法"
 
 #: src/main/print-escp2.c:270
+#, fuzzy
 msgid "Interleave pattern to use"
-msgstr ""
+msgstr "要使用的交织图案"
 
 #: src/main/print-escp2.c:275 src/main/print-escp2.c:276 src/cups/genppd.c:2308
 #: src/cups/genppd.c:2602
@@ -1341,83 +1342,83 @@ msgstr ""
 
 #: src/main/print-escp2.c:353
 msgid "Cyan Map"
-msgstr ""
+msgstr "青色映射"
 
 #: src/main/print-escp2.c:354
 msgid "Adjust the cyan map"
-msgstr ""
+msgstr "调整青色映射"
 
 #: src/main/print-escp2.c:359
 msgid "Magenta Map"
-msgstr ""
+msgstr "品红色映射"
 
 #: src/main/print-escp2.c:360
 msgid "Adjust the magenta map"
-msgstr ""
+msgstr "调整品红色映射"
 
 #: src/main/print-escp2.c:365
 msgid "Yellow Map"
-msgstr ""
+msgstr "黄色映射"
 
 #: src/main/print-escp2.c:366
 msgid "Adjust the yellow map"
-msgstr ""
+msgstr "调整黄色映射"
 
 #: src/main/print-escp2.c:371
 msgid "Blue Map"
-msgstr ""
+msgstr "蓝色映射"
 
 #: src/main/print-escp2.c:372
 msgid "Adjust the blue map"
-msgstr ""
+msgstr "调整蓝色映射"
 
 #: src/main/print-escp2.c:377
 msgid "Orange Map"
-msgstr ""
+msgstr "橙色映射"
 
 #: src/main/print-escp2.c:378
 msgid "Adjust the orange map"
-msgstr ""
+msgstr "跳针橙色映射"
 
 #: src/main/print-escp2.c:383
 msgid "Red Map"
-msgstr ""
+msgstr "红色映射"
 
 #: src/main/print-escp2.c:384
 msgid "Adjust the red map"
-msgstr ""
+msgstr "调整红色映射"
 
 #: src/main/print-escp2.c:486
 msgid "Red Density"
-msgstr ""
+msgstr "红色密度"
 
 #: src/main/print-escp2.c:487
 msgid "Adjust the red density"
-msgstr ""
+msgstr "调整红色密度"
 
 #: src/main/print-escp2.c:494
 msgid "Blue Density"
-msgstr ""
+msgstr "蓝色密度"
 
 #: src/main/print-escp2.c:495
 msgid "Adjust the blue density"
-msgstr ""
+msgstr "调整蓝色密度"
 
 #: src/main/print-escp2.c:502
 msgid "Orange Density"
-msgstr ""
+msgstr "橙色密度"
 
 #: src/main/print-escp2.c:503
 msgid "Adjust the orange density"
-msgstr ""
+msgstr "调整橙色密度"
 
 #: src/main/print-escp2.c:510
 msgid "Gloss Level"
-msgstr ""
+msgstr "光泽度"
 
 #: src/main/print-escp2.c:511
 msgid "Adjust the gloss level"
-msgstr ""
+msgstr "调整光泽度"
 
 #: src/main/print-escp2.c:518
 msgid "Drop Size Small"
@@ -1445,7 +1446,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:542 src/main/print-escp2.c:543
 msgid "Light Cyan Value"
-msgstr ""
+msgstr "淡青色值"
 
 #: src/main/print-escp2.c:558 src/main/print-escp2.c:559
 msgid "Light Cyan Density Scale"
@@ -1453,7 +1454,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:566 src/main/print-escp2.c:567
 msgid "Light Magenta Value"
-msgstr ""
+msgstr "淡品红色值"
 
 #: src/main/print-escp2.c:574 src/main/print-escp2.c:575
 msgid "Light Magenta Density Scale"
@@ -1461,7 +1462,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:590 src/main/print-escp2.c:591
 msgid "Dark Yellow Value"
-msgstr ""
+msgstr "淡黄色值"
 
 #: src/main/print-escp2.c:598 src/main/print-escp2.c:599
 msgid "Dark Yellow Transition"
@@ -1474,7 +1475,7 @@ msgstr ""
 #: src/main/print-escp2.c:614 src/main/print-escp2.c:615
 #: src/main/print-escp2.c:638 src/main/print-escp2.c:639
 msgid "Gray Value"
-msgstr ""
+msgstr "灰色值"
 
 #: src/main/print-escp2.c:622 src/main/print-escp2.c:623
 #: src/main/print-escp2.c:646 src/main/print-escp2.c:647
@@ -1489,7 +1490,7 @@ msgstr ""
 #: src/main/print-escp2.c:662 src/main/print-escp2.c:663
 #: src/main/print-escp2.c:734 src/main/print-escp2.c:735
 msgid "Light Gray Value"
-msgstr ""
+msgstr "淡灰色值"
 
 #: src/main/print-escp2.c:670 src/main/print-escp2.c:671
 #: src/main/print-escp2.c:742 src/main/print-escp2.c:743
@@ -1503,7 +1504,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:686 src/main/print-escp2.c:687
 msgid "Dark Gray Value"
-msgstr ""
+msgstr "深灰色值"
 
 #: src/main/print-escp2.c:694 src/main/print-escp2.c:695
 msgid "Dark Gray Transition"
@@ -1936,7 +1937,7 @@ msgstr "普通纸"
 #: src/xml/xmli18n-tmp.h:789 src/xml/xmli18n-tmp.h:810
 #: src/xml/xmli18n-tmp.h:831 src/xml/xmli18n-tmp.h:850
 msgid "Glossy Film"
-msgstr ""
+msgstr "光膜"
 
 #: src/main/print-lexmark.c:864 src/xml/xmli18n-tmp.h:6
 #: src/xml/xmli18n-tmp.h:29 src/xml/xmli18n-tmp.h:55 src/xml/xmli18n-tmp.h:76
@@ -2003,7 +2004,7 @@ msgstr "信封"
 #: src/xml/xmli18n-tmp.h:814 src/xml/xmli18n-tmp.h:835
 #: src/xml/xmli18n-tmp.h:854
 msgid "Matte Paper"
-msgstr ""
+msgstr "磨砂纸"
 
 #: src/main/print-lexmark.c:876 src/xml/xmli18n-tmp.h:12
 #: src/xml/xmli18n-tmp.h:35 src/xml/xmli18n-tmp.h:60 src/xml/xmli18n-tmp.h:81
@@ -2026,7 +2027,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:816 src/xml/xmli18n-tmp.h:837
 #: src/xml/xmli18n-tmp.h:856
 msgid "Inkjet Paper"
-msgstr ""
+msgstr "喷墨打印纸"
 
 #: src/main/print-lexmark.c:880 src/xml/xmli18n-tmp.h:13
 #: src/xml/xmli18n-tmp.h:36 src/xml/xmli18n-tmp.h:61 src/xml/xmli18n-tmp.h:82
@@ -2049,7 +2050,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:817 src/xml/xmli18n-tmp.h:838
 #: src/xml/xmli18n-tmp.h:857
 msgid "Photo Quality Inkjet Paper"
-msgstr ""
+msgstr "照片质量喷墨打印纸"
 
 #: src/main/print-lexmark.c:884 src/xml/xmli18n-tmp.h:14
 #: src/xml/xmli18n-tmp.h:37 src/xml/xmli18n-tmp.h:62 src/xml/xmli18n-tmp.h:83
@@ -2212,12 +2213,12 @@ msgstr ""
 #: src/main/print-olympus.c:1632 src/main/print-olympus.c:1930
 #: src/main/print-olympus.c:2739 src/main/print-olympus.c:2878
 msgid "Glossy"
-msgstr ""
+msgstr "光面"
 
 #: src/main/print-olympus.c:1087 src/main/print-olympus.c:1150
 #: src/main/print-olympus.c:1248
 msgid "Texture"
-msgstr ""
+msgstr "纹理"
 
 #: src/main/print-olympus.c:1151 src/main/print-olympus.c:1249
 #: src/main/print-olympus.c:1364 src/main/print-olympus.c:1638
@@ -2225,47 +2226,47 @@ msgstr ""
 #: src/main/print-olympus.c:2480 src/main/print-olympus.c:2741
 #: src/main/print-olympus.c:2879
 msgid "Matte"
-msgstr ""
+msgstr "磨砂"
 
 #: src/main/print-olympus.c:1633 src/main/print-olympus.c:1931
 msgid "Matte +5"
-msgstr ""
+msgstr "磨砂 +5"
 
 #: src/main/print-olympus.c:1634 src/main/print-olympus.c:1932
 msgid "Matte +4"
-msgstr ""
+msgstr "磨砂 +4"
 
 #: src/main/print-olympus.c:1635 src/main/print-olympus.c:1933
 msgid "Matte +3"
-msgstr ""
+msgstr "磨砂 +4"
 
 #: src/main/print-olympus.c:1636 src/main/print-olympus.c:1934
 msgid "Matte +2"
-msgstr ""
+msgstr "磨砂 +2"
 
 #: src/main/print-olympus.c:1637 src/main/print-olympus.c:1935
 msgid "Matte +1"
-msgstr ""
+msgstr "磨砂 +1"
 
 #: src/main/print-olympus.c:1639 src/main/print-olympus.c:1937
 msgid "Matte -1"
-msgstr ""
+msgstr "磨砂 -1"
 
 #: src/main/print-olympus.c:1640 src/main/print-olympus.c:1938
 msgid "Matte -2"
-msgstr ""
+msgstr "磨砂 -2"
 
 #: src/main/print-olympus.c:1641 src/main/print-olympus.c:1939
 msgid "Matte -3"
-msgstr ""
+msgstr "磨砂 -3"
 
 #: src/main/print-olympus.c:1642 src/main/print-olympus.c:1940
 msgid "Matte -4"
-msgstr ""
+msgstr "磨砂 -4"
 
 #: src/main/print-olympus.c:1643 src/main/print-olympus.c:1941
 msgid "Matte -5"
-msgstr ""
+msgstr "磨砂 -5"
 
 #: src/main/print-olympus.c:2738
 msgid "Printer Default"
@@ -2298,27 +2299,27 @@ msgstr ""
 #: src/main/print-olympus.c:3814 src/main/print-olympus.c:3822
 #: src/main/print-olympus.c:3830 src/main/print-olympus.c:3838
 msgid "Output Level Adjustment"
-msgstr ""
+msgstr "输出级别调整"
 
 #: src/main/print-olympus.c:3815
 msgid "Adjust the cyan balance"
-msgstr ""
+msgstr "调整青色平衡"
 
 #: src/main/print-olympus.c:3823
 msgid "Adjust the magenta balance"
-msgstr ""
+msgstr "调整品红平衡"
 
 #: src/main/print-olympus.c:3831
 msgid "Adjust the yellow balance"
-msgstr ""
+msgstr "调整黄色平衡"
 
 #: src/main/print-olympus.c:3838
 msgid "Black Balance"
-msgstr ""
+msgstr "黑色平衡"
 
 #: src/main/print-olympus.c:3839
 msgid "Adjust the black balance"
-msgstr ""
+msgstr "调整黑色平衡"
 
 #: src/main/print-pcl.c:184
 msgid "Plain"
@@ -2334,59 +2335,59 @@ msgstr ""
 
 #: src/main/print-pcl.c:187
 msgid "Glossy Photo"
-msgstr ""
+msgstr "光面相片"
 
 #: src/main/print-pcl.c:188
 msgid "Transparency"
-msgstr ""
+msgstr "透明纸"
 
 #: src/main/print-pcl.c:189
 msgid "Quick-dry Photo"
-msgstr ""
+msgstr "快干相片"
 
 #: src/main/print-pcl.c:190
 msgid "Quick-dry Transparency"
-msgstr ""
+msgstr "快干透明纸"
 
 #: src/main/print-pcl.c:238 src/xml/xmli18n-tmp.h:3333
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 #: src/main/print-pcl.c:239
 msgid "Manual - Movable Guides"
-msgstr ""
+msgstr "手动 - 可移动的参考线"
 
 #: src/main/print-pcl.c:241
 msgid "Tray 1 - Movable Guides"
-msgstr ""
+msgstr "托盘 1 - 可移动的参考线"
 
 #: src/main/print-pcl.c:242 src/xml/xmli18n-tmp.h:2529
 msgid "Tray 1"
-msgstr ""
+msgstr "托盘 1"
 
 #: src/main/print-pcl.c:243
 msgid "Tray 2 - Movable Guides"
-msgstr ""
+msgstr "托盘 2 - 可移动的参考线"
 
 #: src/main/print-pcl.c:244 src/main/print-pcl.c:252 src/xml/xmli18n-tmp.h:2530
 msgid "Tray 2"
-msgstr ""
+msgstr "托盘 2"
 
 #: src/main/print-pcl.c:245
 msgid "Tray 3 - Movable Guides"
-msgstr ""
+msgstr "托盘 3 - 可移动的参考线"
 
 #: src/main/print-pcl.c:246
 msgid "Tray 3"
-msgstr ""
+msgstr "托盘 3"
 
 #: src/main/print-pcl.c:247
 msgid "Tray 4 - Movable Guides"
-msgstr ""
+msgstr "托盘 4 - 可移动的参考线"
 
 #: src/main/print-pcl.c:248
 msgid "Tray 4"
-msgstr ""
+msgstr "托盘 4"
 
 #: src/main/print-pcl.c:249
 msgid "Portable Sheet Feeder"
@@ -2398,7 +2399,7 @@ msgstr ""
 
 #: src/main/print-pcl.c:251
 msgid "Tray"
-msgstr ""
+msgstr "托盘"
 
 #: src/main/print-pcl.c:253
 msgid "Optional Source"
@@ -2441,7 +2442,7 @@ msgstr "2400x600 DPI"
 #: src/xml/xmli18n-tmp.h:3274 src/xml/xmli18n-tmp.h:3283
 #: src/xml/xmli18n-tmp.h:3292 src/xml/xmli18n-tmp.h:3300
 msgid "Draft"
-msgstr ""
+msgstr "草稿"
 
 #: src/main/print-pcl.c:282 src/main/generic-options.c:37
 #: src/xml/xmli18n-tmp.h:3260 src/xml/xmli18n-tmp.h:3268
@@ -2452,11 +2453,11 @@ msgstr ""
 
 #: src/main/print-pcl.c:1671
 msgid "Color + Black Cartridges"
-msgstr ""
+msgstr "彩色 + 黑色墨盒"
 
 #: src/main/print-pcl.c:1672
 msgid "Color + Photo Cartridges"
-msgstr ""
+msgstr "彩色 + 相片墨盒"
 
 #: src/main/print-ps.c:68
 msgid "PPDFile"
@@ -2472,11 +2473,11 @@ msgstr "型号名称"
 
 #: src/main/print-ps.c:81
 msgid "PPD File Model Name"
-msgstr ""
+msgstr "PPD 文件型号名称"
 
 #: src/main/print-ps.c:316
 msgid "None; please provide a PPD file"
-msgstr ""
+msgstr "无；请提供一个 PPD 文件"
 
 #: src/main/print-ps.c:352 src/xml/xmli18n-tmp.h:3307
 msgid "Letter"
@@ -2492,7 +2493,7 @@ msgstr "自定义"
 
 #: src/main/print-raw.c:244
 msgid "Image dimensions must match paper dimensions"
-msgstr ""
+msgstr "图像尺寸必须与纸张尺寸相符"
 
 #: src/main/print-weave.c:1492 src/main/print-weave.c:1543
 msgid "Fatal error!"
@@ -2500,19 +2501,20 @@ msgstr "致命错误！"
 
 #: src/main/print-weave.c:1528
 msgid "Please report the above information to gimp-print-devel@lists.sourceforge.net"
-msgstr ""
+msgstr "请将上述信息报告给 gimp-print-devel@lists.sourceforge.net"
 
 #: src/main/generic-options.c:33 src/xml/xmli18n-tmp.h:3256
 #: src/xml/xmli18n-tmp.h:3272 src/xml/xmli18n-tmp.h:3281
 #: src/xml/xmli18n-tmp.h:3290
+#, fuzzy
 msgid "Fast Economy"
-msgstr ""
+msgstr "快速经济"
 
 #: src/main/generic-options.c:34 src/xml/xmli18n-tmp.h:3257
 #: src/xml/xmli18n-tmp.h:3273 src/xml/xmli18n-tmp.h:3282
 #: src/xml/xmli18n-tmp.h:3291 src/xml/xmli18n-tmp.h:3299
 msgid "Economy"
-msgstr ""
+msgstr "经济"
 
 #: src/main/generic-options.c:39 src/xml/xmli18n-tmp.h:3262
 #: src/xml/xmli18n-tmp.h:3269 src/xml/xmli18n-tmp.h:3278
@@ -2533,7 +2535,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3280 src/xml/xmli18n-tmp.h:3289
 #: src/xml/xmli18n-tmp.h:3298 src/xml/xmli18n-tmp.h:3306
 msgid "Best"
-msgstr ""
+msgstr "最好"
 
 #: src/main/generic-options.c:46
 msgid "Text"
@@ -2561,7 +2563,7 @@ msgstr "页面"
 
 #: src/main/generic-options.c:56
 msgid "Job"
-msgstr ""
+msgstr "任务"
 
 #: src/main/generic-options.c:68
 msgid "Image Type"
@@ -2569,11 +2571,11 @@ msgstr "图像类型"
 
 #: src/main/generic-options.c:69
 msgid "Type of image being printed"
-msgstr ""
+msgstr "正在打印的图像类型"
 
 #: src/main/generic-options.c:74
 msgid "Job Mode"
-msgstr ""
+msgstr "任务模式"
 
 #: src/main/generic-options.c:75
 msgid "Job vs. page mode"
@@ -2581,15 +2583,15 @@ msgstr ""
 
 #: src/main/generic-options.c:80
 msgid "Page Number"
-msgstr ""
+msgstr "页码"
 
 #: src/main/generic-options.c:81
 msgid "Page number"
-msgstr ""
+msgstr "页码"
 
 #: src/gutenprintui2/curve.c:128
 msgid "Curve type"
-msgstr ""
+msgstr "曲线类型"
 
 #: src/gutenprintui2/curve.c:129
 msgid "Is this curve linear, spline interpolated, or free-form"
@@ -2689,7 +2691,7 @@ msgstr "标准命令"
 
 #: src/gutenprintui2/panel.c:305
 msgid "Use standard print command"
-msgstr ""
+msgstr "使用标准印刷命令"
 
 #: src/gutenprintui2/panel.c:306
 msgid "Custom Command"
@@ -2697,7 +2699,7 @@ msgstr "自定义命令"
 
 #: src/gutenprintui2/panel.c:306
 msgid "Use custom print command"
-msgstr ""
+msgstr "使用自定义印刷命令"
 
 #: src/gutenprintui2/panel.c:307 src/gutenprintui2/plist.c:704
 #: src/gutenprintui2/plist.c:787
@@ -2741,9 +2743,9 @@ msgid "Reset"
 msgstr "复位"
 
 #: src/gutenprintui2/panel.c:1383
-#, c-format
+#, fuzzy, c-format
 msgid "%s -- Print v%s"
-msgstr ""
+msgstr "%s -- 打印 v%s"
 
 #: src/gutenprintui2/panel.c:1392
 msgid "About"
@@ -2820,7 +2822,7 @@ msgstr "副本数量"
 
 #: src/gutenprintui2/panel.c:1607
 msgid "Select the number of copies to print; a value between 1 and 100"
-msgstr ""
+msgstr "选择要打印的副本数；输入一个介于 1 到 100 的数值"
 
 #: src/gutenprintui2/panel.c:1639
 msgid "Image Position"
@@ -2832,11 +2834,11 @@ msgstr "自动"
 
 #: src/gutenprintui2/panel.c:1658
 msgid "Portrait"
-msgstr ""
+msgstr "竖直"
 
 #: src/gutenprintui2/panel.c:1660
 msgid "Landscape"
-msgstr ""
+msgstr "水平"
 
 #: src/gutenprintui2/panel.c:1662
 msgid "Upside down"
@@ -2852,11 +2854,11 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1670
 msgid "Orientation:"
-msgstr ""
+msgstr "朝向："
 
 #: src/gutenprintui2/panel.c:1681
 msgid "Left:"
-msgstr ""
+msgstr "右边："
 
 #: src/gutenprintui2/panel.c:1682
 msgid "Distance from the left of the paper to the image"
@@ -2864,7 +2866,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1685 src/gutenprintui2/panel.c:1689
 msgid "Right:"
-msgstr ""
+msgstr "左边："
 
 #: src/gutenprintui2/panel.c:1686
 msgid "Distance from the left of the paper to the right of the image"
@@ -2876,7 +2878,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1692
 msgid "Top:"
-msgstr ""
+msgstr "顶部："
 
 #: src/gutenprintui2/panel.c:1693
 msgid "Distance from the top of the paper to the image"
@@ -2884,7 +2886,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1696 src/gutenprintui2/panel.c:1700
 msgid "Bottom:"
-msgstr ""
+msgstr "底部："
 
 #: src/gutenprintui2/panel.c:1697
 msgid "Distance from the top of the paper to bottom of the image"
@@ -2896,11 +2898,11 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1711
 msgid "Center:"
-msgstr ""
+msgstr "中点："
 
 #: src/gutenprintui2/panel.c:1714
 msgid "Horizontal"
-msgstr ""
+msgstr "水平"
 
 #: src/gutenprintui2/panel.c:1715
 msgid "Center the image horizontally on the paper"
@@ -2912,7 +2914,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1720
 msgid "Vertical"
-msgstr ""
+msgstr "垂直"
 
 #: src/gutenprintui2/panel.c:1721
 msgid "Center the image vertically on the paper"
@@ -2920,40 +2922,40 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1734
 msgid "Setup Printer"
-msgstr ""
+msgstr "设置打印机"
 
 #: src/gutenprintui2/panel.c:1758
 msgid "Printer Make:"
-msgstr ""
+msgstr "打印机制造商："
 
 #: src/gutenprintui2/panel.c:1769
 msgid "Select the make of your printer"
-msgstr ""
+msgstr "选择打印机的制造商"
 
 #: src/gutenprintui2/panel.c:1787 src/gutenprintui2/panel.c:1875
 #: src/gutenprintui2/panel.c:2093
 msgid "Printer Model:"
-msgstr ""
+msgstr "打印机型号："
 
 #: src/gutenprintui2/panel.c:1798
 msgid "Select your printer model"
-msgstr ""
+msgstr "选择打印机型号"
 
 #: src/gutenprintui2/panel.c:1846
 msgid "PPD File:"
-msgstr ""
+msgstr "PPD 文件："
 
 #: src/gutenprintui2/panel.c:1862
 msgid "Enter the correct PPD filename for your printer"
-msgstr ""
+msgstr "为你的打印机输入正确的 PPD 文件名"
 
 #: src/gutenprintui2/panel.c:1864 src/gutenprintui2/panel.c:1944
 msgid "Browse"
-msgstr ""
+msgstr "浏览"
 
 #: src/gutenprintui2/panel.c:1871
 msgid "Choose the correct PPD filename for your printer"
-msgstr ""
+msgstr "为你的打印机选择正确的 PPD 文件名"
 
 #: src/gutenprintui2/panel.c:1913
 msgid "Select the name of the output queue (not the type, or model, of printer) that you wish to print to"
@@ -2961,7 +2963,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1915
 msgid "Printer Queue:"
-msgstr ""
+msgstr "打印队列："
 
 #: src/gutenprintui2/panel.c:1931
 msgid "Enter the correct command to print to your printer. "
@@ -2969,23 +2971,24 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:1942
 msgid "Enter the file to print to. "
-msgstr ""
+msgstr "输入要打印到的文件。 "
 
 #: src/gutenprintui2/panel.c:1950
+#, fuzzy
 msgid "File to print to"
-msgstr ""
+msgstr "要打印到的文件"
 
 #: src/gutenprintui2/panel.c:1958
 msgid "Print To File"
-msgstr ""
+msgstr "打印到文件"
 
 #: src/gutenprintui2/panel.c:1988
 msgid "Define New Printer"
-msgstr ""
+msgstr "定义新打印机"
 
 #: src/gutenprintui2/panel.c:2006 src/gutenprintui2/panel.c:2090
 msgid "Printer Name:"
-msgstr ""
+msgstr "打印机名称："
 
 #: src/gutenprintui2/panel.c:2010
 msgid "Enter the name you wish to give this logical printer"
@@ -2993,31 +2996,31 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2020
 msgid "About Gutenprint "
-msgstr ""
+msgstr "关于 Gutenprint "
 
 #: src/gutenprintui2/panel.c:2027
 msgid "Gutenprint Version "
-msgstr ""
+msgstr "Gutenprint 版本"
 
 #: src/gutenprintui2/panel.c:2075
 msgid "Printer Settings"
-msgstr ""
+msgstr "打印机设置"
 
 #: src/gutenprintui2/panel.c:2088
 msgid "Select the name of the printer (not the type, or model, of printer) that you wish to print to"
-msgstr ""
+msgstr "选择需要使用的打印机名称（非打印机的类型或型号）"
 
 #: src/gutenprintui2/panel.c:2105
 msgid "Setup Printer..."
-msgstr ""
+msgstr "设置打印机..."
 
 #: src/gutenprintui2/panel.c:2107
 msgid "Choose the printer model, PPD file, and command that is used to print to this printer"
-msgstr ""
+msgstr "选择打印机型号、PPD 文件以及用于此打印机的印刷命令"
 
 #: src/gutenprintui2/panel.c:2120
 msgid "New Printer..."
-msgstr ""
+msgstr "新打印机..."
 
 #: src/gutenprintui2/panel.c:2121
 msgid "Define a new logical printer. This can be used to name a collection of settings that you wish to remember for future use."
@@ -3025,11 +3028,11 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2151
 msgid "Set Printer Option Defaults"
-msgstr ""
+msgstr "设置打印机选项默认值"
 
 #: src/gutenprintui2/panel.c:2152
 msgid "Set all printer options to their defaults"
-msgstr ""
+msgstr "将所有打印机选项设置为默认值"
 
 #: src/gutenprintui2/panel.c:2175
 msgid "Image Size"
@@ -3069,25 +3072,25 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:2266
 msgid "Set the width of the print"
-msgstr ""
+msgstr "设置印刷品的宽度"
 
 #: src/gutenprintui2/panel.c:2268
 msgid "Set the height of the print"
-msgstr ""
+msgstr "设置印刷品的高度"
 
 #: src/gutenprintui2/panel.c:2274
 msgid ""
 "Use Original\n"
 "Image Size"
-msgstr ""
+msgstr "使用原图像大小"
 
 #: src/gutenprintui2/panel.c:2280
 msgid "Set the print size to the size of the image"
-msgstr ""
+msgstr "将印刷大小设置为图像尺寸"
 
 #: src/gutenprintui2/panel.c:2304
 msgid "Print Color Adjust"
-msgstr ""
+msgstr "印刷色彩调整"
 
 #: src/gutenprintui2/panel.c:2307
 msgid "Set Defaults"
@@ -3103,7 +3106,7 @@ msgstr "图像预览"
 
 #: src/gutenprintui2/panel.c:2352
 msgid "View Output Channels:"
-msgstr ""
+msgstr "查看输出通道："
 
 #: src/gutenprintui2/panel.c:2443
 msgid "Output"
@@ -3115,15 +3118,15 @@ msgstr "输出类型："
 
 #: src/gutenprintui2/panel.c:2475
 msgid "Select the desired output type"
-msgstr ""
+msgstr "选择希望使用的输出类型"
 
 #: src/gutenprintui2/panel.c:2496
 msgid "Adjust Output..."
-msgstr ""
+msgstr "调整输出..."
 
 #: src/gutenprintui2/panel.c:2505
 msgid "Adjust color balance, brightness, contrast, saturation, and dither algorithm"
-msgstr ""
+msgstr "调整色彩平衡、亮度、对比度、饱和度以及抖动算法"
 
 #: src/gutenprintui2/panel.c:2524
 msgid "Size Units:"
@@ -3563,7 +3566,7 @@ msgstr "未知"
 #: src/xml/xmli18n-tmp.h:3075 src/xml/xmli18n-tmp.h:3098
 #: src/xml/xmli18n-tmp.h:3124 src/xml/xmli18n-tmp.h:3189
 msgid "Light Cyan"
-msgstr ""
+msgstr "淡青色"
 
 #: src/escputil/escputil.c:1064 src/escputil/escputil.c:1084
 #: src/escputil/escputil.c:1352 src/xml/xmli18n-tmp.h:961
@@ -3600,7 +3603,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3100 src/xml/xmli18n-tmp.h:3126
 #: src/xml/xmli18n-tmp.h:3191
 msgid "Light Magenta"
-msgstr ""
+msgstr "淡品红色"
 
 #: src/escputil/escputil.c:1067 src/xml/xmli18n-tmp.h:1487
 #: src/xml/xmli18n-tmp.h:1817 src/xml/xmli18n-tmp.h:2191
@@ -3609,8 +3612,9 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2815 src/xml/xmli18n-tmp.h:3073
 #: src/xml/xmli18n-tmp.h:3095 src/xml/xmli18n-tmp.h:3121
 #: src/xml/xmli18n-tmp.h:3187
+#, fuzzy
 msgid "Light Black"
-msgstr ""
+msgstr "淡黑色"
 
 #: src/escputil/escputil.c:1068 src/xml/xmli18n-tmp.h:209
 #: src/xml/xmli18n-tmp.h:231 src/xml/xmli18n-tmp.h:584
@@ -3642,7 +3646,7 @@ msgstr ""
 #: src/escputil/escputil.c:1073 src/escputil/escputil.c:1092
 #: src/xml/xmli18n-tmp.h:2082 src/xml/xmli18n-tmp.h:2671
 msgid "Orange"
-msgstr ""
+msgstr "橙色"
 
 #: src/escputil/escputil.c:1104
 #, c-format
@@ -3917,12 +3921,12 @@ msgstr ""
 #: src/escputil/escputil.c:1880
 #, c-format
 msgid "Cannot identify printer model.\n"
-msgstr ""
+msgstr "无法识别打印机型号\n"
 
 #: src/escputil/escputil.c:1902
 #, c-format
 msgid "Cleaning heads...\n"
-msgstr ""
+msgstr "正在清理喷墨头...\n"
 
 #: src/escputil/escputil.c:1919
 #, c-format
@@ -4051,9 +4055,9 @@ msgid ""
 msgstr ""
 
 #: src/escputil/escputil.c:2056
-#, c-format
+#, fuzzy, c-format
 msgid "Repeating the alignment process.\n"
-msgstr ""
+msgstr "正在重复进行对齐。\n"
 
 #: src/escputil/escputil.c:2062
 #, c-format
@@ -4095,7 +4099,7 @@ msgstr ""
 #: src/escputil/escputil.c:2091
 #, c-format
 msgid "Unrecognized command.\n"
-msgstr ""
+msgstr "无法识别的命令。\n"
 
 #: src/escputil/escputil.c:2094
 #, c-format
@@ -4116,7 +4120,7 @@ msgstr ""
 #: src/escputil/escputil.c:2168 src/escputil/escputil.c:2199
 #: src/escputil/escputil.c:2242
 msgid "Press enter to continue > "
-msgstr ""
+msgstr "按回车键以继续 > "
 
 #: src/escputil/escputil.c:2175
 #, c-format
@@ -4128,7 +4132,7 @@ msgstr ""
 #: src/escputil/escputil.c:2188
 #, c-format
 msgid "Pass #%d"
-msgstr ""
+msgstr "第 #%d 次"
 
 #: src/escputil/escputil.c:2196 src/escputil/escputil.c:2241
 #, c-format
@@ -4153,12 +4157,12 @@ msgstr ""
 #: src/escputil/escputil.c:2233
 #, c-format
 msgid "Attempting to set alignment..."
-msgstr ""
+msgstr "正在尝试设置对齐..."
 
 #: src/escputil/escputil.c:2236
 #, c-format
 msgid "succeeded.\n"
-msgstr ""
+msgstr "成功。\n"
 
 #: src/escputil/escputil.c:2237
 #, c-format
@@ -4172,19 +4176,20 @@ msgstr ""
 #: src/escputil/escputil.c:2283
 #, c-format
 msgid "Error in input\n"
-msgstr ""
+msgstr "输入中存在错误\n"
 
 #: src/gimp2/print-gutenprint.c:47
 msgid "_Print with Gutenprint..."
-msgstr ""
+msgstr "使用 Gutenprint 打印 (_P)"
 
 #: src/gimp2/print-gutenprint.c:49
+#, fuzzy
 msgid "<Image>/File/Print with Gutenprint..."
-msgstr ""
+msgstr "<图像>/文件/使用 Gutenprint 打印..."
 
 #: src/gimp2/print-image-gimp.c:225
 msgid "Printing..."
-msgstr ""
+msgstr "正在打印..."
 
 #: src/xml/xmli18n-tmp.h:2 src/xml/xmli18n-tmp.h:26 src/xml/xmli18n-tmp.h:52
 #: src/xml/xmli18n-tmp.h:70 src/xml/xmli18n-tmp.h:92 src/xml/xmli18n-tmp.h:114
@@ -4215,12 +4220,12 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3174 src/xml/xmli18n-tmp.h:3206
 #: src/xml/xmli18n-tmp.h:3216 src/xml/xmli18n-tmp.h:3226
 msgid "EPSON Standard Inks"
-msgstr ""
+msgstr "爱普生标准墨水"
 
 #: src/xml/xmli18n-tmp.h:3 src/xml/xmli18n-tmp.h:27 src/xml/xmli18n-tmp.h:140
 #: src/xml/xmli18n-tmp.h:166
 msgid "Bright White Paper"
-msgstr ""
+msgstr "亮白色纸张"
 
 #: src/xml/xmli18n-tmp.h:4 src/xml/xmli18n-tmp.h:28 src/xml/xmli18n-tmp.h:53
 #: src/xml/xmli18n-tmp.h:74 src/xml/xmli18n-tmp.h:96 src/xml/xmli18n-tmp.h:118
@@ -4242,7 +4247,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:809 src/xml/xmli18n-tmp.h:830
 #: src/xml/xmli18n-tmp.h:849 src/xml/xmli18n-tmp.h:3311
 msgid "Postcard"
-msgstr ""
+msgstr "明信片"
 
 #: src/xml/xmli18n-tmp.h:8 src/xml/xmli18n-tmp.h:31 src/xml/xmli18n-tmp.h:57
 #: src/xml/xmli18n-tmp.h:78 src/xml/xmli18n-tmp.h:100 src/xml/xmli18n-tmp.h:122
@@ -4349,7 +4354,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:826 src/xml/xmli18n-tmp.h:844
 #: src/xml/xmli18n-tmp.h:864
 msgid "ColorLife Paper"
-msgstr ""
+msgstr "ColorLife 纸张"
 
 #: src/xml/xmli18n-tmp.h:39
 msgid "Premium Glossy Photo Paper 170 wt"
@@ -4476,8 +4481,9 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:1416 src/xml/xmli18n-tmp.h:1462
 #: src/xml/xmli18n-tmp.h:1581 src/xml/xmli18n-tmp.h:1952
 #: src/xml/xmli18n-tmp.h:1969 src/xml/xmli18n-tmp.h:2177
+#, fuzzy
 msgid "360 x 90 DPI Fast Economy"
-msgstr ""
+msgstr "360 x 90 DPI 快速经济"
 
 #: src/xml/xmli18n-tmp.h:871 src/xml/xmli18n-tmp.h:883
 #: src/xml/xmli18n-tmp.h:896 src/xml/xmli18n-tmp.h:908
@@ -4494,7 +4500,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:1404 src/xml/xmli18n-tmp.h:1417
 #: src/xml/xmli18n-tmp.h:1463 src/xml/xmli18n-tmp.h:1582
 msgid "180 DPI Economy"
-msgstr ""
+msgstr "180 DPI 经济"
 
 #: src/xml/xmli18n-tmp.h:872 src/xml/xmli18n-tmp.h:885
 #: src/xml/xmli18n-tmp.h:898 src/xml/xmli18n-tmp.h:909
@@ -4532,7 +4538,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2352 src/xml/xmli18n-tmp.h:2364
 #: src/xml/xmli18n-tmp.h:2376 src/xml/xmli18n-tmp.h:2382
 msgid "360 x 180 DPI Draft"
-msgstr ""
+msgstr "360 x 180 DPI 草稿"
 
 #: src/xml/xmli18n-tmp.h:873 src/xml/xmli18n-tmp.h:886
 #: src/xml/xmli18n-tmp.h:899 src/xml/xmli18n-tmp.h:910
@@ -4543,7 +4549,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:1112 src/xml/xmli18n-tmp.h:1190
 #: src/xml/xmli18n-tmp.h:1393 src/xml/xmli18n-tmp.h:1465
 msgid "360 DPI High Quality"
-msgstr ""
+msgstr "360 DPI 高质量"
 
 #: src/xml/xmli18n-tmp.h:874 src/xml/xmli18n-tmp.h:887
 #: src/xml/xmli18n-tmp.h:900 src/xml/xmli18n-tmp.h:911
@@ -4758,7 +4764,7 @@ msgstr "720 DPI"
 #: src/xml/xmli18n-tmp.h:2427 src/xml/xmli18n-tmp.h:2444
 #: src/xml/xmli18n-tmp.h:2461
 msgid "360 x 120 DPI Economy"
-msgstr ""
+msgstr "360 x 120 DPI 经济"
 
 #: src/xml/xmli18n-tmp.h:884 src/xml/xmli18n-tmp.h:897
 #: src/xml/xmli18n-tmp.h:1034 src/xml/xmli18n-tmp.h:1060
@@ -4781,7 +4787,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:1987 src/xml/xmli18n-tmp.h:2002
 #: src/xml/xmli18n-tmp.h:2147
 msgid "360 x 240 DPI Draft"
-msgstr ""
+msgstr "360 x 240 DPI 草稿"
 
 #: src/xml/xmli18n-tmp.h:914 src/xml/xmli18n-tmp.h:927
 #: src/xml/xmli18n-tmp.h:940 src/xml/xmli18n-tmp.h:953
@@ -4804,7 +4810,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:2416 src/xml/xmli18n-tmp.h:2433
 #: src/xml/xmli18n-tmp.h:2450
 msgid "720 DPI High Quality"
-msgstr ""
+msgstr "720 DPI 高质量"
 
 #: src/xml/xmli18n-tmp.h:915 src/xml/xmli18n-tmp.h:928
 #: src/xml/xmli18n-tmp.h:941 src/xml/xmli18n-tmp.h:954
@@ -4885,12 +4891,12 @@ msgstr "1440 x 720 DPI"
 #: src/xml/xmli18n-tmp.h:1650 src/xml/xmli18n-tmp.h:1688
 #: src/xml/xmli18n-tmp.h:1918
 msgid "1440 x 720 DPI Highest Quality"
-msgstr ""
+msgstr "1440 x 720 DPI 最高质量"
 
 #: src/xml/xmli18n-tmp.h:1002 src/xml/xmli18n-tmp.h:1015
 #: src/xml/xmli18n-tmp.h:1155 src/xml/xmli18n-tmp.h:1433
 msgid "720 DPI Highest Quality"
-msgstr ""
+msgstr "720 DPI 最高质量"
 
 #: src/xml/xmli18n-tmp.h:1301 src/xml/xmli18n-tmp.h:1314
 #: src/xml/xmli18n-tmp.h:1327 src/xml/xmli18n-tmp.h:1342
@@ -4910,7 +4916,7 @@ msgstr "2880 x 720 DPI"
 #: src/xml/xmli18n-tmp.h:1358 src/xml/xmli18n-tmp.h:1373
 #: src/xml/xmli18n-tmp.h:1690 src/xml/xmli18n-tmp.h:1920
 msgid "2880 x 720 DPI Highest Quality"
-msgstr ""
+msgstr "2880 x 720 DPI 最告质量"
 
 #: src/xml/xmli18n-tmp.h:1456 src/xml/xmli18n-tmp.h:1493
 #: src/xml/xmli18n-tmp.h:1532 src/xml/xmli18n-tmp.h:1547
@@ -4988,7 +4994,7 @@ msgstr "2880 x 1440 DPI"
 #: src/xml/xmli18n-tmp.h:1568 src/xml/xmli18n-tmp.h:1620
 #: src/xml/xmli18n-tmp.h:2743
 msgid "Dark Yellow"
-msgstr ""
+msgstr "深黄色"
 
 #: src/xml/xmli18n-tmp.h:1626 src/xml/xmli18n-tmp.h:1638
 #: src/xml/xmli18n-tmp.h:1721 src/xml/xmli18n-tmp.h:1765
@@ -5084,36 +5090,36 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:2189
 msgid "Vivid Light Magenta"
-msgstr ""
+msgstr "鲜艳的淡品红色"
 
 #: src/xml/xmli18n-tmp.h:2194
 msgid "Vivid Magenta"
-msgstr ""
+msgstr "鲜艳的品红色"
 
 #: src/xml/xmli18n-tmp.h:2471
 msgid "Main Tray"
-msgstr ""
+msgstr "主托盘"
 
 #: src/xml/xmli18n-tmp.h:2472
 msgid "Photo Tray"
-msgstr ""
+msgstr "相片托盘"
 
 #: src/xml/xmli18n-tmp.h:2473 src/xml/xmli18n-tmp.h:2477
 #: src/xml/xmli18n-tmp.h:2480 src/xml/xmli18n-tmp.h:2485
 #: src/xml/xmli18n-tmp.h:2506 src/xml/xmli18n-tmp.h:2514
 #: src/xml/xmli18n-tmp.h:2518 src/xml/xmli18n-tmp.h:2521
 msgid "Print to CD"
-msgstr ""
+msgstr "打印到 CD 光盘"
 
 #: src/xml/xmli18n-tmp.h:2474 src/xml/xmli18n-tmp.h:2516
 #: src/xml/xmli18n-tmp.h:2519
 msgid "Rear Tray"
-msgstr ""
+msgstr "后托盘"
 
 #: src/xml/xmli18n-tmp.h:2475 src/xml/xmli18n-tmp.h:2517
 #: src/xml/xmli18n-tmp.h:2520
 msgid "Front Tray"
-msgstr ""
+msgstr "前托盘"
 
 #: src/xml/xmli18n-tmp.h:2479 src/xml/xmli18n-tmp.h:2484
 #: src/xml/xmli18n-tmp.h:2497
@@ -5138,7 +5144,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:2490
 msgid "Main Input"
-msgstr ""
+msgstr "主输入"
 
 #: src/xml/xmli18n-tmp.h:2492 src/xml/xmli18n-tmp.h:2503
 #: src/xml/xmli18n-tmp.h:2508 src/xml/xmli18n-tmp.h:2512
@@ -5306,7 +5312,7 @@ msgstr "灰 1"
 #: src/xml/xmli18n-tmp.h:3049 src/xml/xmli18n-tmp.h:3158
 #: src/xml/xmli18n-tmp.h:3173
 msgid "MIS Quadtone"
-msgstr "4x6"
+msgstr ""
 
 #: src/xml/xmli18n-tmp.h:2633 src/xml/xmli18n-tmp.h:2860
 #: src/xml/xmli18n-tmp.h:2885 src/xml/xmli18n-tmp.h:2910
@@ -5474,7 +5480,7 @@ msgstr "爱普生相纸（定页撕纸）"
 
 #: src/xml/xmli18n-tmp.h:3322
 msgid "Epson L Photo Paper (tear-off borders)"
-msgstr ""
+msgstr "爱普生 L 相纸（定页撕纸）"
 
 #: src/xml/xmli18n-tmp.h:3323
 msgid "4x8"
@@ -5526,7 +5532,7 @@ msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3336
 msgid "Engineering C 17x22"
-msgstr ""
+msgstr "工程 C 17x22"
 
 #: src/xml/xmli18n-tmp.h:3337
 msgid "8x8"
@@ -6049,16 +6055,19 @@ msgid "Commercial 10 landscape"
 msgstr ""
 
 #: src/xml/xmli18n-tmp.h:3468
+#, fuzzy
 msgid "A2 Invitation"
-msgstr ""
+msgstr "A2 请柬"
 
 #: src/xml/xmli18n-tmp.h:3469
+#, fuzzy
 msgid "Monarch Envelope"
-msgstr ""
+msgstr "君主信封"
 
 #: src/xml/xmli18n-tmp.h:3470
+#, fuzzy
 msgid "Monarch Envelope landscape"
-msgstr ""
+msgstr "水平君主信封"
 
 #: src/xml/xmli18n-tmp.h:3471
 msgid "4x5 3/8"
@@ -6069,8 +6078,9 @@ msgid "4x7"
 msgstr "4x7"
 
 #: src/xml/xmli18n-tmp.h:3473
+#, fuzzy
 msgid "Wide 101.6x180.6"
-msgstr ""
+msgstr "宽 101.6x180.6"
 
 #: src/xml/xmli18n-tmp.h:3474
 msgid "CP_L"
@@ -6078,79 +6088,82 @@ msgstr "CP_L"
 
 #: src/xml/xmli18n-tmp.h:3475
 msgid "Credit Card"
-msgstr ""
+msgstr "信用卡"
 
 #: src/xml/xmli18n-tmp.h:3476
 msgid "Japanese Business Card"
-msgstr ""
+msgstr "日本名片"
 
 #: src/xml/xmli18n-tmp.h:3477
 msgid "Wide Postcard"
-msgstr ""
+msgstr "宽明信片"
 
 #: src/xml/xmli18n-tmp.h:3478
+#, fuzzy
 msgid "Chilean Office"
-msgstr ""
+msgstr "智利办公室"
 
 #: src/xml/xmli18n-tmp.h:3479
+#, fuzzy
 msgid "Chilean Double Letter"
-msgstr ""
+msgstr "智利双倍信纸"
 
 #: src/xml/xmli18n-tmp.h:3480
+#, fuzzy
 msgid "Chilean Double Office"
-msgstr ""
+msgstr "智利双倍办公室"
 
 #: src/xml/xmli18n-tmp.h:3481
 msgid "A3+"
-msgstr ""
+msgstr "A3+"
 
 #: src/xml/xmli18n-tmp.h:3483
 msgid "89 mm Roll Paper"
-msgstr ""
+msgstr "89 毫米卷纸"
 
 #: src/xml/xmli18n-tmp.h:3484
 msgid "4 Inch Roll Paper"
-msgstr ""
+msgstr "4 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3485
 msgid "5 Inch Roll Paper"
-msgstr ""
+msgstr "5 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3486
 msgid "210 mm Roll Paper"
-msgstr ""
+msgstr "210 毫米卷纸"
 
 #: src/xml/xmli18n-tmp.h:3487
 msgid "13 Inch Roll Paper"
-msgstr ""
+msgstr "13 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3488
 msgid "17 Inch Roll Paper"
-msgstr ""
+msgstr "17 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3489
 msgid "22 Inch Roll Paper"
-msgstr ""
+msgstr "22 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3490
 msgid "24 Inch Roll Paper"
-msgstr ""
+msgstr "24 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3491
 msgid "36 Inch Roll Paper"
-msgstr ""
+msgstr "36 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3492
 msgid "44 Inch Roll Paper"
-msgstr ""
+msgstr "44 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3493
 msgid "60 Inch Roll Paper"
-msgstr ""
+msgstr "60 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3494
 msgid "64 Inch Roll Paper"
-msgstr ""
+msgstr "64 英寸卷纸"
 
 #: src/xml/xmli18n-tmp.h:3495
 msgid "PostScript Level 1"
