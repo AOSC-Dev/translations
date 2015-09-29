@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: gutenprint 20110308\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-26 09:57-0600\n"
+"PO-Revision-Date: 2015-09-29 07:35-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -532,7 +532,7 @@ msgstr "鲜艳"
 
 #: src/main/print-color.c:52
 msgid "Correct Hue Only"
-msgstr "仅纠正色调"
+msgstr "仅纠正色相"
 
 #: src/main/print-color.c:53
 msgid "Uncorrected"
