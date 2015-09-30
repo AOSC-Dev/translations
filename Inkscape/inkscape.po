@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-13 20:17+0200\n"
-"PO-Revision-Date: 2015-09-30 07:25-0600\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2015-09-30 22:46+0800\n"
+"Last-Translator: Junde Yi <lmy441900@gmail.com>\n"
 "Language-Team: AOSC Anger Dump <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Bookmarks: 159,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -34,16 +34,15 @@ msgstr "矢量图形编辑器"
 
 #: ../inkscape.desktop.in.h:3
 msgid "Inkscape Vector Graphics Editor"
-msgstr "Inkscape矢量绘图软件"
+msgstr "Inkscape 矢量绘图软件"
 
 #: ../inkscape.desktop.in.h:4
 msgid "Create and edit Scalable Vector Graphics images"
 msgstr "创建并编辑可缩放矢量图形图像"
 
 #: ../inkscape.desktop.in.h:5
-#, fuzzy
 msgid "New Drawing"
-msgstr "绘图"
+msgstr "新建绘图"
 
 #: ../share/filters/filters.svg.h:2
 #, fuzzy
@@ -1141,7 +1140,7 @@ msgstr "旧明信片"
 
 #: ../share/filters/filters.svg.h:448
 msgid "Slightly posterize and draw edges like on old printed postcards"
-msgstr "类似多色相分色印, 边沿类似于陈旧的印刷明信片"
+msgstr "类似多色调分色印, 边沿类似于陈旧的印刷明信片"
 
 #: ../share/filters/filters.svg.h:450
 #, fuzzy
@@ -1558,8 +1557,9 @@ msgid "Blend an image with its hue opposite"
 msgstr ""
 
 #: ../share/filters/filters.svg.h:630
+#, fuzzy
 msgid "Hue to White"
-msgstr "旋转色相"
+msgstr "旋转色调"
 
 #: ../share/filters/filters.svg.h:632
 msgid "Fades hue progressively to white"
@@ -2038,98 +2038,98 @@ msgstr "捕捉到对象的中心"
 #: ../share/palettes/palettes.h:2
 msgctxt "Palette"
 msgid "Black"
-msgstr ""
+msgstr "黑色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:3
 #, no-c-format
 msgctxt "Palette"
 msgid "90% Gray"
-msgstr ""
+msgstr "90% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:4
 #, no-c-format
 msgctxt "Palette"
 msgid "80% Gray"
-msgstr ""
+msgstr "80% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:5
 #, no-c-format
 msgctxt "Palette"
 msgid "70% Gray"
-msgstr ""
+msgstr "70% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:6
 #, no-c-format
 msgctxt "Palette"
 msgid "60% Gray"
-msgstr ""
+msgstr "60% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:7
 #, no-c-format
 msgctxt "Palette"
 msgid "50% Gray"
-msgstr ""
+msgstr "50% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:8
 #, no-c-format
 msgctxt "Palette"
 msgid "40% Gray"
-msgstr ""
+msgstr "40% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:9
 #, no-c-format
 msgctxt "Palette"
 msgid "30% Gray"
-msgstr ""
+msgstr "30% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:10
 #, no-c-format
 msgctxt "Palette"
 msgid "20% Gray"
-msgstr ""
+msgstr "20% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:11
 #, no-c-format
 msgctxt "Palette"
 msgid "10% Gray"
-msgstr ""
+msgstr "10% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:12
 #, no-c-format
 msgctxt "Palette"
 msgid "7.5% Gray"
-msgstr ""
+msgstr "7.5% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:13
 #, no-c-format
 msgctxt "Palette"
 msgid "5% Gray"
-msgstr ""
+msgstr "5% 灰色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:14
 #, no-c-format
 msgctxt "Palette"
 msgid "2.5% Gray"
-msgstr ""
+msgstr "2.5% 灰色"
 
 # WARNING: X11 COLORS, REWORK NEEDED!
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:15
 msgctxt "Palette"
 msgid "White"
-msgstr "白"
+msgstr "白色"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:16
@@ -2321,7 +2321,7 @@ msgstr "雪白 (#FFFAFA)"
 #: ../share/palettes/palettes.h:46
 msgctxt "Palette"
 msgid "mistyrose (#FFE4E1)"
-msgstr "浅玫瑰 (#FFE4E1)"
+msgstr "粉玫瑰红 (#FFE4E1)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:47
@@ -2417,25 +2417,25 @@ msgstr "亚麻色 (#FAF0E6)"
 #: ../share/palettes/palettes.h:61
 msgctxt "Palette"
 msgid "bisque (#FFE4C4)"
-msgstr "黄褐 (#FFE4C4)"
+msgstr "黄褐色 (#FFE4C4)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:62
 msgctxt "Palette"
 msgid "darkorange (#FF8C00)"
-msgstr "暗橙 (#FF8C00)"
+msgstr "暗橙色 (#FF8C00)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:63
 msgctxt "Palette"
 msgid "burlywood (#DEB887)"
-msgstr "实木 (#DEB887)"
+msgstr "原木色 (#DEB887)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:64
 msgctxt "Palette"
 msgid "tan (#D2B48C)"
-msgstr "棕褐 (#D2B48C)"
+msgstr "棕褐色 (#D2B48C)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:65
@@ -2488,7 +2488,7 @@ msgstr "麦色 (#F5DEB3)"
 #: ../share/palettes/palettes.h:72
 msgctxt "Palette"
 msgid "oldlace (#FDF5E6)"
-msgstr "老花 (#FDF5E6)"
+msgstr "旧布黄 (#FDF5E6)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:73
@@ -2504,6 +2504,7 @@ msgstr "暗金黄 (#B8860B)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:75
+#, fuzzy
 msgctxt "Palette"
 msgid "goldenrod (#DAA520)"
 msgstr "金麒麟 (#DAA520)"
@@ -2512,7 +2513,7 @@ msgstr "金麒麟 (#DAA520)"
 #: ../share/palettes/palettes.h:76
 msgctxt "Palette"
 msgid "cornsilk (#FFF8DC)"
-msgstr "米绸 (#FFF8DC)"
+msgstr "玉米穗黄 (#FFF8DC)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:77
@@ -2705,7 +2706,7 @@ msgstr "海绿色 (#2E8B57)"
 #, fuzzy
 msgctxt "Palette"
 msgid "mediumseagreen (#3CB371)"
-msgstr "正海绿色 (#3CB371)"
+msgstr "暗海藻绿 (#3CB371)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:105
@@ -2719,7 +2720,7 @@ msgstr "泉水绿 (#00FF7F)"
 #, fuzzy
 msgctxt "Palette"
 msgid "mintcream (#F5FFFA)"
-msgstr "薄荷冰激凌色 (#F5FFFA)"
+msgstr "薄荷乳白 (#F5FFFA)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:107
@@ -2800,7 +2801,7 @@ msgstr "淡青色 (#E0FFFF)"
 #: ../share/palettes/palettes.h:119
 msgctxt "Palette"
 msgid "azure (#F0FFFF)"
-msgstr ""
+msgstr "天蓝色 (#F0FFFF)"
 
 #. Palette: ./svg.gpl
 #: ../share/palettes/palettes.h:120
@@ -3101,19 +3102,19 @@ msgstr ""
 #: ../share/palettes/palettes.h:167
 msgctxt "Palette"
 msgid "Butter 1"
-msgstr ""
+msgstr "奶油 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:168
 msgctxt "Palette"
 msgid "Butter 2"
-msgstr ""
+msgstr "奶油 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:169
 msgctxt "Palette"
 msgid "Butter 3"
-msgstr ""
+msgstr "奶油 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:170
@@ -3137,139 +3138,139 @@ msgstr ""
 #: ../share/palettes/palettes.h:173
 msgctxt "Palette"
 msgid "Orange 1"
-msgstr ""
+msgstr "橙色 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:174
 msgctxt "Palette"
 msgid "Orange 2"
-msgstr ""
+msgstr "橙色 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:175
 msgctxt "Palette"
 msgid "Orange 3"
-msgstr ""
+msgstr "橙色 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:176
 msgctxt "Palette"
 msgid "Sky Blue 1"
-msgstr ""
+msgstr "天蓝色 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:177
 msgctxt "Palette"
 msgid "Sky Blue 2"
-msgstr ""
+msgstr "天蓝色 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:178
 msgctxt "Palette"
 msgid "Sky Blue 3"
-msgstr ""
+msgstr "天蓝色 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:179
 msgctxt "Palette"
 msgid "Plum 1"
-msgstr ""
+msgstr "李子色 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:180
 msgctxt "Palette"
 msgid "Plum 2"
-msgstr ""
+msgstr "李子色 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:181
 msgctxt "Palette"
 msgid "Plum 3"
-msgstr ""
+msgstr "李子色 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:182
 msgctxt "Palette"
 msgid "Chocolate 1"
-msgstr ""
+msgstr "巧克力色 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:183
 msgctxt "Palette"
 msgid "Chocolate 2"
-msgstr ""
+msgstr "巧克力色 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:184
 msgctxt "Palette"
 msgid "Chocolate 3"
-msgstr ""
+msgstr "巧克力色 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:185
 msgctxt "Palette"
 msgid "Scarlet Red 1"
-msgstr ""
+msgstr "猩红 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:186
 msgctxt "Palette"
 msgid "Scarlet Red 2"
-msgstr ""
+msgstr "猩红 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:187
 msgctxt "Palette"
 msgid "Scarlet Red 3"
-msgstr ""
+msgstr "猩红 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:188
 msgctxt "Palette"
 msgid "Snowy White"
-msgstr ""
+msgstr "雪白色"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:189
 msgctxt "Palette"
 msgid "Aluminium 1"
-msgstr ""
+msgstr "铝白 1"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:190
 msgctxt "Palette"
 msgid "Aluminium 2"
-msgstr ""
+msgstr "铝白 2"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:191
 msgctxt "Palette"
 msgid "Aluminium 3"
-msgstr ""
+msgstr "铝白 3"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:192
 msgctxt "Palette"
 msgid "Aluminium 4"
-msgstr ""
+msgstr "铝白 4"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:193
 msgctxt "Palette"
 msgid "Aluminium 5"
-msgstr ""
+msgstr "铝白 5"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:194
 msgctxt "Palette"
 msgid "Aluminium 6"
-msgstr ""
+msgstr "铝白 6"
 
 #. Palette: ./Tango-Palette.gpl
 #: ../share/palettes/palettes.h:195
 msgctxt "Palette"
 msgid "Jet Black"
-msgstr ""
+msgstr "墨黑"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Stripes 1:1"
@@ -3439,7 +3440,7 @@ msgstr "古画 (位图)"
 #: ../share/symbols/symbols.h:2
 msgctxt "Symbol"
 msgid "AIGA Symbol Signs"
-msgstr ""
+msgstr "AIGA 符号标志"
 
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
@@ -3483,7 +3484,7 @@ msgstr "急救"
 #: ../share/symbols/symbols.h:15 ../share/symbols/symbols.h:16
 msgctxt "Symbol"
 msgid "Lost and Found"
-msgstr "没有圆整"
+msgstr "失物认领"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:17 ../share/symbols/symbols.h:18
@@ -3501,19 +3502,19 @@ msgstr "行李寄存处"
 #: ../share/symbols/symbols.h:21 ../share/symbols/symbols.h:22
 msgctxt "Symbol"
 msgid "Escalator"
-msgstr "Escalator"
+msgstr "自动扶梯"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:23 ../share/symbols/symbols.h:24
 msgctxt "Symbol"
 msgid "Escalator Down"
-msgstr "Escalator Down"
+msgstr "下自动扶梯"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:25 ../share/symbols/symbols.h:26
 msgctxt "Symbol"
 msgid "Escalator Up"
-msgstr "Escalator Up"
+msgstr "上自动扶梯"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:27 ../share/symbols/symbols.h:28
@@ -3535,10 +3536,9 @@ msgstr "上楼梯"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:33 ../share/symbols/symbols.h:34
-#, fuzzy
 msgctxt "Symbol"
 msgid "Elevator"
-msgstr "高度角"
+msgstr "电梯"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:35 ../share/symbols/symbols.h:36
@@ -3572,190 +3572,163 @@ msgstr "饮水台"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:45 ../share/symbols/symbols.h:46
-#, fuzzy
 msgctxt "Symbol"
 msgid "Waiting Room"
-msgstr "脚本"
+msgstr "休息室"
 
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:47 ../share/symbols/symbols.h:48 ../share/symbols/symbols.h:231 ../share/symbols/symbols.h:232
-#, fuzzy
 msgctxt "Symbol"
 msgid "Information"
-msgstr "信息"
+msgstr "咨询处"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:49 ../share/symbols/symbols.h:50
-#, fuzzy
 msgctxt "Symbol"
 msgid "Hotel Information"
-msgstr "页面信息"
+msgstr "酒店信息"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:51 ../share/symbols/symbols.h:52
-#, fuzzy
 msgctxt "Symbol"
 msgid "Air Transportation"
-msgstr "变换"
+msgstr "空运"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:53 ../share/symbols/symbols.h:54
-#, fuzzy
 msgctxt "Symbol"
 msgid "Heliport"
 msgstr "直升飞机场"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:55 ../share/symbols/symbols.h:56
-#, fuzzy
 msgctxt "Symbol"
 msgid "Taxi"
 msgstr "出租车"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:57 ../share/symbols/symbols.h:58
-#, fuzzy
 msgctxt "Symbol"
 msgid "Bus"
-msgstr "模糊"
+msgstr "公交车"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:59 ../share/symbols/symbols.h:60
-#, fuzzy
 msgctxt "Symbol"
 msgid "Ground Transportation"
-msgstr "变换"
+msgstr "地面交通"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:61 ../share/symbols/symbols.h:62
-#, fuzzy
 msgctxt "Symbol"
 msgid "Rail Transportation"
-msgstr "变换"
+msgstr "轨道交通"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:63 ../share/symbols/symbols.h:64
-#, fuzzy
 msgctxt "Symbol"
 msgid "Water Transportation"
-msgstr "变换"
+msgstr "水上交通"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:65 ../share/symbols/symbols.h:66
-#, fuzzy
 msgctxt "Symbol"
 msgid "Car Rental"
 msgstr "汽车出租"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:67 ../share/symbols/symbols.h:68
-#, fuzzy
 msgctxt "Symbol"
 msgid "Restaurant"
 msgstr "餐馆"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:69 ../share/symbols/symbols.h:70
-#, fuzzy
 msgctxt "Symbol"
 msgid "Coffeeshop"
 msgstr "咖啡店"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:71 ../share/symbols/symbols.h:72
-#, fuzzy
 msgctxt "Symbol"
 msgid "Bar"
-msgstr "树皮"
+msgstr "酒吧"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:73 ../share/symbols/symbols.h:74
-#, fuzzy
 msgctxt "Symbol"
 msgid "Shops"
 msgstr "商店"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:75 ../share/symbols/symbols.h:76
-#, fuzzy
 msgctxt "Symbol"
 msgid "Barber Shop - Beauty Salon"
 msgstr "理发店 - 美容院"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:77 ../share/symbols/symbols.h:78
-#, fuzzy
 msgctxt "Symbol"
 msgid "Barber Shop"
 msgstr "理发店"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:79 ../share/symbols/symbols.h:80
-#, fuzzy
 msgctxt "Symbol"
 msgid "Beauty Salon"
 msgstr "美容院"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:81 ../share/symbols/symbols.h:82
-#, fuzzy
 msgctxt "Symbol"
 msgid "Ticket Purchase"
 msgstr "购票处"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:83 ../share/symbols/symbols.h:84
-#, fuzzy
 msgctxt "Symbol"
 msgid "Baggage Check In"
 msgstr "行李登记处"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:85 ../share/symbols/symbols.h:86
-#, fuzzy
 msgctxt "Symbol"
 msgid "Baggage Claim"
 msgstr "行李认领处"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:87 ../share/symbols/symbols.h:88
-#, fuzzy
 msgctxt "Symbol"
 msgid "Customs"
-msgstr "自定义"
+msgstr "海关"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:89 ../share/symbols/symbols.h:90
-#, fuzzy
 msgctxt "Symbol"
 msgid "Immigration"
-msgstr "配置"
+msgstr "移民"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:91 ../share/symbols/symbols.h:92
-#, fuzzy
 msgctxt "Symbol"
 msgid "Departing Flights"
-msgstr "目标高度"
+msgstr "离场航班目标高度"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:93 ../share/symbols/symbols.h:94
-#, fuzzy
 msgctxt "Symbol"
 msgid "Arriving Flights"
-msgstr "亮度"
+msgstr "到达航班"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:95 ../share/symbols/symbols.h:96
-#, fuzzy
 msgctxt "Symbol"
 msgid "Smoking"
 msgstr "吸烟处"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
-#, fuzzy
 msgctxt "Symbol"
 msgid "No Smoking"
 msgstr "不准吸烟"
@@ -3763,161 +3736,138 @@ msgstr "不准吸烟"
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:99 ../share/symbols/symbols.h:100 ../share/symbols/symbols.h:245 ../share/symbols/symbols.h:246
-#, fuzzy
 msgctxt "Symbol"
 msgid "Parking"
 msgstr "停车场"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:101 ../share/symbols/symbols.h:102
-#, fuzzy
 msgctxt "Symbol"
 msgid "No Parking"
 msgstr "不准停车"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:103 ../share/symbols/symbols.h:104
-#, fuzzy
 msgctxt "Symbol"
 msgid "No Dogs"
 msgstr "不准带狗"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:105 ../share/symbols/symbols.h:106
-#, fuzzy
 msgctxt "Symbol"
 msgid "No Entry"
 msgstr "不准进入"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:107 ../share/symbols/symbols.h:108
-#, fuzzy
 msgctxt "Symbol"
 msgid "Exit"
-msgstr "退出"
+msgstr "出口"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:109 ../share/symbols/symbols.h:110
-#, fuzzy
 msgctxt "Symbol"
 msgid "Fire Extinguisher"
 msgstr "灭火器"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:111 ../share/symbols/symbols.h:112
-#, fuzzy
 msgctxt "Symbol"
 msgid "Right Arrow"
-msgstr "右"
+msgstr "右箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:113 ../share/symbols/symbols.h:114
-#, fuzzy
 msgctxt "Symbol"
 msgid "Forward and Right Arrow"
 msgstr "向前再向右箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:115 ../share/symbols/symbols.h:116
-#, fuzzy
 msgctxt "Symbol"
 msgid "Up Arrow"
-msgstr "箭头"
+msgstr "上箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:117 ../share/symbols/symbols.h:118
-#, fuzzy
 msgctxt "Symbol"
 msgid "Forward and Left Arrow"
 msgstr "向前再向左箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:119 ../share/symbols/symbols.h:120
-#, fuzzy
 msgctxt "Symbol"
 msgid "Left Arrow"
-msgstr "箭头"
+msgstr "左箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:121 ../share/symbols/symbols.h:122
-#, fuzzy
 msgctxt "Symbol"
 msgid "Left and Down Arrow"
 msgstr "左下箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:123 ../share/symbols/symbols.h:124
-#, fuzzy
 msgctxt "Symbol"
 msgid "Down Arrow"
-msgstr "箭头"
+msgstr "下箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:125 ../share/symbols/symbols.h:126
-#, fuzzy
 msgctxt "Symbol"
 msgid "Right and Down Arrow"
 msgstr "右下箭头"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:127 ../share/symbols/symbols.h:128
-#, fuzzy
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible - 1996"
-msgstr "NPS 无障碍 - 1996"
+msgstr "NPS 轮椅通道 - 1996"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:129 ../share/symbols/symbols.h:130
-#, fuzzy
 msgctxt "Symbol"
 msgid "NPS Wheelchair Accessible"
-msgstr "NPS 无障碍"
+msgstr "NPS 轮椅通道"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:131 ../share/symbols/symbols.h:132
-#, fuzzy
 msgctxt "Symbol"
 msgid "New Wheelchair Accessible"
-msgstr "新的无障碍"
+msgstr "新轮椅通道"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:133
-#, fuzzy
 msgctxt "Symbol"
 msgid "Word Balloons"
 msgstr "说话气泡"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:134
-#, fuzzy
 msgctxt "Symbol"
 msgid "Thought Balloon"
 msgstr "想法气泡"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:135
-#, fuzzy
 msgctxt "Symbol"
 msgid "Dream Speaking"
 msgstr "梦呓"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:136
-#, fuzzy
 msgctxt "Symbol"
 msgid "Rounded Balloon"
 msgstr "圆角连接"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:137
-#, fuzzy
 msgctxt "Symbol"
 msgid "Squared Balloon"
 msgstr "方头端点"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:138
-#, fuzzy
 msgctxt "Symbol"
 msgid "Over the Phone"
 msgstr "用电话"
@@ -3958,105 +3908,90 @@ msgstr "处理"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:144
-#, fuzzy
 msgctxt "Symbol"
 msgid "Input/Output"
-msgstr "输出"
+msgstr "输入 / 输出"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:145
-#, fuzzy
 msgctxt "Symbol"
 msgid "Document"
 msgstr "文档"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:146
-#, fuzzy
 msgctxt "Symbol"
 msgid "Manual Operation"
-msgstr "数学运算符"
+msgstr "手动操作"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:147
-#, fuzzy
 msgctxt "Symbol"
 msgid "Preparation"
-msgstr "饱和度"
+msgstr "准备"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:148
-#, fuzzy
 msgctxt "Symbol"
 msgid "Merge"
 msgstr "合并"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:149
-#, fuzzy
 msgctxt "Symbol"
 msgid "Decision"
-msgstr "精度"
+msgstr "决断"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:150
-#, fuzzy
 msgctxt "Symbol"
 msgid "Magnetic Tape"
 msgstr "磁带"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:151
-#, fuzzy
 msgctxt "Symbol"
 msgid "Display"
-msgstr "显示模式(_D)"
+msgstr "显示"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:152
-#, fuzzy
 msgctxt "Symbol"
 msgid "Auxiliary Operation"
 msgstr "辅助操作"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:153
-#, fuzzy
 msgctxt "Symbol"
 msgid "Manual Input"
-msgstr "EMF 输入"
+msgstr "手动输入"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:154
-#, fuzzy
 msgctxt "Symbol"
 msgid "Extract"
-msgstr "提取图像"
+msgstr "提取"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:155
-#, fuzzy
 msgctxt "Symbol"
 msgid "Terminal/Interrupt"
 msgstr "中止 / 中断"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:156
-#, fuzzy
 msgctxt "Symbol"
 msgid "Punched Card"
 msgstr "穿孔卡"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:157
-#, fuzzy
 msgctxt "Symbol"
 msgid "Punch Tape"
 msgstr "穿孔"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:158
-#, fuzzy
 msgctxt "Symbol"
 msgid "Online Storage"
 msgstr "在线存储"
@@ -4069,7 +4004,6 @@ msgstr "钥匙圈"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:160
-#, fuzzy
 msgctxt "Symbol"
 msgid "Sort"
 msgstr "排序"
@@ -4092,56 +4026,55 @@ msgstr "连接器"
 #: ../share/symbols/symbols.h:163
 msgctxt "Symbol"
 msgid "Transmittal Tape"
-msgstr ""
+msgstr "传送带"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:164
 msgctxt "Symbol"
 msgid "Communication Link"
-msgstr ""
+msgstr "通讯线路"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:165
-#, fuzzy
 msgctxt "Symbol"
 msgid "Collate"
-msgstr "模式"
+msgstr "校对"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:166
 msgctxt "Symbol"
 msgid "Comment/Annotation"
-msgstr ""
+msgstr "注释 / 注解"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:167
 msgctxt "Symbol"
 msgid "Core"
-msgstr ""
+msgstr "核心"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:168
 msgctxt "Symbol"
 msgid "Predefined Process"
-msgstr ""
+msgstr "预定义处理"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:169
 msgctxt "Symbol"
 msgid "Magnetic Disk (Database)"
-msgstr ""
+msgstr "磁盘 (数据库)"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:170
 msgctxt "Symbol"
 msgid "Magnetic Drum (Direct Access)"
-msgstr ""
+msgstr "磁鼓 (直接访问)"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:171
 msgctxt "Symbol"
 msgid "Offline Storage"
-msgstr ""
+msgstr "离线存储"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:172
@@ -4153,11 +4086,10 @@ msgstr "逻辑或"
 #: ../share/symbols/symbols.h:173
 msgctxt "Symbol"
 msgid "Logical And"
-msgstr ""
+msgstr "逻辑与"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:174
-#, fuzzy
 msgctxt "Symbol"
 msgid "Delay"
 msgstr "延迟"
@@ -4166,79 +4098,79 @@ msgstr "延迟"
 #: ../share/symbols/symbols.h:175
 msgctxt "Symbol"
 msgid "Loop Limit Begin"
-msgstr ""
+msgstr "循环限制开始"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:176
 msgctxt "Symbol"
 msgid "Loop Limit End"
-msgstr ""
+msgstr "循环限制结束"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:177
 msgctxt "Symbol"
 msgid "Logic Symbols"
-msgstr ""
+msgstr "逻辑符号"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:178
 msgctxt "Symbol"
 msgid "Xnor Gate"
-msgstr ""
+msgstr "异或非门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:179
 msgctxt "Symbol"
 msgid "Xor Gate"
-msgstr ""
+msgstr "异或门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:180
 msgctxt "Symbol"
 msgid "Nor Gate"
-msgstr ""
+msgstr "或非门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:181
 msgctxt "Symbol"
 msgid "Or Gate"
-msgstr ""
+msgstr "或门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:182
 msgctxt "Symbol"
 msgid "Nand Gate"
-msgstr ""
+msgstr "与非门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:183
 msgctxt "Symbol"
 msgid "And Gate"
-msgstr ""
+msgstr "与门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:184
 msgctxt "Symbol"
 msgid "Buffer"
-msgstr ""
+msgstr "缓冲区"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:185
 msgctxt "Symbol"
 msgid "Not Gate"
-msgstr ""
+msgstr "非门"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:186
 msgctxt "Symbol"
 msgid "Buffer Small"
-msgstr ""
+msgstr "缓冲区 (小)"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:187
 msgctxt "Symbol"
 msgid "Not Gate Small"
-msgstr ""
+msgstr "非门 (小)"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:188
@@ -4250,49 +4182,49 @@ msgstr ""
 #: ../share/symbols/symbols.h:189 ../share/symbols/symbols.h:190
 msgctxt "Symbol"
 msgid "Airport"
-msgstr ""
+msgstr "机场"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:191 ../share/symbols/symbols.h:192
 msgctxt "Symbol"
 msgid "Amphitheatre"
-msgstr ""
+msgstr "露天剧场"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:193 ../share/symbols/symbols.h:194
 msgctxt "Symbol"
 msgid "Bicycle Trail"
-msgstr ""
+msgstr "自行车道"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
 msgctxt "Symbol"
 msgid "Boat Launch"
-msgstr ""
+msgstr "船下水"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
 msgctxt "Symbol"
 msgid "Boat Tour"
-msgstr ""
+msgstr "乘船游览"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:199 ../share/symbols/symbols.h:200
 msgctxt "Symbol"
 msgid "Bus Stop"
-msgstr ""
+msgstr "公交车站"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:201 ../share/symbols/symbols.h:202
 msgctxt "Symbol"
 msgid "Campfire"
-msgstr ""
+msgstr "篝火"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:203 ../share/symbols/symbols.h:204
 msgctxt "Symbol"
 msgid "Campground"
-msgstr ""
+msgstr "营地"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
@@ -4316,19 +4248,19 @@ msgstr ""
 #: ../share/symbols/symbols.h:211 ../share/symbols/symbols.h:212
 msgctxt "Symbol"
 msgid "Drinking Water"
-msgstr ""
+msgstr "饮水"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
 msgctxt "Symbol"
 msgid "Fishing"
-msgstr ""
+msgstr "钓鱼"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:217 ../share/symbols/symbols.h:218
 msgctxt "Symbol"
 msgid "Food Service"
-msgstr ""
+msgstr "食品服务"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:219 ../share/symbols/symbols.h:220
@@ -4340,7 +4272,7 @@ msgstr ""
 #: ../share/symbols/symbols.h:221 ../share/symbols/symbols.h:222
 msgctxt "Symbol"
 msgid "Gas Station"
-msgstr ""
+msgstr "加油站"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:223 ../share/symbols/symbols.h:224
@@ -4358,13 +4290,13 @@ msgstr ""
 #: ../share/symbols/symbols.h:227 ../share/symbols/symbols.h:228
 msgctxt "Symbol"
 msgid "Hospital"
-msgstr ""
+msgstr "医院"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:229 ../share/symbols/symbols.h:230
 msgctxt "Symbol"
 msgid "Ice Skating"
-msgstr ""
+msgstr "滑冰"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:233 ../share/symbols/symbols.h:234
@@ -4412,13 +4344,13 @@ msgstr ""
 #: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
 msgctxt "Symbol"
 msgid "Picnic Area"
-msgstr ""
+msgstr "野餐区域"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
 msgctxt "Symbol"
 msgid "Post Office"
-msgstr ""
+msgstr "邮局"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
@@ -4436,7 +4368,7 @@ msgstr ""
 #: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
 msgid "Restrooms"
-msgstr ""
+msgstr "厕所"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
@@ -4508,7 +4440,7 @@ msgstr ""
 #: ../share/symbols/symbols.h:283 ../share/symbols/symbols.h:284
 msgctxt "Symbol"
 msgid "Emergency Telephone"
-msgstr ""
+msgstr "紧急电话"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:285 ../share/symbols/symbols.h:286
@@ -4520,7 +4452,7 @@ msgstr ""
 #: ../share/symbols/symbols.h:287 ../share/symbols/symbols.h:288
 msgctxt "Symbol"
 msgid "Wheelchair Accessible"
-msgstr ""
+msgstr "无障碍通道"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
@@ -4536,23 +4468,23 @@ msgstr ""
 
 #: ../share/templates/templates.h:1
 msgid "CD Label 120mmx120mm "
-msgstr ""
+msgstr "CD 标签 120mmx120mm"
 
 #: ../share/templates/templates.h:1
 msgid "Simple CD Label template with disc's pattern."
-msgstr ""
+msgstr "简单的带光盘图案的 CD 标签模板"
 
 #: ../share/templates/templates.h:1
 msgid "CD label 120x120 disc disk"
-msgstr ""
+msgstr "CD 标签 120x120 光盘"
 
 #: ../share/templates/templates.h:1
 msgid "No Layers"
-msgstr ""
+msgstr "没有层"
 
 #: ../share/templates/templates.h:1
 msgid "Empty sheet with no layers"
-msgstr ""
+msgstr "没有层的空表格"
 
 #: ../share/templates/templates.h:1
 msgid "no layers empty"
@@ -4590,7 +4522,7 @@ msgstr "3D盒子"
 #: ../src/color-profile.cpp:842
 #, c-format
 msgid "Color profiles directory (%s) is unavailable."
-msgstr "色彩配置档案目录(%s)不可用."
+msgstr "色彩配置档案目录 (%s) 不可用."
 
 #: ../src/color-profile.cpp:901 ../src/color-profile.cpp:918
 msgid "(invalid UTF-8 string)"
@@ -5564,7 +5496,7 @@ msgstr "亮度"
 
 #: ../src/extension/internal/bitmap/modulate.cpp:50
 msgid "Adjust the amount of hue, saturation, and brightness in selected bitmap(s)"
-msgstr "调整所选位图的色相、饱和度、亮度."
+msgstr "调整所选位图的色调、饱和度、亮度."
 
 #: ../src/extension/internal/bitmap/negate.cpp:36
 msgid "Negate"
@@ -6763,8 +6695,9 @@ msgid "Invert"
 msgstr "反转"
 
 #: ../src/extension/internal/filter/color.h:982
+#, fuzzy
 msgid "Invert channels:"
-msgstr "反转色相"
+msgstr "反转色调"
 
 #: ../src/extension/internal/filter/color.h:983
 #, fuzzy
@@ -6793,7 +6726,7 @@ msgstr "粗糙透明"
 
 #: ../src/extension/internal/filter/color.h:989
 msgid "Invert hue"
-msgstr "反转色相"
+msgstr "反转色调"
 
 #: ../src/extension/internal/filter/color.h:990
 #, fuzzy
@@ -8433,7 +8366,7 @@ msgstr "饱和度"
 
 #: ../src/filter-enums.cpp:80
 msgid "Hue Rotate"
-msgstr "旋转色相"
+msgstr "旋转色调"
 
 #: ../src/filter-enums.cpp:81
 msgid "Luminance to Alpha"
@@ -13783,7 +13716,7 @@ msgstr "为克隆的初始颜色(只有原始对象没有设置填色或绘制�
 
 #: ../src/ui/dialog/clonetiler.cpp:680
 msgid "<b>H:</b>"
-msgstr "<b>色相：</b>"
+msgstr "<b>色调：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:686
 msgid "Change the tile hue by this percentage for each row"
@@ -15439,7 +15372,7 @@ msgstr "滤镜基元<b>feBlend</b>提供了4种图像混合模式: 遮蔽, 增�
 msgid ""
 "The <b>feColorMatrix</b> filter primitive applies a matrix transformation to color of each rendered pixel. This allows for effects like turning "
 "object to grayscale, modifying color saturation and changing color hue."
-msgstr "滤镜基元<b>feColorMatrix</b>对每个像素的颜色进行矩阵变换. 可以产生类似于转换到灰度, 更改饱和度和色相等的效果."
+msgstr "滤镜基元<b>feColorMatrix</b>对每个像素的颜色进行矩阵变换. 可以产生类似于转换到灰度, 更改饱和度和色调等的效果."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2972
 msgid ""
@@ -24125,44 +24058,44 @@ msgid "Adjust alpha"
 msgstr "调整色调"
 
 #: ../src/ui/widget/selected-style.cpp:1388
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Adjusting <b>alpha</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Ctrl</b> to adjust lightness, with <b>Shift</b> to adjust saturation, "
 "without modifiers to adjust hue"
-msgstr "调整 <b>亮度</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Shift</b> 调整饱和度, 而不改变色相"
+msgstr "调整 <b>亮度</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Shift</b> 调整饱和度, 而不改变色调"
 
 #: ../src/ui/widget/selected-style.cpp:1392
 msgid "Adjust saturation"
 msgstr "调整饱和度"
 
 #: ../src/ui/widget/selected-style.cpp:1394
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Adjusting <b>saturation</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Ctrl</b> to adjust lightness, with <b>Alt</b> to adjust alpha, without "
 "modifiers to adjust hue"
-msgstr "调整 <b>饱和度</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Ctrl</b> 调整亮度, 而不改变色相"
+msgstr "调整 <b>饱和度</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Ctrl</b> 调整亮度, 而不改变色调"
 
 #: ../src/ui/widget/selected-style.cpp:1398
 msgid "Adjust lightness"
 msgstr "调整亮度"
 
 #: ../src/ui/widget/selected-style.cpp:1400
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Adjusting <b>lightness</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Shift</b> to adjust saturation, with <b>Alt</b> to adjust alpha, "
 "without modifiers to adjust hue"
-msgstr "调整 <b>亮度</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Shift</b> 调整饱和度, 而不改变色相"
+msgstr "调整 <b>亮度</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Shift</b> 调整饱和度, 而不改变色调"
 
 #: ../src/ui/widget/selected-style.cpp:1404
 msgid "Adjust hue"
-msgstr "调整色相"
+msgstr "调整色调"
 
 #: ../src/ui/widget/selected-style.cpp:1406
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "Adjusting <b>hue</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Shift</b> to adjust saturation, with <b>Alt</b> to adjust alpha, with "
 "<b>Ctrl</b> to adjust lightness"
-msgstr "调整 <b>色色相</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Shift</b> 调整饱和度, 按下 <b>Ctrl</b> 调整亮度"
+msgstr "调整 <b>色调</b>: 由 %.3g, 改为 <b>%.3g</b> (差 %.3g); 按下 <b>Shift</b> 调整饱和度, 按下 <b>Ctrl</b> 调整亮度"
 
 #: ../src/ui/widget/selected-style.cpp:1524 ../src/ui/widget/selected-style.cpp:1538
 msgid "Adjust stroke width"
@@ -25988,7 +25921,7 @@ msgstr "调色板(_P)"
 
 #: ../src/verbs.cpp:2801
 msgid "Show or hide the color palette"
-msgstr "显示或隐藏颜色相色板"
+msgstr "显示或隐藏颜色调色板"
 
 #: ../src/verbs.cpp:2802
 msgid "_Statusbar"
@@ -29506,7 +29439,7 @@ msgstr "通道:"
 
 #: ../src/widgets/tweak-toolbar.cpp:287
 msgid "In color mode, act on objects' hue"
-msgstr "彩色模式下, 作用于对象的色相"
+msgstr "彩色模式下, 作用于对象的色调"
 
 #. TRANSLATORS:  "H" here stands for hue
 #: ../src/widgets/tweak-toolbar.cpp:291
