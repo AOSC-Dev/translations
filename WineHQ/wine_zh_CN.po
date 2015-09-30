@@ -106,7 +106,7 @@ msgstr "备注:"
 
 #: appwiz.rc:100
 msgid "Wine Gecko Installer"
-msgstr "Wine Gecko 安装"
+msgstr "Wine Gecko 安装器"
 
 #: appwiz.rc:103
 msgid ""
@@ -149,7 +149,7 @@ msgstr "取消"
 
 #: appwiz.rc:115
 msgid "Wine Mono Installer"
-msgstr "Wine Mono 安装"
+msgstr "Wine Mono 安装器"
 
 #: appwiz.rc:118
 msgid ""
@@ -187,7 +187,7 @@ msgstr "不能运行卸载程序 '%s'。您想把这个卸载条目从注册表�
 
 #: appwiz.rc:36
 msgid "Not specified"
-msgstr "没指定"
+msgstr "未指定"
 
 #: appwiz.rc:38 shell32.rc:144 shell32.rc:241 regedit.rc:125 winefile.rc:107
 msgid "Name"
@@ -216,7 +216,7 @@ msgstr "所有文件 (*.*)"
 
 #: appwiz.rc:46
 msgid "&Modify/Remove"
-msgstr "修改或删除 (&M)"
+msgstr "修改或删除(&M)"
 
 #: appwiz.rc:51
 msgid "Downloading..."
@@ -230,7 +230,7 @@ msgstr "正在安装..."
 msgid ""
 "Unexpected checksum of downloaded file. Aborting installation of corrupted "
 "file."
-msgstr ""
+msgstr "意外的已下载文件的校验和。正终止已损坏文件的安装。"
 
 #: avifil32.rc:42
 msgid "Compress options"
@@ -238,7 +238,7 @@ msgstr "压缩选项"
 
 #: avifil32.rc:45
 msgid "&Choose a stream:"
-msgstr "选择来源(&C):"
+msgstr "选择来源流(&C):"
 
 #: avifil32.rc:48 wordpad.rc:76
 msgid "&Options..."
@@ -246,7 +246,7 @@ msgstr "选项(&O)..."
 
 #: avifil32.rc:49
 msgid "&Interleave every"
-msgstr "交织: 每"
+msgstr "交织(&I): 每"
 
 #: avifil32.rc:51 msvfw32.rc:51
 msgid "frames"
@@ -7955,7 +7955,7 @@ msgstr "运行于 %s"
 
 #: shell32.rc:329
 msgid "Wine was brought to you by:"
-msgstr "Wine 开发人员:"
+msgstr "Wine 由这些人带来:"
 
 #: shell32.rc:337
 msgid ""
@@ -8352,7 +8352,7 @@ msgstr "错误"
 
 #: shlwapi.rc:43
 msgid "Don't show me th&is message again"
-msgstr "不要再显示这个讯息"
+msgstr "不要再显示这个讯息(&i)"
 
 #: shlwapi.rc:30
 msgid "%d bytes"
@@ -9599,7 +9599,7 @@ msgstr ""
 
 #: cmd.rc:237
 msgid "TIME sets or shows the current system time.\n"
-msgstr ""
+msgstr "TIME 设置或显示当前系统时间。\n"
 
 #: cmd.rc:240
 msgid "TITLE <string> sets the window title for the cmd window.\n"
@@ -9923,7 +9923,7 @@ msgstr ""
 
 #: dxdiag.rc:30
 msgid "DirectX Diagnostic Tool"
-msgstr ""
+msgstr "DirectX 诊断工具"
 
 #: dxdiag.rc:31
 msgid "Usage: dxdiag [/whql:off | /whql:on] [/t filename | /x filename]"
@@ -9931,13 +9931,13 @@ msgstr ""
 
 #: explorer.rc:31
 msgid "Wine Explorer"
-msgstr "Wine Explorer"
+msgstr "Wine 资源管理器"
 
 #: explorer.rc:33
 #, fuzzy
 #| msgid "Restart"
 msgid "Start"
-msgstr "重启"
+msgstr "开始"
 
 #: explorer.rc:34 winefile.rc:36
 msgid "&Run..."
@@ -12487,11 +12487,11 @@ msgstr "Windows 注册信息"
 
 #: winecfg.rc:144
 msgid "&Owner:"
-msgstr "姓名："
+msgstr "姓名(&O)："
 
 #: winecfg.rc:146
 msgid "Organi&zation:"
-msgstr "单位："
+msgstr "单位(&Z)："
 
 #: winecfg.rc:154
 msgid "Application settings"
@@ -13918,7 +13918,7 @@ msgstr "自动换行"
 
 #: wordpad.rc:260
 msgid "&No line wrapping"
-msgstr "不要自动换行"
+msgstr "不要自动换行(&N)"
 
 #: wordpad.rc:261
 msgid "Wrap text by the &window border"
