@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-13 20:17+0200\n"
-"PO-Revision-Date: 2015-09-30 23:48+0800\n"
-"Last-Translator: Junde Yi <lmy441900@gmail.com>\n"
+"PO-Revision-Date: 2015-10-02 13:09-0600\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: AOSC Anger Dump <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Bookmarks: 159,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -34216,40 +34216,40 @@ msgstr ""
 
 #: ../share/extensions/plotter.inx.h:19
 msgid "Command language:"
-msgstr ""
+msgstr "命令语言："
 
 #: ../share/extensions/plotter.inx.h:20
 msgid "The command language to use (Default: HPGL)"
-msgstr ""
+msgstr "要使用的命令语言（默认：HPGL，惠普绘图语言）"
 
 #: ../share/extensions/plotter.inx.h:21
 msgid "Software (XON/XOFF)"
-msgstr ""
+msgstr "软件 (XON/XOFF)"
 
 #: ../share/extensions/plotter.inx.h:22
 msgid "Hardware (RTS/CTS)"
-msgstr ""
+msgstr "硬件 (RTS/CTS)"
 
 #: ../share/extensions/plotter.inx.h:23
 msgid "Hardware (DSR/DTR + RTS/CTS)"
-msgstr ""
+msgstr "硬件 (DSR/DTR + RTS/CTS)"
 
 #: ../share/extensions/plotter.inx.h:24
 msgctxt "Flow control"
 msgid "None"
-msgstr ""
+msgstr "无控制"
 
 #: ../share/extensions/plotter.inx.h:25
 msgid "HPGL"
-msgstr ""
+msgstr "HPGL"
 
 #: ../share/extensions/plotter.inx.h:26
 msgid "DMPL"
-msgstr ""
+msgstr "DMPL"
 
 #: ../share/extensions/plotter.inx.h:27
 msgid "KNK Plotter (HPGL variant)"
-msgstr ""
+msgstr "KNK 绘图仪 (HPGL 变种)"
 
 #: ../share/extensions/plotter.inx.h:28
 msgid "Using wrong settings can under certain circumstances cause Inkscape to freeze. Always save your work before plotting!"
@@ -34261,7 +34261,7 @@ msgstr ""
 
 #: ../share/extensions/plotter.inx.h:30
 msgid "Parallel (LPT) connections are not supported."
-msgstr ""
+msgstr "不支持并行链接 (LPT)。"
 
 #: ../share/extensions/plotter.inx.h:41
 msgid ""
@@ -34271,32 +34271,32 @@ msgstr ""
 
 #: ../share/extensions/plotter.inx.h:42
 msgid "Rotation (°, clockwise):"
-msgstr ""
+msgstr "旋转（°，顺时针）："
 
 #: ../share/extensions/plotter.inx.h:62
 msgid "Show debug information"
-msgstr ""
+msgstr "显示调试信息"
 
 #: ../share/extensions/plotter.inx.h:63
 msgid ""
 "Check this to get verbose information about the plot without actually sending something to the plotter (A.k.a. data dump) (Default: Unchecked)"
-msgstr ""
+msgstr "选中此处以获取关于绘图的详尽信息但不向绘图仪发送任何信息（又称数据转储）（默认：不选中）"
 
 #: ../share/extensions/plt_input.inx.h:1
 msgid "AutoCAD Plot Input"
-msgstr "AutoCAD Plot 输入 "
+msgstr "AutoCAD 绘图输入"
 
 #: ../share/extensions/plt_input.inx.h:2 ../share/extensions/plt_output.inx.h:2
 msgid "HP Graphics Language Plot file [AutoCAD] (*.plt)"
-msgstr "HP Graphics Language Plot file [AutoCAD] (*.plt)"
+msgstr "惠普图形语言绘图文件 [AutoCAD] (*.plt)"
 
 #: ../share/extensions/plt_input.inx.h:3
 msgid "Open HPGL plotter files"
-msgstr "打开 HPGL plotter文件"
+msgstr "打开 HPGL 绘图仪文件"
 
 #: ../share/extensions/plt_output.inx.h:1
 msgid "AutoCAD Plot Output"
-msgstr "AutoCAD Plot 输出 "
+msgstr "AutoCAD 绘图输出"
 
 #: ../share/extensions/plt_output.inx.h:3
 msgid "Save a file for plotters"
@@ -34312,21 +34312,19 @@ msgstr "模型文件"
 
 #: ../share/extensions/polyhedron_3d.inx.h:3
 msgid "Object:"
-msgstr "对象:"
+msgstr "对象："
 
 #: ../share/extensions/polyhedron_3d.inx.h:4
 msgid "Filename:"
-msgstr "文件名:"
+msgstr "文件名："
 
 #: ../share/extensions/polyhedron_3d.inx.h:5
-#, fuzzy
 msgid "Object Type:"
-msgstr "对象类型"
+msgstr "对象类型："
 
 #: ../share/extensions/polyhedron_3d.inx.h:6
-#, fuzzy
 msgid "Clockwise wound object"
-msgstr "顺时针环绕的对象"
+msgstr "顺时针绕对象"
 
 #: ../share/extensions/polyhedron_3d.inx.h:7
 msgid "Cube"
@@ -34341,9 +34339,8 @@ msgid "Snub Cube"
 msgstr "扭棱立方体"
 
 #: ../share/extensions/polyhedron_3d.inx.h:10
-#, fuzzy
 msgid "Cuboctahedron"
-msgstr "立方八面体"
+msgstr "十四面体"
 
 #: ../share/extensions/polyhedron_3d.inx.h:11
 msgid "Tetrahedron"
@@ -34371,7 +34368,7 @@ msgstr "截角二十面体"
 
 #: ../share/extensions/polyhedron_3d.inx.h:17
 msgid "Small Triambic Icosahedron"
-msgstr ""
+msgstr "带有三面体突起的二十面体"
 
 #: ../share/extensions/polyhedron_3d.inx.h:18
 msgid "Dodecahedron"
@@ -34391,11 +34388,11 @@ msgstr "大十二面体"
 
 #: ../share/extensions/polyhedron_3d.inx.h:22
 msgid "Great Stellated Dodecahedron"
-msgstr "行星状大十二面体"
+msgstr "星状大十二面体"
 
 #: ../share/extensions/polyhedron_3d.inx.h:23
 msgid "Load from file"
-msgstr "从文件读入"
+msgstr "从文件载入"
 
 #: ../share/extensions/polyhedron_3d.inx.h:24
 msgid "Face-Specified"
@@ -34407,64 +34404,57 @@ msgstr "指定边"
 
 #: ../share/extensions/polyhedron_3d.inx.h:27
 msgid "Rotate around:"
-msgstr "旋转:"
+msgstr "根据如下点旋转："
 
 #: ../share/extensions/polyhedron_3d.inx.h:28 ../share/extensions/spirograph.inx.h:8 ../share/extensions/wireframe_sphere.inx.h:5
-#, fuzzy
 msgid "Rotation (deg):"
-msgstr "旋转(度)"
+msgstr "旋转（度）："
 
 #: ../share/extensions/polyhedron_3d.inx.h:29
-#, fuzzy
 msgid "Then rotate around:"
-msgstr "然后旋转:"
+msgstr "然后根据如下点旋转："
 
 #: ../share/extensions/polyhedron_3d.inx.h:30
 msgid "X-Axis"
-msgstr "X轴"
+msgstr "X 轴"
 
 #: ../share/extensions/polyhedron_3d.inx.h:31
 msgid "Y-Axis"
-msgstr "Y轴"
+msgstr "Y 轴"
 
 #: ../share/extensions/polyhedron_3d.inx.h:32
 msgid "Z-Axis"
 msgstr "Z轴"
 
 #: ../share/extensions/polyhedron_3d.inx.h:34
-#, fuzzy
 msgid "Scaling factor:"
-msgstr "缩放系数"
+msgstr "缩放系数："
 
 #: ../share/extensions/polyhedron_3d.inx.h:35
-#, fuzzy
 msgid "Fill color, Red:"
-msgstr "填充颜色，红色"
+msgstr "填充颜色，红色值："
 
 #: ../share/extensions/polyhedron_3d.inx.h:36
-#, fuzzy
 msgid "Fill color, Green:"
-msgstr "填充颜色，绿色"
+msgstr "填充颜色，绿色值："
 
 #: ../share/extensions/polyhedron_3d.inx.h:37
-#, fuzzy
 msgid "Fill color, Blue:"
-msgstr "填充颜色，蓝色"
+msgstr "填充颜色，蓝色值："
 
 #: ../share/extensions/polyhedron_3d.inx.h:39
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Fill opacity (%):"
-msgstr "填充不透明度，/%"
+msgstr "填充不透明度 (%)"
 
 #: ../share/extensions/polyhedron_3d.inx.h:41
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Stroke opacity (%):"
-msgstr "笔廓不透明度,%"
+msgstr "笔划不透明度 (%)："
 
 #: ../share/extensions/polyhedron_3d.inx.h:42
-#, fuzzy
 msgid "Stroke width (px):"
-msgstr "笔廓宽度, px"
+msgstr "笔划宽度 (px)："
 
 #: ../share/extensions/polyhedron_3d.inx.h:43
 msgid "Shading"
@@ -34472,15 +34462,15 @@ msgstr "阴影"
 
 #: ../share/extensions/polyhedron_3d.inx.h:44
 msgid "Light X:"
-msgstr ""
+msgstr "光源 X 座标："
 
 #: ../share/extensions/polyhedron_3d.inx.h:45
 msgid "Light Y:"
-msgstr ""
+msgstr "光源 Y 座标："
 
 #: ../share/extensions/polyhedron_3d.inx.h:46
 msgid "Light Z:"
-msgstr ""
+msgstr "光源 Z 座标："
 
 #: ../share/extensions/polyhedron_3d.inx.h:48
 #, fuzzy
@@ -34517,14 +34507,12 @@ msgid "Mean"
 msgstr "均值"
 
 #: ../share/extensions/previous_glyph_layer.inx.h:1
-#, fuzzy
 msgid "View Previous Glyph"
-msgstr "前一页:"
+msgstr "显示前一个字形"
 
 #: ../share/extensions/print_win32_vector.inx.h:1
-#, fuzzy
 msgid "Win32 Vector Print"
-msgstr "Windows 32位打印"
+msgstr "Win32 矢量打印"
 
 #: ../share/extensions/printing_marks.inx.h:1
 msgid "Printing Marks"
@@ -34559,9 +34547,8 @@ msgid "Positioning"
 msgstr "定位"
 
 #: ../share/extensions/printing_marks.inx.h:10
-#, fuzzy
 msgid "Set crop marks to:"
-msgstr "裁剪标记应用于"
+msgstr "将裁剪标记设置为："
 
 #: ../share/extensions/printing_marks.inx.h:17
 msgid "Canvas"
@@ -34581,11 +34568,11 @@ msgstr "抖动节点"
 
 #: ../share/extensions/radiusrand.inx.h:3
 msgid "Maximum displacement in X (px):"
-msgstr ""
+msgstr "X 轴上最大位移 (px)："
 
 #: ../share/extensions/radiusrand.inx.h:4
 msgid "Maximum displacement in Y (px):"
-msgstr ""
+msgstr "Y 轴上最大位移 (px)："
 
 #: ../share/extensions/radiusrand.inx.h:7
 msgid "Use normal distribution"
@@ -34593,20 +34580,19 @@ msgstr "使用正态分布"
 
 #: ../share/extensions/radiusrand.inx.h:9
 msgid "This effect randomly shifts the nodes (and optionally node handles) of the selected path."
-msgstr "本效果对选择的路径随机移动节点(和可选的节点控制柄)."
+msgstr "此效果随机移动选中的路径（或节点控制柄）上的节点"
 
 #: ../share/extensions/render_alphabetsoup.inx.h:1
 msgid "Alphabet Soup"
-msgstr "字母形花片汤"
+msgstr "难以理解的语言"
 
 #: ../share/extensions/render_barcode.inx.h:1
-#, fuzzy
 msgid "Classic"
 msgstr "经典"
 
 #: ../share/extensions/render_barcode.inx.h:2
 msgid "Barcode Type:"
-msgstr "条形码类型:"
+msgstr "条码类型："
 
 #: ../share/extensions/render_barcode.inx.h:3
 msgid "Barcode Data:"
@@ -34614,7 +34600,7 @@ msgstr "条码数据"
 
 #: ../share/extensions/render_barcode.inx.h:4
 msgid "Bar Height:"
-msgstr "条码高度:"
+msgstr "条码高度："
 
 #: ../share/extensions/render_barcode.inx.h:6 ../share/extensions/render_barcode_datamatrix.inx.h:6
 #: ../share/extensions/render_barcode_qrcode.inx.h:19
@@ -34622,87 +34608,78 @@ msgid "Barcode"
 msgstr "条形码"
 
 #: ../share/extensions/render_barcode_datamatrix.inx.h:1
-#, fuzzy
 msgid "Datamatrix"
-msgstr "条码数据"
+msgstr "二维条码"
 
 #: ../share/extensions/render_barcode_datamatrix.inx.h:3 ../share/extensions/render_barcode_qrcode.inx.h:4
 msgid "Size, in unit squares:"
-msgstr ""
+msgstr "尺寸，按平方单位计算："
 
 #: ../share/extensions/render_barcode_datamatrix.inx.h:4
-#, fuzzy
 msgid "Square Size (px):"
-msgstr "方块大小 / px"
+msgstr "方块尺寸 (px)："
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:1
-#, fuzzy
 msgid "QR Code"
-msgstr "QR Code"
+msgstr "二维码"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:2
 msgid "See http://www.denso-wave.com/qrcode/index-e.html for details"
-msgstr ""
+msgstr "欲知详情，请参见 http://www.denso-wave.com/qrcode/index-e.html"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:6
 msgid "With \"Auto\", the size of the barcode depends on the length of the text and the error correction level"
-msgstr ""
+msgstr "在“自动”设定下，条码的尺寸取决于文本长度以及纠错等级"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:7
 msgid "Error correction level:"
-msgstr ""
+msgstr "纠错等级："
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:9
 #, no-c-format
 msgid "L (Approx. 7%)"
-msgstr ""
+msgstr "L（约 7%）"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:11
 #, no-c-format
 msgid "M (Approx. 15%)"
-msgstr ""
+msgstr "M（约 15%）"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:13
 #, no-c-format
 msgid "Q (Approx. 25%)"
-msgstr ""
+msgstr "Q（约 25%）"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:15
 #, no-c-format
 msgid "H (Approx. 30%)"
-msgstr ""
+msgstr "H（约 30%）"
 
 #: ../share/extensions/render_barcode_qrcode.inx.h:17
-#, fuzzy
 msgid "Square size (px):"
-msgstr "方块大小 / px"
+msgstr "方块大小 (px)："
 
 #: ../share/extensions/render_gear_rack.inx.h:1
-#, fuzzy
 msgid "Rack Gear"
-msgstr "齿轮"
+msgstr "堆叠齿轮"
 
 #: ../share/extensions/render_gear_rack.inx.h:2
-#, fuzzy
 msgid "Rack Length:"
-msgstr "长度:"
+msgstr "堆叠长度："
 
 #: ../share/extensions/render_gear_rack.inx.h:3
-#, fuzzy
 msgid "Tooth Spacing:"
-msgstr "水平间距"
+msgstr "齿间距："
 
 #: ../share/extensions/render_gear_rack.inx.h:4
-#, fuzzy
 msgid "Contact Angle:"
-msgstr "联系三角形(内切点)"
+msgstr "接触角："
 
 #: ../share/extensions/render_gear_rack.inx.h:6 ../share/extensions/render_gears.inx.h:1
 msgid "Gear"
 msgstr "齿轮"
 
 #: ../share/extensions/render_gears.inx.h:2
-#, fuzzy
 msgid "Number of teeth:"
 msgstr "齿数"
 
@@ -34712,45 +34689,40 @@ msgid "Circular pitch (tooth size):"
 msgstr "圆周齿距,px"
 
 #: ../share/extensions/render_gears.inx.h:4
-#, fuzzy
 msgid "Pressure angle (degrees):"
-msgstr "压力角"
+msgstr "压力角（度）："
 
 #: ../share/extensions/render_gears.inx.h:5
 msgid "Diameter of center hole (0 for none):"
-msgstr ""
+msgstr "中心孔直径（0 代表无中心孔）："
 
 #: ../share/extensions/render_gears.inx.h:10
 msgid "Unit of measurement for both circular pitch and center diameter."
 msgstr ""
 
 #: ../share/extensions/replace_font.inx.h:1
-#, fuzzy
 msgid "Replace font"
-msgstr "替换文本"
+msgstr "替换字体"
 
 #: ../share/extensions/replace_font.inx.h:2
-#, fuzzy
 msgid "Find and Replace font"
-msgstr "查找与替换文本(_R)..."
+msgstr "查找与替换字体"
 
 #: ../share/extensions/replace_font.inx.h:3
-#, fuzzy
 msgid "Find font: "
-msgstr "添加字体"
+msgstr "查找字体："
 
 #: ../share/extensions/replace_font.inx.h:4
-#, fuzzy
 msgid "Replace with: "
-msgstr "替换:"
+msgstr "替换为："
 
 #: ../share/extensions/replace_font.inx.h:5
 msgid "Replace all fonts with: "
-msgstr ""
+msgstr "替换所有字体为："
 
 #: ../share/extensions/replace_font.inx.h:6
 msgid "List all fonts"
-msgstr ""
+msgstr "列出所有字体"
 
 #: ../share/extensions/replace_font.inx.h:7
 msgid "Choose this tab if you would like to see a list of the fonts used/found."
@@ -34762,14 +34734,12 @@ msgid "Work on:"
 msgstr "单词："
 
 #: ../share/extensions/replace_font.inx.h:9
-#, fuzzy
 msgid "Entire drawing"
-msgstr "导出区域是绘图"
+msgstr "整个绘图"
 
 #: ../share/extensions/replace_font.inx.h:10
-#, fuzzy
 msgid "Selected objects only"
-msgstr "水平地翻转已选对象"
+msgstr "仅选中对象"
 
 #: ../share/extensions/restack.inx.h:1
 msgid "Restack"
@@ -34777,7 +34747,7 @@ msgstr "重新堆叠"
 
 #: ../share/extensions/restack.inx.h:2
 msgid "Restack Direction:"
-msgstr "堆叠方向:"
+msgstr "重新堆叠方向："
 
 #: ../share/extensions/restack.inx.h:3
 msgid "Left to Right (0)"
@@ -34804,13 +34774,12 @@ msgid "Radial Inward"
 msgstr "辐向内旋"
 
 #: ../share/extensions/restack.inx.h:9
-#, fuzzy
 msgid "Arbitrary Angle"
-msgstr "任意角:"
+msgstr "任意角："
 
 #: ../share/extensions/restack.inx.h:11
 msgid "Horizontal Point:"
-msgstr "水平点:"
+msgstr "水平点："
 
 #: ../share/extensions/restack.inx.h:13 ../share/extensions/text_extract.inx.h:9 ../share/extensions/text_merge.inx.h:9
 msgid "Middle"
@@ -34818,15 +34787,15 @@ msgstr "中间"
 
 #: ../share/extensions/restack.inx.h:15
 msgid "Vertical Point:"
-msgstr "垂直点:"
+msgstr "垂直点："
 
 #: ../share/extensions/restack.inx.h:16 ../share/extensions/text_extract.inx.h:12 ../share/extensions/text_merge.inx.h:12
 msgid "Top"
-msgstr "顶层"
+msgstr "顶部"
 
 #: ../share/extensions/restack.inx.h:17 ../share/extensions/text_extract.inx.h:13 ../share/extensions/text_merge.inx.h:13
 msgid "Bottom"
-msgstr "底"
+msgstr "底部"
 
 #: ../share/extensions/restack.inx.h:18
 msgid "Arrange"
@@ -34837,14 +34806,12 @@ msgid "Random Tree"
 msgstr "随机树"
 
 #: ../share/extensions/rtree.inx.h:2
-#, fuzzy
 msgid "Initial size:"
-msgstr "初始尺寸"
+msgstr "初始尺寸："
 
 #: ../share/extensions/rtree.inx.h:3
-#, fuzzy
 msgid "Minimum size:"
-msgstr "最小尺寸"
+msgstr "最小尺寸："
 
 #: ../share/extensions/rubberstretch.inx.h:1
 msgid "Rubber Stretch"
@@ -34853,26 +34820,24 @@ msgstr "弹性伸缩"
 #: ../share/extensions/rubberstretch.inx.h:3
 #, no-c-format
 msgid "Strength (%):"
-msgstr "强度 (%):"
+msgstr "强度 (%)："
 
 #: ../share/extensions/rubberstretch.inx.h:5
 #, no-c-format
 msgid "Curve (%):"
-msgstr "曲线(%):"
+msgstr "曲线 (%)："
 
 #: ../share/extensions/scour.inx.h:1
 msgid "Optimized SVG Output"
-msgstr "优化的SVG 输出"
+msgstr "优化的 SVG 输出"
 
 #: ../share/extensions/scour.inx.h:3
-#, fuzzy
 msgid "Shorten color values"
-msgstr "柔和色彩"
+msgstr "缩短颜色编号"
 
 #: ../share/extensions/scour.inx.h:4
-#, fuzzy
 msgid "Convert CSS attributes to XML attributes"
-msgstr "删除属性"
+msgstr "将 CSS 属性转换为 XML 属性"
 
 #: ../share/extensions/scour.inx.h:5
 msgid "Group collapsing"
@@ -34880,29 +34845,27 @@ msgstr ""
 
 #: ../share/extensions/scour.inx.h:6
 msgid "Create groups for similar attributes"
-msgstr ""
+msgstr "为带有类似属性的对象创建组"
 
 #: ../share/extensions/scour.inx.h:7
 msgid "Embed rasters"
-msgstr "嵌入的栅格"
+msgstr "嵌入栅格"
 
 #: ../share/extensions/scour.inx.h:8
 msgid "Keep editor data"
-msgstr ""
+msgstr "保留编辑器数据"
 
 #: ../share/extensions/scour.inx.h:9
-#, fuzzy
 msgid "Remove metadata"
-msgstr "移除红色"
+msgstr "移除元数据"
 
 #: ../share/extensions/scour.inx.h:10
-#, fuzzy
 msgid "Remove comments"
-msgstr "移除字体"
+msgstr "移除注释"
 
 #: ../share/extensions/scour.inx.h:11
 msgid "Work around renderer bugs"
-msgstr ""
+msgstr "尝试解决渲染问题"
 
 #: ../share/extensions/scour.inx.h:12
 #, fuzzy
@@ -34910,9 +34873,8 @@ msgid "Enable viewboxing"
 msgstr "允许预览"
 
 #: ../share/extensions/scour.inx.h:13
-#, fuzzy
 msgid "Remove the xml declaration"
-msgstr "移除变换(_T)"
+msgstr "移除 XML 声明"
 
 #: ../share/extensions/scour.inx.h:14
 msgid "Number of significant digits for coords:"
@@ -34924,46 +34886,44 @@ msgstr ""
 
 #: ../share/extensions/scour.inx.h:16
 msgid "Space"
-msgstr "空"
+msgstr "空格"
 
 #: ../share/extensions/scour.inx.h:17
-#, fuzzy
 msgid "Tab"
-msgstr "表"
+msgstr "制表符"
 
 #: ../share/extensions/scour.inx.h:18
-#, fuzzy
 msgctxt "Indent"
 msgid "None"
-msgstr "无"
+msgstr "无缩进"
 
 #: ../share/extensions/scour.inx.h:19
 msgid "Ids"
-msgstr ""
+msgstr "Ids"
 
 #: ../share/extensions/scour.inx.h:20
 msgid "Remove unused ID names for elements"
-msgstr ""
+msgstr "为对象移除未使用的 ID 名称"
 
 #: ../share/extensions/scour.inx.h:21
 msgid "Shorten IDs"
-msgstr ""
+msgstr "缩短 ID"
 
 #: ../share/extensions/scour.inx.h:22
 msgid "Preserve manually created ID names not ending with digits"
-msgstr ""
+msgstr "保留非数字结尾的，手动创建的 ID 名称"
 
 #: ../share/extensions/scour.inx.h:23
 msgid "Preserve these ID names, comma-separated:"
-msgstr ""
+msgstr "保留如下使用逗号分隔的 ID 名称："
 
 #: ../share/extensions/scour.inx.h:24
 msgid "Preserve ID names starting with:"
-msgstr ""
+msgstr "保留以如下字串开头的 ID 名称："
 
 #: ../share/extensions/scour.inx.h:25
 msgid "Help (Options)"
-msgstr ""
+msgstr "帮助（选项）"
 
 #: ../share/extensions/scour.inx.h:27
 #, no-c-format
@@ -34991,7 +34951,7 @@ msgstr ""
 
 #: ../share/extensions/scour.inx.h:40
 msgid "Help (Ids)"
-msgstr ""
+msgstr "帮助 (Ids)"
 
 #: ../share/extensions/scour.inx.h:41
 msgid ""
@@ -35017,19 +34977,19 @@ msgstr "可缩放矢量图形"
 
 #: ../share/extensions/seamless_pattern.inx.h:1
 msgid "Seamless Pattern"
-msgstr ""
+msgstr "无缝图案"
 
 #: ../share/extensions/seamless_pattern.inx.h:2 ../share/extensions/seamless_pattern_procedural.inx.h:2
 msgid "Custom Width (px):"
-msgstr ""
+msgstr "自定义宽度 (px)："
 
 #: ../share/extensions/seamless_pattern.inx.h:3 ../share/extensions/seamless_pattern_procedural.inx.h:3
 msgid "Custom Height (px):"
-msgstr ""
+msgstr "自定义高度 (px)："
 
 #: ../share/extensions/seamless_pattern.inx.h:4
 msgid "This extension overwrite current document"
-msgstr ""
+msgstr "该扩展将覆盖当前文档"
 
 #: ../share/extensions/seamless_pattern_procedural.inx.h:1
 msgid "Seamless Pattern Procedural"
@@ -35041,7 +35001,7 @@ msgstr ""
 
 #: ../share/extensions/setup_typography_canvas.inx.h:2
 msgid "Em-size:"
-msgstr ""
+msgstr "Em 尺寸："
 
 #: ../share/extensions/setup_typography_canvas.inx.h:3
 msgid "Ascender:"
@@ -35053,7 +35013,7 @@ msgstr ""
 
 #: ../share/extensions/setup_typography_canvas.inx.h:5
 msgid "X-Height:"
-msgstr ""
+msgstr "X - 高度："
 
 #: ../share/extensions/setup_typography_canvas.inx.h:6
 msgid "Descender:"
@@ -35064,7 +35024,6 @@ msgid "sK1 vector graphics files input"
 msgstr "sK1 矢量图形文件输入"
 
 #: ../share/extensions/sk1_input.inx.h:2 ../share/extensions/sk1_output.inx.h:2
-#, fuzzy
 msgid "sK1 vector graphics files (*.sk1)"
 msgstr "sK1 矢量图形文件 (.sk1)"
 
@@ -35078,7 +35037,7 @@ msgstr "sK1 矢量图形文件输出"
 
 #: ../share/extensions/sk1_output.inx.h:3
 msgid "File format for use in sK1 vector graphics editor"
-msgstr " sK1 矢量绘图软件支持的文件格式"
+msgstr "sK1 矢量绘图软件支持的文件格式"
 
 #: ../share/extensions/sk_input.inx.h:1
 msgid "Sketch Input"
@@ -35097,35 +35056,32 @@ msgid "Spirograph"
 msgstr "旋轮线"
 
 #: ../share/extensions/spirograph.inx.h:2
-#, fuzzy
 msgid "R - Ring Radius (px):"
-msgstr "R - 固定圆半径 (px)"
+msgstr "R - 环形半径 (px)："
 
 #: ../share/extensions/spirograph.inx.h:3
-#, fuzzy
 msgid "r - Gear Radius (px):"
-msgstr "r - 旋转圆半径 (px)"
+msgstr "r - 齿轮半径 (px)："
 
 #: ../share/extensions/spirograph.inx.h:4
-#, fuzzy
 msgid "d - Pen Radius (px):"
-msgstr "d - 绘图笔半径 (px)"
+msgstr "d - 钢笔半径 (px)："
 
 #: ../share/extensions/spirograph.inx.h:5
 msgid "Gear Placement:"
-msgstr ""
+msgstr "齿轮放置点："
 
 #: ../share/extensions/spirograph.inx.h:6
 msgid "Inside (Hypotrochoid)"
-msgstr "内侧 (内旋轮线)"
+msgstr "内侧 （内旋轮线）"
 
 #: ../share/extensions/spirograph.inx.h:7
 msgid "Outside (Epitrochoid)"
-msgstr "外侧 (外旋轮线)"
+msgstr "外侧 （外旋轮线）"
 
 #: ../share/extensions/spirograph.inx.h:9
 msgid "Quality (Default = 16):"
-msgstr ""
+msgstr "质量（默认=16）："
 
 #: ../share/extensions/split.inx.h:1
 msgid "Split text"
@@ -35133,65 +35089,58 @@ msgstr "分割文本"
 
 #: ../share/extensions/split.inx.h:3
 msgid "Split:"
-msgstr ""
+msgstr "分割："
 
 #: ../share/extensions/split.inx.h:4
 msgid "Preserve original text"
-msgstr ""
+msgstr "保留源文本"
 
 #: ../share/extensions/split.inx.h:5
-#, fuzzy
 msgctxt "split"
 msgid "Lines"
-msgstr "线"
+msgstr "行"
 
 #: ../share/extensions/split.inx.h:6
-#, fuzzy
 msgctxt "split"
 msgid "Words"
-msgstr "文字"
+msgstr "词语"
 
 #: ../share/extensions/split.inx.h:7
-#, fuzzy
 msgctxt "split"
 msgid "Letters"
 msgstr "字母"
 
 #: ../share/extensions/split.inx.h:9
 msgid "This effect splits texts into different lines, words or letters."
-msgstr ""
+msgstr "该效果可将文本分割为不同行、单词或字母。"
 
 #: ../share/extensions/straightseg.inx.h:1
 msgid "Straighten Segments"
 msgstr "拉直线段"
 
 #: ../share/extensions/straightseg.inx.h:2
-#, fuzzy
 msgid "Percent:"
-msgstr "百分比"
+msgstr "百分比："
 
 #: ../share/extensions/straightseg.inx.h:3
-#, fuzzy
 msgid "Behavior:"
-msgstr "行为"
+msgstr "行为："
 
 #: ../share/extensions/summersnight.inx.h:1
 msgid "Envelope"
 msgstr "封套"
 
 #: ../share/extensions/svg2fxg.inx.h:1
-#, fuzzy
 msgid "FXG Output"
-msgstr "SVG 输出"
+msgstr "FXG 输出"
 
 #: ../share/extensions/svg2fxg.inx.h:2
-#, fuzzy
 msgid "Flash XML Graphics (*.fxg)"
-msgstr "XFIG 图形文件 (*.fig)"
+msgstr "Flash XML 图像文件 (*.fxg)"
 
 #: ../share/extensions/svg2fxg.inx.h:3
 msgid "Adobe's XML Graphics file format"
-msgstr ""
+msgstr "Adobe 的 XML 图像文件格式"
 
 #: ../share/extensions/svg2xaml.inx.h:1
 msgid "XAML Output"
@@ -35199,7 +35148,7 @@ msgstr "XAML 输出"
 
 #: ../share/extensions/svg2xaml.inx.h:2
 msgid "Silverlight compatible XAML"
-msgstr ""
+msgstr "兼容 Silverlight 的 XAML"
 
 #: ../share/extensions/svg2xaml.inx.h:3 ../share/extensions/xaml2svg.inx.h:2
 msgid "Microsoft XAML (*.xaml)"
@@ -35207,30 +35156,27 @@ msgstr "微软 XAML (*.xaml)"
 
 #: ../share/extensions/svg2xaml.inx.h:4 ../share/extensions/xaml2svg.inx.h:3
 msgid "Microsoft's GUI definition format"
-msgstr "微软的GUI定义格式"
+msgstr "微软 GUI 定义格式"
 
 #: ../share/extensions/svg_and_media_zip_output.inx.h:1
-#, fuzzy
 msgid "Compressed Inkscape SVG with media export"
-msgstr "连同媒体一起压缩 Inkscape SVG (*.zip)"
+msgstr "连同媒体一起压缩并导出的 Inkscape SVG (*.zip)"
 
 #: ../share/extensions/svg_and_media_zip_output.inx.h:2
-#, fuzzy
 msgid "Image zip directory:"
-msgstr "无效工作目录: %s "
+msgstr "图像 Zip 目录："
 
 #: ../share/extensions/svg_and_media_zip_output.inx.h:3
-#, fuzzy
 msgid "Add font list"
-msgstr "添加字体"
+msgstr "添加字体列表"
 
 #: ../share/extensions/svg_and_media_zip_output.inx.h:4
 msgid "Compressed Inkscape SVG with media (*.zip)"
-msgstr "连同媒体一起压缩 Inkscape SVG (*.zip)"
+msgstr "压缩后并包含媒体的 Inkscape SVG (*.zip)"
 
 #: ../share/extensions/svg_and_media_zip_output.inx.h:5
 msgid "Inkscape's native file format compressed with Zip and including all media files"
-msgstr "Inkscape 原生文件格式使用 Zip 压缩, 包含所有的媒体文件"
+msgstr "使用 Zip 压缩并包含所有的媒体文件的 Inkscape 原生文件格式"
 
 #: ../share/extensions/svgcalendar.inx.h:1
 msgid "Calendar"
@@ -35238,30 +35184,27 @@ msgstr "日历"
 
 #: ../share/extensions/svgcalendar.inx.h:3
 msgid "Year (4 digits):"
-msgstr ""
+msgstr "年份（四位数）："
 
 #: ../share/extensions/svgcalendar.inx.h:4
 msgid "Month (0 for all):"
-msgstr ""
+msgstr "月份（0 代表全部）："
 
 #: ../share/extensions/svgcalendar.inx.h:5
 msgid "Fill empty day boxes with next month's days"
-msgstr "空下来的天的位置上显示下个月的日期"
+msgstr "使用下个月的日期填满本月的空日期"
 
 #: ../share/extensions/svgcalendar.inx.h:6
-#, fuzzy
 msgid "Show week number"
-msgstr "幻灯编号"
+msgstr "显示周数"
 
 #: ../share/extensions/svgcalendar.inx.h:7
-#, fuzzy
 msgid "Week start day:"
-msgstr "每周起始日"
+msgstr "每周起始日："
 
 #: ../share/extensions/svgcalendar.inx.h:8
-#, fuzzy
 msgid "Weekend:"
-msgstr "周末"
+msgstr "周末："
 
 #: ../share/extensions/svgcalendar.inx.h:9
 msgid "Sunday"
@@ -35284,86 +35227,73 @@ msgid "Automatically set size and position"
 msgstr "自动设置大小和位置"
 
 #: ../share/extensions/svgcalendar.inx.h:15
-#, fuzzy
 msgid "Months per line:"
-msgstr "每行月数"
+msgstr "每行月数："
 
 #: ../share/extensions/svgcalendar.inx.h:16
-#, fuzzy
 msgid "Month Width:"
-msgstr "月份宽度"
+msgstr "月份宽度："
 
 #: ../share/extensions/svgcalendar.inx.h:17
-#, fuzzy
 msgid "Month Margin:"
-msgstr "月份交替"
+msgstr "月份边距："
 
 #: ../share/extensions/svgcalendar.inx.h:18
 msgid "The options below have no influence when the above is checked."
 msgstr "上面选中时以下选项不起作用."
 
 #: ../share/extensions/svgcalendar.inx.h:20
-#, fuzzy
 msgid "Year color:"
-msgstr "年的颜色"
+msgstr "年份颜色："
 
 #: ../share/extensions/svgcalendar.inx.h:21
-#, fuzzy
 msgid "Month color:"
-msgstr "月份颜色"
+msgstr "月份颜色："
 
 #: ../share/extensions/svgcalendar.inx.h:22
-#, fuzzy
 msgid "Weekday name color:"
-msgstr "工作日名称颜色"
+msgstr "工作日名称颜色："
 
 #: ../share/extensions/svgcalendar.inx.h:23
 #, fuzzy
 msgid "Day color:"
-msgstr "天的颜色"
+msgstr "星期日的颜色"
 
 #: ../share/extensions/svgcalendar.inx.h:24
-#, fuzzy
 msgid "Weekend day color:"
-msgstr "周末颜色"
+msgstr "周末颜色："
 
 #: ../share/extensions/svgcalendar.inx.h:25
-#, fuzzy
 msgid "Next month day color:"
-msgstr "下月天的颜色"
+msgstr "下个月日期的颜色："
 
 #: ../share/extensions/svgcalendar.inx.h:26
-#, fuzzy
 msgid "Week number color:"
-msgstr "工作日名称颜色"
+msgstr "周数颜色："
 
 #: ../share/extensions/svgcalendar.inx.h:27
 msgid "Localization"
 msgstr "位置"
 
 #: ../share/extensions/svgcalendar.inx.h:28
-#, fuzzy
 msgid "Month names:"
-msgstr "月份名称"
+msgstr "月份名称："
 
 #: ../share/extensions/svgcalendar.inx.h:29
-#, fuzzy
 msgid "Day names:"
-msgstr "天的名称"
+msgstr "每周列表必须从周日开始。"
 
 #: ../share/extensions/svgcalendar.inx.h:30
-#, fuzzy
 msgid "Week number column name:"
-msgstr "减少列数:"
+msgstr "周数列表名称："
 
 #: ../share/extensions/svgcalendar.inx.h:31
-#, fuzzy
 msgid "Char Encoding:"
-msgstr "字符编码"
+msgstr "字符编码："
 
 #: ../share/extensions/svgcalendar.inx.h:32
 msgid "You may change the names for other languages:"
-msgstr "你可以修改在其它语言中的名称:"
+msgstr "你可以修改在其它语言中的名称："
 
 #: ../share/extensions/svgcalendar.inx.h:33
 msgid "January February March April May June July August September October November December"
@@ -35374,96 +35304,84 @@ msgid "Sun Mon Tue Wed Thu Fri Sat"
 msgstr "周日 周一 周二 周三 周四 周五 周六"
 
 #: ../share/extensions/svgcalendar.inx.h:35
-#, fuzzy
 msgid "The day names list must start from Sunday."
-msgstr "(天的名称列表必须从周日开始)"
+msgstr "每周列表必须从周日开始。"
 
 #: ../share/extensions/svgcalendar.inx.h:36
-#, fuzzy
 msgid "Wk"
-msgstr "Wk"
+msgstr "周"
 
 #: ../share/extensions/svgcalendar.inx.h:37
 msgid "Select your system encoding. More information at http://docs.python.org/library/codecs.html#standard-encodings."
-msgstr ""
+msgstr "选择系统编码。欲知更多信息，请访问 http://docs.python.org/library/codecs.html#standard-encodings。"
 
 #: ../share/extensions/svgfont2layers.inx.h:1
-#, fuzzy
 msgid "Convert SVG Font to Glyph Layers"
-msgstr "所有层反选"
+msgstr "将 SVG 字体转换为字形图层"
 
 #: ../share/extensions/svgfont2layers.inx.h:2
 msgid "Load only the first 30 glyphs (Recommended)"
-msgstr ""
+msgstr "仅载入前 30 个字形（推荐）"
 
 #: ../share/extensions/synfig_output.inx.h:1
-#, fuzzy
 msgid "Synfig Output"
-msgstr "SVG 输出"
+msgstr "Synfig 输出"
 
 #: ../share/extensions/synfig_output.inx.h:2
 msgid "Synfig Animation (*.sif)"
-msgstr ""
+msgstr "Synfig 动画 (*.sif)"
 
 #: ../share/extensions/synfig_output.inx.h:3
 msgid "Synfig Animation written using the sif-file exporter extension"
-msgstr ""
+msgstr "使用 sif 文件导出扩展编写的 Synfig 动画"
 
 #: ../share/extensions/tar_layers.inx.h:1
 msgid "Collection of SVG files One per root layer"
-msgstr ""
+msgstr "将来自每个根图层的 SVG 文件归类到不同的集合中"
 
 #: ../share/extensions/tar_layers.inx.h:2
 msgid "Layers as Separate SVG (*.tar)"
-msgstr ""
+msgstr "将图层保存为独立的 SVG 文件 (*.tar)"
 
 #: ../share/extensions/tar_layers.inx.h:3
 msgid "Each layer split into it's own svg file and collected as a tape archive (tar file)"
-msgstr ""
+msgstr "将每个图层分割到相应的 SVG 文件，并集合为一个归档（tar 文件）"
 
 #: ../share/extensions/text_braille.inx.h:1
 msgid "Convert to Braille"
 msgstr "转化成盲文"
 
 #: ../share/extensions/text_extract.inx.h:1
-#, fuzzy
 msgid "Extract"
-msgstr "提取图像"
+msgstr "提取"
 
 #: ../share/extensions/text_extract.inx.h:2 ../share/extensions/text_merge.inx.h:2
-#, fuzzy
 msgid "Text direction:"
-msgstr "标尺方向"
+msgstr "文本方向："
 
 #: ../share/extensions/text_extract.inx.h:3 ../share/extensions/text_merge.inx.h:3
-#, fuzzy
 msgid "Left to right"
-msgstr "左到右 (0)"
+msgstr "从左到右翻转"
 
 #: ../share/extensions/text_extract.inx.h:4 ../share/extensions/text_merge.inx.h:4
-#, fuzzy
 msgid "Bottom to top"
-msgstr "底到顶 (90)"
+msgstr "从下到上翻转"
 
 #: ../share/extensions/text_extract.inx.h:5 ../share/extensions/text_merge.inx.h:5
-#, fuzzy
 msgid "Right to left"
-msgstr "右到左 (180)"
+msgstr "从右到左翻转"
 
 #: ../share/extensions/text_extract.inx.h:6 ../share/extensions/text_merge.inx.h:6
-#, fuzzy
 msgid "Top to bottom"
-msgstr "置底"
+msgstr "从上到下翻转"
 
 #: ../share/extensions/text_extract.inx.h:7 ../share/extensions/text_merge.inx.h:7
-#, fuzzy
 msgid "Horizontal point:"
-msgstr "水平点:"
+msgstr "水平点："
 
 #: ../share/extensions/text_extract.inx.h:11 ../share/extensions/text_merge.inx.h:11
-#, fuzzy
 msgid "Vertical point:"
-msgstr "垂直点:"
+msgstr "垂直点："
 
 #: ../share/extensions/text_flipcase.inx.h:1
 msgid "fLIP cASE"
@@ -35471,9 +35389,8 @@ msgstr "反转大小写"
 
 #: ../share/extensions/text_flipcase.inx.h:3 ../share/extensions/text_lowercase.inx.h:3 ../share/extensions/text_randomcase.inx.h:3
 #: ../share/extensions/text_sentencecase.inx.h:3 ../share/extensions/text_titlecase.inx.h:3 ../share/extensions/text_uppercase.inx.h:3
-#, fuzzy
 msgid "Change Case"
-msgstr "改变控制柄"
+msgstr "改变大小写"
 
 #: ../share/extensions/text_lowercase.inx.h:1
 msgid "lowercase"
@@ -35481,21 +35398,20 @@ msgstr "小写"
 
 #. <param name="flowtext" type="boolean" _gui-text="Flow text">false</param>
 #: ../share/extensions/text_merge.inx.h:15
-#, fuzzy
 msgid "Keep style"
-msgstr "设置文本风格"
+msgstr "保持文本风格"
 
 #: ../share/extensions/text_randomcase.inx.h:1
 msgid "rANdOm CasE"
-msgstr "随机化大小写"
+msgstr "随机大小写"
 
 #: ../share/extensions/text_sentencecase.inx.h:1
 msgid "Sentence case"
-msgstr "句子的大小写格式"
+msgstr "句子大小写"
 
 #: ../share/extensions/text_titlecase.inx.h:1
 msgid "Title Case"
-msgstr "标题的大小写格式"
+msgstr "标题大小写"
 
 #: ../share/extensions/text_uppercase.inx.h:1
 msgid "UPPERCASE"
@@ -35506,34 +35422,28 @@ msgid "Triangle"
 msgstr "三角形"
 
 #: ../share/extensions/triangle.inx.h:2
-#, fuzzy
 msgid "Side Length a (px):"
-msgstr "步长 a/ px"
+msgstr "边长 a（px）："
 
 #: ../share/extensions/triangle.inx.h:3
-#, fuzzy
 msgid "Side Length b (px):"
-msgstr "步长 b/ px"
+msgstr "边长 b（px）："
 
 #: ../share/extensions/triangle.inx.h:4
-#, fuzzy
 msgid "Side Length c (px):"
-msgstr "步长 c/ px"
+msgstr "边长 c（px）："
 
 #: ../share/extensions/triangle.inx.h:5
-#, fuzzy
 msgid "Angle a (deg):"
-msgstr "角 a/ 度"
+msgstr "角 a（度）："
 
 #: ../share/extensions/triangle.inx.h:6
-#, fuzzy
 msgid "Angle b (deg):"
-msgstr "角 b/ 度"
+msgstr "角 b（度）："
 
 #: ../share/extensions/triangle.inx.h:7
-#, fuzzy
 msgid "Angle c (deg):"
-msgstr "角 c/ 度"
+msgstr "角 c（度）："
 
 #: ../share/extensions/triangle.inx.h:9
 msgid "From Three Sides"
@@ -35541,52 +35451,47 @@ msgstr "从三条边"
 
 #: ../share/extensions/triangle.inx.h:10
 msgid "From Sides a, b and Angle c"
-msgstr "从边a, b和角c"
+msgstr "从边 a, b 和角 a"
 
 #: ../share/extensions/triangle.inx.h:11
 msgid "From Sides a, b and Angle a"
-msgstr "从边a, b和角a"
+msgstr "从边 a, b 和角 c"
 
 #: ../share/extensions/triangle.inx.h:12
 msgid "From Side a and Angles a, b"
-msgstr "从边a和角a, b"
+msgstr "从边 c 和角 a, b"
 
 #: ../share/extensions/triangle.inx.h:13
 msgid "From Side c and Angles a, b"
-msgstr "从边c和角a, b"
+msgstr "从边 a 和角 a, b"
 
 #: ../share/extensions/voronoi2svg.inx.h:1
-#, fuzzy
 msgid "Voronoi Diagram"
-msgstr "沃罗努瓦图案"
+msgstr "沃罗努瓦图表"
 
 #: ../share/extensions/voronoi2svg.inx.h:3
 msgid "Type of diagram:"
-msgstr ""
+msgstr "图表类型:"
 
 #: ../share/extensions/voronoi2svg.inx.h:4
-#, fuzzy
 msgid "Bounding box of the diagram:"
-msgstr "边框模式:"
+msgstr "图表边界框："
 
 #: ../share/extensions/voronoi2svg.inx.h:5
-#, fuzzy
 msgid "Show the bounding box"
-msgstr "显示约束边界框"
+msgstr "显示边界框"
 
 #: ../share/extensions/voronoi2svg.inx.h:6
-#, fuzzy
 msgid "Delaunay Triangulation"
-msgstr "拒绝邀请"
+msgstr "德劳内三角化"
 
 #: ../share/extensions/voronoi2svg.inx.h:7
-#, fuzzy
 msgid "Voronoi and Delaunay"
-msgstr "沃罗努瓦图案"
+msgstr "沃罗努瓦图表及德劳内变换"
 
 #: ../share/extensions/voronoi2svg.inx.h:8
 msgid "Options for Voronoi diagram"
-msgstr ""
+msgstr "沃罗努瓦图表选项"
 
 #: ../share/extensions/voronoi2svg.inx.h:10
 #, fuzzy
@@ -35602,29 +35507,24 @@ msgid "Set Attributes"
 msgstr "设置属性"
 
 #: ../share/extensions/web-set-att.inx.h:3
-#, fuzzy
 msgid "Attribute to set:"
-msgstr "要设置的属性"
+msgstr "要设置的属性："
 
 #: ../share/extensions/web-set-att.inx.h:4
-#, fuzzy
 msgid "When should the set be done:"
-msgstr "什么时间设置完成?"
+msgstr "何时完成设置："
 
 #: ../share/extensions/web-set-att.inx.h:5
-#, fuzzy
 msgid "Value to set:"
-msgstr "要设置的值"
+msgstr "要设定的值："
 
 #: ../share/extensions/web-set-att.inx.h:6 ../share/extensions/web-transmit-att.inx.h:5
-#, fuzzy
 msgid "Compatibility with previews code to this event:"
-msgstr "与该事件的预览代码的兼容性"
+msgstr "与该事件预览代码的兼容性："
 
 #: ../share/extensions/web-set-att.inx.h:7
-#, fuzzy
 msgid "Source and destination of setting:"
-msgstr "源和目标设置"
+msgstr "设置的源和目标："
 
 #: ../share/extensions/web-set-att.inx.h:8 ../share/extensions/web-transmit-att.inx.h:7
 msgid "on click"
@@ -35668,7 +35568,7 @@ msgstr "组件加载时"
 
 #: ../share/extensions/web-set-att.inx.h:18
 msgid "The list of values must have the same size as the attributes list."
-msgstr "值的列表长度必须与属性列表一致."
+msgstr "数值列表的长度必须与属性列表一致。"
 
 #: ../share/extensions/web-set-att.inx.h:19 ../share/extensions/web-transmit-att.inx.h:17
 msgid "Run it after"
@@ -35680,28 +35580,27 @@ msgstr "之前运行"
 
 #: ../share/extensions/web-set-att.inx.h:22 ../share/extensions/web-transmit-att.inx.h:20
 msgid "The next parameter is useful when you select more than two elements"
-msgstr "下一个参数在选择超过两个对象时起作用"
+msgstr "下一个参数在选中超过两个对象时起作用"
 
 #: ../share/extensions/web-set-att.inx.h:23
 msgid "All selected ones set an attribute in the last one"
-msgstr "将所有选择对象的一个属性应用到最后一个对象上"
+msgstr "将所有选择对象的属性应用到最后一个对象上"
 
 #: ../share/extensions/web-set-att.inx.h:24
-#, fuzzy
 msgid "The first selected sets an attribute in all others"
-msgstr "第一个选择对象将设置其它对象的一项属性"
+msgstr "使用第一个选中组控制其他项的属性"
 
 #: ../share/extensions/web-set-att.inx.h:26 ../share/extensions/web-transmit-att.inx.h:24
 msgid "This effect adds a feature visible (or usable) only on a SVG enabled web browser (like Firefox)."
-msgstr "该效果添加的特征仅在兼容SVG的浏览器 (例如Firefox) 中可见."
+msgstr "该效果添加的特征仅在兼容 SVG 的浏览器 （例如 Firefox）上可用。"
 
 #: ../share/extensions/web-set-att.inx.h:27
 msgid "This effect sets one or more attributes in the second selected element, when a defined event occurs on the first selected element."
-msgstr "当第一个选择对象上发生指定事件时, 该效果设置第二个选择对象的一个或多个属性."
+msgstr "当第一个选中对象上发生指定事件时，该效果设置第二个选择对象的一个或多个属性。"
 
 #: ../share/extensions/web-set-att.inx.h:28
 msgid "If you want to set more than one attribute, you must separate this with a space, and only with a space."
-msgstr "如果要设置多个属性, 请用一个空格（只能是一个）来分隔."
+msgstr "如果要设置多个属性，请用空格来分隔各个属性。"
 
 #: ../share/extensions/web-set-att.inx.h:29 ../share/extensions/web-transmit-att.inx.h:27 ../share/extensions/webslicer_create_group.inx.h:13
 #: ../share/extensions/webslicer_create_rect.inx.h:41 ../share/extensions/webslicer_export.inx.h:8
@@ -35713,24 +35612,20 @@ msgid "Transmit Attributes"
 msgstr "传递属性"
 
 #: ../share/extensions/web-transmit-att.inx.h:3
-#, fuzzy
 msgid "Attribute to transmit:"
-msgstr "要传递的属性"
+msgstr "要传递的属性："
 
 #: ../share/extensions/web-transmit-att.inx.h:4
-#, fuzzy
 msgid "When to transmit:"
-msgstr "何时传递"
+msgstr "何时传递："
 
 #: ../share/extensions/web-transmit-att.inx.h:6
-#, fuzzy
 msgid "Source and destination of transmitting:"
-msgstr "传递的源和目标"
+msgstr "传递的源和目标："
 
 #: ../share/extensions/web-transmit-att.inx.h:21
-#, fuzzy
 msgid "All selected ones transmit to the last one"
-msgstr "所有选择对象传递到最后一个"
+msgstr "将所有选择对象的属性应用到最后一个对象上"
 
 #: ../share/extensions/web-transmit-att.inx.h:22
 msgid "The first selected transmits to all others"
@@ -35738,41 +35633,39 @@ msgstr "第一个选择对象传递到其它"
 
 #: ../share/extensions/web-transmit-att.inx.h:25
 msgid "This effect transmits one or more attributes from the first selected element to the second when an event occurs."
-msgstr "当一个事件发生时, 该效果将第一个选择对象的一个或多个属性传递到第二个对象上."
+msgstr "当第一个选中对象上发生指定事件时，该效果设置第二个选择对象的一个或多个属性。"
 
 #: ../share/extensions/web-transmit-att.inx.h:26
 msgid "If you want to transmit more than one attribute, you should separate this with a space, and only with a space."
-msgstr "如果要传递多个属性, 属性间用一个空格分隔. "
+msgstr "如果要设置多个属性，请用空格来分隔各个属性。"
 
 #: ../share/extensions/webslicer_create_group.inx.h:1
 msgid "Set a layout group"
-msgstr ""
+msgstr "设定一个布局组"
 
 #: ../share/extensions/webslicer_create_group.inx.h:3 ../share/extensions/webslicer_create_rect.inx.h:18
-#, fuzzy
 msgid "HTML id attribute:"
-msgstr "设置属性"
+msgstr "HTML id 属性："
 
 #: ../share/extensions/webslicer_create_group.inx.h:4 ../share/extensions/webslicer_create_rect.inx.h:19
-#, fuzzy
 msgid "HTML class attribute:"
-msgstr "设置属性"
+msgstr "HTML 类属性："
 
 #: ../share/extensions/webslicer_create_group.inx.h:5
 msgid "Width unit:"
-msgstr "宽度单位:"
+msgstr "宽度单位："
 
 #: ../share/extensions/webslicer_create_group.inx.h:6
 msgid "Height unit:"
-msgstr "高度单位:"
+msgstr "高度单位："
 
 #: ../share/extensions/webslicer_create_group.inx.h:7 ../share/extensions/webslicer_create_rect.inx.h:9
 msgid "Background color:"
-msgstr "背景色:"
+msgstr "背景色："
 
 #: ../share/extensions/webslicer_create_group.inx.h:8
 msgid "Pixel (fixed)"
-msgstr ""
+msgstr "像素（固定）"
 
 #: ../share/extensions/webslicer_create_group.inx.h:9
 msgid "Percent (relative to parent size)"
@@ -35780,7 +35673,7 @@ msgstr "百分比 （相对于父对象大小）"
 
 #: ../share/extensions/webslicer_create_group.inx.h:10
 msgid "Undefined (relative to non-floating content size)"
-msgstr ""
+msgstr "未定义（相对于非浮动内容大小）"
 
 #: ../share/extensions/webslicer_create_group.inx.h:12
 msgid ""
@@ -35790,16 +35683,16 @@ msgstr ""
 #: ../share/extensions/webslicer_create_group.inx.h:14
 #, fuzzy
 msgid "Slicer"
-msgstr "散布"
+msgstr "切割蒙板"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:1
 #, fuzzy
 msgid "Create a slicer rectangle"
-msgstr "创建矩形"
+msgstr "创建矩形切割蒙板"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:4
 msgid "DPI:"
-msgstr "DPI:"
+msgstr "DPI："
 
 #: ../share/extensions/webslicer_create_rect.inx.h:5
 msgid "Force Dimension:"
@@ -35808,15 +35701,16 @@ msgstr "强制尺寸："
 #. i18n. Description duplicated in a fake value attribute in order to make it translatable
 #: ../share/extensions/webslicer_create_rect.inx.h:7
 msgid "Force Dimension must be set as <width>x<height>"
-msgstr ""
+msgstr "强制尺寸必须设置为 <宽度>x<高度> 的格式"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:8
+#, fuzzy
 msgid "If set, this will replace DPI."
-msgstr ""
+msgstr "如设置此项，将替换 DPI。"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:10
 msgid "JPG specific options"
-msgstr "JPG 详细设置"
+msgstr "JPG 专用设置"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:11
 msgid "Quality:"
@@ -35824,11 +35718,11 @@ msgstr "质量："
 
 #: ../share/extensions/webslicer_create_rect.inx.h:12
 msgid "0 is the lowest image quality and highest compression, and 100 is the best quality but least effective compression"
-msgstr "0 对应最低图像质量和最高压缩率，100对应最高质量和最低压缩率"
+msgstr "0 对应最低图像质量及最高压缩率，100 对应最高质量及最低压缩率"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:13
 msgid "GIF specific options"
-msgstr "GIF 详细设置"
+msgstr "GIF 专用设置"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:16
 msgid "Palette"
@@ -35840,12 +35734,11 @@ msgstr "调色板大小："
 
 #: ../share/extensions/webslicer_create_rect.inx.h:20
 msgid "Options for HTML export"
-msgstr "HTML输出选项"
+msgstr "HTML 输出选项"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:21
-#, fuzzy
 msgid "Layout disposition:"
-msgstr "随机化位置"
+msgstr "布局配置："
 
 #: ../share/extensions/webslicer_create_rect.inx.h:22
 msgid "Positioned html block element with the image as Background"
@@ -35853,42 +35746,39 @@ msgstr ""
 
 #: ../share/extensions/webslicer_create_rect.inx.h:23
 msgid "Tiled Background (on parent group)"
-msgstr ""
+msgstr "平铺背景（父组中）"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:24
 msgid "Background — repeat horizontally (on parent group)"
-msgstr ""
+msgstr "背景 — 水平重复（父组中）"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:25
 msgid "Background — repeat vertically (on parent group)"
-msgstr ""
+msgstr "背景 — 垂直重复（父组中）"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:26
 msgid "Background — no repeat (on parent group)"
-msgstr ""
+msgstr "背景 — 无重复（父组中）"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:27
-#, fuzzy
 msgid "Positioned Image"
-msgstr "定位"
+msgstr "已定位的图像"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:28
-#, fuzzy
 msgid "Non Positioned Image"
-msgstr "旋转 _中心"
+msgstr "未定位的图像"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:29
 msgid "Left Floated Image"
-msgstr ""
+msgstr "图像向左浮动"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:30
-#, fuzzy
 msgid "Right Floated Image"
-msgstr "右边角度"
+msgstr "图像向右浮动"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:31
 msgid "Position anchor:"
-msgstr "位置锚点："
+msgstr "放置锚点："
 
 #: ../share/extensions/webslicer_create_rect.inx.h:32
 msgid "Top and Left"
@@ -35908,7 +35798,7 @@ msgstr "中间与左侧"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:36
 msgid "Middle and Center"
-msgstr ""
+msgstr "中间"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:37
 msgid "Middle and Right"
@@ -35928,12 +35818,11 @@ msgstr "底部与右侧"
 
 #: ../share/extensions/webslicer_export.inx.h:1
 msgid "Export layout pieces and HTML+CSS code"
-msgstr ""
+msgstr "导出布局部件并附带 HTML 和 CSS 代码"
 
 #: ../share/extensions/webslicer_export.inx.h:3
-#, fuzzy
 msgid "Directory path to export:"
-msgstr "导出目录的路径"
+msgstr "导出路径："
 
 #: ../share/extensions/webslicer_export.inx.h:4
 msgid "Create directory, if it does not exists"
@@ -35941,7 +35830,7 @@ msgstr "如果目录不存在，就创建."
 
 #: ../share/extensions/webslicer_export.inx.h:5
 msgid "With HTML and CSS"
-msgstr ""
+msgstr "附带 HTML 及 CSS 文档"
 
 #: ../share/extensions/webslicer_export.inx.h:7
 msgid "All sliced images, and optionally - code, will be generated as you had configured and saved to one directory."
@@ -35952,9 +35841,8 @@ msgid "Whirl"
 msgstr "旋转"
 
 #: ../share/extensions/whirl.inx.h:2
-#, fuzzy
 msgid "Amount of whirl:"
-msgstr "旋转量"
+msgstr "旋转量："
 
 #: ../share/extensions/whirl.inx.h:3
 msgid "Rotation is clockwise"
@@ -35965,30 +35853,28 @@ msgid "Wireframe Sphere"
 msgstr "线框球形"
 
 #: ../share/extensions/wireframe_sphere.inx.h:2
-#, fuzzy
 msgid "Lines of latitude:"
-msgstr "纬度线"
+msgstr "纬线"
 
 #: ../share/extensions/wireframe_sphere.inx.h:3
-#, fuzzy
 msgid "Lines of longitude:"
-msgstr "经度线"
+msgstr "经线"
 
 #: ../share/extensions/wireframe_sphere.inx.h:4
 msgid "Tilt (deg):"
-msgstr ""
+msgstr "倾斜 (角度)："
 
 #: ../share/extensions/wireframe_sphere.inx.h:7
 msgid "Hide lines behind the sphere"
-msgstr "隐藏球后面的线"
+msgstr "隐藏球体背后的线"
 
 #: ../share/extensions/wmf_input.inx.h:1 ../share/extensions/wmf_output.inx.h:1
 msgid "Windows Metafile Input"
-msgstr "Windows 图元文件输入"
+msgstr "Windows 元文件输入"
 
 #: ../share/extensions/wmf_input.inx.h:3 ../share/extensions/wmf_output.inx.h:3
 msgid "A popular graphics file format for clipart"
-msgstr "一种剪切画的常见图形文件格式"
+msgstr "一种常用于剪切画的图形文件格式"
 
 #: ../share/extensions/xaml2svg.inx.h:1
 msgid "XAML Input"
