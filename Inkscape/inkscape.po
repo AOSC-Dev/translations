@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-13 20:17+0200\n"
-"PO-Revision-Date: 2015-10-02 13:09-0600\n"
+"PO-Revision-Date: 2015-10-03 23:31-0600\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: AOSC Anger Dump <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -30249,7 +30249,7 @@ msgstr "不能定位文件: %s"
 
 #: ../share/extensions/svgcalendar.py:266 ../share/extensions/svgcalendar.py:288
 msgid "You must select a correct system encoding."
-msgstr ""
+msgstr "你必须选择正确的系统编码。"
 
 #: ../share/extensions/uniconv-ext.py:56 ../share/extensions/uniconv_output.py:122
 msgid ""
@@ -30288,17 +30288,17 @@ msgstr ""
 #: ../share/extensions/webslicer_export.py:69
 #, python-format
 msgid "Can't create \"%s\"."
-msgstr ""
+msgstr "无法创建 \"%s\"。"
 
 #: ../share/extensions/webslicer_export.py:70
 #, python-format
 msgid "Error: %s"
-msgstr ""
+msgstr "错误：%s"
 
 #: ../share/extensions/webslicer_export.py:73
 #, python-format
 msgid "The directory \"%s\" does not exists."
-msgstr ""
+msgstr "目录 \"%s\" 不存在。"
 
 #: ../share/extensions/webslicer_export.py:78
 msgid "No slicer layer found."
@@ -30311,7 +30311,7 @@ msgstr ""
 
 #: ../share/extensions/webslicer_export.py:338
 msgid "You must install the ImageMagick to get JPG and GIF."
-msgstr ""
+msgstr "你必须安装 ImageMagick 以开启 JPG 和 GIF 格式支持。"
 
 #. PARAMETER PROCESSING
 #. lines of longitude are odd : abort
@@ -30325,23 +30325,20 @@ msgid "Add Nodes"
 msgstr "添加节点"
 
 #: ../share/extensions/addnodes.inx.h:2
-#, fuzzy
 msgid "Division method:"
-msgstr "划分方法"
+msgstr "划分方式："
 
 #: ../share/extensions/addnodes.inx.h:3
 msgid "By max. segment length"
 msgstr "根据最大段长度"
 
 #: ../share/extensions/addnodes.inx.h:5
-#, fuzzy
 msgid "Maximum segment length (px):"
-msgstr "最大线段长度 (px)"
+msgstr "最大线段长度 (px)："
 
 #: ../share/extensions/addnodes.inx.h:6
-#, fuzzy
 msgid "Number of segments:"
-msgstr "段数"
+msgstr "段数："
 
 #: ../share/extensions/addnodes.inx.h:7 ../share/extensions/convert2dashes.inx.h:2 ../share/extensions/edge3d.inx.h:9
 #: ../share/extensions/flatten.inx.h:3 ../share/extensions/fractalize.inx.h:4 ../share/extensions/interp_att_g.inx.h:29
@@ -30376,112 +30373,94 @@ msgid "Cleans the cruft out of Adobe Illustrator SVGs before opening"
 msgstr "打开之前清除 Adobe 插图 SVG 的东西"
 
 #: ../share/extensions/ccx_input.inx.h:1
-#, fuzzy
 msgid "Corel DRAW Compressed Exchange files input (UC)"
-msgstr "Corel DRAW Compressed Exchange 文件输入"
+msgstr "Corel DRAW Compressed Exchange 文件输入 (UC)"
 
 #: ../share/extensions/ccx_input.inx.h:2
-#, fuzzy
 msgid "Corel DRAW Compressed Exchange files (UC) (*.ccx)"
-msgstr "Corel DRAW Compressed Exchange 文件 (.ccx)"
+msgstr "Corel DRAW Compressed Exchange 文件 (UC) (*.ccx)"
 
 #: ../share/extensions/ccx_input.inx.h:3
-#, fuzzy
 msgid "Open compressed exchange files saved in Corel DRAW (UC)"
-msgstr "打开Corel DRAW中保持的 compressed exchange 文件"
+msgstr "打开 Corel DRAW 中保存的 compressed exchange 文件 (UC)"
 
 #: ../share/extensions/cdr_input.inx.h:1
-#, fuzzy
 msgid "Corel DRAW Input (UC)"
-msgstr "Corel DRAW 输入"
+msgstr "Corel DRAW 输入 (UC)"
 
 #: ../share/extensions/cdr_input.inx.h:2
-#, fuzzy
 msgid "Corel DRAW 7-X4 files (UC) (*.cdr)"
-msgstr "Corel DRAW 7-X4 文件 (*.cdr)"
+msgstr "Corel DRAW 7-X4 文件 (UC) (*.cdr)"
 
 #: ../share/extensions/cdr_input.inx.h:3
-#, fuzzy
 msgid "Open files saved in Corel DRAW 7-X4 (UC)"
-msgstr "打开Corel DRAW 7-X4 文件"
+msgstr "打开 Corel DRAW 7-X4 中保存的文件 (UC)"
 
 #: ../share/extensions/cdt_input.inx.h:1
-#, fuzzy
 msgid "Corel DRAW templates input (UC)"
-msgstr "Corel DRAW 模板输入"
+msgstr "Corel DRAW 模板输入 (UC)"
 
 #: ../share/extensions/cdt_input.inx.h:2
-#, fuzzy
 msgid "Corel DRAW 7-13 template files (UC) (*.cdt)"
-msgstr "Corel DRAW 7-13 template 文件 (.cdt)"
+msgstr "Corel DRAW 7-13 模板文件 (UC) (*.cdt)"
 
 #: ../share/extensions/cdt_input.inx.h:3
-#, fuzzy
 msgid "Open files saved in Corel DRAW 7-13 (UC)"
-msgstr "打开Corel DRAW 7-13 文件"
+msgstr "打开 Corel DRAW 7-13 中保存的文件 (UC)"
 
 #: ../share/extensions/cgm_input.inx.h:1
 msgid "Computer Graphics Metafile files input"
 msgstr "Computer Graphics Metafile 文件输入"
 
 #: ../share/extensions/cgm_input.inx.h:2
-#, fuzzy
 msgid "Computer Graphics Metafile files (*.cgm)"
-msgstr "Computer Graphics Metafile 文件 (.cgm)"
+msgstr "Computer Graphics Metafile 文件 (*.cgm)"
 
 #: ../share/extensions/cgm_input.inx.h:3
 msgid "Open Computer Graphics Metafile files"
 msgstr "打开 Computer Graphics Metafile 文件"
 
 #: ../share/extensions/cmx_input.inx.h:1
-#, fuzzy
 msgid "Corel DRAW Presentation Exchange files input (UC)"
-msgstr "Corel DRAW Presentation Exchange 文件输入"
+msgstr "Corel DRAW Presentation Exchange 文件输入 (UC)"
 
 #: ../share/extensions/cmx_input.inx.h:2
-#, fuzzy
 msgid "Corel DRAW Presentation Exchange files (UC) (*.cmx)"
-msgstr "Corel DRAW Presentation Exchange 文件 (.cmx)"
+msgstr "Corel DRAW Presentation Exchange 文件 (UC) (*.cmx)"
 
 #: ../share/extensions/cmx_input.inx.h:3
-#, fuzzy
 msgid "Open presentation exchange files saved in Corel DRAW (UC)"
-msgstr "打开 Corel DRAW中创建的 presentation exchange 文件"
+msgstr "打开 Corel DRAW 中创建的 presentation exchange 文件 (UC)"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:1
-#, fuzzy
 msgid "HSL Adjust"
-msgstr "调整HSB"
+msgstr "调整 HSL"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:3
-#, fuzzy
 msgid "Hue (°)"
-msgstr "旋转(度)"
+msgstr "色相 (°)"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:4
-#, fuzzy
 msgid "Random hue"
-msgstr "随机树"
+msgstr "随机色相"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:6
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Saturation (%)"
-msgstr "饱和度"
+msgstr "饱和度 (%)"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:7
-#, fuzzy
 msgid "Random saturation"
-msgstr "调整饱和度"
+msgstr "随机饱和度"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:9
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Lightness (%)"
-msgstr "亮度"
+msgstr "亮度 (%)"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:10
-#, fuzzy
 msgid "Random lightness"
-msgstr "亮度"
+msgstr "随机亮度"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:13
 #, no-c-format
@@ -30530,7 +30509,7 @@ msgstr "蓝函数"
 
 #: ../share/extensions/color_custom.inx.h:6
 msgid "Input (r,g,b) Color Range:"
-msgstr ""
+msgstr "颜色输入范围 (r,g,b)："
 
 #: ../share/extensions/color_custom.inx.h:8
 msgid ""
@@ -30609,19 +30588,19 @@ msgstr "替换颜色"
 
 #: ../share/extensions/color_replace.inx.h:2
 msgid "Replace color (RRGGBB hex):"
-msgstr "替换目标色 (十六进制 RRGGBB):"
+msgstr "替换目标色 (十六进制 RRGGBB)："
 
 #: ../share/extensions/color_replace.inx.h:3
 msgid "Color to replace"
-msgstr ""
+msgstr "要替换的颜色："
 
 #: ../share/extensions/color_replace.inx.h:4
 msgid "By color (RRGGBB hex):"
-msgstr "替换色 (十六进制 RRGGBB):"
+msgstr "替换色 (十六进制 RRGGBB)："
 
 #: ../share/extensions/color_replace.inx.h:5
 msgid "New color"
-msgstr ""
+msgstr "新颜色"
 
 #: ../share/extensions/color_rgbbarrel.inx.h:1
 msgid "RGB Barrel"
@@ -30633,7 +30612,7 @@ msgstr "转化成虚线"
 
 #: ../share/extensions/dhw_input.inx.h:1
 msgid "DHW file input"
-msgstr ""
+msgstr "DHW 文件输入"
 
 #: ../share/extensions/dhw_input.inx.h:2
 msgid "ACECAD Digimemo File (*.dhw)"
@@ -30641,7 +30620,7 @@ msgstr ""
 
 #: ../share/extensions/dhw_input.inx.h:3
 msgid "Open files from ACECAD Digimemo"
-msgstr ""
+msgstr "打开来自 ACECAD Digimemo 的文件"
 
 #: ../share/extensions/dia.inx.h:1
 msgid "Dia Input"
@@ -30670,19 +30649,16 @@ msgid "Dimensions"
 msgstr "尺寸"
 
 #: ../share/extensions/dimension.inx.h:2
-#, fuzzy
 msgid "X Offset:"
-msgstr "X 偏移"
+msgstr "X 偏移："
 
 #: ../share/extensions/dimension.inx.h:3
-#, fuzzy
 msgid "Y Offset:"
-msgstr "Y 偏移"
+msgstr "Y 偏移："
 
 #: ../share/extensions/dimension.inx.h:4
-#, fuzzy
 msgid "Bounding box type:"
-msgstr "边框模式:"
+msgstr "边框类型："
 
 #: ../share/extensions/dimension.inx.h:5
 #, fuzzy
@@ -30703,9 +30679,8 @@ msgid "Number Nodes"
 msgstr "节点数"
 
 #: ../share/extensions/dots.inx.h:4
-#, fuzzy
 msgid "Dot size:"
-msgstr "点大小"
+msgstr "点尺寸："
 
 #: ../share/extensions/dots.inx.h:5
 #, fuzzy
@@ -30713,9 +30688,8 @@ msgid "Starting dot number:"
 msgstr "幻灯编号"
 
 #: ../share/extensions/dots.inx.h:6
-#, fuzzy
 msgid "Step:"
-msgstr "步数"
+msgstr "步数："
 
 #: ../share/extensions/dots.inx.h:8
 msgid ""
@@ -30807,12 +30781,13 @@ msgid "Symmedian Point"
 msgstr "类似重心"
 
 #: ../share/extensions/draw_from_triangle.inx.h:21
+#, fuzzy
 msgid "Symmedial Triangle"
-msgstr "Symmedial 三角形"
+msgstr "近似三角形"
 
 #: ../share/extensions/draw_from_triangle.inx.h:22
 msgid "Gergonne Point"
-msgstr "葛尔刚点(重心)"
+msgstr "葛尔刚点（重心）"
 
 #: ../share/extensions/draw_from_triangle.inx.h:23
 msgid "Nagel Point"
@@ -30840,9 +30815,8 @@ msgid "Draw Circle Around This Point"
 msgstr "在该点周围画圆"
 
 #: ../share/extensions/draw_from_triangle.inx.h:29 ../share/extensions/wireframe_sphere.inx.h:6
-#, fuzzy
 msgid "Radius (px):"
-msgstr "半径 /px"
+msgstr "半径 (px)："
 
 #: ../share/extensions/draw_from_triangle.inx.h:30
 msgid "Draw Isogonal Conjugate"
@@ -30898,20 +30872,19 @@ msgstr "DXF 输入"
 
 #: ../share/extensions/dxf_input.inx.h:3
 msgid "Method of Scaling:"
-msgstr ""
+msgstr "缩放方式："
 
 #: ../share/extensions/dxf_input.inx.h:4
-#, fuzzy
 msgid "Manual scale factor:"
-msgstr "或者指定缩放系数"
+msgstr "手动指定缩放系数："
 
 #: ../share/extensions/dxf_input.inx.h:5
 msgid "Manual x-axis origin (mm):"
-msgstr ""
+msgstr "手动指定 X 轴原点（毫米）："
 
 #: ../share/extensions/dxf_input.inx.h:6
 msgid "Manual y-axis origin (mm):"
-msgstr ""
+msgstr "手动指定 Y 轴原点（毫米）："
 
 #: ../share/extensions/dxf_input.inx.h:7
 msgid "Gcodetools compatible point import"
@@ -30924,7 +30897,7 @@ msgstr "字符编码"
 
 #: ../share/extensions/dxf_input.inx.h:9
 msgid "Text Font:"
-msgstr ""
+msgstr "文本字体："
 
 #: ../share/extensions/dxf_input.inx.h:11
 msgid ""
@@ -30983,6 +30956,7 @@ msgid "pt"
 msgstr "点"
 
 #: ../share/extensions/dxf_outlines.inx.h:10
+#, fuzzy
 msgid "pc"
 msgstr "pc"
 
@@ -31014,32 +30988,31 @@ msgstr "英寸"
 
 #: ../share/extensions/dxf_outlines.inx.h:16
 msgid "ft"
-msgstr "ft"
+msgstr "英尺"
 
 #: ../share/extensions/dxf_outlines.inx.h:17
 msgid "Latin 1"
-msgstr ""
+msgstr "Latin 1"
 
 #: ../share/extensions/dxf_outlines.inx.h:18
 msgid "CP 1250"
-msgstr ""
+msgstr "CP 1250"
 
 #: ../share/extensions/dxf_outlines.inx.h:19
 msgid "CP 1252"
-msgstr ""
+msgstr "CP 1252"
 
 #: ../share/extensions/dxf_outlines.inx.h:20
 msgid "UTF 8"
-msgstr ""
+msgstr "UTF 8"
 
 #: ../share/extensions/dxf_outlines.inx.h:21
 msgid "All (default)"
-msgstr ""
+msgstr "全部（默认）"
 
 #: ../share/extensions/dxf_outlines.inx.h:22
-#, fuzzy
 msgid "Visible only"
-msgstr "可见色"
+msgstr "仅可见项"
 
 #: ../share/extensions/dxf_outlines.inx.h:23
 msgid "By name match"
@@ -31119,108 +31092,92 @@ msgstr "嵌入的图像"
 
 #: ../share/extensions/embedimage.inx.h:2 ../share/extensions/embedselectedimages.inx.h:2
 msgid "Embed only selected images"
-msgstr "只嵌入所选图像"
+msgstr "仅嵌入所选图像"
 
 #: ../share/extensions/embedselectedimages.inx.h:1
-#, fuzzy
 msgid "Embed Selected Images"
-msgstr "只嵌入所选图像"
+msgstr "嵌入所选图像"
 
 #: ../share/extensions/empty_business_card.inx.h:1
 msgid "Business Card"
-msgstr ""
+msgstr "名片"
 
 #: ../share/extensions/empty_business_card.inx.h:2
 msgid "Business card size:"
-msgstr ""
+msgstr "名片尺寸："
 
 #: ../share/extensions/empty_desktop.inx.h:1
 msgid "Desktop"
-msgstr ""
+msgstr "桌面"
 
 #: ../share/extensions/empty_desktop.inx.h:2
-#, fuzzy
 msgid "Desktop size:"
-msgstr "点大小"
+msgstr "桌面大小："
 
 #. Maximum size is '16k'
 #: ../share/extensions/empty_desktop.inx.h:4 ../share/extensions/empty_generic.inx.h:2 ../share/extensions/empty_video.inx.h:4
-#, fuzzy
 msgid "Custom Width:"
-msgstr "自定义尺寸"
+msgstr "自定义宽度："
 
 #: ../share/extensions/empty_desktop.inx.h:5 ../share/extensions/empty_generic.inx.h:3 ../share/extensions/empty_video.inx.h:5
-#, fuzzy
 msgid "Custom Height:"
-msgstr "条码高度:"
+msgstr "自定义高度："
 
 #: ../share/extensions/empty_dvd_cover.inx.h:1
-#, fuzzy
 msgid "DVD Cover"
-msgstr "封面"
+msgstr "DVD 封面"
 
 #: ../share/extensions/empty_dvd_cover.inx.h:2
-#, fuzzy
 msgid "DVD spine width:"
-msgstr "线宽"
+msgstr "DVD 盒背宽度："
 
 #: ../share/extensions/empty_dvd_cover.inx.h:3
 msgid "DVD cover bleed (mm):"
-msgstr ""
+msgstr "DVD 封面出血（毫米）："
 
 #: ../share/extensions/empty_generic.inx.h:1
-#, fuzzy
 msgid "Generic Canvas"
-msgstr "画布"
+msgstr "普通画布"
 
 #: ../share/extensions/empty_generic.inx.h:4
-#, fuzzy
 msgid "SVG Unit:"
-msgstr "单位:"
+msgstr "SVG 单位："
 
 #: ../share/extensions/empty_generic.inx.h:5
-#, fuzzy
 msgid "Canvas background:"
-msgstr "跟踪背景"
+msgstr "画布背景："
 
 #: ../share/extensions/empty_generic.inx.h:6 ../share/extensions/empty_page.inx.h:5
-#, fuzzy
 msgid "Hide border"
-msgstr "突起的边沿"
+msgstr "隐藏边框"
 
 #: ../share/extensions/empty_icon.inx.h:1
-#, fuzzy
 msgid "Icon"
-msgstr "折叠"
+msgstr "图标"
 
 #: ../share/extensions/empty_icon.inx.h:2
-#, fuzzy
 msgid "Icon size:"
-msgstr "字体大小:"
+msgstr "图标大小："
 
 #: ../share/extensions/empty_page.inx.h:2
-#, fuzzy
 msgid "Page size:"
-msgstr "页面尺寸(_A):"
+msgstr "页面尺寸："
 
 #: ../share/extensions/empty_page.inx.h:3
 msgid "Page orientation:"
-msgstr "页面方位:"
+msgstr "页面方位："
 
 #: ../share/extensions/empty_page.inx.h:4
-#, fuzzy
 msgid "Page background:"
-msgstr "跟踪背景"
+msgstr "页面背景："
 
 #: ../share/extensions/empty_video.inx.h:1
-#, fuzzy
 msgid "Video Screen"
-msgstr "屏幕"
+msgstr "视频屏幕"
 
 #: ../share/extensions/empty_video.inx.h:2
-#, fuzzy
 msgid "Video size:"
-msgstr "点大小"
+msgstr "视频大小："
 
 #: ../share/extensions/eps_input.inx.h:1
 msgid "EPS Input"
@@ -31232,11 +31189,11 @@ msgstr "LaTeX"
 
 #: ../share/extensions/eqtexsvg.inx.h:2
 msgid "LaTeX input: "
-msgstr ""
+msgstr "LaTeX 输入："
 
 #: ../share/extensions/eqtexsvg.inx.h:3
 msgid "Additional packages (comma-separated): "
-msgstr ""
+msgstr "附加包（使用逗号分隔）："
 
 #: ../share/extensions/export_gimp_palette.inx.h:1
 msgid "Export as GIMP Palette"
@@ -31256,7 +31213,7 @@ msgstr "提取图像"
 
 #: ../share/extensions/extractimage.inx.h:2
 msgid "Path to save image:"
-msgstr "保存图像到路径:"
+msgstr "保存图像到路径："
 
 #: ../share/extensions/extractimage.inx.h:3
 msgid ""
@@ -31291,23 +31248,20 @@ msgid "Flatten Beziers"
 msgstr "拉直贝塞尔"
 
 #: ../share/extensions/flatten.inx.h:2
-#, fuzzy
 msgid "Flatness:"
-msgstr "平滑"
+msgstr "平整度："
 
 #: ../share/extensions/foldablebox.inx.h:1
 msgid "Foldable Box"
 msgstr "折叠纸盒"
 
 #: ../share/extensions/foldablebox.inx.h:4
-#, fuzzy
 msgid "Depth:"
-msgstr "深度"
+msgstr "深度："
 
 #: ../share/extensions/foldablebox.inx.h:5
-#, fuzzy
 msgid "Paper Thickness:"
-msgstr "纸张厚度"
+msgstr "纸张厚度："
 
 #: ../share/extensions/foldablebox.inx.h:6
 #, fuzzy
@@ -31323,9 +31277,8 @@ msgid "Fractalize"
 msgstr "碎片"
 
 #: ../share/extensions/fractalize.inx.h:2
-#, fuzzy
 msgid "Subdivisions:"
-msgstr "细分"
+msgstr "细分："
 
 #: ../share/extensions/funcplot.inx.h:1
 msgid "Function Plotter"
@@ -31337,12 +31290,11 @@ msgstr "范围与采样"
 
 #: ../share/extensions/funcplot.inx.h:3
 msgid "Start X value:"
-msgstr ""
+msgstr "起始 X 值："
 
 #: ../share/extensions/funcplot.inx.h:4
-#, fuzzy
 msgid "End X value:"
-msgstr "终点 X 值"
+msgstr "最终 X 值"
 
 #: ../share/extensions/funcplot.inx.h:5
 msgid "Multiply X range by 2*pi"
@@ -31359,13 +31311,12 @@ msgid "Y value of rectangle's top:"
 msgstr "矩形顶部的Y值"
 
 #: ../share/extensions/funcplot.inx.h:8
-#, fuzzy
 msgid "Number of samples:"
-msgstr "采样数目"
+msgstr "采样数量："
 
 #: ../share/extensions/funcplot.inx.h:9 ../share/extensions/param_curves.inx.h:11
 msgid "Isotropic scaling"
-msgstr ""
+msgstr "各向同性缩放"
 
 #: ../share/extensions/funcplot.inx.h:10
 msgid "Use polar coordinates"
@@ -31417,7 +31368,7 @@ msgid ""
 "\n"
 "The constants pi and e are also available."
 msgstr ""
-"可以使用下列标准python数学函数:\n"
+"可以使用下列标准python数学函数：\n"
 "\n"
 "ceil(x); fabs(x); floor(x); fmod(x,y); frexp(x); ldexp(x,i); \n"
 "modf(x); exp(x); log(x [, base]); log10(x); pow(x,y); sqrt(x); \n"
@@ -31425,21 +31376,19 @@ msgstr ""
 "cos(x); sin(x); tan(x); degrees(x); radians(x); \n"
 "cosh(x); sinh(x); tanh(x). \n"
 "\n"
-"常量 pi 和 e 也可使用."
+"也可使用常量 pi 和 e。"
 
 #: ../share/extensions/funcplot.inx.h:31
-#, fuzzy
 msgid "Function:"
-msgstr "函数"
+msgstr "函数："
 
 #: ../share/extensions/funcplot.inx.h:32
 msgid "Calculate first derivative numerically"
 msgstr "计算一阶导数"
 
 #: ../share/extensions/funcplot.inx.h:33
-#, fuzzy
 msgid "First derivative:"
-msgstr "一阶导数"
+msgstr "一阶导数："
 
 #: ../share/extensions/funcplot.inx.h:34
 #, fuzzy
@@ -31528,9 +31477,8 @@ msgid "Area fill shift"
 msgstr ""
 
 #: ../share/extensions/gcodetools_area.inx.h:9
-#, fuzzy
 msgid "Filling method"
-msgstr "划分方法"
+msgstr "填充方法"
 
 #: ../share/extensions/gcodetools_area.inx.h:10
 msgid "Zig zag"
@@ -31545,21 +31493,18 @@ msgid "Artifact diameter:"
 msgstr ""
 
 #: ../share/extensions/gcodetools_area.inx.h:14
-#, fuzzy
 msgid "Action:"
-msgstr "加速:"
+msgstr "动作："
 
 #: ../share/extensions/gcodetools_area.inx.h:15
 msgid "mark with an arrow"
-msgstr ""
+msgstr "使用箭头标记"
 
 #: ../share/extensions/gcodetools_area.inx.h:16
-#, fuzzy
 msgid "mark with style"
-msgstr "开关风格"
+msgstr "使用样式标记"
 
 #: ../share/extensions/gcodetools_area.inx.h:17
-#, fuzzy
 msgid "delete"
 msgstr "删除"
 
@@ -31640,31 +31585,31 @@ msgstr ""
 #: ../share/extensions/gcodetools_area.inx.h:35 ../share/extensions/gcodetools_engraving.inx.h:13 ../share/extensions/gcodetools_graffiti.inx.h:27
 #: ../share/extensions/gcodetools_lathe.inx.h:28 ../share/extensions/gcodetools_path_to_gcode.inx.h:17
 msgid "Get additional comments from object's properties"
-msgstr ""
+msgstr "为对象属性附加注释"
 
 #: ../share/extensions/gcodetools_area.inx.h:36 ../share/extensions/gcodetools_dxf_points.inx.h:8 ../share/extensions/gcodetools_engraving.inx.h:14
 #: ../share/extensions/gcodetools_graffiti.inx.h:28 ../share/extensions/gcodetools_lathe.inx.h:29
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:18
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #: ../share/extensions/gcodetools_area.inx.h:37 ../share/extensions/gcodetools_dxf_points.inx.h:9 ../share/extensions/gcodetools_engraving.inx.h:15
 #: ../share/extensions/gcodetools_graffiti.inx.h:29 ../share/extensions/gcodetools_lathe.inx.h:30
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:19
 msgid "File:"
-msgstr ""
+msgstr "文件："
 
 #: ../share/extensions/gcodetools_area.inx.h:38 ../share/extensions/gcodetools_dxf_points.inx.h:10 ../share/extensions/gcodetools_engraving.inx.h:16
 #: ../share/extensions/gcodetools_graffiti.inx.h:30 ../share/extensions/gcodetools_lathe.inx.h:31
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:20
 msgid "Add numeric suffix to filename"
-msgstr ""
+msgstr "为文件名附加数字结尾"
 
 #: ../share/extensions/gcodetools_area.inx.h:39 ../share/extensions/gcodetools_dxf_points.inx.h:11 ../share/extensions/gcodetools_engraving.inx.h:17
 #: ../share/extensions/gcodetools_graffiti.inx.h:31 ../share/extensions/gcodetools_lathe.inx.h:32
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:21
 msgid "Directory:"
-msgstr ""
+msgstr "目录："
 
 #: ../share/extensions/gcodetools_area.inx.h:40 ../share/extensions/gcodetools_dxf_points.inx.h:12 ../share/extensions/gcodetools_engraving.inx.h:18
 #: ../share/extensions/gcodetools_graffiti.inx.h:32 ../share/extensions/gcodetools_lathe.inx.h:33
@@ -31676,7 +31621,7 @@ msgstr ""
 #: ../share/extensions/gcodetools_graffiti.inx.h:13 ../share/extensions/gcodetools_lathe.inx.h:34
 #: ../share/extensions/gcodetools_orientation_points.inx.h:6 ../share/extensions/gcodetools_path_to_gcode.inx.h:23
 msgid "Units (mm or in):"
-msgstr ""
+msgstr "单位（毫米或英寸）："
 
 #: ../share/extensions/gcodetools_area.inx.h:42 ../share/extensions/gcodetools_dxf_points.inx.h:14 ../share/extensions/gcodetools_engraving.inx.h:20
 #: ../share/extensions/gcodetools_graffiti.inx.h:33 ../share/extensions/gcodetools_lathe.inx.h:35
@@ -31694,7 +31639,7 @@ msgstr ""
 #: ../share/extensions/gcodetools_graffiti.inx.h:35 ../share/extensions/gcodetools_lathe.inx.h:37
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:26
 msgid "Generate log file"
-msgstr ""
+msgstr "生成日志文件"
 
 #: ../share/extensions/gcodetools_area.inx.h:45 ../share/extensions/gcodetools_dxf_points.inx.h:17 ../share/extensions/gcodetools_engraving.inx.h:23
 #: ../share/extensions/gcodetools_graffiti.inx.h:36 ../share/extensions/gcodetools_lathe.inx.h:38
@@ -31735,19 +31680,19 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_check_for_updates.inx.h:1
 msgid "Check for updates"
-msgstr ""
+msgstr "查找更新"
 
 #: ../share/extensions/gcodetools_check_for_updates.inx.h:2
 msgid "Check for Gcodetools latest stable version and try to get the updates."
-msgstr ""
+msgstr "为 Gcodetools 查找最新版本并尝试获取更新。"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:1
 msgid "DXF Points"
-msgstr ""
+msgstr "DXF 点"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:2
 msgid "DXF points"
-msgstr ""
+msgstr "DXF 点"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:3
 msgid "Convert selection:"
@@ -31769,11 +31714,11 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:7
 msgid "clear dxfpoint sign"
-msgstr ""
+msgstr "清除 DXF 点标记"
 
 #: ../share/extensions/gcodetools_engraving.inx.h:1
 msgid "Engraving"
-msgstr ""
+msgstr "雕刻"
 
 #: ../share/extensions/gcodetools_engraving.inx.h:2
 msgid "Smooth convex corners between this value and 180 degrees:"
@@ -31800,7 +31745,7 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:1
 msgid "Graffiti"
-msgstr ""
+msgstr "涂鸦"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:2
 msgid "Maximum segment length:"
@@ -31812,19 +31757,19 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:4
 msgid "Start position (x;y):"
-msgstr ""
+msgstr "起始位置 (x;y)："
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:5
 msgid "Create preview"
-msgstr ""
+msgstr "创建预览"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:6
 msgid "Create linearization preview"
-msgstr ""
+msgstr "创建线性化预览"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:7
 msgid "Preview's size (px):"
-msgstr ""
+msgstr "预览大小 (px)："
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:8
 msgid "Preview's paint emmit (pts/s):"
@@ -31836,11 +31781,11 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:11 ../share/extensions/gcodetools_orientation_points.inx.h:4
 msgid "Z surface:"
-msgstr ""
+msgstr "Z 表面："
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:12 ../share/extensions/gcodetools_orientation_points.inx.h:5
 msgid "Z depth:"
-msgstr ""
+msgstr "Z 深度："
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:14 ../share/extensions/gcodetools_orientation_points.inx.h:7
 msgid "2-points mode (move and rotate, maintained aspect ratio X/Y)"
@@ -31867,9 +31812,8 @@ msgid ""
 msgstr ""
 
 #: ../share/extensions/gcodetools_lathe.inx.h:1
-#, fuzzy
 msgid "Lathe"
-msgstr "羽化"
+msgstr "车床"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:2
 msgid "Lathe width:"
@@ -31897,7 +31841,7 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_lathe.inx.h:8
 msgid "Move path"
-msgstr ""
+msgstr "移动路径"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:9
 msgid "Offset path"
@@ -31945,7 +31889,7 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:8
 msgid "Replace original path"
-msgstr ""
+msgstr "替换原路径"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:9
 msgid "Do not add in-out reference points"
@@ -31961,15 +31905,15 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:12
 msgid "Maximum angle for corner (0-180 deg):"
-msgstr ""
+msgstr "最大角度（0-180 度）："
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:14
 msgid "Perpendicular"
-msgstr ""
+msgstr "垂直"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:15
 msgid "Tangent"
-msgstr ""
+msgstr "相切"
 
 #: ../share/extensions/gcodetools_prepare_path_for_plasma.inx.h:16
 msgid "-------------------------------------------------"
@@ -31977,15 +31921,15 @@ msgstr "-------------------------------------------------"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:1
 msgid "Tools library"
-msgstr ""
+msgstr "工具库"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:2
 msgid "Tools type:"
-msgstr ""
+msgstr "工具类型："
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:3
 msgid "default"
-msgstr ""
+msgstr "默认"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:4
 msgid "cylinder"
@@ -32001,15 +31945,15 @@ msgstr ""
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:7
 msgid "tangent knife"
-msgstr ""
+msgstr "切线刀"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:8
 msgid "lathe cutter"
-msgstr ""
+msgstr "车床刀具"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:9
 msgid "graffiti"
-msgstr ""
+msgstr "涂鸦"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:10
 msgid "Just check tools"
@@ -32031,7 +31975,7 @@ msgstr ""
 
 #: ../share/extensions/generate_voronoi.inx.h:4
 msgid "Size of Border (px):"
-msgstr ""
+msgstr "边框大小："
 
 #: ../share/extensions/generate_voronoi.inx.h:6
 msgid ""
@@ -32046,24 +31990,20 @@ msgid "GIMP XCF"
 msgstr "GIMP XCF"
 
 #: ../share/extensions/gimp_xcf.inx.h:3
-#, fuzzy
 msgid "Save Guides"
-msgstr "保持参考线:"
+msgstr "保存参考线"
 
 #: ../share/extensions/gimp_xcf.inx.h:4
-#, fuzzy
 msgid "Save Grid"
-msgstr "保存网格:"
+msgstr "保存网格"
 
 #: ../share/extensions/gimp_xcf.inx.h:5
-#, fuzzy
 msgid "Save Background"
-msgstr "跟踪背景"
+msgstr "保存背景"
 
 #: ../share/extensions/gimp_xcf.inx.h:6
-#, fuzzy
 msgid "File Resolution:"
-msgstr "分辨率:"
+msgstr "文件分辨率："
 
 #: ../share/extensions/gimp_xcf.inx.h:8
 msgid ""
