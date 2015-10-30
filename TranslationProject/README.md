@@ -62,7 +62,7 @@ as a directive for choosing what files to compendium / TM match from.
     - cpplib (from gcc)
   - m4
   - make
-- GNU *utils
+- GNU blahutils
   - util-linux
   - tar
   - wget
