@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: binutils 2.12.91\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2014-02-10 09:42+1030\n"
-"PO-Revision-Date: 2015-09-11 16:01-0400\n"
-"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-10-29 23:56-0400\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -401,14 +401,14 @@ msgid "creating %s"
 msgstr "正在创建 %s"
 
 #: ar.c:945
-#, c-format
+#, fuzzy, c-format
 msgid "Cannot convert existing library %s to thin format"
-msgstr ""
+msgstr "现有的库％s无法转换为精简格式"
 
 #: ar.c:951
-#, c-format
+#, fuzzy, c-format
 msgid "Cannot convert existing thin library %s to normal format"
-msgstr ""
+msgstr "不能将现有薄库 %s 转换为正常格式"
 
 #: ar.c:983 ar.c:1037 ar.c:1366 objcopy.c:2294
 #, c-format
@@ -421,8 +421,9 @@ msgid "%s is not a valid archive"
 msgstr "%s 不是有效的归档文件"
 
 #: ar.c:1128
+#, fuzzy
 msgid "could not create temporary file whilst writing archive"
-msgstr ""
+msgstr "无法创建临时文件，虽然写作档案"
 
 #: ar.c:1271
 #, c-format
@@ -548,11 +549,11 @@ msgid "endianness unknown"
 msgstr "未知的端序"
 
 #: bucomm.c:252
-#, c-format
+#, fuzzy, c-format
 msgid ""
 "%s\n"
 " (header %s, data %s)\n"
-msgstr ""
+msgstr "%s：不是一个 gcov 数据文件\n"
 
 #: bucomm.c:408
 #, c-format
@@ -605,9 +606,9 @@ msgid "pointer to"
 msgstr "指针到"
 
 #: coffdump.c:146
-#, c-format
+#, fuzzy, c-format
 msgid "array [%d] of"
-msgstr ""
+msgstr "数组%q+D类型与隐式初始化不兼容"
 
 #: coffdump.c:151
 #, c-format
@@ -687,7 +688,7 @@ msgstr "符号清单"
 #: coffdump.c:341
 #, fuzzy, c-format
 msgid "Symbol  %s, tag %d, number %d"
-msgstr "行 %d：有缺陷的标签：%s\n"
+msgstr "行 %d：空的标签：%s\n"
 
 #: coffdump.c:345 readelf.c:13103 readelf.c:13177
 #, c-format
@@ -709,9 +710,9 @@ msgid "List of blocks "
 msgstr "区块清单 "
 
 #: coffdump.c:383
-#, c-format
+#, fuzzy, c-format
 msgid "vars %d"
-msgstr ""
+msgstr "__io 变量默认为 volatile"
 
 #: coffdump.c:386
 #, c-format
@@ -1644,7 +1645,7 @@ msgstr ""
 #: dwarf.c:449
 #, fuzzy, c-format
 msgid "set Discriminator to %s\n"
-msgstr "  将 is_stmt 设定为 %d\n"
+msgstr "设置地址为 0x%s\n"
 
 #: dwarf.c:524
 #, c-format
@@ -1720,7 +1721,7 @@ msgstr "<没有 .debug_addr 节>"
 #: dwarf.c:623
 #, fuzzy, c-format
 msgid "Offset into section %s too big: %s\n"
-msgstr "  在 .debug_info 节中的偏移量：       %ld\n"
+msgstr "字节偏移量%s 过大"
 
 #. Report the missing single zero which ends the section.
 #: dwarf.c:788
@@ -1802,12 +1803,12 @@ msgstr " (索引字串，偏移量：0x%s)： %s"
 #: dwarf.c:1684
 #, fuzzy, c-format
 msgid " (alt indirect string, offset: 0x%s)"
-msgstr " (间接字符串，偏移量：0x%lx)："
+msgstr " (间接字串，偏移量：0x%s)： %s"
 
 #: dwarf.c:1707
 #, fuzzy, c-format
 msgid " (addr_index: 0x%s): %s"
-msgstr "警告：%s：%s\n"
+msgstr "   长度：        0x%s (%s)\n"
 
 #: dwarf.c:1713
 #, c-format
@@ -1934,7 +1935,7 @@ msgstr ""
 #: dwarf.c:2191
 #, fuzzy, c-format
 msgid "No comp units in %s section ?"
-msgstr "在 %s 区段中没有编译单元？"
+msgstr "内存节 %s+%x"
 
 #: dwarf.c:2200
 #, c-format
@@ -1995,7 +1996,7 @@ msgstr "   类型偏移量：  0x%s\n"
 #: dwarf.c:2333
 #, fuzzy, c-format
 msgid "   Section contributions:\n"
-msgstr "   区段贡献：\n"
+msgstr "区域"
 
 #: dwarf.c:2334
 #, fuzzy, c-format
@@ -2234,7 +2235,7 @@ msgstr "PC=%d 处校验错：%s"
 #: dwarf.c:2905
 #, fuzzy, c-format
 msgid "  Advance Line by %s to %d\n"
-msgstr "行 %d: %s\n"
+msgstr "行 %d: 没有任何的 ':' 终止符号：%s\n"
 
 #: dwarf.c:2913
 #, c-format
@@ -2289,7 +2290,7 @@ msgstr "  将 ISA 设定为 %s\n"
 #: dwarf.c:2988 dwarf.c:3377
 #, fuzzy, c-format
 msgid "  Unknown opcode %d with operands: "
-msgstr "  未知操作码 %d 应用于运算符："
+msgstr "  操作码 %d 具有 %d 个参数\n"
 
 #: dwarf.c:3026
 #, c-format
@@ -2362,7 +2363,7 @@ msgstr "函数"
 #: dwarf.c:3522
 #, fuzzy
 msgid "other"
-msgstr "其它"
+msgstr "其他"
 
 #: dwarf.c:3523
 msgid "unused5"
@@ -2584,12 +2585,12 @@ msgstr "[%3u] 0x%lx - 0x%lx\n"
 #: dwarf.c:4109
 #, fuzzy
 msgid "has children"
-msgstr "含有子格位"
+msgstr "列出 PATH 的直接子路径"
 
 #: dwarf.c:4109
 #, fuzzy
 msgid "no children"
-msgstr "没有子格位"
+msgstr "从树状结构中删除 PATH 和它的所有子目录"
 
 #: dwarf.c:4150 dwarf.c:4182 dwarf.c:4191 dwarf.c:4264 dwarf.c:4312
 #: dwarf.c:4320
@@ -2709,7 +2710,7 @@ msgstr "  节区大小:                 %d\n"
 #: dwarf.c:4660
 #, fuzzy, c-format
 msgid "Invalid address size in %s section!\n"
-msgstr "节 %s 的地址设置到 "
+msgstr "警告：%s 节的大小为零"
 
 #: dwarf.c:4670
 msgid "Pointer size + Segment size is not a power of two.\n"
@@ -2741,9 +2742,7 @@ msgstr "  对编译单元，位于偏移 0x%s:\n"
 #: dwarf.c:4763
 #, fuzzy, c-format
 msgid "\tIndex\tAddress\n"
-msgstr ""
-"\n"
-"归档索引：\n"
+msgstr "ADDRESS"
 
 #: dwarf.c:4770
 #, fuzzy, c-format
@@ -2765,7 +2764,7 @@ msgstr ""
 #: dwarf.c:4885
 #, fuzzy, c-format
 msgid "    Offset   Begin    End\n"
-msgstr "    偏移量   起始   结束\n"
+msgstr "    偏移量   起始      结束      表达式\n"
 
 #: dwarf.c:4905
 #, fuzzy, c-format
@@ -2775,12 +2774,12 @@ msgstr "在 .debug_loc 节中有一处空洞 [0x%lx - 0x%lx]。\n"
 #: dwarf.c:4912
 #, fuzzy, c-format
 msgid "There is an overlap [0x%lx - 0x%lx] in %s section.\n"
-msgstr "在 .debug_loc 区段中有一个重叠 [0x%lx - 0x%lx]。\n"
+msgstr "在 .debug_loc 节中有一处重叠 [0x%lx - 0x%lx]。\n"
 
 #: dwarf.c:4957
 #, fuzzy
 msgid "(start == end)"
-msgstr " (开始 == 结束)"
+msgstr " (开始 > 结束)"
 
 #: dwarf.c:4959
 #, fuzzy
@@ -2813,7 +2812,9 @@ msgstr ""
 #: dwarf.c:6076
 #, fuzzy, c-format
 msgid "Truncated header in the %s section.\n"
-msgstr "Corrupt header in the %s section.\n"
+msgstr ""
+"\n"
+"节头：\n"
 
 #: dwarf.c:6081
 #, c-format
@@ -2844,7 +2845,9 @@ msgstr "版本 6 不包含符号属性。\n"
 #: dwarf.c:6115
 #, fuzzy, c-format
 msgid "Corrupt header in the %s section.\n"
-msgstr "Corrupt header in the %s section.\n"
+msgstr ""
+"\n"
+"节头：\n"
 
 #: dwarf.c:6130
 #, c-format
@@ -2893,9 +2896,7 @@ msgstr "%lu\n"
 msgid ""
 "\n"
 "Symbol table:\n"
-msgstr ""
-"\n"
-"符号表：\n"
+msgstr "  [S]          - 不要创建符号表\n"
 
 #: dwarf.c:6200
 msgid "static"
@@ -2918,19 +2919,21 @@ msgstr "  版本：                    %d\n"
 #: dwarf.c:6324
 #, fuzzy, c-format
 msgid "  Number of columns:       %d\n"
-msgstr "  列数量：              %d\n"
+msgstr "终端列数不明\n"
 
 #: dwarf.c:6325
 #, fuzzy, c-format
 msgid "  Number of used entries:  %d\n"
-msgstr "  已用项数：            %d\n"
+msgstr ""
+"\n"
+"“%s”节含有 %d 个条目：\n"
 
 #: dwarf.c:6326
 #, fuzzy, c-format
 msgid ""
 "  Number of slots:         %d\n"
 "\n"
-msgstr "密钥槽全都满了。\n"
+msgstr "计数器的数量是 %d 而不是 %d"
 
 #: dwarf.c:6331
 #, fuzzy, c-format
@@ -2970,7 +2973,7 @@ msgstr "dwo_id"
 #: dwarf.c:6443 dwarf.c:6489
 #, fuzzy, c-format
 msgid "  [%3d] 0x%s"
-msgstr "  [%3d] 0x%s"
+msgstr "%3d>%*s(清空)"
 
 #: dwarf.c:6469
 #, c-format
@@ -3103,16 +3106,15 @@ msgid "%s: did not find a valid archive header\n"
 msgstr "%s 不是有效的归档文件"
 
 #: elfcomm.c:815 readelf.c:279 readelf.c:5586 readelf.c:6098 readelf.c:8774
-#: readelf.c:8890 readelf.c:9895 readelf.c:9989 readelf.c:10050
-#: readelf.c:13313 readelf.c:13316
-#, fuzzy
+#: readelf.c:8890 readelf.c:9895 readelf.c:9989 readelf.c:10050 readelf.c:13313
+#: readelf.c:13316
 msgid "<corrupt>"
-msgstr "损坏的标签\n"
+msgstr "<已损坏>"
 
 #: elfedit.c:71
 #, fuzzy, c-format
 msgid "%s: Not an ELF file - wrong magic bytes at the start\n"
-msgstr "%s 不是 ELF 文件 - 起始处的魔数有误。\n"
+msgstr "不是 ELF 文件 - 它开头的 magic 字节错误\n"
 
 #: elfedit.c:79
 #, fuzzy, c-format
@@ -3127,12 +3129,12 @@ msgstr ""
 #: elfedit.c:106
 #, fuzzy, c-format
 msgid "%s: Unmatched e_machine: %d is not %d\n"
-msgstr "%s 用于未知的机器 %d。\n"
+msgstr "%s %s(%E) %p %d\n"
 
 #: elfedit.c:117
 #, fuzzy, c-format
 msgid "%s: Unmatched e_type: %d is not %d\n"
-msgstr "%s：未知的重定位类型 %d"
+msgstr "%s %s(%E) %p %d\n"
 
 #: elfedit.c:128
 #, c-format
@@ -3181,7 +3183,7 @@ msgstr "%s：不当的归档文件名称\n"
 #: elfedit.c:389 elfedit.c:481
 #, fuzzy, c-format
 msgid "Input file '%s' is not readable\n"
-msgstr "输入文件 “%s” 并不可读。\n"
+msgstr "%s：输入文件是输出文件"
 
 #: elfedit.c:413
 #, fuzzy, c-format
@@ -3201,22 +3203,22 @@ msgstr "无法找到 “%s” 的位置。错误消息为：%s\n"
 #: elfedit.c:461 readelf.c:14610
 #, fuzzy, c-format
 msgid "'%s' is not an ordinary file\n"
-msgstr " “%s” 不是一般的文件\n"
+msgstr "警告：'%s' 不是一般文件"
 
 #: elfedit.c:487 readelf.c:14623
 #, fuzzy, c-format
 msgid "%s: Failed to read file's magic number\n"
-msgstr "magic_file(ms，“%s”) 失败：%s\n"
+msgstr "从基底文件读取条目数量时失败"
 
 #: elfedit.c:545
 #, fuzzy, c-format
 msgid "Unknown OSABI: %s\n"
-msgstr "%s%s：不明的主机。\n"
+msgstr "<未知：%s>"
 
 #: elfedit.c:566
 #, fuzzy, c-format
 msgid "Unknown machine type: %s\n"
-msgstr "%s 用于未知的机器 %d。\n"
+msgstr "内部错误：未知的机器类型：%d"
 
 #: elfedit.c:585
 #, fuzzy, c-format
@@ -3231,12 +3233,14 @@ msgstr "未知的格式类型“%s”"
 #: elfedit.c:635
 #, fuzzy, c-format
 msgid "Usage: %s <option(s)> elffile(s)\n"
-msgstr "用法：%s [选项]... [文件]...\n"
+msgstr "用法：%s [选项]... [文件]\n"
 
 #: elfedit.c:637
-#, fuzzy, c-format
+#, c-format
 msgid " Update the ELF header of ELF files\n"
-msgstr "无效的 ELF 头"
+msgstr ""
+" 更新 ELF 文件的 ELF 头\n"
+"\n"
 
 #: elfedit.c:638 objcopy.c:489 objcopy.c:615
 #, c-format
@@ -3428,9 +3432,8 @@ msgid "unknown C++ visibility"
 msgstr "未知的 C++ 可见性"
 
 #: ieee.c:2872
-#, fuzzy
 msgid "bad C++ field bit pos or size"
-msgstr "不良的 C++ 字段比特位置或大小"
+msgstr "不当的 C++ 字段位位置或大小"
 
 #: ieee.c:2964
 msgid "bad type for C++ method function"
@@ -3439,7 +3442,7 @@ msgstr "不当的 C++ 方法函数类型"
 #: ieee.c:2974
 #, fuzzy
 msgid "no type information for C++ method function"
-msgstr "对于 C++ 方法函数没有类型信息"
+msgstr "不当的 C++ 方法函数类型"
 
 #: ieee.c:3013
 msgid "C++ static virtual method"
@@ -3448,7 +3451,7 @@ msgstr "C++ 静态虚拟方法"
 #: ieee.c:3108
 #, fuzzy
 msgid "unrecognized C++ object overhead spec"
-msgstr "无法识别的 C++ 对象顶层规格"
+msgstr "无法识别的 C++ 对象规范"
 
 #: ieee.c:3147
 msgid "undefined C++ vtable"
@@ -3457,7 +3460,7 @@ msgstr "未定义的 C++ vtable"
 #: ieee.c:3216
 #, fuzzy
 msgid "C++ default values not in a function"
-msgstr "C++ 默认值不在函数之中"
+msgstr "无法识别的 C++ 默认类型"
 
 #: ieee.c:3256
 msgid "unrecognized C++ default type"
@@ -3659,12 +3662,12 @@ msgstr ""
 #: nlmconv.c:1143
 #, fuzzy, c-format
 msgid "support not compiled in for %s"
-msgstr "未将对于 %s 的支持编译进去"
+msgstr "(已编译 %s)"
 
 #: nlmconv.c:1180
 #, fuzzy
 msgid "make section"
-msgstr "制作区段"
+msgstr "生成 .bss 节"
 
 #: nlmconv.c:1194
 msgid "set section size"
@@ -4312,7 +4315,7 @@ msgstr "%s:%d: 缺少新的符号名称"
 #: objcopy.c:1498
 #, fuzzy, c-format
 msgid "%s:%d: premature end of file"
-msgstr "%s:%d: 文件末尾不完整"
+msgstr "脚本“%s”: 未预期结束的文件%s\n"
 
 #: objcopy.c:1524
 #, fuzzy, c-format
@@ -4322,7 +4325,7 @@ msgstr "%s 的文件大小为负数，无法使用"
 #: objcopy.c:1536
 #, fuzzy, c-format
 msgid "copy from `%s' [unknown] to `%s' [unknown]\n"
-msgstr "%s%s：不明的主机。\n"
+msgstr "%s：未知函数‘%u’\n"
 
 #: objcopy.c:1593
 #, fuzzy
@@ -4347,7 +4350,7 @@ msgstr "无法改变输入文件的结尾格式"
 #: objcopy.c:1662
 #, fuzzy, c-format
 msgid "Output file cannot represent architecture `%s'"
-msgstr "无法打开输出文件“%s”"
+msgstr "无法打开中间输出文件 %s\n"
 
 #: objcopy.c:1725
 #, fuzzy, c-format
@@ -4362,7 +4365,7 @@ msgstr "无法添加其它分区。"
 #: objcopy.c:1797
 #, fuzzy, c-format
 msgid "can't create section `%s'"
-msgstr "%s：无法创建 %s (%s)"
+msgstr "无法创建 .lib 文件：%s: %s"
 
 #: objcopy.c:1847
 #, c-format
@@ -4381,7 +4384,7 @@ msgstr ""
 msgid "can't dump section - it is empty"
 msgstr ""
 "\n"
-" “%s” 区段的汇编语言倾印：\n"
+"“%s”节的十六进制输出：\n"
 
 #: objcopy.c:1872
 #, fuzzy
@@ -4435,7 +4438,7 @@ msgstr ""
 #: objcopy.c:2203
 #, fuzzy
 msgid "ignoring the alternative value"
-msgstr "比利时语(替代)"
+msgstr "未结束的汇编风格指示"
 
 #: objcopy.c:2235 objcopy.c:2277
 #, fuzzy, c-format
@@ -4450,7 +4453,7 @@ msgstr "无法定位到文件末尾\n"
 #: objcopy.c:2434
 #, fuzzy, c-format
 msgid "error: the input file '%s' is empty"
-msgstr "读取骨架文件 %s 时输入错误"
+msgstr "%s：输入文件是输出文件"
 
 #: objcopy.c:2578
 #, c-format
@@ -4460,19 +4463,17 @@ msgstr "多次改名节 %s"
 #: objcopy.c:2629
 #, fuzzy
 msgid "error in private header data"
-msgstr ""
-"\n"
-"错误：不当的地址在 From: 标头内。\n"
+msgstr "读取软件包头部错误\n"
 
 #: objcopy.c:2706
 #, fuzzy
 msgid "failed to create output section"
-msgstr "输出不可表示的节"
+msgstr "  -n, --no-output                 不创建输出文件\n"
 
 #: objcopy.c:2720
 #, fuzzy
 msgid "failed to set size"
-msgstr "设置功能保持时失败"
+msgstr "设置组ID 失败"
 
 #: objcopy.c:2739
 #, fuzzy
@@ -4504,9 +4505,7 @@ msgstr ""
 #: objcopy.c:3169
 #, fuzzy
 msgid "can't create debugging section"
-msgstr ""
-"\n"
-" “%s” 节不含正在调试的数据。\n"
+msgstr "无法创建更多分区。"
 
 #: objcopy.c:3182
 #, fuzzy
@@ -4530,7 +4529,7 @@ msgstr "%P: 警告: -subsystem 选项中出现不当的版本号码\n"
 #: objcopy.c:3453
 #, fuzzy, c-format
 msgid "unknown PE subsystem: %s"
-msgstr "%P%F: 无效的子系统型态 %s\n"
+msgstr "%s：未知函数‘%u’\n"
 
 #: objcopy.c:3514
 msgid "byte number must be non-negative"
@@ -4544,12 +4543,12 @@ msgstr "未知的体系结构 %s"
 #: objcopy.c:3528
 #, fuzzy
 msgid "interleave must be positive"
-msgstr "间断值必须是正数。"
+msgstr "“N”的值必须是正数。"
 
 #: objcopy.c:3537
 #, fuzzy
 msgid "interleave width must be positive"
-msgstr "间断值必须是正数。"
+msgstr "需要正的指数宽度"
 
 #: objcopy.c:3671 objcopy.c:3723 objcopy.c:3774 objcopy.c:3890 objcopy.c:3922
 #: objcopy.c:3945 objcopy.c:3949 objcopy.c:3969
@@ -4644,7 +4643,7 @@ msgstr ""
 #: objcopy.c:4292 objcopy.c:4306
 #, fuzzy, c-format
 msgid "%s %s%c0x%s never used"
-msgstr "%s %s%c0x%s 完全没用过"
+msgstr "“#pragma disinterrupt %s”未使用"
 
 #: objdump.c:198
 #, c-format
@@ -4855,7 +4854,9 @@ msgstr ""
 msgid ""
 "\n"
 "Disassembly of section %s:\n"
-msgstr "%s：未知的节“%.*s”"
+msgstr ""
+"%s 节的内容:\n"
+"\n"
 
 #: objdump.c:2171
 #, fuzzy, c-format
@@ -4872,7 +4873,9 @@ msgstr "未知的体系结构 %s"
 msgid ""
 "\n"
 "Can't get contents for section '%s'.\n"
-msgstr "%s：无法提取 TERM 条目\n"
+msgstr ""
+"%s 节的内容:\n"
+"\n"
 
 #: objdump.c:2432
 #, c-format
@@ -4940,7 +4943,7 @@ msgstr "共有 %d 个节头，从偏移量 0x%lx 开始：\n"
 #: objdump.c:2755
 #, fuzzy
 msgid "Reading section failed"
-msgstr "读取节头部失败"
+msgstr "从设备读取时失败"
 
 #: objdump.c:2858
 #, c-format
@@ -4950,7 +4953,9 @@ msgstr "无符号\n"
 #: objdump.c:2865
 #, fuzzy, c-format
 msgid "no information for symbol number %ld\n"
-msgstr "没有关于符号号码 %ld 的信息\n"
+msgstr ""
+"\n"
+"      End+1 符号：%ld"
 
 #: objdump.c:2868
 #, fuzzy, c-format
@@ -4979,7 +4984,7 @@ msgstr "在归档文件 %s 中：\n"
 #: objdump.c:3361
 #, fuzzy, c-format
 msgid "In nested archive %s:\n"
-msgstr "在归档文件 %s 中：\n"
+msgstr "巢状"
 
 #: objdump.c:3494
 msgid "error: the start address should be before the end address"
@@ -5022,51 +5027,51 @@ msgstr ""
 
 #: od-macho.c:265
 msgid "Mach-O header:\n"
-msgstr ""
+msgstr "Mach-O 标头:\n"
 
 #: od-macho.c:266
-#, fuzzy, c-format
+#, c-format
 msgid " magic     : %08lx\n"
-msgstr " 不当的符号索引：%08lx"
+msgstr " 幻数      : %08lx\n"
 
 #: od-macho.c:267
-#, fuzzy, c-format
+#, c-format
 msgid " cputype   : %08lx (%s)\n"
-msgstr " 不当的符号索引：%08lx"
+msgstr " cpu 类型  : %08lx (%s)\n"
 
 #: od-macho.c:269
-#, fuzzy, c-format
+#, c-format
 msgid " cpusubtype: %08lx\n"
-msgstr " 不当的符号索引：%08lx"
+msgstr " cpu 子类  : %08lx\n"
 
 #: od-macho.c:270
-#, fuzzy, c-format
+#, c-format
 msgid " filetype  : %08lx (%s)\n"
-msgstr " 不当的符号索引：%08lx"
+msgstr " 文件类型  : %08lx (%s)\n"
 
 #: od-macho.c:273
-#, fuzzy, c-format
+#, c-format
 msgid " ncmds     : %08lx (%lu)\n"
-msgstr " 不当的符号索引：%08lx"
+msgstr " 命令数    : %08lx (%lu)\n"
 
 #: od-macho.c:274
-#, fuzzy, c-format
+#, c-format
 msgid " sizeofcmds: %08lx\n"
-msgstr " 不当的符号索引：%08lx"
+msgstr " 命令大小  : %08lx\n"
 
 #: od-macho.c:275
-#, fuzzy, c-format
+#, c-format
 msgid " flags     : %08lx ("
-msgstr "  标志"
+msgstr " 旗标      : %08lx ("
 
 #: od-macho.c:277
 msgid ")\n"
 msgstr ")\n"
 
 #: od-macho.c:278
-#, fuzzy, c-format
+#, c-format
 msgid " reserved  : %08x\n"
-msgstr "保留"
+msgstr " 保留      : %08x\n"
 
 #: od-macho.c:288
 msgid "Segments and Sections:\n"
@@ -5075,7 +5080,7 @@ msgstr "段和节:\n"
 #: od-macho.c:289
 #, fuzzy
 msgid " #: Segment name     Section name     Address\n"
-msgstr "没有与名字关联的地址"
+msgstr "  [号] 名称              类型             地址              偏移量\n"
 
 #: od-macho.c:684 od-macho.c:691 od-macho.c:765 od-macho.c:817
 #, fuzzy, c-format
@@ -5150,7 +5155,7 @@ msgstr "  入口点地址：              "
 #: od-macho.c:789
 #, fuzzy, c-format
 msgid "  page size:         %02x\n"
-msgstr "   版本：        %d\n"
+msgstr "页面尺寸无效\n"
 
 #: od-macho.c:790
 #, fuzzy, c-format
@@ -5165,7 +5170,7 @@ msgstr "标志 0x%08x：\n"
 #: od-macho.c:804
 #, fuzzy, c-format
 msgid "  [truncated block]\n"
-msgstr "块 IF"
+msgstr "文件被截断"
 
 #: od-macho.c:812
 #, fuzzy, c-format
@@ -5180,7 +5185,7 @@ msgstr "%08x: <未知>"
 #: od-macho.c:845
 #, fuzzy
 msgid "cannot read code signature data"
-msgstr "无法读入统计数据"
+msgstr "不调整代码和只读数据对齐"
 
 #: od-macho.c:873
 msgid "cannot read segment split info"
@@ -5281,7 +5286,7 @@ msgstr ""
 #: od-xcoff.c:460
 #, fuzzy
 msgid "cannot read auxhdr"
-msgstr "无法读入头"
+msgstr "无法从 %s 读取：%s\n"
 
 #: od-xcoff.c:525
 #, c-format
@@ -5298,7 +5303,7 @@ msgstr ""
 #: od-xcoff.c:535 od-xcoff.c:547 od-xcoff.c:602
 #, fuzzy
 msgid "cannot read section header"
-msgstr "无法读取动态区段"
+msgstr "%s：无法读取位于 0x%x 的表头\n"
 
 #: od-xcoff.c:561
 #, fuzzy, c-format
@@ -5313,7 +5318,9 @@ msgstr "IEEE 字符串长度溢出：%u\n"
 #: od-xcoff.c:590 od-xcoff.c:925 od-xcoff.c:981
 #, fuzzy
 msgid "cannot read section headers"
-msgstr "无法读取动态区段"
+msgstr ""
+"\n"
+"节头：\n"
 
 #: od-xcoff.c:649
 #, fuzzy
@@ -5323,7 +5330,7 @@ msgstr "%s 无法读取已挂载上的文件系统的目录"
 #: od-xcoff.c:665
 #, fuzzy
 msgid "cannot read strings table"
-msgstr "%s 无法读取已挂载上的文件系统的目录"
+msgstr "无法连接字符串"
 
 #: od-xcoff.c:673
 #, fuzzy
@@ -5331,8 +5338,9 @@ msgid "cannot read symbol table"
 msgstr "%s 无法读取已挂载上的文件系统的目录"
 
 #: od-xcoff.c:688
+#, fuzzy
 msgid "cannot read symbol entry"
-msgstr ""
+msgstr "无法读取目录%s"
 
 #: od-xcoff.c:723
 msgid "cannot read symbol aux entry"
@@ -5386,22 +5394,22 @@ msgstr "%08x: <未知>"
 #: od-xcoff.c:937
 #, fuzzy, c-format
 msgid "Relocations for %s (%u)\n"
-msgstr "连接到 %s:%u…"
+msgstr "%s：未知函数‘%u’\n"
 
 #: od-xcoff.c:940
 #, fuzzy
 msgid "cannot read relocations"
-msgstr "无法读取目录%s"
+msgstr "无法读取设备 %s.\n"
 
 #: od-xcoff.c:953
 #, fuzzy
 msgid "cannot read relocation entry"
-msgstr "在重新寻址以后无法将区段设为可写入状态"
+msgstr "无法读取实时时钟"
 
 #: od-xcoff.c:993
 #, fuzzy, c-format
 msgid "Line numbers for %s (%u)\n"
-msgstr "在 %s 的第 %u 行出现内部错误"
+msgstr "%s：%s 行 %u：没有任何文件路径。\n"
 
 #: od-xcoff.c:996
 #, fuzzy
@@ -5421,17 +5429,17 @@ msgstr ""
 #: od-xcoff.c:1051
 #, fuzzy, c-format
 msgid "no .loader section in file\n"
-msgstr "文件中没有 .loader 区段\n"
+msgstr "-bundle_loader 不能和 -dynamiclib 一起使用"
 
 #: od-xcoff.c:1057
 #, fuzzy, c-format
 msgid "section .loader is too short\n"
-msgstr "区段 .loader 太短\n"
+msgstr "错误:查询请求太短"
 
 #: od-xcoff.c:1064
 #, fuzzy, c-format
 msgid "Loader header:\n"
-msgstr "文件中没有 .loader 区段\n"
+msgstr "头"
 
 #: od-xcoff.c:1066
 #, fuzzy, c-format
@@ -5451,7 +5459,9 @@ msgstr "无符号\n"
 #: od-xcoff.c:1076
 #, fuzzy, c-format
 msgid "  nbr relocs:        %u\n"
-msgstr "产生嵌入式重寻址"
+msgstr ""
+"\n"
+"映像重定位\n"
 
 #. Import string table length.
 #: od-xcoff.c:1078
@@ -5509,12 +5519,12 @@ msgstr ""
 #: od-xcoff.c:1166
 #, fuzzy, c-format
 msgid "Import files:\n"
-msgstr "导入文件：\n"
+msgstr "导入带装甲的(armored)公钥"
 
 #: od-xcoff.c:1198
 #, fuzzy, c-format
 msgid "no .except section in file\n"
-msgstr "文件中没有 .loader 区段\n"
+msgstr "除非严重的错误否则不输出任何东西"
 
 #: od-xcoff.c:1206
 #, fuzzy, c-format
@@ -5524,7 +5534,7 @@ msgstr "异常表中 PC 错误"
 #: od-xcoff.c:1241
 #, fuzzy, c-format
 msgid "no .typchk section in file\n"
-msgstr "文件中没有 .loader 区段\n"
+msgstr "未知的节"
 
 #: od-xcoff.c:1248
 #, fuzzy, c-format
@@ -5534,7 +5544,7 @@ msgstr "型态检查镜片"
 #: od-xcoff.c:1295
 #, fuzzy, c-format
 msgid " address beyond section size\n"
-msgstr "节=地址"
+msgstr "设定节大小"
 
 #: od-xcoff.c:1305
 #, fuzzy, c-format
@@ -5544,7 +5554,7 @@ msgstr "%08x: <未知>"
 #: od-xcoff.c:1383
 #, fuzzy, c-format
 msgid " number of CTL anchors: %u\n"
-msgstr "对象的数量 ：%u\n"
+msgstr "小错误：错误的缩写编号：%u。"
 
 #: od-xcoff.c:1402
 #, c-format
@@ -5559,7 +5569,7 @@ msgstr "文件被截断"
 #: od-xcoff.c:1424
 #, fuzzy, c-format
 msgid " (end of tags at %08x)\n"
-msgstr "标志 0x%08x：\n"
+msgstr "停用被 LSB 禁止的标记"
 
 #: od-xcoff.c:1427
 #, fuzzy, c-format
@@ -5569,7 +5579,7 @@ msgstr "停用被 LSB 禁止的标记"
 #: od-xcoff.c:1431
 #, fuzzy, c-format
 msgid " Truncated .text section\n"
-msgstr "设置 .text 节的地址"
+msgstr "文本"
 
 #: od-xcoff.c:1516
 #, c-format
@@ -5584,7 +5594,7 @@ msgstr ""
 #: od-xcoff.c:1643
 #, fuzzy
 msgid "cannot read header"
-msgstr "无法读入头"
+msgstr "%s：无法读取位于 0x%x 的表头\n"
 
 #: od-xcoff.c:1651
 #, c-format
@@ -5636,7 +5646,7 @@ msgstr ""
 #: od-xcoff.c:1787
 #, fuzzy
 msgid "cannot core read header"
-msgstr "无法读取程序标头"
+msgstr "%s：无法读取位于 0x%x 的表头\n"
 
 #: od-xcoff.c:1794
 #, fuzzy, c-format
@@ -5661,7 +5671,7 @@ msgstr ""
 #: od-xcoff.c:1805
 #, fuzzy, c-format
 msgid "unknown format"
-msgstr "不明格式"
+msgstr "未知的格式类型“%s”"
 
 #: rclex.c:197
 msgid "invalid value specified for pragma code_page.\n"
@@ -5710,7 +5720,7 @@ msgstr " 无\n"
 #: readelf.c:278
 #, fuzzy
 msgid "<no-name>"
-msgstr "<没有名称>"
+msgstr "名称 \t\t\t\t"
 
 #: readelf.c:318
 #, fuzzy, c-format
@@ -5741,7 +5751,7 @@ msgstr "数据重寻址失败。"
 #: readelf.c:711 readelf.c:741 readelf.c:808 readelf.c:837
 #, fuzzy
 msgid "out of memory parsing relocs\n"
-msgstr "服务器内存不足"
+msgstr "内存耗尽: 无法 fork()"
 
 #: readelf.c:729 readelf.c:826
 #, fuzzy
@@ -5886,7 +5896,7 @@ msgstr "无"
 #: readelf.c:2096
 #, fuzzy, c-format
 msgid "<unknown>: 0x%x"
-msgstr "[<未知>: 0x%x] "
+msgstr "<未知>：%x"
 
 #: readelf.c:2313
 #, fuzzy
@@ -5900,7 +5910,7 @@ msgstr "未知"
 #: readelf.c:2601
 #, fuzzy
 msgid "unknown mac"
-msgstr "(不明)"
+msgstr "未知："
 
 #: readelf.c:2665
 #, fuzzy
@@ -6166,14 +6176,16 @@ msgstr ""
 msgid ""
 " (bytes into file)\n"
 "  Start of section headers:          "
-msgstr ""
-" (文件内之字节)\n"
-"  区段标头起点：                     "
+msgstr "  节头大小：         %ld (字节)\n"
 
 #: readelf.c:4040
 #, fuzzy, c-format
 msgid " (bytes into file)\n"
-msgstr " (文件内之字节)\n"
+msgstr ""
+"  -f, --force\t\t必要时修改权限以使目标可写\n"
+"  -n, --iterations=N\t覆盖N 次，而非使用默认的%d 次\n"
+"      --random-source=文件\t从指定文件中取出随机字节\n"
+"  -s, --size=N\t\t粉碎数据为指定字节的碎片(可使用K、M 和G 作为单位)\n"
 
 #: readelf.c:4042
 #, c-format
@@ -6213,7 +6225,7 @@ msgstr "  字符串表索引节头： %ld"
 #: readelf.c:4070
 #, fuzzy, c-format
 msgid " <corrupt: out of range>"
-msgstr " <损坏: 越界>"
+msgstr "时间%s 超出范围"
 
 #: readelf.c:4104 readelf.c:4138
 msgid "program headers"
@@ -6286,12 +6298,12 @@ msgstr ""
 #: readelf.c:4242
 #, fuzzy, c-format
 msgid "  Type           Offset             VirtAddr           PhysAddr\n"
-msgstr "  类型           偏移量             虚拟地址           实体地址\n"
+msgstr "       类型              地址              偏移量             链接\n"
 
 #: readelf.c:4244
 #, fuzzy, c-format
 msgid "                 FileSiz            MemSiz              Flags  Align\n"
-msgstr "                文件大小          记忆大小              旗标   对齐\n"
+msgstr "       大小              全体大小          旗标   链接   信息   对齐\n"
 
 #: readelf.c:4337
 msgid "more than one dynamic segment\n"
@@ -6300,7 +6312,7 @@ msgstr "多于一个动态段\n"
 #: readelf.c:4356
 #, fuzzy
 msgid "no .dynamic section in the dynamic segment\n"
-msgstr "动态数据段不含 .dynamic 区段\n"
+msgstr "多于一个动态段\n"
 
 #: readelf.c:4371
 #, fuzzy
@@ -6342,9 +6354,7 @@ msgstr ""
 msgid ""
 "\n"
 " Section to Segment mapping:\n"
-msgstr ""
-"\n"
-" 区段到节区映射中:\n"
+msgstr "以映射 <名称> 打开设备"
 
 #: readelf.c:4409
 #, c-format
@@ -6382,7 +6392,7 @@ msgstr "符号"
 #: readelf.c:4593 readelf.c:4672
 #, fuzzy
 msgid "symbol table section indicies"
-msgstr " [排序过的符号表]"
+msgstr "  [S]          - 不要创建符号表\n"
 
 #: readelf.c:4933
 #, fuzzy, c-format
@@ -6438,7 +6448,7 @@ msgstr "动态字符串"
 #: readelf.c:5100
 #, fuzzy
 msgid "File contains multiple symtab shndx tables\n"
-msgstr "文件含有多个符号分页索引表\n"
+msgstr "文件含有多个动态字符串表\n"
 
 #: readelf.c:5178
 #, c-format
@@ -6459,9 +6469,9 @@ msgstr ""
 "节头：\n"
 
 #: readelf.c:5186 readelf.c:5197 readelf.c:5208
-#, fuzzy, c-format
+#, c-format
 msgid "  [Nr] Name\n"
-msgstr "  [号] 名称              类型             地址              偏移量\n"
+msgstr "  [号] 名称\n"
 
 #: readelf.c:5187
 #, fuzzy, c-format
@@ -6546,7 +6556,7 @@ msgstr ""
 #: readelf.c:5425
 #, fuzzy, c-format
 msgid "[<unknown>: 0x%x] "
-msgstr "[<未知>: 0x%x] "
+msgstr "<未知>：%x"
 
 #: readelf.c:5451
 #, fuzzy, c-format
@@ -6560,21 +6570,19 @@ msgstr ""
 #: readelf.c:5458
 #, fuzzy
 msgid "Section headers are not available!\n"
-msgstr "区段标头无法取用！\n"
+msgstr "  节头数量：         %ld"
 
 #: readelf.c:5483
 #, fuzzy, c-format
 msgid ""
 "\n"
 "There are no section groups in this file.\n"
-msgstr ""
-"\n"
-"本文件中没有区段群组。\n"
+msgstr " 组="
 
 #: readelf.c:5521
 #, fuzzy, c-format
 msgid "Bad sh_link in group section `%s'\n"
-msgstr "在群组区段 “%s” 中不良的 sh_link\n"
+msgstr "在群组区段 “%s” 中不当的 sh_link\n"
 
 #: readelf.c:5535
 #, fuzzy, c-format
@@ -6584,7 +6592,7 @@ msgstr "Corrupt header in the %s section.\n"
 #: readelf.c:5541 readelf.c:5552
 #, fuzzy, c-format
 msgid "Bad sh_info in group section `%s'\n"
-msgstr "在群组区段 “%s” 中不良的 sh_info\n"
+msgstr "在群组区段 “%s” 中不当的 sh_info\n"
 
 #: readelf.c:5591
 msgid "section data"
@@ -6602,7 +6610,7 @@ msgstr ""
 #: readelf.c:5605
 #, fuzzy, c-format
 msgid "   [Index]    Name\n"
-msgstr "   [索引]     名称\n"
+msgstr "%L处 FORALL 索引名必须是一个标量整数"
 
 #: readelf.c:5619
 #, c-format
@@ -6642,7 +6650,9 @@ msgstr ""
 #: readelf.c:5755
 #, fuzzy
 msgid "dynamic section image relocations"
-msgstr "动态数据段不含 .dynamic 区段\n"
+msgstr ""
+"\n"
+"动态节：\n"
 
 #: readelf.c:5759
 #, c-format
@@ -6715,7 +6725,9 @@ msgstr "\t未知版本。\n"
 #: readelf.c:6206 readelf.c:6577
 #, fuzzy
 msgid "unwind table"
-msgstr "展开表"
+msgstr ""
+"\n"
+"CU 表：\n"
 
 #: readelf.c:6248 readelf.c:6659 readelf.c:6942 readelf.c:6955
 #, c-format
@@ -6729,7 +6741,7 @@ msgid ""
 "There are no unwind sections in this file.\n"
 msgstr ""
 "\n"
-"本文件中没有展开的区段。\n"
+"本文件中没有节。\n"
 
 #: readelf.c:6373
 #, fuzzy, c-format
@@ -6746,21 +6758,19 @@ msgid "'%s'"
 msgstr "“%s”"
 
 #: readelf.c:6385
-#, fuzzy
 msgid "unwind info"
-msgstr "展开的信息"
+msgstr "展开信息"
 
 #: readelf.c:6388 readelf.c:6727
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Unwind section "
 msgstr ""
 "\n"
-"展开的区段"
+"展开节 "
 
 #: readelf.c:6849
-#, fuzzy
 msgid "unwind data"
 msgstr "展开数据"
 
@@ -6772,10 +6782,10 @@ msgstr "跳过意外的重定位类型 %s\n"
 #: readelf.c:7023
 #, fuzzy, c-format
 msgid "[Truncated opcode]\n"
-msgstr "需要权限的 opcode"
+msgstr "文件被截断"
 
 #: readelf.c:7067 readelf.c:7267
-#, fuzzy, c-format
+#, c-format
 msgid "Refuse to unwind"
 msgstr "拒绝展开"
 
@@ -6787,7 +6797,7 @@ msgstr "保留"
 #: readelf.c:7118
 #, fuzzy, c-format
 msgid "     finish"
-msgstr "     完成"
+msgstr "完成"
 
 #: readelf.c:7123 readelf.c:7209
 #, fuzzy, c-format
@@ -6797,7 +6807,7 @@ msgstr "备用区位置 %<PRIu64> 未清零。\n"
 #: readelf.c:7230 readelf.c:7366
 #, fuzzy, c-format
 msgid "     [unsupported opcode]"
-msgstr "需要权限的 opcode"
+msgstr "  扩充操作码 %d： "
 
 #: readelf.c:7315
 #, fuzzy, c-format
@@ -6832,7 +6842,7 @@ msgstr ""
 #: readelf.c:7479
 #, fuzzy, c-format
 msgid "  Compact model index: %d\n"
-msgstr "  索引: %d  计数: %d  "
+msgstr "  %#06x: 前一版 %d, 名称索引: %ld\n"
 
 #: readelf.c:7504
 msgid "Unknown ARM compact model index encountered\n"
@@ -6876,7 +6886,7 @@ msgstr ""
 #: readelf.c:7573
 #, fuzzy, c-format
 msgid "corrupt index table entry: %x\n"
-msgstr "损坏的文件表条目\n"
+msgstr "<毁损的字串表索引：%3ld>"
 
 #: readelf.c:7616
 #, c-format
@@ -6927,7 +6937,9 @@ msgstr "日期/时间戳 \t\t%lx\n"
 #: readelf.c:7959 readelf.c:8005
 #, fuzzy
 msgid "dynamic section"
-msgstr "动态区段"
+msgstr ""
+"\n"
+"动态节：\n"
 
 #: readelf.c:8083
 #, fuzzy, c-format
@@ -6936,7 +6948,7 @@ msgid ""
 "There is no dynamic section in this file.\n"
 msgstr ""
 "\n"
-"本文件没有动态区段。\n"
+"动态节：\n"
 
 #: readelf.c:8121
 #, fuzzy
@@ -6970,7 +6982,7 @@ msgid ""
 "Dynamic section at offset 0x%lx contains %u entries:\n"
 msgstr ""
 "\n"
-"位于偏移量 0x%lx 处的动态区段含有 %u 个条目：\n"
+"位于偏移量 0x%lx 的动态信息节含有 %d 个条目：\n"
 
 #: readelf.c:8245
 #, c-format
@@ -6995,12 +7007,12 @@ msgstr "配置文件"
 #: readelf.c:8293
 #, fuzzy, c-format
 msgid "Dependency audit library"
-msgstr "依存审查函数库"
+msgstr "找不到动态依赖项 %s"
 
 #: readelf.c:8297
 #, fuzzy, c-format
 msgid "Audit library"
-msgstr "审查函数库"
+msgstr "过滤器库"
 
 #: readelf.c:8315 readelf.c:8343 readelf.c:8371
 #, c-format
@@ -7025,17 +7037,17 @@ msgstr " 程序解释器"
 #: readelf.c:8561
 #, fuzzy, c-format
 msgid "Library soname: [%s]"
-msgstr "函数库文件名：[%s]"
+msgstr "%s 不是一个函数库"
 
 #: readelf.c:8565
 #, fuzzy, c-format
 msgid "Library rpath: [%s]"
-msgstr "函数库路径：[%s]"
+msgstr "%s 不是一个函数库"
 
 #: readelf.c:8569
 #, fuzzy, c-format
 msgid "Library runpath: [%s]"
-msgstr "函数库运行路径：[%s]"
+msgstr "%s 不是一个函数库"
 
 #: readelf.c:8602
 #, fuzzy, c-format
@@ -7077,12 +7089,12 @@ msgstr "版本定义节"
 #: readelf.c:8811
 #, fuzzy, c-format
 msgid "  %#06x: Rev: %d  Flags: %s"
-msgstr "  %#06x: 修订: %d  旗标: %s"
+msgstr "  %#06x: 前一版 %d: %s\n"
 
 #: readelf.c:8814
 #, fuzzy, c-format
 msgid "  Index: %d  Cnt: %d  "
-msgstr "  索引: %d  计数: %d  "
+msgstr "  计数：%d\n"
 
 #: readelf.c:8829
 #, c-format
@@ -7175,7 +7187,7 @@ msgstr ""
 #: readelf.c:8978
 #, fuzzy
 msgid "Missing Version Needs information\n"
-msgstr "显示版本和仿真信息"
+msgstr "印出版本信息并离开"
 
 #: readelf.c:9016
 msgid "version string table"
@@ -7210,7 +7222,7 @@ msgstr "   1 (*全局*)   "
 #: readelf.c:9080
 #, fuzzy
 msgid "invalid index into symbol array\n"
-msgstr "初始值设定中数组索引不是常数"
+msgstr "在非数组初始值设定项中出现数组索引"
 
 #: readelf.c:9114 readelf.c:9941
 msgid "version need"
@@ -7219,7 +7231,7 @@ msgstr "版本需要"
 #: readelf.c:9125
 #, fuzzy
 msgid "version need aux (2)"
-msgstr "版本需要外部 (2)"
+msgstr "版本需要"
 
 #: readelf.c:9146 readelf.c:9208
 msgid "*invalid*"
@@ -7238,19 +7250,17 @@ msgstr "版本定义附加数据"
 msgid ""
 "\n"
 "No version information found in this file.\n"
-msgstr ""
-"\n"
-"本文件中没有区段信息。\n"
+msgstr "  --version                显示编译器版本信息\n"
 
 #: readelf.c:9433
 #, fuzzy, c-format
 msgid "<localentry>: %d"
-msgstr "列出讨论串 (%2$d 中的 %1$d)"
+msgstr "版本 %d.%d\n"
 
 #: readelf.c:9467
 #, fuzzy, c-format
 msgid "<other>: %x"
-msgstr "其它"
+msgstr "其他"
 
 #: readelf.c:9531
 msgid "Unable to read in dynamic data\n"
@@ -7269,12 +7279,12 @@ msgstr "无法定位到动态信息的起点"
 #: readelf.c:9630 readelf.c:9682
 #, fuzzy
 msgid "Failed to read in number of buckets\n"
-msgstr "读入存储桶数量失败\n"
+msgstr "读取失败\n"
 
 #: readelf.c:9636
 #, fuzzy
 msgid "Failed to read in number of chains\n"
-msgstr "读入链结数量失败\n"
+msgstr "读取失败\n"
 
 #: readelf.c:9738
 msgid "Failed to determine last chain length\n"
@@ -7285,9 +7295,7 @@ msgstr ""
 msgid ""
 "\n"
 "Symbol table for image:\n"
-msgstr ""
-"\n"
-"映像符号表：\n"
+msgstr " [未排序的符号表]"
 
 #: readelf.c:9784 readelf.c:9802
 #, fuzzy, c-format
@@ -7304,9 +7312,7 @@ msgstr " 存储桶号:    值             大小   类型   约束 版本     �
 msgid ""
 "\n"
 "Symbol table of `.gnu.hash' for image:\n"
-msgstr ""
-"\n"
-"映像符号表：\n"
+msgstr "  [S]          - 不要创建符号表\n"
 
 #: readelf.c:9844
 #, c-format
@@ -7341,7 +7347,7 @@ msgstr "版本数据"
 #: readelf.c:9960
 #, fuzzy
 msgid "version need aux (3)"
-msgstr "版本需要外部 (3)"
+msgstr "版本需要"
 
 #: readelf.c:9994
 msgid "bad dynamic symbol\n"
@@ -7442,7 +7448,7 @@ msgid ""
 "Assembly dump of section %s\n"
 msgstr ""
 "\n"
-" “%s” 区段的汇编语言倾印：\n"
+"“%s”节的十六进制输出：\n"
 
 #: readelf.c:11005
 #, c-format
@@ -7456,7 +7462,7 @@ msgstr ""
 #: readelf.c:11011
 #, fuzzy
 msgid "section contents"
-msgstr "%C: 无法取得节内容 - 自动导入异常\n"
+msgstr "寄存器节有内容\n"
 
 #: readelf.c:11030
 #, fuzzy, c-format
@@ -7465,7 +7471,7 @@ msgid ""
 "String dump of section '%s':\n"
 msgstr ""
 "\n"
-" “%s” 区段的汇编语言倾印：\n"
+"“%s”节的十六进制输出：\n"
 
 #: readelf.c:11048
 #, c-format
@@ -7546,7 +7552,7 @@ msgstr "无\n"
 #: readelf.c:11689
 #, fuzzy, c-format
 msgid "Application\n"
-msgstr "应用程序\n"
+msgstr "由应用程序猜测伽马值"
 
 #: readelf.c:11690
 #, fuzzy, c-format
@@ -7567,12 +7573,12 @@ msgstr "无法读取实时时钟"
 #: readelf.c:12217 readelf.c:12238
 #, fuzzy, c-format
 msgid "8-byte\n"
-msgstr "8-byte\n"
+msgstr "对未格式化的文件，使用一个 8 字节的记录格式"
 
 #: readelf.c:11704 readelf.c:12220 readelf.c:12241
 #, fuzzy, c-format
 msgid "4-byte\n"
-msgstr "4-byte\n"
+msgstr "对未格式化的文件，使用一个 4 字节的记录标记"
 
 #: readelf.c:11708 readelf.c:11727
 #, c-format
@@ -7644,19 +7650,19 @@ msgid "Memory\n"
 msgstr "内存\n"
 
 #: readelf.c:12004
-#, fuzzy, c-format
+#, c-format
 msgid "Hard float (double precision)\n"
-msgstr "单精度硬浮点数\n"
+msgstr "硬浮点 (单精度)\n"
 
 #: readelf.c:12007
-#, fuzzy, c-format
+#, c-format
 msgid "Hard float (single precision)\n"
-msgstr "单精度硬浮点数\n"
+msgstr "硬浮点 (双精度)\n"
 
 #: readelf.c:12013
 #, c-format
 msgid "Hard float (MIPS32r2 64-bit FPU)\n"
-msgstr ""
+msgstr "硬浮点（MIPS32r2 64-bit FPU)\n"
 
 #: readelf.c:12034
 #, fuzzy, c-format
@@ -7674,29 +7680,29 @@ msgid "Not used\n"
 msgstr "未使用\n"
 
 #: readelf.c:12106
-#, fuzzy, c-format
+#, c-format
 msgid "2 bytes\n"
-msgstr "2"
+msgstr "2 字节\n"
 
 #: readelf.c:12109
-#, fuzzy, c-format
+#, c-format
 msgid "4 bytes\n"
-msgstr "令结构体大小为 4 字节的整数倍(警告：改变了 ABI)"
+msgstr "4 字节\n"
 
 #: readelf.c:12127 readelf.c:12145 readelf.c:12223 readelf.c:12244
-#, fuzzy, c-format
+#, c-format
 msgid "16-byte\n"
-msgstr "16-byte\n"
+msgstr "16 字节\n"
 
 #: readelf.c:12160
 #, fuzzy, c-format
 msgid "DSBT addressing not used\n"
-msgstr "DSBT 寻址被使用\n"
+msgstr "指定用于 PIC 寻址的寄存器"
 
 #: readelf.c:12163
 #, fuzzy, c-format
 msgid "DSBT addressing used\n"
-msgstr "DSBT 寻址被使用\n"
+msgstr "指定用于 PIC 寻址的寄存器"
 
 #: readelf.c:12178
 #, fuzzy, c-format
@@ -7716,7 +7722,7 @@ msgstr ""
 #: readelf.c:12199
 #, fuzzy, c-format
 msgid "Code addressing position-dependent\n"
-msgstr "数据寻址位置无关\n"
+msgstr "为 18 位寻址生成代码"
 
 #: readelf.c:12202
 #, fuzzy, c-format
@@ -7741,12 +7747,12 @@ msgstr "代码大小：小、中或大"
 #: readelf.c:12348 readelf.c:12361
 #, fuzzy, c-format
 msgid "Large\n"
-msgstr "文件过大"
+msgstr "字节偏移量%s 过大"
 
 #: readelf.c:12362
-#, c-format
+#, fuzzy, c-format
 msgid "Restricted Large\n"
-msgstr ""
+msgstr "液滴尺寸大"
 
 #: readelf.c:12368
 #, fuzzy, c-format
@@ -7756,7 +7762,7 @@ msgstr "%s: 无法加载未知标签(%d)。\n"
 #: readelf.c:12411
 #, fuzzy
 msgid "attributes"
-msgstr "属性"
+msgstr "检查 %s 的新属性"
 
 #: readelf.c:12432
 #, fuzzy, c-format
@@ -7776,7 +7782,7 @@ msgstr "内部错误：错误的寄存器：%dt"
 #: readelf.c:12475
 #, fuzzy, c-format
 msgid "File Attributes\n"
-msgstr "编辑属性文件"
+msgstr "此目标机不支持节属性"
 
 #: readelf.c:12478
 #, fuzzy, c-format
@@ -7801,7 +7807,7 @@ msgstr "未知的节"
 #: readelf.c:12523
 #, fuzzy, c-format
 msgid "Unknown format '%c'\n"
-msgstr "不明格式"
+msgstr "未知的格式类型“%s”"
 
 #: readelf.c:12581 readelf.c:12603
 msgid "<unknown>"
@@ -7810,16 +7816,14 @@ msgstr "<未知>"
 #: readelf.c:12698 readelf.c:13266
 #, fuzzy
 msgid "liblist section data"
-msgstr "函数库字串表"
+msgstr "节输出"
 
 #: readelf.c:12701
 #, fuzzy, c-format
 msgid ""
 "\n"
 "Section '.liblist' contains %lu entries:\n"
-msgstr ""
-"\n"
-" “.conflict” 区段含有 %lu 个条目：\n"
+msgstr " 位于偏移量 0x%lx 含有 %lu 个条目：\n"
 
 #: readelf.c:12703
 #, fuzzy
@@ -7864,14 +7868,12 @@ msgstr "冲突"
 msgid ""
 "\n"
 "Section '.conflict' contains %lu entries:\n"
-msgstr ""
-"\n"
-" “.conflict” 区段含有 %lu 个条目：\n"
+msgstr " 位于偏移量 0x%lx 含有 %lu 个条目：\n"
 
 #: readelf.c:13021
 #, fuzzy
 msgid "  Num:    Index       Value  Name"
-msgstr " 编号:    索引        值     名称"
+msgstr "%<num_threads%>值必须为正"
 
 #: readelf.c:13033 readelf.c:13122 readelf.c:13193
 #, fuzzy, c-format
@@ -7881,7 +7883,7 @@ msgstr "损坏的属性\n"
 #: readelf.c:13055
 #, fuzzy
 msgid "Global Offset Table data"
-msgstr "全局偏移表数据"
+msgstr "偏移量表\n"
 
 #: readelf.c:13059
 #, fuzzy, c-format
@@ -7907,7 +7909,6 @@ msgstr ""
 
 #: readelf.c:13066 readelf.c:13083 readelf.c:13099 readelf.c:13166
 #: readelf.c:13175
-#, fuzzy
 msgid "Address"
 msgstr "住址"
 
@@ -7940,7 +7941,7 @@ msgstr "没有足够的 GOT 空间用于 GOT 条目"
 #: readelf.c:13097
 #, fuzzy, c-format
 msgid " Global entries:\n"
-msgstr "全局 "
+msgstr "全局"
 
 #: readelf.c:13102 readelf.c:13177
 msgid "Sym.Val."
@@ -7953,24 +7954,23 @@ msgid "Ndx"
 msgstr "  编号:    值     大小 类型    约束   版本     索引名称\n"
 
 #: readelf.c:13105 readelf.c:13177
-#, fuzzy
 msgid "Name"
-msgstr "姓名"
+msgstr "名字"
 
 #: readelf.c:13159
 #, fuzzy
 msgid "Procedure Linkage Table data"
-msgstr "全局偏移表数据"
+msgstr "DATA 语句不允许出现在%C处的 PURE 过程中"
 
 #: readelf.c:13165
-#, c-format
+#, fuzzy, c-format
 msgid "  %*s %*s Purpose\n"
-msgstr ""
+msgstr "s"
 
 #: readelf.c:13168
 #, fuzzy, c-format
 msgid " PLT lazy resolver\n"
-msgstr "-Xbind-now 与 -Xbind-lazy 不兼容"
+msgstr "为函数调用启用 PLT 的内联"
 
 #: readelf.c:13170
 #, fuzzy, c-format
@@ -7981,8 +7981,8 @@ msgstr "模块："
 #, fuzzy, c-format
 msgid " Entries:\n"
 msgstr ""
-"# 条目先于群组特定的条目。\n"
-"#\n"
+"\n"
+"“%s”节含有 %d 个条目：\n"
 
 #: readelf.c:13218
 #, fuzzy
@@ -7992,7 +7992,7 @@ msgstr "设定节标志"
 #: readelf.c:13274
 #, fuzzy
 msgid "liblist string table"
-msgstr "函数库字串表"
+msgstr "<字串表索引：%3ld>"
 
 #: readelf.c:13284
 #, fuzzy, c-format
@@ -8177,7 +8177,7 @@ msgstr ""
 #: readelf.c:13465
 #, fuzzy, c-format
 msgid "    Page size: "
-msgstr "警告：如数据块大小超过内存分页大小，内核将无法激活设备 (%u)。\n"
+msgstr "页面尺寸无效\n"
 
 #: readelf.c:13469
 #, fuzzy, c-format
@@ -8198,7 +8198,7 @@ msgstr "结束点"
 #: readelf.c:13472
 #, fuzzy
 msgid "Page Offset"
-msgstr "主要页面"
+msgstr "页面"
 
 #: readelf.c:13480
 #, c-format
@@ -8229,12 +8229,12 @@ msgstr "将要创建的共享库的 ID"
 #: readelf.c:13576
 #, fuzzy, c-format
 msgid "    OS: %s, ABI: %ld.%ld.%ld\n"
-msgstr "%s 中的时间：%ld.%06ld (%ld%%)\n"
+msgstr "试图写入 %3$s 上分区之外的扇区 %1$ld-%2$ld。"
 
 #: readelf.c:13585
 #, fuzzy, c-format
 msgid "    Version: "
-msgstr "版本"
+msgstr "version"
 
 #. NetBSD core "procinfo" structure.
 #: readelf.c:13604
@@ -8261,12 +8261,12 @@ msgstr "      在 : %s"
 #: readelf.c:13700
 #, fuzzy, c-format
 msgid "    Name: %s\n"
-msgstr "名称 ：“%s”\n"
+msgstr "名称：%s\n"
 
 #: readelf.c:13701
 #, fuzzy, c-format
 msgid "    Location: "
-msgstr " (位置列表)"
+msgstr "位置"
 
 #: readelf.c:13703
 #, fuzzy, c-format
@@ -8326,22 +8326,22 @@ msgstr ""
 #: readelf.c:13763
 #, fuzzy, c-format
 msgid "    Creation date  : %.17s\n"
-msgstr "创建虚拟主机工作已经进入日程安排"
+msgstr "强制创建目录。"
 
 #: readelf.c:13764
 #, fuzzy, c-format
 msgid "    Last patch date: %.17s\n"
-msgstr "最近一次张贴日期 (递升)"
+msgstr "最后修改日期"
 
 #: readelf.c:13765
 #, fuzzy, c-format
 msgid "    Module name    : %s\n"
-msgstr "%C处期待模块过程名"
+msgstr "%s 语句必须出现在 MODULE 中"
 
 #: readelf.c:13766
 #, fuzzy, c-format
 msgid "    Module version : %s\n"
-msgstr "%s 语句必须出现在 MODULE 中"
+msgstr "MODULE"
 
 #: readelf.c:13769
 #, fuzzy, c-format
@@ -8356,12 +8356,12 @@ msgstr "代码语言：%s"
 #: readelf.c:13776
 #, fuzzy, c-format
 msgid "   Floating Point mode: "
-msgstr "浮点数被零除"
+msgstr "使用硬件浮点单元"
 
 #: readelf.c:13781
 #, fuzzy, c-format
 msgid "   Link time: "
-msgstr "设置链接时共享库的搜索路径"
+msgstr "报告各种链接时优化统计"
 
 #: readelf.c:13787
 #, fuzzy, c-format
@@ -8393,7 +8393,7 @@ msgstr "标志 0x%08x：\n"
 #: readelf.c:13804
 #, fuzzy, c-format
 msgid "   Image id    : %s\n"
-msgstr "无效的进程识别号 %s"
+msgstr "%s: 未提供映像名称 ('--image')"
 
 #: readelf.c:13808
 #, fuzzy, c-format
@@ -8408,12 +8408,12 @@ msgstr "%s：跳过归档符号表失败\n"
 #: readelf.c:13814
 #, fuzzy, c-format
 msgid "    Image id: %s\n"
-msgstr "无效的进程识别号 %s"
+msgstr "%s: 未提供映像名称 ('--image')"
 
 #: readelf.c:13817
 #, fuzzy, c-format
 msgid "    Linker id: %s\n"
-msgstr "取得调用程序识别码时发生错误: %s"
+msgstr "%s：无效的进程号"
 
 #: readelf.c:13894
 msgid "notes"
@@ -8431,12 +8431,12 @@ msgstr ""
 #: readelf.c:13902
 #, fuzzy, c-format
 msgid "  %-20s %10s\tDescription\n"
-msgstr "*** 没有描述 ***"
+msgstr "说明"
 
 #: readelf.c:13902
 #, fuzzy
 msgid "Owner"
-msgstr "不是所有者"
+msgstr "软件包内没有文件拥有者/群组记录\n"
 
 #: readelf.c:13902
 #, fuzzy
@@ -8498,7 +8498,9 @@ msgstr ""
 #: readelf.c:14413
 #, fuzzy, c-format
 msgid "Contents of binary %s at offset "
-msgstr "%s: 预期为双目运算符"
+msgstr ""
+"%s 节的内容:\n"
+"\n"
 
 #: readelf.c:14423
 #, c-format
@@ -8520,7 +8522,7 @@ msgstr "  m[ab]        - 在归档文件中移动文件\n"
 #: readelf.c:14525 readelf.c:14617
 #, fuzzy, c-format
 msgid "Input file '%s' is not readable.\n"
-msgstr "输入文件 “%s” 并不可读。\n"
+msgstr "%s：输入文件是输出文件"
 
 #: readelf.c:14543
 #, fuzzy, c-format
@@ -8546,17 +8548,17 @@ msgstr "%s：无法设置时间：%s"
 #: rename.c:157 rename.c:195
 #, fuzzy, c-format
 msgid "unable to rename '%s'; reason: %s"
-msgstr "警告：无法找到 %s。原因：%s"
+msgstr "重命名 %s 为 %s 时失败：%m\n"
 
 #: rename.c:203
 #, fuzzy, c-format
 msgid "unable to copy file '%s'; reason: %s"
-msgstr "%X%P: 无法打开复制的目的 %s\n"
+msgstr "无法打开目标文件：%s: %s"
 
 #: resbin.c:120
 #, fuzzy, c-format
 msgid "%s: not enough binary data"
-msgstr "%s：不足的二进位数据"
+msgstr "  binary\t使用二进制I/O 存取模式\n"
 
 #: resbin.c:136
 msgid "null terminated unicode string"
@@ -8612,7 +8614,7 @@ msgstr "对话框字体点数大小"
 #: resbin.c:504
 #, fuzzy
 msgid "dialogex font information"
-msgstr "对话框扩展字体信息"
+msgstr "意外的扩展对话框版本 %d"
 
 #: resbin.c:530 resbin.c:548
 msgid "dialog control"
@@ -8653,7 +8655,7 @@ msgstr "字体目录设备名"
 #: resbin.c:698
 #, fuzzy
 msgid "fontdir face name"
-msgstr "字体目录字面名称"
+msgstr "字体目录设备名"
 
 #: resbin.c:738
 msgid "accelerator"
@@ -8707,7 +8709,7 @@ msgstr "意外的固定版本信息版本 %lu"
 #: resbin.c:985
 #, fuzzy
 msgid "fixed version info"
-msgstr "固定版本信息"
+msgstr "意外的固定版本信息版本 %lu"
 
 #: resbin.c:989
 #, c-format
@@ -8722,7 +8724,7 @@ msgstr "意外的固定版本信息版本 %lu"
 #: resbin.c:1022
 #, fuzzy
 msgid "version var info"
-msgstr "版本变动信息"
+msgstr "无信息"
 
 #: resbin.c:1039
 #, fuzzy, c-format
@@ -8762,7 +8764,7 @@ msgstr "意外的版本值长度 %d"
 #: resbin.c:1148
 #, fuzzy
 msgid "version varfileinfo"
-msgstr "版本变动档信息"
+msgstr "   --version              打印 dllwrap 的版本号\n"
 
 #: resbin.c:1163
 #, fuzzy, c-format
@@ -8806,17 +8808,17 @@ msgstr "已命名的资源"
 #: rescoff.c:269
 #, fuzzy
 msgid "ID directory entry"
-msgstr "ID 目录项目"
+msgstr "目录条目名"
 
 #: rescoff.c:286
 #, fuzzy
 msgid "ID subdirectory"
-msgstr "ID 子目录"
+msgstr "已命名的子目录"
 
 #: rescoff.c:294
 #, fuzzy
 msgid "ID resource"
-msgstr "ID 资源"
+msgstr "资源 ID"
 
 #: rescoff.c:319
 msgid "resource type unknown"
@@ -8875,7 +8877,7 @@ msgstr "使用 popen 读取预处理器输出\n"
 #: resrc.c:408
 #, fuzzy, c-format
 msgid "Tried `%s'\n"
-msgstr "已尝试 “%s” \n"
+msgstr "已尝试文件：%s"
 
 #: resrc.c:419
 #, c-format
@@ -8910,7 +8912,7 @@ msgstr "光标文件“%s”不含有光标数据"
 #: resrc.c:805 resrc.c:1205
 #, fuzzy, c-format
 msgid "%s: fseek to %lu failed: %s"
-msgstr "%s: fseek 到 %lu 操作失败: %s"
+msgstr "%s：检索失败：%s\n"
 
 #: resrc.c:931
 #, fuzzy
@@ -8920,12 +8922,12 @@ msgstr "辅助 ID 要求 DIALOGEX"
 #: resrc.c:933
 #, fuzzy
 msgid "control data requires DIALOGEX"
-msgstr "控制数据要求 DIALOGEX"
+msgstr "对话框扩展控制"
 
 #: resrc.c:961
 #, fuzzy, c-format
 msgid "stat failed on font file `%s': %s"
-msgstr "对字库案 “%s” 进行 stat 操作失败：%s"
+msgstr "无法检验状态：%s：%s\n"
 
 #: resrc.c:1174
 #, c-format
@@ -8935,7 +8937,7 @@ msgstr "图标文件“%s”不含有图标数据"
 #: resrc.c:1723 resrc.c:1758
 #, fuzzy, c-format
 msgid "stat failed on file `%s': %s"
-msgstr "对文件 “%s” 进行 stat 操作失败：%s"
+msgstr "无法检验状态：%s：%s\n"
 
 #: resrc.c:1957
 #, c-format
@@ -8985,7 +8987,7 @@ msgstr "--format 的无效参数：%s"
 #: size.c:187
 #, fuzzy, c-format
 msgid "Invalid radix: %s\n"
-msgstr "无效的 radix: %s\n"
+msgstr "%s：无效的基数"
 
 #: srconv.c:1734
 #, c-format
@@ -9053,17 +9055,15 @@ msgstr "无法识别的交叉引用类型"
 #. about dealing with it rather than just calling error_type?
 #: stabs.c:1809
 msgid "missing index type"
-msgstr "遗漏的索引类型"
+msgstr "缺失索引类型"
 
 #: stabs.c:2129
-#, fuzzy
 msgid "unknown virtual character for baseclass"
-msgstr "不明之作为基本类别的虚拟字符"
+msgstr "未知的基类虚类字符"
 
 #: stabs.c:2147
-#, fuzzy
 msgid "unknown visibility character for baseclass"
-msgstr "不明之作为基本类别的可见字符"
+msgstr "未知的基类可见性字符"
 
 #: stabs.c:2337
 msgid "unnamed $vb type"
@@ -9074,9 +9074,8 @@ msgid "unrecognized C++ abbreviation"
 msgstr "无法识别的 C++ 缩写"
 
 #: stabs.c:2419
-#, fuzzy
 msgid "unknown visibility character for field"
-msgstr "字段中未知的可见字符"
+msgstr "未知的字段可见性字符"
 
 #: stabs.c:2679
 msgid "const/volatile indicator missing"
@@ -9085,7 +9084,7 @@ msgstr "遗漏 const/volatile 指示符"
 #: stabs.c:2921
 #, c-format
 msgid "No mangling for \"%s\"\n"
-msgstr "\"%s\" 没有修饰\n"
+msgstr "\"%s\" 未被修饰\n"
 
 #: stabs.c:3221
 msgid "Undefined N_EXCL"
@@ -9107,9 +9106,9 @@ msgid "Unrecognized XCOFF type %d\n"
 msgstr "无法识别的 XCOFF 类型 %d\n"
 
 #: stabs.c:3677
-#, fuzzy, c-format
+#, c-format
 msgid "bad mangled name `%s'\n"
-msgstr "不良的损毁名称 “%s” \n"
+msgstr "不当的修饰名称 \"%s\"\n"
 
 #: stabs.c:3772
 #, c-format
@@ -9122,34 +9121,36 @@ msgid "Demangled name is not a function\n"
 msgstr "解码出的名称不是函数\n"
 
 #: stabs.c:5164
-#, fuzzy, c-format
+#, c-format
 msgid "Unexpected type in v3 arglist demangling\n"
-msgstr "在 v3 参数表修复损毁时有意外的类型\n"
+msgstr "v3 参数表解码时遇到意外的类型\n"
 
 #: stabs.c:5236
-#, fuzzy, c-format
+#, c-format
 msgid "Unrecognized demangle component %d\n"
-msgstr "无法识别的损毁修复组成 %d\n"
+msgstr "无法识别的解码组件 %d\n"
 
 #: stabs.c:5288
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to print demangled template\n"
-msgstr "印出损毁修复之模版失败\n"
+msgstr "打印解码后的模板失败\n"
 
 #: stabs.c:5368
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't get demangled builtin type\n"
-msgstr "无法取得损毁修复之内置类型\n"
+msgstr "无法取得解码后的内置类型\n"
 
 #: stabs.c:5417
-#, fuzzy, c-format
+#, c-format
 msgid "Unexpected demangled varargs\n"
-msgstr "意外的损毁修复变量\n"
+msgstr ""
+"意外的解码后可变参数\n"
+"\n"
 
 #: stabs.c:5424
 #, fuzzy, c-format
 msgid "Unrecognized demangled builtin type\n"
-msgstr "无法识别的损毁修复之内置类型\n"
+msgstr "无法识别的 C++ 默认类型"
 
 #: strings.c:185 strings.c:244
 #, c-format
@@ -9188,39 +9189,36 @@ msgid ""
 msgstr ""
 
 #: sysdump.c:66
-#, fuzzy
 msgid "*undefined*"
-msgstr "(未定义的)"
+msgstr "*未定义*"
 
 #: sysdump.c:137
-#, fuzzy, c-format
+#, c-format
 msgid "SUM IS %x\n"
-msgstr "总和"
+msgstr "总和 %x\n"
 
 #: sysdump.c:503
-#, fuzzy, c-format
+#, c-format
 msgid "GOT A %x\n"
-msgstr "%s:%d：有一个 %%else 没有对应的 %%if\n"
+msgstr "得到 %x\n"
 
+# Why are you shouting?
 #: sysdump.c:521
-#, fuzzy, c-format
+#, c-format
 msgid "WANTED %x!!\n"
-msgstr "需要帮助的系统"
+msgstr "想要 %x！！\n"
 
 #: sysdump.c:539
-#, fuzzy
 msgid "SYMBOL INFO"
-msgstr "公共符号调试信息没有构造为符号+偏移的形式"
+msgstr "符号信息"
 
 #: sysdump.c:557
-#, fuzzy
 msgid "DERIVED TYPE"
-msgstr "%L处 PARAMETER 中派生类型不兼容"
+msgstr "派生类型"
 
 #: sysdump.c:614
-#, fuzzy
 msgid "MODULE***\n"
-msgstr "模块："
+msgstr "模块***\n"
 
 #: sysdump.c:647
 #, c-format
@@ -9263,7 +9261,7 @@ msgstr ""
 #: windmc.c:190
 #, fuzzy, c-format
 msgid "can't create %s file `%s' for output.\n"
-msgstr "无法创建临时缓冲文件 %s"
+msgstr "无法创建 .lib 文件：%s: %s"
 
 #: windmc.c:198
 #, fuzzy, c-format
