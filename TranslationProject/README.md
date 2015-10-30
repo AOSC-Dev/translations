@@ -40,3 +40,30 @@ Contact
   - This group is silent. No mailing lists available.
 - [Coordinators](mailto:coordinator@translationproject.org) are useful if you
   want to do something big. Non-Hostile, rich in protein.
+
+Message Match Possibilities
+---------------------------
+
+This graph shows roughly how close packages are to each other. It can be used
+as a directive for choosing what files to compendium / TM match from.
+
+- GNU Toolchain
+  - Binaries
+    - gcc 
+    - binutils
+      - ld
+      - bfd
+      - gold
+  - Lex n' parse
+    - flex
+    - bison (-runtime)
+  - base-libs
+    - libc
+    - cpplib (from gcc)
+  - m4
+  - make
+- GNU *utils
+  - util-linux
+  - tar
+  - wget
+  - psmisc
