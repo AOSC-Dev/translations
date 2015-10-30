@@ -7,17 +7,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: gutenprint 20110308\n"
+"Project-Id-Version: gutenprint 5.2.10\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-09-29 08:57-0600\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2015-10-29 23:42-0400\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/main/dither-main.c:44 src/main/print-color.c:49
 #: src/main/print-escp2.c:2341 src/main/print-pcl.c:1872
@@ -59,11 +60,11 @@ msgstr "自适应混合"
 
 #: src/main/dither-main.c:64
 msgid "Ordered"
-msgstr ""
+msgstr "有序"
 
 #: src/main/dither-main.c:65
 msgid "Ordered New"
-msgstr ""
+msgstr "有序·改"
 
 #: src/main/dither-main.c:66
 msgid "Fast"
@@ -74,22 +75,20 @@ msgid "Very Fast"
 msgstr "很快"
 
 #: src/main/dither-main.c:68
-#, fuzzy
 msgid "Hybrid Floyd-Steinberg"
-msgstr "混合弗洛伊德 - 斯坦伯格"
+msgstr "混合弗洛伊德—斯坦伯格算法"
 
 #: src/main/dither-main.c:69
-#, fuzzy
 msgid "Predithered Input"
-msgstr "预先抖动输入"
+msgstr "预抖动的输入"
 
 #: src/main/dither-main.c:70
 msgid "Drop Size Segmented"
-msgstr "液滴尺寸分段"
+msgstr "液滴尺寸已分段"
 
 #: src/main/dither-main.c:71
 msgid "Drop Size Segmented New"
-msgstr ""
+msgstr "液滴尺寸已分段·改"
 
 #: src/main/dither-main.c:91 src/main/print-color.c:56
 msgid "Density"
@@ -112,6 +111,12 @@ msgid ""
 "Fast and Very Fast are considerably faster, and work well for text and line art.\n"
 "Hybrid Floyd-Steinberg generally produces inferior output."
 msgstr ""
+"使用要选择的抖动算法。\n"
+"自适应混合法一般提供最佳的总体质量。\n"
+"EvenTone 是一个新式的实验算法，经常能提供极好的效果。\n"
+"有序运行快一点，提供的质量对照片来说基本相同。\n"
+"“快速”和“很快”明显快上不少，对文字和线条图案效果不错。\n"
+"混合弗洛伊德—斯坦伯格算法一般来说提供劣质的输出。"
 
 #: src/main/module.c:52
 msgid "Miscellaneous (unclassified)"
@@ -145,25 +150,25 @@ msgstr "打印纸张的尺寸"
 #: src/main/print-lexmark.c:272 src/main/print-olympus.c:3751
 #: src/main/print-pcl.c:1352 src/cups/genppd.c:2056 src/cups/genppd.c:2524
 msgid "Media Type"
-msgstr "媒质类型"
+msgstr "介质类型"
 
 #: src/main/print-canon.c:292 src/main/print-escp2.c:175
 #: src/main/print-lexmark.c:273 src/main/print-olympus.c:3752
 #: src/main/print-pcl.c:1353
 msgid "Type of media (plain paper, photo paper, etc.)"
-msgstr "媒质类型(普通纸、相片纸等)"
+msgstr "介质类型（普通纸、相片纸等）"
 
 #: src/main/print-canon.c:297 src/main/print-escp2.c:180
 #: src/main/print-lexmark.c:278 src/main/print-olympus.c:3757
 #: src/main/print-pcl.c:1358 src/cups/genppd.c:2092 src/cups/genppd.c:2544
 msgid "Media Source"
-msgstr "媒质来源"
+msgstr "介质来源"
 
 #: src/main/print-canon.c:298 src/main/print-escp2.c:181
 #: src/main/print-lexmark.c:279 src/main/print-olympus.c:3758
 #: src/main/print-pcl.c:1359
 msgid "Source (input slot) of the media"
-msgstr "媒质来源(进纸槽)"
+msgstr "介质来源（进纸槽）"
 
 #: src/main/print-canon.c:303 src/main/print-escp2.c:192
 msgid "CD Hub Size"
@@ -175,7 +180,7 @@ msgstr "仅印刷 CD 光盘毂外的部分，或一直印刷到盘片中心孔�
 
 #: src/main/print-canon.c:309 src/main/print-escp2.c:198
 msgid "CD Size (Custom)"
-msgstr "CD 光盘尺寸(自定义)"
+msgstr "CD 光盘尺寸（自定义）"
 
 #: src/main/print-canon.c:310 src/main/print-escp2.c:199
 msgid "Variable adjustment for the outer diameter of CD"
@@ -183,7 +188,7 @@ msgstr "调整 CD 光盘的外径"
 
 #: src/main/print-canon.c:315 src/main/print-escp2.c:204
 msgid "CD Hub Size (Custom)"
-msgstr "CD 光盘毂尺寸 (自定义)"
+msgstr "CD 光盘毂尺寸（自定义）"
 
 #: src/main/print-canon.c:316 src/main/print-escp2.c:205
 msgid "Variable adjustment to the inner hub of the CD"
@@ -348,11 +353,11 @@ msgstr "关"
 #: src/main/print-canon.c:481 src/main/print-escp2.c:2514
 #: src/main/print-pcl.c:1684
 msgid "Long Edge (Standard)"
-msgstr "长边(标准)"
+msgstr "长边（标准）"
 
 #: src/main/print-canon.c:482 src/main/print-pcl.c:1685
 msgid "Short Edge (Flip)"
-msgstr "短边 (翻转)"
+msgstr "短边（翻转）"
 
 #: src/main/print-canon.c:3018 src/main/print-escp2.c:2228
 #: src/xml/xmli18n-tmp.h:3312
@@ -399,7 +404,7 @@ msgstr "黑白"
 #: src/main/print-canon.c:3332 src/main/print-canon.c:3416
 #: src/gutenprintui2/panel.c:1717
 msgid "Both"
-msgstr ""
+msgstr "两者"
 
 #: src/main/print-canon.c:3335 src/main/print-canon.c:3344
 #: src/main/print-canon.c:3420 src/main/print-color.c:314
@@ -971,7 +976,6 @@ msgid "Cyan Balance"
 msgstr "青色平衡"
 
 #: src/main/print-color.c:323
-#, fuzzy
 msgid "Adjust the cyan gray balance"
 msgstr "调整青色灰平衡"
 
@@ -980,7 +984,6 @@ msgid "Magenta Balance"
 msgstr "品红色平衡"
 
 #: src/main/print-color.c:331
-#, fuzzy
 msgid "Adjust the magenta gray balance"
 msgstr "调整品红色灰平衡"
 
@@ -989,7 +992,6 @@ msgid "Yellow Balance"
 msgstr "黄色平衡"
 
 #: src/main/print-color.c:339
-#, fuzzy
 msgid "Adjust the yellow gray balance"
 msgstr "调整黄色灰平衡"
 
@@ -1018,12 +1020,10 @@ msgid "GCR Transition"
 msgstr "GCR 过渡"
 
 #: src/main/print-color.c:366 src/main/print-escp2.c:879
-#, fuzzy
 msgid "Adjust the gray component transition rate"
 msgstr "调整灰色成分过渡率"
 
 #: src/main/print-color.c:373 src/main/print-escp2.c:886
-#, fuzzy
 msgid "GCR Lower Bound"
 msgstr "GCR 下界"
 
@@ -1033,7 +1033,6 @@ msgid "Lower bound of gray component reduction"
 msgstr "灰色成分减少的下界"
 
 #: src/main/print-color.c:381 src/main/print-escp2.c:894
-#, fuzzy
 msgid "GCR Upper Bound"
 msgstr "GCR 上界"
 
@@ -1123,7 +1122,6 @@ msgid "White curve"
 msgstr "白色曲线"
 
 #: src/main/print-color.c:530
-#, fuzzy
 msgid "Hue Map"
 msgstr "色相映射"
 
@@ -1132,7 +1130,6 @@ msgid "Hue adjustment curve"
 msgstr "色相调整曲线"
 
 #: src/main/print-color.c:538
-#, fuzzy
 msgid "Saturation Map"
 msgstr "饱和度映射"
 
@@ -1149,7 +1146,6 @@ msgid "Luminosity adjustment curve"
 msgstr "流明度调整曲线"
 
 #: src/main/print-color.c:554
-#, fuzzy
 msgid "Gray Component Reduction"
 msgstr "灰色成分减少"
 
@@ -1283,7 +1279,6 @@ msgid "Interleave Method"
 msgstr "交织方法"
 
 #: src/main/print-escp2.c:270
-#, fuzzy
 msgid "Interleave pattern to use"
 msgstr "要使用的交织图案"
 
@@ -1422,7 +1417,7 @@ msgstr "调整光泽度"
 
 #: src/main/print-escp2.c:518
 msgid "Drop Size Small"
-msgstr ""
+msgstr "液滴尺寸小"
 
 #: src/main/print-escp2.c:519
 msgid "Drop Size 1 (small)"
@@ -1430,7 +1425,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:526
 msgid "Drop Size Medium"
-msgstr ""
+msgstr "液滴尺寸中"
 
 #: src/main/print-escp2.c:527
 msgid "Drop Size 2 (medium)"
@@ -1438,7 +1433,7 @@ msgstr ""
 
 #: src/main/print-escp2.c:534
 msgid "Drop Size Large"
-msgstr ""
+msgstr "液滴尺寸大"
 
 #: src/main/print-escp2.c:535
 msgid "Drop Size 3 (large)"
@@ -1450,7 +1445,7 @@ msgstr "淡青色值"
 
 #: src/main/print-escp2.c:558 src/main/print-escp2.c:559
 msgid "Light Cyan Density Scale"
-msgstr ""
+msgstr "淡青色密度比例"
 
 #: src/main/print-escp2.c:566 src/main/print-escp2.c:567
 msgid "Light Magenta Value"
@@ -1458,7 +1453,7 @@ msgstr "淡品红色值"
 
 #: src/main/print-escp2.c:574 src/main/print-escp2.c:575
 msgid "Light Magenta Density Scale"
-msgstr ""
+msgstr "淡品红色密度比例"
 
 #: src/main/print-escp2.c:590 src/main/print-escp2.c:591
 msgid "Dark Yellow Value"
@@ -1812,7 +1807,7 @@ msgstr "2400 DPI x 1200 DPI 最高质量"
 
 #: src/main/print-lexmark.c:589
 msgid "test print"
-msgstr "打印测试"
+msgstr "测试打印"
 
 #: src/main/print-lexmark.c:601 src/main/print-lexmark.c:671
 #: src/xml/xmli18n-tmp.h:2540 src/xml/xmli18n-tmp.h:2548
@@ -1836,7 +1831,7 @@ msgstr "打印测试"
 #: src/xml/xmli18n-tmp.h:3195 src/xml/xmli18n-tmp.h:3207
 #: src/xml/xmli18n-tmp.h:3217 src/xml/xmli18n-tmp.h:3227
 msgid "Four Color Standard"
-msgstr ""
+msgstr "四色标准"
 
 #: src/main/print-lexmark.c:604 src/main/print-lexmark.c:674
 #: src/xml/xmli18n-tmp.h:2541 src/xml/xmli18n-tmp.h:2553
@@ -1861,7 +1856,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3212 src/xml/xmli18n-tmp.h:3222
 #: src/xml/xmli18n-tmp.h:3232
 msgid "Three Color Composite"
-msgstr ""
+msgstr "三色复合"
 
 #: src/main/print-lexmark.c:607 src/main/print-lexmark.c:677
 #: src/xml/xmli18n-tmp.h:2532 src/xml/xmli18n-tmp.h:2613
@@ -1877,7 +1872,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3079 src/xml/xmli18n-tmp.h:3103
 #: src/xml/xmli18n-tmp.h:3129 src/xml/xmli18n-tmp.h:3193
 msgid "Six Color Photo"
-msgstr ""
+msgstr "六色照片"
 
 #: src/main/print-lexmark.c:610 src/main/print-lexmark.c:680
 #: src/xml/xmli18n-tmp.h:2539 src/xml/xmli18n-tmp.h:2620
@@ -1893,7 +1888,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:3104 src/xml/xmli18n-tmp.h:3130
 #: src/xml/xmli18n-tmp.h:3194
 msgid "Five Color Photo Composite"
-msgstr ""
+msgstr "五色照片复合"
 
 #: src/main/print-lexmark.c:856 src/xml/xmli18n-tmp.h:1
 #: src/xml/xmli18n-tmp.h:25 src/xml/xmli18n-tmp.h:51 src/xml/xmli18n-tmp.h:69
@@ -2097,7 +2092,7 @@ msgstr "相纸"
 #: src/xml/xmli18n-tmp.h:819 src/xml/xmli18n-tmp.h:840
 #: src/xml/xmli18n-tmp.h:859
 msgid "Premium Glossy Photo Paper"
-msgstr ""
+msgstr "高级光面照相纸"
 
 #: src/main/print-lexmark.c:892 src/xml/xmli18n-tmp.h:18
 #: src/xml/xmli18n-tmp.h:45 src/xml/xmli18n-tmp.h:65 src/xml/xmli18n-tmp.h:86
@@ -2119,8 +2114,9 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:778 src/xml/xmli18n-tmp.h:800
 #: src/xml/xmli18n-tmp.h:821 src/xml/xmli18n-tmp.h:842
 #: src/xml/xmli18n-tmp.h:861
+#, fuzzy
 msgid "Premium Luster Photo Paper"
-msgstr ""
+msgstr "高级发光·真·金闪闪照相纸"
 
 #: src/main/print-lexmark.c:896 src/xml/xmli18n-tmp.h:21
 #: src/xml/xmli18n-tmp.h:48 src/xml/xmli18n-tmp.h:66 src/xml/xmli18n-tmp.h:87
@@ -2143,7 +2139,7 @@ msgstr ""
 #: src/xml/xmli18n-tmp.h:824 src/xml/xmli18n-tmp.h:843
 #: src/xml/xmli18n-tmp.h:862
 msgid "Photo Quality Glossy Paper"
-msgstr ""
+msgstr "照片质量光面纸"
 
 #: src/main/print-lexmark.c:900 src/xml/xmli18n-tmp.h:22
 #: src/xml/xmli18n-tmp.h:88 src/xml/xmli18n-tmp.h:110 src/xml/xmli18n-tmp.h:132
@@ -2192,21 +2188,21 @@ msgstr "其他"
 
 #: src/main/print-lexmark.c:1117
 msgid "Auto Sheet Feeder"
-msgstr ""
+msgstr "自动送纸器"
 
 #: src/main/print-lexmark.c:1118
 msgid "Manual with Pause"
-msgstr ""
+msgstr "手动带暂停"
 
 #: src/main/print-lexmark.c:1119
 msgid "Manual without Pause"
-msgstr ""
+msgstr "手动无暂停"
 
 #: src/main/print-olympus.c:312 src/main/print-olympus.c:1523
 #: src/main/print-olympus.c:1596 src/main/print-olympus.c:1731
 #: src/main/print-olympus.c:1947
 msgid "Coated"
-msgstr ""
+msgstr "涂层"
 
 #: src/main/print-olympus.c:1086 src/main/print-olympus.c:1149
 #: src/main/print-olympus.c:1247 src/main/print-olympus.c:1363
@@ -2331,7 +2327,7 @@ msgstr ""
 
 #: src/main/print-pcl.c:186
 msgid "Premium"
-msgstr ""
+msgstr "高级"
 
 #: src/main/print-pcl.c:187
 msgid "Glossy Photo"
@@ -2506,7 +2502,6 @@ msgstr "请将上述信息报告给 gimp-print-devel@lists.sourceforge.net"
 #: src/main/generic-options.c:33 src/xml/xmli18n-tmp.h:3256
 #: src/xml/xmli18n-tmp.h:3272 src/xml/xmli18n-tmp.h:3281
 #: src/xml/xmli18n-tmp.h:3290
-#, fuzzy
 msgid "Fast Economy"
 msgstr "快速经济"
 
@@ -2521,14 +2516,14 @@ msgstr "经济"
 #: src/xml/xmli18n-tmp.h:3287 src/xml/xmli18n-tmp.h:3296
 #: src/xml/xmli18n-tmp.h:3304
 msgid "Super Photo"
-msgstr ""
+msgstr "超级照片"
 
 #: src/main/generic-options.c:40 src/xml/xmli18n-tmp.h:3263
 #: src/xml/xmli18n-tmp.h:3270 src/xml/xmli18n-tmp.h:3279
 #: src/xml/xmli18n-tmp.h:3288 src/xml/xmli18n-tmp.h:3297
 #: src/xml/xmli18n-tmp.h:3305
 msgid "Ultra Photo"
-msgstr ""
+msgstr "究极照片"
 
 #: src/main/generic-options.c:41 src/cups/genppd.c:1455 src/cups/genppd.c:2512
 #: src/xml/xmli18n-tmp.h:3264 src/xml/xmli18n-tmp.h:3271
@@ -2595,7 +2590,7 @@ msgstr "曲线类型"
 
 #: src/gutenprintui2/curve.c:129
 msgid "Is this curve linear, spline interpolated, or free-form"
-msgstr ""
+msgstr "曲线为线性、样条插值还是自由曲线"
 
 #: src/gutenprintui2/curve.c:137
 msgid "Minimum X"
@@ -2635,7 +2630,7 @@ msgstr "伽马值"
 
 #: src/gutenprintui2/gammacurve.c:405
 msgid "_Gamma value"
-msgstr ""
+msgstr "伽马值 (_G)"
 
 #: src/gutenprintui2/panel.c:276
 msgid "Inch"
@@ -2643,7 +2638,7 @@ msgstr "英寸"
 
 #: src/gutenprintui2/panel.c:276
 msgid "Set the base unit of measurement to inches"
-msgstr ""
+msgstr "将测量的基本单位设置为英寸"
 
 #: src/gutenprintui2/panel.c:278
 msgid "cm"
@@ -2651,15 +2646,15 @@ msgstr "厘米"
 
 #: src/gutenprintui2/panel.c:278
 msgid "Set the base unit of measurement to centimetres"
-msgstr ""
+msgstr "将测量的基本单位设置为厘米"
 
 #: src/gutenprintui2/panel.c:280
 msgid "Points"
-msgstr "点"
+msgstr ""
 
 #: src/gutenprintui2/panel.c:280
 msgid "Set the base unit of measurement to points (1/72\")"
-msgstr ""
+msgstr "将测量的基本单位设置为点 (1/72 英寸)"
 
 #: src/gutenprintui2/panel.c:282
 msgid "mm"
@@ -2667,7 +2662,7 @@ msgstr "毫米"
 
 #: src/gutenprintui2/panel.c:282
 msgid "Set the base unit of measurement to millimetres"
-msgstr ""
+msgstr "将测量的基本单位设置为毫米"
 
 #: src/gutenprintui2/panel.c:284
 msgid "Pica"
@@ -2675,7 +2670,7 @@ msgstr ""
 
 #: src/gutenprintui2/panel.c:284
 msgid "Set the base unit of measurement to picas (1/12\")"
-msgstr ""
+msgstr "将测量的基本单位设置为十二点活字 (1/12 英寸)"
 
 #: src/gutenprintui2/panel.c:291
 msgid "Color output"
@@ -2683,7 +2678,7 @@ msgstr "颜色输出"
 
 #: src/gutenprintui2/panel.c:293
 msgid "Print in shades of gray using black ink"
-msgstr ""
+msgstr "使用黑色墨水打印灰度"
 
 #: src/gutenprintui2/panel.c:305
 msgid "Standard Command"
@@ -2743,27 +2738,29 @@ msgid "Reset"
 msgstr "复位"
 
 #: src/gutenprintui2/panel.c:1383
-#, fuzzy, c-format
+#, c-format
 msgid "%s -- Print v%s"
-msgstr "%s -- 打印 v%s"
+msgstr "%s — 打印 v%s"
 
 #: src/gutenprintui2/panel.c:1392
 msgid "About"
 msgstr "关于"
 
 #: src/gutenprintui2/panel.c:1394
-#, fuzzy
 msgid ""
 "Print and\n"
 "Save Settings"
-msgstr "打印并保存设置"
+msgstr ""
+"打印并\n"
+"保存设置"
 
 #: src/gutenprintui2/panel.c:1396
-#, fuzzy
 msgid ""
 "Save\n"
 "Settings"
-msgstr "保存设置"
+msgstr ""
+"保存\n"
+"设置"
 
 #: src/gutenprintui2/panel.c:1398
 msgid "Print"
@@ -13281,6 +13278,7 @@ msgstr "Infotec MP 5000"
 msgid "Infotec MP 5000B"
 msgstr "Infotec MP 5000B"
 
+# 这绝对是 msgfilter made easy.
 #: src/xml/xmli18n-tmp.h:5274
 msgid "Kyocera CS-1815"
 msgstr "京瓷 CS-1815"
