@@ -1,20 +1,24 @@
-# SOME DESCRIPTIVE TITLE.
+# bfd in zh_CN
 # Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the binutils package.
 # Wang Li <charles@linux.net.cn>, 2003.
+# Wei-Lun Chao <bluebat@member.fsf.org>, 2005, 2013.
+# Mingye Wang <arthur200126@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: bfd 2.12.91\n"
+"Project-Id-Version: bfd 2.24.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2014-02-10 09:42+1030\n"
-"PO-Revision-Date: 2015-08-27 00:07+0800\n"
-"Last-Translator: Mingye Wang <arthur200126@hotmail.com>\n"
+"PO-Revision-Date: 2015-10-30 00:11-0400\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: aout-adobe.c:127
 #, fuzzy
