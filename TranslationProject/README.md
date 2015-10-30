@@ -68,6 +68,5 @@ as a directive for choosing what files to compendium / TM match from.
   - util-linux
   - tar
   - wget
-  - proc  
-    - psmisc
+  - psmisc
     - procps
