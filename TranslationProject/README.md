@@ -54,6 +54,8 @@ as a directive for choosing what files to compendium / TM match from.
       - ld
       - bfd
       - gold
+      - gas
+      - opcodes
   - Lex n' parse
     - flex
     - bison (-runtime)
@@ -62,8 +64,10 @@ as a directive for choosing what files to compendium / TM match from.
     - cpplib (from gcc)
   - m4
   - make
-- GNU blahutils
+- GNU coreutils-like
   - util-linux
   - tar
   - wget
-  - psmisc
+  - proc  
+    - psmisc
+    - procps
