@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: guix 0.8.3\n"
 "Report-Msgid-Bugs-To: ludo@gnu.org\n"
 "POT-Creation-Date: 2015-08-27 17:21+0800\n"
-"PO-Revision-Date: 2015-08-27 19:10+0800\n"
+"PO-Revision-Date: 2015-11-01 00:12-0400\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.4\n"
-"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language: zh_CN\n"
 
 #: gnu/packages.scm:79
@@ -36,42 +36,42 @@ msgstr "无法访问 `~a': ~a~%"
 #: gnu/packages.scm:383
 #, scheme-format
 msgid "looking for the latest release of GNU ~a..."
-msgstr ""
+msgstr "寻找最新版的 GNU~a..."
 
 #: gnu/packages.scm:390
 #, scheme-format
 msgid "~a: note: using ~a but ~a is available upstream~%"
-msgstr ""
+msgstr "~a: 注意: 使用 ~a 但 ~a 在上游可用~%"
 
 #: gnu/packages.scm:412 gnu/packages.scm:447
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "ambiguous package specification `~a'~%"
-msgstr "有问题的软件包规范：%s\n"
+msgstr "含糊的软件包规范 `~a'~%"
 
 #: gnu/packages.scm:413 gnu/packages.scm:449
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "choosing ~a from ~a~%"
-msgstr "选择%qD而不是%qD"
+msgstr "选择 ~a，从 ~a~%"
 
 #: gnu/packages.scm:419
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~A: package not found for version ~a~%"
-msgstr "找不到软件包「%s」\n"
+msgstr "~A: 无法找到供版本 ~a~% 的软件包"
 
 #: gnu/packages.scm:421
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~A: unknown package~%"
-msgstr "未知"
+msgstr "~A: 未知包~%"
 
 #: gnu/packages.scm:437
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "package `~a' lacks output `~a'~%"
-msgstr "输出操作数约束缺少%<=%>"
+msgstr "包 `~a' 缺乏输出 `~a'~%"
 
 #: gnu/packages.scm:454
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: package not found~%"
-msgstr "找不到软件包「%s」\n"
+msgstr "~a: 包未找到~%"
 
 #: gnu/system.scm:587
 #, scheme-format
@@ -85,14 +85,13 @@ msgid ""
 msgstr ""
 
 #: gnu/system.scm:856
-#, fuzzy
 msgid "system locale lacks a definition"
-msgstr "无法打开区域定义文件“%s”"
+msgstr ""
 
 #: gnu/services/dmd.scm:51
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "service '~a' provided more than once"
-msgstr "指定模式 (也许会使用一次以上)"
+msgstr ""
 
 #: gnu/system/shadow.scm:210
 #, scheme-format
@@ -100,44 +99,54 @@ msgid "supplementary group '~a' of user '~a' is undeclared"
 msgstr ""
 
 #: gnu/system/shadow.scm:220
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "primary group '~a' of user '~a' is undeclared"
-msgstr "设置主要群组"
+msgstr ""
 
 #: guix/scripts/build.scm:66
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to create GC root `~a': ~a~%"
-msgstr "创建 UUID 对象时失败：%s\n"
+msgstr ""
 
 #: guix/scripts/build.scm:110
 msgid ""
 "\n"
 "  -L, --load-path=DIR    prepend DIR to the package module search path"
 msgstr ""
+"\n"
+"  -L, --load-path=目录   将 <目录> 加入到软件包模块搜索目录之前"
 
 #: guix/scripts/build.scm:112
 msgid ""
 "\n"
 "  -K, --keep-failed      keep build tree of failed builds"
 msgstr ""
+"\n"
+"  -K, --keep-failed      保留失败构建的构建树"
 
 #: guix/scripts/build.scm:114
 msgid ""
 "\n"
 "  -n, --dry-run          do not build the derivations"
 msgstr ""
+"\n"
+"  -n, --dry-run          不要构建派生包"
 
 #: guix/scripts/build.scm:116
 msgid ""
 "\n"
 "      --fallback         fall back to building when the substituter fails"
 msgstr ""
+"\n"
+"      --fallback         如果替换器失败，回落到构建"
 
 #: guix/scripts/build.scm:118
 msgid ""
 "\n"
 "      --no-substitutes   build instead of resorting to pre-built substitutes"
 msgstr ""
+"\n"
+"      --no-substitutes   构建而不使用预先构建的替代品"
 
 #: guix/scripts/build.scm:120
 msgid ""
@@ -145,6 +154,9 @@ msgid ""
 "      --substitute-urls=URLS\n"
 "                         fetch substitute from URLS if they are authorized"
 msgstr ""
+"\n"
+"      --substitute-urls=URLS\n"
+"                         从 URLS 获取替代品，如果这些链接被授权的话"
 
 #: guix/scripts/build.scm:123
 msgid ""
@@ -166,11 +178,10 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/build.scm:130
-#, fuzzy
 msgid ""
 "\n"
 "      --verbosity=LEVEL  use the given verbosity LEVEL"
-msgstr "-fsched-verbose=<N>\t指定调度器的冗余级别"
+msgstr ""
 
 #: guix/scripts/build.scm:132
 msgid ""
@@ -185,9 +196,9 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/build.scm:221 guix/scripts/build.scm:228
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "not a number: '~a' option argument: ~a~%"
-msgstr "选项“%s”需要一个参数\n"
+msgstr ""
 
 #: guix/scripts/build.scm:247
 msgid ""
@@ -202,11 +213,10 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/build.scm:251
-#, fuzzy
 msgid ""
 "\n"
 "  -S, --source           build the packages' source derivations"
-msgstr "依据 <specfile> 构建源代码和二进制软件包"
+msgstr ""
 
 #: guix/scripts/build.scm:253
 msgid ""
@@ -261,12 +271,11 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/build.scm:275 guix/scripts/download.scm:53
-#: guix/scripts/package.scm:428 guix/scripts/gc.scm:65
-#: guix/scripts/hash.scm:55 guix/scripts/import.scm:91
-#: guix/scripts/pull.scm:81 guix/scripts/substitute.scm:692
-#: guix/scripts/system.scm:411 guix/scripts/lint.scm:581
-#: guix/scripts/publish.scm:60 guix/scripts/edit.scm:42
-#: guix/scripts/size.scm:238
+#: guix/scripts/package.scm:428 guix/scripts/gc.scm:65 guix/scripts/hash.scm:55
+#: guix/scripts/import.scm:91 guix/scripts/pull.scm:81
+#: guix/scripts/substitute.scm:692 guix/scripts/system.scm:411
+#: guix/scripts/lint.scm:581 guix/scripts/publish.scm:60
+#: guix/scripts/edit.scm:42 guix/scripts/size.scm:238
 msgid ""
 "\n"
 "  -h, --help             display this help and exit"
@@ -275,12 +284,11 @@ msgstr ""
 "  -h, --help                 显示这份说明然后离开"
 
 #: guix/scripts/build.scm:277 guix/scripts/download.scm:55
-#: guix/scripts/package.scm:430 guix/scripts/gc.scm:67
-#: guix/scripts/hash.scm:57 guix/scripts/import.scm:93
-#: guix/scripts/pull.scm:83 guix/scripts/substitute.scm:694
-#: guix/scripts/system.scm:413 guix/scripts/lint.scm:585
-#: guix/scripts/publish.scm:62 guix/scripts/edit.scm:44
-#: guix/scripts/size.scm:240
+#: guix/scripts/package.scm:430 guix/scripts/gc.scm:67 guix/scripts/hash.scm:57
+#: guix/scripts/import.scm:93 guix/scripts/pull.scm:83
+#: guix/scripts/substitute.scm:694 guix/scripts/system.scm:413
+#: guix/scripts/lint.scm:585 guix/scripts/publish.scm:62
+#: guix/scripts/edit.scm:44 guix/scripts/size.scm:240
 msgid ""
 "\n"
 "  -V, --version          display version information and exit"
@@ -296,14 +304,14 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/build.scm:427
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "sources do not match any package:~{ ~a~}~%"
-msgstr "不运行软件包内的任何可触发短脚本"
+msgstr ""
 
 #: guix/scripts/build.scm:476
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "no build log for '~a'~%"
-msgstr "无法创建日志文件"
+msgstr ""
 
 #: guix/scripts/download.scm:44
 msgid ""
@@ -322,9 +330,9 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/download.scm:73 guix/scripts/hash.scm:75
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "unsupported hash format: ~a~%"
-msgstr "不支持的真理哈希偏移量。\n"
+msgstr ""
 
 #: guix/scripts/download.scm:96 guix/scripts/gc.scm:144
 #: guix/scripts/import/elpa.scm:76 guix/scripts/pull.scm:217
@@ -339,19 +347,19 @@ msgid "~a: failed to parse URI~%"
 msgstr ""
 
 #: guix/scripts/download.scm:117
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: download failed~%"
-msgstr "下载："
+msgstr ""
 
 #: guix/scripts/package.scm:108
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to build the empty profile~%"
-msgstr "组建依赖软件包时失败"
+msgstr ""
 
 #: guix/scripts/package.scm:124
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "switching from generation ~a to ~a~%"
-msgstr "切换调试信息生成"
+msgstr ""
 
 #: guix/scripts/package.scm:143
 #, scheme-format
@@ -359,9 +367,9 @@ msgid "nothing to do: already at the empty profile~%"
 msgstr ""
 
 #: guix/scripts/package.scm:155
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "deleting ~a~%"
-msgstr "删除输出文件 %s 出错"
+msgstr ""
 
 #: guix/scripts/package.scm:268
 #, scheme-format
@@ -369,14 +377,14 @@ msgid "not removing generation ~a, which is current~%"
 msgstr ""
 
 #: guix/scripts/package.scm:275
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "no matching generation~%"
-msgstr "通配符匹配"
+msgstr ""
 
 #: guix/scripts/package.scm:278 guix/scripts/package.scm:909
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid syntax: ~a~%"
-msgstr "%P%F: 在旗标中出现无效的语法\n"
+msgstr ""
 
 #: guix/scripts/package.scm:359
 #, scheme-format
@@ -390,12 +398,11 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/package.scm:377
-#, fuzzy
 msgid ""
 "\n"
 "  -i, --install PACKAGE ...\n"
 "                         install PACKAGEs"
-msgstr "安装软件包"
+msgstr ""
 
 #: guix/scripts/package.scm:380
 msgid ""
@@ -405,12 +412,11 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/package.scm:383
-#, fuzzy
 msgid ""
 "\n"
 "  -r, --remove PACKAGE ...\n"
 "                         remove PACKAGEs"
-msgstr "做为 -N -r -l inf --no-remove-listing 的捷径。"
+msgstr ""
 
 #: guix/scripts/package.scm:386
 msgid ""
@@ -478,11 +484,10 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/package.scm:412 guix/scripts/pull.scm:74
-#, fuzzy
 msgid ""
 "\n"
 "      --verbose          produce verbose output"
-msgstr "    -v, --verbo      se                 输出更多信息\n"
+msgstr ""
 
 #: guix/scripts/package.scm:415
 msgid ""
@@ -511,14 +516,14 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/package.scm:510
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: unsupported kind of search path~%"
-msgstr "debug_make_undefined_type：不支持的种类"
+msgstr ""
 
 #: guix/scripts/package.scm:708
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~A: extraneous argument~%"
-msgstr "单目 ! 的参数中"
+msgstr ""
 
 #: guix/scripts/package.scm:716
 #, scheme-format
@@ -526,9 +531,9 @@ msgid "Try \"info '(guix) Invoking guix package'\" for more information.~%"
 msgstr ""
 
 #: guix/scripts/package.scm:738
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "error: while creating directory `~a': ~a~%"
-msgstr "创建暂时文件 %s 时发生错误\n"
+msgstr ""
 
 #: guix/scripts/package.scm:742
 #, scheme-format
@@ -536,9 +541,9 @@ msgid "Please create the `~a' directory, with you as the owner.~%"
 msgstr ""
 
 #: guix/scripts/package.scm:749
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "error: directory `~a' is not owned by you~%"
-msgstr "错误: 你没有读权限 "
+msgstr ""
 
 #: guix/scripts/package.scm:752
 #, scheme-format
@@ -546,9 +551,9 @@ msgid "Please change the owner of `~a' to user ~s.~%"
 msgstr ""
 
 #: guix/scripts/package.scm:786
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "nothing to be done~%"
-msgstr "没有任何东西"
+msgstr ""
 
 #: guix/scripts/package.scm:802
 #, scheme-format
@@ -557,9 +562,9 @@ msgid_plural "~a packages in profile~%"
 msgstr[0] ""
 
 #: guix/scripts/package.scm:826
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "cannot switch to generation '~a'~%"
-msgstr "此开关缺少可用文档"
+msgstr ""
 
 #: guix/scripts/package.scm:848
 #, scheme-format
@@ -572,14 +577,14 @@ msgid "installing new manifest from '~a' with ~d entries~%"
 msgstr ""
 
 #: guix/scripts/package.scm:875
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Generation ~a\t~a"
-msgstr "“输入文件”对模板生成标志来说是必须的。\n"
+msgstr ""
 
 #: guix/scripts/package.scm:882
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a\t(current)~%"
-msgstr " K: 目前的\n"
+msgstr ""
 
 #: guix/scripts/gc.scm:39
 msgid ""
@@ -595,11 +600,10 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/gc.scm:44
-#, fuzzy
 msgid ""
 "\n"
 "  -d, --delete           attempt to delete PATHS"
-msgstr "  d            - 从归档文件中删除文件\n"
+msgstr ""
 
 #: guix/scripts/gc.scm:46
 msgid ""
@@ -608,27 +612,22 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/gc.scm:48
-#, fuzzy
 msgid ""
 "\n"
 "      --list-dead        list dead paths"
-msgstr "打印当前路径的列表和他们的使用次数"
+msgstr ""
 
 #: guix/scripts/gc.scm:50
-#, fuzzy
 msgid ""
 "\n"
 "      --list-live        list live paths"
-msgstr "打印当前路径的列表和他们的使用次数"
+msgstr ""
 
 #: guix/scripts/gc.scm:53
-#, fuzzy
 msgid ""
 "\n"
 "      --references       list the references of PATHS"
 msgstr ""
-"\n"
-"版本引用：\n"
 
 #: guix/scripts/gc.scm:55
 msgid ""
@@ -637,11 +636,10 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/gc.scm:57
-#, fuzzy
 msgid ""
 "\n"
 "      --referrers        list the referrers of PATHS"
-msgstr "打印当前路径的列表和他们的使用次数"
+msgstr ""
 
 #: guix/scripts/gc.scm:60
 msgid ""
@@ -652,9 +650,9 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/gc.scm:91
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid amount of storage: ~a~%"
-msgstr "函数%qE存储类无效"
+msgstr ""
 
 #: guix/scripts/hash.scm:45
 msgid ""
@@ -672,9 +670,9 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/hash.scm:103
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "unrecognized option: ~a~%"
-msgstr "无法识别的选项"
+msgstr ""
 
 #: guix/scripts/hash.scm:134 guix/ui.scm:425
 #, scheme-format
@@ -682,9 +680,9 @@ msgid "~a~%"
 msgstr ""
 
 #: guix/scripts/hash.scm:137
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "wrong number of arguments~%"
-msgstr "参数个数错误"
+msgstr ""
 
 #: guix/scripts/import.scm:85
 msgid ""
@@ -713,40 +711,41 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/import/elpa.scm:42
-#, fuzzy
 msgid ""
 "\n"
 "  -a, --archive=ARCHIVE          specify the archive repository"
-msgstr "归档文件中没有条目 %s\n"
+msgstr ""
 
 #: guix/scripts/import/elpa.scm:44
-#, fuzzy
 msgid ""
 "\n"
 "  -h, --help                     display this help and exit"
-msgstr "  -h, --help                 显示这份说明然后离开\n"
+msgstr ""
+"\n"
+"  -h, --help                     显示这份说明然后离开"
 
 #: guix/scripts/import/elpa.scm:46
-#, fuzzy
 msgid ""
 "\n"
 "  -V, --version                  display version information and exit"
-msgstr "  -v, --version              显示程序版本然后离开\n"
+msgstr ""
+"\n"
+"  -v, --version                  显示程序版本然后离开"
 
 #: guix/scripts/import/elpa.scm:91
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to download package '~a'~%"
-msgstr "软件包检查 \"%s\" 失败。\n"
+msgstr ""
 
 #: guix/scripts/import/elpa.scm:94
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "too few arguments~%"
-msgstr "%%：version-compare 的参数太少"
+msgstr "太少参数~%"
 
 #: guix/scripts/import/elpa.scm:96
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "too many arguments~%"
-msgstr "(太多参数)"
+msgstr "太多参数~%"
 
 #: guix/scripts/pull.scm:72
 msgid ""
@@ -771,19 +770,17 @@ msgid "tarball did not produce a single source directory"
 msgstr ""
 
 #: guix/scripts/pull.scm:150
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "unpacking '~a'...~%"
-msgstr "解压压缩文件 %s%s 失败：%s\n"
+msgstr ""
 
 #: guix/scripts/pull.scm:159
-#, fuzzy
 msgid "failed to unpack source code"
-msgstr "命令失败，代码 %i"
+msgstr ""
 
 #: guix/scripts/pull.scm:202
-#, fuzzy
 msgid "Guix already up to date\n"
-msgstr "软件包库已是最新\n"
+msgstr ""
 
 #: guix/scripts/pull.scm:207
 #, scheme-format
@@ -796,9 +793,9 @@ msgid "failed to update Guix, check the build log~%"
 msgstr ""
 
 #: guix/scripts/pull.scm:219
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~A: unexpected argument~%"
-msgstr "(未预期的参数)"
+msgstr ""
 
 #: guix/scripts/pull.scm:228
 msgid "failed to download up-to-date source, exiting\n"
@@ -810,9 +807,9 @@ msgid "authentication and authorization of substitutes disabled!~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:158
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "download from '~a' failed: ~a, ~s~%"
-msgstr "从 %s 读取 spec 文件失败\n"
+msgstr ""
 
 #: guix/scripts/substitute.scm:170
 #, scheme-format
@@ -825,34 +822,34 @@ msgid "try `--no-substitutes' if the problem persists~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:239
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "signature version must be a number: ~s~%"
-msgstr "%s 后面只能跟正数"
+msgstr ""
 
 #: guix/scripts/substitute.scm:243
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "unsupported signature version: ~a~%"
-msgstr "导语版本(%u)：不支持"
+msgstr ""
 
 #: guix/scripts/substitute.scm:251
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "signature is not a valid s-expression: ~s~%"
-msgstr "形参表不匹配 %s() 的有效签名"
+msgstr ""
 
 #: guix/scripts/substitute.scm:255
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid format of the signature field: ~a~%"
-msgstr "不匹配的字段签名‘%s’(在 ‘%s’中)"
+msgstr ""
 
 #: guix/scripts/substitute.scm:290
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid signature for '~a'~%"
-msgstr " 签名："
+msgstr ""
 
 #: guix/scripts/substitute.scm:292
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "hash mismatch for '~a'~%"
-msgstr "%s：样本文件与‘%s’不匹配\n"
+msgstr ""
 
 #: guix/scripts/substitute.scm:294
 #, scheme-format
@@ -860,14 +857,14 @@ msgid "'~a' is signed with an unauthorized key~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:296
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "signature on '~a' is corrupt~%"
-msgstr " 签名："
+msgstr ""
 
 #: guix/scripts/substitute.scm:334
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "substitute at '~a' lacks a signature~%"
-msgstr "替代 i18n 区段进入规格文件"
+msgstr ""
 
 #: guix/scripts/substitute.scm:501
 #, scheme-format
@@ -880,9 +877,9 @@ msgid "~s: unsupported server URI scheme~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:673
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "host name lookup error: ~a~%"
-msgstr "主机名搜索失败"
+msgstr ""
 
 #: guix/scripts/substitute.scm:682
 msgid ""
@@ -912,9 +909,9 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/substitute.scm:852
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "these substitute URLs will not be used:~{ ~a~}~%"
-msgstr "替代 i18n 区段进入规格文件"
+msgstr ""
 
 #: guix/scripts/substitute.scm:878
 #, scheme-format
@@ -922,9 +919,9 @@ msgid "failed to look up host '~a' (~a), substituter disabled~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:910
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: unrecognized options~%"
-msgstr "无法识别的重定位"
+msgstr ""
 
 #: guix/scripts/authenticate.scm:58
 #, scheme-format
@@ -932,19 +929,19 @@ msgid "cannot find public key for secret key '~a'~%"
 msgstr ""
 
 #: guix/scripts/authenticate.scm:78
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "error: invalid signature: ~a~%"
-msgstr "#<无效的错误码>"
+msgstr ""
 
 #: guix/scripts/authenticate.scm:80
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "error: unauthorized public key: ~a~%"
-msgstr "%s: 不是带装甲的(armored)公钥。\n"
+msgstr ""
 
 #: guix/scripts/authenticate.scm:82
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "error: corrupt signature data: ~a~%"
-msgstr "%C处数据声明语法错误"
+msgstr ""
 
 #: guix/scripts/authenticate.scm:120
 msgid ""
@@ -954,14 +951,13 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/authenticate.scm:126
-#, fuzzy
 msgid "wrong arguments"
-msgstr "参数个数错误"
+msgstr ""
 
 #: guix/scripts/system.scm:98
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to register '~a' under '~a'~%"
-msgstr "需要权限的暂存器"
+msgstr ""
 
 #: guix/scripts/system.scm:130
 #, scheme-format
@@ -979,19 +975,19 @@ msgid "not running as 'root', so the ownership of '~a' may be incorrect!~%"
 msgstr ""
 
 #: guix/scripts/system.scm:214
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "activating system...~%"
-msgstr "系统信息："
+msgstr ""
 
 #: guix/scripts/system.scm:267
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "unrecognized boot parameters for '~a'~%"
-msgstr "无法获取启动时间"
+msgstr ""
 
 #: guix/scripts/system.scm:362
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "initializing operating system under '~a'...~%"
-msgstr "不验证软件包操作系统"
+msgstr ""
 
 #: guix/scripts/system.scm:378
 msgid ""
@@ -1000,11 +996,8 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/system.scm:381
-#, fuzzy
 msgid "The valid values for ACTION are:\n"
 msgstr ""
-"\n"
-"<动作> 为其中之一：\n"
 
 #: guix/scripts/system.scm:383
 msgid "   reconfigure      switch to a new operating system configuration\n"
@@ -1072,29 +1065,28 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/system.scm:499
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: unknown action~%"
-msgstr "%<#pragma pack%>动作%qE无效 - 已忽略"
+msgstr ""
 
 #: guix/scripts/system.scm:514
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "wrong number of arguments for action '~a'~%"
-msgstr "参数个数错误"
+msgstr ""
 
 #: guix/scripts/system.scm:538
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "no configuration file specified~%"
-msgstr "将 CONF 用作配置文件"
+msgstr ""
 
 #: guix/scripts/lint.scm:109
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Available checkers:~%"
-msgstr "可用"
+msgstr ""
 
 #: guix/scripts/lint.scm:129
-#, fuzzy
 msgid "description should not be empty"
-msgstr "%s：不允许空范畴描述"
+msgstr ""
 
 #: guix/scripts/lint.scm:136
 msgid "description should start with an upper-case letter or digit"
@@ -1112,19 +1104,16 @@ msgid "pkg-config should probably be a native input"
 msgstr ""
 
 #: guix/scripts/lint.scm:188
-#, fuzzy
 msgid "synopsis should not be empty"
-msgstr "摘要"
+msgstr ""
 
 #: guix/scripts/lint.scm:196
-#, fuzzy
 msgid "no period allowed at the end of the synopsis"
-msgstr "%C处的 END 标记不允许出现在输出语句中"
+msgstr ""
 
 #: guix/scripts/lint.scm:208
-#, fuzzy
 msgid "no article allowed at the beginning of the synopsis"
-msgstr "*** 文章开头 ***"
+msgstr ""
 
 #: guix/scripts/lint.scm:215
 msgid "synopsis should be less than 80 characters long"
@@ -1139,62 +1128,60 @@ msgid "synopsis should not start with the package name"
 msgstr ""
 
 #: guix/scripts/lint.scm:319 guix/scripts/lint.scm:331
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "URI ~a not reachable: ~a (~s)"
-msgstr "      在 : %s"
+msgstr ""
 
 #: guix/scripts/lint.scm:338
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "URI ~a domain not found: ~a"
-msgstr "找不到"
+msgstr ""
 
 #: guix/scripts/lint.scm:346
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "URI ~a unreachable: ~a"
-msgstr "无法连接？\n"
+msgstr ""
 
 #: guix/scripts/lint.scm:372
-#, fuzzy
 msgid "invalid value for home page"
-msgstr "%s 首页：<%s>。\n"
+msgstr ""
 
 #: guix/scripts/lint.scm:375
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid home page URL: ~s"
-msgstr "%s 首页：<%s>。\n"
+msgstr ""
 
 #: guix/scripts/lint.scm:400
 msgid "file names of patches should start with the package name"
 msgstr ""
 
 #: guix/scripts/lint.scm:438
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: ~a: proposed synopsis: ~s~%"
-msgstr "摘要"
+msgstr ""
 
 #: guix/scripts/lint.scm:450
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: ~a: proposed description:~%     \"~a\"~%"
-msgstr "*** 没有描述 ***"
+msgstr ""
 
 #: guix/scripts/lint.scm:487
 msgid "all the source URIs are unreachable:"
 msgstr ""
 
 #: guix/scripts/lint.scm:499 guix/scripts/lint.scm:503
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to create derivation: ~a"
-msgstr "创建归档失败： %s\n"
+msgstr ""
 
 #: guix/scripts/lint.scm:509
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to create derivation: ~s~%"
-msgstr "创建 UUID 对象时失败：%s\n"
+msgstr ""
 
 #: guix/scripts/lint.scm:522
-#, fuzzy
 msgid "Validate package descriptions"
-msgstr "不验证服务器凭证。"
+msgstr ""
 
 #: guix/scripts/lint.scm:526
 msgid "Validate synopsis & description of GNU packages"
@@ -1209,23 +1196,20 @@ msgid "Validate file names and availability of patches"
 msgstr ""
 
 #: guix/scripts/lint.scm:538
-#, fuzzy
 msgid "Validate home-page URLs"
-msgstr "%s 首页：<%s>。\n"
+msgstr ""
 
 #: guix/scripts/lint.scm:542
-#, fuzzy
 msgid "Validate source URLs"
-msgstr "不验证服务器凭证。"
+msgstr ""
 
 #: guix/scripts/lint.scm:546
 msgid "Report failure to compile a package to a derivation"
 msgstr ""
 
 #: guix/scripts/lint.scm:550
-#, fuzzy
 msgid "Validate package synopses"
-msgstr "不验证服务器凭证。"
+msgstr ""
 
 #: guix/scripts/lint.scm:575
 msgid ""
@@ -1284,24 +1268,24 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/publish.scm:73
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "lookup of host '~a' failed: ~a~%"
-msgstr "无法查找服务器主机地址"
+msgstr ""
 
 #: guix/scripts/publish.scm:97
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "lookup of host '~a' returned nothing"
-msgstr "无法查找服务器主机地址"
+msgstr ""
 
 #: guix/scripts/publish.scm:270
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "user '~a' not found: ~a~%"
-msgstr "找不到"
+msgstr ""
 
 #: guix/scripts/publish.scm:284
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~A: extraneuous argument~%"
-msgstr "单目 ! 的参数中"
+msgstr ""
 
 #: guix/scripts/publish.scm:305
 #, scheme-format
@@ -1309,9 +1293,9 @@ msgid "server running as root; consider using the '--user' option!~%"
 msgstr ""
 
 #: guix/scripts/publish.scm:307
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "publishing ~a on ~a, port ~d~%"
-msgstr "端口"
+msgstr ""
 
 #: guix/scripts/edit.scm:39
 msgid ""
@@ -1320,42 +1304,38 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/edit.scm:57
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "file '~a' not found in search path ~s~%"
-msgstr "%s：%s 第 %u 列：找不到任何文件路径。\n"
+msgstr ""
 
 #: guix/scripts/edit.scm:69
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "source location of package '~a' is unknown~%"
-msgstr "<source package>"
+msgstr ""
 
 #: guix/scripts/size.scm:93
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "no available substitute information for '~a'~%"
-msgstr "替代 i18n 区段进入规格文件"
+msgstr ""
 
 #: guix/scripts/size.scm:101
-#, fuzzy
 msgid "store item"
-msgstr "STORE"
+msgstr ""
 
 #: guix/scripts/size.scm:101
-#, fuzzy
 msgid "total"
 msgstr "总用量"
 
 #: guix/scripts/size.scm:101
-#, fuzzy
 msgid "self"
-msgstr "代码所使用的 RTLD_SELF 没有动态加载"
+msgstr ""
 
 #. TRANSLATORS: This is the title of a graph, meaning that the graph
 #. represents a profile of the store (the "store" being the place where
 #. packages are stored.)
 #: guix/scripts/size.scm:222
-#, fuzzy
 msgid "store profile"
-msgstr "STORE"
+msgstr ""
 
 #: guix/scripts/size.scm:231
 msgid ""
@@ -1376,19 +1356,17 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/size.scm:281
-#, fuzzy
 msgid "missing store item argument\n"
-msgstr "%s 后缺少参数"
+msgstr ""
 
 #: guix/scripts/size.scm:295
-#, fuzzy
 msgid "too many arguments\n"
-msgstr "(太多参数)"
+msgstr ""
 
 #: guix/gnu-maintenance.scm:461
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "signature verification failed for `~a'~%"
-msgstr "验证失败：%s"
+msgstr ""
 
 #: guix/gnu-maintenance.scm:463
 #, scheme-format
@@ -1396,53 +1374,53 @@ msgid "(could be because the public key is not in your keyring)~%"
 msgstr ""
 
 #: guix/gnu-maintenance.scm:538
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: could not locate source file"
-msgstr "无法定位特殊连接器符号 __gp"
+msgstr ""
 
 #: guix/gnu-maintenance.scm:543
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: ~a: no `version' field in source; skipping~%"
-msgstr "设定源语言版本"
+msgstr ""
 
 #: guix/ui.scm:211
 msgid "entering debugger; type ',bt' for a backtrace\n"
 msgstr ""
 
 #: guix/ui.scm:227 guix/ui.scm:244
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to load '~a': ~a~%"
-msgstr "装入符号数据失败"
+msgstr ""
 
 #: guix/ui.scm:230
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: error: ~a~%"
-msgstr "(没有错误)"
+msgstr ""
 
 #: guix/ui.scm:233 guix/ui.scm:477
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "exception thrown: ~s~%"
-msgstr "  在抛出的表达式中"
+msgstr ""
 
 #: guix/ui.scm:235 guix/ui.scm:253
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to load '~a':~%"
-msgstr "装入符号数据失败"
+msgstr ""
 
 #: guix/ui.scm:247
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: warning: ~a~%"
-msgstr "警告："
+msgstr ""
 
 #: guix/ui.scm:250
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to load '~a': exception thrown: ~s~%"
-msgstr "装入共享目标文件“%s”失败"
+msgstr ""
 
 #: guix/ui.scm:262
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to install locale: ~a~%"
-msgstr "无法创建新区域归档文件"
+msgstr ""
 
 #: guix/ui.scm:281
 msgid ""
@@ -1454,47 +1432,44 @@ msgid ""
 msgstr ""
 
 #: guix/ui.scm:289
-#, fuzzy, scheme-format
+#, scheme-format
 msgid ""
 "\n"
 "Report bugs to: ~a."
 msgstr ""
-"\n"
-"请向<%s> 报告软件错误。请向 <i18n-zh@googlegroups.com> 报告翻译错误。\n"
 
 #: guix/ui.scm:291
-#, fuzzy, scheme-format
+#, scheme-format
 msgid ""
 "\n"
 "~a home page: <~a>"
-msgstr "%s 的主页：<%s>\n"
+msgstr ""
 
 #: guix/ui.scm:293
-#, fuzzy
 msgid ""
 "\n"
 "General help using GNU software: <http://www.gnu.org/gethelp/>"
-msgstr "GNU 软件一般性帮助：<http://www.gnu.org/gethelp/>\n"
+msgstr ""
 
 #: guix/ui.scm:334
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: invalid number~%"
-msgstr "无效编号"
+msgstr ""
 
 #: guix/ui.scm:351
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid number: ~a~%"
-msgstr "无效编号"
+msgstr ""
 
 #: guix/ui.scm:374
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "unknown unit: ~a~%"
-msgstr "%C处重复的 UNIT 规格"
+msgstr ""
 
 #: guix/ui.scm:385
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a:~a:~a: package `~a' has an invalid input: ~s~%"
-msgstr "无效的软件包编号：%s\n"
+msgstr ""
 
 #: guix/ui.scm:392
 #, scheme-format
@@ -1502,14 +1477,14 @@ msgid "~a: ~a: build system `~a' does not support cross builds~%"
 msgstr ""
 
 #: guix/ui.scm:397
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "profile '~a' does not exist~%"
-msgstr "目录 %s 不存在。"
+msgstr ""
 
 #: guix/ui.scm:400
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "generation ~a of profile '~a' does not exist~%"
-msgstr "新闻群组不存在于这个服务器"
+msgstr ""
 
 #: guix/ui.scm:407
 #, scheme-format
@@ -1522,19 +1497,19 @@ msgid "corrupt input while restoring archive from ~s~%"
 msgstr ""
 
 #: guix/ui.scm:412
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to connect to `~a': ~a~%"
-msgstr "连接到服务器时失败"
+msgstr ""
 
 #: guix/ui.scm:417
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "build failed: ~a~%"
-msgstr "组建依赖软件包时失败"
+msgstr ""
 
 #: guix/ui.scm:420
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "reference to invalid output '~a' of derivation '~a'~%"
-msgstr "无效的向后引用"
+msgstr ""
 
 #: guix/ui.scm:431
 #, scheme-format
@@ -1542,24 +1517,24 @@ msgid "~a: ~a~%"
 msgstr ""
 
 #: guix/ui.scm:466
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to read expression ~s: ~s~%"
-msgstr "fts_read 失败：%s"
+msgstr ""
 
 #: guix/ui.scm:472
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to evaluate expression '~a':~%"
-msgstr "%qD的地址总是等价为%<true%>"
+msgstr ""
 
 #: guix/ui.scm:475
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "syntax error: ~a~%"
-msgstr "语法错误"
+msgstr ""
 
 #: guix/ui.scm:489
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "expression ~s does not evaluate to a package~%"
-msgstr "行 %d：软件包不存在：%s\n"
+msgstr ""
 
 #: guix/ui.scm:541
 #, scheme-format
@@ -1634,29 +1609,27 @@ msgid_plural "The following packages will be installed:~%~{~a~%~}~%"
 msgstr[0] ""
 
 #: guix/ui.scm:686
-#, fuzzy
 msgid "<unknown location>"
-msgstr "(未知的定位操作码)"
+msgstr ""
 
 #: guix/ui.scm:712
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to create configuration directory `~a': ~a~%"
-msgstr "无法通过模板%s 创建目录"
+msgstr ""
 
 #: guix/ui.scm:814 guix/ui.scm:828
-#, fuzzy
 msgid "unknown"
-msgstr "未知"
+msgstr ""
 
 #: guix/ui.scm:937
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid argument: ~a~%"
-msgstr "(无效的参数)"
+msgstr ""
 
 #: guix/ui.scm:976
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Try `guix --help' for more information.~%"
-msgstr "试用“ldd --help”以获取更多信息。"
+msgstr ""
 
 #: guix/ui.scm:1003
 msgid ""
@@ -1669,68 +1642,62 @@ msgid "COMMAND must be one of the sub-commands listed below:\n"
 msgstr ""
 
 #: guix/ui.scm:1026
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "guix: ~a: command not found~%"
-msgstr "找不到"
+msgstr ""
 
 #: guix/ui.scm:1044
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "guix: missing command name~%"
-msgstr "%%changelog 中没有名称\n"
+msgstr ""
 
 #: guix/ui.scm:1052
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "guix: unrecognized option '~a'~%"
-msgstr "memusage：无法识别的选项“$1”"
+msgstr ""
 
 #: guix/http-client.scm:211
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "following redirection to `~a'...~%"
-msgstr "在选项 -fo 之后没有文件名。\n"
+msgstr ""
 
 #: guix/http-client.scm:220
-#, fuzzy
 msgid "download failed"
-msgstr "下载："
+msgstr ""
 
 #: guix/nar.scm:155
 msgid "signature is not a valid s-expression"
 msgstr ""
 
 #: guix/nar.scm:164
-#, fuzzy
 msgid "invalid signature"
-msgstr " 签名："
+msgstr ""
 
 #: guix/nar.scm:168
-#, fuzzy
 msgid "invalid hash"
-msgstr "Lookup3 哈希"
+msgstr ""
 
 #: guix/nar.scm:176
-#, fuzzy
 msgid "unauthorized public key"
-msgstr "%s: 不是带装甲的(armored)公钥。\n"
+msgstr ""
 
 #: guix/nar.scm:181
-#, fuzzy
 msgid "corrupt signature data"
-msgstr "损坏的属性\n"
+msgstr ""
 
 #: guix/nar.scm:201
-#, fuzzy
 msgid "corrupt file set archive"
-msgstr "现用文件损坏 - %s"
+msgstr ""
 
 #: guix/nar.scm:211
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "importing file or directory '~a'...~%"
-msgstr "没有那个文件或目录"
+msgstr ""
 
 #: guix/nar.scm:222
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "found valid signature for '~a'~%"
-msgstr "%s: `%s' 内找不到有效信息"
+msgstr ""
 
 #: guix/nar.scm:229
 msgid "imported file lacks a signature"
@@ -1752,19 +1719,16 @@ msgid ""
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:86
-#, fuzzy
 msgid "SYSTEM"
-msgstr "  因为它是一个重复了系统目录的非系统目录\n"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:87
-#, fuzzy
 msgid "assume SYSTEM as the current system type"
-msgstr "不能同时选择和排除文件系统类型%s"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:88 nix/nix-daemon/guix-daemon.cc:91
-#, fuzzy
 msgid "N"
-msgstr "不可用"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:89
 msgid "use N CPU cores to build each derivation; 0 means as many as available"
@@ -1775,12 +1739,10 @@ msgid "allow at most N build jobs"
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:94
-#, fuzzy
 msgid "disable chroot builds"
-msgstr "禁用预处理"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:95
-#, fuzzy
 msgid "DIR"
 msgstr "DIR"
 
@@ -1797,9 +1759,8 @@ msgid "perform builds as a user of GROUP"
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:100
-#, fuzzy
 msgid "do not use substitutes"
-msgstr "不使用硬件浮点单元"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:101
 msgid "URLS"
@@ -1810,19 +1771,16 @@ msgid "use URLS as the default list of substitute providers"
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:104
-#, fuzzy
 msgid "do not use the 'build hook'"
-msgstr "不检验构建依赖"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:106
-#, fuzzy
 msgid "cache build failures"
-msgstr "不要创建缓冲区"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:108
-#, fuzzy
 msgid "do not keep build logs"
-msgstr "不执行任何构建步骤 "
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:110
 msgid "disable compression of the build logs"
@@ -1833,9 +1791,8 @@ msgid "disable automatic file \"deduplication\" in the store"
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:125
-#, fuzzy
 msgid "impersonate Linux 2.6"
-msgstr "为 Linux 兼容性所忽略"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:129
 msgid "tell whether the GC must keep outputs of live derivations"
@@ -1854,19 +1811,18 @@ msgid "listen for connections on SOCKET"
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:138
-#, fuzzy
 msgid "produce debugging output"
-msgstr "输出更多调试信息。"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:205 nix/nix-daemon/guix-daemon.cc:381
-#, fuzzy, c-format
+#, c-format
 msgid "error: %s\n"
-msgstr "%s：严重内部错误，%s\n"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:266
-#, fuzzy, c-format
+#, c-format
 msgid "error: libgcrypt version mismatch\n"
-msgstr "RPC：程序/版本不匹配"
+msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:357
 #, c-format
