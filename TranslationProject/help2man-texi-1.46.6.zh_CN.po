@@ -1,6 +1,6 @@
 # zh_CN translation for help2man texinfo page.
 # Copyright (C) 2015 Free Software Foundation, Inc.
-# This file is distributed under the same license as the help2man package.
+# This file is distributed under the same license as the help2man-texi package.
 # Mingcong Bai (JeffBai) <jeffbaichina97@gmail.com>, 2015.
 # Mingye Wang <arthur200126@gmail.com>, 2015.
 #
@@ -9,14 +9,13 @@ msgstr ""
 "Project-Id-Version: help2man-texi 1.46.6\n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
 "POT-Creation-Date: 2015-08-26 21:42+0800\n"
-"PO-Revision-Date: 2015-11-01 11:41-0500\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2015-11-01 14:33-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
-"Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
@@ -301,13 +300,13 @@ msgstr "@command{help2man} 支持以下选项: "
 #: help2man.texi:118
 #, no-wrap
 msgid "-n @var{string}"
-msgstr "-n @var{string}"
+msgstr "-n @var{字符串}"
 
 #. type: itemx
 #: help2man.texi:119
 #, no-wrap
 msgid "--name=@var{string}"
-msgstr "--name=@var{string}"
+msgstr "--name=@var{字符串}"
 
 #. type: table
 #: help2man.texi:122
@@ -337,13 +336,13 @@ msgstr ""
 #: help2man.texi:129
 #, no-wrap
 msgid "-s @var{section}"
-msgstr "-s @var{section}"
+msgstr "-s @var{章节}"
 
 #. type: itemx
 #: help2man.texi:130
 #, no-wrap
 msgid "--section @var{section}"
-msgstr "--section @var{section}"
+msgstr "--section @var{章节}"
 
 #. type: table
 #: help2man.texi:133
@@ -799,8 +798,8 @@ msgid ""
 "/pattern/\n"
 "text\n"
 msgstr ""
-"/pattern/\n"
-"text\n"
+"/正则表达式/\n"
+"文本\n"
 
 #. type: Plain text
 #: help2man.texi:324
@@ -808,7 +807,9 @@ msgid ""
 "Blocks of verbatim *roff text are inserted into the output either at the "
 "start of the given @samp{[section]} (case insensitive), or after a paragraph "
 "matching @samp{/pattern/}."
-msgstr "逐字 *roff 文字块将在给定的"
+msgstr ""
+"逐字 *roff 文字块将在给定的 @samp{[章节]}（大小写不敏感）开始处，或在匹配 "
+"@samp{/正则表达式/} 的段后加入。"
 
 #. type: Plain text
 #: help2man.texi:328

@@ -1,7 +1,7 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Ludovic Courtès
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# guix in zh_CN
+# Copyright (C) 2015 Ludovic Courtès
+# This file is distributed under the same license as the guix package.
+# Mingye Wang <arthur200126@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
@@ -16,6 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.4\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 
 #: gnu/packages.scm:79
