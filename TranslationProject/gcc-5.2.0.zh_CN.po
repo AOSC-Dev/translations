@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-08-26 23:17+0800\n"
-"Last-Translator: Mingye Wang <arthur200126@hotmail.com>\n"
+"PO-Revision-Date: 2015-11-01 11:55-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1548,9 +1548,8 @@ msgid "callee refers to comdat-local symbols"
 msgstr "被调用者是指 comdat 本地符号"
 
 #: cif-code.def:125
-#, fuzzy
 msgid "function attribute mismatch"
-msgstr "优化等级属性不匹配"
+msgstr "函数属性不匹配"
 
 #: cif-code.def:129
 #, fuzzy
@@ -3542,8 +3541,7 @@ msgstr "前自减地址不是一个寄存器"
 msgid "post-increment address is not a register"
 msgstr "后自增地址不是一个寄存器"
 
-#: config/m32r/m32r.c:2351 config/m32r/m32r.c:2366
-#: config/rs6000/rs6000.c:29313
+#: config/m32r/m32r.c:2351 config/m32r/m32r.c:2366 config/rs6000/rs6000.c:29313
 msgid "bad address"
 msgstr "错误地址"
 
@@ -5278,63 +5276,52 @@ msgstr "试图 DEALLOCATE 未分配的‘%s’"
 
 #. The remainder are real diagnostic types.
 #: fortran/gfc-diagnostic.def:33
-#, fuzzy
 msgid "Fatal Error"
 msgstr "致命错误"
 
 #. This is like DK_ICE, but backtrace is not printed.  Used in the driver
 #. when reporting fatal signal in the compiler.
 #: fortran/gfc-diagnostic.def:34 fortran/gfc-diagnostic.def:50
-#, fuzzy
 msgid "internal compiler error"
-msgstr "编译器内部错误："
+msgstr "编译器内部错误"
 
 #: fortran/gfc-diagnostic.def:35
-#, fuzzy
 msgid "Error"
 msgstr "错误"
 
 #: fortran/gfc-diagnostic.def:36
-#, fuzzy
 msgid "sorry, unimplemented"
-msgstr "对不起，尚未实现："
+msgstr "对不起，尚未实现"
 
 #: fortran/gfc-diagnostic.def:37
-#, fuzzy
 msgid "Warning"
 msgstr "警告"
 
 #: fortran/gfc-diagnostic.def:38
-#, fuzzy
 msgid "anachronism"
-msgstr "时代错误："
+msgstr "历史遗留"
 
 #: fortran/gfc-diagnostic.def:39
-#, fuzzy
 msgid "note"
-msgstr "附注："
+msgstr "附注"
 
 #: fortran/gfc-diagnostic.def:40
-#, fuzzy
 msgid "debug"
-msgstr "调试："
+msgstr "调试"
 
 #. These two would be re-classified as DK_WARNING or DK_ERROR, so the
 #. prefix does not matter.
 #: fortran/gfc-diagnostic.def:43
-#, fuzzy
 msgid "pedwarn"
-msgstr "保守警告："
+msgstr "保守警告"
 
 #: fortran/gfc-diagnostic.def:44
-#, fuzzy
 msgid "permerror"
-msgstr "永久性错误："
+msgstr "永久错误"
 
 #. This one is just for counting DK_WARNING promoted to DK_ERROR
 #. due to -Werror and -Werror=warning.
 #: fortran/gfc-diagnostic.def:47
-#, fuzzy
 msgid "error"
 msgstr "错误"
 
@@ -5713,18 +5700,16 @@ msgstr "没有指定链接用的处理器类型"
 
 #: config/pa/pa-hpux10.h:102 config/pa/pa-hpux10.h:105
 #: config/pa/pa-hpux10.h:113 config/pa/pa-hpux10.h:116
-#: config/pa/pa-hpux11.h:134 config/pa/pa-hpux11.h:137
-#: config/pa/pa64-hpux.h:29 config/pa/pa64-hpux.h:32 config/pa/pa64-hpux.h:41
-#: config/pa/pa64-hpux.h:44
+#: config/pa/pa-hpux11.h:134 config/pa/pa-hpux11.h:137 config/pa/pa64-hpux.h:29
+#: config/pa/pa64-hpux.h:32 config/pa/pa64-hpux.h:41 config/pa/pa64-hpux.h:44
 #, fuzzy
 msgid "warning: consider linking with '-static' as system libraries with"
 msgstr "警告：考虑链接时使用‘-static’因为系统库"
 
 #: config/pa/pa-hpux10.h:103 config/pa/pa-hpux10.h:106
 #: config/pa/pa-hpux10.h:114 config/pa/pa-hpux10.h:117
-#: config/pa/pa-hpux11.h:135 config/pa/pa-hpux11.h:138
-#: config/pa/pa64-hpux.h:30 config/pa/pa64-hpux.h:33 config/pa/pa64-hpux.h:42
-#: config/pa/pa64-hpux.h:45
+#: config/pa/pa-hpux11.h:135 config/pa/pa-hpux11.h:138 config/pa/pa64-hpux.h:30
+#: config/pa/pa64-hpux.h:33 config/pa/pa64-hpux.h:42 config/pa/pa64-hpux.h:45
 msgid "  profiling support are only provided in archive format"
 msgstr "取样支持只支持存档格式"
 
@@ -5953,10 +5938,9 @@ msgstr "将默认实型种别设为 8 字节宽"
 msgid "Allow dollar signs in entity names"
 msgstr "允许在实体名中使用美元符号"
 
-#: fortran/lang.opt:433 config/alpha/alpha.opt:31 common.opt:696
-#: common.opt:881 common.opt:885 common.opt:889 common.opt:893 common.opt:1349
-#: common.opt:1498 common.opt:1502 common.opt:1724 common.opt:1866
-#: common.opt:2489
+#: fortran/lang.opt:433 config/alpha/alpha.opt:31 common.opt:696 common.opt:881
+#: common.opt:885 common.opt:889 common.opt:893 common.opt:1349 common.opt:1498
+#: common.opt:1502 common.opt:1724 common.opt:1866 common.opt:2489
 msgid "Does nothing. Preserved for backward compatibility."
 msgstr "不起作用。为向前兼容保留的选项。"
 
@@ -6716,14 +6700,14 @@ msgstr "K&R 风格函数参数声明中未指定类型限定符时给出警告"
 msgid "Warn about global functions without prototypes"
 msgstr "全局函数没有原型时给出警告"
 
-#: c-family/c.opt:623 c-family/c.opt:937 c-family/c.opt:944
-#: c-family/c.opt:1114 c-family/c.opt:1133 c-family/c.opt:1156
-#: c-family/c.opt:1162 c-family/c.opt:1169 c-family/c.opt:1193
-#: c-family/c.opt:1204 c-family/c.opt:1207 c-family/c.opt:1210
-#: c-family/c.opt:1213 c-family/c.opt:1216 c-family/c.opt:1253
-#: c-family/c.opt:1384 c-family/c.opt:1395 c-family/c.opt:1413
-#: c-family/c.opt:1444 c-family/c.opt:1448 c-family/c.opt:1464
-#: config/ia64/ia64.opt:167 config/ia64/ia64.opt:170 c-family/c-opts.c:426
+#: c-family/c.opt:623 c-family/c.opt:937 c-family/c.opt:944 c-family/c.opt:1114
+#: c-family/c.opt:1133 c-family/c.opt:1156 c-family/c.opt:1162
+#: c-family/c.opt:1169 c-family/c.opt:1193 c-family/c.opt:1204
+#: c-family/c.opt:1207 c-family/c.opt:1210 c-family/c.opt:1213
+#: c-family/c.opt:1216 c-family/c.opt:1253 c-family/c.opt:1384
+#: c-family/c.opt:1395 c-family/c.opt:1413 c-family/c.opt:1444
+#: c-family/c.opt:1448 c-family/c.opt:1464 config/ia64/ia64.opt:167
+#: config/ia64/ia64.opt:170 c-family/c-opts.c:426
 #, gcc-internal-format
 msgid "switch %qs is no longer supported"
 msgstr "开关%qs不再被支持"
@@ -7442,7 +7426,7 @@ msgstr "显示编译过程中累计的统计数字"
 msgid ""
 "Assume that values of enumeration type are always within the minimum range "
 "of that type"
-msgstr "假设该值的枚举类型型态是一律在之内最小范围的该型态"
+msgstr "假设该值的枚举类型类型是一律在之内最小范围的该类型"
 
 #: c-family/c.opt:1399
 msgid "-ftabstop=<number>\tDistance between tab stops for column reporting"
@@ -14308,7 +14292,7 @@ msgstr "-fdump-final-insns=文件名\t在翻译完毕后将指令输出到文件
 #: common.opt:1156
 #, fuzzy
 msgid "-fdump-go-spec=filename\tWrite all declarations to file as Go code"
-msgstr "-fdump-go-spec=文件名\t写入所有宣告到文件作为前往编码"
+msgstr "-fdump-go-spec=文件名\t写入所有声明到文件作为前往编码"
 
 #: common.opt:1160
 msgid "Suppress output of addresses in debugging dumps"
@@ -14497,7 +14481,7 @@ msgstr ""
 #: common.opt:1357
 #, fuzzy
 msgid "Force bitfield accesses to match their type width"
-msgstr "强制 bitfield 访问到匹配它们的型态宽度"
+msgstr "强制 bitfield 访问到匹配它们的类型宽度"
 
 #: common.opt:1361
 msgid "Enable guessing of branch probabilities"
@@ -14548,7 +14532,7 @@ msgstr "进行间接内联"
 msgid ""
 "Enable inlining of function declared \"inline\", disabling disables all "
 "inlining"
-msgstr "启用内联的函数宣告「内联」，停用全部停用内联"
+msgstr "启用内联的函数声明「内联」，停用全部停用内联"
 
 #: common.opt:1423
 #, fuzzy
@@ -16015,12 +15999,12 @@ msgstr "给予函数的实参太少"
 #: go/gofrontend/expressions.cc:13620 go/gofrontend/statements.cc:1585
 #, fuzzy
 msgid "type assertion only valid for interface types"
-msgstr "型态假设只有有效用于接口类型"
+msgstr "类型假设只有有效用于接口类型"
 
 #: go/gofrontend/expressions.cc:13632
 #, fuzzy
 msgid "impossible type assertion: type does not implement interface"
-msgstr "不可能的型态假设：型态不实作接口"
+msgstr "不可能的类型假设：类型不实作接口"
 
 #: go/gofrontend/expressions.cc:13811 go/gofrontend/statements.cc:1430
 msgid "expected channel"
@@ -16082,7 +16066,7 @@ msgstr "需要布尔表达式"
 #: go/gofrontend/statements.cc:4310
 #, fuzzy
 msgid "cannot type switch on non-interface value"
-msgstr "无法型态切换于 non-interface 值"
+msgstr "无法类型切换于 non-interface 值"
 
 #: go/gofrontend/statements.cc:4445
 #, fuzzy
@@ -17316,7 +17300,7 @@ msgstr "边指向错误的声明："
 msgid ""
 "an indirect edge with unknown callee corresponding to a call_stmt with a "
 "known declaration:"
-msgstr "间接边缘与不明被调用端相应到 callstmt 与已知宣告(_S)："
+msgstr "间接边缘与不明被调用端相应到 callstmt 与已知声明(_S)："
 
 #: cgraph.c:3134
 #, gcc-internal-format
@@ -22569,7 +22553,7 @@ msgstr "__builtin_shuffle 组件号码的的参数矢量和遮罩矢量应该相
 msgid ""
 "__builtin_shuffle argument vector(s) inner type must have the same size as "
 "inner type of the mask"
-msgstr "__builtin_shuffle 参数矢量内型态必须有相同大小作为内型态的遮罩"
+msgstr "__builtin_shuffle 参数矢量内类型必须有相同大小作为内类型的遮罩"
 
 #: c-family/c-common.c:2684
 #, gcc-internal-format
@@ -25282,9 +25266,9 @@ msgstr "L%d 缓存延迟未知，对 %s 来说"
 msgid "bad value %qs for -mmemory-latency"
 msgstr "-mmemory-latency 开关的值%qs错误"
 
-#: config/alpha/alpha.c:6732 config/alpha/alpha.c:6735
-#: config/s390/s390.c:10100 config/s390/s390.c:10103
-#: config/tilegx/tilegx.c:3579 config/tilepro/tilepro.c:3147
+#: config/alpha/alpha.c:6732 config/alpha/alpha.c:6735 config/s390/s390.c:10100
+#: config/s390/s390.c:10103 config/tilegx/tilegx.c:3579
+#: config/tilepro/tilepro.c:3147
 #, gcc-internal-format
 msgid "bad builtin fcode"
 msgstr "错误的内建 fcode"
@@ -29645,8 +29629,7 @@ msgid ""
 "dimension greater than 1"
 msgstr ""
 
-#: c/c-array-notation.c:731 c/c-array-notation.c:737
-#: cp/cp-array-notation.c:620
+#: c/c-array-notation.c:731 c/c-array-notation.c:737 cp/cp-array-notation.c:620
 #, fuzzy, gcc-internal-format
 msgid "%qE cannot be scalar when %qE is not"
 msgstr "找不到%2$qE超类%1$qE的接口声明"
@@ -31454,7 +31437,7 @@ msgstr "文件作用域中出现%<auto%>空声明"
 #: c/c-parser.c:1887
 #, fuzzy, gcc-internal-format
 msgid "%<__auto_type%> may only be used with a single declarator"
-msgstr "%<auto%> 只能被指定的用于变量或函数宣告"
+msgstr "%<auto%> 只能被指定的用于变量或函数声明"
 
 #: c/c-parser.c:1916 cp/parser.c:11654
 #, gcc-internal-format
@@ -31926,7 +31909,7 @@ msgstr "给函数%<__builtin_next_arg%>的参数数目不对"
 #: c/c-parser.c:7543
 #, fuzzy, gcc-internal-format
 msgid "%<__builtin_complex%> operand not of real binary floating-point type"
-msgstr "%<__builtin_complex%>算符无法的真实二进制浮点型态"
+msgstr "%<__builtin_complex%>算符无法的真实二进制浮点类型"
 
 #: c/c-parser.c:7552
 #, fuzzy, gcc-internal-format
@@ -34076,7 +34059,7 @@ msgstr "模板第 %d 个参数无效"
 #, fuzzy, gcc-internal-format
 msgid ""
 "  a constructor taking a single argument of its own class type is invalid"
-msgstr "  建构子需单一参数的它的本身类别型态无效"
+msgstr "  建构子需单一参数的它的本身类别类型无效"
 
 #: cp/call.c:3793
 #, gcc-internal-format
@@ -35018,7 +35001,7 @@ msgstr "类型%qT大小未知"
 #: cp/class.c:6746
 #, fuzzy, gcc-internal-format
 msgid "type transparent class %qT has base classes"
-msgstr "型态透明类别 %qT 有基础类别"
+msgstr "类型透明类别 %qT 有基础类别"
 
 #: cp/class.c:6750
 #, fuzzy, gcc-internal-format
@@ -35341,7 +35324,7 @@ msgstr "KIND 参数 %s 在%L处必须是初始化表达式"
 msgid ""
 "%qE is not a constant expression because it refers to mutable subobjects of "
 "%qT"
-msgstr "%qT 无法型态的完成常数运算式因为它有可变的 sub-objects"
+msgstr "%qT 无法类型的完成常数运算式因为它有可变的 sub-objects"
 
 #: cp/constexpr.c:3677
 #, fuzzy, gcc-internal-format
@@ -35372,7 +35355,7 @@ msgstr "整型表达式%qE不是常量"
 msgid ""
 "typeid-expression is not a constant expression because %qE is of polymorphic "
 "type"
-msgstr "typeid-expression 并非常数运算式因为 %qE 是的 polymorphic 型态"
+msgstr "typeid-expression 并非常数运算式因为 %qE 是的 polymorphic 类型"
 
 #: cp/constexpr.c:4276
 #, fuzzy, gcc-internal-format
@@ -38463,13 +38446,13 @@ msgstr "%q+#D声明为具有匿名类型，在使用前未被定义"
 #, fuzzy, gcc-internal-format
 msgid ""
 "anonymous type with no linkage used to declare variable %q#D with linkage"
-msgstr "匿名型态不具任何链结用来宣告变量 %q#D 与链结"
+msgstr "匿名类型不具任何链结用来声明变量 %q#D 与链结"
 
 #: cp/decl2.c:4226
 #, fuzzy, gcc-internal-format
 msgid ""
 "anonymous type with no linkage used to declare function %q#D with linkage"
-msgstr "匿名型态不具任何链结用来宣告函数 %q#D 与链结"
+msgstr "匿名类型不具任何链结用来声明函数 %q#D 与链结"
 
 #: cp/decl2.c:4230
 #, fuzzy, gcc-internal-format
@@ -38714,7 +38697,7 @@ msgstr "noexcept-expression 评估到 %<false%> 因为调用到 %qD"
 #: cp/except.c:1207
 #, fuzzy, gcc-internal-format
 msgid "but %q+D does not throw; perhaps it should be declared %<noexcept%>"
-msgstr "但是 %q+D 不丢掷；也许它应该被宣告 %<noexcept%>"
+msgstr "但是 %q+D 不丢掷；也许它应该被声明 %<noexcept%>"
 
 #: cp/friend.c:161
 #, gcc-internal-format
@@ -39150,7 +39133,7 @@ msgstr ""
 msgid ""
 "deleting object of abstract class type %qT which has non-virtual destructor "
 "will cause undefined behaviour"
-msgstr "删除对象的抽象类别型态 %qT 该项有 non-virtual 解构式将造成未定义的行为"
+msgstr "删除对象的抽象类别类型 %qT 该项有 non-virtual 解构式将造成未定义的行为"
 
 #: cp/init.c:4024
 #, fuzzy, gcc-internal-format
@@ -39158,7 +39141,7 @@ msgid ""
 "deleting object of polymorphic class type %qT which has non-virtual "
 "destructor might cause undefined behaviour"
 msgstr ""
-"删除对象的 polymorphic 类别型态 %qT 该项有 non-virtual 解构式也许造成未定义的"
+"删除对象的 polymorphic 类别类型 %qT 该项有 non-virtual 解构式也许造成未定义的"
 "行为"
 
 #: cp/init.c:4321
@@ -39377,19 +39360,19 @@ msgstr ""
 #: cp/method.c:1616
 #, fuzzy, gcc-internal-format
 msgid "a lambda closure type has a deleted default constructor"
-msgstr "lambda 闭合型态有删除的缺省构造函数"
+msgstr "lambda 闭合类型有删除的缺省构造函数"
 
 #: cp/method.c:1619
 #, fuzzy, gcc-internal-format
 msgid "a lambda closure type has a deleted copy assignment operator"
-msgstr "lambda 闭合型态有删除的复制指派运算符"
+msgstr "lambda 闭合类型有删除的复制指派运算符"
 
 #: cp/method.c:1629
 #, fuzzy, gcc-internal-format
 msgid ""
 "%q+#D is implicitly declared as deleted because %qT declares a move "
 "constructor or move assignment operator"
-msgstr "%q+#D 是隐含地宣告的作为删除的因为 %qT 宣告移动建构子或移动指派运算符"
+msgstr "%q+#D 是隐含地声明的作为删除的因为 %qT 声明移动建构子或移动指派运算符"
 
 #: cp/method.c:1648
 #, fuzzy, gcc-internal-format
@@ -39427,7 +39410,7 @@ msgid ""
 "explicitly defaulted function %q+D cannot be declared as constexpr because "
 "the implicit declaration is not constexpr:"
 msgstr ""
-"明确的缺席函数 %q+D 无法宣告的作为 constexpr 因为蕴含宣告不是 constexpr："
+"明确的缺席函数 %q+D 无法声明的作为 constexpr 因为蕴含声明不是 constexpr："
 
 #: cp/method.c:2075
 #, fuzzy, gcc-internal-format
@@ -40396,14 +40379,14 @@ msgstr "表达式语句类型不完全"
 msgid ""
 "range-based %<for%> expression of type %qT has an %<end%> member but not a "
 "%<begin%>"
-msgstr "range-based %<for%> 运算式的型态 %qT 有 %<end%>成员并不是 %<begin%>"
+msgstr "range-based %<for%> 运算式的类型 %qT 有 %<end%>成员并不是 %<begin%>"
 
 #: cp/parser.c:10719
 #, fuzzy, gcc-internal-format
 msgid ""
 "range-based %<for%> expression of type %qT has a %<begin%> member but not an "
 "%<end%>"
-msgstr "range-based %<for%> 运算式的型态 %qT 有 %<begin%>成员并不是 %<end%>"
+msgstr "range-based %<for%> 运算式的类型 %qT 有 %<begin%>成员并不是 %<end%>"
 
 #: cp/parser.c:10760
 #, fuzzy, gcc-internal-format
@@ -40831,7 +40814,7 @@ msgid ""
 "access declarations are deprecated in favour of using-declarations; "
 "suggestion: add the %<using%> keyword"
 msgstr ""
-"访问宣告被不宜用在中 favour 的 using-declarations；建议：加入 %<using%> 关键"
+"访问声明被不宜用在中 favour 的 using-declarations；建议：加入 %<using%> 关键"
 "字"
 
 #: cp/parser.c:16584
@@ -42667,13 +42650,13 @@ msgid ""
 "%qD was not declared in this scope, and no declarations were found by "
 "argument-dependent lookup at the point of instantiation"
 msgstr ""
-"%qD 未被宣告在中这个范围，而找不到任何宣告是由 argument-dependent 查找于点的"
+"%qD 未被声明在中这个范围，而找不到任何声明是由 argument-dependent 查找于点的"
 "实体化"
 
 #: cp/pt.c:15277
 #, fuzzy, gcc-internal-format
 msgid "declarations in dependent base %qT are not found by unqualified lookup"
-msgstr "宣告在中附属基底 %qT 找不到由资格不符的查找"
+msgstr "声明在中附属基底 %qT 找不到由资格不符的查找"
 
 #: cp/pt.c:15282
 #, fuzzy, gcc-internal-format
@@ -46581,7 +46564,7 @@ msgstr "%C处 TYPE 定义中的歧义符号"
 msgid ""
 "Type name '%s' at %C conflicts with previously declared entity at %L, which "
 "has the same name"
-msgstr "型态名称『%s』于 %C 冲突与在之前宣告的实体于 %L, 该项有同名"
+msgstr "类型名称『%s』于 %C 冲突与在之前声明的实体于 %L, 该项有同名"
 
 #: fortran/decl.c:2984
 #, gcc-internal-format, gfc-internal-format
@@ -48729,7 +48712,7 @@ msgid ""
 "Actual argument at %L to allocatable or pointer dummy argument %qs must have "
 "a deferred length type parameter if and only if the dummy has one"
 msgstr ""
-"实际参数于 %L 到 allocatable 或指标虚参数『%s』必须有已推迟长度型态参数如果和"
+"实际参数于 %L 到 allocatable 或指标虚参数『%s』必须有已推迟长度类型参数如果和"
 "只有如果虚设有一个"
 
 #: fortran/interface.c:2752
@@ -50265,7 +50248,7 @@ msgid ""
 "Allocate-object at %L with a deferred type parameter requires either a type-"
 "spec or SOURCE tag or a MOLD tag"
 msgstr ""
-"Allocate-object 于 %L 与已推迟型态参数需求还是 type-spec 或来源标签或铸型标签"
+"Allocate-object 于 %L 与已推迟类型参数需求还是 type-spec 或来源标签或铸型标签"
 
 #: fortran/match.c:3685
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -50273,7 +50256,7 @@ msgid ""
 "Unlimited polymorphic allocate-object at %L requires either a type-spec or "
 "SOURCE tag or a MOLD tag"
 msgstr ""
-"Allocate-object 于 %L 与已推迟型态参数需求还是 type-spec 或来源标签或铸型标签"
+"Allocate-object 于 %L 与已推迟类型参数需求还是 type-spec 或来源标签或铸型标签"
 
 #: fortran/match.c:3747
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -52007,7 +51990,7 @@ msgid ""
 "subcomponent of a coarray, which is not possible as the component has the "
 "pointer attribute"
 msgstr ""
-"成分 %s 于 %L 的型态 LOCK_TYPE 必须有 codimension 或是 subcomponent 的 "
+"成分 %s 于 %L 的类型 LOCK_TYPE 必须有 codimension 或是 subcomponent 的 "
 "coarray，该项不是可能的作为成分有指标属性"
 
 #: fortran/parse.c:2794
@@ -52016,7 +51999,7 @@ msgid ""
 "Pointer component %s at %L has a noncoarray subcomponent of type LOCK_TYPE, "
 "which must have a codimension or be a subcomponent of a coarray"
 msgstr ""
-"指标成分 %s 于 %L 有 noncoarray subcomponent 的型态 LOCK_TYPE，该项必须有 "
+"指标成分 %s 于 %L 有 noncoarray subcomponent 的类型 LOCK_TYPE，该项必须有 "
 "codimension 或是 subcomponent 的 coarray"
 
 #: fortran/parse.c:2799
@@ -52032,7 +52015,7 @@ msgid ""
 "noncoarray subcomponent of type LOCK_TYPE"
 msgstr ""
 "Allocatable 成分 %s 于 %L 必须有 codimension 作为它有 noncoarray "
-"subcomponent 的型态 LOCK_TYPE"
+"subcomponent 的类型 LOCK_TYPE"
 
 #: fortran/parse.c:2808
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -52042,8 +52025,8 @@ msgid ""
 "(Variables of type %s may not have a codimension as already a coarray "
 "subcomponent exists)"
 msgstr ""
-"Noncoarray 成分 %s 于 %L 的型态 LOCK_TYPE 或与 subcomponent 的型态 LOCK_TYPE "
-"必须有 codimension 或是 subcomponent 的 coarray。(变量的型态 %s 可能无法有 "
+"Noncoarray 成分 %s 于 %L 的类型 LOCK_TYPE 或与 subcomponent 的类型 LOCK_TYPE "
+"必须有 codimension 或是 subcomponent 的 coarray。(变量的类型 %s 可能无法有 "
 "codimension 作为已经 coarray subcomponent 存在)"
 
 #: fortran/parse.c:2815
@@ -52054,8 +52037,8 @@ msgid ""
 "(Variables of type %s may not have a codimension as %s at %L has a "
 "codimension or a coarray subcomponent)"
 msgstr ""
-"Noncoarray 成分 %s 于 %L 的型态 LOCK_TYPE 或与 subcomponent 的型态 LOCK_TYPE "
-"必须有 codimension 或是 subcomponent 的 coarray。(变量的型态 %s 可能无法有 "
+"Noncoarray 成分 %s 于 %L 的类型 LOCK_TYPE 或与 subcomponent 的类型 LOCK_TYPE "
+"必须有 codimension 或是 subcomponent 的 coarray。(变量的类型 %s 可能无法有 "
 "codimension 作为 %s 于 %L 有 codimension 或 coarray subcomponent)"
 
 #: fortran/parse.c:2867
@@ -53723,7 +53706,7 @@ msgid ""
 "The source-expr at %L shall neither be of type LOCK_TYPE nor have a "
 "LOCK_TYPE component if allocate-object at %L is a coarray"
 msgstr ""
-"source-expr 于 %L 应该 neither 是的型态 LOCK_TYPE nor 有 LOCK_TYPE 成分如果 "
+"source-expr 于 %L 应该 neither 是的类型 LOCK_TYPE nor 有 LOCK_TYPE 成分如果 "
 "allocate-object 于 %L 是 coarray"
 
 #: fortran/resolve.c:6981
@@ -53737,7 +53720,7 @@ msgstr "%2$L处分配具有 ABSTRACT 基类型的 %1$s 需要一个类型指定�
 msgid ""
 "Allocating %s at %L with type-spec requires the same character-length "
 "parameter as in the declaration"
-msgstr "配置 %s 于 %L 与 type-spec 需求相同 character-length 参数作为在中宣告"
+msgstr "配置 %s 于 %L 与 type-spec 需求相同 character-length 参数作为在中声明"
 
 #: fortran/resolve.c:7102
 #, gcc-internal-format, gfc-internal-format
@@ -54594,7 +54577,7 @@ msgstr ""
 msgid ""
 "As extending type %qs at %L has a coarray component, parent type %qs shall "
 "also have one"
-msgstr "作为延伸型态『%s』于 %L 有 coarray 成分，亲代型态『%s』应该也有一个"
+msgstr "作为延伸类型『%s』于 %L 有 coarray 成分，亲代类型『%s』应该也有一个"
 
 #: fortran/resolve.c:12480
 #, fuzzy, gcc-internal-format
@@ -54610,7 +54593,7 @@ msgstr "数组指针‘%s’在%L处必须有延迟的外形"
 #, fuzzy, gcc-internal-format
 msgid ""
 "Component %qs at %L of TYPE(C_PTR) or TYPE(C_FUNPTR) shall not be a coarray"
-msgstr "成分『%s』于 %L 的型态 (C_PTR) 或型态 (C_FUNPTR) 不应该是 coarray"
+msgstr "成分『%s』于 %L 的类型 (C_PTR) 或类型 (C_FUNPTR) 不应该是 coarray"
 
 #: fortran/resolve.c:12521
 #, fuzzy, gcc-internal-format
@@ -54691,7 +54674,7 @@ msgstr ""
 #: fortran/resolve.c:12800
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "Polymorphic component %s at %L in SEQUENCE or BIND(C) type %s"
-msgstr "Polymorphic 成分 %s 于 %L 在中串行或绑定©型态 %s"
+msgstr "Polymorphic 成分 %s 于 %L 在中串行或绑定©类型 %s"
 
 #: fortran/resolve.c:12809
 #, gcc-internal-format, gfc-internal-format
@@ -54953,7 +54936,7 @@ msgid ""
 "Variable %s at %L of type LOCK_TYPE or with subcomponent of type LOCK_TYPE "
 "must be a coarray"
 msgstr ""
-"变量 %s 于 %L 的型态 LOCK_TYPE 或与 subcomponent 的型态 LOCK_TYPE 必须是 "
+"变量 %s 于 %L 的类型 LOCK_TYPE 或与 subcomponent 的类型 LOCK_TYPE 必须是 "
 "coarray"
 
 #: fortran/resolve.c:13622
@@ -54979,7 +54962,7 @@ msgstr "函数结果‘%s’在%L处不能有初始值设定"
 #, fuzzy, gcc-internal-format
 msgid ""
 "Variable %qs at %L of TYPE(C_PTR) or TYPE(C_FUNPTR) shall not be a coarray"
-msgstr "变量『%s』于 %L 的型态 (C_PTR) 或型态 (C_FUNPTR) 不应该是 coarray"
+msgstr "变量『%s』于 %L 的类型 (C_PTR) 或类型 (C_FUNPTR) 不应该是 coarray"
 
 #: fortran/resolve.c:13667
 #, fuzzy, gcc-internal-format
@@ -56987,7 +56970,7 @@ msgstr "%<@synthesize%> 在 Objective-C 1.0 里不可用"
 #: objc/objc-act.c:643
 #, fuzzy, gcc-internal-format
 msgid "class extension for class %qE declared after its %<@implementation%>"
-msgstr "类别延伸用于类别 %qE 宣告的之后它的 %<@implementation%>"
+msgstr "类别延伸用于类别 %qE 声明的之后它的 %<@implementation%>"
 
 #: objc/objc-act.c:658
 #, fuzzy, gcc-internal-format
@@ -57108,14 +57091,14 @@ msgid "%<retain%> attribute is only valid for Objective-C objects"
 msgstr "%q+D：‘selectany’属性只对已初始化的对象有效"
 
 #: objc/objc-act.c:1001
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%<copy%> attribute is only valid for Objective-C objects"
-msgstr "%<copy%> 属性是只有有效用于 Objective-C 对象"
+msgstr "%<copy%> 属性只对 Objective-C 对象有效"
 
 #: objc/objc-act.c:1055
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "redeclaration of property %qD"
-msgstr "同一作用域中%qD冗余的重声明"
+msgstr "属性 %qD 重声明"
 
 #: objc/objc-act.c:1058 objc/objc-act.c:1123 objc/objc-act.c:1133
 #: objc/objc-act.c:1146 objc/objc-act.c:1157 objc/objc-act.c:1168
@@ -57541,7 +57524,7 @@ msgstr "实例变量%qE在类方法中被访问"
 #, fuzzy, gcc-internal-format
 msgid ""
 "method %<%c%E%> declared %<@optional%> and %<@required%> at the same time"
-msgstr "方法 %<%c%E%>宣告 %<@optional%>和 %<@required%>同时"
+msgstr "方法 %<%c%E%>声明 %<@optional%>和 %<@required%>同时"
 
 #: objc/objc-act.c:6016
 #, fuzzy, gcc-internal-format
@@ -57710,17 +57693,17 @@ msgstr "内容 %qs 已经指定的在中 %<@synthesize%>"
 #: objc/objc-act.c:7591 objc/objc-act.c:7806
 #, fuzzy, gcc-internal-format
 msgid "no declaration of property %qs found in the interface"
-msgstr "找不到任何宣告的内容 %qs 在中接口"
+msgstr "找不到任何声明的内容 %qs 在中接口"
 
 #: objc/objc-act.c:7618
 #, fuzzy, gcc-internal-format
 msgid "ivar %qs used by %<@synthesize%> declaration must be an existing ivar"
-msgstr "ivar %qs 使用的由 %<@synthesize%>宣告必须是现有 ivar"
+msgstr "ivar %qs 使用的由 %<@synthesize%>声明必须是现有 ivar"
 
 #: objc/objc-act.c:7639
 #, fuzzy, gcc-internal-format
 msgid "property %qs is using instance variable %qs of incompatible type"
-msgstr "内容 %qs 正在使用实例变量 %qs 的不兼容的型态"
+msgstr "内容 %qs 正在使用实例变量 %qs 的不兼容的类型"
 
 #: objc/objc-act.c:7661
 #, fuzzy, gcc-internal-format
@@ -57864,13 +57847,13 @@ msgstr "类型%qT大小未知"
 #: objc/objc-encoding.c:730
 #, fuzzy, gcc-internal-format
 msgid "unknown type %<%T%> found during Objective-C encoding"
-msgstr "不明型态 %<%T%>找到在的期间 Objective-C 编码"
+msgstr "不明类型 %<%T%>找到在的期间 Objective-C 编码"
 
 #. Do not do any encoding, produce an error and keep going.
 #: objc/objc-encoding.c:813
 #, fuzzy, gcc-internal-format
 msgid "trying to encode non-integer type as a bitfield"
-msgstr "尝试编码 non-integer 型态作为 bitfield"
+msgstr "尝试编码 non-integer 类型作为 bitfield"
 
 #: objc/objc-gnu-runtime-abi-01.c:143
 #, gcc-internal-format
