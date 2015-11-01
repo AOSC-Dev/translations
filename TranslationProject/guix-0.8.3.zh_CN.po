@@ -1,5 +1,5 @@
 # guix in zh_CN
-# Copyright (C) 2015 Ludovic Courtès
+# Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the guix package.
 # Mingye Wang <arthur200126@gmail.com>, 2015.
 #
