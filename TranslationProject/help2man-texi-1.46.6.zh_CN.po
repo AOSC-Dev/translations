@@ -1,20 +1,22 @@
-# SOME DESCRIPTIVE TITLE
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# zh_CN translation for help2man texinfo page.
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the help2man package.
+# Mingcong Bai (JeffBai) <jeffbaichina97@gmail.com>, 2015.
+# Mingye Wang <arthur200126@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
+"Project-Id-Version: help2man-texi 1.46.6\n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
 "POT-Creation-Date: 2015-08-26 21:42+0800\n"
-"PO-Revision-Date: 2015-09-13 21:13-0600\n"
+"PO-Revision-Date: 2015-11-01 11:41-0500\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.4\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
@@ -265,14 +267,13 @@ msgstr ""
 
 #. type: Plain text
 #: help2man.texi:105
-#, fuzzy
 msgid ""
 "Given a program which produces reasonably standard @samp{--help} and @samp{--"
 "version} outputs, @command{help2man} can re-arrange that output into "
 "something which resembles a manual page."
 msgstr ""
-"给出了一个程序，它产生合理标准 @samp {— — 帮助} 和 @samp {— — 版本} 输出，"
-"@command {help2man} 可以重新安排输出入某种类似的手册页。"
+"给定一个程序，若其能提供合理标准的 @samp{--help} 和 @samp{--version} 输出，"
+"@command{help2man} 可以将那些信息整理成像手册页一样的东西。"
 
 #. type: chapter
 #: help2man.texi:107
@@ -310,11 +311,10 @@ msgstr "--name=@var{string}"
 
 #. type: table
 #: help2man.texi:122
-#, fuzzy
 msgid ""
 "Use @var{string} as the description for the @samp{NAME} paragraph of the "
 "manual page."
-msgstr "使用 @var {字符串} 作为描述的手册页的 @samp {NAME} 段。"
+msgstr "使用 @var{字符串} 作为手册页的 @samp{名称} 段的描述。"
 
 #. type: table
 #: help2man.texi:125
@@ -658,7 +658,7 @@ msgstr ""
 
 #. type: example
 #: help2man.texi:240
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.\n"
 msgstr "将 SOURCE 拷贝到 DEST，或将多个 SOURCE 拷贝到 DIRECTORY。\n"
 
@@ -820,14 +820,13 @@ msgstr ""
 
 #. type: Plain text
 #: help2man.texi:332
-#, fuzzy
 msgid ""
 "Lines before the first section or pattern which begin with @samp{-} are "
 "processed as options.  Anything else is silently ignored and may be used for "
 "comments, RCS keywords and the like."
 msgstr ""
-"第一节前的行，或由 `\\-' 开始的模式，将被认为是选项。\n"
-"其他的都将被安静地忽略，可被用作注释、RCS 关键字等。\n"
+"第一节前的行，或由 @samp{-} 开始的模式，将被认为是选项。其他的都将被安静地忽"
+"略，可被用作注释、RCS 关键字等。"
 
 #. type: Plain text
 #: help2man.texi:334
@@ -862,16 +861,13 @@ msgstr ""
 
 #. type: Plain text
 #: help2man.texi:358
-#, fuzzy
 msgid ""
 "Other sections are prepended to the automatically produced output for the "
 "standard sections given above, or included at @emph{other} (above)  in the "
 "order they were encountered in the include file."
 msgstr ""
 "其他章节会自动附加到以上自动生成章节之上，或按照它们在包含文件中出现的顺序包"
-"含于\n"
-".I 其他\n"
-"（以上）章节内。\n"
+"含于 @emph{其他}（以上）章节上。"
 
 #. type: Plain text
 #: help2man.texi:363
@@ -1129,7 +1125,7 @@ msgid ""
 "      --version     output version information and exit\n"
 "\n"
 msgstr ""
-"      --help        显示此帮助信息并退出\n"
+"      --help           显示此帮助信息并退出\n"
 "      --version     输出版本信息并退出\n"
 "\n"
 
@@ -1292,9 +1288,8 @@ msgid ""
 msgstr ""
 "@exstrong{COPYRIGHT}\n"
 "       版权所有 (C) 2011 自由软件基金会。\n"
-"       本软件为自由软件；请参阅源代码以获取许可条款。此软件不对包括商业使用以及其他\n"
-"       特殊用途提供任何担保。\n"
-"\n"
+"      本软件为自由软件；请参阅源代码以获取许可条款。\n"
+"       此软件不对提供任何担保，甚至不保证适销性或对某一特定用途的适用性的保证。\n"
 
 #. type: example
 #: help2man.texi:561
