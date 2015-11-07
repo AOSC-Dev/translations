@@ -8,15 +8,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cryptsetup 1.6.8\n"
 "Report-Msgid-Bugs-To: dm-crypt@saout.de\n"
-"POT-Creation-Date: 2015-08-26 17:15+0800\n"
-"PO-Revision-Date: 2015-08-27 20:58+0800\n"
-"Last-Translator: Mingye Wang <arthur200126@gmail.com>\n"
+"POT-Creation-Date: 2015-10-29 13:27+0100\n"
+"PO-Revision-Date: 2015-11-07 01:49-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: lib/libdevmapper.c:253
@@ -39,8 +39,7 @@ msgstr "不支持请求的 dmcrypt 性能选项。\n"
 #: lib/random.c:76
 msgid ""
 "System is out of entropy while generating volume key.\n"
-"Please move mouse or type some text in another window to gather some random "
-"events.\n"
+"Please move mouse or type some text in another window to gather some random events.\n"
 msgstr ""
 "系统在生成卷密钥时熵不足。\n"
 "请移动鼠标，或在另一个窗口打字以便生成随机事件。\n"
@@ -231,8 +230,8 @@ msgstr "设备 %s 不支持恢复。\n"
 msgid "Error during resuming device %s.\n"
 msgstr "恢复设备 %s 时出错。\n"
 
-#: lib/setup.c:1654 lib/setup.c:2089 lib/setup.c:2103 src/cryptsetup.c:182
-#: src/cryptsetup.c:244 src/cryptsetup.c:728 src/cryptsetup.c:1150
+#: lib/setup.c:1654 lib/setup.c:2089 lib/setup.c:2103 src/cryptsetup.c:183
+#: src/cryptsetup.c:244 src/cryptsetup.c:732 src/cryptsetup.c:1162
 msgid "Enter passphrase: "
 msgstr "输入密码："
 
@@ -245,7 +244,7 @@ msgid "Enter any passphrase: "
 msgstr "输入任意密码："
 
 #: lib/setup.c:1742 lib/setup.c:1875 lib/setup.c:1879 lib/setup.c:1941
-#: src/cryptsetup.c:984 src/cryptsetup.c:1015
+#: src/cryptsetup.c:992 src/cryptsetup.c:1023
 msgid "Enter new passphrase for key slot: "
 msgstr "输入密钥槽的新密码："
 
@@ -393,9 +392,7 @@ msgid "Cannot find a free loopback device.\n"
 msgstr "找不到空闲的回环设备。\n"
 
 #: lib/utils_device.c:440
-msgid ""
-"Attaching loopback device failed (loop device with autoclear flag is "
-"required).\n"
+msgid "Attaching loopback device failed (loop device with autoclear flag is required).\n"
 msgstr "连接回环设备失败（需要有 autoclear 旗标的回环设备）。\n"
 
 #: lib/utils_device.c:484
@@ -464,7 +461,7 @@ msgid "Device %s is too small. (LUKS requires at least %<PRIu64> bytes.)\n"
 msgstr "设备 %s  过小。（LUKS 需要至少 %<PRIu64> 字节。）\n"
 
 #: lib/luks1/keymanage.c:180 lib/luks1/keymanage.c:418
-#: src/cryptsetup_reencrypt.c:1130
+#: src/cryptsetup_reencrypt.c:1131
 #, c-format
 msgid "Device %s is not a valid LUKS device.\n"
 msgstr "%s 不是有效的 LUKS 设备。\n"
@@ -508,15 +505,11 @@ msgid "Device %s %s%s"
 msgstr "设备 %s %s%s"
 
 #: lib/luks1/keymanage.c:278
-msgid ""
-"does not contain LUKS header. Replacing header can destroy data on that "
-"device."
+msgid "does not contain LUKS header. Replacing header can destroy data on that device."
 msgstr "不包含 LUKS 标头。替换标头可能损毁设备上的数据。"
 
 #: lib/luks1/keymanage.c:279
-msgid ""
-"already contains LUKS header. Replacing header will destroy existing "
-"keyslots."
+msgid "already contains LUKS header. Replacing header will destroy existing keyslots."
 msgstr "已包含 LUKS 标头。替换标头将损毁已存在的密钥槽。"
 
 #: lib/luks1/keymanage.c:280
@@ -606,9 +599,7 @@ msgstr "在更新设备 %s 后重新读取 LUKS 标头失败。\n"
 
 #: lib/luks1/keymanage.c:654
 #, c-format
-msgid ""
-"Data offset for detached LUKS header must be either 0 or higher than header "
-"size (%d sectors).\n"
+msgid "Data offset for detached LUKS header must be either 0 or higher than header size (%d sectors).\n"
 msgstr ""
 
 #: lib/luks1/keymanage.c:666 lib/luks1/keymanage.c:757
@@ -644,8 +635,8 @@ msgstr ""
 msgid "Key slot %d unlocked.\n"
 msgstr "密钥槽 %d 已解除阻断。\n"
 
-#: lib/luks1/keymanage.c:990 src/cryptsetup.c:854
-#: src/cryptsetup_reencrypt.c:1019 src/cryptsetup_reencrypt.c:1056
+#: lib/luks1/keymanage.c:990 src/cryptsetup.c:858
+#: src/cryptsetup_reencrypt.c:1020 src/cryptsetup_reencrypt.c:1057
 msgid "No key available with this passphrase.\n"
 msgstr "此密码无可用的密钥。\n"
 
@@ -712,11 +703,11 @@ msgstr "内核不支持激活老的 TCRYPT 模式。\n"
 msgid "Activating TCRYPT system encryption for partition %s.\n"
 msgstr "正在为分区 %s 激活 TCRYPT 系统加密。\n"
 
-#: lib/tcrypt/tcrypt.c:806
+#: lib/tcrypt/tcrypt.c:810
 msgid "Kernel doesn't support TCRYPT compatible mapping.\n"
 msgstr "内核不支持 TCRYPT 兼容映射。\n"
 
-#: lib/tcrypt/tcrypt.c:1020
+#: lib/tcrypt/tcrypt.c:1024
 msgid "This function is not supported without TCRYPT header load."
 msgstr "未载入 TCRYPT 标头时不支持此功能。"
 
@@ -798,9 +789,7 @@ msgstr "创建哈希区失败。\n"
 
 #: lib/verity/verity_hash.c:414
 #, c-format
-msgid ""
-"WARNING: Kernel cannot activate device if data block size exceeds page size "
-"(%u).\n"
+msgid "WARNING: Kernel cannot activate device if data block size exceeds page size (%u).\n"
 msgstr "警告：如数据块大小超过内存分页大小，内核将无法激活设备 (%u)。\n"
 
 #: src/cryptsetup.c:91
@@ -808,20 +797,16 @@ msgid "Can't do passphrase verification on non-tty inputs.\n"
 msgstr "无法从非 TTY 输入验证密码。\n"
 
 #: src/cryptsetup.c:132 src/cryptsetup.c:560 src/cryptsetup.c:707
-#: src/cryptsetup_reencrypt.c:522 src/cryptsetup_reencrypt.c:576
+#: src/cryptsetup_reencrypt.c:523 src/cryptsetup_reencrypt.c:577
 msgid "No known cipher specification pattern detected.\n"
 msgstr "未探测到已知的密文特征。\n"
 
 #: src/cryptsetup.c:140
-msgid ""
-"WARNING: The --hash parameter is being ignored in plain mode with keyfile "
-"specified.\n"
+msgid "WARNING: The --hash parameter is being ignored in plain mode with keyfile specified.\n"
 msgstr "警告：在纯文本模式下指定密钥文件时将忽略参数 --hash。\n"
 
 #: src/cryptsetup.c:148
-msgid ""
-"WARNING: The --keyfile-size option is being ignored, the read size is the "
-"same as the encryption key size.\n"
+msgid "WARNING: The --keyfile-size option is being ignored, the read size is the same as the encryption key size.\n"
 msgstr "警告：将忽略参数 --keyfile-size，读取大小应与加密密钥大小一致。\n"
 
 #: src/cryptsetup.c:214
@@ -832,7 +817,7 @@ msgstr "需要选项 --key-file。\n"
 msgid "No device header detected with this passphrase.\n"
 msgstr "未从此密码中探测到设备标头。\n"
 
-#: src/cryptsetup.c:323 src/cryptsetup.c:1139
+#: src/cryptsetup.c:323 src/cryptsetup.c:1151
 msgid ""
 "Header dump with volume key is sensitive information\n"
 "which allows access to encrypted partition without passphrase.\n"
@@ -885,184 +870,183 @@ msgstr "这将覆盖 %s 上的数据，该动作不可取消。"
 msgid "memory allocation error in action_luksFormat"
 msgstr "在 action_luksFormat 中发生内存分配错误"
 
-#: src/cryptsetup.c:713
+#: src/cryptsetup.c:717
 #, c-format
 msgid "Cannot use %s as on-disk header.\n"
 msgstr "无法将 %s 作为磁盘上的标头使用。\n"
 
-#: src/cryptsetup.c:780
+#: src/cryptsetup.c:784
 msgid "Reduced data offset is allowed only for detached LUKS header.\n"
 msgstr ""
 
-#: src/cryptsetup.c:877 src/cryptsetup.c:933
+#: src/cryptsetup.c:881 src/cryptsetup.c:937
 #, c-format
 msgid "Key slot %d selected for deletion.\n"
 msgstr "已选中密钥槽 %d 以删除。\n"
 
-#: src/cryptsetup.c:880
+#: src/cryptsetup.c:884
 #, c-format
 msgid "Key %d not active. Can't wipe.\n"
 msgstr "无法清除未激活的密钥 %d。\n"
 
-#: src/cryptsetup.c:888 src/cryptsetup.c:936
-msgid ""
-"This is the last keyslot. Device will become unusable after purging this key."
+#: src/cryptsetup.c:892 src/cryptsetup.c:940
+msgid "This is the last keyslot. Device will become unusable after purging this key."
 msgstr ""
 
-#: src/cryptsetup.c:889
+#: src/cryptsetup.c:893
 msgid "Enter any remaining passphrase: "
 msgstr "输入任意剩余的密码："
 
-#: src/cryptsetup.c:917
+#: src/cryptsetup.c:921
 msgid "Enter passphrase to be deleted: "
 msgstr "输入要移除的密码："
 
-#: src/cryptsetup.c:1000 src/cryptsetup_reencrypt.c:1094
+#: src/cryptsetup.c:1008 src/cryptsetup_reencrypt.c:1095
 #, c-format
 msgid "Enter any existing passphrase: "
 msgstr "输入任意已存在的密码："
 
-#: src/cryptsetup.c:1051
+#: src/cryptsetup.c:1063
 msgid "Enter passphrase to be changed: "
 msgstr "输入要更改的密码："
 
-#: src/cryptsetup.c:1065 src/cryptsetup_reencrypt.c:1079
+#: src/cryptsetup.c:1077 src/cryptsetup_reencrypt.c:1080
 msgid "Enter new passphrase: "
 msgstr "输入新密码："
 
-#: src/cryptsetup.c:1089
+#: src/cryptsetup.c:1101
 msgid "Only one device argument for isLuks operation is supported.\n"
 msgstr ""
 
-#: src/cryptsetup.c:1245 src/cryptsetup.c:1266
+#: src/cryptsetup.c:1257 src/cryptsetup.c:1278
 msgid "Option --header-backup-file is required.\n"
 msgstr "必须指定 --header-backup-file 选项。\n"
 
-#: src/cryptsetup.c:1303
+#: src/cryptsetup.c:1315
 #, c-format
 msgid "Unrecognized metadata device type %s.\n"
 msgstr "无法识别的元数据设备类型 %s。\n"
 
-#: src/cryptsetup.c:1306
+#: src/cryptsetup.c:1318
 msgid "Command requires device and mapped name as arguments.\n"
 msgstr ""
 
-#: src/cryptsetup.c:1325
+#: src/cryptsetup.c:1337
 #, c-format
 msgid ""
 "This operation will erase all keyslots on device %s.\n"
 "Device will become unusable after this operation."
 msgstr ""
 
-#: src/cryptsetup.c:1359
+#: src/cryptsetup.c:1371
 msgid "<device> [--type <type>] [<name>]"
 msgstr "<设备> [--type <类型>] [<名称>]"
 
-#: src/cryptsetup.c:1359
+#: src/cryptsetup.c:1371
 msgid "open device as mapping <name>"
 msgstr "以映射 <名称> 打开设备"
 
-#: src/cryptsetup.c:1360 src/cryptsetup.c:1361 src/cryptsetup.c:1362
-#: src/cryptsetup.c:1363 src/veritysetup.c:311 src/veritysetup.c:312
+#: src/cryptsetup.c:1372 src/cryptsetup.c:1373 src/cryptsetup.c:1374
+#: src/cryptsetup.c:1375 src/veritysetup.c:311 src/veritysetup.c:312
 msgid "<name>"
 msgstr "<名称>"
 
-#: src/cryptsetup.c:1360
+#: src/cryptsetup.c:1372
 msgid "close device (remove mapping)"
 msgstr "关闭设备（移除映射）"
 
-#: src/cryptsetup.c:1361
+#: src/cryptsetup.c:1373
 msgid "resize active device"
 msgstr "改变活动设备大小。"
 
-#: src/cryptsetup.c:1362
+#: src/cryptsetup.c:1374
 msgid "show device status"
 msgstr "显示设备状态"
 
-#: src/cryptsetup.c:1363
+#: src/cryptsetup.c:1375
 msgid "benchmark cipher"
 msgstr "测试密文"
 
-#: src/cryptsetup.c:1364 src/cryptsetup.c:1365 src/cryptsetup.c:1371
-#: src/cryptsetup.c:1372 src/cryptsetup.c:1373 src/cryptsetup.c:1374
-#: src/cryptsetup.c:1375 src/cryptsetup.c:1376 src/cryptsetup.c:1377
-#: src/cryptsetup.c:1378
+#: src/cryptsetup.c:1376 src/cryptsetup.c:1377 src/cryptsetup.c:1383
+#: src/cryptsetup.c:1384 src/cryptsetup.c:1385 src/cryptsetup.c:1386
+#: src/cryptsetup.c:1387 src/cryptsetup.c:1388 src/cryptsetup.c:1389
+#: src/cryptsetup.c:1390
 msgid "<device>"
 msgstr "<设备>"
 
-#: src/cryptsetup.c:1364
+#: src/cryptsetup.c:1376
 msgid "try to repair on-disk metadata"
 msgstr "尝试修复磁盘上的元数据"
 
-#: src/cryptsetup.c:1365
+#: src/cryptsetup.c:1377
 msgid "erase all keyslots (remove encryption key)"
 msgstr "清空所有密钥槽（移除加密密钥）"
 
-#: src/cryptsetup.c:1366 src/cryptsetup.c:1367
+#: src/cryptsetup.c:1378 src/cryptsetup.c:1379
 msgid "<device> [<new key file>]"
 msgstr "<设备> [<新密钥文件>]"
 
-#: src/cryptsetup.c:1366
+#: src/cryptsetup.c:1378
 msgid "formats a LUKS device"
 msgstr "格式化一个 LUKS 设备"
 
-#: src/cryptsetup.c:1367
+#: src/cryptsetup.c:1379
 msgid "add key to LUKS device"
 msgstr "向 LUKS 设备添加密钥"
 
-#: src/cryptsetup.c:1368 src/cryptsetup.c:1369
+#: src/cryptsetup.c:1380 src/cryptsetup.c:1381
 msgid "<device> [<key file>]"
 msgstr "<设备> [<密钥文件>]"
 
-#: src/cryptsetup.c:1368
+#: src/cryptsetup.c:1380
 msgid "removes supplied key or key file from LUKS device"
 msgstr "移除 LUKS 设备中指定的密钥或密钥文件"
 
-#: src/cryptsetup.c:1369
+#: src/cryptsetup.c:1381
 msgid "changes supplied key or key file of LUKS device"
 msgstr "更改 LUKS 设备中指定的密钥或密钥文件"
 
-#: src/cryptsetup.c:1370
+#: src/cryptsetup.c:1382
 msgid "<device> <key slot>"
 msgstr "<设备> <密钥槽>"
 
-#: src/cryptsetup.c:1370
+#: src/cryptsetup.c:1382
 msgid "wipes key with number <key slot> from LUKS device"
 msgstr "从 LUKS 设备清理标号为 <key slot> 的密钥"
 
-#: src/cryptsetup.c:1371
+#: src/cryptsetup.c:1383
 msgid "print UUID of LUKS device"
 msgstr "输出 LUKS 设备的 UUID（唯一标识符）"
 
-#: src/cryptsetup.c:1372
+#: src/cryptsetup.c:1384
 msgid "tests <device> for LUKS partition header"
 msgstr "从 <device> 探测 LUKS 分区标头"
 
-#: src/cryptsetup.c:1373
+#: src/cryptsetup.c:1385
 msgid "dump LUKS partition information"
 msgstr "调出 LUKS 分区信息"
 
-#: src/cryptsetup.c:1374
+#: src/cryptsetup.c:1386
 msgid "dump TCRYPT device information"
 msgstr "调出 TCRYPT 设备信息"
 
-#: src/cryptsetup.c:1375
+#: src/cryptsetup.c:1387
 msgid "Suspend LUKS device and wipe key (all IOs are frozen)."
 msgstr "挂起 LUKS 设备并清除密钥（冻结所有 IO 操作）。"
 
-#: src/cryptsetup.c:1376
+#: src/cryptsetup.c:1388
 msgid "Resume suspended LUKS device."
 msgstr "恢复已暂停的 LUKS 设备。"
 
-#: src/cryptsetup.c:1377
+#: src/cryptsetup.c:1389
 msgid "Backup LUKS device header and keyslots"
 msgstr "备份 LUKS 设备标头和密钥槽"
 
-#: src/cryptsetup.c:1378
+#: src/cryptsetup.c:1390
 msgid "Restore LUKS device header and keyslots"
 msgstr "恢复 LUKS 设备标头和密钥槽"
 
-#: src/cryptsetup.c:1395 src/veritysetup.c:328
+#: src/cryptsetup.c:1407 src/veritysetup.c:328
 msgid ""
 "\n"
 "<action> is one of:\n"
@@ -1070,7 +1054,7 @@ msgstr ""
 "\n"
 "<动作> 为其中之一：\n"
 
-#: src/cryptsetup.c:1401
+#: src/cryptsetup.c:1413
 msgid ""
 "\n"
 "You can also use old <action> syntax aliases:\n"
@@ -1082,7 +1066,7 @@ msgstr ""
 "\topen: create (plainOpen), luksOpen, loopaesOpen, tcryptOpen\n"
 "\tclose: remove (plainClose), luksClose, loopaesClose, tcryptClose\n"
 
-#: src/cryptsetup.c:1405
+#: src/cryptsetup.c:1417
 #, c-format
 msgid ""
 "\n"
@@ -1097,17 +1081,16 @@ msgstr ""
 "<key slot> 为需要更改的 LUKS 密钥槽\n"
 "<key file> 提供给 luksAddKey 动作的密钥文件\n"
 
-#: src/cryptsetup.c:1412
+#: src/cryptsetup.c:1424
 #, c-format
 msgid ""
 "\n"
 "Default compiled-in key and passphrase parameters:\n"
-"\tMaximum keyfile size: %dkB, Maximum interactive passphrase length %d "
-"(characters)\n"
+"\tMaximum keyfile size: %dkB, Maximum interactive passphrase length %d (characters)\n"
 "Default PBKDF2 iteration time for LUKS: %d (ms)\n"
 msgstr ""
 
-#: src/cryptsetup.c:1419
+#: src/cryptsetup.c:1431
 #, c-format
 msgid ""
 "\n"
@@ -1117,229 +1100,229 @@ msgid ""
 "\tLUKS1: %s, Key: %d bits, LUKS header hashing: %s, RNG: %s\n"
 msgstr ""
 
-#: src/cryptsetup.c:1436 src/veritysetup.c:460
+#: src/cryptsetup.c:1448 src/veritysetup.c:460
 #, c-format
 msgid "%s: requires %s as arguments"
 msgstr "%s: 需要 %s 作为参数"
 
-#: src/cryptsetup.c:1469 src/veritysetup.c:368 src/cryptsetup_reencrypt.c:1273
+#: src/cryptsetup.c:1481 src/veritysetup.c:368 src/cryptsetup_reencrypt.c:1274
 msgid "Show this help message"
 msgstr "显示此帮助"
 
-#: src/cryptsetup.c:1470 src/veritysetup.c:369 src/cryptsetup_reencrypt.c:1274
+#: src/cryptsetup.c:1482 src/veritysetup.c:369 src/cryptsetup_reencrypt.c:1275
 msgid "Display brief usage"
 msgstr "显示简短用法"
 
-#: src/cryptsetup.c:1474 src/veritysetup.c:373 src/cryptsetup_reencrypt.c:1278
+#: src/cryptsetup.c:1486 src/veritysetup.c:373 src/cryptsetup_reencrypt.c:1279
 msgid "Help options:"
 msgstr "帮助选项："
 
-#: src/cryptsetup.c:1475 src/veritysetup.c:374 src/cryptsetup_reencrypt.c:1279
+#: src/cryptsetup.c:1487 src/veritysetup.c:374 src/cryptsetup_reencrypt.c:1280
 msgid "Print package version"
 msgstr "打印软件包版本"
 
-#: src/cryptsetup.c:1476 src/veritysetup.c:375 src/cryptsetup_reencrypt.c:1280
+#: src/cryptsetup.c:1488 src/veritysetup.c:375 src/cryptsetup_reencrypt.c:1281
 msgid "Shows more detailed error messages"
 msgstr "显示更详细的错误信息"
 
-#: src/cryptsetup.c:1477 src/veritysetup.c:376 src/cryptsetup_reencrypt.c:1281
+#: src/cryptsetup.c:1489 src/veritysetup.c:376 src/cryptsetup_reencrypt.c:1282
 msgid "Show debug messages"
 msgstr "显示调试信息"
 
-#: src/cryptsetup.c:1478 src/cryptsetup_reencrypt.c:1283
+#: src/cryptsetup.c:1490 src/cryptsetup_reencrypt.c:1284
 msgid "The cipher used to encrypt the disk (see /proc/crypto)"
 msgstr ""
 
-#: src/cryptsetup.c:1479 src/cryptsetup_reencrypt.c:1285
+#: src/cryptsetup.c:1491 src/cryptsetup_reencrypt.c:1286
 msgid "The hash used to create the encryption key from the passphrase"
 msgstr ""
 
-#: src/cryptsetup.c:1480
+#: src/cryptsetup.c:1492
 msgid "Verifies the passphrase by asking for it twice"
 msgstr ""
 
-#: src/cryptsetup.c:1481 src/cryptsetup_reencrypt.c:1287
+#: src/cryptsetup.c:1493 src/cryptsetup_reencrypt.c:1288
 msgid "Read the key from a file."
 msgstr "从文件读取密钥。"
 
-#: src/cryptsetup.c:1482
+#: src/cryptsetup.c:1494
 msgid "Read the volume (master) key from file."
 msgstr ""
 
-#: src/cryptsetup.c:1483
+#: src/cryptsetup.c:1495
 msgid "Dump volume (master) key instead of keyslots info."
 msgstr ""
 
-#: src/cryptsetup.c:1484 src/cryptsetup_reencrypt.c:1284
+#: src/cryptsetup.c:1496 src/cryptsetup_reencrypt.c:1285
 msgid "The size of the encryption key"
 msgstr "加密密钥大小"
 
-#: src/cryptsetup.c:1484 src/cryptsetup_reencrypt.c:1284
+#: src/cryptsetup.c:1496 src/cryptsetup_reencrypt.c:1285
 msgid "BITS"
 msgstr "位"
 
-#: src/cryptsetup.c:1485 src/cryptsetup_reencrypt.c:1298
+#: src/cryptsetup.c:1497 src/cryptsetup_reencrypt.c:1299
 msgid "Limits the read from keyfile"
 msgstr "限制从密钥文件读取"
 
-#: src/cryptsetup.c:1485 src/cryptsetup.c:1486 src/cryptsetup.c:1487
-#: src/cryptsetup.c:1488 src/veritysetup.c:379 src/veritysetup.c:380
-#: src/veritysetup.c:382 src/cryptsetup_reencrypt.c:1297
-#: src/cryptsetup_reencrypt.c:1298 src/cryptsetup_reencrypt.c:1299
-#: src/cryptsetup_reencrypt.c:1300
+#: src/cryptsetup.c:1497 src/cryptsetup.c:1498 src/cryptsetup.c:1499
+#: src/cryptsetup.c:1500 src/veritysetup.c:379 src/veritysetup.c:380
+#: src/veritysetup.c:382 src/cryptsetup_reencrypt.c:1298
+#: src/cryptsetup_reencrypt.c:1299 src/cryptsetup_reencrypt.c:1300
+#: src/cryptsetup_reencrypt.c:1301
 msgid "bytes"
 msgstr "字节"
 
-#: src/cryptsetup.c:1486 src/cryptsetup_reencrypt.c:1297
+#: src/cryptsetup.c:1498 src/cryptsetup_reencrypt.c:1298
 msgid "Number of bytes to skip in keyfile"
 msgstr "要从密钥文件跳过的字节数"
 
-#: src/cryptsetup.c:1487
+#: src/cryptsetup.c:1499
 msgid "Limits the read from newly added keyfile"
 msgstr ""
 
-#: src/cryptsetup.c:1488
+#: src/cryptsetup.c:1500
 msgid "Number of bytes to skip in newly added keyfile"
 msgstr ""
 
-#: src/cryptsetup.c:1489
+#: src/cryptsetup.c:1501
 msgid "Slot number for new key (default is first free)"
 msgstr ""
 
-#: src/cryptsetup.c:1490
+#: src/cryptsetup.c:1502
 msgid "The size of the device"
 msgstr "设备大小"
 
-#: src/cryptsetup.c:1490 src/cryptsetup.c:1491 src/cryptsetup.c:1492
-#: src/cryptsetup.c:1498
+#: src/cryptsetup.c:1502 src/cryptsetup.c:1503 src/cryptsetup.c:1504
+#: src/cryptsetup.c:1510
 msgid "SECTORS"
 msgstr "扇区"
 
-#: src/cryptsetup.c:1491
+#: src/cryptsetup.c:1503
 msgid "The start offset in the backend device"
 msgstr "后端设备的起始偏移量"
 
-#: src/cryptsetup.c:1492
+#: src/cryptsetup.c:1504
 msgid "How many sectors of the encrypted data to skip at the beginning"
 msgstr ""
 
-#: src/cryptsetup.c:1493
+#: src/cryptsetup.c:1505
 msgid "Create a readonly mapping"
 msgstr "创建只读映射"
 
-#: src/cryptsetup.c:1494 src/cryptsetup_reencrypt.c:1288
+#: src/cryptsetup.c:1506 src/cryptsetup_reencrypt.c:1289
 msgid "PBKDF2 iteration time for LUKS (in ms)"
 msgstr ""
 
-#: src/cryptsetup.c:1494 src/cryptsetup_reencrypt.c:1288
+#: src/cryptsetup.c:1506 src/cryptsetup_reencrypt.c:1289
 msgid "msecs"
 msgstr "毫秒"
 
-#: src/cryptsetup.c:1495 src/cryptsetup_reencrypt.c:1289
+#: src/cryptsetup.c:1507 src/cryptsetup_reencrypt.c:1290
 msgid "Do not ask for confirmation"
 msgstr "不要请求确认"
 
-#: src/cryptsetup.c:1496
+#: src/cryptsetup.c:1508
 msgid "Timeout for interactive passphrase prompt (in seconds)"
 msgstr ""
 
-#: src/cryptsetup.c:1496
+#: src/cryptsetup.c:1508
 msgid "secs"
 msgstr "秒"
 
-#: src/cryptsetup.c:1497 src/cryptsetup_reencrypt.c:1290
+#: src/cryptsetup.c:1509 src/cryptsetup_reencrypt.c:1291
 msgid "How often the input of the passphrase can be retried"
 msgstr ""
 
-#: src/cryptsetup.c:1498
+#: src/cryptsetup.c:1510
 msgid "Align payload at <n> sector boundaries - for luksFormat"
 msgstr ""
 
-#: src/cryptsetup.c:1499
+#: src/cryptsetup.c:1511
 msgid "File with LUKS header and keyslots backup."
 msgstr ""
 
-#: src/cryptsetup.c:1500 src/cryptsetup_reencrypt.c:1291
+#: src/cryptsetup.c:1512 src/cryptsetup_reencrypt.c:1292
 msgid "Use /dev/random for generating volume key."
-msgstr ""
+msgstr "使用 /dev/random 生成卷密钥。"
 
-#: src/cryptsetup.c:1501 src/cryptsetup_reencrypt.c:1292
+#: src/cryptsetup.c:1513 src/cryptsetup_reencrypt.c:1293
 msgid "Use /dev/urandom for generating volume key."
-msgstr ""
+msgstr "使用 /dev/urandom 生成卷密钥。"
 
-#: src/cryptsetup.c:1502
+#: src/cryptsetup.c:1514
 msgid "Share device with another non-overlapping crypt segment."
 msgstr ""
 
-#: src/cryptsetup.c:1503 src/veritysetup.c:385
+#: src/cryptsetup.c:1515 src/veritysetup.c:385
 msgid "UUID for device to use."
 msgstr "设备使用的 UUID 已占用。"
 
-#: src/cryptsetup.c:1504
+#: src/cryptsetup.c:1516
 msgid "Allow discards (aka TRIM) requests for device."
 msgstr ""
 
-#: src/cryptsetup.c:1505
+#: src/cryptsetup.c:1517
 msgid "Device or file with separated LUKS header."
 msgstr ""
 
-#: src/cryptsetup.c:1506
+#: src/cryptsetup.c:1518
 msgid "Do not activate device, just check passphrase."
 msgstr ""
 
-#: src/cryptsetup.c:1507
+#: src/cryptsetup.c:1519
 msgid "Use hidden header (hidden TCRYPT device)."
 msgstr ""
 
-#: src/cryptsetup.c:1508
+#: src/cryptsetup.c:1520
 msgid "Device is system TCRYPT drive (with bootloader)."
 msgstr ""
 
-#: src/cryptsetup.c:1509
+#: src/cryptsetup.c:1521
 msgid "Use backup (secondary) TCRYPT header."
 msgstr "使用备份（次级）TCRYPT 标头。"
 
-#: src/cryptsetup.c:1510
+#: src/cryptsetup.c:1522
 msgid "Scan also for VeraCrypt compatible device."
 msgstr "同时扫描 VeraCrypt 兼容的设备。"
 
-#: src/cryptsetup.c:1511
+#: src/cryptsetup.c:1523
 msgid "Type of device metadata: luks, plain, loopaes, tcrypt."
 msgstr "设备元数据类型：luks, 纯粹 (plain), loopaes, tcrypt."
 
-#: src/cryptsetup.c:1512
+#: src/cryptsetup.c:1524
 msgid "Disable password quality check (if enabled)."
 msgstr "禁用密码质量检查 (如果已启用)。"
 
-#: src/cryptsetup.c:1513
+#: src/cryptsetup.c:1525
 msgid "Use dm-crypt same_cpu_crypt performance compatibility option."
 msgstr "使用 dm-crypt same_cpu_crypt 性能兼容性选项。"
 
-#: src/cryptsetup.c:1514
+#: src/cryptsetup.c:1526
 msgid "Use dm-crypt submit_from_crypt_cpus performance compatibility option."
 msgstr "使用 dm-crypt submit_from_crypt_cpus 性能兼容性选项。"
 
-#: src/cryptsetup.c:1530 src/veritysetup.c:402
+#: src/cryptsetup.c:1542 src/veritysetup.c:402
 msgid "[OPTION...] <action> <action-specific>"
 msgstr "[选项…] <动作> <动作特定参数>"
 
-#: src/cryptsetup.c:1577 src/veritysetup.c:439
+#: src/cryptsetup.c:1589 src/veritysetup.c:439
 msgid "Argument <action> missing."
 msgstr "缺失参数 <动作>。"
 
-#: src/cryptsetup.c:1630 src/veritysetup.c:445
+#: src/cryptsetup.c:1642 src/veritysetup.c:445
 msgid "Unknown action."
 msgstr "未知动作。"
 
-#: src/cryptsetup.c:1640
+#: src/cryptsetup.c:1652
 msgid "Option --shared is allowed only for open of plain device.\n"
 msgstr "选项 --shared 只适用于打开纯设备。\n"
 
-#: src/cryptsetup.c:1645
+#: src/cryptsetup.c:1657
 msgid "Option --allow-discards is allowed only for open operation.\n"
 msgstr "选项 --allow-discards 只适用于打开操作。\n"
 
-#: src/cryptsetup.c:1653
+#: src/cryptsetup.c:1665
 msgid ""
 "Option --key-size is allowed only for luksFormat, open and benchmark.\n"
 "To limit read from keyfile use --keyfile-size=(bytes)."
@@ -1347,68 +1330,60 @@ msgstr ""
 "选项 --key-size 只能用于 luksFormat, 打开和性能测试。\n"
 "要限制密钥文件读取请使用 --keyfile-size=(字节数)。"
 
-#: src/cryptsetup.c:1660
-msgid ""
-"Option --test-passphrase is allowed only for open of LUKS and TCRYPT "
-"devices.\n"
+#: src/cryptsetup.c:1672
+msgid "Option --test-passphrase is allowed only for open of LUKS and TCRYPT devices.\n"
 msgstr "选项 --test-passphrase 只能用于打开 LUKS 和 TCRYPT 设备。\n"
 
-#: src/cryptsetup.c:1665 src/cryptsetup_reencrypt.c:1361
+#: src/cryptsetup.c:1677 src/cryptsetup_reencrypt.c:1360
 msgid "Key size must be a multiple of 8 bits"
 msgstr "密钥尺寸必须是 8 的倍数"
 
-#: src/cryptsetup.c:1672 src/cryptsetup_reencrypt.c:1366
+#: src/cryptsetup.c:1684 src/cryptsetup_reencrypt.c:1365
 msgid "Key slot is invalid."
 msgstr "密钥槽无效。"
 
-#: src/cryptsetup.c:1679
+#: src/cryptsetup.c:1691
 msgid "Option --key-file takes precedence over specified key file argument.\n"
 msgstr "选项 --key-file 优先使用指定的密钥文件参数。\n"
 
-#: src/cryptsetup.c:1687 src/veritysetup.c:467 src/cryptsetup_reencrypt.c:1350
+#: src/cryptsetup.c:1699 src/veritysetup.c:467 src/cryptsetup_reencrypt.c:1349
 msgid "Negative number for option not permitted."
 msgstr "不允许在选项中填入负数。"
 
-#: src/cryptsetup.c:1691 src/cryptsetup_reencrypt.c:1344
-#: src/cryptsetup_reencrypt.c:1370
+#: src/cryptsetup.c:1703 src/cryptsetup_reencrypt.c:1343
+#: src/cryptsetup_reencrypt.c:1369
 msgid "Only one of --use-[u]random options is allowed."
 msgstr "--use-[u]random 选项只能用一处。"
 
-#: src/cryptsetup.c:1695
+#: src/cryptsetup.c:1707
 msgid "Option --use-[u]random is allowed only for luksFormat."
 msgstr "选项 --use-[u]random 只适用于 luksFormat。"
 
-#: src/cryptsetup.c:1699
+#: src/cryptsetup.c:1711
 msgid "Option --uuid is allowed only for luksFormat and luksUUID."
 msgstr "选项 --uuid 只允许用于 luksFormat 和 luksUUID。"
 
-#: src/cryptsetup.c:1703
+#: src/cryptsetup.c:1715
 msgid "Option --align-payload is allowed only for luksFormat."
 msgstr "选项 --align-payload 只允许用于 luksFormat。"
 
-#: src/cryptsetup.c:1709
-msgid ""
-"Option --skip is supported only for open of plain and loopaes devices.\n"
+#: src/cryptsetup.c:1721
+msgid "Option --skip is supported only for open of plain and loopaes devices.\n"
 msgstr "选项 --skip 只适用于打开纯设备和 loopaes 设备。\n"
 
-#: src/cryptsetup.c:1715
-msgid ""
-"Option --offset is supported only for open of plain and loopaes devices.\n"
+#: src/cryptsetup.c:1727
+msgid "Option --offset is supported only for open of plain and loopaes devices.\n"
 msgstr "选项 --offset 只适用于打开纯设备和 loopaes 设备。\n"
 
-#: src/cryptsetup.c:1721
-msgid ""
-"Option --tcrypt-hidden, --tcrypt-system or --tcrypt-backup is supported only "
-"for TCRYPT device.\n"
-msgstr ""
-"选项 --tcrypt-hidden, --tcrypt-system 或 --tcrypt-backup 只支持 TCRYPT 设"
-"备。\n"
+#: src/cryptsetup.c:1733
+msgid "Option --tcrypt-hidden, --tcrypt-system or --tcrypt-backup is supported only for TCRYPT device.\n"
+msgstr "选项 --tcrypt-hidden, --tcrypt-system 或 --tcrypt-backup 只支持 TCRYPT 设备。\n"
 
-#: src/cryptsetup.c:1726
+#: src/cryptsetup.c:1738
 msgid "Option --tcrypt-hidden cannot be combined with --allow-discards.\n"
 msgstr "选项 --tcrypt-hidden 不能与 --allow-discards 共用。\n"
 
-#: src/cryptsetup.c:1731
+#: src/cryptsetup.c:1743
 msgid "Option --veracrypt is supported only for TCRYPT device type.\n"
 msgstr "选项 --veracrypt 只支持 TCRYPT 设备类型。\n"
 
@@ -1485,8 +1460,7 @@ msgstr ""
 msgid ""
 "\n"
 "Default compiled-in dm-verity parameters:\n"
-"\tHash: %s, Data block (bytes): %u, Hash block (bytes): %u, Salt size: %u, "
-"Hash format: %u\n"
+"\tHash: %s, Data block (bytes): %u, Hash block (bytes): %u, Salt size: %u, Hash format: %u\n"
 msgstr ""
 "\n"
 "编译时决定的默认 dm-verify 参数：\n"
@@ -1526,7 +1500,7 @@ msgstr "哈希设备开始位置偏移量"
 
 #: src/veritysetup.c:383
 msgid "Hash algorithm"
-msgstr "希算法"
+msgstr "哈希算法"
 
 #: src/veritysetup.c:383
 msgid "string"
@@ -1550,7 +1524,7 @@ msgstr "无法独占打开 %s，设备正在使用中。\n"
 msgid "Cannot open device %s\n"
 msgstr "无法打开设备 %s。\n"
 
-#: src/cryptsetup_reencrypt.c:161 src/cryptsetup_reencrypt.c:913
+#: src/cryptsetup_reencrypt.c:161 src/cryptsetup_reencrypt.c:914
 msgid "Allocation of aligned memory failed.\n"
 msgstr "分配对齐内存失败。\n"
 
@@ -1587,142 +1561,133 @@ msgstr "无法读取重加密日志文件。\n"
 msgid "Log file %s exists, resuming reencryption.\n"
 msgstr "日志文件 %s 存在，继续重加密。\n"
 
-#: src/cryptsetup_reencrypt.c:423
+#: src/cryptsetup_reencrypt.c:424
 msgid "Activating temporary device using old LUKS header.\n"
 msgstr "正使用旧 LUKS 标头激活临时设备。\n"
 
-#: src/cryptsetup_reencrypt.c:434
+#: src/cryptsetup_reencrypt.c:435
 msgid "Activating temporary device using new LUKS header.\n"
 msgstr "正使用新 LUKS 标头激活临时设备。\n"
 
-#: src/cryptsetup_reencrypt.c:444
+#: src/cryptsetup_reencrypt.c:445
 msgid "Activation of temporary devices failed.\n"
 msgstr "激活临时设备失败。\n"
 
-#: src/cryptsetup_reencrypt.c:470
+#: src/cryptsetup_reencrypt.c:471
 #, c-format
 msgid "New LUKS header for device %s created.\n"
 msgstr "已创建设备 %s 的新 LUKS 标头。\n"
 
-#: src/cryptsetup_reencrypt.c:478
+#: src/cryptsetup_reencrypt.c:479
 #, c-format
 msgid "Activated keyslot %i.\n"
 msgstr "已激活密钥槽 %i。\n"
 
-#: src/cryptsetup_reencrypt.c:504
+#: src/cryptsetup_reencrypt.c:505
 #, c-format
 msgid "LUKS header backup of device %s created.\n"
 msgstr "已创建设备 %s 的 LUKS 标头备份。\n"
 
-#: src/cryptsetup_reencrypt.c:552
+#: src/cryptsetup_reencrypt.c:553
 msgid "Creation of LUKS backup headers failed.\n"
 msgstr "LUKS 备份标头创建失败。\n"
 
-#: src/cryptsetup_reencrypt.c:654
+#: src/cryptsetup_reencrypt.c:655
 #, c-format
 msgid "Cannot restore LUKS header on device %s.\n"
 msgstr "无法在设备 %s 上恢复 LUKS 标头。\n"
 
-#: src/cryptsetup_reencrypt.c:656
+#: src/cryptsetup_reencrypt.c:657
 #, c-format
 msgid "LUKS header on device %s restored.\n"
 msgstr "在设备 %s 上的 LUKS 标头已恢复。\n"
 
-#: src/cryptsetup_reencrypt.c:689
+#: src/cryptsetup_reencrypt.c:690
 #, c-format
-msgid ""
-"Progress: %5.1f%%, ETA %02llu:%02llu, %4llu MiB written, speed %5.1f MiB/s%s"
-msgstr ""
-"进度：%5.1f%%, 生育 %02llu:%02llu, %4llu MiB 已写入, 速度 %5.1f MiB/s%s"
+msgid "Progress: %5.1f%%, ETA %02llu:%02llu, %4llu MiB written, speed %5.1f MiB/s%s"
+msgstr "进度：%5.1f%%, 生育 %02llu:%02llu, %4llu MiB 已写入, 速度 %5.1f MiB/s%s"
 
-#: src/cryptsetup_reencrypt.c:728 src/cryptsetup_reencrypt.c:804
-#: src/cryptsetup_reencrypt.c:846
+#: src/cryptsetup_reencrypt.c:729 src/cryptsetup_reencrypt.c:805
+#: src/cryptsetup_reencrypt.c:847
 msgid "Cannot seek to device offset.\n"
 msgstr "无法寻找到设备偏移位置。\n"
 
-#: src/cryptsetup_reencrypt.c:885 src/cryptsetup_reencrypt.c:891
+#: src/cryptsetup_reencrypt.c:886 src/cryptsetup_reencrypt.c:892
 msgid "Cannot open temporary LUKS device.\n"
 msgstr "无法打开临时 LUKS 设备。\n"
 
-#: src/cryptsetup_reencrypt.c:896 src/cryptsetup_reencrypt.c:901
+#: src/cryptsetup_reencrypt.c:897 src/cryptsetup_reencrypt.c:902
 msgid "Cannot get device size.\n"
 msgstr "无法获取设备大小。\n"
 
-#: src/cryptsetup_reencrypt.c:939
+#: src/cryptsetup_reencrypt.c:940
 msgid "Interrupted by a signal.\n"
 msgstr "被信号中断。\n"
 
-#: src/cryptsetup_reencrypt.c:941
+#: src/cryptsetup_reencrypt.c:942
 msgid "IO error during reencryption.\n"
 msgstr "重加密时发生 IO 错误。\n"
 
-#: src/cryptsetup_reencrypt.c:1048
-msgid ""
-"Key file can be used only with --key-slot or with exactly one key slot "
-"active.\n"
+#: src/cryptsetup_reencrypt.c:1049
+msgid "Key file can be used only with --key-slot or with exactly one key slot active.\n"
 msgstr "密钥文件只能在指定 --key-slot 时或有且只有一个槽启用时使用。\n"
 
-#: src/cryptsetup_reencrypt.c:1092 src/cryptsetup_reencrypt.c:1107
+#: src/cryptsetup_reencrypt.c:1093 src/cryptsetup_reencrypt.c:1108
 #, c-format
 msgid "Enter passphrase for key slot %u: "
 msgstr "输入密钥槽 %u 的密码："
 
-#: src/cryptsetup_reencrypt.c:1156
+#: src/cryptsetup_reencrypt.c:1157
 msgid "Cannot open reencryption log file.\n"
 msgstr "无法打开重加密日志文件。\n"
 
-#: src/cryptsetup_reencrypt.c:1282
+#: src/cryptsetup_reencrypt.c:1283
 msgid "Reencryption block size"
 msgstr "重加密块大小"
 
-#: src/cryptsetup_reencrypt.c:1282
+#: src/cryptsetup_reencrypt.c:1283
 msgid "MiB"
 msgstr "MiB"
 
-#: src/cryptsetup_reencrypt.c:1286
+#: src/cryptsetup_reencrypt.c:1287
 msgid "Do not change key, no data area reencryption."
 msgstr "不要更改密钥，无数据区重加密。"
 
-#: src/cryptsetup_reencrypt.c:1293
+#: src/cryptsetup_reencrypt.c:1294
 msgid "Use direct-io when accessing devices."
 msgstr "在访问设备时使用 direct-io。"
 
-#: src/cryptsetup_reencrypt.c:1294
+#: src/cryptsetup_reencrypt.c:1295
 msgid "Use fsync after each block."
 msgstr "在每个数据块后使用 fsync。"
 
-#: src/cryptsetup_reencrypt.c:1295
+#: src/cryptsetup_reencrypt.c:1296
 msgid "Update log file after every block."
 msgstr "在每个数据块后更新日志文件。"
 
-#: src/cryptsetup_reencrypt.c:1296
+#: src/cryptsetup_reencrypt.c:1297
 msgid "Use only this slot (others will be disabled)."
 msgstr "仅使用这个密钥槽（其他的密钥槽将被禁用）。"
 
-#: src/cryptsetup_reencrypt.c:1299
+#: src/cryptsetup_reencrypt.c:1300
 msgid "Reduce data device size (move data offset). DANGEROUS!"
 msgstr "减少数据设备大小（移动数据偏移量）。危险！"
 
-#: src/cryptsetup_reencrypt.c:1300
+#: src/cryptsetup_reencrypt.c:1301
 msgid "Use only specified device size (ignore rest of device). DANGEROUS!"
 msgstr "只使用指定的设备大小（忽略设备其余部分）。危险！"
 
-#: src/cryptsetup_reencrypt.c:1301
+#: src/cryptsetup_reencrypt.c:1302
 msgid "Create new header on not encrypted device."
 msgstr "在未加密的设备上创建新的标头。"
 
-#: src/cryptsetup_reencrypt.c:1302
+#: src/cryptsetup_reencrypt.c:1303
 msgid "Permanently decrypt device (remove encryption)."
 msgstr "永久解密设备（移除加密）。"
 
-#: src/cryptsetup_reencrypt.c:1318
+#: src/cryptsetup_reencrypt.c:1319
 msgid "[OPTION...] <device>"
 msgstr "[选项...] <设备>"
-
-#: src/cryptsetup_reencrypt.c:1332
-msgid ""
-"WARNING: this is experimental code, it can completely break your data.\n"
-msgstr "警告：此为实验性代码，实验性代码可能完全损毁你的数据。\n"
 
 #: src/cryptsetup_reencrypt.c:1333
 #, c-format
@@ -1737,40 +1702,39 @@ msgstr "，设置哈希值为 "
 msgid ", set cipher to "
 msgstr "，设定密文为 "
 
-#: src/cryptsetup_reencrypt.c:1340
+#: src/cryptsetup_reencrypt.c:1339
 msgid "Argument required."
 msgstr "需要参数。"
 
-#: src/cryptsetup_reencrypt.c:1356
-msgid ""
-"Only values between 1 MiB and 64 MiB allowed for reencryption block size."
+#: src/cryptsetup_reencrypt.c:1355
+msgid "Only values between 1 MiB and 64 MiB allowed for reencryption block size."
 msgstr "重加密块大小只能是 1 MiB 到 64 MiB 之间的值。"
 
-#: src/cryptsetup_reencrypt.c:1375 src/cryptsetup_reencrypt.c:1380
+#: src/cryptsetup_reencrypt.c:1374 src/cryptsetup_reencrypt.c:1379
 msgid "Invalid device size specification."
 msgstr "无效的设备大小指标。"
 
-#: src/cryptsetup_reencrypt.c:1383
+#: src/cryptsetup_reencrypt.c:1382
 msgid "Maximum device reduce size is 64 MiB."
 msgstr "最大设备缩减大小为 64 MiB。"
 
-#: src/cryptsetup_reencrypt.c:1386
+#: src/cryptsetup_reencrypt.c:1385
 msgid "Reduce size must be multiple of 512 bytes sector."
 msgstr "缩减大小必须为 512 字节扇区的倍数。"
 
-#: src/cryptsetup_reencrypt.c:1390
+#: src/cryptsetup_reencrypt.c:1389
 msgid "Option --new must be used together with --reduce-device-size."
 msgstr "选项 --new 必须与 --reduce-device-size 共用。"
 
-#: src/cryptsetup_reencrypt.c:1394
+#: src/cryptsetup_reencrypt.c:1393
 msgid "Option --keep-key can be used only with --hash or --iter-time."
 msgstr "选项 --keep-key 只能与 --hash 或 --iter-time 共用。"
 
-#: src/cryptsetup_reencrypt.c:1398
+#: src/cryptsetup_reencrypt.c:1397
 msgid "Option --new cannot be used together with --decrypt."
 msgstr "选项 --new 不可与 --decrypt 共用。"
 
-#: src/cryptsetup_reencrypt.c:1402
+#: src/cryptsetup_reencrypt.c:1401
 msgid "Option --decrypt is incompatible with specified parameters."
 msgstr "选项 --decrypt 与选定参数不兼容。"
 
@@ -1787,7 +1751,7 @@ msgstr "命令成功。\n"
 msgid "Command failed with code %i"
 msgstr "命令失败，代码 %i"
 
-#: src/utils_password.c:42
+#: src/utils_password.c:42 src/utils_password.c:74
 #, c-format
 msgid "Cannot check password quality: %s\n"
 msgstr "无法检查密码质量：%s\n"
@@ -1800,3 +1764,11 @@ msgid ""
 msgstr ""
 "密码质量检查失败：\n"
 " %s\n"
+
+#: src/utils_password.c:82
+#, c-format
+msgid "Password quality check failed: Bad passphrase (%s)\n"
+msgstr "密码质量检查失败：无效密码 (%s)\n"
+
+#~ msgid "WARNING: this is experimental code, it can completely break your data.\n"
+#~ msgstr "警告：此为实验性代码，实验性代码可能完全损毁你的数据。\n"

@@ -10,15 +10,15 @@ msgstr ""
 "Project-Id-Version: minicom 2.6.1.90\n"
 "Report-Msgid-Bugs-To: minicom-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2012-12-01 17:43+0100\n"
-"PO-Revision-Date: 2015-08-22 15:13-0400\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@hotmail.com>\n"
+"PO-Revision-Date: 2015-11-07 01:42-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: src/config.c:75
 #, c-format
@@ -354,10 +354,10 @@ msgid ""
 msgstr ""
 "\n"
 "                您已变更历史缓冲区大小。\n"
-"                您将需要保存配置文件和\n"
-"                重新启动 minicom 以使变更生效。\n"
+"              您将需要保存配置文件并\n"
+"              重新启动 minicom 以使变更生效。\n"
 "\n"
-"                按下任意键继续…"
+"              按下任意键继续…"
 
 #: src/config.c:949
 msgid "Program new command key"
@@ -607,13 +607,11 @@ msgid "  \\u = username, \\p = password, \\\\ = \\, \\e = toggle echo, "
 msgstr " \\u = 用户名，\\p = 密码，\\\\ = \\，\\e = 切换回应，"
 
 #: src/config.c:1627
-msgid ""
-"  \\l = toggle LF, \\bX1..Xn<sp> = change baud rate. Example: \"\\beq \""
+msgid "  \\l = toggle LF, \\bX1..Xn<sp> = change baud rate. Example: \"\\beq \""
 msgstr "  \\l = 切换 LF，\\bX1..Xn<sp> = 变更波特率。范例:“\\beq ”"
 
 #: src/config.c:1629
-msgid ""
-"  = 115200 8N1. (See the \"Comm Parameters\" menu for valid values of X.))"
+msgid "  = 115200 8N1. (See the \"Comm Parameters\" menu for valid values of X.))"
 msgstr "  = 115200 8N1。(参看“Comm 参数”菜单以了解 X 的有效值。))"
 
 #: src/config.c:1644
@@ -626,8 +624,7 @@ msgstr "字符转换"
 
 #: src/config.c:1736
 msgid " char    in out    char    in out    char    in out    char    in out\n"
-msgstr ""
-" 字符    入 出     字符    入 出     字符    入 出     字符    入 出 \n"
+msgstr " 字符    入 出     字符    入 出     字符    入 出     字符    入 出 \n"
 
 #: src/config.c:1758
 msgid ""
@@ -1286,10 +1283,8 @@ msgid "Search Wrapping Around to Start!"
 msgstr "启始时搜索四周！"
 
 #: src/minicom.c:462
-msgid ""
-"HISTORY: U=Up D=Down F=PgDn B=PgUp s=Srch S=CaseLess N=Next C=Cite ESC=Exit "
-msgstr ""
-"历史: U=上笔 D=下笔 F=下页 B=上页 s=搜索 S=无大小写 N=下一个 C=引用 ESC=离开"
+msgid "HISTORY: U=Up D=Down F=PgDn B=PgUp s=Srch S=CaseLess N=Next C=Cite ESC=Exit "
+msgstr "历史: U=上笔 D=下笔 F=下页 B=上页 s=搜索 S=无大小写 N=下一个 C=引用 ESC=离开"
 
 #: src/minicom.c:501
 msgid "History buffer Disabled!"
@@ -1308,16 +1303,12 @@ msgstr ""
 "  请先按 s 或 S！"
 
 #: src/minicom.c:721 src/minicom.c:764
-msgid ""
-"  CITATION: ENTER=select start line ESC=exit                               "
-msgstr ""
-"  引用: ENTER=选取开始列 ESC=离开                                          "
+msgid "  CITATION: ENTER=select start line ESC=exit                               "
+msgstr "  引用: ENTER=选取开始列 ESC=离开                                          "
 
 #: src/minicom.c:738
-msgid ""
-"  CITATION: ENTER=select end line ESC=exit                                 "
-msgstr ""
-"  引用: ENTER=选取结束列 ESC=离开                                          "
+msgid "  CITATION: ENTER=select end line ESC=exit                                 "
+msgstr "  引用: ENTER=选取结束列 ESC=离开                                          "
 
 #: src/minicom.c:798
 #, c-format
@@ -1341,8 +1332,7 @@ msgid ""
 "  -o, --noinit           : do not initialize modem & lockfiles at startup\n"
 "  -m, --metakey          : use meta or alt key for commands\n"
 "  -M, --metakey8         : use 8bit meta key for commands\n"
-"  -l, --ansi             : literal; assume screen uses non IBM-PC character "
-"set\n"
+"  -l, --ansi             : literal; assume screen uses non IBM-PC character set\n"
 "  -L, --iso              : don't assume screen uses ISO8859\n"
 "  -w, --wrap             : Linewrap on\n"
 "  -H, --displayhex       : display output in hex\n"
@@ -1570,8 +1560,7 @@ msgstr "# 电脑产生的文件 - 使用“minicom -s”以变更参数。\n"
 
 #: src/rwconf.c:228
 #, c-format
-msgid ""
-"# Machine-generated file - use setup menu in minicom to change parameters.\n"
+msgid "# Machine-generated file - use setup menu in minicom to change parameters.\n"
 msgstr "# 电脑产生的文件 - 使用 minicom 中的设置菜单以变更参数。\n"
 
 #: src/rwconf.c:253
