@@ -1,15 +1,19 @@
 # Chinese translations for FusionForge.
 # Copyright © 2008-2013 FusionForge Team (msgids)
 # This file is distributed under the same license as the FusionForge package.
-#
+# 邱承 <qiucheng1@sina.com>, 2010.
+# Mingye Wang (Arthur2e5) <arthur200126@gmail.com>, 2015.
+# 
+# Listen, this whole translation sucks. Someone will need to mark everything
+# as fuzzy and go through all the strings. I've had enough. -- Arthur2e5
 msgid ""
 msgstr ""
-"Project-Id-Version: FusionForge 5.2\n"
+"Project-Id-Version: fusionforge 6.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-02 15:30+0200\n"
-"PO-Revision-Date: 2015-11-05 16:46-0500\n"
+"PO-Revision-Date: 2015-11-11 09:02-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
-"Language-Team: FusionForge team <fusionforge-general@lists.fusionforge.org>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +37,7 @@ msgstr "ATS%d: %s"
 
 #: bin/populate_template_project.php:103
 msgid "Open-Discussion"
-msgstr "开放式讨论："
+msgstr "开放讨论"
 
 #: bin/populate_template_project.php:103
 msgid "General Discussion"
@@ -7212,19 +7216,19 @@ msgstr "被指定人"
 #: common/tracker/views/form-customizelist.php:48
 #, fuzzy
 msgid "# Votes"
-msgstr "评分"
+msgstr "投票"
 
 #: common/tracker/actions/browse.php:207 common/tracker/actions/browse.php:599
 #: common/tracker/views/form-customizelist.php:49
 #, fuzzy
 msgid "# Voters"
-msgstr "评分"
+msgstr "投票"
 
 #: common/tracker/actions/browse.php:208
 #: common/tracker/views/form-customizelist.php:50
 #, fuzzy
 msgid "% Votes"
-msgstr "评分"
+msgstr "投票"
 
 #: common/tracker/actions/browse.php:227 common/tracker/actions/query.php:216
 #: www/pm/browse_task.php:151
@@ -7277,9 +7281,8 @@ msgid "Use project queries or build and use your own queries."
 msgstr ""
 
 #: common/tracker/actions/browse.php:348 common/tracker/actions/browse.php:460
-#, fuzzy
 msgid "Advanced queries"
-msgstr "高级搜索"
+msgstr "高级查询"
 
 #: common/tracker/actions/browse.php:349
 msgid "Filtering by assignee, state, priority."
@@ -7357,7 +7360,7 @@ msgstr ""
 #: common/tracker/actions/browse.php:601
 #, fuzzy
 msgid "% Voted"
-msgstr "没有评分"
+msgstr "没有投票"
 
 #: common/tracker/actions/browse.php:705 www/pm/browse_task.php:322
 #, fuzzy
@@ -7465,7 +7468,7 @@ msgstr "监视"
 #: www/survey/admin/show_results.php:101
 #, fuzzy
 msgid "Votes"
-msgstr "评分"
+msgstr "投票"
 
 #: common/tracker/actions/detail.php:72
 #: common/tracker/actions/mod-limited.php:81 common/tracker/actions/mod.php:83
@@ -13279,9 +13282,8 @@ msgid "Manage your account for the URL"
 msgstr "我的帐号"
 
 #: plugins/mantisbt/view/adminuser.php:36 plugins/mantisbt/view/inituser.php:51
-#, fuzzy
 msgid "MantisBT User"
-msgstr "浏览成员"
+msgstr "MantisBT 用户"
 
 #: plugins/mantisbt/view/adminuser.php:37
 #, fuzzy
@@ -13546,7 +13548,7 @@ msgstr ""
 #: plugins/mediawiki/common/mediawikiPlugin.class.php:199
 #, fuzzy
 msgid "No editing"
-msgstr "评分"
+msgstr "投票"
 
 #: plugins/mediawiki/common/mediawikiPlugin.class.php:200
 #, fuzzy
@@ -16430,9 +16432,8 @@ msgstr "估计小时数"
 #: plugins/taskboard/common/views/admin/trackers.php:366
 #: plugins/taskboard/common/views/admin/trackers.php:374
 #: plugins/taskboard/common/views/admin/trackers.php:396
-#, fuzzy
 msgid "Not defined"
-msgstr "未定义任何虚拟主机"
+msgstr "未定义"
 
 #: plugins/taskboard/common/views/admin/trackers.php:121
 msgid "Remaining effort field"
@@ -19605,11 +19606,11 @@ msgstr "个人信息"
 
 #: www/include/user_home.php:43
 msgid "Peer Rating"
-msgstr "对等评分"
+msgstr "对等投票"
 
 #: www/include/user_home.php:49
 msgid "User chose not to participate in peer rating"
-msgstr "用户选择不要加入对等评分"
+msgstr "用户选择不要加入对等投票"
 
 #: www/include/user_home.php:56
 msgid "Diary and Notes"
@@ -23439,7 +23440,7 @@ msgstr "遊戏"
 
 #: www/snippet/snippet_utils.php:36 www/survey/rating_resp.php:29
 msgid "Voting"
-msgstr "评分"
+msgstr "投票"
 
 #: www/snippet/snippet_utils.php:37
 msgid "Shopping Carts"
@@ -23964,7 +23965,7 @@ msgstr "问题数"
 
 #: www/survey/include/SurveyHTML.class.php:357
 msgid "Number of Votes"
-msgstr "评分数"
+msgstr "投票数"
 
 #: www/survey/include/SurveyHTML.class.php:360
 msgid "Did I Vote?"
@@ -24001,7 +24002,7 @@ msgstr "警告 - 您在本问卷大概投了两次票。"
 
 #: www/survey/include/SurveyHTML.class.php:592
 msgid "No Votes"
-msgstr "没有评分"
+msgstr "没有投票"
 
 #: www/survey/include/SurveyHTML.class.php:686
 #, fuzzy, php-format
@@ -24041,16 +24042,16 @@ msgstr ""
 
 #: www/survey/rating_resp.php:59
 msgid "Vote registered"
-msgstr "登记的评分"
+msgstr "登记的投票"
 
 #: www/survey/rating_resp.php:60
 msgid "If you vote again, your old vote will be erased."
-msgstr "如果您重复评分，旧的资料会被清除"
+msgstr "如果您重复投票，旧的资料会被清除"
 
 #: www/survey/rating_resp.php:64
 #, fuzzy
 msgid "Vote ID"
-msgstr "评分"
+msgstr "投票"
 
 #: www/survey/rating_resp.php:64
 #, fuzzy
@@ -24141,7 +24142,7 @@ msgid "More"
 msgstr "更多"
 
 #: www/top/toplist.php:37
-#, php-format
+#, fuzzy, php-format
 msgid "Top Weekly Project Pageviews at *.%1$s (from impressions of %2$s logo)"
 msgstr "每周项目页面浏览排行榜在 *.%1$s (从 %2$s 标志的印象)"
 
