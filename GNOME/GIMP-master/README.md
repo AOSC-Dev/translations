@@ -7,7 +7,7 @@ Expected Procedure
 ------------------
 
 * Pre-Import work: check for newer translations in gimp-2.8, and merge into
-  master.
+  master. Apply file format suggestions (e.g. plurals) as in zh_CN_l10n.
 * Import into repo.
 * Do cleanup job. This mainly consists of:
   * Punctation and formatting checks as described in zh_CN_l10n.
