@@ -17,6 +17,8 @@ Expected Procedure
 * Continue translation.
 * Submit translations. Use the table and search-and-replace to generate a
   *old-terminology* version in case someone prefers those creepy terms.
+  * For those ones marked with *no* in *replace_back*, optionally create a
+    *babble* version.
 * Port translations to GIMP-2.8.
 * Submit 2.8, and update aosc-os-abbs archives to use our own translations.
 * Archive the branch status by running `git format-patch` and making a tarball
@@ -25,7 +27,13 @@ Expected Procedure
 Terminology Difference
 ----------------------
 
-| Orig         | Old | Ours | Convert back?|
+| Orig         | Old | Ours | Replace back later? |
 |--------------|-----|------|--------------|
-|Brush         |画笔 |笔刷   | yes|
+|brush         |画笔 |笔刷   | yes|
 |indexed images|索引图像|索引颜色图像|no|
+|splash screen |溅射窗口|启动画面|no|
+|context|环境|上下文|yes|
+|Pointer|指针|TODO||
+|Spike|穗|TODO||
+|Dock (noun)|停靠|TODO||
+
