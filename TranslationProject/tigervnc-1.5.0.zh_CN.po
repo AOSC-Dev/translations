@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR TigerVNC Team and many others (see README.txt)
-# This file is distributed under the same license as the PACKAGE package.
-# Jeff Bai <jeffbai@aosc.xyz>, 2015.
+# Copyright (C) 2015 TigerVNC Team (msgids)
+# This file is distributed under the same license as the tigervnc package.
+# Mingcong Bai <jeffbai@aosc.xyz>, 2015.
 #
 msgid ""
 msgstr ""
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.5\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
