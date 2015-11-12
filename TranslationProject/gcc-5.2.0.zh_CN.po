@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-11-12 07:44-0700\n"
+"PO-Revision-Date: 2015-11-12 11:57-0700\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -3574,9 +3574,8 @@ msgid "PRINT_OPERAND, invalid insn for %%N"
 msgstr "%%N 代码的操作数无效"
 
 #: config/microblaze/microblaze.c:2318 config/microblaze/microblaze.c:2498
-#, fuzzy
 msgid "insn contains an invalid address !"
-msgstr "无效地址"
+msgstr "insn 包含无效地址！"
 
 #: config/microblaze/microblaze.c:2333 config/microblaze/microblaze.c:2557
 #: config/xtensa/xtensa.c:2478
@@ -3709,9 +3708,9 @@ msgid "bad move"
 msgstr "错误的移动"
 
 #: config/rs6000/rs6000.c:18534
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %%e value"
-msgstr "无效 %%E 值"
+msgstr "无效 %%e 值"
 
 #: config/rs6000/rs6000.c:18555
 #, c-format
@@ -4001,9 +4000,9 @@ msgid "invalid %%i operand"
 msgstr "无效的 %%A 操作数"
 
 #: config/tilegx/tilegx.c:5338 config/tilepro/tilepro.c:4665
-#, fuzzy, c-format
+#, c-format
 msgid "invalid %%j operand"
-msgstr "无效 %%J 值"
+msgstr "无效 %%j 运算符"
 
 #: config/tilegx/tilegx.c:5369
 #, fuzzy, c-format
@@ -5650,9 +5649,8 @@ msgid "static is not supported on TPF-OS"
 msgstr "TPF-OS 不支持 static"
 
 #: config/arm/arm.h:225
-#, fuzzy
 msgid "-mfloat-abi=soft and -mfloat-abi=hard may not be used together"
-msgstr "-msoft-float 和 -mhard_float 不能一起使用"
+msgstr "-mfloat-abi=soft 和 -mfloat-abi=hard 不能一起使用"
 
 #: config/arm/arm.h:227 config/tilegx/tilegx.h:546 config/tilegx/tilegx.h:551
 msgid "-mbig-endian and -mlittle-endian may not be used together"
@@ -7569,11 +7567,10 @@ msgid "Remap file names when including files"
 msgstr "包含文件时映射短文件名"
 
 #: c-family/c.opt:1564 c-family/c.opt:1568
-#, fuzzy
 msgid ""
 "Conform to the ISO 1998 C++ standard revised by the 2003 technical "
 "corrigendum"
-msgstr "遵循 ISO 1998 C++ 标准，也支持 GNU 扩展"
+msgstr "遵循 ISO 1998 C++ 标准于 2003 年的技术勘误版本"
 
 #: c-family/c.opt:1572
 msgid "Conform to the ISO 2011 C++ standard"
@@ -7741,14 +7738,12 @@ msgid "-fgo-optimize-<type>\tTurn on optimization passes in the frontend"
 msgstr "-fgo-optimize-<type>\t打开最佳化次数在中前端程序"
 
 #: go/lang.opt:58
-#, fuzzy
 msgid "-fgo-pkgpath=<string>\tSet Go package path"
-msgstr "-fgo-pkgpath=<string>\t设置前往套件路径"
+msgstr "-fgo-pkgpath=<string>\t设置 Go 软件包路径"
 
 #: go/lang.opt:62
-#, fuzzy
 msgid "-fgo-prefix=<string>\tSet package-specific prefix for exported Go names"
-msgstr "-fgo-prefix=<string>\t设置 package-specific 前缀用于导出的前往名称"
+msgstr "-fgo-prefix=<string>\t设置导出 Go 名称的软件包专用前缀"
 
 #: go/lang.opt:66
 msgid ""
@@ -8034,19 +8029,16 @@ msgid "Assume ICPLBs are enabled at runtime."
 msgstr "假定在运行时 ICPLB 是被启用的。"
 
 #: config/m68k/m68k-tables.opt:25
-#, fuzzy
 msgid "Known M68K CPUs (for use with the -mcpu= option):"
-msgstr "已知 M68K CPUs (用于使用与 -mcpu=选项)："
+msgstr "已知 M68K 处理器 (用于 -mcpu= 选项)："
 
 #: config/m68k/m68k-tables.opt:365
-#, fuzzy
 msgid "Known M68K microarchitectures (for use with the -mtune= option):"
-msgstr "已知 M68K microarchitectures (用于使用与 -mtune=选项)："
+msgstr "已知 M68K 微架构 (用于 -mtune= 选项)："
 
 #: config/m68k/m68k-tables.opt:411
-#, fuzzy
 msgid "Known M68K ISAs (for use with the -march= option):"
-msgstr "已知 M68K ISAs (用于使用与 -march=选项)："
+msgstr "已知 M68K ISA (用于 -march= 选项)："
 
 #: config/m68k/ieee.opt:24 config/i386/i386.opt:358
 msgid "Use IEEE math for fp comparisons"
@@ -8233,9 +8225,8 @@ msgid "Force assembly output to always use hex constants"
 msgstr ""
 
 #: config/msp430/msp430.opt:11
-#, fuzzy
 msgid "Specify the MCU to build for."
-msgstr "-mmcu=MCU\t选择目标 MCU"
+msgstr "指定要构建的目标 MCU。"
 
 #: config/msp430/msp430.opt:15
 msgid "Specify the ISA to build for: msp430, mdsp430x, msp430xv2"
@@ -8322,18 +8313,16 @@ msgid "-mcpu=CPU\tUse features of and optimize for CPU"
 msgstr "-mcpu=CPU\t使用指定 CPU 的特性并为之优化"
 
 #: config/aarch64/aarch64.opt:108
-#, fuzzy
 msgid "-mtune=CPU\tOptimize for CPU"
-msgstr "-mtune=\t为指定的 CPU 调度代码"
+msgstr "-mtune=CPU\t为指定的处理器优化"
 
 #: config/aarch64/aarch64.opt:112
 msgid "-mabi=ABI\tGenerate code that conforms to the specified ABI"
 msgstr "-mabi=ABI\t生成遵循指定 ABI 的代码"
 
 #: config/aarch64/aarch64.opt:116
-#, fuzzy
 msgid "Known AArch64 ABIs (for use with the -mabi= option):"
-msgstr "已知手臂 ABIs (用于使用与 -mabi=选项)："
+msgstr "已知 AArch64 ABI (用于 -mabi= 选项)："
 
 #: config/linux.opt:24
 msgid "Use Bionic C library"
@@ -8452,9 +8441,8 @@ msgid "Schedule code for given CPU"
 msgstr "为指定的 CPU 优化代码"
 
 #: config/ia64/ia64.opt:126
-#, fuzzy
 msgid "Known Itanium CPUs (for use with the -mtune= option):"
-msgstr "已知 Itanium CPUs (用于使用与 -mtune=选项)："
+msgstr "已知 Itanium 处理器 (用于 -mtune= 选项)："
 
 #: config/ia64/ia64.opt:136
 msgid "Use data speculation before reload"
@@ -8971,9 +8959,8 @@ msgid "Use given assembler dialect"
 msgstr "使用给定的汇编风格"
 
 #: config/i386/i386.opt:255
-#, fuzzy
 msgid "Known assembler dialects (for use with the -masm-dialect= option):"
-msgstr "已知汇编器方言 (用于使用与 -masm-dialect=选项)："
+msgstr "已知汇编器方言 (用于 -masm-dialect= 选项)："
 
 #: config/i386/i386.opt:265
 msgid "Branches are this expensive (1-5, arbitrary units)"
@@ -8991,9 +8978,8 @@ msgstr "使用给定的 x86-64 代码模式"
 
 #: config/i386/i386.opt:277 config/rs6000/aix64.opt:36
 #: config/rs6000/linux64.opt:32 config/tilegx/tilegx.opt:57
-#, fuzzy
 msgid "Known code models (for use with the -mcmodel= option):"
-msgstr "已知编码式样 (用于使用与 -mcmodel=选项)："
+msgstr "已知编码模型 (用于 -mcmodel= 选项)："
 
 #: config/i386/i386.opt:296
 #, fuzzy
@@ -9001,9 +8987,8 @@ msgid "Use given address mode"
 msgstr "使用 UTF-8 模式"
 
 #: config/i386/i386.opt:300
-#, fuzzy
 msgid "Known address mode (for use with the -maddress-mode= option):"
-msgstr "已知编码式样 (用于使用与 -mcmodel=选项)："
+msgstr "已知寻址模式 (用于 -mcmodel= 选项)："
 
 #: config/i386/i386.opt:309
 msgid "%<-mcpu=%> is deprecated; use %<-mtune=%> or %<-march=%> instead"
@@ -9026,9 +9011,8 @@ msgid "Generate floating point mathematics using given instruction set"
 msgstr "为指定的指令集生成浮点数学代码"
 
 #: config/i386/i386.opt:329
-#, fuzzy
 msgid "Valid arguments to -mfpmath=:"
-msgstr "有效参数为："
+msgstr "-fpmath= 的有效参数为："
 
 #: config/i386/i386.opt:362
 msgid "Inline all known string operations"
@@ -9116,18 +9100,16 @@ msgid "Chose strategy to generate stringop using"
 msgstr "选择生成字符串操作的策略"
 
 #: config/i386/i386.opt:458
-#, fuzzy
 msgid "Valid arguments to -mstringop-strategy=:"
-msgstr "有效参数为："
+msgstr "-mstringop-strategy= 的有效参数为："
 
 #: config/i386/i386.opt:486
 msgid "Use given thread-local storage dialect"
 msgstr "使用给定的线程局部存储模式"
 
 #: config/i386/i386.opt:490
-#, fuzzy
 msgid "Known TLS dialects (for use with the -mtls-dialect= option):"
-msgstr "已知 TLS 方言 (用于使用与 -mtls-dialect=选项)："
+msgstr "已知 TLS 方言 (用于 -mtls-dialect= 选项)："
 
 #: config/i386/i386.opt:500
 #, c-format
@@ -9148,9 +9130,8 @@ msgid "Generate code that conforms to the given ABI"
 msgstr "生成遵循给定 ABI 的代码"
 
 #: config/i386/i386.opt:523
-#, fuzzy
 msgid "Known ABIs (for use with the -mabi= option):"
-msgstr "已知 ABIs (用于使用与 -mabi=选项)："
+msgstr "已知 ABI (用于 -mabi= 选项)："
 
 #: config/i386/i386.opt:533 config/rs6000/rs6000.opt:189
 msgid "Vector library ABI to use"
@@ -9273,94 +9254,84 @@ msgstr ""
 "支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2 和 AVX 内建函数及代码生成"
 
 #: config/i386/i386.opt:647
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX and AVX2 built-in "
 "functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 AVX2 内建函数及代码"
+"生成"
 
 #: config/i386/i386.opt:651
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2 和 AVX512F 内建函"
+"数及代码生成"
 
 #: config/i386/i386.opt:655
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512PF built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512PF 内建函数及代码生成"
 
 #: config/i386/i386.opt:659
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512ER built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512ER 内建函数及代码生成"
 
 #: config/i386/i386.opt:663
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512CD built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512CD 内建函数及代码生成"
 
 #: config/i386/i386.opt:667
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512DQ built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512DQ 内建函数及代码生成"
 
 #: config/i386/i386.opt:671
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512BW built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512BW 内建函数及代码生成"
 
 #: config/i386/i386.opt:675
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512VL built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512VL 内建函数及代码生成"
 
 #: config/i386/i386.opt:679
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512IFMA built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512IFMA 内建函数及代码生成"
 
 #: config/i386/i386.opt:683
-#, fuzzy
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512VBMI built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512VBMI 内建函数及代码生成"
 
 #: config/i386/i386.opt:687
 msgid ""
@@ -9415,14 +9386,12 @@ msgid "Support Hardware Lock Elision prefixes"
 msgstr ""
 
 #: config/i386/i386.opt:731
-#, fuzzy
 msgid "Support RDSEED instruction"
-msgstr "支持生成 movbe 指令。"
+msgstr "支持 RDSEED 指令"
 
 #: config/i386/i386.opt:735
-#, fuzzy
 msgid "Support PREFETCHW instruction"
-msgstr "支持生成 movbe 指令。"
+msgstr "支持 PREFETCHW 指令"
 
 #: config/i386/i386.opt:739
 #, fuzzy
@@ -9435,14 +9404,12 @@ msgid "Support CLFLUSHOPT instructions"
 msgstr "支持乘加指令"
 
 #: config/i386/i386.opt:747
-#, fuzzy
 msgid "Support CLWB instruction"
-msgstr "支持生成 movbe 指令。"
+msgstr "支持 CLWB 指令"
 
 #: config/i386/i386.opt:751
-#, fuzzy
 msgid "Support PCOMMIT instruction"
-msgstr "支持生成 movbe 指令。"
+msgstr "支持 PCOMMIT 指令"
 
 #: config/i386/i386.opt:755
 #, fuzzy
@@ -9455,9 +9422,8 @@ msgid "Support XSAVE and XRSTOR instructions"
 msgstr "支持乘加指令"
 
 #: config/i386/i386.opt:763
-#, fuzzy
 msgid "Support XSAVEOPT instruction"
-msgstr "支持生成 movbe 指令。"
+msgstr "支持 XSAVEOPT 指令"
 
 #: config/i386/i386.opt:767
 #, fuzzy
@@ -9581,7 +9547,9 @@ msgstr "使用 propolice 来保护堆栈"
 msgid ""
 "Known stack protector guard (for use with the -mstack-protector-guard= "
 "option):"
-msgstr "已知手臂架构 (用于使用与 -march=选项)："
+msgstr ""
+"已知堆栈保护方式 (stack protector guard, 用于 -mstack-protector-guard= 选"
+"项)："
 
 #: config/i386/stringop.opt:8
 msgid "the Free Software Foundation; either version 3, or (at your option)"
@@ -9860,9 +9828,8 @@ msgid "Assume the VxWorks vThreads environment"
 msgstr "假定 VxWorks vThreads 环境"
 
 #: config/cr16/cr16.opt:23
-#, fuzzy
 msgid "-msim   Use simulator runtime"
-msgstr "-msim\t使用仿真器运行时"
+msgstr "-msim   使用仿真器运行时"
 
 #: config/cr16/cr16.opt:27
 #, fuzzy
@@ -10192,19 +10159,16 @@ msgid "Provide libraries for the simulator"
 msgstr "为仿真器提供库"
 
 #: config/arm/arm-tables.opt:25
-#, fuzzy
 msgid "Known ARM CPUs (for use with the -mcpu= and -mtune= options):"
-msgstr "已知手臂 CPUs (用于使用与 -mcpu=和 -mtune=选项)："
+msgstr "已知 ARM 处理器 (用于 -mcpu= 和 -mtune= 选项)："
 
 #: config/arm/arm-tables.opt:329
-#, fuzzy
 msgid "Known ARM architectures (for use with the -march= option):"
-msgstr "已知手臂架构 (用于使用与 -march=选项)："
+msgstr "已知 ARM 架构 (用于 -march= 选项)："
 
 #: config/arm/arm-tables.opt:417
-#, fuzzy
 msgid "Known ARM FPUs (for use with the -mfpu= option):"
-msgstr "已知手臂 FPUs (用于使用与 -mfpu=选项)："
+msgstr "已知 ARM 浮点处理器 (用于 -mfpu= 选项)："
 
 #: config/arm/arm.opt:26
 #, fuzzy
@@ -10216,9 +10180,8 @@ msgid "Specify an ABI"
 msgstr "指定一个 ABI"
 
 #: config/arm/arm.opt:40
-#, fuzzy
 msgid "Known ARM ABIs (for use with the -mabi= option):"
-msgstr "已知手臂 ABIs (用于使用与 -mabi=选项)："
+msgstr "已知 ARM ABI (用于 -mabi= 选项)："
 
 #: config/arm/arm.opt:59
 msgid "Generate a call to abort if a noreturn function returns"
@@ -10254,9 +10217,8 @@ msgid "Specify if floating point hardware should be used"
 msgstr "指定是否应当使用硬件浮点"
 
 #: config/arm/arm.opt:114
-#, fuzzy
 msgid "Known floating-point ABIs (for use with the -mfloat-abi= option):"
-msgstr "已知浮点 ABIs (用于使用与 -mfloat-abi=选项)："
+msgstr "已知浮点 ABI (用于 -mfloat-abi= 选项)："
 
 #: config/arm/arm.opt:127
 msgid "Specify the __fp16 floating-point format"
@@ -10319,9 +10281,8 @@ msgid "Specify how to access the thread pointer"
 msgstr "指定如何访问线程指针"
 
 #: config/arm/arm.opt:202
-#, fuzzy
 msgid "Valid arguments to -mtp=:"
-msgstr "有效参数为："
+msgstr "-mtp= 的有效参数为："
 
 #: config/arm/arm.opt:215
 msgid "Thumb: Generate (non-leaf) stack frames even if not needed"
@@ -10526,9 +10487,8 @@ msgid "Generate 32-bit code"
 msgstr "生成 32 位代码"
 
 #: config/rs6000/rs6000-tables.opt:24
-#, fuzzy
 msgid "Known CPUs (for use with the -mcpu= and -mtune= options):"
-msgstr "已知 CPUs (用于使用与 -mcpu=和 -mtune=选项)："
+msgstr "已知处理器 (用于 -mcpu= 和 -mtune= 选项)："
 
 #: config/rs6000/476.opt:24
 #, fuzzy
@@ -10710,9 +10670,8 @@ msgid "Generate VRSAVE instructions when generating AltiVec code"
 msgstr "生成 AltiVec 代码时生成 VRSAVE 指令"
 
 #: config/rs6000/rs6000.opt:326
-#, fuzzy
 msgid "Deprecated option.  Use -mno-vrsave instead"
-msgstr "-mvrsave=yes/no\t不建议使用的选项。请改用 -mvrsave/-mno-vrsave"
+msgstr "该选项已弃用。请换用 -mno-vrsave instead"
 
 #: config/rs6000/rs6000.opt:330
 #, fuzzy
@@ -10748,9 +10707,8 @@ msgid "Generate PPC750CL paired-single instructions"
 msgstr "生成 PPC750CL 配对单精度指令"
 
 #: config/rs6000/rs6000.opt:358
-#, fuzzy
 msgid "Deprecated option.  Use -mno-spe instead"
-msgstr "-mspe=yes/no\t不建议使用的选项。请改用 -mspe/-mno-spe"
+msgstr "该选项已弃用。请换用 -mno-spe"
 
 #: config/rs6000/rs6000.opt:362
 #, fuzzy
@@ -10838,9 +10796,8 @@ msgid "-mfloat-gprs=\tSelect GPR floating point method"
 msgstr "-mfloat-gprs=\t选择通用寄存器浮点方法"
 
 #: config/rs6000/rs6000.opt:454
-#, fuzzy
 msgid "Valid arguments to -mfloat-gprs=:"
-msgstr "有效参数为："
+msgstr "-mfloat-gprs 的有效参数为："
 
 #: config/rs6000/rs6000.opt:470
 msgid "-mlong-double-<n>\tSpecify size of long double (64 or 128 bits)"
@@ -10859,9 +10816,8 @@ msgid "Specify alignment of structure fields default/natural"
 msgstr "指定结构字段默认或自然的对齐"
 
 #: config/rs6000/rs6000.opt:490
-#, fuzzy
 msgid "Valid arguments to -malign-:"
-msgstr "有效参数为："
+msgstr "-malign- 的有效参数为："
 
 #: config/rs6000/rs6000.opt:500
 msgid "Specify scheduling priority for dispatch slot restricted insns"
@@ -11140,9 +11096,8 @@ msgid "-mcpu=CPU\tUse features of and schedule code for given CPU"
 msgstr "-mcpu=CPU\t使用指定 CPU 的特性和调度代码"
 
 #: config/tilepro/tilepro.opt:32
-#, fuzzy
 msgid "Known TILEPro CPUs (for use with the -mcpu= option):"
-msgstr "已知 TILEPro CPUs (用于使用与 -mcpu=选项)："
+msgstr "已知 TILEPro 处理器 (用于 -mcpu= 选项)："
 
 #: config/lm32/lm32.opt:24
 msgid "Enable multiply instructions"
@@ -12056,9 +12011,8 @@ msgid "Set the target CPU type"
 msgstr "指定目标 CPU 的类型"
 
 #: config/frv/frv.opt:73
-#, fuzzy
 msgid "Known FR-V CPUs (for use with the -mcpu= option):"
-msgstr "已知 FR-V CPUs (用于使用与 -mcpu=选项)："
+msgstr "已知 FR-V 处理器 (用于 -mcpu= 选项)："
 
 #: config/frv/frv.opt:122
 msgid "Use fp double instructions"
@@ -12281,9 +12235,8 @@ msgid "Specify CPU for scheduling purposes"
 msgstr "为调度指定目标 CPU"
 
 #: config/iq2000/iq2000.opt:51
-#, fuzzy
 msgid "Known IQ2000 CPUs (for use with the -mcpu= option):"
-msgstr "已知 IQ2000 CPUs (用于使用与 -mcpu=选项)："
+msgstr "已知 IQ2000 处理器 (用于 -mcpu= 选项)："
 
 #: config/iq2000/iq2000.opt:61 config/mips/mips.opt:142
 msgid "Use ROM instead of RAM"
@@ -12298,14 +12251,12 @@ msgid "Put uninitialized constants in ROM (needs -membedded-data)"
 msgstr "将未初始化的常量放在 ROM 中(需要 -membedded-data)"
 
 #: config/c6x/c6x-tables.opt:24
-#, fuzzy
 msgid "Known C6X ISAs (for use with the -march= option):"
-msgstr "已知 C6X ISAs (用于使用与 -march=选项)："
+msgstr "已知 C6X ISA (用于 -march= 选项)："
 
 #: config/c6x/c6x.opt:46
-#, fuzzy
 msgid "Valid arguments for the -msdata= option"
-msgstr "有效参数为："
+msgstr "-msdata= 选项的有效参数为："
 
 #: config/c6x/c6x.opt:59
 #, fuzzy
@@ -12851,9 +12802,8 @@ msgid "-mabi=ABI\tGenerate code that conforms to the given ABI"
 msgstr "-mabi=ABI\t生成遵循给定 ABI 的代码"
 
 #: config/mips/mips.opt:36
-#, fuzzy
 msgid "Known MIPS ABIs (for use with the -mabi= option):"
-msgstr "已知 MIPS ABIs (用于使用与 -mabi=选项)："
+msgstr "已知 MIPS ABI (用于 -mabi= 选项)："
 
 #: config/mips/mips.opt:55
 msgid "Generate code that can be used in SVR4-style dynamic objects"
@@ -12894,9 +12844,8 @@ msgid ""
 msgstr "-mcode-readable=SETTING\t指定何时指令允许被访问代码"
 
 #: config/mips/mips.opt:91
-#, fuzzy
 msgid "Valid arguments to -mcode-readable=:"
-msgstr "有效参数为："
+msgstr "-mcode-readable= 的有效参数为："
 
 #: config/mips/mips.opt:104
 msgid "Use branch-and-break sequences to check for integer divide by zero"
@@ -13010,10 +12959,9 @@ msgid "-mnan=ENCODING\tSelect the IEEE 754 NaN data encoding"
 msgstr ""
 
 #: config/mips/mips.opt:226
-#, fuzzy
 msgid ""
 "Known MIPS IEEE 754 settings (for use with the -mabs= and -mnan= options):"
-msgstr "已知 MIPS CPUs (用于使用与 -march=和 -mtune=选项)："
+msgstr "已知 MIPS IEEE 754 设置 (用于 -march= 和 -mtune= 选项)："
 
 #: config/mips/mips.opt:236
 msgid "Use 32-bit general registers"
@@ -13131,9 +13079,8 @@ msgid ""
 msgstr "-mr10k-cache-barrier=SETTING\t指定何时应当使用 r10k 缓存屏障"
 
 #: config/mips/mips.opt:344
-#, fuzzy
 msgid "Valid arguments to -mr10k-cache-barrier=:"
-msgstr "有效参数为："
+msgstr "-m10k-cache-barrier= 的有效参数为："
 
 #: config/mips/mips.opt:357
 msgid "Try to allow the linker to turn PIC calls into direct calls"
@@ -13198,19 +13145,16 @@ msgid "Enable use of odd-numbered single-precision registers"
 msgstr "不将单精度和双精度浮点数分配到扩展精度的寄存器中"
 
 #: config/mips/mips-tables.opt:24
-#, fuzzy
 msgid "Known MIPS CPUs (for use with the -march= and -mtune= options):"
-msgstr "已知 MIPS CPUs (用于使用与 -march=和 -mtune=选项)："
+msgstr "已知 MIPS 处理器 (用于 -march= 和 -mtune= 选项)："
 
 #: config/mips/mips-tables.opt:28
-#, fuzzy
 msgid "Known MIPS ISA levels (for use with the -mips option):"
-msgstr "已知 MIPS ISA 等级 (用于使用与 -mips 选项)："
+msgstr "已知 MIPS ISA 等级 (用于 -mips 选项)："
 
 #: config/tilegx/tilegx.opt:30
-#, fuzzy
 msgid "Known TILE-Gx CPUs (for use with the -mcpu= option):"
-msgstr "已知 TILE-Gx CPUs (用于使用与 -mcpu=选项)："
+msgstr "已知 TILE-Gx 处理器 (用于 -mcpu= 选项)："
 
 #: config/tilegx/tilegx.opt:37
 #, fuzzy
@@ -14923,9 +14867,8 @@ msgid "Enable function reordering that improves code placement"
 msgstr "函数重新排序以改善代码布局"
 
 #: common.opt:1848
-#, fuzzy
 msgid "-frandom-seed=<number>\tMake compile reproducible using <number>"
-msgstr "-frandom-seed=<字符串>\t使用字符串使编译可以复现"
+msgstr "-frandom-seed=<数字>\t使用 <数字> 以使编译可复现"
 
 #: common.opt:1858
 msgid "Record gcc command line switches in the object file."
@@ -15717,9 +15660,8 @@ msgstr "将类型%qT用作模板的模板参数的默认值无效"
 
 #: go/gofrontend/expressions.cc:2725 go/gofrontend/expressions.cc:2791
 #: go/gofrontend/expressions.cc:2807
-#, fuzzy
 msgid "constant refers to itself"
-msgstr "inlined_to pointer 指向自身"
+msgstr "常数指向自身"
 
 #: go/gofrontend/expressions.cc:3704 go/gofrontend/expressions.cc:4082
 msgid "expected pointer"
@@ -17307,9 +17249,9 @@ msgid "%s: section %s is missing"
 msgstr "在 %s %s 中有缺失的「%s」\n"
 
 #: cgraphunit.c:689
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%<weakref%> attribute should be accompanied with an %<alias%> attribute"
-msgstr "weakref 属性必须出现在 alias 属性前"
+msgstr "%<weakref%> 属性应与 %<alias%> 同时使用"
 
 #: cgraphunit.c:741 cgraphunit.c:777
 #, gcc-internal-format
@@ -18002,9 +17944,9 @@ msgid "spec file has no spec for linking"
 msgstr "spec 文件没有对链接的设定"
 
 #: gcc.c:2649
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "system path %qs is not absolute"
-msgstr "--bootclasspath=<路径>\t替换系统路径"
+msgstr "系统路径 %qs 不是绝对路径"
 
 #: gcc.c:2737
 #, gcc-internal-format
@@ -19522,9 +19464,9 @@ msgid "--help argument %q.*s is ambiguous, please be more specific"
 msgstr "--help 的参数%q.*s有歧义，请改用更加明确的参数"
 
 #: opts.c:1525
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "unrecognized argument to --help= option: %q.*s"
-msgstr "--help 的参数%q.*s有歧义，请改用更加明确的参数"
+msgstr "--help= 选项的参数未知：%q.*s"
 
 #: opts.c:1623
 #, gcc-internal-format
@@ -19721,9 +19663,9 @@ msgstr ""
 "%s"
 
 #: plugin.c:271
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "malformed option -fplugin-arg-%s (missing -<key>[=<value>])"
-msgstr "-fplugin-arg-%s 选项格式不对(缺少 -<键>[=<值>])"
+msgstr "-fplugin-arg-%s 选项格式正确 (缺少 -<键>[=<值>])"
 
 #: plugin.c:333
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -20790,9 +20732,9 @@ msgid "gimple call has two targets"
 msgstr "gimple 调用有两目标"
 
 #: tree-cfg.c:3298
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "gimple call has no target"
-msgstr "gimple 调用中左操作数无效"
+msgstr "gimple 调用无目标"
 
 #: tree-cfg.c:3305
 #, gcc-internal-format
@@ -23727,7 +23669,7 @@ msgstr "格式参数应该是 %<%s%>参考但是字串是找到"
 #: c-family/c-format.c:225
 #, fuzzy, gcc-internal-format
 msgid "format argument should be a %<%s%> reference"
-msgstr "--format 的无效参数：%s"
+msgstr "格式参数应为 %<%s%> 引用"
 
 #: c-family/c-format.c:269
 #, gcc-internal-format
@@ -24193,9 +24135,9 @@ msgid "obsolete option -I- used, please use -iquote instead"
 msgstr "使用了过时的选项 -I-，请改用 -iquote"
 
 #: c-family/c-opts.c:410
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%<-Wabi=1%> is not supported, using =2"
-msgstr "-f%s 不受支持：已忽略"
+msgstr "%<-Wabi=1%> 不受支持，将使用 =2"
 
 #: c-family/c-opts.c:600 fortran/cpp.c:365
 #, gcc-internal-format
@@ -24757,9 +24699,9 @@ msgid "-malign-loops is obsolete, use -falign-loops"
 msgstr "%salign-loops%s 已经过时，请使用 -falign-loops%s"
 
 #: common/config/i386/i386-common.c:956
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "-malign-loops=%d is not between 0 and %d"
-msgstr "-mshared-library-id=%s 不在 0 和 %d 之间"
+msgstr "-malign-loops=%d 不在 0 和 %d 之间"
 
 #: common/config/i386/i386-common.c:963
 #, fuzzy, gcc-internal-format
@@ -24767,9 +24709,9 @@ msgid "-malign-jumps is obsolete, use -falign-jumps"
 msgstr "%salign-jumps%s 已经过时，请使用 -falign-jumps%s"
 
 #: common/config/i386/i386-common.c:965
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "-malign-jumps=%d is not between 0 and %d"
-msgstr "-mshared-library-id=%s 不在 0 和 %d 之间"
+msgstr "-malign-jumps=%d 不在 0 和 %d 之间"
 
 #: common/config/i386/i386-common.c:973
 #, fuzzy, gcc-internal-format
@@ -24777,9 +24719,9 @@ msgid "-malign-functions is obsolete, use -falign-functions"
 msgstr "%salign-functions%s 已过时，请使用 -falign-functions%s"
 
 #: common/config/i386/i386-common.c:975
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "-malign-functions=%d is not between 0 and %d"
-msgstr "-mshared-library-id=%s 不在 0 和 %d 之间"
+msgstr "-malign-functions=%d 不在 0 和 %d 之间"
 
 #: common/config/i386/i386-common.c:984
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -25157,9 +25099,9 @@ msgstr "-mcpu 的值%qs未知"
 
 #. CPU name not found in list.
 #: config/aarch64/aarch64.c:6800
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "unknown value %qs for -mtune"
-msgstr "-mtune 开关的值%qs错误"
+msgstr "-mtune 参数的值 %qs 未知"
 
 #: config/aarch64/aarch64.c:6836
 #, fuzzy, gcc-internal-format
@@ -25681,9 +25623,9 @@ msgid "AAPCS does not support -mcallee-super-interworking"
 msgstr "AAPCS 不支持 -mcallee-super-interworking"
 
 #: config/arm/arm.c:2952
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "iWMMXt and NEON are incompatible"
-msgstr "-fPIC 与 -G 互不兼容"
+msgstr "iWMMXt 与 NEON 互不兼容"
 
 #: config/arm/arm.c:2956
 #, gcc-internal-format
@@ -26144,9 +26086,9 @@ msgid "%qE attribute cannot be specified for local variables"
 msgstr "不能为局部变量指定%qE属性"
 
 #: config/c6x/c6x.c:274
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-fpic and -fPIC not supported without -mdsbt on this target"
-msgstr "-fPIC 和 -fpic 不被此目标所支持"
+msgstr "此目标不支持不附带 -mdsbt 使用 -fPIC 和 -fpic"
 
 #: config/c6x/c6x.h:363 config/nvptx/nvptx.h:193
 #, fuzzy, gcc-internal-format
@@ -26402,9 +26344,9 @@ msgid "-mn is used without -mh or -ms or -msx"
 msgstr "-mn 未与 -mh, -ms 或 -msx 一起使用"
 
 #: config/h8300/h8300.c:387
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mexr is used without -ms"
-msgstr "-ms2600 未与 -ms 一起使用"
+msgstr "-mexr 未与 -ms 一起使用"
 
 #: config/h8300/h8300.c:393
 #, fuzzy, gcc-internal-format
@@ -26412,9 +26354,9 @@ msgid "-mint32 is not supported for H8300 and H8300L targets"
 msgstr "%<__int128%>在此目标机上不受支持"
 
 #: config/h8300/h8300.c:399
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mexr is used without -ms or -msx"
-msgstr "-ms2600 未与 -ms 一起使用"
+msgstr "-mexr 未与 -ms 或 -msx 一起使用"
 
 #: config/h8300/h8300.c:405
 #, gcc-internal-format
@@ -26484,9 +26426,9 @@ msgstr "不建议使用%stune=x86-64%s；请视情况改用%stune=k8%s或%stune=
 
 #. rep; movq isn't available in 32-bit code.
 #: config/i386/i386.c:3494
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mstringop-strategy=rep_8byte not supported for 32-bit code"
-msgstr "-mstringop-strategy=rep_8 字节不支持用于 32-bit 编码"
+msgstr "-mstringop-strategy=rep_8byte 不支持用于 32 位代码"
 
 #: config/i386/i386.c:3511
 #, fuzzy, gcc-internal-format
@@ -26555,9 +26497,9 @@ msgid "-mregparm is ignored in 64-bit mode"
 msgstr "64-bit ABI 在 ESA/390 模式下不受支持"
 
 #: config/i386/i386.c:3914
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "-mregparm=%d is not between 0 and %d"
-msgstr "-mshared-library-id=%s 不在 0 和 %d 之间"
+msgstr "-mregparm=%d 不在 0 和 %d 之间"
 
 #: config/i386/i386.c:3957
 #, gcc-internal-format, gfc-internal-format
@@ -26921,14 +26863,14 @@ msgid "the third argument must be an 8-bit immediate"
 msgstr "最后一个实参必须是一个 8 位立即数"
 
 #: config/i386/i386.c:37497
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "the last argument must be an 1-bit immediate"
 msgstr "最后一个实参必须是一个 1 位立即数"
 
 #: config/i386/i386.c:37512
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "the last argument must be a 3-bit immediate"
-msgstr "最后一个实参必须是一个 2 位立即数"
+msgstr "最后一个实参必须是一个 3 位立即数"
 
 #: config/i386/i386.c:37545
 #, gcc-internal-format
@@ -27587,14 +27529,14 @@ msgid "%qs is an invalid argument to -mcpu="
 msgstr "属性%qs的参数无效"
 
 #: config/microblaze/microblaze.c:1784
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mxl-multiply-high can be used only with -mcpu=v6.00.a or greater"
-msgstr "-mxl-multiply-high 可以被使用只有与 -mcpu=v6.00.a 或更大"
+msgstr "-mxl-multiply-high 只能配合 -mcpu=v6.00.a 或更大值使用"
 
 #: config/microblaze/microblaze.c:1800
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mxl-reorder can be used only with -mcpu=v8.30.a or greater"
-msgstr "-mxl-multiply-high 可以被使用只有与 -mcpu=v6.00.a 或更大"
+msgstr "-mxl-reorder 只能配合 -mcpu=v8.30.a 或更大值使用"
 
 #: config/microblaze/microblaze.c:1806
 #, gcc-internal-format
@@ -27602,9 +27544,9 @@ msgid "-mxl-reorder requires -mxl-pattern-compare for -mcpu=v8.30.a"
 msgstr ""
 
 #: config/microblaze/microblaze.c:1811
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mxl-multiply-high requires -mno-xl-soft-mul"
-msgstr "-mxl-multiply-high 需求 -mno-xl-soft-mul"
+msgstr "-mxl-multiply-high 需要 -mno-xl-soft-mul"
 
 #: config/mips/mips.c:1493 config/mips/mips.c:1497
 #, gcc-internal-format
@@ -28381,9 +28323,9 @@ msgid "-mcrypto requires -maltivec"
 msgstr "停用自动需求：截取"
 
 #: config/rs6000/rs6000.c:3567
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mdirect-move requires -mvsx"
-msgstr "-mvsx 需要硬件浮点"
+msgstr "-mdirect-move 需要 -mvsx"
 
 #: config/rs6000/rs6000.c:3574
 #, fuzzy, gcc-internal-format
@@ -28391,14 +28333,14 @@ msgid "-mpower8-vector requires -maltivec"
 msgstr "停用自动需求：截取"
 
 #: config/rs6000/rs6000.c:3581
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mpower8-vector requires -mvsx"
-msgstr "-mvsx 需要硬件浮点"
+msgstr "-mpower8-vector 需要 -mvsx"
 
 #: config/rs6000/rs6000.c:3588
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mvsx-timode requires -mvsx"
-msgstr "-mvsx 需要硬件浮点"
+msgstr "-mvsx-timode 需要 -mvsx"
 
 #: config/rs6000/rs6000.c:3595
 #, fuzzy, gcc-internal-format
@@ -29242,9 +29184,9 @@ msgid "bad value (%s) for -march= switch"
 msgstr "-march= 的值(%s)不正确"
 
 #: config/spu/spu.c:302
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "bad value (%s) for -mtune= switch"
-msgstr "-mtune 开关的值%qs错误"
+msgstr "-mtune= 开关的值 (%s) 错误"
 
 #: config/spu/spu.c:5225 config/spu/spu.c:5228
 #, gcc-internal-format
@@ -31202,9 +31144,9 @@ msgid "ISO C does not support saturating types"
 msgstr "ISO C 不支持饱和类型"
 
 #: c/c-decl.c:9881
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "ISO C does not support %<__int%d%> types"
-msgstr "ISO C 不支持定点类型"
+msgstr "ISO C 不支持 %<__int%d%> 类型"
 
 #: c/c-decl.c:9901
 #, fuzzy, gcc-internal-format
@@ -37152,9 +37094,9 @@ msgid "conflicting specifiers in declaration of %qs"
 msgstr "%qs的声明中有相互冲突的限定符"
 
 #: cp/decl.c:9267
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "ISO C++ does not support plain %<complex%> meaning %<double complex%>"
-msgstr "ISO C 不支持单独用%<complex%>表示%<double complex%>"
+msgstr "ISO C++ 不支持单独以 %<complex%> 表示 %<double complex%>"
 
 #: cp/decl.c:9310 cp/decl.c:9313 cp/decl.c:9316
 #, gcc-internal-format
@@ -40667,9 +40609,9 @@ msgid ""
 msgstr "默认化和被删除的函数只在 -std=c++0x 或 -std=gnu++0x 下可用"
 
 #: cp/parser.c:14980
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "ISO C++ forbids use of %<auto%> in parameter declaration"
-msgstr "ISO C 不允许前向参数声明"
+msgstr "ISO C 不允许在参数声明中使用 %<auto%>"
 
 #: cp/parser.c:15124
 #, fuzzy, gcc-internal-format
@@ -41516,9 +41458,9 @@ msgid "%<wait%> expression must be integral"
 msgstr "num_threads 表达式必须是整型的"
 
 #: cp/parser.c:28554
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "invalid reduction-identifier"
-msgstr "无效标识符：%s"
+msgstr "无效还原标识符"
 
 #: cp/parser.c:30306
 #, gcc-internal-format
@@ -43350,9 +43292,9 @@ msgid "%qV qualifiers cannot be applied to %qT"
 msgstr "%qV限定符不能应用到%qT上"
 
 #: cp/tree.c:1518
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "lambda-expression in a constant expression"
-msgstr "整型表达式%qE不是常量"
+msgstr "常量表达式中的 Lambda 表达式"
 
 #: cp/tree.c:3375
 #, gcc-internal-format
@@ -47853,9 +47795,9 @@ msgid "Different shape for %s at %L on dimension %d (%d and %d)"
 msgstr "%2$L处 %1$s 在第 %3$d 维上外形不同(%4$d 和 %5$d)"
 
 #: fortran/expr.c:3155
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%qs at %L is not a VALUE"
-msgstr "无效的 --param 值%qs"
+msgstr "%2$L 处的 %1$qs 不是一个 VALUE"
 
 #: fortran/expr.c:3162
 #, gcc-internal-format, gfc-internal-format
@@ -49808,9 +49750,9 @@ msgid "Invalid form of PROGRAM statement at %C"
 msgstr "%C处 PROGRAM 语句格式无效"
 
 #: fortran/match.c:1314 fortran/match.c:1394
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "Arithmetic IF statement at %C"
-msgstr "已过时的特性：%C处的算术 IF 语句"
+msgstr "%C 处的算术 IF 语句"
 
 #: fortran/match.c:1369
 #, gcc-internal-format, gfc-internal-format
@@ -50111,9 +50053,9 @@ msgid "ASSIGN statement at %C"
 msgstr "无法赋值给%C处的有名常量"
 
 #: fortran/match.c:3214
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "Assigned GOTO statement at %C"
-msgstr "已删除的特性：%C处赋值 GOTO 语句"
+msgstr "%C 处赋值 GOTO 语句"
 
 #: fortran/match.c:3258 fortran/match.c:3309
 #, gcc-internal-format, gfc-internal-format
@@ -51760,9 +51702,9 @@ msgid "Argument to %<-fcheck%> is not valid: %s"
 msgstr "%qE不是类型%qT的有效模板参数"
 
 #: fortran/options.c:579
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%<-static-libgfortran%> is not supported in this configuration"
-msgstr "-fPIC 和 -fpic 在此配置下不受支持"
+msgstr "%<-static-libgfortran%> 在此配置下不受支持"
 
 #: fortran/options.c:602
 #, gcc-internal-format, gfc-internal-format
@@ -51775,9 +51717,9 @@ msgid "Unrecognized option to %<-finit-logical%>: %s"
 msgstr "%P：无法识别的选项‘%s’\n"
 
 #: fortran/options.c:638
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "The value of n in %<-finit-character=n%> must be between 0 and 127"
-msgstr "-finit-character=n 中 n 的值必须在 0 和 127 之间"
+msgstr "%<-finit-character=n%> 中 n 的值必须在 0 和 127 之间"
 
 #: fortran/parse.c:556
 #, gcc-internal-format, gfc-internal-format
