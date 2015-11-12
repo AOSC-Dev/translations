@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: cryptsetup 1.6.8\n"
 "Report-Msgid-Bugs-To: dm-crypt@saout.de\n"
 "POT-Creation-Date: 2015-10-29 13:27+0100\n"
-"PO-Revision-Date: 2015-11-07 01:49-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-11-12 12:11-0700\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.5\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: lib/libdevmapper.c:253
@@ -557,7 +557,7 @@ msgstr ""
 #: lib/luks1/keymanage.c:380
 #, c-format
 msgid "Keyslot %i: bogus partition signature.\n"
-msgstr ""
+msgstr "密钥槽 %i：虚假分区签名。\n"
 
 #: lib/luks1/keymanage.c:385
 #, c-format
@@ -877,7 +877,7 @@ msgstr "无法将 %s 作为磁盘上的标头使用。\n"
 
 #: src/cryptsetup.c:784
 msgid "Reduced data offset is allowed only for detached LUKS header.\n"
-msgstr ""
+msgstr "仅已脱离的 LUKS 数据头可以使用缩减的数据偏移。\n"
 
 #: src/cryptsetup.c:881 src/cryptsetup.c:937
 #, c-format
@@ -891,7 +891,7 @@ msgstr "无法清除未激活的密钥 %d。\n"
 
 #: src/cryptsetup.c:892 src/cryptsetup.c:940
 msgid "This is the last keyslot. Device will become unusable after purging this key."
-msgstr ""
+msgstr "这是最后一个密钥槽。设备在清空此密钥后将不可用。"
 
 #: src/cryptsetup.c:893
 msgid "Enter any remaining passphrase: "
@@ -916,7 +916,7 @@ msgstr "输入新密码："
 
 #: src/cryptsetup.c:1101
 msgid "Only one device argument for isLuks operation is supported.\n"
-msgstr ""
+msgstr "isLuks 操作仅支持一个设备参数。\n"
 
 #: src/cryptsetup.c:1257 src/cryptsetup.c:1278
 msgid "Option --header-backup-file is required.\n"
@@ -929,7 +929,7 @@ msgstr "无法识别的元数据设备类型 %s。\n"
 
 #: src/cryptsetup.c:1318
 msgid "Command requires device and mapped name as arguments.\n"
-msgstr ""
+msgstr "命令需要设备及映射名作为参数。\n"
 
 #: src/cryptsetup.c:1337
 #, c-format
@@ -937,6 +937,8 @@ msgid ""
 "This operation will erase all keyslots on device %s.\n"
 "Device will become unusable after this operation."
 msgstr ""
+"该操作将清空设备 %s 上所有的密钥槽。\n"
+"设备在此操作后将不可用。"
 
 #: src/cryptsetup.c:1371
 msgid "<device> [--type <type>] [<name>]"
@@ -1089,6 +1091,10 @@ msgid ""
 "\tMaximum keyfile size: %dkB, Maximum interactive passphrase length %d (characters)\n"
 "Default PBKDF2 iteration time for LUKS: %d (ms)\n"
 msgstr ""
+"\n"
+"默认集成的密钥和密码参数：\n"
+"\t密钥文件的最大大小：%dkB, 交互式密码的最大长度：%d (字符)\n"
+"LUKS 的默认 PBKDF2 迭代时间：%d (毫秒)\n"
 
 #: src/cryptsetup.c:1431
 #, c-format
@@ -1099,6 +1105,11 @@ msgid ""
 "\tplain: %s, Key: %d bits, Password hashing: %s\n"
 "\tLUKS1: %s, Key: %d bits, LUKS header hashing: %s, RNG: %s\n"
 msgstr ""
+"\n"
+"默认集成的设备密文参数：\n"
+"\tloop-AES：%s, %d 位密钥\n"
+"\tplain：%s, 密钥：%d 位, 密码哈希：%s\n"
+"\tLUKS1：%s, 密钥：%d bits, LUKS 数据头哈希：%s, RNG：%s\n"
 
 #: src/cryptsetup.c:1448 src/veritysetup.c:460
 #, c-format
@@ -1131,15 +1142,15 @@ msgstr "显示调试信息"
 
 #: src/cryptsetup.c:1490 src/cryptsetup_reencrypt.c:1284
 msgid "The cipher used to encrypt the disk (see /proc/crypto)"
-msgstr ""
+msgstr "用于加密磁盘的密文（参见 /proc/crypto）"
 
 #: src/cryptsetup.c:1491 src/cryptsetup_reencrypt.c:1286
 msgid "The hash used to create the encryption key from the passphrase"
-msgstr ""
+msgstr "用于从密码创建加密密钥的哈希值"
 
 #: src/cryptsetup.c:1492
 msgid "Verifies the passphrase by asking for it twice"
-msgstr ""
+msgstr "两次询问密码以进行验证"
 
 #: src/cryptsetup.c:1493 src/cryptsetup_reencrypt.c:1288
 msgid "Read the key from a file."
@@ -1147,7 +1158,7 @@ msgstr "从文件读取密钥。"
 
 #: src/cryptsetup.c:1494
 msgid "Read the volume (master) key from file."
-msgstr ""
+msgstr "从文件读取卷（主）密钥。"
 
 #: src/cryptsetup.c:1495
 msgid "Dump volume (master) key instead of keyslots info."
@@ -1179,11 +1190,11 @@ msgstr "要从密钥文件跳过的字节数"
 
 #: src/cryptsetup.c:1499
 msgid "Limits the read from newly added keyfile"
-msgstr ""
+msgstr "限制从新增密钥文件的读取"
 
 #: src/cryptsetup.c:1500
 msgid "Number of bytes to skip in newly added keyfile"
-msgstr ""
+msgstr "要从新增密钥文件跳过的字节数"
 
 #: src/cryptsetup.c:1501
 msgid "Slot number for new key (default is first free)"
@@ -1204,7 +1215,7 @@ msgstr "后端设备的起始偏移量"
 
 #: src/cryptsetup.c:1504
 msgid "How many sectors of the encrypted data to skip at the beginning"
-msgstr ""
+msgstr "从开头要跳过的加密数据扇区数量"
 
 #: src/cryptsetup.c:1505
 msgid "Create a readonly mapping"
@@ -1212,7 +1223,7 @@ msgstr "创建只读映射"
 
 #: src/cryptsetup.c:1506 src/cryptsetup_reencrypt.c:1289
 msgid "PBKDF2 iteration time for LUKS (in ms)"
-msgstr ""
+msgstr "LUKS 默认 PBKDF2 迭代时间（毫秒）"
 
 #: src/cryptsetup.c:1506 src/cryptsetup_reencrypt.c:1289
 msgid "msecs"
@@ -1224,7 +1235,7 @@ msgstr "不要请求确认"
 
 #: src/cryptsetup.c:1508
 msgid "Timeout for interactive passphrase prompt (in seconds)"
-msgstr ""
+msgstr "交互式密码提示符超时长度（秒）"
 
 #: src/cryptsetup.c:1508
 msgid "secs"
@@ -1232,7 +1243,7 @@ msgstr "秒"
 
 #: src/cryptsetup.c:1509 src/cryptsetup_reencrypt.c:1291
 msgid "How often the input of the passphrase can be retried"
-msgstr ""
+msgstr "输入密码的最大重试频率"
 
 #: src/cryptsetup.c:1510
 msgid "Align payload at <n> sector boundaries - for luksFormat"
@@ -1240,7 +1251,7 @@ msgstr ""
 
 #: src/cryptsetup.c:1511
 msgid "File with LUKS header and keyslots backup."
-msgstr ""
+msgstr "带有 LUKS 数据头和密钥槽备份的文件。"
 
 #: src/cryptsetup.c:1512 src/cryptsetup_reencrypt.c:1292
 msgid "Use /dev/random for generating volume key."
@@ -1260,23 +1271,23 @@ msgstr "设备使用的 UUID 已占用。"
 
 #: src/cryptsetup.c:1516
 msgid "Allow discards (aka TRIM) requests for device."
-msgstr ""
+msgstr "允许设备的 discard（或称 TRIM）请求。"
 
 #: src/cryptsetup.c:1517
 msgid "Device or file with separated LUKS header."
-msgstr ""
+msgstr "带有分离 LUKS 数据头的设备或文件。"
 
 #: src/cryptsetup.c:1518
 msgid "Do not activate device, just check passphrase."
-msgstr ""
+msgstr "不要激活设备，仅检查密码。"
 
 #: src/cryptsetup.c:1519
 msgid "Use hidden header (hidden TCRYPT device)."
-msgstr ""
+msgstr "使用隐藏数据头（隐藏 TCRYPT 设备）"
 
 #: src/cryptsetup.c:1520
 msgid "Device is system TCRYPT drive (with bootloader)."
-msgstr ""
+msgstr "设备为系统 TCRYPT 驱动器（带有引导器）。"
 
 #: src/cryptsetup.c:1521
 msgid "Use backup (secondary) TCRYPT header."
