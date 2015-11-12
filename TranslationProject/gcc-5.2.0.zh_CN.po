@@ -2,14 +2,15 @@
 # Copyright (C) 2005 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gcc package.
 # Meng Jie <zuxy.meng@gmail.com>, 2005-2014.
+# Jeff Bai <jeffbai@aosc.xyz>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-11-01 11:55-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-11-12 07:44-0700\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: C:/MSYS/source/gcc-4.6.0/gcc\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: cfgrtl.c:2698
 msgid "flow control insn inside a basic block"
@@ -1208,14 +1209,12 @@ msgid "In function %qs"
 msgstr "在函数%qs中"
 
 #: langhooks.c:477 cp/error.c:3205
-#, fuzzy
 msgid "    inlined from %qs at %r%s:%d:%d%R"
-msgstr "    内联自%qs于 %s:%d:%d"
+msgstr "    内联自%qs于 %r%s:%d:%d%R"
 
 #: langhooks.c:482 cp/error.c:3210
-#, fuzzy
 msgid "    inlined from %qs at %r%s:%d%R"
-msgstr "    内联自%qs于 %s:%d"
+msgstr "    内联自%qs于 %r%s:%d%R"
 
 #: langhooks.c:488 cp/error.c:3216
 #, c-format
@@ -3693,9 +3692,8 @@ msgid "-mno-altivec disables vsx"
 msgstr "-mno-altivec 禁用了 VSX"
 
 #: config/rs6000/rs6000.c:3652
-#, fuzzy
 msgid "-mquad-memory requires 64-bit mode"
-msgstr "--resource 需要 -o"
+msgstr "-mquad-memory 需要 64 位模式"
 
 #: config/rs6000/rs6000.c:3655
 msgid "-mquad-memory-atomic requires 64-bit mode"
@@ -4143,7 +4141,7 @@ msgstr "地址偏移量不是一个常量"
 
 #: c/c-objc-common.c:173
 msgid "aka"
-msgstr ""
+msgstr "或称"
 
 #: c/c-objc-common.c:200
 msgid "({anonymous})"
@@ -4487,14 +4485,12 @@ msgid "%s: In instantiation of %q#D:\n"
 msgstr "对%q#D的显式实例化"
 
 #: cp/error.c:3296
-#, fuzzy
 msgid "%r%s:%d:%d:%R   "
-msgstr "  -R       读取由 -S 选项所保存的新闻"
+msgstr "%r%s:%d:%d:%R   "
 
 #: cp/error.c:3299
-#, fuzzy
 msgid "%r%s:%d:%R   "
-msgstr "  -R       读取由 -S 选项所保存的新闻"
+msgstr "%r%s:%d:%R   "
 
 #: cp/error.c:3307
 #, fuzzy, c-format
@@ -4980,9 +4976,8 @@ msgid "asynchronous argument"
 msgstr "参数"
 
 #: fortran/resolve.c:2255
-#, fuzzy
 msgid "optional argument"
-msgstr " 选项：\n"
+msgstr "可选参数"
 
 #: fortran/resolve.c:2260
 #, fuzzy
@@ -5030,9 +5025,8 @@ msgid "polymorphic argument"
 msgstr "源类型不是多态的"
 
 #: fortran/resolve.c:2305
-#, fuzzy
 msgid "NO_ARG_CHECK attribute"
-msgstr "  -Xassembler <参数>       将 <参数> 传递给汇编器\n"
+msgstr "NO_ARG_CHECK 属性"
 
 #. As assumed-type is unlimited polymorphic (cf. above).
 #. See also TS 29113, Note 6.1.
@@ -5517,9 +5511,8 @@ msgid "cannot specify -static with -fsanitize=address"
 msgstr ""
 
 #: gcc.c:800
-#, fuzzy
 msgid "cannot specify -static with -fsanitize=thread"
-msgstr "-fdirectives-only 与 -traditional 不兼容"
+msgstr "不能同时指定 -static 及 -fsanitize=thread"
 
 #: gcc.c:938 ada/gcc-interface/lang-specs.h:33 java/jvspec.c:79
 msgid "-pg and -fomit-frame-pointer are incompatible"
@@ -6190,9 +6183,8 @@ msgid "Conform to the ISO Fortran 2008 standard"
 msgstr "遵循 ISO Fortran 2008 标准"
 
 #: fortran/lang.opt:731
-#, fuzzy
 msgid "Conform to the ISO Fortran 2008 standard including TS 29113"
-msgstr "遵循 ISO Fortran 2008 标准"
+msgstr "遵循 ISO Fortran 2008 标准，包括 TS 29113"
 
 #: fortran/lang.opt:735
 msgid "Conform to the ISO Fortran 95 standard"
@@ -7325,9 +7317,8 @@ msgid "Enable Objective-C setjmp exception handling runtime"
 msgstr "启用 Objective-C setjmp 异常处理运行时"
 
 #: c-family/c.opt:1294
-#, fuzzy
 msgid "Conform to the Objective-C 1.0 language as implemented in GCC 4.0"
-msgstr "遵循 ISO 1990 C 标准于 1994 年修订的版本"
+msgstr "遵循于 GCC 4.0 实现的 Ojbective-C 1.0 语言"
 
 #: c-family/c.opt:1298
 #, fuzzy
@@ -7585,9 +7576,8 @@ msgid ""
 msgstr "遵循 ISO 1998 C++ 标准，也支持 GNU 扩展"
 
 #: c-family/c.opt:1572
-#, fuzzy
 msgid "Conform to the ISO 2011 C++ standard"
-msgstr "遵循 ISO 1990 C 标准"
+msgstr "遵循 ISO 2011 C++ 标准"
 
 #: c-family/c.opt:1576
 #, fuzzy
@@ -7600,23 +7590,20 @@ msgid "Deprecated in favor of -std=c++14"
 msgstr "不建议使用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1584
-#, fuzzy
 msgid ""
 "Conform to the ISO 2014 C++ standard (experimental and incomplete support)"
-msgstr "遵循 ISO 201X C 标准草案(试验性质的不完全支持)"
+msgstr "遵循 ISO 2014 C++ 标准(试验性质的不完全支持)"
 
 #: c-family/c.opt:1588
-#, fuzzy
 msgid ""
 "Conform to the ISO 2017(?) C++ draft standard (experimental and incomplete "
 "support)"
-msgstr "遵循 ISO 201X C 标准草案(试验性质的不完全支持)"
+msgstr "遵循 ISO 2017(?) C++ 标准草案(试验性质的不完全支持)"
 
 #: c-family/c.opt:1595 c-family/c.opt:1691
-#, fuzzy
 msgid ""
 "Conform to the ISO 2011 C standard (experimental and incomplete support)"
-msgstr "遵循 ISO 201X C 标准草案(试验性质的不完全支持)"
+msgstr "遵循 ISO 2011 C 标准(试验性质的不完全支持)"
 
 #: c-family/c.opt:1599
 #, fuzzy
@@ -7636,16 +7623,14 @@ msgid "Deprecated in favor of -std=c99"
 msgstr "不建议使用，请改用 -std=c99"
 
 #: c-family/c.opt:1619 c-family/c.opt:1624
-#, fuzzy
 msgid "Conform to the ISO 1998 C++ standard revised by the 2003 technical"
-msgstr "遵循 ISO 1998 C++ 标准，也支持 GNU 扩展"
+msgstr "遵循 ISO 1998 C++ 标准于 2003 年修订的版本"
 
 #: c-family/c.opt:1629
-#, fuzzy
 msgid ""
 "Conform to the ISO 2011 C++ standard with GNU extensions (experimental and "
 "incomplete support)"
-msgstr "遵循 ISO 201X C 标准草案和 GNU 扩展(试验性质的不完全支持)"
+msgstr "遵循 ISO 2011 C++ 标准和 GNU 扩展(试验性质的不完全支持)"
 
 #: c-family/c.opt:1633
 #, fuzzy
@@ -7653,25 +7638,22 @@ msgid "Deprecated in favor of -std=gnu++11"
 msgstr "不建议使用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1640
-#, fuzzy
 msgid ""
 "Conform to the ISO 2014 C++ standard with GNU extensions (experimental and "
 "incomplete support)"
-msgstr "遵循 ISO 201X C 标准草案和 GNU 扩展(试验性质的不完全支持)"
+msgstr "遵循 ISO 2014 C++ 标准和 GNU 扩展(试验性质的不完全支持)"
 
 #: c-family/c.opt:1644
-#, fuzzy
 msgid ""
 "Conform to the ISO 201z(7?) C++ draft standard with GNU extensions "
 "(experimental and incomplete support)"
-msgstr "遵循 ISO 201X C 标准草案和 GNU 扩展(试验性质的不完全支持)"
+msgstr "遵循 ISO 201z(7?) C++ 标准草案和 GNU 扩展(试验性质的不完全支持)"
 
 #: c-family/c.opt:1651
-#, fuzzy
 msgid ""
 "Conform to the ISO 2011 C standard with GNU extensions (experimental and "
 "incomplete support)"
-msgstr "遵循 ISO 201X C 标准草案和 GNU 扩展(试验性质的不完全支持)"
+msgstr "遵循 ISO 2011 C 标准和 GNU 扩展(试验性质的不完全支持)"
 
 #: c-family/c.opt:1655
 #, fuzzy
@@ -7711,9 +7693,8 @@ msgid "Do not predefine system-specific and GCC-specific macros"
 msgstr "不预定义系统或 GCC 特定的宏"
 
 #: ada/gcc-interface/lang.opt:61
-#, fuzzy
 msgid "Synonym of -gnatk8"
-msgstr "-Wcomment 的同义词"
+msgstr "-gnatk8 的同义词"
 
 #: ada/gcc-interface/lang.opt:69
 #, fuzzy
@@ -8333,14 +8314,12 @@ msgid "Specify TLS dialect"
 msgstr ""
 
 #: config/aarch64/aarch64.opt:100
-#, fuzzy
 msgid "-march=ARCH\tUse features of architecture ARCH"
-msgstr "-mcpu=\t使用指定 CPU 的特性和调度代码"
+msgstr "-march=ARCH\t使用指定架构 ARCH 的特性"
 
 #: config/aarch64/aarch64.opt:104
-#, fuzzy
 msgid "-mcpu=CPU\tUse features of and optimize for CPU"
-msgstr "-mcpu=\t使用指定 CPU 的特性和调度代码"
+msgstr "-mcpu=CPU\t使用指定 CPU 的特性并为之优化"
 
 #: config/aarch64/aarch64.opt:108
 #, fuzzy
@@ -8348,9 +8327,8 @@ msgid "-mtune=CPU\tOptimize for CPU"
 msgstr "-mtune=\t为指定的 CPU 调度代码"
 
 #: config/aarch64/aarch64.opt:112
-#, fuzzy
 msgid "-mabi=ABI\tGenerate code that conforms to the specified ABI"
-msgstr "-mabi=ABI\t生成遵循给定 ABI 的代码"
+msgstr "-mabi=ABI\t生成遵循指定 ABI 的代码"
 
 #: config/aarch64/aarch64.opt:116
 #, fuzzy
@@ -10517,9 +10495,8 @@ msgid "Use given SPARC-V9 code model"
 msgstr "使用给定的 SPARC-V9 代码模型"
 
 #: config/sparc/sparc.opt:203
-#, fuzzy
 msgid "Enable debug output"
-msgstr "-mdebug=\t启用调试输出"
+msgstr "开启调试输出"
 
 #: config/sparc/sparc.opt:207
 msgid "Enable strict 32-bit psABI struct return checking."
@@ -10754,9 +10731,8 @@ msgid "Generate isel instructions"
 msgstr "生成 isel 指令"
 
 #: config/rs6000/rs6000.opt:342
-#, fuzzy
 msgid "Deprecated option.  Use -mno-isel instead"
-msgstr "-misel=yes/no\t不建议使用的选项。请改用 -misel/-mno-isel"
+msgstr "该选项已弃用。请换用 -mno-isel"
 
 #: config/rs6000/rs6000.opt:346
 #, fuzzy
@@ -11160,9 +11136,8 @@ msgid "Compile with 32 bit longs and pointers, which is the only supported"
 msgstr "编译与 32 比特长和指标，该项是只有支持"
 
 #: config/tilepro/tilepro.opt:28 config/tilegx/tilegx.opt:26
-#, fuzzy
 msgid "-mcpu=CPU\tUse features of and schedule code for given CPU"
-msgstr "-mcpu=\t使用指定 CPU 的特性和调度代码"
+msgstr "-mcpu=CPU\t使用指定 CPU 的特性和调度代码"
 
 #: config/tilepro/tilepro.opt:32
 #, fuzzy
@@ -11973,9 +11948,9 @@ msgid "Use GP relative sdata/sbss sections"
 msgstr "使用相对 GP 的 sdata/sbss 节"
 
 #: config/microblaze/microblaze.opt:95
-#, fuzzy, c-format
+#, c-format
 msgid "%qs is deprecated; use -fno-zero-initialized-in-bss"
-msgstr "-mno-clearbss已不建议使用；请改用 -fno-zero-initialized-in-bss"
+msgstr "%qs 已弃用；请换用 -fno-zero-initialized-in-bss"
 
 #: config/microblaze/microblaze.opt:96
 msgid "Clear the BSS to zero and place zero initialized in BSS"
@@ -13126,9 +13101,8 @@ msgid "Prevent the use of all floating-point operations"
 msgstr "不允许使用任何浮点操作"
 
 #: config/mips/mips.opt:316
-#, fuzzy
 msgid "Use MCU instructions"
-msgstr "-mmcu=MCU\t选择目标 MCU"
+msgstr "使用 MCU 指令"
 
 #: config/mips/mips.opt:320
 msgid "Do not use a cache-flushing function before calling stack trampolines"
@@ -16924,9 +16898,9 @@ msgid "partition found but function partition flag not set"
 msgstr ""
 
 #: cfgrtl.c:2493
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "verify_flow_info: REG_BR_PROB does not match cfg %i %i"
-msgstr "verify_flow_info：REG_BR_PROB 不匹配 cfg %wi %i"
+msgstr "verify_flow_info：REG_BR_PROB 不匹配 cfg %i %i"
 
 #: cfgrtl.c:2514
 #, fuzzy, gcc-internal-format
@@ -18996,9 +18970,9 @@ msgid "frame pointer required, but reserved"
 msgstr "为叶函数(不调用其他函数的函数)忽略框架指针"
 
 #: ira.c:5506
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "for %qD"
-msgstr "作为%qD"
+msgstr "为 %qD"
 
 #: lra-assigns.c:1406 reload1.c:1288
 #, gcc-internal-format
@@ -19510,16 +19484,17 @@ msgid "%<-fsplit-stack%> is not supported by this compiler configuration"
 msgstr "%<-fsplit-stack%>只在 GNU/Linux 下被支持"
 
 #: opts.c:894
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-fsanitize=address is incompatible with -fsanitize=kernel-address"
-msgstr "-fdirectives-only 与 -traditional 不兼容"
+msgstr "-fsanitize=address 与 -fsanitize=kernel-address 不兼容"
 
 #: opts.c:902
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid ""
 "-fsanitize=address and -fsanitize=kernel-address are incompatible with -"
 "fsanitize=thread"
-msgstr "-fdirectives-only 与 -traditional 不兼容"
+msgstr ""
+"-fsanitize=address 及 -fsanitize=kernel-address 与 -fsanitize=thread 不兼容"
 
 #: opts.c:908
 #, fuzzy, gcc-internal-format
@@ -20276,9 +20251,9 @@ msgid "Alias and target's comdat groups differs"
 msgstr ""
 
 #: symtab.c:1108 symtab.c:1145
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "symtab_node::verify failed"
-msgstr "verify_cgraph_node 失败"
+msgstr "symtab_node::verify 失败"
 
 #: symtab.c:1141
 #, gcc-internal-format
@@ -20514,11 +20489,11 @@ msgid "-fstack-protector not supported for this target"
 msgstr "-fstack-protector 在此目标机上不受支持"
 
 #: toplev.c:1663
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid ""
 "-fsanitize=address and -fsanitize=kernel-address are not supported for this "
 "target"
-msgstr "-fdata-sections 在此目标机上不受支持"
+msgstr "-fsanitize=address 及 -fsanitize=kernel-address 在此目标机上不受支持"
 
 #: toplev.c:1671
 #, fuzzy, gcc-internal-format
@@ -24945,9 +24920,9 @@ msgid "subframework include %s conflicts with framework include"
 msgstr "子框架包含 %s 与框架包含冲突"
 
 #: config/darwin-c.c:636
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "unknown value %qs of -mmacosx-version-min"
-msgstr "-mmacosx-version-min 的值%qs未知"
+msgstr "-mmacox-version-min 的值 %qs 未知"
 
 #: config/darwin-driver.c:49
 #, fuzzy, gcc-internal-format
@@ -25010,10 +24985,11 @@ msgid ""
 msgstr "%<-fobjc-abi-version%> >= 2 只在%<-m64%>目标下支持%<-fnext-runtime%>"
 
 #: config/darwin.c:3209
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid ""
 "%<-mdynamic-no-pic%> overrides %<-fpic%>, %<-fPIC%>, %<-fpie%> or %<-fPIE%>"
-msgstr "-mdynamic-no-pic 覆盖了 -fpic 或 -fPIC"
+msgstr ""
+"%<-mdynamic-no-pic%> 覆盖了 %<-fpic%>, %<-fPIC%>, %<-fpie%> 及 %<-fPIE%>"
 
 #: config/darwin.c:3397
 #, fuzzy, gcc-internal-format
@@ -25175,9 +25151,9 @@ msgstr "%qs后缺少宏名"
 
 #. CPU name not found in list.
 #: config/aarch64/aarch64.c:6776
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "unknown value %qs for -mcpu"
-msgstr "-mcpu 开关的值%qs错误"
+msgstr "-mcpu 的值%qs未知"
 
 #. CPU name not found in list.
 #: config/aarch64/aarch64.c:6800
@@ -26102,9 +26078,9 @@ msgid "strange device name %qs after %qs: bad character %qc"
 msgstr "specs 在 %ld 字符后文件格式错误"
 
 #: config/bfin/bfin.c:2387
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mfdpic is not supported, please use a bfin-linux-uclibc target"
-msgstr "-mfdpic 未被支持，请使用 bfin-linux-uclibc 目标"
+msgstr "-mfdpic 不受支持，请使用 bfin-linux-uclibc 目标"
 
 #: config/bfin/bfin.c:2392
 #, gcc-internal-format
@@ -26421,9 +26397,9 @@ msgid "-ms2600 is used without -ms"
 msgstr "-ms2600 未与 -ms 一起使用"
 
 #: config/h8300/h8300.c:381
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mn is used without -mh or -ms or -msx"
-msgstr "-mn 未与 -mh 或 -ms 一起使用"
+msgstr "-mn 未与 -mh, -ms 或 -msx 一起使用"
 
 #: config/h8300/h8300.c:387
 #, fuzzy, gcc-internal-format
@@ -26534,9 +26510,9 @@ msgid "code model %s does not support PIC mode"
 msgstr "代码模式 %s 在 PIC 模式下不受支持"
 
 #: config/i386/i386.c:3604
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-masm=intel not supported in this configuration"
-msgstr "-m%s 在此配置下不受支持"
+msgstr "-masm=intel 在此配置下不受支持"
 
 #: config/i386/i386.c:3609
 #, gcc-internal-format, gfc-internal-format
@@ -26594,9 +26570,9 @@ msgid "-mpreferred-stack-boundary is not supported for this target"
 msgstr "堆栈限制在此目标机上不受支持"
 
 #: config/i386/i386.c:4038
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "-mpreferred-stack-boundary=%d is not between %d and %d"
-msgstr "-mincoming-stack-boundary=%d 不在 %d 和 12 之间"
+msgstr "-mpreferred-stack-boundary=%d 的值不在 %d 和 %d 之间"
 
 #: config/i386/i386.c:4060
 #, gcc-internal-format, gfc-internal-format
@@ -26604,9 +26580,9 @@ msgid "-mincoming-stack-boundary=%d is not between %d and 12"
 msgstr "-mincoming-stack-boundary=%d 不在 %d 和 12 之间"
 
 #: config/i386/i386.c:4074
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mnop-mcount is not compatible with this target"
-msgstr "-mno-fentry 与 SEH 不兼容"
+msgstr "-mnop-mcount 与此目标不兼容"
 
 #: config/i386/i386.c:4077
 #, fuzzy, gcc-internal-format
@@ -27154,9 +27130,9 @@ msgid "%q+D:'selectany' attribute applies only to initialized objects"
 msgstr "%q+D：‘selectany’属性只对已初始化的对象有效"
 
 #: config/i386/cygming.h:205
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-fPIC ignored for target (all code is position independent)"
-msgstr "-f%s 在目标机上被忽略(所有代码都是与位置无关的)"
+msgstr "-fPIC 在目标机上被忽略 (所有代码都是与位置无关的)"
 
 #: config/i386/cygming.h:211
 #, gcc-internal-format, gfc-internal-format
@@ -27765,9 +27741,9 @@ msgid "%<-march=%s%> requires %<-mfp32%>"
 msgstr "%<-march=%s%>与所选 ABI 不兼容"
 
 #: config/mips/mips.c:17432
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%<-mfpxx%> requires %<-mlra%>"
-msgstr "-m64 需要 PowerPC64 CPU"
+msgstr "%<-mfpxx%> 需要 %<-mlra%>"
 
 #: config/mips/mips.c:17448 config/mips/mips.c:17450 config/mips/mips.c:17463
 #, fuzzy, gcc-internal-format
@@ -28207,9 +28183,9 @@ msgstr "对齐边界(%u) 对 %s 来说超过了全局共同数据的最大对齐
 
 #. Address spaces are currently only supported by C.
 #: config/rl78/rl78.c:379
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mes0 can only be used with C"
-msgstr "-mmulticore 只能用于 BF561"
+msgstr "-mes0 仅适用于 C 源码"
 
 #: config/rl78/rl78.c:757
 #, fuzzy, gcc-internal-format
@@ -28430,9 +28406,9 @@ msgid "-mhard-dfp requires -mhard-float"
 msgstr "不支持 -mhard-float"
 
 #: config/rs6000/rs6000.c:3636
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mupper-regs-df requires -mvsx"
-msgstr "--resource 需要 -o"
+msgstr "-mupper-regs-df 需要 -mvsx"
 
 #: config/rs6000/rs6000.c:3643
 #, gcc-internal-format
@@ -28930,9 +28906,9 @@ msgstr "需要 -maix64：目前尚不支持 64 位计算和 32 位寻址混用"
 
 #: config/rs6000/aix61.h:47 config/rs6000/freebsd64.h:107
 #: config/rs6000/linux64.h:139
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mcmodel incompatible with other toc options"
-msgstr "-fdirectives-only 与 -traditional 不兼容"
+msgstr "-mcmodel incompatible 与其他 toc 选项不兼容"
 
 #: config/rs6000/e500.h:37
 #, fuzzy, gcc-internal-format
@@ -28940,9 +28916,9 @@ msgid "AltiVec and SPE instructions cannot coexist"
 msgstr "AltiVec 和 E500 指令不能共存"
 
 #: config/rs6000/e500.h:39
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "VSX and SPE instructions cannot coexist"
-msgstr "VSX 和 E500 指令不能共存"
+msgstr "VSX 和 SPE 指令不能共存"
 
 #: config/rs6000/e500.h:41
 #, fuzzy, gcc-internal-format
@@ -28960,9 +28936,9 @@ msgid "-m64 requires a PowerPC64 cpu"
 msgstr "-m64 需要 PowerPC64 CPU"
 
 #: config/rs6000/linux64.h:112
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mcall-aixdesc incompatible with -mabi=elfv2"
-msgstr "-mas100-syntax 与 -gdwarf 不兼容"
+msgstr "-mcall-aixdesc 与 -mabi=elfv2 不兼容"
 
 #. The macro SUBTARGET_OVERRIDE_OPTIONS is provided for subtargets, to
 #. get control in TARGET_OPTION_OVERRIDE.
@@ -29120,9 +29096,9 @@ msgid ""
 msgstr "硬件十进制浮点指令在 ESA/390 模式下不可用"
 
 #: config/s390/s390.c:12027
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "-mhard-dfp can%'t be used in conjunction with -msoft-float"
-msgstr "-mhard-dfp 不能与 -msoft-float 同时使用"
+msgstr "-mhard-dfp can%'t be used in conjunction with -msoft-float"
 
 #: config/s390/s390.c:12055
 #, gcc-internal-format
@@ -29261,9 +29237,9 @@ msgid "parameter list does not match a valid signature for %s()"
 msgstr "形参表不匹配 %s() 的有效签名"
 
 #: config/spu/spu.c:291
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "bad value (%s) for -march= switch"
-msgstr "-mcmodel= 值(%s)不正确"
+msgstr "-march= 的值(%s)不正确"
 
 #: config/spu/spu.c:302
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -36882,9 +36858,9 @@ msgid "literal operator with C linkage"
 msgstr "特例化模板有 C 链接"
 
 #: cp/decl.c:7882
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "%qD has invalid argument list"
-msgstr "-fdebug-prefix-map 的参数%qs无效"
+msgstr "%qD 带有无效参数列表"
 
 #: cp/decl.c:7890
 #, fuzzy, gcc-internal-format
@@ -41032,9 +41008,9 @@ msgid "expected %<{%> or %<:%>"
 msgstr "需要%<{%>或%<:%>"
 
 #: cp/parser.c:20319
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "cannot specify %<override%> for a class"
-msgstr "  --bootclasspath PATH    覆盖内建的类路径\n"
+msgstr "不能为类指定 %<override%>"
 
 #: cp/parser.c:20327
 #, fuzzy, gcc-internal-format
