@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 20:49-0700\n"
-"PO-Revision-Date: 2015-11-12 22:13-0700\n"
+"PO-Revision-Date: 2015-11-12 22:26-0700\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.5\n"
-"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
@@ -652,13 +652,13 @@ msgid ""
 "Copyright (C) 1990-1992 Mark Adler, Richard B. Wales, Jean-loup Gailly,\n"
 "Kai Uwe Rommel and Igor Mandrichenko on recmatch()\n"
 msgstr ""
-"版权所有 (C) 1997-2014 Erwin Waterlander\n"
-"版权所有 (C) 1994-2002 Ondrej Popp 贡献 C3PO 支持\n"
-"版权所有 (C) 1995-1996 DJ Delorie 贡献 _fixpath() 支持\n"
-"版权所有 (C) 1995-1996 Borja Etxebarria 及 Olivier Sirol 贡献 Ninux Czo "
+"Copyright (C) 1997-2014 Erwin Waterlander\n"
+"Copyright (C) 1994-2002 Ondrej Popp 贡献 C3PO 支持\n"
+"Copyright (C) 1995-1996 DJ Delorie 贡献 _fixpath() 支持\n"
+"Copyright (C) 1995-1996 Borja Etxebarria 及 Olivier Sirol 贡献 Ninux Czo "
 "Directory\n"
-"版权所有 (C) 1994-1996 Jason Mathews 贡献 DOSDIR 支持\n"
-"版权所有 (C) 1990-1992 Mark Adler, Richard B. Wales, Jean-loup Gailly,\n"
+"Copyright (C) 1994-1996 Jason Mathews 贡献 DOSDIR 支持\n"
+"Copyright (C) 1990-1992 Mark Adler, Richard B. Wales, Jean-loup Gailly,\n"
 "Kai Uwe Rommel 及 Igor Mandrichenko 贡献 recmatch() 支持\n"
 
 #: wcd.c:2343
@@ -800,7 +800,7 @@ msgstr "无法切换到 %s\n"
 #: wcddir.c:104
 #, c-format
 msgid "%lu (\"%s\") reported by \"%s\".\n"
-msgstr "由 \"%3$s\" 报告 %1$lu（\"%2$s\"）。\n"
+msgstr "\"%3$s\" 报告了 %1$lu（\"%2$s\"）。\n"
 
 #: wcddir.c:127
 msgid "access denied.\n"
@@ -1011,11 +1011,11 @@ msgstr "# 或 p 或 <BS>    后退到同名目录"
 
 #: graphics.c:1802
 msgid "^ or a            go to beginning of line"
-msgstr "^ 或 a            前往行头"
+msgstr "^ 或 a            前往行首"
 
 #: graphics.c:1803
 msgid "$ or e            go to end of line"
-msgstr "$ 或 e            前往行末"
+msgstr "$ 或 e            前往行尾"
 
 #: graphics.c:1804
 msgid "1                 go to root dir"
@@ -1055,7 +1055,7 @@ msgstr "t                 开启/关闭居中模式"
 
 #: graphics.c:1819
 msgid "T                 toggle between line drawing and ASCII characters"
-msgstr "T                 切换线条或 ASCII 字符绘图"
+msgstr "T                 切换制表符或 ASCII 字符绘图"
 
 #: graphics.c:1820
 msgid "m                 toggle between compact and wide tree"
@@ -1111,11 +1111,11 @@ msgstr "CTRL-p            后退到同名目录"
 
 #: graphics.c:1840
 msgid "CTRL-a            go to beginning of line"
-msgstr "CTRL-a            前往行头"
+msgstr "CTRL-a            前往行首"
 
 #: graphics.c:1841
 msgid "CTRL-e            go to end of line"
-msgstr "CTRL-e            前往行末"
+msgstr "CTRL-e            前往行尾"
 
 #: graphics.c:1842
 msgid "CTRL-g            go to last dir"
