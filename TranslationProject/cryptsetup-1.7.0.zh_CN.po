@@ -1,7 +1,7 @@
 # Chinese simplified translation for cryptsetup.
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the cryptsetup package.
-# Mingcong Bai <jeffbaichina97@gmail.com>, 2015.
+# Mingcong Bai <jeffbai@aosc.xyz>, 2015.
 # Mingye Wang <arthur200126@gmail.com>, 2015.
 #
 msgid ""
@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: dm-crypt@saout.de\n"
 "POT-Creation-Date: 2015-10-29 13:27+0100\n"
 "PO-Revision-Date: 2015-11-12 12:11-0700\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
