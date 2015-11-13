@@ -6,7 +6,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: cryptsetup 1.6.8\n"
+"Project-Id-Version: cryptsetup 1.7.0\n"
 "Report-Msgid-Bugs-To: dm-crypt@saout.de\n"
 "POT-Creation-Date: 2015-10-29 13:27+0100\n"
 "PO-Revision-Date: 2015-11-12 12:11-0700\n"
