@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 20:49-0700\n"
-"PO-Revision-Date: 2015-11-12 22:26-0700\n"
+"PO-Revision-Date: 2015-11-13 07:48-0700\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -127,7 +127,7 @@ msgstr "文件：%s，行：%d，"
 #: wcd.c:1507 wcd.c:1567 wcd.c:1626
 #, c-format
 msgid " length: %d\n"
-msgstr "长度：%d\n"
+msgstr " 长度：%d\n"
 
 #: wcd.c:2129
 #, c-format
@@ -171,7 +171,7 @@ msgstr "  -aa                     将当前及所有父路径添加到目录树�
 #: wcd.c:2136
 #, c-format
 msgid "  -A PATH                 Add tree from PATH\n"
-msgstr "  -A PATH                从目录（PATH）添加目录树\n"
+msgstr "  -A 目录                 从 <目录> 添加目录树\n"
 
 #: wcd.c:2137
 #, c-format
@@ -186,7 +186,7 @@ msgstr "  -c,  --direct-cd        直接 CD（目录切换）模式\n"
 #: wcd.c:2139
 #, c-format
 msgid "  -d DRIVE                set DRIVE for stack & go files (DOS)\n"
-msgstr "  -d DRIVE                为 stack & go 文件设置 DRIVE 变量 (DOS)\n"
+msgstr "  -d 驱动器                设置存放 stack & go 文件的 <驱动器> (DOS)\n"
 
 #: wcd.c:2140
 #, c-format
@@ -203,17 +203,17 @@ msgstr "  -aa                     将当前及所有父路径添加到附加目�
 #: wcd.c:2142
 #, c-format
 msgid "  -E PATH                 add tree from PATH to Extra treefile\n"
-msgstr "  -E PATH                将目录树内容添加到附加目录树文件\n"
+msgstr "  -E 目录                  将 <目录> 内容添加到附加目录树文件\n"
 
 #: wcd.c:2143
 #, c-format
 msgid "  -f FILE                 use extra treeFile\n"
-msgstr "  -f FILE                 使用附加目录树文件\n"
+msgstr "  -f 文件                 使用附加目录树 <文件>\n"
 
 #: wcd.c:2144
 #, c-format
 msgid "  +f FILE                 add extra treeFile\n"
-msgstr "  +f FILE                 添加附加目录树文件\n"
+msgstr "  +f 文件                 添加附加目录树 <文件>\n"
 
 #: wcd.c:2145
 #, c-format
@@ -228,7 +228,7 @@ msgstr "  -g                      图像输出，转储目录树\n"
 #: wcd.c:2147
 #, c-format
 msgid "  -G PATH                 set PATH Go-script\n"
-msgstr "  -G PATH                设置目录的 Go 脚本\n"
+msgstr "  -G 目录                 设置 <目录> 的 Go 脚本\n"
 
 #: wcd.c:2148
 #, c-format
@@ -238,7 +238,7 @@ msgstr "  -GN, --no-go-script     无 Go 脚本\n"
 #: wcd.c:2149
 #, c-format
 msgid "  -h,  --help             show this Help\n"
-msgstr "  -h, --help             显示此帮助信息\n"
+msgstr "  -h, --help              显示此帮助信息\n"
 
 #: wcd.c:2152
 #, c-format
@@ -286,9 +286,9 @@ msgid "  -K,  --color            colors\n"
 msgstr "  -K,  --color            彩色输出\n"
 
 #: wcd.c:2164
-#, fuzzy, c-format
+#, c-format
 msgid "  -l ALIAS                aLias current directory\n"
-msgstr "  -l ALIAS                为当前目录指定别名\n"
+msgstr "  -l 别名                  为当前目录指定 <别名>\n"
 
 #: wcd.c:2165
 #, c-format
@@ -298,22 +298,22 @@ msgstr "  -L,  --license          显示软件许可证\n"
 #: wcd.c:2166
 #, c-format
 msgid "  -m DIR                  Make DIR, add to treefile\n"
-msgstr "  -m DIR                  创建目录（DIR），并添加到目录树文件\n"
+msgstr "  -m 目录                 创建 <目录>，并添加到目录树文件\n"
 
 #: wcd.c:2167
 #, c-format
 msgid "  -M DIR                  Make DIR, add to extra treefile\n"
-msgstr "  -m DIR                  创建目录（DIR），并添加到附加目录树文件\n"
+msgstr "  -m 目录                  创建 <目录>，并添加到附加目录树文件\n"
 
 #: wcd.c:2168
 #, c-format
 msgid "  -n PATH                 use relative treefile in PATH\n"
-msgstr "  -n PATH                使用目录（PATH）中的相对目录树文件\n"
+msgstr "  -n 目录                 使用 <目录> 中的相对目录树文件\n"
 
 #: wcd.c:2169
 #, c-format
 msgid "  +n PATH                 add relative treefile in PATH\n"
-msgstr "  -n PATH                添加目录（PATH）中的相对目录树文件\n"
+msgstr "  -n 目录                 添加 <目录> 中的相对目录树文件\n"
 
 #: wcd.c:2170
 #, c-format
@@ -323,7 +323,7 @@ msgstr "  -N,  --numbers          使用数字\n"
 #: wcd.c:2171
 #, c-format
 msgid "  -o                      use stdOut\n"
-msgstr "  -N,  --numbers          使用 StdOut\n"
+msgstr "  -o                      使用标准输出\n"
 
 #: wcd.c:2172
 #, c-format
@@ -338,12 +338,12 @@ msgstr "  -q,  --quiet            静默操作\n"
 #: wcd.c:2174
 #, c-format
 msgid "  -r DIR                  Remove DIR\n"
-msgstr "  -r DIR                  移除目录（DIR）\n"
+msgstr "  -r 目录                 移除 <目录>\n"
 
 #: wcd.c:2175
 #, c-format
 msgid "  -rmtree DIR             Remove DIR recursive\n"
-msgstr "  -rmtree DIR             递归移除目录（DIR）\n"
+msgstr "  -rmtree 目录            递归移除 <目录>\n"
 
 #: wcd.c:2176
 #, c-format
@@ -353,13 +353,13 @@ msgstr "  -s                      从 $HOME 扫描磁盘\n"
 #: wcd.c:2177
 #, c-format
 msgid "  -S PATH                 Scan disk from PATH\n"
-msgstr "  -S PATH                从目录（PATH）扫描磁盘\n"
+msgstr "  -S 目录                 从 <目录> 扫描磁盘\n"
 
 #: wcd.c:2178
 #, c-format
 msgid ""
 "  +S PATH                 Scan disk from PATH, create relative treefile\n"
-msgstr "  +S PATH                从目录（PATH）扫描磁盘，创建相对目录树文件\n"
+msgstr "  +S 目录                 从 <目录> 扫描磁盘，创建相对目录树文件\n"
 
 #: wcd.c:2179
 #, c-format
@@ -394,12 +394,12 @@ msgstr "  -Td, --cjk-width        支持传统 CJK 字体\n"
 #: wcd.c:2185
 #, c-format
 msgid "  -u USER                 use USER's treefile\n"
-msgstr "  -u USER                 使用用户（USER）的目录树文件\n"
+msgstr "  -u 用户                 使用 <用户> 的目录树文件\n"
 
 #: wcd.c:2186
 #, c-format
 msgid "  +u USER                 add USER's treefile\n"
-msgstr "  +u USER                 为用户（USER）添加目录树文件\n"
+msgstr "  +u 用户                 为 <用户> 添加目录树文件\n"
 
 #: wcd.c:2187
 #, c-format
@@ -419,12 +419,12 @@ msgstr "  -w,  --wild-match-only  仅使用通配符匹配\n"
 #: wcd.c:2190
 #, c-format
 msgid "  -x PATH                 eXclude PATH during disk scan\n"
-msgstr "  -x PATH                 磁盘扫描时排除指定目录（PATH）\n"
+msgstr "  -x 目录                 磁盘扫描时排除指定 <目录>\n"
 
 #: wcd.c:2191
 #, c-format
 msgid "  -xf FILE                eXclude paths from FILE\n"
-msgstr "  -xf FILE                从指定文件（FILE）中确定要排除的目录\n"
+msgstr "  -xf 文件                从指定 <文件> 中确定要排除的目录\n"
 
 #: wcd.c:2192
 #, c-format
@@ -434,7 +434,7 @@ msgstr "  -y,  --assume-yes       为所有询问项目假设肯定回应\n"
 #: wcd.c:2193
 #, c-format
 msgid "  -z NUMBER               set max stack siZe\n"
-msgstr "  -z NUMBER               设置目录栈的最大大小\n"
+msgstr "  -z 大小                 设置目录栈的最大 <大小>\n"
 
 #: wcd.c:2194
 #, c-format
@@ -454,7 +454,9 @@ msgstr "  =                       显示目录栈\n"
 #: wcd.c:2205 wcd.c:2334
 #, c-format
 msgid "wcd %s (%s) - Wherever Change Directory\n"
-msgstr "wcd %s (%s) - 随时随地切换目录\n"
+msgstr ""
+"wcd %s (%s) - 目录随意换\n"
+"\n"
 
 #: wcd.c:2206
 #, c-format
@@ -633,7 +635,7 @@ msgstr "带有 Unicode 规范化支持。\n"
 #: wcd.c:2325
 #, c-format
 msgid "Without Unicode normalization.\n"
-msgstr "不带有 Unicode 规范化支持。\n"
+msgstr "不带有 Unicode 归一化支持。\n"
 
 #: wcd.c:2328
 #, c-format
@@ -910,14 +912,12 @@ msgid ". or <Right>      scroll 1 right"
 msgstr ", 或 <Right>       向右滚动一个字符"
 
 #: display.c:688 display.c:1181
-#, fuzzy
 msgid "< or [            scroll 10 left"
-msgstr "< or [            向左滚动 10 个字符"
+msgstr "< 或 [            向左滚动 10 个字符"
 
 #: display.c:689 display.c:1182
-#, fuzzy
 msgid "> or ]            scroll 10 right"
-msgstr "> or ]            向右滚动 10 个字符"
+msgstr "> 或 ]            向右滚动 10 个字符"
 
 #: display.c:690 display.c:1183
 msgid "CTRL-a or <HOME>  scroll to beginning"
@@ -1143,7 +1143,7 @@ msgstr "<Esc> 或 CTRL-x   中止搜索模式"
 
 #: graphics.c:1848
 msgid "CTRL-n            repeat last / or ? search"
-msgstr "CTRL-n                 重复上一个 / 或 ? 搜索操作"
+msgstr "CTRL-n            重复上一个 / 或 ? 搜索操作"
 
 #: graphics.c:1856
 msgid "ZOOMING:"
@@ -1171,11 +1171,11 @@ msgstr "w                 压缩：折叠当前及子目录级别"
 
 #: graphics.c:1862
 msgid "y or CTRL-y       uncondense: unfold current and subdir levels"
-msgstr "y or CTRL-y       展开：展开当前及子目录级别"
+msgstr "y 或 CTRL-y       展开：展开当前及子目录级别"
 
 #: graphics.c:1863
 msgid "r or CTRL-r       uncondense: unfold all directories"
-msgstr "r or CTRL-r       展开：展开所有目录"
+msgstr "r 或 CTRL-r       展开：展开所有目录"
 
 #: graphics.c:1864
 msgid "-                 fold directory"
@@ -1183,7 +1183,7 @@ msgstr "-                 折叠目录"
 
 #: graphics.c:1865
 msgid "+ or =            unfold directory"
-msgstr "-                 展开目录"
+msgstr "+ 或 =            展开目录"
 
 #: graphics.c:1866
 msgid "l or <Right>      unfold and go right"
