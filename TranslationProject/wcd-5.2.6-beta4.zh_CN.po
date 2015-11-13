@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 20:49-0700\n"
-"PO-Revision-Date: 2015-11-13 07:48-0700\n"
+"PO-Revision-Date: 2015-11-13 07:49-0700\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.5\n"
-"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
@@ -203,7 +203,7 @@ msgstr "  -aa                     将当前及所有父路径添加到附加目�
 #: wcd.c:2142
 #, c-format
 msgid "  -E PATH                 add tree from PATH to Extra treefile\n"
-msgstr "  -E 目录                  将 <目录> 内容添加到附加目录树文件\n"
+msgstr "  -E 目录                 将 <目录> 内容添加到附加目录树文件\n"
 
 #: wcd.c:2143
 #, c-format
