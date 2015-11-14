@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-11-12 11:57-0700\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2015-11-13 19:27-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-Basepath: C:/MSYS/source/gcc-4.6.0/gcc\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: cfgrtl.c:2698
 msgid "flow control insn inside a basic block"
@@ -5796,7 +5796,7 @@ msgstr "当内建函数不是所选标准的一部分时给出警告"
 #: fortran/lang.opt:270
 #, fuzzy
 msgid "Warn about USE statements that have no ONLY qualifier"
-msgstr "当格式字符串不是字面值时给出警告"
+msgstr "当格式字符串不是字面量时给出警告"
 
 #: fortran/lang.opt:282
 #, fuzzy
@@ -6366,7 +6366,7 @@ msgstr "当在 C 语言中使用了 C 与 C++ 交集以外的构造时给出警�
 #: c-family/c.opt:316
 #, fuzzy
 msgid "Deprecated in favor of -Wc++11-compat"
-msgstr "不建议使用，请改用 -std=gnu99"
+msgstr "已弃用，请改用 -std=gnu99"
 
 #: c-family/c.opt:320
 #, fuzzy
@@ -6445,7 +6445,7 @@ msgstr "当析构函数不是虚函数时给出警告"
 
 #: c-family/c.opt:388
 msgid "Warn if a deprecated compiler feature, class, method, or field is used"
-msgstr "使用不建议的编译器特性、类、方法或字段时给出警告"
+msgstr "使用已弃用的编译器特性、类、方法或字段时给出警告"
 
 #: c-family/c.opt:392
 #, fuzzy
@@ -6486,7 +6486,7 @@ msgstr "对不同枚举类型之间的比较给出警告"
 #: c-family/c.opt:428
 msgid ""
 "This switch is deprecated; use -Werror=implicit-function-declaration instead"
-msgstr "不建议使用此开关；请改用 -Werror=implicit-function-declaration"
+msgstr "已弃用此开关；请改用 -Werror=implicit-function-declaration"
 
 #: c-family/c.opt:432
 #, fuzzy
@@ -6513,7 +6513,7 @@ msgstr "当传递给格式字符串的参数太多时给出警告"
 
 #: c-family/c.opt:452
 msgid "Warn about format strings that are not literals"
-msgstr "当格式字符串不是字面值时给出警告"
+msgstr "当格式字符串不是字面量时给出警告"
 
 #: c-family/c.opt:456
 msgid "Warn about possible security problems with format functions"
@@ -6886,7 +6886,7 @@ msgstr ""
 
 #: c-family/c.opt:826
 msgid "Deprecated.  This switch has no effect"
-msgstr "不建议使用。此开关不起作用。"
+msgstr "已弃用。此开关不起作用。"
 
 #: c-family/c.opt:834
 msgid "Warn about features not present in traditional C"
@@ -7579,12 +7579,12 @@ msgstr "遵循 ISO 2011 C++ 标准"
 #: c-family/c.opt:1576
 #, fuzzy
 msgid "Deprecated in favor of -std=c++11"
-msgstr "不建议使用，请改用 -std=gnu99"
+msgstr "已弃用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1580
 #, fuzzy
 msgid "Deprecated in favor of -std=c++14"
-msgstr "不建议使用，请改用 -std=gnu99"
+msgstr "已弃用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1584
 msgid ""
@@ -7605,7 +7605,7 @@ msgstr "遵循 ISO 2011 C 标准(试验性质的不完全支持)"
 #: c-family/c.opt:1599
 #, fuzzy
 msgid "Deprecated in favor of -std=c11"
-msgstr "不建议使用，请改用 -std=c99"
+msgstr "已弃用，请改用 -std=c99"
 
 #: c-family/c.opt:1603 c-family/c.opt:1607 c-family/c.opt:1675
 msgid "Conform to the ISO 1990 C standard"
@@ -7617,7 +7617,7 @@ msgstr "遵循 ISO 1999 C 标准"
 
 #: c-family/c.opt:1615
 msgid "Deprecated in favor of -std=c99"
-msgstr "不建议使用，请改用 -std=c99"
+msgstr "已弃用，请改用 -std=c99"
 
 #: c-family/c.opt:1619 c-family/c.opt:1624
 msgid "Conform to the ISO 1998 C++ standard revised by the 2003 technical"
@@ -7632,7 +7632,7 @@ msgstr "遵循 ISO 2011 C++ 标准和 GNU 扩展(试验性质的不完全支持)
 #: c-family/c.opt:1633
 #, fuzzy
 msgid "Deprecated in favor of -std=gnu++11"
-msgstr "不建议使用，请改用 -std=gnu99"
+msgstr "已弃用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1640
 msgid ""
@@ -7655,7 +7655,7 @@ msgstr "遵循 ISO 2011 C 标准和 GNU 扩展(试验性质的不完全支持)"
 #: c-family/c.opt:1655
 #, fuzzy
 msgid "Deprecated in favor of -std=gnu11"
-msgstr "不建议使用，请改用 -std=gnu99"
+msgstr "已弃用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1659 c-family/c.opt:1663
 msgid "Conform to the ISO 1990 C standard with GNU extensions"
@@ -7667,7 +7667,7 @@ msgstr "遵循 ISO 1999 C 标准，也支持 GNU 扩展"
 
 #: c-family/c.opt:1671
 msgid "Deprecated in favor of -std=gnu99"
-msgstr "不建议使用，请改用 -std=gnu99"
+msgstr "已弃用，请改用 -std=gnu99"
 
 #: c-family/c.opt:1679
 msgid "Conform to the ISO 1990 C standard as amended in 1994"
@@ -7675,7 +7675,7 @@ msgstr "遵循 ISO 1990 C 标准于 1994 年修订的版本"
 
 #: c-family/c.opt:1687
 msgid "Deprecated in favor of -std=iso9899:1999"
-msgstr "不建议使用，为 -std=iso9899:1999 所取代"
+msgstr "已弃用，为 -std=iso9899:1999 所取代"
 
 #: c-family/c.opt:1698
 msgid "Enable traditional preprocessing"
@@ -8831,7 +8831,7 @@ msgstr "自动对齐跳转目标以减少分支开销"
 
 #: config/xtensa/xtensa.opt:39
 msgid "Intersperse literal pools with code in the text section"
-msgstr "在文本节中的代码节中点缀字面值的共享池"
+msgstr "在文本节中的代码节中点缀字面量的共享池"
 
 #: config/xtensa/xtensa.opt:43
 msgid ""
@@ -8992,7 +8992,7 @@ msgstr "已知寻址模式 (用于 -mcmodel= 选项)："
 
 #: config/i386/i386.opt:309
 msgid "%<-mcpu=%> is deprecated; use %<-mtune=%> or %<-march=%> instead"
-msgstr "不建议使用%<-mcpu=%>；请改用%<-mtune=%>或%<-march=%>"
+msgstr "已弃用%<-mcpu=%>；请改用%<-mtune=%>或%<-march=%>"
 
 #: config/i386/i386.opt:313
 msgid "Generate sin, cos, sqrt for FPU"
@@ -9029,8 +9029,8 @@ msgid ""
 "%<-mintel-syntax%> and %<-mno-intel-syntax%> are deprecated; use %<-"
 "masm=intel%> and %<-masm=att%> instead"
 msgstr ""
-"不建议使用%<-mintel-syntax%>和 %<-mno-intel-syntax%>；请改用%<-masm=intel%>"
-"和%<-masm=att%>"
+"已弃用%<-mintel-syntax%>和 %<-mno-intel-syntax%>；请改用%<-masm=intel%>和%<-"
+"masm=att%>"
 
 #: config/i386/i386.opt:394
 #, fuzzy
@@ -9251,112 +9251,112 @@ msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2 and AVX built-in "
 "functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2 和 AVX 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2 和 AVX 内建函数及代码"
 
 #: config/i386/i386.opt:647
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX and AVX2 built-in "
 "functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 AVX2 内建函数及代码"
-"生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 AVX2 内建函数及"
+"代码"
 
 #: config/i386/i386.opt:651
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2 和 AVX512F 内建函"
-"数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2 和 AVX512F 内"
+"建函数及代码"
 
 #: config/i386/i386.opt:655
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512PF built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512PF 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512PF 内建函数及代码"
 
 #: config/i386/i386.opt:659
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512ER built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512ER 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512ER 内建函数及代码"
 
 #: config/i386/i386.opt:663
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512CD built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512CD 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512CD 内建函数及代码"
 
 #: config/i386/i386.opt:667
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512DQ built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512DQ 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512DQ 内建函数及代码"
 
 #: config/i386/i386.opt:671
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512BW built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512BW 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512BW 内建函数及代码"
 
 #: config/i386/i386.opt:675
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512VL built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512VL 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512VL 内建函数及代码"
 
 #: config/i386/i386.opt:679
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512IFMA built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512IFMA 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512IFMA 内建函数及代码"
 
 #: config/i386/i386.opt:683
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2 and AVX512F "
 "and AVX512VBMI built-in functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
-"AVX512VBMI 内建函数及代码生成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX、AVX2、AVX512F 和 "
+"AVX512VBMI 内建函数及代码"
 
 #: config/i386/i386.opt:687
 msgid ""
 "Support MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX and FMA built-in "
 "functions and code generation"
 msgstr ""
-"支持 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代码生"
-"成"
+"支持生成 MMX、SSE、SSE2、SSE3、SSSE3、SSE4.1、SSE4.2、AVX 和 FMA 内建函数及代"
+"码"
 
 #: config/i386/i386.opt:691
 msgid ""
 "Support MMX, SSE, SSE2, SSE3 and SSE4A built-in functions and code generation"
-msgstr "支持 MMX、SSE、SSE2、SSE3 和 SSE4A 内建函数及代码生成"
+msgstr "支持生成 MMX、SSE、SSE2、SSE3 和 SSE4A 内建函数及代码"
 
 #: config/i386/i386.opt:695
 msgid "Support FMA4 built-in functions and code generation "
-msgstr "支持 FMA4 内建函数及代码生成"
+msgstr "支持生成 FMA4 内建函数及代码"
 
 #: config/i386/i386.opt:699
 msgid "Support XOP built-in functions and code generation "
-msgstr "支持 XOP 内建函数及代码生成"
+msgstr "支持生成 XOP 内建函数及代码"
 
 #: config/i386/i386.opt:703
 msgid "Support LWP built-in functions and code generation "
-msgstr "支持 LWP 内建函数及代码生成"
+msgstr "支持生成 LWP 内建函数及代码"
 
 #: config/i386/i386.opt:707
 msgid ""
@@ -9369,7 +9369,7 @@ msgstr "支持生成 popcnt 指令。"
 
 #: config/i386/i386.opt:715
 msgid "Support BMI built-in functions and code generation"
-msgstr "支持 BMI 内建函数及代码生成"
+msgstr "支持生成 BMI 内建函数及代码"
 
 #: config/i386/i386.opt:719
 #, fuzzy
@@ -9387,11 +9387,11 @@ msgstr ""
 
 #: config/i386/i386.opt:731
 msgid "Support RDSEED instruction"
-msgstr "支持 RDSEED 指令"
+msgstr "支持生成 RDSEED 指令"
 
 #: config/i386/i386.opt:735
 msgid "Support PREFETCHW instruction"
-msgstr "支持 PREFETCHW 指令"
+msgstr "支持生成 PREFETCHW 指令"
 
 #: config/i386/i386.opt:739
 #, fuzzy
@@ -9399,45 +9399,40 @@ msgid "Support flag-preserving add-carry instructions"
 msgstr "支持生成 crc32 指令。"
 
 #: config/i386/i386.opt:743
-#, fuzzy
 msgid "Support CLFLUSHOPT instructions"
-msgstr "支持乘加指令"
+msgstr "支持生成 CLFLUSHOPT 指令"
 
 #: config/i386/i386.opt:747
 msgid "Support CLWB instruction"
-msgstr "支持 CLWB 指令"
+msgstr "支持生成 CLWB 指令"
 
 #: config/i386/i386.opt:751
 msgid "Support PCOMMIT instruction"
-msgstr "支持 PCOMMIT 指令"
+msgstr "支持生成 PCOMMIT 指令"
 
 #: config/i386/i386.opt:755
-#, fuzzy
 msgid "Support FXSAVE and FXRSTOR instructions"
-msgstr "支持乘加指令"
+msgstr "支持生成 FXSAVE 和 FXRSTOR 指令"
 
 #: config/i386/i386.opt:759
-#, fuzzy
 msgid "Support XSAVE and XRSTOR instructions"
-msgstr "支持乘加指令"
+msgstr "支持生成 XSAVE 和 XRSTOR 指令"
 
 #: config/i386/i386.opt:763
 msgid "Support XSAVEOPT instruction"
-msgstr "支持 XSAVEOPT 指令"
+msgstr "支持生成 XSAVEOPT 指令"
 
 #: config/i386/i386.opt:767
-#, fuzzy
 msgid "Support XSAVEC instructions"
-msgstr "支持乘加指令"
+msgstr "支持生成 XSAVEC 指令"
 
 #: config/i386/i386.opt:771
-#, fuzzy
 msgid "Support XSAVES and XRSTORS instructions"
-msgstr "支持乘加指令"
+msgstr "支持生成 XSAVES 和 XRSTORS 指令"
 
 #: config/i386/i386.opt:775
 msgid "Support TBM built-in functions and code generation"
-msgstr "支持 TBM 内建函数及代码生成"
+msgstr "支持生成 TBM 内建函数及代码"
 
 #: config/i386/i386.opt:779
 msgid "Support code generation of cmpxchg16b instruction."
@@ -9457,32 +9452,31 @@ msgstr "支持生成 crc32 指令。"
 
 #: config/i386/i386.opt:795
 msgid "Support AES built-in functions and code generation"
-msgstr "支持 AES 内建函数及代码生成"
+msgstr "支持生成 AES 内建函数及代码"
 
 #: config/i386/i386.opt:799
-#, fuzzy
 msgid "Support SHA1 and SHA256 built-in functions and code generation"
-msgstr "支持 MMX 和 SSE 内建函数及代码生成"
+msgstr "支持生成 SHA1 和 SHA256 内建函数及代码"
 
 #: config/i386/i386.opt:803
 msgid "Support PCLMUL built-in functions and code generation"
-msgstr "支持 PCLMUL 内建函数及代码生成"
+msgstr "支持生成 PCLMUL 内建函数及代码"
 
 #: config/i386/i386.opt:807
 msgid "Encode SSE instructions with VEX prefix"
-msgstr "支持带 VEX 前缀的 SSE 指令"
+msgstr "编码带 VEX 前缀的 SSE 指令"
 
 #: config/i386/i386.opt:811
 msgid "Support FSGSBASE built-in functions and code generation"
-msgstr "支持 FSGSBASE 内建函数及代码生成"
+msgstr "支持生成 FSGSBASE 内建函数及代码"
 
 #: config/i386/i386.opt:815
 msgid "Support RDRND built-in functions and code generation"
-msgstr "支持 RDRND 内建函数及代码生成"
+msgstr "支持生成 RDRND 内建函数及代码"
 
 #: config/i386/i386.opt:819
 msgid "Support F16C built-in functions and code generation"
-msgstr "支持 F16C 内建函数及代码生成"
+msgstr "支持生成 F16C 内建函数及代码"
 
 #: config/i386/i386.opt:823
 #, fuzzy
@@ -9605,7 +9599,7 @@ msgstr "生成 PA1.1 代码"
 
 #: config/pa/pa.opt:38 config/pa/pa.opt:99
 msgid "Generate PA2.0 code (requires binutils 2.10 or later)"
-msgstr "生成 PA2.0 代码(需要 binutils 2.10 或更新版本)"
+msgstr "生成 PA2.0 代码 (需要 binutils 2.10 或更新版本)"
 
 #: config/pa/pa.opt:46
 msgid "Disable FP regs"
@@ -10674,9 +10668,8 @@ msgid "Deprecated option.  Use -mno-vrsave instead"
 msgstr "该选项已弃用。请换用 -mno-vrsave instead"
 
 #: config/rs6000/rs6000.opt:330
-#, fuzzy
 msgid "Deprecated option.  Use -mvrsave instead"
-msgstr "不建议使用。请改用 -Os"
+msgstr "已弃用。请改用 -mvrsave"
 
 #: config/rs6000/rs6000.opt:334
 #, fuzzy
@@ -10696,7 +10689,7 @@ msgstr "该选项已弃用。请换用 -mno-isel"
 #: config/rs6000/rs6000.opt:346
 #, fuzzy
 msgid "Deprecated option.  Use -misel instead"
-msgstr "不建议使用。请改用 -Os"
+msgstr "已弃用。请改用 -Os"
 
 #: config/rs6000/rs6000.opt:350
 msgid "Generate SPE SIMD instructions on E500"
@@ -10713,7 +10706,7 @@ msgstr "该选项已弃用。请换用 -mno-spe"
 #: config/rs6000/rs6000.opt:362
 #, fuzzy
 msgid "Deprecated option.  Use -mspe instead"
-msgstr "不建议使用。请改用 -Os"
+msgstr "已弃用。请改用 -Os"
 
 #: config/rs6000/rs6000.opt:366
 msgid "-mdebug=\tEnable debug output"
@@ -10789,7 +10782,7 @@ msgstr "生成 Cell 微代码时给出警告"
 
 #: config/rs6000/rs6000.opt:446
 msgid "Warn about deprecated 'vector long ...' AltiVec type usage"
-msgstr "遇到不建议使用的‘vector long ...’AltiVec 类型时给出警告"
+msgstr "遇到已弃用的‘vector long ...’AltiVec 类型时给出警告"
 
 #: config/rs6000/rs6000.opt:450
 msgid "-mfloat-gprs=\tSelect GPR floating point method"
@@ -11831,7 +11824,7 @@ msgstr "不起作用，仅为向前兼容保留。"
 
 #: config/fused-madd.opt:22
 msgid "%<-mfused-madd%> is deprecated; use %<-ffp-contract=%> instead"
-msgstr "不建议使用%<-mfused-madd%>；请改用%<-ffp-contract=%>"
+msgstr "已弃用%<-mfused-madd%>；请改用%<-ffp-contract=%>"
 
 #: config/sol2.opt:32
 msgid "Clear hardware capabilities when linking"
@@ -11892,7 +11885,7 @@ msgstr "使用浮点双精度指令"
 #: config/microblaze/microblaze.opt:87
 #, fuzzy, c-format
 msgid "%qs is deprecated; use -fstack-check"
-msgstr "不建议使用%qE：%s"
+msgstr "已弃用%qE：%s"
 
 #: config/microblaze/microblaze.opt:88
 msgid "Check for stack overflow at runtime"
@@ -12542,7 +12535,7 @@ msgstr ""
 #: config/sh/sh.opt:236 config/sh/sh.opt:240
 #, fuzzy, c-format
 msgid "%qs is deprecated and has no effect"
-msgstr "不建议使用。此开关不起作用。"
+msgstr "已弃用。此开关不起作用。"
 
 #: config/sh/sh.opt:237
 msgid "Enable cbranchdi4 pattern"
@@ -12651,7 +12644,7 @@ msgstr ""
 
 #: config/sh/sh.opt:343
 msgid "Deprecated.  Use -Os instead"
-msgstr "不建议使用。请改用 -Os"
+msgstr "已弃用。请改用 -Os"
 
 #: config/sh/sh.opt:347
 msgid "Cost to assume for a multiply insn"
@@ -13526,7 +13519,7 @@ msgstr ""
 
 #: java/lang.opt:122
 msgid "Warn if deprecated empty statements are found"
-msgstr "发现不建议使用的空语句时给出警告"
+msgstr "发现已弃用的空语句时给出警告"
 
 #: java/lang.opt:126
 msgid "Warn if .class files are out of date"
@@ -13538,7 +13531,7 @@ msgstr "当指定了不必须的修饰符时给出警告"
 
 #: java/lang.opt:150
 msgid "--CLASSPATH\tDeprecated; use --classpath instead"
-msgstr "--CLASSPATH\t不建议使用；请改用 --classpath"
+msgstr "--CLASSPATH\t已弃用；请改用 --classpath"
 
 #: java/lang.opt:157
 msgid "Permit the use of the assert keyword"
@@ -13697,7 +13690,7 @@ msgstr "为最小空间而不是最大速度优化"
 
 #: common.opt:509
 msgid "This switch is deprecated; use -Wextra instead"
-msgstr "不建议使用此开关；请改用 -Wextra"
+msgstr "已弃用此开关；请改用 -Wextra"
 
 #: common.opt:522
 msgid "Warn about returning structures, unions or arrays"
@@ -13983,7 +13976,7 @@ msgstr ""
 #: common.opt:909
 #, fuzzy
 msgid "This switch is deprecated; use -fsanitize-recover= instead"
-msgstr "不建议使用此开关；请改用 -Wextra"
+msgstr "已弃用此开关；请改用 -Wextra"
 
 #: common.opt:913
 msgid ""
@@ -15751,7 +15744,7 @@ msgstr "实参太多"
 #: go/gofrontend/expressions.cc:6892
 #, fuzzy
 msgid "argument 1 must be a map"
-msgstr "实参 1 必须是一个 5 位有符号字面值"
+msgstr "实参 1 必须是一个 5 位有符号字面量"
 
 #: go/gofrontend/expressions.cc:7016
 #, fuzzy
@@ -21902,32 +21895,32 @@ msgstr ""
 #: tree.c:12131
 #, fuzzy, gcc-internal-format
 msgid "%qD is deprecated: %s"
-msgstr "不建议使用%qE：%s"
+msgstr "已弃用%qE：%s"
 
 #: tree.c:12134
 #, fuzzy, gcc-internal-format
 msgid "%qD is deprecated"
-msgstr "不建议使用%qE"
+msgstr "已弃用%qE"
 
 #: tree.c:12158 tree.c:12180
 #, gcc-internal-format
 msgid "%qE is deprecated: %s"
-msgstr "不建议使用%qE：%s"
+msgstr "已弃用%qE：%s"
 
 #: tree.c:12161 tree.c:12183
 #, gcc-internal-format
 msgid "%qE is deprecated"
-msgstr "不建议使用%qE"
+msgstr "已弃用%qE"
 
 #: tree.c:12167 tree.c:12188
 #, gcc-internal-format, gfc-internal-format
 msgid "type is deprecated: %s"
-msgstr "不建议使用类型：%s"
+msgstr "已弃用类型：%s"
 
 #: tree.c:12170 tree.c:12191
 #, gcc-internal-format
 msgid "type is deprecated"
-msgstr "不建议使用此类型"
+msgstr "已弃用此类型"
 
 #: value-prof.c:575
 #, gcc-internal-format
@@ -22777,7 +22770,7 @@ msgstr "未知的机器模式%qE"
 #: c-family/c-common.c:7472
 #, gcc-internal-format
 msgid "specifying vector types with __attribute__ ((mode)) is deprecated"
-msgstr "不建议在指定向量类型时使用 __attribute__ ((mode))"
+msgstr "已弃用在指定向量类型时使用 __attribute__ ((mode))"
 
 #: c-family/c-common.c:7475
 #, gcc-internal-format
@@ -24946,7 +24939,7 @@ msgstr "内建函数%qD只需要一个实参"
 #: config/darwin.c:3490
 #, gcc-internal-format
 msgid "CFString literal is missing"
-msgstr "缺少 CFString 字面值"
+msgstr "缺少 CFString 字面量"
 
 #: config/darwin.c:3501
 #, gcc-internal-format
@@ -24956,7 +24949,7 @@ msgstr "CFString 字面表达式不是一个字符串常量"
 #: config/darwin.c:3524
 #, gcc-internal-format, gfc-internal-format
 msgid "%s in CFString literal"
-msgstr "CFString 字面值里有 %s"
+msgstr "CFString 字面量里有 %s"
 
 #: config/host-darwin.c:61
 #, fuzzy, gcc-internal-format
@@ -25761,7 +25754,7 @@ msgstr "%qs需要一个常量实参"
 #: config/avr/avr-c.c:112
 #, fuzzy, gcc-internal-format
 msgid "using %qs with unsigned type has no effect"
-msgstr "不建议使用。此开关不起作用。"
+msgstr "已弃用。此开关不起作用。"
 
 #: config/avr/avr-c.c:117 config/avr/avr-c.c:183 config/avr/avr-c.c:240
 #, fuzzy, gcc-internal-format
@@ -25891,7 +25884,7 @@ msgstr "%qE属性需要一个整常量作为实参"
 #: config/avr/avr.c:9049
 #, fuzzy, gcc-internal-format
 msgid "%qE attribute address out of range"
-msgstr "不建议使用。此开关不起作用。"
+msgstr "已弃用。此开关不起作用。"
 
 #: config/avr/avr.c:9062
 #, gcc-internal-format
@@ -26422,7 +26415,7 @@ msgstr "%L处参数列表函数未知"
 msgid ""
 "%stune=x86-64%s is deprecated; use %stune=k8%s or %stune=generic%s instead "
 "as appropriate"
-msgstr "不建议使用%stune=x86-64%s；请视情况改用%stune=k8%s或%stune=generic%s"
+msgstr "已弃用%stune=x86-64%s；请视情况改用%stune=k8%s或%stune=generic%s"
 
 #. rep; movq isn't available in 32-bit code.
 #: config/i386/i386.c:3494
@@ -28443,17 +28436,17 @@ msgstr "内部错误：内建函数 %s 没有类型"
 #: config/rs6000/rs6000.c:12099
 #, fuzzy, gcc-internal-format
 msgid "argument 1 must be an 8-bit field value"
-msgstr "实参 1 必须是一个 5 位有符号字面值"
+msgstr "实参 1 必须是一个 5 位有符号字面量"
 
 #: config/rs6000/rs6000.c:12146
 #, gcc-internal-format
 msgid "argument 1 must be a 5-bit signed literal"
-msgstr "实参 1 必须是一个 5 位有符号字面值"
+msgstr "实参 1 必须是一个 5 位有符号字面量"
 
 #: config/rs6000/rs6000.c:12249 config/rs6000/rs6000.c:13740
 #, gcc-internal-format
 msgid "argument 2 must be a 5-bit unsigned literal"
-msgstr "实参 2 必须是一个 5 位无符号字面值"
+msgstr "实参 2 必须是一个 5 位无符号字面量"
 
 #: config/rs6000/rs6000.c:12288
 #, gcc-internal-format
@@ -28473,7 +28466,7 @@ msgstr "%srtd%s 在 64 位模式下被忽略"
 #: config/rs6000/rs6000.c:12763
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "argument %d must be an unsigned literal"
-msgstr "实参 2 必须是一个 5 位无符号字面值"
+msgstr "实参 2 必须是一个 5 位无符号字面量"
 
 #: config/rs6000/rs6000.c:12765
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -28483,17 +28476,17 @@ msgstr "__builtin_spe_predicate 的第 1 个实参越界"
 #: config/rs6000/rs6000.c:12928
 #, gcc-internal-format
 msgid "argument 3 must be a 4-bit unsigned literal"
-msgstr "实参 3 必须是一个 4 位无符号字面值"
+msgstr "实参 3 必须是一个 4 位无符号字面量"
 
 #: config/rs6000/rs6000.c:12946
 #, gcc-internal-format
 msgid "argument 3 must be a 2-bit unsigned literal"
-msgstr "实参 2 必须是一个 2 位无符号字面值"
+msgstr "实参 2 必须是一个 2 位无符号字面量"
 
 #: config/rs6000/rs6000.c:12966
 #, gcc-internal-format
 msgid "argument 3 must be a 1-bit unsigned literal"
-msgstr "实参 2 必须是一个 1 位无符号字面值"
+msgstr "实参 2 必须是一个 1 位无符号字面量"
 
 #: config/rs6000/rs6000.c:12978
 #, fuzzy, gcc-internal-format
@@ -28503,12 +28496,12 @@ msgstr "数字必须是 0 或 1"
 #: config/rs6000/rs6000.c:12990
 #, fuzzy, gcc-internal-format
 msgid "argument 1 must be a 1-bit unsigned literal"
-msgstr "实参 2 必须是一个 1 位无符号字面值"
+msgstr "实参 2 必须是一个 1 位无符号字面量"
 
 #: config/rs6000/rs6000.c:13004
 #, fuzzy, gcc-internal-format
 msgid "argument 2 must be a 6-bit unsigned literal"
-msgstr "实参 2 必须是一个 5 位无符号字面值"
+msgstr "实参 2 必须是一个 5 位无符号字面量"
 
 #: config/rs6000/rs6000.c:13016
 #, fuzzy, gcc-internal-format
@@ -28680,7 +28673,7 @@ msgstr "不使用 -mvsx 时，在 AltiVec 类型中使用%<long%>对 64 位代�
 #: config/rs6000/rs6000.c:28898
 #, gcc-internal-format
 msgid "use of %<long%> in AltiVec types is deprecated; use %<int%>"
-msgstr "不建议在 AltiVec 类型中使用%<long%>；请改用%<int%>"
+msgstr "已弃用在 AltiVec 类型中使用%<long%>；请改用%<int%>"
 
 #: config/rs6000/rs6000.c:28903
 #, gcc-internal-format
@@ -31852,7 +31845,7 @@ msgstr ""
 #: c/c-parser.c:7746
 #, gcc-internal-format
 msgid "compound literal has variable size"
-msgstr "复合字面值有可变的大小"
+msgstr "复合字面量大小可变"
 
 #: c/c-parser.c:7757
 #, gcc-internal-format
@@ -31862,7 +31855,7 @@ msgstr "组合字面常量有地址空间限定"
 #: c/c-parser.c:7761
 #, gcc-internal-format
 msgid "ISO C90 forbids compound literals"
-msgstr "ISO C90 不允许复合字面值"
+msgstr "ISO C90 不允许复合字面量"
 
 #: c/c-parser.c:7890 cp/parser.c:6306
 #, gcc-internal-format
@@ -34337,7 +34330,7 @@ msgstr "函数的实参可能是 format 属性的备选"
 #: cp/call.c:6944
 #, fuzzy, gcc-internal-format
 msgid "use of multiversioned function without a default"
-msgstr "不建议为非函数指定默认参数"
+msgstr "已弃用为非函数指定默认参数"
 
 #: cp/call.c:7189
 #, fuzzy, gcc-internal-format
@@ -36525,7 +36518,7 @@ msgstr "数组%q#T的元素类型不完全"
 #: cp/decl.c:5806
 #, gcc-internal-format
 msgid "variable-sized compound literal"
-msgstr "变长复合字面值"
+msgstr "变长复合字面量"
 
 #: cp/decl.c:5860
 #, fuzzy, gcc-internal-format
@@ -39081,7 +39074,7 @@ msgstr ""
 #: cp/lambda.c:499
 #, fuzzy, gcc-internal-format
 msgid "because the array element type %qT has variable size"
-msgstr "复合字面值有可变的大小"
+msgstr "复合字面量有可变的大小"
 
 #: cp/lambda.c:510
 #, gcc-internal-format
@@ -39161,8 +39154,8 @@ msgid ""
 "(if you use %<-fpermissive%>, G++ will accept your code, but allowing the "
 "use of an undeclared name is deprecated)"
 msgstr ""
-"(如果您使用%<-fpermissive%>，G++ 会接受您的代码，但是允许使用未定义的名称是不"
-"建议使用的风格)"
+"(如果您使用%<-fpermissive%>，G++ 会接受您的代码，但是允许使用未定义的名称是已"
+"弃用的风格)"
 
 #: cp/mangle.c:2150
 #, gcc-internal-format
@@ -39760,7 +39753,7 @@ msgstr "无效的模板 ID"
 #: cp/parser.c:2832
 #, gcc-internal-format
 msgid "floating-point literal cannot appear in a constant-expression"
-msgstr "浮点字面值不能出现在常量表达式中"
+msgstr "浮点字面量不能出现在常量表达式中"
 
 #: cp/parser.c:2836 cp/pt.c:14791
 #, gcc-internal-format
@@ -40091,7 +40084,7 @@ msgstr ""
 #: cp/parser.c:6128
 #, gcc-internal-format
 msgid "ISO C++ forbids compound-literals"
-msgstr "ISO C++ 不允许复合字面值"
+msgstr "ISO C++ 不允许复合字面量"
 
 #: cp/parser.c:6186
 #, gcc-internal-format
@@ -40897,7 +40890,7 @@ msgstr "类型不能定义在参数类型中"
 #: cp/parser.c:19124
 #, gcc-internal-format
 msgid "deprecated use of default argument for parameter of non-function"
-msgstr "不建议为非函数指定默认参数"
+msgstr "已弃用：非函数指定默认参数"
 
 #: cp/parser.c:19128
 #, gcc-internal-format
@@ -43048,7 +43041,7 @@ msgstr "在包含函数中使用%<auto%>变量"
 #: cp/semantics.c:3210
 #, fuzzy, gcc-internal-format
 msgid "use of parameter from containing function"
-msgstr "不建议为非函数指定默认参数"
+msgstr "已弃用为非函数指定默认参数"
 
 #: cp/semantics.c:3372
 #, gcc-internal-format
@@ -43518,12 +43511,12 @@ msgstr "取临时变量的地址"
 #: cp/typeck.c:2147
 #, fuzzy, gcc-internal-format
 msgid "ISO C++ forbids converting a string constant to %qT"
-msgstr "不建议使用从字符串常量到%qT的转换"
+msgstr "已弃用从字符串常量到%qT的转换"
 
 #: cp/typeck.c:2151
 #, gcc-internal-format
 msgid "deprecated conversion from string constant to %qT"
-msgstr "不建议使用从字符串常量到%qT的转换"
+msgstr "已弃用从字符串常量到%qT的转换"
 
 #: cp/typeck.c:2285 cp/typeck.c:2678
 #, fuzzy, gcc-internal-format
@@ -47822,20 +47815,20 @@ msgstr "%L处赋值右手边出现值为 POINTER 的函数"
 #: fortran/expr.c:3201
 #, fuzzy, gcc-internal-format
 msgid "BOZ literal at %L used to initialize non-integer variable %qs"
-msgstr "扩展：%L处 BOZ 字面值被用来初始化非整数变量‘%s’"
+msgstr "扩展：%L处 BOZ 字面量被用来初始化非整数变量‘%s’"
 
 #: fortran/expr.c:3206 fortran/resolve.c:9308
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid ""
 "BOZ literal at %L outside a DATA statement and outside INT/REAL/DBLE/CMPLX"
 msgstr ""
-"扩展：在 %L处的 BOZ 字面值在一个 DATA 语句之外并且也在 INT/REAL/DBLE/CMPLX 之"
+"扩展：在 %L处的 BOZ 字面量在一个 DATA 语句之外并且也在 INT/REAL/DBLE/CMPLX 之"
 "外"
 
 #: fortran/expr.c:3217 fortran/resolve.c:9319
 #, fuzzy, gcc-internal-format
 msgid "BOZ literal at %L is bitwise transferred non-integer symbol %qs"
-msgstr "%L处 BOZ 字面值按位转换后是非整数符号‘%s’"
+msgstr "%L处 BOZ 字面量按位转换后是非整数符号‘%s’"
 
 #: fortran/expr.c:3225 fortran/resolve.c:9328
 #, fuzzy, gcc-internal-format
@@ -57083,7 +57076,7 @@ msgstr "找不到类%qE的接口"
 #: objc/objc-act.c:1706 objc/objc-act.c:6845 objc/objc-act.c:6976
 #, gcc-internal-format
 msgid "class %qE is deprecated"
-msgstr "不建议使用类%qE"
+msgstr "已弃用类%qE"
 
 #: objc/objc-act.c:1735
 #, fuzzy, gcc-internal-format
@@ -57692,7 +57685,7 @@ msgstr "找不到协议%qE的方法定义"
 #: objc/objc-act.c:8104
 #, gcc-internal-format
 msgid "protocol %qE is deprecated"
-msgstr "不建议使用协议%qE"
+msgstr "已弃用协议%qE"
 
 #: objc/objc-act.c:8223
 #, gcc-internal-format
