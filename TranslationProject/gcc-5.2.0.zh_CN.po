@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the gcc package.
 # Meng Jie <zuxy.meng@gmail.com>, 2005-2014.
 # Jeff Bai <jeffbai@aosc.xyz>, 2015.
-#
+# Mingye Wang (Arthur2e5) <arthur200126@gmail.com>, 2015.
 msgid ""
 msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-11-13 19:27-0500\n"
+"PO-Revision-Date: 2015-11-13 19:32-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -3575,7 +3575,7 @@ msgstr "%%N 代码的操作数无效"
 
 #: config/microblaze/microblaze.c:2318 config/microblaze/microblaze.c:2498
 msgid "insn contains an invalid address !"
-msgstr "insn 包含无效地址！"
+msgstr "指令包含无效地址！"
 
 #: config/microblaze/microblaze.c:2333 config/microblaze/microblaze.c:2557
 #: config/xtensa/xtensa.c:2478
@@ -3583,9 +3583,9 @@ msgid "invalid address"
 msgstr "无效地址"
 
 #: config/microblaze/microblaze.c:2441
-#, fuzzy, c-format
+#, c-format
 msgid "letter %c was found & insn was not CONST_INT"
-msgstr "字母 %c 是找到 & insn 不是 CONST_INT"
+msgstr "找到字母 %c 且指令不是 CONST_INT"
 
 #: config/mips/mips.c:8400 config/mips/mips.c:8427 config/mips/mips.c:8562
 #, c-format
@@ -17696,7 +17696,7 @@ msgstr "内部一致性错误"
 #: emit-rtl.c:3868
 #, gcc-internal-format
 msgid "ICE: emit_insn used where emit_jump_insn needed:\n"
-msgstr "ICE：需要 emit_jump_insn 时使用了 emit_insn used where：\n"
+msgstr "ICE：需要 emit_jump_insn 时使用了 emit_insn：\n"
 
 #: errors.c:133
 #, gcc-internal-format, gfc-internal-format
