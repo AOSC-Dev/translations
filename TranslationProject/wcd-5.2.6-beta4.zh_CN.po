@@ -2,19 +2,20 @@
 # Copyright (C) Erwin Waterlander (msgids)
 # This file is distributed under the same license as the wcd package.
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015.
+# Mingye Wang <arthur200126@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-12 20:49-0700\n"
-"PO-Revision-Date: 2015-11-13 07:49-0700\n"
+"PO-Revision-Date: 2015-11-13 20:29-0500\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"X-Generator: Poedit 1.8.6\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: zh_CN\n"
 
@@ -271,7 +272,7 @@ msgid "  +I,  --no-ignore-diacritics  regard diacritics (default)\n"
 msgstr "  -I,  --ignore-diacritics     区分变音符号（默认）\n"
 
 #: wcd.c:2161
-#, fuzzy, c-format
+#, c-format
 msgid "  -j,  --just-go          Just go mode\n"
 msgstr "  -j,  --just-go          直接前往模式\n"
 
@@ -454,9 +455,7 @@ msgstr "  =                       显示目录栈\n"
 #: wcd.c:2205 wcd.c:2334
 #, c-format
 msgid "wcd %s (%s) - Wherever Change Directory\n"
-msgstr ""
-"wcd %s (%s) - 目录随意换\n"
-"\n"
+msgstr "wcd %s (%s) - 目录随意换\n"
 
 #: wcd.c:2206
 #, c-format
@@ -678,7 +677,7 @@ msgstr ""
 "\n"
 
 #: wcd.c:2349
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This program is free software; you can redistribute it and/or\n"
 "modify it under the terms of the GNU General Public License\n"
@@ -686,14 +685,13 @@ msgid ""
 "of the License, or (at your option) any later version.\n"
 "\n"
 msgstr ""
-"This program is free software; you can redistribute it and/or\n"
-"modify it under the terms of the GNU General Public License\n"
-"as published by the Free Software Foundation; either version 2\n"
-"of the License, or (at your option) any later version.\n"
+"本软件是自由软件；您可以遵循自由软件基金会所发布的 GNU 通用\n"
+"公共许可证版本 3 或(您自行选择)之后版本进行再发布和/或修改。\n"
+"\n"
 "\n"
 
 #: wcd.c:2355
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This program is distributed in the hope that it will be useful,\n"
 "but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
@@ -701,24 +699,23 @@ msgid ""
 "GNU General Public License for more details.\n"
 "\n"
 msgstr ""
-"This program is distributed in the hope that it will be useful,\n"
-"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
-"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
-"GNU General Public License for more details.\n"
+"发布这个程序只是希望它能有所用途而不附有任何的保证，\n"
+"甚至也不暗示它有商品价值或能合用于特定的目的。细节请见\n"
+"GNU 通用公共许可证。\n"
 "\n"
 
 #: wcd.c:2361
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "You should have received a copy of the GNU General Public License\n"
 "along with this program; if not, write to the Free Software\n"
 "Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 "
 "USA.\n"
 msgstr ""
-"You should have received a copy of the GNU General Public License\n"
-"along with this program; if not, write to the Free Software\n"
-"Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 "
-"USA.\n"
+"你应已与此程序一同获取了一份 GNU 通用公共许可证的副本；\n"
+"要是没有的话，可以写信给 Free SoftwareFoundation, Inc.,\n"
+"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. 索取。\n"
+"\n"
 
 #: wcd.c:2397
 #, c-format
@@ -902,14 +899,12 @@ msgid "x or z or <Down>  page down"
 msgstr "x 或 z 或 <Down>  向下翻页"
 
 #: display.c:686 display.c:1179
-#, fuzzy
 msgid ", or <Left>       scroll 1 left"
-msgstr ", 或 <Left>       向左滚动一个字符"
+msgstr ", 或 <Left>      向左滚动一个字符"
 
 #: display.c:687 display.c:1180
-#, fuzzy
 msgid ". or <Right>      scroll 1 right"
-msgstr ", 或 <Right>       向右滚动一个字符"
+msgstr ", 或 <Right>     向右滚动一个字符"
 
 #: display.c:688 display.c:1181
 msgid "< or [            scroll 10 left"
