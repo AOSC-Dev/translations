@@ -8,16 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: help2man-texi 1.46.6\n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
-"POT-Creation-Date: 2015-08-26 21:42+0800\n"
-"PO-Revision-Date: 2015-11-01 14:33-0500\n"
+"POT-Creation-Date: 2015-11-14 16:24-0500\n"
+"PO-Revision-Date: 2015-11-14 16:27-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
-"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"Language: zh_CN\n"
 
 #. type: settitle
 #: help2man.texi:3
@@ -95,23 +95,11 @@ msgstr ""
 "授予权限复制和分发本手册翻译成另一种语言，根据上述条件为修改后的版本，只是可"
 "能通过基金会翻译中指出本许可声明。"
 
-#. type: command{#1}
-#: help2man.texi:44 help2man.texi:70
-#, no-wrap
-msgid "help2man"
-msgstr "help2man"
-
 #. type: subtitle
 #: help2man.texi:45
 #, no-wrap
 msgid "A utility for generating simple manual pages"
 msgstr "用于生成简单的手册页的实用程序"
-
-#. type: author
-#: help2man.texi:46
-#, no-wrap
-msgid "Brendan O'Dea @email{bod@@debian.org}"
-msgstr "Brendan O'Dea @email{bod@@debian.org}"
 
 #. type: titlepage
 #: help2man.texi:52
@@ -325,12 +313,14 @@ msgstr ""
 "默认情况下，(为想要更好的东西) 这一段包含 @samp {{程序} {版本} @var @var 的手"
 "册页}。"
 
+#. Translators: the cross-reference "Including text" here must match the
+#. translation of the target (type: node) elsewhere in this file.
 #. type: table
 #: help2man.texi:128
 msgid ""
 "This option overrides an include file @samp{[name]} section "
 "(@pxref{Including text})."
-msgstr ""
+msgstr "此选项覆盖一个包含文件 @samp{[名称]} 章节 (@pxref{包含文字})."
 
 #. type: item
 #: help2man.texi:129
@@ -403,6 +393,8 @@ msgstr "-L @var{locale}"
 msgid "--locale=@var{locale}"
 msgstr "-L @var{locale}"
 
+#. Translators: the cross-reference "Localised man pages" here must match
+#. the translation of the target (type: node) elsewhere in this file.
 #. type: table
 #: help2man.texi:152
 msgid ""
@@ -423,6 +415,8 @@ msgstr "-i @var{file}"
 msgid "--include=@var{file}"
 msgstr "--include=@var{file}"
 
+#. Translators: the cross-reference "Including text" here must match the
+#. translation of the target (type: node) elsewhere in this file.
 #. type: table
 #: help2man.texi:156
 msgid "Include material from @var{file} (@pxref{Including text})."
@@ -481,36 +475,12 @@ msgstr "--info-page=@var{text}"
 msgid "Name of Texinfo manual."
 msgstr "Texinfo 手册名称。"
 
-#. type: item
-#: help2man.texi:170
-#, no-wrap
-msgid "-N"
-msgstr "-N"
-
-#. type: itemx
-#: help2man.texi:171
-#, no-wrap
-msgid "--no-info"
-msgstr "--no-info"
-
 #. type: table
 #: help2man.texi:174
 msgid ""
 "Suppress inclusion of a @samp{SEE ALSO} paragraph directing the reader to "
 "the Texinfo documentation."
 msgstr ""
-
-#. type: item
-#: help2man.texi:175
-#, no-wrap
-msgid "-l"
-msgstr "-l"
-
-#. type: itemx
-#: help2man.texi:176
-#, no-wrap
-msgid "--libtool"
-msgstr "--libtool"
 
 #. type: table
 #: help2man.texi:180
@@ -519,18 +489,6 @@ msgid ""
 "(@command{libtool} creates wrapper scripts in the build directory which "
 "invoke @command{foo} as @command{.libs/lt-foo})."
 msgstr ""
-
-#. type: item
-#: help2man.texi:181
-#, no-wrap
-msgid "--help"
-msgstr "--help"
-
-#. type: itemx
-#: help2man.texi:182
-#, no-wrap
-msgid "--version"
-msgstr "--version"
 
 #. type: table
 #: help2man.texi:184
@@ -589,12 +547,6 @@ msgstr "--version-string=@var{string}"
 #: help2man.texi:201
 msgid "Version string."
 msgstr "版本字串。"
-
-#. type: item
-#: help2man.texi:202
-#, no-wrap
-msgid "--no-discard-stderr"
-msgstr "--no-discard-stderr"
 
 #. type: table
 #: help2man.texi:204
@@ -764,6 +716,8 @@ msgstr ""
 msgid "Including Additional Text in the Output"
 msgstr "在输出中包括附加文本"
 
+#. Translators: the cross-reference "Invoking help2man" here must match the
+#. translation of the target (type: node) elsewhere in this file.
 #. type: Plain text
 #: help2man.texi:310
 msgid ""
@@ -962,6 +916,8 @@ msgstr ""
 msgid "help2man -L fr_FR@@euro -o cp.fr.1 cp\n"
 msgstr "help2man -L fr_FR@@euro -o cp.fr.1 cp\n"
 
+#. Translators: the cross-reference "Reports" here must match the
+#. translation of the target (type: node) elsewhere in this file.
 #. type: Plain text
 #: help2man.texi:413
 msgid ""
@@ -1038,6 +994,8 @@ msgid ""
 "also have been re-mapped."
 msgstr ""
 
+#. Translators: the cross-reference "Reports" here must match the
+#. translation of the target (type: node) elsewhere in this file.
 #. type: itemize
 #: help2man.texi:452
 msgid ""
@@ -1363,30 +1321,48 @@ msgid ""
 "The latest version of this distribution is available online from GNU mirrors:"
 msgstr "此发行的最新版本可从 GNU 在线镜像获取: "
 
-#. type: example
-#: help2man.texi:588
-#, no-wrap
-msgid "@url{http://ftpmirror.gnu.org/help2man/}\n"
-msgstr "@url{http://ftpmirror.gnu.org/help2man/}\n"
-
 #. type: Plain text
 #: help2man.texi:591
 msgid "If automatic redirection fails, the list of mirrors is at:"
 msgstr "如自动重定向失败，镜像列表位于: "
-
-#. type: example
-#: help2man.texi:594
-#, no-wrap
-msgid "@url{http://www.gnu.org/order/ftp.html}\n"
-msgstr "@url{http://www.gnu.org/order/ftp.html}\n"
 
 #. type: Plain text
 #: help2man.texi:597
 msgid "Or if need be you can use the main GNU ftp server:"
 msgstr "必要时可以使用 GNU 主 FTP 服务器: "
 
-#. type: example
-#: help2man.texi:599
-#, no-wrap
-msgid "@url{http://ftp.gnu.org/gnu/help2man/}\n"
-msgstr "@url{http://ftp.gnu.org/gnu/help2man/}\n"
+#~ msgid "help2man"
+#~ msgstr "help2man"
+
+#~ msgid "Brendan O'Dea @email{bod@@debian.org}"
+#~ msgstr "Brendan O'Dea @email{bod@@debian.org}"
+
+#~ msgid "-N"
+#~ msgstr "-N"
+
+#~ msgid "--no-info"
+#~ msgstr "--no-info"
+
+#~ msgid "-l"
+#~ msgstr "-l"
+
+#~ msgid "--libtool"
+#~ msgstr "--libtool"
+
+#~ msgid "--help"
+#~ msgstr "--help"
+
+#~ msgid "--version"
+#~ msgstr "--version"
+
+#~ msgid "--no-discard-stderr"
+#~ msgstr "--no-discard-stderr"
+
+#~ msgid "@url{http://ftpmirror.gnu.org/help2man/}\n"
+#~ msgstr "@url{http://ftpmirror.gnu.org/help2man/}\n"
+
+#~ msgid "@url{http://www.gnu.org/order/ftp.html}\n"
+#~ msgstr "@url{http://www.gnu.org/order/ftp.html}\n"
+
+#~ msgid "@url{http://ftp.gnu.org/gnu/help2man/}\n"
+#~ msgstr "@url{http://ftp.gnu.org/gnu/help2man/}\n"
