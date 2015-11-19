@@ -35,7 +35,7 @@ Terminology Difference
 |context|环境|上下文|yes|
 |Pointer|指针|TODO||
 |Spike|穗|TODO||
-|Dock (noun)|停靠|TODO||
+|dock (noun)|停靠|停靠区|no|
 |duplicate (n.)|复本|副本|no|
 |Error Log|出错记录|错误日志|yes|
 |Exposure|曝光量|曝光？|yes|
@@ -44,11 +44,11 @@ Terminology Difference
 |RTL|右至左|RTL|manual|
 |Paint (v.)|涂画|TODO||
 |duplicate (v.)|复制|重制|yes|
-|raise (v.)|[提升,升高]|升高|yes|
+|raise (v.)|[提升,升高]|升高|no|
 |fit (disp size) (v.)|适配|适应|manual|
 |workspace (color)|工作空间|色彩空间|manual (context)|
 |rate (paint brush)|比率|速率(?)|yes|
-
+|Antialiasing|边缘平滑|抗锯齿|yes|
 
 
 Notes
@@ -56,3 +56,9 @@ Notes
 
 1. Please use `--previous` for all `msgmerge` operations.
 2. Punct rule: Use CJK paren and CJK ellipses.
+
+Major Known Defects
+-------------------
+
+1. All sentences: they should try to learn to speak Chinese.
+2. 边缘羽化 -> 羽化边缘; (undo-type) 路径修改 -> 修改路径..
