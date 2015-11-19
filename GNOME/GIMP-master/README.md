@@ -36,4 +36,5 @@ Terminology Difference
 |Pointer|指针|TODO||
 |Spike|穗|TODO||
 |Dock (noun)|停靠|TODO||
+|duplicate(n.)|复本|副本|no|
 
