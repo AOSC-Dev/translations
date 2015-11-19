@@ -27,7 +27,7 @@ Expected Procedure
 Terminology Difference
 ----------------------
 
-| Orig         | Old | Ours | Replace back later? |
+| Orig         | Old | Ours | Replaceback? |
 |--------------|-----|------|--------------|
 |brush         |画笔 |笔刷   | yes|
 |indexed images|索引图像|索引颜色图像|no|
@@ -36,15 +36,23 @@ Terminology Difference
 |Pointer|指针|TODO||
 |Spike|穗|TODO||
 |Dock (noun)|停靠|TODO||
-|duplicate(n.)|复本|副本|no|
+|duplicate (n.)|复本|副本|no|
 |Error Log|出错记录|错误日志|yes|
 |Exposure|曝光量|曝光？|yes|
 |Segment (Geometry)|段|线段|manual|
 |LTR|左至右|LTR|manual|
 |RTL|右至左|RTL|manual|
+|Paint (v.)|涂画|TODO||
+|duplicate (v.)|复制|重制|yes|
+|raise (v.)|[提升,升高]|升高|yes|
+|fit (disp size) (v.)|适配|适应|manual|
+|workspace (color)|工作空间|色彩空间|manual (context)|
+|rate (paint brush)|比率|速率(?)|yes|
+
 
 
 Notes
 -----
 
 1. Please use `--previous` for all `msgmerge` operations.
+2. Punct rule: Use CJK paren and CJK ellipses.
