@@ -37,4 +37,14 @@ Terminology Difference
 |Spike|穗|TODO||
 |Dock (noun)|停靠|TODO||
 |duplicate(n.)|复本|副本|no|
+|Error Log|出错记录|错误日志|yes|
+|Exposure|曝光量|曝光？|yes|
+|Segment (Geometry)|段|线段|manual|
+|LTR|左至右|LTR|manual|
+|RTL|右至左|RTL|manual|
 
+
+Notes
+-----
+
+1. Please use `--previous` for all `msgmerge` operations.
