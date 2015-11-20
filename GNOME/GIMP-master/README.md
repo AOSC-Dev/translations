@@ -49,6 +49,7 @@ Terminology Difference
 |workspace (color)|工作空间|色彩空间|manual (context)|
 |rate (paint brush)|比率|速率(?)|yes|
 |Antialiasing|边缘平滑|抗锯齿|yes|
+|foo to bar|foo 变 bar|foo 转 bar|no|
 
 
 Notes
