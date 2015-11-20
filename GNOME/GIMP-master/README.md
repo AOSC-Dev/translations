@@ -53,6 +53,7 @@ Terminology Difference
 |**eval**uation|评估|求值|no|
 |dissolve (blend)|融化|融解|yes|
 |grain|增益|TODO|no|
+|margin|边空|边距|no|
 
 
 Notes
