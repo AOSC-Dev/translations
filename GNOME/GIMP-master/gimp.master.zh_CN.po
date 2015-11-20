@@ -13,19 +13,20 @@ msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-19 19:07+0000\n"
-"PO-Revision-Date: 2015-11-19 20:59-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-11-20 11:49-0700\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../desktop/gimp.appdata.xml.in.h:1
+#, fuzzy
 msgid "GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring."
-msgstr ""
+msgstr "GIMP 是 GNU 图像处理程序（GNU Image Manipulation Program）的缩写。GIMP 是一个可自由分发的程序，可用于照片的后期处理、图像混成处理和图像出版。"
 
 #: ../desktop/gimp.appdata.xml.in.h:2
 msgid "It has many capabilities. It can be used as a simple paint program, an expert quality photo retouching program, an online batch processing system, a mass production image renderer, an image format converter, etc."
@@ -58,7 +59,7 @@ msgid ""
 "Copyright © 1995-%s\n"
 "Spencer Kimball, Peter Mattis and the GIMP Development Team"
 msgstr ""
-"版权所有 (C) 1995-%s\n"
+"Copyright © 1995-%s\n"
 "Spencer Kimball，Peter Mattis 和 GIMP 开发小组"
 
 #: ../app/about.h:34
@@ -2968,12 +2969,9 @@ msgid "Noise R_eduction..."
 msgstr "未选择"
 
 #: ../app/actions/filters-actions.c:293
-#, fuzzy
-#| msgctxt "dialogs-action"
-#| msgid "_Sample Points"
 msgctxt "filters-action"
 msgid "_Simplex Noise..."
-msgstr "采样点(_S)"
+msgstr "单纯噪声(_S)..."
 
 #: ../app/actions/filters-actions.c:298
 #, fuzzy
@@ -5689,10 +5687,9 @@ msgid "_Restore Tool Preset"
 msgstr "刷新工具预设值(_R)"
 
 #: ../app/actions/tool-options-actions.c:69
-#, fuzzy
 msgctxt "tool-options-action"
 msgid "E_dit Tool Preset"
-msgstr "编辑工具预设值(_E)..."
+msgstr "编辑工具预设值(_D)…"
 
 #: ../app/actions/tool-options-actions.c:73
 #, fuzzy
@@ -5836,16 +5833,14 @@ msgid "Refresh tool presets"
 msgstr "刷新工具预设值"
 
 #: ../app/actions/tool-presets-actions.c:95
-#, fuzzy
 msgctxt "tool-presets-action"
 msgid "_Edit Tool Preset..."
-msgstr "编辑工具预设值(_E)..."
+msgstr "编辑工具预设值(_E)…"
 
 #: ../app/actions/tool-presets-actions.c:96
-#, fuzzy
 msgctxt "tool-presets-action"
 msgid "Edit this tool preset"
-msgstr "编辑此工具预设值"
+msgstr "编辑此工具的预设值"
 
 #: ../app/actions/tools-actions.c:48
 msgctxt "tools-action"
@@ -10176,9 +10171,8 @@ msgid "Convert Image to %s"
 msgstr "将图像转换为 RGB"
 
 #: ../app/dialogs/convert-precision-dialog.c:132
-#, fuzzy
 msgid "Precision Conversion"
-msgstr "版本："
+msgstr "精度转换"
 
 #: ../app/dialogs/convert-precision-dialog.c:147
 #: ../app/dialogs/convert-type-dialog.c:141
@@ -11396,10 +11390,8 @@ msgid "Image Window Drawing Behavior"
 msgstr "图像窗口外观"
 
 #: ../app/dialogs/preferences-dialog.c:2211 ../app/tools/gimpwarpoptions.c:76
-#, fuzzy
-#| msgid "Edge Behavior"
 msgid "Behavior"
-msgstr "边缘行为"
+msgstr "行为"
 
 #: ../app/dialogs/preferences-dialog.c:2219
 #, fuzzy
@@ -12273,10 +12265,8 @@ msgid "Angle:"
 msgstr "角度："
 
 #: ../app/display/gimpdisplayshell-rotate-dialog.c:167
-#, fuzzy
-#| msgid "15 degrees  (%s)"
 msgid "degrees"
-msgstr "15 度(%s)"
+msgstr "度"
 
 #: ../app/display/gimpdisplayshell-scale-dialog.c:115
 msgid "Zoom Ratio"
@@ -12396,7 +12386,6 @@ msgstr "URI 中有无效的字符序列"
 #: ../app/gegl/gimp-babl.c:265 ../app/gegl/gimp-babl.c:266
 #: ../app/gegl/gimp-babl.c:267 ../app/gegl/gimp-babl.c:268
 #: ../app/gegl/gimp-babl.c:269 ../app/gegl/gimp-babl.c:270
-#, fuzzy
 msgid "RGB"
 msgstr "RGB"
 
@@ -13210,7 +13199,7 @@ msgstr "调用“%s”过程使用了错误的值类型用于参数 #%d。需要
 
 #: ../app/pdb/gimppdbcontext.c:98 ../app/tools/gimpselectionoptions.c:79
 msgid "Smooth edges"
-msgstr "边缘平滑"
+msgstr "平滑边缘"
 
 #: ../app/pdb/gimpprocedure.c:376 ../app/plug-in/gimppluginprocframe.c:213
 #, c-format
@@ -13289,11 +13278,9 @@ msgid "Alien Map"
 msgstr ""
 
 #: ../app/pdb/plug-in-compat-cmds.c:449
-#, fuzzy
-#| msgid "Antialiasing"
 msgctxt "undo-type"
 msgid "Antialias"
-msgstr "边缘平滑"
+msgstr "抗锯齿"
 
 #: ../app/pdb/plug-in-compat-cmds.c:492
 #, fuzzy
@@ -15692,9 +15679,8 @@ msgid "_N-Point Deformation"
 msgstr "指针信息"
 
 #: ../app/tools/gimpoperationtool.c:113
-#, fuzzy
 msgid "Operation Tool: Use an arbitrary GEGL operation"
-msgstr "GEGL 工具：使用无基准的 GEGL 操作"
+msgstr "操作工具：使用无基准的 GEGL 操作"
 
 #: ../app/tools/gimpoperationtool.c:351
 #, fuzzy, c-format
@@ -16170,11 +16156,11 @@ msgstr "模式："
 
 #: ../app/tools/gimpselectionoptions.c:265 ../app/tools/gimptextoptions.c:540
 msgid "Antialiasing"
-msgstr "边缘平滑"
+msgstr "抗锯齿"
 
 #: ../app/tools/gimpselectionoptions.c:282
 msgid "Feather edges"
-msgstr "边缘羽化"
+msgstr "羽化边缘"
 
 #: ../app/tools/gimpselectiontool.c:255
 msgid "Click-Drag to replace the current selection"
@@ -16478,14 +16464,13 @@ msgid "Show image preview"
 msgstr "显示图像大小"
 
 #: ../app/tools/gimptransformoptions.c:434
-#, fuzzy
 msgid "Guides"
-msgstr "参考线(_G)"
+msgstr "参考线"
 
 #: ../app/tools/gimptransformoptions.c:455
 #, c-format
 msgid "15 degrees  (%s)"
-msgstr "15 度(%s)"
+msgstr "15 度（%s）"
 
 #: ../app/tools/gimptransformoptions.c:456
 msgid "Limit rotation steps to 15 degrees"
@@ -18200,9 +18185,8 @@ msgid "Color space:"
 msgstr "色彩空间："
 
 #: ../app/widgets/gimpimagepropview.c:124
-#, fuzzy
 msgid "Precision:"
-msgstr "版本："
+msgstr "精度："
 
 #: ../app/widgets/gimpimagepropview.c:129
 msgid "File Name:"
@@ -18321,7 +18305,7 @@ msgstr "使用渐变中的颜色"
 
 #: ../app/widgets/gimppropgui-constructors.c:301
 msgid "Clockwise"
-msgstr ""
+msgstr "顺时针"
 
 #: ../app/widgets/gimppropgui-constructors.c:387
 #, fuzzy
@@ -18379,11 +18363,11 @@ msgstr ""
 
 #: ../app/widgets/gimppropgui.c:468
 msgid "1,700 K – Match flame"
-msgstr ""
+msgstr "1,700 K – 火柴火焰"
 
 #: ../app/widgets/gimppropgui.c:469
 msgid "1,850 K – Candle flame, sunset/sunrise"
-msgstr ""
+msgstr "1,850 K – 蜡烛火焰，日落/日出"
 
 #: ../app/widgets/gimppropgui.c:470
 msgid "3,000 K – Soft (or warm) white compact fluorescent lamps"
@@ -18391,23 +18375,23 @@ msgstr ""
 
 #: ../app/widgets/gimppropgui.c:471
 msgid "3,300 K – Incandescent lamps"
-msgstr ""
+msgstr "3,300 K – 白炽灯"
 
 #: ../app/widgets/gimppropgui.c:472
 msgid "3,200 K – Studio lamps, photofloods, etc."
-msgstr ""
+msgstr "3,200 K – 工作室灯光，溢光等"
 
 #: ../app/widgets/gimppropgui.c:473
 msgid "3,350 K – Studio \"CP\" light"
-msgstr ""
+msgstr "3,350 K – 工作室“CP”灯光"
 
 #: ../app/widgets/gimppropgui.c:474
 msgid "4,100 K – Moonlight"
-msgstr ""
+msgstr "4,100 K – 月光"
 
 #: ../app/widgets/gimppropgui.c:475
 msgid "5,000 K – D50"
-msgstr ""
+msgstr "5,000 K – D50"
 
 #: ../app/widgets/gimppropgui.c:476
 msgid "5,000 K – Cool white/daylight compact fluorescent lamps"
@@ -18419,7 +18403,7 @@ msgstr ""
 
 #: ../app/widgets/gimppropgui.c:478
 msgid "5,500 K – D55"
-msgstr ""
+msgstr "5,500 K – D55"
 
 #: ../app/widgets/gimppropgui.c:479
 msgid "5,500 K – Vertical daylight, electronic flash"
@@ -18431,19 +18415,19 @@ msgstr ""
 
 #: ../app/widgets/gimppropgui.c:481
 msgid "6,500 K – D65"
-msgstr ""
+msgstr "6,500 K – D65"
 
 #: ../app/widgets/gimppropgui.c:482
 msgid "6,500 K – Daylight, overcast"
-msgstr ""
+msgstr "6,500 K – 日间，阴天"
 
 #: ../app/widgets/gimppropgui.c:483
 msgid "7,500 K – D75"
-msgstr ""
+msgstr "7,500 K – D75"
 
 #: ../app/widgets/gimppropgui.c:484
 msgid "9,300 K"
-msgstr ""
+msgstr "9,300 K"
 
 #: ../app/widgets/gimpsavedialog.c:157
 #, fuzzy
@@ -18811,14 +18795,12 @@ msgid "Reset tool order and visibility"
 msgstr "重置工具的顺序及可见属性"
 
 #: ../app/widgets/gimptooloptionseditor.c:202
-#, fuzzy
 msgid "Save Tool Preset..."
-msgstr "编辑工具预设值(_E)..."
+msgstr "保存工具预设值…"
 
 #: ../app/widgets/gimptooloptionseditor.c:210
-#, fuzzy
 msgid "Restore Tool Preset..."
-msgstr "编辑工具预设值(_E)..."
+msgstr "恢复工具预设值…"
 
 #: ../app/widgets/gimptooloptionseditor.c:218
 #, fuzzy
