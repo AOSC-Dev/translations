@@ -50,6 +50,7 @@ Terminology Difference
 |rate (paint brush)|比率|速率(?)|yes|
 |Antialiasing|边缘平滑|抗锯齿|yes|
 |foo to bar|foo 变 bar|foo 转 bar|no|
+|**eval**uation|评估|求值|no|
 
 
 Notes
