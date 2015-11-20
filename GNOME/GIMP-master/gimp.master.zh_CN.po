@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-19 19:07+0000\n"
-"PO-Revision-Date: 2015-11-20 11:49-0700\n"
+"PO-Revision-Date: 2015-11-20 13:39-0700\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,6 @@ msgstr ""
 "X-Generator: Poedit 1.8.5\n"
 
 #: ../desktop/gimp.appdata.xml.in.h:1
-#, fuzzy
 msgid "GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring."
 msgstr "GIMP 是 GNU 图像处理程序（GNU Image Manipulation Program）的缩写。GIMP 是一个可自由分发的程序，可用于照片的后期处理、图像混成处理和图像出版。"
 
@@ -70,11 +69,11 @@ msgid ""
 "\n"
 "You should have received a copy of the GNU General Public License along with GIMP.  If not, see http://www.gnu.org/licenses/."
 msgstr ""
-"GIMP 是一个自由软件；您可以在遵守由自由软件基金会发布的 GNU 通用公共许可协议的情况下重新分发并且(或者)修改软件；或第三版许可协议，或(根据您的选择)任何更新版本。\n"
+"GIMP 是自由软件；您可以在遵守由自由软件基金会发布的 GNU 通用公共许可协议的情况下重新分发并且（或者）修改软件；或第三版许可协议，或（根据您的选择）任何更新版本。\n"
 "\n"
-"GIMP 本着可应用的意愿分发，但不做任何保证；甚至没有商业性的或对特定目的适用性的暗指。更多细节请参看 GNU 通用公共许可协议。\n"
+"GIMP 本着可用的意愿分发，但不作任何担保；甚至没有商业性的或对特定目的适用性的暗指。更多细节请参看 GNU 通用公共许可协议。\n"
 "\n"
-"您应该已经随 GIMP 收到一份 GNU 通用公共许可协议；如果没有，见 <http://www.gnu.org/licenses/>。"
+"您应该随 GIMP 收到一份 GNU 通用公共许可协议；否则请参阅 <http://www.gnu.org/licenses/>。"
 
 #: ../app/main.c:150
 msgid "Show version information and exit"
@@ -94,7 +93,7 @@ msgstr "启动一个新的 GIMP 实例"
 
 #: ../app/main.c:170
 msgid "Open images as new"
-msgstr "作为新建图像打开"
+msgstr "作为新图像打开"
 
 #: ../app/main.c:175
 msgid "Run without a user interface"
@@ -176,7 +175,7 @@ msgstr ""
 
 #: ../app/main.c:447
 msgid "[FILE|URI...]"
-msgstr "[文件|URI...]"
+msgstr "[文件|URI…]"
 
 #: ../app/main.c:465
 msgid ""
@@ -184,7 +183,7 @@ msgid ""
 "Make sure a proper setup for your display environment exists."
 msgstr ""
 "GIMP 无法初始化图形用户界面。\n"
-"请确定您的显示环境已经正确安装。"
+"请确定您已正确安装和配置显示环境。"
 
 #: ../app/main.c:484
 msgid "Another GIMP instance is already running."
@@ -192,7 +191,7 @@ msgstr "另一个 GIMP 实例已在运行中。"
 
 #: ../app/main.c:572
 msgid "GIMP output. Type any character to close this window."
-msgstr "GIMP 输出。键入任意字符关闭此窗口。"
+msgstr "GIMP 输出。键入任意字符以关闭此窗口。"
 
 #: ../app/main.c:573
 #, c-format
@@ -201,7 +200,7 @@ msgstr "(键入任意字符关闭本窗口)\n"
 
 #: ../app/main.c:590
 msgid "GIMP output. You can minimize this window, but don't close it."
-msgstr "GIMP 输出。您可以最小化此窗口，但不要关闭它。"
+msgstr "GIMP 输出。您可以最小化该窗口，但请不要关闭窗口。"
 
 #: ../app/sanity.c:603
 #, c-format
@@ -468,12 +467,12 @@ msgstr "画笔菜单"
 #: ../app/actions/brushes-actions.c:47
 msgctxt "brushes-action"
 msgid "_Open Brush as Image"
-msgstr "作为图像打开画笔(_O)"
+msgstr "将画笔作为图像打开(_O)"
 
 #: ../app/actions/brushes-actions.c:48
 msgctxt "brushes-action"
 msgid "Open brush as image"
-msgstr "作为图像打开画笔"
+msgstr "将画笔作为图像打开"
 
 #: ../app/actions/brushes-actions.c:53
 msgctxt "brushes-action"
@@ -543,7 +542,7 @@ msgstr "刷新画笔"
 #: ../app/actions/brushes-actions.c:92
 msgctxt "brushes-action"
 msgid "_Edit Brush..."
-msgstr "编辑画笔(_E)..."
+msgstr "编辑画笔(_E)…"
 
 #: ../app/actions/brushes-actions.c:93
 msgctxt "brushes-action"
@@ -603,7 +602,7 @@ msgstr "通道菜单"
 #: ../app/actions/channels-actions.c:48
 msgctxt "channels-action"
 msgid "_Edit Channel Attributes..."
-msgstr "编辑通道属性(_E)..."
+msgstr "编辑通道属性(_E)…"
 
 #: ../app/actions/channels-actions.c:49
 msgctxt "channels-action"
@@ -613,7 +612,7 @@ msgstr "编辑通道名称、颜色和不透明度"
 #: ../app/actions/channels-actions.c:54
 msgctxt "channels-action"
 msgid "_New Channel..."
-msgstr "新建通道(_N)..."
+msgstr "新建通道(_N)…"
 
 #: ../app/actions/channels-actions.c:55
 msgctxt "channels-action"
@@ -781,7 +780,7 @@ msgstr "颜色表菜单"
 #: ../app/actions/colormap-actions.c:49
 msgctxt "colormap-action"
 msgid "_Edit Color..."
-msgstr "编辑颜色(_E)..."
+msgstr "编辑颜色(_E)…"
 
 #: ../app/actions/colormap-actions.c:50
 msgctxt "colormap-action"
@@ -1045,7 +1044,7 @@ msgstr "无标题"
 #: ../app/actions/file-commands.c:549
 #, c-format
 msgid "Can't show file in file manager: %s"
-msgstr ""
+msgstr "无法在文件管理器中查看文件：%s"
 
 #: ../app/actions/dialogs-actions.c:47
 msgctxt "windows-action"
@@ -1442,12 +1441,12 @@ msgstr "移动至屏幕(_O)"
 #: ../app/actions/dock-actions.c:50
 msgctxt "dock-action"
 msgid "Close Dock"
-msgstr "关闭停靠"
+msgstr "关闭停靠区"
 
 #: ../app/actions/dock-actions.c:55
 msgctxt "dock-action"
 msgid "_Open Display..."
-msgstr "打开显示(_O)..."
+msgstr "打开显示(_O)…"
 
 #: ../app/actions/dock-actions.c:56
 msgctxt "dock-action"
@@ -1760,7 +1759,7 @@ msgstr "自动校正白平衡"
 #: ../app/actions/drawable-actions.c:69
 msgctxt "drawable-action"
 msgid "_Dilate"
-msgstr ""
+msgstr "膨胀(_D)"
 
 #: ../app/actions/drawable-actions.c:70
 #, fuzzy
@@ -1771,7 +1770,7 @@ msgstr "将图层的大小重设为图像的尺寸"
 #: ../app/actions/drawable-actions.c:75
 msgctxt "drawable-action"
 msgid "E_rode"
-msgstr ""
+msgstr "腐蚀(_R)"
 
 #: ../app/actions/drawable-actions.c:76
 msgctxt "drawable-action"
@@ -1781,7 +1780,7 @@ msgstr ""
 #: ../app/actions/drawable-actions.c:81
 msgctxt "drawable-action"
 msgid "_Offset..."
-msgstr "位移(_O)..."
+msgstr "位移(_O)…"
 
 #: ../app/actions/drawable-actions.c:83
 msgctxt "drawable-action"
@@ -1895,11 +1894,11 @@ msgstr "只能对 RGB 颜色的图层进行白平衡操作。"
 
 #: ../app/actions/drawable-commands.c:143
 msgid "Dilate"
-msgstr ""
+msgstr "膨胀"
 
 #: ../app/actions/drawable-commands.c:175
 msgid "Erode"
-msgstr ""
+msgstr "腐蚀"
 
 #: ../app/actions/dynamics-actions.c:43
 msgctxt "dynamics-action"
@@ -1975,7 +1974,7 @@ msgstr "刷新动态"
 #: ../app/actions/dynamics-actions.c:86
 msgctxt "dynamics-action"
 msgid "_Edit Dynamics..."
-msgstr "编辑动态(_E)..."
+msgstr "编辑动态(_E)…"
 
 #: ../app/actions/dynamics-actions.c:87
 msgctxt "dynamics-action"
@@ -2065,7 +2064,7 @@ msgstr "从撤消历史中移除全部操作"
 #: ../app/actions/edit-actions.c:105
 msgctxt "edit-action"
 msgid "_Fade..."
-msgstr "淡出(_F)..."
+msgstr "淡出(_F)…"
 
 #: ../app/actions/edit-actions.c:107
 msgctxt "edit-action"
@@ -2151,7 +2150,7 @@ msgstr "从剪贴板中的内容创建新图层"
 #: ../app/actions/edit-actions.c:161
 msgctxt "edit-action"
 msgid "Cu_t Named..."
-msgstr "命名剪切(_T)..."
+msgstr "命名剪切(_T)…"
 
 #: ../app/actions/edit-actions.c:162
 msgctxt "edit-action"
@@ -2161,7 +2160,7 @@ msgstr "将选中的像素移动到命名缓冲区"
 #: ../app/actions/edit-actions.c:167
 msgctxt "edit-action"
 msgid "_Copy Named..."
-msgstr "命名复制(_C)..."
+msgstr "命名复制(_C)…"
 
 #: ../app/actions/edit-actions.c:168
 msgctxt "edit-action"
@@ -2172,7 +2171,7 @@ msgstr "将选中的像素复制到命名缓冲区"
 #: ../app/actions/edit-actions.c:173
 msgctxt "edit-action"
 msgid "Copy _Visible Named..."
-msgstr "命名复制可见(_V)..."
+msgstr "命名复制可见(_V)…"
 
 #: ../app/actions/edit-actions.c:175
 msgctxt "edit-action"
@@ -2182,7 +2181,7 @@ msgstr "将选择区域的可见内容复制到命名缓冲区"
 #: ../app/actions/edit-actions.c:180
 msgctxt "edit-action"
 msgid "_Paste Named..."
-msgstr "命名粘贴(_P)..."
+msgstr "命名粘贴(_P)…"
 
 #: ../app/actions/edit-actions.c:181
 msgctxt "edit-action"
@@ -2242,7 +2241,7 @@ msgstr "重做 %s(_R)"
 #: ../app/actions/edit-actions.c:337
 #, c-format
 msgid "_Fade %s..."
-msgstr "淡出(_F) %s..."
+msgstr "淡出(_F) %s…"
 
 #: ../app/actions/edit-actions.c:349
 msgid "_Undo"
@@ -2254,7 +2253,7 @@ msgstr "重做(_R)"
 
 #: ../app/actions/edit-actions.c:351
 msgid "_Fade..."
-msgstr "淡出(_F)..."
+msgstr "淡出(_F)…"
 
 #: ../app/actions/edit-commands.c:151
 msgid "Clear Undo History"
@@ -2345,7 +2344,7 @@ msgstr "选择所有错误信息"
 #: ../app/actions/error-console-actions.c:59
 msgctxt "error-console-action"
 msgid "_Save Error Log to File..."
-msgstr "将出错记录保存到文件(_S)..."
+msgstr "将出错记录保存到文件(_S)…"
 
 #: ../app/actions/error-console-actions.c:60
 msgctxt "error-console-action"
@@ -2355,7 +2354,7 @@ msgstr "将所有错误信息写入到文件"
 #: ../app/actions/error-console-actions.c:65
 msgctxt "error-console-action"
 msgid "Save S_election to File..."
-msgstr "将选区保存到文件(_E)..."
+msgstr "将选区保存到文件(_E)…"
 
 #: ../app/actions/error-console-actions.c:66
 msgctxt "error-console-action"
@@ -2397,7 +2396,7 @@ msgstr "最近打开(_R)"
 #: ../app/actions/file-actions.c:76
 msgctxt "file-action"
 msgid "_Open..."
-msgstr "打开(_O)..."
+msgstr "打开(_O)…"
 
 #: ../app/actions/file-actions.c:77
 msgctxt "file-action"
@@ -2407,17 +2406,17 @@ msgstr "打开图像文件"
 #: ../app/actions/file-actions.c:82
 msgctxt "file-action"
 msgid "Op_en as Layers..."
-msgstr "作为图层打开(_E)..."
+msgstr "作为图层打开(_E)…"
 
 #: ../app/actions/file-actions.c:83
 msgctxt "file-action"
 msgid "Open an image file as layers"
-msgstr "作为图层打开图像文件"
+msgstr "将图像文件作为图层打开"
 
 #: ../app/actions/file-actions.c:88
 msgctxt "file-action"
 msgid "Open _Location..."
-msgstr "打开位置(_L)..."
+msgstr "打开位置(_L)…"
 
 #: ../app/actions/file-actions.c:89
 msgctxt "file-action"
@@ -2427,7 +2426,7 @@ msgstr "从指定的位置打开图像文件"
 #: ../app/actions/file-actions.c:94
 msgctxt "file-action"
 msgid "Create Template..."
-msgstr "创建模板..."
+msgstr "创建模板…"
 
 #: ../app/actions/file-actions.c:95
 msgctxt "file-action"
@@ -2480,7 +2479,7 @@ msgstr "模块管理器"
 #: ../app/actions/file-actions.c:119
 msgctxt "file-action"
 msgid "Show image file location in the file manager"
-msgstr ""
+msgstr "在文件管理器中显示图像文件的位置"
 
 #: ../app/actions/file-actions.c:124
 msgctxt "file-action"
@@ -2505,7 +2504,7 @@ msgstr "保存此图像"
 #: ../app/actions/file-actions.c:139
 msgctxt "file-action"
 msgid "Save _As..."
-msgstr "另存为(_A)..."
+msgstr "另存为(_A)…"
 
 #: ../app/actions/file-actions.c:140
 msgctxt "file-action"
@@ -2515,7 +2514,7 @@ msgstr "用不同的名字保存此图像"
 #: ../app/actions/file-actions.c:145
 msgctxt "file-action"
 msgid "Save a Cop_y..."
-msgstr "保存副本(_Y)..."
+msgstr "保存副本(_Y)…"
 
 #: ../app/actions/file-actions.c:147
 msgctxt "file-action"
@@ -2525,7 +2524,7 @@ msgstr "保存此图像的一份复本，不影响源文件(若存在)或此图�
 #: ../app/actions/file-actions.c:153
 msgctxt "file-action"
 msgid "Save and Close..."
-msgstr "保存并关闭..."
+msgstr "保存并关闭…"
 
 #: ../app/actions/file-actions.c:154
 msgctxt "file-action"
@@ -2561,7 +2560,7 @@ msgstr "将图像以被导入的格式反向导出到导入文件"
 #| msgid "Export..."
 msgctxt "file-action"
 msgid "Export As..."
-msgstr "导出..."
+msgstr "导出…"
 
 #: ../app/actions/file-actions.c:172
 msgctxt "file-action"
@@ -2596,7 +2595,7 @@ msgstr "作为图层打开图像"
 #: ../app/actions/file-commands.c:285 ../app/widgets/gimpsavedialog.c:271
 #, c-format
 msgid "The image uses features from %s and cannot be saved for older GIMP versions."
-msgstr ""
+msgstr "该图像使用了来自 %s 的特性，因此不能为 GIMP 的老版本保存。"
 
 #: ../app/actions/file-commands.c:308
 msgid "No changes need to be saved"
@@ -2674,7 +2673,7 @@ msgstr ""
 #| msgid "Display _Filters..."
 msgctxt "filters-action"
 msgid "Apply _Lens..."
-msgstr "显示滤镜(_F)..."
+msgstr "显示滤镜(_F)…"
 
 #: ../app/actions/filters-actions.c:63
 msgctxt "filters-action"
@@ -2685,7 +2684,7 @@ msgstr ""
 #, fuzzy
 msgctxt "filters-action"
 msgid "Color to Gray..."
-msgstr "色彩平衡(_B)..."
+msgstr "色彩平衡(_B)…"
 
 #: ../app/actions/filters-actions.c:73
 msgctxt "filters-action"
@@ -2698,7 +2697,7 @@ msgstr ""
 #| msgid "_New Channel..."
 msgctxt "filters-action"
 msgid "_Channel Mixer..."
-msgstr "新建通道(_N)..."
+msgstr "新建通道(_N)…"
 
 #: ../app/actions/filters-actions.c:83
 msgctxt "filters-action"
@@ -2710,21 +2709,21 @@ msgstr ""
 #| msgid "Color _Balance..."
 msgctxt "filters-action"
 msgid "_Color Enhance..."
-msgstr "色彩平衡(_B)..."
+msgstr "色彩平衡(_B)…"
 
 #: ../app/actions/filters-actions.c:93
 #, fuzzy
 #| msgid "Color _Balance..."
 msgctxt "filters-action"
 msgid "_Color Exchange..."
-msgstr "色彩平衡(_B)..."
+msgstr "色彩平衡(_B)…"
 
 #: ../app/actions/filters-actions.c:98
 #, fuzzy
 #| msgid "Colori_ze..."
 msgctxt "filters-action"
 msgid "Color _Reduction..."
-msgstr "单色化(_Z)..."
+msgstr "单色化(_Z)…"
 
 #: ../app/actions/filters-actions.c:103
 #, fuzzy
@@ -2732,19 +2731,19 @@ msgstr "单色化(_Z)..."
 #| msgid "_Edit Color..."
 msgctxt "filters-action"
 msgid "_Rotate Colors..."
-msgstr "编辑颜色(_E)..."
+msgstr "编辑颜色(_E)…"
 
 #: ../app/actions/filters-actions.c:108
 #, fuzzy
 msgctxt "filters-action"
 msgid "Color T_emperature..."
-msgstr "创建模板..."
+msgstr "创建模板…"
 
 #: ../app/actions/filters-actions.c:113
 #, fuzzy
 msgctxt "filters-action"
 msgid "Color to _Alpha..."
-msgstr "色彩平衡(_B)..."
+msgstr "色彩平衡(_B)…"
 
 #: ../app/actions/filters-actions.c:118
 #, fuzzy
@@ -2763,7 +2762,7 @@ msgstr ""
 #| msgid "_Desaturate..."
 msgctxt "filters-action"
 msgid "_Deinterlace..."
-msgstr "去色(_D)..."
+msgstr "去色(_D)…"
 
 #: ../app/actions/filters-actions.c:133
 msgctxt "filters-action"
@@ -2776,7 +2775,7 @@ msgstr ""
 #| msgid "_Edit Pattern..."
 msgctxt "filters-action"
 msgid "Diffraction Patterns..."
-msgstr "编辑图案(_E)..."
+msgstr "编辑图案(_E)…"
 
 #: ../app/actions/filters-actions.c:143
 #, fuzzy
@@ -2798,14 +2797,14 @@ msgstr "距离："
 #| msgid "_Grow..."
 msgctxt "filters-action"
 msgid "_Drop Shadow..."
-msgstr "增长(_G)..."
+msgstr "增长(_G)…"
 
 #: ../app/actions/filters-actions.c:158
 #, fuzzy
 #| msgid "_Fade..."
 msgctxt "filters-action"
 msgid "_Edge..."
-msgstr "淡出(_F)..."
+msgstr "淡出(_F)…"
 
 #: ../app/actions/filters-actions.c:163
 #, fuzzy
@@ -2829,7 +2828,7 @@ msgstr ""
 #| msgid "_Fade..."
 msgctxt "filters-action"
 msgid "_En_grave..."
-msgstr "淡出(_F)..."
+msgstr "淡出(_F)…"
 
 #: ../app/actions/filters-actions.c:183
 #, fuzzy
@@ -2844,7 +2843,7 @@ msgstr "曝光量"
 #| msgid "_Scale Image..."
 msgctxt "filters-action"
 msgid "_Fractal Trace..."
-msgstr "缩放图像(_S)..."
+msgstr "缩放图像(_S)…"
 
 #: ../app/actions/filters-actions.c:193
 msgctxt "filters-action"
@@ -2874,7 +2873,7 @@ msgstr ""
 #| msgid "Open _Location..."
 msgctxt "filters-action"
 msgid "Lens Distortion..."
-msgstr "打开位置(_L)..."
+msgstr "打开位置(_L)…"
 
 #: ../app/actions/filters-actions.c:218
 msgctxt "filters-action"
@@ -2886,7 +2885,7 @@ msgstr ""
 #| msgid "_Fade..."
 msgctxt "filters-action"
 msgid "_Maze..."
-msgstr "淡出(_F)..."
+msgstr "淡出(_F)…"
 
 #: ../app/actions/filters-actions.c:228
 msgctxt "filters-action"
@@ -2896,7 +2895,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:233
 msgctxt "filters-action"
 msgid "_Mosaic..."
-msgstr ""
+msgstr "马赛克(_M)…"
 
 #: ../app/actions/filters-actions.c:238
 #, fuzzy
@@ -2904,12 +2903,12 @@ msgstr ""
 #| msgid "_Arbitrary Rotation..."
 msgctxt "filters-action"
 msgid "_Circular Motion Blur..."
-msgstr "任意旋转(_A)..."
+msgstr "任意旋转(_A)…"
 
 #: ../app/actions/filters-actions.c:243
 msgctxt "filters-action"
 msgid "_Linear Motion Blur..."
-msgstr ""
+msgstr "线性动态模糊(_L)…"
 
 #: ../app/actions/filters-actions.c:248
 msgctxt "filters-action"
@@ -2920,7 +2919,7 @@ msgstr ""
 #, fuzzy
 msgctxt "filters-action"
 msgid "_Cell Noise..."
-msgstr "色调分离(_P)..."
+msgstr "色调分离(_P)…"
 
 #: ../app/actions/filters-actions.c:258
 msgctxt "filters-action"
@@ -2943,7 +2942,7 @@ msgstr ""
 #| msgid "_Print Size..."
 msgctxt "filters-action"
 msgid "_Perlin Noise..."
-msgstr "打印大小(_P)..."
+msgstr "打印大小(_P)…"
 
 #: ../app/actions/filters-actions.c:278
 #, fuzzy
@@ -2951,7 +2950,7 @@ msgstr "打印大小(_P)..."
 #| msgid "S_hrink..."
 msgctxt "filters-action"
 msgid "_Pick..."
-msgstr "收缩(_H)..."
+msgstr "收缩(_H)…"
 
 #: ../app/actions/filters-actions.c:283
 #, fuzzy
@@ -2971,7 +2970,7 @@ msgstr "未选择"
 #: ../app/actions/filters-actions.c:293
 msgctxt "filters-action"
 msgid "_Simplex Noise..."
-msgstr "单纯噪声(_S)..."
+msgstr "单纯噪声(_S)…"
 
 #: ../app/actions/filters-actions.c:298
 #, fuzzy
@@ -2979,7 +2978,7 @@ msgstr "单纯噪声(_S)..."
 #| msgid "_Scale Layer..."
 msgctxt "filters-action"
 msgid "_Slur..."
-msgstr "缩放图层(_S)..."
+msgstr "缩放图层(_S)…"
 
 #: ../app/actions/filters-actions.c:303
 msgctxt "filters-action"
@@ -2991,7 +2990,7 @@ msgstr ""
 #| msgid "_Threshold..."
 msgctxt "filters-action"
 msgid "Sp_read..."
-msgstr "阈值(_T)..."
+msgstr "阈值(_T)…"
 
 #: ../app/actions/filters-actions.c:313
 msgctxt "filters-action"
@@ -3012,7 +3011,7 @@ msgstr ""
 #, fuzzy
 msgctxt "filters-action"
 msgid "_Pixelize..."
-msgstr "色调分离(_P)..."
+msgstr "色调分离(_P)…"
 
 #: ../app/actions/filters-actions.c:333
 msgctxt "filters-action"
@@ -3033,13 +3032,13 @@ msgstr ""
 #, fuzzy
 msgctxt "filters-action"
 msgid "_Ripple..."
-msgstr "色调分离(_P)..."
+msgstr "色调分离(_P)…"
 
 #: ../app/actions/filters-actions.c:353
 #, fuzzy
 msgctxt "filters-action"
 msgid "_Semi-Flatten..."
-msgstr "编辑图案(_E)..."
+msgstr "编辑图案(_E)…"
 
 #: ../app/actions/filters-actions.c:358
 #, fuzzy
@@ -3047,14 +3046,14 @@ msgstr "编辑图案(_E)..."
 #| msgid "_Offset..."
 msgctxt "filters-action"
 msgid "_Shift..."
-msgstr "位移(_O)..."
+msgstr "位移(_O)…"
 
 #: ../app/actions/filters-actions.c:363
 #, fuzzy
 #| msgid "_Curves..."
 msgctxt "filters-action"
 msgid "_Sinus..."
-msgstr "曲线(_C)..."
+msgstr "曲线(_C)…"
 
 #: ../app/actions/filters-actions.c:368
 msgctxt "filters-action"
@@ -3066,7 +3065,7 @@ msgstr ""
 #| msgid "B_rightness-Contrast..."
 msgctxt "filters-action"
 msgid "_Stretch Contrast..."
-msgstr "亮度-对比度(_R)..."
+msgstr "亮度-对比度(_R)…"
 
 #: ../app/actions/filters-actions.c:378
 msgctxt "filters-action"
@@ -3082,7 +3081,7 @@ msgstr ""
 #, fuzzy
 msgctxt "filters-action"
 msgid "_Threshold Alpha..."
-msgstr "阈值(_T)..."
+msgstr "阈值(_T)…"
 
 #: ../app/actions/filters-actions.c:393
 #, fuzzy
@@ -3090,14 +3089,14 @@ msgstr "阈值(_T)..."
 #| msgid "Can_vas Size..."
 msgctxt "filters-action"
 msgid "_Glass Tile..."
-msgstr "画布大小(_V)..."
+msgstr "画布大小(_V)…"
 
 #: ../app/actions/filters-actions.c:398
 #, fuzzy
 #| msgid "_Posterize..."
 msgctxt "filters-action"
 msgid "_Paper Tile..."
-msgstr "色调分离(_P)..."
+msgstr "色调分离(_P)…"
 
 #: ../app/actions/filters-actions.c:403
 msgctxt "filters-action"
@@ -3115,14 +3114,12 @@ msgstr ""
 #| msgid "_Scale Image..."
 msgctxt "filters-action"
 msgid "_Value Propagate..."
-msgstr "缩放图像(_S)..."
+msgstr "缩放图像(_S)…"
 
 #: ../app/actions/filters-actions.c:418
-#, fuzzy
-#| msgid "_GEGL Operation..."
 msgctxt "filters-action"
 msgid "Vi_deo Degradation..."
-msgstr "GEGL 操作(_G)..."
+msgstr "降低视频质量(_D)…"
 
 #: ../app/actions/filters-actions.c:423
 #, fuzzy
@@ -3130,14 +3127,14 @@ msgstr "GEGL 操作(_G)..."
 #| msgid "_Edit Palette..."
 msgctxt "filters-action"
 msgid "_Vignette..."
-msgstr "编辑色板(_E)..."
+msgstr "编辑色板(_E)…"
 
 #: ../app/actions/filters-actions.c:428
 #, fuzzy
 #| msgid "_Curves..."
 msgctxt "filters-action"
 msgid "_Waves..."
-msgstr "曲线(_C)..."
+msgstr "曲线(_C)…"
 
 #: ../app/actions/filters-actions.c:433
 msgctxt "filters-action"
@@ -3150,7 +3147,7 @@ msgstr ""
 #| msgid "_Indexed..."
 msgctxt "filters-action"
 msgid "W_ind..."
-msgstr "索引(_I)..."
+msgstr "索引(_I)…"
 
 #: ../app/actions/filters-commands.c:75
 msgid "..."
@@ -3209,12 +3206,12 @@ msgstr "保存右端颜色到(_V)"
 #: ../app/actions/gradient-editor-actions.c:67
 msgctxt "gradient-editor-action"
 msgid "L_eft Endpoint's Color..."
-msgstr "左端点的颜色(_E)..."
+msgstr "左端点的颜色(_E)…"
 
 #: ../app/actions/gradient-editor-actions.c:72
 msgctxt "gradient-editor-action"
 msgid "R_ight Endpoint's Color..."
-msgstr "右端点的颜色(_I)..."
+msgstr "右端点的颜色(_I)…"
 
 #: ../app/actions/gradient-editor-actions.c:112
 msgctxt "gradient-editor-action"
@@ -3329,11 +3326,13 @@ msgid "_RGB"
 msgstr "_RGB"
 
 #: ../app/actions/gradient-editor-actions.c:356
+#, fuzzy
 msgctxt "gradient-editor-coloring"
 msgid "HSV (_counter-clockwise hue)"
 msgstr "HSV (逆时针色调)(_C)"
 
 #: ../app/actions/gradient-editor-actions.c:361
+#, fuzzy
 msgctxt "gradient-editor-coloring"
 msgid "HSV (clockwise _hue)"
 msgstr "HSV (顺时针色调)(_H)"
@@ -3384,7 +3383,7 @@ msgstr "翻转段(_F)"
 
 #: ../app/actions/gradient-editor-actions.c:784
 msgid "_Replicate Segment..."
-msgstr "复制段(_R)..."
+msgstr "复制段(_R)…"
 
 #: ../app/actions/gradient-editor-actions.c:786
 msgid "Split Segment at _Midpoint"
@@ -3392,7 +3391,7 @@ msgstr "在中点处分割段(_M)"
 
 #: ../app/actions/gradient-editor-actions.c:788
 msgid "Split Segment _Uniformly..."
-msgstr "等分切割段(_U)..."
+msgstr "等分切割段(_U)…"
 
 #: ../app/actions/gradient-editor-actions.c:790
 msgid "_Delete Segment"
@@ -3420,7 +3419,7 @@ msgstr "翻转选区(_F)"
 
 #: ../app/actions/gradient-editor-actions.c:806
 msgid "_Replicate Selection..."
-msgstr "复制选区(_R)..."
+msgstr "复制选区(_R)…"
 
 #: ../app/actions/gradient-editor-actions.c:808
 msgid "Split Segments at _Midpoints"
@@ -3428,7 +3427,7 @@ msgstr "在中点处分割段(_M)"
 
 #: ../app/actions/gradient-editor-actions.c:810
 msgid "Split Segments _Uniformly..."
-msgstr "等分切割段(_U)..."
+msgstr "等分切割段(_U)…"
 
 #: ../app/actions/gradient-editor-actions.c:812
 msgid "_Delete Selection"
@@ -3577,7 +3576,7 @@ msgstr "将渐变文件位置复制到剪贴板"
 #: ../app/actions/gradients-actions.c:72
 msgctxt "gradients-action"
 msgid "Save as _POV-Ray..."
-msgstr "保存为 ＿POV-Ray..."
+msgstr "保存为 ＿POV-Ray…"
 
 #: ../app/actions/gradients-actions.c:73
 msgctxt "gradients-action"
@@ -3607,7 +3606,7 @@ msgstr "刷新渐变"
 #: ../app/actions/gradients-actions.c:93
 msgctxt "gradients-action"
 msgid "_Edit Gradient..."
-msgstr "编辑渐变(_E)..."
+msgstr "编辑渐变(_E)…"
 
 #: ../app/actions/gradients-actions.c:94
 msgctxt "gradients-action"
@@ -3712,7 +3711,7 @@ msgstr "去色"
 #: ../app/actions/image-actions.c:72
 msgctxt "image-action"
 msgid "_New..."
-msgstr "新建(_N)..."
+msgstr "新建(_N)…"
 
 #: ../app/actions/image-actions.c:73
 msgctxt "image-action"
@@ -3763,7 +3762,7 @@ msgstr "显示图像的颜色采样点"
 #: ../app/actions/image-actions.c:96
 msgctxt "image-action"
 msgid "Can_vas Size..."
-msgstr "画布大小(_V)..."
+msgstr "画布大小(_V)…"
 
 #: ../app/actions/image-actions.c:97
 msgctxt "image-action"
@@ -3793,7 +3792,7 @@ msgstr "改变图像尺寸到选区的范围"
 #: ../app/actions/image-actions.c:114
 msgctxt "image-action"
 msgid "_Print Size..."
-msgstr "打印大小(_P)..."
+msgstr "打印大小(_P)…"
 
 #: ../app/actions/image-actions.c:115
 msgctxt "image-action"
@@ -3803,7 +3802,7 @@ msgstr "调整打印分辨率"
 #: ../app/actions/image-actions.c:120
 msgctxt "image-action"
 msgid "_Scale Image..."
-msgstr "缩放图像(_S)..."
+msgstr "缩放图像(_S)…"
 
 #: ../app/actions/image-actions.c:121
 msgctxt "image-action"
@@ -3846,7 +3845,7 @@ msgstr "创建此图像的复本"
 #: ../app/actions/image-actions.c:144
 msgctxt "image-action"
 msgid "Merge Visible _Layers..."
-msgstr "合并可见图层(_L)..."
+msgstr "合并可见图层(_L)…"
 
 #: ../app/actions/image-actions.c:145
 msgctxt "image-action"
@@ -3866,7 +3865,7 @@ msgstr "将所有的图层合并为一个并移除透明"
 #: ../app/actions/image-actions.c:156
 msgctxt "image-action"
 msgid "Configure G_rid..."
-msgstr "配置网格(_R)..."
+msgstr "配置网格(_R)…"
 
 #: ../app/actions/image-actions.c:157
 msgctxt "image-action"
@@ -3906,7 +3905,7 @@ msgstr "将图像转换为灰度"
 #: ../app/actions/image-actions.c:181
 msgctxt "image-convert-action"
 msgid "_Indexed..."
-msgstr "索引(_I)..."
+msgstr "索引(_I)…"
 
 #: ../app/actions/image-actions.c:182
 msgctxt "image-convert-action"
@@ -4250,7 +4249,7 @@ msgstr "在此文字层上激活文本工具"
 #: ../app/actions/layers-actions.c:76
 msgctxt "layers-action"
 msgid "_Edit Layer Attributes..."
-msgstr "编辑图层属性(_E)..."
+msgstr "编辑图层属性(_E)…"
 
 #: ../app/actions/layers-actions.c:77
 msgctxt "layers-action"
@@ -4260,7 +4259,7 @@ msgstr "编辑图层名称"
 #: ../app/actions/layers-actions.c:82 ../app/actions/layers-actions.c:618
 msgctxt "layers-action"
 msgid "_New Layer..."
-msgstr "新建图层(_N)..."
+msgstr "新建图层(_N)…"
 
 #: ../app/actions/layers-actions.c:83
 msgctxt "layers-action"
@@ -4293,7 +4292,7 @@ msgstr "从此图像中的可见内容创建新图层"
 #| msgid "New Layer _Group..."
 msgctxt "layers-action"
 msgid "New Layer _Group"
-msgstr "新建图层群组(_G)..."
+msgstr "新建图层群组(_G)…"
 
 #: ../app/actions/layers-actions.c:102
 msgctxt "layers-action"
@@ -4393,7 +4392,7 @@ msgstr "将图层群组中的图层合并至一个普通图层"
 #: ../app/actions/layers-actions.c:162
 msgctxt "layers-action"
 msgid "Merge _Visible Layers..."
-msgstr "合并可见图层(_V)..."
+msgstr "合并可见图层(_V)…"
 
 #: ../app/actions/layers-actions.c:163
 msgctxt "layers-action"
@@ -4443,7 +4442,7 @@ msgstr "沿活动路径环绕此层的文字"
 #: ../app/actions/layers-actions.c:192
 msgctxt "layers-action"
 msgid "Layer B_oundary Size..."
-msgstr "图层边界大小(_O)..."
+msgstr "图层边界大小(_O)…"
 
 #: ../app/actions/layers-actions.c:193
 msgctxt "layers-action"
@@ -4463,7 +4462,7 @@ msgstr "将图层的大小重设为图像的尺寸"
 #: ../app/actions/layers-actions.c:204
 msgctxt "layers-action"
 msgid "_Scale Layer..."
-msgstr "缩放图层(_S)..."
+msgstr "缩放图层(_S)…"
 
 #: ../app/actions/layers-actions.c:205
 msgctxt "layers-action"
@@ -4496,7 +4495,7 @@ msgstr "剪裁图层到选区的范围"
 #: ../app/actions/layers-actions.c:222
 msgctxt "layers-action"
 msgid "Add La_yer Mask..."
-msgstr "添加图层蒙板(_Y)..."
+msgstr "添加图层蒙板(_Y)…"
 
 #: ../app/actions/layers-actions.c:224
 msgctxt "layers-action"
@@ -4621,7 +4620,7 @@ msgstr "交叉图层蒙版和当前选区"
 #: ../app/actions/layers-actions.c:317
 msgctxt "layers-action"
 msgid "Al_pha to Selection"
-msgstr "Al_pha 到选区"
+msgstr "Al_pha 到选区(_P)"
 
 #: ../app/actions/layers-actions.c:319
 msgctxt "layers-action"
@@ -4784,7 +4783,7 @@ msgstr "色板编辑器菜单"
 #: ../app/actions/palette-editor-actions.c:48
 msgctxt "palette-editor-action"
 msgid "_Edit Color..."
-msgstr "编辑颜色(_E)..."
+msgstr "编辑颜色(_E)…"
 
 #: ../app/actions/palette-editor-actions.c:49
 msgctxt "palette-editor-action"
@@ -4864,7 +4863,7 @@ msgstr "创建新的模板"
 #: ../app/actions/palettes-actions.c:54
 msgctxt "palettes-action"
 msgid "_Import Palette..."
-msgstr "导入色板(_I)..."
+msgstr "导入色板(_I)…"
 
 #: ../app/actions/palettes-actions.c:55
 msgctxt "palettes-action"
@@ -4884,7 +4883,7 @@ msgstr "复制色板"
 #: ../app/actions/palettes-actions.c:66
 msgctxt "palettes-action"
 msgid "_Merge Palettes..."
-msgstr "合并色板(_M)..."
+msgstr "合并色板(_M)…"
 
 #: ../app/actions/palettes-actions.c:67
 msgctxt "palettes-action"
@@ -4939,7 +4938,7 @@ msgstr "刷新色板"
 #: ../app/actions/palettes-actions.c:99
 msgctxt "palettes-action"
 msgid "_Edit Palette..."
-msgstr "编辑色板(_E)..."
+msgstr "编辑色板(_E)…"
 
 #: ../app/actions/palettes-actions.c:100
 msgctxt "palettes-action"
@@ -4962,12 +4961,12 @@ msgstr "图案菜单"
 #: ../app/actions/patterns-actions.c:47
 msgctxt "patterns-action"
 msgid "_Open Pattern as Image"
-msgstr "作为图像打开图案(_O)"
+msgstr "将图案作为图像打开(_O)"
 
 #: ../app/actions/patterns-actions.c:48
 msgctxt "patterns-action"
 msgid "Open this pattern as an image"
-msgstr "作为图像打开图案"
+msgstr "将此图案作为图像打开"
 
 #: ../app/actions/patterns-actions.c:53
 msgctxt "patterns-action"
@@ -5037,7 +5036,7 @@ msgstr "刷新图案"
 #: ../app/actions/patterns-actions.c:92
 msgctxt "patterns-action"
 msgid "_Edit Pattern..."
-msgstr "编辑图案(_E)..."
+msgstr "编辑图案(_E)…"
 
 #: ../app/actions/patterns-actions.c:93
 msgctxt "patterns-action"
@@ -5216,7 +5215,7 @@ msgstr "快速蒙板菜单"
 #: ../app/actions/quick-mask-actions.c:47
 msgctxt "quick-mask-action"
 msgid "_Configure Color and Opacity..."
-msgstr "配置颜色和不透明度(_C)..."
+msgstr "配置颜色和不透明度(_C)…"
 
 #: ../app/actions/quick-mask-actions.c:55
 msgctxt "quick-mask-action"
@@ -5322,7 +5321,7 @@ msgstr "创建浮动选区"
 #: ../app/actions/select-actions.c:74
 msgctxt "select-action"
 msgid "Fea_ther..."
-msgstr "羽化(_T)..."
+msgstr "羽化(_T)…"
 
 #: ../app/actions/select-actions.c:76
 msgctxt "select-action"
@@ -5343,7 +5342,7 @@ msgstr "移除选区中的模糊"
 #: ../app/actions/select-actions.c:87
 msgctxt "select-action"
 msgid "S_hrink..."
-msgstr "收缩(_H)..."
+msgstr "收缩(_H)…"
 
 #: ../app/actions/select-actions.c:88
 msgctxt "select-action"
@@ -5353,7 +5352,7 @@ msgstr "收缩选区"
 #: ../app/actions/select-actions.c:93
 msgctxt "select-action"
 msgid "_Grow..."
-msgstr "增长(_G)..."
+msgstr "增长(_G)…"
 
 #: ../app/actions/select-actions.c:94
 msgctxt "select-action"
@@ -5363,7 +5362,7 @@ msgstr "扩大选区"
 #: ../app/actions/select-actions.c:99
 msgctxt "select-action"
 msgid "Bo_rder..."
-msgstr "边界(_R)..."
+msgstr "边界(_R)…"
 
 #: ../app/actions/select-actions.c:100
 msgctxt "select-action"
@@ -5383,7 +5382,7 @@ msgstr "将选区保存到通道"
 #: ../app/actions/select-actions.c:111
 msgctxt "select-action"
 msgid "_Stroke Selection..."
-msgstr "勾画选区(_S)..."
+msgstr "勾画选区(_S)…"
 
 #: ../app/actions/select-actions.c:112
 msgctxt "select-action"
@@ -5480,7 +5479,7 @@ msgstr "从选中的模板创建新的图像"
 #: ../app/actions/templates-actions.c:52
 msgctxt "templates-action"
 msgid "_New Template..."
-msgstr "新建模板(_N)..."
+msgstr "新建模板(_N)…"
 
 #: ../app/actions/templates-actions.c:53
 msgctxt "templates-action"
@@ -5490,7 +5489,7 @@ msgstr "创建新的模板"
 #: ../app/actions/templates-actions.c:58
 msgctxt "templates-action"
 msgid "D_uplicate Template..."
-msgstr "复制模板(_U)..."
+msgstr "复制模板(_U)…"
 
 #: ../app/actions/templates-actions.c:59
 msgctxt "templates-action"
@@ -5500,7 +5499,7 @@ msgstr "复制选中的模板"
 #: ../app/actions/templates-actions.c:64
 msgctxt "templates-action"
 msgid "_Edit Template..."
-msgstr "编辑模板(_E)..."
+msgstr "编辑模板(_E)…"
 
 #: ../app/actions/templates-actions.c:65
 msgctxt "templates-action"
@@ -5627,7 +5626,7 @@ msgstr "删除(_D)"
 #: ../app/actions/text-tool-actions.c:78
 msgctxt "text-tool-action"
 msgid "_Open text file..."
-msgstr "打开文本文件(_O)..."
+msgstr "打开文本文件(_O)…"
 
 #: ../app/actions/text-tool-actions.c:83
 msgctxt "text-tool-action"
@@ -5675,10 +5674,9 @@ msgid "Tool Options Menu"
 msgstr "工具选项菜单"
 
 #: ../app/actions/tool-options-actions.c:61
-#, fuzzy
 msgctxt "tool-options-action"
 msgid "_Save Tool Preset"
-msgstr "新建工具预设值(_N)"
+msgstr "保存工具预设值(_N)"
 
 #: ../app/actions/tool-options-actions.c:65
 #, fuzzy
@@ -5698,10 +5696,9 @@ msgid "_Delete Tool Preset"
 msgstr "删除工具预设值(_D)"
 
 #: ../app/actions/tool-options-actions.c:77
-#, fuzzy
 msgctxt "tool-options-action"
 msgid "_New Tool Preset..."
-msgstr "新建工具预设值(_N)"
+msgstr "新建工具预设值(_N)…"
 
 #: ../app/actions/tool-options-actions.c:82
 msgctxt "tool-options-action"
@@ -5748,7 +5745,6 @@ msgid "Tool Presets Menu"
 msgstr "工具预设值菜单"
 
 #: ../app/actions/tool-presets-actions.c:50
-#, fuzzy
 msgctxt "tool-presets-action"
 msgid "_New Tool Preset"
 msgstr "新建工具预设值(_N)"
@@ -5880,7 +5876,7 @@ msgstr "按相似的颜色选择区域"
 #: ../app/actions/tools-actions.c:64
 msgctxt "tools-action"
 msgid "_Arbitrary Rotation..."
-msgstr "任意旋转(_A)..."
+msgstr "任意旋转(_A)…"
 
 #: ../app/actions/tools-actions.c:65
 msgctxt "tools-action"
@@ -5900,7 +5896,7 @@ msgstr "路径工具(_T)"
 #: ../app/actions/vectors-actions.c:53
 msgctxt "vectors-action"
 msgid "_Edit Path Attributes..."
-msgstr "编辑路径属性(_E)..."
+msgstr "编辑路径属性(_E)…"
 
 #: ../app/actions/vectors-actions.c:54
 msgctxt "vectors-action"
@@ -5910,12 +5906,12 @@ msgstr "编辑路径属性"
 #: ../app/actions/vectors-actions.c:59
 msgctxt "vectors-action"
 msgid "_New Path..."
-msgstr "新建路径(_N)..."
+msgstr "新建路径(_N)…"
 
 #: ../app/actions/vectors-actions.c:60
 msgctxt "vectors-action"
 msgid "Create a new path..."
-msgstr "创建新的路径..."
+msgstr "创建新的路径…"
 
 #: ../app/actions/vectors-actions.c:65
 msgctxt "vectors-action"
@@ -5995,7 +5991,7 @@ msgstr "降低此路径至底端"
 #: ../app/actions/vectors-actions.c:112
 msgctxt "vectors-action"
 msgid "Stro_ke Path..."
-msgstr "勾画路径(_K)..."
+msgstr "勾画路径(_K)…"
 
 #: ../app/actions/vectors-actions.c:113
 msgctxt "vectors-action"
@@ -6025,12 +6021,12 @@ msgstr "粘贴路径(_H)"
 #: ../app/actions/vectors-actions.c:134
 msgctxt "vectors-action"
 msgid "E_xport Path..."
-msgstr "导出路径(_X)..."
+msgstr "导出路径(_X)…"
 
 #: ../app/actions/vectors-actions.c:139
 msgctxt "vectors-action"
 msgid "I_mport Path..."
-msgstr "导入路径(_M)..."
+msgstr "导入路径(_M)…"
 
 #: ../app/actions/vectors-actions.c:147
 msgctxt "vectors-action"
@@ -6195,20 +6191,14 @@ msgid "Create another view on this image"
 msgstr "在此图像上创建另一个显示"
 
 #: ../app/actions/view-actions.c:84
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "_Close"
 msgctxt "view-action"
 msgid "_Close View"
-msgstr "关闭(_C)"
+msgstr "关闭视图(_C)"
 
 #: ../app/actions/view-actions.c:85
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Close this image window"
 msgctxt "view-action"
 msgid "Close the active image view"
-msgstr "关闭此图像窗口"
+msgstr "关闭当前激活的图像窗口"
 
 #: ../app/actions/view-actions.c:90
 msgctxt "view-action"
@@ -6262,7 +6252,7 @@ msgstr "恢复到上一次的缩放级别"
 #| msgid "Othe_r..."
 msgctxt "view-action"
 msgid "Othe_r..."
-msgstr "其它(_R)..."
+msgstr "其它(_R)…"
 
 #: ../app/actions/view-actions.c:115
 #, fuzzy
@@ -6285,7 +6275,7 @@ msgstr "为此图像显示概览窗口"
 #: ../app/actions/view-actions.c:126
 msgctxt "view-action"
 msgid "Display _Filters..."
-msgstr "显示滤镜(_F)..."
+msgstr "显示滤镜(_F)…"
 
 #: ../app/actions/view-actions.c:127
 msgctxt "view-action"
@@ -6305,7 +6295,7 @@ msgstr "缩小图像窗口到图像显示的尺寸"
 #: ../app/actions/view-actions.c:138
 msgctxt "view-action"
 msgid "_Open Display..."
-msgstr "打开显示(_O)..."
+msgstr "打开显示(_O)…"
 
 #: ../app/actions/view-actions.c:139
 msgctxt "view-action"
@@ -6587,7 +6577,7 @@ msgstr "缩放 1:16"
 #: ../app/actions/view-actions.c:391
 msgctxt "view-zoom-action"
 msgid "Othe_r..."
-msgstr "其它(_R)..."
+msgstr "其它(_R)…"
 
 #: ../app/actions/view-actions.c:392
 msgctxt "view-zoom-action"
@@ -6733,7 +6723,7 @@ msgstr "使用深色方格的颜色"
 #: ../app/actions/view-actions.c:481
 msgctxt "view-padding-color"
 msgid "Select _Custom Color..."
-msgstr "选择自定义颜色(_C)..."
+msgstr "选择自定义颜色(_C)…"
 
 #: ../app/actions/view-actions.c:482
 msgctxt "view-padding-color"
@@ -6762,7 +6752,7 @@ msgstr "恢复缩放(_V)"
 #: ../app/actions/view-actions.c:877
 #, c-format
 msgid "Othe_r (%s)..."
-msgstr "其它(_R)(%s)..."
+msgstr "其它(_R)(%s)…"
 
 #: ../app/actions/view-actions.c:886
 #, c-format
@@ -7446,12 +7436,12 @@ msgstr "无"
 #: ../app/core/core-enums.c:90
 msgctxt "convert-dither-type"
 msgid "Floyd-Steinberg (normal)"
-msgstr "Floyd-Steinberg (普通)"
+msgstr "Floyd-Steinberg（普通）"
 
 #: ../app/core/core-enums.c:91
 msgctxt "convert-dither-type"
 msgid "Floyd-Steinberg (reduced color bleeding)"
-msgstr "Floyd-Steinberg (减少颜色损失)"
+msgstr "Floyd-Steinberg（减少渗色）"
 
 #: ../app/core/core-enums.c:92
 msgctxt "convert-dither-type"
@@ -8476,12 +8466,12 @@ msgstr "您看来是第一次使用 GIMP。GIMP 现在将创建名为“%s”的
 #: ../app/core/gimp-user-install.c:412
 #, c-format
 msgid "Copying file '%s' from '%s'..."
-msgstr "正在从“%2$s”复制文件“%1$s”..."
+msgstr "正在从“%2$s”复制文件“%1$s”…"
 
 #: ../app/core/gimp-user-install.c:427 ../app/core/gimp-user-install.c:453
 #, c-format
 msgid "Creating folder '%s'..."
-msgstr "正在创建“%s”文件夹..."
+msgstr "正在创建“%s”文件夹…"
 
 #: ../app/core/gimp-user-install.c:438 ../app/core/gimp-user-install.c:464
 #, c-format
@@ -9484,7 +9474,7 @@ msgstr "点击生成预览"
 
 #: ../app/core/gimpimagefile.c:822
 msgid "Loading preview..."
-msgstr "正在加载预览 ..."
+msgstr "正在加载预览 …"
 
 #: ../app/core/gimpimagefile.c:828
 msgid "Preview is out of date"
@@ -10004,11 +9994,12 @@ msgstr ""
 "Cai Qian <caiqian@gnome.org>, 2005.\n"
 "Shawn Syu <shawn@msn.cn>, 2008.\n"
 "Aron Xu　<aronmalache@163.com>, 2008-2009.\n"
-"神州散人 <kappa8086@gmail.com>, 2008-2009."
+"神州散人 <kappa8086@gmail.com>, 2008-2009.\n"
+"Jeff Bai <jeffbai@aosc.xyz>, 2015."
 
 #: ../app/dialogs/about-dialog.c:531
 msgid "GIMP is brought to you by"
-msgstr "GIMP 由这些人写成："
+msgstr "GIMP 的提供者为 "
 
 #: ../app/dialogs/about-dialog.c:611
 #, fuzzy, c-format
@@ -11013,7 +11004,7 @@ msgstr "使用动态快捷键(_U)"
 
 #: ../app/dialogs/preferences-dialog.c:1492
 msgid "Configure _Keyboard Shortcuts..."
-msgstr "配置快捷键(_K)..."
+msgstr "配置快捷键(_K)…"
 
 #: ../app/dialogs/preferences-dialog.c:1499
 msgid "_Save keyboard shortcuts on exit"
@@ -11452,21 +11443,19 @@ msgstr "自动检测(当前为 %d x %d ppi)(_D)"
 
 #: ../app/dialogs/preferences-dialog.c:2315
 msgid "_Enter manually"
-msgstr "手工输入(_E)"
+msgstr "手动输入(_E)"
 
 #: ../app/dialogs/preferences-dialog.c:2330
 msgid "C_alibrate..."
-msgstr "测定(_A)..."
+msgstr "测定(_A)…"
 
 #: ../app/dialogs/preferences-dialog.c:2358
 msgid "Color Management"
 msgstr "色彩管理"
 
 #: ../app/dialogs/preferences-dialog.c:2377
-#, fuzzy
-#| msgid "_RGB profile:"
 msgid "Preferred _RGB profile:"
-msgstr "_RGB 配置文件："
+msgstr "首选 _RGB 配置方案："
 
 #: ../app/dialogs/preferences-dialog.c:2378
 msgid "Select RGB Color Profile"
@@ -11474,7 +11463,7 @@ msgstr "选择 RGB 色彩配置文件"
 
 #: ../app/dialogs/preferences-dialog.c:2379
 msgid "_CMYK profile:"
-msgstr "_CMYK 配置文件："
+msgstr "_CMYK 配置方案："
 
 #: ../app/dialogs/preferences-dialog.c:2380
 msgid "Select CMYK Color Profile"
@@ -11543,7 +11532,7 @@ msgstr "扩展输入设备"
 
 #: ../app/dialogs/preferences-dialog.c:2522
 msgid "Configure E_xtended Input Devices..."
-msgstr "配置扩展输入设备(_X)..."
+msgstr "配置扩展输入设备(_X)…"
 
 #: ../app/dialogs/preferences-dialog.c:2529
 msgid "_Save input device settings on exit"
@@ -11961,7 +11950,7 @@ msgstr "用户安装失败！"
 
 #: ../app/dialogs/user-install-dialog.c:96
 msgid "The GIMP user installation failed; see the log for details."
-msgstr "GIMP 用户安装失败；细节请查看日志。"
+msgstr "GIMP 用户安装失败；请参见日志以获取更多信息。"
 
 #: ../app/dialogs/user-install-dialog.c:99
 msgid "Installation Log"
@@ -12580,7 +12569,7 @@ msgstr "覆盖"
 
 #: ../app/operations/gimplevelsconfig.c:111 ../app/tools/gimplevelstool.c:482
 msgid "Gamma"
-msgstr "Gamma"
+msgstr "伽马值"
 
 #: ../app/operations/gimplevelsconfig.c:116
 msgid "Low Input"
@@ -14103,7 +14092,7 @@ msgstr "亮度和对比度工具：调整亮度和对比度"
 
 #: ../app/tools/gimpbrightnesscontrasttool.c:100
 msgid "B_rightness-Contrast..."
-msgstr "亮度-对比度(_R)..."
+msgstr "亮度-对比度(_R)…"
 
 #: ../app/tools/gimpbrightnesscontrasttool.c:117
 msgid "Adjust Brightness and Contrast"
@@ -14299,7 +14288,7 @@ msgstr "色彩平衡工具：调整色彩分布"
 
 #: ../app/tools/gimpcolorbalancetool.c:80
 msgid "Color _Balance..."
-msgstr "色彩平衡(_B)..."
+msgstr "色彩平衡(_B)…"
 
 #: ../app/tools/gimpcolorbalancetool.c:94
 msgid "Adjust Color Balance"
@@ -14373,7 +14362,7 @@ msgstr "单色化工具：图像单色化"
 
 #: ../app/tools/gimpcolorizetool.c:83
 msgid "Colori_ze..."
-msgstr "单色化(_Z)..."
+msgstr "单色化(_Z)…"
 
 #: ../app/tools/gimpcolorizetool.c:97
 msgid "Colorize the Image"
@@ -14608,7 +14597,7 @@ msgstr "曲线工具：调整颜色曲线"
 
 #: ../app/tools/gimpcurvestool.c:145
 msgid "_Curves..."
-msgstr "曲线(_C)..."
+msgstr "曲线(_C)…"
 
 #: ../app/tools/gimpcurvestool.c:171
 msgid "Adjust Color Curves"
@@ -14676,7 +14665,7 @@ msgstr "灰度工具：将颜色转化为灰阶"
 
 #: ../app/tools/gimpdesaturatetool.c:69
 msgid "_Desaturate..."
-msgstr "去色(_D)..."
+msgstr "去色(_D)…"
 
 #: ../app/tools/gimpdesaturatetool.c:83
 msgid "Desaturate (Remove Colors)"
@@ -15035,7 +15024,7 @@ msgstr "GEGL 工具：使用无基准的 GEGL 操作"
 
 #: ../app/tools/gimpgegltool.c:74 ../app/tools/gimpoperationtool.c:114
 msgid "_GEGL Operation..."
-msgstr "GEGL 操作(_G)..."
+msgstr "GEGL 操作(_G)…"
 
 #: ../app/tools/gimpgegltool.c:418
 msgid "Select an operation from the list above"
@@ -15129,7 +15118,7 @@ msgstr "色调-饱和度工具：调整色调，饱和度，以及亮度"
 
 #: ../app/tools/gimphuesaturationtool.c:93
 msgid "Hue-_Saturation..."
-msgstr "色调-饱和度(_S)..."
+msgstr "色调-饱和度(_S)…"
 
 #: ../app/tools/gimphuesaturationtool.c:107
 msgid "Adjust Hue / Lightness / Saturation"
@@ -15317,7 +15306,7 @@ msgstr "色阶工具：调整颜色色阶"
 
 #: ../app/tools/gimplevelstool.c:135
 msgid "_Levels..."
-msgstr "色阶(_L)..."
+msgstr "色阶(_L)…"
 
 #: ../app/tools/gimplevelstool.c:154
 msgid "Import Levels"
@@ -15862,7 +15851,7 @@ msgstr "透视克隆(_P)"
 
 #: ../app/tools/gimpperspectiveclonetool.c:675
 msgid "Ctrl-Click to set a clone source"
-msgstr "Ctrl+单击可设定克隆源"
+msgstr "Ctrl+单击以设定克隆源"
 
 #: ../app/tools/gimpperspectivetool.c:84
 msgid "Perspective Tool: Change perspective of the layer, selection or path"
@@ -15888,7 +15877,7 @@ msgstr "色调分离工具：减少颜色到限定的集合"
 
 #: ../app/tools/gimpposterizetool.c:61
 msgid "_Posterize..."
-msgstr "色调分离(_P)..."
+msgstr "色调分离(_P)…"
 
 #: ../app/tools/gimpposterizetool.c:72
 msgid "Posterize (Reduce Number of Colors)"
@@ -16382,7 +16371,7 @@ msgstr "阈值工具：以指定阈值将图像减至两色"
 
 #: ../app/tools/gimpthresholdtool.c:90
 msgid "_Threshold..."
-msgstr "阈值(_T)..."
+msgstr "阈值(_T)…"
 
 #: ../app/tools/gimpthresholdtool.c:107
 msgid "Apply Threshold"
@@ -17030,16 +17019,12 @@ msgstr "紧贴(_W)"
 
 #: ../app/tools/tools-enums.c:377
 #, fuzzy
-#| msgctxt "gradient-editor-coloring"
-#| msgid "HSV (clockwise _hue)"
 msgctxt "warp-behavior"
 msgid "Swirl clockwise"
 msgstr "HSV (顺时针色调)(_H)"
 
 #: ../app/tools/tools-enums.c:378
 #, fuzzy
-#| msgctxt "gradient-editor-coloring"
-#| msgid "HSV (_counter-clockwise hue)"
 msgctxt "warp-behavior"
 msgid "Swirl counter-clockwise"
 msgstr "HSV (逆时针色调)(_C)"
@@ -17364,7 +17349,7 @@ msgstr "颜色索引："
 
 #: ../app/widgets/gimpcolormapeditor.c:213
 msgid "HTML notation:"
-msgstr "HTML 格式："
+msgstr "HTML 标记："
 
 #: ../app/widgets/gimpcolormapeditor.c:485
 msgid "Only indexed images have a colormap."
@@ -18096,7 +18081,7 @@ msgstr "在线阅读(_R)"
 
 #: ../app/widgets/gimphelp.c:656
 msgid "The GIMP user manual is not installed on your computer."
-msgstr "GIMP 用户指南未在您的计算机上安装。"
+msgstr "GIMP 用户指南未在您的计算机上。"
 
 #: ../app/widgets/gimphelp.c:659
 msgid "You may either install the additional help package or change your preferences to use the online version."
@@ -18139,7 +18124,7 @@ msgstr ""
 #| msgctxt "edit-action"
 #| msgid "_Copy Named..."
 msgid "From Named Icons..."
-msgstr "命名复制(_C)..."
+msgstr "命名复制(_C)…"
 
 #: ../app/widgets/gimpiconpicker.c:263
 #, fuzzy
@@ -18348,9 +18333,8 @@ msgstr "新建通道"
 
 #: ../app/widgets/gimppropgui.c:113
 #, fuzzy
-#| msgid "New Template"
 msgid "New Seed"
-msgstr "新建模板"
+msgstr "新建随机数种子"
 
 #: ../app/widgets/gimppropgui.c:295
 #, fuzzy
@@ -18469,11 +18453,11 @@ msgstr "将设置添加到收藏"
 
 #: ../app/widgets/gimpsettingsbox.c:319
 msgid "_Import Settings from File..."
-msgstr "从文件导入设置(_I)..."
+msgstr "从文件导入设置(_I)…"
 
 #: ../app/widgets/gimpsettingsbox.c:325
 msgid "_Export Settings to File..."
-msgstr "将设置导出到文件(_E)..."
+msgstr "将设置导出到文件(_E)…"
 
 #: ../app/widgets/gimpsettingsbox.c:332
 msgid "_Manage Settings..."
@@ -18575,9 +18559,8 @@ msgid "Color _space:"
 msgstr "色彩空间(_S)："
 
 #: ../app/widgets/gimptemplateeditor.c:393
-#, fuzzy
 msgid "_Precision:"
-msgstr "_X 分辨率："
+msgstr "精度(_P)："
 
 #: ../app/widgets/gimptemplateeditor.c:400
 msgid "_Fill with:"
@@ -18715,7 +18698,7 @@ msgstr "缩略图 %d / %d"
 
 #: ../app/widgets/gimpthumbbox.c:740 ../app/widgets/gimpthumbbox.c:750
 msgid "Creating preview..."
-msgstr "正在创建预览..."
+msgstr "正在创建预览…"
 
 #: ../app/widgets/gimptoolbox-color-area.c:88
 msgid ""
@@ -19054,10 +19037,9 @@ msgid "Saving '%s'"
 msgstr "正在保存“%s”"
 
 #: ../app/xcf/xcf.c:401
-#, fuzzy, c-format
-#| msgid "Close %s"
+#, c-format
 msgid "Closing '%s'"
-msgstr "关闭 %s"
+msgstr "正在关闭 '%s'"
 
 #: ../app/xcf/xcf.c:409
 #, fuzzy, c-format
@@ -19100,8 +19082,8 @@ msgid ""
 "Substituting grayscale map."
 msgstr ""
 "XCF 警告：版本 0 的 XCF 文件格式\n"
-"不能正确的保存索引颜色表。\n"
-"用灰度颜色表取代。"
+"未能正确地保存索引颜色表。\n"
+"将使用灰度颜色表取代原颜色表。"
 
 #: ../app/xcf/xcf-read.c:105
 msgid "Invalid UTF-8 string in XCF file"
