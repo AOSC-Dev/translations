@@ -51,6 +51,7 @@ Terminology Difference
 |Antialiasing|边缘平滑|抗锯齿|yes|
 |foo to bar|foo 变 bar|foo 转 bar|no|
 |**eval**uation|评估|求值|no|
+|dissolve (blend)|融化|融解|yes|
 
 
 Notes

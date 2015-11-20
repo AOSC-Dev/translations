@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: gimp-std-plugins\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp-gap&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-09-19 16:13+0000\n"
-"PO-Revision-Date: 2015-11-19 22:41-0500\n"
+"PO-Revision-Date: 2015-11-19 22:46-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -1243,8 +1243,9 @@ msgstr ""
 
 #. printf("DROP (SKIP) frame\n");
 #: ../gap/gap_dbbrowser_utils.c:380 ../gap/gap_player_dialog.c:4795
+#, fuzzy
 msgid "Skip"
-msgstr ""
+msgstr "跳过"
 
 #: ../gap/gap_dbbrowser_utils.c:384
 msgid "skip processing of the selected filter for group layers."
@@ -2474,18 +2475,21 @@ msgstr "模式："
 #. Blend Mode the radio buttons
 #: ../gap/gap_fire_pattern.c:2269 ../gap/gap_mod_layer_dialog.c:693
 #: ../gap/gap_mov_dialog.c:3909 ../gap/gap_wr_layermode.c:355
+#, fuzzy
 msgid "Burn"
-msgstr ""
+msgstr "加深"
 
 #: ../gap/gap_fire_pattern.c:2280 ../gap/gap_mod_layer_dialog.c:672
 #: ../gap/gap_mov_dialog.c:3916 ../gap/gap_wr_layermode.c:362
+#, fuzzy
 msgid "Subtract"
-msgstr ""
+msgstr "减去"
 
 #: ../gap/gap_fire_pattern.c:2291 ../gap/gap_mod_layer_dialog.c:641
 #: ../gap/gap_mov_dialog.c:3904 ../gap/gap_wr_layermode.c:350
+#, fuzzy
 msgid "Multiply"
-msgstr ""
+msgstr "相乘"
 
 #. useTransparentBg checkbutton
 #: ../gap/gap_fire_pattern.c:2307
@@ -2635,8 +2639,9 @@ msgstr ""
 #. radio button DELETE
 #: ../gap/gap_fmac_main.c:1126 ../gap/gap_morph_dialog.c:2977
 #: ../gap/gap_onion_main.c:185
+#, fuzzy
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: ../gap/gap_fmac_main.c:1130
 #, fuzzy
@@ -2645,8 +2650,9 @@ msgstr "删除当前选中的分形"
 
 #. Button Add
 #: ../gap/gap_fmac_main.c:1139
+#, fuzzy
 msgid "Add"
-msgstr ""
+msgstr "添加"
 
 #: ../gap/gap_fmac_main.c:1143
 msgid ""
@@ -2932,8 +2938,9 @@ msgstr ""
 
 #. the Layer Attributes sub menu
 #: ../gap/gap_mod_layer_dialog.c:552
+#, fuzzy
 msgid "Layer Attributes"
-msgstr ""
+msgstr "图层属性"
 
 #: ../gap/gap_mod_layer_dialog.c:559
 msgid "Set layer(s) visible"
@@ -2994,46 +3001,46 @@ msgstr "正常"
 #: ../gap/gap_mod_layer_dialog.c:636 ../gap/gap_mov_dialog.c:3902
 #: ../gap/gap_wr_layermode.c:348
 msgid "Dissolve"
-msgstr ""
+msgstr "溶解"
 
 #: ../gap/gap_mod_layer_dialog.c:646 ../gap/gap_mov_dialog.c:3905
 #: ../gap/gap_wr_layermode.c:351
 msgid "Divide"
-msgstr ""
+msgstr "相除"
 
 #: ../gap/gap_mod_layer_dialog.c:651 ../gap/gap_mov_dialog.c:3906
 #: ../gap/gap_water_pattern.c:1470 ../gap/gap_wr_layermode.c:352
 msgid "Screen"
-msgstr ""
+msgstr "掩蔽"
 
 #. Blend Mode the radio buttons
 #: ../gap/gap_mod_layer_dialog.c:656 ../gap/gap_mov_dialog.c:3907
 #: ../gap/gap_water_pattern.c:1448 ../gap/gap_wr_layermode.c:353
 msgid "Overlay"
-msgstr ""
+msgstr "覆盖"
 
 #: ../gap/gap_mod_layer_dialog.c:662 ../gap/gap_mov_dialog.c:3914
 #: ../gap/gap_wr_layermode.c:360
 msgid "Difference"
-msgstr ""
+msgstr "差值"
 
 #: ../gap/gap_mod_layer_dialog.c:667 ../gap/gap_mov_dialog.c:3915
 #: ../gap/gap_water_pattern.c:1459 ../gap/gap_wr_layermode.c:361
 msgid "Addition"
-msgstr ""
+msgstr "相加"
 
 #: ../gap/gap_mod_layer_dialog.c:677
 msgid "Darken only"
-msgstr ""
+msgstr "仅加深"
 
 #: ../gap/gap_mod_layer_dialog.c:682
 msgid "Lighten only"
-msgstr ""
+msgstr "仅变亮"
 
 #: ../gap/gap_mod_layer_dialog.c:688 ../gap/gap_mov_dialog.c:3908
 #: ../gap/gap_water_pattern.c:1481 ../gap/gap_wr_layermode.c:354
 msgid "Dodge"
-msgstr ""
+msgstr "减淡"
 
 #: ../gap/gap_mod_layer_dialog.c:698
 msgid "Hardlight"
@@ -3049,11 +3056,11 @@ msgstr "清除颜色"
 
 #: ../gap/gap_mod_layer_dialog.c:713
 msgid "Grain extract"
-msgstr ""
+msgstr "增益提取"
 
 #: ../gap/gap_mod_layer_dialog.c:718
 msgid "Grain merge"
-msgstr ""
+msgstr "增益合并"
 
 #: ../gap/gap_mod_layer_dialog.c:723 ../gap/gap_mov_dialog.c:3919
 #: ../gap/gap_wr_layermode.c:365
@@ -3598,8 +3605,9 @@ msgstr ""
 
 #. radio button SET
 #: ../gap/gap_morph_dialog.c:2925
+#, fuzzy
 msgid "Set"
-msgstr ""
+msgstr "集合"
 
 #: ../gap/gap_morph_dialog.c:2934
 msgid ""
@@ -3611,8 +3619,9 @@ msgstr ""
 
 #. radio button MOVE
 #: ../gap/gap_morph_dialog.c:2951
+#, fuzzy
 msgid "Move"
-msgstr ""
+msgstr "移动"
 
 #: ../gap/gap_morph_dialog.c:2960
 msgid ""
@@ -3628,8 +3637,9 @@ msgstr ""
 
 #. radio button ZOOM
 #: ../gap/gap_morph_dialog.c:2999
+#, fuzzy
 msgid "Zoom"
-msgstr ""
+msgstr "缩放"
 
 #: ../gap/gap_morph_dialog.c:3008
 msgid ""
@@ -3734,12 +3744,14 @@ msgid "Swap"
 msgstr ""
 
 #: ../gap/gap_morph_dialog.c:3549
+#, fuzzy
 msgid "Source"
-msgstr ""
+msgstr "源"
 
 #: ../gap/gap_morph_dialog.c:3564
+#, fuzzy
 msgid "Destination"
-msgstr ""
+msgstr "目标"
 
 #. the nubner of ShapePoints label
 #: ../gap/gap_morph_dialog.c:3583
@@ -4053,9 +4065,8 @@ msgstr "保存分形到文件"
 
 #: ../gap/gap_morph_tween_dialog.c:700 ../gap/gap_morph_tween_dialog.c:1204
 #: ../gap/gap_story_properties.c:4185
-#, fuzzy
 msgid "From:"
-msgstr "分形名字："
+msgstr "从："
 
 #: ../gap/gap_morph_tween_dialog.c:703 ../gap/gap_morph_tween_dialog.c:1207
 #, fuzzy
@@ -4253,7 +4264,7 @@ msgstr "移动路径…"
 
 #: ../gap/gap_mov_dialog.c:1020
 msgid "Move Path"
-msgstr ""
+msgstr "移动路径"
 
 #: ../gap/gap_mov_dialog.c:1064
 msgid "Show preview frame with selected source layer at current controlpoint"
@@ -4456,8 +4467,9 @@ msgid "Mode:"
 msgstr "模式："
 
 #: ../gap/gap_mov_dialog.c:3903 ../gap/gap_wr_layermode.c:349
+#, fuzzy
 msgid "Behind"
-msgstr ""
+msgstr "背后"
 
 #: ../gap/gap_mov_dialog.c:3910 ../gap/gap_wr_layermode.c:356
 msgid "Hard Light"
@@ -4524,8 +4536,9 @@ msgstr ""
 #. the playback mode checkbuttons
 #. Loop Toggle
 #: ../gap/gap_mov_dialog.c:4004 ../gap/gap_player_dialog.c:8360
+#, fuzzy
 msgid "Loop"
-msgstr ""
+msgstr "循环"
 
 #: ../gap/gap_mov_dialog.c:4005
 msgid "Loop Reverse"
@@ -4785,10 +4798,8 @@ msgid "Merge Target:"
 msgstr "合并图层"
 
 #: ../gap/gap_mov_dialog.c:4482
-#, fuzzy
-#| msgid "Merge Layers"
 msgid "New Layer"
-msgstr "合并图层"
+msgstr "新建图层"
 
 #: ../gap/gap_mov_dialog.c:4483
 #, fuzzy
@@ -4962,8 +4973,9 @@ msgstr ""
 #. the width label
 #: ../gap/gap_mov_dialog.c:5072 ../gap/gap_story_dialog.c:9390
 #: ../vid_common/gap_cme_gui.c:3711
+#, fuzzy
 msgid "Width:"
-msgstr ""
+msgstr "宽度："
 
 #. label text
 #. scalesize spinsize
@@ -5344,17 +5356,15 @@ msgstr ""
 
 #: ../gap/gap_mov_dialog.c:5726
 msgid "Perspective"
-msgstr ""
+msgstr "透视"
 
 #: ../gap/gap_mov_dialog.c:5732
 msgid "Selection Handling"
 msgstr ""
 
 #: ../gap/gap_mov_dialog.c:5738
-#, fuzzy
-#| msgid "Selection"
 msgid "Acceleration"
-msgstr "选区"
+msgstr "加速"
 
 #: ../gap/gap_mov_dialog.c:5856
 #, fuzzy
@@ -5398,8 +5408,9 @@ msgstr ""
 
 #. toggle Show Grid
 #: ../gap/gap_mov_dialog.c:5971
+#, fuzzy
 msgid "Grid"
-msgstr ""
+msgstr "网格"
 
 #: ../gap/gap_mov_dialog.c:5975
 msgid "Show source layer as gridlines"
@@ -5482,7 +5493,7 @@ msgstr ""
 #: ../gap/gap_story_dialog.c:5311 ../gap/gap_story_dialog.c:9169
 #: ../gap/gap_story_dialog.c:9619
 msgid "Settings"
-msgstr ""
+msgstr "设置"
 
 #: ../gap/gap_mov_exec.c:688
 msgid "Tweenlayer"
@@ -5959,7 +5970,7 @@ msgstr ""
 #: ../gap/gap_navigator_dialog.c:4017
 #, fuzzy
 msgid "Name"
-msgstr "分形名字："
+msgstr "名称"
 
 #: ../gap/gap_navigator_dialog.c:4030
 msgid "Enable tracking of the active layer by name at framechanges"
@@ -5981,8 +5992,9 @@ msgstr ""
 
 #. menu_item cut
 #: ../gap/gap_navigator_dialog.c:4171
+#, fuzzy
 msgid "Cut"
-msgstr ""
+msgstr "剪切"
 
 #. menu_item paste before
 #: ../gap/gap_navigator_dialog.c:4180
@@ -6006,13 +6018,15 @@ msgstr ""
 
 #. menu_item Select All
 #: ../gap/gap_navigator_dialog.c:4217
+#, fuzzy
 msgid "Select All"
-msgstr ""
+msgstr "全部选中"
 
 #. menu_item Select None
 #: ../gap/gap_navigator_dialog.c:4226
+#, fuzzy
 msgid "Select None"
-msgstr ""
+msgstr "全部不选"
 
 #. Video Length (frames)
 #: ../gap/gap_navigator_dialog.c:4246 ../gap/gap_player_dialog.c:7217
@@ -6180,9 +6194,8 @@ msgid ""
 msgstr ""
 
 #: ../gap/gap_onion_dialog.c:1275
-#, fuzzy
 msgid "Invert Selection"
-msgstr "反转"
+msgstr "反转选区"
 
 #: ../gap/gap_onion_dialog.c:1279
 msgid ""
@@ -6401,8 +6414,9 @@ msgstr ""
 
 #. the status value label
 #: ../gap/gap_player_dialog.c:2365 ../gap/gap_player_dialog.c:8459
+#, fuzzy
 msgid "Ready"
-msgstr ""
+msgstr "就绪"
 
 #: ../gap/gap_player_dialog.c:2499
 #, fuzzy
@@ -6460,7 +6474,7 @@ msgstr ""
 #: ../gap/gap_player_dialog.c:3695 ../gap/gap_player_dialog.c:4194
 #: ../gap/gap_story_vthumb.c:361
 msgid "Canceled"
-msgstr ""
+msgstr "已取消"
 
 #: ../gap/gap_player_dialog.c:4824
 #, c-format
@@ -6540,8 +6554,9 @@ msgstr ""
 
 #. check button
 #: ../gap/gap_player_dialog.c:6939
+#, fuzzy
 msgid "Enable"
-msgstr ""
+msgstr "启用"
 
 #: ../gap/gap_player_dialog.c:6944
 msgid ""
@@ -6551,8 +6566,9 @@ msgstr ""
 
 #. Sample Offset
 #: ../gap/gap_player_dialog.c:6954
+#, fuzzy
 msgid "Offset:"
-msgstr ""
+msgstr "位移："
 
 #: ../gap/gap_player_dialog.c:6974
 msgid "Audio offset in frames at original video playback speed. A value of 0 starts audio and video at synchron time. A value of -10 will play frame 1 up to frame 9 silently and start audio at frame 10. A value of 10 starts audio at frame 1, but skips the audio begin part in a length that is equal to the duration of 10 frames at original video playback speed."
@@ -6740,8 +6756,9 @@ msgstr "缩放选项"
 
 #. configure options TAB frame
 #: ../gap/gap_player_dialog.c:7829
+#, fuzzy
 msgid "Preferences"
-msgstr ""
+msgstr "首选项"
 
 #. audio options TAB frame
 #. the Audio Options notebook tab
@@ -6896,8 +6913,9 @@ msgstr ""
 
 #. the PLAY_REVERSE button
 #: ../gap/gap_player_dialog.c:8554
+#, fuzzy
 msgid "Reverse"
-msgstr ""
+msgstr "反向"
 
 #: ../gap/gap_player_dialog.c:8557
 msgid "Start reverse playback. SHIFT: snapshot frames in a multilayer image at original size CTRL: snapshot at preview size ALT: force creation of new snapshot image"
@@ -6954,7 +6972,7 @@ msgstr ""
 #: ../gap/gap_story_dialog.c:9606
 #, fuzzy
 msgid "Reset"
-msgstr "复位"
+msgstr "重设"
 
 #. should use GIMP_STOCK_RESET if possible
 #: ../gap/gap_range_ops.c:221
@@ -7070,7 +7088,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Merge Layers"
 msgid "Merge Visible Layers"
-msgstr "合并图层"
+msgstr "合并可见图层"
 
 #: ../gap/gap_range_ops.c:510
 msgid "Do not merge layers before save to the selected fileformat. Example: use this when converting to XCF that can handle transparency and multiple layers."
@@ -7130,12 +7148,14 @@ msgid "Expand as necessary"
 msgstr ""
 
 #: ../gap/gap_range_ops.c:677
+#, fuzzy
 msgid "Clipped to image"
-msgstr ""
+msgstr "剪贴板到图像"
 
 #: ../gap/gap_range_ops.c:678
+#, fuzzy
 msgid "Clipped to bottom layer"
-msgstr ""
+msgstr "剪贴板到底端图层"
 
 #: ../gap/gap_range_ops.c:679
 msgid "Flattened image"
@@ -7179,8 +7199,9 @@ msgstr ""
 
 #. Selection modes
 #: ../gap/gap_range_ops.c:704
+#, fuzzy
 msgid "Ignore"
-msgstr ""
+msgstr "忽略"
 
 #: ../gap/gap_range_ops.c:705
 msgid "Initial frame"
@@ -7355,8 +7376,9 @@ msgstr "颜色函数"
 
 #. the offset frame
 #: ../gap/gap_resi_dialog.c:828
+#, fuzzy
 msgid "Offset"
-msgstr ""
+msgstr "位移"
 
 #. the center offsetX button
 #: ../gap/gap_resi_dialog.c:894
@@ -7506,8 +7528,9 @@ msgstr ""
 
 #. auto update toggle  check button
 #: ../gap/gap_story_att_trans_dlg.c:3210
+#, fuzzy
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 #: ../gap/gap_story_att_trans_dlg.c:3215
 msgid "automatic update using the referred frame"
@@ -7543,8 +7566,9 @@ msgstr ""
 #: ../gap/gap_story_att_trans_dlg.c:3567 ../gap/gap_story_dialog.c:6304
 #: ../gap/gap_story_dialog.c:6389 ../gap/gap_story_dialog.c:6489
 #: ../gap/gap_story_properties.c:4040 ../gap/gap_story_section_properties.c:784
+#, fuzzy
 msgid "Properties"
-msgstr ""
+msgstr "属性"
 
 #. the fit size label
 #: ../gap/gap_story_att_trans_dlg.c:3583
@@ -7554,8 +7578,9 @@ msgstr "复位"
 
 #. the fit width check button
 #: ../gap/gap_story_att_trans_dlg.c:3589
+#, fuzzy
 msgid "Width"
-msgstr ""
+msgstr "宽度"
 
 #: ../gap/gap_story_att_trans_dlg.c:3597
 msgid "scale width of frame to fit master width"
@@ -7563,8 +7588,9 @@ msgstr ""
 
 #. the fit height check button
 #: ../gap/gap_story_att_trans_dlg.c:3608
+#, fuzzy
 msgid "Height"
-msgstr ""
+msgstr "高度"
 
 #: ../gap/gap_story_att_trans_dlg.c:3616
 msgid "scale height of frame to fit master height"
@@ -7850,9 +7876,8 @@ msgid "Thumbnail size in the cliplist"
 msgstr ""
 
 #: ../gap/gap_story_dialog.c:5234 ../gap/gap_story_dialog.c:5274
-#, fuzzy
 msgid "Columns:"
-msgstr "蓝："
+msgstr "列数："
 
 #: ../gap/gap_story_dialog.c:5235
 msgid "columns in the cliplist"
@@ -8008,7 +8033,7 @@ msgstr ""
 
 #: ../gap/gap_story_dialog.c:6344
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #. the clp_frame
 #: ../gap/gap_story_dialog.c:6359 ../gap/gap_story_dialog.c:8878
@@ -8198,7 +8223,7 @@ msgstr ""
 
 #: ../gap/gap_story_dialog.c:9048 ../vid_common/gap_cme_gui.c:2459
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: ../gap/gap_story_dialog.c:9052 ../gap/gap_video_index_creator.c:1448
 msgid "Cancel video access if in progress and disable automatic video thumbnails"
@@ -8646,8 +8671,9 @@ msgstr ""
 
 #. radio button delace_mode odd
 #: ../gap/gap_story_properties.c:4381
+#, fuzzy
 msgid "Odd"
-msgstr ""
+msgstr "奇数"
 
 #: ../gap/gap_story_properties.c:4390
 msgid "Apply odd-lines filter when reading videoframes"
@@ -8655,8 +8681,9 @@ msgstr ""
 
 #. radio button delace_mode even
 #: ../gap/gap_story_properties.c:4399
+#, fuzzy
 msgid "Even"
-msgstr ""
+msgstr "偶数"
 
 #: ../gap/gap_story_properties.c:4408
 msgid "Apply even-lines filter when reading videoframes"
@@ -8688,8 +8715,9 @@ msgstr ""
 
 #. the Transform (flip_request) label
 #: ../gap/gap_story_properties.c:4490
+#, fuzzy
 msgid "Transform:"
-msgstr ""
+msgstr "变换："
 
 #: ../gap/gap_story_properties.c:4519
 msgid "Do not apply internal transformations"
@@ -8935,8 +8963,9 @@ msgid "Clips of the MAIN section are rendered in the output video"
 msgstr ""
 
 #: ../gap/gap_story_section_properties.c:651
+#, fuzzy
 msgid "Mask"
-msgstr ""
+msgstr "筛选条件"
 
 #: ../gap/gap_story_section_properties.c:654
 msgid "Clips in the Mask section have global scope in all other sections,  and can be attached as (animated) masks to clips in all other  sections to add transparency. white pixels in the mask keep the full opacity black pixels makes the pixel fully transparent, all other colors in the mask result in more or less transparency depending on their brightness."
@@ -9518,7 +9547,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Select Frame Range"
 msgid "Select Range to Adjust"
-msgstr "选择帧范围"
+msgstr "选择要调整的范围"
 
 #. Transfer Mode the radio buttons
 #: ../gap/gap_wr_color_balance.c:618
@@ -9538,7 +9567,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Color Levels"
 msgid "Adjust Color Levels"
-msgstr "色阶"
+msgstr "调整颜色色阶"
 
 #: ../gap/gap_wr_color_balance.c:661
 #, fuzzy
@@ -9590,14 +9619,13 @@ msgid "CurvesFile..."
 msgstr ""
 
 #: ../gap/gap_wr_color_huesat.c:263
-#, fuzzy
 msgid "Hue-Saturation..."
-msgstr "颜色函数"
+msgstr "色调-饱和度..."
 
 #. The dialog1 and main vbox
 #: ../gap/gap_wr_color_huesat.c:583
 msgid "Hue-Saturation"
-msgstr ""
+msgstr "色调-饱和度"
 
 #. the frame
 #: ../gap/gap_wr_color_huesat.c:618
@@ -9635,7 +9663,7 @@ msgstr "品红"
 
 #: ../gap/gap_wr_color_huesat.c:687
 msgid "Hue:"
-msgstr ""
+msgstr "色调："
 
 #: ../gap/gap_wr_color_huesat.c:694
 msgid "Lightness:"
@@ -9894,12 +9922,11 @@ msgstr ""
 
 #: ../vid_common/gap_cme_gui.c:1344
 msgid "Layer"
-msgstr ""
+msgstr "图层"
 
 #: ../vid_common/gap_cme_gui.c:1348
-#, fuzzy
 msgid "Frame"
-msgstr "分形名字："
+msgstr "帧"
 
 #: ../vid_common/gap_cme_gui.c:1356
 #, c-format
@@ -10105,9 +10132,8 @@ msgstr ""
 
 #. radio button Frames input_mode
 #: ../vid_common/gap_cme_gui.c:2539
-#, fuzzy
 msgid "Frames"
-msgstr "分形名字："
+msgstr "帧"
 
 #: ../vid_common/gap_cme_gui.c:2549
 msgid "Input is a sequence of frame images"
@@ -10116,7 +10142,7 @@ msgstr ""
 #. radio button Layers input_mode
 #: ../vid_common/gap_cme_gui.c:2563
 msgid "Layers"
-msgstr ""
+msgstr "图层"
 
 #: ../vid_common/gap_cme_gui.c:2572
 msgid "Input is all the layers of one image"
@@ -10327,8 +10353,9 @@ msgstr ""
 
 #. the Save button
 #: ../vid_common/gap_cme_gui.c:3302
+#, fuzzy
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: ../vid_common/gap_cme_gui.c:3305
 msgid "Save audiotool configuration to gimprc"
@@ -10977,9 +11004,8 @@ msgid ""
 msgstr ""
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1187
-#, fuzzy
 msgid "Select File"
-msgstr "反转"
+msgstr "选择文件"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1233
 msgid "FFMpeg Basic Encoder Options"
@@ -12135,7 +12161,7 @@ msgstr ""
 #. the ASPECT combo
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3802
 msgid "Auto"
-msgstr ""
+msgstr "自动"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:3803
 msgid "3:2"
