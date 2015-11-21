@@ -54,6 +54,7 @@ Terminology Difference
 |dissolve (blend)|融化|融解|yes|
 |grain|增益|TODO|no|
 |margin|边空|边距|no|
+|stroke|比划|笔廓|yes|
 
 
 Notes
