@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-19 19:07+0000\n"
-"PO-Revision-Date: 2015-11-20 20:41-0700\n"
+"PO-Revision-Date: 2015-11-21 15:30-0700\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -13717,7 +13717,7 @@ msgid ""
 "Execution error for '%s':\n"
 "%s"
 msgstr ""
-"执行 '%s' 出错：\n"
+"执行“%s”出错：\n"
 "%s"
 
 #: ../app/plug-in/plug-in-rc.c:227
@@ -18525,7 +18525,7 @@ msgstr "图标(_I)："
 #: ../app/widgets/gimptemplateeditor.c:703
 #, c-format
 msgid "%d × %d ppi, %s"
-msgstr "%d x %d ppi，%s"
+msgstr "%d × %d ppi，%s"
 
 #: ../app/widgets/gimptemplateeditor.c:705
 #, c-format
@@ -18535,18 +18535,17 @@ msgstr "%d ppi，%s"
 #: ../app/widgets/gimptextbuffer-serialize.c:351
 #, c-format
 msgid "Attribute \"%s\" is invalid on <%s> element in this context"
-msgstr "此上下文中的“%s”属性在<%s>元素上无效"
+msgstr "此上下文中的“%s”属性对 <%s> 元素无效"
 
 #: ../app/widgets/gimptextbuffer-serialize.c:423
 #, c-format
 msgid "Outermost element in text must be <markup> not <%s>"
-msgstr "文本中最外层的元素应该是<markup>而非<%s>"
+msgstr "文本中最外层的元素应该是 <markup> 而非 <%s>"
 
 #: ../app/widgets/gimptextbuffer.c:1449
-#, fuzzy, c-format
-#| msgid "Fatal parse error in pattern file '%s': File appears truncated."
+#, c-format
 msgid "Input file '%s' appears truncated: %s"
-msgstr "图案文件“%s”出现严重解析错误：文件看来已被截断。"
+msgstr "输入文件“%s”似乎已截断：%s"
 
 #: ../app/widgets/gimptextbuffer.c:1467
 #, c-format
@@ -18554,16 +18553,9 @@ msgid "Invalid UTF-8 data in file '%s'."
 msgstr "“%s”文件中含有无效的 UTF-8 数据。"
 
 #: ../app/widgets/gimptextbuffer.c:1516
-#, fuzzy, c-format
-#| msgid ""
-#| "Reverting to '%s' failed:\n"
-#| "\n"
-#| "%s"
+#, c-format
 msgid "Writing palette file '%s' failed: %s"
-msgstr ""
-"恢复到“%s”失败：\n"
-"\n"
-"%s"
+msgstr "写入调色板文件“%s”失败：%s"
 
 #: ../app/widgets/gimptexteditor.c:223
 msgid "_Use selected font"
@@ -18571,9 +18563,8 @@ msgstr "使用选中的字体(_U)"
 
 #: ../app/widgets/gimptextstyleeditor.c:207
 #: ../app/widgets/gimptextstyleeditor.c:1317
-#, fuzzy
 msgid "Change font of selected text"
-msgstr "改变选中文字的颜色"
+msgstr "改变选中文字的字体"
 
 #: ../app/widgets/gimptextstyleeditor.c:218
 msgid "Change size of selected text"
@@ -18605,9 +18596,8 @@ msgid "Italic"
 msgstr "斜体"
 
 #: ../app/widgets/gimptextstyleeditor.c:335
-#, fuzzy
 msgid "Underline"
-msgstr "未定义"
+msgstr "下划线"
 
 #: ../app/widgets/gimptextstyleeditor.c:338
 msgid "Strikethrough"
@@ -18619,13 +18609,13 @@ msgid "Font \"%s\" unavailable on this system"
 msgstr "字体“%s”在此系统上不可用"
 
 #: ../app/widgets/gimpthumbbox.c:330
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Click to update preview\n"
 "%s-Click to force update even if preview is up-to-date"
 msgstr ""
-"点击更新预览\n"
-"%s%s点击强制更新预览，即使预览已更新"
+"点击以更新预览\n"
+"%s击以强制更新预览，即使预览已更新"
 
 #: ../app/widgets/gimpthumbbox.c:347
 msgid "Pr_eview"
@@ -18633,12 +18623,12 @@ msgstr "预览(_E)"
 
 #: ../app/widgets/gimpthumbbox.c:404 ../app/widgets/gimpthumbbox.c:468
 msgid "No selection"
-msgstr "未选择"
+msgstr "无选择"
 
 #: ../app/widgets/gimpthumbbox.c:612 ../app/widgets/gimpthumbbox.c:633
 #, c-format
 msgid "Thumbnail %d of %d"
-msgstr "缩略图 %d / %d"
+msgstr "%2$d 个缩略图中的第 %1$d 个"
 
 #: ../app/widgets/gimpthumbbox.c:740 ../app/widgets/gimpthumbbox.c:750
 msgid "Creating preview..."
@@ -18652,8 +18642,8 @@ msgid ""
 "Click to open the color selection dialog."
 msgstr ""
 "前景色和背景色。\n"
-"黑白小方格可以重置颜色。\n"
-"箭头可以交换颜色。\n"
+"使用黑白小方格重置颜色。\n"
+"使用箭头交换颜色。\n"
 "单击以打开颜色选择对话框。"
 
 #: ../app/widgets/gimptoolbox-color-area.c:211
@@ -18670,19 +18660,19 @@ msgid ""
 "The active image.\n"
 "Click to open the Image Dialog."
 msgstr ""
-"活动图像。\n"
+"正在使用的图像。\n"
 "点击打开图像对话框。"
 
 #: ../app/widgets/gimptoolbox-image-area.c:121
 msgid "Drag to an XDS enabled file-manager to save the image."
-msgstr "拖拽到能够使用 XDS 的文件管理器以保存图像。"
+msgstr "拖拽到支持 XDS 的文件管理器以保存此图像。"
 
 #: ../app/widgets/gimptoolbox-indicator-area.c:167
 msgid ""
 "The active brush.\n"
 "Click to open the Brush Dialog."
 msgstr ""
-"活动画笔。\n"
+"正在使用的笔刷。\n"
 "点击打开画笔对话框。"
 
 #: ../app/widgets/gimptoolbox-indicator-area.c:199
@@ -18690,7 +18680,7 @@ msgid ""
 "The active pattern.\n"
 "Click to open the Pattern Dialog."
 msgstr ""
-"活动图案。\n"
+"正在使用的图案。\n"
 "点击打开图案对话框。"
 
 #: ../app/widgets/gimptoolbox-indicator-area.c:231
@@ -18698,7 +18688,7 @@ msgid ""
 "The active gradient.\n"
 "Click to open the Gradient Dialog."
 msgstr ""
-"活动渐变。\n"
+"正在使用的渐变。\n"
 "点击打开渐变对话框。"
 
 #: ../app/widgets/gimptooleditor.c:295
@@ -18730,14 +18720,12 @@ msgid "Restore Tool Preset..."
 msgstr "恢复工具预设值…"
 
 #: ../app/widgets/gimptooloptionseditor.c:218
-#, fuzzy
 msgid "Delete Tool Preset..."
-msgstr "删除工具预设值(_D)"
+msgstr "删除工具预设值…"
 
 #: ../app/widgets/gimptoolpreseteditor.c:148
-#, fuzzy
 msgid "Icon:"
-msgstr "图标(_I)："
+msgstr "图标："
 
 #: ../app/widgets/gimptoolpreseteditor.c:159
 msgid "Apply stored FG/BG"
@@ -18745,7 +18733,7 @@ msgstr "应用存储的前景/背景"
 
 #: ../app/widgets/gimptoolpreseteditor.c:165
 msgid "Apply stored brush"
-msgstr "应用存储的画笔"
+msgstr "应用存储的笔刷"
 
 #: ../app/widgets/gimptoolpreseteditor.c:171
 msgid "Apply stored dynamics"
@@ -18760,9 +18748,8 @@ msgid "Apply stored pattern"
 msgstr "应用存储的图案"
 
 #: ../app/widgets/gimptoolpreseteditor.c:189
-#, fuzzy
 msgid "Apply stored palette"
-msgstr "应用存储的色板"
+msgstr "应用存储的调色板"
 
 #: ../app/widgets/gimptoolpreseteditor.c:195
 msgid "Apply stored font"
@@ -18771,7 +18758,7 @@ msgstr "应用存储的字体"
 #: ../app/widgets/gimptoolpreseteditor.c:292
 #, fuzzy, c-format
 msgid "%s Preset"
-msgstr "工具预设值"
+msgstr "%s 预设值"
 
 #: ../app/widgets/gimpuimanager.c:741
 msgid "Your GIMP installation is incomplete:"
@@ -18795,14 +18782,12 @@ msgid "Lock path strokes"
 msgstr "锁定路径笔划"
 
 #: ../app/widgets/gimpvectorstreeview.c:115
-#, fuzzy
-#| msgid "Lock path strokes"
 msgid "Lock path position"
-msgstr "锁定路径笔划"
+msgstr "锁定路径位置"
 
 #: ../app/widgets/gimpviewablebox.c:89
 msgid "Open the brush selection dialog"
-msgstr "打开画笔选择对话框"
+msgstr "打开笔刷选择对话框"
 
 #: ../app/widgets/gimpviewablebox.c:153
 msgid "Open the dynamics selection dialog"
@@ -18818,7 +18803,7 @@ msgstr "打开渐变选择对话框"
 
 #: ../app/widgets/gimpviewablebox.c:398
 msgid "Open the palette selection dialog"
-msgstr "打开色板选择对话框"
+msgstr "打开调色板选择对话框"
 
 #: ../app/widgets/gimpviewablebox.c:463
 msgid "Open the font selection dialog"
@@ -18904,7 +18889,7 @@ msgstr "设置背景色"
 #: ../app/widgets/widgets-enums.c:150
 msgctxt "color-pick-mode"
 msgid "Add to palette"
-msgstr "添加到色板"
+msgstr "添加到调色板"
 
 #: ../app/widgets/widgets-enums.c:209
 msgctxt "histogram-scale"
@@ -18986,16 +18971,14 @@ msgid "Closing '%s'"
 msgstr "正在关闭 '%s'"
 
 #: ../app/xcf/xcf.c:409
-#, fuzzy, c-format
-#| msgid "Error writing '%s': %s"
+#, c-format
 msgid "Error writing '%s': "
-msgstr "写入“%s”出错：%s"
+msgstr "写入“%s”出错："
 
 #: ../app/xcf/xcf.c:420
-#, fuzzy, c-format
-#| msgid "Error reading '%s': %s"
+#, c-format
 msgid "Error creating '%s': "
-msgstr "读取“%s”时出错：%s"
+msgstr "创建“%s”出错："
 
 #: ../app/xcf/xcf-load.c:302
 #, c-format
@@ -19013,11 +18996,11 @@ msgstr ""
 
 #: ../app/xcf/xcf-load.c:535
 msgid "This XCF file is corrupt!  I have loaded as much of it as I can, but it is incomplete."
-msgstr "此 XCF 文件已损坏！我已经尽可能多的读取，但它不完整。"
+msgstr "此 XCF 文件已损坏！已尽可能抢救图像数据，但抢救得到的部分不完整。"
 
 #: ../app/xcf/xcf-load.c:546
 msgid "This XCF file is corrupt!  I could not even salvage any partial image data from it."
-msgstr "此 XCF 文件已损坏！我甚至无法部分抢救出任何图像数据。"
+msgstr "此 XCF 文件已损坏！未能抢救任何图像数据。"
 
 #: ../app/xcf/xcf-load.c:638
 msgid ""
@@ -19034,16 +19017,12 @@ msgid "Invalid UTF-8 string in XCF file"
 msgstr "XCF 文件中含有无效的 UTF-8 字符串"
 
 #: ../app/xcf/xcf-seek.c:45
-#, fuzzy
-#| msgid "Could not seek in XCF file: %s"
 msgid "Could not seek in XCF file: "
-msgstr "无法在 XCF 文件中搜索：%s"
+msgstr "无法在 XCF 文件中搜索："
 
 #: ../app/xcf/xcf-write.c:99
-#, fuzzy
-#| msgid "Error writing XCF: %s"
 msgid "Error writing XCF: "
-msgstr "写 XCF 时出错：%s"
+msgstr "写入 XCF 出错："
 
 #: ../data/tags/gimp-tags-default.xml.in.h:1
 msgid "round"
