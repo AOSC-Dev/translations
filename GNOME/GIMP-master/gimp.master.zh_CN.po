@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-19 19:07+0000\n"
-"PO-Revision-Date: 2015-11-20 14:22-0700\n"
+"PO-Revision-Date: 2015-11-20 18:02-0700\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -1754,7 +1754,7 @@ msgstr "白平衡(_W)"
 #: ../app/actions/drawable-actions.c:64
 msgctxt "drawable-action"
 msgid "Automatic white balance correction"
-msgstr "自动校正白平衡"
+msgstr "自动白平衡校正"
 
 #: ../app/actions/drawable-actions.c:69
 msgctxt "drawable-action"
@@ -1890,7 +1890,7 @@ msgstr "反转"
 
 #: ../app/actions/drawable-commands.c:109
 msgid "White Balance operates only on RGB color layers."
-msgstr "只能对 RGB 颜色的图层进行白平衡操作。"
+msgstr "只能对使用 RGB 颜色的图层进行白平衡操作。"
 
 #: ../app/actions/drawable-commands.c:143
 msgid "Dilate"
@@ -2049,7 +2049,7 @@ msgstr "强力重做"
 #: ../app/actions/edit-actions.c:94
 msgctxt "edit-action"
 msgid "Redo the last operation that was undone, skipping visibility changes"
-msgstr "重做上次撤消的操作，略过可视状态的改变"
+msgstr "重做上次撤消的操作，但忽略可视状态更改"
 
 #: ../app/actions/edit-actions.c:99
 msgctxt "edit-action"
@@ -2236,7 +2236,7 @@ msgstr "撤消 %s(_U)"
 #: ../app/actions/edit-actions.c:321 ../app/actions/edit-actions.c:323
 #, c-format
 msgid "_Redo %s"
-msgstr "重做 %s(_R)"
+msgstr "重做 %s (_R)"
 
 #: ../app/actions/edit-actions.c:337
 #, c-format
@@ -3181,7 +3181,7 @@ msgstr "左端颜色类型"
 #: ../app/actions/gradient-editor-actions.c:52
 msgctxt "gradient-editor-action"
 msgid "_Load Left Color From"
-msgstr "左端颜色加载自(_L)"
+msgstr "左端颜色加载源(_L)"
 
 #: ../app/actions/gradient-editor-actions.c:54
 msgctxt "gradient-editor-action"
@@ -3399,11 +3399,11 @@ msgstr "删除段(_D)"
 
 #: ../app/actions/gradient-editor-actions.c:792
 msgid "Re-_center Segment's Midpoint"
-msgstr "重置段中点(_C)"
+msgstr "重置线段中点(_C)"
 
 #: ../app/actions/gradient-editor-actions.c:794
 msgid "Re-distribute _Handles in Segment"
-msgstr "重置段支点(_H)"
+msgstr "重置线段支点(_H)"
 
 #: ../app/actions/gradient-editor-actions.c:799
 msgid "_Blending Function for Selection"
@@ -3777,7 +3777,7 @@ msgstr "画布适配图层(_A)"
 #: ../app/actions/image-actions.c:103
 msgctxt "image-action"
 msgid "Resize the image to enclose all layers"
-msgstr "重置图像大小以容纳所有图层"
+msgstr "调整图像大小以容纳所有图层"
 
 #: ../app/actions/image-actions.c:108
 msgctxt "image-action"
@@ -4608,7 +4608,7 @@ msgstr "交叉图层蒙版和当前选区"
 #: ../app/actions/layers-actions.c:317
 msgctxt "layers-action"
 msgid "Al_pha to Selection"
-msgstr "Al_pha 到选区(_P)"
+msgstr "Al_pha 到选区"
 
 #: ../app/actions/layers-actions.c:319
 msgctxt "layers-action"
@@ -5039,7 +5039,7 @@ msgstr "滤镜(_R)"
 #: ../app/actions/plug-in-actions.c:87
 msgctxt "plug-in-action"
 msgid "Recently Used"
-msgstr "最近使用的"
+msgstr "最近使用"
 
 #: ../app/actions/plug-in-actions.c:89
 msgctxt "plug-in-action"
@@ -5089,7 +5089,7 @@ msgstr "艺术(_A)"
 #: ../app/actions/plug-in-actions.c:107
 msgctxt "plug-in-action"
 msgid "_Decor"
-msgstr "装饰"
+msgstr "装饰(_D)"
 
 #: ../app/actions/plug-in-actions.c:109
 msgctxt "plug-in-action"
@@ -5152,7 +5152,7 @@ msgstr "将全部插件重置为其默认设置"
 #: ../app/actions/plug-in-actions.c:137
 msgctxt "plug-in-action"
 msgid "Re_peat Last"
-msgstr "重复上次(_P)"
+msgstr "重复上次操作(_P)"
 
 #: ../app/actions/plug-in-actions.c:139
 msgctxt "plug-in-action"
@@ -5181,7 +5181,7 @@ msgstr "重新显示“%s”(_E)"
 
 #: ../app/actions/plug-in-actions.c:571
 msgid "Repeat Last"
-msgstr "重复上次"
+msgstr "重复上次操作"
 
 #: ../app/actions/plug-in-actions.c:573
 msgid "Re-Show Last"
@@ -5549,7 +5549,7 @@ msgstr "清除所有文本"
 #: ../app/actions/text-editor-actions.c:59
 msgctxt "text-editor-action"
 msgid "LTR"
-msgstr "左至右"
+msgstr "LTR"
 
 #: ../app/actions/text-editor-actions.c:60
 msgctxt "text-editor-action"
@@ -6793,7 +6793,7 @@ msgstr "窗口(_W)"
 #: ../app/actions/windows-actions.c:99
 msgctxt "windows-action"
 msgid "_Recently Closed Docks"
-msgstr "最近关闭的停靠(_R)"
+msgstr "最近关闭的停靠区(_R)"
 
 #: ../app/actions/windows-actions.c:101
 msgctxt "windows-action"
@@ -7082,7 +7082,7 @@ msgstr "设置画布使用的衬垫颜色，如果衬垫模式设为自定义颜
 
 #: ../app/config/gimprc-blurbs.h:37
 msgid "Specifies how the area around the image should be drawn."
-msgstr "指定如何去画图像四周的区域。"
+msgstr "指定绘制图像四周的区域的方式。"
 
 #: ../app/config/gimprc-blurbs.h:43
 msgid "How to handle embedded color profiles when opening a file."
@@ -7198,7 +7198,7 @@ msgstr "如果启用，每次移动鼠标的时候都将向 X 服务器查询当
 
 #: ../app/config/gimprc-blurbs.h:283
 msgid "Sets whether GIMP should create previews of layers and channels. Previews in the layers and channels dialog are nice to have but they can slow things down when working with large images."
-msgstr "指定 GIMP 是否应该创建图层和通道的预览。在图层和通道对话框中显示预览是不错的，但是当图像很大的时候将会使速度变慢。"
+msgstr "指定 GIMP 是否应该创建图层和通道的预览。在图层和通道对话框中显示预览有利于工作效率，但图像很大时将会降低性能。"
 
 #: ../app/config/gimprc-blurbs.h:288
 msgid "Sets the preview size used for layers and channel previews in newly created dialogs."
@@ -7713,7 +7713,7 @@ msgstr "长划"
 #: ../app/core/core-enums.c:509
 msgctxt "dash-preset"
 msgid "Medium dashes"
-msgstr "中划"
+msgstr "中"
 
 #: ../app/core/core-enums.c:510
 msgctxt "dash-preset"
@@ -7726,6 +7726,7 @@ msgid "Sparse dots"
 msgstr "稀疏点"
 
 #: ../app/core/core-enums.c:512
+#, fuzzy
 msgctxt "dash-preset"
 msgid "Normal dots"
 msgstr "正常点"
@@ -8148,12 +8149,9 @@ msgid "Text layer modification"
 msgstr "文字图层修改"
 
 #: ../app/core/core-enums.c:903
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Convert group layer"
 msgctxt "undo-type"
 msgid "Convert text layer"
-msgstr "转换群组图层"
+msgstr "转换文本图层"
 
 #: ../app/core/core-enums.c:905
 msgctxt "undo-type"
@@ -8337,7 +8335,7 @@ msgstr "动态"
 #. initialize the list of fonts
 #: ../app/core/gimp.c:1074
 msgid "Fonts (this may take a while)"
-msgstr "字体(这将耗费一些时间)"
+msgstr "字体（这将耗费一些时间）"
 
 #. initialize the module list
 #: ../app/core/gimp.c:1094 ../app/dialogs/preferences-dialog.c:2732
@@ -8454,12 +8452,12 @@ msgstr "您看来是第一次使用 GIMP。GIMP 现在将创建名为“%s”的
 #: ../app/core/gimp-user-install.c:412
 #, c-format
 msgid "Copying file '%s' from '%s'..."
-msgstr "正在从“%2$s”复制文件“%1$s”…"
+msgstr "正在从 '%2$s' 复制文件 '%1$s' …"
 
 #: ../app/core/gimp-user-install.c:427 ../app/core/gimp-user-install.c:453
 #, c-format
 msgid "Creating folder '%s'..."
-msgstr "正在创建“%s”文件夹…"
+msgstr "正在创建文件夹 '%s'…"
 
 #: ../app/core/gimp-user-install.c:438 ../app/core/gimp-user-install.c:464
 #, c-format
@@ -8881,7 +8879,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"装入数据失败：\n"
+"载入数据失败：\n"
 "\n"
 "%s"
 
@@ -9292,11 +9290,11 @@ msgstr "将图像转换为索引颜色"
 
 #: ../app/core/gimpimage-convert-type.c:884
 msgid "Converting to indexed colors (stage 2)"
-msgstr "正在转换为索引颜色(第 2 阶段)"
+msgstr "正在转换为索引颜色（第 2 阶段）"
 
 #: ../app/core/gimpimage-convert-type.c:929
 msgid "Converting to indexed colors (stage 3)"
-msgstr "正在转换为索引颜色(第 3 阶段)"
+msgstr "正在转换为索引颜色（第 3 阶段）"
 
 #: ../app/core/gimpimage-crop.c:71
 msgctxt "undo-type"
@@ -9450,7 +9448,7 @@ msgstr "点击生成预览"
 
 #: ../app/core/gimpimagefile.c:822
 msgid "Loading preview..."
-msgstr "正在加载预览 …"
+msgstr "正在加载预览…"
 
 #: ../app/core/gimpimagefile.c:828
 msgid "Preview is out of date"
@@ -9615,7 +9613,7 @@ msgstr "添加图层蒙板"
 #: ../app/core/gimplayer.c:1536
 msgctxt "undo-type"
 msgid "Transfer Alpha to Mask"
-msgstr "转移 Alpha 到蒙板"
+msgstr "将 Alpha 转移到蒙板"
 
 #: ../app/core/gimplayer.c:1687
 msgctxt "undo-type"
@@ -10037,10 +10035,8 @@ msgid "Current Color Profile"
 msgstr "色彩配置文件"
 
 #: ../app/dialogs/color-profile-dialog.c:224
-#, fuzzy
-#| msgid "C_onvert"
 msgid "Convert to"
-msgstr "转换(_O)"
+msgstr "转换为"
 
 #: ../app/dialogs/color-profile-dialog.c:224
 #, fuzzy
@@ -10080,10 +10076,9 @@ msgid "Preferred RGB (%s)"
 msgstr ""
 
 #: ../app/dialogs/color-profile-dialog.c:391
-#, fuzzy, c-format
-#| msgid "Converting to indexed colors"
+#, c-format
 msgid "Converting to '%s'"
-msgstr "转换为索引颜色"
+msgstr "转换为 '%s'"
 
 #: ../app/dialogs/color-profile-dialog.c:413
 #, fuzzy
@@ -10092,11 +10087,8 @@ msgid "Assign color profile"
 msgstr "色彩配置文件"
 
 #: ../app/dialogs/color-profile-import-dialog.c:78
-#, fuzzy
-#| msgctxt "color-profile-policy"
-#| msgid "Convert to RGB workspace"
 msgid "Convert to RGB Working Space?"
-msgstr "转换为 RGB 工作空间"
+msgstr "是否转换为 RGB 工作空间？"
 
 #: ../app/dialogs/color-profile-import-dialog.c:81
 #, fuzzy
@@ -10109,10 +10101,8 @@ msgid "Keep"
 msgstr "保持"
 
 #: ../app/dialogs/color-profile-import-dialog.c:87
-#, fuzzy
-#| msgid "C_onvert"
 msgid "Convert"
-msgstr "转换(_O)"
+msgstr "转换"
 
 #: ../app/dialogs/color-profile-import-dialog.c:104
 #, c-format
@@ -10420,8 +10410,9 @@ msgid "_Merge"
 msgstr "合并(_M)"
 
 #: ../app/dialogs/image-merge-layers-dialog.c:96
+#, fuzzy
 msgid "Final, Merged Layer should be:"
-msgstr "最后，合并的图层应该是："
+msgstr "最终合并的图层应为："
 
 #: ../app/dialogs/image-merge-layers-dialog.c:100
 msgid "Expanded as necessary"
@@ -10846,7 +10837,7 @@ msgstr "画布衬垫模式(_P)："
 
 #: ../app/dialogs/preferences-dialog.c:1185
 msgid "Custom p_adding color:"
-msgstr "自定义画布衬垫颜色(_A)："
+msgstr "自定义画布填充颜色(_A)："
 
 #: ../app/dialogs/preferences-dialog.c:1186
 msgid "Select Custom Canvas Padding Color"
@@ -10895,7 +10886,7 @@ msgstr "资源消耗"
 
 #: ../app/dialogs/preferences-dialog.c:1395
 msgid "Minimal number of _undo levels:"
-msgstr "最小撤消次数(_U)："
+msgstr "最小撤消级别(_U)："
 
 #: ../app/dialogs/preferences-dialog.c:1398
 msgid "Maximum undo _memory:"
@@ -10991,7 +10982,7 @@ msgstr "立即保存快捷键(_N)"
 
 #: ../app/dialogs/preferences-dialog.c:1510
 msgid "_Reset Keyboard Shortcuts to Default Values"
-msgstr "重置快捷键到默认置(_R)"
+msgstr "重置快捷键为默认值(_R)"
 
 #: ../app/dialogs/preferences-dialog.c:1519
 msgid "Remove _All Keyboard Shortcuts"
@@ -11013,10 +11004,8 @@ msgid "Insane Options"
 msgstr "已保存的选项"
 
 #: ../app/dialogs/preferences-dialog.c:1545
-#, fuzzy
-#| msgid "Pointer Information"
 msgid "_N-Point Deformation tool"
-msgstr "指针信息"
+msgstr "N 点变形工具"
 
 #: ../app/dialogs/preferences-dialog.c:1548
 #, fuzzy
@@ -11111,10 +11100,8 @@ msgid "Show _unavailable actions"
 msgstr "显示选区(_E)"
 
 #: ../app/dialogs/preferences-dialog.c:1751
-#, fuzzy
-#| msgid "Maximum _new image size:"
 msgid "Maximum History Size:"
-msgstr "最大新建图像大小(_N)："
+msgstr "最大历史大小："
 
 #: ../app/dialogs/preferences-dialog.c:1755
 #, fuzzy
@@ -11291,9 +11278,8 @@ msgid "Pointer _mode:"
 msgstr "指针模式(_M)："
 
 #: ../app/dialogs/preferences-dialog.c:2048
-#, fuzzy
 msgid "Pointer _handedness:"
-msgstr "指针渲染(_N)："
+msgstr "指针利手(_N)："
 
 #: ../app/dialogs/preferences-dialog.c:2060
 msgid "Image Window Appearance"
@@ -11414,7 +11400,7 @@ msgstr "ppi"
 #: ../app/dialogs/preferences-dialog.c:2297
 #, c-format
 msgid "_Detect automatically (currently %d × %d ppi)"
-msgstr "自动检测(当前为 %d x %d ppi)(_D)"
+msgstr "自动检测（当前为 %d x %d ppi）(_D)"
 
 #: ../app/dialogs/preferences-dialog.c:2315
 msgid "_Enter manually"
@@ -11519,7 +11505,7 @@ msgstr "立即保存输入设备设置(_N)"
 
 #: ../app/dialogs/preferences-dialog.c:2540
 msgid "_Reset Saved Input Device Settings to Default Values"
-msgstr "重置已保存的输入设备设置到默认值(_R)"
+msgstr "将已保存的输入设备设置重置为默认值(_R)"
 
 #: ../app/dialogs/preferences-dialog.c:2555
 msgid "Additional Input Controllers"
@@ -11568,7 +11554,7 @@ msgstr "立即保存窗口位置(_N)"
 
 #: ../app/dialogs/preferences-dialog.c:2615
 msgid "_Reset Saved Window Positions to Default Values"
-msgstr "重置已保存的窗口位置到默认值(_R)"
+msgstr "将已保存的窗口位置重置为默认值(_R)"
 
 #: ../app/dialogs/preferences-dialog.c:2630
 msgid "Folders"
@@ -11974,10 +11960,9 @@ msgid "No guides"
 msgstr "无参考线"
 
 #: ../app/display/display-enums.c:61
-#, fuzzy
 msgctxt "guides-type"
 msgid "Center lines"
-msgstr "中线"
+msgstr "中间线"
 
 #: ../app/display/display-enums.c:62
 #, fuzzy
@@ -12776,9 +12761,8 @@ msgid "How fade is repeated as you paint"
 msgstr ""
 
 #: ../app/paint/gimppaintoptions.c:356
-#, fuzzy
 msgid "Paint smoother strokes"
-msgstr "转换路径笔划"
+msgstr "绘制平滑笔画"
 
 #: ../app/paint/gimppaintoptions.c:360
 msgid "Depth of smoothing"
@@ -13506,12 +13490,9 @@ msgid "Shift"
 msgstr "偏移"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3652
-#, fuzzy
-#| msgctxt "gradient-editor-blending"
-#| msgid "_Sinusoidal"
 msgctxt "undo-type"
 msgid "Sinus"
-msgstr "正弦(_S)"
+msgstr "正弦"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3700
 msgctxt "undo-type"
@@ -13735,7 +13716,7 @@ msgid ""
 "Execution error for '%s':\n"
 "%s"
 msgstr ""
-"执行“%s”出错：\n"
+"执行 '%s' 出错：\n"
 "%s"
 
 #: ../app/plug-in/plug-in-rc.c:227
@@ -14950,7 +14931,7 @@ msgstr "动态绘图"
 
 #: ../app/tools/gimpfreeselecttool.c:197
 msgid "Free Select Tool: Select a hand-drawn region with free and polygonal segments"
-msgstr "自由选择工具：选择手绘区域"
+msgstr "自由选区工具：使用自由线条或多边形线段选择手绘区域"
 
 #: ../app/tools/gimpfreeselecttool.c:198
 msgid "_Free Select"
@@ -15005,7 +14986,7 @@ msgstr "GEGL 工具：使用无基准的 GEGL 操作"
 
 #: ../app/tools/gimpgegltool.c:74 ../app/tools/gimpoperationtool.c:114
 msgid "_GEGL Operation..."
-msgstr "GEGL 操作(_G)…"
+msgstr "_GEGL 操作…"
 
 #: ../app/tools/gimpgegltool.c:418
 msgid "Select an operation from the list above"
@@ -15115,7 +15096,7 @@ msgstr "导出色调-饱和度选项"
 
 #: ../app/tools/gimphuesaturationtool.c:136
 msgid "Hue-Saturation operates only on RGB color layers."
-msgstr "只有 RGB 颜色的图层可以进行色调-饱和度操作。"
+msgstr "只有使用 RGB 颜色的图层可以进行色调及饱和度操作。"
 
 #: ../app/tools/gimphuesaturationtool.c:196
 msgid "M_aster"
@@ -15353,10 +15334,8 @@ msgid "_Auto"
 msgstr "自动(_A)"
 
 #: ../app/tools/gimplevelstool.c:590
-#, fuzzy
-#| msgid "Adjust levels automatically"
 msgid "Adjust levels for all channels automatically"
-msgstr "自动调整色阶"
+msgstr "自动色阶调整"
 
 #: ../app/tools/gimplevelstool.c:614
 msgid "Edit these Settings as Curves"
@@ -15633,20 +15612,16 @@ msgstr ""
 #: ../app/tools/gimpnpointdeformationtool.c:158
 #: ../app/tools/gimpnpointdeformationtool.c:1014
 #: ../app/tools/gimpnpointdeformationtool.c:1018
-#, fuzzy
-#| msgid "Pointer Information"
 msgid "N-Point Deformation"
-msgstr "指针信息"
+msgstr "N 点变形"
 
 #: ../app/tools/gimpnpointdeformationtool.c:159
 msgid "N-Point Deformation Tool: Rubber-like deformation of image using points"
 msgstr ""
 
 #: ../app/tools/gimpnpointdeformationtool.c:161
-#, fuzzy
-#| msgid "Pointer Information"
 msgid "_N-Point Deformation"
-msgstr "指针信息"
+msgstr "_N 点变形"
 
 #: ../app/tools/gimpoperationtool.c:113
 msgid "Operation Tool: Use an arbitrary GEGL operation"
@@ -15700,9 +15675,8 @@ msgid "Reset aspect ratio to brush's native"
 msgstr ""
 
 #: ../app/tools/gimppaintoptions-gui.c:187
-#, fuzzy
 msgid "Reset angle to zero"
-msgstr "重置所有滤镜"
+msgstr "归零角度"
 
 #: ../app/tools/gimppaintoptions-gui.c:194 ../app/widgets/gimpbrusheditor.c:211
 #: ../app/widgets/gimpbrushfactoryview.c:81 ../app/widgets/gimpgrideditor.c:174
@@ -15714,11 +15688,8 @@ msgid "Reset spacing to brush's native spacing"
 msgstr ""
 
 #: ../app/tools/gimppaintoptions-gui.c:203
-#, fuzzy
-#| msgctxt "tool-options-action"
-#| msgid "Reset to default values"
 msgid "Reset hardness to default"
-msgstr "重置到默认值"
+msgstr "重置硬度为默认值"
 
 #: ../app/tools/gimppaintoptions-gui.c:210
 #, fuzzy
@@ -15728,11 +15699,8 @@ msgid "Force"
 msgstr "力度"
 
 #: ../app/tools/gimppaintoptions-gui.c:211
-#, fuzzy
-#| msgctxt "tool-options-action"
-#| msgid "Reset to default values"
 msgid "Reset force to default"
-msgstr "重置到默认值"
+msgstr "重置力度为默认值"
 
 #: ../app/tools/gimppaintoptions-gui.c:253
 msgid "Lock brush size to zoom"
@@ -16057,11 +16025,11 @@ msgstr "角度(_A)："
 
 #: ../app/tools/gimprotatetool.c:211
 msgid "Center _X:"
-msgstr "中心 _X："
+msgstr "中点 _X 座标："
 
 #: ../app/tools/gimprotatetool.c:220
 msgid "Center _Y:"
-msgstr "中心 _Y："
+msgstr "中点 _Y 座标："
 
 #: ../app/tools/gimprotatetool.c:378
 #, c-format
@@ -17186,7 +17154,7 @@ msgid "Shortcut \"%s\" is already taken by \"%s\" from the \"%s\" group."
 msgstr "快捷键“%1$s”已被“%3$s”群组的“%2$s”占用。"
 
 #: ../app/widgets/gimpactionview.c:694
-#, c-format
+#, fuzzy, c-format
 msgid "Reassigning the shortcut will cause it to be removed from \"%s\"."
 msgstr "重新分配快捷键将导致它从“%s”中被去掉。"
 
@@ -17334,7 +17302,7 @@ msgstr "HTML 标记："
 
 #: ../app/widgets/gimpcolormapeditor.c:485
 msgid "Only indexed images have a colormap."
-msgstr "只有索引图像具有颜色表"
+msgstr "只有索引颜色图像带有颜色表"
 
 #: ../app/widgets/gimpcolorselectorpalette.c:59
 msgid "Palette"
@@ -17350,7 +17318,7 @@ msgstr "增大预览"
 
 #: ../app/widgets/gimpcontrollereditor.c:199
 msgid "_Dump events from this controller"
-msgstr "转储此控制器事件(_D)"
+msgstr "转储来自此控制器的事件(_D)"
 
 #: ../app/widgets/gimpcontrollereditor.c:204
 msgid "_Enable this controller"
@@ -17504,15 +17472,14 @@ msgstr ""
 "在您的活动控制器列表中已经有一个滚轮控制器。"
 
 #: ../app/widgets/gimpcontrollerlist.c:536
-#, fuzzy
 msgid ""
 "There can only be one active mouse controller.\n"
 "\n"
 "You already have a mouse controller in your list of active controllers."
 msgstr ""
-"只能有一个活动的滚轮控制器。\n"
+"只能有一个活动的鼠标控制器。\n"
 "\n"
-"在您的活动控制器列表中已经有一个滚轮控制器。"
+"在您的活动控制器列表中已经有一个鼠标控制器。"
 
 #: ../app/widgets/gimpcontrollerlist.c:562
 msgid "Remove Controller?"
@@ -17646,7 +17613,7 @@ msgstr "下卷"
 #: ../app/widgets/gimpcontrollerwheel.c:137
 #: ../app/widgets/gimpcontrollerwheel.c:140
 msgid "Scroll Left"
-msgstr "左卷"
+msgstr "向左滚动"
 
 #: ../app/widgets/gimpcontrollerwheel.c:144
 #: ../app/widgets/gimpcontrollerwheel.c:147
@@ -17753,7 +17720,7 @@ msgstr "重置曲线(_R)"
 #: ../app/widgets/gimpdeviceinfoeditor.c:487
 #, c-format
 msgid "The axis '%s' has no curve"
-msgstr "轴“%s”没有曲线"
+msgstr "轴“%s”上没有曲线"
 
 #: ../app/widgets/gimpdevicestatus.c:139
 msgid "Save device status"
@@ -18078,7 +18045,7 @@ msgstr "标准偏差："
 
 #: ../app/widgets/gimphistogrameditor.c:100
 msgid "Median:"
-msgstr "中值："
+msgstr "中位数："
 
 #: ../app/widgets/gimphistogrameditor.c:101
 msgid "Pixels:"
@@ -18280,10 +18247,8 @@ msgid "Source Range"
 msgstr "源"
 
 #: ../app/widgets/gimppropgui-constructors.c:398
-#, fuzzy
-#| msgid "R_eset Range"
 msgid "Destination Range"
-msgstr "重置范围(_E)"
+msgstr "目标范围"
 
 #: ../app/widgets/gimppropgui-constructors.c:409
 #, fuzzy
@@ -18292,11 +18257,8 @@ msgid "Gray Handling"
 msgstr "拖动臂点"
 
 #: ../app/widgets/gimppropgui-constructors.c:547
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Reorder channel"
 msgid "Red channel"
-msgstr "重排通道"
+msgstr "红色通道"
 
 #: ../app/widgets/gimppropgui-constructors.c:571
 #, fuzzy
@@ -19005,7 +18967,7 @@ msgstr "GIMP XCF 图像"
 #: ../app/xcf/xcf.c:279
 #, c-format
 msgid "Opening '%s'"
-msgstr "正在打开“%s”"
+msgstr "正在打开 '%s'"
 
 #: ../app/xcf/xcf.c:316
 #, c-format
@@ -19015,7 +18977,7 @@ msgstr "XCF 错误：遇到不支持的 XCF 文件版本 %d"
 #: ../app/xcf/xcf.c:393
 #, c-format
 msgid "Saving '%s'"
-msgstr "正在保存“%s”"
+msgstr "正在保存 '%s'"
 
 #: ../app/xcf/xcf.c:401
 #, c-format
