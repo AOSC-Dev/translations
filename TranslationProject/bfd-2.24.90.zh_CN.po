@@ -10,14 +10,14 @@ msgstr ""
 "Project-Id-Version: bfd 2.24.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2014-02-10 09:42+1030\n"
-"PO-Revision-Date: 2015-11-01 11:45-0500\n"
+"PO-Revision-Date: 2015-11-21 03:22-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: aout-adobe.c:127
@@ -28,7 +28,7 @@ msgstr "%s：a.out.adobe 文件中节的类型未知：%x\n"
 #: aout-cris.c:200
 #, c-format
 msgid "%s: Invalid relocation type exported: %d"
-msgstr "%s：导出无效的重定位类型：%d"
+msgstr "%s：导出了无效的重定位类型：%d"
 
 #: aout-cris.c:243
 #, fuzzy
@@ -1106,15 +1106,11 @@ msgstr "字符值超出可接受的范围以外"
 
 #: elf32-arm.c:10670 elf32-nios2.c:3525 elf32-tic6x.c:2740
 #: /src/binutils-gdb/bfd/elfnn-aarch64.c:4485
-#, fuzzy
 msgid "unsupported relocation"
-msgstr ""
-"\n"
-"重定位节 "
+msgstr "不支持的重定位"
 
 #: elf32-arm.c:10678 elf32-nios2.c:3535 elf32-tic6x.c:2748
 #: /src/binutils-gdb/bfd/elfnn-aarch64.c:4493
-#, fuzzy
 msgid "unknown error"
 msgstr "未知错误"
 
@@ -6168,9 +6164,8 @@ msgid "GALAXY           "
 msgstr ""
 
 #: vms-alpha.c:7384
-#, fuzzy
 msgid "*unknown*        "
-msgstr "<未知>"
+msgstr "*未知*           "
 
 #: vms-alpha.c:7387
 #, fuzzy, c-format
@@ -6213,9 +6208,9 @@ msgid " Shared image  : 0x%08x 0x%08x\n"
 msgstr "回溯到 %-24.24s (0x%08x)\n"
 
 #: vms-alpha.c:7428
-#, fuzzy, c-format
+#, c-format
 msgid "cannot read EIHI\n"
-msgstr "无法读入头"
+msgstr "无法读入 EIHI\n"
 
 #: vms-alpha.c:7431
 #, c-format
@@ -6299,7 +6294,6 @@ msgid " vbn: %u, pfc: %u, matchctl: %u type: %u ("
 msgstr ""
 
 #: vms-alpha.c:7546
-#, fuzzy
 msgid "NORMAL"
 msgstr "一般"
 
@@ -6660,9 +6654,8 @@ msgid "Delay Import Directory"
 msgstr "延迟导入目录"
 
 #: peigen.c:1050 pepigen.c:1050 pex64igen.c:1050
-#, fuzzy
 msgid "CLR Runtime Header"
-msgstr "运行时名称。"
+msgstr "CLR 运行时标头"
 
 #: peigen.c:1051 pepigen.c:1051 pex64igen.c:1051
 msgid "Reserved"
