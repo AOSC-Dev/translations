@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-09-13 20:17+0200\n"
-"PO-Revision-Date: 2015-11-21 17:05-0500\n"
+"PO-Revision-Date: 2015-11-21 17:09-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -7799,7 +7799,7 @@ msgstr "LaTeX 打印"
 
 #: ../src/extension/internal/odf.cpp:2141
 msgid "OpenDocument Drawing Output"
-msgstr "开放文档 绘制输出"
+msgstr "开放文档绘图输出"
 
 #: ../src/extension/internal/odf.cpp:2146
 msgid "OpenDocument drawing (*.odg)"
@@ -11521,7 +11521,7 @@ msgstr "Inkscape 使用默认设置运行, 并且新的设置不会保存."
 #: ../src/preferences.cpp:151
 #, c-format
 msgid "Cannot create profile directory %s."
-msgstr "不能创建配置文档(profile)目录%s."
+msgstr "不能创建配置文件目录%s."
 
 #. The profile dir is not actually a directory
 #. _reportError(Glib::ustring::compose(_("%1 is not a valid directory."),
@@ -11529,7 +11529,7 @@ msgstr "不能创建配置文档(profile)目录%s."
 #: ../src/preferences.cpp:169
 #, c-format
 msgid "%s is not a valid directory."
-msgstr "%s 是无效路径."
+msgstr "%s 是无效目录。"
 
 #. The write failed.
 #. _reportError(Glib::ustring::compose(_("Failed to create the preferences file %1."),
@@ -11537,7 +11537,7 @@ msgstr "%s 是无效路径."
 #: ../src/preferences.cpp:180
 #, c-format
 msgid "Failed to create the preferences file %s."
-msgstr "不能创建配置文件%s."
+msgstr "不能创建配置文件 %s."
 
 #: ../src/preferences.cpp:216
 #, c-format
