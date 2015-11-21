@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-11-13 19:32-0500\n"
+"PO-Revision-Date: 2015-11-21 03:15-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -3049,7 +3049,7 @@ msgstr "指令从不被执行"
 #: config/arm/arm.c:21913
 #, fuzzy, c-format
 msgid "obsolete Maverick format code '%c'"
-msgstr "不受支持的算符用于编码『%c』"
+msgstr "不受支持的算符用于编码‘%c’"
 
 #: config/arm/arm.c:23339
 msgid "function parameters cannot have __fp16 type"
@@ -3824,7 +3824,7 @@ msgstr "‘b’修饰符的操作数无效"
 #: config/s390/s390.c:5510
 #, fuzzy, c-format
 msgid "memory reference expected for 'O' output modifier"
-msgstr "内存参考预期的用于『O』输出修饰键"
+msgstr "内存参考预期的用于‘O’输出修饰键"
 
 #: config/s390/s390.c:5521
 #, fuzzy, c-format
@@ -3834,7 +3834,7 @@ msgstr "‘o’修饰符的操作数无效"
 #: config/s390/s390.c:5539
 #, fuzzy, c-format
 msgid "memory reference expected for 'R' output modifier"
-msgstr "内存参考预期的用于『R』输出修饰键"
+msgstr "内存参考预期的用于‘R’输出修饰键"
 
 #: config/s390/s390.c:5550
 #, fuzzy, c-format
@@ -3844,7 +3844,7 @@ msgstr "‘b’修饰符的操作数无效"
 #: config/s390/s390.c:5568
 #, fuzzy, c-format
 msgid "memory reference expected for 'S' output modifier"
-msgstr "内存参考预期的用于『S』输出修饰键"
+msgstr "内存参考预期的用于‘S’输出修饰键"
 
 #: config/s390/s390.c:5578
 #, fuzzy, c-format
@@ -3854,12 +3854,12 @@ msgstr "%s：无效的输出格式"
 #: config/s390/s390.c:5599
 #, fuzzy, c-format
 msgid "register or memory expression expected for 'N' output modifier"
-msgstr "暂存器或内存运算式预期的用于『N』输出修饰键"
+msgstr "暂存器或内存运算式预期的用于‘N’输出修饰键"
 
 #: config/s390/s390.c:5610
 #, fuzzy, c-format
 msgid "register or memory expression expected for 'M' output modifier"
-msgstr "暂存器或内存运算式预期的用于『公尺』输出修饰键"
+msgstr "暂存器或内存运算式预期的用于‘公尺’输出修饰键"
 
 #: config/s390/s390.c:5685 config/s390/s390.c:5705
 #, fuzzy, c-format
@@ -5801,7 +5801,7 @@ msgstr "当格式字符串不是字面量时给出警告"
 #: fortran/lang.opt:282
 #, fuzzy
 msgid "Warn about real-literal-constants with 'q' exponent-letter"
-msgstr "警告关于 real-literal-constants 与『q』exponent-letter"
+msgstr "警告关于 real-literal-constants 与‘q’exponent-letter"
 
 #: fortran/lang.opt:286
 #, fuzzy
@@ -14417,9 +14417,9 @@ msgid ""
 msgstr ""
 
 #: common.opt:1384
-#, fuzzy, c-format
+#, c-format
 msgid "unknown Stack Reuse Level %qs"
-msgstr "未知的 TLS 模型%qs"
+msgstr "未知的栈重用级别%qs"
 
 #: common.opt:1397
 #, fuzzy
@@ -14443,7 +14443,7 @@ msgstr "进行间接内联"
 msgid ""
 "Enable inlining of function declared \"inline\", disabling disables all "
 "inlining"
-msgstr "启用内联的函数声明「内联」，停用全部停用内联"
+msgstr "启用内联的函数声明“内联”，停用全部停用内联"
 
 #: common.opt:1423
 #, fuzzy
@@ -14718,7 +14718,7 @@ msgstr ""
 #: common.opt:1702
 #, fuzzy, c-format
 msgid "unknown offload ABI %qs"
-msgstr "，不明 ABI"
+msgstr "，未知 ABI"
 
 #: common.opt:1712
 msgid "When possible do not generate stack frames"
@@ -15913,7 +15913,7 @@ msgstr "类型假设只有有效用于接口类型"
 #: go/gofrontend/expressions.cc:13632
 #, fuzzy
 msgid "impossible type assertion: type does not implement interface"
-msgstr "不可能的类型假设：类型不实作接口"
+msgstr "不可能的类型假设：类型不实现接口"
 
 #: go/gofrontend/expressions.cc:13811 go/gofrontend/statements.cc:1430
 msgid "expected channel"
@@ -17209,7 +17209,7 @@ msgstr "边指向错误的声明："
 msgid ""
 "an indirect edge with unknown callee corresponding to a call_stmt with a "
 "known declaration:"
-msgstr "间接边缘与不明被调用端相应到 callstmt 与已知声明(_S)："
+msgstr "间接边缘与未知被调用端相应到 callstmt 与已知声明(_S)："
 
 #: cgraph.c:3134
 #, gcc-internal-format
@@ -17239,7 +17239,7 @@ msgstr "verify_cgraph_node 失败"
 #: cgraph.c:3275 varpool.c:326
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "%s: section %s is missing"
-msgstr "在 %s %s 中有缺失的「%s」\n"
+msgstr "在 %s %s 中有缺失的“%s”\n"
 
 #: cgraphunit.c:689
 #, gcc-internal-format
@@ -17552,7 +17552,7 @@ msgstr "控制流程的函数 %qE 不匹配它的侧写档数据 (计数器 %qs)
 #: coverage.c:444
 #, fuzzy, gcc-internal-format
 msgid "execution counts estimated\n"
-msgstr "无法解析的「清单计数」列：「%s」"
+msgstr "无法解析的“清单计数”列：“%s”"
 
 #: coverage.c:445
 #, fuzzy, gcc-internal-format
@@ -25061,7 +25061,7 @@ msgstr "%qs后缺少宏名"
 #: config/aarch64/aarch64.c:6665
 #, fuzzy, gcc-internal-format
 msgid "unknown feature modifier %qs"
-msgstr "%X%P: 不明特征 %s\n"
+msgstr "%X%P: 未知特征 %s\n"
 
 #: config/aarch64/aarch64.c:6696
 #, fuzzy, gcc-internal-format
@@ -26086,7 +26086,7 @@ msgstr "此目标不支持不附带 -mdsbt 使用 -fPIC 和 -fpic"
 #: config/c6x/c6x.h:363 config/nvptx/nvptx.h:193
 #, fuzzy, gcc-internal-format
 msgid "profiling is not yet implemented for this architecture"
-msgstr "侧写档不是未实作的用于这个架构"
+msgstr "侧写档不是未实现的用于这个架构"
 
 #: config/cr16/cr16.c:325
 #, fuzzy, gcc-internal-format
@@ -26248,8 +26248,9 @@ msgid ""
 "\"page_miss\", \"timer0\", \"timer1\", \"message\", \"dma0\", \"dma1\", "
 "\"wand\" or \"swi\""
 msgstr ""
-"参数的 %qE 属性不是「重置」，「software_exception」，「page_miss」，"
-"「timer0」，「timer1」，「消息」，「dma0」，「dma1」，「魔杖」或「swi」"
+"参数的 %qE 属性不是“重"
+"置”，“software_exception”，“page_miss”，“timer0”，“timer1”，“消"
+"息”，“dma0”，“dma1”，“魔杖”或“swi”"
 
 #: config/epiphany/epiphany.c:1553
 #, fuzzy, gcc-internal-format
@@ -26393,7 +26394,7 @@ msgstr "%q+D的寄存器名无效"
 #: config/i386/i386.c:3012
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "unknown alignment %s specified for option %s"
-msgstr "%s：不明选项 -%c\n"
+msgstr "%s：未知选项 -%c\n"
 
 #: config/i386/i386.c:3023
 #, gcc-internal-format, gfc-internal-format
@@ -26838,7 +26839,7 @@ msgstr "%qs的实参必须是一个 2 位无符号字面常量"
 msgid "Parameter to builtin not valid: %s"
 msgstr ""
 "\n"
-"错误：「%s」并非有效新闻群组！\n"
+"错误：“%s”并非有效新闻群组！\n"
 
 #: config/i386/i386.c:36158 config/i386/i386.c:37566
 #, gcc-internal-format
@@ -27041,7 +27042,7 @@ msgstr "环境变量 COLLECT_GCC 必须被设置"
 #: config/i386/intelmic-mkoffload.c:513 config/nvptx/mkoffload.c:959
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "offload compiler %s not found"
-msgstr " 却找到「%s」"
+msgstr " 却找到“%s”"
 
 #: config/i386/intelmic-mkoffload.c:528
 #, fuzzy, gcc-internal-format
@@ -28057,7 +28058,7 @@ msgstr ""
 #: config/nios2/nios2.c:3181
 #, fuzzy, gcc-internal-format
 msgid "%<%s%> is unknown"
-msgstr "%s%s：不明的主机。\n"
+msgstr "%s%s：未知的主机。\n"
 
 #: config/nvptx/mkoffload.c:140
 #, fuzzy, gcc-internal-format
@@ -29382,9 +29383,9 @@ msgid "malformed '#pragma member_alignment', ignoring"
 msgstr "%<#pragma align%>指定的对齐边界无效，忽略"
 
 #: config/vms/vms-c.c:104
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "unknown '#pragma member_alignment' name %s"
-msgstr "不明『# pragma memberalignment』名称 %s(_A)"
+msgstr "未知“#pragma member_alignment”名称 %s"
 
 #: config/vms/vms-c.c:109
 #, fuzzy, gcc-internal-format
@@ -29414,12 +29415,12 @@ msgstr "线程模型：%s\n"
 #: config/vms/vms-c.c:237
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "unknown '#pragma extern_model' model '%s'"
-msgstr "不明『# pragma externmodel』式样『%s』(_M)"
+msgstr "未知‘# pragma externmodel’式样‘%s’(_M)"
 
 #: config/vms/vms-c.c:243
-#, fuzzy, gcc-internal-format
+#, gcc-internal-format
 msgid "junk at end of '#pragma extern_model'"
-msgstr "%<#pragma message%>末尾有垃圾字符"
+msgstr "'#pragma extern_model' 末尾有垃圾字符"
 
 #: config/vms/vms-c.c:257
 #, fuzzy, gcc-internal-format
@@ -36800,12 +36801,12 @@ msgstr "%qD 带有无效参数列表"
 #: cp/decl.c:7890
 #, fuzzy, gcc-internal-format
 msgid "integer suffix %<%s%> shadowed by implementation"
-msgstr "整数字尾 %<%s%>带阴影由实作"
+msgstr "整数字尾 %<%s%>带阴影由实现"
 
 #: cp/decl.c:7896
 #, fuzzy, gcc-internal-format
 msgid "floating point suffix %<%s%> shadowed by implementation"
-msgstr "浮点数字尾 %<%s%>带阴影由实作"
+msgstr "浮点数字尾 %<%s%>带阴影由实现"
 
 #: cp/decl.c:7902
 #, fuzzy, gcc-internal-format
@@ -40384,7 +40385,7 @@ msgstr "%<auto%>的语义在 C++0x 中将被改变；请考虑删除它"
 #: cp/parser.c:11931
 #, fuzzy, gcc-internal-format
 msgid "decl-specifier invalid in condition"
-msgstr "%s：无效的新列指定符号「%s」\n"
+msgstr "%s：无效的新列指定符号“%s”\n"
 
 #: cp/parser.c:12023
 #, gcc-internal-format
@@ -40458,7 +40459,7 @@ msgstr ""
 #: cp/parser.c:13167
 #, fuzzy, gcc-internal-format
 msgid "unexpected keyword; remove space between quotes and suffix identifier"
-msgstr "缺少空格介于 %<「」%>和后缀识别码"
+msgstr "缺少空格介于 %<“”%>和后缀识别码"
 
 #: cp/parser.c:13173
 #, fuzzy, gcc-internal-format
@@ -44657,7 +44658,7 @@ msgstr "%L处不能为负的 REAL 取 REAL 次幂"
 #: fortran/arith.c:943
 #, fuzzy, gcc-internal-format
 msgid "arith_power(): unknown type"
-msgstr "不明的文件类型"
+msgstr "未知的文件类型"
 
 #: fortran/arith.c:1009
 #, fuzzy, gcc-internal-format
@@ -45430,7 +45431,7 @@ msgstr "%3$L处内建函数‘%2$s’的‘%1$s’实参类型必须为默认实
 #: fortran/check.c:1959
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "'I' at %L and 'J' at %L cannot both be BOZ literal constants"
-msgstr "『我』于 %L 和『J』于 %L 无法两者是 BOZ 实字常数"
+msgstr "‘我’于 %L 和‘J’于 %L 无法两者是 BOZ 实字常数"
 
 #: fortran/check.c:2090
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -45677,7 +45678,7 @@ msgstr "%3$L处内建函数‘%2$s’的实参‘%1$s’必须具有可扩展类
 #: fortran/check.c:3954
 #, fuzzy, gcc-internal-format
 msgid "SELECTED_REAL_KIND with neither %<P%> nor %<R%> argument at %L"
-msgstr "Fortran 2008:SELECTED_REAL_KIND 与 neither『P』nor『R』参数于 %L"
+msgstr "Fortran 2008:SELECTED_REAL_KIND 与 neither‘P’nor‘R’参数于 %L"
 
 #: fortran/check.c:3985
 #, fuzzy, gcc-internal-format
@@ -45787,12 +45788,12 @@ msgstr ""
 #: fortran/check.c:4418
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "Argument FPTR at %L to C_F_PROCPOINTER shall be a procedure pointer"
-msgstr "实际参数到『%s』于 %L 必须是 polymorphic"
+msgstr "实际参数到‘%s’于 %L 必须是 polymorphic"
 
 #: fortran/check.c:4425
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "Argument FPTR at %L to C_F_PROCPOINTER shall not be coindexed"
-msgstr "实际参数到『%s』于 %L 必须是 polymorphic"
+msgstr "实际参数到‘%s’于 %L 必须是 polymorphic"
 
 #: fortran/check.c:4431
 #, gcc-internal-format, gfc-internal-format
@@ -45840,7 +45841,7 @@ msgstr "%C处的组件必须有 POINTER 属性"
 #: fortran/check.c:4513
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "Argument X at %L to C_LOC shall be not be a zero-sized string"
-msgstr "参数『S』的最近的于 %L 不应该是零"
+msgstr "参数‘S’的最近的于 %L 不应该是零"
 
 #: fortran/check.c:4522
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -45850,7 +45851,7 @@ msgstr "‘%s’的实参在%L处必须是一个指针"
 #: fortran/check.c:4529
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "Noninteroperable array at %L as argument to C_LOC: %s"
-msgstr "缺少参数「%s」，在调用「%s」时，位于 %L"
+msgstr "缺少参数“%s”，在调用“%s”时，位于 %L"
 
 #: fortran/check.c:4540
 #, gcc-internal-format, gfc-internal-format
@@ -46003,7 +46004,7 @@ msgstr ""
 msgid ""
 "Assumed size polymorphic objects or components, such as that at %C, have not "
 "yet been implemented"
-msgstr "假设的大小 polymorphic 对象或成分，像是该于 %C, 尚未被实作"
+msgstr "假设的大小 polymorphic 对象或成分，像是该于 %C, 尚未被实现"
 
 #. Since the extension field is 8 bit wide, we can only have
 #. up to 255 extension levels.
@@ -46475,7 +46476,7 @@ msgstr "%C处 TYPE 定义中的歧义符号"
 msgid ""
 "Type name '%s' at %C conflicts with previously declared entity at %L, which "
 "has the same name"
-msgstr "类型名称『%s』于 %C 冲突与在之前声明的实体于 %L, 该项有同名"
+msgstr "类型名称‘%s’于 %C 冲突与在之前声明的实体于 %L, 该项有同名"
 
 #: fortran/decl.c:2984
 #, gcc-internal-format, gfc-internal-format
@@ -47166,7 +47167,7 @@ msgstr "%C处的 VOLATILE 语句语法错误"
 msgid ""
 "Specifying VOLATILE for coarray variable %qs at %C, which is use-/host-"
 "associated"
-msgstr "指定易变的用于 coarray 变量『%s』于 %C, 该项是 use-/ host-associated"
+msgstr "指定易变的用于 coarray 变量‘%s’于 %C, 该项是 use-/ host-associated"
 
 #: fortran/decl.c:7371
 #, gcc-internal-format, gfc-internal-format
@@ -48159,7 +48160,7 @@ msgid ""
 "Associate-name '%s' can not appear in a variable definition context (%s) at "
 "%L because its target at %L can not, either"
 msgstr ""
-"Associate-name『%s』无法出现在中变量定义语境 (%s) 于 %L 因为它的目标于 %L 无"
+"Associate-name‘%s’无法出现在中变量定义语境 (%s) 于 %L 因为它的目标于 %L 无"
 "法，还是"
 
 #: fortran/expr.c:5028
@@ -48167,7 +48168,7 @@ msgstr ""
 msgid ""
 "Elements with the same value at %L and %L in vector subscript in a variable "
 "definition context (%s)"
-msgstr "『%s』于 %L 关联的到运算式无法已用于变量定义语境 (%s)"
+msgstr "‘%s’于 %L 关联的到运算式无法已用于变量定义语境 (%s)"
 
 #: fortran/f95-lang.c:269
 #, gcc-internal-format, gfc-internal-format
@@ -48505,8 +48506,8 @@ msgid ""
 "Actual argument to non-INTENT(INOUT) dummy %qs at %L, which is LOCK_TYPE or "
 "has a LOCK_TYPE component"
 msgstr ""
-"实际参数到 non-INTENT (INOUT) 虚设『%s』于 %L, 该项是 LOCK_TYPE 或有 "
-"LOCK_TYPE 成分"
+"实际参数到 non-INTENT (INOUT) 虚设‘%s’于 %L, 该项是 LOCK_TYPE 或有 LOCK_TYPE "
+"成分"
 
 #: fortran/interface.c:2160
 #, fuzzy, gcc-internal-format
@@ -48515,15 +48516,15 @@ msgid ""
 "without CONTIGUOUS attribute - as actual argument at %L is not simply "
 "contiguous and both are ASYNCHRONOUS or VOLATILE"
 msgstr ""
-"虚参数『%s』必须是指标或 assumed-shape 数组而无需 CONTIGUOUS 属性 - 作为实际"
-"参数于 %L 不是仅需 contiguous 和两者是异步或易变的"
+"虚参数‘%s’必须是指标或 assumed-shape 数组而无需 CONTIGUOUS 属性 - 作为实际参"
+"数于 %L 不是仅需 contiguous 和两者是异步或易变的"
 
 #: fortran/interface.c:2173
 #, fuzzy, gcc-internal-format
 msgid ""
 "Passing coarray at %L to allocatable, noncoarray, INTENT(OUT) dummy argument "
 "%qs"
-msgstr "传递 coarray 于 %L 到 allocatable、noncoarray，含义 (出) 虚参数『%s』"
+msgstr "传递 coarray 于 %L 到 allocatable、noncoarray，含义 (出) 虚参数‘%s’"
 
 #: fortran/interface.c:2180
 #, fuzzy, gcc-internal-format
@@ -48531,8 +48532,8 @@ msgid ""
 "Passing coarray at %L to allocatable, noncoarray dummy argument %qs, which "
 "is invalid if the allocation status is modified"
 msgstr ""
-"传递 coarray 于 %L 到 allocatable，noncoarray 虚参数『%s』，该项无效如果配额"
-"状态被已修改"
+"传递 coarray 于 %L 到 allocatable，noncoarray 虚参数‘%s’，该项无效如果配额状"
+"态被已修改"
 
 #: fortran/interface.c:2243
 #, fuzzy, gcc-internal-format
@@ -48594,7 +48595,7 @@ msgstr "对子进程名‘%s’非预期的使用，在%C处"
 #: fortran/interface.c:2667
 #, fuzzy, gcc-internal-format
 msgid "Fortran 2008: Null pointer at %L to non-pointer dummy %qs"
-msgstr "Fortran 2008:空指标于 %L 到 non-pointer 虚设『%s』"
+msgstr "Fortran 2008:空指标于 %L 到 non-pointer 虚设‘%s’"
 
 #: fortran/interface.c:2691
 #, gcc-internal-format, gfc-internal-format
@@ -48623,8 +48624,8 @@ msgid ""
 "Actual argument at %L to allocatable or pointer dummy argument %qs must have "
 "a deferred length type parameter if and only if the dummy has one"
 msgstr ""
-"实际参数于 %L 到 allocatable 或指标虚参数『%s』必须有已推迟长度类型参数如果和"
-"只有如果虚设有一个"
+"实际参数于 %L 到 allocatable 或指标虚参数‘%s’必须有已推迟长度类型参数如果和只"
+"有如果虚设有一个"
 
 #: fortran/interface.c:2752
 #, fuzzy, gcc-internal-format
@@ -48663,7 +48664,7 @@ msgstr "%L处 FINAL 过程的参数必须不是 POINTER"
 #: fortran/interface.c:2825
 #, fuzzy, gcc-internal-format
 msgid "Fortran 2008: Non-pointer actual argument at %L to pointer dummy %qs"
-msgstr "Fortran 2008:Non-pointer 实际参数于 %L 到指标虚设『%s』"
+msgstr "Fortran 2008:Non-pointer 实际参数于 %L 到指标虚设‘%s’"
 
 #: fortran/interface.c:2835
 #, fuzzy, gcc-internal-format
@@ -48682,8 +48683,7 @@ msgid ""
 "Coindexed ASYNCHRONOUS or VOLATILE actual argument at %L requires that dummy "
 "%qs has neither ASYNCHRONOUS nor VOLATILE"
 msgstr ""
-"Coindexed 异步或易变的实际参数于 %L 需求该虚设『%s』有 neither 异步 nor 易变"
-"的"
+"Coindexed 异步或易变的实际参数于 %L 需求该虚设‘%s’有 neither 异步 nor 易变的"
 
 #: fortran/interface.c:2876
 #, fuzzy, gcc-internal-format
@@ -49398,39 +49398,39 @@ msgid "NEWUNIT specifier must have FILE= or STATUS='scratch' at %C"
 msgstr "%C处的 NEWUNIT 限定符必须有 FILE= 或 STATUS='scratch'"
 
 #: fortran/io.c:1862
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "OPEN statement at %C must have UNIT or NEWUNIT specified"
-msgstr "%L处的 INQUIRE 语句需要 FILE 或 UNIT 限定符"
+msgstr "%C处的 OPEN 语句需要指定 UNIT 或 NEWUNIT"
 
 #: fortran/io.c:1894
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "ASYNCHRONOUS= at %C not allowed in Fortran 95"
-msgstr "Fortran 2003：%C处的 ASYNCHRONOUS= 不允许用在 Fortran 95 中"
+msgstr "%C处的 ASYNCHRONOUS= 不允许用在 Fortran 95 中"
 
 #: fortran/io.c:1912 fortran/io.c:3350
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "BLANK= at %C not allowed in Fortran 95"
-msgstr "Fortran 2003：%C处的 BLANK= 不允许用在 Fortran 95 中"
+msgstr "%C处的 BLANK= 不允许用在 Fortran 95 中"
 
 #: fortran/io.c:1930 fortran/io.c:3329
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "DECIMAL= at %C not allowed in Fortran 95"
-msgstr "Fortran 2003：%C处的 DECIMAL= 不允许用在 Fortran 95 中"
+msgstr "%C处的 DECIMAL= 不允许用在 Fortran 95 中"
 
 #: fortran/io.c:1962
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "ENCODING= at %C not allowed in Fortran 95"
-msgstr "Fortran 2003：%C处的 ENCODING= 不允许用在 Fortran 95 中"
+msgstr "%C处的 ENCODING= 不允许用在 Fortran 95 中"
 
 #: fortran/io.c:2013 fortran/io.c:3392
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "ROUND= at %C not allowed in Fortran 95"
-msgstr "Fortran 2003：%C处的 ROUND= 不允许用在 Fortran 95 中"
+msgstr "%C处的 ROUND= 不允许用在 Fortran 95 中"
 
 #: fortran/io.c:2033
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "SIGN= at %C not allowed in Fortran 95"
-msgstr "Fortran 2003：%C处的 SIGN= 不允许用在 Fortran 95 中"
+msgstr "%C处的 SIGN= 不允许用在 Fortran 95 中"
 
 #: fortran/io.c:2246
 #, gcc-internal-format, gfc-internal-format
@@ -49438,9 +49438,9 @@ msgid "CLOSE statement not allowed in PURE procedure at %C"
 msgstr "CLOSE 语句不允许出现在%C处的 PURE 过程中"
 
 #: fortran/io.c:2305
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "CLOSE statement at %L requires a UNIT number"
-msgstr "%L处 CLOSE 语句中的 UNIT 数必须是非负的"
+msgstr "%L处的 CLOSE 语句需要一个 UNIT 数"
 
 #: fortran/io.c:2313
 #, gcc-internal-format, gfc-internal-format
@@ -49458,9 +49458,9 @@ msgid "UNIT number in statement at %L must be non-negative"
 msgstr "%L处的语句中 UNIT 数必须为非负的数"
 
 #: fortran/io.c:2475
-#, fuzzy, gcc-internal-format, gfc-internal-format
+#, gcc-internal-format, gfc-internal-format
 msgid "FLUSH statement at %C"
-msgstr "%C处的语句标号为零"
+msgstr "%C处 FLUSH 语句"
 
 #: fortran/io.c:2530
 #, gcc-internal-format, gfc-internal-format
@@ -49525,8 +49525,7 @@ msgid ""
 "NAMELIST %qs in READ statement at %L contains the symbol %qs which may not "
 "appear in a variable definition context"
 msgstr ""
-"名称表列『%s』在中读取叙述于 %L 含有符号『%s』该项可能无法出现在中变量定义语"
-"境"
+"名称表列‘%s’在中读取叙述于 %L 含有符号‘%s’该项可能无法出现在中变量定义语境"
 
 #: fortran/io.c:2905
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -52264,7 +52263,7 @@ msgstr "Fortran 2003：%C处的 BOZ 用在了 DATA 语句之外"
 #: fortran/primary.c:557
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "exponent-letter 'q' in real-literal-constant at %C"
-msgstr "无效的 exponent-letter『q』在中 real-literal-constant 于 %C"
+msgstr "无效的 exponent-letter‘q’在中 real-literal-constant 于 %C"
 
 #: fortran/primary.c:562
 #, fuzzy, gcc-internal-format
@@ -52411,8 +52410,7 @@ msgstr ""
 msgid ""
 "Array section designator, e.g. '(:)', is required besides the coarray "
 "designator '[...]' at %C"
-msgstr ""
-"数组区段指示项，例如：『(:)』，被必要项在旁边 coarray 指示项『[...]』于 %C"
+msgstr "数组区段指示项，例如：‘(:)’，被必要项在旁边 coarray 指示项‘[...]’于 %C"
 
 #: fortran/primary.c:1850
 #, fuzzy, gcc-internal-format
@@ -54030,7 +54028,7 @@ msgid ""
 "%L - check that there is a matching specific subroutine for '=' operator"
 msgstr ""
 "变量必须不是 polymorphic 在中 intrinsic 指派于 %L - 检查该有匹配特定的副常式"
-"用于『=』运算符"
+"用于‘=’运算符"
 
 #: fortran/resolve.c:9471
 #, fuzzy, gcc-internal-format, gfc-internal-format
@@ -54488,7 +54486,7 @@ msgstr ""
 msgid ""
 "As extending type %qs at %L has a coarray component, parent type %qs shall "
 "also have one"
-msgstr "作为延伸类型『%s』于 %L 有 coarray 成分，亲代类型『%s』应该也有一个"
+msgstr "作为延伸类型‘%s’于 %L 有 coarray 成分，亲代类型‘%s’应该也有一个"
 
 #: fortran/resolve.c:12480
 #, fuzzy, gcc-internal-format
@@ -54504,14 +54502,14 @@ msgstr "数组指针‘%s’在%L处必须有延迟的外形"
 #, fuzzy, gcc-internal-format
 msgid ""
 "Component %qs at %L of TYPE(C_PTR) or TYPE(C_FUNPTR) shall not be a coarray"
-msgstr "成分『%s』于 %L 的类型 (C_PTR) 或类型 (C_FUNPTR) 不应该是 coarray"
+msgstr "成分‘%s’于 %L 的类型 (C_PTR) 或类型 (C_FUNPTR) 不应该是 coarray"
 
 #: fortran/resolve.c:12521
 #, fuzzy, gcc-internal-format
 msgid ""
 "Component %qs at %L with coarray component shall be a nonpointer, "
 "nonallocatable scalar"
-msgstr "成分『%s』于 %L 与 coarray 成分应该是 nonpointer，nonallocatable 纯量"
+msgstr "成分‘%s’于 %L 与 coarray 成分应该是 nonpointer，nonallocatable 纯量"
 
 #: fortran/resolve.c:12531
 #, fuzzy, gcc-internal-format
@@ -54571,7 +54569,7 @@ msgstr "%2$L处组件‘%1$s’的字符长度必须是一个常量规格表达�
 msgid ""
 "Character component %qs of %qs at %L with deferred length must be a POINTER "
 "or ALLOCATABLE"
-msgstr "字符成分『%s』的『%s』于 %L 与已推迟长度必须是指标或 ALLOCATABLE"
+msgstr "字符成分‘%s’的‘%s’于 %L 与已推迟长度必须是指标或 ALLOCATABLE"
 
 #: fortran/resolve.c:12792
 #, fuzzy, gcc-internal-format
@@ -54873,21 +54871,21 @@ msgstr "函数结果‘%s’在%L处不能有初始值设定"
 #, fuzzy, gcc-internal-format
 msgid ""
 "Variable %qs at %L of TYPE(C_PTR) or TYPE(C_FUNPTR) shall not be a coarray"
-msgstr "变量『%s』于 %L 的类型 (C_PTR) 或类型 (C_FUNPTR) 不应该是 coarray"
+msgstr "变量‘%s’于 %L 的类型 (C_PTR) 或类型 (C_FUNPTR) 不应该是 coarray"
 
 #: fortran/resolve.c:13667
 #, fuzzy, gcc-internal-format
 msgid ""
 "Variable %qs at %L with coarray component shall be a nonpointer, "
 "nonallocatable scalar, which is not a coarray"
-msgstr "变量『%s』于 %L 与 coarray 成分应该是 nonpointer，nonallocatable 纯量"
+msgstr "变量‘%s’于 %L 与 coarray 成分应该是 nonpointer，nonallocatable 纯量"
 
 #: fortran/resolve.c:13682
 #, fuzzy, gcc-internal-format
 msgid ""
 "Variable %qs at %L is a coarray and is not ALLOCATABLE, SAVE nor a dummy "
 "argument"
-msgstr "变量『%s』于 %L 是 coarray 和不是 ALLOCATABLE，保存 nor 虚参数"
+msgstr "变量‘%s’于 %L 是 coarray 和不是 ALLOCATABLE，保存 nor 虚参数"
 
 #: fortran/resolve.c:13690
 #, fuzzy, gcc-internal-format
@@ -55764,7 +55762,7 @@ msgstr "%2$L处的‘%1$s’有在其 INTERFACE 体外指定的属性"
 msgid ""
 "Symbol '%s' at %L conflicts with symbol from module '%s', use-associated at "
 "%L"
-msgstr "符号『%s』于 %L 冲突与符号从模块『%s』，use-associated 于 %L"
+msgstr "符号‘%s’于 %L 冲突与符号从模块‘%s’，use-associated 于 %L"
 
 #: fortran/symbol.c:1713
 #, fuzzy, gcc-internal-format
@@ -55887,8 +55885,7 @@ msgid ""
 "Derived type %qs with BIND(C) attribute at %L is empty, and may be "
 "inaccessible by the C companion processor"
 msgstr ""
-"衍生类型『%s』与绑定©属性于 %L 是空的，而也许会是不可访问由 C companion 处理"
-"器"
+"衍生类型‘%s’与绑定©属性于 %L 是空的，而也许会是不可访问由 C companion 处理器"
 
 #: fortran/symbol.c:3903
 #, gcc-internal-format, gfc-internal-format
@@ -56252,7 +56249,7 @@ msgstr "%L处指针赋值时参数种别类型不同"
 #: fortran/trans-stmt.c:994
 #, fuzzy, gcc-internal-format, gfc-internal-format
 msgid "Sorry, only support for integer kind %d implemented for image-set at %L"
-msgstr "抱歉，只有支持用于整数 kind %d 实作的用于 image-set 于 %L"
+msgstr "抱歉，只有支持用于整数 kind %d 实现的用于 image-set 于 %L"
 
 #: fortran/trans-stmt.c:2723
 #, fuzzy, gcc-internal-format
@@ -57758,7 +57755,7 @@ msgstr "类型%qT大小未知"
 #: objc/objc-encoding.c:730
 #, fuzzy, gcc-internal-format
 msgid "unknown type %<%T%> found during Objective-C encoding"
-msgstr "不明类型 %<%T%>找到在的期间 Objective-C 编码"
+msgstr "未知类型 %<%T%>找到在的期间 Objective-C 编码"
 
 #. Do not do any encoding, produce an error and keep going.
 #: objc/objc-encoding.c:813
