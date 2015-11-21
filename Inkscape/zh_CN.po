@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-21 17:09-0500\n"
+"PO-Revision-Date: 2015-11-21 17:28-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -44,7 +44,7 @@ msgstr "创建并编辑可缩放矢量图形图像"
 
 #: ../inkscape.desktop.in.h:5
 msgid "image;editor;vector;drawing;"
-msgstr ""
+msgstr "image;editor;vector;drawing;矢量;图像;编辑;编辑器;向量;绘图;"
 
 #: ../inkscape.desktop.in.h:6
 msgid "New Drawing"
@@ -9857,40 +9857,41 @@ msgstr "移动节点把手"
 
 #: ../src/live_effects/lpe-lattice2.cpp:49
 msgid "Control 0 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制 0 - <b>Ctrl+Alt+单击</b>： 重置， <b>Ctrl</b>： 沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 1:"
-msgstr ""
+msgstr "控制 1:"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 1 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制 1 - <b>Ctrl+Alt+单击</b>： 重置， <b>Ctrl</b>： 沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:51
 msgid "Control 2:"
-msgstr ""
+msgstr "控制 2:"
 
 #: ../src/live_effects/lpe-lattice2.cpp:51
 msgid "Control 2 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制 2 - <b>Ctrl + Alt + 单击</b>：重置， <b>Ctrl</b>： 沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:52
 msgid "Control 3:"
-msgstr ""
+msgstr "控制 3:"
 
 #: ../src/live_effects/lpe-lattice2.cpp:52
 msgid "Control 3 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制 3 - <b>Ctrl + Alt + 单击</b>：重置， <b>Ctrl</b>： 沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:53
 msgid "Control 4:"
-msgstr ""
+msgstr "控制 4:"
 
 #: ../src/live_effects/lpe-lattice2.cpp:53
 msgid "Control 4 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制 4 - <b>Ctrl + Alt + 单击</b>：重置， <b>Ctrl</b>： 沿轴移动"
 
+# Bai, look at your TM here.
 #: ../src/live_effects/lpe-lattice2.cpp:54
 msgid "Control 5:"
 msgstr ""
@@ -17449,22 +17450,16 @@ msgid "Set the language for menus and number formats"
 msgstr "设置菜单和数字格式的语言"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#, fuzzy
-#| msgid "Large"
 msgctxt "Icon size"
 msgid "Large"
 msgstr "大"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#, fuzzy
-#| msgid "Small"
 msgctxt "Icon size"
 msgid "Small"
 msgstr "小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#, fuzzy
-#| msgid "Smaller"
 msgctxt "Icon size"
 msgid "Smaller"
 msgstr "更小"
@@ -17630,25 +17625,19 @@ msgid "Aggressive"
 msgstr "腐蚀"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
-#, fuzzy
-#| msgid "Small"
 msgctxt "Window size"
 msgid "Small"
 msgstr "小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
-#, fuzzy
-#| msgid "Large"
 msgctxt "Window size"
 msgid "Large"
 msgstr "大"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
-#, fuzzy
-#| msgid "Maximized"
 msgctxt "Window size"
 msgid "Maximized"
-msgstr "最大化"
+msgstr "已最大化"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:693
 msgid "Default window size:"
@@ -18493,7 +18482,6 @@ msgstr "从画布边缘到触发自动滚动需要多远; 正值远离画布, �
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1253
 #, fuzzy
-#| msgid "Left mouse button pans when Space is pressed"
 msgid "Mouse move pans when Space is pressed"
 msgstr "按下空格键时, 左键拖动画布"
 
@@ -19779,39 +19767,29 @@ msgid "Set object blur"
 msgstr "设置对象模糊"
 
 #: ../src/ui/dialog/objects.cpp:1617
-#, fuzzy
-#| msgid "V"
 msgctxt "Visibility"
 msgid "V"
-msgstr "V"
+msgstr "见"
 
 #: ../src/ui/dialog/objects.cpp:1618
-#, fuzzy
-#| msgid "L"
 msgctxt "Lock"
 msgid "L"
-msgstr "L"
+msgstr "锁"
 
 #: ../src/ui/dialog/objects.cpp:1619
-#, fuzzy
-#| msgid "T"
 msgctxt "Type"
 msgid "T"
-msgstr "T"
+msgstr "类"
 
 #: ../src/ui/dialog/objects.cpp:1620
-#, fuzzy
-#| msgid "CM"
 msgctxt "Clip and mask"
 msgid "CM"
-msgstr "CM"
+msgstr "蒙"
 
 #: ../src/ui/dialog/objects.cpp:1621
-#, fuzzy
-#| msgid "HL"
 msgctxt "Highlight"
 msgid "HL"
-msgstr "HL"
+msgstr "高"
 
 #: ../src/ui/dialog/objects.cpp:1622
 msgid "Label"
@@ -20551,8 +20529,6 @@ msgstr "设为默认（_D)："
 
 # Seems to be typographical example text to show most of the typeface features; used similar chars for 汉字.
 #: ../src/ui/dialog/text-edit.cpp:87
-#, fuzzy
-#| msgid "AaBbCcIiPpQq12369$ےے?.;/()"
 msgid "AaBbCcIiPpQq12369$€¢?.;/()"
 msgstr "AaBbCcIiPpQq12369$€¢?.;/() “東国三力今，書鷹酬鬱愛袋；永。”"
 
@@ -22947,162 +22923,118 @@ msgid "Blur (%)"
 msgstr "模糊(%)"
 
 #: ../src/ui/widget/font-variants.cpp:38
-#, fuzzy
-#| msgid "Ligatures"
 msgctxt "Font variant"
 msgid "Ligatures"
 msgstr "连字"
 
 #: ../src/ui/widget/font-variants.cpp:39
-#, fuzzy
-#| msgid "Common"
 msgctxt "Font variant"
 msgid "Common"
 msgstr "一般"
 
 #: ../src/ui/widget/font-variants.cpp:40
-#, fuzzy
-#| msgid "Discretionary"
 msgctxt "Font variant"
 msgid "Discretionary"
 msgstr "酌情"
 
 #: ../src/ui/widget/font-variants.cpp:41
-#, fuzzy
-#| msgid "Historical"
 msgctxt "Font variant"
 msgid "Historical"
 msgstr "历史"
 
 #: ../src/ui/widget/font-variants.cpp:42
-#, fuzzy
-#| msgid "Contextual"
 msgctxt "Font variant"
 msgid "Contextual"
 msgstr "文意类"
 
 #: ../src/ui/widget/font-variants.cpp:44
-#, fuzzy
-#| msgid "Position"
 msgctxt "Font variant"
 msgid "Position"
 msgstr "位置"
 
 #: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
-#, fuzzy
-#| msgid "Normal"
 msgctxt "Font variant"
 msgid "Normal"
 msgstr "正常"
 
 #: ../src/ui/widget/font-variants.cpp:46
-#, fuzzy
-#| msgid "Subscript"
 msgctxt "Font variant"
 msgid "Subscript"
 msgstr "下标"
 
 #: ../src/ui/widget/font-variants.cpp:47
-#, fuzzy
-#| msgid "Superscript"
 msgctxt "Font variant"
 msgid "Superscript"
 msgstr "上标"
 
 #: ../src/ui/widget/font-variants.cpp:49
-#, fuzzy
-#| msgid "Capitals"
 msgctxt "Font variant"
 msgid "Capitals"
 msgstr "大写字母"
 
 #: ../src/ui/widget/font-variants.cpp:51
-#, fuzzy
-#| msgid "Small"
 msgctxt "Font variant"
 msgid "Small"
 msgstr "小"
 
 #: ../src/ui/widget/font-variants.cpp:52
-#, fuzzy
-#| msgid "All small"
 msgctxt "Font variant"
 msgid "All small"
 msgstr "全部小"
 
 #: ../src/ui/widget/font-variants.cpp:53
-#, fuzzy
-#| msgid "All petite"
 msgctxt "Font variant"
 msgid "Petite"
-msgstr "全部极小"
+msgstr "极小"
 
 #: ../src/ui/widget/font-variants.cpp:54
-#, fuzzy
-#| msgid "All petite"
 msgctxt "Font variant"
 msgid "All petite"
 msgstr "全部极小"
 
 #: ../src/ui/widget/font-variants.cpp:55
-#, fuzzy
 #| msgid "Picas"
 msgctxt "Font variant"
 msgid "Unicase"
-msgstr "Picas"
+msgstr ""
 
 #: ../src/ui/widget/font-variants.cpp:56
-#, fuzzy
-#| msgid "Titling"
 msgctxt "Font variant"
 msgid "Titling"
 msgstr "倾斜"
 
 #: ../src/ui/widget/font-variants.cpp:58
-#, fuzzy
-#| msgid "Numeric"
 msgctxt "Font variant"
 msgid "Numeric"
 msgstr "数字"
 
+# number styles
 #: ../src/ui/widget/font-variants.cpp:59
-#, fuzzy
-#| msgid "Lining"
 msgctxt "Font variant"
 msgid "Lining"
-msgstr "衬里"
+msgstr "对齐"
 
 #: ../src/ui/widget/font-variants.cpp:60
-#, fuzzy
-#| msgid "Old Style"
 msgctxt "Font variant"
 msgid "Old Style"
 msgstr "旧式"
 
 #: ../src/ui/widget/font-variants.cpp:61
-#, fuzzy
-#| msgid "Default Style"
 msgctxt "Font variant"
 msgid "Default Style"
 msgstr "默认样式"
 
 #: ../src/ui/widget/font-variants.cpp:62
-#, fuzzy
-#| msgid "Proportional"
 msgctxt "Font variant"
 msgid "Proportional"
-msgstr "按比例"
+msgstr "比例"
 
 #: ../src/ui/widget/font-variants.cpp:63
-#, fuzzy
-#| msgid "Tabular"
 msgctxt "Font variant"
 msgid "Tabular"
-msgstr "表格"
+msgstr "等宽"
 
 #: ../src/ui/widget/font-variants.cpp:64
-#, fuzzy
-#| msgid "Default Width"
 msgctxt "Font variant"
 msgid "Default Width"
 msgstr "默认宽度"
@@ -29045,8 +28977,6 @@ msgstr "彩色模式下, 作用于对象的色调"
 
 #. TRANSLATORS:  "H" here stands for hue
 #: ../src/widgets/tweak-toolbar.cpp:291
-#, fuzzy
-#| msgid "H"
 msgctxt "Hue"
 msgid "H"
 msgstr "色"
@@ -29057,8 +28987,6 @@ msgstr "彩色模式下, 作用于对象的饱和度"
 
 #. TRANSLATORS: "S" here stands for Saturation
 #: ../src/widgets/tweak-toolbar.cpp:307
-#, fuzzy
-#| msgid "S"
 msgctxt "Saturation"
 msgid "S"
 msgstr "饱"
@@ -29069,11 +28997,9 @@ msgstr "彩色模式下, 作用于对象的亮度"
 
 #. TRANSLATORS: "L" here stands for Lightness
 #: ../src/widgets/tweak-toolbar.cpp:323
-#, fuzzy
-#| msgid "L"
 msgctxt "Lightness"
 msgid "L"
-msgstr "L"
+msgstr "亮"
 
 #: ../src/widgets/tweak-toolbar.cpp:335
 msgid "In color mode, act on objects' opacity"
@@ -29081,8 +29007,6 @@ msgstr "彩色模式下, 作用于对象的不透明度"
 
 #. TRANSLATORS: "O" here stands for Opacity
 #: ../src/widgets/tweak-toolbar.cpp:339
-#, fuzzy
-#| msgid "O"
 msgctxt "Opacity"
 msgid "O"
 msgstr "透"
@@ -34486,22 +34410,16 @@ msgid "Presets"
 msgstr "预置"
 
 #: ../share/extensions/restack.inx.h:6
-#, fuzzy
-#| msgid "_Horizontal:"
 msgid "Horizontal:"
-msgstr "水平(_H)："
+msgstr "水平："
 
 #: ../share/extensions/restack.inx.h:7
-#, fuzzy
-#| msgid "_Vertical:"
 msgid "Vertical:"
-msgstr "垂直(_V)："
+msgstr "垂直："
 
 #: ../share/extensions/restack.inx.h:8
-#, fuzzy
-#| msgid "Restack Direction:"
 msgid "Restack Direction"
-msgstr "重新堆叠方向："
+msgstr "重新堆叠方向"
 
 #: ../share/extensions/restack.inx.h:9
 msgid "Left to Right (0)"
@@ -34528,10 +34446,8 @@ msgid "Radial Inward"
 msgstr "辐向内旋"
 
 #: ../share/extensions/restack.inx.h:15
-#, fuzzy
-#| msgid "in-out reference point"
 msgid "Object Reference Point"
-msgstr "内外参考点"
+msgstr "对象参考点"
 
 #: ../share/extensions/restack.inx.h:17
 #: ../share/extensions/text_extract.inx.h:9
@@ -34558,10 +34474,8 @@ msgid "Based on Z-Order"
 msgstr "边框隆起"
 
 #: ../share/extensions/restack.inx.h:22
-#, fuzzy
-#| msgid "Restack"
 msgid "Restack Mode"
-msgstr "重新堆叠"
+msgstr "重新堆叠模式"
 
 #: ../share/extensions/restack.inx.h:23
 #, fuzzy
