@@ -5,13 +5,14 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2013-06-24 09:18-0700\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2015-11-21 03:48-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: appwiz.rc:58
 msgid "Install/Uninstall"
@@ -1017,10 +1018,8 @@ msgid "Open File"
 msgstr "打开文件"
 
 #: comdlg32.rc:147
-#, fuzzy
-#| msgid "New Folder"
 msgid "Select Folder"
-msgstr "新文件夹"
+msgstr "选择文件夹"
 
 #: comdlg32.rc:83 oleview.rc:98
 msgid "Ready"
@@ -1260,7 +1259,7 @@ msgstr ""
 
 #: crypt32.rc:46
 msgid "Email Address"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: crypt32.rc:47
 msgid "Unstructured Name"
@@ -1268,7 +1267,7 @@ msgstr ""
 
 #: crypt32.rc:48
 msgid "Content Type"
-msgstr ""
+msgstr "内容类型"
 
 #: crypt32.rc:49
 msgid "Message Digest"
@@ -1284,7 +1283,7 @@ msgstr ""
 
 #: crypt32.rc:52
 msgid "Challenge Password"
-msgstr ""
+msgstr "要求密码"
 
 #: crypt32.rc:53
 msgid "Unstructured Address"
@@ -1301,7 +1300,7 @@ msgstr ""
 #: crypt32.rc:56 cryptdlg.rc:34
 msgctxt "Certification Practice Statement"
 msgid "CPS"
-msgstr ""
+msgstr "CPS"
 
 #: crypt32.rc:57 cryptdlg.rc:35
 msgid "User Notice"
@@ -1321,7 +1320,7 @@ msgstr ""
 
 #: crypt32.rc:61
 msgid "Certificate Type"
-msgstr ""
+msgstr "证书类型"
 
 #: crypt32.rc:62
 msgid "Certificate Manifold"
@@ -1361,11 +1360,11 @@ msgstr ""
 
 #: crypt32.rc:71
 msgid "Country/Region"
-msgstr ""
+msgstr "国家/地区"
 
 #: crypt32.rc:72
 msgid "Organization"
-msgstr ""
+msgstr "机构"
 
 #: crypt32.rc:73
 msgid "Organizational Unit"
@@ -1373,11 +1372,11 @@ msgstr ""
 
 #: crypt32.rc:74
 msgid "Common Name"
-msgstr ""
+msgstr "通用名"
 
 #: crypt32.rc:75
 msgid "Locality"
-msgstr ""
+msgstr "区域"
 
 #: crypt32.rc:76
 msgid "State or Province"
@@ -1385,19 +1384,19 @@ msgstr ""
 
 #: crypt32.rc:77
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: crypt32.rc:78
 msgid "Given Name"
-msgstr ""
+msgstr "教名"
 
 #: crypt32.rc:79
 msgid "Initials"
-msgstr ""
+msgstr "首字母"
 
 #: crypt32.rc:80
 msgid "Surname"
-msgstr ""
+msgstr "姓氏"
 
 #: crypt32.rc:81
 msgid "Domain Component"
@@ -1405,11 +1404,11 @@ msgstr ""
 
 #: crypt32.rc:82
 msgid "Street Address"
-msgstr ""
+msgstr "街道地址"
 
 #: crypt32.rc:83
 msgid "Serial Number"
-msgstr ""
+msgstr "序列号"
 
 #: crypt32.rc:84
 msgid "CA Version"
@@ -1581,7 +1580,7 @@ msgstr ""
 
 #: crypt32.rc:126
 msgid "Transaction Id"
-msgstr ""
+msgstr "交易 Id"
 
 #: crypt32.rc:127
 msgid "Sender Nonce"
@@ -1629,7 +1628,7 @@ msgstr ""
 
 #: crypt32.rc:138
 msgid "Server Authentication"
-msgstr ""
+msgstr "服务器验证"
 
 #: crypt32.rc:139
 msgid "Client Authentication"
@@ -1669,7 +1668,7 @@ msgstr ""
 
 #: crypt32.rc:148
 msgid "Encrypting File System"
-msgstr ""
+msgstr "正在加密文件系統"
 
 #: crypt32.rc:149 cryptui.rc:133
 msgid "Windows Hardware Driver Verification"
@@ -1753,7 +1752,7 @@ msgstr ""
 
 #: crypt32.rc:173
 msgid "Personal"
-msgstr ""
+msgstr "个人的"
 
 #: crypt32.rc:174
 msgid "Intermediate Certification Authorities"
@@ -1777,7 +1776,7 @@ msgstr ""
 
 #: crypt32.rc:183
 msgid "Certificate Issuer"
-msgstr ""
+msgstr "证书颁发者"
 
 #: crypt32.rc:184
 msgid "Certificate Serial Number="
@@ -1880,7 +1879,7 @@ msgstr ""
 
 #: crypt32.rc:208
 msgid "Full Name"
-msgstr ""
+msgstr "全名"
 
 #: crypt32.rc:209
 msgid "RDN Name"
@@ -1944,7 +1943,7 @@ msgstr "否"
 
 #: crypt32.rc:224
 msgid "Digital Signature"
-msgstr ""
+msgstr "数字签名"
 
 #: crypt32.rc:225
 msgid "Non-Repudiation"
@@ -1996,7 +1995,7 @@ msgstr ""
 
 #: crypt32.rc:237
 msgid "Signature"
-msgstr ""
+msgstr "签名"
 
 #: crypt32.rc:238
 msgid "SSL CA"
@@ -2048,7 +2047,7 @@ msgstr ""
 
 #: cryptui.rc:180 cryptui.rc:235 inetcpl.rc:46
 msgid "General"
-msgstr ""
+msgstr "通用"
 
 #: cryptui.rc:191
 msgid "&Install Certificate..."
@@ -2353,7 +2352,7 @@ msgstr ""
 
 #: cryptui.rc:30 cryptui.rc:93
 msgid "Certificate"
-msgstr ""
+msgstr "证书"
 
 #: cryptui.rc:31
 msgid "Certificate Information"
@@ -2429,7 +2428,7 @@ msgstr ""
 
 #: cryptui.rc:48
 msgid "Value"
-msgstr ""
+msgstr "亮度"
 
 #: cryptui.rc:49 cryptui.rc:102 cryptui.rc:108
 msgid "<All>"
@@ -2457,7 +2456,7 @@ msgstr ""
 
 #: cryptui.rc:56
 msgid "Issuer"
-msgstr ""
+msgstr "颁发者"
 
 #: cryptui.rc:57
 msgid "Valid from"
@@ -2469,11 +2468,11 @@ msgstr ""
 
 #: cryptui.rc:59
 msgid "Subject"
-msgstr ""
+msgstr "主题"
 
 #: cryptui.rc:60
 msgid "Public key"
-msgstr ""
+msgstr "公钥"
 
 #: cryptui.rc:61
 msgid "%1 (%2!d! bits)"
@@ -2629,7 +2628,7 @@ msgstr ""
 
 #: cryptui.rc:106
 msgid "Expiration Date"
-msgstr ""
+msgstr "截止日期"
 
 #: cryptui.rc:107
 msgid "Friendly Name"
@@ -2861,12 +2860,11 @@ msgstr "配置设备"
 
 #: dinput.rc:48
 msgid "Reset"
-msgstr ""
+msgstr "重设"
 
 #: dinput.rc:51
-#, fuzzy
 msgid "Player"
-msgstr "播放"
+msgstr "播放器"
 
 #: dinput.rc:52 winecfg.rc:89
 msgid "Device"
@@ -2902,7 +2900,7 @@ msgstr ""
 
 #: gdi32.rc:28
 msgid "Western"
-msgstr ""
+msgstr "西方"
 
 #: gdi32.rc:29
 msgid "Central European"
@@ -2910,7 +2908,7 @@ msgstr ""
 
 #: gdi32.rc:30
 msgid "Cyrillic"
-msgstr ""
+msgstr "西里尔字母"
 
 #: gdi32.rc:31
 msgid "Greek"
@@ -2918,15 +2916,15 @@ msgstr "希腊语"
 
 #: gdi32.rc:32
 msgid "Turkish"
-msgstr ""
+msgstr "土耳其语"
 
 #: gdi32.rc:33
 msgid "Hebrew"
-msgstr ""
+msgstr "希伯来语"
 
 #: gdi32.rc:34
 msgid "Arabic"
-msgstr ""
+msgstr "阿拉伯语"
 
 #: gdi32.rc:35
 msgid "Baltic"
@@ -2938,11 +2936,11 @@ msgstr ""
 
 #: gdi32.rc:37
 msgid "Thai"
-msgstr ""
+msgstr "泰语"
 
 #: gdi32.rc:38
 msgid "Japanese"
-msgstr ""
+msgstr "日文"
 
 #: gdi32.rc:39
 msgid "CHINESE_GB2312"
@@ -2962,7 +2960,7 @@ msgstr ""
 
 #: gdi32.rc:43
 msgid "Symbol"
-msgstr ""
+msgstr "符号"
 
 #: gdi32.rc:44
 msgid "OEM/DOS"
@@ -2970,7 +2968,7 @@ msgstr ""
 
 #: gdi32.rc:45 wldap32.rc:110
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: gphoto2.rc:30
 msgid "Files on Camera"
@@ -3051,10 +3049,8 @@ msgid "&View Source"
 msgstr "查看源代码(&V)"
 
 #: hhctrl.rc:83
-#, fuzzy
-#| msgid "Properties"
 msgid "Proper&ties"
-msgstr "属性"
+msgstr "属性(&T)"
 
 #: hhctrl.rc:87 shdoclc.rc:79 shdoclc.rc:93 shdoclc.rc:117 shdoclc.rc:159
 #: shdoclc.rc:183 user32.rc:60 wordpad.rc:104
@@ -3221,7 +3217,7 @@ msgstr "打印..."
 
 #: ieframe.rc:76
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: ieframe.rc:81
 msgid "Searching for %s"
@@ -3358,7 +3354,7 @@ msgstr "低"
 
 #: inetcpl.rc:37
 msgid "Medium"
-msgstr ""
+msgstr "中"
 
 #: inetcpl.rc:38
 msgid "Increased"
@@ -6562,10 +6558,8 @@ msgid "This network connection does not exist.\n"
 msgstr "站点不存在。\n"
 
 #: winerror.mc:3746
-#, fuzzy
-#| msgid "Connection refused.\n"
 msgid "Connection reset by peer.\n"
-msgstr "连接被拒绝。\n"
+msgstr "连接被重置。\n"
 
 #: localspl.rc:31 localui.rc:31 winspool.rc:30
 msgid "Local Port"
@@ -6685,7 +6679,7 @@ msgstr ""
 
 #: mshtml.rc:28
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: msi.rc:30
 msgid ""
@@ -7073,11 +7067,9 @@ msgid "normal"
 msgstr "中号"
 
 #: oleacc.rc:98
-#, fuzzy
-#| msgid "Available"
 msgctxt "object state"
 msgid "unavailable"
-msgstr "可用"
+msgstr "不可用"
 
 #: oleacc.rc:99
 #, fuzzy
@@ -7094,11 +7086,9 @@ msgid "focused"
 msgstr "已暂停"
 
 #: oleacc.rc:101
-#, fuzzy
-#| msgid "&Compressed"
 msgctxt "object state"
 msgid "pressed"
-msgstr "已压缩(&C)"
+msgstr "已按下"
 
 #: oleacc.rc:102
 msgctxt "object state"
@@ -7111,11 +7101,9 @@ msgid "mixed"
 msgstr ""
 
 #: oleacc.rc:104
-#, fuzzy
-#| msgid "&Read Only"
 msgctxt "object state"
 msgid "read only"
-msgstr "只读(&R)"
+msgstr "只读"
 
 #: oleacc.rc:105
 #, fuzzy
@@ -7125,11 +7113,9 @@ msgid "hot tracked"
 msgstr "鼠标拖选框"
 
 #: oleacc.rc:106
-#, fuzzy
-#| msgid "Defaults"
 msgctxt "object state"
 msgid "default"
-msgstr "默认值"
+msgstr "默认"
 
 #: oleacc.rc:107
 msgctxt "object state"
@@ -8084,7 +8070,7 @@ msgstr ""
 
 #: shell32.rc:212
 msgid "Templates"
-msgstr ""
+msgstr "模板"
 
 #: shell32.rc:213
 msgid "PrintHood"
@@ -8108,7 +8094,7 @@ msgstr "公共文件"
 
 #: shell32.rc:219 shell32.rc:150 shell32.rc:235
 msgid "Documents"
-msgstr ""
+msgstr "文档"
 
 #: shell32.rc:220
 msgid "Administrative Tools"
@@ -8132,11 +8118,11 @@ msgstr "Program Files (x86)"
 
 #: shell32.rc:224
 msgid "Contacts"
-msgstr ""
+msgstr "联系人"
 
 #: shell32.rc:225 winefile.rc:113
 msgid "Links"
-msgstr ""
+msgstr "链接"
 
 #: shell32.rc:226
 msgid "Slide Shows"
@@ -8481,10 +8467,8 @@ msgid "Duplex:"
 msgstr "双面:"
 
 #: wineps.rc:50
-#, fuzzy
-#| msgid "&Setup"
 msgid "Setup"
-msgstr "设置(&S)"
+msgstr "设置"
 
 #: wininet.rc:42 wininet.rc:62
 msgid "Realm"
@@ -9012,10 +8996,8 @@ msgid "Wine Sound Mapper"
 msgstr "Wine Mono 安装"
 
 #: winmm.rc:137
-#, fuzzy
-#| msgid "column"
 msgid "Volume"
-msgstr "列"
+msgstr "音量"
 
 #: winmm.rc:138
 msgid "Master Volume"
@@ -9043,7 +9025,7 @@ msgstr "不能创建输出文件。"
 
 #: wldap32.rc:30
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: wldap32.rc:31
 msgid "Operations Error"
@@ -9227,7 +9209,7 @@ msgstr ""
 
 #: wldap32.rc:115
 msgid "Timeout"
-msgstr ""
+msgstr "超时"
 
 #: wldap32.rc:116
 msgid "Auth Unknown"
@@ -9743,17 +9725,17 @@ msgstr ""
 
 #: cmd.rc:353
 msgid "Are you sure?"
-msgstr ""
+msgstr "确定吗？"
 
 #: cmd.rc:354 xcopy.rc:43
 msgctxt "Yes key"
 msgid "Y"
-msgstr ""
+msgstr "Y"
 
 #: cmd.rc:355 xcopy.rc:44
 msgctxt "No key"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: cmd.rc:356
 msgid "File association missing for extension %1\n"
@@ -9934,10 +9916,8 @@ msgid "Wine Explorer"
 msgstr "Wine 资源管理器"
 
 #: explorer.rc:33
-#, fuzzy
-#| msgid "Restart"
 msgid "Start"
-msgstr "开始"
+msgstr "起点"
 
 #: explorer.rc:34 winefile.rc:36
 msgid "&Run..."
@@ -12809,11 +12789,11 @@ msgstr "显示"
 
 #: winecfg.rc:93
 msgid "Stereo"
-msgstr ""
+msgstr "立体声"
 
 #: winecfg.rc:94
 msgid "Mono"
-msgstr ""
+msgstr "单声道"
 
 #: winecfg.rc:54
 msgid ""
@@ -12915,10 +12895,8 @@ msgid "Letter"
 msgstr "盘符"
 
 #: winecfg.rc:78
-#, fuzzy
-#| msgid "New Folder"
 msgid "Target folder"
-msgstr "新文件夹"
+msgstr "目标文件夹"
 
 #: winecfg.rc:79
 msgid ""
@@ -13075,16 +13053,12 @@ msgid "Command history"
 msgstr "命令历史"
 
 #: wineconsole.rc:69
-#, fuzzy
-#| msgid "Buffer zone"
 msgid "&Buffer size:"
-msgstr "缓冲区"
+msgstr "缓冲区尺寸:(&B)"
 
 #: wineconsole.rc:72
-#, fuzzy
-#| msgid "&Remove doubles"
 msgid "&Remove duplicates"
-msgstr "删除连续相同的命令(&R)"
+msgstr "删除重复(&R)"
 
 #: wineconsole.rc:74
 msgid "Popup menu"
@@ -13099,22 +13073,16 @@ msgid "S&hift"
 msgstr "S&hift"
 
 #: wineconsole.rc:78
-#, fuzzy
-#| msgid "&Close console"
 msgid "Console"
-msgstr "关闭控制台(&C)"
+msgstr "控制台"
 
 #: wineconsole.rc:79
-#, fuzzy
-#| msgid "Quick edit"
 msgid "&Quick Edit mode"
-msgstr "快速编辑"
+msgstr "快速编辑模式(&Q)"
 
 #: wineconsole.rc:80
-#, fuzzy
-#| msgid "&Expert mode"
 msgid "&Insert mode"
-msgstr "专家模式(&E)"
+msgstr "插入模式(&E)"
 
 #: wineconsole.rc:88
 msgid "&Font"
@@ -13162,7 +13130,7 @@ msgstr "关闭控制台(&C)"
 
 #: wineconsole.rc:123
 msgid "Edition"
-msgstr ""
+msgstr "版本"
 
 #: wineconsole.rc:129
 msgid "Console parameters"
@@ -14146,7 +14114,7 @@ msgid ""
 "on the target?\n"
 "(F - File, D - Directory)\n"
 msgstr ""
-"%1 是一个在目标路径上的\n"
+"目标中的 %1 是\n"
 "文件名还是目录？\n"
 "(F - 文件，D - 目录)\n"
 
