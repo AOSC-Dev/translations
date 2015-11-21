@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-19 19:07+0000\n"
-"PO-Revision-Date: 2015-11-20 18:02-0700\n"
+"PO-Revision-Date: 2015-11-20 20:41-0700\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -9147,7 +9147,7 @@ msgstr "删除路径"
 #: ../app/core/gimpimage-arrange.c:170
 msgctxt "undo-type"
 msgid "Arrange Objects"
-msgstr "整理对象"
+msgstr "安排对象"
 
 #: ../app/core/gimpimage-color-profile.c:88
 msgid "ICC profile validation failed: Parasite's name is not 'icc-profile'"
@@ -9976,12 +9976,13 @@ msgid "GIMP is brought to you by"
 msgstr "GIMP 的提供者为 "
 
 #: ../app/dialogs/about-dialog.c:611
-#, fuzzy, c-format
-#| msgid "This is an unstable development release."
+#, c-format
 msgid ""
 "This is an unstable development release\n"
 "commit %s"
-msgstr "这是一个不稳定的开发版本。"
+msgstr ""
+"这是一个不稳定的开发版本。\n"
+"提交编号 %s"
 
 #: ../app/dialogs/action-search-dialog.c:67
 #, fuzzy
