@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2015-09-13 20:17+0200\n"
+"POT-Creation-Date: 2015-11-01 13:46+0100\n"
 "PO-Revision-Date: 2015-11-21 17:09-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
@@ -43,6 +43,10 @@ msgid "Create and edit Scalable Vector Graphics images"
 msgstr "创建并编辑可缩放矢量图形图像"
 
 #: ../inkscape.desktop.in.h:5
+msgid "image;editor;vector;drawing;"
+msgstr ""
+
+#: ../inkscape.desktop.in.h:6
 msgid "New Drawing"
 msgstr "新建绘图"
 
@@ -1081,7 +1085,7 @@ msgstr "黑色光"
 #: ../share/extensions/color_removered.inx.h:2
 #: ../share/extensions/color_replace.inx.h:6
 #: ../share/extensions/color_rgbbarrel.inx.h:2
-#: ../share/extensions/interp_att_g.inx.h:19
+#: ../share/extensions/interp_att_g.inx.h:21
 msgid "Color"
 msgstr "颜色"
 
@@ -5030,8 +5034,8 @@ msgstr "添加噪声"
 #: ../src/extension/internal/filter/color.h:1660
 #: ../src/extension/internal/filter/distort.h:69
 #: ../src/extension/internal/filter/morphology.h:60 ../src/rdf.cpp:244
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2858
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2932
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2856
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2930
 #: ../src/ui/dialog/object-attributes.cpp:49
 #: ../share/extensions/jessyInk_effects.inx.h:5
 #: ../share/extensions/jessyInk_export.inx.h:3
@@ -5083,7 +5087,7 @@ msgstr "模糊"
 #: ../src/extension/internal/bitmap/oilPaint.cpp:39
 #: ../src/extension/internal/bitmap/sharpen.cpp:40
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:43
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2910
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2908
 msgid "Radius:"
 msgstr "半径:"
 
@@ -5388,12 +5392,12 @@ msgstr "风格化位图，产生像用油画绘制的效果"
 #: ../src/extension/internal/filter/transparency.h:279
 #: ../src/ui/dialog/clonetiler.cpp:838 ../src/ui/dialog/clonetiler.cpp:991
 #: ../src/widgets/tweak-toolbar.cpp:334
-#: ../share/extensions/interp_att_g.inx.h:16
+#: ../share/extensions/interp_att_g.inx.h:18
 msgid "Opacity"
 msgstr "不透明度"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:40
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2900
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2898
 #: ../src/ui/dialog/objects.cpp:1625 ../src/widgets/dropper-toolbar.cpp:83
 msgid "Opacity:"
 msgstr "不透明度:"
@@ -5545,7 +5549,7 @@ msgstr "在对象的内外产生的偏移副本数目"
 #: ../src/extension/internal/bluredge.cpp:141
 #: ../share/extensions/extrude.inx.h:5
 #: ../share/extensions/generate_voronoi.inx.h:9
-#: ../share/extensions/interp.inx.h:7 ../share/extensions/motion.inx.h:4
+#: ../share/extensions/interp.inx.h:9 ../share/extensions/motion.inx.h:4
 #: ../share/extensions/pathalongpath.inx.h:18
 #: ../share/extensions/pathscatter.inx.h:20
 #: ../share/extensions/voronoi2svg.inx.h:13
@@ -5746,79 +5750,79 @@ msgstr "Corel DRAW 演示文稿交换格式档 (*.cmx)"
 msgid "Open presentation exchange files saved in Corel DRAW"
 msgstr "打开 Corel DRAW中创建的 presentation exchange 文件"
 
-#: ../src/extension/internal/emf-inout.cpp:3584
+#: ../src/extension/internal/emf-inout.cpp:3581
 msgid "EMF Input"
 msgstr "EMF 输入"
 
-#: ../src/extension/internal/emf-inout.cpp:3589
+#: ../src/extension/internal/emf-inout.cpp:3586
 msgid "Enhanced Metafiles (*.emf)"
 msgstr "增强型图元文件 (*.emf)"
 
-#: ../src/extension/internal/emf-inout.cpp:3590
+#: ../src/extension/internal/emf-inout.cpp:3587
 msgid "Enhanced Metafiles"
 msgstr "增强型图元文件"
 
-#: ../src/extension/internal/emf-inout.cpp:3598
+#: ../src/extension/internal/emf-inout.cpp:3595
 msgid "EMF Output"
 msgstr "EMF 输出"
 
-#: ../src/extension/internal/emf-inout.cpp:3600
+#: ../src/extension/internal/emf-inout.cpp:3597
 #: ../src/extension/internal/wmf-inout.cpp:3176
 msgid "Convert texts to paths"
 msgstr "把文字转化成路径"
 
-#: ../src/extension/internal/emf-inout.cpp:3601
+#: ../src/extension/internal/emf-inout.cpp:3598
 #: ../src/extension/internal/wmf-inout.cpp:3177
 msgid "Map Unicode to Symbol font"
 msgstr "将万国码对应到符号字体"
 
-#: ../src/extension/internal/emf-inout.cpp:3602
+#: ../src/extension/internal/emf-inout.cpp:3599
 #: ../src/extension/internal/wmf-inout.cpp:3178
 msgid "Map Unicode to Wingdings"
 msgstr "将万国码对应到 Wingdings 字体"
 
-#: ../src/extension/internal/emf-inout.cpp:3603
+#: ../src/extension/internal/emf-inout.cpp:3600
 #: ../src/extension/internal/wmf-inout.cpp:3179
 msgid "Map Unicode to Zapf Dingbats"
 msgstr "将万国码对应到 Zapf Dingbats 字体"
 
-#: ../src/extension/internal/emf-inout.cpp:3604
+#: ../src/extension/internal/emf-inout.cpp:3601
 #: ../src/extension/internal/wmf-inout.cpp:3180
 msgid "Use MS Unicode PUA (0xF020-0xF0FF) for converted characters"
 msgstr "转换的字符使用微软万国码 PUA (0xF020-0xF0FF)"
 
-#: ../src/extension/internal/emf-inout.cpp:3605
+#: ../src/extension/internal/emf-inout.cpp:3602
 #: ../src/extension/internal/wmf-inout.cpp:3181
 msgid "Compensate for PPT font bug"
 msgstr "PPT 字体错误补偿"
 
-#: ../src/extension/internal/emf-inout.cpp:3606
+#: ../src/extension/internal/emf-inout.cpp:3603
 #: ../src/extension/internal/wmf-inout.cpp:3182
 msgid "Convert dashed/dotted lines to single lines"
 msgstr "将虚线/点线6转换成实线"
 
-#: ../src/extension/internal/emf-inout.cpp:3607
+#: ../src/extension/internal/emf-inout.cpp:3604
 #: ../src/extension/internal/wmf-inout.cpp:3183
 msgid "Convert gradients to colored polygon series"
 msgstr "将渐层颜色转换成一系列的彩色多边形"
 
-#: ../src/extension/internal/emf-inout.cpp:3608
+#: ../src/extension/internal/emf-inout.cpp:3605
 msgid "Use native rectangular linear gradients"
 msgstr "使用本机矩形线性渐层"
 
-#: ../src/extension/internal/emf-inout.cpp:3609
+#: ../src/extension/internal/emf-inout.cpp:3606
 msgid "Map all fill patterns to standard EMF hatches"
 msgstr "将全部填充图样对应到标准 EMF 剖面线"
 
-#: ../src/extension/internal/emf-inout.cpp:3610
+#: ../src/extension/internal/emf-inout.cpp:3607
 msgid "Ignore image rotations"
 msgstr "忽略图片旋转"
 
-#: ../src/extension/internal/emf-inout.cpp:3614
+#: ../src/extension/internal/emf-inout.cpp:3611
 msgid "Enhanced Metafile (*.emf)"
 msgstr "增强型图元文件 (*.emf)"
 
-#: ../src/extension/internal/emf-inout.cpp:3615
+#: ../src/extension/internal/emf-inout.cpp:3612
 msgid "Enhanced Metafile"
 msgstr "增强型图元文件"
 
@@ -5904,7 +5908,7 @@ msgstr "光照颜色"
 #: ../src/extension/internal/filter/transparency.h:214
 #: ../src/extension/internal/filter/transparency.h:287
 #: ../src/extension/internal/filter/transparency.h:349
-#: ../src/ui/dialog/inkscape-preferences.cpp:1795
+#: ../src/ui/dialog/inkscape-preferences.cpp:1793
 #, c-format
 msgid "Filters"
 msgstr "滤镜"
@@ -6114,7 +6118,6 @@ msgstr "混合类型："
 #: ../src/extension/internal/filter/textures.h:77
 #: ../src/extension/internal/filter/transparency.h:61
 #: ../src/filter-enums.cpp:52 ../src/ui/dialog/inkscape-preferences.cpp:685
-#: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
 msgid "Normal"
 msgstr "正常"
 
@@ -6201,7 +6204,7 @@ msgstr "漫射"
 #: ../src/extension/internal/filter/bumps.h:329
 #: ../src/libgdl/gdl-dock-placeholder.c:175 ../src/libgdl/gdl-dock.c:199
 #: ../src/ui/widget/page-sizer.cpp:250 ../src/widgets/rect-toolbar.cpp:334
-#: ../share/extensions/interp_att_g.inx.h:11
+#: ../share/extensions/interp_att_g.inx.h:13
 msgid "Height"
 msgstr "高度"
 
@@ -6717,6 +6720,7 @@ msgstr "阴影"
 #: ../src/extension/internal/filter/color.h:1119
 #: ../src/extension/internal/filter/paint.h:356 ../src/filter-enums.cpp:33
 #: ../src/live_effects/effect.cpp:108
+#: ../src/live_effects/lpe-transform_2pts.cpp:40
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1048
 #: ../src/widgets/gradient-toolbar.cpp:1162
 msgid "Offset"
@@ -7038,7 +7042,7 @@ msgstr "打开"
 #: ../src/libgdl/gdl-dock-placeholder.c:167 ../src/libgdl/gdl-dock.c:191
 #: ../src/ui/widget/page-sizer.cpp:249 ../src/widgets/rect-toolbar.cpp:317
 #: ../src/widgets/spray-toolbar.cpp:116 ../src/widgets/tweak-toolbar.cpp:128
-#: ../share/extensions/interp_att_g.inx.h:10
+#: ../share/extensions/interp_att_g.inx.h:12
 msgid "Width"
 msgstr "宽度"
 
@@ -7082,6 +7086,7 @@ msgstr "异或"
 #: ../src/extension/internal/filter/morphology.h:179
 #: ../src/ui/dialog/layer-properties.cpp:185
 #: ../src/ui/dialog/lpe-powerstroke-properties.cpp:59
+#: ../share/extensions/measure.inx.h:5
 msgid "Position:"
 msgstr "位置:"
 
@@ -7122,6 +7127,7 @@ msgid "Erosion 2"
 msgstr "缩减 2"
 
 #: ../src/extension/internal/filter/morphology.h:191
+#: ../src/live_effects/lpe-roughen.cpp:40
 msgid "Smooth"
 msgstr "光滑"
 
@@ -7259,7 +7265,7 @@ msgid "Clean-up"
 msgstr "清理"
 
 #: ../src/extension/internal/filter/paint.h:238
-#: ../share/extensions/measure.inx.h:11
+#: ../share/extensions/measure.inx.h:17
 msgid "Length"
 msgstr "长度"
 
@@ -7521,6 +7527,7 @@ msgstr "外部"
 
 #: ../src/extension/internal/filter/textures.h:81
 #: ../share/extensions/markers_strokepaint.inx.h:8
+#: ../share/extensions/restack.inx.h:4
 msgid "Custom"
 msgstr "自定义"
 
@@ -7559,7 +7566,7 @@ msgid "Background"
 msgstr "背景"
 
 #: ../src/extension/internal/filter/transparency.h:59
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2855
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2853
 #: ../src/ui/dialog/input.cpp:1088 ../src/widgets/eraser-toolbar.cpp:106
 #: ../src/widgets/pencil-toolbar.cpp:144 ../src/widgets/spray-toolbar.cpp:186
 #: ../src/widgets/tweak-toolbar.cpp:254 ../share/extensions/extrude.inx.h:2
@@ -7624,13 +7631,13 @@ msgid "Embed results in stand-alone, larger SVG files. Link references a file ou
 msgstr "用独立的内嵌方式 SVG 文件体积会比较大。链接则会参考此 SVG 文档外部的文件而且全部文件必须放在一起。"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:191
-#: ../src/ui/dialog/inkscape-preferences.cpp:1500
+#: ../src/ui/dialog/inkscape-preferences.cpp:1498
 #, c-format
 msgid "Embed"
 msgstr "内嵌"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:192 ../src/sp-anchor.cpp:105
-#: ../src/ui/dialog/inkscape-preferences.cpp:1500
+#: ../src/ui/dialog/inkscape-preferences.cpp:1498
 #, c-format
 msgid "Link"
 msgstr "链接"
@@ -7666,19 +7673,19 @@ msgid "When an image is upscaled, apply smoothing or keep blocky (pixelated). (W
 msgstr "当图片放大时，套用平滑或维持块状 (像素)。(并不适用所有的浏览器。)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
-#: ../src/ui/dialog/inkscape-preferences.cpp:1507
+#: ../src/ui/dialog/inkscape-preferences.cpp:1505
 #, c-format
 msgid "None (auto)"
 msgstr "无 (自动)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:202
-#: ../src/ui/dialog/inkscape-preferences.cpp:1507
+#: ../src/ui/dialog/inkscape-preferences.cpp:1505
 #, c-format
 msgid "Smooth (optimizeQuality)"
 msgstr "平滑 (最佳画质)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:203
-#: ../src/ui/dialog/inkscape-preferences.cpp:1507
+#: ../src/ui/dialog/inkscape-preferences.cpp:1505
 #, c-format
 msgid "Blocky (optimizeSpeed)"
 msgstr "块状 (最快速度)"
@@ -7730,7 +7737,7 @@ msgid "Vertical Offset:"
 msgstr "垂直偏移："
 
 #: ../src/extension/internal/grid.cpp:215
-#: ../src/ui/dialog/inkscape-preferences.cpp:1521
+#: ../src/ui/dialog/inkscape-preferences.cpp:1519
 #: ../share/extensions/draw_from_triangle.inx.h:58
 #: ../share/extensions/eqtexsvg.inx.h:4 ../share/extensions/foldablebox.inx.h:9
 #: ../share/extensions/funcplot.inx.h:38
@@ -7749,7 +7756,7 @@ msgstr "垂直偏移："
 #: ../share/extensions/render_barcode_datamatrix.inx.h:5
 #: ../share/extensions/render_barcode_qrcode.inx.h:18
 #: ../share/extensions/render_gear_rack.inx.h:5
-#: ../share/extensions/render_gears.inx.h:11 ../share/extensions/rtree.inx.h:4
+#: ../share/extensions/render_gears.inx.h:11 ../share/extensions/rtree.inx.h:6
 #: ../share/extensions/seamless_pattern.inx.h:5
 #: ../share/extensions/spirograph.inx.h:10
 #: ../share/extensions/svgcalendar.inx.h:38
@@ -7761,7 +7768,7 @@ msgstr "渲染"
 #: ../src/extension/internal/grid.cpp:216
 #: ../src/ui/dialog/document-properties.cpp:162
 #: ../src/ui/dialog/inkscape-preferences.cpp:819
-#: ../src/widgets/toolbox.cpp:1825
+#: ../src/widgets/toolbox.cpp:1828
 msgid "Grids"
 msgstr "网格"
 
@@ -7887,51 +7894,51 @@ msgstr "嵌入的图像"
 msgid "Import settings"
 msgstr "导入设置"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:290
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:291
 msgid "PDF Import Settings"
 msgstr "PDF导入设置"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:437
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:438
 msgctxt "PDF input precision"
 msgid "rough"
 msgstr "粗糙"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:438
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:439
 msgctxt "PDF input precision"
 msgid "medium"
 msgstr "中等"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:439
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:440
 msgctxt "PDF input precision"
 msgid "fine"
 msgstr "精细"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:440
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:441
 msgctxt "PDF input precision"
 msgid "very fine"
 msgstr "非常精细"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:936
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:937
 msgid "PDF Input"
 msgstr "PDF 输入"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:941
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:942
 msgid "Adobe PDF (*.pdf)"
 msgstr "Adobe PDF (*.pdf)"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:942
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:943
 msgid "Adobe Portable Document Format"
 msgstr "Adobe便携文档格式"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:949
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:950
 msgid "AI Input"
 msgstr "AI 输入"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:954
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:955
 msgid "Adobe Illustrator 9.0 and above (*.ai)"
 msgstr "Adobe Illustrator 9.0及以上版本(*.ai)"
 
-#: ../src/extension/internal/pdfinput/pdf-input.cpp:955
+#: ../src/extension/internal/pdfinput/pdf-input.cpp:956
 msgid "Open files saved in Adobe Illustrator 9.0 and newer versions"
 msgstr "打开使用Adobe Illustrator 9.0(或更新的版本)保存的文件"
 
@@ -8205,7 +8212,7 @@ msgstr "没有更改, 不需要保存."
 msgid "Saving document..."
 msgstr "正在保存文档..."
 
-#: ../src/file.cpp:1271 ../src/ui/dialog/inkscape-preferences.cpp:1494
+#: ../src/file.cpp:1271 ../src/ui/dialog/inkscape-preferences.cpp:1492
 #: ../src/ui/dialog/ocaldialogs.cpp:1244
 msgid "Import"
 msgstr "导入"
@@ -8342,6 +8349,7 @@ msgstr "亮度转为透明度(alpha)"
 
 #: ../src/filter-enums.cpp:87 ../share/extensions/jessyInk_mouseHandler.inx.h:3
 #: ../share/extensions/jessyInk_transitions.inx.h:7
+#: ../share/extensions/measure.inx.h:20
 msgid "Default"
 msgstr "默认"
 
@@ -8761,7 +8769,7 @@ msgstr "当前页的索引"
 
 #: ../src/libgdl/gdl-dock-object.c:125
 #: ../src/live_effects/parameter/originalpatharray.cpp:82
-#: ../src/ui/dialog/inkscape-preferences.cpp:1555
+#: ../src/ui/dialog/inkscape-preferences.cpp:1553
 #: ../src/ui/widget/page-sizer.cpp:285 ../src/widgets/gradient-selector.cpp:154
 #: ../src/widgets/sp-xmlview-attr-list.cpp:49
 msgid "Name"
@@ -8823,8 +8831,7 @@ msgstr "不能将%p停靠到%p, 因为他们属于不同的主栏"
 msgid "Attempt to bind to %p an already bound dock object %p (current master: %p)"
 msgstr "试图向%p中捆绑一个已经绑定的面板对象%p (当前主栏: %p)"
 
-#: ../src/libgdl/gdl-dock-paned.c:130 ../src/ui/widget/font-variants.cpp:44
-#: ../src/widgets/ruler.cpp:230
+#: ../src/libgdl/gdl-dock-paned.c:130 ../src/widgets/ruler.cpp:230
 msgid "Position"
 msgstr "位置"
 
@@ -9296,7 +9303,7 @@ msgstr "按着 CTRL 可更改阶数"
 
 #: ../src/live_effects/lpe-bspline.cpp:31
 #: ../src/live_effects/lpe-simplify.cpp:33
-#: ../src/live_effects/lpe-transform_2pts.cpp:38
+#: ../src/live_effects/lpe-transform_2pts.cpp:43
 msgid "Helper size:"
 msgstr "辅助标示尺寸："
 
@@ -9345,7 +9352,7 @@ msgstr "条码高度:"
 #: ../src/live_effects/lpe-bspline.cpp:160
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:232
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:254
-#: ../src/live_effects/parameter/parameter.cpp:168
+#: ../src/live_effects/parameter/parameter.cpp:170
 msgid "Change scalar parameter"
 msgstr "修改标量参数"
 
@@ -10417,72 +10424,128 @@ msgstr "整体弯曲"
 msgid "Relative position to a reference point defines global bending direction and amount"
 msgstr "由参考点的相对位置定义总体弯曲程度和方向"
 
-#: ../src/live_effects/lpe-roughen.cpp:29 ../share/extensions/addnodes.inx.h:4
+#: ../src/live_effects/lpe-roughen.cpp:30 ../share/extensions/addnodes.inx.h:4
 msgid "By number of segments"
 msgstr "根据段数"
 
-#: ../src/live_effects/lpe-roughen.cpp:30
+#: ../src/live_effects/lpe-roughen.cpp:31
 msgid "By max. segment size"
 msgstr "依照最大线段长度"
 
-#. initialise your parameters here:
+#: ../src/live_effects/lpe-roughen.cpp:37
+#, fuzzy
+msgid "Along nodes"
+msgstr "对齐节点"
+
 #: ../src/live_effects/lpe-roughen.cpp:38
+#, fuzzy
+#| msgid "Randomly"
+msgid "Rand"
+msgstr "随机"
+
+#: ../src/live_effects/lpe-roughen.cpp:39
+#, fuzzy
+#| msgid "Extract"
+msgid "Retract"
+msgstr "提取"
+
+#. initialise your parameters here:
+#: ../src/live_effects/lpe-roughen.cpp:48
 msgid "Method"
 msgstr "方法"
 
-#: ../src/live_effects/lpe-roughen.cpp:38
+#: ../src/live_effects/lpe-roughen.cpp:48
 msgid "Division method"
 msgstr "分割方式"
 
-#: ../src/live_effects/lpe-roughen.cpp:40
+#: ../src/live_effects/lpe-roughen.cpp:50
 msgid "Max. segment size"
 msgstr "最大线段长度"
 
-#: ../src/live_effects/lpe-roughen.cpp:42
+#: ../src/live_effects/lpe-roughen.cpp:52
 msgid "Number of segments"
 msgstr "线段数量"
 
-#: ../src/live_effects/lpe-roughen.cpp:44
+#: ../src/live_effects/lpe-roughen.cpp:54
 msgid "Max. displacement in X"
 msgstr "X 方向最大位移"
 
-#: ../src/live_effects/lpe-roughen.cpp:46
+#: ../src/live_effects/lpe-roughen.cpp:56
 msgid "Max. displacement in Y"
 msgstr "Y 方向最大位移"
 
-#: ../src/live_effects/lpe-roughen.cpp:48
+#: ../src/live_effects/lpe-roughen.cpp:58
 msgid "Global randomize"
 msgstr "总体随机化"
 
-#: ../src/live_effects/lpe-roughen.cpp:50
+#: ../src/live_effects/lpe-roughen.cpp:60
+#, fuzzy
+#| msgid "Handles:"
+msgid "Handles"
+msgstr "控制点："
+
+#: ../src/live_effects/lpe-roughen.cpp:60
+#, fuzzy
+#| msgid "Randomize positions"
+msgid "Handles options"
+msgstr "随机化位置"
+
+#: ../src/live_effects/lpe-roughen.cpp:62
+#, fuzzy
+#| msgid "Smooth node handle"
+msgid "Max. smooth handle angle"
+msgstr "光滑节点控制柄"
+
+#: ../src/live_effects/lpe-roughen.cpp:64
 #: ../share/extensions/radiusrand.inx.h:5
 msgid "Shift nodes"
 msgstr "移动节点"
 
-#: ../src/live_effects/lpe-roughen.cpp:52
-#: ../share/extensions/radiusrand.inx.h:6
-msgid "Shift node handles"
-msgstr "平移节点控制柄"
+#: ../src/live_effects/lpe-roughen.cpp:66
+#, fuzzy
+#| msgid "X displacement:"
+msgid "Fixed displacement"
+msgstr "X 位移:"
 
-#: ../src/live_effects/lpe-roughen.cpp:100
+#: ../src/live_effects/lpe-roughen.cpp:66
+msgid "Fixed displacement, 1/3 of segment length"
+msgstr ""
+
+#: ../src/live_effects/lpe-roughen.cpp:68
+#, fuzzy
+#| msgid "Spray Tool Preferences"
+msgid "Spray Tool friendly"
+msgstr "喷绘工具设置"
+
+#: ../src/live_effects/lpe-roughen.cpp:68
+msgid "For use with spray tool"
+msgstr ""
+
+#: ../src/live_effects/lpe-roughen.cpp:128
 msgid "<b>Add nodes</b> Subdivide each segment"
 msgstr "<b>加入节点</b>会细分每个线段"
 
-#: ../src/live_effects/lpe-roughen.cpp:109
+#: ../src/live_effects/lpe-roughen.cpp:137
 msgid "<b>Jitter nodes</b> Move nodes/handles"
 msgstr "<b>抖动节点</b>会移动节点/控制柄"
 
-#: ../src/live_effects/lpe-roughen.cpp:118
+#: ../src/live_effects/lpe-roughen.cpp:146
 msgid "<b>Extra roughen</b> Add a extra layer of rough"
 msgstr "<b>加强型粗糙化</b>会加入额外的粗糙图层"
 
-#: ../src/live_effects/lpe-ruler.cpp:25 ../share/extensions/restack.inx.h:12
+#: ../src/live_effects/lpe-roughen.cpp:155
+msgid "<b>Options</b> Modify options to rough"
+msgstr ""
+
+#: ../src/live_effects/lpe-ruler.cpp:25 ../share/extensions/measure.inx.h:27
+#: ../share/extensions/restack.inx.h:16
 #: ../share/extensions/text_extract.inx.h:8
 #: ../share/extensions/text_merge.inx.h:8
 msgid "Left"
 msgstr "左"
 
-#: ../src/live_effects/lpe-ruler.cpp:26 ../share/extensions/restack.inx.h:14
+#: ../src/live_effects/lpe-ruler.cpp:26 ../share/extensions/measure.inx.h:29
+#: ../share/extensions/restack.inx.h:18
 #: ../share/extensions/text_extract.inx.h:10
 #: ../share/extensions/text_merge.inx.h:10
 msgid "Right"
@@ -10498,13 +10561,13 @@ msgid "None"
 msgstr "无"
 
 #: ../src/live_effects/lpe-ruler.cpp:33
-#: ../src/live_effects/lpe-transform_2pts.cpp:34
+#: ../src/live_effects/lpe-transform_2pts.cpp:37
 #: ../src/widgets/arc-toolbar.cpp:319
 msgid "Start"
 msgstr "起点"
 
 #: ../src/live_effects/lpe-ruler.cpp:34
-#: ../src/live_effects/lpe-transform_2pts.cpp:35
+#: ../src/live_effects/lpe-transform_2pts.cpp:38
 #: ../src/widgets/arc-toolbar.cpp:332
 msgid "End"
 msgstr "终点"
@@ -10623,7 +10686,7 @@ msgid "Smooth angles:"
 msgstr "光滑"
 
 #: ../src/live_effects/lpe-simplify.cpp:32
-msgid "Max degree difference on handles to preform a smooth"
+msgid "Max degree difference on handles to perform a smooth"
 msgstr ""
 
 #: ../src/live_effects/lpe-simplify.cpp:34
@@ -10725,7 +10788,7 @@ msgid "How many construction lines (tangents) to draw"
 msgstr "结构线的数目 (切线)"
 
 #: ../src/live_effects/lpe-sketch.cpp:58
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2894
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2892
 #: ../share/extensions/render_alphabetsoup.inx.h:3
 msgid "Scale:"
 msgstr "缩放:"
@@ -10823,60 +10886,99 @@ msgstr "非平滑节点的接合类型"
 msgid "Limit for miter joins"
 msgstr "斜切接合的限制"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:448
+#: ../src/live_effects/lpe-taperstroke.cpp:447
 msgid "Start point of the taper"
 msgstr "锥化的起点"
 
-#: ../src/live_effects/lpe-taperstroke.cpp:452
+#: ../src/live_effects/lpe-taperstroke.cpp:451
 msgid "End point of the taper"
 msgstr "锥化的末端"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:30
+#: ../src/live_effects/lpe-transform_2pts.cpp:31
 msgid "Elastic"
 msgstr "弹性"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:30
+#: ../src/live_effects/lpe-transform_2pts.cpp:31
 msgid "Elastic transform mode"
 msgstr "弹性变换模式"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:31
+#: ../src/live_effects/lpe-transform_2pts.cpp:32
 msgid "From original width"
 msgstr "替换文本"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:32
-msgid "Lock lenght"
-msgstr ""
-
-#: ../src/live_effects/lpe-transform_2pts.cpp:32
-msgid "Lock lenght to current distance"
-msgstr ""
+#: ../src/live_effects/lpe-transform_2pts.cpp:33
+#, fuzzy
+#| msgid "Length"
+msgid "Lock length"
+msgstr "长度"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
+#, fuzzy
+#| msgid "Lock or unlock current layer"
+msgid "Lock length to current distance"
+msgstr "锁定或解锁当前层"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:34
 msgid "Lock angle"
 msgstr "锁定角度"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:34
+#: ../src/live_effects/lpe-transform_2pts.cpp:35
+#, fuzzy
+#| msgid "Flip horizontally"
+msgid "Flip horizontal"
+msgstr "水平翻转"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:36
+#, fuzzy
+#| msgid "Flip vertically"
+msgid "Flip vertical"
+msgstr "垂直翻转"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:37
 msgid "Start point"
 msgstr "起点"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:35
+#: ../src/live_effects/lpe-transform_2pts.cpp:38
 msgid "End point"
 msgstr "末端"
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:36
+#: ../src/live_effects/lpe-transform_2pts.cpp:39
+#, fuzzy
+#| msgid "Strength"
+msgid "Stretch"
+msgstr "强度"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:39
+#, fuzzy
+msgid "Stretch the result"
+msgstr "导出分辨率:"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:40
+#, fuzzy
+#| msgid "Offset points"
+msgid "Offset from knots"
+msgstr "偏移点"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:41
 msgid "First Knot"
 msgstr ""
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:37
+#: ../src/live_effects/lpe-transform_2pts.cpp:42
 msgid "Last Knot"
 msgstr ""
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:38
+#: ../src/live_effects/lpe-transform_2pts.cpp:43
 msgid "Rotation helper size"
 msgstr ""
 
-#: ../src/live_effects/lpe-transform_2pts.cpp:319
-#: ../src/ui/dialog/inkscape-preferences.cpp:1612
+#: ../src/live_effects/lpe-transform_2pts.cpp:197
+#, fuzzy
+#| msgid "Change node type"
+msgid "Change index of knot"
+msgstr "改变节点类型"
+
+#: ../src/live_effects/lpe-transform_2pts.cpp:350
+#: ../src/ui/dialog/inkscape-preferences.cpp:1610
 #: ../src/ui/dialog/pixelartdialog.cpp:296
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:699
 #: ../src/ui/dialog/tracedialog.cpp:813
@@ -10936,7 +11038,7 @@ msgstr "复杂性最大值(_M)："
 msgid "Disable effect if the output is too complex"
 msgstr "如果输出过于复杂则关闭效果"
 
-#: ../src/live_effects/parameter/bool.cpp:67
+#: ../src/live_effects/parameter/bool.cpp:68
 msgid "Change bool parameter"
 msgstr "修改布尔参数"
 
@@ -10944,23 +11046,23 @@ msgstr "修改布尔参数"
 msgid "Change enumeration parameter"
 msgstr "改变枚举参数"
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:780
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:841
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:778
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:839
 msgid "<b>Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:784
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:845
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:782
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:843
 msgid "<b>Inverse Chamfer</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:788
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:849
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:786
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:847
 msgid "<b>Inverse Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:792
-#: ../src/live_effects/parameter/filletchamferpointarray.cpp:853
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:790
+#: ../src/live_effects/parameter/filletchamferpointarray.cpp:851
 msgid "<b>Fillet</b>: <b>Ctrl+Click</b> toggle type, <b>Shift+Click</b> open dialog, <b>Ctrl+Alt+Click</b> reset"
 msgstr ""
 
@@ -11157,7 +11259,7 @@ msgid "The ID of the object to export"
 msgstr "要导出的对象的 ID"
 
 #: ../src/main.cpp:366 ../src/main.cpp:479
-#: ../src/ui/dialog/inkscape-preferences.cpp:1558
+#: ../src/ui/dialog/inkscape-preferences.cpp:1556
 msgid "ID"
 msgstr "ID"
 
@@ -11196,7 +11298,9 @@ msgid "Export document to an EPS file"
 msgstr "导出文档到 EPS 文件"
 
 #: ../src/main.cpp:407
-msgid "Choose the PostScript Level used to export. Possible choices are 2 (the default) and 3"
+#, fuzzy
+#| msgid "Choose the PostScript Level used to export. Possible choices are 2 (the default) and 3"
+msgid "Choose the PostScript Level used to export. Possible choices are 2 and 3 (the default)"
 msgstr "选择导出要使用的 PostScript 等级（版本）。正常选择 2 (默认值) 和 3"
 
 #: ../src/main.cpp:409
@@ -11670,7 +11774,7 @@ msgstr "相关："
 msgid "A related resource"
 msgstr "相关资源"
 
-#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1914
+#: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1912
 msgid "Language:"
 msgstr "语言:"
 
@@ -11732,7 +11836,7 @@ msgstr "片段："
 msgid "XML fragment for the RDF 'License' section"
 msgstr "RDF 'License' 部分的 XML 片段。"
 
-#: ../src/resource-manager.cpp:332
+#: ../src/resource-manager.cpp:336
 msgid "Fixup broken links"
 msgstr "修复损坏的链接"
 
@@ -11936,7 +12040,7 @@ msgstr "按像素旋转"
 
 #: ../src/selection-chemistry.cpp:2203 ../src/seltrans.cpp:481
 #: ../src/ui/dialog/transformation.cpp:865 ../src/ui/widget/page-sizer.cpp:450
-#: ../share/extensions/interp_att_g.inx.h:12
+#: ../share/extensions/interp_att_g.inx.h:14
 msgid "Scale"
 msgstr "缩放"
 
@@ -12999,7 +13103,7 @@ msgid "Rearrange"
 msgstr "重新排列"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:851
-#: ../src/widgets/toolbox.cpp:1727
+#: ../src/widgets/toolbox.cpp:1730
 msgid "Nodes"
 msgstr "节点"
 
@@ -14150,7 +14254,7 @@ msgstr "移除(_R)"
 msgid "Remove selected grid."
 msgstr "保持选定网格."
 
-#: ../src/ui/dialog/document-properties.cpp:161 ../src/widgets/toolbox.cpp:1834
+#: ../src/ui/dialog/document-properties.cpp:161 ../src/widgets/toolbox.cpp:1837
 msgid "Guides"
 msgstr "参考线"
 
@@ -14431,9 +14535,9 @@ msgid "_Height:"
 msgstr "高度(_H):"
 
 #: ../src/ui/dialog/export.cpp:304
-#: ../src/ui/dialog/inkscape-preferences.cpp:1487
-#: ../src/ui/dialog/inkscape-preferences.cpp:1491
-#: ../src/ui/dialog/inkscape-preferences.cpp:1515
+#: ../src/ui/dialog/inkscape-preferences.cpp:1485
+#: ../src/ui/dialog/inkscape-preferences.cpp:1489
+#: ../src/ui/dialog/inkscape-preferences.cpp:1513
 msgid "dpi"
 msgstr "点每英寸"
 
@@ -14522,7 +14626,7 @@ msgstr "图画已导出成 <b>%s</b>。"
 msgid "Export aborted."
 msgstr "导出已中止。"
 
-#: ../src/ui/dialog/export.cpp:1308 ../src/ui/interface.cpp:1392
+#: ../src/ui/dialog/export.cpp:1308 ../src/ui/interface.cpp:1388
 #: ../src/widgets/desktop-widget.cpp:1122
 #: ../src/widgets/desktop-widget.cpp:1184
 msgid "_Cancel"
@@ -14557,7 +14661,7 @@ msgstr "信息"
 #: ../share/extensions/gcodetools_tools_library.inx.h:12
 #: ../share/extensions/generate_voronoi.inx.h:5
 #: ../share/extensions/gimp_xcf.inx.h:7
-#: ../share/extensions/interp_att_g.inx.h:27
+#: ../share/extensions/interp_att_g.inx.h:29
 #: ../share/extensions/jessyInk_autoTexts.inx.h:8
 #: ../share/extensions/jessyInk_effects.inx.h:13
 #: ../share/extensions/jessyInk_export.inx.h:7
@@ -14572,11 +14676,11 @@ msgstr "信息"
 #: ../share/extensions/jessyInk_view.inx.h:7
 #: ../share/extensions/layout_nup.inx.h:24
 #: ../share/extensions/lindenmayer.inx.h:13
-#: ../share/extensions/lorem_ipsum.inx.h:6 ../share/extensions/measure.inx.h:16
+#: ../share/extensions/lorem_ipsum.inx.h:6 ../share/extensions/measure.inx.h:33
 #: ../share/extensions/pathalongpath.inx.h:16
 #: ../share/extensions/pathscatter.inx.h:18
-#: ../share/extensions/radiusrand.inx.h:8 ../share/extensions/split.inx.h:8
-#: ../share/extensions/voronoi2svg.inx.h:11
+#: ../share/extensions/radiusrand.inx.h:8 ../share/extensions/restack.inx.h:25
+#: ../share/extensions/split.inx.h:8 ../share/extensions/voronoi2svg.inx.h:11
 #: ../share/extensions/web-set-att.inx.h:25
 #: ../share/extensions/web-transmit-att.inx.h:23
 #: ../share/extensions/webslicer_create_group.inx.h:11
@@ -14923,236 +15027,236 @@ msgstr "没有选择效果"
 msgid "No filter selected"
 msgstr "没有选择滤镜"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2792
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2790
 msgid "Effect parameters"
 msgstr "效果参数"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2793
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2791
 msgid "Filter General Settings"
 msgstr "滤镜通用选项"
 
 #. default x:
 #. default y:
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2851
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2849
 msgid "Coordinates:"
 msgstr "坐标:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2851
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2849
 msgid "X coordinate of the left corners of filter effects region"
 msgstr "滤镜效果区域左侧顶点的X坐标"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2851
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2849
 msgid "Y coordinate of the upper corners of filter effects region"
 msgstr "滤镜效果区域上方的Y坐标"
 
 #. default width:
 #. default height:
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2852
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2850
 msgid "Dimensions:"
 msgstr "尺寸:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2852
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2850
 msgid "Width of filter effects region"
 msgstr "滤镜效果区域的宽度"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2852
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2850
 msgid "Height of filter effects region"
 msgstr "滤镜效果区域的高度"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2858
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2856
 msgid "Indicates the type of matrix operation. The keyword 'matrix' indicates that a full 5x4 matrix of values will be provided. The other keywords represent convenience shortcuts to allow commonly used color operations to be performed without specifying a complete matrix."
 msgstr "矩阵操作类型. 选项 '矩阵' 将提供一个完整的5x4矩阵. 其它选项对应不需要指定完整矩阵的一般色彩操作."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2859
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2857
 msgid "Value(s):"
 msgstr "值(s):"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2863
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2861
 msgid "R:"
 msgstr "红："
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2864
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2862
 #: ../src/ui/widget/color-icc-selector.cpp:180
 msgid "G:"
 msgstr "绿："
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2865
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2863
 msgid "B:"
 msgstr "蓝："
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2866
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2864
 msgid "A:"
 msgstr "透："
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2869
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2909
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2867
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2907
 msgid "Operator:"
 msgstr "操作:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2870
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2868
 msgid "K1:"
 msgstr "K1:"
 
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2868
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2869
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2870
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2871
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2872
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2873
 msgid "If the arithmetic operation is chosen, each result pixel is computed using the formula k1*i1*i2 + k2*i1 + k3*i2 + k4 where i1 and i2 are the pixel values of the first and second inputs respectively."
 msgstr "如果使用该算法操作, 每个最终像素通过 k1*i1*i2 + k2*i1 + k3*i2 + k4 得到, 其中i1和i2分布是第一个和第二个输入的像素值."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2871
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2869
 msgid "K2:"
 msgstr "K2:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2872
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2870
 msgid "K3:"
 msgstr "K3:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2873
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2871
 msgid "K4:"
 msgstr "K4:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2876
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2874
 msgid "Size:"
 msgstr "尺寸:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2876
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2874
 msgid "width of the convolve matrix"
 msgstr "卷积矩阵的宽度"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2876
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2874
 msgid "height of the convolve matrix"
 msgstr "卷积矩形的高度"
 
 #. default x:
 #. default y:
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2877
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2875
 #: ../src/ui/dialog/object-attributes.cpp:48
 msgid "Target:"
 msgstr "目标:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2877
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2875
 msgid "X coordinate of the target point in the convolve matrix. The convolution is applied to pixels around this point."
 msgstr "目标点在卷积矩阵中的X坐标. 卷积施加到该点周围的像素上."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2877
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2875
 msgid "Y coordinate of the target point in the convolve matrix. The convolution is applied to pixels around this point."
 msgstr "目标点在卷积矩阵中的X坐标. 卷积施加到该点周围的像素上."
 
 #. TRANSLATORS: for info on "Kernel", see http://en.wikipedia.org/wiki/Kernel_(matrix)
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2879
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2877
 msgid "Kernel:"
 msgstr "核:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2879
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2877
 msgid "This matrix describes the convolve operation that is applied to the input image in order to calculate the pixel colors at the output. Different arrangements of values in this matrix result in various possible visual effects. An identity matrix would lead to a motion blur effect (parallel to the matrix diagonal) while a matrix filled with a constant non-zero value would lead to a common blur effect."
 msgstr "使用该矩阵对输入图像进行卷积来计算输出像素的颜色. 不同的取值能够获得区别很大的视觉效果. 单位矩阵能够产生运动模糊效果 (平行于对角线), 而使用非零常量填充的矩阵产生一般的模糊效果."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2881
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2879
 msgid "Divisor:"
 msgstr "除数:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2881
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2879
 msgid "After applying the kernelMatrix to the input image to yield a number, that number is divided by divisor to yield the final destination color value. A divisor that is the sum of all the matrix values tends to have an evening effect on the overall color intensity of the result."
 msgstr "将核矩阵应用到输入图像后将产生一个数, 除以该除数产生最终的目标颜色值. 除数为矩阵中所有元素的和时倾向于对整体结果的色彩强度产生昏暗效果."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2882
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2880
 msgid "Bias:"
 msgstr "偏置:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2882
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2880
 msgid "This value is added to each component. This is useful to define a constant value as the zero response of the filter."
 msgstr "该值叠加到每个元素上. 这样,滤镜的输出为0时可以用一个常量来代替."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2883
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2881
 msgid "Edge Mode:"
 msgstr "边沿模式:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2883
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2881
 msgid "Determines how to extend the input image as necessary with color values so that the matrix operations can be applied when the kernel is positioned at or near the edge of the input image."
 msgstr "选择怎样扩展输入图像的颜色值, 使得在图像的边沿也能够应用该矩阵."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2884
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2882
 msgid "Preserve Alpha"
 msgstr "保持 Alpha"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2884
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2882
 msgid "If set, the alpha channel won't be altered by this filter primitive."
 msgstr "如果选中, alpha通道将不受该滤镜基元的影响."
 
 #. default: white
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2887
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2885
 msgid "Diffuse Color:"
 msgstr "散射颜色:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2887
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2920
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2885
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2918
 msgid "Defines the color of the light source"
 msgstr "设置光源的颜色"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2888
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2921
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2886
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2919
 msgid "Surface Scale:"
 msgstr "表面缩放:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2888
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2921
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2886
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2919
 msgid "This value amplifies the heights of the bump map defined by the input alpha channel"
 msgstr "该值放大由输入alpha通道确定的凸凹贴图的高度"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2889
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2922
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2887
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2920
 msgid "Constant:"
 msgstr "常数:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2889
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2922
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2887
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2920
 msgid "This constant affects the Phong lighting model."
 msgstr "该常量影响Phong光照模型."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2890
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2924
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2888
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2922
 msgid "Kernel Unit Length:"
 msgstr "核单元长度:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2894
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2892
 msgid "This defines the intensity of the displacement effect."
 msgstr "位移效果的强度."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2895
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2893
 msgid "X displacement:"
 msgstr "X 位移:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2895
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2893
 msgid "Color component that controls the displacement in the X direction"
 msgstr "控制X方向位移的色彩分量"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2896
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2894
 msgid "Y displacement:"
 msgstr "Y 位移:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2896
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2894
 msgid "Color component that controls the displacement in the Y direction"
 msgstr "控制Y方向位移的色彩分量"
 
 #. default: black
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2899
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2897
 msgid "Flood Color:"
 msgstr "浸漫颜色:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2899
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2897
 msgid "The whole filter region will be filled with this color."
 msgstr "滤镜的整个区域都将用这种颜色填充."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2903
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2901
 msgid "Standard Deviation:"
 msgstr "标准差:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2903
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2901
 msgid "The standard deviation for the blur operation."
 msgstr "模糊操作的标准差."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2909
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2907
 msgid ""
 "Erode: performs \"thinning\" of input image.\n"
 "Dilate: performs \"fattenning\" of input image."
@@ -15160,133 +15264,135 @@ msgstr ""
 "浸蚀: 对输出图像进行 \"窄薄\" 处理.\n"
 "膨胀: 对输出图像进行 \"加厚\" 处理."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2913
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2911
 msgid "Source of Image:"
 msgstr "图像来源:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2916
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2914
 msgid "Delta X:"
 msgstr "△X:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2916
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2914
 msgid "This is how far the input image gets shifted to the right"
 msgstr "输入图像向右偏移的距离"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2917
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2915
 msgid "Delta Y:"
 msgstr "△Y:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2917
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2915
 msgid "This is how far the input image gets shifted downwards"
 msgstr "输入图像向下偏移的距离"
 
 #. default: white
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2920
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2918
 msgid "Specular Color:"
 msgstr "高光颜色:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2923
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2921
 #: ../share/extensions/interp.inx.h:2
 msgid "Exponent:"
 msgstr "指数:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2923
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2921
 msgid "Exponent for specular term, larger is more \"shiny\"."
 msgstr "镜面反射指数, 大值更 \"光亮\"."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2932
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2930
 msgid "Indicates whether the filter primitive should perform a noise or turbulence function."
 msgstr "指示滤镜基元是否需要执行噪声或紊乱功能."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2933
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2931
 msgid "Base Frequency:"
 msgstr "基频:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2934
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2932
 msgid "Octaves:"
 msgstr "倍频程:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2935
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2933
 msgid "Seed:"
 msgstr "种子:"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2935
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2933
 msgid "The starting number for the pseudo random number generator."
 msgstr "伪随机数产生器的初始值"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2947
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2945
 msgid "Add filter primitive"
 msgstr "添加滤镜基元"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2964
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2962
 msgid "The <b>feBlend</b> filter primitive provides 4 image blending modes: screen, multiply, darken and lighten."
 msgstr "滤镜基元<b>feBlend</b>提供了4种图像混合模式: 遮蔽, 增强, 变暗和变亮. "
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2968
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2966
 msgid "The <b>feColorMatrix</b> filter primitive applies a matrix transformation to color of each rendered pixel. This allows for effects like turning object to grayscale, modifying color saturation and changing color hue."
 msgstr "滤镜基元<b>feColorMatrix</b>对每个像素的颜色进行矩阵变换. 可以产生类似于转换到灰度, 更改饱和度和色调等的效果."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2972
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2970
 msgid "The <b>feComponentTransfer</b> filter primitive manipulates the input's color components (red, green, blue, and alpha) according to particular transfer functions, allowing operations like brightness and contrast adjustment, color balance, and thresholding."
 msgstr "滤镜基元<b>feComponentTransfer</b>根据特定的转换方式修改输入的色彩成分(红, 绿, 蓝和透明度), 操作效果类似于亮度和对比度调整, 色彩平衡, 以及色阈."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2976
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2974
 msgid "The <b>feComposite</b> filter primitive composites two images using one of the Porter-Duff blending modes or the arithmetic mode described in SVG standard. Porter-Duff blending modes are essentially logical operations between the corresponding pixel values of the images."
 msgstr "滤镜基元<b>feComposite</b>使用Porter-Duff混合模式或者SVG标准中描述的算法对两个图像进行组合. Porter-Duff模式是对图像中的对应像素进行逻辑操作."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2980
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2978
 msgid "The <b>feConvolveMatrix</b> lets you specify a Convolution to be applied on the image. Common effects created using convolution matrices are blur, sharpening, embossing and edge detection. Note that while gaussian blur can be created using this filter primitive, the special gaussian blur primitive is faster and resolution-independent."
 msgstr "滤镜基元<b>feConvolveMatrix</b>对图像进行卷积. 使用卷积矩阵产生的一般效果包括模糊, 锐化, 浮雕和边沿检测. 尽管高斯模糊也可以用这种方式产生, 但专用的高斯模糊滤镜基元速度更快并且与分辨率无关."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2984
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2982
 msgid "The <b>feDiffuseLighting</b> and feSpecularLighting filter primitives create \"embossed\" shadings.  The input's alpha channel is used to provide depth information: higher opacity areas are raised toward the viewer and lower opacity areas recede away from the viewer."
 msgstr "滤镜基元<b>feDiffuseLighting</b> 和 feSpecularLighting 产生\"浮雕式\"的阴影. 输入的alpha通道用来提供深度信息: 不透明的区域向观察者凸出, 透明区域则向内凹陷."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2988
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2986
 msgid "The <b>feDisplacementMap</b> filter primitive displaces the pixels in the first input using the second input as a displacement map, that shows from how far the pixel should come from. Classical examples are whirl and pinch effects."
 msgstr "滤镜基元<b>feDisplacementMap</b>使用第二个输入作为位移贴图来平移第一个输入上的像素, 第二个输入确定了每个像素的距离. 经典效果包括回旋和收缩."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2992
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2990
 msgid "The <b>feFlood</b> filter primitive fills the region with a given color and opacity.  It is usually used as an input to other filters to apply color to a graphic."
 msgstr "基础滤镜<b>feFlood</b>(浸漫)用指定的颜色和透明度填充区域.  经常用来作为其它滤镜的输入, 来为图形着色."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:2996
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2994
 msgid "The <b>feGaussianBlur</b> filter primitive uniformly blurs its input.  It is commonly used together with feOffset to create a drop shadow effect."
 msgstr "滤镜基元<b>feGaussianBlur</b>对输入进行均一模糊. 通常与feOffset组合使用构成阴影投射效果."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3000
+#: ../src/ui/dialog/filter-effects-dialog.cpp:2998
 msgid "The <b>feImage</b> filter primitive fills the region with an external image or another part of the document."
 msgstr "滤镜基元<b>feImage</b>用另外一幅图像或文档的另外一部分来填充区域."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3004
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3002
 msgid "The <b>feMerge</b> filter primitive composites several temporary images inside the filter primitive to a single image. It uses normal alpha compositing for this. This is equivalent to using several feBlend primitives in 'normal' mode or several feComposite primitives in 'over' mode."
 msgstr "滤镜基元<b>feMerge</b>将滤镜内的几个临时图像通过标准alpha方式合并为一个图像. 与通过多次执行feBlend中的\"标准\"模式和feComposite中\"over\"模式合并图像是等效的."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3008
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3006
 msgid "The <b>feMorphology</b> filter primitive provides erode and dilate effects. For single-color objects erode makes the object thinner and dilate makes it thicker."
 msgstr "滤镜基元<b>feMorphology</b> 提供了浸蚀与膨胀效果. 对于单色对象, 浸蚀使其窄薄, 而膨胀使其变厚."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3012
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3010
 msgid "The <b>feOffset</b> filter primitive offsets the image by an user-defined amount. For example, this is useful for drop shadows, where the shadow is in a slightly different position than the actual object."
 msgstr "滤镜基元<b>feOffset</b> 将图像偏移指定的距离. 例如, 在投射阴影时, 阴影要略微偏离实际对象的位置."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3016
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3014
 msgid "The <b>feDiffuseLighting</b> and <b>feSpecularLighting</b> filter primitives create \"embossed\" shadings.  The input's alpha channel is used to provide depth information: higher opacity areas are raised toward the viewer and lower opacity areas recede away from the viewer."
 msgstr "此<b>扩散光 (feDiffuseLighting) </b>和<b>反射光 (feSpecularLighting) </b>滤镜基元用来制作“浮凸的”明暗变化。输入透明色版用以提供深度信息：较高的不透明范围会加强浮凸的视觉效果，而较低的不透明范围则会减弱。"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3020
-msgid "The <b>feTile</b> filter primitive tiles a region with its input graphic"
-msgstr "滤镜基元<b>feTile</b>平铺输入图形"
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3018
+#, fuzzy
+#| msgid "The <b>feImage</b> filter primitive fills the region with an external image or another part of the document."
+msgid "The <b>feTile</b> filter primitive tiles a region with an input graphic. The source tile is defined by the filter primitive subregion of the input."
+msgstr "滤镜基元<b>feImage</b>用另外一幅图像或文档的另外一部分来填充区域."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3024
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3022
 msgid "The <b>feTurbulence</b> filter primitive renders Perlin noise. This kind of noise is useful in simulating several nature phenomena like clouds, fire and smoke and in generating complex textures like marble or granite."
 msgstr "滤镜基元<b>feTurbulence</b>渲染柏林噪声. 同样用于模拟一些自然现象, 例如云、火焰和烟雾, 以及产生类似大理石或花岗石的复杂纹理."
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3043
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3041
 msgid "Duplicate filter primitive"
 msgstr "再制滤镜基元"
 
-#: ../src/ui/dialog/filter-effects-dialog.cpp:3096
+#: ../src/ui/dialog/filter-effects-dialog.cpp:3094
 msgid "Set filter primitive attribute"
 msgstr "设置滤镜基元属性"
 
@@ -15470,7 +15576,7 @@ msgstr "螺旋"
 msgid "Search spirals"
 msgstr "搜索螺旋"
 
-#: ../src/ui/dialog/find.cpp:103 ../src/widgets/toolbox.cpp:1735
+#: ../src/ui/dialog/find.cpp:103 ../src/widgets/toolbox.cpp:1738
 msgid "Paths"
 msgstr "路径"
 
@@ -17343,17 +17449,23 @@ msgid "Set the language for menus and number formats"
 msgstr "设置菜单和数字格式的语言"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+#| msgid "Large"
+msgctxt "Icon size"
 msgid "Large"
 msgstr "大"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
-#: ../src/ui/dialog/inkscape-preferences.cpp:689
-#: ../src/ui/widget/font-variants.cpp:51
+#, fuzzy
+#| msgid "Small"
+msgctxt "Icon size"
 msgid "Small"
 msgstr "小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:604
+#, fuzzy
+#| msgid "Smaller"
+msgctxt "Icon size"
 msgid "Smaller"
 msgstr "更小"
 
@@ -17518,6 +17630,23 @@ msgid "Aggressive"
 msgstr "腐蚀"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+#| msgid "Small"
+msgctxt "Window size"
+msgid "Small"
+msgstr "小"
+
+#: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+#| msgid "Large"
+msgctxt "Window size"
+msgid "Large"
+msgstr "大"
+
+#: ../src/ui/dialog/inkscape-preferences.cpp:689
+#, fuzzy
+#| msgid "Maximized"
+msgctxt "Window size"
 msgid "Maximized"
 msgstr "最大化"
 
@@ -18182,7 +18311,7 @@ msgid "Color custom markers the same color as object"
 msgstr "颜色自定义标记，和对象一样的颜色"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1178
-#: ../src/ui/dialog/inkscape-preferences.cpp:1400
+#: ../src/ui/dialog/inkscape-preferences.cpp:1398
 msgid "Update marker color when object color changes"
 msgstr "当对象颜色变化时更新标记颜色"
 
@@ -18362,691 +18491,696 @@ msgstr "阈值(_T):"
 msgid "How far (in screen pixels) you need to be from the canvas edge to trigger autoscroll; positive is outside the canvas, negative is within the canvas"
 msgstr "从画布边缘到触发自动滚动需要多远; 正值远离画布, 负值在画布内"
 
-#.
-#. _scroll_space.init ( _("Left mouse button pans when Space is pressed"), "/options/spacepans/value", false);
-#. _page_scrolling.add_line( false, "", _scroll_space, "",
-#. _("When on, pressing and holding Space and dragging with left mouse button pans canvas (as in Adobe Illustrator); when off, Space temporarily switches to Selector tool (default)"));
-#.
-#: ../src/ui/dialog/inkscape-preferences.cpp:1258
+#: ../src/ui/dialog/inkscape-preferences.cpp:1253
+#, fuzzy
+#| msgid "Left mouse button pans when Space is pressed"
+msgid "Mouse move pans when Space is pressed"
+msgstr "按下空格键时, 左键拖动画布"
+
+#: ../src/ui/dialog/inkscape-preferences.cpp:1255
+msgid "When on, pressing and holding Space and dragging pans canvas"
+msgstr ""
+
+#: ../src/ui/dialog/inkscape-preferences.cpp:1256
 msgid "Mouse wheel zooms by default"
 msgstr "鼠标滚轮默认为缩放"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1260
+#: ../src/ui/dialog/inkscape-preferences.cpp:1258
 msgid "When on, mouse wheel zooms without Ctrl and scrolls canvas with Ctrl; when off, it zooms with Ctrl and scrolls without Ctrl"
 msgstr "打开时, 鼠标滚轮控制缩放, Ctrl配合滚轮卷屏; 关闭时, 滚轮卷屏, Ctrl配合滚轮缩放"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1261
+#: ../src/ui/dialog/inkscape-preferences.cpp:1259
 msgid "Scrolling"
 msgstr "滚动"
 
 #. Snapping options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1264
+#: ../src/ui/dialog/inkscape-preferences.cpp:1262
 msgid "Snap indicator"
 msgstr "打开捕捉指示"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1266
+#: ../src/ui/dialog/inkscape-preferences.cpp:1264
 msgid "Enable snap indicator"
 msgstr "打开捕捉指示"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1268
+#: ../src/ui/dialog/inkscape-preferences.cpp:1266
 msgid "After snapping, a symbol is drawn at the point that has snapped"
 msgstr "捕捉到点后, 在该点上显示一个标记"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1273
+#: ../src/ui/dialog/inkscape-preferences.cpp:1271
 msgid "Snap indicator persistence (in seconds):"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1274
+#: ../src/ui/dialog/inkscape-preferences.cpp:1272
 msgid "Controls how long the snap indicator message will be shown, before it disappears"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1276
+#: ../src/ui/dialog/inkscape-preferences.cpp:1274
 msgid "What should snap"
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1278
+#: ../src/ui/dialog/inkscape-preferences.cpp:1276
 msgid "Only snap the node closest to the pointer"
 msgstr "仅捕捉离指针最近的节点"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1280
+#: ../src/ui/dialog/inkscape-preferences.cpp:1278
 msgid "Only try to snap the node that is initially closest to the mouse pointer"
 msgstr "仅捕捉到一开始离鼠标指针最近的节点"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1283
+#: ../src/ui/dialog/inkscape-preferences.cpp:1281
 msgid "_Weight factor:"
 msgstr "权重系数(_W):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1284
+#: ../src/ui/dialog/inkscape-preferences.cpp:1282
 msgid "When multiple snap solutions are found, then Inkscape can either prefer the closest transformation (when set to 0), or prefer the node that was initially the closest to the pointer (when set to 1)"
 msgstr "当有多种捕捉方式时, Inkscape可以优先选择最接近变换后的 (设置为0), 或者一开始最接近指针的点 (设置为1)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1286
+#: ../src/ui/dialog/inkscape-preferences.cpp:1284
 msgid "Snap the mouse pointer when dragging a constrained knot"
 msgstr "当拖动一个约束结时，吸附鼠标指针"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1288
+#: ../src/ui/dialog/inkscape-preferences.cpp:1286
 msgid "When dragging a knot along a constraint line, then snap the position of the mouse pointer instead of snapping the projection of the knot onto the constraint line"
 msgstr "当沿着一条约束线拖动一个结时，那么吸附鼠标指针的位置而不是吸附结的投影到约束线上"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1290
+#: ../src/ui/dialog/inkscape-preferences.cpp:1288
 msgid "Delayed snap"
 msgstr "总是捕捉"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1293
+#: ../src/ui/dialog/inkscape-preferences.cpp:1291
 msgid "Delay (in seconds):"
 msgstr "延迟 (毫秒):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1294
+#: ../src/ui/dialog/inkscape-preferences.cpp:1292
 msgid "Postpone snapping as long as the mouse is moving, and then wait an additional fraction of a second. This additional delay is specified here. When set to zero or to a very small number, snapping will be immediate."
 msgstr "鼠标移动时将暂停捕捉, 并另外延几分之一秒. 在这里指定另外的延迟时间. 如果设置为0或者非常小的数, 将立即进行捕捉。"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1296
+#: ../src/ui/dialog/inkscape-preferences.cpp:1294
 msgid "Snapping"
 msgstr "捕捉"
 
 #. nudgedistance is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1301
+#: ../src/ui/dialog/inkscape-preferences.cpp:1299
 msgid "_Arrow keys move by:"
 msgstr "方向键移动距离（_A）:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1302
+#: ../src/ui/dialog/inkscape-preferences.cpp:1300
 msgid "Pressing an arrow key moves selected object(s) or node(s) by this distance"
 msgstr "按住一个方向键，按这个距离移动选择的对象或节点"
 
 #. defaultscale is limited to 1000 in select-context.cpp: use the same limit here
-#: ../src/ui/dialog/inkscape-preferences.cpp:1305
+#: ../src/ui/dialog/inkscape-preferences.cpp:1303
 msgid "> and < _scale by:"
 msgstr "> 和 < 缩放比例(_S):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1306
+#: ../src/ui/dialog/inkscape-preferences.cpp:1304
 msgid "Pressing > or < scales selection up or down by this increment"
 msgstr "按住 > 或 < 按这个向上或下扩展"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1308
+#: ../src/ui/dialog/inkscape-preferences.cpp:1306
 msgid "_Inset/Outset by:"
 msgstr "插入/拔出距离(_I):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1309
+#: ../src/ui/dialog/inkscape-preferences.cpp:1307
 msgid "Inset and Outset commands displace the path by this distance"
 msgstr "按这个距离插入和拔出命令替换路径"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1310
+#: ../src/ui/dialog/inkscape-preferences.cpp:1308
 msgid "Compass-like display of angles"
 msgstr "指南针式显示角度"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1312
+#: ../src/ui/dialog/inkscape-preferences.cpp:1310
 msgid "When on, angles are displayed with 0 at north, 0 to 360 range, positive clockwise; otherwise with 0 at east, -180 to 180 range, positive counterclockwise"
 msgstr "启用时, 角度将会按照 0 度在北部, 范围 0 到 360 度, 顺时针方向显示, 否则 0 度在东方, 范围 -180 到 180 度, 逆时针方向"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1314
+#: ../src/ui/dialog/inkscape-preferences.cpp:1312
 msgctxt "Rotation angle"
 msgid "None"
 msgstr "无"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1318
+#: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "_Rotation snaps every:"
 msgstr "旋转中心每隔(_R):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1318
+#: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "degrees"
 msgstr "度"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1319
+#: ../src/ui/dialog/inkscape-preferences.cpp:1317
 msgid "Rotating with Ctrl pressed snaps every that much degrees; also, pressing [ or ] rotates by this amount"
 msgstr "按住 Ctrl 旋转每隔指定度数捕捉; 同时, 按住 [或者] 旋转按照此度数"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1320
+#: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Relative snapping of guideline angles"
 msgstr "辅助线角度的相对吸附"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1322
+#: ../src/ui/dialog/inkscape-preferences.cpp:1320
 msgid "When on, the snap angles when rotating a guideline will be relative to the original angle"
 msgstr "当打开时，当旋转一条辅助线时将会相对于原始角度吸附角度"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1324
+#: ../src/ui/dialog/inkscape-preferences.cpp:1322
 msgid "_Zoom in/out by:"
 msgstr "缩小/放大(_Z):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1324
+#: ../src/ui/dialog/inkscape-preferences.cpp:1322
 #: ../src/ui/dialog/objects.cpp:1626
 #: ../src/ui/widget/filter-effect-chooser.cpp:27
 msgid "%"
 msgstr "%"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1325
+#: ../src/ui/dialog/inkscape-preferences.cpp:1323
 msgid "Zoom tool click, +/- keys, and middle click zoom in and out by this multiplier"
 msgstr "缩放工具单击,  +/- 键和鼠标中键单击按照此系数缩放"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1326
+#: ../src/ui/dialog/inkscape-preferences.cpp:1324
 msgid "Steps"
 msgstr "步数"
 
 #. Clones options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1329
+#: ../src/ui/dialog/inkscape-preferences.cpp:1327
 msgid "Move in parallel"
 msgstr "平行移动"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1331
+#: ../src/ui/dialog/inkscape-preferences.cpp:1329
 msgid "Stay unmoved"
 msgstr "保持未移动"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1333
+#: ../src/ui/dialog/inkscape-preferences.cpp:1331
 msgid "Move according to transform"
 msgstr "根据变换移动"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1335
+#: ../src/ui/dialog/inkscape-preferences.cpp:1333
 msgid "Are unlinked"
 msgstr "是未链接的"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1337
+#: ../src/ui/dialog/inkscape-preferences.cpp:1335
 msgid "Are deleted"
 msgstr "是未删除的"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1340
+#: ../src/ui/dialog/inkscape-preferences.cpp:1338
 msgid "Moving original: clones and linked offsets"
 msgstr "移动原件：克隆和链接的偏移"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1342
+#: ../src/ui/dialog/inkscape-preferences.cpp:1340
 msgid "Clones are translated by the same vector as their original"
 msgstr "克隆与原对象以相同的向量变化"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1344
+#: ../src/ui/dialog/inkscape-preferences.cpp:1342
 msgid "Clones preserve their positions when their original is moved"
 msgstr "当原始对象移动时，克隆保持自己的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1346
+#: ../src/ui/dialog/inkscape-preferences.cpp:1344
 msgid "Each clone moves according to the value of its transform= attribute; for example, a rotated clone will move in a different direction than its original"
 msgstr "每个克隆的移动量依据变换 = 属性的值.例如, 旋转的克隆与原对象移动方向不同"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1347
+#: ../src/ui/dialog/inkscape-preferences.cpp:1345
 msgid "Deleting original: clones"
 msgstr "正在删除原件：克隆"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1349
+#: ../src/ui/dialog/inkscape-preferences.cpp:1347
 msgid "Orphaned clones are converted to regular objects"
 msgstr "孤立克隆转化成一般对象"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1351
+#: ../src/ui/dialog/inkscape-preferences.cpp:1349
 msgid "Orphaned clones are deleted along with their original"
 msgstr "孤立克隆随原对象一起删除"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1353
+#: ../src/ui/dialog/inkscape-preferences.cpp:1351
 msgid "Duplicating original+clones/linked offset"
 msgstr "复制原件+克隆/链接的偏移"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1355
+#: ../src/ui/dialog/inkscape-preferences.cpp:1353
 msgid "Relink duplicated clones"
 msgstr "重新链接再制的克隆"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1357
+#: ../src/ui/dialog/inkscape-preferences.cpp:1355
 msgid "When duplicating a selection containing both a clone and its original (possibly in groups), relink the duplicated clone to the duplicated original instead of the old original"
 msgstr "当再制的选区同时包含原始和其克隆对象时 (比如同时在群组中), 将再制的克隆链接到再制的原始对象上, 而不是旧的原始对象."
 
 #. TRANSLATORS: Heading for the Inkscape Preferences "Clones" Page
-#: ../src/ui/dialog/inkscape-preferences.cpp:1360
+#: ../src/ui/dialog/inkscape-preferences.cpp:1358
 msgid "Clones"
 msgstr "克隆"
 
 #. Clip paths and masks options
-#: ../src/ui/dialog/inkscape-preferences.cpp:1363
+#: ../src/ui/dialog/inkscape-preferences.cpp:1361
 msgid "When applying, use the topmost selected object as clippath/mask"
 msgstr "使用最上面的已选对象作为裁剪路径或遮罩"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1365
+#: ../src/ui/dialog/inkscape-preferences.cpp:1363
 msgid "Uncheck this to use the bottom selected object as the clipping path or mask"
 msgstr "不选定这项使用底层已选对象作为裁剪路径或遮罩"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1366
+#: ../src/ui/dialog/inkscape-preferences.cpp:1364
 msgid "Remove clippath/mask object after applying"
 msgstr "应用之后去除剪裁路径或遮罩"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1368
+#: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgid "After applying, remove the object used as the clipping path or mask from the drawing"
 msgstr "应用之后, 从绘图中去除作为剪裁路径或遮罩的对象"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1370
+#: ../src/ui/dialog/inkscape-preferences.cpp:1368
 msgid "Before applying"
 msgstr "在应用前"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1372
+#: ../src/ui/dialog/inkscape-preferences.cpp:1370
 msgid "Do not group clipped/masked objects"
 msgstr "不组合剪辑/掩盖的对象"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1373
+#: ../src/ui/dialog/inkscape-preferences.cpp:1371
 msgid "Put every clipped/masked object in its own group"
 msgstr "把每个剪辑/掩盖的对象放在它自己的组中"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1374
+#: ../src/ui/dialog/inkscape-preferences.cpp:1372
 msgid "Put all clipped/masked objects into one group"
 msgstr "把所有剪辑/掩盖的对象放在一个组中"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1377
+#: ../src/ui/dialog/inkscape-preferences.cpp:1375
 msgid "Apply clippath/mask to every object"
 msgstr "应用剪辑路径/蒙板到每个对象"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1380
+#: ../src/ui/dialog/inkscape-preferences.cpp:1378
 msgid "Apply clippath/mask to groups containing single object"
 msgstr "应用剪辑路径/蒙板到包含单一对象的组"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1383
+#: ../src/ui/dialog/inkscape-preferences.cpp:1381
 msgid "Apply clippath/mask to group containing all objects"
 msgstr "应用剪辑路径/蒙板到包含所有对象的组"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1385
+#: ../src/ui/dialog/inkscape-preferences.cpp:1383
 msgid "After releasing"
 msgstr "在释放后"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1387
+#: ../src/ui/dialog/inkscape-preferences.cpp:1385
 msgid "Ungroup automatically created groups"
 msgstr "解除自动创建的群组"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1389
+#: ../src/ui/dialog/inkscape-preferences.cpp:1387
 msgid "Ungroup groups created when setting clip/mask"
 msgstr "当设置剪辑/蒙板时取消创建的分组"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1391
+#: ../src/ui/dialog/inkscape-preferences.cpp:1389
 msgid "Clippaths and masks"
 msgstr "裁剪和遮罩"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1394
+#: ../src/ui/dialog/inkscape-preferences.cpp:1392
 msgid "Stroke Style Markers"
 msgstr "笔画样式标记"
 
+#: ../src/ui/dialog/inkscape-preferences.cpp:1394
 #: ../src/ui/dialog/inkscape-preferences.cpp:1396
-#: ../src/ui/dialog/inkscape-preferences.cpp:1398
 msgid "Stroke color same as object, fill color either object fill color or marker fill color"
 msgstr "笔画颜色和对象一样，填充颜色和对象填充色或者标记填充色系统"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1402
+#: ../src/ui/dialog/inkscape-preferences.cpp:1400
 #: ../share/extensions/hershey.inx.h:27
 msgid "Markers"
 msgstr "标记"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1405
+#: ../src/ui/dialog/inkscape-preferences.cpp:1403
 msgid "Document cleanup"
 msgstr "文档清理"
 
+#: ../src/ui/dialog/inkscape-preferences.cpp:1404
 #: ../src/ui/dialog/inkscape-preferences.cpp:1406
-#: ../src/ui/dialog/inkscape-preferences.cpp:1408
 msgid "Remove unused swatches when doing a document cleanup"
 msgstr "当完成一次文档清理时删除不实用的开关符"
 
 #. tooltip
-#: ../src/ui/dialog/inkscape-preferences.cpp:1409
+#: ../src/ui/dialog/inkscape-preferences.cpp:1407
 msgid "Cleanup"
 msgstr "清理"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1417
+#: ../src/ui/dialog/inkscape-preferences.cpp:1415
 msgid "Number of _Threads:"
 msgstr "线程数（_T):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1417
-#: ../src/ui/dialog/inkscape-preferences.cpp:1953
+#: ../src/ui/dialog/inkscape-preferences.cpp:1415
+#: ../src/ui/dialog/inkscape-preferences.cpp:1951
 msgid "(requires restart)"
 msgstr "(需要重新启动)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1418
+#: ../src/ui/dialog/inkscape-preferences.cpp:1416
 msgid "Configure number of processors/threads to use when rendering filters"
 msgstr "配置在渲染滤镜时要使用的进程/线程的数量"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1422
+#: ../src/ui/dialog/inkscape-preferences.cpp:1420
 msgid "Rendering _cache size:"
 msgstr "渲染缓存大小(_C):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1422
+#: ../src/ui/dialog/inkscape-preferences.cpp:1420
 msgctxt "mebibyte (2^20 bytes) abbreviation"
 msgid "MiB"
 msgstr "MiB"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1422
+#: ../src/ui/dialog/inkscape-preferences.cpp:1420
 msgid "Set the amount of memory per document which can be used to store rendered parts of the drawing for later reuse; set to zero to disable caching"
 msgstr "设置每个文档可以用于存储作为绘图的已渲染部分用于以后重复使用的内存的数量;设为 0 表示禁用缓存"
 
 #. blur quality
 #. filter quality
-#: ../src/ui/dialog/inkscape-preferences.cpp:1425
-#: ../src/ui/dialog/inkscape-preferences.cpp:1449
+#: ../src/ui/dialog/inkscape-preferences.cpp:1423
+#: ../src/ui/dialog/inkscape-preferences.cpp:1447
 msgid "Best quality (slowest)"
 msgstr "最佳质量(最慢)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1427
-#: ../src/ui/dialog/inkscape-preferences.cpp:1451
+#: ../src/ui/dialog/inkscape-preferences.cpp:1425
+#: ../src/ui/dialog/inkscape-preferences.cpp:1449
 msgid "Better quality (slower)"
 msgstr "较好质量(较慢)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1429
-#: ../src/ui/dialog/inkscape-preferences.cpp:1453
+#: ../src/ui/dialog/inkscape-preferences.cpp:1427
+#: ../src/ui/dialog/inkscape-preferences.cpp:1451
 msgid "Average quality"
 msgstr "普通质量"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1431
-#: ../src/ui/dialog/inkscape-preferences.cpp:1455
+#: ../src/ui/dialog/inkscape-preferences.cpp:1429
+#: ../src/ui/dialog/inkscape-preferences.cpp:1453
 msgid "Lower quality (faster)"
 msgstr "较低质量(较快)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1433
-#: ../src/ui/dialog/inkscape-preferences.cpp:1457
+#: ../src/ui/dialog/inkscape-preferences.cpp:1431
+#: ../src/ui/dialog/inkscape-preferences.cpp:1455
 msgid "Lowest quality (fastest)"
 msgstr "最差质量(最快)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1436
+#: ../src/ui/dialog/inkscape-preferences.cpp:1434
 msgid "Gaussian blur quality for display"
 msgstr "用于显示的高斯模糊质量"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1438
-#: ../src/ui/dialog/inkscape-preferences.cpp:1462
+#: ../src/ui/dialog/inkscape-preferences.cpp:1436
+#: ../src/ui/dialog/inkscape-preferences.cpp:1460
 msgid "Best quality, but display may be very slow at high zooms (bitmap export always uses best quality)"
 msgstr "最佳质量, 但是放大倍数大的时候非常慢(导出位图始终使用最佳质量)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1440
-#: ../src/ui/dialog/inkscape-preferences.cpp:1464
+#: ../src/ui/dialog/inkscape-preferences.cpp:1438
+#: ../src/ui/dialog/inkscape-preferences.cpp:1462
 msgid "Better quality, but slower display"
 msgstr "较好质量, 但是显示较慢"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1442
-#: ../src/ui/dialog/inkscape-preferences.cpp:1466
+#: ../src/ui/dialog/inkscape-preferences.cpp:1440
+#: ../src/ui/dialog/inkscape-preferences.cpp:1464
 msgid "Average quality, acceptable display speed"
 msgstr "普通质量, 可接受的显示速度"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1444
-#: ../src/ui/dialog/inkscape-preferences.cpp:1468
+#: ../src/ui/dialog/inkscape-preferences.cpp:1442
+#: ../src/ui/dialog/inkscape-preferences.cpp:1466
 msgid "Lower quality (some artifacts), but display is faster"
 msgstr "较差质量(有一些失真), 但是显示较快"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1446
-#: ../src/ui/dialog/inkscape-preferences.cpp:1470
+#: ../src/ui/dialog/inkscape-preferences.cpp:1444
+#: ../src/ui/dialog/inkscape-preferences.cpp:1468
 msgid "Lowest quality (considerable artifacts), but display is fastest"
 msgstr "最差质量(相当乱), 但是显示最快"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1460
+#: ../src/ui/dialog/inkscape-preferences.cpp:1458
 msgid "Filter effects quality for display"
 msgstr "用于显示的滤镜效果质量"
 
 #. build custom preferences tab
-#: ../src/ui/dialog/inkscape-preferences.cpp:1472
+#: ../src/ui/dialog/inkscape-preferences.cpp:1470
 #: ../src/ui/dialog/print.cpp:215
 msgid "Rendering"
 msgstr "渲染"
 
 #. Note: /options/bitmapoversample removed with Cairo renderer
-#: ../src/ui/dialog/inkscape-preferences.cpp:1478 ../src/verbs.cpp:156
+#: ../src/ui/dialog/inkscape-preferences.cpp:1476 ../src/verbs.cpp:156
 #: ../src/widgets/calligraphy-toolbar.cpp:626
 msgid "Edit"
 msgstr "编辑"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1479
+#: ../src/ui/dialog/inkscape-preferences.cpp:1477
 msgid "Automatically reload bitmaps"
 msgstr "自动加载位图"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1481
+#: ../src/ui/dialog/inkscape-preferences.cpp:1479
 msgid "Automatically reload linked images when file is changed on disk"
 msgstr "当磁盘文件改变时, 自动重新加载链接的图像"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1483
+#: ../src/ui/dialog/inkscape-preferences.cpp:1481
 msgid "_Bitmap editor:"
 msgstr "位图编辑器(_B):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1485
+#: ../src/ui/dialog/inkscape-preferences.cpp:1483
 #: ../share/extensions/guillotine.inx.h:5 ../share/extensions/plotter.inx.h:65
 #: ../share/extensions/print_win32_vector.inx.h:2
 msgid "Export"
 msgstr "导出"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1487
+#: ../src/ui/dialog/inkscape-preferences.cpp:1485
 msgid "Default export _resolution:"
 msgstr "默认导出分辨率(_R):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1488
+#: ../src/ui/dialog/inkscape-preferences.cpp:1486
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
 msgstr "导出对话框里的默认位图分辨率(单位点每英寸)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1489
+#: ../src/ui/dialog/inkscape-preferences.cpp:1487
 #: ../src/ui/dialog/xml-tree.cpp:920
 msgid "Create"
 msgstr "创建"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1491
+#: ../src/ui/dialog/inkscape-preferences.cpp:1489
 msgid "Resolution for Create Bitmap _Copy:"
 msgstr "创建位图拷贝的分辨率(_C):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1492
+#: ../src/ui/dialog/inkscape-preferences.cpp:1490
 msgid "Resolution used by the Create Bitmap Copy command"
 msgstr "创建位图副本命令所使用的分辨率"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1495
+#: ../src/ui/dialog/inkscape-preferences.cpp:1493
 msgid "Ask about linking and scaling when importing"
 msgstr "在导入时询问链接和缩放"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1497
+#: ../src/ui/dialog/inkscape-preferences.cpp:1495
 msgid "Pop-up linking and scaling dialog when importing bitmap image."
 msgstr "当导入位图图像时弹出链接和缩放对话框。"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1503
+#: ../src/ui/dialog/inkscape-preferences.cpp:1501
 msgid "Bitmap link:"
 msgstr "位图链接："
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1510
+#: ../src/ui/dialog/inkscape-preferences.cpp:1508
 msgid "Bitmap scale (image-rendering):"
 msgstr "位图缩放(图像渲染):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1515
+#: ../src/ui/dialog/inkscape-preferences.cpp:1513
 msgid "Default _import resolution:"
 msgstr "默认导入分辨率（_I）:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1516
+#: ../src/ui/dialog/inkscape-preferences.cpp:1514
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
 msgstr "用于位图导入的默认位图分辨率(单位为点每英寸)"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1517
+#: ../src/ui/dialog/inkscape-preferences.cpp:1515
 msgid "Override file resolution"
 msgstr "忽略文件分辨率"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1519
+#: ../src/ui/dialog/inkscape-preferences.cpp:1517
 msgid "Use default bitmap resolution in favor of information from file"
 msgstr "使用来自文件所支持的默认位图分辨率"
 
 #. rendering outlines for pixmap image tags
-#: ../src/ui/dialog/inkscape-preferences.cpp:1523
+#: ../src/ui/dialog/inkscape-preferences.cpp:1521
 msgid "Images in Outline Mode"
 msgstr "外框模式显示图片"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1524
+#: ../src/ui/dialog/inkscape-preferences.cpp:1522
 msgid "When active will render images while in outline mode instead of a red box with an x. This is useful for manual tracing."
 msgstr "当启用时外框模式会显示图片而不是显示红色方框里面中间一个 x。此选项对手动描绘时很帮助。"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1526
+#: ../src/ui/dialog/inkscape-preferences.cpp:1524
 msgid "Bitmaps"
 msgstr "位图"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1538
+#: ../src/ui/dialog/inkscape-preferences.cpp:1536
 msgid "Select a file of predefined shortcuts to use. Any customized shortcuts you create will be added separately to "
 msgstr ""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1541
+#: ../src/ui/dialog/inkscape-preferences.cpp:1539
 msgid "Shortcut file:"
 msgstr "快捷键文件："
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1544
+#: ../src/ui/dialog/inkscape-preferences.cpp:1542
 #: ../src/ui/dialog/template-load-tab.cpp:48
 msgid "Search:"
 msgstr "搜索："
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1556
+#: ../src/ui/dialog/inkscape-preferences.cpp:1554
 msgid "Shortcut"
 msgstr "快捷键"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1557
+#: ../src/ui/dialog/inkscape-preferences.cpp:1555
 #: ../src/ui/widget/page-sizer.cpp:287
 msgid "Description"
 msgstr "描述"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1612
+#: ../src/ui/dialog/inkscape-preferences.cpp:1610
 msgid "Remove all your customized keyboard shortcuts, and revert to the shortcuts in the shortcut file listed above"
 msgstr "移除全部自订的键盘快捷键，并用上面呈列的快捷键文件还原快捷键"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1616
+#: ../src/ui/dialog/inkscape-preferences.cpp:1614
 msgid "Import ..."
 msgstr "导入..."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1616
+#: ../src/ui/dialog/inkscape-preferences.cpp:1614
 msgid "Import custom keyboard shortcuts from a file"
 msgstr "从文件导入自订键盘快捷键"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1619
+#: ../src/ui/dialog/inkscape-preferences.cpp:1617
 msgid "Export ..."
 msgstr "导出..."
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1619
+#: ../src/ui/dialog/inkscape-preferences.cpp:1617
 msgid "Export custom keyboard shortcuts to a file"
 msgstr "将自订键盘快捷键导出到文件"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1629
+#: ../src/ui/dialog/inkscape-preferences.cpp:1627
 msgid "Keyboard Shortcuts"
 msgstr "快捷键"
 
 #. Find this group in the tree
-#: ../src/ui/dialog/inkscape-preferences.cpp:1792
+#: ../src/ui/dialog/inkscape-preferences.cpp:1790
 msgid "Misc"
 msgstr "杂项"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1894
+#: ../src/ui/dialog/inkscape-preferences.cpp:1892
 msgctxt "Spellchecker language"
 msgid "None"
 msgstr "不透明"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1915
+#: ../src/ui/dialog/inkscape-preferences.cpp:1913
 msgid "Set the main spell check language"
 msgstr "设置拼写检查的首选语言"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1918
+#: ../src/ui/dialog/inkscape-preferences.cpp:1916
 msgid "Second language:"
 msgstr "第二语言:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1919
+#: ../src/ui/dialog/inkscape-preferences.cpp:1917
 msgid "Set the second spell check language; checking will only stop on words unknown in ALL chosen languages"
 msgstr "设置第二种拼写检查语言; 当单词在在所有选定的语言中均找不到时, 检查才会停止"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1922
+#: ../src/ui/dialog/inkscape-preferences.cpp:1920
 msgid "Third language:"
 msgstr "第三语言"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1923
+#: ../src/ui/dialog/inkscape-preferences.cpp:1921
 msgid "Set the third spell check language; checking will only stop on words unknown in ALL chosen languages"
 msgstr "设置第三种拼写检查语言; 当单词在在所有选定的语言中均找不到时, 检查才会停止"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1925
+#: ../src/ui/dialog/inkscape-preferences.cpp:1923
 msgid "Ignore words with digits"
 msgstr "忽略含有数字的词"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1927
+#: ../src/ui/dialog/inkscape-preferences.cpp:1925
 msgid "Ignore words containing digits, such as \"R2D2\""
 msgstr "忽略含有数字的单词, 例如 \"R2D2\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1929
+#: ../src/ui/dialog/inkscape-preferences.cpp:1927
 msgid "Ignore words in ALL CAPITALS"
 msgstr "忽略全部大写的词"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1931
+#: ../src/ui/dialog/inkscape-preferences.cpp:1929
 msgid "Ignore words in all capitals, such as \"IUPAC\""
 msgstr "忽略全部大写的词, 例如\"IUPAC\""
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1933
+#: ../src/ui/dialog/inkscape-preferences.cpp:1931
 msgid "Spellcheck"
 msgstr "拼写检查"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1953
+#: ../src/ui/dialog/inkscape-preferences.cpp:1951
 msgid "Latency _skew:"
 msgstr "延时偏差(_S):"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1954
+#: ../src/ui/dialog/inkscape-preferences.cpp:1952
 msgid "Factor by which the event clock is skewed from the actual time (0.9766 on some systems)"
 msgstr "事件时钟和实际时钟的偏差的系数（在某些系统上是 0.9766）"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1956
+#: ../src/ui/dialog/inkscape-preferences.cpp:1954
 msgid "Pre-render named icons"
 msgstr "预先渲染命名图标"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1958
+#: ../src/ui/dialog/inkscape-preferences.cpp:1956
 msgid "When on, named icons will be rendered before displaying the ui. This is for working around bugs in GTK+ named icon notification"
 msgstr "选中时, 命名图标将在显示用户界面前就渲染. 用来避免GTK+中命名图标通知的bug"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1966
+#: ../src/ui/dialog/inkscape-preferences.cpp:1964
 msgid "System info"
 msgstr "系统信息"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1970
+#: ../src/ui/dialog/inkscape-preferences.cpp:1968
 msgid "User config: "
 msgstr "用户设置:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1970
+#: ../src/ui/dialog/inkscape-preferences.cpp:1968
 msgid "Location of users configuration"
 msgstr "用户配置的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1974
+#: ../src/ui/dialog/inkscape-preferences.cpp:1972
 msgid "User preferences: "
 msgstr "用户首选项:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1974
+#: ../src/ui/dialog/inkscape-preferences.cpp:1972
 msgid "Location of the users preferences file"
 msgstr "用户首选项文件的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1978
+#: ../src/ui/dialog/inkscape-preferences.cpp:1976
 msgid "User extensions: "
 msgstr "用户扩展:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1978
+#: ../src/ui/dialog/inkscape-preferences.cpp:1976
 msgid "Location of the users extensions"
 msgstr "用户扩展的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1982
+#: ../src/ui/dialog/inkscape-preferences.cpp:1980
 msgid "User cache: "
 msgstr "用户缓存:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1982
+#: ../src/ui/dialog/inkscape-preferences.cpp:1980
 msgid "Location of users cache"
 msgstr "用户缓存的位置:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1990
+#: ../src/ui/dialog/inkscape-preferences.cpp:1988
 msgid "Temporary files: "
 msgstr "临时文件:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1990
+#: ../src/ui/dialog/inkscape-preferences.cpp:1988
 msgid "Location of the temporary files used for autosave"
 msgstr "用于自动保存的临时文件的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1994
+#: ../src/ui/dialog/inkscape-preferences.cpp:1992
 msgid "Inkscape data: "
 msgstr "Inkscape 数据:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1994
+#: ../src/ui/dialog/inkscape-preferences.cpp:1992
 msgid "Location of Inkscape data"
 msgstr "Inkscape 数据的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1998
+#: ../src/ui/dialog/inkscape-preferences.cpp:1996
 msgid "Inkscape extensions: "
 msgstr "Inkscape 扩展:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:1998
+#: ../src/ui/dialog/inkscape-preferences.cpp:1996
 msgid "Location of the Inkscape extensions"
 msgstr "Inkscape 扩展的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:2007
+#: ../src/ui/dialog/inkscape-preferences.cpp:2005
 msgid "System data: "
 msgstr "系统数据:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:2007
+#: ../src/ui/dialog/inkscape-preferences.cpp:2005
 msgid "Locations of system data"
 msgstr "系统数据的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:2031
+#: ../src/ui/dialog/inkscape-preferences.cpp:2029
 msgid "Icon theme: "
 msgstr "图标主题:"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:2031
+#: ../src/ui/dialog/inkscape-preferences.cpp:2029
 msgid "Locations of icon themes"
 msgstr "图标主题的位置"
 
-#: ../src/ui/dialog/inkscape-preferences.cpp:2033
+#: ../src/ui/dialog/inkscape-preferences.cpp:2031
 msgid "System"
 msgstr "系统"
 
@@ -19086,6 +19220,7 @@ msgstr "链接:"
 
 #: ../src/ui/dialog/input.cpp:742 ../src/ui/dialog/input.cpp:743
 #: ../src/ui/dialog/input.cpp:1571 ../src/ui/widget/color-scales.cpp:46
+#: ../share/extensions/plotter.inx.h:24
 msgid "None"
 msgstr "无"
 
@@ -19644,23 +19779,37 @@ msgid "Set object blur"
 msgstr "设置对象模糊"
 
 #: ../src/ui/dialog/objects.cpp:1617
+#, fuzzy
+#| msgid "V"
+msgctxt "Visibility"
 msgid "V"
 msgstr "V"
 
-#. TRANSLATORS: "L" here stands for Lightness
-#: ../src/ui/dialog/objects.cpp:1618 ../src/widgets/tweak-toolbar.cpp:323
+#: ../src/ui/dialog/objects.cpp:1618
+#, fuzzy
+#| msgid "L"
+msgctxt "Lock"
 msgid "L"
 msgstr "L"
 
 #: ../src/ui/dialog/objects.cpp:1619
+#, fuzzy
+#| msgid "T"
+msgctxt "Type"
 msgid "T"
 msgstr "T"
 
 #: ../src/ui/dialog/objects.cpp:1620
+#, fuzzy
+#| msgid "CM"
+msgctxt "Clip and mask"
 msgid "CM"
 msgstr "CM"
 
 #: ../src/ui/dialog/objects.cpp:1621
+#, fuzzy
+#| msgid "HL"
+msgctxt "Highlight"
 msgid "HL"
 msgstr "HL"
 
@@ -19761,7 +19910,7 @@ msgid "Unset Clip"
 msgstr "取消裁剪"
 
 #. Set mask
-#: ../src/ui/dialog/objects.cpp:1926 ../src/ui/interface.cpp:1739
+#: ../src/ui/dialog/objects.cpp:1926 ../src/ui/interface.cpp:1735
 msgid "Set Mask"
 msgstr "设置遮罩"
 
@@ -20402,7 +20551,9 @@ msgstr "设为默认（_D)："
 
 # Seems to be typographical example text to show most of the typeface features; used similar chars for 汉字.
 #: ../src/ui/dialog/text-edit.cpp:87
-msgid "AaBbCcIiPpQq12369$ےے?.;/()"
+#, fuzzy
+#| msgid "AaBbCcIiPpQq12369$ےے?.;/()"
+msgid "AaBbCcIiPpQq12369$€¢?.;/()"
 msgstr "AaBbCcIiPpQq12369$€¢?.;/() “東国三力今，書鷹酬鬱愛袋；永。”"
 
 #. Align buttons
@@ -20442,7 +20593,7 @@ msgstr "行间距离(字体大小的百分比)"
 msgid "Text path offset"
 msgstr "文本路径偏移"
 
-#: ../src/ui/dialog/text-edit.cpp:598 ../src/ui/dialog/text-edit.cpp:685
+#: ../src/ui/dialog/text-edit.cpp:612 ../src/ui/dialog/text-edit.cpp:699
 #: ../src/ui/tools/text-tool.cpp:1446
 msgid "Set text style"
 msgstr "设置文本风格"
@@ -20981,36 +21132,36 @@ msgstr "宽屏工作模式"
 msgid "Verb \"%s\" Unknown"
 msgstr "Verb \"%s\" 未知"
 
-#: ../src/ui/interface.cpp:901
+#: ../src/ui/interface.cpp:897
 msgid "Open _Recent"
 msgstr "打开最近文件(_R)"
 
-#: ../src/ui/interface.cpp:1009 ../src/ui/interface.cpp:1095
-#: ../src/ui/interface.cpp:1198 ../src/ui/widget/selected-style.cpp:544
+#: ../src/ui/interface.cpp:1005 ../src/ui/interface.cpp:1091
+#: ../src/ui/interface.cpp:1194 ../src/ui/widget/selected-style.cpp:544
 msgid "Drop color"
 msgstr "放置颜色"
 
-#: ../src/ui/interface.cpp:1048 ../src/ui/interface.cpp:1158
+#: ../src/ui/interface.cpp:1044 ../src/ui/interface.cpp:1154
 msgid "Drop color on gradient"
 msgstr "将颜色放置到渐变上"
 
-#: ../src/ui/interface.cpp:1211
+#: ../src/ui/interface.cpp:1207
 msgid "Could not parse SVG data"
 msgstr "不能解析SVG数据"
 
-#: ../src/ui/interface.cpp:1250
+#: ../src/ui/interface.cpp:1246
 msgid "Drop SVG"
 msgstr "放下 SVG"
 
-#: ../src/ui/interface.cpp:1263
+#: ../src/ui/interface.cpp:1259
 msgid "Drop Symbol"
 msgstr "放下符号"
 
-#: ../src/ui/interface.cpp:1294
+#: ../src/ui/interface.cpp:1290
 msgid "Drop bitmap image"
 msgstr "放置位图图像"
 
-#: ../src/ui/interface.cpp:1386
+#: ../src/ui/interface.cpp:1382
 #, c-format
 msgid ""
 "<span weight=\"bold\" size=\"larger\">A file named \"%s\" already exists. Do you want to replace it?</span>\n"
@@ -21021,166 +21172,166 @@ msgstr ""
 "\n"
 "已存在文件 \"%s\"..替换将覆盖其内容."
 
-#: ../src/ui/interface.cpp:1393 ../share/extensions/web-set-att.inx.h:21
+#: ../src/ui/interface.cpp:1389 ../share/extensions/web-set-att.inx.h:21
 #: ../share/extensions/web-transmit-att.inx.h:19
 msgid "Replace"
 msgstr "替换"
 
-#: ../src/ui/interface.cpp:1464
+#: ../src/ui/interface.cpp:1460
 msgid "Go to parent"
 msgstr "转到上一级"
 
 #. TRANSLATORS: #%1 is the id of the group e.g. <g id="#g7">, not a number.
-#: ../src/ui/interface.cpp:1505
+#: ../src/ui/interface.cpp:1501
 msgid "Enter group #%1"
 msgstr "输入组号 #%1"
 
 #. Item dialog
-#: ../src/ui/interface.cpp:1641 ../src/verbs.cpp:2901
+#: ../src/ui/interface.cpp:1637 ../src/verbs.cpp:2901
 msgid "_Object Properties..."
 msgstr "对象属性(_O)..."
 
-#: ../src/ui/interface.cpp:1650
+#: ../src/ui/interface.cpp:1646
 msgid "_Select This"
 msgstr "选择这个(_S)"
 
-#: ../src/ui/interface.cpp:1661
+#: ../src/ui/interface.cpp:1657
 msgid "Select Same"
 msgstr "选择相同扩展名的全部"
 
 #. Select same fill and stroke
-#: ../src/ui/interface.cpp:1671
+#: ../src/ui/interface.cpp:1667
 msgid "Fill and Stroke"
 msgstr "填色和笔画"
 
 #. Select same fill color
-#: ../src/ui/interface.cpp:1678
+#: ../src/ui/interface.cpp:1674
 msgid "Fill Color"
 msgstr "填色颜色"
 
 #. Select same stroke color
-#: ../src/ui/interface.cpp:1685
+#: ../src/ui/interface.cpp:1681
 msgid "Stroke Color"
 msgstr "描边颜色"
 
 #. Select same stroke style
-#: ../src/ui/interface.cpp:1692
+#: ../src/ui/interface.cpp:1688
 msgid "Stroke Style"
 msgstr "笔画样式"
 
 #. Select same stroke style
-#: ../src/ui/interface.cpp:1699
+#: ../src/ui/interface.cpp:1695
 msgid "Object type"
 msgstr "对象类型"
 
 #. Move to layer
-#: ../src/ui/interface.cpp:1706
+#: ../src/ui/interface.cpp:1702
 msgid "_Move to layer ..."
 msgstr "移到层（_M)..."
 
 #. Create link
-#: ../src/ui/interface.cpp:1716
+#: ../src/ui/interface.cpp:1712
 msgid "Create _Link"
 msgstr "创建链接（_L)"
 
 #. Release mask
-#: ../src/ui/interface.cpp:1750
+#: ../src/ui/interface.cpp:1746
 msgid "Release Mask"
 msgstr "释放遮罩"
 
 #. SSet Clip Group
-#: ../src/ui/interface.cpp:1761
+#: ../src/ui/interface.cpp:1757
 msgid "Create Clip G_roup"
 msgstr "创建剪辑组(_R)"
 
 #. Set Clip
-#: ../src/ui/interface.cpp:1768
+#: ../src/ui/interface.cpp:1764
 msgid "Set Cl_ip"
 msgstr "设置剪辑(_I)"
 
 #. Release Clip
-#: ../src/ui/interface.cpp:1779
+#: ../src/ui/interface.cpp:1775
 msgid "Release C_lip"
 msgstr "释放剪辑(_L)"
 
 #. Group
-#: ../src/ui/interface.cpp:1790 ../src/verbs.cpp:2534
+#: ../src/ui/interface.cpp:1786 ../src/verbs.cpp:2534
 msgid "_Group"
 msgstr "群组(_G)"
 
-#: ../src/ui/interface.cpp:1861
+#: ../src/ui/interface.cpp:1857
 msgid "Create link"
 msgstr "创建链接"
 
 #. Ungroup
-#: ../src/ui/interface.cpp:1896 ../src/verbs.cpp:2536
+#: ../src/ui/interface.cpp:1892 ../src/verbs.cpp:2536
 msgid "_Ungroup"
 msgstr "解除群组(_U)"
 
 #. Link dialog
-#: ../src/ui/interface.cpp:1920
+#: ../src/ui/interface.cpp:1916
 msgid "Link _Properties..."
 msgstr "链接属性(_P)..."
 
 #. Select item
-#: ../src/ui/interface.cpp:1926
+#: ../src/ui/interface.cpp:1922
 msgid "_Follow Link"
 msgstr "跟随链接(_F)"
 
 #. Reset transformations
-#: ../src/ui/interface.cpp:1932
+#: ../src/ui/interface.cpp:1928
 msgid "_Remove Link"
 msgstr "去除链接(_R)"
 
-#: ../src/ui/interface.cpp:1963
+#: ../src/ui/interface.cpp:1959
 msgid "Remove link"
 msgstr "移除链接"
 
 #. Image properties
-#: ../src/ui/interface.cpp:1973
+#: ../src/ui/interface.cpp:1969
 msgid "Image _Properties..."
 msgstr "图像属性(_P)..."
 
 #. Edit externally
-#: ../src/ui/interface.cpp:1979
+#: ../src/ui/interface.cpp:1975
 msgid "Edit Externally..."
 msgstr "外部编辑..."
 
 #. Trace Bitmap
 #. TRANSLATORS: "to trace" means "to convert a bitmap to vector graphics" (to vectorize)
-#: ../src/ui/interface.cpp:1988 ../src/verbs.cpp:2597
+#: ../src/ui/interface.cpp:1984 ../src/verbs.cpp:2597
 msgid "_Trace Bitmap..."
 msgstr "提取位图轮廓(_T)..."
 
 #. Trace Pixel Art
-#: ../src/ui/interface.cpp:1997
+#: ../src/ui/interface.cpp:1993
 msgid "Trace Pixel Art"
 msgstr "追踪像素艺术"
 
-#: ../src/ui/interface.cpp:2007
+#: ../src/ui/interface.cpp:2003
 msgctxt "Context menu"
 msgid "Embed Image"
 msgstr "嵌入图像"
 
-#: ../src/ui/interface.cpp:2018
+#: ../src/ui/interface.cpp:2014
 msgctxt "Context menu"
 msgid "Extract Image..."
 msgstr "提取图像..."
 
 #. Item dialog
 #. Fill and Stroke dialog
-#: ../src/ui/interface.cpp:2162 ../src/ui/interface.cpp:2182
+#: ../src/ui/interface.cpp:2158 ../src/ui/interface.cpp:2178
 #: ../src/verbs.cpp:2864
 msgid "_Fill and Stroke..."
 msgstr "填色和笔廓(_F)..."
 
 #. Edit Text dialog
-#: ../src/ui/interface.cpp:2188 ../src/verbs.cpp:2883
+#: ../src/ui/interface.cpp:2184 ../src/verbs.cpp:2883
 msgid "_Text and Font..."
 msgstr "文字和字体(_T)..."
 
 #. Spellcheck dialog
-#: ../src/ui/interface.cpp:2194 ../src/verbs.cpp:2891
+#: ../src/ui/interface.cpp:2190 ../src/verbs.cpp:2891
 msgid "Check Spellin_g..."
 msgstr "检查拼写(_G)..."
 
@@ -21242,11 +21393,11 @@ msgstr "从<b>内部</b>滚动螺旋; 按住 <b>Ctrl</b> 捕捉角度; 使用 <b
 msgid "Roll/unroll the spiral from <b>outside</b>; with <b>Ctrl</b> to snap angle; with <b>Shift</b> to scale/rotate; with <b>Alt</b> to lock radius"
 msgstr "从<b>外部</b>卷起/展开螺旋; 按住 <b>Ctrl</b> 捕捉角度; 使用 <b>Alt</b> 合并/分解"
 
-#: ../src/ui/object-edit.cpp:1396
+#: ../src/ui/object-edit.cpp:1398
 msgid "Adjust the <b>offset distance</b>"
 msgstr "调节<b>偏移距离</b>"
 
-#: ../src/ui/object-edit.cpp:1433
+#: ../src/ui/object-edit.cpp:1435
 msgid "Drag to resize the <b>flowed text frame</b>"
 msgstr "拖动或者改变<b>浮动文字框架</b>尺寸"
 
@@ -22530,7 +22681,7 @@ msgstr[0] "输入或编辑文本 (%d 个字符%s)；按 <b>Enter</b> 键可换�
 msgid "Type text"
 msgstr "输入文字"
 
-#: ../src/ui/tools/tool-base.cpp:701
+#: ../src/ui/tools/tool-base.cpp:700
 msgid "<b>Space+mouse move</b> to pan canvas"
 msgstr "<b>空格+鼠标移动</b>来平摇画布"
 
@@ -22796,110 +22947,206 @@ msgid "Blur (%)"
 msgstr "模糊(%)"
 
 #: ../src/ui/widget/font-variants.cpp:38
+#, fuzzy
+#| msgid "Ligatures"
+msgctxt "Font variant"
 msgid "Ligatures"
 msgstr "连字"
 
 #: ../src/ui/widget/font-variants.cpp:39
+#, fuzzy
+#| msgid "Common"
+msgctxt "Font variant"
 msgid "Common"
 msgstr "一般"
 
 #: ../src/ui/widget/font-variants.cpp:40
+#, fuzzy
+#| msgid "Discretionary"
+msgctxt "Font variant"
 msgid "Discretionary"
 msgstr "酌情"
 
 #: ../src/ui/widget/font-variants.cpp:41
+#, fuzzy
+#| msgid "Historical"
+msgctxt "Font variant"
 msgid "Historical"
 msgstr "历史"
 
 #: ../src/ui/widget/font-variants.cpp:42
+#, fuzzy
+#| msgid "Contextual"
+msgctxt "Font variant"
 msgid "Contextual"
 msgstr "文意类"
 
+#: ../src/ui/widget/font-variants.cpp:44
+#, fuzzy
+#| msgid "Position"
+msgctxt "Font variant"
+msgid "Position"
+msgstr "位置"
+
+#: ../src/ui/widget/font-variants.cpp:45 ../src/ui/widget/font-variants.cpp:50
+#, fuzzy
+#| msgid "Normal"
+msgctxt "Font variant"
+msgid "Normal"
+msgstr "正常"
+
 #: ../src/ui/widget/font-variants.cpp:46
+#, fuzzy
+#| msgid "Subscript"
+msgctxt "Font variant"
 msgid "Subscript"
 msgstr "下标"
 
 #: ../src/ui/widget/font-variants.cpp:47
+#, fuzzy
+#| msgid "Superscript"
+msgctxt "Font variant"
 msgid "Superscript"
 msgstr "上标"
 
 #: ../src/ui/widget/font-variants.cpp:49
+#, fuzzy
+#| msgid "Capitals"
+msgctxt "Font variant"
 msgid "Capitals"
 msgstr "大写字母"
 
+#: ../src/ui/widget/font-variants.cpp:51
+#, fuzzy
+#| msgid "Small"
+msgctxt "Font variant"
+msgid "Small"
+msgstr "小"
+
 #: ../src/ui/widget/font-variants.cpp:52
+#, fuzzy
+#| msgid "All small"
+msgctxt "Font variant"
 msgid "All small"
 msgstr "全部小"
 
 #: ../src/ui/widget/font-variants.cpp:53
+#, fuzzy
+#| msgid "All petite"
+msgctxt "Font variant"
 msgid "Petite"
-msgstr ""
+msgstr "全部极小"
 
 #: ../src/ui/widget/font-variants.cpp:54
+#, fuzzy
+#| msgid "All petite"
+msgctxt "Font variant"
 msgid "All petite"
 msgstr "全部极小"
 
 #: ../src/ui/widget/font-variants.cpp:55
+#, fuzzy
+#| msgid "Picas"
+msgctxt "Font variant"
 msgid "Unicase"
-msgstr ""
+msgstr "Picas"
 
 #: ../src/ui/widget/font-variants.cpp:56
+#, fuzzy
+#| msgid "Titling"
+msgctxt "Font variant"
 msgid "Titling"
 msgstr "倾斜"
 
 #: ../src/ui/widget/font-variants.cpp:58
+#, fuzzy
+#| msgid "Numeric"
+msgctxt "Font variant"
 msgid "Numeric"
 msgstr "数字"
 
 #: ../src/ui/widget/font-variants.cpp:59
+#, fuzzy
+#| msgid "Lining"
+msgctxt "Font variant"
 msgid "Lining"
 msgstr "衬里"
 
 #: ../src/ui/widget/font-variants.cpp:60
+#, fuzzy
+#| msgid "Old Style"
+msgctxt "Font variant"
 msgid "Old Style"
 msgstr "旧式"
 
 #: ../src/ui/widget/font-variants.cpp:61
+#, fuzzy
+#| msgid "Default Style"
+msgctxt "Font variant"
 msgid "Default Style"
 msgstr "默认样式"
 
 #: ../src/ui/widget/font-variants.cpp:62
+#, fuzzy
+#| msgid "Proportional"
+msgctxt "Font variant"
 msgid "Proportional"
 msgstr "按比例"
 
 #: ../src/ui/widget/font-variants.cpp:63
+#, fuzzy
+#| msgid "Tabular"
+msgctxt "Font variant"
 msgid "Tabular"
 msgstr "表格"
 
 #: ../src/ui/widget/font-variants.cpp:64
+#, fuzzy
+#| msgid "Default Width"
+msgctxt "Font variant"
 msgid "Default Width"
 msgstr "默认宽度"
 
 #: ../src/ui/widget/font-variants.cpp:65
+#, fuzzy
+#| msgid "Diagonal"
+msgctxt "Font variant"
 msgid "Diagonal"
 msgstr "对角线"
 
 #: ../src/ui/widget/font-variants.cpp:66
+#, fuzzy
+#| msgid "Stacked"
+msgctxt "Font variant"
 msgid "Stacked"
 msgstr "堆砌排布"
 
 #: ../src/ui/widget/font-variants.cpp:67
+#, fuzzy
+#| msgid "Default Fractions"
+msgctxt "Font variant"
 msgid "Default Fractions"
 msgstr "默认占比"
 
 #: ../src/ui/widget/font-variants.cpp:68
+msgctxt "Font variant"
 msgid "Ordinal"
 msgstr ""
 
 #: ../src/ui/widget/font-variants.cpp:69
+msgctxt "Font variant"
 msgid "Slashed Zero"
 msgstr ""
 
 #: ../src/ui/widget/font-variants.cpp:71
+#, fuzzy
+#| msgid "Feature Settings"
+msgctxt "Font variant"
 msgid "Feature Settings"
 msgstr "功能设置"
 
 #: ../src/ui/widget/font-variants.cpp:72
+msgctxt "Font variant"
 msgid "Selection has different Feature Settings!"
 msgstr ""
 
@@ -23714,7 +23961,7 @@ msgstr[0] "由<b>%d</b>个立方体共享; 按住 <b>Shift</b> 拖动以分离�
 msgid "File"
 msgstr "文件"
 
-#: ../src/verbs.cpp:232 ../share/extensions/interp_att_g.inx.h:22
+#: ../src/verbs.cpp:232 ../share/extensions/interp_att_g.inx.h:24
 msgid "Tag"
 msgstr "标签"
 
@@ -26194,7 +26441,7 @@ msgid "Pen Angle"
 msgstr "笔的角度"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:463
-#: ../share/extensions/motion.inx.h:3 ../share/extensions/restack.inx.h:10
+#: ../share/extensions/motion.inx.h:3 ../share/extensions/restack.inx.h:5
 msgid "Angle:"
 msgstr "角度:"
 
@@ -26739,27 +26986,27 @@ msgstr "径向"
 msgid "Create radial (elliptic or circular) gradient"
 msgstr "创建辐向(椭圆或圆形)渐变"
 
-#: ../src/widgets/gradient-toolbar.cpp:1047 ../src/widgets/mesh-toolbar.cpp:343
+#: ../src/widgets/gradient-toolbar.cpp:1047 ../src/widgets/mesh-toolbar.cpp:384
 msgid "New:"
 msgstr "新的："
 
-#: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:366
+#: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:407
 msgid "fill"
 msgstr "填色"
 
-#: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:366
+#: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:407
 msgid "Create gradient in the fill"
 msgstr "在填色里面创建渐变"
 
-#: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:370
+#: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:411
 msgid "stroke"
 msgstr "描边"
 
-#: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:370
+#: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:411
 msgid "Create gradient in the stroke"
 msgstr "在笔廓里面创建渐变"
 
-#: ../src/widgets/gradient-toolbar.cpp:1077 ../src/widgets/mesh-toolbar.cpp:373
+#: ../src/widgets/gradient-toolbar.cpp:1077 ../src/widgets/mesh-toolbar.cpp:414
 msgid "on:"
 msgstr "于："
 
@@ -26819,7 +27066,7 @@ msgstr "分段点："
 
 #. Label
 #: ../src/widgets/gradient-toolbar.cpp:1162
-#: ../src/widgets/gradient-vector.cpp:915
+#: ../src/widgets/gradient-vector.cpp:916
 msgctxt "Gradient"
 msgid "Offset:"
 msgstr "位移："
@@ -26835,7 +27082,7 @@ msgstr "插入新分段点"
 
 #: ../src/widgets/gradient-toolbar.cpp:1194
 #: ../src/widgets/gradient-toolbar.cpp:1195
-#: ../src/widgets/gradient-vector.cpp:897
+#: ../src/widgets/gradient-vector.cpp:898
 msgid "Delete stop"
 msgstr "删除分段点"
 
@@ -26865,28 +27112,28 @@ msgid "No gradient selected"
 msgstr "没有选择渐变"
 
 #. TRANSLATORS: "Stop" means: a "phase" of a gradient
-#: ../src/widgets/gradient-vector.cpp:892
+#: ../src/widgets/gradient-vector.cpp:893
 msgid "Add stop"
 msgstr "添加分段点"
 
-#: ../src/widgets/gradient-vector.cpp:895
+#: ../src/widgets/gradient-vector.cpp:896
 msgid "Add another control stop to gradient"
 msgstr "为渐变添加另一个控制分段点"
 
-#: ../src/widgets/gradient-vector.cpp:900
+#: ../src/widgets/gradient-vector.cpp:901
 msgid "Delete current control stop from gradient"
 msgstr "从渐变中删除当前控制分段点"
 
 #. TRANSLATORS: "Stop" means: a "phase" of a gradient
-#: ../src/widgets/gradient-vector.cpp:968
+#: ../src/widgets/gradient-vector.cpp:969
 msgid "Stop Color"
 msgstr "分段点颜色"
 
-#: ../src/widgets/gradient-vector.cpp:1007
+#: ../src/widgets/gradient-vector.cpp:1008
 msgid "Gradient editor"
 msgstr "渐变编辑器"
 
-#: ../src/widgets/gradient-vector.cpp:1359
+#: ../src/widgets/gradient-vector.cpp:1360
 msgid "Change gradient stop color"
 msgstr "改变渐变分段点颜色"
 
@@ -26973,101 +27220,149 @@ msgstr "在测量标签中使用的字体大小"
 msgid "The units to be used for the measurements"
 msgstr "用于测量的单位"
 
-#: ../src/widgets/mesh-toolbar.cpp:313
+#: ../src/widgets/mesh-toolbar.cpp:315
 msgid "Set mesh type"
 msgstr "设置网格类型"
 
-#: ../src/widgets/mesh-toolbar.cpp:336
+#: ../src/widgets/mesh-toolbar.cpp:377
 msgid "normal"
 msgstr "正常"
 
-#: ../src/widgets/mesh-toolbar.cpp:336
+#: ../src/widgets/mesh-toolbar.cpp:377
 msgid "Create mesh gradient"
 msgstr "创建网格渐变"
 
-#: ../src/widgets/mesh-toolbar.cpp:340
+#: ../src/widgets/mesh-toolbar.cpp:381
 msgid "conical"
 msgstr "圆锥形"
 
-#: ../src/widgets/mesh-toolbar.cpp:340
+#: ../src/widgets/mesh-toolbar.cpp:381
 msgid "Create conical gradient"
 msgstr "创建锥形渐变"
 
-#: ../src/widgets/mesh-toolbar.cpp:395
+#: ../src/widgets/mesh-toolbar.cpp:436
 msgid "Rows"
 msgstr "行"
 
-#: ../src/widgets/mesh-toolbar.cpp:395
+#: ../src/widgets/mesh-toolbar.cpp:436
 #: ../share/extensions/guides_creator.inx.h:5
 #: ../share/extensions/layout_nup.inx.h:12
 msgid "Rows:"
 msgstr "行："
 
-#: ../src/widgets/mesh-toolbar.cpp:395
+#: ../src/widgets/mesh-toolbar.cpp:436
 msgid "Number of rows in new mesh"
 msgstr "在新网格中的行数"
 
-#: ../src/widgets/mesh-toolbar.cpp:411
+#: ../src/widgets/mesh-toolbar.cpp:452
 msgid "Columns"
 msgstr "列"
 
-#: ../src/widgets/mesh-toolbar.cpp:411
+#: ../src/widgets/mesh-toolbar.cpp:452
 #: ../share/extensions/guides_creator.inx.h:4
 msgid "Columns:"
 msgstr "列："
 
-#: ../src/widgets/mesh-toolbar.cpp:411
+#: ../src/widgets/mesh-toolbar.cpp:452
 msgid "Number of columns in new mesh"
 msgstr "在新网格中的列数"
 
-#: ../src/widgets/mesh-toolbar.cpp:425
+#: ../src/widgets/mesh-toolbar.cpp:466
 msgid "Edit Fill"
 msgstr "编辑填色"
 
-#: ../src/widgets/mesh-toolbar.cpp:426
+#: ../src/widgets/mesh-toolbar.cpp:467
 msgid "Edit fill mesh"
 msgstr "编辑填色网格"
 
-#: ../src/widgets/mesh-toolbar.cpp:437
+#: ../src/widgets/mesh-toolbar.cpp:478
 msgid "Edit Stroke"
 msgstr "编辑描边"
 
-#: ../src/widgets/mesh-toolbar.cpp:438
+#: ../src/widgets/mesh-toolbar.cpp:479
 msgid "Edit stroke mesh"
 msgstr "编辑描边网格"
 
-#: ../src/widgets/mesh-toolbar.cpp:449 ../src/widgets/node-toolbar.cpp:521
+#: ../src/widgets/mesh-toolbar.cpp:490 ../src/widgets/node-toolbar.cpp:521
 msgid "Show Handles"
 msgstr "显示控制柄"
 
-#: ../src/widgets/mesh-toolbar.cpp:450
+#: ../src/widgets/mesh-toolbar.cpp:491
 msgid "Show side and tensor handles"
 msgstr "显示边和张量手柄"
 
-#: ../src/widgets/mesh-toolbar.cpp:465
+#: ../src/widgets/mesh-toolbar.cpp:506
 msgid "WARNING: Mesh SVG Syntax Subject to Change"
 msgstr "警告：网格 SVG 语法主题要更改"
 
-#: ../src/widgets/mesh-toolbar.cpp:475
+#: ../src/widgets/mesh-toolbar.cpp:516
 msgctxt "Type"
 msgid "Coons"
 msgstr ""
 
-#: ../src/widgets/mesh-toolbar.cpp:478
+#: ../src/widgets/mesh-toolbar.cpp:519
 msgid "Bicubic"
 msgstr "双立方"
 
-#: ../src/widgets/mesh-toolbar.cpp:480
+#: ../src/widgets/mesh-toolbar.cpp:521
 msgid "Coons"
 msgstr ""
 
-#: ../src/widgets/mesh-toolbar.cpp:481
+#: ../src/widgets/mesh-toolbar.cpp:522
 msgid "Coons: no smoothing. Bicubic: smoothing across patch boundaries."
 msgstr "Coons: 无平滑。 Bicubic: 跨路径界限的平滑。"
 
-#: ../src/widgets/mesh-toolbar.cpp:483 ../src/widgets/pencil-toolbar.cpp:377
+#: ../src/widgets/mesh-toolbar.cpp:524 ../src/widgets/pencil-toolbar.cpp:377
 msgid "Smoothing:"
 msgstr "光滑:"
+
+#: ../src/widgets/mesh-toolbar.cpp:534
+#, fuzzy
+#| msgid "Toggle Bold"
+msgid "Toggle Sides"
+msgstr "切换粗体"
+
+#: ../src/widgets/mesh-toolbar.cpp:535
+msgid "Toggle selected sides between Beziers and lines."
+msgstr ""
+
+#: ../src/widgets/mesh-toolbar.cpp:538
+#, fuzzy
+#| msgid "Toggle Bold"
+msgid "Toggle side:"
+msgstr "切换粗体"
+
+#: ../src/widgets/mesh-toolbar.cpp:545
+#, fuzzy
+#| msgid "Make italic"
+msgid "Make elliptical"
+msgstr "斜体"
+
+#: ../src/widgets/mesh-toolbar.cpp:546
+msgid "Make selected sides elliptical by changing length of handles. Works best if handles already approximate ellipse."
+msgstr ""
+
+#: ../src/widgets/mesh-toolbar.cpp:549
+#, fuzzy
+#| msgid "Make italic"
+msgid "Make elliptical:"
+msgstr "斜体"
+
+#: ../src/widgets/mesh-toolbar.cpp:556
+#, fuzzy
+#| msgid "Points color"
+msgid "Pick colors:"
+msgstr "网点颜色："
+
+#: ../src/widgets/mesh-toolbar.cpp:557
+msgid "Pick colors for selected corner nodes from underneath mesh."
+msgstr ""
+
+#: ../src/widgets/mesh-toolbar.cpp:560
+#, fuzzy
+#| msgid "Fill Color"
+msgid "Pick Color"
+msgstr "填色颜色"
 
 #: ../src/widgets/node-toolbar.cpp:341
 msgid "Insert node"
@@ -28474,131 +28769,131 @@ msgstr "待续 (TBD)"
 msgid "Style of Paint Bucket fill objects"
 msgstr "油漆桶填充样式"
 
-#: ../src/widgets/toolbox.cpp:1681
+#: ../src/widgets/toolbox.cpp:1684
 msgid "Bounding box"
 msgstr "边界框"
 
-#: ../src/widgets/toolbox.cpp:1681
+#: ../src/widgets/toolbox.cpp:1684
 msgid "Snap bounding boxes"
 msgstr "吸附边界框"
 
-#: ../src/widgets/toolbox.cpp:1690
+#: ../src/widgets/toolbox.cpp:1693
 msgid "Bounding box edges"
 msgstr "边界框的边"
 
-#: ../src/widgets/toolbox.cpp:1690
+#: ../src/widgets/toolbox.cpp:1693
 msgid "Snap to edges of a bounding box"
 msgstr "捕捉到边界框的边"
 
-#: ../src/widgets/toolbox.cpp:1699
+#: ../src/widgets/toolbox.cpp:1702
 msgid "Bounding box corners"
 msgstr "边界框的顶点"
 
-#: ../src/widgets/toolbox.cpp:1699
+#: ../src/widgets/toolbox.cpp:1702
 msgid "Snap bounding box corners"
 msgstr "捕捉边界框的顶点"
 
-#: ../src/widgets/toolbox.cpp:1708
+#: ../src/widgets/toolbox.cpp:1711
 msgid "BBox Edge Midpoints"
 msgstr "边界框边的中点"
 
-#: ../src/widgets/toolbox.cpp:1708
+#: ../src/widgets/toolbox.cpp:1711
 msgid "Snap midpoints of bounding box edges"
 msgstr "吸附边界框边缘的中点"
 
-#: ../src/widgets/toolbox.cpp:1718
+#: ../src/widgets/toolbox.cpp:1721
 msgid "BBox Centers"
 msgstr "边界框中心 "
 
-#: ../src/widgets/toolbox.cpp:1718
+#: ../src/widgets/toolbox.cpp:1721
 msgid "Snapping centers of bounding boxes"
 msgstr "吸附到边界框的中心"
 
-#: ../src/widgets/toolbox.cpp:1727
+#: ../src/widgets/toolbox.cpp:1730
 msgid "Snap nodes, paths, and handles"
 msgstr "吸附节点、路径和手柄"
 
-#: ../src/widgets/toolbox.cpp:1735
+#: ../src/widgets/toolbox.cpp:1738
 msgid "Snap to paths"
 msgstr "捕捉到路径"
 
-#: ../src/widgets/toolbox.cpp:1744
+#: ../src/widgets/toolbox.cpp:1747
 msgid "Path intersections"
 msgstr "路径交点"
 
-#: ../src/widgets/toolbox.cpp:1744
+#: ../src/widgets/toolbox.cpp:1747
 msgid "Snap to path intersections"
 msgstr "捕捉到路径交点"
 
-#: ../src/widgets/toolbox.cpp:1753
+#: ../src/widgets/toolbox.cpp:1756
 msgid "To nodes"
 msgstr "到节点"
 
-#: ../src/widgets/toolbox.cpp:1753
+#: ../src/widgets/toolbox.cpp:1756
 msgid "Snap cusp nodes, incl. rectangle corners"
 msgstr "吸附尖角节点，包括矩形边角"
 
-#: ../src/widgets/toolbox.cpp:1762
+#: ../src/widgets/toolbox.cpp:1765
 msgid "Smooth nodes"
 msgstr "光滑节点"
 
-#: ../src/widgets/toolbox.cpp:1762
+#: ../src/widgets/toolbox.cpp:1765
 msgid "Snap smooth nodes, incl. quadrant points of ellipses"
 msgstr "吸附平滑节点，包括椭圆的四个极限点"
 
-#: ../src/widgets/toolbox.cpp:1771
+#: ../src/widgets/toolbox.cpp:1774
 msgid "Line Midpoints"
 msgstr "线的中点"
 
-#: ../src/widgets/toolbox.cpp:1771
+#: ../src/widgets/toolbox.cpp:1774
 msgid "Snap midpoints of line segments"
 msgstr "吸附线段的中点"
 
-#: ../src/widgets/toolbox.cpp:1780
+#: ../src/widgets/toolbox.cpp:1783
 msgid "Others"
 msgstr "其他"
 
-#: ../src/widgets/toolbox.cpp:1780
+#: ../src/widgets/toolbox.cpp:1783
 msgid "Snap other points (centers, guide origins, gradient handles, etc.)"
 msgstr "吸附其它点（中心、辅助原点、渐变手柄等）"
 
-#: ../src/widgets/toolbox.cpp:1788
+#: ../src/widgets/toolbox.cpp:1791
 msgid "Object Centers"
 msgstr "对象中心"
 
-#: ../src/widgets/toolbox.cpp:1788
+#: ../src/widgets/toolbox.cpp:1791
 msgid "Snap centers of objects"
 msgstr "吸附对象的中心"
 
-#: ../src/widgets/toolbox.cpp:1797
+#: ../src/widgets/toolbox.cpp:1800
 msgid "Rotation Centers"
 msgstr "旋转中心"
 
-#: ../src/widgets/toolbox.cpp:1797
+#: ../src/widgets/toolbox.cpp:1800
 msgid "Snap an item's rotation center"
 msgstr "吸附一个项目的旋转中心"
 
-#: ../src/widgets/toolbox.cpp:1806
+#: ../src/widgets/toolbox.cpp:1809
 msgid "Text baseline"
 msgstr "文本基线"
 
-#: ../src/widgets/toolbox.cpp:1806
+#: ../src/widgets/toolbox.cpp:1809
 msgid "Snap text anchors and baselines"
 msgstr "吸附文本锚点和基线"
 
-#: ../src/widgets/toolbox.cpp:1816
+#: ../src/widgets/toolbox.cpp:1819
 msgid "Page border"
 msgstr "页面边沿"
 
-#: ../src/widgets/toolbox.cpp:1816
+#: ../src/widgets/toolbox.cpp:1819
 msgid "Snap to the page border"
 msgstr "捕捉到页面边沿"
 
-#: ../src/widgets/toolbox.cpp:1825
+#: ../src/widgets/toolbox.cpp:1828
 msgid "Snap to grids"
 msgstr "捕捉到网格"
 
-#: ../src/widgets/toolbox.cpp:1834
+#: ../src/widgets/toolbox.cpp:1837
 msgid "Snap guides"
 msgstr "吸附辅助线"
 
@@ -28750,6 +29045,9 @@ msgstr "彩色模式下, 作用于对象的色调"
 
 #. TRANSLATORS:  "H" here stands for hue
 #: ../src/widgets/tweak-toolbar.cpp:291
+#, fuzzy
+#| msgid "H"
+msgctxt "Hue"
 msgid "H"
 msgstr "色"
 
@@ -28759,6 +29057,9 @@ msgstr "彩色模式下, 作用于对象的饱和度"
 
 #. TRANSLATORS: "S" here stands for Saturation
 #: ../src/widgets/tweak-toolbar.cpp:307
+#, fuzzy
+#| msgid "S"
+msgctxt "Saturation"
 msgid "S"
 msgstr "饱"
 
@@ -28766,12 +29067,23 @@ msgstr "饱"
 msgid "In color mode, act on objects' lightness"
 msgstr "彩色模式下, 作用于对象的亮度"
 
+#. TRANSLATORS: "L" here stands for Lightness
+#: ../src/widgets/tweak-toolbar.cpp:323
+#, fuzzy
+#| msgid "L"
+msgctxt "Lightness"
+msgid "L"
+msgstr "L"
+
 #: ../src/widgets/tweak-toolbar.cpp:335
 msgid "In color mode, act on objects' opacity"
 msgstr "彩色模式下, 作用于对象的不透明度"
 
 #. TRANSLATORS: "O" here stands for Opacity
 #: ../src/widgets/tweak-toolbar.cpp:339
+#, fuzzy
+#| msgid "O"
+msgctxt "Opacity"
 msgid "O"
 msgstr "透"
 
@@ -29185,7 +29497,7 @@ msgstr "没有找到匹配表达式: %s 的节点"
 msgid "SVG Width not set correctly! Assuming width = 100"
 msgstr "SVG 宽度设置不正确! 假设宽度 = 100"
 
-#: ../share/extensions/interp_att_g.py:167
+#: ../share/extensions/interp_att_g.py:176
 msgid "There is no selection to interpolate"
 msgstr "没有选择要插值的内容"
 
@@ -29384,11 +29696,11 @@ msgstr "id: %s 找不到风格属性"
 msgid "unable to locate marker: %s"
 msgstr "不能定位标记: %s"
 
-#: ../share/extensions/measure.py:50
+#: ../share/extensions/measure.py:58
 msgid "Failed to import the numpy modules. These modules are required by this extension. Please install them and try again.  On a Debian-like system this can be done with the command, sudo apt-get install python-numpy."
 msgstr "不能导入 numpy 模块。本扩展需要这些模块。请安装它们后重试。在类 Debian 系统中, 可以通过命令 sudo apt-get install python-numpy 来解决这个问题。"
 
-#: ../share/extensions/measure.py:112
+#: ../share/extensions/measure.py:120
 msgid "Area is zero, cannot calculate Center of Mass"
 msgstr "面积为 0，不能计算质心"
 
@@ -29574,6 +29886,12 @@ msgstr "请在“替换为”框中输入一个替代字体。"
 msgid "Please enter a replacement font in the replace all box."
 msgstr "请在“替换全部”框中输入一个替代字体。"
 
+#: ../share/extensions/restack.py:76
+#, fuzzy
+#| msgid "There is no selection to interpolate"
+msgid "There is no selection to restack."
+msgstr "没有选择要插值的内容"
+
 #: ../share/extensions/summersnight.py:44
 msgid ""
 "This extension requires two selected paths. \n"
@@ -29687,7 +30005,7 @@ msgstr "段数："
 #: ../share/extensions/convert2dashes.inx.h:2
 #: ../share/extensions/edge3d.inx.h:9 ../share/extensions/flatten.inx.h:3
 #: ../share/extensions/fractalize.inx.h:4
-#: ../share/extensions/interp_att_g.inx.h:29
+#: ../share/extensions/interp_att_g.inx.h:31
 #: ../share/extensions/markers_strokepaint.inx.h:13
 #: ../share/extensions/perspective.inx.h:2
 #: ../share/extensions/pixelsnap.inx.h:3
@@ -30029,7 +30347,7 @@ msgid "Visual"
 msgstr "视觉效果"
 
 #: ../share/extensions/dimension.inx.h:7 ../share/extensions/dots.inx.h:13
-#: ../share/extensions/handles.inx.h:2 ../share/extensions/measure.inx.h:25
+#: ../share/extensions/handles.inx.h:2 ../share/extensions/measure.inx.h:42
 msgid "Visualize Path"
 msgstr "路径可视化"
 
@@ -32199,7 +32517,7 @@ msgstr "基础"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:5
-msgid "Support non-unifom scaling"
+msgid "Support non-uniform scaling"
 msgstr ""
 
 #. render images like in 0.48
@@ -32355,6 +32673,16 @@ msgstr "复制一份终点路径"
 msgid "Interpolate style"
 msgstr "插值风格"
 
+#: ../share/extensions/interp.inx.h:7 ../share/extensions/interp_att_g.inx.h:10
+#, fuzzy
+#| msgid "Raised Border"
+msgid "Use Z-order"
+msgstr "边框隆起"
+
+#: ../share/extensions/interp.inx.h:8 ../share/extensions/interp_att_g.inx.h:11
+msgid "Workaround for reversed selection order in Live Preview cycles"
+msgstr ""
+
 #: ../share/extensions/interp_att_g.inx.h:1
 msgid "Interpolate Attribute in a group"
 msgstr "套用群组中的属性"
@@ -32383,53 +32711,53 @@ msgstr "开始值:"
 msgid "End Value:"
 msgstr "结束值:"
 
-#: ../share/extensions/interp_att_g.inx.h:13
+#: ../share/extensions/interp_att_g.inx.h:15
 msgid "Translate X"
 msgstr "移动 X"
 
-#: ../share/extensions/interp_att_g.inx.h:14
+#: ../share/extensions/interp_att_g.inx.h:16
 msgid "Translate Y"
 msgstr "移动 Y"
 
-#: ../share/extensions/interp_att_g.inx.h:15
+#: ../share/extensions/interp_att_g.inx.h:17
 #: ../share/extensions/markers_strokepaint.inx.h:9
 msgid "Fill"
 msgstr "填色"
 
-#: ../share/extensions/interp_att_g.inx.h:17
+#: ../share/extensions/interp_att_g.inx.h:19
 msgid "Other"
 msgstr "其他"
 
-#: ../share/extensions/interp_att_g.inx.h:18
+#: ../share/extensions/interp_att_g.inx.h:20
 msgid "If you select \"Other\", you must know the SVG attributes to identify here this \"other\"."
 msgstr "如果你选择\"其它\"，你必须知道 SVG 属性以识别这里的这个\"其它\"。"
 
-#: ../share/extensions/interp_att_g.inx.h:20
+#: ../share/extensions/interp_att_g.inx.h:22
 msgid "Integer Number"
 msgstr "整数"
 
-#: ../share/extensions/interp_att_g.inx.h:21
+#: ../share/extensions/interp_att_g.inx.h:23
 msgid "Float Number"
 msgstr "浮点数"
 
-#: ../share/extensions/interp_att_g.inx.h:23
+#: ../share/extensions/interp_att_g.inx.h:25
 #: ../share/extensions/polyhedron_3d.inx.h:33
 msgid "Style"
 msgstr "风格"
 
-#: ../share/extensions/interp_att_g.inx.h:24
+#: ../share/extensions/interp_att_g.inx.h:26
 msgid "Transformation"
 msgstr "变换"
 
-#: ../share/extensions/interp_att_g.inx.h:25
+#: ../share/extensions/interp_att_g.inx.h:27
 msgid "••••••••••••••••••••••••••••••••••••••••••••••••"
 msgstr "••••••••••••••••••••••••••••••••••••••••••••••••"
 
-#: ../share/extensions/interp_att_g.inx.h:26
+#: ../share/extensions/interp_att_g.inx.h:28
 msgid "No Unit"
 msgstr "没有单位"
 
-#: ../share/extensions/interp_att_g.inx.h:28
+#: ../share/extensions/interp_att_g.inx.h:30
 msgid "This effect applies a value for any interpolatable attribute for all elements inside the selected group or for all elements in a multiple selection."
 msgstr "这个效果应用一个值于选择组中的所有元素的任何可插值属性，或者一个多项选择中的所有元素的任何可插值属性。"
 
@@ -33142,54 +33470,134 @@ msgid "Measurement Type: "
 msgstr "测量类型:"
 
 #: ../share/extensions/measure.inx.h:4
-msgid "Text Orientation: "
-msgstr "文本方向："
-
-#: ../share/extensions/measure.inx.h:5
-msgid "Angle [with Fixed Angle option only] (°):"
-msgstr "角度 [只和固定角度选项一起使用] (°):"
+#, fuzzy
+#| msgid "Text Preferences"
+msgid "Text Presets"
+msgstr "文字偏好设置"
 
 #: ../share/extensions/measure.inx.h:6
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Text On Path"
+msgid "Text on Path"
+msgstr "路径文本"
+
+#: ../share/extensions/measure.inx.h:8
+#, fuzzy, no-c-format
+#| msgid "Offset (px):"
+msgid "Offset (%)"
+msgstr "偏移 (px)："
+
+#: ../share/extensions/measure.inx.h:9
+#, fuzzy
+#| msgid "Text anchor"
+msgid "Text anchor:"
+msgstr "文本锚点"
+
+#: ../share/extensions/measure.inx.h:10
+#, fuzzy
+#| msgid "Flowed Text"
+msgid "Fixed Text"
+msgstr "流动文本"
+
+#: ../share/extensions/measure.inx.h:11
+#, fuzzy
+#| msgid "Angle X:"
+msgid "Angle (°):"
+msgstr "角度 X:"
+
+#: ../share/extensions/measure.inx.h:12
 msgid "Font size (px):"
 msgstr "字体大小 (px)："
 
-#: ../share/extensions/measure.inx.h:7
+#: ../share/extensions/measure.inx.h:13
 msgid "Offset (px):"
 msgstr "偏移 (px)："
 
-#: ../share/extensions/measure.inx.h:8
+#: ../share/extensions/measure.inx.h:14
 msgid "Precision:"
 msgstr "精确度："
 
-#: ../share/extensions/measure.inx.h:9
+#: ../share/extensions/measure.inx.h:15
 msgid "Scale Factor (Drawing:Real Length) = 1:"
 msgstr "缩放比例(绘图:真实长度) = 1: "
 
-#: ../share/extensions/measure.inx.h:10
+#: ../share/extensions/measure.inx.h:16
 msgid "Length Unit:"
 msgstr "长度单位："
 
-#: ../share/extensions/measure.inx.h:12
+#: ../share/extensions/measure.inx.h:18
 msgctxt "measure extension"
 msgid "Area"
 msgstr "面积"
 
-#: ../share/extensions/measure.inx.h:13
+#: ../share/extensions/measure.inx.h:19
 msgctxt "measure extension"
 msgid "Center of Mass"
 msgstr "质心"
 
-#: ../share/extensions/measure.inx.h:14
-msgctxt "measure extension"
-msgid "Text On Path"
+#: ../share/extensions/measure.inx.h:21
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Text On Path"
+msgid "Text on Path, Start"
 msgstr "路径文本"
 
-#: ../share/extensions/measure.inx.h:15
-msgctxt "measure extension"
-msgid "Fixed Angle"
-msgstr "固定角度"
+#: ../share/extensions/measure.inx.h:22
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Text On Path"
+msgid "Text on Path, Middle"
+msgstr "路径文本"
 
-#: ../share/extensions/measure.inx.h:18
+#: ../share/extensions/measure.inx.h:23
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Text On Path"
+msgid "Text on Path, End"
+msgstr "路径文本"
+
+#: ../share/extensions/measure.inx.h:24
+msgid "Fixed Text, Start of Path"
+msgstr ""
+
+#: ../share/extensions/measure.inx.h:25
+msgid "Fixed Text, Center of BBox"
+msgstr ""
+
+#: ../share/extensions/measure.inx.h:26
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Center of Mass"
+msgid "Fixed Text, Center of Mass"
+msgstr "质心"
+
+#: ../share/extensions/measure.inx.h:28
+#, fuzzy
+msgid "Center"
+msgstr "中心 "
+
+#: ../share/extensions/measure.inx.h:30
+#, fuzzy
+#| msgid "Start path:"
+msgid "Start of Path"
+msgstr "起始路径："
+
+#: ../share/extensions/measure.inx.h:31
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Center of Mass"
+msgid "Center of BBox"
+msgstr "质心"
+
+#: ../share/extensions/measure.inx.h:32
+#, fuzzy
+#| msgctxt "measure extension"
+#| msgid "Center of Mass"
+msgid "Center of Mass"
+msgstr "质心"
+
+#: ../share/extensions/measure.inx.h:35
 #, no-c-format
 msgid ""
 "This effect measures the length, area, or center-of-mass of the selected paths. Length and area are added as a text object with the selected units. Center-of-mass is shown as a cross symbol.\n"
@@ -33558,11 +33966,6 @@ msgstr "硬件 (RTS/CTS)"
 msgid "Hardware (DSR/DTR + RTS/CTS)"
 msgstr "硬件 (DSR/DTR + RTS/CTS)"
 
-#: ../share/extensions/plotter.inx.h:24
-msgctxt "Flow control"
-msgid "None"
-msgstr "无控制"
-
 #: ../share/extensions/plotter.inx.h:25
 msgid "HPGL"
 msgstr "HPGL"
@@ -33895,6 +34298,10 @@ msgstr "X 轴上最大位移 (px)："
 msgid "Maximum displacement in Y (px):"
 msgstr "Y 轴上最大位移 (px)："
 
+#: ../share/extensions/radiusrand.inx.h:6
+msgid "Shift node handles"
+msgstr "平移节点控制柄"
+
 #: ../share/extensions/radiusrand.inx.h:7
 msgid "Use normal distribution"
 msgstr "使用正态分布"
@@ -34068,64 +34475,109 @@ msgid "Restack"
 msgstr "重新堆叠"
 
 #: ../share/extensions/restack.inx.h:2
-msgid "Restack Direction:"
-msgstr "重新堆叠方向："
+#, fuzzy
+#| msgid "Modify Node Position"
+msgid "Based on Position"
+msgstr "修改节点位置"
 
 #: ../share/extensions/restack.inx.h:3
+#, fuzzy
+msgid "Presets"
+msgstr "预置"
+
+#: ../share/extensions/restack.inx.h:6
+#, fuzzy
+#| msgid "_Horizontal:"
+msgid "Horizontal:"
+msgstr "水平(_H)："
+
+#: ../share/extensions/restack.inx.h:7
+#, fuzzy
+#| msgid "_Vertical:"
+msgid "Vertical:"
+msgstr "垂直(_V)："
+
+#: ../share/extensions/restack.inx.h:8
+#, fuzzy
+#| msgid "Restack Direction:"
+msgid "Restack Direction"
+msgstr "重新堆叠方向："
+
+#: ../share/extensions/restack.inx.h:9
 msgid "Left to Right (0)"
 msgstr "左到右 (0)"
 
-#: ../share/extensions/restack.inx.h:4
+#: ../share/extensions/restack.inx.h:10
 msgid "Bottom to Top (90)"
 msgstr "底到顶 (90)"
 
-#: ../share/extensions/restack.inx.h:5
+#: ../share/extensions/restack.inx.h:11
 msgid "Right to Left (180)"
 msgstr "右到左 (180)"
 
-#: ../share/extensions/restack.inx.h:6
+#: ../share/extensions/restack.inx.h:12
 msgid "Top to Bottom (270)"
 msgstr "顶到底 (270)"
 
-#: ../share/extensions/restack.inx.h:7
+#: ../share/extensions/restack.inx.h:13
 msgid "Radial Outward"
 msgstr "辐向外旋"
 
-#: ../share/extensions/restack.inx.h:8
+#: ../share/extensions/restack.inx.h:14
 msgid "Radial Inward"
 msgstr "辐向内旋"
 
-#: ../share/extensions/restack.inx.h:9
-msgid "Arbitrary Angle"
-msgstr "任意角："
+#: ../share/extensions/restack.inx.h:15
+#, fuzzy
+#| msgid "in-out reference point"
+msgid "Object Reference Point"
+msgstr "内外参考点"
 
-#: ../share/extensions/restack.inx.h:11
-msgid "Horizontal Point:"
-msgstr "水平点："
-
-#: ../share/extensions/restack.inx.h:13
+#: ../share/extensions/restack.inx.h:17
 #: ../share/extensions/text_extract.inx.h:9
 #: ../share/extensions/text_merge.inx.h:9
 msgid "Middle"
 msgstr "中间"
 
-#: ../share/extensions/restack.inx.h:15
-msgid "Vertical Point:"
-msgstr "垂直点："
-
-#: ../share/extensions/restack.inx.h:16
+#: ../share/extensions/restack.inx.h:19
 #: ../share/extensions/text_extract.inx.h:12
 #: ../share/extensions/text_merge.inx.h:12
 msgid "Top"
 msgstr "顶部"
 
-#: ../share/extensions/restack.inx.h:17
+#: ../share/extensions/restack.inx.h:20
 #: ../share/extensions/text_extract.inx.h:13
 #: ../share/extensions/text_merge.inx.h:13
 msgid "Bottom"
 msgstr "底部"
 
-#: ../share/extensions/restack.inx.h:18
+#: ../share/extensions/restack.inx.h:21
+#, fuzzy
+#| msgid "Raised Border"
+msgid "Based on Z-Order"
+msgstr "边框隆起"
+
+#: ../share/extensions/restack.inx.h:22
+#, fuzzy
+#| msgid "Restack"
+msgid "Restack Mode"
+msgstr "重新堆叠"
+
+#: ../share/extensions/restack.inx.h:23
+#, fuzzy
+#| msgid "Reverse gradient"
+msgid "Reverse Z-Order"
+msgstr "反转渐层"
+
+#: ../share/extensions/restack.inx.h:24
+msgid "Shuffle Z-Order"
+msgstr ""
+
+#: ../share/extensions/restack.inx.h:26
+msgid "This extension changes the z-order of objects based on their position on the canvas or their current z-order. Selection: The extension restacks either objects inside a single selected group, or a selection of multiple objects on the current drawing level (layer or group)."
+msgstr ""
+
+#: ../share/extensions/restack.inx.h:27
 msgid "Arrange"
 msgstr "指定"
 
@@ -34140,6 +34592,16 @@ msgstr "初始尺寸："
 #: ../share/extensions/rtree.inx.h:3
 msgid "Minimum size:"
 msgstr "最小尺寸："
+
+#: ../share/extensions/rtree.inx.h:4
+#, fuzzy
+#| msgid "Straighten segments"
+msgid "Omit redundant segments"
+msgstr "拉直线段"
+
+#: ../share/extensions/rtree.inx.h:5
+msgid "Lift pen for backward steps"
+msgstr ""
 
 #: ../share/extensions/rubberstretch.inx.h:1
 msgid "Rubber Stretch"
@@ -35244,6 +35706,32 @@ msgstr "一种常用于剪切画的图形文件格式"
 msgid "XAML Input"
 msgstr "XAML 输入"
 
+#~ msgid "The <b>feTile</b> filter primitive tiles a region with its input graphic"
+#~ msgstr "滤镜基元<b>feTile</b>平铺输入图形"
+
+#~ msgid "Text Orientation: "
+#~ msgstr "文本方向："
+
+#~ msgid "Angle [with Fixed Angle option only] (°):"
+#~ msgstr "角度 [只和固定角度选项一起使用] (°):"
+
+#~ msgctxt "measure extension"
+#~ msgid "Fixed Angle"
+#~ msgstr "固定角度"
+
+#~ msgctxt "Flow control"
+#~ msgid "None"
+#~ msgstr "无控制"
+
+#~ msgid "Arbitrary Angle"
+#~ msgstr "任意角："
+
+#~ msgid "Horizontal Point:"
+#~ msgstr "水平点："
+
+#~ msgid "Vertical Point:"
+#~ msgstr "垂直点："
+
 #, fuzzy
 #~ msgctxt "Symbol"
 #~ msgid "Map Symbols"
@@ -35492,10 +35980,6 @@ msgstr "XAML 输入"
 #~ msgid "Set Resolution"
 #~ msgstr "分辨率:"
 
-#, fuzzy
-#~ msgid "Set filter resolution"
-#~ msgstr "导出分辨率:"
-
 #~ msgid "Move a connection point"
 #~ msgstr "移动一个连接点"
 
@@ -35633,9 +36117,6 @@ msgstr "XAML 输入"
 
 #~ msgid "Pt"
 #~ msgstr "点"
-
-#~ msgid "Picas"
-#~ msgstr "Picas"
 
 #~ msgid "Pc"
 #~ msgstr "Pc"
@@ -35853,9 +36334,6 @@ msgstr "XAML 输入"
 #~ msgid "If set, relative coordinates may be used in path data"
 #~ msgstr "如果选中,  路径数据中可能使用相对坐标"
 
-#~ msgid "Left mouse button pans when Space is pressed"
-#~ msgstr "按下空格键时, 左键拖动画布"
-
 #~ msgid "When on, pressing and holding Space and dragging with left mouse button pans canvas (as in Adobe Illustrator); when off, Space temporarily switches to Selector tool (default)"
 #~ msgstr "打开时, 按住空格键时, 拖动左键可以卷动画布(类似Adobe Illustrator).关闭时, 按空格键切换为选择工具(缺省)"
 
@@ -36016,10 +36494,6 @@ msgstr "XAML 输入"
 #~ msgstr "水平参考线每"
 
 #, fuzzy
-#~ msgid "Preset:"
-#~ msgstr "预置"
-
-#, fuzzy
 #~ msgid "Vertical guide each:"
 #~ msgstr "垂直参考线每"
 
@@ -36168,9 +36642,6 @@ msgstr "XAML 输入"
 
 #~ msgid "Font size (px)"
 #~ msgstr "字体大小 (px)"
-
-#~ msgid "Toggle Bold"
-#~ msgstr "切换粗体"
 
 #~ msgid "Toggle bold or normal weight"
 #~ msgstr "切换粗体/正常"
@@ -36608,10 +37079,6 @@ msgstr "XAML 输入"
 #, fuzzy
 #~ msgid "convex hull corner"
 #~ msgstr "凸多边形角"
-
-#, fuzzy
-#~ msgid "center"
-#~ msgstr "中心 "
 
 #, fuzzy
 #~ msgid "Experimental"
@@ -40149,10 +40616,6 @@ msgstr "XAML 输入"
 #, fuzzy
 #~ msgid "Toggle On/Off Italic/Oblique Style"
 #~ msgstr "切换打开 / 关闭斜体 (Italic) / 倾斜体 (Oblique) 样式"
-
-#, fuzzy
-#~ msgid "Align nodes"
-#~ msgstr "对齐节点"
 
 #, fuzzy
 #~ msgid "The \"Save As ...\" dialog uses the current working directory for saving (if the file was previously saved). If not previously saved, the most recent \"Save As ...\" directory is used."
