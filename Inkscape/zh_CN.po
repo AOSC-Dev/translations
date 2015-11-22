@@ -7,6 +7,7 @@
 # Shuyu Liu <liushuyu_011@163.com>, 2015.
 # Junde Yi <lmy441900@gmail.com>, 2015.
 # Mingye Wang <arthur200126@gmail.com>, 2015.
+# Jeff Bai <jeffbai@aosc.xyz>, 2015.
 #
 # ISSUES: Pinyin Typo, mistranslations, Whitespace. Bai you should look at it.
 msgid ""
@@ -14,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-21 17:28-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-11-21 17:13-0700\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +25,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Bookmarks: 159,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -427,7 +428,7 @@ msgstr "碎裂玻璃"
 
 #: ../share/filters/filters.svg.h:128
 msgid "Under a cracked glass"
-msgstr "置于破碎玻璃下"
+msgstr "置于碎玻璃下"
 
 #: ../share/filters/filters.svg.h:130
 msgid "Bubbly Bumps"
@@ -888,7 +889,7 @@ msgstr "伸出云雾的彩色山顶"
 
 #: ../share/filters/filters.svg.h:338
 msgid "Garden of Delights"
-msgstr "Garden of Delights"
+msgstr "欢欣的花园"
 
 #: ../share/filters/filters.svg.h:340
 msgid "Phantasmagorical turbulent wisps, like Hieronymus Bosch's Garden of Delights"
@@ -1168,7 +1169,7 @@ msgstr "粗糙和扩大"
 
 #: ../share/filters/filters.svg.h:444
 msgid "Create a turbulent contour around"
-msgstr "周围产生紊乱的边沿"
+msgstr "在周围创建动荡轮廓"
 
 #: ../share/filters/filters.svg.h:446
 msgid "Old Postcard"
@@ -1339,7 +1340,7 @@ msgstr "填充和透明度"
 
 #: ../share/filters/filters.svg.h:524
 msgid "Convert to a colorizable transparent positive or negative"
-msgstr "转成可着色的透明正相或反相"
+msgstr "转换为可着色的透明正相或反相"
 
 #: ../share/filters/filters.svg.h:526
 msgid "Saturation Map"
@@ -1359,7 +1360,7 @@ msgstr "布满表面且将凹凸加入图像"
 
 #: ../share/filters/filters.svg.h:534
 msgid "Wrinkled Varnish"
-msgstr "皱纹亮光漆"
+msgstr "皱纹漆"
 
 #: ../share/filters/filters.svg.h:536
 msgid "Thick glossy and translucent paint texture with high depth"
@@ -1699,7 +1700,7 @@ msgstr "海报紊乱"
 
 #: ../share/filters/filters.svg.h:714
 msgid "Tartan Smart"
-msgstr "智能型格纹"
+msgstr "智能格纹"
 
 #: ../share/filters/filters.svg.h:716
 msgid "Highly configurable checkered tartan pattern"
@@ -4328,7 +4329,7 @@ msgstr "空白"
 
 #: ../share/templates/templates.h:1
 msgid "CD Label 120mmx120mm "
-msgstr "CD 标签 120mmx120mm"
+msgstr "120mmx120mm 的 CD 标签"
 
 #: ../share/templates/templates.h:1
 msgid "Simple CD Label template with disc's pattern."
@@ -4336,7 +4337,7 @@ msgstr "简单的带光盘图案的 CD 标签模板"
 
 #: ../share/templates/templates.h:1
 msgid "CD label 120x120 disc disk"
-msgstr "CD 标签 120x120 光盘"
+msgstr "120x120 光盘的 CD 标签"
 
 #: ../share/templates/templates.h:1
 msgid "No Layers"
@@ -4352,7 +4353,7 @@ msgstr "无图层的空白页"
 
 #: ../share/templates/templates.h:1
 msgid "LaTeX Beamer"
-msgstr "LaTeX Beamer"
+msgstr "LaTeX 投影仪"
 
 #: ../share/templates/templates.h:1
 msgid "LaTeX beamer template with helping grid."
@@ -4360,7 +4361,7 @@ msgstr "含辅助格线的 LaTeX beamer 范本"
 
 #: ../share/templates/templates.h:1
 msgid "LaTex LaTeX latex grid beamer"
-msgstr "LaTex LaTeX latex 格线 beamer"
+msgstr "LaTex LaTeX latex 网格投影仪"
 
 #: ../share/templates/templates.h:1
 msgid "Typography Canvas"
@@ -4459,7 +4460,7 @@ msgstr "间隔 _Y:"
 #: ../src/display/canvas-axonomgrid.cpp:365
 #: ../src/ui/dialog/inkscape-preferences.cpp:807
 msgid "Base length of z-axis"
-msgstr "z轴的基础长度"
+msgstr "Z 轴的基础长度"
 
 #: ../src/display/canvas-axonomgrid.cpp:368
 #: ../src/ui/dialog/inkscape-preferences.cpp:810
@@ -4470,7 +4471,7 @@ msgstr "角度 X:"
 #: ../src/display/canvas-axonomgrid.cpp:368
 #: ../src/ui/dialog/inkscape-preferences.cpp:810
 msgid "Angle of x-axis"
-msgstr "x轴角度"
+msgstr "X 轴角度"
 
 #: ../src/display/canvas-axonomgrid.cpp:370
 #: ../src/ui/dialog/inkscape-preferences.cpp:811
@@ -4481,7 +4482,7 @@ msgstr "角度 Z:"
 #: ../src/display/canvas-axonomgrid.cpp:370
 #: ../src/ui/dialog/inkscape-preferences.cpp:811
 msgid "Angle of z-axis"
-msgstr "z轴角度"
+msgstr "Z 轴角度"
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 msgid "Minor grid line _color:"
@@ -4498,7 +4499,7 @@ msgstr "次要网格线的颜色"
 
 #: ../src/display/canvas-axonomgrid.cpp:379 ../src/display/canvas-grid.cpp:718
 msgid "Ma_jor grid line color:"
-msgstr "主网格线颜色(_J):"
+msgstr "主网格线颜色(_J)："
 
 #: ../src/display/canvas-axonomgrid.cpp:379 ../src/display/canvas-grid.cpp:718
 #: ../src/ui/dialog/inkscape-preferences.cpp:764
@@ -4507,11 +4508,11 @@ msgstr "主网格线颜色"
 
 #: ../src/display/canvas-axonomgrid.cpp:380 ../src/display/canvas-grid.cpp:719
 msgid "Color of the major (highlighted) grid lines"
-msgstr "主(高亮)网格线颜色"
+msgstr "主（高亮）网格线颜色"
 
 #: ../src/display/canvas-axonomgrid.cpp:384 ../src/display/canvas-grid.cpp:723
 msgid "_Major grid line every:"
-msgstr "主网格线每(_M):"
+msgstr "主网格线间隔(_M)："
 
 #: ../src/display/canvas-axonomgrid.cpp:384 ../src/display/canvas-grid.cpp:723
 msgid "lines"
@@ -4523,7 +4524,7 @@ msgstr "矩形网格"
 
 #: ../src/display/canvas-grid.cpp:61
 msgid "Axonometric grid"
-msgstr "轴测(三维)网格"
+msgstr "轴测网格"
 
 #: ../src/display/canvas-grid.cpp:246
 msgid "Create new grid"
@@ -4860,7 +4861,7 @@ msgstr "启动时显示对话框"
 #: ../src/extension/execution-env.cpp:138
 #, c-format
 msgid "'%s' working, please wait..."
-msgstr "'%s' 正在处理, 请稍候..."
+msgstr "'%s' 正在处理, 请稍候…"
 
 #. static int i = 0;
 #. std::cout << "Checking module[" << i++ << "]: " << name << std::endl;
@@ -4913,11 +4914,11 @@ msgstr "名称:"
 
 #: ../src/extension/extension.cpp:779
 msgid "ID:"
-msgstr "ID:"
+msgstr "ID："
 
 #: ../src/extension/extension.cpp:780
 msgid "State:"
-msgstr "状态:"
+msgstr "状态："
 
 #: ../src/extension/extension.cpp:780
 msgid "Loaded"
@@ -4937,7 +4938,7 @@ msgstr "该扩展暂时没有帮助信息。如有疑问，请在 Inkscape 网�
 
 #: ../src/extension/implementation/script.cpp:1063
 msgid "Inkscape has received additional data from the script executed.  The script did not return an error, but this may indicate the results will not be as expected."
-msgstr "Inkscape 在脚本执行后收到额外的数据。脚本未返回错误，但是意味着结果可能并不是期望值。"
+msgstr "Inkscape 在脚本执行后收到了额外的数据。脚本未返回错误，但是这意味着结果可能和预期不符。"
 
 #: ../src/extension/init.cpp:288
 msgid "Null external module directory name.  Modules will not be loaded."
@@ -4951,7 +4952,7 @@ msgstr "模块目录 (%s)不可用。不加载那个目录下的外部模块。"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:39
 msgid "Adaptive Threshold"
-msgstr "自适应阈值:"
+msgstr "自适应阈值："
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:41
 #: ../src/extension/internal/bitmap/raise.cpp:42
@@ -5130,22 +5131,22 @@ msgstr "蓝色通道"
 #: ../src/extension/internal/bitmap/channel.cpp:54
 #: ../src/extension/internal/bitmap/levelChannel.cpp:58
 msgid "Cyan Channel"
-msgstr "Cyan (青色) 通道"
+msgstr "Cyan（青色）通道"
 
 #: ../src/extension/internal/bitmap/channel.cpp:55
 #: ../src/extension/internal/bitmap/levelChannel.cpp:59
 msgid "Magenta Channel"
-msgstr "Magenta (洋红) 通道"
+msgstr "Magenta（洋红）通道"
 
 #: ../src/extension/internal/bitmap/channel.cpp:56
 #: ../src/extension/internal/bitmap/levelChannel.cpp:60
 msgid "Yellow Channel"
-msgstr "Yellow (黄色) 通道"
+msgstr "Yellow（黄色）通道"
 
 #: ../src/extension/internal/bitmap/channel.cpp:57
 #: ../src/extension/internal/bitmap/levelChannel.cpp:61
 msgid "Black Channel"
-msgstr "Black (黑色) 通道"
+msgstr "Black（黑色）通道"
 
 #: ../src/extension/internal/bitmap/channel.cpp:58
 #: ../src/extension/internal/bitmap/levelChannel.cpp:62
@@ -5172,7 +5173,7 @@ msgstr "套用碳笔风格化到选择的位图"
 #: ../src/extension/internal/bitmap/colorize.cpp:50
 #: ../src/extension/internal/filter/color.h:392
 msgid "Colorize"
-msgstr "转为彩色"
+msgstr "上色"
 
 #: ../src/extension/internal/bitmap/colorize.cpp:58
 msgid "Colorize selected bitmap(s) with specified color, using given opacity"
@@ -5207,7 +5208,7 @@ msgstr "底端 (px)："
 
 #: ../src/extension/internal/bitmap/crop.cpp:70
 msgid "Left (px):"
-msgstr "左边 (px)："
+msgstr "左 (px)："
 
 #: ../src/extension/internal/bitmap/crop.cpp:71
 msgid "Right (px):"
@@ -5569,12 +5570,12 @@ msgstr "限制到 PS 级别:"
 #: ../src/extension/internal/cairo-ps-out.cpp:330
 #: ../src/extension/internal/cairo-ps-out.cpp:372
 msgid "PostScript level 3"
-msgstr "PostScript level 3"
+msgstr "PostScript 级别 3"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:331
 #: ../src/extension/internal/cairo-ps-out.cpp:373
 msgid "PostScript level 2"
-msgstr "PostScript level 2"
+msgstr "PostScript 级别 2"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:333
 #: ../src/extension/internal/cairo-ps-out.cpp:375
@@ -5652,7 +5653,7 @@ msgstr "Postscript 文件"
 #: ../src/extension/internal/cairo-ps-out.cpp:369
 #: ../share/extensions/eps_input.inx.h:3
 msgid "Encapsulated PostScript"
-msgstr "Encapsulated PostScript"
+msgstr "已封装的 PostScript"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:386
 msgid "Bleed/margin (mm)"
@@ -5661,11 +5662,11 @@ msgstr "出血/边距 (毫米)"
 #: ../src/extension/internal/cairo-ps-out.cpp:391
 #: ../share/extensions/eps_input.inx.h:2
 msgid "Encapsulated PostScript (*.eps)"
-msgstr "Encapsulated PostScript (*.eps)"
+msgstr "已封装的 PostScript (*.eps)"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:392
 msgid "Encapsulated PostScript File"
-msgstr "Encapsulated PostScript 文件"
+msgstr "已封装的 PostScript 文件"
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:244
 msgid "Restrict to PDF version:"
@@ -5732,7 +5733,7 @@ msgstr "Corel DRAW Compressed Exchange 文件输入"
 
 #: ../src/extension/internal/cdr-input.cpp:331
 msgid "Corel DRAW Compressed Exchange files (*.ccx)"
-msgstr "Corel DRAW 压缩的交换格式档 (*.ccx)"
+msgstr "已压缩的 Corel DRAW 交换格式档 (*.ccx)"
 
 #: ../src/extension/internal/cdr-input.cpp:332
 msgid "Open compressed exchange files saved in Corel DRAW"
@@ -5789,7 +5790,7 @@ msgstr "将万国码对应到 Zapf Dingbats 字体"
 #: ../src/extension/internal/emf-inout.cpp:3601
 #: ../src/extension/internal/wmf-inout.cpp:3180
 msgid "Use MS Unicode PUA (0xF020-0xF0FF) for converted characters"
-msgstr "转换的字符使用微软万国码 PUA (0xF020-0xF0FF)"
+msgstr "为转换后的字符使用 Microsoft Unicode PUA (0xF020-0xF0FF)"
 
 #: ../src/extension/internal/emf-inout.cpp:3602
 #: ../src/extension/internal/wmf-inout.cpp:3181
@@ -6543,7 +6544,7 @@ msgstr "线性"
 
 #: ../src/extension/internal/filter/color.h:506 ../src/filter-enums.cpp:114
 msgid "Gamma"
-msgstr "Gamma"
+msgstr "伽马值"
 
 #: ../src/extension/internal/filter/color.h:515
 msgid "Basic component transfer structure"
@@ -6662,7 +6663,7 @@ msgstr "透明"
 
 #: ../src/extension/internal/filter/color.h:908
 msgid "Customize greyscale components"
-msgstr "自订灰阶组成"
+msgstr "自定义灰阶组件"
 
 #: ../src/extension/internal/filter/color.h:980
 #: ../src/ui/widget/selected-style.cpp:266
@@ -6850,7 +6851,7 @@ msgstr "色相转成背景"
 
 #: ../src/extension/internal/filter/color.h:1667
 msgid "Global blend:"
-msgstr "总体混合："
+msgstr "全局混合："
 
 #: ../src/extension/internal/filter/color.h:1673
 msgid "Glow"
@@ -6866,7 +6867,7 @@ msgstr "局部照明"
 
 #: ../src/extension/internal/filter/color.h:1680
 msgid "Global light"
-msgstr "总体照明"
+msgstr "全局照明"
 
 #: ../src/extension/internal/filter/color.h:1683
 msgid "Hue distribution (°):"
@@ -7399,7 +7400,7 @@ msgstr "海报笔触"
 
 #: ../src/extension/internal/filter/paint.h:856
 msgid "Transfer type:"
-msgstr "转变类型："
+msgstr "传输类型："
 
 #: ../src/extension/internal/filter/paint.h:857
 msgid "Poster"
@@ -7533,19 +7534,19 @@ msgstr "自定义"
 
 #: ../src/extension/internal/filter/textures.h:83
 msgid "Custom stroke options"
-msgstr "自订边框选项"
+msgstr "自定义笔画选项"
 
 #: ../src/extension/internal/filter/textures.h:84
 msgid "k1:"
-msgstr "k1:"
+msgstr "k1："
 
 #: ../src/extension/internal/filter/textures.h:85
 msgid "k2:"
-msgstr "k2:"
+msgstr "k2："
 
 #: ../src/extension/internal/filter/textures.h:86
 msgid "k3:"
-msgstr "k3:"
+msgstr "k3："
 
 #: ../src/extension/internal/filter/textures.h:94
 msgid "Inkblot on tissue or rough paper"
@@ -7593,7 +7594,7 @@ msgstr "明亮橡皮擦"
 #: ../src/extension/internal/filter/transparency.h:209
 #: ../src/extension/internal/filter/transparency.h:283
 msgid "Global opacity"
-msgstr "总体不透明度"
+msgstr "全局不透明度"
 
 #: ../src/extension/internal/filter/transparency.h:218
 msgid "Make the lightest parts of the object progressively transparent"
@@ -7613,7 +7614,7 @@ msgstr "挖剪"
 
 #: ../src/extension/internal/filter/transparency.h:353
 msgid "Repaint anything visible monochrome"
-msgstr "重绘任何对象的可见单色"
+msgstr "重绘任何可见对象为灰阶"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:183
 #, c-format
@@ -7706,11 +7707,11 @@ msgstr "GIMP 渐变"
 
 #: ../src/extension/internal/gimpgrad.cpp:277
 msgid "GIMP Gradient (*.ggr)"
-msgstr "GIMP 渐变(*.ggr)"
+msgstr "GIMP 渐变 (*.ggr)"
 
 #: ../src/extension/internal/gimpgrad.cpp:278
 msgid "Gradients used in GIMP"
-msgstr "GIMP中的渐变"
+msgstr "GIMP 中使用的渐变"
 
 #: ../src/extension/internal/grid.cpp:205 ../src/ui/widget/panel.cpp:114
 msgid "Grid"
@@ -7794,7 +7795,7 @@ msgstr "LaTex 输出"
 
 #: ../src/extension/internal/latex-pstricks-out.cpp:100
 msgid "LaTeX With PSTricks macros (*.tex)"
-msgstr "LaTeX 带 PSTricks 宏(*.tex)"
+msgstr "带有 PSTricks 宏的 LaTeX (*.tex)"
 
 #: ../src/extension/internal/latex-pstricks-out.cpp:101
 msgid "LaTeX PSTricks File"
@@ -7857,7 +7858,7 @@ msgstr "<b>注意</b>:设置过高的精度可能会导致SVG文件过大, 性�
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:134
 msgid "Poppler/Cairo import"
-msgstr ""
+msgstr "从 Poppler/Cairo 导入"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:135
 msgid "Import via external library. Text consists of groups containing cloned glyphs where each glyph is a path. Images are stored internally. Meshes cause entire document to be rendered as a raster image."
@@ -7865,7 +7866,7 @@ msgstr ""
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:136
 msgid "Internal import"
-msgstr ""
+msgstr "内部导入"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:137
 msgid "Import via internal (Poppler derived) library. Text is stored as text but white space is missing. Meshes are converted to tiles, the number depends on the precision set below."
@@ -7896,7 +7897,7 @@ msgstr "导入设置"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:291
 msgid "PDF Import Settings"
-msgstr "PDF导入设置"
+msgstr "PDF 导入设置"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:438
 msgctxt "PDF input precision"
@@ -7928,7 +7929,7 @@ msgstr "Adobe PDF (*.pdf)"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:943
 msgid "Adobe Portable Document Format"
-msgstr "Adobe便携文档格式"
+msgstr "Adobe 便携文档格式"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:950
 msgid "AI Input"
@@ -7936,7 +7937,7 @@ msgstr "AI 输入"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:955
 msgid "Adobe Illustrator 9.0 and above (*.ai)"
-msgstr "Adobe Illustrator 9.0及以上版本(*.ai)"
+msgstr "Adobe Illustrator 9.0 及以上版本 (*.ai)"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:956
 msgid "Open files saved in Adobe Illustrator 9.0 and newer versions"
@@ -7964,7 +7965,7 @@ msgstr "可缩放矢量图形 (*.svg)"
 
 #: ../src/extension/internal/svg.cpp:106
 msgid "Inkscape native file format and W3C standard"
-msgstr "Inkscape 本地文件格式和 W3C 标准"
+msgstr "Inkscape 原生文件格式及 W3C 标准"
 
 #: ../src/extension/internal/svg.cpp:114
 msgid "SVG Output Inkscape"
@@ -7976,7 +7977,7 @@ msgstr "Inkscape SVG (*.svg)"
 
 #: ../src/extension/internal/svg.cpp:120
 msgid "SVG format with Inkscape extensions"
-msgstr "SVG 格式带有 Inkscape 扩展"
+msgstr "带有 Inkscape 扩展的 SVG 格式"
 
 #: ../src/extension/internal/svg.cpp:128
 msgid "SVG Output"
@@ -8000,7 +8001,7 @@ msgstr "压缩的 Inkscape SVG (*.svgz)"
 
 #: ../src/extension/internal/svgz.cpp:53
 msgid "SVG file format compressed with GZip"
-msgstr "SVG 文件格式使用 GZip 压缩"
+msgstr "使用 GZip 压缩的 SVG 文件"
 
 #: ../src/extension/internal/svgz.cpp:61 ../src/extension/internal/svgz.cpp:75
 msgid "SVGZ Output"
@@ -8008,7 +8009,7 @@ msgstr "SVGZ 输出"
 
 #: ../src/extension/internal/svgz.cpp:67
 msgid "Inkscape's native file format compressed with GZip"
-msgstr "Inkscape 本地文件格式使用 GZip 压缩"
+msgstr "使用 GZip 压缩的 Inkscape 原生文件格式"
 
 #: ../src/extension/internal/svgz.cpp:80
 msgid "Compressed plain SVG (*.svgz)"
@@ -8090,7 +8091,7 @@ msgstr "Windows 图元文件 (*.wmf)"
 
 #: ../src/extension/internal/wmf-inout.cpp:3189
 msgid "Windows Metafile"
-msgstr "Windows 中继文件"
+msgstr "Windows 元文件"
 
 #: ../src/extension/internal/wpg-input.cpp:144
 msgid "WPG Input"
@@ -8114,7 +8115,7 @@ msgstr "在画布上实时预览该效果?"
 
 #: ../src/extension/system.cpp:125 ../src/extension/system.cpp:127
 msgid "Format autodetect failed. The file is being opened as SVG."
-msgstr "自动探测文件格式失败.按照 SVG 打开此文件"
+msgstr "自动探测文件格式失败。将以 SVG 格式打开此文件。"
 
 #: ../src/file.cpp:183
 msgid "default.svg"
@@ -8210,7 +8211,7 @@ msgstr "没有更改, 不需要保存."
 
 #: ../src/file.cpp:1016
 msgid "Saving document..."
-msgstr "正在保存文档..."
+msgstr "正在保存文档…"
 
 #: ../src/file.cpp:1271 ../src/ui/dialog/inkscape-preferences.cpp:1492
 #: ../src/ui/dialog/ocaldialogs.cpp:1244
@@ -8235,7 +8236,7 @@ msgstr "色彩矩阵"
 
 #: ../src/filter-enums.cpp:24
 msgid "Composite"
-msgstr "组合"
+msgstr "复合"
 
 #: ../src/filter-enums.cpp:25
 msgid "Convolve Matrix"
@@ -8547,20 +8548,20 @@ msgstr "自动保存失败！无法打开目录 %1。"
 
 #: ../src/inkscape.cpp:267
 msgid "Autosaving documents..."
-msgstr "正在自动保存..."
+msgstr "正在自动保存…"
 
 #: ../src/inkscape.cpp:335
 msgid "Autosave failed! Could not find inkscape extension to save document."
-msgstr "自动保存失败! 找不到inkscape扩展来保存文档"
+msgstr "自动保存失败！找不到用于保存文档的 Inkscape 扩展"
 
 #: ../src/inkscape.cpp:338 ../src/inkscape.cpp:345
 #, c-format
 msgid "Autosave failed! File %s could not be saved."
-msgstr "自动保存失败! 文件%s不能保存."
+msgstr "自动保存失败！无法保存文件 %s。"
 
 #: ../src/inkscape.cpp:360
 msgid "Autosave complete."
-msgstr "自动保存完成."
+msgstr "自动保存完成。"
 
 #: ../src/inkscape.cpp:618
 msgid "Untitled document"
@@ -8569,15 +8570,15 @@ msgstr "无标题文档"
 #. Show nice dialog box
 #: ../src/inkscape.cpp:650
 msgid "Inkscape encountered an internal error and will close now.\n"
-msgstr "Inkscape 遇到内部错误将要关闭.\n"
+msgstr "Inkscape 遇到内部错误并将立即关闭。\n"
 
 #: ../src/inkscape.cpp:651
 msgid "Automatic backups of unsaved documents were done to the following locations:\n"
-msgstr "自动备未保存文档已经完成, 在下列位置:\n"
+msgstr "在下列位置存放未保存文档的自动备份：\n"
 
 #: ../src/inkscape.cpp:652
 msgid "Automatic backup of the following documents failed:\n"
-msgstr "自动备份下列文档失败:\n"
+msgstr "自动备份下列文档失败：\n"
 
 #: ../src/knot.cpp:348
 msgid "Node or handle drag canceled."
@@ -8746,7 +8747,7 @@ msgstr "开关按钮风格"
 #: ../src/libgdl/gdl-dock-master.c:783
 #, c-format
 msgid "master %p: unable to add object %p[%s] to the hash.  There already is an item with that name (%p)."
-msgstr "主栏%p: 不能添加对象%p[%s]到hash. 已经有同名的项目(%p)."
+msgstr "主栏 %p：无法将对象 %p[%s] 添加到 hash。已有同名的项目（%p）。"
 
 #: ../src/libgdl/gdl-dock-master.c:955
 #, c-format
@@ -8797,7 +8798,7 @@ msgstr "面板对象的储备图标"
 
 #: ../src/libgdl/gdl-dock-object.c:147
 msgid "Pixbuf Icon"
-msgstr "Pixbuf图标"
+msgstr "Pixbuf 图标"
 
 #: ../src/libgdl/gdl-dock-object.c:148
 msgid "Pixbuf icon for the dock object"
@@ -9048,7 +9049,7 @@ msgstr "缝合子路径"
 #. 0.47
 #: ../src/live_effects/effect.cpp:124
 msgid "VonKoch"
-msgstr "VonKoch分形"
+msgstr "VonKoch"
 
 #: ../src/live_effects/effect.cpp:125
 msgid "Knot"
@@ -9060,7 +9061,7 @@ msgstr "构建网格"
 
 #: ../src/live_effects/effect.cpp:127
 msgid "Spiro spline"
-msgstr "Spiro曲线"
+msgstr "Spiro 仿样"
 
 #: ../src/live_effects/effect.cpp:128
 msgid "Envelope Deformation"
@@ -9068,7 +9069,7 @@ msgstr "封套变形"
 
 #: ../src/live_effects/effect.cpp:129
 msgid "Interpolate Sub-Paths"
-msgstr "子路径间过渡"
+msgstr "内插子路径"
 
 #: ../src/live_effects/effect.cpp:130
 msgid "Hatches (rough)"
@@ -9362,7 +9363,7 @@ msgstr "尺寸 _X："
 
 #: ../src/live_effects/lpe-constructgrid.cpp:27
 msgid "The size of the grid in X direction."
-msgstr "X方向上的网格大小."
+msgstr "X 方向上的网格大小。"
 
 #: ../src/live_effects/lpe-constructgrid.cpp:28
 msgid "Size _Y:"
@@ -9370,7 +9371,7 @@ msgstr "尺寸 _Y："
 
 #: ../src/live_effects/lpe-constructgrid.cpp:28
 msgid "The size of the grid in Y direction."
-msgstr "Y方向上的网格大小."
+msgstr "Y 方向上的网格大小。"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:41
 msgid "Stitch path:"
@@ -9612,7 +9613,7 @@ msgstr "转换为圆角"
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:246
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:270
 msgid "Convert to inverse fillet"
-msgstr ""
+msgstr "转换为反角"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:262
 msgid "Convert to chamfer"
@@ -9670,7 +9671,7 @@ msgstr "立方贝塞尔填充"
 #: ../src/live_effects/lpe-interpolate_points.cpp:27
 #: ../src/live_effects/lpe-powerstroke.cpp:135
 msgid "CubicBezierJohan"
-msgstr ""
+msgstr "CubicBezierJohan"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:28
 #: ../src/live_effects/lpe-powerstroke.cpp:136
@@ -9714,7 +9715,7 @@ msgstr "尖角"
 
 #: ../src/live_effects/lpe-jointype.cpp:34
 msgid "Miter Clip"
-msgstr ""
+msgstr "\t斜接夹"
 
 #. {LINEJOIN_EXTRP_MITER,  N_("Extrapolated"),      "extrapolated"}, // disabled because doesn't work well
 #: ../src/live_effects/lpe-jointype.cpp:35
@@ -10054,7 +10055,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:236
 msgid "Reset grid"
-msgstr "重设格线"
+msgstr "重置网格"
 
 #: ../src/live_effects/lpe-lattice2.cpp:268
 #: ../src/live_effects/lpe-lattice2.cpp:283
@@ -10083,7 +10084,7 @@ msgstr "重复"
 #: ../src/live_effects/lpe-patternalongpath.cpp:53
 #: ../share/extensions/pathalongpath.inx.h:13
 msgid "Repeated, stretched"
-msgstr "重复, 拉伸"
+msgstr "重复，拉伸"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:59
 msgid "Pattern source:"
@@ -10193,7 +10194,7 @@ msgstr "左下"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:48
 msgid "Down Left - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "左下 - <b>Alt</b>:锁定控制点长度; <b>Ctrl+Alt</b>:沿着控制点移动"
+msgstr "左下 - <b>Ctrl+Alt+单击</b>：重置；<b>Ctrl</b>：沿座标轴移动"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:49
 msgid "Down Right"
@@ -10434,9 +10435,8 @@ msgid "By max. segment size"
 msgstr "依照最大线段长度"
 
 #: ../src/live_effects/lpe-roughen.cpp:37
-#, fuzzy
 msgid "Along nodes"
-msgstr "对齐节点"
+msgstr "沿节点"
 
 #: ../src/live_effects/lpe-roughen.cpp:38
 #, fuzzy
@@ -10477,7 +10477,7 @@ msgstr "Y 方向最大位移"
 
 #: ../src/live_effects/lpe-roughen.cpp:58
 msgid "Global randomize"
-msgstr "总体随机化"
+msgstr "全局随机化"
 
 #: ../src/live_effects/lpe-roughen.cpp:60
 #, fuzzy
@@ -10503,10 +10503,8 @@ msgid "Shift nodes"
 msgstr "移动节点"
 
 #: ../src/live_effects/lpe-roughen.cpp:66
-#, fuzzy
-#| msgid "X displacement:"
 msgid "Fixed displacement"
-msgstr "X 位移:"
+msgstr "固定位移"
 
 #: ../src/live_effects/lpe-roughen.cpp:66
 msgid "Fixed displacement, 1/3 of segment length"
@@ -10610,11 +10608,11 @@ msgstr "标尺小刻度的长度"
 
 #: ../src/live_effects/lpe-ruler.cpp:45
 msgid "Major steps_:"
-msgstr "主要阶数_："
+msgstr "主要阶数(_:)："
 
 #: ../src/live_effects/lpe-ruler.cpp:45
 msgid "Draw a major mark every ... steps"
-msgstr "每隔 ... 显示一个主刻度"
+msgstr "每隔 … 显示一个主刻度"
 
 #: ../src/live_effects/lpe-ruler.cpp:46
 msgid "Shift marks _by:"
@@ -10742,15 +10740,15 @@ msgstr "相邻笔迹的重叠量 (相对最大长度)"
 
 #: ../src/live_effects/lpe-sketch.cpp:45
 msgid "Overlap variation:"
-msgstr "重叠变化量："
+msgstr "重叠变量："
 
 #: ../src/live_effects/lpe-sketch.cpp:46
 msgid "Random variation of overlap (relative to maximum overlap)"
-msgstr "重叠量的随机偏差 (相对于最大重叠量)"
+msgstr "重叠量的随机偏差（相对于最大重叠量）"
 
 #: ../src/live_effects/lpe-sketch.cpp:47
 msgid "Max. end tolerance:"
-msgstr "最大末端容许值："
+msgstr "最大末端容错："
 
 #: ../src/live_effects/lpe-sketch.cpp:48
 msgid "Maximum distance between ends of original and approximating paths (relative to maximum length)"
@@ -10865,7 +10863,7 @@ msgstr "图案偏移"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:75
 msgid "The ending position of the taper"
-msgstr "锥化的结束位置"
+msgstr "锥体的结束位置"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Taper smoothing:"
@@ -10889,11 +10887,11 @@ msgstr "斜切接合的限制"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:447
 msgid "Start point of the taper"
-msgstr "锥化的起点"
+msgstr "锥体的起点"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:451
 msgid "End point of the taper"
-msgstr "锥化的末端"
+msgstr "锥体的末端"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:31
 msgid "Elastic"
@@ -10930,8 +10928,6 @@ msgid "Flip horizontal"
 msgstr "水平翻转"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:36
-#, fuzzy
-#| msgid "Flip vertically"
 msgid "Flip vertical"
 msgstr "垂直翻转"
 
@@ -10950,9 +10946,8 @@ msgid "Stretch"
 msgstr "强度"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
-#, fuzzy
 msgid "Stretch the result"
-msgstr "导出分辨率:"
+msgstr "拉伸最终输出"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:40
 #, fuzzy
@@ -11205,7 +11200,7 @@ msgstr "把文档导出到 PNG 文件"
 
 #: ../src/main.cpp:325
 msgid "Resolution for exporting to bitmap and for rasterization of filters in PS/EPS/PDF (default 96)"
-msgstr "PS/EPS/PDF 格式中导出位图和滤镜点阵化的分辨率 (缺省 96)"
+msgstr "PS/EPS/PDF 格式中导出位图和滤镜点阵化的分辨率（默认为 96）"
 
 #: ../src/main.cpp:326 ../src/ui/widget/rendering-options.cpp:37
 msgid "DPI"
@@ -11384,11 +11379,11 @@ msgstr "输入终端机模式的 D-Bus 消息监听循环"
 
 #: ../src/main.cpp:500
 msgid "Specify the D-Bus bus name to listen for messages on (default is org.inkscape)"
-msgstr "指定消息监听的 D-Bus bus 名称 (缺省为 org.inkscape)"
+msgstr "指定用于消息监听的 D-Bus 总线名称（默认值为 org.inkscape）"
 
 #: ../src/main.cpp:501
 msgid "BUS-NAME"
-msgstr "BUS 名称"
+msgstr "BUS-NAME"
 
 #: ../src/main.cpp:506
 msgid "List the IDs of all the verbs in Inkscape"
@@ -11396,7 +11391,7 @@ msgstr "列出Inkscape中所有动作的标识符(ID)"
 
 #: ../src/main.cpp:511
 msgid "Verb to call when Inkscape opens."
-msgstr "Inkscape启动时调用的命令."
+msgstr "Inkscape 启动时调用的命令。"
 
 #: ../src/main.cpp:512
 msgid "VERB-ID"
@@ -11404,7 +11399,7 @@ msgstr "动作-ID"
 
 #: ../src/main.cpp:516
 msgid "Object ID to select when Inkscape opens."
-msgstr "Inkscape启动时选择的对象ID."
+msgstr "Inkscape 启动时选择的对象 ID。"
 
 #: ../src/main.cpp:517
 msgid "OBJECT-ID"
@@ -11420,7 +11415,7 @@ msgid ""
 "\n"
 "Available options:"
 msgstr ""
-"[选项...] [文件...]\n"
+"[选项…] [文件…]\n"
 "\n"
 "可用选项:"
 
@@ -11526,7 +11521,7 @@ msgstr "选择<b>对象</b>结合."
 
 #: ../src/path-chemistry.cpp:67
 msgid "Combining paths..."
-msgstr "合并路径..."
+msgstr "合并路径…"
 
 #: ../src/path-chemistry.cpp:177
 msgid "Combine"
@@ -11542,7 +11537,7 @@ msgstr "选择要分离的<b>路径</b>."
 
 #: ../src/path-chemistry.cpp:200
 msgid "Breaking apart paths..."
-msgstr "断开路径..."
+msgstr "断开路径…"
 
 #: ../src/path-chemistry.cpp:287
 msgid "Break apart"
@@ -11558,7 +11553,7 @@ msgstr "选择<b>对象</b>转换到路径."
 
 #: ../src/path-chemistry.cpp:305
 msgid "Converting objects to paths..."
-msgstr "正在将对象转化成路径..."
+msgstr "正在将对象转化成路径…"
 
 #: ../src/path-chemistry.cpp:324
 msgid "Object to path"
@@ -11574,7 +11569,7 @@ msgstr "选择要反向的<b>路径</b>."
 
 #: ../src/path-chemistry.cpp:622
 msgid "Reversing paths..."
-msgstr "反向路径..."
+msgstr "反向路径…"
 
 #: ../src/path-chemistry.cpp:657
 msgid "Reverse path"
@@ -11618,7 +11613,7 @@ msgstr "描图"
 
 #: ../src/preferences.cpp:136
 msgid "Inkscape will run with default settings, and new settings will not be saved. "
-msgstr "Inkscape 使用默认设置运行, 并且新的设置不会保存."
+msgstr "Inkscape 将使用默认设置运行，不会保存新的设置。"
 
 #. the creation failed
 #. _reportError(Glib::ustring::compose(_("Cannot create profile directory %1."),
@@ -11666,35 +11661,35 @@ msgstr "%s 是无效的Inkscape配置文件."
 
 #: ../src/rdf.cpp:175
 msgid "CC Attribution"
-msgstr "CC 归属"
+msgstr "CC 署名"
 
 #: ../src/rdf.cpp:180
 msgid "CC Attribution-ShareAlike"
-msgstr "CC 归属-共享"
+msgstr "CC 署名 - 相同方式共享"
 
 #: ../src/rdf.cpp:185
 msgid "CC Attribution-NoDerivs"
-msgstr "CC 归属-非派生"
+msgstr "CC 署名 - 禁止演绎"
 
 #: ../src/rdf.cpp:190
 msgid "CC Attribution-NonCommercial"
-msgstr "CC 归属-非商业"
+msgstr "CC 署名 - 非商业性使用"
 
 #: ../src/rdf.cpp:195
 msgid "CC Attribution-NonCommercial-ShareAlike"
-msgstr "CC 归属-非商业-共享"
+msgstr "CC 署名 - 非商业性使用 - 相同方式共享"
 
 #: ../src/rdf.cpp:200
 msgid "CC Attribution-NonCommercial-NoDerivs"
-msgstr "CC 归属-非商业-非派生"
+msgstr "CC 署名 - 非商业性使用 - 禁止演绎"
 
 #: ../src/rdf.cpp:205
 msgid "CC0 Public Domain Dedication"
-msgstr "CC0 公共领域贡献"
+msgstr "CC0 公有领域贡献"
 
 #: ../src/rdf.cpp:210
 msgid "FreeArt"
-msgstr "自由插图"
+msgstr "FreeArt"
 
 #: ../src/rdf.cpp:215
 msgid "Open Font License"
@@ -11717,7 +11712,7 @@ msgstr "日期:"
 
 #: ../src/rdf.cpp:239
 msgid "A point or period of time associated with an event in the lifecycle of the resource"
-msgstr "资源生命周期中事件发生的时间点或某段时间"
+msgstr "资源生命周期中事件发生的时间点或时间段"
 
 #: ../src/rdf.cpp:241 ../share/extensions/webslicer_create_rect.inx.h:3
 msgid "Format:"
@@ -11835,7 +11830,7 @@ msgstr "片段："
 
 #: ../src/rdf.cpp:296
 msgid "XML fragment for the RDF 'License' section"
-msgstr "RDF 'License' 部分的 XML 片段。"
+msgstr "RDF“License”部分的 XML 片段。"
 
 #: ../src/resource-manager.cpp:336
 msgid "Fixup broken links"
@@ -12189,7 +12184,7 @@ msgstr "选择<b>对象</b>生成位图拷贝."
 
 #: ../src/selection-chemistry.cpp:3520
 msgid "Rendering bitmap..."
-msgstr "渲染位图..."
+msgstr "渲染位图…"
 
 #: ../src/selection-chemistry.cpp:3705
 msgid "Create bitmap"
@@ -12718,7 +12713,7 @@ msgstr "未命名的符号"
 #. * "Clone of: Clone of: ... in Layer 1".
 #: ../src/sp-use.cpp:257
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #: ../src/sp-use.cpp:266
 #, c-format
@@ -12813,7 +12808,7 @@ msgstr "简化路径:"
 #: ../src/splivarot.cpp:2163
 #, c-format
 msgid "%s <b>%d</b> of <b>%d</b> paths simplified..."
-msgstr "%s 简化了<b>%d</b>条路径, 共有<b>%d</b>条路径..."
+msgstr "%s 简化了<b>%d</b>条路径, 共有<b>%d</b>条路径…"
 
 #: ../src/splivarot.cpp:2176
 #, c-format
@@ -12943,7 +12938,7 @@ msgstr "描边:图像没有位图数据"
 
 #: ../src/trace/trace.cpp:445
 msgid "Trace: Starting trace..."
-msgstr "提取轮廓:开始提取轮廓..."
+msgstr "提取轮廓:开始提取轮廓…"
 
 #. ## inform the document, so we can undo
 #: ../src/trace/trace.cpp:548
@@ -13036,7 +13031,14 @@ msgstr "about.svg"
 #. one per line in the form of: name surname (email). Use \n for newline.
 #: ../src/ui/dialog/aboutbox.cpp:426
 msgid "translator-credits"
-msgstr "译者"
+msgstr ""
+"Chris Jia <Chrisjiasl@gmail.com>, 2006, 2007.\n"
+"Liu Xiaoqin <liuxqsmile@gmail.com>, 2008, 2009.\n"
+"Dongjun Wu <ziyawu@gmail.com>, 2011, 2012, 2013, 2014.\n"
+"Shuyu Liu <liushuyu_011@163.com>, 2015.\n"
+"Junde Yi <lmy441900@gmail.com>, 2015.\n"
+"Mingye Wang <arthur200126@gmail.com>, 2015.\n"
+"Jeff Bai <jeffbai@aosc.xyz>, 2015."
 
 #: ../src/ui/dialog/align-and-distribute.cpp:170
 #: ../src/ui/dialog/align-and-distribute.cpp:847
@@ -13056,7 +13058,7 @@ msgstr "边界之间的最小水平间隙(以像素为单位)"
 #: ../src/ui/dialog/align-and-distribute.cpp:419
 msgctxt "Gap"
 msgid "_H:"
-msgstr "_H:"
+msgstr "_H："
 
 #: ../src/ui/dialog/align-and-distribute.cpp:427
 msgid "Minimum vertical gap (in px units) between bounding boxes"
@@ -13267,7 +13269,7 @@ msgstr "最近的选区"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:995
 msgid "First selected"
-msgstr "最先的选区"
+msgstr "最初选区"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:996
 msgid "Biggest object"
@@ -13711,11 +13713,11 @@ msgstr "交替改变每一列的颜色符号"
 
 #: ../src/ui/dialog/clonetiler.cpp:778
 msgid "_Trace"
-msgstr "追踪(_T)"
+msgstr "临摹(_T)"
 
 #: ../src/ui/dialog/clonetiler.cpp:790
 msgid "Trace the drawing under the tiles"
-msgstr "追踪平铺下面的绘画"
+msgstr "临摹网格下的绘画"
 
 #: ../src/ui/dialog/clonetiler.cpp:794
 msgid "For each clone, pick a value from the drawing in that clone's location and apply it to the clone"
@@ -13790,7 +13792,7 @@ msgstr "2. 调整拾取的值:"
 
 #: ../src/ui/dialog/clonetiler.cpp:914
 msgid "Gamma-correct:"
-msgstr "Gamma校正:"
+msgstr "伽马校正："
 
 #: ../src/ui/dialog/clonetiler.cpp:918
 msgid "Shift the mid-range of the picked value upwards (>0) or downwards (<0)"
@@ -13916,7 +13918,7 @@ msgstr "重置(_E)"
 #. TRANSLATORS: "change" is a noun here
 #: ../src/ui/dialog/clonetiler.cpp:1285
 msgid "Reset all shifts, scales, rotates, opacity and color changes in the dialog to zero"
-msgstr "重置对话框中所有更改的偏移, 缩放, 旋转, 不透明度和颜色为零"
+msgstr "重置对话框中所有偏移、缩放、旋转、不透明度和颜色为零"
 
 #: ../src/ui/dialog/clonetiler.cpp:1358
 msgid "<small>Nothing selected.</small>"
@@ -13957,7 +13959,7 @@ msgstr "如果要克隆几个对象, 先<b>组合</b>然后再克隆<b>群组</b
 
 #: ../src/ui/dialog/clonetiler.cpp:2236
 msgid "<small>Creating tiled clones...</small>"
-msgstr "<small>创建平铺克隆...</small>"
+msgstr "<small>创建平铺克隆…</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:2652
 msgid "Create tiled clones"
@@ -14393,7 +14395,7 @@ msgstr "这里使用上次保存的缺省中继数据"
 #. inform the document, so we can undo
 #: ../src/ui/dialog/document-properties.cpp:1092
 msgid "Add external script..."
-msgstr "添加外部脚本..."
+msgstr "添加外部脚本…"
 
 #: ../src/ui/dialog/document-properties.cpp:1131
 msgid "Select a script to load"
@@ -14402,12 +14404,12 @@ msgstr "选择要加载的脚本"
 #. inform the document, so we can undo
 #: ../src/ui/dialog/document-properties.cpp:1159
 msgid "Add embedded script..."
-msgstr "加入内嵌脚本..."
+msgstr "加入内嵌脚本…"
 
 #. inform the document, so we can undo
 #: ../src/ui/dialog/document-properties.cpp:1190
 msgid "Remove external script"
-msgstr "移除外部脚本..."
+msgstr "移除外部脚本…"
 
 #. inform the document, so we can undo
 #: ../src/ui/dialog/document-properties.cpp:1220
@@ -14460,7 +14462,7 @@ msgstr "单位:"
 
 #: ../src/ui/dialog/export.cpp:167
 msgid "_Export As..."
-msgstr "导出成(_E)..."
+msgstr "导出成(_E)…"
 
 #: ../src/ui/dialog/export.cpp:170
 msgid "B_atch export all selected objects"
@@ -14496,11 +14498,11 @@ msgstr "<b>导出范围</b>"
 
 #: ../src/ui/dialog/export.cpp:232
 msgid "_x0:"
-msgstr "_x0:"
+msgstr "_x0："
 
 #: ../src/ui/dialog/export.cpp:236
 msgid "x_1:"
-msgstr "x_1:"
+msgstr "x_1："
 
 #: ../src/ui/dialog/export.cpp:240
 msgid "Wid_th:"
@@ -14508,11 +14510,11 @@ msgstr "宽度(_T):"
 
 #: ../src/ui/dialog/export.cpp:244
 msgid "_y0:"
-msgstr "_y0:"
+msgstr "_y0："
 
 #: ../src/ui/dialog/export.cpp:248
 msgid "y_1:"
-msgstr "y_1:"
+msgstr "y_1："
 
 #: ../src/ui/dialog/export.cpp:252
 msgid "Hei_ght:"
@@ -14575,7 +14577,7 @@ msgstr "正在导出 %1 个文件"
 #: ../src/ui/dialog/export.cpp:1069 ../src/ui/dialog/export.cpp:1071
 #, c-format
 msgid "Exporting file <b>%s</b>..."
-msgstr "正在导出文件 <b>%s</b>..."
+msgstr "正在导出文件 <b>%s</b>…"
 
 #: ../src/ui/dialog/export.cpp:1080 ../src/ui/dialog/export.cpp:1172
 #, c-format
@@ -14751,7 +14753,7 @@ msgstr "所有位图"
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1054
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1612
 msgid "Append filename extension automatically"
-msgstr "自动为文件名称添加后缀名"
+msgstr "自动为文件名添加后缀"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1227
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1480
@@ -14811,7 +14813,7 @@ msgstr "选择"
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1557
 msgctxt "Export dialog"
 msgid "Custom"
-msgstr "自定义页面尺寸"
+msgstr "自定义"
 
 #: ../src/ui/dialog/filedialogimpl-gtkmm.cpp:1577
 msgid "Source"
@@ -14879,7 +14881,7 @@ msgstr "这个SVG滤镜效果不需要参数."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:828
 msgid "This SVG filter effect is not yet implemented in Inkscape."
-msgstr "Inkscape中暂时不能实现这个SVG滤镜效果."
+msgstr "Inkscape 暂未实现此 SVG 滤镜效果。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1042
 msgid "Slope"
@@ -14931,7 +14933,7 @@ msgstr "X 坐标"
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1203
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1206
 msgid "Y coordinate"
-msgstr "X 坐标"
+msgstr "Y 坐标"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1200
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1203
@@ -15040,7 +15042,7 @@ msgstr "滤镜通用选项"
 #. default y:
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2849
 msgid "Coordinates:"
-msgstr "坐标:"
+msgstr "坐标："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2849
 msgid "X coordinate of the left corners of filter effects region"
@@ -15096,7 +15098,7 @@ msgstr "操作:"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2868
 msgid "K1:"
-msgstr "K1:"
+msgstr "K1："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2868
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2869
@@ -15107,15 +15109,15 @@ msgstr "如果使用该算法操作, 每个最终像素通过 k1*i1*i2 + k2*i1 +
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2869
 msgid "K2:"
-msgstr "K2:"
+msgstr "K2："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2870
 msgid "K3:"
-msgstr "K3:"
+msgstr "K3："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2871
 msgid "K4:"
-msgstr "K4:"
+msgstr "K4："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2874
 msgid "Size:"
@@ -15226,7 +15228,7 @@ msgstr "位移效果的强度."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2893
 msgid "X displacement:"
-msgstr "X 位移:"
+msgstr "X 位移："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2893
 msgid "Color component that controls the displacement in the X direction"
@@ -15234,7 +15236,7 @@ msgstr "控制X方向位移的色彩分量"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2894
 msgid "Y displacement:"
-msgstr "Y 位移:"
+msgstr "Y 位移："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2894
 msgid "Color component that controls the displacement in the Y direction"
@@ -15293,7 +15295,7 @@ msgstr "高光颜色:"
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2921
 #: ../share/extensions/interp.inx.h:2
 msgid "Exponent:"
-msgstr "指数:"
+msgstr "指数："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2921
 msgid "Exponent for specular term, larger is more \"shiny\"."
@@ -15301,7 +15303,7 @@ msgstr "镜面反射指数, 大值更 \"光亮\"."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2930
 msgid "Indicates whether the filter primitive should perform a noise or turbulence function."
-msgstr "指示滤镜基元是否需要执行噪声或紊乱功能."
+msgstr "指示滤镜基元是否需要执行噪声或紊乱功能。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2931
 msgid "Base Frequency:"
@@ -15313,7 +15315,7 @@ msgstr "倍频程:"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2933
 msgid "Seed:"
-msgstr "种子:"
+msgstr "种子："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2933
 msgid "The starting number for the pseudo random number generator."
@@ -15710,7 +15712,7 @@ msgstr ""
 
 #: ../src/ui/dialog/font-substitution.cpp:82
 msgid "Font substitution"
-msgstr "字体替代"
+msgstr "字体替换"
 
 #: ../src/ui/dialog/font-substitution.cpp:101
 msgid "Select all the affected items"
@@ -16067,7 +16069,7 @@ msgstr "间隔修饰字母"
 
 #: ../src/ui/dialog/glyphs.cpp:159
 msgid "Combining Diacritical Marks"
-msgstr "組合式符號"
+msgstr "组合音标"
 
 #: ../src/ui/dialog/glyphs.cpp:160
 msgid "Greek and Coptic"
@@ -16127,7 +16129,7 @@ msgstr "音标扩展补充"
 
 #: ../src/ui/dialog/glyphs.cpp:213
 msgid "Combining Diacritical Marks Supplement"
-msgstr "组合音标附加符号补充"
+msgstr "组合音标补充"
 
 #: ../src/ui/dialog/glyphs.cpp:214
 msgid "Latin Extended Additional"
@@ -16187,7 +16189,7 @@ msgstr "带括号的字母数字"
 
 #: ../src/ui/dialog/glyphs.cpp:228
 msgid "Box Drawing"
-msgstr "制表符"
+msgstr "箱子绘图"
 
 #: ../src/ui/dialog/glyphs.cpp:229
 msgid "Block Elements"
@@ -16255,7 +16257,7 @@ msgstr "扩展音标"
 
 #: ../src/ui/dialog/glyphs.cpp:248
 msgid "CJK Radicals Supplement"
-msgstr "CJK偏旁补充"
+msgstr "CJK 偏旁补充"
 
 #: ../src/ui/dialog/glyphs.cpp:249
 msgid "Kangxi Radicals"
@@ -16267,7 +16269,7 @@ msgstr "表意描述字符"
 
 #: ../src/ui/dialog/glyphs.cpp:251
 msgid "CJK Symbols and Punctuation"
-msgstr "CJK符号与音标"
+msgstr "CJK 符号与音标"
 
 #: ../src/ui/dialog/glyphs.cpp:255
 msgid "Hangul Compatibility Jamo"
@@ -16283,7 +16285,7 @@ msgstr "附加的注音符号"
 
 #: ../src/ui/dialog/glyphs.cpp:258
 msgid "CJK Strokes"
-msgstr "CJK笔廓"
+msgstr "CJK 笔廓"
 
 #: ../src/ui/dialog/glyphs.cpp:259
 msgid "Katakana Phonetic Extensions"
@@ -16295,11 +16297,11 @@ msgstr "带括号的 CJK 字母和月份"
 
 #: ../src/ui/dialog/glyphs.cpp:261
 msgid "CJK Compatibility"
-msgstr "CJK兼容性"
+msgstr "CJK 兼容性"
 
 #: ../src/ui/dialog/glyphs.cpp:262
 msgid "CJK Unified Ideographs Extension A"
-msgstr "CJK 统一汉字扩展 A"
+msgstr "CJK 统一表意文字扩展 A"
 
 #: ../src/ui/dialog/glyphs.cpp:263
 msgid "Yijing Hexagram Symbols"
@@ -16307,7 +16309,7 @@ msgstr "易经六十四卦象"
 
 #: ../src/ui/dialog/glyphs.cpp:264
 msgid "CJK Unified Ideographs"
-msgstr "CJK 统一汉字"
+msgstr "CJK 统一表意文字"
 
 #: ../src/ui/dialog/glyphs.cpp:265
 msgid "Yi Syllables"
@@ -16459,7 +16461,7 @@ msgstr "排列到网格"
 #: ../src/ui/widget/page-sizer.cpp:247 ../src/widgets/desktop-widget.cpp:666
 #: ../src/widgets/node-toolbar.cpp:581
 msgid "X:"
-msgstr "X:"
+msgstr "X："
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:571
 msgid "Horizontal spacing between columns."
@@ -16471,7 +16473,7 @@ msgstr "列间的水平间隔。"
 #: ../src/ui/widget/page-sizer.cpp:248 ../src/widgets/desktop-widget.cpp:676
 #: ../src/widgets/node-toolbar.cpp:599
 msgid "Y:"
-msgstr "Y:"
+msgstr "Y："
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:572
 msgid "Vertical spacing between rows."
@@ -16535,12 +16537,12 @@ msgstr "相对当前设置移动/旋转参考线"
 #: ../src/ui/dialog/guides.cpp:48
 msgctxt "Guides"
 msgid "_X:"
-msgstr "_X:"
+msgstr "_X："
 
 #: ../src/ui/dialog/guides.cpp:49
 msgctxt "Guides"
 msgid "_Y:"
-msgstr "_Y:"
+msgstr "_Y："
 
 #: ../src/ui/dialog/guides.cpp:50 ../src/ui/dialog/object-properties.cpp:59
 msgid "_Label:"
@@ -16620,7 +16622,7 @@ msgstr "将对象转变为参考线, 参考线沿对象的实际边 (模仿对�
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "Ctrl+click _dot size:"
-msgstr "Ctrl+点击 点尺寸（_D):"
+msgstr "Ctrl+点击“点尺寸”（_D)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "times current stroke width"
@@ -16644,7 +16646,7 @@ msgstr "新对象的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:267
 msgid "Last used style"
-msgstr "最后使用的风格"
+msgstr "最近使用的风格"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:269
 msgid "Apply the style you last set on an object"
@@ -16697,7 +16699,7 @@ msgstr "边界范围仅包含路径"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:314
 msgid "Conversion to guides"
-msgstr "转换为辅助线"
+msgstr "转换为参考线"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:315
 msgid "Keep objects after conversion to guides"
@@ -16705,7 +16707,7 @@ msgstr "在转为参考线后仍然保留对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:317
 msgid "When converting an object to guides, don't delete the object after the conversion"
-msgstr "转为参考线后, 不删除原始对象"
+msgstr "将对象转换为参考线后，不要删除原对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:318
 msgid "Treat groups as a single object"
@@ -16713,7 +16715,7 @@ msgstr "将群组作为单个的对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:320
 msgid "Treat groups as a single object during conversion to guides rather than converting each child separately"
-msgstr "转为参考线时, 将群组作为一个单独的对象, 而不是其中的每个形状单独转换"
+msgstr "转换为参考线时，将群组作为一个单独的对象，而不是对其中的每个子项单独进行转换"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:322
 msgid "Average all sketches"
@@ -17001,7 +17003,7 @@ msgstr "设置在文本工具栏和文本对话框中使用的单位的类型"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:467
 msgid "Always output text size in pixels (px)"
-msgstr "总是输出文本大小为像素(px)"
+msgstr "总以像素 (px) 为单位输出文本大小"
 
 #. Spray
 #: ../src/ui/dialog/inkscape-preferences.cpp:473
@@ -17067,7 +17069,7 @@ msgstr "如果打开, 对于文字对象连接器的附着点不显示"
 #. disabled, because the LPETool is not finished yet.
 #: ../src/ui/dialog/inkscape-preferences.cpp:515
 msgid "LPE Tool"
-msgstr "LPE 工具 (实时路径效果)"
+msgstr "LPE 工具"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:522
 msgid "Interface"
@@ -17801,17 +17803,17 @@ msgstr "普通网格线的颜色"
 #: ../src/ui/dialog/inkscape-preferences.cpp:814
 #: ../src/ui/dialog/inkscape-preferences.cpp:815
 msgid "Major grid line color:"
-msgstr "主网格线颜色:"
+msgstr "主网格线颜色："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:790
 #: ../src/ui/dialog/inkscape-preferences.cpp:815
 msgid "Color used for major (highlighted) grid lines"
-msgstr "主(高亮)网格线所使用的颜色"
+msgstr "主（高亮）网格线所使用的颜色"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:792
 #: ../src/ui/dialog/inkscape-preferences.cpp:817
 msgid "Major grid line every:"
-msgstr "主网格线间隔:"
+msgstr "主网格线间隔："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:793
 msgid "Show dots instead of lines"
@@ -17827,11 +17829,11 @@ msgstr "输入 / 输出"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:878
 msgid "Use current directory for \"Save As ...\""
-msgstr " \"另存为 ...\"使用当前路径"
+msgstr " \"另存为 …\"使用当前路径"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:880
 msgid "When this option is on, the \"Save as...\" and \"Save a Copy...\" dialogs will always open in the directory where the currently open document is; when it's off, each will open in the directory where you last saved a file using it"
-msgstr "当这个选项打开时，“另存为...”和“保存一个拷贝...”对话框将总是打开当前打开的文档所在的目录;当它关闭时，每次将会打开你最后保存文件所使用的目录"
+msgstr "当这个选项打开时，“另存为…”和“保存一个拷贝…”对话框将总是打开当前打开的文档所在的目录;当它关闭时，每次将会打开你最后保存文件所使用的目录"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:882
 msgid "Add label comments to printing output"
@@ -17980,7 +17982,7 @@ msgstr "指定写入到 SVG 文件的有效位数"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:941
 msgid "Minimum _exponent:"
-msgstr "最小指数（_E):"
+msgstr "最小指数(_E)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:941
 msgid "The smallest number written to SVG is 10 to the power of this exponent; anything smaller is written as zero"
@@ -18213,11 +18215,11 @@ msgstr "在指定的间隔时间内自动保存当前文档, 减小程序崩溃�
 #: ../src/ui/dialog/inkscape-preferences.cpp:1133
 msgctxt "Filesystem"
 msgid "Autosave _directory:"
-msgstr "自动保存目录（_D):"
+msgstr "自动保存目录(_D)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1133
 msgid "The directory where autosaves will be written. This should be an absolute path (starts with / on UNIX or a drive letter such as C: on Windows). "
-msgstr "自动保存将要写入到的目录。这个应该是一个绝对路径（在 UNIX 上以 / 开始，在 Windows 上以类似 C: 的一个盘符开始）。"
+msgstr "用于写入自动保存将数据的目录。此目录应使用绝对路径（在 UNIX 上以 / 开始，在 Windows 上以类似 C: 的一个盘符开始）。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1135
 msgid "_Interval (in minutes):"
@@ -18225,15 +18227,15 @@ msgstr "间隔时间 (分钟)（_I)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1135
 msgid "Interval (in minutes) at which document will be autosaved"
-msgstr "自动保存文档的间隔时间 (分钟)"
+msgstr "自动保存文档的间隔时间（分钟）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1137
 msgid "_Maximum number of autosaves:"
-msgstr "自动保存最大数量（_M):"
+msgstr "自动保存的最大数量(_M)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1137
 msgid "Maximum number of autosaved files; use this to limit the storage space used"
-msgstr "自动保存的文件数目; 防止存储空间占用过多"
+msgstr "自动保存的文件数目；防止过多占用存储空间"
 
 #. When changing the interval or enabling/disabling the autosave function,
 #. * update our running configuration
@@ -18253,15 +18255,15 @@ msgstr "自动保存"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1156
 msgid "Open Clip Art Library _Server Name:"
-msgstr "Open Clip Art Library 服务器名称（_S）:"
+msgstr "Open Clip Art Library 服务器名称(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1157
 msgid "The server name of the Open Clip Art Library webdav server; it's used by the Import and Export to OCAL function"
-msgstr "Open Clip Art Library webdav服务器的名称. 在导入和导出 OCAL 功能中需要用到"
+msgstr "Open Clip Art Library WebDAV 服务器的名称；在导入和导出 OCAL 的功能中需要用到"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1159
 msgid "Open Clip Art Library _Username:"
-msgstr "Open Clip Art Library 的用户名(_U):"
+msgstr "Open Clip Art Library 的用户名(_U)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1160
 msgid "The username used to log into Open Clip Art Library"
@@ -18269,7 +18271,7 @@ msgstr "登录到Open Clip Art Library 的用户名称"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1162
 msgid "Open Clip Art Library _Password:"
-msgstr "Open Clip Art Library 密码（_P):"
+msgstr "Open Clip Art Library 密码(_P)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1163
 msgid "The password used to log into Open Clip Art Library"
@@ -18425,7 +18427,7 @@ msgstr "如果可能, 应用变换时不增加变换= 属性给对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1231
 msgid "Always store transformation as a transform= attribute on objects"
-msgstr "总是按照在对象上添加变换= 属性保存变换"
+msgstr "总是以 transform= 属性保存对象上的变换"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1233
 msgid "Transforms"
@@ -18552,7 +18554,7 @@ msgstr "当沿着一条约束线拖动一个结时，那么吸附鼠标指针的
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1288
 msgid "Delayed snap"
-msgstr "总是捕捉"
+msgstr "延时捕捉"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1291
 msgid "Delay (in seconds):"
@@ -18594,7 +18596,7 @@ msgstr "按这个距离插入和拔出命令替换路径"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1308
 msgid "Compass-like display of angles"
-msgstr "指南针式显示角度"
+msgstr "指南针式角度显示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1310
 msgid "When on, angles are displayed with 0 at north, 0 to 360 range, positive clockwise; otherwise with 0 at east, -180 to 180 range, positive counterclockwise"
@@ -18698,7 +18700,7 @@ msgstr "复制原件+克隆/链接的偏移"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1353
 msgid "Relink duplicated clones"
-msgstr "重新链接再制的克隆"
+msgstr "重新链接复制的克隆"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1355
 msgid "When duplicating a selection containing both a clone and its original (possibly in groups), relink the duplicated clone to the duplicated original instead of the old original"
@@ -18829,7 +18831,7 @@ msgstr "设置每个文档可以用于存储作为绘图的已渲染部分用于
 #: ../src/ui/dialog/inkscape-preferences.cpp:1423
 #: ../src/ui/dialog/inkscape-preferences.cpp:1447
 msgid "Best quality (slowest)"
-msgstr "最佳质量(最慢)"
+msgstr "最佳质量（最慢）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1425
 #: ../src/ui/dialog/inkscape-preferences.cpp:1449
@@ -18849,7 +18851,7 @@ msgstr "较低质量(较快)"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1431
 #: ../src/ui/dialog/inkscape-preferences.cpp:1455
 msgid "Lowest quality (fastest)"
-msgstr "最差质量(最快)"
+msgstr "最差质量（最快）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1434
 msgid "Gaussian blur quality for display"
@@ -18858,7 +18860,7 @@ msgstr "用于显示的高斯模糊质量"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1436
 #: ../src/ui/dialog/inkscape-preferences.cpp:1460
 msgid "Best quality, but display may be very slow at high zooms (bitmap export always uses best quality)"
-msgstr "最佳质量, 但是放大倍数大的时候非常慢(导出位图始终使用最佳质量)"
+msgstr "最佳质量，但是放大倍数大的时候非常慢（导出位图始终使用最佳质量）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1438
 #: ../src/ui/dialog/inkscape-preferences.cpp:1462
@@ -18878,7 +18880,7 @@ msgstr "较差质量(有一些失真), 但是显示较快"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1444
 #: ../src/ui/dialog/inkscape-preferences.cpp:1468
 msgid "Lowest quality (considerable artifacts), but display is fastest"
-msgstr "最差质量(相当乱), 但是显示最快"
+msgstr "最差质量（大量图像错误），但是显示最快"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1458
 msgid "Filter effects quality for display"
@@ -18898,7 +18900,7 @@ msgstr "编辑"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1477
 msgid "Automatically reload bitmaps"
-msgstr "自动加载位图"
+msgstr "自动重载位图"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1479
 msgid "Automatically reload linked images when file is changed on disk"
@@ -19008,7 +19010,7 @@ msgstr "移除全部自订的键盘快捷键，并用上面呈列的快捷键文
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1614
 msgid "Import ..."
-msgstr "导入..."
+msgstr "导入…"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1614
 msgid "Import custom keyboard shortcuts from a file"
@@ -19016,7 +19018,7 @@ msgstr "从文件导入自订键盘快捷键"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1617
 msgid "Export ..."
-msgstr "导出..."
+msgstr "导出…"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1617
 msgid "Export custom keyboard shortcuts to a file"
@@ -19138,7 +19140,7 @@ msgstr "用于自动保存的临时文件的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1992
 msgid "Inkscape data: "
-msgstr "Inkscape 数据:"
+msgstr "Inkscape 数据："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1992
 msgid "Location of Inkscape data"
@@ -19146,7 +19148,7 @@ msgstr "Inkscape 数据的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1996
 msgid "Inkscape extensions: "
-msgstr "Inkscape 扩展:"
+msgstr "Inkscape 扩展："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1996
 msgid "Location of the Inkscape extensions"
@@ -19288,11 +19290,11 @@ msgstr "当前之下"
 
 #: ../src/ui/dialog/layer-properties.cpp:183
 msgid "As sublayer of current"
-msgstr "作为当前层的子层"
+msgstr "作为当前图层的子层"
 
 #: ../src/ui/dialog/layer-properties.cpp:352
 msgid "Rename Layer"
-msgstr "重命名层"
+msgstr "重命名图层"
 
 #. TODO: find an unused layer number, forming name from _("Layer ") + "%d"
 #: ../src/ui/dialog/layer-properties.cpp:354
@@ -19307,7 +19309,7 @@ msgstr "重命名(_R)"
 
 #: ../src/ui/dialog/layer-properties.cpp:368 ../src/ui/dialog/layers.cpp:758
 msgid "Rename layer"
-msgstr "重命名层"
+msgstr "重命名图层"
 
 #. TRANSLATORS: This means "The layer has been renamed"
 #: ../src/ui/dialog/layer-properties.cpp:370
@@ -19568,13 +19570,13 @@ msgstr "链接:"
 #. Identifies the type of the related resource with an absolute URI
 #: ../src/ui/dialog/object-attributes.cpp:52
 msgid "Role:"
-msgstr "作用:"
+msgstr "角色："
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/linking.html#AElementXLinkArcRoleAttribute
 #. For situations where the nature/role alone isn't enough, this offers an additional URI defining the purpose of the link.
 #: ../src/ui/dialog/object-attributes.cpp:55
 msgid "Arcrole:"
-msgstr "Arcrole:"
+msgstr "Arcrole："
 
 #: ../src/ui/dialog/object-attributes.cpp:58
 #: ../share/extensions/polyhedron_3d.inx.h:47
@@ -19588,7 +19590,7 @@ msgstr "实际:"
 
 #: ../src/ui/dialog/object-attributes.cpp:65
 msgid "URL:"
-msgstr "URL:"
+msgstr "URL："
 
 #: ../src/ui/dialog/object-attributes.cpp:70
 msgid "Image Rendering:"
@@ -19599,7 +19601,7 @@ msgstr "图像渲染："
 #: ../src/ui/dialog/object-properties.cpp:470
 #: ../src/ui/dialog/object-properties.cpp:477
 msgid "_ID:"
-msgstr "_ID:"
+msgstr "_ID："
 
 #: ../src/ui/dialog/object-properties.cpp:60
 msgid "_Title:"
@@ -19620,7 +19622,7 @@ msgstr "锁定(_O)"
 #. Create the entry box for the object id
 #: ../src/ui/dialog/object-properties.cpp:139
 msgid "The id= attribute (only letters, digits, and the characters .-_: allowed)"
-msgstr "id=属性(只允许字母, 数字和字符 .-_: )"
+msgstr "id=属性（只允许字母，数字和字符 .-_: ）"
 
 #. Create the entry box for the object label
 #: ../src/ui/dialog/object-properties.cpp:174
@@ -19675,11 +19677,11 @@ msgstr "参考"
 
 #: ../src/ui/dialog/object-properties.cpp:472
 msgid "Id invalid! "
-msgstr "Id 无效！"
+msgstr "ID 无效！"
 
 #: ../src/ui/dialog/object-properties.cpp:474
 msgid "Id exists! "
-msgstr "Id 已存在！"
+msgstr "ID 已存在！"
 
 #: ../src/ui/dialog/object-properties.cpp:480
 msgid "Set object ID"
@@ -19822,7 +19824,7 @@ msgstr ""
 
 #: ../src/ui/dialog/objects.cpp:1827
 msgid "Add layer..."
-msgstr "增加层..."
+msgstr "增加层…"
 
 #: ../src/ui/dialog/objects.cpp:1834
 msgid "Remove object"
@@ -19906,7 +19908,7 @@ msgstr "发现剪贴图"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:764
 msgid "Downloading image..."
-msgstr "正在下载图像..."
+msgstr "正在下载图像…"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:912
 msgid "Could not download image"
@@ -19926,7 +19928,7 @@ msgstr "无描述"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:1079
 msgid "Searching clipart..."
-msgstr "正在搜索剪贴图..."
+msgstr "正在搜索剪贴图…"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:1099 ../src/ui/dialog/ocaldialogs.cpp:1120
 msgid "Could not connect to the Open Clip Art Library"
@@ -20026,11 +20028,11 @@ msgstr "输出"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:297 ../src/ui/dialog/tracedialog.cpp:814
 msgid "Reset all settings to defaults"
-msgstr "重置全部设置为默认"
+msgstr "重置全部设置为默认值"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:302 ../src/ui/dialog/tracedialog.cpp:819
 msgid "Abort a trace in progress"
-msgstr "中断描绘"
+msgstr "中断正在进行的描边"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:306 ../src/ui/dialog/tracedialog.cpp:823
 msgid "Execute the trace"
@@ -20049,7 +20051,7 @@ msgstr ""
 
 #: ../src/ui/dialog/pixelartdialog.cpp:499
 msgid "Trace pixel art"
-msgstr "追踪像素艺术"
+msgstr "临摹剪贴画"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:41
 msgctxt "Polar arrange tab"
@@ -20109,7 +20111,7 @@ msgstr "第一个选择的圆周/椭圆/圆弧"
 #: ../src/ui/dialog/polar-arrange-tab.cpp:73
 msgctxt "Polar arrange tab"
 msgid "Last selected circle/ellipse/arc"
-msgstr "最后选择的圆周/椭圆/圆弧"
+msgstr "最近选择的圆周/椭圆/圆弧"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:78
 msgctxt "Polar arrange tab"
@@ -20119,7 +20121,7 @@ msgstr "参数化："
 #: ../src/ui/dialog/polar-arrange-tab.cpp:83
 msgctxt "Polar arrange tab"
 msgid "Center X/Y:"
-msgstr "中心 X/Y:"
+msgstr "中心 X/Y："
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:105
 msgctxt "Polar arrange tab"
@@ -20231,7 +20233,7 @@ msgstr "不在词典中 (%s): <b>%s</b>"
 
 #: ../src/ui/dialog/spellcheck.cpp:727
 msgid "<i>Checking...</i>"
-msgstr "<i>正在检查...</i>"
+msgstr "<i>正在检查…</i>"
 
 #: ../src/ui/dialog/spellcheck.cpp:796
 msgid "Fix spelling"
@@ -20247,7 +20249,7 @@ msgstr "调整字间距"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:387
 msgid "Family Name:"
-msgstr "族名:"
+msgstr "家族名称："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:397
 msgid "Set width:"
@@ -20255,7 +20257,7 @@ msgstr "设置宽度"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:456
 msgid "glyph"
-msgstr "字型"
+msgstr "字形"
 
 #. SPGlyph* glyph =
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:488
@@ -20311,11 +20313,11 @@ msgstr "丢失的字型:"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:697
 msgid "From selection..."
-msgstr "从选择中..."
+msgstr "从选择中…"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:710
 msgid "Glyph name"
-msgstr "字型名称"
+msgstr "字形名称"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:711
 msgid "Matching string"
@@ -20327,7 +20329,7 @@ msgstr "添加字型"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:721
 msgid "Get curves from selection..."
-msgstr "从选区中获得曲线..."
+msgstr "从选区中获得曲线…"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:770
 msgid "Add kerning pair"
@@ -20336,7 +20338,7 @@ msgstr "添加字距对"
 #. Kerning Setup:
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:778
 msgid "Kerning Setup"
-msgstr "字距调整设置"
+msgstr "字距设置"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:780
 msgid "1st Glyph:"
@@ -20360,7 +20362,7 @@ msgstr "第二Unicode范围"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:805
 msgid "Kerning value:"
-msgstr "字间距值:"
+msgstr "字距值："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:863
 msgid "Set font family"
@@ -20385,7 +20387,7 @@ msgstr "全局设置(_G)"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:922
 msgid "_Glyphs"
-msgstr "字型(_G)"
+msgstr "字形(_G)"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:923
 msgid "_Kerning"
@@ -20417,7 +20419,7 @@ msgstr "设置轮廓"
 
 #: ../src/ui/dialog/swatches.cpp:286
 msgid "Edit..."
-msgstr "编辑..."
+msgstr "编辑…"
 
 #: ../src/ui/dialog/swatches.cpp:298
 msgid "Convert"
@@ -20744,7 +20746,7 @@ msgstr "忽略位图上小的 spots(噪点)"
 
 #: ../src/ui/dialog/tracedialog.cpp:700
 msgid "Speckles of up to this many pixels will be suppressed"
-msgstr "Speckles 达到此值许多像素会被清除"
+msgstr "Speckles 达到此值时将会压制许多像素"
 
 #: ../src/ui/dialog/tracedialog.cpp:703
 msgid "S_ize:"
@@ -20792,20 +20794,20 @@ msgid ""
 "\n"
 "http://potrace.sourceforge.net"
 msgstr ""
-"Inkscape位图跟踪\n"
-"基于Peter Seligner的Potrace,\n"
+"Inkscape 位图描边\n"
+"基于 Peter Seligner 编写的 Potrace，\n"
 "\n"
 "http://potrace.sourceforge.net"
 
 #: ../src/ui/dialog/tracedialog.cpp:760
 msgid "Credits"
-msgstr "字幕"
+msgstr "贡献者"
 
 #. #### begin right panel
 #. ## SIOX
 #: ../src/ui/dialog/tracedialog.cpp:774
 msgid "SIOX _foreground selection"
-msgstr "SIOX 前景选择（_F)"
+msgstr "SIOX 前景选择(_F)"
 
 #: ../src/ui/dialog/tracedialog.cpp:777
 msgid "Cover the area you want to select as the foreground"
@@ -21054,7 +21056,7 @@ msgstr "拖动 XML 子数"
 
 #: ../src/ui/dialog/xml-tree.cpp:876
 msgid "New element node..."
-msgstr "新元素节点..."
+msgstr "新元素节点…"
 
 #: ../src/ui/dialog/xml-tree.cpp:914
 msgid "Cancel"
@@ -21088,11 +21090,11 @@ msgstr "默认的界面设置"
 #: ../src/ui/interface.cpp:749
 msgctxt "Interface setup"
 msgid "Custom"
-msgstr "自定义页面尺寸"
+msgstr "自定义"
 
 #: ../src/ui/interface.cpp:749
 msgid "Setup for custom task"
-msgstr "自定义任务的设置"
+msgstr "自定义任务设置"
 
 #: ../src/ui/interface.cpp:750
 msgctxt "Interface setup"
@@ -21106,7 +21108,7 @@ msgstr "宽屏工作模式"
 #: ../src/ui/interface.cpp:862
 #, c-format
 msgid "Verb \"%s\" Unknown"
-msgstr "Verb \"%s\" 未知"
+msgstr "动词“%s”未知"
 
 #: ../src/ui/interface.cpp:897
 msgid "Open _Recent"
@@ -21155,7 +21157,7 @@ msgstr "替换"
 
 #: ../src/ui/interface.cpp:1460
 msgid "Go to parent"
-msgstr "转到上一级"
+msgstr "转至父级"
 
 #. TRANSLATORS: #%1 is the id of the group e.g. <g id="#g7">, not a number.
 #: ../src/ui/interface.cpp:1501
@@ -21165,7 +21167,7 @@ msgstr "输入组号 #%1"
 #. Item dialog
 #: ../src/ui/interface.cpp:1637 ../src/verbs.cpp:2901
 msgid "_Object Properties..."
-msgstr "对象属性(_O)..."
+msgstr "对象属性(_O)…"
 
 #: ../src/ui/interface.cpp:1646
 msgid "_Select This"
@@ -21203,7 +21205,7 @@ msgstr "对象类型"
 #. Move to layer
 #: ../src/ui/interface.cpp:1702
 msgid "_Move to layer ..."
-msgstr "移到层（_M)..."
+msgstr "移到层（_M)…"
 
 #. Create link
 #: ../src/ui/interface.cpp:1712
@@ -21247,7 +21249,7 @@ msgstr "解除群组(_U)"
 #. Link dialog
 #: ../src/ui/interface.cpp:1916
 msgid "Link _Properties..."
-msgstr "链接属性(_P)..."
+msgstr "链接属性(_P)…"
 
 #. Select item
 #: ../src/ui/interface.cpp:1922
@@ -21266,23 +21268,23 @@ msgstr "移除链接"
 #. Image properties
 #: ../src/ui/interface.cpp:1969
 msgid "Image _Properties..."
-msgstr "图像属性(_P)..."
+msgstr "图像属性(_P)…"
 
 #. Edit externally
 #: ../src/ui/interface.cpp:1975
 msgid "Edit Externally..."
-msgstr "外部编辑..."
+msgstr "外部编辑…"
 
 #. Trace Bitmap
 #. TRANSLATORS: "to trace" means "to convert a bitmap to vector graphics" (to vectorize)
 #: ../src/ui/interface.cpp:1984 ../src/verbs.cpp:2597
 msgid "_Trace Bitmap..."
-msgstr "提取位图轮廓(_T)..."
+msgstr "提取位图轮廓(_T)…"
 
 #. Trace Pixel Art
 #: ../src/ui/interface.cpp:1993
 msgid "Trace Pixel Art"
-msgstr "追踪像素艺术"
+msgstr "临摹剪贴画"
 
 #: ../src/ui/interface.cpp:2003
 msgctxt "Context menu"
@@ -21292,24 +21294,24 @@ msgstr "嵌入图像"
 #: ../src/ui/interface.cpp:2014
 msgctxt "Context menu"
 msgid "Extract Image..."
-msgstr "提取图像..."
+msgstr "提取图像…"
 
 #. Item dialog
 #. Fill and Stroke dialog
 #: ../src/ui/interface.cpp:2158 ../src/ui/interface.cpp:2178
 #: ../src/verbs.cpp:2864
 msgid "_Fill and Stroke..."
-msgstr "填色和笔廓(_F)..."
+msgstr "填色和笔廓(_F)…"
 
 #. Edit Text dialog
 #: ../src/ui/interface.cpp:2184 ../src/verbs.cpp:2883
 msgid "_Text and Font..."
-msgstr "文字和字体(_T)..."
+msgstr "文字和字体(_T)…"
 
 #. Spellcheck dialog
 #: ../src/ui/interface.cpp:2190 ../src/verbs.cpp:2891
 msgid "Check Spellin_g..."
-msgstr "检查拼写(_G)..."
+msgstr "检查拼写(_G)…"
 
 #: ../src/ui/object-edit.cpp:450
 msgid "Adjust the <b>horizontal rounding</b> radius; with <b>Ctrl</b> to make the vertical radius the same"
@@ -21425,7 +21427,7 @@ msgstr "拉直线段"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:325
 msgid "Make segments curves"
-msgstr "制作已选线段变成曲线"
+msgstr "使用线段制作曲线"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:333
 #: ../src/ui/tool/multi-path-manipulator.cpp:347
@@ -21438,7 +21440,7 @@ msgstr "添加极值节点"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:354
 msgid "Duplicate nodes"
-msgstr "重复节点"
+msgstr "复制节点"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:417
 #: ../src/widgets/node-toolbar.cpp:408
@@ -21664,7 +21666,7 @@ msgstr "对称节点"
 
 #: ../src/ui/tool/node.cpp:1486
 msgid "Auto-smooth node"
-msgstr "自动光滑节点"
+msgstr "自动平滑节点"
 
 #: ../src/ui/tool/path-manipulator.cpp:296
 msgid "Add node"
@@ -22229,11 +22231,11 @@ msgstr "创建默认网格"
 
 #: ../src/ui/tools/mesh-tool.cpp:709
 msgid "FIXME<b>Ctrl</b>: snap mesh angle"
-msgstr "Fixme <b>Ctrl</b>:捕捉网格角度"
+msgstr "FIXME<b>Ctrl</b>：捕捉网格角度"
 
 #: ../src/ui/tools/mesh-tool.cpp:710
 msgid "FIXME<b>Shift</b>: draw mesh around the starting point"
-msgstr "Fixme <b>Shift</b>: 围绕开始点绘制网格"
+msgstr "FIXME<b>Shift</b>：围绕开始点绘制网格"
 
 #: ../src/ui/tools/node-tool.cpp:653
 msgctxt "Node tool tip"
@@ -22249,7 +22251,7 @@ msgstr "<b>Shift</b>: 拖动继续选择节点"
 #, c-format
 msgid "<b>%u of %u</b> node selected."
 msgid_plural "<b>%u of %u</b> nodes selected."
-msgstr[0] "总共有 <b>%u</b> 个节点，选取了 <b>%u</b> 个节点。"
+msgstr[0] "共有 <b>%2$u</b> 个节点，选中了 <b>%1$u</b> 个节点。"
 
 #: ../src/ui/tools/node-tool.cpp:693
 #, c-format
@@ -22789,18 +22791,18 @@ msgstr "颜色的16进制 RGBA 值"
 #: ../src/ui/widget/color-icc-selector.cpp:176
 #: ../src/ui/widget/color-scales.cpp:378
 msgid "_R:"
-msgstr "_R:"
+msgstr "_R："
 
 #. TYPE_RGB_16
 #: ../src/ui/widget/color-icc-selector.cpp:177
 #: ../src/ui/widget/color-scales.cpp:381
 msgid "_G:"
-msgstr "_G:"
+msgstr "_G："
 
 #: ../src/ui/widget/color-icc-selector.cpp:178
 #: ../src/ui/widget/color-scales.cpp:384
 msgid "_B:"
-msgstr "_B:"
+msgstr "_B："
 
 #: ../src/ui/widget/color-icc-selector.cpp:180
 msgid "Gray"
@@ -22811,26 +22813,26 @@ msgstr "灰度"
 #: ../src/ui/widget/color-icc-selector.cpp:186
 #: ../src/ui/widget/color-scales.cpp:404
 msgid "_H:"
-msgstr "_H:"
+msgstr "_H："
 
 #. TYPE_HSV_16
 #: ../src/ui/widget/color-icc-selector.cpp:183
 #: ../src/ui/widget/color-icc-selector.cpp:188
 #: ../src/ui/widget/color-scales.cpp:407
 msgid "_S:"
-msgstr "_S:"
+msgstr "_S："
 
 #. TYPE_HLS_16
 #: ../src/ui/widget/color-icc-selector.cpp:187
 #: ../src/ui/widget/color-scales.cpp:410
 msgid "_L:"
-msgstr "_L:"
+msgstr "_L："
 
 #: ../src/ui/widget/color-icc-selector.cpp:190
 #: ../src/ui/widget/color-icc-selector.cpp:195
 #: ../src/ui/widget/color-scales.cpp:432
 msgid "_C:"
-msgstr "_C:"
+msgstr "_C："
 
 #. TYPE_CMYK_16
 #. TYPE_CMY_16
@@ -22838,18 +22840,18 @@ msgstr "_C:"
 #: ../src/ui/widget/color-icc-selector.cpp:196
 #: ../src/ui/widget/color-scales.cpp:435
 msgid "_M:"
-msgstr "_M:"
+msgstr "_M："
 
 #: ../src/ui/widget/color-icc-selector.cpp:192
 #: ../src/ui/widget/color-icc-selector.cpp:197
 #: ../src/ui/widget/color-scales.cpp:438
 msgid "_Y:"
-msgstr "_Y:"
+msgstr "_Y："
 
 #: ../src/ui/widget/color-icc-selector.cpp:193
 #: ../src/ui/widget/color-scales.cpp:441
 msgid "_K:"
-msgstr "_K:"
+msgstr "_K："
 
 #: ../src/ui/widget/color-icc-selector.cpp:310
 msgid "CMS"
@@ -22869,7 +22871,7 @@ msgstr "修复 RGB 后备匹配 icc-color（） 值。"
 #: ../src/ui/widget/color-scales.cpp:444
 #: ../src/ui/widget/color-wheel-selector.cpp:83
 msgid "_A:"
-msgstr "_A:"
+msgstr "_A："
 
 #: ../src/ui/widget/color-icc-selector.cpp:502
 #: ../src/ui/widget/color-icc-selector.cpp:513
@@ -22900,7 +22902,7 @@ msgstr "从图像中拾取颜色"
 #. Create RGBA entry and color preview
 #: ../src/ui/widget/color-notebook.cpp:212
 msgid "RGBA_:"
-msgstr "RGBA_:"
+msgstr "RGBA_："
 
 #: ../src/ui/widget/color-scales.cpp:46
 msgid "RGB"
@@ -22935,7 +22937,7 @@ msgstr "一般"
 #: ../src/ui/widget/font-variants.cpp:40
 msgctxt "Font variant"
 msgid "Discretionary"
-msgstr "酌情"
+msgstr "自由裁量"
 
 #: ../src/ui/widget/font-variants.cpp:41
 msgctxt "Font variant"
@@ -23040,18 +23042,14 @@ msgid "Default Width"
 msgstr "默认宽度"
 
 #: ../src/ui/widget/font-variants.cpp:65
-#, fuzzy
-#| msgid "Diagonal"
 msgctxt "Font variant"
 msgid "Diagonal"
-msgstr "对角线"
+msgstr "对角"
 
 #: ../src/ui/widget/font-variants.cpp:66
-#, fuzzy
-#| msgid "Stacked"
 msgctxt "Font variant"
 msgid "Stacked"
-msgstr "堆砌排布"
+msgstr "堆叠"
 
 #: ../src/ui/widget/font-variants.cpp:67
 #, fuzzy
@@ -23260,7 +23258,7 @@ msgstr "上边距"
 
 #: ../src/ui/widget/page-sizer.cpp:240
 msgid "L_eft:"
-msgstr "左(_e):"
+msgstr "左(_E)："
 
 #: ../src/ui/widget/page-sizer.cpp:240
 msgid "Left margin"
@@ -23317,7 +23315,7 @@ msgstr "自定义尺寸"
 
 #: ../src/ui/widget/page-sizer.cpp:395
 msgid "Resi_ze page to content..."
-msgstr "缩放页面到内容(_z)..."
+msgstr "缩放页面到内容(_z)…"
 
 #: ../src/ui/widget/page-sizer.cpp:447
 msgid "_Resize page to drawing or selection"
@@ -23443,7 +23441,7 @@ msgstr "折行"
 
 #: ../src/ui/widget/preferences-widget.cpp:799
 msgid "_Browse..."
-msgstr "浏览(_B)..."
+msgstr "浏览(_B)…"
 
 #: ../src/ui/widget/preferences-widget.cpp:885
 msgid "Select a bitmap editor"
@@ -23451,7 +23449,7 @@ msgstr "选择一个位图编辑器"
 
 #: ../src/ui/widget/random.cpp:84
 msgid "Reseed the random number generator; this creates a different sequence of random numbers."
-msgstr "重新产生随机数发生器的种子, 将会产生一组不同的随机数."
+msgstr "重新创建随机数发生器的种子；这将产生一系列不同的随机数。"
 
 #: ../src/ui/widget/rendering-options.cpp:33
 msgid "Backend"
@@ -23488,7 +23486,7 @@ msgstr "填充:"
 
 #: ../src/ui/widget/selected-style.cpp:133
 msgid "O:"
-msgstr "O:"
+msgstr "O："
 
 #: ../src/ui/widget/selected-style.cpp:178
 msgid "N/A"
@@ -23646,15 +23644,15 @@ msgstr "多选对象笔廓相同"
 
 #: ../src/ui/widget/selected-style.cpp:254
 msgid "Edit fill..."
-msgstr "编辑填色..."
+msgstr "编辑填色…"
 
 #: ../src/ui/widget/selected-style.cpp:254
 msgid "Edit stroke..."
-msgstr "编辑笔廓..."
+msgstr "编辑笔廓…"
 
 #: ../src/ui/widget/selected-style.cpp:258
 msgid "Last set color"
-msgstr "最近设置颜色"
+msgstr "最近设置的颜色"
 
 #: ../src/ui/widget/selected-style.cpp:262
 msgid "Last selected color"
@@ -23849,7 +23847,7 @@ msgstr "笔廓宽度: %.5g%s"
 #: ../src/ui/widget/style-swatch.cpp:362
 #, c-format
 msgid "O: %2.0f"
-msgstr "O: %2.0f"
+msgstr "O：%2.0f"
 
 #: ../src/ui/widget/style-swatch.cpp:367
 #, c-format
@@ -24099,7 +24097,7 @@ msgstr "使用默认模板创建新文档"
 
 #: ../src/verbs.cpp:2402
 msgid "_Open..."
-msgstr "打开(_O)..."
+msgstr "打开(_O)…"
 
 #: ../src/verbs.cpp:2403
 msgid "Open an existing document"
@@ -24119,7 +24117,7 @@ msgstr "保存文档"
 
 #: ../src/verbs.cpp:2408
 msgid "Save _As..."
-msgstr "另存为(_A)..."
+msgstr "另存为(_A)…"
 
 #: ../src/verbs.cpp:2409
 msgid "Save document under a new name"
@@ -24127,7 +24125,7 @@ msgstr "使用新名字保存文档"
 
 #: ../src/verbs.cpp:2410
 msgid "Save a Cop_y..."
-msgstr "保存副本(_Y)..."
+msgstr "保存副本(_Y)…"
 
 #: ../src/verbs.cpp:2411
 msgid "Save a copy of the document under a new name"
@@ -24135,7 +24133,7 @@ msgstr "使用新名字保存文档副本"
 
 #: ../src/verbs.cpp:2412
 msgid "_Print..."
-msgstr "打印(_P)..."
+msgstr "打印(_P)…"
 
 #: ../src/verbs.cpp:2412
 msgid "Print document"
@@ -24152,7 +24150,7 @@ msgstr "从文档的&lt;defs&gt;中移除未使用的定义(比如渐变或剪�
 
 #: ../src/verbs.cpp:2417
 msgid "_Import..."
-msgstr "导入(_I)..."
+msgstr "导入(_I)…"
 
 #: ../src/verbs.cpp:2418
 msgid "Import a bitmap or SVG image into this document"
@@ -24161,7 +24159,7 @@ msgstr "把位图或者 SVG 图像导入此文档"
 #. new FileVerb(SP_VERB_FILE_EXPORT, "FileExport", N_("_Export Bitmap..."), N_("Export this document or a selection as a bitmap image"), INKSCAPE_ICON("document-export")),
 #: ../src/verbs.cpp:2420
 msgid "Import Clip Art..."
-msgstr "导入剪贴图..."
+msgstr "导入剪贴图…"
 
 #: ../src/verbs.cpp:2421
 msgid "Import clipart from Open Clip Art Library"
@@ -24202,7 +24200,7 @@ msgstr "退出 Inkscape"
 
 #: ../src/verbs.cpp:2430
 msgid "New from _Template..."
-msgstr "从模板新建（_T)..."
+msgstr "从模板新建（_T)…"
 
 #: ../src/verbs.cpp:2431
 msgid "Create new project from template"
@@ -24214,7 +24212,7 @@ msgstr "撤销最后操作"
 
 #: ../src/verbs.cpp:2437
 msgid "Do again the last undone action"
-msgstr "重复最后未完成操作"
+msgstr "重复最近撤销的操作"
 
 #: ../src/verbs.cpp:2438
 msgid "Cu_t"
@@ -24402,7 +24400,7 @@ msgstr "对象转化成图案(_N)"
 
 #: ../src/verbs.cpp:2485
 msgid "Convert selection to a rectangle with tiled pattern fill"
-msgstr "转化选区成为一个使用图案平铺填色的矩形"
+msgstr "将选区转换为使用图案平铺填色的矩形"
 
 #: ../src/verbs.cpp:2486
 msgid "Pattern to _Objects"
@@ -24418,7 +24416,7 @@ msgstr "群组转化为符号"
 
 #: ../src/verbs.cpp:2489
 msgid "Convert group to a symbol"
-msgstr "转换群组为一个符号"
+msgstr "将群组转换为一个符号"
 
 #: ../src/verbs.cpp:2490
 msgid "Symbol to Group"
@@ -24454,7 +24452,7 @@ msgstr "在所有可见并且未锁定的层中全选"
 
 #: ../src/verbs.cpp:2498
 msgid "Fill _and Stroke"
-msgstr "填色和笔画(_A)..."
+msgstr "填色和笔画(_A)…"
 
 #: ../src/verbs.cpp:2499
 msgid "Select all objects with the same fill and stroke as the selected objects"
@@ -24486,7 +24484,7 @@ msgstr "选择所有带有相同描边样式（宽度，画线、标记）的对
 
 #: ../src/verbs.cpp:2506
 msgid "_Object Type"
-msgstr "对象类型（_O)"
+msgstr "对象类型(_O)"
 
 #: ../src/verbs.cpp:2507
 msgid "Select all objects with the same object type (rect, arc, text, path, bitmap etc) as the selected objects"
@@ -24587,7 +24585,7 @@ msgstr "选区下降一步"
 
 #: ../src/verbs.cpp:2535
 msgid "Group selected objects"
-msgstr "组合已选对象"
+msgstr "组合选中对象"
 
 #: ../src/verbs.cpp:2537
 msgid "Ungroup selected groups"
@@ -24761,7 +24759,7 @@ msgstr "通过提取位图轮廓创建一个或多个路径"
 
 #: ../src/verbs.cpp:2599
 msgid "Trace Pixel Art..."
-msgstr "追踪像素艺术..."
+msgstr "临摹剪贴画…"
 
 #: ../src/verbs.cpp:2600
 msgid "Create paths using Kopf-Lischinski algorithm to vectorize pixel art"
@@ -24795,7 +24793,7 @@ msgstr "把选择路径分成各个子路径"
 
 #: ../src/verbs.cpp:2609
 msgid "_Arrange..."
-msgstr "安排（_A)..."
+msgstr "安排（_A)…"
 
 #: ../src/verbs.cpp:2610
 msgid "Arrange selected objects in a table or circle"
@@ -24804,7 +24802,7 @@ msgstr "在一个表格或圆圈中排列选择的对象"
 #. Layer
 #: ../src/verbs.cpp:2612
 msgid "_Add Layer..."
-msgstr "增加层(_A)..."
+msgstr "增加层(_A)…"
 
 #: ../src/verbs.cpp:2613
 msgid "Create a new layer"
@@ -24812,11 +24810,11 @@ msgstr "创建新层"
 
 #: ../src/verbs.cpp:2614
 msgid "Re_name Layer..."
-msgstr "重命名层(_N)..."
+msgstr "重命名图层(_N)…"
 
 #: ../src/verbs.cpp:2615
 msgid "Rename the current layer"
-msgstr "重命名当前层"
+msgstr "重命名当前图层"
 
 #: ../src/verbs.cpp:2616
 msgid "Switch to Layer Abov_e"
@@ -24852,7 +24850,7 @@ msgstr "把选区从当前层移动到下一层"
 
 #: ../src/verbs.cpp:2624
 msgid "Move Selection to Layer..."
-msgstr "移动选择到层..."
+msgstr "移动选择到层…"
 
 #: ../src/verbs.cpp:2626
 msgid "Layer to _Top"
@@ -24888,7 +24886,7 @@ msgstr "降低当前层"
 
 #: ../src/verbs.cpp:2634
 msgid "D_uplicate Current Layer"
-msgstr "重复当前层（_U)"
+msgstr "复制当前图层(_U)"
 
 #: ../src/verbs.cpp:2635
 msgid "Duplicate an existing layer"
@@ -25021,7 +25019,7 @@ msgstr "从框架中移除文字(创建一个单行文字对象)"
 
 #: ../src/verbs.cpp:2672
 msgid "_Convert to Text"
-msgstr "转化成文字(_C)"
+msgstr "转换为文字(_C)"
 
 #: ../src/verbs.cpp:2673
 msgid "Convert flowed text to regular text object (preserves appearance)"
@@ -25249,7 +25247,7 @@ msgstr "填充封闭区域"
 #: ../src/verbs.cpp:2738
 msgctxt "ContextVerb"
 msgid "LPE Edit"
-msgstr "LPE (实时路径效果)编辑"
+msgstr "LPE 编辑"
 
 #: ../src/verbs.cpp:2739
 msgid "Edit Path Effect parameters"
@@ -25267,7 +25265,7 @@ msgstr "擦除现有路径"
 #: ../src/verbs.cpp:2742
 msgctxt "ContextVerb"
 msgid "LPE Tool"
-msgstr "LPE 工具(实时路径效果)"
+msgstr "LPE 工具"
 
 #: ../src/verbs.cpp:2743
 msgid "Do geometric constructions"
@@ -25444,7 +25442,7 @@ msgstr "打开橡皮擦工具的偏好设置"
 
 #: ../src/verbs.cpp:2787
 msgid "LPE Tool Preferences"
-msgstr "LPE工具偏好设置"
+msgstr "LPE 工具首选项"
 
 #: ../src/verbs.cpp:2788
 msgid "Open Preferences for the LPETool tool"
@@ -25688,7 +25686,7 @@ msgstr "切换该文档窗口的受控色彩显示"
 
 #: ../src/verbs.cpp:2846
 msgid "Ico_n Preview..."
-msgstr "图标预览(_N)..."
+msgstr "图标预览(_N)…"
 
 #: ../src/verbs.cpp:2847
 msgid "Open a window to preview objects at different icon resolutions"
@@ -25717,7 +25715,7 @@ msgstr "缩放选区以适合窗口"
 #. Dialogs
 #: ../src/verbs.cpp:2858
 msgid "P_references..."
-msgstr "偏好设置(_P)..."
+msgstr "偏好设置(_P)…"
 
 #: ../src/verbs.cpp:2859
 msgid "Edit global Inkscape preferences"
@@ -25725,7 +25723,7 @@ msgstr "编辑 Inkscape 全局参数"
 
 #: ../src/verbs.cpp:2860
 msgid "_Document Properties..."
-msgstr "文档属性(_D)..."
+msgstr "文档属性(_D)…"
 
 #: ../src/verbs.cpp:2861
 msgid "Edit properties of this document (to be saved with the document)"
@@ -25733,7 +25731,7 @@ msgstr "编辑文档的属性(同文档一起保存)"
 
 #: ../src/verbs.cpp:2862
 msgid "Document _Metadata..."
-msgstr "文档元数据(_M)..."
+msgstr "文档元数据(_M)…"
 
 #: ../src/verbs.cpp:2863
 msgid "Edit document metadata (to be saved with the document)"
@@ -25741,12 +25739,12 @@ msgstr "编辑文档元数据(同文档一起保存)"
 
 #: ../src/verbs.cpp:2865
 msgid "Edit objects' colors, gradients, arrowheads, and other fill and stroke properties..."
-msgstr "编辑对象的颜色、渐变、箭头和其它填充和描边属性..."
+msgstr "编辑对象的颜色、渐变、箭头和其它填充和描边属性…"
 
 #. FIXME: Probably better to either use something from the icon naming spec or ship our own "select-font" icon
 #: ../src/verbs.cpp:2867
 msgid "Gl_yphs..."
-msgstr "字形(_G)"
+msgstr "字形…"
 
 #: ../src/verbs.cpp:2868
 msgid "Select characters from a glyphs palette"
@@ -25756,7 +25754,7 @@ msgstr "从象形文字板中选择字符"
 #. TRANSLATORS: "Swatches" means: color samples
 #: ../src/verbs.cpp:2871
 msgid "S_watches..."
-msgstr "色盘(_W)..."
+msgstr "色盘(_W)…"
 
 #: ../src/verbs.cpp:2872
 msgid "Select colors from a swatches palette"
@@ -25764,7 +25762,7 @@ msgstr "从色盘中选择颜色"
 
 #: ../src/verbs.cpp:2873
 msgid "S_ymbols..."
-msgstr "符号(_Y)..."
+msgstr "符号(_Y)…"
 
 #: ../src/verbs.cpp:2874
 msgid "Select symbol from a symbols palette"
@@ -25772,7 +25770,7 @@ msgstr "从符号板中选择符号"
 
 #: ../src/verbs.cpp:2875
 msgid "Transfor_m..."
-msgstr "变换(_M)..."
+msgstr "变换(_M)…"
 
 #: ../src/verbs.cpp:2876
 msgid "Precisely control objects' transformations"
@@ -25780,7 +25778,7 @@ msgstr "精确控制对象的变换"
 
 #: ../src/verbs.cpp:2877
 msgid "_Align and Distribute..."
-msgstr "对齐和分散(_A)..."
+msgstr "对齐和分散(_A)…"
 
 #: ../src/verbs.cpp:2878
 msgid "Align and distribute objects"
@@ -25788,7 +25786,7 @@ msgstr "对齐散开对象"
 
 #: ../src/verbs.cpp:2879
 msgid "_Spray options..."
-msgstr "喷绘选项(_S)..."
+msgstr "喷绘选项(_S)…"
 
 #: ../src/verbs.cpp:2880
 msgid "Some options for the spray"
@@ -25796,7 +25794,7 @@ msgstr "喷绘的一些选项"
 
 #: ../src/verbs.cpp:2881
 msgid "Undo _History..."
-msgstr "撤销历史(_H)..."
+msgstr "撤销历史(_H)…"
 
 #: ../src/verbs.cpp:2882
 msgid "Undo History"
@@ -25808,7 +25806,7 @@ msgstr "显示选择字体名称, 字体大小和其它字体属性"
 
 #: ../src/verbs.cpp:2885
 msgid "_XML Editor..."
-msgstr "_XML 编辑器..."
+msgstr "_XML 编辑器…"
 
 #: ../src/verbs.cpp:2886
 msgid "View and edit the XML tree of the document"
@@ -25816,7 +25814,7 @@ msgstr "显示并编辑文档的 XML 树"
 
 #: ../src/verbs.cpp:2887
 msgid "_Find/Replace..."
-msgstr "查找和替换（_F)..."
+msgstr "查找和替换（_F)…"
 
 #: ../src/verbs.cpp:2888
 msgid "Find objects in document"
@@ -25824,7 +25822,7 @@ msgstr "查找文档中的对象"
 
 #: ../src/verbs.cpp:2889
 msgid "Find and _Replace Text..."
-msgstr "查找与替换文本(_R)..."
+msgstr "查找与替换文本(_R)…"
 
 #: ../src/verbs.cpp:2890
 msgid "Find and replace text in document"
@@ -25836,7 +25834,7 @@ msgstr "检查文档中的文本拼写"
 
 #: ../src/verbs.cpp:2893
 msgid "_Messages..."
-msgstr "消息(_M)..."
+msgstr "消息(_M)…"
 
 #: ../src/verbs.cpp:2894
 msgid "View debug messages"
@@ -25852,7 +25850,7 @@ msgstr "显示或隐藏所有打开的对话框"
 
 #: ../src/verbs.cpp:2897
 msgid "Create Tiled Clones..."
-msgstr "创建平铺克隆..."
+msgstr "创建平铺克隆…"
 
 #: ../src/verbs.cpp:2898
 msgid "Create multiple clones of selected object, arranging them into a pattern or scattering"
@@ -25860,11 +25858,11 @@ msgstr "创建选择对象的多个克隆, 按照图案或者分散的排列"
 
 #: ../src/verbs.cpp:2899
 msgid "_Object attributes..."
-msgstr "对象属性（_O)..."
+msgstr "对象属性(_O)…"
 
 #: ../src/verbs.cpp:2900
 msgid "Edit the object attributes..."
-msgstr "编辑对象属性..."
+msgstr "编辑对象属性…"
 
 #: ../src/verbs.cpp:2902
 msgid "Edit the ID, locked and visible status, and other object properties"
@@ -25880,7 +25878,7 @@ msgstr "配置扩展输入设备, 例如绘图板"
 
 #: ../src/verbs.cpp:2905
 msgid "_Extensions..."
-msgstr "扩展(_E)..."
+msgstr "扩展(_E)…"
 
 #: ../src/verbs.cpp:2906
 msgid "Query information about extensions"
@@ -25888,7 +25886,7 @@ msgstr "查询扩展的信息"
 
 #: ../src/verbs.cpp:2907
 msgid "Layer_s..."
-msgstr "层(_S)..."
+msgstr "层(_S)…"
 
 #: ../src/verbs.cpp:2908
 msgid "View Layers"
@@ -25896,7 +25894,7 @@ msgstr "显示层"
 
 #: ../src/verbs.cpp:2909
 msgid "Object_s..."
-msgstr "对象（_S)..."
+msgstr "对象(_S)…"
 
 #: ../src/verbs.cpp:2910
 msgid "View Objects"
@@ -25904,7 +25902,7 @@ msgstr "查看对象"
 
 #: ../src/verbs.cpp:2911
 msgid "Selection se_ts..."
-msgstr "选择集合(_T)..."
+msgstr "选择集合(_T)…"
 
 #: ../src/verbs.cpp:2912
 msgid "View Tags"
@@ -25912,7 +25910,7 @@ msgstr "查看标记"
 
 #: ../src/verbs.cpp:2913
 msgid "Path E_ffects ..."
-msgstr "路径效果（_F)..."
+msgstr "路径效果（_F)…"
 
 #: ../src/verbs.cpp:2914
 msgid "Manage, edit, and apply path effects"
@@ -25920,7 +25918,7 @@ msgstr "管理, 编辑并应用路径效果"
 
 #: ../src/verbs.cpp:2915
 msgid "Filter _Editor..."
-msgstr "滤镜编辑器（_E)..."
+msgstr "滤镜编辑器（_E)…"
 
 #: ../src/verbs.cpp:2916
 msgid "Manage, edit, and apply SVG filters"
@@ -25928,7 +25926,7 @@ msgstr "管理, 编辑, 并应用SVG滤镜效果"
 
 #: ../src/verbs.cpp:2917
 msgid "SVG Font Editor..."
-msgstr "SVG字体编辑器..."
+msgstr "SVG 字体编辑器…"
 
 #: ../src/verbs.cpp:2918
 msgid "Edit SVG fonts"
@@ -25936,7 +25934,7 @@ msgstr "修改SVG字体"
 
 #: ../src/verbs.cpp:2919
 msgid "Print Colors..."
-msgstr "打印色彩..."
+msgstr "打印色彩…"
 
 #: ../src/verbs.cpp:2920
 msgid "Select which color separations to render in Print Colors Preview rendermode"
@@ -25944,7 +25942,7 @@ msgstr "选择要分离出来使用“打印颜色预览”渲染模式渲染的
 
 #: ../src/verbs.cpp:2921
 msgid "_Export PNG Image..."
-msgstr "导出 PNG 图像（_E)..."
+msgstr "导出 PNG 图像（_E)…"
 
 #: ../src/verbs.cpp:2922
 msgid "Export this document or a selection as a PNG image"
@@ -25973,14 +25971,14 @@ msgstr "关于 Inkscape(_A)"
 
 #: ../src/verbs.cpp:2929
 msgid "Inkscape version, authors, license"
-msgstr "Inscape 版本, 作者, 许可"
+msgstr "Inscape 版本，作者，许可"
 
 #. new HelpVerb(SP_VERB_SHOW_LICENSE, "ShowLicense", N_("_License"),
 #. N_("Distribution terms"), /*"show_license"*/"inkscape_options"),
 #. Tutorials
 #: ../src/verbs.cpp:2934
 msgid "Inkscape: _Basic"
-msgstr "Inkscape:基础(_B)"
+msgstr "Inkscape：基础(_B)"
 
 #: ../src/verbs.cpp:2935
 msgid "Getting started with Inkscape"
@@ -25989,7 +25987,7 @@ msgstr "开始学习 Inkscape"
 #. "tutorial_basic"
 #: ../src/verbs.cpp:2936
 msgid "Inkscape: _Shapes"
-msgstr "Inkscape:形状(_S)"
+msgstr "InkscapeL：形状(_S)"
 
 #: ../src/verbs.cpp:2937
 msgid "Using shape tools to create and edit shapes"
@@ -25997,7 +25995,7 @@ msgstr "使用形状工具创建和编辑形状"
 
 #: ../src/verbs.cpp:2938
 msgid "Inkscape: _Advanced"
-msgstr "Inkscape:高级(_A)"
+msgstr "Inkscape：高级(_A)"
 
 #: ../src/verbs.cpp:2939
 msgid "Advanced Inkscape topics"
@@ -26007,7 +26005,7 @@ msgstr "高级 Inkscape 主题"
 #. TRANSLATORS: "to trace" means "to convert a bitmap to vector graphics" (to vectorize)
 #: ../src/verbs.cpp:2941
 msgid "Inkscape: T_racing"
-msgstr "Inkscape: 追踪(_R)"
+msgstr "Inkscape：描边(_R)"
 
 #: ../src/verbs.cpp:2942
 msgid "Using bitmap tracing"
@@ -26016,7 +26014,7 @@ msgstr "位图追踪"
 #. "tutorial_tracing"
 #: ../src/verbs.cpp:2943
 msgid "Inkscape: Tracing Pixel Art"
-msgstr "Inkscape: 追踪像素艺术"
+msgstr "Inkscape：描边剪贴画"
 
 #: ../src/verbs.cpp:2944
 msgid "Using Trace Pixel Art dialog"
@@ -26024,7 +26022,7 @@ msgstr "使用跟踪像素艺术对话框"
 
 #: ../src/verbs.cpp:2945
 msgid "Inkscape: _Calligraphy"
-msgstr "Inkscape:笔刷(_C)"
+msgstr "Inkscape：书法(_C)"
 
 #: ../src/verbs.cpp:2946
 msgid "Using the Calligraphy pen tool"
@@ -26032,7 +26030,7 @@ msgstr "使用笔刷工具"
 
 #: ../src/verbs.cpp:2947
 msgid "Inkscape: _Interpolate"
-msgstr "Inkscape: 插值（_I)"
+msgstr "Inkscape：插值(_I)"
 
 #: ../src/verbs.cpp:2948
 msgid "Using the interpolate extension"
@@ -26068,7 +26066,7 @@ msgstr "使用相同的设置重复上次的扩展"
 
 #: ../src/verbs.cpp:2957
 msgid "_Previous Extension Settings..."
-msgstr "先前的扩展设置（_P)..."
+msgstr "先前的扩展设置（_P)…"
 
 #: ../src/verbs.cpp:2958
 msgid "Repeat the last extension with new settings"
@@ -26188,7 +26186,7 @@ msgstr "水平方向到弧起点的角度(单位:度数)"
 
 #: ../src/widgets/arc-toolbar.cpp:332
 msgid "End:"
-msgstr "终止:"
+msgstr "终止："
 
 #: ../src/widgets/arc-toolbar.cpp:333
 msgid "The angle (in degrees) from the horizontal to the arc's end point"
@@ -26225,25 +26223,25 @@ msgstr "立方体:改变透视 (无限轴的角度)"
 
 #: ../src/widgets/box3d-toolbar.cpp:302
 msgid "Angle in X direction"
-msgstr "X向角度"
+msgstr "X 向角度"
 
 #. Translators: PL is short for 'perspective line'
 #: ../src/widgets/box3d-toolbar.cpp:304
 msgid "Angle of PLs in X direction"
-msgstr "X向透视线的角度"
+msgstr "X 向透视线的角度"
 
 #. Translators: VP is short for 'vanishing point'
 #: ../src/widgets/box3d-toolbar.cpp:326
 msgid "State of VP in X direction"
-msgstr "X向消失点(VP)的状态"
+msgstr "X 向消失点（VP）的状态"
 
 #: ../src/widgets/box3d-toolbar.cpp:327
 msgid "Toggle VP in X direction between 'finite' and 'infinite' (=parallel)"
-msgstr "X向消失点VP设置为'有限'或'无限'(相当于平行)"
+msgstr "X 向消失点 VP 设置为“有限”或“无限”（相当于平行）"
 
 #: ../src/widgets/box3d-toolbar.cpp:342
 msgid "Angle in Y direction"
-msgstr "Y向角度"
+msgstr "Y 向角度"
 
 #: ../src/widgets/box3d-toolbar.cpp:342
 msgid "Angle Y:"
@@ -26252,34 +26250,34 @@ msgstr "角度 Y:"
 #. Translators: PL is short for 'perspective line'
 #: ../src/widgets/box3d-toolbar.cpp:344
 msgid "Angle of PLs in Y direction"
-msgstr "Y向透视线的角度"
+msgstr "Y 向透视线的角度"
 
 #. Translators: VP is short for 'vanishing point'
 #: ../src/widgets/box3d-toolbar.cpp:365
 msgid "State of VP in Y direction"
-msgstr "Y向消失点的状态"
+msgstr "Y 向消失点的状态"
 
 #: ../src/widgets/box3d-toolbar.cpp:366
 msgid "Toggle VP in Y direction between 'finite' and 'infinite' (=parallel)"
-msgstr "Y向消失点设置为'有限'或'无限'(相当于平行)"
+msgstr "Y 向消失点设置为“有限”或“无限”（相当于平行）"
 
 #: ../src/widgets/box3d-toolbar.cpp:381
 msgid "Angle in Z direction"
-msgstr "Z向角度"
+msgstr "Z 向角度"
 
 #. Translators: PL is short for 'perspective line'
 #: ../src/widgets/box3d-toolbar.cpp:383
 msgid "Angle of PLs in Z direction"
-msgstr "Z向透视线的角度"
+msgstr "Z 向透视线的角度"
 
 #. Translators: VP is short for 'vanishing point'
 #: ../src/widgets/box3d-toolbar.cpp:404
 msgid "State of VP in Z direction"
-msgstr "Z向消失点的状态"
+msgstr "Z 向消失点的状态"
 
 #: ../src/widgets/box3d-toolbar.cpp:405
 msgid "Toggle VP in Z direction between 'finite' and 'infinite' (=parallel)"
-msgstr "Z向消失点VP设置为'有限'或'无限'(相当于平行)"
+msgstr "Z 向消失点VP设置为“有限”或“无限”（相当于平行）"
 
 #. gint preset_index = ege_select_one_action_get_active( sel );
 #: ../src/widgets/calligraphy-toolbar.cpp:218
@@ -26512,7 +26510,7 @@ msgstr "笔的惯性"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:549
 msgid "Mass:"
-msgstr "质量:"
+msgstr "质量："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:550
 msgid "Increase to make the pen drag behind, as if slowed by inertia"
@@ -26652,7 +26650,7 @@ msgstr "光标位置"
 
 #: ../src/widgets/desktop-widget.cpp:691
 msgid "Z:"
-msgstr "Z:"
+msgstr "Z："
 
 #. display the initial welcome message in the statusbar
 #: ../src/widgets/desktop-widget.cpp:734
@@ -26850,7 +26848,7 @@ msgstr "面部"
 
 #: ../src/widgets/font-selector.cpp:240 ../share/extensions/dots.inx.h:3
 msgid "Font size:"
-msgstr "字体大小:"
+msgstr "字体大小："
 
 #: ../src/widgets/gradient-selector.cpp:205
 msgid "Create a duplicate gradient"
@@ -26978,7 +26976,7 @@ msgstr "是否使用渐变向量的终点颜色填色(spreadMethod=\"pad\"), 或
 
 #: ../src/widgets/gradient-toolbar.cpp:1133
 msgid "Repeat:"
-msgstr "重复:"
+msgstr "重复："
 
 #: ../src/widgets/gradient-toolbar.cpp:1147
 msgid "No stops"
@@ -27142,7 +27140,7 @@ msgstr "字体大小"
 
 #: ../src/widgets/measure-toolbar.cpp:86
 msgid "Font Size:"
-msgstr "字号："
+msgstr "字体大小："
 
 #: ../src/widgets/measure-toolbar.cpp:87
 msgid "The font size to be used in the measurement labels"
@@ -27242,7 +27240,7 @@ msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:522
 msgid "Coons: no smoothing. Bicubic: smoothing across patch boundaries."
-msgstr "Coons: 无平滑。 Bicubic: 跨路径界限的平滑。"
+msgstr "Coons：无平滑。 Bicubic：跨路径界限的平滑。"
 
 #: ../src/widgets/mesh-toolbar.cpp:524 ../src/widgets/pencil-toolbar.cpp:377
 msgid "Smoothing:"
@@ -27434,7 +27432,7 @@ msgstr "节点 曲线"
 
 #: ../src/widgets/node-toolbar.cpp:501
 msgid "Make selected segments curves"
-msgstr "制作已选线段变成曲线"
+msgstr "使用选中线段制作曲线"
 
 #: ../src/widgets/node-toolbar.cpp:510
 msgid "Show Transform Handles"
@@ -27474,7 +27472,7 @@ msgstr "显示所选对象的遮罩"
 
 #: ../src/widgets/node-toolbar.cpp:581
 msgid "X coordinate:"
-msgstr "X 坐标:"
+msgstr "X 坐标："
 
 #: ../src/widgets/node-toolbar.cpp:581
 msgid "X coordinate of selected node(s)"
@@ -27482,7 +27480,7 @@ msgstr "所选节点的 X 坐标"
 
 #: ../src/widgets/node-toolbar.cpp:599
 msgid "Y coordinate:"
-msgstr "Y 坐标:"
+msgstr "Y 坐标："
 
 #: ../src/widgets/node-toolbar.cpp:599
 msgid "Y coordinate of selected node(s)"
@@ -27515,7 +27513,7 @@ msgstr "取消绘图设置(变成未定义状态以便继承)"
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:252
 msgid "Any path self-intersections or subpaths create holes in the fill (fill-rule: evenodd)"
-msgstr "自相交的路径或子路径在填色里面创建孔洞(填色规则:奇偶)"
+msgstr "任何自相交的路径或子路径将在填色里面创建孔洞（填色规则：奇偶）"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:263
@@ -27611,11 +27609,11 @@ msgstr "默认"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:212
 msgid "Reset paint bucket parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置油漆桶参数到默认(使用 Inkscape 偏好设置 > 工具 改变默认值)"
+msgstr "重置油漆桶参数为默认值（使用“Inkscape 偏好设置 > 工具”来改变默认值）"
 
 #: ../src/widgets/pencil-toolbar.cpp:108
 msgid "Bezier"
-msgstr "Bezier"
+msgstr "贝塞尔曲线"
 
 #: ../src/widgets/pencil-toolbar.cpp:109
 msgid "Create regular Bezier path"
@@ -27631,7 +27629,7 @@ msgstr "创建 BSpline 路径"
 
 #: ../src/widgets/pencil-toolbar.cpp:128
 msgid "Zigzag"
-msgstr "Z字形"
+msgstr "曲折"
 
 #: ../src/widgets/pencil-toolbar.cpp:129
 msgid "Create a sequence of straight line segments"
@@ -27672,7 +27670,7 @@ msgstr "从剪贴板"
 
 #: ../src/widgets/pencil-toolbar.cpp:184
 msgid "Last applied"
-msgstr "最后应用"
+msgstr "最近应用"
 
 #: ../src/widgets/pencil-toolbar.cpp:209 ../src/widgets/pencil-toolbar.cpp:210
 msgid "Shape:"
@@ -27700,7 +27698,7 @@ msgstr "线的光滑(简化)程度"
 
 #: ../src/widgets/pencil-toolbar.cpp:399
 msgid "Reset pencil parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置铅笔的参数到默认(使用 Inkscape 偏好设置 > 工具 改变默认值)"
+msgstr "重置铅笔的参数为默认值（使用“Inkscape 偏好设置 > 工具”来改变默认值)"
 
 #: ../src/widgets/pencil-toolbar.cpp:409 ../src/widgets/pencil-toolbar.cpp:410
 msgid "LPE based interactive simplify"
@@ -27740,7 +27738,7 @@ msgstr "水平半径"
 
 #: ../src/widgets/rect-toolbar.cpp:351
 msgid "Rx:"
-msgstr "Rx:"
+msgstr "Rx："
 
 #: ../src/widgets/rect-toolbar.cpp:351
 msgid "Horizontal radius of rounded corners"
@@ -27752,7 +27750,7 @@ msgstr "垂直半径"
 
 #: ../src/widgets/rect-toolbar.cpp:366
 msgid "Ry:"
-msgstr "Ry:"
+msgstr "Ry："
 
 #: ../src/widgets/rect-toolbar.cpp:366
 msgid "Vertical radius of rounded corners"
@@ -27847,7 +27845,7 @@ msgstr "X 位置"
 #: ../src/widgets/select-toolbar.cpp:500
 msgctxt "Select toolbar"
 msgid "X:"
-msgstr "X:"
+msgstr "X："
 
 #: ../src/widgets/select-toolbar.cpp:502
 msgid "Horizontal coordinate of selection"
@@ -27861,7 +27859,7 @@ msgstr "Y 位置"
 #: ../src/widgets/select-toolbar.cpp:506
 msgctxt "Select toolbar"
 msgid "Y:"
-msgstr "Y:"
+msgstr "Y："
 
 #: ../src/widgets/select-toolbar.cpp:508
 msgid "Vertical coordinate of selection"
@@ -27949,7 +27947,7 @@ msgstr "圈数"
 
 #: ../src/widgets/spiral-toolbar.cpp:245
 msgid "Turns:"
-msgstr "转数:"
+msgstr "转数："
 
 #: ../src/widgets/spiral-toolbar.cpp:245
 msgid "Number of revolutions"
@@ -27973,11 +27971,11 @@ msgstr "偶数"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "center is denser"
-msgstr "中心密集"
+msgstr "中心更密集"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "center is much denser"
-msgstr "中心更密"
+msgstr "中心更密集"
 
 #: ../src/widgets/spiral-toolbar.cpp:259
 msgid "Divergence"
@@ -28017,7 +28015,7 @@ msgstr "内部最小转数半径(相对于螺旋尺寸)"
 
 #: ../src/widgets/spiral-toolbar.cpp:286 ../src/widgets/star-toolbar.cpp:565
 msgid "Reset shape parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置形状参数到默认(使用 Inkscape 偏好设置 > 工具 改变默认值)"
+msgstr "重置形状参数为默认值（使用“Inkscape 偏好设置 > 工具”来改变默认值）"
 
 #. Width
 #: ../src/widgets/spray-toolbar.cpp:113
@@ -28400,11 +28398,11 @@ msgstr "起点标记画在路径或形状中的第一个节点上"
 
 #: ../src/widgets/stroke-style.cpp:367
 msgid "Mid Markers are drawn on every node of a path or shape except the first and last nodes"
-msgstr "中间标记画在路径或形状中除去首位外所有的节点上"
+msgstr "中间标记位于路径或形状中除去首位外所有的节点上"
 
 #: ../src/widgets/stroke-style.cpp:376
 msgid "End Markers are drawn on the last node of a path or shape"
-msgstr "终点标记画在路径或形状中的最后一个节点上"
+msgstr "终点标记位于路径或形状中的最后一个节点上"
 
 #: ../src/widgets/stroke-style.cpp:498
 msgid "Set markers"
@@ -28472,7 +28470,7 @@ msgstr "文本：改变方向"
 
 #: ../src/widgets/text-toolbar.cpp:1216
 msgid "Font Family"
-msgstr "字体族"
+msgstr "字体家族"
 
 #: ../src/widgets/text-toolbar.cpp:1217
 msgid "Select Font Family (Alt-X to access)"
@@ -28605,12 +28603,12 @@ msgstr "字母间距"
 #. label
 #: ../src/widgets/text-toolbar.cpp:1503
 msgid "Letter:"
-msgstr "字母:"
+msgstr "字母："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1504
 msgid "Spacing between letters (px)"
-msgstr "字母之间的间距 (px)"
+msgstr "字母间距 (px)"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1533
@@ -29119,7 +29117,7 @@ msgstr "%s is 不是以下类型 image/png, image/jpeg, image/bmp, image/gif, im
 
 #: ../share/extensions/export_gimp_palette.py:16
 msgid "The export_gpl.py module requires PyXML.  Please download the latest version from http://pyxml.sourceforge.net/."
-msgstr "export_gpl.py模块需要 PyXML. 请从 http://pyxml.sourceforge.net/ 下载最新版."
+msgstr "export_gpl.py 模块需要 PyXML。请从 http://pyxml.sourceforge.net/ 下载最新版本。"
 
 #: ../share/extensions/extractimage.py:68
 #, python-format
@@ -29136,11 +29134,11 @@ msgstr "需要至少选择 2 个路径"
 
 #: ../share/extensions/funcplot.py:48
 msgid "x-interval cannot be zero. Please modify 'Start X value' or 'End X value'"
-msgstr "x 间隔不能为 0。请修改“开始 X 值”或“结束 X 值”"
+msgstr "X 轴间隔不能为 0。请修改“开始 X 值”或“结束 X 值”"
 
 #: ../share/extensions/funcplot.py:60
 msgid "y-interval cannot be zero. Please modify 'Y value of rectangle's top' or 'Y value of rectangle's bottom'"
-msgstr "y 间隔不能为 0。请修改“矩形顶部的 Y 值”或“矩形底部的 Y 值”"
+msgstr "Y 轴间隔不能为 0。请修改“矩形顶部的 Y 值”或“矩形底部的 Y 值”"
 
 #: ../share/extensions/funcplot.py:315
 msgid "Please select a rectangle"
@@ -29279,7 +29277,7 @@ msgstr "工具 '%s' 没有形状。假设为 45 度圆锥!"
 #: ../share/extensions/gcodetools.py:5611
 #: ../share/extensions/gcodetools.py:5616
 msgid "csp_normalised_normal error. See log."
-msgstr "csp_normalised_normal 错误。查看日志。"
+msgstr "csp_normalised_normal 错误。请参阅日志。"
 
 #: ../share/extensions/gcodetools.py:5804
 msgid "No need to engrave sharp angles."
@@ -29312,11 +29310,11 @@ msgstr ""
 
 #: ../share/extensions/gcodetools.py:6107
 msgid "Lathe X and Z axis remap should be 'X', 'Y' or 'Z'. Exiting..."
-msgstr "车床 X 和 Z 轴重新映射应该是 'X', 'Y' 或 'Z'。正在退出..."
+msgstr "车床 X 和 Z 轴重新映射应该是 'X', 'Y' 或 'Z'。正在退出…"
 
 #: ../share/extensions/gcodetools.py:6110
 msgid "Lathe X and Z axis remap should be the same. Exiting..."
-msgstr "车床 X 和 Z 轴重新映射应该相同。正在退出..."
+msgstr "车床 X 和 Z 轴重新映射应该相同。正在退出…"
 
 #: ../share/extensions/gcodetools.py:6662
 #, python-format
@@ -29341,7 +29339,7 @@ msgstr "无法导入子进程模块。请在这个地址报告错误: https://bu
 
 #: ../share/extensions/generate_voronoi.py:36
 msgid "Python version is: "
-msgstr "Python 版本是:"
+msgstr "Python 版本为："
 
 #: ../share/extensions/generate_voronoi.py:94
 msgid "Please select an object"
@@ -29353,7 +29351,7 @@ msgstr ""
 
 #: ../share/extensions/gimp_xcf.py:43
 msgid "Gimp must be installed and set in your path variable."
-msgstr "Gimp 必须安装并在你的 Path 变量中设置。"
+msgstr "必须安装 Gimp 并在 PATH 变量中设置其运行时数据。"
 
 #: ../share/extensions/gimp_xcf.py:47
 msgid "An error occurred while processing the XCF file."
@@ -29382,7 +29380,7 @@ msgstr "找不到 HPGL 数据。"
 
 #: ../share/extensions/hpgl_input.py:66
 msgid "The HPGL data contained unknown (unsupported) commands, there is a possibility that the drawing is missing some content."
-msgstr "HPGL 数据包含未知（不被支持）的命令，有一个可能性就是绘图缺少了某些内容。"
+msgstr "HPGL 数据中包含未知（或不被支持的）命令，也可能是此绘图缺少了某些内容。"
 
 #. issue error if no paths found
 #: ../share/extensions/hpgl_output.py:58
@@ -29397,9 +29395,9 @@ msgid ""
 "Technical details:\n"
 "%s"
 msgstr ""
-"libxml2 的假想 lxml 包覆器依赖于 inkex.py 而这个扩展功能需要 libxml2。请从 http://cheeseshop.python.org/pypi/lxml/ 下载并安装最新版本，或者经由你的套件管理程序用命令 (例如：sudo apt-get install python-lxml) 来安装\n"
+"用于 libxml2 的神奇的 lxml 包覆器（及此扩展）依赖于 inkex.py。请从 http://cheeseshop.python.org/pypi/lxml/ 下载并安装最新版本，或者经由你的软件包管理程序（例如：sudo apt-get install python-lxml）来安装\n"
 "\n"
-"技术详细信息：\n"
+"技术详情：\n"
 "%s"
 
 #: ../share/extensions/inkex.py:169
@@ -29419,7 +29417,7 @@ msgstr "没有找到匹配表达式: %s 的节点"
 
 #: ../share/extensions/inkex.py:313
 msgid "SVG Width not set correctly! Assuming width = 100"
-msgstr "SVG 宽度设置不正确! 假设宽度 = 100"
+msgstr "SVG 宽度设置不正确！假定宽度为 100"
 
 #: ../share/extensions/interp_att_g.py:176
 msgid "There is no selection to interpolate"
@@ -29439,7 +29437,7 @@ msgid ""
 "The JessyInk script is not installed in this SVG file or has a different version than the JessyInk extensions. Please select \"install/update...\" from the \"JessyInk\" sub-menu of the \"Extensions\" menu to install or update the JessyInk script.\n"
 "\n"
 msgstr ""
-"此 JessyInk 脚本没有安装在这个 SVG 文件中或者与 JessyInk 扩展功能版本不同。请从“扩展功能”的“JessyInk”子菜单里选择“安装 / 更新...”来安装或更新此 JessyInk 脚本。\n"
+"此 JessyInk 脚本没有安装在这个 SVG 文件中或者与 JessyInk 扩展功能版本不同。请从“扩展功能”的“JessyInk”子菜单里选择“安装 / 更新…”来安装或更新此 JessyInk 脚本。\n"
 "\n"
 
 #: ../share/extensions/jessyInk_autoTexts.py:48
@@ -29613,7 +29611,7 @@ msgstr "没有选取对象。请选取您要指定视角的对象并按套用。
 #: ../share/extensions/markers_strokepaint.py:83
 #, python-format
 msgid "No style attribute found for id: %s"
-msgstr "id: %s 找不到风格属性"
+msgstr "id: %s 中找不到风格属性"
 
 #: ../share/extensions/markers_strokepaint.py:137
 #, python-format
@@ -29744,7 +29742,7 @@ msgstr "内部错误. 没有选择视图类型\n"
 
 #: ../share/extensions/print_win32_vector.py:41
 msgid "sorry, this will run only on Windows, exiting..."
-msgstr "对不起，这个只能在 Windows 上运行，正在退出..."
+msgstr "对不起，这个只能在 Windows 上运行，正在退出…"
 
 #: ../share/extensions/print_win32_vector.py:179
 msgid "Failed to open default printer"
@@ -29864,7 +29862,7 @@ msgstr "你必须选择某些“分片矩形”或其它“布局组”。"
 #: ../share/extensions/webslicer_create_group.py:76
 #, python-format
 msgid "Oops... The element \"%s\" is not in the Web Slicer layer"
-msgstr "哦...元素 \"%s\" 不是在 Web 分片层中"
+msgstr "哦…元素 \"%s\" 不是在 Web 分片层中"
 
 #: ../share/extensions/webslicer_export.py:57
 msgid "You must give a directory to export the slices."
@@ -29946,7 +29944,7 @@ msgstr "AI 8.0 输入"
 
 #: ../share/extensions/ai_input.inx.h:2
 msgid "Adobe Illustrator 8.0 and below (*.ai)"
-msgstr "Adobe Illustrator 8.0及以下(*.ai)"
+msgstr "Adobe Illustrator 8.0 及以下版本 (*.ai)"
 
 #: ../share/extensions/ai_input.inx.h:3
 msgid "Open files saved with Adobe Illustrator 8.0 or older"
@@ -29958,7 +29956,7 @@ msgstr "AI SVG 输入"
 
 #: ../share/extensions/aisvg.inx.h:2
 msgid "Adobe Illustrator SVG (*.ai.svg)"
-msgstr "Adobe 插图 SVG (*.ai.svg)"
+msgstr "Adobe Illustrator SVG (*.ai.svg)"
 
 #: ../share/extensions/aisvg.inx.h:3
 msgid "Cleans the cruft out of Adobe Illustrator SVGs before opening"
@@ -30088,7 +30086,7 @@ msgstr "加亮"
 #: ../share/extensions/color_custom.inx.h:1
 msgctxt "Custom color extension"
 msgid "Custom"
-msgstr "自定义页面尺寸"
+msgstr "自定义"
 
 #: ../share/extensions/color_custom.inx.h:3
 msgid "Red Function:"
@@ -30172,7 +30170,7 @@ msgstr "随机化"
 
 #: ../share/extensions/color_randomize.inx.h:7
 msgid "Converts to HSL, randomizes hue and/or saturation and/or lightness and converts it back to RGB."
-msgstr "转换为 HSL，随机化色调/饱和度/亮度，并把它转换回 RGB。"
+msgstr "转换为 HSL，随机化色调/饱和度/亮度，并将其转换为 RGB。"
 
 #: ../share/extensions/color_removeblue.inx.h:1
 msgid "Remove Blue"
@@ -30212,7 +30210,7 @@ msgstr "RGB 滚筒"
 
 #: ../share/extensions/convert2dashes.inx.h:1
 msgid "Convert to Dashes"
-msgstr "转化成虚线"
+msgstr "转换为虚线"
 
 #: ../share/extensions/dhw_input.inx.h:1
 msgid "DHW file input"
@@ -30232,7 +30230,7 @@ msgstr "Dia 输入"
 
 #: ../share/extensions/dia.inx.h:2
 msgid "The dia2svg.sh script should be installed with your Inkscape distribution.  If you do not have it, there is likely to be something wrong with your Inkscape installation."
-msgstr "Inkscape 发布里脚本 dia2svg.sh 应该安装.如果没有, 那么 Inkscape 安装有问题."
+msgstr "脚本 dia2svg.sh 应跟随 Inkscape 发行安装。如果没有发现这个脚本，那么 Inkscape 可能未正确安装。"
 
 #: ../share/extensions/dia.inx.h:3
 msgid "In order to import Dia files, Dia itself must be installed.  You can get Dia at http://live.gnome.org/Dia"
@@ -30300,8 +30298,8 @@ msgid ""
 "    * Step: numbering step between two nodes."
 msgstr ""
 "此扩展功能会根据下列选项用数字点替换选取项目的节点：\n"
-"    * 字体尺寸：节点数字标签的大小 (20px, 12pt...)。\n"
-"    * 点大小：于路径节点上放置的点直径 (10px, 2mm...)。\n"
+"    * 字体尺寸：节点数字标签的大小 (20px, 12pt…)。\n"
+"    * 点大小：于路径节点上放置的点直径 (10px, 2mm…)。\n"
 "    * 起始点数字：数列的起始数字，指定到此路径的起始节点。\n"
 "    * 公差值：两个节点之间的数字差值。"
 
@@ -30487,7 +30485,7 @@ msgstr ""
 "也可用反三角函数:\n"
 "sec(x); csc(x); cot(x)\n"
 "\n"
-"你可指定圆的半径让程序使用公式计算自定义的点，也可以包含边长、角度...等。你也可以绘制等角和等分共轭点。请注意在某些点上可能会造成分母为零的错误。\n"
+"你可指定圆的半径让程序使用公式计算自定义的点，也可以包含边长、角度…等。你也可以绘制等角和等分共轭点。请注意在某些点上可能会造成分母为零的错误。\n"
 "            "
 
 #: ../share/extensions/dxf_input.inx.h:1
@@ -30517,7 +30515,7 @@ msgstr "Gcodetools 兼容点导入"
 #: ../share/extensions/dxf_input.inx.h:8
 #: ../share/extensions/render_barcode_qrcode.inx.h:16
 msgid "Character encoding:"
-msgstr "字符编码:"
+msgstr "字符编码："
 
 #: ../share/extensions/dxf_input.inx.h:9
 msgid "Text Font:"
@@ -30561,7 +30559,7 @@ msgstr "基本单位:"
 
 #: ../share/extensions/dxf_outlines.inx.h:6
 msgid "Character Encoding:"
-msgstr "字符编码:"
+msgstr "字符编码："
 
 #: ../share/extensions/dxf_outlines.inx.h:7
 msgid "Layer export selection:"
@@ -30688,7 +30686,7 @@ msgstr "AutoCAD DXF R12 (*.dxf)"
 
 #: ../share/extensions/dxf_output.inx.h:4
 msgid "DXF file written by pstoedit"
-msgstr "DXF 文件由 pstoedit 写入"
+msgstr "由 pstoedit 写入的 DXF 文件"
 
 #: ../share/extensions/edge3d.inx.h:1
 msgid "Edge 3D"
@@ -30839,7 +30837,7 @@ msgstr "导出为 GIMP 调色板"
 
 #: ../share/extensions/export_gimp_palette.inx.h:2
 msgid "GIMP Palette (*.gpl)"
-msgstr "GIMP 调色板(*.gpl)"
+msgstr "GIMP 调色板 (*.gpl)"
 
 #: ../share/extensions/export_gimp_palette.inx.h:3
 msgid "Exports the colors of this document as GIMP Palette"
@@ -30931,7 +30929,7 @@ msgstr "起始 X 值："
 
 #: ../share/extensions/funcplot.inx.h:4
 msgid "End X value:"
-msgstr "最终 X 值"
+msgstr "最终 X 值："
 
 #: ../share/extensions/funcplot.inx.h:5
 msgid "Multiply X range by 2*pi"
@@ -31052,7 +31050,7 @@ msgstr "关于"
 
 #: ../share/extensions/gcodetools_about.inx.h:2
 msgid "Gcodetools was developed to make simple Gcode from Inkscape's paths. Gcode is a special format which is used in most of CNC machines. So Gcodetools allows you to use Inkscape as CAM program. It can be use with a lot of machine types: Mills Lathes Laser and Plasma cutters and engravers Mill engravers Plotters etc. To get more info visit developers page at http://www.cnc-club.ru/gcodetools"
-msgstr "Gcodetools 被开发为从 Inkscape 的路径制作简单的 Gcode。Gcode 是一种在大多数 CNC 机器中使用的特殊格式。所以 Gcodetools 让你可以使用 Inkscape 作为 CAM 程序。它可以配合多种机器类型使用: Mills Lathes Laser and Plasma cutters and engravers Mill engravers Plotters 等。要获得更多信息，访问 http://www.cnc-club.ru/gcodetools 的开发者网页"
+msgstr "Gcodetools 可从 Inkscape 的路径制作简单的 Gcode。Gcode 是一种在大多数 CNC 机器中使用的特殊格式。所以 Gcodetools 可让你将 Inkscape 用作 CAM 程序。Gcodetools 可配合多种类型的机器使用：Mills Lathes Laser and Plasma cutters and engravers Mill engravers Plotters 等。欲知详情，请访问 http://www.cnc-club.ru/gcodetools"
 
 #: ../share/extensions/gcodetools_about.inx.h:4
 #: ../share/extensions/gcodetools_area.inx.h:54
@@ -31067,14 +31065,14 @@ msgstr "Gcodetools 被开发为从 Inkscape 的路径制作简单的 Gcode。Gco
 #: ../share/extensions/gcodetools_tools_library.inx.h:13
 msgid "Gcodetools plug-in: converts paths to Gcode (using circular interpolation), makes offset paths and engraves sharp corners using cone cutters. This plug-in calculates Gcode for paths using circular interpolation or linear motion when needed. Tutorials, manuals and support can be found at English support forum: http://www.cnc-club.ru/gcodetools and Russian support forum: http://www.cnc-club.ru/gcodetoolsru Credits: Nick Drobchenko, Vladimir Kalyaev, John Brooker, Henry Nicolas, Chris Lusby Taylor. Gcodetools ver. 1.7"
 msgstr ""
-"Gcodetools 插件模块: 将路径转换成 Gcode (使用圆弧内插法), 产生偏移路径和使用锥形刀的雕刻锐角。 \n"
-"此插件程序可用圆弧内插法或线性移动 (需要时) 计算路径 Gcode 代码。\n"
+"Gcodetools 插件模块：将路径转换成 Gcode（使用圆弧内插法），产生偏移路径并使用锥形刀的雕刻锐角。 \n"
+"此插件程序可在必要时使用圆弧内插法或线性移动计算路径 Gcode 代码。\n"
 "\n"
-"可在下述网站找到教学、使用手册和支持\n"
-"英语支持论坛：\n"
+"可从下述网站找到教学、支持信息和使用手册\n"
+"英文支持论坛：\n"
 "\thttp://www.cnc-club.ru/gcodetools\n"
 "\n"
-"\t以及俄语支持论坛：\n"
+"\t俄语支持论坛：\n"
 "\thttp://www.cnc-club.ru/gcodetoolsru\n"
 "\n"
 "开发团队：Nick Drobchenko, Vladimir Kalyaev, John Brooker, Henry Nicolas, Chris Lusby Taylor。\n"
@@ -31101,7 +31099,7 @@ msgstr "面积"
 
 #: ../share/extensions/gcodetools_area.inx.h:2
 msgid "Maximum area cutting curves:"
-msgstr "最大面切割曲线:"
+msgstr "最大面切割曲线："
 
 #: ../share/extensions/gcodetools_area.inx.h:3
 msgid "Area width:"
@@ -31133,7 +31131,7 @@ msgstr "填充方法"
 
 #: ../share/extensions/gcodetools_area.inx.h:10
 msgid "Zig zag"
-msgstr "Z 型"
+msgstr "曲折"
 
 #: ../share/extensions/gcodetools_area.inx.h:12
 msgid "Area artifacts"
@@ -31179,7 +31177,7 @@ msgstr "双弧插值公差:"
 #: ../share/extensions/gcodetools_lathe.inx.h:14
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:3
 msgid "Maximum splitting depth:"
-msgstr "最大分割深度:"
+msgstr "最大分割深度："
 
 #: ../share/extensions/gcodetools_area.inx.h:22
 #: ../share/extensions/gcodetools_lathe.inx.h:15
@@ -31261,7 +31259,7 @@ msgstr "最小圆弧半径："
 #: ../share/extensions/gcodetools_lathe.inx.h:27
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:16
 msgid "Comment Gcode:"
-msgstr "注释 G代码："
+msgstr "注释 Gcode："
 
 #: ../share/extensions/gcodetools_area.inx.h:35
 #: ../share/extensions/gcodetools_engraving.inx.h:13
@@ -31426,11 +31424,11 @@ msgstr "DXF 点"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:3
 msgid "Convert selection:"
-msgstr "转换选择内容:"
+msgstr "选择转换内容："
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:4
 msgid "Convert selected objects to drill points (as dxf_import plugin does). Also you can save original shape. Only the start point of each curve will be used. Also you can manually select object, open XML editor (Shift+Ctrl+X) and add or remove XML tag 'dxfpoint' with any value."
-msgstr "转换选择的对象为钻点（如 dxf_import 插件所做）。此外，你也可以保存原始形状。只有美俄个曲线的开始点将会被使用。还有，你可以手动选择对象，打开 XML 编辑器 (Shift+Ctrl+X) 并添加或删除带有任何值的 XML 标记 'dxfpoint' 。"
+msgstr "将选中的对象转换为钻点（如 dxf_import 插件所为）。此外，也可以保存原始形状。只会使用每个曲线的起始点。你还可以手动选择对象，打开 XML 编辑器 (Shift+Ctrl+X) 并添加或删除带有任何值的 XML 标记 'dxfpoint' 。"
 
 #: ../share/extensions/gcodetools_dxf_points.inx.h:5
 msgid "set as dxfpoint and save shape"
@@ -31466,7 +31464,7 @@ msgstr "绘制附加的图形以查看雕刻路径"
 
 #: ../share/extensions/gcodetools_engraving.inx.h:6
 msgid "This function creates path to engrave letters or any shape with sharp angles. Cutter's depth as a function of radius is defined by the tool. Depth may be any Python expression. For instance: cone....(45 degrees)......................: w cone....(height/diameter=10/3)..: 10*w/3 sphere..(radius r)...........................: math.sqrt(max(0,r**2-w**2)) ellipse.(minor axis r, major 4r).....: math.sqrt(max(0,r**2-w**2))*4"
-msgstr "这个函数创建使用锐角雕刻字母或任何形状的路径。切割器的深度作为由工具定义的半径的函数。深度可以是任何 Python 表达式。例如: cone....(45 degrees)......................: w cone....(height/diameter=10/3)..: 10*w/3 sphere..(radius r)...........................: math.sqrt(max(0,r**2-w**2)) ellipse.(minor axis r, major 4r).....: math.sqrt(max(0,r**2-w**2))*4"
+msgstr "这个函数创建使用锐角雕刻字母或任何形状的路径。切割器的深度作为由工具定义的半径的函数。深度可以是任何 Python 表达式。例如: cone….(45 degrees)………………….: w cone….(height/diameter=10/3)..: 10*w/3 sphere..(radius r)………………………: math.sqrt(max(0,r**2-w**2)) ellipse.(minor axis r, major 4r)…..: math.sqrt(max(0,r**2-w**2))*4"
 
 #: ../share/extensions/gcodetools_graffiti.inx.h:1
 msgid "Graffiti"
@@ -31773,15 +31771,15 @@ msgstr "边框厚度 (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:3
 msgid "X Axis"
-msgstr "X轴"
+msgstr "X 轴"
 
 #: ../share/extensions/grid_cartesian.inx.h:4
 msgid "Major X Divisions:"
-msgstr "主 X 分隔:"
+msgstr "主 X 分隔："
 
 #: ../share/extensions/grid_cartesian.inx.h:5
 msgid "Major X Division Spacing (px):"
-msgstr "主 X 分隔间距 (px):"
+msgstr "主 X 分隔间距 (px)："
 
 #: ../share/extensions/grid_cartesian.inx.h:6
 msgid "Subdivisions per Major X Division:"
@@ -31789,7 +31787,7 @@ msgstr "每个主 X 分隔的子分隔:"
 
 #: ../share/extensions/grid_cartesian.inx.h:7
 msgid "Logarithmic X Subdiv. (Base given by entry above)"
-msgstr "X 次级刻度为对数坐标. (底数由上面的输入决定)"
+msgstr "X 次级刻度为对数坐标（底数由先前输入决定）。"
 
 #: ../share/extensions/grid_cartesian.inx.h:8
 msgid "Subsubdivs. per X Subdivision:"
@@ -31801,7 +31799,7 @@ msgstr "半分 X 子子分隔。在‘n’子分隔后的频率 (仅记录):"
 
 #: ../share/extensions/grid_cartesian.inx.h:10
 msgid "Major X Division Thickness (px):"
-msgstr "主 X 分隔厚度 (px):"
+msgstr "主 X 分隔厚度 (px)："
 
 #: ../share/extensions/grid_cartesian.inx.h:11
 msgid "Minor X Division Thickness (px):"
@@ -31809,7 +31807,7 @@ msgstr "次 X 分隔厚度 (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:12
 msgid "Subminor X Division Thickness (px):"
-msgstr "子次级 X 分隔厚度 (px):"
+msgstr "次级 X 分隔厚度 (px)："
 
 #: ../share/extensions/grid_cartesian.inx.h:13
 msgid "Y Axis"
@@ -31817,11 +31815,11 @@ msgstr "Y 轴"
 
 #: ../share/extensions/grid_cartesian.inx.h:14
 msgid "Major Y Divisions:"
-msgstr "主 Y 分隔:"
+msgstr "主 Y 分隔："
 
 #: ../share/extensions/grid_cartesian.inx.h:15
 msgid "Major Y Division Spacing (px):"
-msgstr "主 X 分隔间距 (px):"
+msgstr "主 Y 分隔间距 (px)："
 
 #: ../share/extensions/grid_cartesian.inx.h:16
 msgid "Subdivisions per Major Y Division:"
@@ -31829,7 +31827,7 @@ msgstr "每个主 Y 分隔的子分隔:"
 
 #: ../share/extensions/grid_cartesian.inx.h:17
 msgid "Logarithmic Y Subdiv. (Base given by entry above)"
-msgstr "Y次级刻度为对数坐标. (底数由上面的输入决定)"
+msgstr "Y 次级刻度为对数坐标（底数由先前输入决定）。"
 
 #: ../share/extensions/grid_cartesian.inx.h:18
 msgid "Subsubdivs. per Y Subdivision:"
@@ -31841,7 +31839,7 @@ msgstr "半分 Y 子子分隔。在‘n’ 子分隔后的频率 (仅记录):"
 
 #: ../share/extensions/grid_cartesian.inx.h:20
 msgid "Major Y Division Thickness (px):"
-msgstr "主 Y 分隔厚度 (px):"
+msgstr "主 Y 分隔厚度 (px)："
 
 #: ../share/extensions/grid_cartesian.inx.h:21
 msgid "Minor Y Division Thickness (px):"
@@ -31849,7 +31847,7 @@ msgstr "次 Y 分隔厚度 (px):"
 
 #: ../share/extensions/grid_cartesian.inx.h:22
 msgid "Subminor Y Division Thickness (px):"
-msgstr "子次级 Y 分隔厚度 (px):"
+msgstr "次级 Y 分隔厚度 (px)："
 
 #: ../share/extensions/grid_isometric.inx.h:1
 msgid "Isometric Grid"
@@ -31857,11 +31855,11 @@ msgstr "等容网格"
 
 #: ../share/extensions/grid_isometric.inx.h:2
 msgid "X Divisions [x2]:"
-msgstr "X 分隔 [x2]:"
+msgstr "X 分隔 [x2]："
 
 #: ../share/extensions/grid_isometric.inx.h:3
 msgid "Y Divisions [x2] [> 1/2 X Div]:"
-msgstr "Y 分隔 [x2] [> 1/2 X 分隔]:"
+msgstr "Y 分隔 [x2] [> 1/2 X 分隔]："
 
 #: ../share/extensions/grid_isometric.inx.h:4
 msgid "Division Spacing (px):"
@@ -31877,7 +31875,7 @@ msgstr "每个子分隔的子子分隔数:"
 
 #: ../share/extensions/grid_isometric.inx.h:7
 msgid "Major Division Thickness (px):"
-msgstr "主分隔厚度 (px):"
+msgstr "主分隔厚度 (px)："
 
 #: ../share/extensions/grid_isometric.inx.h:8
 msgid "Minor Division Thickness (px):"
@@ -31893,7 +31891,7 @@ msgstr "极坐标网格"
 
 #: ../share/extensions/grid_polar.inx.h:2
 msgid "Centre Dot Diameter (px):"
-msgstr "中心点半径 (px):"
+msgstr "中心点半径 (px)："
 
 #: ../share/extensions/grid_polar.inx.h:3
 msgid "Circumferential Labels:"
@@ -31917,11 +31915,11 @@ msgstr "圆周分隔"
 
 #: ../share/extensions/grid_polar.inx.h:9
 msgid "Major Circular Divisions:"
-msgstr "主圆周分隔:"
+msgstr "主圆周分隔："
 
 #: ../share/extensions/grid_polar.inx.h:10
 msgid "Major Circular Division Spacing (px):"
-msgstr "主圆周分隔间距 (px):"
+msgstr "主圆周分隔间距 (px)："
 
 #: ../share/extensions/grid_polar.inx.h:11
 msgid "Subdivisions per Major Circular Division:"
@@ -31933,7 +31931,7 @@ msgstr "次级刻度为对数坐标. (底数由上面的输入决定)"
 
 #: ../share/extensions/grid_polar.inx.h:13
 msgid "Major Circular Division Thickness (px):"
-msgstr "主圆周分隔厚度 (px):"
+msgstr "主圆周分隔厚度 (px)："
 
 #: ../share/extensions/grid_polar.inx.h:14
 msgid "Minor Circular Division Thickness (px):"
@@ -31961,7 +31959,7 @@ msgstr "次角度分隔结束 'n' 分隔。在中心前:"
 
 #: ../share/extensions/grid_polar.inx.h:20
 msgid "Major Angular Division Thickness (px):"
-msgstr "主角度分隔厚度 (px):"
+msgstr "主角度分隔厚度 (px)："
 
 #: ../share/extensions/grid_polar.inx.h:21
 msgid "Minor Angular Division Thickness (px):"
@@ -31989,7 +31987,7 @@ msgstr "移除现有参考线"
 
 #: ../share/extensions/guides_creator.inx.h:8
 msgid "Custom..."
-msgstr "自定义..."
+msgstr "自定义…"
 
 #: ../share/extensions/guides_creator.inx.h:9
 msgid "Golden ratio"
@@ -32045,7 +32043,7 @@ msgstr "右边距："
 
 #: ../share/extensions/guides_creator.inx.h:22
 msgid "Left book page"
-msgstr "左书籍页"
+msgstr "左书页"
 
 #: ../share/extensions/guides_creator.inx.h:23
 msgid "Right book page"
@@ -32097,7 +32095,7 @@ msgstr "动作:"
 
 #: ../share/extensions/hershey.inx.h:5
 msgid "Font face: "
-msgstr "字体:"
+msgstr "字型："
 
 #: ../share/extensions/hershey.inx.h:6
 msgid "Typeset that text"
@@ -32137,11 +32135,11 @@ msgstr "Script 1 描边"
 
 #: ../share/extensions/hershey.inx.h:15
 msgid "Script 1-stroke (alt)"
-msgstr "Script 1 描边（替代）"
+msgstr "Script 1 描边（替代模式）"
 
 #: ../share/extensions/hershey.inx.h:16
 msgid "Script medium"
-msgstr "Script 中等"
+msgstr "Script"
 
 #: ../share/extensions/hershey.inx.h:17
 msgid "Gothic English"
@@ -32205,7 +32203,7 @@ msgstr ""
 
 #: ../share/extensions/hershey.inx.h:36
 msgid "About..."
-msgstr "关于..."
+msgstr "关于…"
 
 #: ../share/extensions/hershey.inx.h:37
 msgid ""
@@ -32369,7 +32367,7 @@ msgstr ""
 #: ../share/extensions/hpgl_output.inx.h:23
 #: ../share/extensions/plotter.inx.h:51
 msgid "Plot Features "
-msgstr "制图功能"
+msgstr "制图特性"
 
 #: ../share/extensions/hpgl_output.inx.h:24
 #: ../share/extensions/plotter.inx.h:52
@@ -32511,15 +32509,15 @@ msgstr ""
 
 #: ../share/extensions/ink2canvas.inx.h:1
 msgid "Convert to html5 canvas"
-msgstr "转换为 html5 canvas"
+msgstr "转换为 HTML5 Canvas"
 
 #: ../share/extensions/ink2canvas.inx.h:2
 msgid "HTML 5 canvas (*.html)"
-msgstr "HTML 5 画布 (*.html)"
+msgstr "HTML 5 Canvas (*.html)"
 
 #: ../share/extensions/ink2canvas.inx.h:3
 msgid "HTML 5 canvas code"
-msgstr "HTML 5 canvas 代码"
+msgstr "HTML 5 Canvas 代码"
 
 #: ../share/extensions/inkscape_follow_link.inx.h:1
 msgid "Follow Link"
@@ -32687,7 +32685,7 @@ msgstr "这个效果应用一个值于选择组中的所有元素的任何可插
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:1
 msgid "Auto-texts"
-msgstr "自动文字"
+msgstr "自动文本"
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:2
 #: ../share/extensions/jessyInk_effects.inx.h:2
@@ -32700,7 +32698,7 @@ msgstr "设置"
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:3
 msgid "Auto-Text:"
-msgstr "自动文本:"
+msgstr "自动文本："
 
 #: ../share/extensions/jessyInk_autoTexts.inx.h:4
 msgid "None (remove)"
@@ -32870,7 +32868,7 @@ msgstr "切换进度条："
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:14
 msgid "Reset timer:"
-msgstr "重置计时器"
+msgstr "重置计时器："
 
 #: ../share/extensions/jessyInk_keyBindings.inx.h:15
 msgid "Export presentation:"
@@ -33132,11 +33130,11 @@ msgstr "页面尺寸"
 
 #: ../share/extensions/layout_nup.inx.h:4
 msgid "Size X:"
-msgstr "X 大小:"
+msgstr "X 大小："
 
 #: ../share/extensions/layout_nup.inx.h:5
 msgid "Size Y:"
-msgstr "Y 大小:"
+msgstr "Y 大小："
 
 #: ../share/extensions/layout_nup.inx.h:6
 #: ../share/extensions/printing_marks.inx.h:13
@@ -33151,7 +33149,7 @@ msgstr "底:"
 #: ../share/extensions/layout_nup.inx.h:8
 #: ../share/extensions/printing_marks.inx.h:15
 msgid "Left:"
-msgstr "左:"
+msgstr "左："
 
 #: ../share/extensions/layout_nup.inx.h:9
 #: ../share/extensions/printing_marks.inx.h:16
@@ -33244,7 +33242,7 @@ msgstr "布局"
 
 #: ../share/extensions/lindenmayer.inx.h:1
 msgid "L-system"
-msgstr "L-系统"
+msgstr "L 系统"
 
 #: ../share/extensions/lindenmayer.inx.h:2
 msgid "Axiom and rules"
@@ -33490,16 +33488,12 @@ msgid "Fixed Text, Center of BBox"
 msgstr ""
 
 #: ../share/extensions/measure.inx.h:26
-#, fuzzy
-#| msgctxt "measure extension"
-#| msgid "Center of Mass"
 msgid "Fixed Text, Center of Mass"
-msgstr "质心"
+msgstr "固定文本，质心"
 
 #: ../share/extensions/measure.inx.h:28
-#, fuzzy
 msgid "Center"
-msgstr "中心 "
+msgstr "中心"
 
 #: ../share/extensions/measure.inx.h:30
 #, fuzzy
@@ -33508,16 +33502,10 @@ msgid "Start of Path"
 msgstr "起始路径："
 
 #: ../share/extensions/measure.inx.h:31
-#, fuzzy
-#| msgctxt "measure extension"
-#| msgid "Center of Mass"
 msgid "Center of BBox"
-msgstr "质心"
+msgstr "BBox 中心"
 
 #: ../share/extensions/measure.inx.h:32
-#, fuzzy
-#| msgctxt "measure extension"
-#| msgid "Center of Mass"
 msgid "Center of Mass"
 msgstr "质心"
 
@@ -33570,7 +33558,7 @@ msgstr "2 - 添加字型槽层"
 
 #: ../share/extensions/new_glyph_layer.inx.h:2
 msgid "Unicode character:"
-msgstr "Unicode 字符:"
+msgstr "Unicode 字符："
 
 #: ../share/extensions/next_glyph_layer.inx.h:1
 msgid "View Next Glyph"
@@ -33628,11 +33616,11 @@ msgstr ""
 
 #: ../share/extensions/param_curves.inx.h:26
 msgid "X-Function:"
-msgstr "X-函数:"
+msgstr "X 函数："
 
 #: ../share/extensions/param_curves.inx.h:27
 msgid "Y-Function:"
-msgstr "Y-函数:"
+msgstr "Y 函数："
 
 #: ../share/extensions/pathalongpath.inx.h:1
 msgid "Pattern along Path"
@@ -33829,7 +33817,7 @@ msgstr "你的串口连接的端口。在 WIndows 上类似于‘COM1’，在 L
 
 #: ../share/extensions/plotter.inx.h:6
 msgid "Serial baud rate:"
-msgstr "串口波特率："
+msgstr "串行连接波特率："
 
 #: ../share/extensions/plotter.inx.h:7
 msgid "The Baud rate of your serial connection (Default: 9600)"
@@ -33837,30 +33825,30 @@ msgstr "你的串口连接的波特率 (默认: 9600)"
 
 #: ../share/extensions/plotter.inx.h:8
 msgid "Serial byte size:"
-msgstr ""
+msgstr "串行连接字节大小："
 
 #: ../share/extensions/plotter.inx.h:10
 #, no-c-format
 msgid "The Byte size of your serial connection, 99% of all plotters use the default setting (Default: 8 Bits)"
-msgstr ""
+msgstr "串行连接的字节大小，99% 的绘图者可使用默认设置（默认：8 位）"
 
 #: ../share/extensions/plotter.inx.h:11
 msgid "Serial stop bits:"
-msgstr ""
+msgstr "串行连接停止位："
 
 #: ../share/extensions/plotter.inx.h:13
 #, no-c-format
 msgid "The Stop bits of your serial connection, 99% of all plotters use the default setting (Default: 1 Bit)"
-msgstr ""
+msgstr "串行连接的停止位，99% 的绘图者可使用默认设置（默认：1 位）"
 
 #: ../share/extensions/plotter.inx.h:14
 msgid "Serial parity:"
-msgstr ""
+msgstr "串行连接奇偶校验："
 
 #: ../share/extensions/plotter.inx.h:16
 #, no-c-format
 msgid "The Parity of your serial connection, 99% of all plotters use the default setting (Default: None)"
-msgstr ""
+msgstr "串行连接的奇偶校验，99% 的绘图者可使用默认设置（默认：无）"
 
 #: ../share/extensions/plotter.inx.h:17
 msgid "Serial flow control:"
@@ -33900,7 +33888,7 @@ msgstr "DMPL"
 
 #: ../share/extensions/plotter.inx.h:27
 msgid "KNK Plotter (HPGL variant)"
-msgstr "KNK 绘图仪 (HPGL 变种)"
+msgstr "KNK 绘图仪（HPGL 变种）"
 
 #: ../share/extensions/plotter.inx.h:28
 msgid "Using wrong settings can under certain circumstances cause Inkscape to freeze. Always save your work before plotting!"
@@ -34074,7 +34062,7 @@ msgstr "Y 轴"
 
 #: ../share/extensions/polyhedron_3d.inx.h:32
 msgid "Z-Axis"
-msgstr "Z轴"
+msgstr "Z 轴"
 
 #: ../share/extensions/polyhedron_3d.inx.h:34
 msgid "Scaling factor:"
@@ -34128,7 +34116,7 @@ msgstr "绘制背面多边形"
 
 #: ../share/extensions/polyhedron_3d.inx.h:49
 msgid "Z-sort faces by:"
-msgstr "Z 排列面依据:"
+msgstr "Z 排列面依据："
 
 #: ../share/extensions/polyhedron_3d.inx.h:50
 msgid "Faces"
@@ -34216,11 +34204,11 @@ msgstr "抖动节点"
 
 #: ../share/extensions/radiusrand.inx.h:3
 msgid "Maximum displacement in X (px):"
-msgstr "X 轴上最大位移 (px)："
+msgstr "X 轴上最大位移（px）："
 
 #: ../share/extensions/radiusrand.inx.h:4
 msgid "Maximum displacement in Y (px):"
-msgstr "Y 轴上最大位移 (px)："
+msgstr "Y 轴上最大位移（px）："
 
 #: ../share/extensions/radiusrand.inx.h:6
 msgid "Shift node handles"
@@ -34423,7 +34411,7 @@ msgstr "重新堆叠方向"
 
 #: ../share/extensions/restack.inx.h:9
 msgid "Left to Right (0)"
-msgstr "左到右 (0)"
+msgstr "左至右 (0)"
 
 #: ../share/extensions/restack.inx.h:10
 msgid "Bottom to Top (90)"
@@ -34468,10 +34456,8 @@ msgid "Bottom"
 msgstr "底部"
 
 #: ../share/extensions/restack.inx.h:21
-#, fuzzy
-#| msgid "Raised Border"
 msgid "Based on Z-Order"
-msgstr "边框隆起"
+msgstr "基于 Z 顺序"
 
 #: ../share/extensions/restack.inx.h:22
 msgid "Restack Mode"
@@ -34485,7 +34471,7 @@ msgstr "反转渐层"
 
 #: ../share/extensions/restack.inx.h:24
 msgid "Shuffle Z-Order"
-msgstr ""
+msgstr "随机重排 Z 顺序"
 
 #: ../share/extensions/restack.inx.h:26
 msgid "This extension changes the z-order of objects based on their position on the canvas or their current z-order. Selection: The extension restacks either objects inside a single selected group, or a selection of multiple objects on the current drawing level (layer or group)."
@@ -34545,7 +34531,7 @@ msgstr "将 CSS 属性转换为 XML 属性"
 
 #: ../share/extensions/scour.inx.h:5
 msgid "Group collapsing"
-msgstr "组折叠"
+msgstr "折叠组"
 
 #: ../share/extensions/scour.inx.h:6
 msgid "Create groups for similar attributes"
@@ -34585,7 +34571,7 @@ msgstr "坐标的有效位数："
 
 #: ../share/extensions/scour.inx.h:15
 msgid "XML indentation (pretty-printing):"
-msgstr "XML 缩进 (美化显示):"
+msgstr "XML 缩进（美化显示）："
 
 #: ../share/extensions/scour.inx.h:16
 msgid "Space"
@@ -34649,7 +34635,7 @@ msgstr ""
 "    * 缩短颜色名称：将全部颜色转换成 #RRGGBB 或 #RGB 格式。\n"
 "    * 将 CSS 属性转换成 XML 属性：将样式从样式标签和进线样式=\"\" 宣告转换成 XML 属性。\n"
 "    * 折叠群组：移除没用到的 g 组件，让这些内容提升一个层级。需要已设置“移除组件没用到的 ID 名称”。\n"
-"    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填色、边框不透明度...)。\n"
+"    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填色、边框不透明度…)。\n"
 "    * 内嵌位图：将位图内嵌为 base64 编码数据网址。\n"
 "    * 保留软件数据：不移除 Inkscape、Sodipodi 或 Adobe Illustrator 组件和属性。\n"
 "    * 移除中继数据：移除中继数据标签和里面的所有信息，这些信息可能包含授权中继数据、不支持 SVG 浏览器的备用方案等。\n"
@@ -34727,7 +34713,7 @@ msgstr "大写高度:"
 
 #: ../share/extensions/setup_typography_canvas.inx.h:5
 msgid "X-Height:"
-msgstr "X - 高度："
+msgstr "X 高度："
 
 #: ../share/extensions/setup_typography_canvas.inx.h:6
 msgid "Descender:"
@@ -34854,7 +34840,7 @@ msgstr "Flash XML 图像文件 (*.fxg)"
 
 #: ../share/extensions/svg2fxg.inx.h:3
 msgid "Adobe's XML Graphics file format"
-msgstr "Adobe 的 XML 图像文件格式"
+msgstr "Adobe XML 图像文件格式"
 
 #: ../share/extensions/svg2xaml.inx.h:1
 msgid "XAML Output"
@@ -34998,7 +34984,7 @@ msgstr "每周列表必须从周日开始。"
 
 #: ../share/extensions/svgcalendar.inx.h:30
 msgid "Week number column name:"
-msgstr "周数列表名称："
+msgstr "周数列名称："
 
 #: ../share/extensions/svgcalendar.inx.h:31
 msgid "Char Encoding:"
@@ -35062,7 +35048,7 @@ msgstr "将每个图层分割到相应的 SVG 文件，并集合为一个归档�
 
 #: ../share/extensions/text_braille.inx.h:1
 msgid "Convert to Braille"
-msgstr "转化成盲文"
+msgstr "转换为盲文"
 
 #: ../share/extensions/text_extract.inx.h:1
 msgid "Extract"
@@ -35298,7 +35284,7 @@ msgstr "鼠标移出时"
 #: ../share/extensions/web-set-att.inx.h:17
 #: ../share/extensions/web-transmit-att.inx.h:16
 msgid "on element loaded"
-msgstr "组件加载时"
+msgstr "元件加载时"
 
 #: ../share/extensions/web-set-att.inx.h:18
 msgid "The list of values must have the same size as the attributes list."
@@ -35387,7 +35373,7 @@ msgstr "设定一个布局组"
 #: ../share/extensions/webslicer_create_group.inx.h:3
 #: ../share/extensions/webslicer_create_rect.inx.h:18
 msgid "HTML id attribute:"
-msgstr "HTML id 属性："
+msgstr "HTML ID 属性："
 
 #: ../share/extensions/webslicer_create_group.inx.h:4
 #: ../share/extensions/webslicer_create_rect.inx.h:19
@@ -35538,7 +35524,7 @@ msgstr "中间与左侧"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:36
 msgid "Middle and Center"
-msgstr "中间"
+msgstr "中间及中心"
 
 #: ../share/extensions/webslicer_create_rect.inx.h:37
 msgid "Middle and Right"
