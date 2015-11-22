@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-21 17:13-0700\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2015-11-21 21:04-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-Bookmarks: 159,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -5022,7 +5022,7 @@ msgstr "栅格"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:49
 msgid "Apply adaptive thresholding to selected bitmap(s)"
-msgstr "套用可调整临界值到选择的位图"
+msgstr "应用可调整临界值到选择的位图"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:45
 msgid "Add Noise"
@@ -5168,7 +5168,7 @@ msgstr "碳笔"
 
 #: ../src/extension/internal/bitmap/charcoal.cpp:47
 msgid "Apply charcoal stylization to selected bitmap(s)"
-msgstr "套用碳笔风格化到选择的位图"
+msgstr "应用碳笔风格化到选择的位图"
 
 #: ../src/extension/internal/bitmap/colorize.cpp:50
 #: ../src/extension/internal/filter/color.h:392
@@ -5374,11 +5374,11 @@ msgstr "反相 (获得负片效果) 选择的位图"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:36
 msgid "Normalize"
-msgstr "标准化"
+msgstr "归一化"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:43
 msgid "Normalize selected bitmap(s), expanding color range to the full possible range of color"
-msgstr "将所选位图标准化，将色彩范围扩展到最大，"
+msgstr "将所选位图归一化，将色彩范围扩展到最大，"
 
 #: ../src/extension/internal/bitmap/oilPaint.cpp:37
 msgid "Oil Paint"
@@ -5401,7 +5401,7 @@ msgstr "不透明度"
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2898
 #: ../src/ui/dialog/objects.cpp:1625 ../src/widgets/dropper-toolbar.cpp:83
 msgid "Opacity:"
-msgstr "不透明度:"
+msgstr "不透明度："
 
 #: ../src/extension/internal/bitmap/opacity.cpp:46
 msgid "Modify opacity channel(s) of selected bitmap(s)"
@@ -5565,7 +5565,7 @@ msgstr "Postscript"
 #: ../src/extension/internal/cairo-ps-out.cpp:329
 #: ../src/extension/internal/cairo-ps-out.cpp:371
 msgid "Restrict to PS level:"
-msgstr "限制到 PS 级别:"
+msgstr "限制到 PS 版本："
 
 #: ../src/extension/internal/cairo-ps-out.cpp:330
 #: ../src/extension/internal/cairo-ps-out.cpp:372
@@ -5973,7 +5973,7 @@ msgstr "强度"
 
 #: ../src/extension/internal/filter/blurs.h:135
 msgid "Removes or decreases glows and jaggeries around objects edges after applying some filters"
-msgstr "套用一些滤镜后移除或减少对象边缘周围的光晕和锯齿"
+msgstr "应用一些滤镜后移除或减少对象边缘周围的光晕和锯齿"
 
 #: ../src/extension/internal/filter/blurs.h:185
 msgid "Cross Blur"
@@ -6875,7 +6875,7 @@ msgstr "色相分布 (°)："
 
 #: ../src/extension/internal/filter/color.h:1694
 msgid "Create a custom tritone palette with additional glow, blend modes and hue moving"
-msgstr "创建含有额外光晕的自订三色调色板、或混合模式和色相移动"
+msgstr "创建含有额外光晕的自定义三色调色板、或混合模式和色相移动"
 
 #: ../src/extension/internal/filter/distort.h:67
 msgid "Felt Feather"
@@ -7138,7 +7138,7 @@ msgstr "填充不透明度："
 
 #: ../src/extension/internal/filter/morphology.h:196
 msgid "Stroke opacity:"
-msgstr "边框不透明度："
+msgstr "笔廓不透明度："
 
 #: ../src/extension/internal/filter/morphology.h:206
 msgid "Adds a colorizable outline"
@@ -7254,7 +7254,7 @@ msgstr "颗粒混合："
 
 #: ../src/extension/internal/filter/paint.h:116
 msgid "Chromo effect with customizable edge drawing and graininess"
-msgstr "含自订边缘绘制及颗粒性的色彩效果"
+msgstr "含自定义边缘绘制及颗粒性的色彩效果"
 
 #: ../src/extension/internal/filter/paint.h:232
 msgid "Cross Engraving"
@@ -7651,7 +7651,7 @@ msgstr "图片 DPI："
 #: ../src/extension/internal/gdkpixbuf-input.cpp:195
 #, c-format
 msgid "Take information from file or use default bitmap import resolution as defined in the preferences."
-msgstr "从文件取得信息惑使用缺省位图导入分辨率作为偏好设置中定义的分辨率。"
+msgstr "从文件获取信息惑使用缺省位图导入分辨率作为偏好设置中定义的分辨率。"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
 #, c-format
@@ -7671,7 +7671,7 @@ msgstr "图形渲染模式："
 #: ../src/extension/internal/gdkpixbuf-input.cpp:200
 #, c-format
 msgid "When an image is upscaled, apply smoothing or keep blocky (pixelated). (Will not work in all browsers.)"
-msgstr "当图片放大时，套用平滑或维持块状 (像素)。(并不适用所有的浏览器。)"
+msgstr "当图片放大时，应用平滑或维持块状 (像素)。(并不适用所有的浏览器。)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
 #: ../src/ui/dialog/inkscape-preferences.cpp:1505
@@ -7694,7 +7694,7 @@ msgstr "块状 (最快速度)"
 #: ../src/extension/internal/gdkpixbuf-input.cpp:206
 #, c-format
 msgid "Hide the dialog next time and always apply the same actions."
-msgstr "下次隐藏对话窗并都套用相同动作。"
+msgstr "下次隐藏对话窗并都应用相同动作。"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:206
 #, c-format
@@ -8903,7 +8903,7 @@ msgstr "试图将一个面板对象停靠到一个自由占位栏"
 #: ../src/libgdl/gdl-dock-placeholder.c:611
 #, c-format
 msgid "Got a detach signal from an object (%p) who is not our host %p"
-msgstr "从对象 (%p) (这不是我们的主机 %p ) 取得分离信号"
+msgstr "从对象 (%p) (这不是我们的主机 %p ) 获取分离信号"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:636
 #, c-format
@@ -9086,7 +9086,7 @@ msgstr "标尺"
 #. 0.91
 #: ../src/live_effects/effect.cpp:134
 msgid "Power stroke"
-msgstr "神奇边框"
+msgstr "神奇笔廓"
 
 #: ../src/live_effects/effect.cpp:135
 msgid "Clone original path"
@@ -9108,7 +9108,7 @@ msgstr "接合类型"
 
 #: ../src/live_effects/effect.cpp:141
 msgid "Taper stroke"
-msgstr "边框锥化"
+msgstr "笔廓锥化"
 
 #. Ponyscape
 #: ../src/live_effects/effect.cpp:143
@@ -9117,7 +9117,7 @@ msgstr "贴附路径"
 
 #: ../src/live_effects/effect.cpp:144
 msgid "Fill between strokes"
-msgstr "填充边框间隙"
+msgstr "笔廓间填充"
 
 #: ../src/live_effects/effect.cpp:145 ../src/selection-chemistry.cpp:2871
 msgid "Fill between many"
@@ -9129,7 +9129,7 @@ msgstr "以 5 个点画椭圆"
 
 #: ../src/live_effects/effect.cpp:147
 msgid "Bounding Box"
-msgstr "边框"
+msgstr "边界框"
 
 #: ../src/live_effects/effect.cpp:150
 msgid "Lattice Deformation 2"
@@ -9284,7 +9284,7 @@ msgstr "链接的路径："
 #: ../src/live_effects/lpe-clone-original.cpp:18
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:23
 msgid "Path from which to take the original path data"
-msgstr "取得原本路径数据的路径"
+msgstr "沿着原本路径数据的路径"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:25
 msgid "Visual Bounds"
@@ -9503,7 +9503,7 @@ msgstr "定义挤压的方向和幅度"
 
 #: ../src/live_effects/lpe-fill-between-many.cpp:25
 msgid "Paths from which to take the original path data"
-msgstr "取得原本路径数据的路径"
+msgstr "沿着原本路径数据的路径"
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:24
 msgid "Second path:"
@@ -9511,7 +9511,7 @@ msgstr "第二条路径："
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:24
 msgid "Second path from which to take the original path data"
-msgstr "取得原本路径数据的第二条路径"
+msgstr "沿着原本路径数据的第二条路径"
 
 #: ../src/live_effects/lpe-fill-between-strokes.cpp:25
 msgid "Reverse Second"
@@ -9564,7 +9564,7 @@ msgstr "圆角方式"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:60
 msgid "Radius (unit or %):"
-msgstr "半径 /px"
+msgstr "半径（单位或 %）："
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:60
 msgid "Radius, in unit or %"
@@ -9572,7 +9572,7 @@ msgstr "半径，单位或 %"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:61
 msgid "Chamfer steps:"
-msgstr "斜面步骤:"
+msgstr "斜面步骤："
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:61
 msgid "Chamfer steps"
@@ -9580,7 +9580,7 @@ msgstr "倒角阶数"
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:63
 msgid "Helper size with direction:"
-msgstr "带方向的助手大小:"
+msgstr "方向性辅助标示尺寸："
 
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:63
 msgid "Helper size with direction"
@@ -9625,7 +9625,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-gears.cpp:214
 msgid "_Teeth:"
-msgstr "轮齿(_T)："
+msgstr "齿数(_T)："
 
 #: ../src/live_effects/lpe-gears.cpp:214
 msgid "The number of teeth"
@@ -9637,7 +9637,7 @@ msgstr "压力角(_P)："
 
 #: ../src/live_effects/lpe-gears.cpp:215
 msgid "Tooth pressure angle (typically 20-25 deg).  The ratio of teeth not in contact."
-msgstr "轮齿的压力角 (通常20-25度).决定非接触齿面的比例."
+msgstr "轮齿的压力角（通常为 20-25 度）。决定非接触齿面的比例。"
 
 #: ../src/live_effects/lpe-interpolate.cpp:31
 msgid "Trajectory:"
@@ -9645,15 +9645,15 @@ msgstr "轨道："
 
 #: ../src/live_effects/lpe-interpolate.cpp:31
 msgid "Path along which intermediate steps are created."
-msgstr "沿该路径插入过渡子路径."
+msgstr "沿该路径插入过渡子路径。"
 
 #: ../src/live_effects/lpe-interpolate.cpp:32
 msgid "Steps_:"
-msgstr "阶层数_:"
+msgstr "阶层数(_:)："
 
 #: ../src/live_effects/lpe-interpolate.cpp:32
 msgid "Determines the number of steps from start to end path."
-msgstr "从起点到终点的步数."
+msgstr "从起点到终点的步数。"
 
 #: ../src/live_effects/lpe-interpolate.cpp:33
 msgid "E_quidistant spacing"
@@ -9671,7 +9671,7 @@ msgstr "立方贝塞尔填充"
 #: ../src/live_effects/lpe-interpolate_points.cpp:27
 #: ../src/live_effects/lpe-powerstroke.cpp:135
 msgid "CubicBezierJohan"
-msgstr "CubicBezierJohan"
+msgstr "立方贝塞尔约翰"
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:28
 #: ../src/live_effects/lpe-powerstroke.cpp:136
@@ -9691,7 +9691,7 @@ msgstr "内插法类型："
 #: ../src/live_effects/lpe-interpolate_points.cpp:38
 #: ../src/live_effects/lpe-powerstroke.cpp:179
 msgid "Determines which kind of interpolator will be used to interpolate between stroke width along the path"
-msgstr "决定边框宽度之间沿着路径内插要使用哪一种内插法"
+msgstr "决定笔廓宽度之间沿着路径内插要使用哪一种内插法"
 
 #: ../src/live_effects/lpe-jointype.cpp:31
 #: ../src/live_effects/lpe-powerstroke.cpp:166
@@ -9736,11 +9736,11 @@ msgstr "方"
 #: ../src/live_effects/lpe-jointype.cpp:42
 #: ../src/live_effects/lpe-powerstroke.cpp:152
 msgid "Peak"
-msgstr "峰值"
+msgstr "峰"
 
 #: ../src/live_effects/lpe-jointype.cpp:51
 msgid "Thickness of the stroke"
-msgstr "边框粗细"
+msgstr "笔廓粗细"
 
 #: ../src/live_effects/lpe-jointype.cpp:52
 msgid "Line cap"
@@ -9748,7 +9748,7 @@ msgstr "线端"
 
 #: ../src/live_effects/lpe-jointype.cpp:52
 msgid "The end shape of the stroke"
-msgstr "边框端点形状"
+msgstr "笔廓端点形状"
 
 #. Join type
 #. TRANSLATORS: The line join style specifies the shape to be used at the
@@ -9757,7 +9757,7 @@ msgstr "边框端点形状"
 #: ../src/live_effects/lpe-powerstroke.cpp:182
 #: ../src/widgets/stroke-style.cpp:227
 msgid "Join:"
-msgstr "交点:"
+msgstr "交点："
 
 #: ../src/live_effects/lpe-jointype.cpp:53
 #: ../src/live_effects/lpe-powerstroke.cpp:182
@@ -9774,7 +9774,7 @@ msgstr "斜切限制："
 
 #: ../src/live_effects/lpe-jointype.cpp:56
 msgid "Maximum length of the miter join (in units of stroke width)"
-msgstr "斜切接合的最大长度 (单位为边框宽度单位)"
+msgstr "斜切接合的最大长度（单位为笔廓宽度单位）"
 
 #: ../src/live_effects/lpe-jointype.cpp:57
 msgid "Force miter"
@@ -9795,15 +9795,15 @@ msgstr "下方绳子的隐藏长度"
 
 #: ../src/live_effects/lpe-knot.cpp:352
 msgid "_In units of stroke width"
-msgstr "使用边框宽度的单位(_I)"
+msgstr "使用笔廓宽度的单位(_I)"
 
 #: ../src/live_effects/lpe-knot.cpp:352
 msgid "Consider 'Interruption width' as a ratio of stroke width"
-msgstr "将'间断宽度'设置为笔廓宽度的比例"
+msgstr "将“间断宽度”设置为笔廓宽度的比例"
 
 #: ../src/live_effects/lpe-knot.cpp:353
 msgid "St_roke width"
-msgstr "边框宽度(_R)"
+msgstr "笔廓宽度(_R)"
 
 #: ../src/live_effects/lpe-knot.cpp:353
 msgid "Add the stroke width to the interruption size"
@@ -9811,7 +9811,7 @@ msgstr "将笔廓宽度添加到间断长度中"
 
 #: ../src/live_effects/lpe-knot.cpp:354
 msgid "_Crossing path stroke width"
-msgstr "交叉路径的边框宽度(_C)"
+msgstr "交叉路径的笔廓宽度(_C)"
 
 #: ../src/live_effects/lpe-knot.cpp:354
 msgid "Add crossed stroke width to the interruption size"
@@ -9854,43 +9854,43 @@ msgstr "垂直移动节点"
 
 #: ../src/live_effects/lpe-lattice2.cpp:49
 msgid "Control 0:"
-msgstr "移动节点把手"
+msgstr "控制柄 0："
 
 #: ../src/live_effects/lpe-lattice2.cpp:49
 msgid "Control 0 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "控制 0 - <b>Ctrl+Alt+单击</b>： 重置， <b>Ctrl</b>： 沿轴移动"
+msgstr "控制柄 0 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 1:"
-msgstr "控制 1:"
+msgstr "控制柄 1:"
 
 #: ../src/live_effects/lpe-lattice2.cpp:50
 msgid "Control 1 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "控制 1 - <b>Ctrl+Alt+单击</b>： 重置， <b>Ctrl</b>： 沿轴移动"
+msgstr "控制柄 1 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:51
 msgid "Control 2:"
-msgstr "控制 2:"
+msgstr "控制柄 2："
 
 #: ../src/live_effects/lpe-lattice2.cpp:51
 msgid "Control 2 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "控制 2 - <b>Ctrl + Alt + 单击</b>：重置， <b>Ctrl</b>： 沿轴移动"
+msgstr "控制柄 2 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:52
 msgid "Control 3:"
-msgstr "控制 3:"
+msgstr "控制柄 3："
 
 #: ../src/live_effects/lpe-lattice2.cpp:52
 msgid "Control 3 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "控制 3 - <b>Ctrl + Alt + 单击</b>：重置， <b>Ctrl</b>： 沿轴移动"
+msgstr "控制柄 3 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:53
 msgid "Control 4:"
-msgstr "控制 4:"
+msgstr "控制柄 4："
 
 #: ../src/live_effects/lpe-lattice2.cpp:53
 msgid "Control 4 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "控制 4 - <b>Ctrl + Alt + 单击</b>：重置， <b>Ctrl</b>： 沿轴移动"
+msgstr "控制柄 4 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 # Bai, look at your TM here.
 #: ../src/live_effects/lpe-lattice2.cpp:54
@@ -10092,7 +10092,7 @@ msgstr "图样来源："
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:59
 msgid "Path to put along the skeleton path"
-msgstr "用于沿该骨架线分布的路径(图案)"
+msgstr "要沿该骨架线分布的路径"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:60
 msgid "Pattern copies:"
@@ -10121,15 +10121,15 @@ msgstr "间距(_C)："
 #: ../src/live_effects/lpe-patternalongpath.cpp:68
 #, no-c-format
 msgid "Space between copies of the pattern. Negative values allowed, but are limited to -90% of pattern width."
-msgstr "图案副本间的距离. 可以小于0, 但不能超过图案宽度的-90%."
+msgstr "图案副本间的距离。可以使用负值，但不可小于图案宽度的 -90%。"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:70
 msgid "No_rmal offset:"
-msgstr "法线偏移(_R)："
+msgstr "法向偏移(_R)："
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:71
 msgid "Tan_gential offset:"
-msgstr "切线方向偏移(_G)："
+msgstr "切向偏移(_G)："
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:72
 msgid "Offsets in _unit of pattern size"
@@ -10141,19 +10141,19 @@ msgstr "间距, 切向和法向偏移量的为宽度/高度的比例."
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:75
 msgid "Pattern is _vertical"
-msgstr "图样为垂直(_V)"
+msgstr "图案是垂直的(_V)"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:75
 msgid "Rotate pattern 90 deg before applying"
-msgstr "应用前将图案旋转90度"
+msgstr "应用前将图案旋转 90 度"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:77
 msgid "_Fuse nearby ends:"
-msgstr "结合端点附近(_F)："
+msgstr "熔合接近的端点(_F):"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:77
 msgid "Fuse ends closer than this number. 0 means don't fuse."
-msgstr "焊接距离小于该数值的端点. 0 表示不焊接."
+msgstr "熔合距离小于该数值的端点。0 表示不熔合。"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:35
 #: ../share/extensions/perspective.inx.h:1
@@ -10178,7 +10178,7 @@ msgstr "左上"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:46
 msgid "Top Left - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "<b>Alt</b>:锁定控制点长度; <b>Ctrl+Alt</b>:沿着控制点移动"
+msgstr "左上 - <b>Ctrl+Alt+单击</b>：重置；<b>Ctrl</b>：沿坐标轴移动"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:47
 msgid "Top Right"
@@ -10186,7 +10186,7 @@ msgstr "右上"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:47
 msgid "Top Right - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "右上 - <b>Alt</b>:锁定控制点长度; <b>Ctrl+Alt</b>:沿着控制点移动"
+msgstr "右上 - <b>Ctrl+Alt+单击</b>：重置；<b>Ctrl</b>：沿坐标轴移动"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:48
 msgid "Down Left"
@@ -10194,7 +10194,7 @@ msgstr "左下"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:48
 msgid "Down Left - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "左下 - <b>Ctrl+Alt+单击</b>：重置；<b>Ctrl</b>：沿座标轴移动"
+msgstr "左下 - <b>Ctrl+Alt+单击</b>：重置；<b>Ctrl</b>：沿坐标轴移动"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:49
 msgid "Down Right"
@@ -10202,7 +10202,7 @@ msgstr "右下"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:49
 msgid "Down Right - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr "右下 - <b>Alt</b>:锁定控制点长度; <b>Ctrl+Alt</b>:沿着控制点移动"
+msgstr "右下 - <b>Ctrl+Alt+单击</b>：重置；<b>Ctrl</b>：沿坐标轴移动"
 
 #: ../src/live_effects/lpe-perspective-envelope.cpp:268
 msgid "Handles:"
@@ -10258,7 +10258,7 @@ msgstr "决定路径起始的形状"
 #: ../src/live_effects/lpe-powerstroke.cpp:183
 #: ../src/widgets/stroke-style.cpp:278
 msgid "Maximum length of the miter (in units of stroke width)"
-msgstr "斜面最大长度(以笔廓宽度为单位)"
+msgstr "斜面最大长度（以笔廓宽度为单位）"
 
 #: ../src/live_effects/lpe-powerstroke.cpp:184
 msgid "End cap:"
@@ -10287,77 +10287,77 @@ msgstr "影线间距离的延长量"
 #. FIXME: top/bottom names are inverted in the UI/svg and in the code!!
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid "Half-turns smoothness: 1st side, in:"
-msgstr "半转平滑：第一个边，内部："
+msgstr "半转平滑：第一边入："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid "Set smoothness/sharpness of path when reaching a 'bottom' half-turn. 0=sharp, 1=default"
-msgstr "设置路径到达'底部'半周时的光滑/尖锐. 0=尖锐, 1=默认"
+msgstr "设置路径到达“底部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:229
 msgid "1st side, out:"
-msgstr "第一侧边，外部："
+msgstr "第一边出："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:229
 msgid "Set smoothness/sharpness of path when leaving a 'bottom' half-turn. 0=sharp, 1=default"
-msgstr "设置路径离开'底部'半周时的光滑/尖锐. 0=尖锐, 1=默认"
+msgstr "设置路径离开“底部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "2nd side, in:"
-msgstr "第二侧边，内部："
+msgstr "第二边入："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "Set smoothness/sharpness of path when reaching a 'top' half-turn. 0=sharp, 1=default"
-msgstr "设置路径到达'顶部'半周时的光滑/尖锐. 0=尖锐, 1=默认"
+msgstr "设置路径到达“顶部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
 msgid "2nd side, out:"
-msgstr "第二侧边，外部："
+msgstr "第二边出："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
 msgid "Set smoothness/sharpness of path when leaving a 'top' half-turn. 0=sharp, 1=default"
-msgstr "设置路径离开'顶部'半周时的光滑/尖锐. 0=尖锐, 1=默认"
+msgstr "设置路径离开“顶部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:232
 msgid "Magnitude jitter: 1st side:"
-msgstr "大幅抖动：第一侧边："
+msgstr "大幅抖动：第一边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:232
 msgid "Randomly moves 'bottom' half-turns to produce magnitude variations."
-msgstr "随机性地移动'底部'半周来产生幅度的变化."
+msgstr "随机性地移动“底部”半周来产生大幅度的变化。"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:233
 #: ../src/live_effects/lpe-rough-hatches.cpp:235
 #: ../src/live_effects/lpe-rough-hatches.cpp:237
 msgid "2nd side:"
-msgstr "第二侧边："
+msgstr "第二边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:233
 msgid "Randomly moves 'top' half-turns to produce magnitude variations."
-msgstr "随机性地移动'顶部'半周来产生幅度的变化."
+msgstr "随机性地移动“顶部”半周来产生大幅度的变化。"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:234
 msgid "Parallelism jitter: 1st side:"
-msgstr "平行抖动：第一侧边："
+msgstr "平行抖动：第一边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:234
 msgid "Add direction randomness by moving 'bottom' half-turns tangentially to the boundary."
-msgstr "将'底部'半周沿边界的切向移动, 使方向产生随机性."
+msgstr "将“底部”半周沿边界的切向移动，使方向产生随机性。"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:235
 msgid "Add direction randomness by randomly moving 'top' half-turns tangentially to the boundary."
-msgstr "将'顶部'半周沿边界的切向移动, 使方向产生随机性."
+msgstr "将“顶部”半周沿边界的切向移动，使方向产生随机性。"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:236
 msgid "Variance: 1st side:"
-msgstr "变化量：第一侧边："
+msgstr "变化量：第一边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:236
 msgid "Randomness of 'bottom' half-turns smoothness"
-msgstr "'底部'半周光滑的随机性"
+msgstr "“底部”半周光滑度的随机性"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:237
 msgid "Randomness of 'top' half-turns smoothness"
-msgstr "'顶部'半周光滑的随机性"
+msgstr "“顶部”半周光滑度的随机性"
 
 #.
 #: ../src/live_effects/lpe-rough-hatches.cpp:239
@@ -10366,7 +10366,7 @@ msgstr "创建粗/细路径"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:239
 msgid "Simulate a stroke of varying width"
-msgstr "模拟一个宽度变化的笔廓"
+msgstr "模拟一个宽度有变化的笔廓"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:240
 msgid "Bend hatches"
@@ -10374,23 +10374,23 @@ msgstr "弯折影线"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:240
 msgid "Add a global bend to the hatches (slower)"
-msgstr "为影线添加一个全局的弯曲(slower)"
+msgstr "为影线添加一个全局的弯曲（更慢）"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:241
 msgid "Thickness: at 1st side:"
-msgstr "粗细：于第一侧边上："
+msgstr "粗细：于第一边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:241
 msgid "Width at 'bottom' half-turns"
-msgstr "'底部'半周的宽度"
+msgstr "“底部”半周的宽度"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:242
 msgid "At 2nd side:"
-msgstr "于第二个边上："
+msgstr "于第二边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:242
 msgid "Width at 'top' half-turns"
-msgstr "'顶部'半周的宽度"
+msgstr "“顶部”半周的宽度"
 
 #.
 #: ../src/live_effects/lpe-rough-hatches.cpp:244
@@ -10399,7 +10399,7 @@ msgstr "从第二个边到第一个边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:244
 msgid "Width from 'top' to 'bottom'"
-msgstr "从'顶部'到'底部'的宽度"
+msgstr "从“顶部”到“底部”的宽度"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:245
 msgid "From 1st to 2nd side:"
@@ -10407,7 +10407,7 @@ msgstr "从第一个边到第二个边："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:245
 msgid "Width from 'bottom' to 'top'"
-msgstr "从'底部'到'顶部'的宽度"
+msgstr "从“底部”到“顶部”的宽度"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:247
 msgid "Hatches width and dir"
@@ -10428,11 +10428,11 @@ msgstr "由参考点的相对位置定义总体弯曲程度和方向"
 
 #: ../src/live_effects/lpe-roughen.cpp:30 ../share/extensions/addnodes.inx.h:4
 msgid "By number of segments"
-msgstr "根据段数"
+msgstr "根据线段数"
 
 #: ../src/live_effects/lpe-roughen.cpp:31
 msgid "By max. segment size"
-msgstr "依照最大线段长度"
+msgstr "根据最大线段尺寸"
 
 #: ../src/live_effects/lpe-roughen.cpp:37
 msgid "Along nodes"
@@ -10461,7 +10461,7 @@ msgstr "分割方式"
 
 #: ../src/live_effects/lpe-roughen.cpp:50
 msgid "Max. segment size"
-msgstr "最大线段长度"
+msgstr "最大线段尺寸"
 
 #: ../src/live_effects/lpe-roughen.cpp:52
 msgid "Number of segments"
@@ -10584,7 +10584,7 @@ msgstr "相邻两个标尺刻度间的距离"
 #: ../share/extensions/layout_nup.inx.h:3
 #: ../share/extensions/printing_marks.inx.h:11
 msgid "Unit:"
-msgstr "单位:"
+msgstr "单位："
 
 #: ../src/live_effects/lpe-ruler.cpp:42 ../src/widgets/ruler.cpp:202
 msgid "Unit"
@@ -10628,7 +10628,7 @@ msgstr "刻度方向："
 
 #: ../src/live_effects/lpe-ruler.cpp:47
 msgid "Direction of marks (when viewing along the path from start to end)"
-msgstr "刻度的方向(视线沿路径起始至终点)"
+msgstr "刻度的方向（视线沿路径起始至终点）"
 
 #: ../src/live_effects/lpe-ruler.cpp:48
 msgid "_Offset:"
@@ -10666,7 +10666,7 @@ msgstr "旋转节点"
 
 #: ../src/live_effects/lpe-show_handles.cpp:55
 msgid "The \"show handles\" path effect will remove any custom style on the object you are applying it to. If this is not what you want, click Cancel."
-msgstr "“显示控制柄”路径特效会移除你套用在对象上所有自订样式。若这个效果不是你想要的，请点击取消。"
+msgstr "“显示控制柄”路径特效会移除你应用在对象上的所有自定义样式。若这个效果不是你想要的，请点击取消。"
 
 #: ../src/live_effects/lpe-simplify.cpp:30
 msgid "Steps:"
@@ -10674,11 +10674,11 @@ msgstr "步骤："
 
 #: ../src/live_effects/lpe-simplify.cpp:30
 msgid "Change number of simplify steps "
-msgstr "更改简化的阶层数"
+msgstr "更改简化步骤数"
 
 #: ../src/live_effects/lpe-simplify.cpp:31
 msgid "Roughly threshold:"
-msgstr "粗略临界值："
+msgstr "大致阈值："
 
 #: ../src/live_effects/lpe-simplify.cpp:32
 msgid "Smooth angles:"
@@ -10708,15 +10708,15 @@ msgstr "简化仅合并"
 #. testpointA(_("Test Point A"), _("Test A"), "ptA", &wr, this, Geom::Point(100,100)),
 #: ../src/live_effects/lpe-sketch.cpp:38
 msgid "Strokes:"
-msgstr "边框："
+msgstr "笔廓："
 
 #: ../src/live_effects/lpe-sketch.cpp:38
 msgid "Draw that many approximating strokes"
-msgstr "绘制这么多近似笔迹"
+msgstr "绘制这么多条近似笔迹"
 
 #: ../src/live_effects/lpe-sketch.cpp:39
 msgid "Max stroke length:"
-msgstr "边框最大长度："
+msgstr "笔廓最大长度："
 
 #: ../src/live_effects/lpe-sketch.cpp:40
 msgid "Maximum length of approximating strokes"
@@ -10724,7 +10724,7 @@ msgstr "近似笔迹的最大长度"
 
 #: ../src/live_effects/lpe-sketch.cpp:41
 msgid "Stroke length variation:"
-msgstr "边框长度变化量："
+msgstr "笔廓长度变化量："
 
 #: ../src/live_effects/lpe-sketch.cpp:42
 msgid "Random variation of stroke length (relative to maximum length)"
@@ -10843,7 +10843,7 @@ msgstr "外推"
 #: ../src/live_effects/lpe-taperstroke.cpp:73
 #: ../share/extensions/edge3d.inx.h:5
 msgid "Stroke width:"
-msgstr "边框宽度："
+msgstr "笔廓宽度："
 
 #: ../src/live_effects/lpe-taperstroke.cpp:73
 msgid "The (non-tapered) width of the path"
@@ -10871,7 +10871,7 @@ msgstr "光滑:"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Amount of smoothing to apply to the tapers"
-msgstr "套用到锥化的平滑程度"
+msgstr "应用到锥化的平滑程度"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:77
 msgid "Join type:"
@@ -11135,7 +11135,7 @@ msgstr "修改点的参数"
 #: ../src/live_effects/parameter/powerstrokepointarray.cpp:239
 #: ../src/live_effects/parameter/powerstrokepointarray.cpp:256
 msgid "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it, <b>Shift+click</b> launches width dialog."
-msgstr "<b>边框宽度控制点</b>：拖曳控制点可以改变笔划宽度。<b>Ctrl+点击</b> 可以加入控制点，<b>Ctrl+Alt+点击</b> 可以删除控制点。"
+msgstr "<b>笔廓宽度控制点</b>：拖曳控制点可以改变笔划宽度。<b>Ctrl+点击</b> 可以加入控制点，<b>Ctrl+Alt+点击</b> 可以删除控制点。"
 
 #: ../src/live_effects/parameter/random.cpp:134
 msgid "Change random parameter"
@@ -11760,7 +11760,7 @@ msgstr "已知内容内资源明确的参考数据"
 
 #: ../src/rdf.cpp:262
 msgid "A related resource from which the described resource is derived"
-msgstr "从资源描述取得的相关资源"
+msgstr "从资源描述获取的相关资源"
 
 #: ../src/rdf.cpp:264
 msgid "Relation:"
@@ -12324,7 +12324,7 @@ msgstr[0] "已选择类型 %2$s 的 <b>%1$i</b> 个对象"
 #, c-format
 msgid "; <i>%d filtered object</i> "
 msgid_plural "; <i>%d filtered objects</i> "
-msgstr[0] "; <i>%d 个套用滤镜的对象</i> "
+msgstr[0] "; <i>%d 个应用滤镜的对象</i> "
 
 #: ../src/seltrans-handles.cpp:9
 msgid "<b>Squeeze or stretch</b> selection; with <b>Ctrl</b> to scale uniformly; with <b>Shift</b> to scale around rotation center"
@@ -16683,7 +16683,7 @@ msgstr "要使用的边界框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:307
 msgid "Visual bounding box"
-msgstr "可见边框"
+msgstr "视觉边界框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:309
 msgid "This bounding box includes stroke width, markers, filter margins, etc."
@@ -16691,7 +16691,7 @@ msgstr "边界范围包括轮廓宽度, 标记, 滤镜边缘, 等."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:310
 msgid "Geometric bounding box"
-msgstr "几何边框"
+msgstr "几何边界框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:312
 msgid "This bounding box includes only the bare path"
@@ -16752,11 +16752,11 @@ msgstr "移动或变换时显示实际对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:337
 msgid "Box outline"
-msgstr "边框轮廓"
+msgstr "边界框轮廓"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:339
 msgid "Show only a box outline of the objects when moving or transforming"
-msgstr "移动或变换时显示对象的边框轮廓"
+msgstr "移动或变换时显示对象的边界框轮廓"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:340
 msgid "Per-object selection cue"
@@ -19006,7 +19006,7 @@ msgstr "描述"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1610
 msgid "Remove all your customized keyboard shortcuts, and revert to the shortcuts in the shortcut file listed above"
-msgstr "移除全部自订的键盘快捷键，并用上面呈列的快捷键文件还原快捷键"
+msgstr "移除全部自定义的键盘快捷键，并用上面呈列的快捷键文件还原快捷键"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1614
 msgid "Import ..."
@@ -19014,7 +19014,7 @@ msgstr "导入…"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1614
 msgid "Import custom keyboard shortcuts from a file"
-msgstr "从文件导入自订键盘快捷键"
+msgstr "从文件导入自定义键盘快捷键"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1617
 msgid "Export ..."
@@ -19022,7 +19022,7 @@ msgstr "导出…"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1617
 msgid "Export custom keyboard shortcuts to a file"
-msgstr "将自订键盘快捷键导出到文件"
+msgstr "将自定义键盘快捷键导出到文件"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1627
 msgid "Keyboard Shortcuts"
@@ -29459,7 +29459,7 @@ msgstr ""
 
 #: ../share/extensions/jessyInk_effects.py:53
 msgid "No object selected. Please select the object you want to assign an effect to and then press apply.\n"
-msgstr "没有选取对象。请选取您要指定特效的对象并按套用。\n"
+msgstr "没有选取对象。请选取您要指定特效的对象并按应用。\n"
 
 #: ../share/extensions/jessyInk_export.py:82
 msgid "Could not find Inkscape command.\n"
@@ -29597,7 +29597,7 @@ msgid ""
 "Could not obtain the selected layer for inclusion of the video element.\n"
 "\n"
 msgstr ""
-"无法取得包含影片组件的选取图层。\n"
+"无法获取包含影片组件的选取图层。\n"
 "\n"
 
 #: ../share/extensions/jessyInk_view.py:75
@@ -29606,7 +29606,7 @@ msgstr "选择了不止一个对象。请只选一个。\n"
 
 #: ../share/extensions/jessyInk_view.py:79
 msgid "No object selected. Please select the object you want to assign a view to and then press apply.\n"
-msgstr "没有选取对象。请选取您要指定视角的对象并按套用。\n"
+msgstr "没有选取对象。请选取您要指定视角的对象并按应用。\n"
 
 #: ../share/extensions/markers_strokepaint.py:83
 #, python-format
@@ -30115,7 +30115,7 @@ msgid ""
 "  Blue Function: g"
 msgstr ""
 "让你针对每个色版估算不同的函数。\n"
-"红、绿和蓝数值为标准化后的红绿蓝色版数值。计算后的 RGB 数值会自动定位。\n"
+"红、绿和蓝数值为归一化后的红绿蓝色版数值。计算后的 RGB 数值会自动定位。\n"
 "\n"
 "例如 (红色变为原本的二分之一、绿色和蓝色互相交换)：\n"
 "  红色函数：r*0.5 \n"
@@ -30468,7 +30468,7 @@ msgstr ""
 "此扩展功能可绘制由所选路径前 3 个节点定义的三角形结构。你可以选择缺省对象其中之一或者自己创建。\n"
 "            \n"
 "所有单位为 Inkscape 的像素单位。 角度的单位全部为弧度。\n"
-"你可以用三重线性座标或三角中心函数指定一个点。\n"
+"你可以用三重线性坐标或三角中心函数指定一个点。\n"
 "输入边长或角度的函数。\n"
 "三重线性部份必须用冒号分开：“:”。\n"
 "边长以“s_a”、“s_b”和“s_c”的形式来表示。\n"
@@ -31540,9 +31540,9 @@ msgstr ""
 "方向点用来计算路径的变形 (XY 平面的偏移、缩放、镜射、旋转)。\n"
 "仅在 3 点模式情况下: 不要将三点全都放进同一条路径里 (请改用 2 点模式)。\n"
 "你之后可以使用文本工具修改 Z 表面、Z 深度的数值 (第三坐标)。\n"
-"若目前图层里面没有方向点则会从上一个图层取得。\n"
+"若目前图层里面没有方向点则会从上一个图层获取。\n"
 "千万不要将方向点解除群组！你可以点击两下或 Ctrl+点击 来选取方向点。\n"
-"现在按套用可创建控制点 (每个图层都是独立设置)。"
+"现在按应用可创建控制点 (每个图层都是独立设置)。"
 
 #: ../share/extensions/gcodetools_lathe.inx.h:1
 msgid "Lathe"
@@ -31694,7 +31694,7 @@ msgstr "仅检查工具"
 
 #: ../share/extensions/gcodetools_tools_library.inx.h:11
 msgid "Selected tool type fills appropriate default values. You can change these values using the Text tool later on. The topmost (z order) tool in the active layer is used. If there is no tool inside the current layer it is taken from the upper layer. Press Apply to create new tool."
-msgstr "选择的工具类型填充适当的默认值。你以后可以使用文本工具更改这些值。使用在活动层的最顶（Z 顺序）的工具。如果在当前层中没有工具，那么从上一层取得。按应用创建新的工具。"
+msgstr "选择的工具类型填充适当的默认值。你以后可以使用文本工具更改这些值。使用在活动层的最顶（Z 顺序）的工具。如果在当前层中没有工具，那么从上一层获取。按应用创建新的工具。"
 
 #: ../share/extensions/generate_voronoi.inx.h:1
 msgid "Voronoi Pattern"
@@ -32607,7 +32607,7 @@ msgstr ""
 
 #: ../share/extensions/interp_att_g.inx.h:1
 msgid "Interpolate Attribute in a group"
-msgstr "套用群组中的属性"
+msgstr "应用群组中的属性"
 
 #: ../share/extensions/interp_att_g.inx.h:3
 msgid "Attribute to Interpolate:"
@@ -33353,7 +33353,7 @@ msgstr "标记类型:"
 
 #: ../share/extensions/markers_strokepaint.inx.h:4
 msgid "Invert fill and stroke colors"
-msgstr "反转填充和边框颜色"
+msgstr "反转填充和笔廓颜色"
 
 #: ../share/extensions/markers_strokepaint.inx.h:5
 msgid "Assign alpha"
@@ -33377,7 +33377,7 @@ msgstr "敲击"
 
 #: ../share/extensions/markers_strokepaint.inx.h:12
 msgid "Assign stroke color"
-msgstr "指定边框颜色"
+msgstr "指定笔廓颜色"
 
 #: ../share/extensions/measure.inx.h:1
 msgid "Measure Path"
@@ -33793,7 +33793,7 @@ msgstr "像素吸附"
 
 #: ../share/extensions/pixelsnap.inx.h:2
 msgid "Snap all paths in selection to pixels. Snaps borders to half-points and fills to full points."
-msgstr "吸附选择内容中的所有路径到像素。吸附边框到半点并填充为完整点。"
+msgstr "吸附选择内容中的所有路径到像素。吸附边框到半点，填充到全点。"
 
 #: ../share/extensions/plotter.inx.h:1
 msgid "Plot"
@@ -34100,15 +34100,15 @@ msgstr "阴影"
 
 #: ../share/extensions/polyhedron_3d.inx.h:44
 msgid "Light X:"
-msgstr "光源 X 座标："
+msgstr "光源 X 坐标："
 
 #: ../share/extensions/polyhedron_3d.inx.h:45
 msgid "Light Y:"
-msgstr "光源 Y 座标："
+msgstr "光源 Y 坐标："
 
 #: ../share/extensions/polyhedron_3d.inx.h:46
 msgid "Light Z:"
-msgstr "光源 Z 座标："
+msgstr "光源 Z 坐标："
 
 #: ../share/extensions/polyhedron_3d.inx.h:48
 msgid "Draw back-facing polygons"
@@ -34631,11 +34631,11 @@ msgid ""
 "    * Number of significant digits for coords: all coordinates are output with that number of significant digits. For example, if 3 is specified, the coordinate 3.5153 is output as 3.51 and the coordinate 471.55 is output as 472.\n"
 "    * XML indentation (pretty-printing): either None for no indentation, Space to use one space per nesting level, or Tab to use one tab per nesting level."
 msgstr ""
-"此扩展功能可以根据下列选项最佳化 SVG 文件：\n"
+"此扩展功能可以根据下列选项优化 SVG 文件：\n"
 "    * 缩短颜色名称：将全部颜色转换成 #RRGGBB 或 #RGB 格式。\n"
 "    * 将 CSS 属性转换成 XML 属性：将样式从样式标签和进线样式=\"\" 宣告转换成 XML 属性。\n"
 "    * 折叠群组：移除没用到的 g 组件，让这些内容提升一个层级。需要已设置“移除组件没用到的 ID 名称”。\n"
-"    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填色、边框不透明度…)。\n"
+"    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填色、笔廓不透明度…)。\n"
 "    * 内嵌位图：将位图内嵌为 base64 编码数据网址。\n"
 "    * 保留软件数据：不移除 Inkscape、Sodipodi 或 Adobe Illustrator 组件和属性。\n"
 "    * 移除中继数据：移除中继数据标签和里面的所有信息，这些信息可能包含授权中继数据、不支持 SVG 浏览器的备用方案等。\n"
