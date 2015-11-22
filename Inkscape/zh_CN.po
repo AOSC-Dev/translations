@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-21 21:44-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-11-22 13:20-0700\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -24,8 +24,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,398,-1,-1,-1,-1,-1,-1,-1,-1\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Bookmarks: 240,1317,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Generator: Poedit 1.8.5\n"
 
 #: ../inkscape.desktop.in.h:1
 msgid "Inkscape"
@@ -1812,7 +1812,7 @@ msgstr "铬金属浮雕"
 
 #: ../share/filters/filters.svg.h:772
 msgid "Embossed chrome effect"
-msgstr "浮雕式铬金属效果"
+msgstr "铬金属浮雕效果"
 
 #: ../share/filters/filters.svg.h:774
 msgid "Contour Emboss"
@@ -1820,11 +1820,11 @@ msgstr "轮廓浮雕"
 
 #: ../share/filters/filters.svg.h:776
 msgid "Satiny and embossed contour effect"
-msgstr "轮廓变成光滑柔和的浮雕效果"
+msgstr "光滑柔和的轮廓浮雕效果"
 
 #: ../share/filters/filters.svg.h:778
 msgid "Sharp Deco"
-msgstr "耀眼 Deco 风格"
+msgstr "锐利装饰风格"
 
 #: ../share/filters/filters.svg.h:780
 msgid "Unrealistic reflections with sharp edges"
@@ -1844,15 +1844,15 @@ msgstr "铝金属浮雕"
 
 #: ../share/filters/filters.svg.h:788
 msgid "Satiny aluminium effect with embossing"
-msgstr "带有浮雕的光滑柔和铝金属效果"
+msgstr "光滑柔和的铝金属浮雕效果"
 
 #: ../share/filters/filters.svg.h:790
 msgid "Refractive Glass"
-msgstr "折射玻璃"
+msgstr "反射玻璃"
 
 #: ../share/filters/filters.svg.h:792
 msgid "Double reflection through glass with some refraction"
-msgstr "经过玻璃带有些许折射的两次反射效果"
+msgstr "透过玻璃的双重折射效果"
 
 #: ../share/filters/filters.svg.h:794
 msgid "Frosted Glass"
@@ -1868,7 +1868,7 @@ msgstr "凹凸雕刻"
 
 #: ../share/filters/filters.svg.h:800
 msgid "Carving emboss effect"
-msgstr "雕刻压印效果"
+msgstr "雕刻浮雕效果"
 
 #: ../share/filters/filters.svg.h:802
 msgid "Chromolitho Alternate"
@@ -1876,7 +1876,7 @@ msgstr "交替式多彩噪声"
 
 #: ../share/filters/filters.svg.h:804
 msgid "Old chromolithographic effect"
-msgstr "旧的多彩噪声效果"
+msgstr "旧式多彩噪声效果"
 
 #: ../share/filters/filters.svg.h:806
 msgid "Convoluted Bump"
@@ -1892,7 +1892,7 @@ msgstr "浮现"
 
 #: ../share/filters/filters.svg.h:812
 msgid "Cut out, add inner shadow and colorize some parts of an image"
-msgstr "剪切、加入内阴影和着色图像的某些部分"
+msgstr "切除、加入内阴影或着色图像的某些部分"
 
 #: ../share/filters/filters.svg.h:814
 msgid "Litho"
@@ -1904,11 +1904,11 @@ msgstr "制作双色平版印刷效果"
 
 #: ../share/filters/filters.svg.h:818
 msgid "Paint Channels"
-msgstr "涂绘色版"
+msgstr "颜料通道"
 
 #: ../share/filters/filters.svg.h:820
 msgid "Colorize separately the three color channels"
-msgstr "将三种色版个别着色"
+msgstr "对三种色版分别进行着色"
 
 #: ../share/filters/filters.svg.h:822
 msgid "Posterized Light Eraser"
@@ -1924,7 +1924,7 @@ msgstr "三色"
 
 #: ../share/filters/filters.svg.h:828
 msgid "Like Duochrome but with three colors"
-msgstr "很像双色，但使用三种颜色"
+msgstr "类似双色，但带有三种颜色"
 
 #: ../share/filters/filters.svg.h:830
 msgid "Simulate CMY"
@@ -1932,15 +1932,15 @@ msgstr "仿真 CMY"
 
 #: ../share/filters/filters.svg.h:832
 msgid "Render Cyan, Magenta and Yellow channels with a colorizable background"
-msgstr "渲染含有可着色背景的青、黄、洋红色版"
+msgstr "通过青色、黄色、洋红色通道渲染可着色背景"
 
 #: ../share/filters/filters.svg.h:834
 msgid "Contouring table"
-msgstr "嵌合轮廓"
+msgstr "轮廓表"
 
 #: ../share/filters/filters.svg.h:836
 msgid "Blurred multiple contours for objects"
-msgstr "对象产生模糊的多重轮廓"
+msgstr "为对象模糊多重轮廓"
 
 #: ../share/filters/filters.svg.h:838
 msgid "Posterized Blur"
@@ -1948,7 +1948,7 @@ msgstr "海报风格模糊"
 
 #: ../share/filters/filters.svg.h:840
 msgid "Converts blurred contour to posterized steps"
-msgstr "将模糊的轮廓转变成海报层次感"
+msgstr "将模糊轮廓转换为海报层次感"
 
 #: ../share/filters/filters.svg.h:842
 msgid "Contouring discrete"
@@ -1956,7 +1956,7 @@ msgstr "离散轮廓"
 
 #: ../share/filters/filters.svg.h:844
 msgid "Sharp multiple contour for objects"
-msgstr "对象产生锐利的多重轮廓"
+msgstr "为对象锐化多重轮廓"
 
 #. Palette: ./inkscape.gpl
 #: ../share/palettes/palettes.h:2
@@ -3245,31 +3245,31 @@ msgstr "棋盘白"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Packed circles"
-msgstr "封装的圆形"
+msgstr "封装圆形"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Polka dots, small"
-msgstr "圆点花纹, 小"
+msgstr "圆点花纹，小"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Polka dots, small white"
-msgstr "圆点花纹, 小, 白色"
+msgstr "圆点花纹，小，白色"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Polka dots, medium"
-msgstr "圆点花纹, 中"
+msgstr "圆点花纹，中"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Polka dots, medium white"
-msgstr "圆点花纹, 中, 白"
+msgstr "圆点花纹，中，白"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Polka dots, large"
-msgstr "圆点花纹, 大"
+msgstr "圆点花纹，大"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Polka dots, large white"
-msgstr "圆点花纹, 大, 白"
+msgstr "圆点花纹，大，白"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Wavy"
@@ -3285,19 +3285,19 @@ msgstr "迷彩"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Ermine"
-msgstr "白鼬皮"
+msgstr "貂皮"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Sand (bitmap)"
-msgstr "沙砾 (位图)"
+msgstr "沙砾（位图）"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Cloth (bitmap)"
-msgstr "布纹 (位图)"
+msgstr "布纹（位图）"
 
 #: ../share/patterns/patterns.svg.h:1
 msgid "Old paint (bitmap)"
-msgstr "古画 (位图)"
+msgstr "古画（位图）"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:2
@@ -3579,7 +3579,7 @@ msgstr "移民"
 #: ../share/symbols/symbols.h:91 ../share/symbols/symbols.h:92
 msgctxt "Symbol"
 msgid "Departing Flights"
-msgstr "离场航班目标高度"
+msgstr "出发航班"
 
 #. Symbols: ./AigaSymbols.svg
 #: ../share/symbols/symbols.h:93 ../share/symbols/symbols.h:94
@@ -3597,7 +3597,7 @@ msgstr "吸烟处"
 #: ../share/symbols/symbols.h:97 ../share/symbols/symbols.h:98
 msgctxt "Symbol"
 msgid "No Smoking"
-msgstr "不准吸烟"
+msgstr "禁止吸烟"
 
 #. Symbols: ./AigaSymbols.svg
 #. Symbols: ./MapSymbolsNPS.svg
@@ -3707,13 +3707,13 @@ msgstr "新轮椅通道"
 #: ../share/symbols/symbols.h:133
 msgctxt "Symbol"
 msgid "Word Balloons"
-msgstr "说话气泡"
+msgstr "对话框"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:134
 msgctxt "Symbol"
 msgid "Thought Balloon"
-msgstr "想法气泡"
+msgstr "思考框"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:135
@@ -3725,19 +3725,19 @@ msgstr "梦呓"
 #: ../share/symbols/symbols.h:136
 msgctxt "Symbol"
 msgid "Rounded Balloon"
-msgstr "圆角连接"
+msgstr "圆角对话框"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:137
 msgctxt "Symbol"
 msgid "Squared Balloon"
-msgstr "方头端点"
+msgstr "方角对话框"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:138
 msgctxt "Symbol"
 msgid "Over the Phone"
-msgstr "用电话"
+msgstr "通过电话"
 
 #. Symbols: ./BalloonSymbols.svg
 #: ../share/symbols/symbols.h:139
@@ -3755,7 +3755,7 @@ msgstr "圆形对话框"
 #: ../share/symbols/symbols.h:141
 msgctxt "Symbol"
 msgid "Exclaim Balloon"
-msgstr "呼喊对话框"
+msgstr "喊叫对话框"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:142
@@ -3773,7 +3773,7 @@ msgstr "流程"
 #: ../share/symbols/symbols.h:144
 msgctxt "Symbol"
 msgid "Input/Output"
-msgstr "输入 / 输出"
+msgstr "输入/输出"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:145
@@ -3803,7 +3803,7 @@ msgstr "合并"
 #: ../share/symbols/symbols.h:149
 msgctxt "Symbol"
 msgid "Decision"
-msgstr "决断"
+msgstr "定案"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:150
@@ -3839,19 +3839,19 @@ msgstr "提取"
 #: ../share/symbols/symbols.h:155
 msgctxt "Symbol"
 msgid "Terminal/Interrupt"
-msgstr "中止 / 中断"
+msgstr "中止/中断"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:156
 msgctxt "Symbol"
 msgid "Punched Card"
-msgstr "穿孔卡"
+msgstr "穿孔卡片"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:157
 msgctxt "Symbol"
 msgid "Punch Tape"
-msgstr "穿孔"
+msgstr "纸带"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:158
@@ -3863,7 +3863,7 @@ msgstr "在线存储"
 #: ../share/symbols/symbols.h:159
 msgctxt "Symbol"
 msgid "Keying"
-msgstr "钥匙圈"
+msgstr "键控"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:160
@@ -3893,7 +3893,7 @@ msgstr "传送带"
 #: ../share/symbols/symbols.h:164
 msgctxt "Symbol"
 msgid "Communication Link"
-msgstr "通讯线路"
+msgstr "通信链路"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:165
@@ -3905,7 +3905,7 @@ msgstr "校对"
 #: ../share/symbols/symbols.h:166
 msgctxt "Symbol"
 msgid "Comment/Annotation"
-msgstr "注释 / 注解"
+msgstr "注释/注解"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:167
@@ -3923,13 +3923,13 @@ msgstr "预定义处理"
 #: ../share/symbols/symbols.h:169
 msgctxt "Symbol"
 msgid "Magnetic Disk (Database)"
-msgstr "磁盘 (数据库)"
+msgstr "磁盘（数据库）"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:170
 msgctxt "Symbol"
 msgid "Magnetic Drum (Direct Access)"
-msgstr "磁鼓 (直接访问)"
+msgstr "磁鼓（直接访问）"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:171
@@ -3941,13 +3941,13 @@ msgstr "离线存储"
 #: ../share/symbols/symbols.h:172
 msgctxt "Symbol"
 msgid "Logical Or"
-msgstr "逻辑或"
+msgstr "“或”逻辑"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:173
 msgctxt "Symbol"
 msgid "Logical And"
-msgstr "逻辑与"
+msgstr "“与”逻辑"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:174
@@ -3959,13 +3959,13 @@ msgstr "延迟"
 #: ../share/symbols/symbols.h:175
 msgctxt "Symbol"
 msgid "Loop Limit Begin"
-msgstr "循环限制开始"
+msgstr "环路限值起点"
 
 #. Symbols: ./FlowSymbols.svg
 #: ../share/symbols/symbols.h:176
 msgctxt "Symbol"
 msgid "Loop Limit End"
-msgstr "循环限制结束"
+msgstr "环路限值终点"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:177
@@ -4025,13 +4025,13 @@ msgstr "非门"
 #: ../share/symbols/symbols.h:186
 msgctxt "Symbol"
 msgid "Buffer Small"
-msgstr "缓冲区 (小)"
+msgstr "缓冲区（小）"
 
 #. Symbols: ./LogicSymbols.svg
 #: ../share/symbols/symbols.h:187
 msgctxt "Symbol"
 msgid "Not Gate Small"
-msgstr "非门 (小)"
+msgstr "非门（小）"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:188
@@ -4061,7 +4061,7 @@ msgstr "自行车道"
 #: ../share/symbols/symbols.h:195 ../share/symbols/symbols.h:196
 msgctxt "Symbol"
 msgid "Boat Launch"
-msgstr "船下水"
+msgstr "船舶下水装置"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:197 ../share/symbols/symbols.h:198
@@ -4091,7 +4091,7 @@ msgstr "营地"
 #: ../share/symbols/symbols.h:205 ../share/symbols/symbols.h:206
 msgctxt "Symbol"
 msgid "CanoeAccess"
-msgstr "无法访问"
+msgstr "独木舟通道"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:207 ../share/symbols/symbols.h:208
@@ -4103,13 +4103,13 @@ msgstr "越野滑雪道"
 #: ../share/symbols/symbols.h:209 ../share/symbols/symbols.h:210
 msgctxt "Symbol"
 msgid "Downhill Skiing"
-msgstr "阿尔卑斯式滑雪"
+msgstr "下坡滑雪"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:211 ../share/symbols/symbols.h:212
 msgctxt "Symbol"
 msgid "Drinking Water"
-msgstr "饮水"
+msgstr "饮用水"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:215 ../share/symbols/symbols.h:216
@@ -4169,7 +4169,7 @@ msgstr "垃圾桶"
 #: ../share/symbols/symbols.h:235 ../share/symbols/symbols.h:236
 msgctxt "Symbol"
 msgid "Lodging"
-msgstr "寄宿"
+msgstr "住宿"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:237 ../share/symbols/symbols.h:238
@@ -4187,7 +4187,7 @@ msgstr "摩托车道"
 #: ../share/symbols/symbols.h:241 ../share/symbols/symbols.h:242
 msgctxt "Symbol"
 msgid "Radiator Water"
-msgstr "相关性"
+msgstr "冷却水"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:243 ../share/symbols/symbols.h:244
@@ -4199,13 +4199,13 @@ msgstr "回收站"
 #: ../share/symbols/symbols.h:247 ../share/symbols/symbols.h:248
 msgctxt "Symbol"
 msgid "Pets On Leash"
-msgstr "抱着宠物或上链"
+msgstr "为宠物上链"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:249 ../share/symbols/symbols.h:250
 msgctxt "Symbol"
 msgid "Picnic Area"
-msgstr "野餐区域"
+msgstr "野餐区"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:251 ../share/symbols/symbols.h:252
@@ -4217,7 +4217,7 @@ msgstr "邮局"
 #: ../share/symbols/symbols.h:253 ../share/symbols/symbols.h:254
 msgctxt "Symbol"
 msgid "Ranger Station"
-msgstr "林业站"
+msgstr "守林者站"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:255 ../share/symbols/symbols.h:256
@@ -4229,7 +4229,7 @@ msgstr "RV 露营区"
 #: ../share/symbols/symbols.h:257 ../share/symbols/symbols.h:258
 msgctxt "Symbol"
 msgid "Restrooms"
-msgstr "厕所"
+msgstr "洗手间"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:259 ../share/symbols/symbols.h:260
@@ -4289,7 +4289,7 @@ msgstr "马厩"
 #: ../share/symbols/symbols.h:277 ../share/symbols/symbols.h:278
 msgctxt "Symbol"
 msgid "Store"
-msgstr "存储"
+msgstr "商店"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:279 ../share/symbols/symbols.h:280
@@ -4319,7 +4319,7 @@ msgstr "无障碍通道"
 #: ../share/symbols/symbols.h:289 ../share/symbols/symbols.h:290
 msgctxt "Symbol"
 msgid "Wind Surfing"
-msgstr "冲浪"
+msgstr "帆板运动"
 
 #. Symbols: ./MapSymbolsNPS.svg
 #: ../share/symbols/symbols.h:291
@@ -4329,35 +4329,35 @@ msgstr "空白"
 
 #: ../share/templates/templates.h:1
 msgid "CD Label 120mmx120mm "
-msgstr "120mmx120mm 的 CD 标签"
+msgstr "120mm x 120mm 的 CD 标签"
 
 #: ../share/templates/templates.h:1
 msgid "Simple CD Label template with disc's pattern."
-msgstr "简单的带光盘图案的 CD 标签模板"
+msgstr "带光盘图案的简单 CD 标签模板。"
 
 #: ../share/templates/templates.h:1
 msgid "CD label 120x120 disc disk"
-msgstr "120x120 光盘的 CD 标签"
+msgstr "120 x 120 光盘的 CD 标签"
 
 #: ../share/templates/templates.h:1
 msgid "No Layers"
-msgstr "没有层"
+msgstr "无层级"
 
 #: ../share/templates/templates.h:1
 msgid "Empty sheet with no layers"
-msgstr "没有层的空表格"
+msgstr "无层级的空表格"
 
 #: ../share/templates/templates.h:1
 msgid "no layers empty"
-msgstr "无图层的空白页"
+msgstr "无层级的空白页"
 
 #: ../share/templates/templates.h:1
 msgid "LaTeX Beamer"
-msgstr "LaTeX 投影仪"
+msgstr "LaTeX Beamer"
 
 #: ../share/templates/templates.h:1
 msgid "LaTeX beamer template with helping grid."
-msgstr "含辅助格线的 LaTeX beamer 范本"
+msgstr "含辅助格线的 LaTeX Beamer 模板。"
 
 #: ../share/templates/templates.h:1
 msgid "LaTex LaTeX latex grid beamer"
@@ -4369,7 +4369,7 @@ msgstr "印刷画布"
 
 #: ../share/templates/templates.h:1
 msgid "Empty typography canvas with helping guidelines."
-msgstr "含有辅助参考线的空白印刷画布。"
+msgstr "含辅助参考线的空白印刷画布。"
 
 #: ../share/templates/templates.h:1
 msgid "guidelines typography canvas"
@@ -4379,29 +4379,29 @@ msgstr "参考线印刷画布"
 #: ../src/box3d.cpp:250 ../src/box3d.cpp:1304
 #: ../src/ui/dialog/inkscape-preferences.cpp:407
 msgid "3D Box"
-msgstr "3D盒子"
+msgstr "3D 盒子"
 
 #: ../src/color-profile.cpp:842
 #, c-format
 msgid "Color profiles directory (%s) is unavailable."
-msgstr "色彩配置档案目录 (%s) 不可用."
+msgstr "色彩配置档案目录（%s）不可用。"
 
 #: ../src/color-profile.cpp:901 ../src/color-profile.cpp:918
 msgid "(invalid UTF-8 string)"
-msgstr "(无效的 UTF-8 字串)"
+msgstr "（无效的 UTF-8 字串）"
 
 #: ../src/color-profile.cpp:903
 msgctxt "Profile name"
 msgid "None"
-msgstr "不透明"
+msgstr "无"
 
 #: ../src/context-fns.cpp:33 ../src/context-fns.cpp:62
 msgid "<b>Current layer is hidden</b>. Unhide it to be able to draw on it."
-msgstr "<b>当前层隐藏</b>。解除隐藏以便在此层上绘制。"
+msgstr "<b>当前图层已被隐藏</b>。解除隐藏以在此图层上绘制。"
 
 #: ../src/context-fns.cpp:39 ../src/context-fns.cpp:68
 msgid "<b>Current layer is locked</b>. Unlock it to be able to draw on it."
-msgstr "<b>当前层已锁定</b>。解除锁定以便在此层上绘制。"
+msgstr "<b>当前图层已被锁定</b>。解除锁定以在此图层上绘制。"
 
 #: ../src/desktop-events.cpp:242
 msgid "Create guide"
@@ -4419,43 +4419,43 @@ msgstr "删除辅助线"
 #: ../src/desktop-events.cpp:543
 #, c-format
 msgid "<b>Guideline</b>: %s"
-msgstr "<b>参考线</b>: %s"
+msgstr "<b>辅助线</b>：%s"
 
 #: ../src/desktop.cpp:873
 msgid "No previous zoom."
-msgstr "前面没有缩放记录。"
+msgstr "无缩放记录。"
 
 #: ../src/desktop.cpp:894
 msgid "No next zoom."
-msgstr "后面没有缩放记录。"
+msgstr "无缩放记录。"
 
 #: ../src/display/canvas-axonomgrid.cpp:357 ../src/display/canvas-grid.cpp:697
 msgid "Grid _units:"
-msgstr "网格单位(_U):"
+msgstr "网格单位(_U)："
 
 #: ../src/display/canvas-axonomgrid.cpp:359 ../src/display/canvas-grid.cpp:699
 msgid "_Origin X:"
-msgstr "起点 X(_O):"
+msgstr "起始 X 座标(_O)："
 
 #: ../src/display/canvas-axonomgrid.cpp:359 ../src/display/canvas-grid.cpp:699
 #: ../src/ui/dialog/inkscape-preferences.cpp:778
 #: ../src/ui/dialog/inkscape-preferences.cpp:803
 msgid "X coordinate of grid origin"
-msgstr "网格原点 X 坐标"
+msgstr "网格原点的 X 坐标"
 
 #: ../src/display/canvas-axonomgrid.cpp:362 ../src/display/canvas-grid.cpp:702
 msgid "O_rigin Y:"
-msgstr "起点 Y(_R)："
+msgstr "起始 Y 座标(_R)："
 
 #: ../src/display/canvas-axonomgrid.cpp:362 ../src/display/canvas-grid.cpp:702
 #: ../src/ui/dialog/inkscape-preferences.cpp:779
 #: ../src/ui/dialog/inkscape-preferences.cpp:804
 msgid "Y coordinate of grid origin"
-msgstr "网格原点 Y 坐标"
+msgstr "网格原点的 Y 坐标"
 
 #: ../src/display/canvas-axonomgrid.cpp:365 ../src/display/canvas-grid.cpp:708
 msgid "Spacing _Y:"
-msgstr "间隔 _Y:"
+msgstr "间隔 _Y："
 
 #: ../src/display/canvas-axonomgrid.cpp:365
 #: ../src/ui/dialog/inkscape-preferences.cpp:807
@@ -4466,7 +4466,7 @@ msgstr "Z 轴的基础长度"
 #: ../src/ui/dialog/inkscape-preferences.cpp:810
 #: ../src/widgets/box3d-toolbar.cpp:302
 msgid "Angle X:"
-msgstr "角度 X:"
+msgstr "角度 X："
 
 #: ../src/display/canvas-axonomgrid.cpp:368
 #: ../src/ui/dialog/inkscape-preferences.cpp:810
@@ -4477,7 +4477,7 @@ msgstr "X 轴角度"
 #: ../src/ui/dialog/inkscape-preferences.cpp:811
 #: ../src/widgets/box3d-toolbar.cpp:381
 msgid "Angle Z:"
-msgstr "角度 Z:"
+msgstr "角度 Z："
 
 #: ../src/display/canvas-axonomgrid.cpp:370
 #: ../src/ui/dialog/inkscape-preferences.cpp:811
@@ -4486,12 +4486,12 @@ msgstr "Z 轴角度"
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 msgid "Minor grid line _color:"
-msgstr "次要格线颜色(_C)："
+msgstr "次要网格线颜色(_C)："
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 #: ../src/ui/dialog/inkscape-preferences.cpp:762
 msgid "Minor grid line color"
-msgstr "次要格线颜色"
+msgstr "次要网格线颜色"
 
 #: ../src/display/canvas-axonomgrid.cpp:374 ../src/display/canvas-grid.cpp:713
 msgid "Color of the minor grid lines"
@@ -4508,7 +4508,7 @@ msgstr "主网格线颜色"
 
 #: ../src/display/canvas-axonomgrid.cpp:380 ../src/display/canvas-grid.cpp:719
 msgid "Color of the major (highlighted) grid lines"
-msgstr "主（高亮）网格线颜色"
+msgstr "主（高亮）网格线的颜色"
 
 #: ../src/display/canvas-axonomgrid.cpp:384 ../src/display/canvas-grid.cpp:723
 msgid "_Major grid line every:"
@@ -4532,19 +4532,19 @@ msgstr "创建新网格"
 
 #: ../src/display/canvas-grid.cpp:312
 msgid "_Enabled"
-msgstr "激活(_E)"
+msgstr "开启(_E)"
 
 #: ../src/display/canvas-grid.cpp:313
 msgid "Determines whether to snap to this grid or not. Can be 'on' for invisible grids."
-msgstr "决定是否捕捉到网格。对不可见网格可为“on 开”。"
+msgstr "该选项决定是否粘附到网格。对不可见网格可为“on”。"
 
 #: ../src/display/canvas-grid.cpp:317
 msgid "Snap to visible _grid lines only"
-msgstr "仅捕捉到可见网格线(_G)"
+msgstr "仅粘附到可见网格线(_G)"
 
 #: ../src/display/canvas-grid.cpp:318
 msgid "When zoomed out, not all grid lines will be displayed. Only the visible ones will be snapped to"
-msgstr "当缩小时, 只有部分网格线可见. 只捕捉到这些可见的网格上"
+msgstr "画面缩小后将只有部分网格线可见。将只粘附到可见网格上"
 
 #: ../src/display/canvas-grid.cpp:322
 msgid "_Visible"
@@ -4552,11 +4552,11 @@ msgstr "可见(_V)"
 
 #: ../src/display/canvas-grid.cpp:323
 msgid "Determines whether the grid is displayed or not. Objects are still snapped to invisible grids."
-msgstr "决定网格是否显示.对象仍然能够捕捉到不可见的网格."
+msgstr "决定是否显示网格。对象仍然能够粘附到不可见的网格。"
 
 #: ../src/display/canvas-grid.cpp:705
 msgid "Spacing _X:"
-msgstr "间隔 _X:"
+msgstr "间隔 _X："
 
 #: ../src/display/canvas-grid.cpp:705
 #: ../src/ui/dialog/inkscape-preferences.cpp:784
@@ -4574,13 +4574,13 @@ msgstr "显示点而不是线(_S)"
 
 #: ../src/display/canvas-grid.cpp:741
 msgid "If set, displays dots at gridpoints instead of gridlines"
-msgstr "如果设置, 将显示网格点而不是网格线"
+msgstr "如果选中此项，将显示网格点而不是网格线"
 
 #. TRANSLATORS: undefined target for snapping
 #: ../src/display/snap-indicator.cpp:72 ../src/display/snap-indicator.cpp:75
 #: ../src/display/snap-indicator.cpp:180 ../src/display/snap-indicator.cpp:183
 msgid "UNDEFINED"
-msgstr "未设置"
+msgstr "未定义"
 
 #: ../src/display/snap-indicator.cpp:79
 msgid "grid line"
@@ -4592,7 +4592,7 @@ msgstr "格线交点"
 
 #: ../src/display/snap-indicator.cpp:85
 msgid "grid line (perpendicular)"
-msgstr "格线 (垂直)"
+msgstr "格线（垂直）"
 
 #: ../src/display/snap-indicator.cpp:88
 msgid "guide"
@@ -4608,11 +4608,11 @@ msgstr "参考线原点"
 
 #: ../src/display/snap-indicator.cpp:97
 msgid "guide (perpendicular)"
-msgstr "参考线 (垂直)"
+msgstr "参考线（垂直）"
 
 #: ../src/display/snap-indicator.cpp:100
 msgid "grid-guide intersection"
-msgstr "格线 - 参考线交点"
+msgstr "格线与参考线的交点"
 
 #: ../src/display/snap-indicator.cpp:103
 msgid "cusp node"
@@ -4628,11 +4628,11 @@ msgstr "路径"
 
 #: ../src/display/snap-indicator.cpp:112
 msgid "path (perpendicular)"
-msgstr "路径 (垂直)"
+msgstr "路径（垂直）"
 
 #: ../src/display/snap-indicator.cpp:115
 msgid "path (tangential)"
-msgstr "路径 (相切)"
+msgstr "路径（相切）"
 
 #: ../src/display/snap-indicator.cpp:118
 msgid "path intersection"
@@ -4640,7 +4640,7 @@ msgstr "路径交点"
 
 #: ../src/display/snap-indicator.cpp:121
 msgid "guide-path intersection"
-msgstr "参考线-路径交点"
+msgstr "参考线与路径的交点"
 
 #: ../src/display/snap-indicator.cpp:124
 msgid "clip-path"
@@ -4648,7 +4648,7 @@ msgstr "裁剪路径"
 
 #: ../src/display/snap-indicator.cpp:127
 msgid "mask-path"
-msgstr "遮罩路径"
+msgstr "蒙版路径"
 
 #: ../src/display/snap-indicator.cpp:130
 msgid "bounding box corner"
@@ -4744,7 +4744,7 @@ msgstr "对象旋转中心"
 
 #: ../src/display/snap-indicator.cpp:212
 msgid "Handle"
-msgstr "控制点"
+msgstr "控制柄"
 
 #: ../src/display/snap-indicator.cpp:215
 msgid "Path intersection"
@@ -4780,7 +4780,7 @@ msgstr "格线间距的倍数"
 
 #: ../src/display/snap-indicator.cpp:286
 msgid " to "
-msgstr " 至"
+msgstr " 至 "
 
 #: ../src/document.cpp:544
 #, c-format
@@ -4816,27 +4816,27 @@ msgstr "重做(_R)"
 
 #: ../src/extension/dependency.cpp:243
 msgid "Dependency:"
-msgstr "依赖:"
+msgstr "依赖："
 
 #: ../src/extension/dependency.cpp:244
 msgid "  type: "
-msgstr "  类型:"
+msgstr "  类型："
 
 #: ../src/extension/dependency.cpp:245
 msgid "  location: "
-msgstr "  位置:"
+msgstr "  位置："
 
 #: ../src/extension/dependency.cpp:246
 msgid "  string: "
-msgstr "  字符串:"
+msgstr "  字符串："
 
 #: ../src/extension/dependency.cpp:249
 msgid "  description: "
-msgstr "  描述:"
+msgstr "  描述："
 
 #: ../src/extension/effect.cpp:41
 msgid " (No preferences)"
-msgstr "(无偏好设置)"
+msgstr "（无偏好设置）"
 
 #: ../src/extension/effect.h:70 ../src/verbs.cpp:2208
 msgid "Extensions"
@@ -4850,9 +4850,9 @@ msgid ""
 "\n"
 "The failed extensions have been skipped.  Inkscape will continue to run normally but those extensions will be unavailable.  For details to troubleshoot this problem, please refer to the error log located at: "
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">一个或更多的扩展加载失败</span>\n"
+"<span weight=\"bold\" size=\"larger\">一个或多个扩展加载失败</span>\n"
 "\n"
-"失败的扩展已经跳过. Inkscape 继续运行但是那些扩展不可用.本问题的更加详细的描述, 请参考错误日志, 位于:"
+"已跳过失效的扩展。Inkscape 将继续运行，但失效的扩展将不可用。若希望获取更多关于此问题或解决方案的信息，请参见位于此处的错误日志："
 
 #: ../src/extension/error-file.cpp:67
 msgid "Show dialog on startup"
@@ -4861,21 +4861,21 @@ msgstr "启动时显示对话框"
 #: ../src/extension/execution-env.cpp:138
 #, c-format
 msgid "'%s' working, please wait..."
-msgstr "'%s' 正在处理, 请稍候…"
+msgstr "'%s' 正在进行工作，请稍候…"
 
 #. static int i = 0;
 #. std::cout << "Checking module[" << i++ << "]: " << name << std::endl;
 #: ../src/extension/extension.cpp:267
 msgid "  This is caused by an improper .inx file for this extension.  An improper .inx file could have been caused by a faulty installation of Inkscape."
-msgstr "  这是由于为此扩展的不正确的 .inx 文件导致的.安装 Inkscape 失败可以导致不正确的 .inx 文件产生."
+msgstr "  这是由于此扩展包含不正确 .inx 文件索导致的。这可能是 Inkscape 未正确安装导致的。"
 
 #: ../src/extension/extension.cpp:277
 msgid "the extension is designed for Windows only."
-msgstr "这个扩展只为 Windows 设计。"
+msgstr "这个扩展只能用于 Windows。"
 
 #: ../src/extension/extension.cpp:282
 msgid "an ID was not defined for it."
-msgstr "未定义 ID。"
+msgstr "包含未定义 ID。"
 
 #: ../src/extension/extension.cpp:286
 msgid "there was no name defined for it."
@@ -4887,30 +4887,30 @@ msgstr "XML 描述信息丢失。"
 
 #: ../src/extension/extension.cpp:294
 msgid "no implementation was defined for the extension."
-msgstr "没有给这个扩展定义任何实现。"
+msgstr "没有为此扩展定义任何实现。"
 
 #. std::cout << "Failed: " << *(_deps[i]) << std::endl;
 #: ../src/extension/extension.cpp:301
 msgid "a dependency was not met."
-msgstr "依赖项不匹配."
+msgstr "无法满足其中一个依赖项。"
 
 #: ../src/extension/extension.cpp:321
 msgid "Extension \""
-msgstr "扩展 \""
+msgstr "扩展“"
 
 #: ../src/extension/extension.cpp:321
 msgid "\" failed to load because "
-msgstr "\" 加载失败，因为"
+msgstr "”加载失败，原因为 "
 
 #: ../src/extension/extension.cpp:670
 #, c-format
 msgid "Could not create extension error log file '%s'"
-msgstr "不能创建扩展的错误日志文件 “%s”"
+msgstr "无法为扩展创建错误日志文件“%s”"
 
 #: ../src/extension/extension.cpp:778
 #: ../share/extensions/webslicer_create_rect.inx.h:2
 msgid "Name:"
-msgstr "名称:"
+msgstr "名称："
 
 #: ../src/extension/extension.cpp:779
 msgid "ID:"
@@ -4934,7 +4934,7 @@ msgstr "未激活"
 
 #: ../src/extension/extension.cpp:820
 msgid "Currently there is no help available for this Extension.  Please look on the Inkscape website or ask on the mailing lists if you have questions regarding this extension."
-msgstr "该扩展暂时没有帮助信息。如有疑问，请在 Inkscape 网站上查找或者在邮件列表中提问。"
+msgstr "该扩展暂时没有可用的帮助信息。如有关于此扩展的疑问，请前往 Inkscape 网站查找相关信息，或在邮件列表中提问。"
 
 #: ../src/extension/implementation/script.cpp:1063
 msgid "Inkscape has received additional data from the script executed.  The script did not return an error, but this may indicate the results will not be as expected."
@@ -4942,17 +4942,17 @@ msgstr "Inkscape 在脚本执行后收到了额外的数据。脚本未返回错
 
 #: ../src/extension/init.cpp:288
 msgid "Null external module directory name.  Modules will not be loaded."
-msgstr "空的外部模块目录名称。模块将不会被加载。"
+msgstr "外部模块目录名称为空。将不会加载模块。"
 
 #: ../src/extension/init.cpp:302
 #: ../src/extension/internal/filter/filter-file.cpp:59
 #, c-format
 msgid "Modules directory (%s) is unavailable.  External modules in that directory will not be loaded."
-msgstr "模块目录 (%s)不可用。不加载那个目录下的外部模块。"
+msgstr "模块目录（%s）不可用。将不加载此目录中存放的外部模块。"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:39
 msgid "Adaptive Threshold"
-msgstr "自适应阈值："
+msgstr "自适应阈值"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:41
 #: ../src/extension/internal/bitmap/raise.cpp:42
@@ -4966,7 +4966,7 @@ msgstr "自适应阈值："
 #: ../src/widgets/eraser-toolbar.cpp:128 ../src/widgets/spray-toolbar.cpp:116
 #: ../src/widgets/tweak-toolbar.cpp:128 ../share/extensions/foldablebox.inx.h:2
 msgid "Width:"
-msgstr "宽度:"
+msgstr "宽度："
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:42
 #: ../src/extension/internal/bitmap/raise.cpp:43
@@ -4975,12 +4975,12 @@ msgstr "宽度:"
 #: ../src/ui/dialog/object-attributes.cpp:78
 #: ../src/ui/widget/page-sizer.cpp:250 ../share/extensions/foldablebox.inx.h:3
 msgid "Height:"
-msgstr "高度:"
+msgstr "高度："
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:43
 #: ../share/extensions/printing_marks.inx.h:12
 msgid "Offset:"
-msgstr "偏移:"
+msgstr "偏移："
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:47
 #: ../src/extension/internal/bitmap/addNoise.cpp:58
@@ -5022,7 +5022,7 @@ msgstr "栅格"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:49
 msgid "Apply adaptive thresholding to selected bitmap(s)"
-msgstr "应用可调整临界值到选择的位图"
+msgstr "为选中的位图应用可调整阈值"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:45
 msgid "Add Noise"
@@ -5043,7 +5043,7 @@ msgstr "添加噪声"
 #: ../share/extensions/jessyInk_transitions.inx.h:5
 #: ../share/extensions/webslicer_create_rect.inx.h:14
 msgid "Type:"
-msgstr "类型:"
+msgstr "类型："
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:48
 msgid "Uniform Noise"
@@ -5055,7 +5055,7 @@ msgstr "高斯噪声"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:50
 msgid "Multiplicative Gaussian Noise"
-msgstr "乘法高斯噪声"
+msgstr "倍乘高斯噪声"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:51
 msgid "Impulse Noise"
@@ -5071,7 +5071,7 @@ msgstr "泊松噪声"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:60
 msgid "Add random noise to selected bitmap(s)"
-msgstr "加入随机噪声到选择的位图"
+msgstr "为选中的位图加入随机噪声"
 
 #: ../src/extension/internal/bitmap/blur.cpp:38
 #: ../src/extension/internal/filter/blurs.h:54
@@ -5090,7 +5090,7 @@ msgstr "模糊"
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:43
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2908
 msgid "Radius:"
-msgstr "半径:"
+msgstr "半径："
 
 #: ../src/extension/internal/bitmap/blur.cpp:41
 #: ../src/extension/internal/bitmap/charcoal.cpp:41
@@ -5103,7 +5103,7 @@ msgstr "总和："
 
 #: ../src/extension/internal/bitmap/blur.cpp:47
 msgid "Blur selected bitmap(s)"
-msgstr "对选择的位图模糊处理"
+msgstr "模糊选中的位图"
 
 #: ../src/extension/internal/bitmap/channel.cpp:48
 msgid "Channel"
@@ -5151,7 +5151,7 @@ msgstr "Black（黑色）通道"
 #: ../src/extension/internal/bitmap/channel.cpp:58
 #: ../src/extension/internal/bitmap/levelChannel.cpp:62
 msgid "Opacity Channel"
-msgstr "透明度通道"
+msgstr "不透明通道"
 
 #: ../src/extension/internal/bitmap/channel.cpp:59
 #: ../src/extension/internal/bitmap/levelChannel.cpp:63
@@ -5168,7 +5168,7 @@ msgstr "碳笔"
 
 #: ../src/extension/internal/bitmap/charcoal.cpp:47
 msgid "Apply charcoal stylization to selected bitmap(s)"
-msgstr "应用碳笔风格化到选择的位图"
+msgstr "为选中的位图应用碳笔风格化"
 
 #: ../src/extension/internal/bitmap/colorize.cpp:50
 #: ../src/extension/internal/filter/color.h:392
@@ -5177,7 +5177,7 @@ msgstr "上色"
 
 #: ../src/extension/internal/bitmap/colorize.cpp:58
 msgid "Colorize selected bitmap(s) with specified color, using given opacity"
-msgstr "根据给定的透明度，用指定的颜色为选定的位图着色。"
+msgstr "根据给定的透明度，使用指定的颜色为选中的位图着色。"
 
 #: ../src/extension/internal/bitmap/contrast.cpp:40
 #: ../src/extension/internal/filter/color.h:1189
@@ -5190,7 +5190,7 @@ msgstr "调整："
 
 #: ../src/extension/internal/bitmap/contrast.cpp:48
 msgid "Increase or decrease contrast in bitmap(s)"
-msgstr "改变位图的对比度"
+msgstr "提高或降低位图的对比度"
 
 #: ../src/extension/internal/bitmap/crop.cpp:66
 #: ../src/extension/internal/filter/bumps.h:86
@@ -5212,11 +5212,11 @@ msgstr "左 (px)："
 
 #: ../src/extension/internal/bitmap/crop.cpp:71
 msgid "Right (px):"
-msgstr "右边 (px)："
+msgstr "右 (px)："
 
 #: ../src/extension/internal/bitmap/crop.cpp:77
 msgid "Crop selected bitmap(s)"
-msgstr "裁剪选取的位图"
+msgstr "裁剪选中的位图"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:37
 msgid "Cycle Colormap"
@@ -5239,7 +5239,7 @@ msgstr "去斑"
 
 #: ../src/extension/internal/bitmap/despeckle.cpp:43
 msgid "Reduce speckle noise of selected bitmap(s)"
-msgstr "减少选定位图的斑点噪声。"
+msgstr "减少所选位图的斑点噪声。"
 
 #: ../src/extension/internal/bitmap/edge.cpp:37
 msgid "Edge"
@@ -5247,7 +5247,7 @@ msgstr "边缘"
 
 #: ../src/extension/internal/bitmap/edge.cpp:45
 msgid "Highlight edges of selected bitmap(s)"
-msgstr "高亮选定位图的边沿。"
+msgstr "高亮选中位图的边沿。"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:38
 msgid "Emboss"
@@ -5255,7 +5255,7 @@ msgstr "浮雕"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:47
 msgid "Emboss selected bitmap(s); highlight edges with 3D effect"
-msgstr "浮雕化所选位图 -- 使用3D效果高亮边沿。"
+msgstr "浮雕化所选位图；使用3D效果高亮其边沿"
 
 #: ../src/extension/internal/bitmap/enhance.cpp:35
 msgid "Enhance"
@@ -5263,15 +5263,15 @@ msgstr "增强"
 
 #: ../src/extension/internal/bitmap/enhance.cpp:42
 msgid "Enhance selected bitmap(s); minimize noise"
-msgstr "增强所选位图 -- 最小化噪声。"
+msgstr "增强所选位图；最小化其噪声"
 
 #: ../src/extension/internal/bitmap/equalize.cpp:35
 msgid "Equalize"
-msgstr "补偿"
+msgstr "均衡"
 
 #: ../src/extension/internal/bitmap/equalize.cpp:42
 msgid "Equalize selected bitmap(s); histogram equalization"
-msgstr "增强所选位图 -- 直方图均衡化。"
+msgstr "增强所选位图；直方图均衡化"
 
 #: ../src/extension/internal/bitmap/gaussianBlur.cpp:38
 #: ../src/filter-enums.cpp:29
@@ -5290,7 +5290,7 @@ msgstr "高斯模糊位图"
 
 #: ../src/extension/internal/bitmap/implode.cpp:37
 msgid "Implode"
-msgstr "聚爆"
+msgstr "内爆"
 
 #: ../src/extension/internal/bitmap/implode.cpp:45
 msgid "Implode selected bitmap(s)"
@@ -5302,7 +5302,7 @@ msgstr "位图内爆效果"
 #: ../src/extension/internal/filter/morphology.h:66
 #: ../src/extension/internal/filter/paint.h:345
 msgid "Level"
-msgstr "层"
+msgstr "级别"
 
 #: ../src/extension/internal/bitmap/level.cpp:43
 #: ../src/extension/internal/bitmap/levelChannel.cpp:65
@@ -5321,11 +5321,11 @@ msgstr "伽马校正："
 
 #: ../src/extension/internal/bitmap/level.cpp:51
 msgid "Level selected bitmap(s) by scaling values falling between the given ranges to the full color range"
-msgstr "用落在给定范围到全部色彩范围之间的缩放数值来调整位图的色阶"
+msgstr "用落在给定范围至全部色彩范围之间的缩放数值来调整位图的色阶"
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:52
 msgid "Level (with Channel)"
-msgstr "色阶 (含色版)"
+msgstr "色阶（含颜色通道）"
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:54
 #: ../src/extension/internal/filter/color.h:711
@@ -5334,7 +5334,7 @@ msgstr "通道："
 
 #: ../src/extension/internal/bitmap/levelChannel.cpp:73
 msgid "Level the specified channel of selected bitmap(s) by scaling values falling between the given ranges to the full color range"
-msgstr "用落在给定范围到全部色彩范围之间的缩放数值来调整位图之指定色版的色阶"
+msgstr "用落在给定范围至全部色彩范围之间的缩放数值来调整位图所指定颜色通道的色阶"
 
 #: ../src/extension/internal/bitmap/medianFilter.cpp:37
 msgid "Median"
@@ -5362,15 +5362,15 @@ msgstr "亮度："
 
 #: ../src/extension/internal/bitmap/modulate.cpp:50
 msgid "Adjust the amount of hue, saturation, and brightness in selected bitmap(s)"
-msgstr "调整所选位图的色调、饱和度、亮度。"
+msgstr "调整选中位图的色调、饱和度、亮度。"
 
 #: ../src/extension/internal/bitmap/negate.cpp:36
 msgid "Negate"
-msgstr "负片"
+msgstr "反相"
 
 #: ../src/extension/internal/bitmap/negate.cpp:43
 msgid "Negate (take inverse) selected bitmap(s)"
-msgstr "反相 (获得负片效果) 选择的位图"
+msgstr "反相（获得负片效果）选中的位图"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:36
 msgid "Normalize"
@@ -5378,7 +5378,7 @@ msgstr "归一化"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:43
 msgid "Normalize selected bitmap(s), expanding color range to the full possible range of color"
-msgstr "将所选位图归一化，将色彩范围扩展到最大，"
+msgstr "将所选位图归一化，将色彩范围扩展到最大"
 
 #: ../src/extension/internal/bitmap/oilPaint.cpp:37
 msgid "Oil Paint"
@@ -5386,7 +5386,7 @@ msgstr "油画颜料"
 
 #: ../src/extension/internal/bitmap/oilPaint.cpp:45
 msgid "Stylize selected bitmap(s) so that they appear to be painted with oils"
-msgstr "风格化位图，产生像用油画绘制的效果"
+msgstr "风格化选中的位图，产生像用油画绘制的效果"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:38
 #: ../src/extension/internal/filter/blurs.h:333
@@ -5405,7 +5405,7 @@ msgstr "不透明度："
 
 #: ../src/extension/internal/bitmap/opacity.cpp:46
 msgid "Modify opacity channel(s) of selected bitmap(s)"
-msgstr "修改选取的位图不透明色版"
+msgstr "修改选中位图的不透明通道"
 
 #: ../src/extension/internal/bitmap/raise.cpp:40
 msgid "Raise"
@@ -5417,7 +5417,7 @@ msgstr "已提升"
 
 #: ../src/extension/internal/bitmap/raise.cpp:50
 msgid "Alter lightness the edges of selected bitmap(s) to create a raised appearance"
-msgstr "改变位图的边缘亮度来创建凸起的外观"
+msgstr "通过改变位图的边缘亮度来创建凸起的外观"
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:40
 msgid "Reduce Noise"
@@ -5428,11 +5428,11 @@ msgstr "减少噪声"
 #: ../share/extensions/jessyInk_view.inx.h:3
 #: ../share/extensions/lindenmayer.inx.h:5
 msgid "Order:"
-msgstr "阶数:"
+msgstr "次序："
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:48
 msgid "Reduce noise in selected bitmap(s) using a noise peak elimination filter"
-msgstr "使用噪声高峰值排除滤镜来减少位图的噪声"
+msgstr "使用噪声高峰值排除滤镜来减少选中位图的噪声"
 
 #: ../src/extension/internal/bitmap/sample.cpp:39
 msgid "Resample"
@@ -5440,7 +5440,7 @@ msgstr "重新抽样"
 
 #: ../src/extension/internal/bitmap/sample.cpp:48
 msgid "Alter the resolution of selected image by resizing it to the given pixel size"
-msgstr "根据给定的像素大小改变所选图像的分辨率"
+msgstr "根据给定的像素大小改变选中图像的分辨率"
 
 #: ../src/extension/internal/bitmap/shade.cpp:40
 msgid "Shade"
@@ -5460,21 +5460,21 @@ msgstr "彩色阴影"
 
 #: ../src/extension/internal/bitmap/shade.cpp:50
 msgid "Shade selected bitmap(s) simulating distant light source"
-msgstr "让选择的位图变暗以仿真远灯光效果"
+msgstr "调暗选中的位图以模拟远处灯光的效果"
 
 #: ../src/extension/internal/bitmap/sharpen.cpp:47
 msgid "Sharpen selected bitmap(s)"
-msgstr "让选择的位图变锐利"
+msgstr "锐化选中的位图"
 
 #: ../src/extension/internal/bitmap/solarize.cpp:39
 #: ../src/extension/internal/filter/color.h:1569
 #: ../src/extension/internal/filter/color.h:1573
 msgid "Solarize"
-msgstr "曝光"
+msgstr "过曝"
 
 #: ../src/extension/internal/bitmap/solarize.cpp:47
 msgid "Solarize selected bitmap(s), like overexposing photographic film"
-msgstr "过度曝光位图，像感光过度的照相底片"
+msgstr "过曝选中的位图，模拟感光过度的照相底片"
 
 #: ../src/extension/internal/bitmap/spread.cpp:37
 msgid "Dither"
@@ -5482,7 +5482,7 @@ msgstr "抖动"
 
 #: ../src/extension/internal/bitmap/spread.cpp:45
 msgid "Randomly scatter pixels in selected bitmap(s), within the given radius of the original position"
-msgstr "在位图上起始位置的给定半径内, 产生随机分布的像素"
+msgstr "在选中位图上起始位置的给定半径内产生随机分布的像素"
 
 #: ../src/extension/internal/bitmap/swirl.cpp:39
 msgid "Degrees:"
@@ -5501,19 +5501,20 @@ msgstr "阈值"
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:46
 #: ../src/widgets/paintbucket-toolbar.cpp:147
 msgid "Threshold:"
-msgstr "阈值:"
+msgstr "阈值："
 
 #: ../src/extension/internal/bitmap/threshold.cpp:46
+#, fuzzy
 msgid "Threshold selected bitmap(s)"
 msgstr "高反差位图"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:41
 msgid "Unsharp Mask"
-msgstr "取消锐化遮罩"
+msgstr "取消锐化蒙版"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:52
 msgid "Sharpen selected bitmap(s) using unsharp mask algorithms"
-msgstr "使用取消锐化算法来锐化选择位图"
+msgstr "使用取消锐化（unsharp）蒙版算法来锐化选中的位图"
 
 #: ../src/extension/internal/bitmap/wave.cpp:38
 msgid "Wave"
@@ -5529,7 +5530,7 @@ msgstr "波长："
 
 #: ../src/extension/internal/bitmap/wave.cpp:47
 msgid "Alter selected bitmap(s) along sine wave"
-msgstr "沿着正波弦改变选择的位图"
+msgstr "沿着正波弦改变选中的位图"
 
 #: ../src/extension/internal/bluredge.cpp:134
 msgid "Inset/Outset Halo"
@@ -5541,11 +5542,11 @@ msgstr "光晕的像素宽度"
 
 #: ../src/extension/internal/bluredge.cpp:137
 msgid "Number of steps:"
-msgstr "阶层数："
+msgstr "层次数："
 
 #: ../src/extension/internal/bluredge.cpp:137
 msgid "Number of inset/outset copies of the object to make"
-msgstr "在对象的内外产生的偏移副本数目"
+msgstr "在对象的内外产生偏移副本的数量"
 
 #: ../src/extension/internal/bluredge.cpp:141
 #: ../share/extensions/extrude.inx.h:5
@@ -5560,12 +5561,12 @@ msgstr "从路径生成"
 #: ../src/extension/internal/cairo-ps-out.cpp:327
 #: ../share/extensions/ps_input.inx.h:3
 msgid "PostScript"
-msgstr "Postscript"
+msgstr "PostScript"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:329
 #: ../src/extension/internal/cairo-ps-out.cpp:371
 msgid "Restrict to PS level:"
-msgstr "限制到 PS 版本："
+msgstr "限制为此 PS 版本："
 
 #: ../src/extension/internal/cairo-ps-out.cpp:330
 #: ../src/extension/internal/cairo-ps-out.cpp:372
@@ -5581,7 +5582,7 @@ msgstr "PostScript 级别 2"
 #: ../src/extension/internal/cairo-ps-out.cpp:375
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:250
 msgid "Text output options:"
-msgstr "文字输出选项:"
+msgstr "文字输出选项："
 
 #: ../src/extension/internal/cairo-ps-out.cpp:334
 #: ../src/extension/internal/cairo-ps-out.cpp:376
@@ -5593,25 +5594,25 @@ msgstr "嵌入字体"
 #: ../src/extension/internal/cairo-ps-out.cpp:377
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:252
 msgid "Convert text to paths"
-msgstr "把文字转化成路径"
+msgstr "将文字转换为路径"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:336
 #: ../src/extension/internal/cairo-ps-out.cpp:378
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:253
 msgid "Omit text in PDF and create LaTeX file"
-msgstr "删掉 PDF 中的文本并创建 LaTeX 文件"
+msgstr "忽略 PDF 中的文本并创建 LaTeX 文件"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:338
 #: ../src/extension/internal/cairo-ps-out.cpp:380
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:255
 msgid "Rasterize filter effects"
-msgstr "滤镜效果栅格化"
+msgstr "栅格化滤镜效果"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:339
 #: ../src/extension/internal/cairo-ps-out.cpp:381
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:256
 msgid "Resolution for rasterization (dpi):"
-msgstr "点阵化的分辨率 (dpi)："
+msgstr "点阵化使用的分辨率 (dpi)："
 
 #: ../src/extension/internal/cairo-ps-out.cpp:340
 #: ../src/extension/internal/cairo-ps-out.cpp:382
@@ -5633,7 +5634,7 @@ msgstr "使用导出对象的尺寸"
 #: ../src/extension/internal/cairo-ps-out.cpp:344
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:261
 msgid "Bleed/margin (mm):"
-msgstr "出血/边距 (毫米)："
+msgstr "出血/边距（毫米）："
 
 #: ../src/extension/internal/cairo-ps-out.cpp:345
 #: ../src/extension/internal/cairo-ps-out.cpp:387
@@ -5644,11 +5645,11 @@ msgstr "限制使用 ID 导出此对象："
 #: ../src/extension/internal/cairo-ps-out.cpp:349
 #: ../share/extensions/ps_input.inx.h:2
 msgid "PostScript (*.ps)"
-msgstr "Postscript (*.ps)"
+msgstr "PostScript (*.ps)"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:350
 msgid "PostScript File"
-msgstr "Postscript 文件"
+msgstr "PostScript 文件"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:369
 #: ../share/extensions/eps_input.inx.h:3
@@ -5657,7 +5658,7 @@ msgstr "已封装的 PostScript"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:386
 msgid "Bleed/margin (mm)"
-msgstr "出血/边距 (毫米)"
+msgstr "出血/边距（毫米）"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:391
 #: ../share/extensions/eps_input.inx.h:2
@@ -5670,7 +5671,7 @@ msgstr "已封装的 PostScript 文件"
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:244
 msgid "Restrict to PDF version:"
-msgstr "限定 PDF 版本："
+msgstr "限定 PDF 版本为："
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:246
 msgid "PDF 1.5"
@@ -5688,7 +5689,7 @@ msgstr "输出页面尺寸："
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:92
 #: ../src/extension/internal/vsd-input.cpp:116
 msgid "Select page:"
-msgstr "选择页:"
+msgstr "选页："
 
 #. Display total number of pages
 #: ../src/extension/internal/cdr-input.cpp:128
@@ -5713,7 +5714,7 @@ msgstr "Corel DRAW 7-X4 文件 (*.cdr)"
 
 #: ../src/extension/internal/cdr-input.cpp:306
 msgid "Open files saved in Corel DRAW 7-X4"
-msgstr "打开Corel DRAW 7-X4 文件"
+msgstr "打开 Corel DRAW 7-X4 文件"
 
 #: ../src/extension/internal/cdr-input.cpp:313
 msgid "Corel DRAW templates input"
@@ -5721,11 +5722,11 @@ msgstr "Corel DRAW 模板输入"
 
 #: ../src/extension/internal/cdr-input.cpp:318
 msgid "Corel DRAW 7-13 template files (*.cdt)"
-msgstr "Corel DRAW 7-13 范本档 (*.cdt)"
+msgstr "Corel DRAW 7-13 模板文件 (*.cdt)"
 
 #: ../src/extension/internal/cdr-input.cpp:319
 msgid "Open files saved in Corel DRAW 7-13"
-msgstr "打开Corel DRAW 7-13 文件"
+msgstr "打开 Corel DRAW 7-13 文件"
 
 #: ../src/extension/internal/cdr-input.cpp:326
 msgid "Corel DRAW Compressed Exchange files input"
@@ -5733,11 +5734,11 @@ msgstr "Corel DRAW Compressed Exchange 文件输入"
 
 #: ../src/extension/internal/cdr-input.cpp:331
 msgid "Corel DRAW Compressed Exchange files (*.ccx)"
-msgstr "已压缩的 Corel DRAW 交换格式档 (*.ccx)"
+msgstr "已压缩的 Corel DRAW Exchange 文件 (*.ccx)"
 
 #: ../src/extension/internal/cdr-input.cpp:332
 msgid "Open compressed exchange files saved in Corel DRAW"
-msgstr "打开Corel DRAW中保持的 compressed exchange 文件"
+msgstr "打开使用 Corel DRAW 保存的 Compressed Exchange 文件"
 
 #: ../src/extension/internal/cdr-input.cpp:339
 msgid "Corel DRAW Presentation Exchange files input"
@@ -5745,11 +5746,11 @@ msgstr "Corel DRAW Presentation Exchange 文件输入"
 
 #: ../src/extension/internal/cdr-input.cpp:344
 msgid "Corel DRAW Presentation Exchange files (*.cmx)"
-msgstr "Corel DRAW 演示文稿交换格式档 (*.cmx)"
+msgstr "Corel DRAW Presentation Exchange 文件 (*.cmx)"
 
 #: ../src/extension/internal/cdr-input.cpp:345
 msgid "Open presentation exchange files saved in Corel DRAW"
-msgstr "打开 Corel DRAW中创建的 presentation exchange 文件"
+msgstr "打开使用 Corel DRAW 创建的 Presentation Exchange 文件"
 
 #: ../src/extension/internal/emf-inout.cpp:3581
 msgid "EMF Input"
@@ -5770,22 +5771,22 @@ msgstr "EMF 输出"
 #: ../src/extension/internal/emf-inout.cpp:3597
 #: ../src/extension/internal/wmf-inout.cpp:3176
 msgid "Convert texts to paths"
-msgstr "把文字转化成路径"
+msgstr "将文字转换为路径"
 
 #: ../src/extension/internal/emf-inout.cpp:3598
 #: ../src/extension/internal/wmf-inout.cpp:3177
 msgid "Map Unicode to Symbol font"
-msgstr "将万国码对应到符号字体"
+msgstr "将万国码映射至符号字体"
 
 #: ../src/extension/internal/emf-inout.cpp:3599
 #: ../src/extension/internal/wmf-inout.cpp:3178
 msgid "Map Unicode to Wingdings"
-msgstr "将万国码对应到 Wingdings 字体"
+msgstr "将万国码映射至 Wingdings"
 
 #: ../src/extension/internal/emf-inout.cpp:3600
 #: ../src/extension/internal/wmf-inout.cpp:3179
 msgid "Map Unicode to Zapf Dingbats"
-msgstr "将万国码对应到 Zapf Dingbats 字体"
+msgstr "将万国码映射至 Zapf Dingbats"
 
 #: ../src/extension/internal/emf-inout.cpp:3601
 #: ../src/extension/internal/wmf-inout.cpp:3180
@@ -5800,20 +5801,20 @@ msgstr "PPT 字体错误补偿"
 #: ../src/extension/internal/emf-inout.cpp:3603
 #: ../src/extension/internal/wmf-inout.cpp:3182
 msgid "Convert dashed/dotted lines to single lines"
-msgstr "将虚线/点线6转换成实线"
+msgstr "将虚线/点线转换为实线"
 
 #: ../src/extension/internal/emf-inout.cpp:3604
 #: ../src/extension/internal/wmf-inout.cpp:3183
 msgid "Convert gradients to colored polygon series"
-msgstr "将渐层颜色转换成一系列的彩色多边形"
+msgstr "将渐变色转换为一系列的彩色多边形"
 
 #: ../src/extension/internal/emf-inout.cpp:3605
 msgid "Use native rectangular linear gradients"
-msgstr "使用本机矩形线性渐层"
+msgstr "使用原生线性矩形渐变"
 
 #: ../src/extension/internal/emf-inout.cpp:3606
 msgid "Map all fill patterns to standard EMF hatches"
-msgstr "将全部填充图样对应到标准 EMF 剖面线"
+msgstr "将所有填充图案映射至标准 EMF 剖面线"
 
 #: ../src/extension/internal/emf-inout.cpp:3607
 msgid "Ignore image rotations"
@@ -5829,7 +5830,7 @@ msgstr "增强型图元文件"
 
 #: ../src/extension/internal/filter/bevels.h:53
 msgid "Diffuse Light"
-msgstr "漫射光"
+msgstr "漫反射光"
 
 #: ../src/extension/internal/filter/bevels.h:55
 #: ../src/extension/internal/filter/bevels.h:135
@@ -5916,11 +5917,11 @@ msgstr "滤镜"
 
 #: ../src/extension/internal/filter/bevels.h:66
 msgid "Basic diffuse bevel to use for building textures"
-msgstr "用来产生纹理的基本散射光倒角凸起"
+msgstr "用于生成纹理的基本散射光倒角凸起"
 
 #: ../src/extension/internal/filter/bevels.h:133
 msgid "Matte Jelly"
-msgstr "雾面果冻 "
+msgstr "雾面果冻"
 
 #: ../src/extension/internal/filter/bevels.h:136
 #: ../src/extension/internal/filter/bevels.h:220
@@ -5931,11 +5932,11 @@ msgstr "亮度"
 
 #: ../src/extension/internal/filter/bevels.h:147
 msgid "Bulging, matte jelly covering"
-msgstr "蓬松, 起伏的凝胶状表面"
+msgstr "蓬松而不光滑的凝胶状表面"
 
 #: ../src/extension/internal/filter/bevels.h:217
 msgid "Specular Light"
-msgstr "反射光"
+msgstr "镜面反射光"
 
 #: ../src/extension/internal/filter/blurs.h:56
 #: ../src/extension/internal/filter/blurs.h:189
@@ -5961,7 +5962,7 @@ msgstr "简单的垂直及水平模糊效果"
 
 #: ../src/extension/internal/filter/blurs.h:125
 msgid "Clean Edges"
-msgstr "清晰边缘"
+msgstr "清理边缘"
 
 #: ../src/extension/internal/filter/blurs.h:127
 #: ../src/extension/internal/filter/blurs.h:262
@@ -5973,7 +5974,7 @@ msgstr "强度"
 
 #: ../src/extension/internal/filter/blurs.h:135
 msgid "Removes or decreases glows and jaggeries around objects edges after applying some filters"
-msgstr "应用一些滤镜后移除或减少对象边缘周围的光晕和锯齿"
+msgstr "在应用滤镜后移除或减少对象边缘周围的光晕和锯齿"
 
 #: ../src/extension/internal/filter/blurs.h:185
 msgid "Cross Blur"
@@ -6064,7 +6065,7 @@ msgstr "羽化"
 
 #: ../src/extension/internal/filter/blurs.h:270
 msgid "Blurred mask on the edge without altering the contents"
-msgstr "边沿上模糊遮罩, 不影响内部"
+msgstr "模糊蒙版的边缘而不改变其内容"
 
 #: ../src/extension/internal/filter/blurs.h:325
 msgid "Out of Focus"
@@ -6187,7 +6188,7 @@ msgstr "蓝色"
 
 #: ../src/extension/internal/filter/bumps.h:91
 msgid "Bump from background"
-msgstr "背景凹凸"
+msgstr "来自背景的凹凸"
 
 #: ../src/extension/internal/filter/bumps.h:94
 msgid "Lighting type:"
@@ -6195,11 +6196,11 @@ msgstr "光照类型："
 
 #: ../src/extension/internal/filter/bumps.h:95
 msgid "Specular"
-msgstr "反射"
+msgstr "镜面反射"
 
 #: ../src/extension/internal/filter/bumps.h:96
 msgid "Diffuse"
-msgstr "漫射"
+msgstr "漫反射"
 
 #: ../src/extension/internal/filter/bumps.h:98
 #: ../src/extension/internal/filter/bumps.h:329
@@ -6240,7 +6241,7 @@ msgstr "光源："
 
 #: ../src/extension/internal/filter/bumps.h:105
 msgid "Distant"
-msgstr "远灯光"
+msgstr "远处灯光"
 
 #: ../src/extension/internal/filter/bumps.h:106
 #: ../src/ui/dialog/inkscape-preferences.cpp:460
@@ -6253,7 +6254,7 @@ msgstr "聚光灯"
 
 #: ../src/extension/internal/filter/bumps.h:109
 msgid "Distant light options"
-msgstr "远灯光选项"
+msgstr "远处灯光选项"
 
 #: ../src/extension/internal/filter/bumps.h:110
 #: ../src/extension/internal/filter/bumps.h:332
@@ -6355,7 +6356,7 @@ msgstr "光照混合："
 
 #: ../src/extension/internal/filter/bumps.h:341
 msgid "Highlight blend:"
-msgstr "高亮度部份混合："
+msgstr "高亮混合："
 
 #: ../src/extension/internal/filter/bumps.h:350
 msgid "Bump color"
@@ -6363,7 +6364,7 @@ msgstr "色彩凹凸"
 
 #: ../src/extension/internal/filter/bumps.h:351
 msgid "Revert bump"
-msgstr "回复凹凸"
+msgstr "还原凹凸"
 
 #: ../src/extension/internal/filter/bumps.h:352
 msgid "Transparency type:"
@@ -6372,7 +6373,7 @@ msgstr "透明类型："
 #: ../src/extension/internal/filter/bumps.h:353
 #: ../src/extension/internal/filter/morphology.h:176 ../src/filter-enums.cpp:91
 msgid "Atop"
-msgstr "在上面"
+msgstr "顶上"
 
 #: ../src/extension/internal/filter/bumps.h:354
 #: ../src/extension/internal/filter/distort.h:70
@@ -6381,17 +6382,18 @@ msgid "In"
 msgstr "输入"
 
 #: ../src/extension/internal/filter/bumps.h:365
+#, fuzzy
 msgid "Turns an image to jelly"
 msgstr "将图像转变成果冻"
 
 #: ../src/extension/internal/filter/color.h:73
 msgid "Brilliance"
-msgstr "光辉度"
+msgstr "辉度"
 
 #: ../src/extension/internal/filter/color.h:76
 #: ../src/extension/internal/filter/color.h:1492
 msgid "Over-saturation"
-msgstr "过度饱和"
+msgstr "过饱和"
 
 #: ../src/extension/internal/filter/color.h:78
 #: ../src/extension/internal/filter/color.h:162
@@ -6409,7 +6411,7 @@ msgstr "亮度滤镜"
 
 #: ../src/extension/internal/filter/color.h:153
 msgid "Channel Painting"
-msgstr "色版涂绘"
+msgstr "频道涂绘"
 
 #: ../src/extension/internal/filter/color.h:157
 #: ../src/extension/internal/filter/color.h:332
@@ -6432,47 +6434,47 @@ msgstr "Alpha"
 
 #: ../src/extension/internal/filter/color.h:175
 msgid "Replace RGB by any color"
-msgstr "用两种颜色替代 RGB"
+msgstr "使用任何颜色替代 RGB"
 
 #: ../src/extension/internal/filter/color.h:254
 msgid "Color Blindness"
-msgstr "彩色轮廓"
+msgstr "色盲"
 
 #: ../src/extension/internal/filter/color.h:258
 msgid "Blindness type:"
-msgstr "色盲类型:"
+msgstr "色盲类型："
 
 #: ../src/extension/internal/filter/color.h:259
 msgid "Rod monochromacy (atypical achromatopsia)"
-msgstr "视杆细胞全色盲 (非典型色盲)"
+msgstr "视杆细胞全色盲（非典型色盲）"
 
 #: ../src/extension/internal/filter/color.h:260
 msgid "Cone monochromacy (typical achromatopsia)"
-msgstr "视锥细胞全色盲 (典型色盲)"
+msgstr "视锥细胞全色盲（典型色盲）"
 
 #: ../src/extension/internal/filter/color.h:261
 msgid "Green weak (deuteranomaly)"
-msgstr "绿色弱 (Deuteranomaly)"
+msgstr "绿色弱（Deuteranomaly）"
 
 #: ../src/extension/internal/filter/color.h:262
 msgid "Green blind (deuteranopia)"
-msgstr "绿色盲 (Deuteranopia)"
+msgstr "绿色盲（Deuteranopia）"
 
 #: ../src/extension/internal/filter/color.h:263
 msgid "Red weak (protanomaly)"
-msgstr "红色弱 (Protanomaly)"
+msgstr "红色弱（Protanomaly）"
 
 #: ../src/extension/internal/filter/color.h:264
 msgid "Red blind (protanopia)"
-msgstr "红色盲 (Protanopia)"
+msgstr "红色盲（Protanopia）"
 
 #: ../src/extension/internal/filter/color.h:265
 msgid "Blue weak (tritanomaly)"
-msgstr "蓝色弱 (Tritanomaly)"
+msgstr "蓝色弱（Tritanomaly）"
 
 #: ../src/extension/internal/filter/color.h:266
 msgid "Blue blind (tritanopia)"
-msgstr "蓝色盲 (Tritanopia)"
+msgstr "蓝色盲（Tritanopia）"
 
 #: ../src/extension/internal/filter/color.h:286
 msgid "Simulate color blindness"
@@ -6480,19 +6482,19 @@ msgstr "模拟色盲"
 
 #: ../src/extension/internal/filter/color.h:329
 msgid "Color Shift"
-msgstr "切换颜色"
+msgstr "色移"
 
 #: ../src/extension/internal/filter/color.h:331
 msgid "Shift (°)"
-msgstr "变换 (°)"
+msgstr "偏移 (°)"
 
 #: ../src/extension/internal/filter/color.h:340
 msgid "Rotate and desaturate hue"
-msgstr "将色相旋转并去饱和"
+msgstr "旋转色相并去饱和色调"
 
 #: ../src/extension/internal/filter/color.h:396
 msgid "Harsh light"
-msgstr "耀眼照明"
+msgstr "刺眼的光线"
 
 #: ../src/extension/internal/filter/color.h:397
 msgid "Normal light"
@@ -6514,7 +6516,7 @@ msgstr "混合 2："
 
 #: ../src/extension/internal/filter/color.h:425
 msgid "Blend image or object with a flood color"
-msgstr "用填满的颜色来混合图像或对象"
+msgstr "使用泛色混合图像或对象"
 
 #: ../src/extension/internal/filter/color.h:499 ../src/filter-enums.cpp:23
 msgid "Component Transfer"
@@ -6548,7 +6550,7 @@ msgstr "伽马值"
 
 #: ../src/extension/internal/filter/color.h:515
 msgid "Basic component transfer structure"
-msgstr "基本组成转变结构"
+msgstr "转变基本组成结构"
 
 #: ../src/extension/internal/filter/color.h:584
 msgid "Duochrome"
@@ -6556,7 +6558,7 @@ msgstr "双色"
 
 #: ../src/extension/internal/filter/color.h:588
 msgid "Fluorescence level"
-msgstr "萤光等级"
+msgstr "荧光等级"
 
 #: ../src/extension/internal/filter/color.h:589
 msgid "Swap:"
@@ -6568,23 +6570,23 @@ msgstr "不交换"
 
 #: ../src/extension/internal/filter/color.h:591
 msgid "Color and alpha"
-msgstr "色彩和透明"
+msgstr "色彩和 Alpha"
 
 #: ../src/extension/internal/filter/color.h:592
 msgid "Color only"
-msgstr "只有色彩"
+msgstr "仅色彩"
 
 #: ../src/extension/internal/filter/color.h:593
 msgid "Alpha only"
-msgstr "只有透明"
+msgstr "仅 Alpha"
 
 #: ../src/extension/internal/filter/color.h:597
 msgid "Color 1"
-msgstr "颜色一"
+msgstr "颜色 1"
 
 #: ../src/extension/internal/filter/color.h:600
 msgid "Color 2"
-msgstr "颜色二"
+msgstr "颜色 2"
 
 #: ../src/extension/internal/filter/color.h:610
 msgid "Convert luminance values to a duochrome palette"
@@ -6592,7 +6594,7 @@ msgstr "将明度数值转换成双色调色板"
 
 #: ../src/extension/internal/filter/color.h:709
 msgid "Extract Channel"
-msgstr "提取色版"
+msgstr "提取颜色通道"
 
 #: ../src/extension/internal/filter/color.h:715
 #: ../src/ui/widget/color-icc-selector.cpp:190
@@ -6621,19 +6623,19 @@ msgstr "背景混合模式："
 
 #: ../src/extension/internal/filter/color.h:724
 msgid "Channel to alpha"
-msgstr "色版转成透明"
+msgstr "颜色通道转为 Alpha"
 
 #: ../src/extension/internal/filter/color.h:732
 msgid "Extract color channel as a transparent image"
-msgstr "提取色版作为透明图像"
+msgstr "提取颜色通道为透明图像"
 
 #: ../src/extension/internal/filter/color.h:815
 msgid "Fade to Black or White"
-msgstr "淡化成黑色或白色"
+msgstr "淡化为黑色或白色"
 
 #: ../src/extension/internal/filter/color.h:818
 msgid "Fade to:"
-msgstr "淡化："
+msgstr "淡化为："
 
 #: ../src/extension/internal/filter/color.h:819
 #: ../src/ui/widget/color-icc-selector.cpp:193
@@ -6649,7 +6651,7 @@ msgstr "白色"
 
 #: ../src/extension/internal/filter/color.h:829
 msgid "Fade to black or white"
-msgstr "淡化成黑色或白色"
+msgstr "淡化为黑色或白色"
 
 #: ../src/extension/internal/filter/color.h:894
 msgid "Greyscale"
@@ -6672,11 +6674,11 @@ msgstr "反转"
 
 #: ../src/extension/internal/filter/color.h:982
 msgid "Invert channels:"
-msgstr "反相色版："
+msgstr "反相通道："
 
 #: ../src/extension/internal/filter/color.h:983
 msgid "No inversion"
-msgstr "不反相"
+msgstr "无反相"
 
 #: ../src/extension/internal/filter/color.h:984
 msgid "Red and blue"
