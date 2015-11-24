@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-23 18:59-0500\n"
+"PO-Revision-Date: 2015-11-23 19:18-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,1650,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,1784,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -901,7 +901,7 @@ msgstr "挖剪光晕"
 
 #: ../share/filters/filters.svg.h:344
 msgid "In and out glow with a possible offset and colorizable flood"
-msgstr "带有合理的位移和可着色填涂的内外光晕"
+msgstr "带有合理的位移和可着色浸漫的内外光晕"
 
 #: ../share/filters/filters.svg.h:346
 msgid "Dark Emboss"
@@ -909,7 +909,7 @@ msgstr "黑色浮雕"
 
 #: ../share/filters/filters.svg.h:348
 msgid "Emboss effect : 3D relief where white is replaced by black"
-msgstr "浮雕效果: 3D立体, 用黑色代替白色"
+msgstr "浮雕效果: 3D 立体, 用黑色代替白色"
 
 #: ../share/filters/filters.svg.h:350
 msgid "Bubbly Bumps Matte"
@@ -1453,7 +1453,7 @@ msgstr "凸版版画"
 
 #: ../share/filters/filters.svg.h:580
 msgid "Bumps effect with a bevel, color flood and complex lighting"
-msgstr "带有斜角、填满颜色和复杂光照的凹凸效果"
+msgstr "带有斜角、浸漫和复杂光照的凹凸效果"
 
 #: ../share/filters/filters.svg.h:582
 msgid "Growing Cells"
@@ -8276,7 +8276,7 @@ msgstr "源图形"
 
 #: ../src/filter-enums.cpp:42
 msgid "Source Alpha"
-msgstr "源Alpha"
+msgstr "源不透明度"
 
 #: ../src/filter-enums.cpp:43
 msgid "Background Image"
@@ -8284,15 +8284,15 @@ msgstr "背景图像"
 
 #: ../src/filter-enums.cpp:44
 msgid "Background Alpha"
-msgstr "背景透明度"
+msgstr "背景不透明度"
 
 #: ../src/filter-enums.cpp:45
 msgid "Fill Paint"
-msgstr "填充色"
+msgstr "填充颜色"
 
 #: ../src/filter-enums.cpp:46
 msgid "Stroke Paint"
-msgstr "笔廓绘制"
+msgstr "笔廓颜色"
 
 #. New in Compositing and Blending Level 1
 #: ../src/filter-enums.cpp:58
@@ -8309,7 +8309,7 @@ msgstr "颜色加深"
 
 #: ../src/filter-enums.cpp:61
 msgid "Hard Light"
-msgstr "实光"
+msgstr "强光"
 
 #: ../src/filter-enums.cpp:62
 msgid "Soft Light"
@@ -8350,7 +8350,7 @@ msgstr "旋转色调"
 
 #: ../src/filter-enums.cpp:81
 msgid "Luminance to Alpha"
-msgstr "亮度转为透明度(alpha)"
+msgstr "亮度转为不透明度"
 
 #: ../src/filter-enums.cpp:87 ../share/extensions/jessyInk_mouseHandler.inx.h:3
 #: ../share/extensions/jessyInk_transitions.inx.h:7
@@ -8373,19 +8373,19 @@ msgstr "目标"
 
 #: ../src/filter-enums.cpp:98
 msgid "Destination Over"
-msgstr "目的地从头到尾"
+msgstr "目标覆盖"
 
 #: ../src/filter-enums.cpp:99
 msgid "Destination In"
-msgstr "目的地内"
+msgstr "目标在内"
 
 #: ../src/filter-enums.cpp:100
 msgid "Destination Out"
-msgstr "目的地外"
+msgstr "目标在外"
 
 #: ../src/filter-enums.cpp:101
 msgid "Destination Atop"
-msgstr "目的地正上方"
+msgstr "目标在顶"
 
 #: ../src/filter-enums.cpp:102
 msgid "Lighter"
@@ -8402,12 +8402,12 @@ msgstr "再制"
 
 #: ../src/filter-enums.cpp:121
 msgid "Wrap"
-msgstr "折行"
+msgstr "环绕"
 
 #: ../src/filter-enums.cpp:122
 msgctxt "Convolve matrix, edge mode"
 msgid "None"
-msgstr "不透明"
+msgstr "无"
 
 #: ../src/filter-enums.cpp:137
 msgid "Erode"
@@ -8435,11 +8435,11 @@ msgstr "聚光"
 
 #: ../src/gradient-chemistry.cpp:1580
 msgid "Invert gradient colors"
-msgstr "反转渐层颜色"
+msgstr "反转渐变颜色"
 
 #: ../src/gradient-chemistry.cpp:1607
 msgid "Reverse gradient"
-msgstr "反转渐层"
+msgstr "反转渐变"
 
 #: ../src/gradient-chemistry.cpp:1621 ../src/widgets/gradient-selector.cpp:226
 msgid "Delete swatch"
@@ -8475,19 +8475,19 @@ msgstr "辐向渐变<b>焦点</b>"
 #: ../src/gradient-drag.cpp:104 ../src/gradient-drag.cpp:105
 #: ../src/ui/tools/gradient-tool.cpp:97 ../src/ui/tools/gradient-tool.cpp:98
 msgid "Radial gradient <b>mid stop</b>"
-msgstr "圆周渐变<b>中间分段点</b>"
+msgstr "辐向渐变<b>中间分段点</b>"
 
 #: ../src/gradient-drag.cpp:106 ../src/ui/tools/mesh-tool.cpp:93
 msgid "Mesh gradient <b>corner</b>"
-msgstr "网面渐层<b>边角</b>"
+msgstr "网面渐变<b>边角</b>"
 
 #: ../src/gradient-drag.cpp:107 ../src/ui/tools/mesh-tool.cpp:94
 msgid "Mesh gradient <b>handle</b>"
-msgstr "网面渐层<b>控制点</b>"
+msgstr "网面渐变<b>控制点</b>"
 
 #: ../src/gradient-drag.cpp:108 ../src/ui/tools/mesh-tool.cpp:95
 msgid "Mesh gradient <b>tensor</b>"
-msgstr "网面渐层<b>张量</b>"
+msgstr "网面渐变<b>张量</b>"
 
 #: ../src/gradient-drag.cpp:567
 msgid "Added patch row or column"
@@ -8509,26 +8509,28 @@ msgstr "删除渐变分段点"
 #: ../src/gradient-drag.cpp:1427
 #, c-format
 msgid "%s %d for: %s%s; drag with <b>Ctrl</b> to snap offset; click with <b>Ctrl+Alt</b> to delete stop"
-msgstr "%s %d 为: %s%s; 按住<b>Ctrl</b>拖动捕捉偏移, 按住<b>Ctrl+Alt</b>单击删除分段点"
+msgstr "%s %d 属于：%s%s；按住<b>Ctrl</b>拖动捕捉偏移；按住<b>Ctrl+Alt</b>单击删除分段点"
 
 #: ../src/gradient-drag.cpp:1431 ../src/gradient-drag.cpp:1438
 msgid " (stroke)"
-msgstr " (笔廓)"
+msgstr "（笔廓）"
 
+# Radial Gradient for: rectangle (stroke)
+# 辐向渐变属于：长方形（笔廓）
 #: ../src/gradient-drag.cpp:1435
 #, c-format
 msgid "%s for: %s%s; drag with <b>Ctrl</b> to snap angle, with <b>Ctrl+Alt</b> to preserve angle, with <b>Ctrl+Shift</b> to scale around center"
-msgstr "%s 为: %s%s; 按住<b>Ctrl</b>拖动捕捉角, 按住<b>Ctrl+Alt</b>保持角度, 按住<b>Ctrl+Shift</b>以中心缩放"
+msgstr "%s 属于：%s%s；按住<b>Ctrl</b>拖动捕捉角，按住<b>Ctrl+Alt</b>保持角度，按住<b>Ctrl+Shift</b>以中心缩放"
 
 #: ../src/gradient-drag.cpp:1443
 msgid "Radial gradient <b>center</b> and <b>focus</b>; drag with <b>Shift</b> to separate focus"
-msgstr "辐向渐变<b>中心</b><b>焦点</b>; 按住 <b>Shift</b> 拖动分隔焦点"
+msgstr "辐向渐变<b>中心</b><b>焦点</b>；按住 <b>Shift</b> 拖动分开焦点"
 
 #: ../src/gradient-drag.cpp:1446
 #, c-format
 msgid "Gradient point shared by <b>%d</b> gradient; drag with <b>Shift</b> to separate"
 msgid_plural "Gradient point shared by <b>%d</b> gradients; drag with <b>Shift</b> to separate"
-msgstr[0] "渐变点由<b>%d</b>个渐变共享; 按住 <b>Shift</b> 拖动分隔"
+msgstr[0] "渐变点由<b>%d</b>个渐变共享；按住 <b>Shift</b> 拖动分开"
 
 #: ../src/gradient-drag.cpp:2379
 msgid "Move gradient handle(s)"
@@ -8556,7 +8558,7 @@ msgstr "正在自动保存…"
 
 #: ../src/inkscape.cpp:335
 msgid "Autosave failed! Could not find inkscape extension to save document."
-msgstr "自动保存失败！找不到用于保存文档的 Inkscape 扩展"
+msgstr "自动保存失败！找不到用于保存文档的 Inkscape 扩展名。"
 
 #: ../src/inkscape.cpp:338 ../src/inkscape.cpp:345
 #, c-format
@@ -8578,7 +8580,7 @@ msgstr "Inkscape 遇到内部错误并将立即关闭。\n"
 
 #: ../src/inkscape.cpp:651
 msgid "Automatic backups of unsaved documents were done to the following locations:\n"
-msgstr "在下列位置存放未保存文档的自动备份：\n"
+msgstr "已在下列位置存放未保存文档的自动备份：\n"
 
 #: ../src/inkscape.cpp:652
 msgid "Automatic backup of the following documents failed:\n"
@@ -8586,7 +8588,7 @@ msgstr "自动备份下列文档失败：\n"
 
 #: ../src/knot.cpp:348
 msgid "Node or handle drag canceled."
-msgstr "节点或控制点拖动取消."
+msgstr "节点或控制点拖动取消。"
 
 #: ../src/knotholder.cpp:171
 msgid "Change handle"
@@ -8603,11 +8605,11 @@ msgstr "<b>移动</b>图案填色对象内部"
 
 #: ../src/knotholder.cpp:281 ../src/knotholder.cpp:303
 msgid "<b>Scale</b> the pattern fill; uniformly if with <b>Ctrl</b>"
-msgstr "<b>缩放</b>图案填色; <b>Ctrl</b>统一缩放填色"
+msgstr "<b>缩放</b>图案填色；<b>Ctrl</b>统一缩放填色"
 
 #: ../src/knotholder.cpp:285 ../src/knotholder.cpp:307
 msgid "<b>Rotate</b> the pattern fill; with <b>Ctrl</b> to snap angle"
-msgstr "<b>旋转</b>图案填色; 按住 <b>Ctrl</b> 捕捉角度"
+msgstr "<b>旋转</b>图案填色；按住 <b>Ctrl</b> 捕捉角度"
 
 #: ../src/libgdl/gdl-dock-bar.c:105
 msgid "Master"
@@ -8615,7 +8617,7 @@ msgstr "主栏"
 
 #: ../src/libgdl/gdl-dock-bar.c:106
 msgid "GdlDockMaster object which the dockbar widget is attached to"
-msgstr "面板栏widget挂靠的GdlDockMaster对象"
+msgstr "面板栏部件挂靠的 GdlDockMaster 对象"
 
 #: ../src/libgdl/gdl-dock-bar.c:113
 msgid "Dockbar style"
@@ -8659,7 +8661,7 @@ msgstr "可变"
 
 #: ../src/libgdl/gdl-dock-item.c:315
 msgid "If set, the dock item can be resized when docked in a GtkPanel widget"
-msgstr "如果设置，当工具栏项目停泊在 GtkPanel 时能够调整大小"
+msgstr "如果设置，当工具栏项目停泊在 GtkPanel 部件时能够调整大小"
 
 #: ../src/libgdl/gdl-dock-item.c:322
 msgid "Item behavior"
@@ -8667,7 +8669,7 @@ msgstr "项目特性"
 
 #: ../src/libgdl/gdl-dock-item.c:323
 msgid "General behavior for the dock item (i.e. whether it can float, if it's locked, etc.)"
-msgstr "面板项的一般形态 (例如, 锁定时是否能够浮动等)"
+msgstr "面板项的一般行为（例如：是否可浮动、是否锁定等）"
 
 #: ../src/libgdl/gdl-dock-item.c:331 ../src/libgdl/gdl-dock-master.c:148
 msgid "Locked"
@@ -8675,7 +8677,7 @@ msgstr "锁定"
 
 #: ../src/libgdl/gdl-dock-item.c:332
 msgid "If set, the dock item cannot be dragged around and it doesn't show a grip"
-msgstr "如果选定, 面板项不能拖动并且不显示拖动柄"
+msgstr "如果选定，面板项不能拖动并且不显示拖动柄"
 
 #: ../src/libgdl/gdl-dock-item.c:340
 msgid "Preferred width"
@@ -8696,17 +8698,17 @@ msgstr "该面板项目的首选高度"
 #: ../src/libgdl/gdl-dock-item.c:716
 #, c-format
 msgid "You can't add a dock object (%p of type %s) inside a %s. Use a GdlDock or some other compound dock object."
-msgstr "不能将面板对象(%p, 类型%s) 添加到%s. 请使用GdlDock或其它匹配面板对象."
+msgstr "不能将面板对象（%p，类型 %s）添加到 %s。请使用 GdlDock 或其它匹配面板对象."
 
 #: ../src/libgdl/gdl-dock-item.c:723
 #, c-format
 msgid "Attempting to add a widget with type %s to a %s, but it can only contain one widget at a time; it already contains a widget of type %s"
-msgstr "试图添加%s类型的widget到%s, 但后者只能包含一个widget, 并且已经被%s类型的widget占用"
+msgstr "试图添加 %s 类型的部件到 %s, 但后者只能包含一个部件, 且已经被 %s 类型的部件占用"
 
 #: ../src/libgdl/gdl-dock-item.c:1474 ../src/libgdl/gdl-dock-item.c:1524
 #, c-format
 msgid "Unsupported docking strategy %s in dock object of type %s"
-msgstr "停靠策略%s不兼容%s类型的面板对象"
+msgstr "停靠策略 %s 不兼容 %s 类型的面板对象"
 
 #. UnLock menuitem
 #: ../src/libgdl/gdl-dock-item.c:1632
@@ -8726,7 +8728,7 @@ msgstr "锁定"
 #: ../src/libgdl/gdl-dock-item.c:1907
 #, c-format
 msgid "Attempt to bind an unbound item %p"
-msgstr "试图绑定一个自由项%p"
+msgstr "试图绑定一个自由项 %p"
 
 #: ../src/libgdl/gdl-dock-master.c:141 ../src/libgdl/gdl-dock.c:184
 msgid "Default title"
@@ -8738,7 +8740,7 @@ msgstr "新创建的浮动面板的缺省标题"
 
 #: ../src/libgdl/gdl-dock-master.c:149
 msgid "If is set to 1, all the dock items bound to the master are locked; if it's 0, all are unlocked; -1 indicates inconsistency among the items"
-msgstr "如果设为1, 所有捆绑到主栏的停靠对象均锁定; 如果为0, 则都解锁; -1表明各个项的设置不一致"
+msgstr "如果设为 1, 所有捆绑到主栏的停靠对象均被锁定；如果为0，则均已解锁；-1 表明各个项的设置不一致"
 
 #: ../src/libgdl/gdl-dock-master.c:157 ../src/libgdl/gdl-switcher.c:737
 msgid "Switcher Style"
@@ -8756,7 +8758,7 @@ msgstr "主栏 %p：无法将对象 %p[%s] 添加到 hash。已有同名的项�
 #: ../src/libgdl/gdl-dock-master.c:955
 #, c-format
 msgid "The new dock controller %p is automatic.  Only manual dock objects should be named controller."
-msgstr "新的面板控制栏%p是自动的. 只有手动面板对象才能作为命名的控制栏."
+msgstr "新的面板控制栏 %p 是自动的。只有手动面板对象能作为命名的控制栏。"
 
 #: ../src/libgdl/gdl-dock-notebook.c:132
 #: ../src/ui/dialog/align-and-distribute.cpp:998
@@ -8790,11 +8792,11 @@ msgstr "长名称"
 
 #: ../src/libgdl/gdl-dock-object.c:134
 msgid "Human readable name for the dock object"
-msgstr "面板的人性化名称"
+msgstr "面板的人类可读名称"
 
 #: ../src/libgdl/gdl-dock-object.c:140
 msgid "Stock Icon"
-msgstr "笔廓图标"
+msgstr "储备图标"
 
 #: ../src/libgdl/gdl-dock-object.c:141
 msgid "Stock icon for the dock object"
@@ -8806,7 +8808,7 @@ msgstr "Pixbuf 图标"
 
 #: ../src/libgdl/gdl-dock-object.c:148
 msgid "Pixbuf icon for the dock object"
-msgstr "面板对象的Pixbuf图标"
+msgstr "面板对象的 Pixbuf 图标"
 
 #: ../src/libgdl/gdl-dock-object.c:153
 msgid "Dock master"
@@ -8814,12 +8816,12 @@ msgstr "面板主栏"
 
 #: ../src/libgdl/gdl-dock-object.c:154
 msgid "Dock master this dock object is bound to"
-msgstr "控制该停靠对象的面板绑定到"
+msgstr "该停靠对象绑定到的面板"
 
 #: ../src/libgdl/gdl-dock-object.c:463
 #, c-format
 msgid "Call to gdl_dock_object_dock in a dock object %p (object type is %s) which hasn't implemented this method"
-msgstr "调用的gdl_dock_object_dock在面板对象%p(对象类型%s)中还没有实现 "
+msgstr "尚未实现在面板对象 %p（对象类型 %s）中调用 gdl_dock_object_dock"
 
 #: ../src/libgdl/gdl-dock-object.c:602
 #, c-format
@@ -9187,7 +9189,7 @@ msgstr "起始路径："
 
 #: ../src/live_effects/lpe-attach-path.cpp:29
 msgid "Path to attach to the start of this path"
-msgstr "将路径放置到该路径的起点"
+msgstr "要贴附到该路径的起点的路径"
 
 #: ../src/live_effects/lpe-attach-path.cpp:30
 msgid "Start path position:"
@@ -26897,7 +26899,7 @@ msgstr "把渐变赋值给对象"
 
 #: ../src/widgets/gradient-toolbar.cpp:955
 msgid "Set gradient repeat"
-msgstr "设置渐层重复"
+msgstr "设置渐变重复"
 
 #: ../src/widgets/gradient-toolbar.cpp:993
 #: ../src/widgets/gradient-vector.cpp:727
