@@ -52,7 +52,7 @@ Terminology Difference
 |foo to bar|foo 变 bar|foo 转 bar|no|
 |**eval**uation|评估|求值|no|
 |dissolve (blend)|融化|融解|yes|
-|grain|增益|TODO|no|
+|grain|增益|颗粒|no|
 |margin|边空|边距|no|
 |stroke|[笔划,笔画]|笔廓|yes|
 
