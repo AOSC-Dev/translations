@@ -387,7 +387,7 @@ msgstr "N 次："
 
 #: ../gap/gap_base_ops.c:1614
 msgid "Copy selected range n-times (you may type in values > 99)"
-msgstr "将选定范围复制 N 次（可输入大于 99 的值）"
+msgstr "将选定范围复制 N 次（可打字输入大于 99 的值）"
 
 #: ../gap/gap_base_ops.c:1619
 msgid "Make Duplicates of Frame Range"
