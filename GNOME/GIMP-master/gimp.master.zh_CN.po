@@ -12,16 +12,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2015-11-19 19:07+0000\n"
-"PO-Revision-Date: 2015-11-21 15:30-0700\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"POT-Creation-Date: 2015-11-23 21:30+0000\n"
+"PO-Revision-Date: 2015-11-23 19:28-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #: ../desktop/gimp.appdata.xml.in.h:1
 msgid "GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring."
@@ -202,7 +202,7 @@ msgstr "(键入任意字符关闭本窗口)\n"
 msgid "GIMP output. You can minimize this window, but don't close it."
 msgstr "GIMP 输出。您可以最小化该窗口，但请不要关闭窗口。"
 
-#: ../app/sanity.c:603
+#: ../app/sanity.c:604
 #, c-format
 msgid ""
 "The configured filename encoding cannot be converted to UTF-8: %s\n"
@@ -213,7 +213,7 @@ msgstr ""
 "\n"
 "请检查环境变量 G_FILENAME_ENCODING 的值。"
 
-#: ../app/sanity.c:622
+#: ../app/sanity.c:623
 #, c-format
 msgid ""
 "The name of the directory holding the GIMP user configuration cannot be converted to UTF-8: %s\n"
@@ -317,9 +317,8 @@ msgid "File"
 msgstr "文件"
 
 #: ../app/actions/actions.c:163
-#, fuzzy
 msgid "Filters"
-msgstr "滤镜(_R)"
+msgstr "滤镜"
 
 #: ../app/actions/actions.c:166 ../app/dialogs/dialogs.c:334
 #: ../app/dialogs/preferences-dialog.c:2710
@@ -839,9 +838,6 @@ msgid "Add all pixels with this color to the current selection"
 msgstr "将此通道添加到当前选区"
 
 #: ../app/actions/colormap-actions.c:85
-#, fuzzy
-#| msgctxt "channels-action"
-#| msgid "_Subtract from Selection"
 msgctxt "colormap-action"
 msgid "_Subtract from Selection"
 msgstr "从选区中减去(_S)"
@@ -855,9 +851,6 @@ msgid "Subtract all pixels with this color from the current selection"
 msgstr "从当前选区中减去此通道"
 
 #: ../app/actions/colormap-actions.c:91
-#, fuzzy
-#| msgctxt "channels-action"
-#| msgid "_Intersect with Selection"
 msgctxt "colormap-action"
 msgid "_Intersect with Selection"
 msgstr "与选区相交(_I)"
@@ -1407,12 +1400,12 @@ msgid "_About"
 msgstr "关于(_A)"
 
 #: ../app/actions/dialogs-actions.c:275
-msgctxt "help-action"
+msgctxt "dialogs-action"
 msgid "_Search and Run a Command"
 msgstr ""
 
 #: ../app/actions/dialogs-actions.c:276
-msgctxt "help-action"
+msgctxt "dialogs-action"
 msgid "Search commands by keyword, and run them"
 msgstr ""
 
@@ -2532,11 +2525,9 @@ msgid "Save this image and close its window"
 msgstr "保存此图像并关闭它的窗口"
 
 #: ../app/actions/file-actions.c:159
-#, fuzzy
-#| msgid "_Export"
 msgctxt "file-action"
 msgid "Export"
-msgstr "导出(_E)"
+msgstr "导出"
 
 #: ../app/actions/file-actions.c:160
 msgctxt "file-action"
@@ -2578,10 +2569,8 @@ msgid "Over_write %s"
 msgstr "覆盖 %s"
 
 #: ../app/actions/file-actions.c:324
-#, fuzzy
-#| msgid "_Export"
 msgid "Export"
-msgstr "导出(_E)"
+msgstr "导出"
 
 #: ../app/actions/file-commands.c:125 ../app/actions/file-commands.c:572
 #: ../app/widgets/gimpopendialog.c:73
@@ -2683,7 +2672,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:68
 #, fuzzy
 msgctxt "filters-action"
-msgid "Color to Gray..."
+msgid "_Color to Gray..."
 msgstr "色彩平衡(_B)…"
 
 #: ../app/actions/filters-actions.c:73
@@ -2792,12 +2781,9 @@ msgid "Distance Map..."
 msgstr "距离："
 
 #: ../app/actions/filters-actions.c:153
-#, fuzzy
-#| msgctxt "select-action"
-#| msgid "_Grow..."
 msgctxt "filters-action"
 msgid "_Drop Shadow..."
-msgstr "增长(_G)…"
+msgstr "投影(_D)..."
 
 #: ../app/actions/filters-actions.c:158
 #, fuzzy
@@ -2851,11 +2837,9 @@ msgid "_Gaussian Blur..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:198
-#, fuzzy
-#| msgid "Grid"
 msgctxt "filters-action"
 msgid "_Grid..."
-msgstr "网格"
+msgstr "网格(_G)..."
 
 #: ../app/actions/filters-actions.c:203
 msgctxt "filters-action"
@@ -2888,9 +2872,12 @@ msgid "_Maze..."
 msgstr "淡出(_F)…"
 
 #: ../app/actions/filters-actions.c:228
+#, fuzzy
+#| msgctxt "channels-action"
+#| msgid "_New Channel..."
 msgctxt "filters-action"
-msgid "Mono Mixer..."
-msgstr ""
+msgid "_Mono Mixer..."
+msgstr "新建通道(_N)…"
 
 #: ../app/actions/filters-actions.c:233
 msgctxt "filters-action"
@@ -3041,6 +3028,11 @@ msgid "_Semi-Flatten..."
 msgstr "编辑图案(_E)…"
 
 #: ../app/actions/filters-actions.c:358
+msgctxt "filters-action"
+msgid "_Sepia..."
+msgstr ""
+
+#: ../app/actions/filters-actions.c:363
 #, fuzzy
 #| msgctxt "drawable-action"
 #| msgid "_Offset..."
@@ -3048,42 +3040,42 @@ msgctxt "filters-action"
 msgid "_Shift..."
 msgstr "位移(_O)…"
 
-#: ../app/actions/filters-actions.c:363
+#: ../app/actions/filters-actions.c:368
 #, fuzzy
 #| msgid "_Curves..."
 msgctxt "filters-action"
 msgid "_Sinus..."
 msgstr "曲线(_C)…"
 
-#: ../app/actions/filters-actions.c:368
+#: ../app/actions/filters-actions.c:373
 msgctxt "filters-action"
 msgid "_Softglow..."
 msgstr ""
 
-#: ../app/actions/filters-actions.c:373
+#: ../app/actions/filters-actions.c:378
 #, fuzzy
 #| msgid "B_rightness-Contrast..."
 msgctxt "filters-action"
 msgid "_Stretch Contrast..."
 msgstr "亮度-对比度(_R)…"
 
-#: ../app/actions/filters-actions.c:378
+#: ../app/actions/filters-actions.c:383
 msgctxt "filters-action"
 msgid "_Stretch Contrast HSV..."
 msgstr ""
 
-#: ../app/actions/filters-actions.c:383
+#: ../app/actions/filters-actions.c:388
 msgctxt "filters-action"
 msgid "_Super_nova..."
 msgstr ""
 
-#: ../app/actions/filters-actions.c:388
+#: ../app/actions/filters-actions.c:393
 #, fuzzy
 msgctxt "filters-action"
 msgid "_Threshold Alpha..."
 msgstr "阈值(_T)…"
 
-#: ../app/actions/filters-actions.c:393
+#: ../app/actions/filters-actions.c:398
 #, fuzzy
 #| msgctxt "image-action"
 #| msgid "Can_vas Size..."
@@ -3091,24 +3083,24 @@ msgctxt "filters-action"
 msgid "_Glass Tile..."
 msgstr "画布大小(_V)…"
 
-#: ../app/actions/filters-actions.c:398
+#: ../app/actions/filters-actions.c:403
 #, fuzzy
 #| msgid "_Posterize..."
 msgctxt "filters-action"
 msgid "_Paper Tile..."
 msgstr "色调分离(_P)…"
 
-#: ../app/actions/filters-actions.c:403
+#: ../app/actions/filters-actions.c:408
 msgctxt "filters-action"
 msgid "_Tile Seamless..."
 msgstr ""
 
-#: ../app/actions/filters-actions.c:408
+#: ../app/actions/filters-actions.c:413
 msgctxt "filters-action"
 msgid "_Unsharp Mask..."
 msgstr ""
 
-#: ../app/actions/filters-actions.c:413
+#: ../app/actions/filters-actions.c:418
 #, fuzzy
 #| msgctxt "image-action"
 #| msgid "_Scale Image..."
@@ -3116,12 +3108,12 @@ msgctxt "filters-action"
 msgid "_Value Propagate..."
 msgstr "缩放图像(_S)…"
 
-#: ../app/actions/filters-actions.c:418
+#: ../app/actions/filters-actions.c:423
 msgctxt "filters-action"
 msgid "Vi_deo Degradation..."
 msgstr "降低视频质量(_D)…"
 
-#: ../app/actions/filters-actions.c:423
+#: ../app/actions/filters-actions.c:428
 #, fuzzy
 #| msgctxt "palettes-action"
 #| msgid "_Edit Palette..."
@@ -3129,19 +3121,17 @@ msgctxt "filters-action"
 msgid "_Vignette..."
 msgstr "编辑色板(_E)…"
 
-#: ../app/actions/filters-actions.c:428
-#, fuzzy
-#| msgid "_Curves..."
+#: ../app/actions/filters-actions.c:433
 msgctxt "filters-action"
 msgid "_Waves..."
-msgstr "曲线(_C)…"
+msgstr "水波(_W)..."
 
-#: ../app/actions/filters-actions.c:433
+#: ../app/actions/filters-actions.c:438
 msgctxt "filters-action"
 msgid "W_hirl and Pinch..."
 msgstr ""
 
-#: ../app/actions/filters-actions.c:438
+#: ../app/actions/filters-actions.c:443
 #, fuzzy
 #| msgctxt "image-convert-action"
 #| msgid "_Indexed..."
@@ -3326,13 +3316,11 @@ msgid "_RGB"
 msgstr "_RGB"
 
 #: ../app/actions/gradient-editor-actions.c:356
-#, fuzzy
 msgctxt "gradient-editor-coloring"
 msgid "HSV (_counter-clockwise hue)"
 msgstr "HSV (逆时针色调)(_C)"
 
 #: ../app/actions/gradient-editor-actions.c:361
-#, fuzzy
 msgctxt "gradient-editor-coloring"
 msgid "HSV (clockwise _hue)"
 msgstr "HSV (顺时针色调)(_H)"
@@ -3638,120 +3626,120 @@ msgctxt "help-action"
 msgid "Show the help for a specific user interface item"
 msgstr "为指定用户界面项显示帮助"
 
-#: ../app/actions/image-actions.c:49 ../app/actions/image-actions.c:53
+#: ../app/actions/image-actions.c:51 ../app/actions/image-actions.c:55
 msgctxt "image-action"
 msgid "Image Menu"
 msgstr "图像菜单"
 
-#: ../app/actions/image-actions.c:56
+#: ../app/actions/image-actions.c:58
 msgctxt "image-action"
 msgid "_Image"
 msgstr "图像(_I)"
 
-#: ../app/actions/image-actions.c:57
+#: ../app/actions/image-actions.c:59
 msgctxt "image-action"
 msgid "_Mode"
 msgstr "模式(_M)"
 
-#: ../app/actions/image-actions.c:58
+#: ../app/actions/image-actions.c:60
 #, fuzzy
 msgctxt "image-action"
 msgid "_Precision"
 msgstr "前一条提示(_P)"
 
-#: ../app/actions/image-actions.c:60
+#: ../app/actions/image-actions.c:62
 #, fuzzy
 #| msgid "Color Management"
 msgctxt "image-action"
 msgid "_Color Management"
 msgstr "色彩管理"
 
-#: ../app/actions/image-actions.c:61
+#: ../app/actions/image-actions.c:63
 msgctxt "image-action"
 msgid "_Transform"
 msgstr "变换(_T)"
 
-#: ../app/actions/image-actions.c:62
+#: ../app/actions/image-actions.c:64
 msgctxt "image-action"
 msgid "_Guides"
 msgstr "参考线(_G)"
 
-#: ../app/actions/image-actions.c:64
+#: ../app/actions/image-actions.c:66
 msgctxt "image-action"
 msgid "_Colors"
 msgstr "颜色(_C)"
 
-#: ../app/actions/image-actions.c:65
+#: ../app/actions/image-actions.c:67
 msgctxt "image-action"
 msgid "I_nfo"
 msgstr "信息(_N)"
 
-#: ../app/actions/image-actions.c:66
+#: ../app/actions/image-actions.c:68
 msgctxt "image-action"
 msgid "_Auto"
 msgstr "自动(_A)"
 
-#: ../app/actions/image-actions.c:67
+#: ../app/actions/image-actions.c:69
 msgctxt "image-action"
 msgid "_Map"
 msgstr "映射(_M)"
 
-#: ../app/actions/image-actions.c:68
+#: ../app/actions/image-actions.c:70
 msgctxt "image-action"
 msgid "C_omponents"
 msgstr "分量(_O)"
 
-#: ../app/actions/image-actions.c:69
+#: ../app/actions/image-actions.c:71
 #, fuzzy
 #| msgid "Desaturate"
 msgctxt "image-action"
 msgid "D_esaturate"
 msgstr "去色"
 
-#: ../app/actions/image-actions.c:72
+#: ../app/actions/image-actions.c:74
 msgctxt "image-action"
 msgid "_New..."
 msgstr "新建(_N)…"
 
-#: ../app/actions/image-actions.c:73
+#: ../app/actions/image-actions.c:75
 msgctxt "image-action"
 msgid "Create a new image"
 msgstr "创建新的图像"
 
-#: ../app/actions/image-actions.c:78
+#: ../app/actions/image-actions.c:80
 #, fuzzy
 #| msgid "Color Profile"
 msgctxt "image-action"
 msgid "_Assign Color Profile..."
 msgstr "色彩配置文件"
 
-#: ../app/actions/image-actions.c:79
+#: ../app/actions/image-actions.c:81
 #, fuzzy
 msgctxt "image-action"
 msgid "Set a color profile on the image"
 msgstr "更改图像内容的大小"
 
-#: ../app/actions/image-actions.c:84
+#: ../app/actions/image-actions.c:86
 #, fuzzy
 #| msgid "Select Monitor Color Profile"
 msgctxt "image-action"
 msgid "_Convert to Color Profile..."
 msgstr "选择显示器色彩配置文件"
 
-#: ../app/actions/image-actions.c:85
+#: ../app/actions/image-actions.c:87
 #, fuzzy
 msgctxt "image-action"
 msgid "Apply a color profile to the image"
 msgstr "更改图像内容的大小"
 
-#: ../app/actions/image-actions.c:90
+#: ../app/actions/image-actions.c:92
 #, fuzzy
 #| msgid "Color Profile"
 msgctxt "image-action"
 msgid "_Discard Color Profile"
 msgstr "色彩配置文件"
 
-#: ../app/actions/image-actions.c:91
+#: ../app/actions/image-actions.c:93
 #, fuzzy
 #| msgctxt "view-action"
 #| msgid "Display the image's color sample points"
@@ -3759,72 +3747,72 @@ msgctxt "image-action"
 msgid "Remove the image's color profile"
 msgstr "显示图像的颜色采样点"
 
-#: ../app/actions/image-actions.c:96
+#: ../app/actions/image-actions.c:98
 msgctxt "image-action"
 msgid "Can_vas Size..."
 msgstr "画布大小(_V)…"
 
-#: ../app/actions/image-actions.c:97
+#: ../app/actions/image-actions.c:99
 msgctxt "image-action"
 msgid "Adjust the image dimensions"
 msgstr "调整图像尺寸"
 
-#: ../app/actions/image-actions.c:102
+#: ../app/actions/image-actions.c:104
 msgctxt "image-action"
 msgid "Fit Canvas to L_ayers"
 msgstr "画布适配图层(_A)"
 
-#: ../app/actions/image-actions.c:103
+#: ../app/actions/image-actions.c:105
 msgctxt "image-action"
 msgid "Resize the image to enclose all layers"
 msgstr "调整图像大小以容纳所有图层"
 
-#: ../app/actions/image-actions.c:108
+#: ../app/actions/image-actions.c:110
 msgctxt "image-action"
 msgid "F_it Canvas to Selection"
 msgstr "使画布适合选区(_I)"
 
-#: ../app/actions/image-actions.c:109
+#: ../app/actions/image-actions.c:111
 msgctxt "image-action"
 msgid "Resize the image to the extents of the selection"
 msgstr "改变图像尺寸到选区的范围"
 
-#: ../app/actions/image-actions.c:114
+#: ../app/actions/image-actions.c:116
 msgctxt "image-action"
 msgid "_Print Size..."
 msgstr "打印大小(_P)…"
 
-#: ../app/actions/image-actions.c:115
+#: ../app/actions/image-actions.c:117
 msgctxt "image-action"
 msgid "Adjust the print resolution"
 msgstr "调整打印分辨率"
 
-#: ../app/actions/image-actions.c:120
+#: ../app/actions/image-actions.c:122
 msgctxt "image-action"
 msgid "_Scale Image..."
 msgstr "缩放图像(_S)…"
 
-#: ../app/actions/image-actions.c:121
+#: ../app/actions/image-actions.c:123
 msgctxt "image-action"
 msgid "Change the size of the image content"
 msgstr "更改图像内容的大小"
 
-#: ../app/actions/image-actions.c:126
+#: ../app/actions/image-actions.c:128
 msgctxt "image-action"
 msgid "_Crop to Selection"
 msgstr "剪裁到选区(_C)"
 
-#: ../app/actions/image-actions.c:127
+#: ../app/actions/image-actions.c:129
 msgctxt "image-action"
 msgid "Crop the image to the extents of the selection"
 msgstr "剪裁图像到选区的范围"
 
-#: ../app/actions/image-actions.c:132
+#: ../app/actions/image-actions.c:134
 msgctxt "image-action"
 msgid "Crop to C_ontent"
 msgstr "裁剪到内容(_O)"
 
-#: ../app/actions/image-actions.c:133
+#: ../app/actions/image-actions.c:135
 #, fuzzy
 #| msgctxt "image-action"
 #| msgid "Crop the image to the extents of the selection"
@@ -3832,308 +3820,313 @@ msgctxt "image-action"
 msgid "Crop the image to the extents of its content (remove empty borders from the image)"
 msgstr "剪裁图像到选区的范围"
 
-#: ../app/actions/image-actions.c:138
+#: ../app/actions/image-actions.c:140
 msgctxt "image-action"
 msgid "_Duplicate"
 msgstr "复制(_D)"
 
-#: ../app/actions/image-actions.c:139
+#: ../app/actions/image-actions.c:141
 msgctxt "image-action"
 msgid "Create a duplicate of this image"
 msgstr "创建此图像的复本"
 
-#: ../app/actions/image-actions.c:144
+#: ../app/actions/image-actions.c:146
 msgctxt "image-action"
 msgid "Merge Visible _Layers..."
 msgstr "合并可见图层(_L)…"
 
-#: ../app/actions/image-actions.c:145
+#: ../app/actions/image-actions.c:147
 msgctxt "image-action"
 msgid "Merge all visible layers into one layer"
 msgstr "将所有的可见图层合并为一个图层"
 
-#: ../app/actions/image-actions.c:150
+#: ../app/actions/image-actions.c:152
 msgctxt "image-action"
 msgid "_Flatten Image"
 msgstr "平整图像(_F)"
 
-#: ../app/actions/image-actions.c:151
+#: ../app/actions/image-actions.c:153
 msgctxt "image-action"
 msgid "Merge all layers into one and remove transparency"
 msgstr "将所有的图层合并为一个并移除透明"
 
-#: ../app/actions/image-actions.c:156
+#: ../app/actions/image-actions.c:158
 msgctxt "image-action"
 msgid "Configure G_rid..."
 msgstr "配置网格(_R)…"
 
-#: ../app/actions/image-actions.c:157
+#: ../app/actions/image-actions.c:159
 msgctxt "image-action"
 msgid "Configure the grid for this image"
 msgstr "配置图像的网格"
 
-#: ../app/actions/image-actions.c:162
+#: ../app/actions/image-actions.c:164
 msgctxt "image-action"
 msgid "Image Pr_operties"
 msgstr "图像属性(_O)"
 
-#: ../app/actions/image-actions.c:163
+#: ../app/actions/image-actions.c:165
 msgctxt "image-action"
 msgid "Display information about this image"
 msgstr "显示关于此图像的信息"
 
-#: ../app/actions/image-actions.c:171
+#: ../app/actions/image-actions.c:173
 msgctxt "image-convert-action"
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../app/actions/image-actions.c:172
+#: ../app/actions/image-actions.c:174
 msgctxt "image-convert-action"
 msgid "Convert the image to the RGB colorspace"
 msgstr "将图像转换到 RGB 色彩空间"
 
-#: ../app/actions/image-actions.c:176
+#: ../app/actions/image-actions.c:178
 msgctxt "image-convert-action"
 msgid "_Grayscale"
 msgstr "灰度(_G)"
 
-#: ../app/actions/image-actions.c:177
+#: ../app/actions/image-actions.c:179
 msgctxt "image-convert-action"
 msgid "Convert the image to grayscale"
 msgstr "将图像转换为灰度"
 
-#: ../app/actions/image-actions.c:181
+#: ../app/actions/image-actions.c:183
 msgctxt "image-convert-action"
 msgid "_Indexed..."
 msgstr "索引(_I)…"
 
-#: ../app/actions/image-actions.c:182
+#: ../app/actions/image-actions.c:184
 msgctxt "image-convert-action"
 msgid "Convert the image to indexed colors"
 msgstr "将图像转换为索引颜色"
 
-#: ../app/actions/image-actions.c:189
-msgctxt "image-convert-action"
-msgid "8 bit integer (linear)"
-msgstr "8 位整数（线性）"
-
 #: ../app/actions/image-actions.c:191
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "8 bit integer (gamma)"
 msgctxt "image-convert-action"
-msgid "Convert the image to 8 bit linear integer"
-msgstr "将图像转换为 8 位线性整数"
-
-#: ../app/actions/image-actions.c:195
-msgctxt "image-convert-action"
-msgid "8 bit integer (gamma)"
+msgid "8 bit integer"
 msgstr "8 位整数（伽马）"
 
+#: ../app/actions/image-actions.c:193
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 8 bit linear integer"
+msgctxt "image-convert-action"
+msgid "Convert the image to 8 bit integer"
+msgstr "将图像转换为 8 位线性整数"
+
 #: ../app/actions/image-actions.c:197
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "16 bit integer (gamma)"
 msgctxt "image-convert-action"
-msgid "Convert the image to 8 bit gamma-corrected integer"
-msgstr "将图像转换为 8 位伽马校正整数"
-
-#: ../app/actions/image-actions.c:201
-msgctxt "image-convert-action"
-msgid "16 bit integer (linear)"
-msgstr "16 位整数（线性）"
-
-#: ../app/actions/image-actions.c:203
-msgctxt "image-convert-action"
-msgid "Convert the image to 16 bit linear integer"
-msgstr "将图像转换为 16 位线性整数"
-
-#: ../app/actions/image-actions.c:207
-msgctxt "image-convert-action"
-msgid "16 bit integer (gamma)"
+msgid "16 bit integer"
 msgstr "16 位整数（伽马）"
 
-#: ../app/actions/image-actions.c:209
+#: ../app/actions/image-actions.c:199
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 16 bit linear integer"
 msgctxt "image-convert-action"
-msgid "Convert the image to 16 bit gamma-corrected integer"
-msgstr "将图像转换为 15 位伽马校正整数"
+msgid "Convert the image to 16 bit integer"
+msgstr "将图像转换为 16 位线性整数"
 
-#: ../app/actions/image-actions.c:213
+#: ../app/actions/image-actions.c:203
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "32 bit integer (gamma)"
 msgctxt "image-convert-action"
-msgid "32 bit integer (linear)"
-msgstr "32 位整数（线性）"
-
-#: ../app/actions/image-actions.c:215
-msgctxt "image-convert-action"
-msgid "Convert the image to 32 bit linear integer"
-msgstr "将图像转换为 32 位线性整数"
-
-#: ../app/actions/image-actions.c:219
-msgctxt "image-convert-action"
-msgid "32 bit integer (gamma)"
+msgid "32 bit integer"
 msgstr "32 位整数（伽马）"
 
-#: ../app/actions/image-actions.c:221
+#: ../app/actions/image-actions.c:205
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 32 bit linear integer"
 msgctxt "image-convert-action"
-msgid "Convert the image to 32 bit gamma-corrected integer"
-msgstr "将图像转换为 32 位伽马校正整数"
+msgid "Convert the image to 32 bit integer"
+msgstr "将图像转换为 32 位线性整数"
 
-#: ../app/actions/image-actions.c:225
+#: ../app/actions/image-actions.c:209
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "16 bit floating point (gamma)"
 msgctxt "image-convert-action"
-msgid "16 bit floating point (linear)"
-msgstr "16 位浮点（线性）"
-
-#: ../app/actions/image-actions.c:227
-msgctxt "image-convert-action"
-msgid "Convert the image to 16 bit linear floating point"
-msgstr "将图像转换为 16 位线性浮点数"
-
-#: ../app/actions/image-actions.c:231
-msgctxt "image-convert-action"
-msgid "16 bit floating point (gamma)"
+msgid "16 bit floating point"
 msgstr "16 位浮点（伽马）"
 
-#: ../app/actions/image-actions.c:233
+#: ../app/actions/image-actions.c:211
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 16 bit linear floating point"
 msgctxt "image-convert-action"
-msgid "Convert the image to 16 bit gamma-corrected floating point"
-msgstr "将图像转换为 16 位伽马校正浮点数"
+msgid "Convert the image to 16 bit floating point"
+msgstr "将图像转换为 16 位线性浮点数"
 
-#: ../app/actions/image-actions.c:237
+#: ../app/actions/image-actions.c:215
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "32 bit floating point (gamma)"
 msgctxt "image-convert-action"
-msgid "32 bit floating point (linear)"
-msgstr "32 位浮点（线性）"
-
-#: ../app/actions/image-actions.c:239
-msgctxt "image-convert-action"
-msgid "Convert the image to 32 bit linear floating point"
-msgstr "将图像转换为 32 位线性浮点数"
-
-#: ../app/actions/image-actions.c:243
-msgctxt "image-convert-action"
-msgid "32 bit floating point (gamma)"
+msgid "32 bit floating point"
 msgstr "32 位浮点（伽马）"
 
-#: ../app/actions/image-actions.c:245
+#: ../app/actions/image-actions.c:217
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 32 bit linear floating point"
 msgctxt "image-convert-action"
-msgid "Convert the image to 32 bit gamma-corrected floating point"
-msgstr "将图像转换为 32 位伽马校正浮点数"
+msgid "Convert the image to 32 bit floating point"
+msgstr "将图像转换为 32 位线性浮点数"
 
-#: ../app/actions/image-actions.c:249
+#: ../app/actions/image-actions.c:221
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "64 bit floating point (gamma)"
 msgctxt "image-convert-action"
-msgid "64 bit floating point (linear)"
-msgstr "64 位浮点（线性）"
-
-#: ../app/actions/image-actions.c:251
-msgctxt "image-convert-action"
-msgid "Convert the image to 64 bit linear floating point"
-msgstr "将图像转换为 64 位线性浮点数"
-
-#: ../app/actions/image-actions.c:255
-msgctxt "image-convert-action"
-msgid "64 bit floating point (gamma)"
+msgid "64 bit floating point"
 msgstr "64 位浮点（伽马）"
 
-#: ../app/actions/image-actions.c:257
+#: ../app/actions/image-actions.c:223
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 64 bit linear floating point"
 msgctxt "image-convert-action"
-msgid "Convert the image to 64 bit gamma-corrected floating point"
-msgstr "将图像转换为 64 位伽马校正浮点数"
+msgid "Convert the image to 64 bit floating point"
+msgstr "将图像转换为 64 位线性浮点数"
 
-#: ../app/actions/image-actions.c:264
+#: ../app/actions/image-actions.c:230
+msgctxt "image-convert-action"
+msgid "Perceptual gamma (sRGB)"
+msgstr ""
+
+#: ../app/actions/image-actions.c:232
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to grayscale"
+msgctxt "image-convert-action"
+msgid "Convert the image to preceptual (sRGB) gamma"
+msgstr "将图像转换为灰度"
+
+#: ../app/actions/image-actions.c:236
+#, fuzzy
+#| msgctxt "layer-mode-effects"
+#| msgid "Hard light"
+msgctxt "image-convert-action"
+msgid "Linear light"
+msgstr "硬光"
+
+#: ../app/actions/image-actions.c:238
+#, fuzzy
+#| msgctxt "image-convert-action"
+#| msgid "Convert the image to 8 bit linear integer"
+msgctxt "image-convert-action"
+msgid "Convert the image to linear light"
+msgstr "将图像转换为 8 位线性整数"
+
+#: ../app/actions/image-actions.c:245
 msgctxt "image-action"
 msgid "Flip _Horizontally"
 msgstr "水平翻转(_H)"
 
-#: ../app/actions/image-actions.c:265
+#: ../app/actions/image-actions.c:246
 msgctxt "image-action"
 msgid "Flip image horizontally"
 msgstr "水平翻转"
 
-#: ../app/actions/image-actions.c:270
+#: ../app/actions/image-actions.c:251
 msgctxt "image-action"
 msgid "Flip _Vertically"
 msgstr "垂直翻转(_V)"
 
-#: ../app/actions/image-actions.c:271
+#: ../app/actions/image-actions.c:252
 msgctxt "image-action"
 msgid "Flip image vertically"
 msgstr "垂直翻转"
 
-#: ../app/actions/image-actions.c:279
+#: ../app/actions/image-actions.c:260
 msgctxt "image-action"
 msgid "Rotate 90° _clockwise"
 msgstr "顺时针旋转 90 度(_C)"
 
-#: ../app/actions/image-actions.c:280
+#: ../app/actions/image-actions.c:261
 msgctxt "image-action"
 msgid "Rotate the image 90 degrees to the right"
 msgstr "将图像向右旋转 90 度"
 
-#: ../app/actions/image-actions.c:285
+#: ../app/actions/image-actions.c:266
 msgctxt "image-action"
 msgid "Rotate _180°"
 msgstr "旋转 _180 度"
 
-#: ../app/actions/image-actions.c:286
+#: ../app/actions/image-actions.c:267
 msgctxt "image-action"
 msgid "Turn the image upside-down"
 msgstr "使图像上下颠倒"
 
-#: ../app/actions/image-actions.c:291
+#: ../app/actions/image-actions.c:272
 msgctxt "image-action"
 msgid "Rotate 90° counter-clock_wise"
 msgstr "逆时针旋转 90 度(_W)"
 
-#: ../app/actions/image-actions.c:292
+#: ../app/actions/image-actions.c:273
 msgctxt "image-action"
 msgid "Rotate the image 90 degrees to the left"
 msgstr "将图像向左旋转 90 度"
 
-#: ../app/actions/image-commands.c:410
+#: ../app/actions/image-commands.c:424
 msgid "Set Image Canvas Size"
 msgstr "设置图像画布大小"
 
-#: ../app/actions/image-commands.c:439 ../app/actions/image-commands.c:463
-#: ../app/actions/image-commands.c:804
+#: ../app/actions/image-commands.c:453 ../app/actions/image-commands.c:477
+#: ../app/actions/image-commands.c:818
 msgid "Resizing"
 msgstr "改变大小"
 
-#: ../app/actions/image-commands.c:490
+#: ../app/actions/image-commands.c:504
 msgid "Set Image Print Resolution"
 msgstr "设置图像打印分辨率"
 
-#: ../app/actions/image-commands.c:552 ../app/pdb/drawable-transform-cmds.c:166
+#: ../app/actions/image-commands.c:566 ../app/pdb/drawable-transform-cmds.c:166
 #: ../app/pdb/drawable-transform-cmds.c:256
 #: ../app/pdb/item-transform-cmds.c:170
 msgid "Flipping"
 msgstr "翻转"
 
-#: ../app/actions/image-commands.c:576 ../app/pdb/drawable-transform-cmds.c:617
+#: ../app/actions/image-commands.c:590 ../app/pdb/drawable-transform-cmds.c:617
 #: ../app/pdb/drawable-transform-cmds.c:711
 #: ../app/pdb/image-transform-cmds.c:250 ../app/pdb/item-transform-cmds.c:443
 #: ../app/pdb/transform-tools-cmds.c:255 ../app/tools/gimprotatetool.c:126
 msgid "Rotating"
 msgstr "旋转"
 
-#: ../app/actions/image-commands.c:602 ../app/actions/layers-commands.c:702
+#: ../app/actions/image-commands.c:616 ../app/actions/layers-commands.c:702
 msgid "Cannot crop because the current selection is empty."
 msgstr "无法剪裁，因为当前选区为空。"
 
-#: ../app/actions/image-commands.c:636
+#: ../app/actions/image-commands.c:650
 #, fuzzy
 #| msgid "Cannot crop because the current selection is empty."
 msgid "Cannot crop because the image has no content."
 msgstr "无法剪裁，因为当前选区为空。"
 
-#: ../app/actions/image-commands.c:642
+#: ../app/actions/image-commands.c:656
 #, fuzzy
 #| msgid "Cannot crop because the current selection is empty."
 msgid "Cannot crop because the image is already cropped to its content."
 msgstr "无法剪裁，因为当前选区为空。"
 
-#: ../app/actions/image-commands.c:852
+#: ../app/actions/image-commands.c:866
 msgid "Change Print Size"
 msgstr "改变打印大小"
 
-#: ../app/actions/image-commands.c:893
+#: ../app/actions/image-commands.c:907
 msgid "Scale Image"
 msgstr "缩放图像"
 
 #. Scaling
-#: ../app/actions/image-commands.c:904 ../app/actions/layers-commands.c:1197
+#: ../app/actions/image-commands.c:918 ../app/actions/layers-commands.c:1197
 #: ../app/dialogs/preferences-dialog.c:1814
 #: ../app/pdb/drawable-transform-cmds.c:800
 #: ../app/pdb/drawable-transform-cmds.c:891
@@ -6030,7 +6023,7 @@ msgstr "链接(_L)"
 #: ../app/actions/vectors-actions.c:159
 msgctxt "vectors-action"
 msgid "L_ock strokes"
-msgstr "锁定笔划(_O)"
+msgstr "锁定笔廓(_O)"
 
 #: ../app/actions/vectors-actions.c:165
 #, fuzzy
@@ -6235,9 +6228,6 @@ msgid "Restore the previous zoom level"
 msgstr "恢复到上一次的缩放级别"
 
 #: ../app/actions/view-actions.c:114
-#, fuzzy
-#| msgctxt "view-zoom-action"
-#| msgid "Othe_r..."
 msgctxt "view-action"
 msgid "Othe_r..."
 msgstr "其它(_R)…"
@@ -6615,49 +6605,31 @@ msgid "Rotate 15 degrees to the right"
 msgstr "顺时针旋转 90 度"
 
 #: ../app/actions/view-actions.c:436
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90° _clockwise"
 msgctxt "view-action"
 msgid "Rotate 90° _clockwise"
 msgstr "顺时针旋转 90 度(_C)"
 
 #: ../app/actions/view-actions.c:437
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90 degrees to the right"
 msgctxt "view-action"
 msgid "Rotate 90 degrees to the right"
 msgstr "顺时针旋转 90 度"
 
 #: ../app/actions/view-actions.c:442
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate _180°"
 msgctxt "view-action"
 msgid "Rotate _180°"
 msgstr "旋转 180 度(_1)"
 
 #: ../app/actions/view-actions.c:443
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Turn upside-down"
 msgctxt "view-action"
 msgid "Turn upside-down"
 msgstr "上下颠倒"
 
 #: ../app/actions/view-actions.c:448
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90° counter-clock_wise"
 msgctxt "view-action"
 msgid "Rotate 90° counter-clock_wise"
 msgstr "逆时针旋转 90 度(_W)"
 
 #: ../app/actions/view-actions.c:449
-#, fuzzy
-#| msgctxt "drawable-action"
-#| msgid "Rotate 90 degrees to the left"
 msgctxt "view-action"
 msgid "Rotate 90 degrees to the left"
 msgstr "逆时针旋转 90 度"
@@ -7018,12 +6990,12 @@ msgstr "右撇子"
 #: ../app/config/config-enums.c:267
 msgctxt "position"
 msgid "Top"
-msgstr ""
+msgstr "顶层"
 
 #: ../app/config/config-enums.c:268
 msgctxt "position"
 msgid "Bottom"
-msgstr ""
+msgstr "底层"
 
 #: ../app/config/config-enums.c:269
 msgctxt "position"
@@ -7726,7 +7698,6 @@ msgid "Sparse dots"
 msgstr "稀疏点"
 
 #: ../app/core/core-enums.c:512
-#, fuzzy
 msgctxt "dash-preset"
 msgid "Normal dots"
 msgstr "正常点"
@@ -8930,7 +8901,7 @@ msgstr "位移可绘"
 #: ../app/core/gimpdrawable-stroke.c:271
 #: ../app/paint/gimppaintcore-stroke.c:331 ../app/vectors/gimpvectors.c:629
 msgid "Not enough points to stroke"
-msgstr "不足够的笔画点"
+msgstr "不足够的笔廓点"
 
 #: ../app/core/gimpdrawable-stroke.c:272
 #, fuzzy
@@ -10040,11 +10011,8 @@ msgid "Convert to"
 msgstr "转换为"
 
 #: ../app/dialogs/color-profile-dialog.c:224
-#, fuzzy
-#| msgctxt "vector-mode"
-#| msgid "Design"
 msgid "Assign"
-msgstr "设计"
+msgstr "指定"
 
 #: ../app/dialogs/color-profile-dialog.c:236
 msgid "Profile _details"
@@ -10121,55 +10089,75 @@ msgstr "将图像转换到 RGB 色彩空间"
 msgid "_Don't ask me again"
 msgstr "不再询问(_D)"
 
-#: ../app/dialogs/convert-precision-dialog.c:128
+#: ../app/dialogs/convert-precision-dialog.c:135
 #, fuzzy, c-format
 #| msgctxt "undo-type"
 #| msgid "Convert Image to RGB"
 msgid "Convert Image to %s"
 msgstr "将图像转换为 RGB"
 
-#: ../app/dialogs/convert-precision-dialog.c:132
+#: ../app/dialogs/convert-precision-dialog.c:139
 msgid "Precision Conversion"
 msgstr "精度转换"
 
-#: ../app/dialogs/convert-precision-dialog.c:147
+#: ../app/dialogs/convert-precision-dialog.c:154
 #: ../app/dialogs/convert-type-dialog.c:141
 msgid "C_onvert"
 msgstr "转换(_O)"
 
 #. dithering
-#: ../app/dialogs/convert-precision-dialog.c:178
+#: ../app/dialogs/convert-precision-dialog.c:185
 #: ../app/dialogs/convert-type-dialog.c:239 ../app/tools/gimpblendoptions.c:248
 msgid "Dithering"
 msgstr "抖动"
 
-#: ../app/dialogs/convert-precision-dialog.c:197
+#: ../app/dialogs/convert-precision-dialog.c:204
 #, fuzzy
 #| msgctxt "dialogs-action"
 #| msgid "_Layers"
 msgid "_Layers:"
 msgstr "图层(_L)"
 
-#: ../app/dialogs/convert-precision-dialog.c:219
+#: ../app/dialogs/convert-precision-dialog.c:226
 #, fuzzy
 #| msgid "Text Layer"
 msgid "_Text Layers:"
 msgstr "文字图层"
 
-#: ../app/dialogs/convert-precision-dialog.c:236
+#: ../app/dialogs/convert-precision-dialog.c:243
 #: ../app/dialogs/convert-type-dialog.c:289
 msgid "Dithering text layers will make them uneditable"
 msgstr ""
 
-#: ../app/dialogs/convert-precision-dialog.c:245
+#: ../app/dialogs/convert-precision-dialog.c:252
 #, fuzzy
 #| msgid "Channel _name:"
 msgid "_Channels and Masks:"
 msgstr "通道名字(_N)："
 
-#: ../app/dialogs/convert-precision-dialog.c:279
-msgid "Converting to lower bit depth"
-msgstr "正在转换为较低色深"
+#. gamma
+#: ../app/dialogs/convert-precision-dialog.c:272
+#: ../app/operations/gimplevelsconfig.c:111 ../app/tools/gimplevelstool.c:482
+msgid "Gamma"
+msgstr "伽马值"
+
+#: ../app/dialogs/convert-precision-dialog.c:285
+msgid "Perceptual gamma (sRGB)"
+msgstr ""
+
+#: ../app/dialogs/convert-precision-dialog.c:286
+#, fuzzy
+#| msgctxt "layer-mode-effects"
+#| msgid "Hard light"
+msgid "Linear light"
+msgstr "硬光"
+
+#: ../app/dialogs/convert-precision-dialog.c:316
+#, fuzzy, c-format
+#| msgctxt "undo-type"
+#| msgid "Convert Image to RGB"
+msgid "Converting image to %s"
+msgstr "将图像转换为 RGB"
 
 #: ../app/dialogs/convert-type-dialog.c:128
 msgid "Indexed Color Conversion"
@@ -10411,9 +10399,8 @@ msgid "_Merge"
 msgstr "合并(_M)"
 
 #: ../app/dialogs/image-merge-layers-dialog.c:96
-#, fuzzy
 msgid "Final, Merged Layer should be:"
-msgstr "最终合并的图层应为："
+msgstr "最后，合并的图层应该是："
 
 #: ../app/dialogs/image-merge-layers-dialog.c:100
 msgid "Expanded as necessary"
@@ -11111,8 +11098,6 @@ msgid "Clear Action History"
 msgstr "清除撤消历史"
 
 #: ../app/dialogs/preferences-dialog.c:1770
-#, fuzzy
-#| msgid "Tool Options"
 msgctxt "preferences"
 msgid "Tool Options"
 msgstr "工具选项"
@@ -11990,10 +11975,9 @@ msgid "Diagonal lines"
 msgstr "对角线"
 
 #: ../app/display/display-enums.c:66
-#, fuzzy
 msgctxt "guides-type"
 msgid "Number of lines"
-msgstr "网格线数量"
+msgstr "线的数量"
 
 #: ../app/display/display-enums.c:67
 #, fuzzy
@@ -12263,7 +12247,6 @@ msgid "Not a regular file"
 msgstr "不是普通文件"
 
 #: ../app/file/file-open.c:130 ../app/file/file-save.c:124
-#, fuzzy
 msgid "Permission denied"
 msgstr "访问被拒绝"
 
@@ -12359,9 +12342,8 @@ msgstr ""
 #: ../app/gegl/gimp-babl.c:291 ../app/gegl/gimp-babl.c:292
 #: ../app/gegl/gimp-babl.c:293 ../app/gegl/gimp-babl.c:294
 #: ../app/gegl/gimp-babl.c:295 ../app/gegl/gimp-babl.c:296
-#, fuzzy
 msgid "Grayscale"
-msgstr "灰度(_G)"
+msgstr "灰度级"
 
 #: ../app/gegl/gimp-babl.c:298 ../app/gegl/gimp-babl.c:299
 #: ../app/gegl/gimp-babl.c:300 ../app/gegl/gimp-babl.c:301
@@ -12434,16 +12416,12 @@ msgid ""
 msgstr "将图层的大小重设为图像的尺寸"
 
 #: ../app/operations/gimpbrightnesscontrastconfig.c:82
-#, fuzzy
-#| msgid "_Brightness:"
 msgid "Brightness"
-msgstr "亮度(_B)："
+msgstr "亮度"
 
 #: ../app/operations/gimpbrightnesscontrastconfig.c:87
-#, fuzzy
-#| msgid "Con_trast:"
 msgid "Contrast"
-msgstr "对比度(_T)："
+msgstr "对比"
 
 #: ../app/operations/gimpcolorbalanceconfig.c:96
 #: ../app/operations/gimphuesaturationconfig.c:94
@@ -12476,26 +12454,18 @@ msgstr "保持亮度(_L)"
 
 #: ../app/operations/gimpcolorizeconfig.c:85
 #: ../app/operations/gimphuesaturationconfig.c:100
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Hue"
 msgid "Hue"
-msgstr "色调"
+msgstr "色度"
 
 #: ../app/operations/gimpcolorizeconfig.c:90
 #: ../app/operations/gimphuesaturationconfig.c:105
-#, fuzzy
-#| msgctxt "layer-mode-effects"
-#| msgid "Saturation"
 msgid "Saturation"
 msgstr "饱和度"
 
 #: ../app/operations/gimpcolorizeconfig.c:95
 #: ../app/operations/gimphuesaturationconfig.c:110
-#, fuzzy
-#| msgid "_Lightness:"
 msgid "Lightness"
-msgstr "亮度(_L)："
+msgstr "亮度"
 
 #: ../app/operations/gimpcurvesconfig.c:104
 #: ../app/operations/gimplevelsconfig.c:105
@@ -12532,10 +12502,6 @@ msgstr "去色"
 #: ../app/operations/gimphuesaturationconfig.c:115
 msgid "Overlap"
 msgstr "覆盖"
-
-#: ../app/operations/gimplevelsconfig.c:111 ../app/tools/gimplevelstool.c:482
-msgid "Gamma"
-msgstr "伽马值"
 
 #: ../app/operations/gimplevelsconfig.c:116
 msgid "Low Input"
@@ -12763,7 +12729,7 @@ msgstr ""
 
 #: ../app/paint/gimppaintoptions.c:356
 msgid "Paint smoother strokes"
-msgstr "绘制平滑笔画"
+msgstr "绘制平滑笔廓"
 
 #: ../app/paint/gimppaintoptions.c:360
 msgid "Depth of smoothing"
@@ -13144,7 +13110,7 @@ msgstr "矢量对象“%d”不包括ID为“%d”的笔画"
 #: ../app/pdb/gimppdb-utils.c:726
 #, c-format
 msgid "Vectors object %d does not contain stroke with ID %d"
-msgstr "矢量对象“%d”不包括ID为“%d”的笔画"
+msgstr "矢量对象“%d”不包括ID为“%d”的笔廓"
 
 #: ../app/pdb/gimppdb.c:412
 #, c-format
@@ -13224,7 +13190,7 @@ msgstr "显示"
 #: ../app/pdb/plug-in-compat-cmds.c:347
 msgctxt "undo-type"
 msgid "Gaussian Blur"
-msgstr ""
+msgstr "高斯模糊"
 
 #: ../app/pdb/plug-in-compat-cmds.c:412
 msgctxt "undo-type"
@@ -13422,10 +13388,9 @@ msgid "Paper Tile"
 msgstr "纸砖"
 
 #: ../app/pdb/plug-in-compat-cmds.c:2917 ../app/pdb/plug-in-compat-cmds.c:2960
-#, fuzzy
 msgctxt "undo-type"
 msgid "Pixelize"
-msgstr "像素"
+msgstr "像素化"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3011
 msgctxt "undo-type"
@@ -13435,7 +13400,7 @@ msgstr "等离子"
 #: ../app/pdb/plug-in-compat-cmds.c:3065
 msgctxt "undo-type"
 msgid "Polar Coordinates"
-msgstr "极座标"
+msgstr "极坐标"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3105
 msgctxt "undo-type"
@@ -13485,10 +13450,9 @@ msgid "Semi-Flatten"
 msgstr "半拼合"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3549
-#, fuzzy
 msgctxt "undo-type"
 msgid "Shift"
-msgstr "偏移"
+msgstr "Shift"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3652
 msgctxt "undo-type"
@@ -13511,7 +13475,7 @@ msgstr "纯色"
 #: ../app/pdb/plug-in-compat-cmds.c:3805
 msgctxt "undo-type"
 msgid "Spread"
-msgstr ""
+msgstr "扩展"
 
 #: ../app/pdb/plug-in-compat-cmds.c:3846
 #, fuzzy
@@ -13580,37 +13544,37 @@ msgstr "设定文字图层属性"
 
 #: ../app/pdb/vectors-cmds.c:328
 msgid "Remove path stroke"
-msgstr "删除路径笔划"
+msgstr "删除路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:365
 msgid "Close path stroke"
-msgstr "闭合路径笔划"
+msgstr "闭合路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:410
 msgid "Translate path stroke"
-msgstr "转换路径笔划"
+msgstr "转换路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:455
 msgid "Scale path stroke"
-msgstr "缩放路径笔划"
+msgstr "缩放路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:502
 msgid "Rotate path stroke"
-msgstr "旋转路径笔划"
+msgstr "旋转路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:547 ../app/pdb/vectors-cmds.c:596
 msgid "Flip path stroke"
-msgstr "翻转路径笔划"
+msgstr "翻转路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:727 ../app/pdb/vectors-cmds.c:851
 #: ../app/pdb/vectors-cmds.c:1081
 msgid "Add path stroke"
-msgstr "添加路径笔划"
+msgstr "添加路径笔廓"
 
 #: ../app/pdb/vectors-cmds.c:905 ../app/pdb/vectors-cmds.c:961
 #: ../app/pdb/vectors-cmds.c:1025
 msgid "Extend path stroke"
-msgstr "延伸路径笔划"
+msgstr "延伸路径笔廓"
 
 #: ../app/plug-in/gimpenvirontable.c:329
 #, c-format
@@ -13851,8 +13815,6 @@ msgid "Motion only"
 msgstr "仅动画"
 
 #: ../app/tools/gimpairbrushtool.c:92
-#, fuzzy
-#| msgid "Rate"
 msgctxt "airbrush-tool"
 msgid "Rate"
 msgstr "比率"
@@ -14142,10 +14104,8 @@ msgid "Sample merged"
 msgstr "位样合并"
 
 #: ../app/tools/gimpbucketfilloptions.c:291
-#, fuzzy
-#| msgid "Fill by:"
 msgid "Fill by"
-msgstr "填充于："
+msgstr "填色使用"
 
 #: ../app/tools/gimpbucketfilltool.c:87
 msgid "Bucket Fill"
@@ -14214,10 +14174,8 @@ msgid "Source"
 msgstr "源"
 
 #: ../app/tools/gimpcloneoptions-gui.c:103 ../app/tools/gimphealtool.c:105
-#, fuzzy
-#| msgid "Alignment:"
 msgid "Alignment"
-msgstr "对齐："
+msgstr "对齐方式"
 
 #: ../app/tools/gimpclonetool.c:57
 msgid "Clone Tool: Selectively copy from an image or pattern, using a brush"
@@ -14502,8 +14460,6 @@ msgid "Convolve Type  (%s)"
 msgstr "卷积类型(%s)"
 
 #: ../app/tools/gimpconvolvetool.c:225
-#, fuzzy
-#| msgid "Rate"
 msgctxt "convolve-tool"
 msgid "Rate"
 msgstr "比率"
@@ -14828,10 +14784,8 @@ msgid "Draw Mode"
 msgstr "涂画模式"
 
 #: ../app/tools/gimpforegroundselectoptions.c:275
-#, fuzzy
-#| msgid "Stroke Path"
 msgid "Stroke width"
-msgstr "勾画路径"
+msgstr "笔廓宽度"
 
 #: ../app/tools/gimpforegroundselectoptions.c:294
 msgid "Reset stroke width native size"
@@ -14938,23 +14892,23 @@ msgstr "自由选区工具：使用自由线条或多边形线段选择手绘区
 msgid "_Free Select"
 msgstr "自由选择(_F)"
 
-#: ../app/tools/gimpfreeselecttool.c:1031
+#: ../app/tools/gimpfreeselecttool.c:950
 msgid "Click to complete selection"
 msgstr "点击并拖动可创建新的选区"
 
-#: ../app/tools/gimpfreeselecttool.c:1035
+#: ../app/tools/gimpfreeselecttool.c:954
 msgid "Click-Drag to move segment vertex"
 msgstr "点击并拖动可移动组件"
 
-#: ../app/tools/gimpfreeselecttool.c:1040
+#: ../app/tools/gimpfreeselecttool.c:959
 msgid "Return commits, Escape cancels, Backspace removes last segment"
 msgstr "回车键以确认，Esc 键以取消，回退键以移除最后片段"
 
-#: ../app/tools/gimpfreeselecttool.c:1044
+#: ../app/tools/gimpfreeselecttool.c:963
 msgid "Click-Drag adds a free segment, Click adds a polygonal segment"
 msgstr "点击并拖动以添加自由选区，点击以添加多边形选区"
 
-#: ../app/tools/gimpfreeselecttool.c:1568
+#: ../app/tools/gimpfreeselecttool.c:1515
 msgctxt "command"
 msgid "Free Select"
 msgstr "自由选择"
@@ -14989,7 +14943,7 @@ msgstr "GEGL 工具：使用无基准的 GEGL 操作"
 msgid "_GEGL Operation..."
 msgstr "_GEGL 操作…"
 
-#: ../app/tools/gimpgegltool.c:418
+#: ../app/tools/gimpgegltool.c:419
 msgid "Select an operation from the list above"
 msgstr "从以上列表中选择一项操作"
 
@@ -15536,7 +15490,6 @@ msgstr "添加参考线："
 #: ../app/tools/gimpmybrushoptions-gui.c:173
 #: ../app/tools/gimppaintoptions-gui.c:202 ../app/tools/gimpwarpoptions.c:206
 #: ../app/widgets/gimpbrusheditor.c:178
-#, fuzzy
 msgid "Hardness"
 msgstr "硬度"
 
@@ -15565,10 +15518,8 @@ msgstr "画笔(_P)"
 
 #: ../app/tools/gimpnpointdeformationoptions.c:76
 #: ../app/tools/gimpnpointdeformationoptions.c:204
-#, fuzzy
-#| msgid "Sensitivity"
 msgid "Density"
-msgstr "灵敏度"
+msgstr "密度"
 
 #: ../app/tools/gimpnpointdeformationoptions.c:81
 #: ../app/tools/gimpnpointdeformationoptions.c:212
@@ -15658,10 +15609,8 @@ msgstr "画笔(_P)"
 
 #: ../app/tools/gimppaintoptions-gui.c:112
 #: ../app/widgets/gimplayertreeview.c:270
-#, fuzzy
-#| msgid "Mode:"
 msgid "Mode"
-msgstr "模式："
+msgstr "模式"
 
 #: ../app/tools/gimppaintoptions-gui.c:171
 msgid "Reset size to brush's native size"
@@ -15693,9 +15642,6 @@ msgid "Reset hardness to default"
 msgstr "重置硬度为默认值"
 
 #: ../app/tools/gimppaintoptions-gui.c:210
-#, fuzzy
-#| msgctxt "dynamics-output-type"
-#| msgid "Force"
 msgid "Force"
 msgstr "力度"
 
@@ -15753,7 +15699,6 @@ msgid "Smooth stroke"
 msgstr "删除路径笔划"
 
 #: ../app/tools/gimppaintoptions-gui.c:421
-#, fuzzy
 msgid "Weight"
 msgstr "权重"
 
@@ -15816,7 +15761,6 @@ msgid "Perspective transformation"
 msgstr "透视变换"
 
 #: ../app/tools/gimpperspectivetool.c:256
-#, fuzzy
 msgctxt "undo-type"
 msgid "Perspective"
 msgstr "透视"
@@ -15861,14 +15805,12 @@ msgid "Y coordinate of top left corner"
 msgstr ""
 
 #: ../app/tools/gimprectangleoptions.c:152
-#, fuzzy
 msgid "Width of selection"
-msgstr "路径到选区"
+msgstr "选区宽度"
 
 #: ../app/tools/gimprectangleoptions.c:161
-#, fuzzy
 msgid "Height of selection"
-msgstr "路径到选区"
+msgstr "选区高度"
 
 #: ../app/tools/gimprectangleoptions.c:170
 msgid "Unit of top left corner coordinate"
@@ -15915,9 +15857,6 @@ msgid "Expand from center"
 msgstr "从中心扩展"
 
 #: ../app/tools/gimprectangleoptions.c:871
-#, fuzzy
-#| msgctxt "source-align-mode"
-#| msgid "Fixed"
 msgid "Fixed"
 msgstr "固定"
 
@@ -15967,7 +15906,7 @@ msgstr "矩形选择工具：选择矩形区域"
 msgid "_Rectangle Select"
 msgstr "矩形选择(_R)"
 
-#: ../app/tools/gimprectangletool.c:1146 ../app/tools/gimprectangletool.c:2016
+#: ../app/tools/gimprectangletool.c:1140 ../app/tools/gimprectangletool.c:2009
 msgid "Rectangle: "
 msgstr "矩形："
 
@@ -16026,11 +15965,11 @@ msgstr "角度(_A)："
 
 #: ../app/tools/gimprotatetool.c:211
 msgid "Center _X:"
-msgstr "中点 _X 座标："
+msgstr "中点 _X 坐标："
 
 #: ../app/tools/gimprotatetool.c:220
 msgid "Center _Y:"
-msgstr "中点 _Y 座标："
+msgstr "中点 _Y 坐标："
 
 #: ../app/tools/gimprotatetool.c:378
 #, c-format
@@ -16198,8 +16137,6 @@ msgid "Click to smudge the line"
 msgstr "点击可涂抹线段"
 
 #: ../app/tools/gimpsmudgetool.c:92
-#, fuzzy
-#| msgid "Rate"
 msgctxt "smudge-tool"
 msgid "Rate"
 msgstr "比率"
@@ -16349,9 +16286,8 @@ msgid "Direction of transformation"
 msgstr "透视变换"
 
 #: ../app/tools/gimptransformoptions.c:117
-#, fuzzy
 msgid "Interpolation method"
-msgstr "插值："
+msgstr "插值方法"
 
 #: ../app/tools/gimptransformoptions.c:123
 msgid "How to clip"
@@ -16381,10 +16317,8 @@ msgid "Direction"
 msgstr "方向"
 
 #: ../app/tools/gimptransformoptions.c:404
-#, fuzzy
-#| msgid "Interpolation:"
 msgid "Interpolation"
-msgstr "插值："
+msgstr "插值"
 
 #: ../app/tools/gimptransformoptions.c:411
 #, fuzzy
@@ -16407,8 +16341,9 @@ msgid "Guides"
 msgstr "参考线"
 
 #: ../app/tools/gimptransformoptions.c:455
-#, c-format
-msgid "15 degrees  (%s)"
+#, fuzzy, c-format
+#| msgid "15 degrees  (%s)"
+msgid "15 degrees (%s)"
 msgstr "15 度（%s）"
 
 #: ../app/tools/gimptransformoptions.c:456
@@ -16416,8 +16351,9 @@ msgid "Limit rotation steps to 15 degrees"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:461
-#, c-format
-msgid "Keep aspect  (%s)"
+#, fuzzy, c-format
+#| msgid "Keep aspect  (%s)"
+msgid "Keep aspect (%s)"
 msgstr "保持宽高比(%s)"
 
 #: ../app/tools/gimptransformoptions.c:462
@@ -16427,7 +16363,7 @@ msgstr ""
 #: ../app/tools/gimptransformoptions.c:480
 #, fuzzy, c-format
 #| msgid "Anti erase  (%s)"
-msgid "Constrain  (%s)"
+msgid "Constrain (%s)"
 msgstr "反擦除(%s)"
 
 #: ../app/tools/gimptransformoptions.c:481
@@ -16436,27 +16372,27 @@ msgstr "移动"
 
 #: ../app/tools/gimptransformoptions.c:482
 #, c-format
-msgid "Constrain movement to 45 degree angles from center  (%s)"
+msgid "Constrain movement to 45 degree angles from center (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:484
 #, c-format
-msgid "Maintain aspect ratio when scaling  (%s)"
+msgid "Maintain aspect ratio when scaling (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:486
 #, c-format
-msgid "Constrain rotation to 15 degree increments  (%s)"
+msgid "Constrain rotation to 15 degree increments (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:488
 #, c-format
-msgid "Shear along edge direction only  (%s)"
+msgid "Shear along edge direction only (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:490
 #, c-format
-msgid "Constrain perspective handles to move along edges and diagonal  (%s)"
+msgid "Constrain perspective handles to move along edges and diagonal (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:493
@@ -16466,17 +16402,17 @@ msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:495
 #, c-format
-msgid "Scale from pivot point  (%s)"
+msgid "Scale from pivot point (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:497
 #, c-format
-msgid "Shear opposite edge by same amount  (%s)"
+msgid "Shear opposite edge by same amount (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:499
 #, c-format
-msgid "Maintain position of pivot while changing perspective  (%s)"
+msgid "Maintain position of pivot while changing perspective (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:502
@@ -16486,19 +16422,17 @@ msgstr ""
 #: ../app/tools/gimptransformoptions.c:503
 #, fuzzy, c-format
 #| msgid "Type  (%s)"
-msgid "Snap  (%s)"
+msgid "Snap (%s)"
 msgstr "类型 (%s)"
 
 #: ../app/tools/gimptransformoptions.c:504
 #, c-format
-msgid "Snap pivot to corners and center  (%s)"
+msgid "Snap pivot to corners and center (%s)"
 msgstr ""
 
 #: ../app/tools/gimptransformoptions.c:505
-#, fuzzy
-#| msgid "Lock:"
 msgid "Lock"
-msgstr "锁定："
+msgstr "锁定"
 
 #: ../app/tools/gimptransformoptions.c:506
 msgid "Lock pivot position to canvas"
@@ -16543,7 +16477,7 @@ msgstr "没有路径可以变换。"
 
 #: ../app/tools/gimptransformtool.c:1859
 msgid "The active path's strokes are locked."
-msgstr "活动路径的笔划被锁定。"
+msgstr "活动路径的笔廓被锁定。"
 
 #: ../app/tools/gimpunifiedtransformtool.c:104
 #, fuzzy
@@ -16622,7 +16556,7 @@ msgstr "活动路径被锁定。"
 
 #: ../app/tools/gimpvectortool.c:342
 msgid "Add Stroke"
-msgstr "添加笔划"
+msgstr "添加笔廓"
 
 #: ../app/tools/gimpvectortool.c:367
 msgid "Add Anchor"
@@ -16650,7 +16584,7 @@ msgstr "拖动曲线"
 
 #: ../app/tools/gimpvectortool.c:525
 msgid "Connect Strokes"
-msgstr "连接笔划"
+msgstr "连接笔廓"
 
 #: ../app/tools/gimpvectortool.c:557
 msgid "Drag Path"
@@ -16768,10 +16702,8 @@ msgid "Number of animation frames"
 msgstr "网格线数量"
 
 #: ../app/tools/gimpwarpoptions.c:192
-#, fuzzy
-#| msgid "Length"
 msgid "Strength"
-msgstr "长度"
+msgstr "强度"
 
 #. the animation frame
 #: ../app/tools/gimpwarpoptions.c:213
@@ -16783,7 +16715,7 @@ msgstr "动画(_I)"
 
 #: ../app/tools/gimpwarpoptions.c:222
 msgid "Frames"
-msgstr ""
+msgstr "框体"
 
 #: ../app/tools/gimpwarpoptions.c:228
 #, fuzzy
@@ -16831,7 +16763,7 @@ msgstr ""
 
 #: ../app/tools/gimpwarptool.c:913
 msgid "Frame"
-msgstr ""
+msgstr "边框"
 
 #: ../app/tools/tools-enums.c:89
 #, fuzzy
@@ -16842,20 +16774,14 @@ msgid "Add / Transform"
 msgstr "变换"
 
 #: ../app/tools/tools-enums.c:90
-#, fuzzy
-#| msgctxt "tool"
-#| msgid "Move"
 msgctxt "transform-handle-mode"
 msgid "Move"
 msgstr "移动"
 
 #: ../app/tools/tools-enums.c:91
-#, fuzzy
-#| msgctxt "undo-type"
-#| msgid "Remove item"
 msgctxt "transform-handle-mode"
 msgid "Remove"
-msgstr "删除"
+msgstr "移除"
 
 #: ../app/tools/tools-enums.c:181
 msgctxt "rectangle-tool-fixed-rule"
@@ -16930,11 +16856,9 @@ msgid "Draw foreground"
 msgstr "标记前景"
 
 #: ../app/tools/tools-enums.c:340
-#, fuzzy
-#| msgid "Mark background"
 msgctxt "matting-draw-mode"
 msgid "Draw background"
-msgstr "标记背景"
+msgstr "绘制背景"
 
 #: ../app/tools/tools-enums.c:341
 #, fuzzy
@@ -17155,7 +17079,7 @@ msgid "Shortcut \"%s\" is already taken by \"%s\" from the \"%s\" group."
 msgstr "快捷键“%1$s”已被“%3$s”群组的“%2$s”占用。"
 
 #: ../app/widgets/gimpactionview.c:694
-#, fuzzy, c-format
+#, c-format
 msgid "Reassigning the shortcut will cause it to be removed from \"%s\"."
 msgstr "重新分配快捷键将导致它从“%s”中被去掉。"
 
@@ -18358,10 +18282,8 @@ msgid "9,300 K"
 msgstr "9,300 K"
 
 #: ../app/widgets/gimpsavedialog.c:157
-#, fuzzy
-#| msgid "All images"
 msgid "All XCF images"
-msgstr "全部图像"
+msgstr "全部 XCF 图像"
 
 #: ../app/widgets/gimpsavedialog.c:280
 #, c-format
@@ -18756,7 +18678,7 @@ msgid "Apply stored font"
 msgstr "应用存储的字体"
 
 #: ../app/widgets/gimptoolpreseteditor.c:292
-#, fuzzy, c-format
+#, c-format
 msgid "%s Preset"
 msgstr "%s 预设值"
 
@@ -18779,7 +18701,7 @@ msgstr "[ 原始图像 ]"
 
 #: ../app/widgets/gimpvectorstreeview.c:112
 msgid "Lock path strokes"
-msgstr "锁定路径笔划"
+msgstr "锁定路径笔廓"
 
 #: ../app/widgets/gimpvectorstreeview.c:115
 msgid "Lock path position"
@@ -18845,8 +18767,6 @@ msgid "Plain"
 msgstr "纯色"
 
 #: ../app/widgets/widgets-enums.c:53
-#| msgctxt "color-frame-mode"
-#| msgid "HSV"
 msgctxt "circle-background"
 msgid "HSV"
 msgstr "HSV"
@@ -19032,6 +18952,57 @@ msgstr "圆"
 #: ../data/tags/gimp-tags-default.xml.in.h:3
 msgid "fuzzy"
 msgstr "模糊"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "8 bit integer (linear)"
+#~ msgstr "8 位整数（线性）"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "Convert the image to 8 bit gamma-corrected integer"
+#~ msgstr "将图像转换为 8 位伽马校正整数"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "16 bit integer (linear)"
+#~ msgstr "16 位整数（线性）"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "Convert the image to 16 bit gamma-corrected integer"
+#~ msgstr "将图像转换为 15 位伽马校正整数"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "32 bit integer (linear)"
+#~ msgstr "32 位整数（线性）"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "Convert the image to 32 bit gamma-corrected integer"
+#~ msgstr "将图像转换为 32 位伽马校正整数"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "16 bit floating point (linear)"
+#~ msgstr "16 位浮点（线性）"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "Convert the image to 16 bit gamma-corrected floating point"
+#~ msgstr "将图像转换为 16 位伽马校正浮点数"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "32 bit floating point (linear)"
+#~ msgstr "32 位浮点（线性）"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "Convert the image to 32 bit gamma-corrected floating point"
+#~ msgstr "将图像转换为 32 位伽马校正浮点数"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "64 bit floating point (linear)"
+#~ msgstr "64 位浮点（线性）"
+
+#~ msgctxt "image-convert-action"
+#~ msgid "Convert the image to 64 bit gamma-corrected floating point"
+#~ msgstr "将图像转换为 64 位伽马校正浮点数"
+
+#~ msgid "Converting to lower bit depth"
+#~ msgstr "正在转换为较低色深"
 
 #~ msgid ""
 #~ "Unable to open a test swap file.\n"
