@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-23 19:18-0500\n"
+"PO-Revision-Date: 2015-11-23 19:24-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,1784,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,1790,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -8826,17 +8826,17 @@ msgstr "尚未实现在面板对象 %p（对象类型 %s）中调用 gdl_dock_ob
 #: ../src/libgdl/gdl-dock-object.c:602
 #, c-format
 msgid "Dock operation requested in a non-bound object %p. The application might crash"
-msgstr "停靠操作要求为捆绑的对象%p. 程序可能崩溃"
+msgstr "在非捆绑（自由）对象 %p 中请求了停靠操作。程序可能崩溃"
 
 #: ../src/libgdl/gdl-dock-object.c:609
 #, c-format
 msgid "Cannot dock %p to %p because they belong to different masters"
-msgstr "不能将%p停靠到%p, 因为他们属于不同的主栏"
+msgstr "不能将 %p 停靠到 %p, 因为他们属于不同的主栏"
 
 #: ../src/libgdl/gdl-dock-object.c:651
 #, c-format
 msgid "Attempt to bind to %p an already bound dock object %p (current master: %p)"
-msgstr "试图向%p中捆绑一个已经绑定的面板对象%p (当前主栏: %p)"
+msgstr "试图向 %p 中捆绑一个已经绑定的面板对象 %p（当前主栏：%p）"
 
 #: ../src/libgdl/gdl-dock-paned.c:130 ../src/widgets/ruler.cpp:230
 msgid "Position"
@@ -8844,11 +8844,11 @@ msgstr "位置"
 
 #: ../src/libgdl/gdl-dock-paned.c:131
 msgid "Position of the divider in pixels"
-msgstr "除法器的位置，单位为像素"
+msgstr "分隔线的位置，按像素计"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:141
 msgid "Sticky"
-msgstr "粘性"
+msgstr "置顶"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:142
 msgid "Whether the placeholder will stick to its host or move up the hierarchy when the host is redocked"
@@ -8856,7 +8856,7 @@ msgstr "当占位符重新停靠上宿主时，附着于宿主还是向上移动
 
 #: ../src/libgdl/gdl-dock-placeholder.c:149
 msgid "Host"
-msgstr "主控"
+msgstr "宿主"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:150
 msgid "The dock object this placeholder is attached to"
@@ -9901,7 +9901,7 @@ msgstr "控制柄 4 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移�
 # Bai, look at your TM here.
 #: ../src/live_effects/lpe-lattice2.cpp:54
 msgid "Control 5:"
-msgstr ""
+msgstr "控制柄 5："
 
 #: ../src/live_effects/lpe-lattice2.cpp:54
 msgid "Control 5 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9909,7 +9909,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:55
 msgid "Control 6:"
-msgstr ""
+msgstr "控制柄 6："
 
 #: ../src/live_effects/lpe-lattice2.cpp:55
 msgid "Control 6 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9917,7 +9917,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:56
 msgid "Control 7:"
-msgstr ""
+msgstr "控制柄 7："
 
 #: ../src/live_effects/lpe-lattice2.cpp:56
 msgid "Control 7 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9925,7 +9925,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:57
 msgid "Control 8x9:"
-msgstr ""
+msgstr "控制柄 8x9："
 
 #: ../src/live_effects/lpe-lattice2.cpp:57
 msgid "Control 8x9 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9933,7 +9933,7 @@ msgstr "控制柄 8x9 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴�
 
 #: ../src/live_effects/lpe-lattice2.cpp:58
 msgid "Control 10x11:"
-msgstr ""
+msgstr "控制柄 10x11："
 
 #: ../src/live_effects/lpe-lattice2.cpp:58
 msgid "Control 10x11 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9941,7 +9941,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:59
 msgid "Control 12:"
-msgstr ""
+msgstr "控制柄 12："
 
 #: ../src/live_effects/lpe-lattice2.cpp:59
 msgid "Control 12 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9949,7 +9949,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:60
 msgid "Control 13:"
-msgstr ""
+msgstr "控制柄 13："
 
 #: ../src/live_effects/lpe-lattice2.cpp:60
 msgid "Control 13 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9957,7 +9957,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:61
 msgid "Control 14:"
-msgstr ""
+msgstr "控制柄 14："
 
 #: ../src/live_effects/lpe-lattice2.cpp:61
 msgid "Control 14 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9965,7 +9965,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:62
 msgid "Control 15:"
-msgstr ""
+msgstr "控制柄 15："
 
 #: ../src/live_effects/lpe-lattice2.cpp:62
 msgid "Control 15 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9973,7 +9973,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:63
 msgid "Control 16:"
-msgstr ""
+msgstr "控制柄 16："
 
 #: ../src/live_effects/lpe-lattice2.cpp:63
 msgid "Control 16 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9981,7 +9981,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:64
 msgid "Control 17:"
-msgstr ""
+msgstr "控制柄 17："
 
 #: ../src/live_effects/lpe-lattice2.cpp:64
 msgid "Control 17 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9989,7 +9989,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:65
 msgid "Control 18:"
-msgstr ""
+msgstr "控制柄 18："
 
 #: ../src/live_effects/lpe-lattice2.cpp:65
 msgid "Control 18 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -9997,7 +9997,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:66
 msgid "Control 19:"
-msgstr ""
+msgstr "控制柄 19："
 
 #: ../src/live_effects/lpe-lattice2.cpp:66
 msgid "Control 19 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -10005,7 +10005,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:67
 msgid "Control 20x21:"
-msgstr ""
+msgstr "控制柄 20x21："
 
 #: ../src/live_effects/lpe-lattice2.cpp:67
 msgid "Control 20x21 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -10013,7 +10013,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:68
 msgid "Control 22x23:"
-msgstr ""
+msgstr "控制柄 22x23："
 
 #: ../src/live_effects/lpe-lattice2.cpp:68
 msgid "Control 22x23 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -10021,7 +10021,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:69
 msgid "Control 24x26:"
-msgstr ""
+msgstr "控制柄 24x26："
 
 #: ../src/live_effects/lpe-lattice2.cpp:69
 msgid "Control 24x26 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -10029,7 +10029,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:70
 msgid "Control 25x27:"
-msgstr ""
+msgstr "控制柄 15x27："
 
 #: ../src/live_effects/lpe-lattice2.cpp:70
 msgid "Control 25x27 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -10037,7 +10037,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:71
 msgid "Control 28x30:"
-msgstr ""
+msgstr "控制柄 18x30："
 
 #: ../src/live_effects/lpe-lattice2.cpp:71
 msgid "Control 28x30 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
@@ -10045,19 +10045,19 @@ msgstr ""
 
 #: ../src/live_effects/lpe-lattice2.cpp:72
 msgid "Control 29x31:"
-msgstr ""
+msgstr "控制柄 29x31："
 
 #: ../src/live_effects/lpe-lattice2.cpp:72
 msgid "Control 29x31 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 29x31 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:73
 msgid "Control 32x33x34x35:"
-msgstr ""
+msgstr "控制柄 32x33x34x35："
 
 #: ../src/live_effects/lpe-lattice2.cpp:73
 msgid "Control 32x33x34x35 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 32x33x34x35 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:236
 msgid "Reset grid"
