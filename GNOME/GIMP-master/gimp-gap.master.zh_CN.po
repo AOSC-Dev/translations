@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: gimp-std-plugins\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp-gap&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-23 19:14+0000\n"
-"PO-Revision-Date: 2015-11-23 19:39-0500\n"
+"PO-Revision-Date: 2015-11-24 23:09-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -2234,8 +2234,9 @@ msgstr ""
 
 #. shiftPhaseY spinbutton
 #: ../gap/gap_fire_pattern.c:1819
+#, fuzzy
 msgid "Phase shift"
-msgstr ""
+msgstr "相移"
 
 #: ../gap/gap_fire_pattern.c:1827 ../gap/gap_water_pattern.c:1169
 msgid "Vertical shift phase where 1.0 refers to image height"
@@ -2372,8 +2373,9 @@ msgid "width of the flame at base line (1.0 for full image width)"
 msgstr ""
 
 #: ../gap/gap_fire_pattern.c:2135
+#, fuzzy
 msgid "Top:"
-msgstr ""
+msgstr "顶:"
 
 #: ../gap/gap_fire_pattern.c:2145
 msgid "width of the flame at flame height (1.0 for full image width)"
@@ -3012,7 +3014,7 @@ msgstr "透明度"
 #: ../gap/gap_mod_layer_dialog.c:728 ../gap/gap_mov_dialog.c:3920
 #: ../gap/gap_wr_layermode.c:366
 msgid "Saturation"
-msgstr ""
+msgstr "饱和度"
 
 #: ../gap/gap_mod_layer_dialog.c:733 ../gap/gap_mov_dialog.c:3921
 #: ../gap/gap_wr_layermode.c:367
@@ -3289,7 +3291,7 @@ msgstr ""
 
 #: ../gap/gap_mod_layer_dialog.c:1097
 msgid "Add alpha channel"
-msgstr ""
+msgstr "添加alpha通道"
 
 #: ../gap/gap_mod_layer_dialog.c:1103
 #, fuzzy
@@ -3588,8 +3590,9 @@ msgstr ""
 
 #. radio button SHOW
 #: ../gap/gap_morph_dialog.c:3022
+#, fuzzy
 msgid "Show"
-msgstr ""
+msgstr "显示"
 
 #: ../gap/gap_morph_dialog.c:3031
 msgid "Click: show warp pick coordinates in the source window"
@@ -3824,8 +3827,9 @@ msgstr ""
 
 #. the show lines checkbutton
 #: ../gap/gap_morph_dialog.c:4021
+#, fuzzy
 msgid "Lines"
-msgstr ""
+msgstr "线条"
 
 #: ../gap/gap_morph_dialog.c:4030
 msgid "Show movement vector lines in the destination preview"
@@ -4406,7 +4410,7 @@ msgstr "背后"
 
 #: ../gap/gap_mov_dialog.c:3910 ../gap/gap_wr_layermode.c:356
 msgid "Hard Light"
-msgstr ""
+msgstr "实光"
 
 #: ../gap/gap_mov_dialog.c:3911 ../gap/gap_wr_layermode.c:357
 msgid "Soft Light"
@@ -5253,13 +5257,15 @@ msgstr ""
 
 #. lower, upper (unconstrained)
 #: ../gap/gap_mov_dialog.c:5655
+#, fuzzy
 msgid "X coordinate"
-msgstr ""
+msgstr "横坐标"
 
 #. lower, upper (unconstrained)
 #: ../gap/gap_mov_dialog.c:5673
+#, fuzzy
 msgid "Y coordinate"
-msgstr ""
+msgstr "X 坐标"
 
 #. Keyframe
 #. table col, row
@@ -7382,7 +7388,7 @@ msgstr ""
 
 #: ../gap/gap_stock.c:44
 msgid "Add Point"
-msgstr ""
+msgstr "添加点"
 
 #: ../gap/gap_stock.c:45
 #, fuzzy
@@ -7395,7 +7401,7 @@ msgstr ""
 
 #: ../gap/gap_stock.c:47
 msgid "Delete Point"
-msgstr ""
+msgstr "删除点"
 
 #: ../gap/gap_stock.c:48
 msgid "First Point"
@@ -7764,7 +7770,7 @@ msgstr ""
 
 #: ../gap/gap_story_dialog.c:5212
 msgid "medium"
-msgstr ""
+msgstr "中等"
 
 #: ../gap/gap_story_dialog.c:5213
 msgid "small"
@@ -7792,7 +7798,7 @@ msgstr ""
 
 #: ../gap/gap_story_dialog.c:5245 ../gap/gap_story_dialog.c:5285
 msgid "Rows:"
-msgstr ""
+msgstr "行："
 
 #: ../gap/gap_story_dialog.c:5246
 msgid "rows in the cliplist"
@@ -7927,7 +7933,7 @@ msgstr ""
 
 #: ../gap/gap_story_dialog.c:6302
 msgid "Global"
-msgstr ""
+msgstr "全局"
 
 #: ../gap/gap_story_dialog.c:6316
 #, fuzzy
@@ -8687,8 +8693,9 @@ msgstr ""
 
 #. radio button mask_anchor Clip
 #: ../gap/gap_story_properties.c:4729
+#, fuzzy
 msgid "Clip"
-msgstr ""
+msgstr "裁剪"
 
 #: ../gap/gap_story_properties.c:4738
 msgid "Attach mask to clip at clip position in clip size"
@@ -8699,8 +8706,9 @@ msgstr ""
 #. Channel the radio buttons
 #: ../gap/gap_story_properties.c:4747 ../gap/gap_wr_color_huesat.c:645
 #: ../gap/gap_wr_color_levels.c:654
+#, fuzzy
 msgid "Master"
-msgstr ""
+msgstr "主栏"
 
 #: ../gap/gap_story_properties.c:4756
 msgid "Attach mask in resulting master video size at fixed position"
@@ -9344,10 +9352,9 @@ msgid "Creating video index %0.3f %%"
 msgstr "创建视频索引 %0.3f·%%"
 
 #: ../gap/gap_video_index_creator.c:1600
-#, fuzzy, c-format
-#| msgid "Creating video index %0.3f %%"
+#, c-format
 msgid "Creating video index %0.3f %% (%d)"
-msgstr "创建视频索引 %0.3f·%%"
+msgstr "正创建视频索引 %0.3f %% (%d)"
 
 #. The dialog1 and main vbox
 #: ../gap/gap_water_pattern.c:1039
@@ -9449,7 +9456,7 @@ msgstr "选择要调整的范围"
 #. Transfer Mode the radio buttons
 #: ../gap/gap_wr_color_balance.c:618
 msgid "Shadows"
-msgstr ""
+msgstr "阴影"
 
 #: ../gap/gap_wr_color_balance.c:623
 msgid "Midtones"
@@ -9465,22 +9472,16 @@ msgid "Adjust Color Levels"
 msgstr "调整颜色色阶"
 
 #: ../gap/gap_wr_color_balance.c:661
-#, fuzzy
-#| msgid "Cyan"
 msgid "Cyan/Red:"
-msgstr "青色"
+msgstr "青色/红色："
 
 #: ../gap/gap_wr_color_balance.c:675
-#, fuzzy
-#| msgid "Magenta"
 msgid "Magenta/Green:"
-msgstr "品红"
+msgstr "品红/绿色："
 
 #: ../gap/gap_wr_color_balance.c:693
-#, fuzzy
-#| msgid "Yellow"
 msgid "Yellow/Blue:"
-msgstr "黄色"
+msgstr "黄色/蓝色："
 
 #: ../gap/gap_wr_color_balance.c:711
 msgid "Preserve luminosity"
@@ -9566,7 +9567,7 @@ msgstr "亮度："
 
 #: ../gap/gap_wr_color_huesat.c:701
 msgid "Saturation:"
-msgstr ""
+msgstr "饱和度："
 
 #: ../gap/gap_wr_color_levels.c:272
 msgid "Levels..."
@@ -9671,7 +9672,7 @@ msgstr ""
 
 #: ../gap/gap_wr_resynth.c:491
 msgid "Seed:"
-msgstr ""
+msgstr "种子："
 
 #: ../gap/gap_wr_resynth.c:607
 #, c-format
@@ -9683,11 +9684,11 @@ msgstr ""
 
 #: ../gap/gap_wr_trans.c:185
 msgid "Flip Horizontal"
-msgstr ""
+msgstr "水平翻转"
 
 #: ../gap/gap_wr_trans.c:202
 msgid "Flip Vertical"
-msgstr ""
+msgstr "垂直翻转"
 
 #: ../gap/gap_wr_trans.c:219
 msgid "Rotate 90 degrees CW"
@@ -10249,8 +10250,9 @@ msgstr ""
 
 #. the Load button
 #: ../vid_common/gap_cme_gui.c:3311
+#, fuzzy
 msgid "Load"
-msgstr ""
+msgstr "载入"
 
 #: ../vid_common/gap_cme_gui.c:3314
 msgid "Load audiotool configuration from gimprc"
@@ -10469,7 +10471,7 @@ msgstr ""
 
 #: ../vid_common/gap_cme_gui.c:3861
 msgid "undefined"
-msgstr ""
+msgstr "未定义"
 
 #: ../vid_common/gap_cme_gui.c:3870
 #, fuzzy
@@ -10611,8 +10613,9 @@ msgstr ""
 #. the jpeg quality label
 #. the xvid quality label
 #: ../vid_enc_avi/gap_enc_avi_gui.c:692 ../vid_enc_avi/gap_enc_avi_gui.c:1168
+#, fuzzy
 msgid "Quality:"
-msgstr ""
+msgstr "质量："
 
 #: ../vid_enc_avi/gap_enc_avi_gui.c:716
 msgid "The quality setting of the encoded JPEG frames (100=best quality)"
@@ -11164,48 +11167,42 @@ msgid "15 cavs"
 msgstr ""
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1740
-#, fuzzy
 #| msgid "10 simplearm"
 msgid "16 simplearmv5te"
-msgstr "10 simplearm"
+msgstr "16 simplearmv5te"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1741
-#, fuzzy
 #| msgid "10 simplearm"
 msgid "17 simplearmv6"
-msgstr "10 simplearm"
+msgstr "17 simplearmv6"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1742
-#, fuzzy
 #| msgid "2 simple"
 msgid "18 simplevis"
-msgstr "2 简单"
+msgstr "18 simplevis"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1743
 msgid "19 wmv2"
 msgstr ""
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1744
-#, fuzzy
 #| msgid "6 faan"
 msgid "20 faan"
-msgstr "6 Faan"
+msgstr "20 faan"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1745
 msgid "21 ea"
 msgstr ""
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1746
-#, fuzzy
 #| msgid "2 simple"
 msgid "22 simpleneon"
-msgstr "2 简单"
+msgstr "22 simpleneon"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1747
-#, fuzzy
 #| msgid "2 simple"
 msgid "23 simplealpha"
-msgstr "2 简单"
+msgstr "23 simplealpha"
 
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:1755
 msgid "Select algorithm for IDCT"
@@ -11782,7 +11779,6 @@ msgstr ""
 
 #. the use_gray checkbutton
 #: ../vid_enc_ffmpeg/gap_enc_ffmpeg_gui.c:2974
-#, fuzzy
 msgid "Use Gray"
 msgstr "使用灰色"
 

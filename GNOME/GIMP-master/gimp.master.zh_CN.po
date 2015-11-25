@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: gimp HEAD\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2015-11-23 21:30+0000\n"
-"PO-Revision-Date: 2015-11-23 19:28-0500\n"
+"PO-Revision-Date: 2015-11-24 23:07-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese/Simplified <i18n-translation@lists.linux.net.cn>\n"
 "Language: zh_CN\n"
@@ -440,7 +440,7 @@ msgstr "窗口"
 #: ../app/actions/actions.c:586
 #, c-format
 msgid "%s: %.2f"
-msgstr "%s: %.2f"
+msgstr "%s：%.2f"
 
 #. value description and new value shown in the status bar
 #: ../app/actions/actions.c:612
@@ -2645,11 +2645,9 @@ msgid "_Alien Map..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:48
-#, fuzzy
-#| msgid "_Antialiasing"
 msgctxt "filters-action"
 msgid "_Antialias..."
-msgstr "反锯齿(_A)"
+msgstr "反锯齿(_A)…"
 
 #: ../app/actions/filters-actions.c:53
 msgctxt "filters-action"
@@ -2657,12 +2655,9 @@ msgid "_Apply Canvas..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:58
-#, fuzzy
-#| msgctxt "view-action"
-#| msgid "Display _Filters..."
 msgctxt "filters-action"
 msgid "Apply _Lens..."
-msgstr "显示滤镜(_F)…"
+msgstr "应用镜头(_L)…"
 
 #: ../app/actions/filters-actions.c:63
 msgctxt "filters-action"
@@ -2670,10 +2665,9 @@ msgid "_Bump Map..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:68
-#, fuzzy
 msgctxt "filters-action"
 msgid "_Color to Gray..."
-msgstr "色彩平衡(_B)…"
+msgstr "彩色到灰度(_C)…"
 
 #: ../app/actions/filters-actions.c:73
 msgctxt "filters-action"
@@ -2681,12 +2675,9 @@ msgid "Ca_rtoon..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:78
-#, fuzzy
-#| msgctxt "channels-action"
-#| msgid "_New Channel..."
 msgctxt "filters-action"
 msgid "_Channel Mixer..."
-msgstr "新建通道(_N)…"
+msgstr "通道混合器(_C)…"
 
 #: ../app/actions/filters-actions.c:83
 msgctxt "filters-action"
@@ -2694,11 +2685,9 @@ msgid "_Checkerboard..."
 msgstr ""
 
 #: ../app/actions/filters-actions.c:88
-#, fuzzy
-#| msgid "Color _Balance..."
 msgctxt "filters-action"
 msgid "_Color Enhance..."
-msgstr "色彩平衡(_B)…"
+msgstr "色彩增强(_C)…"
 
 #: ../app/actions/filters-actions.c:93
 #, fuzzy
@@ -2916,7 +2905,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:263
 msgctxt "filters-action"
 msgid "HSV Noise..."
-msgstr ""
+msgstr "HSV 噪音…"
 
 #: ../app/actions/filters-actions.c:268
 msgctxt "filters-action"
@@ -3098,7 +3087,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:413
 msgctxt "filters-action"
 msgid "_Unsharp Mask..."
-msgstr ""
+msgstr "取消锐化蒙版(_U)…"
 
 #: ../app/actions/filters-actions.c:418
 #, fuzzy
@@ -9597,16 +9586,14 @@ msgid "Delete Layer Mask"
 msgstr "删除图层蒙板"
 
 #: ../app/core/gimplayer.c:1793
-#, fuzzy
 msgctxt "undo-type"
 msgid "Enable Layer Mask"
-msgstr "禁用图层蒙板(_D)"
+msgstr "启用图层蒙板"
 
 #: ../app/core/gimplayer.c:1794
-#, fuzzy
 msgctxt "undo-type"
 msgid "Disable Layer Mask"
-msgstr "禁用图层蒙板(_D)"
+msgstr "禁用图层蒙板"
 
 #: ../app/core/gimplayer.c:1873
 msgctxt "undo-type"
@@ -9711,10 +9698,8 @@ msgid "Premature end of file."
 msgstr ""
 
 #: ../app/core/gimppalettemru.c:120 ../app/core/gimppalettemru.c:254
-#, fuzzy
-#| msgid "History"
 msgid "History Color"
-msgstr "历史"
+msgstr "历史颜色"
 
 #: ../app/core/gimppattern-load.c:60
 #, fuzzy
@@ -12476,8 +12461,6 @@ msgid "The affected channel"
 msgstr "删除通道"
 
 #: ../app/operations/gimpcurvesconfig.c:110
-#, fuzzy
-#| msgid "Curves"
 msgid "Curve"
 msgstr "曲线"
 
@@ -12494,10 +12477,8 @@ msgid "Writing curves file failed: "
 msgstr ""
 
 #: ../app/operations/gimpdesaturateconfig.c:73
-#, fuzzy
-#| msgid "Desaturate"
 msgid "Desaturate mode"
-msgstr "去色"
+msgstr "去色模式"
 
 #: ../app/operations/gimphuesaturationconfig.c:115
 msgid "Overlap"
@@ -13252,10 +13233,9 @@ msgid "Channel Mixer"
 msgstr "通道菜单"
 
 #: ../app/pdb/plug-in-compat-cmds.c:988
-#, fuzzy
 msgctxt "undo-type"
 msgid "Color to Alpha"
-msgstr "添加颜色到颜色表"
+msgstr "色彩转 Alpha"
 
 #: ../app/pdb/plug-in-compat-cmds.c:1034
 #, c-format
@@ -13268,11 +13248,9 @@ msgid "Array 'channels' has only %d members, must have 5"
 msgstr ""
 
 #: ../app/pdb/plug-in-compat-cmds.c:1114
-#, fuzzy
-#| msgid "Transformation Matrix"
 msgctxt "undo-type"
 msgid "Convolution Matrix"
-msgstr "变换矩阵"
+msgstr "卷积矩阵"
 
 #: ../app/pdb/plug-in-compat-cmds.c:1176
 msgctxt "undo-type"
@@ -13280,11 +13258,9 @@ msgid "Cubism"
 msgstr "立体主义"
 
 #: ../app/pdb/plug-in-compat-cmds.c:1221
-#, fuzzy
-#| msgid "Interface"
 msgctxt "undo-type"
 msgid "Deinterlace"
-msgstr "界面"
+msgstr "取消隔行扫描"
 
 #: ../app/pdb/plug-in-compat-cmds.c:1300
 #, fuzzy
@@ -13322,12 +13298,9 @@ msgid "Glass Tile"
 msgstr "玻璃砖"
 
 #: ../app/pdb/plug-in-compat-cmds.c:1857
-#, fuzzy
-#| msgctxt "plug-in-action"
-#| msgid "_Noise"
 msgctxt "undo-type"
 msgid "Noise HSV"
-msgstr "噪音(_N)"
+msgstr "噪音 HSV"
 
 #: ../app/pdb/plug-in-compat-cmds.c:2121 ../app/pdb/plug-in-compat-cmds.c:2181
 #, fuzzy
@@ -13366,11 +13339,9 @@ msgid "Maze"
 msgstr "迷宫"
 
 #: ../app/pdb/plug-in-compat-cmds.c:2539 ../app/pdb/plug-in-compat-cmds.c:2623
-#, fuzzy
-#| msgid "Motion only"
 msgctxt "undo-type"
 msgid "Motion Blur"
-msgstr "仅动画"
+msgstr "运动模糊"
 
 #: ../app/pdb/plug-in-compat-cmds.c:2724
 msgctxt "undo-type"
@@ -14762,14 +14733,12 @@ msgid "Matting engine to use"
 msgstr ""
 
 #: ../app/tools/gimpforegroundselectoptions.c:112
-#, fuzzy
-#| msgid "Number of _processors to use:"
 msgid "Number of downsampled levels to use"
-msgstr "处理器使用数量(_P)："
+msgstr "降采样的的级别数"
 
 #: ../app/tools/gimpforegroundselectoptions.c:118
 msgid "Number of levels to perform solving"
-msgstr ""
+msgstr "执行解算的级别数"
 
 #: ../app/tools/gimpforegroundselectoptions.c:124
 #, fuzzy
@@ -14808,10 +14777,8 @@ msgid "Active levels"
 msgstr "活动滤镜"
 
 #: ../app/tools/gimpforegroundselectoptions.c:350
-#, fuzzy
-#| msgid "Interpolation:"
 msgid "Iterations"
-msgstr "插值："
+msgstr "迭代"
 
 #: ../app/tools/gimpforegroundselecttool.c:184
 msgid "Foreground Select"

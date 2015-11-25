@@ -54,7 +54,7 @@ Terminology Difference
 |dissolve (blend)|融化|融解|yes|
 |grain|增益|颗粒|no|
 |margin|边空|边距|no|
-|stroke|[笔划,笔画]|笔廓|yes|
+|stroke|[笔划,笔画,划线]|笔廓|yes|
 
 
 Notes
