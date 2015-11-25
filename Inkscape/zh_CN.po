@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-24 16:34-0500\n"
+"PO-Revision-Date: 2015-11-25 17:03-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,1805,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,2227,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -8916,7 +8916,7 @@ msgstr "从非我方主机（%2$p）的对象（%1$p）收到分离信号"
 #: ../src/libgdl/gdl-dock-placeholder.c:636
 #, c-format
 msgid "Something weird happened while getting the child placement for %p from parent %p"
-msgstr "为%p获取子位置(从父对象%p中)时发生意外"
+msgstr "从父对象 %1$p 中为 %2$p 获取子位置时发生意外"
 
 #: ../src/libgdl/gdl-dock-tablabel.c:126
 msgid "Dockitem which 'owns' this tablabel"
@@ -8929,7 +8929,7 @@ msgstr "浮动"
 
 #: ../src/libgdl/gdl-dock.c:177
 msgid "Whether the dock is floating in its own window"
-msgstr "面板在其窗口中是否浮动"
+msgstr "面板是否浮动在其窗口中"
 
 #: ../src/libgdl/gdl-dock.c:185
 msgid "Default title for the newly created floating docks"
@@ -8966,7 +8966,9 @@ msgstr "面板 #%d"
 
 #: ../src/libnrtype/FontFactory.cpp:636
 msgid "Ignoring font without family that will crash Pango"
-msgstr "忽略没有族(family)的字体"
+msgstr ""
+"忽略没有字族信息会导致 Pango 崩溃\n"
+"的字体"
 
 #: ../src/live_effects/effect.cpp:99
 msgid "doEffect stack test"
@@ -8994,7 +8996,7 @@ msgstr "拉伸"
 
 #: ../src/live_effects/effect.cpp:105
 msgid "Lattice Deformation"
-msgstr "晶格变形"
+msgstr "点阵变形"
 
 #: ../src/live_effects/effect.cpp:106
 msgid "Line Segment"
@@ -9057,7 +9059,7 @@ msgstr "缝合子路径"
 #. 0.47
 #: ../src/live_effects/effect.cpp:124
 msgid "VonKoch"
-msgstr "VonKoch"
+msgstr "VonKoch 分形"
 
 #: ../src/live_effects/effect.cpp:125
 msgid "Knot"
@@ -9069,7 +9071,7 @@ msgstr "构建网格"
 
 #: ../src/live_effects/effect.cpp:127
 msgid "Spiro spline"
-msgstr "Spiro 仿样"
+msgstr "Spiro 样条"
 
 #: ../src/live_effects/effect.cpp:128
 msgid "Envelope Deformation"
@@ -9081,11 +9083,11 @@ msgstr "内插子路径"
 
 #: ../src/live_effects/effect.cpp:130
 msgid "Hatches (rough)"
-msgstr "影线(粗糙)"
+msgstr "影线（粗糙）"
 
 #: ../src/live_effects/effect.cpp:131
 msgid "Sketch"
-msgstr "草图笔迹"
+msgstr "素描"
 
 #: ../src/live_effects/effect.cpp:132
 msgid "Ruler"
@@ -9108,7 +9110,7 @@ msgstr "显示控制柄"
 
 #: ../src/live_effects/effect.cpp:139 ../src/widgets/pencil-toolbar.cpp:121
 msgid "BSpline"
-msgstr "贝氏云形线"
+msgstr "B 样条"
 
 #: ../src/live_effects/effect.cpp:140
 msgid "Join type"
@@ -9133,7 +9135,7 @@ msgstr "填充多对象间隙"
 
 #: ../src/live_effects/effect.cpp:146
 msgid "Ellipse by 5 points"
-msgstr "以 5 个点画椭圆"
+msgstr "5 点椭圆"
 
 #: ../src/live_effects/effect.cpp:147
 msgid "Bounding Box"
@@ -9161,7 +9163,7 @@ msgstr "变换渐变"
 
 #: ../src/live_effects/effect.cpp:361
 msgid "Is visible?"
-msgstr "可见?"
+msgstr "可见？"
 
 #: ../src/live_effects/effect.cpp:361
 msgid "If unchecked, the effect remains applied to the object but is temporarily disabled on canvas"
@@ -9174,16 +9176,16 @@ msgstr "没有效果"
 #: ../src/live_effects/effect.cpp:494
 #, c-format
 msgid "Please specify a parameter path for the LPE '%s' with %d mouse clicks"
-msgstr "请为LPE '%s' 指定参数路径(通过%d次鼠标单击)"
+msgstr "请为 LPE“%s”指定参数路径，通过 %d 次鼠标单击"
 
 #: ../src/live_effects/effect.cpp:761
 #, c-format
 msgid "Editing parameter <b>%s</b>."
-msgstr "改变参数 <b>%s</b>."
+msgstr "正在编辑参数 <b>%s</b>。"
 
 #: ../src/live_effects/effect.cpp:766
 msgid "None of the applied path effect's parameters can be edited on-canvas."
-msgstr "已经应用的路径效果的参数都不能在画布上修改."
+msgstr "已经应用的路径效果的参数都不能在画布上修改。"
 
 #: ../src/live_effects/lpe-attach-path.cpp:29
 msgid "Start path:"
@@ -9267,7 +9269,7 @@ msgstr "路径宽度"
 
 #: ../src/live_effects/lpe-bendpath.cpp:55
 msgid "W_idth in units of length"
-msgstr "宽度以长度为单位(_I)"
+msgstr "宽度随长度的单位(_I)"
 
 #: ../src/live_effects/lpe-bendpath.cpp:55
 msgid "Scale the width of the path in units of its length"
@@ -9336,11 +9338,11 @@ msgstr "只改变选取的节点"
 
 #: ../src/live_effects/lpe-bspline.cpp:35
 msgid "Change weight %:"
-msgstr "条码高度:"
+msgstr "更改权重 %："
 
 #: ../src/live_effects/lpe-bspline.cpp:35
 msgid "Change weight percent of the effect"
-msgstr "改变渐变分段点偏移"
+msgstr "更改效果的权重百分比"
 
 #: ../src/live_effects/lpe-bspline.cpp:99
 msgid "Default weight"
@@ -9352,11 +9354,11 @@ msgstr "变成尖角"
 
 #: ../src/live_effects/lpe-bspline.cpp:148
 msgid "Change to default weight"
-msgstr "默认标题"
+msgstr "更改为默认权重"
 
 #: ../src/live_effects/lpe-bspline.cpp:154
 msgid "Change to 0 weight"
-msgstr "条码高度:"
+msgstr "更改为 0 的权重"
 
 #: ../src/live_effects/lpe-bspline.cpp:160
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:232
@@ -9451,7 +9453,7 @@ msgstr "需要 5 个点来建构一个椭圆形"
 
 #: ../src/live_effects/lpe-ellipse_5pts.cpp:162
 msgid "No ellipse found for specified points"
-msgstr "指定的点找不到椭圆形"
+msgstr "对指定的点无法求得椭圆形"
 
 #: ../src/live_effects/lpe-envelope.cpp:31
 msgid "Top bend path:"
