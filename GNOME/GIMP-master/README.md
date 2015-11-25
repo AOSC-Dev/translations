@@ -1,7 +1,8 @@
 GIMP-master
 ===========
 
-Cleanup of GIMP-master in GNOME. 
+Cleanup of GIMP-master in GNOME. For easier TM work, we have switched to
+transifex: https://www.transifex.com/aosc-dev/gimp-master
 
 Expected Procedure
 ------------------
