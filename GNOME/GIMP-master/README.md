@@ -30,7 +30,6 @@ Terminology Difference
 
 | Orig         | Old | Ours | Replaceback? |
 |--------------|-----|------|--------------|
-|brush         |画笔 |笔刷   | yes|
 |indexed images|索引图像|索引颜色图像|no|
 |splash screen |溅射窗口|启动画面|no|
 |context|环境|上下文|yes|
@@ -43,7 +42,6 @@ Terminology Difference
 |Segment (Geometry)|段|线段|manual|
 |LTR|左至右|LTR|manual|
 |RTL|右至左|RTL|manual|
-|Paint (v.)|涂画|TODO||
 |duplicate (v.)|复制|重制|yes|
 |raise (v.)|[提升,升高]|升高|no|
 |fit (disp size) (v.)|适配|适应|manual|
@@ -56,7 +54,6 @@ Terminology Difference
 |grain|增益|颗粒|no|
 |margin|边空|边距|no|
 |stroke|[笔划,笔画,划线]|笔廓|yes|
-
 
 Notes
 -----
