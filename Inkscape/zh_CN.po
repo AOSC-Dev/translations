@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-23 19:24-0500\n"
+"PO-Revision-Date: 2015-11-24 16:34-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,1790,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,1805,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -8653,7 +8653,7 @@ msgstr "方向"
 
 #: ../src/libgdl/gdl-dock-item.c:299
 msgid "Orientation of the docking item"
-msgstr "挂靠项目的方向"
+msgstr "停靠项目的方向"
 
 #: ../src/libgdl/gdl-dock-item.c:314
 msgid "Resizable"
@@ -8661,11 +8661,11 @@ msgstr "可变"
 
 #: ../src/libgdl/gdl-dock-item.c:315
 msgid "If set, the dock item can be resized when docked in a GtkPanel widget"
-msgstr "如果设置，当工具栏项目停泊在 GtkPanel 部件时能够调整大小"
+msgstr "如果设置，当面板项停靠在 GtkPanel 部件内时能够调整大小"
 
 #: ../src/libgdl/gdl-dock-item.c:322
 msgid "Item behavior"
-msgstr "项目特性"
+msgstr "项目行为"
 
 #: ../src/libgdl/gdl-dock-item.c:323
 msgid "General behavior for the dock item (i.e. whether it can float, if it's locked, etc.)"
@@ -8677,7 +8677,7 @@ msgstr "锁定"
 
 #: ../src/libgdl/gdl-dock-item.c:332
 msgid "If set, the dock item cannot be dragged around and it doesn't show a grip"
-msgstr "如果选定，面板项不能拖动并且不显示拖动柄"
+msgstr "如果设置，面板项不能拖动并且不显示拖动柄"
 
 #: ../src/libgdl/gdl-dock-item.c:340
 msgid "Preferred width"
@@ -8864,25 +8864,27 @@ msgstr "占位栏挂靠的面板对象"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:157
 msgid "Next placement"
-msgstr "下一定位"
+msgstr "下一位置"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:158
 msgid "The position an item will be docked to our host if a request is made to dock to us"
-msgstr "如果一个请求恰好停靠给我们，一个项目的位置将被停靠到我们的主机"
+msgstr "新项目在请求停靠时在我们宿主上的停靠目标位置"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:168
 msgid "Width for the widget when it's attached to the placeholder"
-msgstr "当附加在占位栏时widget的宽度"
+msgstr "挂靠在占位栏时小工具的宽度"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:176
 msgid "Height for the widget when it's attached to the placeholder"
-msgstr "当附加在占位栏时widget的高度"
+msgstr "挂靠在占位栏时小工具的高度"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:182
+#, fuzzy
 msgid "Floating Toplevel"
 msgstr "悬浮在顶部"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:183
+#, fuzzy
 msgid "Whether the placeholder is standing in for a floating toplevel dock"
 msgstr "是否以占位符号替换一个浮动的最上层工具栏"
 
@@ -8909,7 +8911,7 @@ msgstr "试图将一个面板对象停靠到一个自由占位栏"
 #: ../src/libgdl/gdl-dock-placeholder.c:611
 #, c-format
 msgid "Got a detach signal from an object (%p) who is not our host %p"
-msgstr "从对象 (%p) (这不是我们的主机 %p ) 获取分离信号"
+msgstr "从非我方主机（%2$p）的对象（%1$p）收到分离信号"
 
 #: ../src/libgdl/gdl-dock-placeholder.c:636
 #, c-format

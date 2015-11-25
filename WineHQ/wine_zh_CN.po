@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2015-11-21 03:48-0500\n"
+"PO-Revision-Date: 2015-11-24 16:52-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -2932,7 +2932,7 @@ msgstr ""
 
 #: gdi32.rc:36
 msgid "Vietnamese"
-msgstr ""
+msgstr "越南语"
 
 #: gdi32.rc:37
 msgid "Thai"
@@ -2948,7 +2948,7 @@ msgstr ""
 
 #: gdi32.rc:40
 msgid "Hangul"
-msgstr ""
+msgstr "韩文"
 
 #: gdi32.rc:41
 msgid "CHINESE_BIG5"
@@ -7060,11 +7060,9 @@ msgid "outline button"
 msgstr ""
 
 #: oleacc.rc:97
-#, fuzzy
-#| msgid "Normal"
 msgctxt "object state"
 msgid "normal"
-msgstr "中号"
+msgstr "普通"
 
 #: oleacc.rc:98
 msgctxt "object state"
@@ -7072,18 +7070,14 @@ msgid "unavailable"
 msgstr "不可用"
 
 #: oleacc.rc:99
-#, fuzzy
-#| msgid "Select"
 msgctxt "object state"
 msgid "selected"
-msgstr "选择"
+msgstr "已选中"
 
 #: oleacc.rc:100
-#, fuzzy
-#| msgid "Paused"
 msgctxt "object state"
 msgid "focused"
-msgstr "已暂停"
+msgstr "已聚焦"
 
 #: oleacc.rc:101
 msgctxt "object state"
@@ -7106,11 +7100,9 @@ msgid "read only"
 msgstr "只读"
 
 #: oleacc.rc:105
-#, fuzzy
-#| msgid "Hot Tracked Item"
 msgctxt "object state"
 msgid "hot tracked"
-msgstr "鼠标拖选框"
+msgstr "鼠标拖选中"
 
 #: oleacc.rc:106
 msgctxt "object state"
@@ -7143,11 +7135,9 @@ msgid "marqueed"
 msgstr ""
 
 #: oleacc.rc:112
-#, fuzzy
-#| msgid "animation"
 msgctxt "object state"
 msgid "animated"
-msgstr "动画"
+msgstr "有动画"
 
 #: oleacc.rc:113
 msgctxt "object state"
@@ -8102,7 +8092,7 @@ msgstr ""
 
 #: shell32.rc:221
 msgid "Music"
-msgstr ""
+msgstr "音乐"
 
 #: shell32.rc:222
 msgid "Pictures"

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gcc 5.2.0\n"
 "Report-Msgid-Bugs-To: http://gcc.gnu.org/bugs.html\n"
 "POT-Creation-Date: 2015-07-02 12:31+0000\n"
-"PO-Revision-Date: 2015-11-21 03:15-0500\n"
+"PO-Revision-Date: 2015-11-24 17:04-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1586,7 +1586,7 @@ msgstr "警告："
 
 #: diagnostic.def:38
 msgid "anachronism: "
-msgstr "时代错误："
+msgstr "历史遗留："
 
 #: diagnostic.def:39
 msgid "note: "
@@ -1604,7 +1604,7 @@ msgstr "保守警告："
 
 #: diagnostic.def:44
 msgid "permerror: "
-msgstr "永久性错误："
+msgstr "永久错误："
 
 #: params.def:44
 msgid "Maximal estimated outcome of branch considered predictable"

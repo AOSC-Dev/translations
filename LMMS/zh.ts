@@ -547,7 +547,7 @@ Mingye Wang &amp;ltarthur2e5@aosc.xyz&amp;gt;
     </message>
     <message>
         <source>Open in Automation editor</source>
-        <translation>在自动编辑器（ Automation editor）中打开</translation>
+        <translation>在自动编辑器（Automation editor）中打开</translation>
     </message>
     <message>
         <source>Clear</source>
