@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 17:30-0500\n"
+"PO-Revision-Date: 2015-11-26 17:31-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,3537,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,3550,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -16447,11 +16447,11 @@ msgstr "半角和全角格式"
 
 #: ../src/ui/dialog/glyphs.cpp:302
 msgid "Specials"
-msgstr "特别符号"
+msgstr "特殊字符"
 
 #: ../src/ui/dialog/glyphs.cpp:377
 msgid "Script: "
-msgstr "脚本："
+msgstr "文字："
 
 #: ../src/ui/dialog/glyphs.cpp:414
 msgid "Range: "
@@ -16512,7 +16512,7 @@ msgstr "如果没有设置, 每一行的高度就是这里面对象中最高的�
 #. #### Number of columns ####
 #: ../src/ui/dialog/grid-arrange-tab.cpp:658
 msgid "_Columns:"
-msgstr "列（_C）:"
+msgstr "列(_C):"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:667
 msgid "Number of columns"
@@ -16520,7 +16520,7 @@ msgstr "列数:"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:671
 msgid "Equal _width"
-msgstr "等宽（_W)"
+msgstr "等宽(_W)"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:681
 msgid "If not set, each column has the width of the widest object in it"
@@ -16534,11 +16534,11 @@ msgstr "对齐方式："
 #. #### Radio buttons to control spacing manually or to fit selection bbox ####
 #: ../src/ui/dialog/grid-arrange-tab.cpp:701
 msgid "_Fit into selection box"
-msgstr "适合选择框（_F）"
+msgstr "适合选择框(_F)"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:708
 msgid "_Set spacing:"
-msgstr "设置间距（_S)："
+msgstr "设置间距(_S)："
 
 #: ../src/ui/dialog/guides.cpp:47
 msgid "Rela_tive change"
@@ -16604,7 +16604,7 @@ msgstr "实际大小:"
 #: ../src/ui/dialog/icon-preview.cpp:241
 msgctxt "Icon preview window"
 msgid "Sele_ction"
-msgstr "选择（_C)"
+msgstr "选择(_C)"
 
 #: ../src/ui/dialog/icon-preview.cpp:243
 msgid "Selection only or whole document"
@@ -16636,7 +16636,7 @@ msgstr "将对象转变为参考线, 参考线沿对象的实际边 (模仿对�
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "Ctrl+click _dot size:"
-msgstr "Ctrl+点击“点尺寸”（_D)："
+msgstr "Ctrl+点击“点尺寸”(_D)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "times current stroke width"
@@ -16868,7 +16868,7 @@ msgstr "即使路径选中进行编辑时仍然显示临时轮廓"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:371
 msgid "_Flash time:"
-msgstr "闪烁时间（_F）:"
+msgstr "闪烁时间(_F):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:371
 msgid "Specifies how long the path outline will be visible after a mouse-over (in milliseconds); specify 0 to have the outline shown until mouse leaves the path"
@@ -17059,7 +17059,7 @@ msgstr "当打开时，在填充和笔画对话框中的渐变编辑按钮将会
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:497
 msgid "Linear gradient _angle:"
-msgstr "线性渐变角度（_A)："
+msgstr "线性渐变角度(_A)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:498
 msgid "Default angle of new linear gradients in degrees (clockwise from horizontal)"
@@ -17526,7 +17526,7 @@ msgstr "文件菜单中最近打开列表中的文件数目, 或者清除列表"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:634
 msgid "_Zoom correction factor (in %):"
-msgstr "缩放纠正系数(以 % 为单位)（_Z）:"
+msgstr "缩放纠正系数(以 % 为单位)(_Z):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:635
 msgid "Adjust the slider until the length of the ruler on your screen matches its real length. This information is used when zooming to 1:1, 1:2, etc., to display objects in their true sizes"
@@ -17733,7 +17733,7 @@ msgstr "当失焦时不透明度(_U)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:743
 msgid "_Time of opacity change animation:"
-msgstr "不透明更改动画的时间（_T)："
+msgstr "不透明更改动画的时间(_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:746
 msgid "Miscellaneous"
@@ -17879,7 +17879,7 @@ msgstr "在屏幕上使一个对象能够用鼠标抓取需要多近(屏幕像�
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:895
 msgid "_Click/drag threshold:"
-msgstr "点击/拖动阈值（_C）:"
+msgstr "点击/拖动阈值(_C):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:895
 #: ../src/ui/dialog/inkscape-preferences.cpp:1237
@@ -17894,7 +17894,7 @@ msgstr "拖动鼠标的最大值(屏幕像素), 是一个单击, 而不是拖动
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:899
 msgid "_Handle size:"
-msgstr "控制柄大小（_H)："
+msgstr "控制柄大小(_H)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:900
 msgid "Set the relative size of node handles"
@@ -17943,7 +17943,7 @@ msgstr "将属性与元素的Tag置于同一行"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid "_Indent, spaces:"
-msgstr "缩进，空格数（_I）:"
+msgstr "缩进，空格数(_I):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid "The number of spaces to use for indenting nested elements; set to 0 for no indentation"
@@ -17988,7 +17988,7 @@ msgstr "数字"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:938
 msgid "_Numeric precision:"
-msgstr "数字精度（_N)："
+msgstr "数字精度(_N)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:938
 msgid "Significant figures of the values written to the SVG file"
@@ -18237,7 +18237,7 @@ msgstr "用于写入自动保存将数据的目录。此目录应使用绝对路
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1135
 msgid "_Interval (in minutes):"
-msgstr "间隔时间 (分钟)（_I)："
+msgstr "间隔时间 (分钟)(_I)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1135
 msgid "Interval (in minutes) at which document will be autosaved"
@@ -18301,7 +18301,7 @@ msgstr "行为"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1173
 msgid "_Simplification threshold:"
-msgstr "简化阈值（_S)："
+msgstr "简化阈值(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1174
 msgid "How strong is the Node tool's Simplify command by default. If you invoke this command several times in quick succession, it will act more and more aggressively; invoking it again after a pause restores the default threshold."
@@ -18469,7 +18469,7 @@ msgstr "按住 Ctrl+方向键以此距离(屏幕像素)滚动"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1244
 msgid "_Acceleration:"
-msgstr "加速（_A）:"
+msgstr "加速(_A):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1245
 msgid "Pressing and holding Ctrl+arrow will gradually speed up scrolling (0 for no acceleration)"
@@ -18481,7 +18481,7 @@ msgstr "自动滚动"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1248
 msgid "_Speed:"
-msgstr "速度（_S）:"
+msgstr "速度(_S):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1249
 msgid "How fast the canvas autoscrolls when you drag beyond canvas edge (0 to turn autoscroll off)"
@@ -18585,7 +18585,7 @@ msgstr "吸附"
 #. nudgedistance is limited to 1000 in select-context.cpp: use the same limit here
 #: ../src/ui/dialog/inkscape-preferences.cpp:1299
 msgid "_Arrow keys move by:"
-msgstr "方向键移动距离（_A）:"
+msgstr "方向键移动距离(_A):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1300
 msgid "Pressing an arrow key moves selected object(s) or node(s) by this distance"
@@ -18816,7 +18816,7 @@ msgstr "清理"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1415
 msgid "Number of _Threads:"
-msgstr "线程数（_T)："
+msgstr "线程数(_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1415
 #: ../src/ui/dialog/inkscape-preferences.cpp:1951
@@ -18969,7 +18969,7 @@ msgstr "位图缩放(图像渲染)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1513
 msgid "Default _import resolution:"
-msgstr "默认导入分辨率（_I）:"
+msgstr "默认导入分辨率(_I):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1514
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
@@ -20193,7 +20193,7 @@ msgstr "忽略(_I)"
 
 #: ../src/ui/dialog/spellcheck.cpp:76
 msgid "A_dd"
-msgstr "添加（_D)"
+msgstr "添加(_D)"
 
 #: ../src/ui/dialog/spellcheck.cpp:78
 msgid "_Stop"
@@ -20541,7 +20541,7 @@ msgstr ""
 
 #: ../src/ui/dialog/text-edit.cpp:73
 msgid "Set as _default"
-msgstr "设为默认（_D)："
+msgstr "设为默认(_D)："
 
 # Seems to be typographical example text to show most of the typeface features; used similar chars for 汉字.
 #: ../src/ui/dialog/text-edit.cpp:87
@@ -20616,7 +20616,7 @@ msgstr "排列选择的对象"
 #. brightness
 #: ../src/ui/dialog/tracedialog.cpp:508
 msgid "_Brightness cutoff"
-msgstr "亮度截断（_B)"
+msgstr "亮度截断(_B)"
 
 #: ../src/ui/dialog/tracedialog.cpp:512
 msgid "Trace by a given brightness level"
@@ -20634,7 +20634,7 @@ msgstr "单个扫描:创建一条路径"
 #. TRANSLATORS: "Canny" is the name of the inventor of this edge detection method
 #: ../src/ui/dialog/tracedialog.cpp:534
 msgid "_Edge detection"
-msgstr "边缘检测（_E)"
+msgstr "边缘检测(_E)"
 
 #: ../src/ui/dialog/tracedialog.cpp:538
 msgid "Trace with optimal edge detection by J. Canny's algorithm"
@@ -20646,7 +20646,7 @@ msgstr "邻近像素亮度截断(决定边缘厚度)"
 
 #: ../src/ui/dialog/tracedialog.cpp:559
 msgid "T_hreshold:"
-msgstr "阈值（_H)："
+msgstr "阈值(_H)："
 
 #. quantization
 #. TRANSLATORS: Color Quantization: the process of reducing the number
@@ -20671,7 +20671,7 @@ msgstr "颜色(_C)："
 #. swap black and white
 #: ../src/ui/dialog/tracedialog.cpp:594
 msgid "_Invert image"
-msgstr "反相图像（_I)："
+msgstr "反相图像(_I)："
 
 #: ../src/ui/dialog/tracedialog.cpp:599
 msgid "Invert black and white regions"
@@ -20714,7 +20714,7 @@ msgstr "与颜色一样, 但把结果转化成灰度"
 #. TRANSLATORS: "Smooth" is a verb here
 #: ../src/ui/dialog/tracedialog.cpp:649
 msgid "S_mooth"
-msgstr "平滑（_M)"
+msgstr "平滑(_M)"
 
 #: ../src/ui/dialog/tracedialog.cpp:653
 msgid "Apply Gaussian blur to the bitmap before tracing"
@@ -20723,7 +20723,7 @@ msgstr "提取轮廓时对位图应用高斯模糊"
 #. TRANSLATORS: "Stack" is a verb here
 #: ../src/ui/dialog/tracedialog.cpp:657
 msgid "Stac_k scans"
-msgstr "堆叠扫描数（_K)"
+msgstr "堆叠扫描数(_K)"
 
 #: ../src/ui/dialog/tracedialog.cpp:661
 msgid "Stack scans on top of one another (no gaps) instead of tiling (usually with gaps)"
@@ -20752,7 +20752,7 @@ msgstr "模式(_M)"
 #. # potrace parameters
 #: ../src/ui/dialog/tracedialog.cpp:690
 msgid "Suppress _speckles"
-msgstr "抑制斑点（_S)"
+msgstr "抑制斑点(_S)"
 
 #: ../src/ui/dialog/tracedialog.cpp:692
 msgid "Ignore small spots (speckles) in the bitmap"
@@ -20764,11 +20764,11 @@ msgstr "Speckles 达到此值时将会压制许多像素"
 
 #: ../src/ui/dialog/tracedialog.cpp:703
 msgid "S_ize:"
-msgstr "大小（_I)："
+msgstr "大小(_I)："
 
 #: ../src/ui/dialog/tracedialog.cpp:708
 msgid "Smooth _corners"
-msgstr "平滑角落（_C)"
+msgstr "平滑角落(_C)"
 
 #: ../src/ui/dialog/tracedialog.cpp:710
 msgid "Smooth out sharp corners of the trace"
@@ -20797,7 +20797,7 @@ msgstr "公差(_L)："
 #. ## end option page
 #: ../src/ui/dialog/tracedialog.cpp:753
 msgid "O_ptions"
-msgstr "选项（_P）"
+msgstr "选项(_P)"
 
 #. ### credits
 #: ../src/ui/dialog/tracedialog.cpp:757
@@ -20833,7 +20833,7 @@ msgstr "即时预览"
 
 #: ../src/ui/dialog/tracedialog.cpp:788
 msgid "_Update"
-msgstr "更新（_U)"
+msgstr "更新(_U)"
 
 #. I guess it's correct to call the "intermediate bitmap" a preview of the trace
 #: ../src/ui/dialog/tracedialog.cpp:796
@@ -20921,7 +20921,7 @@ msgstr "给当前位置添加指定的相对移位;否则直接编辑当前绝�
 
 #: ../src/ui/dialog/transformation.cpp:96
 msgid "_Scale proportionally"
-msgstr "等比例缩放（_S)："
+msgstr "等比例缩放(_S)："
 
 #: ../src/ui/dialog/transformation.cpp:96
 msgid "Preserve the width/height ratio of the scaled objects"
@@ -21219,12 +21219,12 @@ msgstr "对象类型"
 #. Move to layer
 #: ../src/ui/interface.cpp:1702
 msgid "_Move to layer ..."
-msgstr "移到层（_M)…"
+msgstr "移到层(_M)…"
 
 #. Create link
 #: ../src/ui/interface.cpp:1712
 msgid "Create _Link"
-msgstr "创建链接（_L)"
+msgstr "创建链接(_L)"
 
 #. Release mask
 #: ../src/ui/interface.cpp:1746
@@ -22932,7 +22932,7 @@ msgstr "CMYK"
 
 #: ../src/ui/widget/filter-effect-chooser.cpp:26
 msgid "_Blur:"
-msgstr "模糊（_B):"
+msgstr "模糊(_B):"
 
 #: ../src/ui/widget/filter-effect-chooser.cpp:29
 msgid "Blur (%)"
@@ -23252,7 +23252,7 @@ msgstr "改变不透明度"
 
 #: ../src/ui/widget/page-sizer.cpp:236
 msgid "U_nits:"
-msgstr "单位(_n):"
+msgstr "单位(_N):"
 
 #: ../src/ui/widget/page-sizer.cpp:237
 msgid "Width of paper"
@@ -23264,7 +23264,7 @@ msgstr "纸张高度"
 
 #: ../src/ui/widget/page-sizer.cpp:239
 msgid "T_op margin:"
-msgstr "上边沿(_o):"
+msgstr "上(_O):"
 
 #: ../src/ui/widget/page-sizer.cpp:239
 msgid "Top margin"
@@ -23288,7 +23288,7 @@ msgstr "右边距"
 
 #: ../src/ui/widget/page-sizer.cpp:242
 msgid "Botto_m:"
-msgstr "底(_m):"
+msgstr "下(_m):"
 
 #: ../src/ui/widget/page-sizer.cpp:242
 msgid "Bottom margin"
@@ -24156,7 +24156,7 @@ msgstr "打印文档"
 #. TRANSLATORS: "Vacuum Defs" means "Clean up defs" (so as to remove unused definitions)
 #: ../src/verbs.cpp:2415
 msgid "Clean _up document"
-msgstr "清理文档（_U)"
+msgstr "清理文档(_U)"
 
 #: ../src/verbs.cpp:2415
 msgid "Remove unused definitions (such as gradients or clipping paths) from the &lt;defs&gt; of the document"
@@ -24330,7 +24330,7 @@ msgstr "从选择对象中移除所有路径效果"
 
 #: ../src/verbs.cpp:2464
 msgid "_Remove Filters"
-msgstr "删除滤镜（_R)"
+msgstr "删除滤镜(_R)"
 
 #: ../src/verbs.cpp:2465
 msgid "Remove any filters from selected objects"
@@ -24474,7 +24474,7 @@ msgstr "选择所有带有系统填充和描边的对象作为选择的对象"
 
 #: ../src/verbs.cpp:2500
 msgid "_Fill Color"
-msgstr "填充颜色（_F)"
+msgstr "填充颜色(_F)"
 
 #: ../src/verbs.cpp:2501
 msgid "Select all objects with the same fill as the selected objects"
@@ -24482,7 +24482,7 @@ msgstr "选择带有相同填充的所有对象为选择的对象"
 
 #: ../src/verbs.cpp:2502
 msgid "_Stroke Color"
-msgstr "描边颜色（_S)"
+msgstr "描边颜色(_S)"
 
 #: ../src/verbs.cpp:2503
 msgid "Select all objects with the same stroke as the selected objects"
@@ -24550,7 +24550,7 @@ msgstr "删除文档中的所有辅助"
 
 #: ../src/verbs.cpp:2520
 msgid "Create _Guides Around the Page"
-msgstr "环绕页面创建参考线（_G)"
+msgstr "环绕页面创建参考线(_G)"
 
 #: ../src/verbs.cpp:2521
 msgid "Create four guides aligned with the page borders"
@@ -24705,7 +24705,7 @@ msgstr "以 10 像素向外偏移已选路径"
 #. See also the Advanced Tutorial for explanation.
 #: ../src/verbs.cpp:2576
 msgid "I_nset"
-msgstr "向内偏移(_n)"
+msgstr "向内偏移(_N)"
 
 #: ../src/verbs.cpp:2577
 msgid "Inset selected paths"
@@ -24807,7 +24807,7 @@ msgstr "把选择路径分成各个子路径"
 
 #: ../src/verbs.cpp:2609
 msgid "_Arrange..."
-msgstr "安排（_A)…"
+msgstr "安排(_A)…"
 
 #: ../src/verbs.cpp:2610
 msgid "Arrange selected objects in a table or circle"
@@ -24932,7 +24932,7 @@ msgstr "显示所有层"
 
 #: ../src/verbs.cpp:2642
 msgid "_Hide all layers"
-msgstr "隐藏所有层（_H)"
+msgstr "隐藏所有层(_H)"
 
 #: ../src/verbs.cpp:2643
 msgid "Hide all the layers"
@@ -24940,7 +24940,7 @@ msgstr "隐藏所有层"
 
 #: ../src/verbs.cpp:2644
 msgid "_Lock all layers"
-msgstr "锁定所有层（_L)"
+msgstr "锁定所有层(_L)"
 
 #: ../src/verbs.cpp:2645
 msgid "Lock all the layers"
@@ -24948,7 +24948,7 @@ msgstr "锁定所有层"
 
 #: ../src/verbs.cpp:2646
 msgid "Lock/Unlock _other layers"
-msgstr "锁定/解锁其它层（_O)"
+msgstr "锁定/解锁其它层(_O)"
 
 #: ../src/verbs.cpp:2647
 msgid "Lock all the other layers"
@@ -24956,7 +24956,7 @@ msgstr "锁定所有其它层"
 
 #: ../src/verbs.cpp:2648
 msgid "_Unlock all layers"
-msgstr "解锁所有层（_U)"
+msgstr "解锁所有层(_U)"
 
 #: ../src/verbs.cpp:2649
 msgid "Unlock all the layers"
@@ -25077,7 +25077,7 @@ msgstr "应用剪裁路径到选区(使用最顶层对象作为剪裁路径)"
 
 #: ../src/verbs.cpp:2688
 msgid "Create Cl_ip Group"
-msgstr "创建剪辑组（_I)"
+msgstr "创建剪辑组(_I)"
 
 #: ../src/verbs.cpp:2689
 msgid "Creates a clip group using the selected objects as a base"
@@ -25497,7 +25497,7 @@ msgstr "显示或隐藏画布滚动条"
 
 #: ../src/verbs.cpp:2794
 msgid "Page _Grid"
-msgstr "页面网格（_G)"
+msgstr "页面网格(_G)"
 
 #: ../src/verbs.cpp:2794
 msgid "Show or hide the page grid"
@@ -25517,7 +25517,7 @@ msgstr "打开吸附"
 
 #: ../src/verbs.cpp:2797
 msgid "_Commands Bar"
-msgstr "命令栏（_C）"
+msgstr "命令栏(_C)"
 
 #: ../src/verbs.cpp:2797
 msgid "Show or hide the Commands bar (under the menu)"
@@ -25525,7 +25525,7 @@ msgstr "显示或隐藏命令栏(在菜单下)"
 
 #: ../src/verbs.cpp:2798
 msgid "Sn_ap Controls Bar"
-msgstr "吸附控制栏（_A)"
+msgstr "吸附控制栏(_A)"
 
 #: ../src/verbs.cpp:2798
 msgid "Show or hide the snapping controls"
@@ -25533,7 +25533,7 @@ msgstr "显示或隐藏吸附控制栏"
 
 #: ../src/verbs.cpp:2799
 msgid "T_ool Controls Bar"
-msgstr "工具控制栏（_O)"
+msgstr "工具控制栏(_O)"
 
 #: ../src/verbs.cpp:2799
 msgid "Show or hide the Tool Controls bar"
@@ -25828,7 +25828,7 @@ msgstr "显示并编辑文档的 XML 树"
 
 #: ../src/verbs.cpp:2887
 msgid "_Find/Replace..."
-msgstr "查找和替换（_F)…"
+msgstr "查找和替换(_F)…"
 
 #: ../src/verbs.cpp:2888
 msgid "Find objects in document"
@@ -25924,7 +25924,7 @@ msgstr "查看标记"
 
 #: ../src/verbs.cpp:2913
 msgid "Path E_ffects ..."
-msgstr "路径效果（_F)…"
+msgstr "路径效果(_F)…"
 
 #: ../src/verbs.cpp:2914
 msgid "Manage, edit, and apply path effects"
@@ -25932,7 +25932,7 @@ msgstr "管理, 编辑并应用路径效果"
 
 #: ../src/verbs.cpp:2915
 msgid "Filter _Editor..."
-msgstr "滤镜编辑器（_E)…"
+msgstr "滤镜编辑器(_E)…"
 
 #: ../src/verbs.cpp:2916
 msgid "Manage, edit, and apply SVG filters"
@@ -25956,7 +25956,7 @@ msgstr "选择要分离出来使用“打印颜色预览”渲染模式渲染的
 
 #: ../src/verbs.cpp:2921
 msgid "_Export PNG Image..."
-msgstr "导出 PNG 图像（_E)…"
+msgstr "导出 PNG 图像(_E)…"
 
 #: ../src/verbs.cpp:2922
 msgid "Export this document or a selection as a PNG image"
@@ -26080,7 +26080,7 @@ msgstr "使用相同的设置重复上次的扩展"
 
 #: ../src/verbs.cpp:2957
 msgid "_Previous Extension Settings..."
-msgstr "先前的扩展设置（_P)…"
+msgstr "先前的扩展设置(_P)…"
 
 #: ../src/verbs.cpp:2958
 msgid "Repeat the last extension with new settings"
@@ -26762,7 +26762,7 @@ msgstr ""
 
 #: ../src/widgets/desktop-widget.cpp:1179
 msgid "_Save as Inkscape SVG"
-msgstr "保存为 Inkscape SVG（_S）"
+msgstr "保存为 Inkscape _SVG"
 
 #: ../src/widgets/desktop-widget.cpp:1392
 msgid "Note:"
@@ -28367,7 +28367,7 @@ msgstr "斜角连接"
 
 #: ../src/widgets/stroke-style.cpp:280
 msgid "Miter _limit:"
-msgstr "斜面限制（_L):"
+msgstr "斜面限制(_L):"
 
 #. Cap type
 #. TRANSLATORS: cap type specifies the shape for the ends of lines
@@ -38064,7 +38064,7 @@ msgstr "XAML 输入"
 #~ msgstr "密码(_P):"
 
 #~ msgid "P_ort:"
-#~ msgstr "端口(_o)"
+#~ msgstr "端口(_O)"
 
 #~ msgid "Connect"
 #~ msgstr "连接"
@@ -38091,16 +38091,16 @@ msgstr "XAML 输入"
 #~ msgstr "Jabber 服务器 <b>%1</b> 用户 <b>%2</b> 注册失败"
 
 #~ msgid "Chatroom _name:"
-#~ msgstr "聊天室名称(_n):"
+#~ msgstr "聊天室名称(_N):"
 
 #~ msgid "Chatroom _server:"
-#~ msgstr "聊天室服务器(_s):"
+#~ msgstr "聊天室服务器(_S):"
 
 #~ msgid "Chatroom _password:"
-#~ msgstr "聊天室密码(_p):"
+#~ msgstr "聊天室密码(_P):"
 
 #~ msgid "Chatroom _handle:"
-#~ msgstr "聊天室句柄(_h):"
+#~ msgstr "聊天室句柄(_H):"
 
 #~ msgid "Connect to chatroom"
 #~ msgstr "连接到聊天室"
@@ -38996,7 +38996,7 @@ msgstr "XAML 输入"
 #~ msgstr "不提示文件或管道直接打印"
 
 #~ msgid "Gri_d Arrange..."
-#~ msgstr "排列网格(_d)..."
+#~ msgstr "排列网格(_D)..."
 
 #~ msgid "Gradients"
 #~ msgstr "渐变"
