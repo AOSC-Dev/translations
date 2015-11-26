@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 17:14-0500\n"
+"PO-Revision-Date: 2015-11-26 17:26-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,3225,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,3304,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -14357,7 +14357,7 @@ msgstr "<b>外部脚本文件：</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:749
 msgid "Add the current file name or browse for a file"
-msgstr "加入目前文件名称或浏览文件"
+msgstr "加入当前文件名称或浏览文件"
 
 #: ../src/ui/dialog/document-properties.cpp:752
 #: ../src/ui/dialog/document-properties.cpp:829
@@ -15165,11 +15165,11 @@ msgstr "核："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2877
 msgid "This matrix describes the convolve operation that is applied to the input image in order to calculate the pixel colors at the output. Different arrangements of values in this matrix result in various possible visual effects. An identity matrix would lead to a motion blur effect (parallel to the matrix diagonal) while a matrix filled with a constant non-zero value would lead to a common blur effect."
-msgstr "使用该矩阵对输入图像进行卷积来计算输出像素的颜色。不同的取值能够获得区别很大的视觉效果。单位矩阵能够产生运动模糊效果（平行于对角线），而使用非零常量填充的矩阵产生一般的模糊效果。"
+msgstr "使用该矩阵对输入图像进行卷积来计算输出像素的颜色。不同的取值能够获得区别很大的视觉效果。单位矩阵能够产生运动模糊效果（平行于对角线），而使用同一非零数填充的矩阵产生一般的模糊效果。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2879
 msgid "Divisor:"
-msgstr "除数:"
+msgstr "除数："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2879
 msgid "After applying the kernelMatrix to the input image to yield a number, that number is divided by divisor to yield the final destination color value. A divisor that is the sum of all the matrix values tends to have an evening effect on the overall color intensity of the result."
@@ -15177,15 +15177,15 @@ msgstr "将核矩阵应用到输入图像后将产生一个数，除以该除数
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2880
 msgid "Bias:"
-msgstr "偏置:"
+msgstr "偏差："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2880
 msgid "This value is added to each component. This is useful to define a constant value as the zero response of the filter."
-msgstr "该值叠加到每个元素上. 这样,滤镜的输出为0时可以用一个常量来代替."
+msgstr "该值叠加到每个元素上。这样，滤镜的输出为 0 时可以用一个常量来代替。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2881
 msgid "Edge Mode:"
-msgstr "边沿模式:"
+msgstr "边沿模式："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2881
 msgid "Determines how to extend the input image as necessary with color values so that the matrix operations can be applied when the kernel is positioned at or near the edge of the input image."
@@ -15197,12 +15197,12 @@ msgstr "保持 Alpha"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2882
 msgid "If set, the alpha channel won't be altered by this filter primitive."
-msgstr "如果选中, alpha 通道将不受该滤镜基元的影响。"
+msgstr "如果选中，alpha 通道将不受该滤镜基元的影响。"
 
 #. default: white
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2885
 msgid "Diffuse Color:"
-msgstr "散射颜色:"
+msgstr "散射颜色："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2885
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2918
@@ -15212,31 +15212,31 @@ msgstr "设置光源的颜色"
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2886
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2919
 msgid "Surface Scale:"
-msgstr "表面缩放:"
+msgstr "表面缩放："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2886
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2919
 msgid "This value amplifies the heights of the bump map defined by the input alpha channel"
-msgstr "该值放大由输入alpha通道确定的凸凹贴图的高度"
+msgstr "该值放大由输入 alpha 通道确定的凸凹贴图的高度"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2887
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2920
 msgid "Constant:"
-msgstr "常数:"
+msgstr "常数："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2887
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2920
 msgid "This constant affects the Phong lighting model."
-msgstr "该常量影响Phong光照模型."
+msgstr "该常量影响 Phong 光照模型。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2888
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2922
 msgid "Kernel Unit Length:"
-msgstr "核单元长度:"
+msgstr "核单元长度："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2892
 msgid "This defines the intensity of the displacement effect."
-msgstr "位移效果的强度."
+msgstr "该值定义位移效果的强度。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2893
 msgid "X displacement:"
@@ -15244,7 +15244,7 @@ msgstr "X 位移："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2893
 msgid "Color component that controls the displacement in the X direction"
-msgstr "控制X方向位移的色彩分量"
+msgstr "控制 X 方向位移的色彩分量"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2894
 msgid "Y displacement:"
@@ -15252,36 +15252,36 @@ msgstr "Y 位移："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2894
 msgid "Color component that controls the displacement in the Y direction"
-msgstr "控制Y方向位移的色彩分量"
+msgstr "控制 Y 方向位移的色彩分量"
 
 #. default: black
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2897
 msgid "Flood Color:"
-msgstr "浸漫颜色:"
+msgstr "浸漫颜色："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2897
 msgid "The whole filter region will be filled with this color."
-msgstr "滤镜的整个区域都将用这种颜色填充."
+msgstr "滤镜的整个区域都将用这种颜色填充。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2901
 msgid "Standard Deviation:"
-msgstr "标准差:"
+msgstr "标准差："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2901
 msgid "The standard deviation for the blur operation."
-msgstr "模糊操作的标准差."
+msgstr "模糊操作的标准差。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2907
 msgid ""
 "Erode: performs \"thinning\" of input image.\n"
 "Dilate: performs \"fattenning\" of input image."
 msgstr ""
-"浸蚀: 对输出图像进行 \"窄薄\" 处理.\n"
-"膨胀: 对输出图像进行 \"加厚\" 处理."
+"侵蚀：对输出图像进行“窄薄”处理。\n"
+"膨胀：对输出图像进行“加厚”处理。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2911
 msgid "Source of Image:"
-msgstr "图像来源:"
+msgstr "图像来源："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2914
 msgid "Delta X:"
@@ -15293,7 +15293,7 @@ msgstr "输入图像向右偏移的距离"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2915
 msgid "Delta Y:"
-msgstr "△Y:"
+msgstr "△Y："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2915
 msgid "This is how far the input image gets shifted downwards"
@@ -15302,7 +15302,7 @@ msgstr "输入图像向下偏移的距离"
 #. default: white
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2918
 msgid "Specular Color:"
-msgstr "高光颜色:"
+msgstr "高光颜色："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2921
 #: ../share/extensions/interp.inx.h:2
@@ -15311,7 +15311,7 @@ msgstr "指数："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2921
 msgid "Exponent for specular term, larger is more \"shiny\"."
-msgstr "镜面反射指数, 大值更“光亮”。"
+msgstr "镜面反射指数，大值更“光亮”。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2930
 msgid "Indicates whether the filter primitive should perform a noise or turbulence function."
@@ -15319,11 +15319,11 @@ msgstr "指示滤镜基元是否需要执行噪声或湍流功能。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2931
 msgid "Base Frequency:"
-msgstr "基频:"
+msgstr "基频："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2932
 msgid "Octaves:"
-msgstr "倍频程:"
+msgstr "倍频程："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2933
 msgid "Seed:"
@@ -15339,69 +15339,69 @@ msgstr "添加滤镜基元"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2962
 msgid "The <b>feBlend</b> filter primitive provides 4 image blending modes: screen, multiply, darken and lighten."
-msgstr "滤镜基元<b>feBlend</b>提供了4种图像混合模式：遮蔽、增强、变暗和变亮。"
+msgstr "滤镜基元 <b>feBlend</b> 提供了4种图像混合模式：遮蔽、增强、变暗和变亮。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2966
 msgid "The <b>feColorMatrix</b> filter primitive applies a matrix transformation to color of each rendered pixel. This allows for effects like turning object to grayscale, modifying color saturation and changing color hue."
-msgstr "滤镜基元<b>feColorMatrix</b>对每个像素的颜色进行矩阵变换。可以产生类似于转换到灰度，更改饱和度和色调等的效果。"
+msgstr "滤镜基元 <b>feColorMatrix</b> 对每个像素的颜色进行矩阵变换。可以产生类似于转换到灰度，更改饱和度和色调等的效果。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2970
 msgid "The <b>feComponentTransfer</b> filter primitive manipulates the input's color components (red, green, blue, and alpha) according to particular transfer functions, allowing operations like brightness and contrast adjustment, color balance, and thresholding."
-msgstr "滤镜基元<b>feComponentTransfer</b>根据特定的转换方式修改输入的色彩成分（红、绿、蓝和不透明度），操作效果类似于亮度和对比度调整、色彩平衡、以及色阈值。"
+msgstr "滤镜基元 <b>feComponentTransfer</b> 根据特定的转换方式修改输入的色彩成分（红、绿、蓝和不透明度），操作效果类似于亮度和对比度调整、色彩平衡、以及色阈值。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2974
 msgid "The <b>feComposite</b> filter primitive composites two images using one of the Porter-Duff blending modes or the arithmetic mode described in SVG standard. Porter-Duff blending modes are essentially logical operations between the corresponding pixel values of the images."
-msgstr "滤镜基元<b>feComposite</b>使用Porter-Duff混合模式或者SVG标准中描述的算法对两个图像进行组合. Porter-Duff模式是对图像中的对应像素进行逻辑操作."
+msgstr "滤镜基元 <b>feComposite</b> 使用 Porter-Duff 混合模式或者 SVG 标准中描述的算法对两个图像进行组合。Porter-Duff 模式就是对图像中的对应像素进行逻辑操作。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2978
 msgid "The <b>feConvolveMatrix</b> lets you specify a Convolution to be applied on the image. Common effects created using convolution matrices are blur, sharpening, embossing and edge detection. Note that while gaussian blur can be created using this filter primitive, the special gaussian blur primitive is faster and resolution-independent."
-msgstr "滤镜基元<b>feConvolveMatrix</b>对图像进行卷积。使用卷积矩阵产生的一般效果包括模糊、锐化、浮雕和边沿检测。尽管高斯模糊也可以用这种方式产生，但专用的高斯模糊滤镜基元速度更快并且与分辨率无关。"
+msgstr "滤镜基元 <b>feConvolveMatrix</b> 对图像进行卷积。使用卷积矩阵产生的一般效果包括模糊、锐化、浮雕和边沿检测。尽管高斯模糊也可以用这种方式产生，但专用的高斯模糊滤镜基元速度更快并且与分辨率无关。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2982
 msgid "The <b>feDiffuseLighting</b> and feSpecularLighting filter primitives create \"embossed\" shadings.  The input's alpha channel is used to provide depth information: higher opacity areas are raised toward the viewer and lower opacity areas recede away from the viewer."
-msgstr "滤镜基元<b>feDiffuseLighting</b> 和 feSpecularLighting 产生\"浮雕式\"的阴影。输入的alpha通道用来提供深度信息：不透明的区域向观察者凸出，透明区域则向内凹陷."
+msgstr "滤镜基元 <b>feDiffuseLighting</b> 和 feSpecularLighting 产生“浮雕式”的阴影。输入的 alpha 通道用来提供深度信息：不透明的区域向观察者凸出，透明区域则向内凹陷。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2986
 msgid "The <b>feDisplacementMap</b> filter primitive displaces the pixels in the first input using the second input as a displacement map, that shows from how far the pixel should come from. Classical examples are whirl and pinch effects."
-msgstr "滤镜基元<b>feDisplacementMap</b>使用第二个输入作为位移贴图来平移第一个输入上的像素，第二个输入确定了每个像素的距离。经典例子包括回旋和收缩。"
+msgstr "滤镜基元 <b>feDisplacementMap</b> 使用第二个输入作为位移贴图来平移第一个输入上的像素，第二个输入确定了每个像素的距离。经典例子包括回旋和收缩。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2990
 msgid "The <b>feFlood</b> filter primitive fills the region with a given color and opacity.  It is usually used as an input to other filters to apply color to a graphic."
-msgstr "基础滤镜<b>feFlood</b>(浸漫)用指定的颜色和透明度填充区域.  经常用来作为其它滤镜的输入, 来为图形着色."
+msgstr "滤镜基元 <b>feFlood</b>（浸漫）用指定的颜色和透明度填充区域。经常用来作为其它滤镜的输入，来为图形着色。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2994
 msgid "The <b>feGaussianBlur</b> filter primitive uniformly blurs its input.  It is commonly used together with feOffset to create a drop shadow effect."
-msgstr "滤镜基元<b>feGaussianBlur</b>对输入进行均一模糊. 通常与feOffset组合使用构成阴影投射效果."
+msgstr "滤镜基元 <b>feGaussianBlur</b> 对输入进行均一模糊。通常与 feOffset 组合使用构成阴影投射效果。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2998
 msgid "The <b>feImage</b> filter primitive fills the region with an external image or another part of the document."
-msgstr "滤镜基元<b>feImage</b>用另外一幅图像或文档的另外一部分来填充区域."
+msgstr "滤镜基元 <b>feImage</b> 用另外一幅图像或文档的另外一部分来填充区域。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3002
 msgid "The <b>feMerge</b> filter primitive composites several temporary images inside the filter primitive to a single image. It uses normal alpha compositing for this. This is equivalent to using several feBlend primitives in 'normal' mode or several feComposite primitives in 'over' mode."
-msgstr "滤镜基元<b>feMerge</b>将滤镜内的几个临时图像通过标准alpha方式合并为一个图像. 与通过多次执行feBlend中的\"标准\"模式和feComposite中\"over\"模式合并图像是等效的."
+msgstr "滤镜基元 <b>feMerge</b>将滤镜内的几个临时图像通过标准 alpha 方式合并为一个图像。与通过多次执行 feBlend 中的“标准”模式和 feComposite 中“over”模式合并图像是等效的。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3006
 msgid "The <b>feMorphology</b> filter primitive provides erode and dilate effects. For single-color objects erode makes the object thinner and dilate makes it thicker."
-msgstr "滤镜基元<b>feMorphology</b> 提供了浸蚀与膨胀效果. 对于单色对象, 浸蚀使其窄薄, 而膨胀使其变厚."
+msgstr "滤镜基元 <b>feMorphology</b> 提供了浸蚀与膨胀效果。对于单色对象，浸蚀使其窄薄，而膨胀使其变厚。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3010
 msgid "The <b>feOffset</b> filter primitive offsets the image by an user-defined amount. For example, this is useful for drop shadows, where the shadow is in a slightly different position than the actual object."
-msgstr "滤镜基元<b>feOffset</b> 将图像偏移指定的距离. 例如, 在投射阴影时, 阴影要略微偏离实际对象的位置."
+msgstr "滤镜基元 <b>feOffset</b> 将图像偏移指定的距离。例如，在投射阴影时，阴影要略微偏离实际对象的位置。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3014
 msgid "The <b>feDiffuseLighting</b> and <b>feSpecularLighting</b> filter primitives create \"embossed\" shadings.  The input's alpha channel is used to provide depth information: higher opacity areas are raised toward the viewer and lower opacity areas recede away from the viewer."
-msgstr "此<b>扩散光 (feDiffuseLighting) </b>和<b>反射光 (feSpecularLighting) </b>滤镜基元用来制作“浮凸的”明暗变化。输入透明色版用以提供深度信息：较高的不透明范围会加强浮凸的视觉效果，而较低的不透明范围则会减弱。"
+msgstr "滤镜基元 <b>feDiffuseLighting</b> 和 <b>feSpecularLighting</b> 产生“浮雕式”的阴影。输入的 alpha 通道用来提供深度信息：不透明的区域向观察者凸出，透明区域则向内凹陷。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3018
 #, fuzzy
 #| msgid "The <b>feImage</b> filter primitive fills the region with an external image or another part of the document."
 msgid "The <b>feTile</b> filter primitive tiles a region with an input graphic. The source tile is defined by the filter primitive subregion of the input."
-msgstr "滤镜基元<b>feImage</b>用另外一幅图像或文档的另外一部分来填充区域."
+msgstr "滤镜基元 <b>feImage</b>用另外一幅图像或文档的另外一部分来填充区域."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3022
 msgid "The <b>feTurbulence</b> filter primitive renders Perlin noise. This kind of noise is useful in simulating several nature phenomena like clouds, fire and smoke and in generating complex textures like marble or granite."
-msgstr "滤镜基元<b>feTurbulence</b>渲染柏林噪声. 同样用于模拟一些自然现象, 例如云、火焰和烟雾, 以及产生类似大理石或花岗石的复杂纹理."
+msgstr "滤镜基元 <b>feTurbulence</b>渲染柏林噪声. 同样用于模拟一些自然现象, 例如云、火焰和烟雾, 以及产生类似大理石或花岗石的复杂纹理."
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3041
 msgid "Duplicate filter primitive"
@@ -15413,11 +15413,11 @@ msgstr "设置滤镜基元属性"
 
 #: ../src/ui/dialog/find.cpp:72
 msgid "F_ind:"
-msgstr "寻找(_F)："
+msgstr "查找(_F)："
 
 #: ../src/ui/dialog/find.cpp:72
 msgid "Find objects by their content or properties (exact or partial match)"
-msgstr "依照内容或属性寻找对象 (完全匹配或部分匹配)"
+msgstr "依照内容或属性查找对象 (完全匹配或部分匹配)"
 
 #: ../src/ui/dialog/find.cpp:73
 msgid "R_eplace:"
@@ -15437,7 +15437,7 @@ msgstr "搜索所有图层"
 
 #: ../src/ui/dialog/find.cpp:76
 msgid "Current _layer"
-msgstr "目前图层(_L)"
+msgstr "当前图层(_L)"
 
 #: ../src/ui/dialog/find.cpp:76
 msgid "Limit search to the current layer"
@@ -15461,11 +15461,11 @@ msgstr "属性(_P)"
 
 #: ../src/ui/dialog/find.cpp:79
 msgid "Search in object properties, styles, attributes and IDs"
-msgstr "搜索对象属性、样式、属性值和识别 (ID)"
+msgstr "搜索对象属性、样式、属性值和 ID"
 
 #: ../src/ui/dialog/find.cpp:81
 msgid "Search in"
-msgstr "搜索条件"
+msgstr "搜索于"
 
 #: ../src/ui/dialog/find.cpp:82
 msgid "Scope"
@@ -29335,7 +29335,7 @@ msgid ""
 " Current active tab id is %s"
 msgstr ""
 "选择其中一个动作分页 - 路径转成 Gcode、面铣、雕刻、DXF 钻尖、方向、偏移、车床或刀具库。\n"
-"目前的动作分页识别码为 %s"
+"当前的动作分页识别码为 %s"
 
 #: ../share/extensions/gcodetools.py:6668
 msgid "Orientation points have not been defined! A default set of orientation points has been automatically added."
@@ -29479,11 +29479,11 @@ msgstr "找不到 Inkscape 指令。\n"
 
 #: ../share/extensions/jessyInk_masterSlide.py:56
 msgid "Layer not found. Removed current master slide selection.\n"
-msgstr "找不到图层。已移除目前母幻灯片的选取状态。\n"
+msgstr "找不到图层。已移除当前母幻灯片的选取状态。\n"
 
 #: ../share/extensions/jessyInk_masterSlide.py:58
 msgid "More than one layer with this name found. Removed current master slide selection.\n"
-msgstr "找到了多个该名称的图层。已移除目前幻灯片母版的选取状态。\n"
+msgstr "找到了多个该名称的图层。已移除当前幻灯片母版的选取状态。\n"
 
 #: ../share/extensions/jessyInk_summary.py:69
 #, python-brace-format
@@ -31552,7 +31552,7 @@ msgstr ""
 "方向点用来计算路径的变形 (XY 平面的偏移、缩放、镜射、旋转)。\n"
 "仅在 3 点模式情况下: 不要将三点全都放进同一条路径里 (请改用 2 点模式)。\n"
 "你之后可以使用文本工具修改 Z 表面、Z 深度的数值 (第三坐标)。\n"
-"若目前图层里面没有方向点则会从上一个图层获取。\n"
+"若当前图层里面没有方向点则会从上一个图层获取。\n"
 "千万不要将方向点解除群组！你可以点击两下或 Ctrl+点击 来选取方向点。\n"
 "现在按应用可创建控制点 (每个图层都是独立设置)。"
 
