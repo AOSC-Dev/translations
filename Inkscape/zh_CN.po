@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 00:36-0500\n"
+"PO-Revision-Date: 2015-11-26 00:53-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,2736,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,2903,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -1549,15 +1549,15 @@ msgstr "相反混合"
 
 #: ../share/filters/filters.svg.h:628
 msgid "Blend an image with its hue opposite"
-msgstr "用本身的相反色相混合图像"
+msgstr "用本身的相反色调混合图像"
 
 #: ../share/filters/filters.svg.h:630
 msgid "Hue to White"
-msgstr "色相转成白色"
+msgstr "色调转成白色"
 
 #: ../share/filters/filters.svg.h:632
 msgid "Fades hue progressively to white"
-msgstr "将色相渐渐淡化成白色"
+msgstr "将色调渐渐淡化成白色"
 
 #: ../share/filters/filters.svg.h:634
 #: ../src/extension/internal/bitmap/swirl.cpp:37
@@ -4384,7 +4384,7 @@ msgstr "3D 盒子"
 #: ../src/color-profile.cpp:842
 #, c-format
 msgid "Color profiles directory (%s) is unavailable."
-msgstr "色彩配置档案目录（%s）不可用。"
+msgstr "色彩配置文件目录（%s）不可用。"
 
 #: ../src/color-profile.cpp:901 ../src/color-profile.cpp:918
 msgid "(invalid UTF-8 string)"
@@ -6490,7 +6490,7 @@ msgstr "偏移 (°)"
 
 #: ../src/extension/internal/filter/color.h:340
 msgid "Rotate and desaturate hue"
-msgstr "旋转色相并去饱和色调"
+msgstr "旋转色调并去饱和色调"
 
 #: ../src/extension/internal/filter/color.h:396
 msgid "Harsh light"
@@ -6710,7 +6710,7 @@ msgstr "反转透明度"
 
 #: ../src/extension/internal/filter/color.h:999
 msgid "Manage hue, lightness and transparency inversions"
-msgstr "控制色相、亮度和透明的反转"
+msgstr "控制色调、亮度和透明的反转"
 
 #: ../src/extension/internal/filter/color.h:1117
 msgid "Lights"
@@ -6808,7 +6808,7 @@ msgstr "四色调奇幻"
 
 #: ../src/extension/internal/filter/color.h:1485
 msgid "Hue distribution (°)"
-msgstr "色相分布 (°)"
+msgstr "色调分布 (°)"
 
 #: ../src/extension/internal/filter/color.h:1486
 #: ../share/extensions/svgcalendar.inx.h:19
@@ -6817,11 +6817,11 @@ msgstr "颜色"
 
 #: ../src/extension/internal/filter/color.h:1507
 msgid "Replace hue by two colors"
-msgstr "用两种颜色替代色相"
+msgstr "用两种颜色替代色调"
 
 #: ../src/extension/internal/filter/color.h:1571
 msgid "Hue rotation (°)"
-msgstr "色相旋转 (°)"
+msgstr "色调旋转 (°)"
 
 #: ../src/extension/internal/filter/color.h:1574
 msgid "Moonarize"
@@ -6837,7 +6837,7 @@ msgstr "三色调"
 
 #: ../src/extension/internal/filter/color.h:1662
 msgid "Enhance hue"
-msgstr "加强色相"
+msgstr "加强色调"
 
 #: ../src/extension/internal/filter/color.h:1663
 msgid "Phosphorescence"
@@ -6849,7 +6849,7 @@ msgstr "彩色夜晚"
 
 #: ../src/extension/internal/filter/color.h:1665
 msgid "Hue to background"
-msgstr "色相转成背景"
+msgstr "色调转成背景"
 
 #: ../src/extension/internal/filter/color.h:1667
 msgid "Global blend:"
@@ -6873,11 +6873,11 @@ msgstr "全局照明"
 
 #: ../src/extension/internal/filter/color.h:1683
 msgid "Hue distribution (°):"
-msgstr "色相分布 (°)："
+msgstr "色调分布 (°)："
 
 #: ../src/extension/internal/filter/color.h:1694
 msgid "Create a custom tritone palette with additional glow, blend modes and hue moving"
-msgstr "创建含有额外光晕、混合模式和色相移动的自定义三色调色板"
+msgstr "创建含有额外光晕、混合模式和色调移动的自定义三色调色板"
 
 #: ../src/extension/internal/filter/distort.h:67
 msgid "Felt Feather"
@@ -7192,7 +7192,7 @@ msgstr "垂直频率："
 #: ../src/extension/internal/filter/overlays.h:66
 #: ../src/extension/internal/filter/textures.h:69
 msgid "Complexity:"
-msgstr "复杂度:"
+msgstr "复杂度："
 
 #: ../src/extension/internal/filter/overlays.h:67
 #: ../src/extension/internal/filter/textures.h:70
@@ -7309,7 +7309,7 @@ msgstr "填充颜色"
 #: ../src/extension/internal/filter/paint.h:351
 #: ../src/extension/internal/filter/paint.h:714
 msgid "Image on fill"
-msgstr "图像在填色上面"
+msgstr "图像在填充上面"
 
 #: ../src/extension/internal/filter/paint.h:354
 msgid "Stroke color"
@@ -7519,7 +7519,7 @@ msgstr "垂直嵌入："
 
 #: ../src/extension/internal/filter/textures.h:73
 msgid "Displacement:"
-msgstr "位移 :"
+msgstr "位移："
 
 #: ../src/extension/internal/filter/textures.h:79
 msgid "Overlapping"
@@ -8330,7 +8330,7 @@ msgstr "互斥"
 #: ../src/widgets/tweak-toolbar.cpp:286
 #: ../share/extensions/color_randomize.inx.h:3
 msgid "Hue"
-msgstr "色度"
+msgstr "色调"
 
 #: ../src/filter-enums.cpp:68
 msgid "Luminosity"
@@ -8601,15 +8601,15 @@ msgstr "移动控制柄"
 #. TRANSLATORS: This refers to the pattern that's inside the object
 #: ../src/knotholder.cpp:277 ../src/knotholder.cpp:299
 msgid "<b>Move</b> the pattern fill inside the object"
-msgstr "<b>移动</b>图案填色对象内部"
+msgstr "<b>移动</b>图案填充对象内部"
 
 #: ../src/knotholder.cpp:281 ../src/knotholder.cpp:303
 msgid "<b>Scale</b> the pattern fill; uniformly if with <b>Ctrl</b>"
-msgstr "<b>缩放</b>图案填色；<b>Ctrl</b>统一缩放填色"
+msgstr "<b>缩放</b>图案填充；<b>Ctrl</b>统一缩放填充"
 
 #: ../src/knotholder.cpp:285 ../src/knotholder.cpp:307
 msgid "<b>Rotate</b> the pattern fill; with <b>Ctrl</b> to snap angle"
-msgstr "<b>旋转</b>图案填色；按住 <b>Ctrl</b> 捕捉角度"
+msgstr "<b>旋转</b>图案填充；按住 <b>Ctrl</b> 捕捉角度"
 
 #: ../src/libgdl/gdl-dock-bar.c:105
 msgid "Master"
@@ -9261,7 +9261,7 @@ msgstr "沿该路径弯曲原始路径"
 #: ../src/ui/dialog/export.cpp:285 ../src/ui/dialog/transformation.cpp:74
 #: ../src/ui/widget/page-sizer.cpp:237
 msgid "_Width:"
-msgstr "宽度(_W):"
+msgstr "宽度(_W)："
 
 #: ../src/live_effects/lpe-bendpath.cpp:54
 msgid "Width of the path"
@@ -10159,7 +10159,7 @@ msgstr "应用前将图案旋转 90 度"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:77
 msgid "_Fuse nearby ends:"
-msgstr "熔合接近的端点(_F):"
+msgstr "熔合接近的端点(_F)："
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:77
 msgid "Fuse ends closer than this number. 0 means don't fuse."
@@ -12178,11 +12178,11 @@ msgstr "对象转化成图案"
 
 #: ../src/selection-chemistry.cpp:3367
 msgid "Select an <b>object with pattern fill</b> to extract objects from."
-msgstr "选择一个<b>使用图案填色的对象</b>，从中提取对象形状."
+msgstr "选择一个<b>使用图案填充的对象</b>，从中提取对象形状."
 
 #: ../src/selection-chemistry.cpp:3426
 msgid "<b>No pattern fills</b> in the selection."
-msgstr "选区<b>没有图案填色</b>."
+msgstr "选区<b>没有图案填充</b>."
 
 #: ../src/selection-chemistry.cpp:3429
 msgid "Pattern to objects"
@@ -12514,7 +12514,7 @@ msgstr "嵌入"
 #: ../src/sp-image.cpp:525
 #, c-format
 msgid "[bad reference]: %s"
-msgstr "[不良的参考]: %s"
+msgstr "[不良的引用]：%s"
 
 #: ../src/sp-image.cpp:526
 #, c-format
@@ -12976,28 +12976,28 @@ msgstr "选择对象来粘贴样式。"
 
 #: ../src/ui/clipboard.cpp:463 ../src/ui/clipboard.cpp:480
 msgid "No style on the clipboard."
-msgstr "剪贴板不包含样式."
+msgstr "剪贴板不包含样式。"
 
 #: ../src/ui/clipboard.cpp:505
 msgid "Select <b>object(s)</b> to paste size to."
-msgstr "选择对象来粘贴尺寸."
+msgstr "选择对象来粘贴大小。"
 
 #: ../src/ui/clipboard.cpp:512
 msgid "No size on the clipboard."
-msgstr "剪贴板不包含大小."
+msgstr "剪贴板不包含大小。"
 
 #: ../src/ui/clipboard.cpp:569
 msgid "Select <b>object(s)</b> to paste live path effect to."
-msgstr "选择<b>对象</b>来粘贴实时路径效果."
+msgstr "选择<b>对象</b>来粘贴实时路径效果。"
 
 #. no_effect:
 #: ../src/ui/clipboard.cpp:595
 msgid "No effect on the clipboard."
-msgstr "剪贴板不包含效果."
+msgstr "剪贴板不包含效果。"
 
 #: ../src/ui/clipboard.cpp:614 ../src/ui/clipboard.cpp:651
 msgid "Clipboard does not contain a path."
-msgstr "剪贴板中没有路径."
+msgstr "剪贴板中没有路径。"
 
 #. *
 #. * Constructor
@@ -13035,7 +13035,7 @@ msgstr "许可(_L)"
 #. should be in UTF-*8..
 #: ../src/ui/dialog/aboutbox.cpp:166
 msgid "about.svg"
-msgstr "about.svg"
+msgstr ""
 
 #. TRANSLATORS: Put here your name (and other national contributors')
 #. one per line in the form of: name surname (email). Use \n for newline.
@@ -13078,7 +13078,7 @@ msgstr "边界之间的最小垂直间隙(以像素为单位)"
 #: ../src/ui/dialog/align-and-distribute.cpp:429
 msgctxt "Gap"
 msgid "_V:"
-msgstr "垂直(_V)："
+msgstr "_V："
 
 #: ../src/ui/dialog/align-and-distribute.cpp:464
 #: ../src/ui/dialog/align-and-distribute.cpp:850
@@ -13089,7 +13089,7 @@ msgstr "去除重叠"
 #: ../src/ui/dialog/align-and-distribute.cpp:495
 #: ../src/widgets/connector-toolbar.cpp:236
 msgid "Arrange connector network"
-msgstr "排列连接器网络"
+msgstr "整理连接器网络"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:588
 msgid "Exchange Positions"
@@ -13097,7 +13097,7 @@ msgstr "交换位置"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:622
 msgid "Unclump"
-msgstr "分解团块"
+msgstr "解散"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:693
 msgid "Randomize positions"
@@ -13122,11 +13122,11 @@ msgstr "节点"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:865
 msgid "Relative to: "
-msgstr "相对于:"
+msgstr "相对于："
 
 #: ../src/ui/dialog/align-and-distribute.cpp:866
 msgid "_Treat selection as group: "
-msgstr "将选取区视为群组(_T)："
+msgstr "将选区视为群组(_T)："
 
 #. Align
 #: ../src/ui/dialog/align-and-distribute.cpp:872 ../src/verbs.cpp:2993
@@ -13142,22 +13142,22 @@ msgstr "对齐左侧边沿"
 #: ../src/ui/dialog/align-and-distribute.cpp:878 ../src/verbs.cpp:2997
 #: ../src/verbs.cpp:2998
 msgid "Center on vertical axis"
-msgstr "垂直方向居中"
+msgstr "垂直居中"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:881 ../src/verbs.cpp:2999
 #: ../src/verbs.cpp:3000
 msgid "Align right sides"
-msgstr "右对齐"
+msgstr "对齐右侧"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:884 ../src/verbs.cpp:3001
 #: ../src/verbs.cpp:3002
 msgid "Align left edges of objects to the right edge of the anchor"
-msgstr "将对象的左侧边沿对齐到锚的右边"
+msgstr "对齐对象的左边沿到锚的右边"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:887 ../src/verbs.cpp:3003
 #: ../src/verbs.cpp:3004
 msgid "Align bottom edges of objects to the top edge of the anchor"
-msgstr "将对象的底侧边沿对齐到锚的顶端"
+msgstr "对齐对象的底边沿到锚的顶端"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:890 ../src/verbs.cpp:3005
 #: ../src/verbs.cpp:3006
@@ -13250,7 +13250,7 @@ msgstr "两个方向任意居中"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:967
 msgid "Unclump objects: try to equalize edge-to-edge distances"
-msgstr "解除聚合对象:使边边等距"
+msgstr "解散聚合对象：尝试做到边边等距"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:972
 msgid "Move objects as little as possible so that their bounding boxes do not overlap"
@@ -13275,7 +13275,7 @@ msgstr "垂直方向分布选择的节点"
 #. Rest of the widgetry
 #: ../src/ui/dialog/align-and-distribute.cpp:994
 msgid "Last selected"
-msgstr "最近的选区"
+msgstr "最近选区"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:995
 msgid "First selected"
@@ -13296,11 +13296,11 @@ msgstr "选取范围"
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:40
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:138
 msgid "Edit profile"
-msgstr "编辑描述档"
+msgstr "编辑配置文件"
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:53
 msgid "Profile name:"
-msgstr "设置档案名:"
+msgstr "配置文件名："
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:80
 msgid "Save"
@@ -13308,7 +13308,7 @@ msgstr "保存"
 
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:134
 msgid "Add profile"
-msgstr "加入描述档"
+msgstr "加入配置文件"
 
 #: ../src/ui/dialog/clonetiler.cpp:110
 msgid "_Symmetry"
@@ -13317,77 +13317,77 @@ msgstr "对称(_S)"
 #. TRANSLATORS: "translation" means "shift" / "displacement" here.
 #: ../src/ui/dialog/clonetiler.cpp:122
 msgid "<b>P1</b>: simple translation"
-msgstr "<b>P1</b>:简单变换"
+msgstr "<b>P1</b>：简单变换"
 
 #: ../src/ui/dialog/clonetiler.cpp:123
 msgid "<b>P2</b>: 180&#176; rotation"
-msgstr "<b>P2</b>:180&#176;旋转"
+msgstr "<b>P2</b>：180&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:124
 msgid "<b>PM</b>: reflection"
-msgstr "<b>PM</b>:镜像"
+msgstr "<b>PM</b>：镜像"
 
 #. TRANSLATORS: "glide reflection" is a reflection and a translation combined.
 #. For more info, see http://mathforum.org/sum95/suzanne/symsusan.html
 #: ../src/ui/dialog/clonetiler.cpp:127
 msgid "<b>PG</b>: glide reflection"
-msgstr "<b>PG</b>:滑动镜像"
+msgstr "<b>PG</b>：滑动镜像"
 
 #: ../src/ui/dialog/clonetiler.cpp:128
 msgid "<b>CM</b>: reflection + glide reflection"
-msgstr "<b>CM</b>:镜像 + 滑动镜像"
+msgstr "<b>CM</b>：镜像 + 滑动镜像"
 
 #: ../src/ui/dialog/clonetiler.cpp:129
 msgid "<b>PMM</b>: reflection + reflection"
-msgstr "<b>PMM</b>:镜像 + 镜像"
+msgstr "<b>PMM</b>：镜像 + 镜像"
 
 #: ../src/ui/dialog/clonetiler.cpp:130
 msgid "<b>PMG</b>: reflection + 180&#176; rotation"
-msgstr "<b>PMG</b>:镜像 + 180&#176;旋转"
+msgstr "<b>PMG</b>：镜像 + 180&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:131
 msgid "<b>PGG</b>: glide reflection + 180&#176; rotation"
-msgstr "<b>PGG</b>:滑动镜像 + 180&#176;旋转"
+msgstr "<b>PGG</b>：滑动镜像 + 180&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:132
 msgid "<b>CMM</b>: reflection + reflection + 180&#176; rotation"
-msgstr "<b>CMM</b>:镜像 + 镜像 + 180&#176;旋转"
+msgstr "<b>CMM</b>：镜像 + 镜像 + 180&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:133
 msgid "<b>P4</b>: 90&#176; rotation"
-msgstr "<b>P4</b>:90&#176;旋转"
+msgstr "<b>P4</b>：90&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:134
 msgid "<b>P4M</b>: 90&#176; rotation + 45&#176; reflection"
-msgstr "<b>P4M</b>:90&#176;旋转 + 45&#176; 镜像"
+msgstr "<b>P4M</b>：90&#176;旋转 + 45&#176; 镜像"
 
 #: ../src/ui/dialog/clonetiler.cpp:135
 msgid "<b>P4G</b>: 90&#176; rotation + 90&#176; reflection"
-msgstr "<b>P4G</b>:90&#176;旋转 + 90&#176; 镜像"
+msgstr "<b>P4G</b>：90&#176;旋转 + 90&#176; 镜像"
 
 #: ../src/ui/dialog/clonetiler.cpp:136
 msgid "<b>P3</b>: 120&#176; rotation"
-msgstr "<b>P3</b>:120&#176;旋转"
+msgstr "<b>P3</b>：120&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:137
 msgid "<b>P31M</b>: reflection + 120&#176; rotation, dense"
-msgstr "<b>P31M</b>:镜像 + 120&#176;旋转, 密集"
+msgstr "<b>P31M</b>：镜像 + 120&#176;旋转, 密集"
 
 #: ../src/ui/dialog/clonetiler.cpp:138
 msgid "<b>P3M1</b>: reflection + 120&#176; rotation, sparse"
-msgstr "<b>P3M1</b>:镜像 + 120&#176;旋转, 稀疏"
+msgstr "<b>P3M1</b>：镜像 + 120&#176;旋转, 稀疏"
 
 #: ../src/ui/dialog/clonetiler.cpp:139
 msgid "<b>P6</b>: 60&#176; rotation"
-msgstr "<b>P6</b>:60&#176;旋转"
+msgstr "<b>P6</b>：60&#176;旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:140
 msgid "<b>P6M</b>: reflection + 60&#176; rotation"
-msgstr "<b>P6M</b>:镜像 + 60&#176; 旋转"
+msgstr "<b>P6M</b>：镜像 + 60&#176; 旋转"
 
 #: ../src/ui/dialog/clonetiler.cpp:160
 msgid "Select one of the 17 symmetry groups for the tiling"
-msgstr "选择17个对称组合之一平铺"
+msgstr "选择 17 个对称组合之一平铺"
 
 #: ../src/ui/dialog/clonetiler.cpp:178
 msgid "S_hift"
@@ -13397,17 +13397,17 @@ msgstr "偏移(_H)"
 #: ../src/ui/dialog/clonetiler.cpp:188
 #, no-c-format
 msgid "<b>Shift X:</b>"
-msgstr "<b>X偏移:</b>"
+msgstr "<b>X 偏移：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:196
 #, no-c-format
 msgid "Horizontal shift per row (in % of tile width)"
-msgstr "每行水平偏移(宽度的百分比)"
+msgstr "每行水平偏移（宽度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:204
 #, no-c-format
 msgid "Horizontal shift per column (in % of tile width)"
-msgstr "每列水平偏移(宽度的百分比)"
+msgstr "每列水平偏移（宽度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:210
 msgid "Randomize the horizontal shift by this percentage"
@@ -13417,17 +13417,17 @@ msgstr "使用当前百分比在水平方向随机偏移"
 #: ../src/ui/dialog/clonetiler.cpp:220
 #, no-c-format
 msgid "<b>Shift Y:</b>"
-msgstr "<b>Y偏移:</b>"
+msgstr "<b> Y 偏移：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:228
 #, no-c-format
 msgid "Vertical shift per row (in % of tile height)"
-msgstr "每行水平偏移(高度的百分比)"
+msgstr "每行水平偏移（高度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:236
 #, no-c-format
 msgid "Vertical shift per column (in % of tile height)"
-msgstr "每列水平偏移(高度的百分比)"
+msgstr "每列水平偏移（高度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:243
 msgid "Randomize the vertical shift by this percentage"
@@ -13435,7 +13435,7 @@ msgstr "使用当前百分比在垂直方向随机移动"
 
 #: ../src/ui/dialog/clonetiler.cpp:251 ../src/ui/dialog/clonetiler.cpp:397
 msgid "<b>Exponent:</b>"
-msgstr "<b>指数:</b>"
+msgstr "<b>指数：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:258
 msgid "Whether rows are spaced evenly (1), converge (<1) or diverge (>1)"
@@ -13450,7 +13450,7 @@ msgstr "列间距是均匀的 (1), 收敛的 (<1) 还是发散的 (>1)"
 #: ../src/ui/dialog/clonetiler.cpp:513 ../src/ui/dialog/clonetiler.cpp:586
 #: ../src/ui/dialog/clonetiler.cpp:632 ../src/ui/dialog/clonetiler.cpp:759
 msgid "<small>Alternate:</small>"
-msgstr "<small>交替:</small>"
+msgstr "<small>交替：</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:279
 msgid "Alternate the sign of shifts for each row"
@@ -13464,7 +13464,7 @@ msgstr "交替各列的偏移符号"
 #: ../src/ui/dialog/clonetiler.cpp:291 ../src/ui/dialog/clonetiler.cpp:455
 #: ../src/ui/dialog/clonetiler.cpp:531
 msgid "<small>Cumulate:</small>"
-msgstr "<small>累积:</small>"
+msgstr "<small>累积：</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:297
 msgid "Cumulate the shifts for each row"
@@ -13477,7 +13477,7 @@ msgstr "累计各列的偏移"
 #. TRANSLATORS: "Cumulate" is a verb here
 #: ../src/ui/dialog/clonetiler.cpp:309
 msgid "<small>Exclude tile:</small>"
-msgstr "<small>挤压平铺:</small>"
+msgstr "<small>挤压平铺：</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:315
 msgid "Exclude tile height in shift"
@@ -13493,17 +13493,17 @@ msgstr "缩放(_A)"
 
 #: ../src/ui/dialog/clonetiler.cpp:337
 msgid "<b>Scale X:</b>"
-msgstr "<b>X缩放:</b>"
+msgstr "<b>X 缩放：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:345
 #, no-c-format
 msgid "Horizontal scale per row (in % of tile width)"
-msgstr "每行水平缩放(宽度的百分比)"
+msgstr "每行水平缩放（宽度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:353
 #, no-c-format
 msgid "Horizontal scale per column (in % of tile width)"
-msgstr "每列水平缩放(宽度的百分比)"
+msgstr "每列水平缩放（宽度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:359
 msgid "Randomize the horizontal scale by this percentage"
@@ -13511,17 +13511,17 @@ msgstr "使用当前百分比在水平方向随机缩放"
 
 #: ../src/ui/dialog/clonetiler.cpp:367
 msgid "<b>Scale Y:</b>"
-msgstr "<b>Y缩放:</b>"
+msgstr "<b>Y 缩放:</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:375
 #, no-c-format
 msgid "Vertical scale per row (in % of tile height)"
-msgstr "每行垂直缩放(高度的百分比)"
+msgstr "每行垂直缩放（高度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:383
 #, no-c-format
 msgid "Vertical scale per column (in % of tile height)"
-msgstr "每列水平缩放(高度的百分比)"
+msgstr "每列水平缩放（高度的百分比）"
 
 #: ../src/ui/dialog/clonetiler.cpp:389
 msgid "Randomize the vertical scale by this percentage"
@@ -13537,11 +13537,11 @@ msgstr "列缩放是均匀的 (1), 收敛的 (<1) 还是发散的 (>1)"
 
 #: ../src/ui/dialog/clonetiler.cpp:417
 msgid "<b>Base:</b>"
-msgstr "<b>基数:</b>"
+msgstr "<b>基数：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:423 ../src/ui/dialog/clonetiler.cpp:429
 msgid "Base for a logarithmic spiral: not used (0), converge (<1), or diverge (>1)"
-msgstr "对数螺旋线的基数: 不起作用(0), 汇聚(<1), 发散(>1)"
+msgstr "对数螺旋线的基数: 不起作用(0), 收敛(<1), 发散(>1)"
 
 #: ../src/ui/dialog/clonetiler.cpp:443
 msgid "Alternate the sign of scales for each row"
@@ -13565,7 +13565,7 @@ msgstr "旋转(_R)"
 
 #: ../src/ui/dialog/clonetiler.cpp:483
 msgid "<b>Angle:</b>"
-msgstr "<b>角度:</b>"
+msgstr "<b>角度：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:491
 #, no-c-format
@@ -13603,7 +13603,7 @@ msgstr "模糊与透明(_B)"
 
 #: ../src/ui/dialog/clonetiler.cpp:560
 msgid "<b>Blur:</b>"
-msgstr "<b>模糊:</b>"
+msgstr "<b>模糊：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:566
 msgid "Blur tiles by this percentage for each row"
@@ -13655,7 +13655,7 @@ msgstr "颜色(_L)"
 
 #: ../src/ui/dialog/clonetiler.cpp:661
 msgid "Initial color: "
-msgstr "初始颜色:"
+msgstr "初始颜色："
 
 #: ../src/ui/dialog/clonetiler.cpp:665
 msgid "Initial color of tiled clones"
@@ -13663,7 +13663,7 @@ msgstr "平铺克隆的初始颜色"
 
 #: ../src/ui/dialog/clonetiler.cpp:665
 msgid "Initial color for clones (works only if the original has unset fill or stroke)"
-msgstr "为克隆的初始颜色(只有原始对象没有设置填色或绘制属性才起作用)"
+msgstr "克隆的初始颜色（只有原始对象没有设置填充或绘制属性才起作用）"
 
 #: ../src/ui/dialog/clonetiler.cpp:680
 msgid "<b>H:</b>"
@@ -13671,19 +13671,19 @@ msgstr "<b>色调：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:686
 msgid "Change the tile hue by this percentage for each row"
-msgstr "对每行按照这个百分比改变平铺的色度"
+msgstr "对每行按照这个百分比改变平铺的色调"
 
 #: ../src/ui/dialog/clonetiler.cpp:692
 msgid "Change the tile hue by this percentage for each column"
-msgstr "对每列按照这个百分比改变平铺的色度"
+msgstr "对每列按照这个百分比改变平铺的色调"
 
 #: ../src/ui/dialog/clonetiler.cpp:698
 msgid "Randomize the tile hue by this percentage"
-msgstr "按照这个百分比随机设置平铺的色度"
+msgstr "按照这个百分比随机设置平铺的色调"
 
 #: ../src/ui/dialog/clonetiler.cpp:707
 msgid "<b>S:</b>"
-msgstr "<b>饱和度:</b>"
+msgstr "<b>饱和度：</b>"
 
 #: ../src/ui/dialog/clonetiler.cpp:713
 msgid "Change the color saturation by this percentage for each row"
@@ -13776,7 +13776,7 @@ msgstr "色"
 
 #: ../src/ui/dialog/clonetiler.cpp:871
 msgid "Pick the hue of the color"
-msgstr "拾取颜色的色度"
+msgstr "拾取颜色的色调"
 
 #: ../src/ui/dialog/clonetiler.cpp:878
 msgctxt "Clonetiler color saturation"
@@ -13846,7 +13846,7 @@ msgstr "每一个克隆对象的大小由拾取值得那个点的值决定"
 
 #: ../src/ui/dialog/clonetiler.cpp:984
 msgid "Each clone is painted by the picked color (the original must have unset fill or stroke)"
-msgstr "每一个克隆对象通过拾取的颜色绘制(原始对象没有设置填色或者笔廓属性)"
+msgstr "每一个克隆对象通过拾取的颜色绘制(原始对象没有设置填充或者笔廓属性)"
 
 #: ../src/ui/dialog/clonetiler.cpp:994
 msgid "Each clone's opacity is determined by the picked value in that point"
@@ -13862,11 +13862,11 @@ msgstr "平铺里有多少列"
 
 #: ../src/ui/dialog/clonetiler.cpp:1117
 msgid "Width of the rectangle to be filled"
-msgstr "被填色矩形的宽度"
+msgstr "被填充矩形的宽度"
 
 #: ../src/ui/dialog/clonetiler.cpp:1150
 msgid "Height of the rectangle to be filled"
-msgstr "被填色矩形的高度"
+msgstr "被填充矩形的高度"
 
 #: ../src/ui/dialog/clonetiler.cpp:1167
 msgid "Rows, columns: "
@@ -13882,7 +13882,7 @@ msgstr "宽, 高:"
 
 #: ../src/ui/dialog/clonetiler.cpp:1178
 msgid "Fill the specified width and height with the tiling"
-msgstr "使用平铺填色指定的宽度和高度"
+msgstr "使用平铺填充指定的宽度和高度"
 
 #: ../src/ui/dialog/clonetiler.cpp:1199
 msgid "Use saved size and position of the tile"
@@ -13907,7 +13907,7 @@ msgstr "创建并平铺选择区的克隆"
 #. So unclumping is the process of spreading a number of objects out more evenly.
 #: ../src/ui/dialog/clonetiler.cpp:1258
 msgid " _Unclump "
-msgstr "分解(_U)"
+msgstr " 解散(_U) "
 
 #: ../src/ui/dialog/clonetiler.cpp:1259
 msgid "Spread out clones to reduce clumping; can be applied repeatedly"
@@ -13949,7 +13949,7 @@ msgstr "<small>对象没有平铺克隆.</small>"
 
 #: ../src/ui/dialog/clonetiler.cpp:2100
 msgid "Select <b>one object</b> whose tiled clones to unclump."
-msgstr "选择一个<b>对象</b>以解散其平铺克隆."
+msgstr "选择一个<b>对象</b>以解散其平铺克隆。"
 
 #: ../src/ui/dialog/clonetiler.cpp:2120
 msgid "Unclump tiled clones"
@@ -14018,7 +14018,7 @@ msgstr "从样本调色板中设置笔廓颜色"
 
 #: ../src/ui/dialog/color-item.cpp:698
 msgid "Set fill color from swatch"
-msgstr "从样本调色板中设置填色颜色"
+msgstr "从样本调色板中设置填充颜色"
 
 #: ../src/ui/dialog/debug.cpp:69
 msgid "Messages"
@@ -14099,7 +14099,7 @@ msgstr "页面背景颜色。备注：编辑时会忽略透明度设置值，但
 
 #: ../src/ui/dialog/document-properties.cpp:123
 msgid "Border _color:"
-msgstr "边界颜色(_C):"
+msgstr "边界颜色(_C)："
 
 #: ../src/ui/dialog/document-properties.cpp:123
 msgid "Page border color"
@@ -14111,7 +14111,7 @@ msgstr "页面边界的颜色"
 
 #: ../src/ui/dialog/document-properties.cpp:124
 msgid "Display _units:"
-msgstr "网格单位(_U):"
+msgstr "网格单位(_U)："
 
 #. ---------------------------------------------------------------
 #. General snap options
@@ -14137,7 +14137,7 @@ msgstr "参考线的颜色"
 
 #: ../src/ui/dialog/document-properties.cpp:130
 msgid "_Highlight color:"
-msgstr "高亮色(_H):"
+msgstr "高亮色(_H)："
 
 #: ../src/ui/dialog/document-properties.cpp:130
 msgid "Highlighted guideline color"
@@ -14154,7 +14154,7 @@ msgstr "捕捉距离(_D)"
 
 #: ../src/ui/dialog/document-properties.cpp:132
 msgid "Snap only when _closer than:"
-msgstr "捕捉距离范围(_C):"
+msgstr "捕捉距离范围(_C)："
 
 #: ../src/ui/dialog/document-properties.cpp:132
 #: ../src/ui/dialog/document-properties.cpp:137
@@ -14181,7 +14181,7 @@ msgstr "捕捉距离(_I)"
 
 #: ../src/ui/dialog/document-properties.cpp:137
 msgid "Snap only when c_loser than:"
-msgstr "捕捉距离范围(_L):"
+msgstr "捕捉距离范围(_L)："
 
 #: ../src/ui/dialog/document-properties.cpp:138
 msgid "Snapping distance, in screen pixels, for snapping to grid"
@@ -14202,7 +14202,7 @@ msgstr "捕捉距离(_A)"
 
 #: ../src/ui/dialog/document-properties.cpp:142
 msgid "Snap only when close_r than:"
-msgstr "捕捉距离范围(_R):"
+msgstr "捕捉距离范围(_R)："
 
 #: ../src/ui/dialog/document-properties.cpp:143
 msgid "Snapping distance, in screen pixels, for snapping to guides"
@@ -14317,31 +14317,31 @@ msgstr "杂项提示与技巧"
 #. Color Management
 #: ../src/ui/dialog/document-properties.cpp:505 ../src/verbs.cpp:2977
 msgid "Link Color Profile"
-msgstr "链接色彩配置档案"
+msgstr "链接色彩配置文件"
 
 #: ../src/ui/dialog/document-properties.cpp:606
 msgid "Remove linked color profile"
-msgstr "移除链接的色彩配置档案"
+msgstr "移除链接的色彩配置文件"
 
 #: ../src/ui/dialog/document-properties.cpp:620
 msgid "<b>Linked Color Profiles:</b>"
-msgstr "<b>已链接的色彩配置档案:</b>"
+msgstr "<b>已链接的色彩配置文件:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:622
 msgid "<b>Available Color Profiles:</b>"
-msgstr "<b>可用的色彩配置档案:</b>"
+msgstr "<b>可用的色彩配置文件:</b>"
 
 #: ../src/ui/dialog/document-properties.cpp:624
 msgid "Link Profile"
-msgstr "链接配置档案"
+msgstr "链接配置文件"
 
 #: ../src/ui/dialog/document-properties.cpp:627
 msgid "Unlink Profile"
-msgstr "取消链接描述档"
+msgstr "取消链接配置文件"
 
 #: ../src/ui/dialog/document-properties.cpp:705
 msgid "Profile Name"
-msgstr "配置档案名"
+msgstr "配置文件名"
 
 #: ../src/ui/dialog/document-properties.cpp:741
 msgid "External scripts"
@@ -14516,7 +14516,7 @@ msgstr "x_1："
 
 #: ../src/ui/dialog/export.cpp:240
 msgid "Wid_th:"
-msgstr "宽度(_T):"
+msgstr "宽度(_T)："
 
 #: ../src/ui/dialog/export.cpp:244
 msgid "_y0:"
@@ -14528,7 +14528,7 @@ msgstr "y_1："
 
 #: ../src/ui/dialog/export.cpp:252
 msgid "Hei_ght:"
-msgstr "高度(_G):"
+msgstr "高度(_G)："
 
 #: ../src/ui/dialog/export.cpp:267
 msgid "<b>Image size</b>"
@@ -14545,7 +14545,7 @@ msgstr "点每英寸(_I)"
 #: ../src/ui/dialog/export.cpp:296 ../src/ui/dialog/transformation.cpp:76
 #: ../src/ui/widget/page-sizer.cpp:238
 msgid "_Height:"
-msgstr "高度(_H):"
+msgstr "高度(_H)："
 
 #: ../src/ui/dialog/export.cpp:304
 #: ../src/ui/dialog/inkscape-preferences.cpp:1485
@@ -15082,7 +15082,7 @@ msgstr "矩阵操作类型. 选项 '矩阵' 将提供一个完整的5x4矩阵. �
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2857
 msgid "Value(s):"
-msgstr "值(s):"
+msgstr "值(s)："
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2861
 msgid "R:"
@@ -16491,7 +16491,7 @@ msgstr "行间的垂直间隔。"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:618
 msgid "_Rows:"
-msgstr "行（_R):"
+msgstr "行(_R)："
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:627
 msgid "Number of rows"
@@ -16534,7 +16534,7 @@ msgstr "适合选择框（_F）"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:708
 msgid "_Set spacing:"
-msgstr "设置间距（_S):"
+msgstr "设置间距（_S)："
 
 #: ../src/ui/dialog/guides.cpp:47
 msgid "Rela_tive change"
@@ -17055,7 +17055,7 @@ msgstr "当打开时，在填充和笔画对话框中的渐变编辑按钮将会
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:497
 msgid "Linear gradient _angle:"
-msgstr "线性渐变角度（_A):"
+msgstr "线性渐变角度（_A)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:498
 msgid "Default angle of new linear gradients in degrees (clockwise from horizontal)"
@@ -17562,7 +17562,7 @@ msgstr "图标和文本"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:653
 msgid "Dockbar style (requires restart):"
-msgstr "面板栏样式 (需要重启):"
+msgstr "面板栏样式 (需要重启)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:654
 msgid "Selects whether the vertical bars on the dockbar will show text labels, icons, or both"
@@ -17729,7 +17729,7 @@ msgstr "当失焦时不透明度(_U)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:743
 msgid "_Time of opacity change animation:"
-msgstr "不透明更改动画的时间（_T):"
+msgstr "不透明更改动画的时间（_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:746
 msgid "Miscellaneous"
@@ -17863,7 +17863,7 @@ msgstr "添加默认元数据到新文档。默认元数据可以从“文档属
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:892
 msgid "_Grab sensitivity:"
-msgstr "采集敏感度(_G):"
+msgstr "采集敏感度(_G)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:892
 msgid "pixels (requires restart)"
@@ -17890,7 +17890,7 @@ msgstr "拖动鼠标的最大值(屏幕像素), 是一个单击, 而不是拖动
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:899
 msgid "_Handle size:"
-msgstr "控制柄大小（_H):"
+msgstr "控制柄大小（_H)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:900
 msgid "Set the relative size of node handles"
@@ -17984,7 +17984,7 @@ msgstr "数字"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:938
 msgid "_Numeric precision:"
-msgstr "数字精度（_N):"
+msgstr "数字精度（_N)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:938
 msgid "Significant figures of the values written to the SVG file"
@@ -18092,11 +18092,11 @@ msgstr "百分比"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:984
 msgid "Relative Colorimetric"
-msgstr "相对色度"
+msgstr "相对色调"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:984
 msgid "Absolute Colorimetric"
-msgstr "绝对色度"
+msgstr "绝对色调"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:988
 msgid "(Note: Color management has been disabled in this build)"
@@ -18121,7 +18121,7 @@ msgstr "显示模式:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1008
 msgid "Retrieve profile from display"
-msgstr "从显示中提取配置档案"
+msgstr "从显示中提取配置文件"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1011
 msgid "Retrieve profiles from those attached to displays via XICC"
@@ -18297,7 +18297,7 @@ msgstr "行为"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1173
 msgid "_Simplification threshold:"
-msgstr "简化阈值（_S):"
+msgstr "简化阈值（_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1174
 msgid "How strong is the Node tool's Simplify command by default. If you invoke this command several times in quick succession, it will act more and more aggressively; invoking it again after a pause restores the default threshold."
@@ -18420,12 +18420,12 @@ msgstr "缩放矩形时, 缩放圆角半径"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1224
 #: ../src/widgets/select-toolbar.cpp:595
 msgid "Move gradients (in fill or stroke) along with the objects"
-msgstr "随对象缩放渐变(填色或笔廓)"
+msgstr "随对象缩放渐变(填充或笔廓)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1226
 #: ../src/widgets/select-toolbar.cpp:606
 msgid "Move patterns (in fill or stroke) along with the objects"
-msgstr "随对象缩放图案(填色或笔廓)"
+msgstr "随对象缩放图案(填充或笔廓)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1227
 msgid "Store transformation"
@@ -18445,7 +18445,7 @@ msgstr "变换"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1237
 msgid "Mouse _wheel scrolls by:"
-msgstr "鼠标滚轮滚动距离(_W):"
+msgstr "鼠标滚轮滚动距离(_W)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1238
 msgid "One mouse wheel notch scrolls by this distance in screen pixels (horizontally with Shift)"
@@ -18486,7 +18486,7 @@ msgstr "当你在画布边界拖动时自动滚动的速度(0 禁用自动滚动
 #: ../src/ui/dialog/inkscape-preferences.cpp:1251
 #: ../src/ui/dialog/tracedialog.cpp:522 ../src/ui/dialog/tracedialog.cpp:721
 msgid "_Threshold:"
-msgstr "阈值(_T):"
+msgstr "阈值(_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1252
 msgid "How far (in screen pixels) you need to be from the canvas edge to trigger autoscroll; positive is outside the canvas, negative is within the canvas"
@@ -18548,7 +18548,7 @@ msgstr "仅捕捉到一开始离鼠标指针最近的节点"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1281
 msgid "_Weight factor:"
-msgstr "权重系数(_W):"
+msgstr "权重系数(_W)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1282
 msgid "When multiple snap solutions are found, then Inkscape can either prefer the closest transformation (when set to 0), or prefer the node that was initially the closest to the pointer (when set to 1)"
@@ -18568,7 +18568,7 @@ msgstr "延时捕捉"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1291
 msgid "Delay (in seconds):"
-msgstr "延迟 (毫秒):"
+msgstr "延迟 (毫秒)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1292
 msgid "Postpone snapping as long as the mouse is moving, and then wait an additional fraction of a second. This additional delay is specified here. When set to zero or to a very small number, snapping will be immediate."
@@ -18590,7 +18590,7 @@ msgstr "按住一个方向键，按这个距离移动选择的对象或节点"
 #. defaultscale is limited to 1000 in select-context.cpp: use the same limit here
 #: ../src/ui/dialog/inkscape-preferences.cpp:1303
 msgid "> and < _scale by:"
-msgstr "> 和 < 缩放比例(_S):"
+msgstr "> 和 < 缩放比例(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1304
 msgid "Pressing > or < scales selection up or down by this increment"
@@ -18598,7 +18598,7 @@ msgstr "按住 > 或 < 按这个向上或下扩展"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1306
 msgid "_Inset/Outset by:"
-msgstr "插入/拔出距离(_I):"
+msgstr "插入/拔出距离(_I)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1307
 msgid "Inset and Outset commands displace the path by this distance"
@@ -18619,7 +18619,7 @@ msgstr "无"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "_Rotation snaps every:"
-msgstr "旋转中心每隔(_R):"
+msgstr "旋转中心每隔(_R)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "degrees"
@@ -18639,7 +18639,7 @@ msgstr "当打开时，当旋转一条辅助线时将会相对于原始角度吸
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1322
 msgid "_Zoom in/out by:"
-msgstr "缩小/放大(_Z):"
+msgstr "缩小/放大(_Z)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1322
 #: ../src/ui/dialog/objects.cpp:1626
@@ -18812,7 +18812,7 @@ msgstr "清理"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1415
 msgid "Number of _Threads:"
-msgstr "线程数（_T):"
+msgstr "线程数（_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1415
 #: ../src/ui/dialog/inkscape-preferences.cpp:1951
@@ -18825,7 +18825,7 @@ msgstr "配置在渲染滤镜时要使用的进程/线程的数量"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1420
 msgid "Rendering _cache size:"
-msgstr "渲染缓存大小(_C):"
+msgstr "渲染缓存大小(_C)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1420
 msgctxt "mebibyte (2^20 bytes) abbreviation"
@@ -18918,7 +18918,7 @@ msgstr "当磁盘文件改变时, 自动重新加载链接的图像"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1481
 msgid "_Bitmap editor:"
-msgstr "位图编辑器(_B):"
+msgstr "位图编辑器(_B)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1483
 #: ../share/extensions/guillotine.inx.h:5 ../share/extensions/plotter.inx.h:65
@@ -18928,7 +18928,7 @@ msgstr "导出"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1485
 msgid "Default export _resolution:"
-msgstr "默认导出分辨率(_R):"
+msgstr "默认导出分辨率(_R)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1486
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
@@ -18941,7 +18941,7 @@ msgstr "创建"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1489
 msgid "Resolution for Create Bitmap _Copy:"
-msgstr "创建位图副本的分辨率(_C):"
+msgstr "创建位图副本的分辨率(_C)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1490
 msgid "Resolution used by the Create Bitmap Copy command"
@@ -18961,7 +18961,7 @@ msgstr "位图链接："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1508
 msgid "Bitmap scale (image-rendering):"
-msgstr "位图缩放(图像渲染):"
+msgstr "位图缩放(图像渲染)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1513
 msgid "Default _import resolution:"
@@ -19090,7 +19090,7 @@ msgstr "拼写检查"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1951
 msgid "Latency _skew:"
-msgstr "延时偏差(_S):"
+msgstr "延时偏差(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1952
 msgid "Factor by which the event clock is skewed from the actual time (0.9766 on some systems)"
@@ -19507,7 +19507,7 @@ msgstr "结距离"
 
 #: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:213
 msgid "Position (%):"
-msgstr "位置(%):"
+msgstr "位置(%)："
 
 #: ../src/ui/dialog/lpe-fillet-chamfer-properties.cpp:216
 msgid "%1:"
@@ -19615,11 +19615,11 @@ msgstr "_ID："
 
 #: ../src/ui/dialog/object-properties.cpp:60
 msgid "_Title:"
-msgstr "标题(_T):"
+msgstr "标题(_T)："
 
 #: ../src/ui/dialog/object-properties.cpp:61
 msgid "_Image Rendering:"
-msgstr "图像渲染(_I):"
+msgstr "图像渲染(_I)："
 
 #: ../src/ui/dialog/object-properties.cpp:62
 msgid "_Hide"
@@ -19632,7 +19632,7 @@ msgstr "锁定(_O)"
 #. Create the entry box for the object id
 #: ../src/ui/dialog/object-properties.cpp:139
 msgid "The id= attribute (only letters, digits, and the characters .-_: allowed)"
-msgstr "id=属性（只允许字母，数字和字符 .-_: ）"
+msgstr "id=属性（只允许字母，数字和字符 .-_： ）"
 
 #. Create the entry box for the object label
 #: ../src/ui/dialog/object-properties.cpp:174
@@ -19642,7 +19642,7 @@ msgstr "对象的自由形式标签"
 #. Create the frame for the object description
 #: ../src/ui/dialog/object-properties.cpp:225
 msgid "_Description:"
-msgstr "描述(_D):"
+msgstr "描述(_D)："
 
 #: ../src/ui/dialog/object-properties.cpp:260
 msgid ""
@@ -19966,7 +19966,7 @@ msgstr "关闭"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:190
 msgid "_Curves (multiplier):"
-msgstr "曲线（乘法）(_C):"
+msgstr "曲线（乘法）(_C)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:193
 msgid "Favors connections that are part of a long curve"
@@ -19974,7 +19974,7 @@ msgstr "支持连接是长曲线的一部分"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:204
 msgid "_Islands (weight):"
-msgstr "岛（权重）(_I):"
+msgstr "岛（权重）(_I)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:207
 msgid "Avoid single disconnected pixels"
@@ -19986,7 +19986,7 @@ msgstr "恒定投票值"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:219
 msgid "Sparse pixels (window _radius):"
-msgstr "稀疏像素（窗口半径)(_R):"
+msgstr "稀疏像素（窗口半径)(_R)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:228
 msgid "The radius of the window analyzed"
@@ -19994,7 +19994,7 @@ msgstr "分析的窗口的半径"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:229
 msgid "Sparse pixels (_multiplier):"
-msgstr "稀疏像素（乘法）(_M):"
+msgstr "稀疏像素（乘法）(_M)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:240
 msgid "Favors connections that are part of foreground color"
@@ -20239,7 +20239,7 @@ msgstr "<b>完成</b>, 未找到可疑项"
 #: ../src/ui/dialog/spellcheck.cpp:578
 #, c-format
 msgid "Not in dictionary (%s): <b>%s</b>"
-msgstr "不在词典中 (%s): <b>%s</b>"
+msgstr "不在词典中 (%s)： <b>%s</b>"
 
 #: ../src/ui/dialog/spellcheck.cpp:727
 msgid "<i>Checking...</i>"
@@ -20642,7 +20642,7 @@ msgstr "邻近像素亮度截断(决定边缘厚度)"
 
 #: ../src/ui/dialog/tracedialog.cpp:559
 msgid "T_hreshold:"
-msgstr "阈值（_H):"
+msgstr "阈值（_H)："
 
 #. quantization
 #. TRANSLATORS: Color Quantization: the process of reducing the number
@@ -20662,12 +20662,12 @@ msgstr "精简颜色的数目"
 
 #: ../src/ui/dialog/tracedialog.cpp:586
 msgid "_Colors:"
-msgstr "颜色(_C):"
+msgstr "颜色(_C)："
 
 #. swap black and white
 #: ../src/ui/dialog/tracedialog.cpp:594
 msgid "_Invert image"
-msgstr "反相图像（_I):"
+msgstr "反相图像（_I)："
 
 #: ../src/ui/dialog/tracedialog.cpp:599
 msgid "Invert black and white regions"
@@ -20760,7 +20760,7 @@ msgstr "Speckles 达到此值时将会压制许多像素"
 
 #: ../src/ui/dialog/tracedialog.cpp:703
 msgid "S_ize:"
-msgstr "大小（_I):"
+msgstr "大小（_I)："
 
 #: ../src/ui/dialog/tracedialog.cpp:708
 msgid "Smooth _corners"
@@ -20788,7 +20788,7 @@ msgstr "增加此值按照加强的优化方法减少临摹路径中的节点数
 
 #: ../src/ui/dialog/tracedialog.cpp:739
 msgid "To_lerance:"
-msgstr "公差(_L):"
+msgstr "公差(_L)："
 
 #. ## end option page
 #: ../src/ui/dialog/tracedialog.cpp:753
@@ -20917,7 +20917,7 @@ msgstr "给当前位置添加指定的相对移位;否则直接编辑当前绝�
 
 #: ../src/ui/dialog/transformation.cpp:96
 msgid "_Scale proportionally"
-msgstr "等比例缩放（_S):"
+msgstr "等比例缩放（_S)："
 
 #: ../src/ui/dialog/transformation.cpp:96
 msgid "Preserve the width/height ratio of the scaled objects"
@@ -21190,12 +21190,12 @@ msgstr "选择相同扩展名的全部"
 #. Select same fill and stroke
 #: ../src/ui/interface.cpp:1667
 msgid "Fill and Stroke"
-msgstr "填色和笔画"
+msgstr "填充和笔画"
 
 #. Select same fill color
 #: ../src/ui/interface.cpp:1674
 msgid "Fill Color"
-msgstr "填色颜色"
+msgstr "填充颜色"
 
 #. Select same stroke color
 #: ../src/ui/interface.cpp:1681
@@ -21311,7 +21311,7 @@ msgstr "提取图像…"
 #: ../src/ui/interface.cpp:2158 ../src/ui/interface.cpp:2178
 #: ../src/verbs.cpp:2864
 msgid "_Fill and Stroke..."
-msgstr "填色和笔廓(_F)…"
+msgstr "填充和笔廓(_F)…"
 
 #. Edit Text dialog
 #: ../src/ui/interface.cpp:2184 ../src/verbs.cpp:2883
@@ -21396,17 +21396,17 @@ msgstr "拖动曲线"
 #: ../src/ui/tool/curve-drag-point.cpp:192
 msgctxt "Path segment tip"
 msgid "<b>Shift</b>: drag to open or move BSpline handles"
-msgstr "<b>Shift</b>: 拖动继续选择节点"
+msgstr "<b>Shift</b>：拖动继续选择节点"
 
 #: ../src/ui/tool/curve-drag-point.cpp:196
 msgctxt "Path segment tip"
 msgid "<b>Shift</b>: click to toggle segment selection"
-msgstr "<b>Shift</b>:单击切换线段选择"
+msgstr "<b>Shift</b>：单击切换线段选择"
 
 #: ../src/ui/tool/curve-drag-point.cpp:200
 msgctxt "Path segment tip"
 msgid "<b>Ctrl+Alt</b>: click to insert a node"
-msgstr "<b>Ctrl+Alt</b>: 单击插入节点"
+msgstr "<b>Ctrl+Alt</b>：单击插入节点"
 
 #: ../src/ui/tool/curve-drag-point.cpp:204
 msgctxt "Path segment tip"
@@ -21421,7 +21421,7 @@ msgstr "<b>直线段</b>: 拖动转为贝塞尔线段，双击添加节点，单
 #: ../src/ui/tool/curve-drag-point.cpp:213
 msgctxt "Path segment tip"
 msgid "<b>Bezier segment</b>: drag to shape the segment, doubleclick to insert node, click to select (more: Shift, Ctrl+Alt)"
-msgstr "<b>贝塞尔线段</b>: 拖动为塑形线段，双击插入节点，单击选择(可以配合: Shift, Ctrl+Alt)"
+msgstr "<b>贝塞尔线段</b>：拖动为塑形线段，双击插入节点，单击选择(可以配合: Shift, Ctrl+Alt)"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:315
 msgid "Retract handles"
@@ -21881,7 +21881,7 @@ msgstr "<b>拖动</b>为测量对象的尺寸。"
 
 #: ../src/ui/tools-switch.cpp:112 ../src/ui/tools/dropper-tool.cpp:274
 msgid "<b>Click</b> to set fill, <b>Shift+click</b> to set stroke; <b>drag</b> to average color in area; with <b>Alt</b> to pick inverse color; <b>Ctrl+C</b> to copy the color under mouse to clipboard"
-msgstr "<b>单击</b>设置填色, <b>Shift+单击</b> 设置笔廓; <b>拖动</b>平均区域里颜色; 使用 <b>Alt</b> 拾取反色; <b>Ctrl+C</b>复制鼠标下的颜色到剪贴板"
+msgstr "<b>单击</b>设置填充, <b>Shift+单击</b> 设置笔廓; <b>拖动</b>平均区域里颜色; 使用 <b>Alt</b> 拾取反色; <b>Ctrl+C</b>复制鼠标下的颜色到剪贴板"
 
 #: ../src/ui/tools-switch.cpp:113
 msgid "<b>Click and drag</b> between shapes to create a connector."
@@ -23523,7 +23523,7 @@ msgstr "<i>无</i>"
 #: ../src/ui/widget/style-swatch.cpp:321
 msgctxt "Fill and stroke"
 msgid "No fill"
-msgstr "没有填色"
+msgstr "没有填充"
 
 #: ../src/ui/widget/selected-style.cpp:190
 #: ../src/ui/widget/style-swatch.cpp:321
@@ -23539,7 +23539,7 @@ msgstr "图案"
 #: ../src/ui/widget/selected-style.cpp:195
 #: ../src/ui/widget/style-swatch.cpp:302
 msgid "Pattern fill"
-msgstr "填色图案"
+msgstr "填充图案"
 
 #: ../src/ui/widget/selected-style.cpp:195
 #: ../src/ui/widget/style-swatch.cpp:302
@@ -23553,7 +23553,7 @@ msgstr "<b>L</b>"
 #: ../src/ui/widget/selected-style.cpp:200
 #: ../src/ui/widget/style-swatch.cpp:294
 msgid "Linear gradient fill"
-msgstr "线性渐变填色"
+msgstr "线性渐变填充"
 
 #: ../src/ui/widget/selected-style.cpp:200
 #: ../src/ui/widget/style-swatch.cpp:294
@@ -23567,7 +23567,7 @@ msgstr "<b>R</b>"
 #: ../src/ui/widget/selected-style.cpp:210
 #: ../src/ui/widget/style-swatch.cpp:298
 msgid "Radial gradient fill"
-msgstr "辐向渐变填色"
+msgstr "辐向渐变填充"
 
 #: ../src/ui/widget/selected-style.cpp:210
 #: ../src/ui/widget/style-swatch.cpp:298
@@ -23580,7 +23580,7 @@ msgstr "<b>多选</b>"
 
 #: ../src/ui/widget/selected-style.cpp:221
 msgid "Mesh gradient fill"
-msgstr "网格渐变填色"
+msgstr "网格渐变填充"
 
 #: ../src/ui/widget/selected-style.cpp:221
 msgid "Mesh gradient stroke"
@@ -23592,7 +23592,7 @@ msgstr "相差"
 
 #: ../src/ui/widget/selected-style.cpp:232
 msgid "Different fills"
-msgstr "相差填色"
+msgstr "相差填充"
 
 #: ../src/ui/widget/selected-style.cpp:232
 msgid "Different strokes"
@@ -23609,7 +23609,7 @@ msgstr "<b>未设定</b>"
 #: ../src/ui/widget/selected-style.cpp:575
 #: ../src/ui/widget/style-swatch.cpp:326 ../src/widgets/fill-style.cpp:703
 msgid "Unset fill"
-msgstr "不使用填色"
+msgstr "不使用填充"
 
 #: ../src/ui/widget/selected-style.cpp:237
 #: ../src/ui/widget/selected-style.cpp:295
@@ -23620,7 +23620,7 @@ msgstr "复位笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:240
 msgid "Flat color fill"
-msgstr "平面颜色填色"
+msgstr "平面颜色填充"
 
 #: ../src/ui/widget/selected-style.cpp:240
 msgid "Flat color stroke"
@@ -23633,7 +23633,7 @@ msgstr "<b>均值</b>"
 
 #: ../src/ui/widget/selected-style.cpp:246
 msgid "Fill is averaged over selected objects"
-msgstr "平均填色已选对象"
+msgstr "平均填充已选对象"
 
 #: ../src/ui/widget/selected-style.cpp:246
 msgid "Stroke is averaged over selected objects"
@@ -23646,7 +23646,7 @@ msgstr "<b>多选</b>"
 
 #: ../src/ui/widget/selected-style.cpp:252
 msgid "Multiple selected objects have the same fill"
-msgstr "多选对象填色相同"
+msgstr "多选对象填充相同"
 
 #: ../src/ui/widget/selected-style.cpp:252
 msgid "Multiple selected objects have the same stroke"
@@ -23654,7 +23654,7 @@ msgstr "多选对象笔廓相同"
 
 #: ../src/ui/widget/selected-style.cpp:254
 msgid "Edit fill..."
-msgstr "编辑填色…"
+msgstr "编辑填充…"
 
 #: ../src/ui/widget/selected-style.cpp:254
 msgid "Edit stroke..."
@@ -23679,13 +23679,13 @@ msgstr "粘贴颜色"
 #: ../src/ui/widget/selected-style.cpp:286
 #: ../src/ui/widget/selected-style.cpp:868
 msgid "Swap fill and stroke"
-msgstr "交换填色和笔廓"
+msgstr "交换填充和笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:290
 #: ../src/ui/widget/selected-style.cpp:600
 #: ../src/ui/widget/selected-style.cpp:609
 msgid "Make fill opaque"
-msgstr "使填色不透明"
+msgstr "使填充不透明"
 
 #: ../src/ui/widget/selected-style.cpp:290
 msgid "Make stroke opaque"
@@ -23694,7 +23694,7 @@ msgstr "使笔廓不透明"
 #: ../src/ui/widget/selected-style.cpp:299
 #: ../src/ui/widget/selected-style.cpp:557 ../src/widgets/fill-style.cpp:503
 msgid "Remove fill"
-msgstr "移除填色"
+msgstr "移除填充"
 
 #: ../src/ui/widget/selected-style.cpp:299
 #: ../src/ui/widget/selected-style.cpp:566 ../src/widgets/fill-style.cpp:503
@@ -23703,7 +23703,7 @@ msgstr "移除笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:621
 msgid "Apply last set color to fill"
-msgstr "应用最近设置的颜色填色"
+msgstr "应用最近设置的颜色填充"
 
 #: ../src/ui/widget/selected-style.cpp:633
 msgid "Apply last set color to stroke"
@@ -23711,7 +23711,7 @@ msgstr "应用最近设置的颜色到笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:644
 msgid "Apply last selected color to fill"
-msgstr "应用最近选择的颜色填色"
+msgstr "应用最近选择的颜色填充"
 
 #: ../src/ui/widget/selected-style.cpp:655
 msgid "Apply last selected color to stroke"
@@ -23719,7 +23719,7 @@ msgstr "应用最近选择的颜色到笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:681
 msgid "Invert fill"
-msgstr "反向填色"
+msgstr "反向填充"
 
 #: ../src/ui/widget/selected-style.cpp:705
 msgid "Invert stroke"
@@ -23727,7 +23727,7 @@ msgstr "反向笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:717
 msgid "White fill"
-msgstr "白色填色"
+msgstr "白色填充"
 
 #: ../src/ui/widget/selected-style.cpp:729
 msgid "White stroke"
@@ -23735,7 +23735,7 @@ msgstr "白色笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:741
 msgid "Black fill"
-msgstr "黑色填色"
+msgstr "黑色填充"
 
 #: ../src/ui/widget/selected-style.cpp:753
 msgid "Black stroke"
@@ -23743,7 +23743,7 @@ msgstr "黑色笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:796
 msgid "Paste fill"
-msgstr "粘贴填色"
+msgstr "粘贴填充"
 
 #: ../src/ui/widget/selected-style.cpp:814
 msgid "Paste stroke"
@@ -24410,7 +24410,7 @@ msgstr "对象转化成图案(_N)"
 
 #: ../src/verbs.cpp:2485
 msgid "Convert selection to a rectangle with tiled pattern fill"
-msgstr "将选区转换为使用图案平铺填色的矩形"
+msgstr "将选区转换为使用图案平铺填充的矩形"
 
 #: ../src/verbs.cpp:2486
 msgid "Pattern to _Objects"
@@ -24418,7 +24418,7 @@ msgstr "图案转化成对象(_O)"
 
 #: ../src/verbs.cpp:2487
 msgid "Extract objects from a tiled pattern fill"
-msgstr "从平铺填色图案提取对象"
+msgstr "从平铺填充图案提取对象"
 
 #: ../src/verbs.cpp:2488
 msgid "Group to Symbol"
@@ -24462,7 +24462,7 @@ msgstr "在所有可见并且未锁定的层中全选"
 
 #: ../src/verbs.cpp:2498
 msgid "Fill _and Stroke"
-msgstr "填色和笔画(_A)…"
+msgstr "填充和笔画(_A)…"
 
 #: ../src/verbs.cpp:2499
 msgid "Select all objects with the same fill and stroke as the selected objects"
@@ -24667,7 +24667,7 @@ msgstr "剪切路径(_P)"
 
 #: ../src/verbs.cpp:2561
 msgid "Cut the bottom path's stroke into pieces, removing fill"
-msgstr "把底部路径的笔廓分割成片, 去除填色"
+msgstr "把底部路径的笔廓分割成片, 去除填充"
 
 #. TRANSLATORS: "outset": expand a shape by offsetting the object's path,
 #. i.e. by displacing it perpendicular to the path in each point.
@@ -26108,15 +26108,15 @@ msgstr "所有层中撤销所有隐藏"
 
 #: ../src/verbs.cpp:2978
 msgid "Link an ICC color profile"
-msgstr "链接一个ICC颜色档案"
+msgstr "链接一个ICC颜色文件"
 
 #: ../src/verbs.cpp:2979
 msgid "Remove Color Profile"
-msgstr "移除色彩配置档案"
+msgstr "移除色彩配置文件"
 
 #: ../src/verbs.cpp:2980
 msgid "Remove a linked ICC color profile"
-msgstr "移除已链接的ICC颜色档案"
+msgstr "移除已链接的ICC颜色文件"
 
 #: ../src/verbs.cpp:2983
 msgid "Add External Script"
@@ -26782,7 +26782,7 @@ msgstr "指定不透明度"
 
 #: ../src/widgets/dropper-toolbar.cpp:104
 msgid "If alpha was picked, assign it to selection as fill or stroke transparency"
-msgstr "如果透明通道已拾取, 把它传给选区作为填色或笔廓的透明度"
+msgstr "如果透明通道已拾取, 把它传给选区作为填充或笔廓的透明度"
 
 #: ../src/widgets/dropper-toolbar.cpp:107
 msgid "Assign"
@@ -26810,7 +26810,7 @@ msgstr "橡皮擦宽度 (相对于可见画布)"
 
 #: ../src/widgets/fill-style.cpp:356
 msgid "Change fill rule"
-msgstr "改变填色规则"
+msgstr "改变填充规则"
 
 #: ../src/widgets/fill-style.cpp:440 ../src/widgets/fill-style.cpp:518
 msgid "Set fill color"
@@ -26822,7 +26822,7 @@ msgstr "设置笔廓颜色"
 
 #: ../src/widgets/fill-style.cpp:616
 msgid "Set gradient on fill"
-msgstr "设置渐近填色"
+msgstr "设置渐近填充"
 
 #: ../src/widgets/fill-style.cpp:616
 msgid "Set gradient on stroke"
@@ -26830,7 +26830,7 @@ msgstr "设置笔廓的渐变"
 
 #: ../src/widgets/fill-style.cpp:676
 msgid "Set pattern on fill"
-msgstr "设置图案填色"
+msgstr "设置图案填充"
 
 #: ../src/widgets/fill-style.cpp:677
 msgid "Set pattern on stroke"
@@ -26932,11 +26932,11 @@ msgstr "新的："
 
 #: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:407
 msgid "fill"
-msgstr "填色"
+msgstr "填充"
 
 #: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:407
 msgid "Create gradient in the fill"
-msgstr "在填色里面创建渐变"
+msgstr "在填充里面创建渐变"
 
 #: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:411
 msgid "stroke"
@@ -26982,7 +26982,7 @@ msgstr "重复"
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/pservers.html#LinearGradientSpreadMethodAttribute
 #: ../src/widgets/gradient-toolbar.cpp:1128
 msgid "Whether to fill with flat color beyond the ends of the gradient vector (spreadMethod=\"pad\"), or repeat the gradient in the same direction (spreadMethod=\"repeat\"), or repeat the gradient in alternating opposite directions (spreadMethod=\"reflect\")"
-msgstr "是否使用渐变向量的终点颜色填色(spreadMethod=\"pad\"), 或者在相同的方向重复渐变(spreadMethod=\"repeat\"), 或者交替反向渐变(spreadMethod=\"reflect\")"
+msgstr "是否使用渐变向量的终点颜色填充(spreadMethod=\"pad\"), 或者在相同的方向重复渐变(spreadMethod=\"repeat\"), 或者交替反向渐变(spreadMethod=\"reflect\")"
 
 #: ../src/widgets/gradient-toolbar.cpp:1133
 msgid "Repeat:"
@@ -27209,11 +27209,11 @@ msgstr "在新网格中的列数"
 
 #: ../src/widgets/mesh-toolbar.cpp:466
 msgid "Edit Fill"
-msgstr "编辑填色"
+msgstr "编辑填充"
 
 #: ../src/widgets/mesh-toolbar.cpp:467
 msgid "Edit fill mesh"
-msgstr "编辑填色网格"
+msgstr "编辑填充网格"
 
 #: ../src/widgets/mesh-toolbar.cpp:478
 msgid "Edit Stroke"
@@ -27302,7 +27302,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Fill Color"
 msgid "Pick Color"
-msgstr "填色颜色"
+msgstr "填充颜色"
 
 #: ../src/widgets/node-toolbar.cpp:341
 msgid "Insert node"
@@ -27523,12 +27523,12 @@ msgstr "取消绘图设置(变成未定义状态以便继承)"
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:252
 msgid "Any path self-intersections or subpaths create holes in the fill (fill-rule: evenodd)"
-msgstr "任何自相交的路径或子路径将在填色里面创建孔洞（填色规则：奇偶）"
+msgstr "任何自相交的路径或子路径将在填充里面创建孔洞（填充规则：奇偶）"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:263
 msgid "Fill is solid unless a subpath is counterdirectional (fill-rule: nonzero)"
-msgstr "全部填色除了子路径是反方向(填色规则:非零)"
+msgstr "全部填充除了子路径是反方向(填充规则:非零)"
 
 #: ../src/widgets/paint-selector.cpp:605
 msgid "<b>No objects</b>"
@@ -27577,11 +27577,11 @@ msgstr "<b>Swatch 填充</b>"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:134
 msgid "Fill by"
-msgstr "填色使用"
+msgstr "填充使用"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:135
 msgid "Fill by:"
-msgstr "填色"
+msgstr "填充"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:147
 msgid "Fill Threshold"
@@ -29215,7 +29215,7 @@ msgstr ""
 "此扩展功能只对路径、动态偏移以及前两者的群组有作用！其他对象都会被忽略！\n"
 "方案 1：按“路径->对象转成路径”或 Shift+Ctrl+C。\n"
 "方案 2：“路径->动态偏移”或 Ctrl+J。\n"
-"方案 3：将全部轮廓线导出成 PostScript 等级 2 (文件->另存新档->.ps) 然后从“档案->导入”导入此文件。"
+"方案 3：将全部轮廓线导出成 PostScript 等级 2 (文件->另存新档->.ps) 然后从“文件->导入”导入此文件。"
 
 #: ../share/extensions/gcodetools.py:4290
 msgid "Document has no layers! Add at least one layer using layers panel (Ctrl+Shift+L)"
@@ -30038,11 +30038,11 @@ msgstr "调整 HSL"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:3
 msgid "Hue (°)"
-msgstr "色相 (°)"
+msgstr "色调 (°)"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:4
 msgid "Random hue"
-msgstr "随机色相"
+msgstr "随机色调"
 
 #: ../share/extensions/color_HSL_adjust.inx.h:6
 #, no-c-format
@@ -30073,12 +30073,12 @@ msgid ""
 "    * Random Hue/Saturation/Lightness: randomize the parameter's value.\n"
 "      "
 msgstr ""
-"用选取对象的色彩 HSL 表示法调整色相、饱和度和亮度。\n"
+"用选取对象的色彩 HSL 表示法调整色调、饱和度和亮度。\n"
 "选项：\n"
-"    * 色相：以度为单位旋转(头尾循环)。\n"
+"    * 色调：以度为单位旋转(头尾循环)。\n"
 "    * 饱和度：相加/相减 % (最小=-100、最大=100)。\n"
 "    * 亮度：相加/相减 % (最小=-100、最大=100)。\n"
-"    * 色相/饱和度/亮度随机变化：参数的数值随机变化。\n"
+"    * 色调/饱和度/亮度随机变化：参数的数值随机变化。\n"
 "      "
 
 #: ../share/extensions/color_blackandwhite.inx.h:1
@@ -30138,7 +30138,7 @@ msgstr "变暗"
 
 #: ../share/extensions/color_desaturate.inx.h:1
 msgid "Desaturate"
-msgstr "去除色度"
+msgstr "去色"
 
 #: ../share/extensions/color_grayscale.inx.h:1
 #: ../share/extensions/webslicer_create_rect.inx.h:15
@@ -30147,7 +30147,7 @@ msgstr "灰度级"
 
 #: ../share/extensions/color_lesshue.inx.h:1
 msgid "Less Hue"
-msgstr "减少色度"
+msgstr "减少色调"
 
 #: ../share/extensions/color_lesslight.inx.h:1
 msgid "Less Light"
@@ -30159,7 +30159,7 @@ msgstr "减少饱和度"
 
 #: ../share/extensions/color_morehue.inx.h:1
 msgid "More Hue"
-msgstr "增加色度"
+msgstr "增加色调"
 
 #: ../share/extensions/color_morelight.inx.h:1
 msgid "More Light"
@@ -32652,7 +32652,7 @@ msgstr "移动 Y"
 #: ../share/extensions/interp_att_g.inx.h:17
 #: ../share/extensions/markers_strokepaint.inx.h:9
 msgid "Fill"
-msgstr "填色"
+msgstr "填充"
 
 #: ../share/extensions/interp_att_g.inx.h:19
 msgid "Other"
@@ -34615,7 +34615,7 @@ msgstr ""
 "    * 缩短颜色名称：将全部颜色转换成 #RRGGBB 或 #RGB 格式。\n"
 "    * 将 CSS 属性转换成 XML 属性：将样式从样式标签和进线样式=\"\" 宣告转换成 XML 属性。\n"
 "    * 折叠群组：移除没用到的 g 组件，让这些内容升高一个层级。需要已设置“移除组件没用到的 ID 名称”。\n"
-"    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填色、笔廓不透明度…)。\n"
+"    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填充、笔廓不透明度…)。\n"
 "    * 内嵌位图：将位图内嵌为 base64 编码数据网址。\n"
 "    * 保留软件数据：不移除 Inkscape、Sodipodi 或 Adobe Illustrator 组件和属性。\n"
 "    * 移除中继数据：移除中继数据标签和里面的所有信息，这些信息可能包含授权中继数据、不支持 SVG 浏览器的备用方案等。\n"
