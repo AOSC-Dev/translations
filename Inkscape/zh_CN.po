@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 00:22-0500\n"
+"PO-Revision-Date: 2015-11-26 00:36-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,2682,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,2736,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -312,7 +312,7 @@ msgstr "铅笔"
 
 #: ../share/filters/filters.svg.h:80
 msgid "Detect color edges and retrace them in grayscale"
-msgstr "检测颜色边缘并用灰度重新描绘"
+msgstr "检测颜色边缘并用灰度重新临摹"
 
 #: ../share/filters/filters.svg.h:82
 msgid "Blueprint"
@@ -320,7 +320,7 @@ msgstr "蓝图"
 
 #: ../share/filters/filters.svg.h:84
 msgid "Detect color edges and retrace them in blue"
-msgstr "检测颜色边缘并用蓝色重新描绘"
+msgstr "检测颜色边缘并用蓝色重新临摹"
 
 #: ../share/filters/filters.svg.h:86
 msgid "Age"
@@ -8625,7 +8625,7 @@ msgstr "面板栏样式"
 
 #: ../src/libgdl/gdl-dock-bar.c:114
 msgid "Dockbar style to show items on it"
-msgstr "面板栏中显示项目的风格"
+msgstr "面板栏中显示项目的样式"
 
 #: ../src/libgdl/gdl-dock-item-grip.c:402
 msgid "Iconify this dock"
@@ -8744,11 +8744,11 @@ msgstr "如果设为 1，所有捆绑到主栏的停靠对象均被锁定；如�
 
 #: ../src/libgdl/gdl-dock-master.c:157 ../src/libgdl/gdl-switcher.c:737
 msgid "Switcher Style"
-msgstr "开关风格"
+msgstr "开关样式"
 
 #: ../src/libgdl/gdl-dock-master.c:158 ../src/libgdl/gdl-switcher.c:738
 msgid "Switcher buttons style"
-msgstr "开关按钮风格"
+msgstr "开关按钮样式"
 
 #: ../src/libgdl/gdl-dock-master.c:783
 #, c-format
@@ -11954,7 +11954,7 @@ msgstr "粘贴"
 
 #: ../src/selection-chemistry.cpp:1223
 msgid "Paste style"
-msgstr "粘贴风格"
+msgstr "粘贴样式"
 
 #: ../src/selection-chemistry.cpp:1233
 msgid "Paste live path effect"
@@ -12748,27 +12748,27 @@ msgstr "剪切路径"
 
 #: ../src/splivarot.cpp:335
 msgid "Select <b>at least 2 paths</b> to perform a boolean operation."
-msgstr "<b>至少</b>选择<b>两个</b>路径执行布尔操作."
+msgstr "选择<b>至少两条</b>路径执行布尔操作。"
 
 #: ../src/splivarot.cpp:339
 msgid "Select <b>at least 1 path</b> to perform a boolean union."
-msgstr "<b>至少</b>选择<b>一条</b>路径执行布尔操作."
+msgstr "选择<b>至少一条</b>路径执行布尔操作。"
 
 #: ../src/splivarot.cpp:347
 msgid "Select <b>exactly 2 paths</b> to perform difference, division, or path cut."
-msgstr "只选择<b>两个路径</b>执行差, 分割或者剪切路径."
+msgstr "选择<b>正好两个路径</b>执行差，分割或者剪切路径."
 
 #: ../src/splivarot.cpp:363 ../src/splivarot.cpp:378
 msgid "Unable to determine the <b>z-order</b> of the objects selected for difference, XOR, division, or path cut."
-msgstr "不能确定对象的<b>Z序</b>, 以便差, 异或, 分割或者剪切路径."
+msgstr "不能确定选中用来执行差、异或、分割或者剪切路径的对象的 <b>Z 顺序</b>。"
 
 #: ../src/splivarot.cpp:408
 msgid "One of the objects is <b>not a path</b>, cannot perform boolean operation."
-msgstr "对象中有一个<b>不是路径</b>, 不能执行布尔操作."
+msgstr "对象中有一个<b>不是路径</b>，不能执行布尔操作。"
 
 #: ../src/splivarot.cpp:1153
 msgid "Select <b>stroked path(s)</b> to convert stroke to path."
-msgstr "选择<b>笔廓的路径</b>把笔廓转换到路径."
+msgstr "选择<b>带笔廓的路径</b>把笔廓转换到路径。"
 
 #: ../src/splivarot.cpp:1509
 msgid "Convert stroke to path"
@@ -12777,11 +12777,11 @@ msgstr "把笔廓转化成路径"
 #. TRANSLATORS: "to outline" means "to convert stroke to path"
 #: ../src/splivarot.cpp:1512
 msgid "<b>No stroked paths</b> in the selection."
-msgstr "选区里<b>没有轮廓化路径</b>."
+msgstr "所选内容中<b>没有带笔廓的路径</b>。"
 
 #: ../src/splivarot.cpp:1583
 msgid "Selected object is <b>not a path</b>, cannot inset/outset."
-msgstr "选择的对象<b>不是路径</b>, 不能向内/向外偏移."
+msgstr "选择的对象<b>不是路径</b>，不能向内/向外偏移。"
 
 #: ../src/splivarot.cpp:1674 ../src/splivarot.cpp:1741
 msgid "Create linked offset"
@@ -12793,7 +12793,7 @@ msgstr "创建动态偏移"
 
 #: ../src/splivarot.cpp:1767
 msgid "Select <b>path(s)</b> to inset/outset."
-msgstr "选择<b>路径</b>向内/向外偏移."
+msgstr "选择<b>路径</b>向内/向外偏移。"
 
 #: ../src/splivarot.cpp:1960
 msgid "Outset path"
@@ -12805,50 +12805,50 @@ msgstr "向内偏移路径"
 
 #: ../src/splivarot.cpp:1962
 msgid "<b>No paths</b> to inset/outset in the selection."
-msgstr "选区里没有<b>路径</b>可以向内/向外偏移."
+msgstr "选区里没有<b>路径</b>可以向内/向外偏移。"
 
 #: ../src/splivarot.cpp:2124
 msgid "Simplifying paths (separately):"
-msgstr "正在(分别地)简化路径:"
+msgstr "正在（分别）简化路径："
 
 #: ../src/splivarot.cpp:2126
 msgid "Simplifying paths:"
-msgstr "简化路径:"
+msgstr "简化路径："
 
 #: ../src/splivarot.cpp:2163
 #, c-format
 msgid "%s <b>%d</b> of <b>%d</b> paths simplified..."
-msgstr "%s 简化了<b>%d</b>条路径, 共有<b>%d</b>条路径…"
+msgstr "%s 简化了 <b>%d</b> 条，共 <b>%d</b> 条路径…"
 
 #: ../src/splivarot.cpp:2176
 #, c-format
 msgid "<b>%d</b> paths simplified."
-msgstr "<b>%d</b> 条路径已简化."
+msgstr "<b>%d</b> 条路径已简化。"
 
 #: ../src/splivarot.cpp:2190
 msgid "Select <b>path(s)</b> to simplify."
-msgstr "选择要简化的<b>路径</b>."
+msgstr "选择要简化的<b>路径</b>。"
 
 #: ../src/splivarot.cpp:2206
 msgid "<b>No paths</b> to simplify in the selection."
-msgstr "选区内没有<b>路径</b>可以简化."
+msgstr "选区内没有<b>路径</b>可以简化。"
 
 #: ../src/text-chemistry.cpp:91
 msgid "Select <b>a text and a path</b> to put text on path."
-msgstr "选择<b>文字和路径</b>把文字放在路径上."
+msgstr "选择<b>文字和路径</b>把文字放在路径上。"
 
 #: ../src/text-chemistry.cpp:96
 msgid "This text object is <b>already put on a path</b>. Remove it from the path first. Use <b>Shift+D</b> to look up its path."
-msgstr "文字对象<b>已放置在路径上</b>.首先从路径上移除.使用 <b>Shift+D</b>查找路径."
+msgstr "文字对象<b>已放置在路径上</b>。请先将其从路径上移除。使用 <b>Shift+D</b>查找其所属的路径。"
 
 #. rect is the only SPShape which is not <path> yet, and thus SVG forbids us from putting text on it
 #: ../src/text-chemistry.cpp:102
 msgid "You cannot put text on a rectangle in this version. Convert rectangle to path first."
-msgstr "在这个版本里不能在矩形上放置文字.首先把矩形转化成路径."
+msgstr "在这个版本里不能在矩形上放置文字。请先把矩形转化成路径。"
 
 #: ../src/text-chemistry.cpp:112
 msgid "The flowed text(s) must be <b>visible</b> in order to be put on a path."
-msgstr "浮动文本必须是<b>可见的</b>,  然后才能安置在路径上."
+msgstr "浮动文本必须是<b>可见的</b>，然后才能安置在路径上。"
 
 #: ../src/text-chemistry.cpp:182 ../src/verbs.cpp:2540
 msgid "Put text on path"
@@ -12856,11 +12856,11 @@ msgstr "在路径上放置文字"
 
 #: ../src/text-chemistry.cpp:194
 msgid "Select <b>a text on path</b> to remove it from path."
-msgstr "选择<b>路径上的文字</b>从中删除."
+msgstr "选择<b>路径上的文字</b>从中删除。"
 
 #: ../src/text-chemistry.cpp:213
 msgid "<b>No texts-on-paths</b> in the selection."
-msgstr "选区里<b>没有附加在路径上的文字</b>."
+msgstr "选区里<b>没有附加在路径上的文字</b>。"
 
 #: ../src/text-chemistry.cpp:216 ../src/verbs.cpp:2542
 msgid "Remove text from path"
@@ -12868,15 +12868,15 @@ msgstr "从路径上释放文字"
 
 #: ../src/text-chemistry.cpp:257 ../src/text-chemistry.cpp:277
 msgid "Select <b>text(s)</b> to remove kerns from."
-msgstr "选择<b>文字</b>去除间距."
+msgstr "选择<b>文字</b>去除手工字距调整。"
 
 #: ../src/text-chemistry.cpp:280
 msgid "Remove manual kerns"
-msgstr "移除手工字距"
+msgstr "移除手工字距调整"
 
 #: ../src/text-chemistry.cpp:300
 msgid "Select <b>a text</b> and one or more <b>paths or shapes</b> to flow text into frame."
-msgstr "选择<b>文字</b>和一个或多个<b>路径或者形状</b>让文字浮动在框架内."
+msgstr "选择<b>文字</b>和一个或多个<b>路径或者形状</b>让文字浮动在框架内。"
 
 #: ../src/text-chemistry.cpp:369
 msgid "Flow text into shape"
@@ -12884,7 +12884,7 @@ msgstr "浮动文字转为形状"
 
 #: ../src/text-chemistry.cpp:391
 msgid "Select <b>a flowed text</b> to unflow it."
-msgstr "选择<b>浮动文字</b>解除浮动."
+msgstr "选择<b>浮动文字</b>解除浮动。"
 
 #: ../src/text-chemistry.cpp:464
 msgid "Unflow flowed text"
@@ -12892,11 +12892,11 @@ msgstr "接触文字浮动"
 
 #: ../src/text-chemistry.cpp:476
 msgid "Select <b>flowed text(s)</b> to convert."
-msgstr "选择<b>浮动文字</b>进行转换."
+msgstr "选择<b>浮动文字</b>进行转换。"
 
 #: ../src/text-chemistry.cpp:494
 msgid "The flowed text(s) must be <b>visible</b> in order to be converted."
-msgstr "浮动文本必须是<b>可见的</b>,  然后才能进行转换."
+msgstr "浮动文本必须是<b>可见的</b>，然后才能进行转换。"
 
 #: ../src/text-chemistry.cpp:521
 msgid "Convert flowed text to text"
@@ -12904,27 +12904,27 @@ msgstr "把浮动文本转化成文本"
 
 #: ../src/text-chemistry.cpp:526
 msgid "<b>No flowed text(s)</b> to convert in the selection."
-msgstr "选区里<b>没有浮动文字</b>可以转化."
+msgstr "选区里<b>没有浮动文字</b>可以转化。"
 
 #: ../src/text-editing.cpp:44
 msgid "You cannot edit <b>cloned character data</b>."
-msgstr "不能够编辑<b>克隆产生的字符</b>."
+msgstr "不能够编辑<b>克隆的字符数据</b>。"
 
 #: ../src/trace/potrace/inkscape-potrace.cpp:512
 #: ../src/trace/potrace/inkscape-potrace.cpp:575
 msgid "Trace: %1.  %2 nodes"
-msgstr "描绘：%1。%2 个节点"
+msgstr "临摹：%1。%2 个节点"
 
 #: ../src/trace/trace.cpp:59 ../src/trace/trace.cpp:124
 #: ../src/trace/trace.cpp:132 ../src/trace/trace.cpp:225
 #: ../src/ui/dialog/pixelartdialog.cpp:370
 #: ../src/ui/dialog/pixelartdialog.cpp:402
 msgid "Select an <b>image</b> to trace"
-msgstr "选择一幅<b>图像</b>描轮廓"
+msgstr "选择一幅<b>图像</b>临摹"
 
 #: ../src/trace/trace.cpp:94
 msgid "Select only one <b>image</b> to trace"
-msgstr "只选择一幅<b>图像</b>描轮廓"
+msgstr "只选择一幅<b>图像</b>临摹"
 
 #: ../src/trace/trace.cpp:112
 msgid "Select one image and one or more shapes above it"
@@ -12932,7 +12932,7 @@ msgstr "选择一幅图像和它之上的一个或多个形状"
 
 #: ../src/trace/trace.cpp:216
 msgid "Trace: No active desktop"
-msgstr "提取轮廓:没有活动桌面"
+msgstr "临摹：没有活动桌面"
 
 #: ../src/trace/trace.cpp:313
 msgid "Invalid SIOX result"
@@ -12940,39 +12940,39 @@ msgstr "无效 SIOX 结果"
 
 #: ../src/trace/trace.cpp:406
 msgid "Trace: No active document"
-msgstr "描边:没有活动文档"
+msgstr "临摹：没有活动文档"
 
 #: ../src/trace/trace.cpp:438
 msgid "Trace: Image has no bitmap data"
-msgstr "描边:图像没有位图数据"
+msgstr "临摹：图像没有位图数据"
 
 #: ../src/trace/trace.cpp:445
 msgid "Trace: Starting trace..."
-msgstr "提取轮廓:开始提取轮廓…"
+msgstr "临摹：开始提取轮廓…"
 
 #. ## inform the document, so we can undo
 #: ../src/trace/trace.cpp:548
 msgid "Trace bitmap"
-msgstr "提取位图"
+msgstr "临摹位图轮廓"
 
 #: ../src/trace/trace.cpp:552
 #, c-format
 msgid "Trace: Done. %ld nodes created"
-msgstr "描边:完成.%ld 节点创建"
+msgstr "临摹：完成。创建了 %ld 个节点"
 
 #. check whether something is selected
 #: ../src/ui/clipboard.cpp:263
 msgid "Nothing was copied."
-msgstr "没有对象被复制."
+msgstr "什么都没复制。"
 
 #: ../src/ui/clipboard.cpp:394 ../src/ui/clipboard.cpp:608
 #: ../src/ui/clipboard.cpp:637
 msgid "Nothing on the clipboard."
-msgstr "剪贴板是空的."
+msgstr "剪贴板是空的。"
 
 #: ../src/ui/clipboard.cpp:452
 msgid "Select <b>object(s)</b> to paste style to."
-msgstr "选择对象来粘贴风格."
+msgstr "选择对象来粘贴样式。"
 
 #: ../src/ui/clipboard.cpp:463 ../src/ui/clipboard.cpp:480
 msgid "No style on the clipboard."
@@ -14859,7 +14859,7 @@ msgstr "笔廓绘制(_P)"
 
 #: ../src/ui/dialog/fill-and-stroke.cpp:64
 msgid "Stroke st_yle"
-msgstr "笔廓风格(_Y)"
+msgstr "笔廓样式(_Y)"
 
 #. TRANSLATORS: this dialog is accessible via menu Filters - Filter editor
 #: ../src/ui/dialog/filter-effects-dialog.cpp:547
@@ -16648,7 +16648,7 @@ msgstr "<b>没有已选对象</b>使用此样式."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:229
 msgid "<b>More than one object selected.</b>  Cannot take style from multiple objects."
-msgstr "<b>超过一个对象已选.</b>不能得到多个对象的风格."
+msgstr "<b>超过一个对象已选.</b>不能得到多个对象的样式."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:265
 msgid "Style of new objects"
@@ -16656,19 +16656,19 @@ msgstr "新对象的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:267
 msgid "Last used style"
-msgstr "最近使用的风格"
+msgstr "最近使用的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:269
 msgid "Apply the style you last set on an object"
-msgstr "应用最近设置对象的风格"
+msgstr "应用最近设置对象的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:274
 msgid "This tool's own style:"
-msgstr "此工具自己的风格:"
+msgstr "此工具自己的样式:"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:278
 msgid "Each tool may store its own style to apply to the newly created objects. Use the button below to set it."
-msgstr "每个工具保存自己的风格, 应用到新创建的对象.使用下面的按钮设置."
+msgstr "每个工具保存自己的样式, 应用到新创建的对象.使用下面的按钮设置."
 
 #. style swatch
 #: ../src/ui/dialog/inkscape-preferences.cpp:282
@@ -16681,7 +16681,7 @@ msgstr "使用该工具新创建的对象的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:298
 msgid "Remember the style of the (first) selected object as this tool's style"
-msgstr "记住已选对象(第一个)的风格作为此工具的风格"
+msgstr "记住已选对象(第一个)的样式作为此工具的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:303
 msgid "Tools"
@@ -20042,11 +20042,11 @@ msgstr "重置全部设置为默认值"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:302 ../src/ui/dialog/tracedialog.cpp:819
 msgid "Abort a trace in progress"
-msgstr "中断正在进行的描边"
+msgstr "中断正在进行的临摹"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:306 ../src/ui/dialog/tracedialog.cpp:823
 msgid "Execute the trace"
-msgstr "执行描绘"
+msgstr "执行临摹"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:388
 #: ../src/ui/dialog/pixelartdialog.cpp:422
@@ -20061,7 +20061,7 @@ msgstr ""
 
 #: ../src/ui/dialog/pixelartdialog.cpp:499
 msgid "Trace pixel art"
-msgstr "临摹剪贴画"
+msgstr "临摹像素艺术"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:41
 msgctxt "Polar arrange tab"
@@ -20584,7 +20584,7 @@ msgstr "文本路径偏移"
 #: ../src/ui/dialog/text-edit.cpp:612 ../src/ui/dialog/text-edit.cpp:699
 #: ../src/ui/tools/text-tool.cpp:1446
 msgid "Set text style"
-msgstr "设置文本风格"
+msgstr "设置文本样式"
 
 #: ../src/ui/dialog/tile.cpp:36
 msgctxt "Arrange dialog"
@@ -20616,7 +20616,7 @@ msgstr "亮度截断（_B)"
 
 #: ../src/ui/dialog/tracedialog.cpp:512
 msgid "Trace by a given brightness level"
-msgstr "使用给定亮度等级抽取轮廓"
+msgstr "使用给定亮度等级临摹轮廓"
 
 #: ../src/ui/dialog/tracedialog.cpp:519
 msgid "Brightness cutoff for black/white"
@@ -20634,7 +20634,7 @@ msgstr "边缘检测（_E)"
 
 #: ../src/ui/dialog/tracedialog.cpp:538
 msgid "Trace with optimal edge detection by J. Canny's algorithm"
-msgstr "使用 J. Canny 的最优边缘检测算法提取轮廓"
+msgstr "使用 J. Canny 的最优边缘检测算法临摹轮廓"
 
 #: ../src/ui/dialog/tracedialog.cpp:556
 msgid "Brightness cutoff for adjacent pixels (determines edge thickness)"
@@ -20654,7 +20654,7 @@ msgstr "颜色量化(_Q)"
 
 #: ../src/ui/dialog/tracedialog.cpp:575
 msgid "Trace along the boundaries of reduced colors"
-msgstr "沿着简化的颜色边界提取轮廓"
+msgstr "沿着简化的颜色边界临摹轮廓"
 
 #: ../src/ui/dialog/tracedialog.cpp:583
 msgid "The number of reduced colors"
@@ -20681,7 +20681,7 @@ msgstr "亮度步数(_R)"
 
 #: ../src/ui/dialog/tracedialog.cpp:613
 msgid "Trace the given number of brightness levels"
-msgstr "提取指定亮度的轮廓"
+msgstr "临摹指定亮度的轮廓"
 
 #: ../src/ui/dialog/tracedialog.cpp:621
 msgid "Sc_ans:"
@@ -20697,7 +20697,7 @@ msgstr "颜色(_L)"
 
 #: ../src/ui/dialog/tracedialog.cpp:634
 msgid "Trace the given number of reduced colors"
-msgstr "提取给定精简颜色数的轮廓"
+msgstr "临摹给定精简颜色数的轮廓"
 
 #: ../src/ui/dialog/tracedialog.cpp:639
 msgid "_Grays"
@@ -20768,7 +20768,7 @@ msgstr "平滑角落（_C)"
 
 #: ../src/ui/dialog/tracedialog.cpp:710
 msgid "Smooth out sharp corners of the trace"
-msgstr "平滑路径上的尖锐角"
+msgstr "平滑临摹路径上的尖锐角"
 
 #: ../src/ui/dialog/tracedialog.cpp:719
 msgid "Increase this to smooth corners more"
@@ -20784,7 +20784,7 @@ msgstr "通过加入邻接贝塞尔曲线段最优化路径"
 
 #: ../src/ui/dialog/tracedialog.cpp:737
 msgid "Increase this to reduce the number of nodes in the trace by more aggressive optimization"
-msgstr "增加此值按照加强的优化方法减少路径中的节点数量"
+msgstr "增加此值按照加强的优化方法减少临摹路径中的节点数量"
 
 #: ../src/ui/dialog/tracedialog.cpp:739
 msgid "To_lerance:"
@@ -20804,7 +20804,7 @@ msgid ""
 "\n"
 "http://potrace.sourceforge.net"
 msgstr ""
-"Inkscape 位图描边\n"
+"Inkscape 位图边缘临摹\n"
 "基于 Peter Seligner 编写的 Potrace，\n"
 "\n"
 "http://potrace.sourceforge.net"
@@ -21289,12 +21289,12 @@ msgstr "外部编辑…"
 #. TRANSLATORS: "to trace" means "to convert a bitmap to vector graphics" (to vectorize)
 #: ../src/ui/interface.cpp:1984 ../src/verbs.cpp:2597
 msgid "_Trace Bitmap..."
-msgstr "提取位图轮廓(_T)…"
+msgstr "临摹位图轮廓(_T)…"
 
 #. Trace Pixel Art
 #: ../src/ui/interface.cpp:1993
 msgid "Trace Pixel Art"
-msgstr "临摹剪贴画"
+msgstr "临摹像素艺术"
 
 #: ../src/ui/interface.cpp:2003
 msgctxt "Context menu"
@@ -21946,7 +21946,7 @@ msgstr "按下<b>Ctrl</b> <b>选择一条参考路径</b>开始跟踪"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:662
 msgid "Tracking: <b>connection to guide path lost!</b>"
-msgstr "跟踪: <b>失去与参考路径的联系!</b>"
+msgstr "跟踪：<b>失去与参考路径的联系!</b>"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:662
 msgid "<b>Tracking</b> a guide path"
@@ -24254,7 +24254,7 @@ msgstr "粘贴样式(_S)"
 
 #: ../src/verbs.cpp:2445
 msgid "Apply the style of the copied object to selection"
-msgstr "应用已复制对象的风格到选区"
+msgstr "应用已复制对象的样式到选区"
 
 #: ../src/verbs.cpp:2447
 msgid "Scale selection to match the size of the copied object"
@@ -24611,7 +24611,7 @@ msgstr "从路径上释放(_R)"
 
 #: ../src/verbs.cpp:2543
 msgid "Remove Manual _Kerns"
-msgstr "移除手工间隙(_K)"
+msgstr "移除手工字距调整(_K)"
 
 #. TRANSLATORS: "glyph": An image used in the visual representation of characters;
 #. roughly speaking, how a character looks. A font is a set of glyphs.
@@ -24769,7 +24769,7 @@ msgstr "通过提取位图轮廓创建一个或多个路径"
 
 #: ../src/verbs.cpp:2599
 msgid "Trace Pixel Art..."
-msgstr "临摹剪贴画…"
+msgstr "临摹像素艺术…"
 
 #: ../src/verbs.cpp:2600
 msgid "Create paths using Kopf-Lischinski algorithm to vectorize pixel art"
@@ -26028,7 +26028,7 @@ msgstr "Inkscape：描边剪贴画"
 
 #: ../src/verbs.cpp:2944
 msgid "Using Trace Pixel Art dialog"
-msgstr "使用跟踪像素艺术对话框"
+msgstr "使用临摹像素艺术对话框"
 
 #: ../src/verbs.cpp:2945
 msgid "Inkscape: _Calligraphy"
@@ -26528,11 +26528,11 @@ msgstr "增大此值使笔拖到后面, 好像由于惯性变慢"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:565
 msgid "Trace Background"
-msgstr "跟踪背景"
+msgstr "临摹背景"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:566
 msgid "Trace the lightness of the background by the width of the pen (white - minimum width, black - maximum width)"
-msgstr "使用Pen的宽度跟踪背景的亮度(白色-最细, 黑色-最粗)"
+msgstr "使用Pen的宽度临摹背景的亮度(白色-最细, 黑色-最粗)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:579
 msgid "Use the pressure of the input device to alter the width of the pen"
@@ -26850,7 +26850,7 @@ msgstr "字体名称"
 #: ../src/widgets/font-selector.cpp:179
 msgctxt "Font selector"
 msgid "Style"
-msgstr "风格"
+msgstr "样式"
 
 #: ../src/widgets/font-selector.cpp:211
 msgid "Face"
@@ -28420,7 +28420,7 @@ msgstr "设置标记"
 
 #: ../src/widgets/stroke-style.cpp:1033 ../src/widgets/stroke-style.cpp:1117
 msgid "Set stroke style"
-msgstr "设置笔廓风格"
+msgstr "设置笔廓样式"
 
 #: ../src/widgets/stroke-style.cpp:1206
 msgid "Set marker color"
@@ -28440,7 +28440,7 @@ msgstr "文本：改变字体尺寸"
 
 #: ../src/widgets/text-toolbar.cpp:275
 msgid "Text: Change font style"
-msgstr "文本：改变字体风格"
+msgstr "文本：改变字体样式"
 
 #: ../src/widgets/text-toolbar.cpp:353
 msgid "Text: Change superscript or subscript"
@@ -29621,7 +29621,7 @@ msgstr "没有选取对象。请选取您要指定视角的对象并按应用。
 #: ../share/extensions/markers_strokepaint.py:83
 #, python-format
 msgid "No style attribute found for id: %s"
-msgstr "id: %s 中找不到风格属性"
+msgstr "id: %s 中找不到样式属性"
 
 #: ../share/extensions/markers_strokepaint.py:137
 #, python-format
@@ -32603,13 +32603,11 @@ msgstr "复制一份终点路径"
 
 #: ../share/extensions/interp.inx.h:6
 msgid "Interpolate style"
-msgstr "插值风格"
+msgstr "插值样式"
 
 #: ../share/extensions/interp.inx.h:7 ../share/extensions/interp_att_g.inx.h:10
-#, fuzzy
-#| msgid "Raised Border"
 msgid "Use Z-order"
-msgstr "边框隆起"
+msgstr "使用 Z-顺序"
 
 #: ../share/extensions/interp.inx.h:8 ../share/extensions/interp_att_g.inx.h:11
 msgid "Workaround for reversed selection order in Live Preview cycles"
@@ -32675,7 +32673,7 @@ msgstr "浮点数"
 #: ../share/extensions/interp_att_g.inx.h:25
 #: ../share/extensions/polyhedron_3d.inx.h:33
 msgid "Style"
-msgstr "风格"
+msgstr "样式"
 
 #: ../share/extensions/interp_att_g.inx.h:26
 msgid "Transformation"
@@ -35091,7 +35089,7 @@ msgstr "小写"
 #. <param name="flowtext" type="boolean" _gui-text="Flow text">false</param>
 #: ../share/extensions/text_merge.inx.h:15
 msgid "Keep style"
-msgstr "保持文本风格"
+msgstr "保持文本样式"
 
 #: ../share/extensions/text_randomcase.inx.h:1
 msgid "rANdOm CasE"
