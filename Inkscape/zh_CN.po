@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-25 17:03-0500\n"
+"PO-Revision-Date: 2015-11-25 20:04-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,2227,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,2515,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -5409,11 +5409,11 @@ msgstr "修改选中位图的不透明通道"
 
 #: ../src/extension/internal/bitmap/raise.cpp:40
 msgid "Raise"
-msgstr "提升"
+msgstr "升高"
 
 #: ../src/extension/internal/bitmap/raise.cpp:44
 msgid "Raised"
-msgstr "已提升"
+msgstr "已升高"
 
 #: ../src/extension/internal/bitmap/raise.cpp:50
 msgid "Alter lightness the edges of selected bitmap(s) to create a raised appearance"
@@ -9909,7 +9909,7 @@ msgstr "控制柄 5："
 
 #: ../src/live_effects/lpe-lattice2.cpp:54
 msgid "Control 5 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 5 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:55
 msgid "Control 6:"
@@ -9917,7 +9917,7 @@ msgstr "控制柄 6："
 
 #: ../src/live_effects/lpe-lattice2.cpp:55
 msgid "Control 6 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 6 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:56
 msgid "Control 7:"
@@ -9925,7 +9925,7 @@ msgstr "控制柄 7："
 
 #: ../src/live_effects/lpe-lattice2.cpp:56
 msgid "Control 7 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 7 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:57
 msgid "Control 8x9:"
@@ -9941,7 +9941,7 @@ msgstr "控制柄 10x11："
 
 #: ../src/live_effects/lpe-lattice2.cpp:58
 msgid "Control 10x11 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 10x11 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:59
 msgid "Control 12:"
@@ -9949,7 +9949,7 @@ msgstr "控制柄 12："
 
 #: ../src/live_effects/lpe-lattice2.cpp:59
 msgid "Control 12 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 12 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:60
 msgid "Control 13:"
@@ -10738,7 +10738,7 @@ msgstr "笔廓长度变化量："
 
 #: ../src/live_effects/lpe-sketch.cpp:42
 msgid "Random variation of stroke length (relative to maximum length)"
-msgstr "笔迹长度的随机变化量(相对于最大长度)"
+msgstr "笔廓长度的随机变化量（相对于最大长度）"
 
 #: ../src/live_effects/lpe-sketch.cpp:43
 msgid "Max. overlap:"
@@ -10746,11 +10746,11 @@ msgstr "重叠最大值："
 
 #: ../src/live_effects/lpe-sketch.cpp:44
 msgid "How much successive strokes should overlap (relative to maximum length)"
-msgstr "相邻笔迹的重叠量 (相对最大长度)"
+msgstr "相邻笔廓的重叠量（相对于最大长度）"
 
 #: ../src/live_effects/lpe-sketch.cpp:45
 msgid "Overlap variation:"
-msgstr "重叠变量："
+msgstr "重叠变化量："
 
 #: ../src/live_effects/lpe-sketch.cpp:46
 msgid "Random variation of overlap (relative to maximum overlap)"
@@ -10758,11 +10758,11 @@ msgstr "重叠量的随机偏差（相对于最大重叠量）"
 
 #: ../src/live_effects/lpe-sketch.cpp:47
 msgid "Max. end tolerance:"
-msgstr "最大末端容错："
+msgstr "最大末端容差："
 
 #: ../src/live_effects/lpe-sketch.cpp:48
 msgid "Maximum distance between ends of original and approximating paths (relative to maximum length)"
-msgstr "原始终点与近似笔迹的终点间的最大距离 (相对于最大长度)"
+msgstr "原始终点与近似笔迹的端点间的最大距离（相对于最大长度）"
 
 #: ../src/live_effects/lpe-sketch.cpp:49
 msgid "Average offset:"
@@ -10770,7 +10770,7 @@ msgstr "平均偏移量："
 
 #: ../src/live_effects/lpe-sketch.cpp:50
 msgid "Average distance each stroke is away from the original path"
-msgstr "每个笔迹与原始路径的平均距离"
+msgstr "每个笔廓与原始路径的平均距离"
 
 #: ../src/live_effects/lpe-sketch.cpp:51
 msgid "Max. tremble:"
@@ -10778,7 +10778,7 @@ msgstr "颤抖最大值："
 
 #: ../src/live_effects/lpe-sketch.cpp:52
 msgid "Maximum tremble magnitude"
-msgstr "偏离的最大幅度"
+msgstr "颤抖偏离的最大幅度"
 
 #: ../src/live_effects/lpe-sketch.cpp:53
 msgid "Tremble frequency:"
@@ -10794,17 +10794,17 @@ msgstr "结构线："
 
 #: ../src/live_effects/lpe-sketch.cpp:57
 msgid "How many construction lines (tangents) to draw"
-msgstr "结构线的数目 (切线)"
+msgstr "要绘制的结构线的数目 (切线)"
 
 #: ../src/live_effects/lpe-sketch.cpp:58
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2892
 #: ../share/extensions/render_alphabetsoup.inx.h:3
 msgid "Scale:"
-msgstr "缩放:"
+msgstr "缩放："
 
 #: ../src/live_effects/lpe-sketch.cpp:59
 msgid "Scale factor relating curvature and length of construction lines (try 5*offset)"
-msgstr "曲率与结构线长度相关的缩放因子 (尝试 5*偏移)"
+msgstr "曲率与结构线长度相关的缩放因子（试试 5×偏移）"
 
 #: ../src/live_effects/lpe-sketch.cpp:60
 msgid "Max. length:"
@@ -10828,11 +10828,11 @@ msgstr "分布随机性："
 
 #: ../src/live_effects/lpe-sketch.cpp:62
 msgid "0: evenly distributed construction lines, 1: purely random placement"
-msgstr "0: 均匀分布的结构线, 1: 位置完全随机"
+msgstr "0：均匀分布的结构线，1：位置完全随机"
 
 #: ../src/live_effects/lpe-sketch.cpp:64
 msgid "k_min:"
-msgstr "k 最小值(_M)："
+msgstr "k_min："
 
 #: ../src/live_effects/lpe-sketch.cpp:64
 msgid "min curvature"
@@ -10840,7 +10840,7 @@ msgstr "最小曲率"
 
 #: ../src/live_effects/lpe-sketch.cpp:65
 msgid "k_max:"
-msgstr "k 最大值(_M)："
+msgstr "k_max："
 
 #: ../src/live_effects/lpe-sketch.cpp:65
 msgid "max curvature"
@@ -10857,7 +10857,7 @@ msgstr "笔廓宽度："
 
 #: ../src/live_effects/lpe-taperstroke.cpp:73
 msgid "The (non-tapered) width of the path"
-msgstr "该路径的宽度 (非锥化的宽度)"
+msgstr "该路径的（非锥化）宽度"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:74
 msgid "Start offset:"
@@ -10877,7 +10877,7 @@ msgstr "锥体的结束位置"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Taper smoothing:"
-msgstr "光滑:"
+msgstr "锥化平滑："
 
 #: ../src/live_effects/lpe-taperstroke.cpp:76
 msgid "Amount of smoothing to apply to the tapers"
@@ -10885,7 +10885,7 @@ msgstr "应用到锥化的平滑程度"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:77
 msgid "Join type:"
-msgstr "  类型:"
+msgstr "接合类型："
 
 #: ../src/live_effects/lpe-taperstroke.cpp:77
 msgid "Join type for non-smooth nodes"
@@ -10901,7 +10901,7 @@ msgstr "锥体的起点"
 
 #: ../src/live_effects/lpe-taperstroke.cpp:451
 msgid "End point of the taper"
-msgstr "锥体的末端"
+msgstr "锥体的终点"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:31
 msgid "Elastic"
@@ -10947,7 +10947,7 @@ msgstr "起点"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:38
 msgid "End point"
-msgstr "末端"
+msgstr "终点"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
 #, fuzzy
@@ -10998,7 +10998,7 @@ msgstr "世代数(_R)："
 
 #: ../src/live_effects/lpe-vonkoch.cpp:46
 msgid "Depth of the recursion --- keep low!!"
-msgstr "递归的深度 --- 使用较小值!!"
+msgstr "递归的深度——要低！！"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:47
 msgid "Generating path:"
@@ -11014,7 +11014,7 @@ msgstr "只用整体变形(_U)"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:48
 msgid "2 consecutive segments are used to reverse/preserve orientation only (otherwise, they define a general transform)."
-msgstr "两个线段仅用来保持/颠倒方向 (否则, 他们定义了一个一般变换)."
+msgstr "两个线段仅用来保持/颠倒方向（否则的话将定义一般变换）。"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:49
 msgid "Dra_w all generations"
@@ -11031,14 +11031,14 @@ msgstr "参考线段："
 
 #: ../src/live_effects/lpe-vonkoch.cpp:51
 msgid "The reference segment. Defaults to the horizontal midline of the bbox."
-msgstr "参考段. 默认为边界框的水平中点."
+msgstr "参考线段。默认为边界框的水平中线。"
 
 #. refA(_("Ref Start"), _("Left side middle of the reference box"), "refA", &wr, this),
 #. refB(_("Ref End"), _("Right side middle of the reference box"), "refB", &wr, this),
 #. FIXME: a path is used here instead of 2 points to work around path/point param incompatibility bug.
 #: ../src/live_effects/lpe-vonkoch.cpp:55
 msgid "_Max complexity:"
-msgstr "复杂性最大值(_M)："
+msgstr "最大复杂度(_M)："
 
 #: ../src/live_effects/lpe-vonkoch.cpp:55
 msgid "Disable effect if the output is too complex"
@@ -11046,11 +11046,11 @@ msgstr "如果输出过于复杂则关闭效果"
 
 #: ../src/live_effects/parameter/bool.cpp:68
 msgid "Change bool parameter"
-msgstr "修改布尔参数"
+msgstr "更改布尔参数"
 
 #: ../src/live_effects/parameter/enum.h:47
 msgid "Change enumeration parameter"
-msgstr "改变枚举参数"
+msgstr "更改枚举参数"
 
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:778
 #: ../src/live_effects/parameter/filletchamferpointarray.cpp:839
@@ -11099,20 +11099,20 @@ msgstr "删除路径"
 #: ../src/live_effects/parameter/originalpatharray.cpp:179
 #: ../src/ui/dialog/objects.cpp:1850
 msgid "Move Down"
-msgstr "向下移"
+msgstr "下移"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:191
 #: ../src/ui/dialog/objects.cpp:1858
 msgid "Move Up"
-msgstr "向上移"
+msgstr "上移"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:231
 msgid "Move path up"
-msgstr "路径向上移"
+msgstr "路径上移"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:261
 msgid "Move path down"
-msgstr "路径向下移"
+msgstr "路径下移"
 
 #: ../src/live_effects/parameter/originalpatharray.cpp:279
 msgid "Remove path"
@@ -11145,7 +11145,7 @@ msgstr "修改点的参数"
 #: ../src/live_effects/parameter/powerstrokepointarray.cpp:239
 #: ../src/live_effects/parameter/powerstrokepointarray.cpp:256
 msgid "<b>Stroke width control point</b>: drag to alter the stroke width. <b>Ctrl+click</b> adds a control point, <b>Ctrl+Alt+click</b> deletes it, <b>Shift+click</b> launches width dialog."
-msgstr "<b>笔廓宽度控制点</b>：拖曳控制点可以改变笔划宽度。<b>Ctrl+点击</b> 可以加入控制点，<b>Ctrl+Alt+点击</b> 可以删除控制点。"
+msgstr "<b>笔廓宽度控制点</b>：拖动以更改笔廓宽度。<b>Ctrl+单击</b>添加控制点，<b>Ctrl+Alt+单击</b>删除，<b>Shift+单击</b>启动宽度对话框。"
 
 #: ../src/live_effects/parameter/random.cpp:134
 msgid "Change random parameter"
@@ -11171,12 +11171,12 @@ msgstr "修改计量参数"
 #: ../src/main-cmdlineact.cpp:49
 #, c-format
 msgid "Unable to find verb ID '%s' specified on the command line.\n"
-msgstr "找不到命令行中制定的动作, ID为'%s'.\n"
+msgstr "找不到命令行中指定的动作 ID“%s”。\n"
 
 #: ../src/main-cmdlineact.cpp:60
 #, c-format
 msgid "Unable to find node ID: '%s'\n"
-msgstr "找不到ID为 '%s' 的的节点\n"
+msgstr "找不到节点 ID：“%s”\n"
 
 #: ../src/main.cpp:295
 msgid "Print the Inkscape version number"
@@ -11184,15 +11184,15 @@ msgstr "打印 Inkscape 版本号"
 
 #: ../src/main.cpp:300
 msgid "Do not use X server (only process files from console)"
-msgstr "不使用 X 服务 (只通过控制台处理文件)"
+msgstr "不使用 X 服务器（只通过控制台处理文件）"
 
 #: ../src/main.cpp:305
 msgid "Try to use X server (even if $DISPLAY is not set)"
-msgstr "试着使用 X 服务(即使 $DISPLAY 没有设置)"
+msgstr "试着使用 X 服务器（即使 $DISPLAY 没有）置)"
 
 #: ../src/main.cpp:310
 msgid "Open specified document(s) (option string may be excluded)"
-msgstr "打开指定文档(可选字符串可能排除)"
+msgstr "打开指定的文档（可能排除选项字符串）"
 
 #: ../src/main.cpp:311 ../src/main.cpp:316 ../src/main.cpp:321
 #: ../src/main.cpp:393 ../src/main.cpp:398 ../src/main.cpp:403
@@ -11202,7 +11202,7 @@ msgstr "文件名"
 
 #: ../src/main.cpp:315
 msgid "Print document(s) to specified output file (use '| program' for pipe)"
-msgstr "打印文档到指定输出文件(使用管道“| program”)"
+msgstr "打印文档到指定输出文件（用“| 程序名”以使用管道）"
 
 #: ../src/main.cpp:320
 msgid "Export document to a PNG file"
@@ -11218,7 +11218,7 @@ msgstr "DPI"
 
 #: ../src/main.cpp:330
 msgid "Exported area in SVG user units (default is the page; 0,0 is lower-left corner)"
-msgstr "按照 SVG 用户设置单位导出区域(默认是画布; 0, 0 对应左下角)"
+msgstr "按照 SVG 用户设置单位导出区域（默认是页面；0,0 是左下角）"
 
 #: ../src/main.cpp:331
 msgid "x0:y0:x1:y1"
@@ -11226,7 +11226,7 @@ msgstr "x0:y0:x1:y1"
 
 #: ../src/main.cpp:335
 msgid "Exported area is the entire drawing (not page)"
-msgstr "导出区域是整个绘图(不是页面)"
+msgstr "导出区域是整个绘图（不是页面）"
 
 #: ../src/main.cpp:340
 msgid "Exported area is the entire page"
@@ -11234,7 +11234,7 @@ msgstr "导出区域是整个页面"
 
 #: ../src/main.cpp:345
 msgid "Only for PS/EPS/PDF, sets margin in mm around exported area (default 0)"
-msgstr "只适用于 PS/EPS/PDF，设置导出区域周围的边距 (缺省为 0，单位为毫米)"
+msgstr "只适用于 PS/EPS/PDF，设置导出区域周围的边距（缺省为 0，以毫米计）"
 
 #: ../src/main.cpp:346 ../src/main.cpp:388
 msgid "VALUE"
@@ -11242,11 +11242,11 @@ msgstr "值"
 
 #: ../src/main.cpp:350
 msgid "Snap the bitmap export area outwards to the nearest integer values (in SVG user units)"
-msgstr "捕捉位图导出区域到靠外的最接近的整数(按照 SVG 用户单位)"
+msgstr "捕捉位图导出区域到靠外的最接近的整数（按照 SVG 用户单位）"
 
 #: ../src/main.cpp:355
 msgid "The width of exported bitmap in pixels (overrides export-dpi)"
-msgstr "导出位图的像素宽度(覆盖导出 dpi)"
+msgstr "导出位图的像素宽度（覆盖导出-dpi）"
 
 #: ../src/main.cpp:356
 msgid "WIDTH"
@@ -11254,7 +11254,7 @@ msgstr "宽度"
 
 #: ../src/main.cpp:360
 msgid "The height of exported bitmap in pixels (overrides export-dpi)"
-msgstr "导出位图的像素高度(覆盖导出 dpi)"
+msgstr "导出位图的像素高度（覆盖导出-dpi）"
 
 #: ../src/main.cpp:361
 msgid "HEIGHT"
@@ -11273,15 +11273,15 @@ msgstr "ID"
 #. See "man inkscape" for details.
 #: ../src/main.cpp:372
 msgid "Export just the object with export-id, hide all others (only with export-id)"
-msgstr "只导出有导出 id 的对象, 隐藏其它的(只包括导出 id)"
+msgstr "只导出有导出 ID 的对象, 隐藏其它的（只包括导出 ID）"
 
 #: ../src/main.cpp:377
 msgid "Use stored filename and DPI hints when exporting (only with export-id)"
-msgstr "导出时使用保存的文件名和 DPI (只包括导出 id)"
+msgstr "导出时使用保存的文件名和 DPI（只包括导出 ID）"
 
 #: ../src/main.cpp:382
 msgid "Background color of exported bitmap (any SVG-supported color string)"
-msgstr "导出位图的背景色(SVG 导出颜色字符串)"
+msgstr "导出位图的背景色（任何 SVG 支持的颜色字符串）"
 
 #: ../src/main.cpp:383
 msgid "COLOR"
@@ -11289,11 +11289,11 @@ msgstr "颜色"
 
 #: ../src/main.cpp:387
 msgid "Background opacity of exported bitmap (either 0.0 to 1.0, or 1 to 255)"
-msgstr "导出位图的背景不透明度(0.0到1.0, 或者1到255)"
+msgstr "导出位图的背景不透明度（0.0 到 1.0，或者 1 到 255）"
 
 #: ../src/main.cpp:392
 msgid "Export document to plain SVG file (no sodipodi or inkscape namespaces)"
-msgstr "把文档导出到普通 SVG 文件(没有 sodipodi 或者 inkscape 名字空间)"
+msgstr "把文档导出到普通 SVG 文件（没有 sodipodi 或者 inkscape 命名空间）"
 
 #: ../src/main.cpp:397
 msgid "Export document to a PS file"
@@ -11328,68 +11328,68 @@ msgstr "PDF 版本"
 
 #: ../src/main.cpp:424
 msgid "Export PDF/PS/EPS without text. Besides the PDF/PS/EPS, a LaTeX file is exported, putting the text on top of the PDF/PS/EPS file. Include the result in LaTeX like: \\input{latexfile.tex}"
-msgstr "导出不含文本的 PDF/PS/EPS。比起 PDF/PS/EPS，导出的 LaTeX 档会将文本放在 PDF/PS/EPS 档的最上层。包括 LaTeX 里如 \\input{latexfile.tex} 的效果"
+msgstr "导出不含文本的 PDF/PS/EPS。除了 PDF/PS/EPS 之外 还会导出一个 LaTeX 文件，将文本放在 PDF/PS/EPS 文件的之上。在 LaTeX 这样包含结果：\\input{latexfile.tex}"
 
 #: ../src/main.cpp:429
 msgid "Export document to an Enhanced Metafile (EMF) File"
-msgstr "导出文档到 EMF 文件"
+msgstr "导出文档到增强型图元（EMF）文件"
 
 #: ../src/main.cpp:434
 msgid "Export document to a Windows Metafile (WMF) File"
-msgstr "将文档导出成 Windows 中继数据档 (WMF)"
+msgstr "将文档导出成 Windows 图元文件（WMF）"
 
 #: ../src/main.cpp:439
 msgid "Convert text object to paths on export (PS, EPS, PDF, SVG)"
-msgstr "导出时将文本对象转成路径 (PS, EPS, PDF, SVG)"
+msgstr "导出时将文本对象转成路径（PS、EPS、PDF、SVG）"
 
 #: ../src/main.cpp:444
 msgid "Render filtered objects without filters, instead of rasterizing (PS, EPS, PDF)"
-msgstr "渲染滤镜对象时不包括滤镜效果, 代替 栅格化 (PS, EPS, PDF)"
+msgstr "渲染滤镜对象时不包括滤镜效果, 而不是执行栅格化（PS、EPS、PDF）"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:450
 msgid "Query the X coordinate of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的 X 坐标, 如果指定查询对象的 --query-id"
+msgstr "查询绘图的 X 坐标, 或者若被 --query-id 指定了的话，查询指定的对象"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:456
 msgid "Query the Y coordinate of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的 Y 坐标, 如果指定查询对象的 --query-id"
+msgstr "查询绘图的 Y 坐标, 或者若被 --query-id 指定了的话，查询指定的对象"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:462
 msgid "Query the width of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的宽度, 如果指定查询对象的 --query-id"
+msgstr "查询绘图的高度, 或者若被 --query-id 指定了的话，查询指定的对象"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:468
 msgid "Query the height of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的高度, 如果指定查询对象的 --query-id"
+msgstr "查询绘图的宽度, 或者若被 --query-id 指定了的话，查询指定的对象"
 
 #: ../src/main.cpp:473
 msgid "List id,x,y,w,h for all objects"
-msgstr "列表显示所有对象的id, x, y, w, h"
+msgstr "列出有对象的 id,x,y,w,h"
 
 #: ../src/main.cpp:478
 msgid "The ID of the object whose dimensions are queried"
-msgstr "对象 ID 的尺寸被查询"
+msgstr "被查询尺寸的对象的 ID"
 
 #. TRANSLATORS: this option makes Inkscape print the name (path) of the extension directory
 #: ../src/main.cpp:484
 msgid "Print out the extension directory and exit"
-msgstr "打印扩展路径然后退出"
+msgstr "打印扩展目录然后退出"
 
 #: ../src/main.cpp:489
 msgid "Remove unused definitions from the defs section(s) of the document"
-msgstr "从文档的定义段去除未使用的定义"
+msgstr "从文档的 defs 段去除未使用的定义"
 
 #: ../src/main.cpp:495
 msgid "Enter a listening loop for D-Bus messages in console mode"
-msgstr "输入终端机模式的 D-Bus 消息监听循环"
+msgstr "在控制台模式中进入一个用于 D-Bus 消息的监听循环"
 
 #: ../src/main.cpp:500
 msgid "Specify the D-Bus bus name to listen for messages on (default is org.inkscape)"
-msgstr "指定用于消息监听的 D-Bus 总线名称（默认值为 org.inkscape）"
+msgstr "指定用于消息监听的 D-Bus BUS 名称（默认值为 org.inkscape）"
 
 #: ../src/main.cpp:501
 msgid "BUS-NAME"
@@ -11397,11 +11397,11 @@ msgstr "BUS-NAME"
 
 #: ../src/main.cpp:506
 msgid "List the IDs of all the verbs in Inkscape"
-msgstr "列出Inkscape中所有动作的标识符(ID)"
+msgstr "列出 Inkscape 中所有动作的标识符（ID）"
 
 #: ../src/main.cpp:511
 msgid "Verb to call when Inkscape opens."
-msgstr "Inkscape 启动时调用的命令。"
+msgstr "Inkscape 启动时调用的动作。"
 
 #: ../src/main.cpp:512
 msgid "VERB-ID"
@@ -11417,7 +11417,7 @@ msgstr "对象-ID"
 
 #: ../src/main.cpp:521
 msgid "Start Inkscape in interactive shell mode."
-msgstr "以交互式的shell模式启动Inkscape."
+msgstr "以交互式 shell 模式启动 Inkscape。"
 
 #: ../src/main.cpp:871 ../src/main.cpp:1280
 msgid ""
@@ -11427,7 +11427,7 @@ msgid ""
 msgstr ""
 "[选项…] [文件…]\n"
 "\n"
-"可用选项:"
+"可用选项："
 
 #. ## Add a menu for clear()
 #: ../src/menus-skeleton.h:16 ../src/ui/dialog/debug.cpp:79
@@ -11476,7 +11476,7 @@ msgstr "色彩显示模式(_C)"
 #. "         <verb verb-id=\"DialogPrintColorsPreview\" />\n"
 #: ../src/menus-skeleton.h:134
 msgid "Sh_ow/Hide"
-msgstr "显示(_W) / 隐藏"
+msgstr "显示/隐藏(_W)"
 
 #. Not quite ready to be in the menus.
 #. "       <verb verb-id=\"FocusToggle\" />\n"
@@ -11535,11 +11535,11 @@ msgstr "合并路径…"
 
 #: ../src/path-chemistry.cpp:177
 msgid "Combine"
-msgstr "组合"
+msgstr "合并"
 
 #: ../src/path-chemistry.cpp:184
 msgid "<b>No path(s)</b> to combine in the selection."
-msgstr "选区内没有<b>路径</b>可以结合."
+msgstr "选区内没有<b>路径</b>可以合并。"
 
 #: ../src/path-chemistry.cpp:196
 msgid "Select <b>path(s)</b> to break apart."
@@ -11547,19 +11547,19 @@ msgstr "选择要分离的<b>路径</b>."
 
 #: ../src/path-chemistry.cpp:200
 msgid "Breaking apart paths..."
-msgstr "断开路径…"
+msgstr "分离路径…"
 
 #: ../src/path-chemistry.cpp:287
 msgid "Break apart"
-msgstr "断开"
+msgstr "分离"
 
 #: ../src/path-chemistry.cpp:289
 msgid "<b>No path(s)</b> to break apart in the selection."
-msgstr "选区里面<b>没有路径</b>可以分离."
+msgstr "选区里面<b>没有路径</b>可以分离。"
 
 #: ../src/path-chemistry.cpp:299
 msgid "Select <b>object(s)</b> to convert to path."
-msgstr "选择<b>对象</b>转换到路径."
+msgstr "选择要转换到路径的<b>对象</b>。"
 
 #: ../src/path-chemistry.cpp:305
 msgid "Converting objects to paths..."
@@ -11571,11 +11571,11 @@ msgstr "对象转化成路径"
 
 #: ../src/path-chemistry.cpp:326
 msgid "<b>No objects</b> to convert to path in the selection."
-msgstr "选取里<b>没有对象</b>可以转化到路径."
+msgstr "选区里<b>没有对象</b>可以转化到路径。"
 
 #: ../src/path-chemistry.cpp:613
 msgid "Select <b>path(s)</b> to reverse."
-msgstr "选择要反向的<b>路径</b>."
+msgstr "选择要反向的<b>路径</b>。"
 
 #: ../src/path-chemistry.cpp:622
 msgid "Reversing paths..."
@@ -11587,7 +11587,7 @@ msgstr "反向路径"
 
 #: ../src/path-chemistry.cpp:659
 msgid "<b>No paths</b> to reverse in the selection."
-msgstr "选区里<b>没有路径</b>可以反向."
+msgstr "选区里<b>没有路径</b>可以反向。"
 
 #: ../src/persp3d.cpp:323
 msgid "Toggle vanishing point"
@@ -11631,7 +11631,7 @@ msgstr "Inkscape 将使用默认设置运行，不会保存新的设置。"
 #: ../src/preferences.cpp:151
 #, c-format
 msgid "Cannot create profile directory %s."
-msgstr "不能创建配置文件目录%s."
+msgstr "不能创建配置文件目录 %s。"
 
 #. The profile dir is not actually a directory
 #. _reportError(Glib::ustring::compose(_("%1 is not a valid directory."),
@@ -11647,27 +11647,27 @@ msgstr "%s 是无效目录。"
 #: ../src/preferences.cpp:180
 #, c-format
 msgid "Failed to create the preferences file %s."
-msgstr "不能创建配置文件 %s."
+msgstr "不能创建配置文件 %s。"
 
 #: ../src/preferences.cpp:216
 #, c-format
 msgid "The preferences file %s is not a regular file."
-msgstr "配置文件%s 不是一个正规的文件."
+msgstr "配置文件 %s 不是一个普通文件。"
 
 #: ../src/preferences.cpp:226
 #, c-format
 msgid "The preferences file %s could not be read."
-msgstr "不能读入配置文件%s."
+msgstr "不能读入配置文件 %s。"
 
 #: ../src/preferences.cpp:237
 #, c-format
 msgid "The preferences file %s is not a valid XML document."
-msgstr "配置文件%s不是有效的XML文档."
+msgstr "配置文件 %s 不是有效的 XML 文档."
 
 #: ../src/preferences.cpp:246
 #, c-format
 msgid "The file %s is not a valid Inkscape preferences file."
-msgstr "%s 是无效的Inkscape配置文件."
+msgstr "%s 是无效的 Inkscape 配置文件."
 
 #: ../src/rdf.cpp:175
 msgid "CC Attribution"
@@ -11703,14 +11703,14 @@ msgstr "FreeArt"
 
 #: ../src/rdf.cpp:215
 msgid "Open Font License"
-msgstr "开放字体许可"
+msgstr "开放字体许可证"
 
 #. Create the Title label and edit control
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/linking.html#AElementXLinkTitleAttribute
 #: ../src/rdf.cpp:235 ../src/ui/dialog/filedialogimpl-win32.cpp:1960
 #: ../src/ui/dialog/object-attributes.cpp:57
 msgid "Title:"
-msgstr "标题:"
+msgstr "标题："
 
 #: ../src/rdf.cpp:236
 msgid "A name given to the resource"
@@ -11718,7 +11718,7 @@ msgstr "此资源的名称"
 
 #: ../src/rdf.cpp:238
 msgid "Date:"
-msgstr "日期:"
+msgstr "日期："
 
 #: ../src/rdf.cpp:239
 msgid "A point or period of time associated with an event in the lifecycle of the resource"
@@ -11754,7 +11754,7 @@ msgstr "此资源著作权所有与延续的信息"
 
 #: ../src/rdf.cpp:254
 msgid "Publisher:"
-msgstr "生产商:"
+msgstr "发行者："
 
 #: ../src/rdf.cpp:255
 msgid "An entity responsible for making the resource available"
@@ -11782,7 +11782,7 @@ msgstr "相关资源"
 
 #: ../src/rdf.cpp:267 ../src/ui/dialog/inkscape-preferences.cpp:1912
 msgid "Language:"
-msgstr "语言:"
+msgstr "语言："
 
 #: ../src/rdf.cpp:268
 msgid "A language of the resource"
@@ -11790,7 +11790,7 @@ msgstr "资源的语言"
 
 #: ../src/rdf.cpp:270
 msgid "Keywords:"
-msgstr "关键词 :"
+msgstr "关键词："
 
 #: ../src/rdf.cpp:271
 msgid "The topic of the resource"
@@ -11808,7 +11808,7 @@ msgstr "此资源的时间或空间主题、空间适用性，或者资源的相
 
 #: ../src/rdf.cpp:279
 msgid "Description:"
-msgstr "描述 :"
+msgstr "描述："
 
 #: ../src/rdf.cpp:280
 msgid "An account of the resource"
@@ -11852,7 +11852,7 @@ msgstr "删除文本"
 
 #: ../src/selection-chemistry.cpp:409
 msgid "<b>Nothing</b> was deleted."
-msgstr "<b>什么也没有</b>删除."
+msgstr "<b>什么也没有</b>删除。"
 
 #: ../src/selection-chemistry.cpp:426
 #: ../src/ui/dialog/calligraphic-profile-rename.cpp:75
@@ -11866,7 +11866,7 @@ msgstr "删除"
 
 #: ../src/selection-chemistry.cpp:454
 msgid "Select <b>object(s)</b> to duplicate."
-msgstr "选择<b>对象</b>复制."
+msgstr "选择<b>对象</b>复制。"
 
 #: ../src/selection-chemistry.cpp:551
 #, c-format
@@ -11879,20 +11879,20 @@ msgstr "删除所有"
 
 #: ../src/selection-chemistry.cpp:762
 msgid "Select <b>some objects</b> to group."
-msgstr "选择<b>两个或更多对象</b>以组合."
+msgstr "选择<b>两个或更多对象</b>以组合。"
 
 #: ../src/selection-chemistry.cpp:775
 msgctxt "Verb"
 msgid "Group"
-msgstr "组"
+msgstr "组合"
 
 #: ../src/selection-chemistry.cpp:798
 msgid "Select a <b>group</b> to ungroup."
-msgstr "选择一个<b>群组</b>解除组合."
+msgstr "选择一个<b>群组</b>解除组合。"
 
 #: ../src/selection-chemistry.cpp:813
 msgid "<b>No groups</b> to ungroup in the selection."
-msgstr "选区里<b>没有群组</b>可以解除组合."
+msgstr "选区里<b>没有群组</b>可以解除组合。"
 
 #: ../src/selection-chemistry.cpp:869 ../src/sp-item-group.cpp:550
 #: ../src/ui/dialog/objects.cpp:1912
@@ -11901,22 +11901,22 @@ msgstr "解除群组"
 
 #: ../src/selection-chemistry.cpp:956
 msgid "Select <b>object(s)</b> to raise."
-msgstr "选择<b>对象</b>提升."
+msgstr "选择<b>对象</b>升高。"
 
 #: ../src/selection-chemistry.cpp:962 ../src/selection-chemistry.cpp:1015
 #: ../src/selection-chemistry.cpp:1041 ../src/selection-chemistry.cpp:1099
 msgid "You cannot raise/lower objects from <b>different groups</b> or <b>layers</b>."
-msgstr "不能够提升/降低来自<b>不同组</b>或者<b>层</b>的对象."
+msgstr "不能够升高/降低来自<b>不同组</b>或者<b>层</b>的对象。"
 
 #. TRANSLATORS: "Raise" means "to raise an object" in the undo history
 #: ../src/selection-chemistry.cpp:999
 msgctxt "Undo action"
 msgid "Raise"
-msgstr "提升"
+msgstr "升高"
 
 #: ../src/selection-chemistry.cpp:1007
 msgid "Select <b>object(s)</b> to raise to top."
-msgstr "选择<b>对象</b>提升到顶部."
+msgstr "选择要升高到顶层的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:1028
 msgid "Raise to top"
@@ -11924,17 +11924,17 @@ msgstr "置顶"
 
 #: ../src/selection-chemistry.cpp:1035
 msgid "Select <b>object(s)</b> to lower."
-msgstr "选择<b>对象</b>降低."
+msgstr "选择要降低的<b>对象</b>。"
 
 #. TRANSLATORS: "Lower" means "to lower an object" in the undo history
 #: ../src/selection-chemistry.cpp:1083
 msgctxt "Undo action"
 msgid "Lower"
-msgstr "下降"
+msgstr "降低"
 
 #: ../src/selection-chemistry.cpp:1091
 msgid "Select <b>object(s)</b> to lower to bottom."
-msgstr "选择<b>对象</b>到最底层."
+msgstr "选择要降低到底层的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:1122
 msgid "Lower to bottom"
@@ -11942,11 +11942,11 @@ msgstr "置底"
 
 #: ../src/selection-chemistry.cpp:1132
 msgid "Nothing to undo."
-msgstr "不能撤销."
+msgstr "没有可以撤销的了。"
 
 #: ../src/selection-chemistry.cpp:1143
 msgid "Nothing to redo."
-msgstr "不能重做."
+msgstr "没有可以重做的了。"
 
 #: ../src/selection-chemistry.cpp:1215
 msgid "Paste"
@@ -11962,7 +11962,7 @@ msgstr "粘贴实时路径效果"
 
 #: ../src/selection-chemistry.cpp:1255
 msgid "Select <b>object(s)</b> to remove live path effects from."
-msgstr "选择<b>对象</b>来移除实时路径效果."
+msgstr "选择要移除实时路径效果的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:1267
 msgid "Remove live path effect"
@@ -11970,7 +11970,7 @@ msgstr "移除实时路径效果"
 
 #: ../src/selection-chemistry.cpp:1278
 msgid "Select <b>object(s)</b> to remove filters from."
-msgstr "选择<b>对象</b>删除其滤镜."
+msgstr "选择要移除滤镜的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:1288
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1693
@@ -11991,7 +11991,7 @@ msgstr "选择<b>对象</b>移动到层之上."
 
 #: ../src/selection-chemistry.cpp:1360
 msgid "Raise to next layer"
-msgstr "提升到后一层"
+msgstr "升高到后一层"
 
 #: ../src/selection-chemistry.cpp:1367
 msgid "No more layers above."
@@ -19417,7 +19417,7 @@ msgstr "删除当前路径效果"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:127
 msgid "Raise the current path effect"
-msgstr "提升当前路径效果"
+msgstr "升高当前路径效果"
 
 #: ../src/ui/dialog/livepatheffect-editor.cpp:131
 msgid "Lower the current path effect"
@@ -21032,7 +21032,7 @@ msgstr "缩进节点"
 #: ../src/ui/dialog/xml-tree.cpp:168 ../src/ui/dialog/xml-tree.cpp:169
 #: ../src/ui/dialog/xml-tree.cpp:1072
 msgid "Raise node"
-msgstr "提升节点"
+msgstr "升高节点"
 
 #: ../src/ui/dialog/xml-tree.cpp:175 ../src/ui/dialog/xml-tree.cpp:176
 #: ../src/ui/dialog/xml-tree.cpp:1090
@@ -23951,7 +23951,7 @@ msgstr "没有当前层."
 #: ../src/verbs.cpp:1324 ../src/verbs.cpp:1328
 #, c-format
 msgid "Raised layer <b>%s</b>."
-msgstr "提升层 <b>%s</b>."
+msgstr "升高层 <b>%s</b>."
 
 #: ../src/verbs.cpp:1325
 msgid "Layer to top"
@@ -23959,7 +23959,7 @@ msgstr "层置顶"
 
 #: ../src/verbs.cpp:1329
 msgid "Raise layer"
-msgstr "提升层"
+msgstr "升高层"
 
 #: ../src/verbs.cpp:1332 ../src/verbs.cpp:1336
 #, c-format
@@ -24567,7 +24567,7 @@ msgstr "置于顶层(_T)"
 
 #: ../src/verbs.cpp:2527
 msgid "Raise selection to top"
-msgstr "提升选区到顶层"
+msgstr "升高选区到顶层"
 
 #: ../src/verbs.cpp:2528
 msgid "Lower to _Bottom"
@@ -24579,7 +24579,7 @@ msgstr "降低选区到底层"
 
 #: ../src/verbs.cpp:2530
 msgid "_Raise"
-msgstr "提升(_R)"
+msgstr "升高(_R)"
 
 #: ../src/verbs.cpp:2531
 msgid "Raise selection one step"
@@ -24587,11 +24587,11 @@ msgstr "选区升高一步"
 
 #: ../src/verbs.cpp:2532
 msgid "_Lower"
-msgstr "下降(_L)"
+msgstr "降低(_L)"
 
 #: ../src/verbs.cpp:2533
 msgid "Lower selection one step"
-msgstr "选区下降一步"
+msgstr "选区降低一步"
 
 #: ../src/verbs.cpp:2535
 msgid "Group selected objects"
@@ -24868,7 +24868,7 @@ msgstr "层置顶(_T)"
 
 #: ../src/verbs.cpp:2627
 msgid "Raise the current layer to the top"
-msgstr "把当前层提升到顶层"
+msgstr "把当前层升高到顶层"
 
 #: ../src/verbs.cpp:2628
 msgid "Layer to _Bottom"
@@ -24880,11 +24880,11 @@ msgstr "把当前层降低到底层"
 
 #: ../src/verbs.cpp:2630
 msgid "_Raise Layer"
-msgstr "提升层(_R)"
+msgstr "升高层(_R)"
 
 #: ../src/verbs.cpp:2631
 msgid "Raise the current layer"
-msgstr "提升当前层"
+msgstr "升高当前层"
 
 #: ../src/verbs.cpp:2632
 msgid "_Lower Layer"
@@ -26366,7 +26366,7 @@ msgstr "笔廓变细速度(> 0 笔廓细的快, < 0 笔廓变宽, 0 宽度与速
 #. Angle
 #: ../src/widgets/calligraphy-toolbar.cpp:460
 msgid "(left edge up)"
-msgstr "(左边提升)"
+msgstr "(左边升高)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:460
 msgid "(horizontal)"
@@ -26374,7 +26374,7 @@ msgstr "(水平)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:460
 msgid "(right edge up)"
-msgstr "(右边提升)"
+msgstr "(右边升高)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:463
 msgid "Pen Angle"
@@ -27784,7 +27784,7 @@ msgstr "标尺的单位"
 
 #: ../src/widgets/ruler.cpp:210
 msgid "Lower"
-msgstr "下降"
+msgstr "降低"
 
 #: ../src/widgets/ruler.cpp:211
 msgid "Lower limit of ruler"
@@ -34616,7 +34616,7 @@ msgstr ""
 "此扩展功能可以根据下列选项优化 SVG 文件：\n"
 "    * 缩短颜色名称：将全部颜色转换成 #RRGGBB 或 #RGB 格式。\n"
 "    * 将 CSS 属性转换成 XML 属性：将样式从样式标签和进线样式=\"\" 宣告转换成 XML 属性。\n"
-"    * 折叠群组：移除没用到的 g 组件，让这些内容提升一个层级。需要已设置“移除组件没用到的 ID 名称”。\n"
+"    * 折叠群组：移除没用到的 g 组件，让这些内容升高一个层级。需要已设置“移除组件没用到的 ID 名称”。\n"
 "    * 创建相似属性的群组：创建 g 组件以让运行的组件至少共有一种属性 (例如，填色、笔廓不透明度…)。\n"
 "    * 内嵌位图：将位图内嵌为 base64 编码数据网址。\n"
 "    * 保留软件数据：不移除 Inkscape、Sodipodi 或 Adobe Illustrator 组件和属性。\n"
