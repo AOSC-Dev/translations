@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-25 20:04-0500\n"
+"PO-Revision-Date: 2015-11-26 00:22-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,2515,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,2682,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -74,7 +74,7 @@ msgstr "倒角"
 
 #: ../share/filters/filters.svg.h:4
 msgid "Same as Matte jelly but with more controls"
-msgstr "与哑光果冻相同, 但控制更多"
+msgstr "与哑光果冻相同，但控制更多"
 
 #: ../share/filters/filters.svg.h:6
 msgid "Metal Casting"
@@ -82,7 +82,7 @@ msgstr "金属铸造"
 
 #: ../share/filters/filters.svg.h:8
 msgid "Smooth drop-like bevel with metallic finish"
-msgstr "倒置的光滑凸起, 伴有金属抛光效果"
+msgstr "倒置的光滑凸起，伴有金属抛光效果"
 
 #: ../share/filters/filters.svg.h:10
 msgid "Apparition"
@@ -166,7 +166,7 @@ msgstr "丰润"
 
 #: ../share/filters/filters.svg.h:32
 msgid "Soft, cushion-like bevel with matte highlights"
-msgstr "柔和的, 垫子一样的凸起, 有不均匀的高光"
+msgstr "柔和的，垫子一样的凸起，有不均匀的高光"
 
 #: ../share/filters/filters.svg.h:34
 msgid "Ridged Border"
@@ -174,7 +174,7 @@ msgstr "脊形边框"
 
 #: ../share/filters/filters.svg.h:36
 msgid "Ridged border with inner bevel"
-msgstr "隆起边沿, 内部向下倒角"
+msgstr "隆起边沿，内部向下倒角"
 
 #: ../share/filters/filters.svg.h:38
 msgid "Ripple"
@@ -250,7 +250,7 @@ msgstr "云"
 
 #: ../share/filters/filters.svg.h:64
 msgid "Airy, fluffy, sparse white clouds"
-msgstr "漂浮, 蓬松, 稀薄的白云"
+msgstr "漂浮，蓬松，稀薄的白云"
 
 #: ../share/filters/filters.svg.h:66
 #: ../src/extension/internal/bitmap/sharpen.cpp:38
@@ -266,7 +266,7 @@ msgstr "图像特效"
 
 #: ../share/filters/filters.svg.h:68
 msgid "Sharpen edges and boundaries within the object, force=0.15"
-msgstr "锐化对象边沿和边界, 力度=0.15"
+msgstr "锐化对象边沿和边界，力度=0.15"
 
 #: ../share/filters/filters.svg.h:70
 msgid "Sharpen More"
@@ -274,7 +274,7 @@ msgstr "强锐化"
 
 #: ../share/filters/filters.svg.h:72
 msgid "Sharpen edges and boundaries within the object, force=0.3"
-msgstr "锐化对象边沿和边界, 力度=0.3"
+msgstr "锐化对象边沿和边界，力度=0.3"
 
 #: ../share/filters/filters.svg.h:74
 msgid "Oil painting"
@@ -349,7 +349,7 @@ msgstr "纹理"
 
 #: ../share/filters/filters.svg.h:92
 msgid "Bulging, knotty, slick 3D surface"
-msgstr "膨胀的, 光滑的节状3D表面"
+msgstr "膨胀的，光滑的节状3D表面"
 
 #: ../share/filters/filters.svg.h:94
 msgid "Barbed Wire"
@@ -381,7 +381,7 @@ msgstr "按钮"
 
 #: ../share/filters/filters.svg.h:108
 msgid "Soft bevel, slightly depressed middle"
-msgstr "柔和的凸起, 中部略下沉"
+msgstr "柔和的凸起，中部略下沉"
 
 #: ../share/filters/filters.svg.h:110
 msgid "Inset"
@@ -486,7 +486,7 @@ msgstr "熔化金属"
 
 #: ../share/filters/filters.svg.h:144
 msgid "Melting parts of object together, with a glossy bevel and a glow"
-msgstr "对象融化, 平滑的凸起和辉光"
+msgstr "对象融化，平滑的凸起和辉光"
 
 #: ../share/filters/filters.svg.h:146
 msgid "Pressed Steel"
@@ -605,7 +605,7 @@ msgstr "丝织地毯"
 
 #: ../share/filters/filters.svg.h:200
 msgid "Silk carpet texture, horizontal stripes"
-msgstr "丝绸地毯纹理, 横条纹"
+msgstr "丝绸地毯纹理，横条纹"
 
 #: ../share/filters/filters.svg.h:202
 msgid "Refractive Gel A"
@@ -781,7 +781,7 @@ msgstr "电子显微镜"
 
 #: ../share/filters/filters.svg.h:284
 msgid "Bevel, crude light, discoloration and glow like in electronic microscopy"
-msgstr "凸起、不协调的光照、褪色、以及辉光, 类似于电子显微镜的观察效果"
+msgstr "凸起、不协调的光照、褪色、以及辉光，类似于电子显微镜的观察效果"
 
 #: ../share/filters/filters.svg.h:286
 msgid "Tartan"
@@ -845,7 +845,7 @@ msgstr "撕裂边缘"
 
 #: ../share/filters/filters.svg.h:316 ../share/filters/filters.svg.h:364
 msgid "Displace the outside of shapes and pictures without altering their content"
-msgstr "变形外部形状, 不影响内部"
+msgstr "变形外部形状，不影响内部"
 
 #: ../share/filters/filters.svg.h:318
 msgid "Roughen Inside"
@@ -861,7 +861,7 @@ msgstr "消散"
 
 #: ../share/filters/filters.svg.h:324
 msgid "Blur the contents of objects, preserving the outline and adding progressive transparency at edges"
-msgstr "模糊对象内部, 保持轮廓, 并且在边沿添加渐变透明"
+msgstr "模糊对象内部，保持轮廓，并且在边沿添加渐变透明"
 
 #: ../share/filters/filters.svg.h:326
 msgid "Chalk and Sponge"
@@ -869,7 +869,7 @@ msgstr "粉笔和海绵"
 
 #: ../share/filters/filters.svg.h:328
 msgid "Low turbulence gives sponge look and high turbulence chalk"
-msgstr "低湍流度产生海绵效果, 高湍流度产生粉笔效果"
+msgstr "低湍流度产生海绵效果，高湍流度产生粉笔效果"
 
 #: ../share/filters/filters.svg.h:330
 msgid "People"
@@ -877,7 +877,7 @@ msgstr "人"
 
 #: ../share/filters/filters.svg.h:332
 msgid "Colorized blotches, like a crowd of people"
-msgstr "彩色斑点, 像一群人"
+msgstr "彩色斑点，像一群人"
 
 #: ../share/filters/filters.svg.h:334
 msgid "Scotland"
@@ -893,7 +893,7 @@ msgstr "欢欣的花园"
 
 #: ../share/filters/filters.svg.h:340
 msgid "Phantasmagorical turbulent wisps, like Hieronymus Bosch's Garden of Delights"
-msgstr "变幻无常的湍流云絮, 类似于Hieronymus Bosch的Garden of Delights"
+msgstr "变幻无常的湍流云絮，类似于 Hieronymus Bosch 的 Garden of Delights"
 
 #: ../share/filters/filters.svg.h:342
 msgid "Cutout Glow"
@@ -909,7 +909,7 @@ msgstr "黑色浮雕"
 
 #: ../share/filters/filters.svg.h:348
 msgid "Emboss effect : 3D relief where white is replaced by black"
-msgstr "浮雕效果: 3D 立体, 用黑色代替白色"
+msgstr "浮雕效果：3D 立体，用黑色代替白色"
 
 #: ../share/filters/filters.svg.h:350
 msgid "Bubbly Bumps Matte"
@@ -917,7 +917,7 @@ msgstr "雾面发泡凹凸"
 
 #: ../share/filters/filters.svg.h:352
 msgid "Same as Bubbly Bumps but with a diffuse light instead of a specular one"
-msgstr "与气泡凸凹相同, 但用漫反射光代替镜面反射光"
+msgstr "与气泡凸凹相同，但用漫反射光代替镜面反射光"
 
 #: ../share/filters/filters.svg.h:354
 msgid "Blotting Paper"
@@ -949,7 +949,7 @@ msgstr "毛毡"
 
 #: ../share/filters/filters.svg.h:372
 msgid "Felt like texture with color turbulence and slightly darker at the edges"
-msgstr "色彩湍流, 边沿略暗的毛毡状纹理"
+msgstr "色彩湍流，边沿略暗的毛毡状纹理"
 
 #: ../share/filters/filters.svg.h:374
 msgid "Ink Paint"
@@ -965,7 +965,7 @@ msgstr "染色彩虹"
 
 #: ../share/filters/filters.svg.h:380
 msgid "Smooth rainbow colors melted along the edges and colorizable"
-msgstr "光滑的彩虹, 颜色随着边沿消融, 可着色"
+msgstr "光滑的彩虹，颜色随着边沿消融，可着色"
 
 #: ../share/filters/filters.svg.h:382
 msgid "Melted Rainbow"
@@ -981,7 +981,7 @@ msgstr "弯曲金属"
 
 #: ../share/filters/filters.svg.h:388
 msgid "Bright, polished uneven metal casting, colorizable"
-msgstr "明亮的, 光滑不平的金属铸件, 彩色"
+msgstr "明亮的，光滑不平的金属铸件，彩色"
 
 #: ../share/filters/filters.svg.h:390
 msgid "Wavy Tartan"
@@ -1153,7 +1153,7 @@ msgstr "阴暗与发光"
 
 #: ../share/filters/filters.svg.h:436
 msgid "Darkens the edge with an inner blur and adds a flexible glow"
-msgstr "边变暗, 添加柔性光晕, 内部模糊"
+msgstr "边变暗，添加柔性光晕，内部模糊"
 
 #: ../share/filters/filters.svg.h:438
 msgid "Warped Rainbow"
@@ -1161,7 +1161,7 @@ msgstr "环绕彩虹"
 
 #: ../share/filters/filters.svg.h:440
 msgid "Smooth rainbow colors warped along the edges and colorizable"
-msgstr "色彩沿边沿扭曲的光滑彩虹, 可着色"
+msgstr "色彩沿边沿扭曲的光滑彩虹，可着色"
 
 #: ../share/filters/filters.svg.h:442
 msgid "Rough and Dilate"
@@ -1201,7 +1201,7 @@ msgstr "透明涂抹"
 
 #: ../share/filters/filters.svg.h:460
 msgid "Paint objects with a transparent turbulence which turns around color edges"
-msgstr "用透明湍流涂抹对象, 反转彩色边沿"
+msgstr "用透明湍流涂抹对象，反转彩色边沿"
 
 #: ../share/filters/filters.svg.h:462
 msgid "Thick Paint"
@@ -1289,7 +1289,7 @@ msgstr "液体绘画"
 
 #: ../share/filters/filters.svg.h:504
 msgid "Gives a fluid and wavy expressionist drawing effect to images"
-msgstr "使图像产生流动, 摇摆的表现主义绘画效果"
+msgstr "使图像产生流动，摇摆的表现主义绘画效果"
 
 #: ../share/filters/filters.svg.h:506
 msgid "Marbled Ink"
@@ -1380,7 +1380,7 @@ msgstr "雾面画布凹凸"
 
 #: ../share/filters/filters.svg.h:544
 msgid "Same as Canvas Bumps but with a diffuse light instead of a specular one"
-msgstr "与画布凸凹相同, 但用漫反射光代替镜面反射光"
+msgstr "与画布凸凹相同，但用漫反射光代替镜面反射光"
 
 #: ../share/filters/filters.svg.h:546
 msgid "Canvas Bumps Alpha"
@@ -1660,7 +1660,7 @@ msgstr "碎裂的透明单色"
 #: ../share/filters/filters.svg.h:692 ../share/filters/filters.svg.h:704
 #: ../share/filters/filters.svg.h:708 ../share/filters/filters.svg.h:712
 msgid "Basic noise fill texture; adjust color in Flood"
-msgstr "简单的噪声填充纹理; 在 浸漫(Flood) 中调整颜色"
+msgstr "简单的噪声填充纹理；在 浸漫(Flood) 中调整颜色"
 
 #: ../share/filters/filters.svg.h:686
 msgid "Alpha Turbulent"
@@ -8211,7 +8211,7 @@ msgstr "选择要保存的文件"
 
 #: ../src/file.cpp:995 ../src/file.cpp:997
 msgid "No changes need to be saved."
-msgstr "没有更改, 不需要保存."
+msgstr "没有需要保存的更改。"
 
 #: ../src/file.cpp:1016
 msgid "Saving document..."
@@ -8703,7 +8703,7 @@ msgstr "不能将面板对象（%p，类型 %s）添加到 %s。请使用 GdlDoc
 #: ../src/libgdl/gdl-dock-item.c:723
 #, c-format
 msgid "Attempting to add a widget with type %s to a %s, but it can only contain one widget at a time; it already contains a widget of type %s"
-msgstr "试图添加 %s 类型的部件到 %s, 但后者只能包含一个部件, 且已经被 %s 类型的部件占用"
+msgstr "试图添加 %s 类型的部件到 %s，但后者只能包含一个部件，且已经被 %s 类型的部件占用"
 
 #: ../src/libgdl/gdl-dock-item.c:1474 ../src/libgdl/gdl-dock-item.c:1524
 #, c-format
@@ -8740,7 +8740,7 @@ msgstr "新创建的浮动面板的缺省标题"
 
 #: ../src/libgdl/gdl-dock-master.c:149
 msgid "If is set to 1, all the dock items bound to the master are locked; if it's 0, all are unlocked; -1 indicates inconsistency among the items"
-msgstr "如果设为 1, 所有捆绑到主栏的停靠对象均被锁定；如果为0，则均已解锁；-1 表明各个项的设置不一致"
+msgstr "如果设为 1，所有捆绑到主栏的停靠对象均被锁定；如果为0，则均已解锁；-1 表明各个项的设置不一致"
 
 #: ../src/libgdl/gdl-dock-master.c:157 ../src/libgdl/gdl-switcher.c:737
 msgid "Switcher Style"
@@ -8831,7 +8831,7 @@ msgstr "在非捆绑（自由）对象 %p 中请求了停靠操作。程序可�
 #: ../src/libgdl/gdl-dock-object.c:609
 #, c-format
 msgid "Cannot dock %p to %p because they belong to different masters"
-msgstr "不能将 %p 停靠到 %p, 因为他们属于不同的主栏"
+msgstr "不能将 %p 停靠到 %p，因为他们属于不同的主栏"
 
 #: ../src/libgdl/gdl-dock-object.c:651
 #, c-format
@@ -9167,7 +9167,7 @@ msgstr "可见？"
 
 #: ../src/live_effects/effect.cpp:361
 msgid "If unchecked, the effect remains applied to the object but is temporarily disabled on canvas"
-msgstr "如果不选中, 对象仍然拥有该效果, 但暂时不显示在画布上"
+msgstr "如果不选中，对象仍然拥有该效果，但暂时不显示在画布上"
 
 #: ../src/live_effects/effect.cpp:386
 msgid "No effect"
@@ -9281,7 +9281,7 @@ msgstr "原始路径为垂直方向(_O)"
 
 #: ../src/live_effects/lpe-bendpath.cpp:56
 msgid "Rotates the original 90 degrees, before bending it along the bend path"
-msgstr "在沿弯曲路径弯曲之前, 先旋转90度"
+msgstr "在沿弯曲路径弯曲之前，先旋转90度"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:24
 #: ../src/live_effects/lpe-clone-original.cpp:18
@@ -9671,7 +9671,7 @@ msgstr "等距(_Q)"
 
 #: ../src/live_effects/lpe-interpolate.cpp:33
 msgid "If true, the spacing between intermediates is constant along the length of the path. If false, the distance depends on the location of the nodes of the trajectory path."
-msgstr "如果选中, 产生的过渡路径沿轨迹线等间距分布. 否则, 间距取决于轨迹线上的节点位置."
+msgstr "如果选中，产生的过渡路径沿轨迹线等间距分布. 否则，间距取决于轨迹线上的节点位置."
 
 #: ../src/live_effects/lpe-interpolate_points.cpp:26
 #: ../src/live_effects/lpe-powerstroke.cpp:134
@@ -10084,7 +10084,7 @@ msgstr "单"
 #: ../src/live_effects/lpe-patternalongpath.cpp:51
 #: ../share/extensions/pathalongpath.inx.h:11
 msgid "Single, stretched"
-msgstr "单个, 拉伸"
+msgstr "单个，拉伸"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:52
 #: ../share/extensions/pathalongpath.inx.h:12
@@ -10147,7 +10147,7 @@ msgstr "偏移以图样大小为单位(_U)"
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:73
 msgid "Spacing, tangential and normal offset are expressed as a ratio of width/height"
-msgstr "间距, 切向和法向偏移量的为宽度/高度的比例."
+msgstr "间距，切向和法向偏移量的为宽度/高度的比例."
 
 #: ../src/live_effects/lpe-patternalongpath.cpp:75
 msgid "Pattern is _vertical"
@@ -10284,7 +10284,7 @@ msgstr "频率随机性："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:225
 msgid "Variation of distance between hatches, in %."
-msgstr "影线间距的变化, %."
+msgstr "影线间距的变化，%。"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:226
 msgid "Growth:"
@@ -10301,7 +10301,7 @@ msgstr "半转平滑：第一边入："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:228
 msgid "Set smoothness/sharpness of path when reaching a 'bottom' half-turn. 0=sharp, 1=default"
-msgstr "设置路径到达“底部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
+msgstr "设置路径到达“底部”半周时的光滑/尖锐程度。0=尖锐，1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:229
 msgid "1st side, out:"
@@ -10309,7 +10309,7 @@ msgstr "第一边出："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:229
 msgid "Set smoothness/sharpness of path when leaving a 'bottom' half-turn. 0=sharp, 1=default"
-msgstr "设置路径离开“底部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
+msgstr "设置路径离开“底部”半周时的光滑/尖锐程度。0=尖锐，1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "2nd side, in:"
@@ -10317,7 +10317,7 @@ msgstr "第二边入："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "Set smoothness/sharpness of path when reaching a 'top' half-turn. 0=sharp, 1=default"
-msgstr "设置路径到达“顶部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
+msgstr "设置路径到达“顶部”半周时的光滑/尖锐程度。0=尖锐，1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
 msgid "2nd side, out:"
@@ -10325,7 +10325,7 @@ msgstr "第二边出："
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
 msgid "Set smoothness/sharpness of path when leaving a 'top' half-turn. 0=sharp, 1=default"
-msgstr "设置路径离开“顶部”半周时的光滑/尖锐程度。0=尖锐, 1=默认"
+msgstr "设置路径离开“顶部”半周时的光滑/尖锐程度。0=尖锐，1=默认"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:232
 msgid "Magnitude jitter: 1st side:"
@@ -11022,7 +11022,7 @@ msgstr "绘制所有世代(_W)"
 
 #: ../src/live_effects/lpe-vonkoch.cpp:49
 msgid "If unchecked, draw only the last generation"
-msgstr "如果不选, 则只绘制最后一层"
+msgstr "如果不选，则只绘制最后一层"
 
 #. ,draw_boxes(_("Display boxes"), _("Display boxes instead of paths only"), "draw_boxes", &wr, this, true)
 #: ../src/live_effects/lpe-vonkoch.cpp:51
@@ -11273,7 +11273,7 @@ msgstr "ID"
 #. See "man inkscape" for details.
 #: ../src/main.cpp:372
 msgid "Export just the object with export-id, hide all others (only with export-id)"
-msgstr "只导出有导出 ID 的对象, 隐藏其它的（只包括导出 ID）"
+msgstr "只导出有导出 ID 的对象，隐藏其它的（只包括导出 ID）"
 
 #: ../src/main.cpp:377
 msgid "Use stored filename and DPI hints when exporting (only with export-id)"
@@ -11344,27 +11344,27 @@ msgstr "导出时将文本对象转成路径（PS、EPS、PDF、SVG）"
 
 #: ../src/main.cpp:444
 msgid "Render filtered objects without filters, instead of rasterizing (PS, EPS, PDF)"
-msgstr "渲染滤镜对象时不包括滤镜效果, 而不是执行栅格化（PS、EPS、PDF）"
+msgstr "渲染滤镜对象时不包括滤镜效果，而不是执行栅格化（PS、EPS、PDF）"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:450
 msgid "Query the X coordinate of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的 X 坐标, 或者若被 --query-id 指定了的话，查询指定的对象"
+msgstr "查询绘图的 X 坐标，或者若被 --query-id 指定了的话，查询指定的对象"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:456
 msgid "Query the Y coordinate of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的 Y 坐标, 或者若被 --query-id 指定了的话，查询指定的对象"
+msgstr "查询绘图的 Y 坐标，或者若被 --query-id 指定了的话，查询指定的对象"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:462
 msgid "Query the width of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的高度, 或者若被 --query-id 指定了的话，查询指定的对象"
+msgstr "查询绘图的高度，或者若被 --query-id 指定了的话，查询指定的对象"
 
 #. TRANSLATORS: "--query-id" is an Inkscape command line option; see "inkscape --help"
 #: ../src/main.cpp:468
 msgid "Query the height of the drawing or, if specified, of the object with --query-id"
-msgstr "查询绘图的宽度, 或者若被 --query-id 指定了的话，查询指定的对象"
+msgstr "查询绘图的宽度，或者若被 --query-id 指定了的话，查询指定的对象"
 
 #: ../src/main.cpp:473
 msgid "List id,x,y,w,h for all objects"
@@ -11987,27 +11987,27 @@ msgstr "分别粘贴尺寸"
 
 #: ../src/selection-chemistry.cpp:1335
 msgid "Select <b>object(s)</b> to move to the layer above."
-msgstr "选择<b>对象</b>移动到层之上."
+msgstr "选择<b>对象</b>移动到上面的层。"
 
 #: ../src/selection-chemistry.cpp:1360
 msgid "Raise to next layer"
-msgstr "升高到后一层"
+msgstr "升高到上面的图层"
 
 #: ../src/selection-chemistry.cpp:1367
 msgid "No more layers above."
-msgstr "上面没有层."
+msgstr "上面没有图层了。"
 
 #: ../src/selection-chemistry.cpp:1378
 msgid "Select <b>object(s)</b> to move to the layer below."
-msgstr "选择<b>对象</b>移动到层之下."
+msgstr "选择<b>对象</b>移动到下面的图层。"
 
 #: ../src/selection-chemistry.cpp:1403
 msgid "Lower to previous layer"
-msgstr "降低到前一层"
+msgstr "降低到下面的图层"
 
 #: ../src/selection-chemistry.cpp:1410
 msgid "No more layers below."
-msgstr "下面没有层."
+msgstr "下面没有图层了。"
 
 #: ../src/selection-chemistry.cpp:1420
 msgid "Select <b>object(s)</b> to move."
@@ -12029,11 +12029,11 @@ msgstr "移除变换"
 
 #: ../src/selection-chemistry.cpp:1803
 msgid "Rotate 90° CCW"
-msgstr "旋转 90° 逆时针"
+msgstr "逆时针旋转 90°"
 
 #: ../src/selection-chemistry.cpp:1803
 msgid "Rotate 90° CW"
-msgstr "旋转 90° 顺时针"
+msgstr "顺时针旋转 90°"
 
 #: ../src/selection-chemistry.cpp:1824 ../src/seltrans.cpp:484
 #: ../src/ui/dialog/transformation.cpp:891
@@ -12077,11 +12077,11 @@ msgstr "按像素水平移动"
 
 #: ../src/selection-chemistry.cpp:2475
 msgid "The selection has no applied path effect."
-msgstr "被选对象没有施加路径效果."
+msgstr "被选对象没有被应用过路径效果。"
 
 #: ../src/selection-chemistry.cpp:2567 ../src/ui/dialog/clonetiler.cpp:2221
 msgid "Select an <b>object</b> to clone."
-msgstr "选择一个要克隆的<b>对象</b>"
+msgstr "选择一个要克隆的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:2602
 msgctxt "Action"
@@ -12090,15 +12090,15 @@ msgstr "克隆"
 
 #: ../src/selection-chemistry.cpp:2616
 msgid "Select <b>clones</b> to relink."
-msgstr "选择一个克隆重新链接."
+msgstr "选择要重新链接的<b>多个克隆</b>。"
 
 #: ../src/selection-chemistry.cpp:2623
 msgid "Copy an <b>object</b> to clipboard to relink clones to."
-msgstr "将一个<b>对象</b>副本到剪贴板来重新链接克隆."
+msgstr "复制重新链接克隆到的<b>对象</b>到剪贴板。"
 
 #: ../src/selection-chemistry.cpp:2644
 msgid "<b>No clones to relink</b> in the selection."
-msgstr "选区里<b>没有克隆来重新链接</b>."
+msgstr "选区里<b>没有克隆可重新链接</b>。"
 
 #: ../src/selection-chemistry.cpp:2647
 msgid "Relink clone"
@@ -12106,27 +12106,27 @@ msgstr "重新链接克隆"
 
 #: ../src/selection-chemistry.cpp:2661
 msgid "Select <b>clones</b> to unlink."
-msgstr "选择一个<b>克隆</b>解除链接."
+msgstr "选择多个<b>克隆</b>解除链接。"
 
 #: ../src/selection-chemistry.cpp:2714
 msgid "<b>No clones to unlink</b> in the selection."
-msgstr "选区里没有克隆来解除链接."
+msgstr "选区里<b>没有克隆可解除链接</b>。"
 
 #: ../src/selection-chemistry.cpp:2718
 msgid "Unlink clone"
-msgstr "解除克隆链接"
+msgstr "解除链接克隆"
 
 #: ../src/selection-chemistry.cpp:2731
 msgid "Select a <b>clone</b> to go to its original. Select a <b>linked offset</b> to go to its source. Select a <b>text on path</b> to go to the path. Select a <b>flowed text</b> to go to its frame."
-msgstr "选择一个<b>克隆</b>回到原始位置.选择<b>链接偏移</b>回到源.选择<b>路径上的文字</b>到路径上.选择<b>浮动文字</b>到达框架."
+msgstr "选择一个<b>克隆</b>来移动到其原版。选择<b>链接偏移</b>找到源。选择<b>路径上的文字</b>来走到路径上。选择<b>浮动文字</b>到达框架。"
 
 #: ../src/selection-chemistry.cpp:2781
 msgid "<b>Cannot find</b> the object to select (orphaned clone, offset, textpath, flowed text?)"
-msgstr "<b>找不到</b>要选择的目标(孤立克隆, 偏移, 文字路径, 浮动文字？)"
+msgstr "<b>找不到</b>要选择的目标（孤立克隆、偏移、文字路径、浮动文字？)"
 
 #: ../src/selection-chemistry.cpp:2787
 msgid "The object you're trying to select is <b>not visible</b> (it is in &lt;defs&gt;)"
-msgstr "试图图选择的对象<b>不可见</b>(位于 &lt;定义&gt;内)"
+msgstr "试图图选择的对象<b>不可见</b>（位于 &lt;defs&gt; 内）"
 
 #: ../src/selection-chemistry.cpp:2877
 msgid "Select path(s) to fill."
@@ -12134,7 +12134,7 @@ msgstr "选取要填充的路径。"
 
 #: ../src/selection-chemistry.cpp:2895
 msgid "Select <b>object(s)</b> to convert to marker."
-msgstr "选择<b>对象</b>转化成标记."
+msgstr "选择要转化成标记的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:2969
 msgid "Objects to marker"
@@ -12142,7 +12142,7 @@ msgstr "对象转化成标记"
 
 #: ../src/selection-chemistry.cpp:2995
 msgid "Select <b>object(s)</b> to convert to guides."
-msgstr "选择<b>对象</b>转化成参考线."
+msgstr "选择要转化成参考线的<b>对象</b>。"
 
 #: ../src/selection-chemistry.cpp:3016
 msgid "Objects to guides"
@@ -12170,7 +12170,7 @@ msgstr "从符号转成群组"
 
 #: ../src/selection-chemistry.cpp:3255
 msgid "Select <b>object(s)</b> to convert to pattern."
-msgstr "选择<b>对象</b>转化成图案."
+msgstr "选择<b>对象</b>转化成图案。"
 
 #: ../src/selection-chemistry.cpp:3351
 msgid "Objects to pattern"
@@ -12178,7 +12178,7 @@ msgstr "对象转化成图案"
 
 #: ../src/selection-chemistry.cpp:3367
 msgid "Select an <b>object with pattern fill</b> to extract objects from."
-msgstr "选择一个<b>使用图案填色的对象</b>, 提取对象形状."
+msgstr "选择一个<b>使用图案填色的对象</b>，从中提取对象形状."
 
 #: ../src/selection-chemistry.cpp:3426
 msgid "<b>No pattern fills</b> in the selection."
@@ -12239,15 +12239,15 @@ msgstr "选择<b>对象</b>来缩放以适应画布."
 #. Fit Page
 #: ../src/selection-chemistry.cpp:4166 ../src/verbs.cpp:2961
 msgid "Fit Page to Selection"
-msgstr "选区适合页面"
+msgstr "页面适合选区"
 
 #: ../src/selection-chemistry.cpp:4195 ../src/verbs.cpp:2963
 msgid "Fit Page to Drawing"
-msgstr "绘图适合画布"
+msgstr "页面适合图画"
 
 #: ../src/selection-chemistry.cpp:4216 ../src/verbs.cpp:2965
 msgid "Fit Page to Selection or Drawing"
-msgstr "适合画布到选区"
+msgstr "适合页面到选区或图画"
 
 #: ../src/selection-describer.cpp:138
 msgid "root"
@@ -12285,18 +12285,18 @@ msgstr " 在定义中隐藏"
 #: ../src/selection-describer.cpp:179
 #, c-format
 msgid " in group %s (%s)"
-msgstr " 在组%s(%s)"
+msgstr " 在组 %s（%s）中"
 
 #: ../src/selection-describer.cpp:181
 #, c-format
 msgid " in unnamed group (%s)"
-msgstr " 在未命名的群组 (%s)"
+msgstr " 在未命名的群组（%s）"
 
 #: ../src/selection-describer.cpp:183
 #, c-format
 msgid " in <b>%i</b> parent (%s)"
 msgid_plural " in <b>%i</b> parents (%s)"
-msgstr[0] " 在<b>%i</b> 上一层 (%s)"
+msgstr[0] " 在<b>%i</b> 上层（%s）"
 
 #: ../src/selection-describer.cpp:186
 #, c-format
@@ -12310,7 +12310,7 @@ msgstr "将符号转换成群组进行编辑"
 
 #: ../src/selection-describer.cpp:202
 msgid "Remove from symbols tray to edit symbol"
-msgstr "从符号系统匣中移除以编辑符号"
+msgstr "从符号托盘中移除以编辑符号"
 
 #: ../src/selection-describer.cpp:208
 msgid "Use <b>Shift+D</b> to look up original"
@@ -12334,27 +12334,27 @@ msgstr[0] "已选择类型 %2$s 的 <b>%1$i</b> 个对象"
 #, c-format
 msgid "; <i>%d filtered object</i> "
 msgid_plural "; <i>%d filtered objects</i> "
-msgstr[0] "; <i>%d 个应用滤镜的对象</i> "
+msgstr[0] "；<i>%d 个应用滤镜的对象</i> "
 
 #: ../src/seltrans-handles.cpp:9
 msgid "<b>Squeeze or stretch</b> selection; with <b>Ctrl</b> to scale uniformly; with <b>Shift</b> to scale around rotation center"
-msgstr "<b>收缩或拉伸</b>选区; 按住 <b>Ctrl</b> 统一缩放; 按住 <b>Shift</b> 在旋转中心缩放"
+msgstr "<b>收缩或拉伸</b>选区；按住 <b>Ctrl</b> 统一缩放；按住 <b>Shift</b> 在旋转中心缩放"
 
 #: ../src/seltrans-handles.cpp:10
 msgid "<b>Scale</b> selection; with <b>Ctrl</b> to scale uniformly; with <b>Shift</b> to scale around rotation center"
-msgstr "<b>缩放</b>选区; 按住 <b>Ctrl</b> 统一缩放; 按住 <b>Shift</b> 在旋转中心缩放"
+msgstr "<b>缩放</b>选区；按住 <b>Ctrl</b> 统一缩放；按住 <b>Shift</b> 在旋转中心缩放"
 
 #: ../src/seltrans-handles.cpp:11
 msgid "<b>Skew</b> selection; with <b>Ctrl</b> to snap angle; with <b>Shift</b> to skew around the opposite side"
-msgstr "<b>错切</b>选区; 按住 <b>Ctrl</b> 捕捉角度; 按住 <b>Shift</b> 在另一面错切"
+msgstr "<b>错切</b>选区；按住 <b>Ctrl</b> 捕捉角度；按住 <b>Shift</b> 在另一面错切"
 
 #: ../src/seltrans-handles.cpp:12
 msgid "<b>Rotate</b> selection; with <b>Ctrl</b> to snap angle; with <b>Shift</b> to rotate around the opposite corner"
-msgstr "<b>旋转</b>选区; 按住 <b>Ctrl</b> 捕捉角度; 按住 <b>Shift</b> 在对角旋转"
+msgstr "<b>旋转</b>选区；按住 <b>Ctrl</b> 捕捉角度；按住 <b>Shift</b> 在对角旋转"
 
 #: ../src/seltrans-handles.cpp:13
 msgid "<b>Center</b> of rotation and skewing: drag to reposition; scaling with Shift also uses this center"
-msgstr "<b>中心</b>旋转错切:拖动调整位置; 使用 Shift 缩放也使用此中心"
+msgstr "<b>中心</b>旋转错切：拖动调整位置；使用 Shift 缩放也使用此中心"
 
 #: ../src/seltrans.cpp:487 ../src/ui/dialog/transformation.cpp:980
 msgid "Skew"
@@ -12375,36 +12375,36 @@ msgstr "重置中心"
 #: ../src/seltrans.cpp:961 ../src/seltrans.cpp:1065
 #, c-format
 msgid "<b>Scale</b>: %0.2f%% x %0.2f%%; with <b>Ctrl</b> to lock ratio"
-msgstr "<b>缩放</b>:%0.2f%% x %0.2f%%; 按住<b>Ctrl</b>锁定比率"
+msgstr "<b>缩放</b>：%0.2f%% × %0.2f%%；按住<b>Ctrl</b>锁定比率"
 
 #. TRANSLATORS: don't modify the first ";"
 #. (it will NOT be displayed as ";" - only the second one will be)
 #: ../src/seltrans.cpp:1202
 #, c-format
 msgid "<b>Skew</b>: %0.2f&#176;; with <b>Ctrl</b> to snap angle"
-msgstr "<b>错切</b>:%0.2f&#176;; 按住 <b>Ctrl</b> 捕捉角度"
+msgstr "<b>错切</b>：%0.2f&#176;；按住 <b>Ctrl</b> 捕捉角度"
 
 #. TRANSLATORS: don't modify the first ";"
 #. (it will NOT be displayed as ";" - only the second one will be)
 #: ../src/seltrans.cpp:1278
 #, c-format
 msgid "<b>Rotate</b>: %0.2f&#176;; with <b>Ctrl</b> to snap angle"
-msgstr "<b>旋转</b>:%0.2f&#176;; 按住 <b>Ctrl</b> 捕捉角度"
+msgstr "<b>旋转</b>：%0.2f&#176;；按住 <b>Ctrl</b> 捕捉角度"
 
 #: ../src/seltrans.cpp:1315
 #, c-format
 msgid "Move <b>center</b> to %s, %s"
-msgstr "移动<b>中心</b>到%s, %s"
+msgstr "移动<b>中心</b>到 %s, %s"
 
 #: ../src/seltrans.cpp:1461
 #, c-format
 msgid "<b>Move</b> by %s, %s; with <b>Ctrl</b> to restrict to horizontal/vertical; with <b>Shift</b> to disable snapping"
-msgstr "以%s, %s <b>移动</b>; 使用<b>Ctrl</b>限制水平/垂直移动; 按住 <b>Shift</b> 禁用捕捉"
+msgstr "<b>移动</b> %s, %s 距离; 使用<b>Ctrl</b>限制水平/垂直移动；按住 <b>Shift</b> 禁用捕捉"
 
 #: ../src/shortcuts.cpp:226
 #, c-format
 msgid "Keyboard directory (%s) is unavailable."
-msgstr "键盘目录 (%s) 无法使用。"
+msgstr "键盘目录（%s）无法使用。"
 
 #: ../src/shortcuts.cpp:337 ../src/ui/dialog/export.cpp:1305
 #: ../src/ui/dialog/export.cpp:1339
@@ -12473,7 +12473,7 @@ msgstr " [已截断]"
 #, c-format
 msgid "(%d character%s)"
 msgid_plural "(%d characters%s)"
-msgstr[0] "(%d 个字符%s)"
+msgstr[0] "（%d 个字符%s）"
 
 #: ../src/sp-guide.cpp:253
 msgid "Create Guides Around the Page"
@@ -12490,22 +12490,22 @@ msgstr "已删除"
 
 #: ../src/sp-guide.cpp:461
 msgid "<b>Shift+drag</b> to rotate, <b>Ctrl+drag</b> to move origin, <b>Del</b> to delete"
-msgstr "<b>Shift+拖动</b> 旋转, <b>Ctrl+拖动</b>移动本体, <b>Del</b>删除"
+msgstr "<b>Shift+拖动</b> 旋转，<b>Ctrl+拖动</b>移动本体，<b>Del</b>删除"
 
 #: ../src/sp-guide.cpp:465
 #, c-format
 msgid "vertical, at %s"
-msgstr "垂直, 位于 %s"
+msgstr "垂直，位于 %s"
 
 #: ../src/sp-guide.cpp:468
 #, c-format
 msgid "horizontal, at %s"
-msgstr "水平, 位于 %s"
+msgstr "水平，位于 %s"
 
 #: ../src/sp-guide.cpp:473
 #, c-format
 msgid "at %d degrees, through (%s,%s)"
-msgstr "在 %d 度, 通过 (%s,%s)"
+msgstr "在 %d 度，通过 (%s,%s)"
 
 #: ../src/sp-image.cpp:517
 msgid "embedded"
@@ -12579,7 +12579,7 @@ msgstr "动态偏移"
 #: ../src/sp-offset.cpp:337
 #, c-format
 msgid "%s by %f pt"
-msgstr "以 %2$f pt %1$s"
+msgstr "%s %f pt"
 
 #: ../src/sp-offset.cpp:338
 msgid "outset"
@@ -12679,7 +12679,7 @@ msgstr "文字"
 #: ../src/sp-text.cpp:371
 #, c-format
 msgid "on path%s (%s, %s)"
-msgstr "文本路径%s (%s, %s)"
+msgstr "文本路径 %s (%s, %s)"
 
 #: ../src/sp-text.cpp:372
 #, c-format
@@ -12688,7 +12688,7 @@ msgstr "%s (%s, %s)"
 
 #: ../src/sp-tref.cpp:218
 msgid "Cloned Character Data"
-msgstr "仿制的字符数据"
+msgstr "克隆的字符数据"
 
 #: ../src/sp-tref.cpp:234
 msgid " from "
@@ -12696,7 +12696,7 @@ msgstr " 从"
 
 #: ../src/sp-tref.cpp:240 ../src/sp-use.cpp:271
 msgid "[orphaned]"
-msgstr "[被遗弃]"
+msgstr "[孤立]"
 
 #: ../src/sp-tspan.cpp:203
 msgid "Text Span"
