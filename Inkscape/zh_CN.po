@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 00:53-0500\n"
+"PO-Revision-Date: 2015-11-26 00:54-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,2903,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,2925,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -13715,11 +13715,11 @@ msgstr "按照这个百分比随机设置平铺的亮度"
 
 #: ../src/ui/dialog/clonetiler.cpp:765
 msgid "Alternate the sign of color changes for each row"
-msgstr "交替改变每一行的颜色符号"
+msgstr "交替每一行的颜色变化量符号"
 
 #: ../src/ui/dialog/clonetiler.cpp:770
 msgid "Alternate the sign of color changes for each column"
-msgstr "交替改变每一列的颜色符号"
+msgstr "交替每一列的颜色变化量符号"
 
 #: ../src/ui/dialog/clonetiler.cpp:778
 msgid "_Trace"
@@ -13731,11 +13731,11 @@ msgstr "临摹网格下的绘画"
 
 #: ../src/ui/dialog/clonetiler.cpp:794
 msgid "For each clone, pick a value from the drawing in that clone's location and apply it to the clone"
-msgstr "对于每个克隆对象, 从绘画中在此位置拾取一个值然后应用到克隆对象"
+msgstr "对于每个克隆对象，从绘画中在此位置拾取一个值然后应用到克隆对象"
 
 #: ../src/ui/dialog/clonetiler.cpp:813
 msgid "1. Pick from the drawing:"
-msgstr "1、从绘画中拾取"
+msgstr "1. 从绘画中拾取："
 
 #: ../src/ui/dialog/clonetiler.cpp:831
 msgid "Pick the visible color and opacity"
@@ -13798,7 +13798,7 @@ msgstr "拾取颜色的亮度"
 
 #: ../src/ui/dialog/clonetiler.cpp:897
 msgid "2. Tweak the picked value:"
-msgstr "2. 调整拾取的值:"
+msgstr "2. 调整拾取的值："
 
 #: ../src/ui/dialog/clonetiler.cpp:914
 msgid "Gamma-correct:"
