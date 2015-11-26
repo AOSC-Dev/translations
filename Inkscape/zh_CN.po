@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 17:26-0500\n"
+"PO-Revision-Date: 2015-11-26 17:30-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,3304,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,3537,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -11324,7 +11324,7 @@ msgstr "导出成给定版本的 PDF。(提示：确认导入的精确字串可�
 
 #: ../src/main.cpp:420
 msgid "PDF_VERSION"
-msgstr "PDF 版本"
+msgstr "PDF 版本(_V)"
 
 #: ../src/main.cpp:424
 msgid "Export PDF/PS/EPS without text. Besides the PDF/PS/EPS, a LaTeX file is exported, putting the text on top of the PDF/PS/EPS file. Include the result in LaTeX like: \\input{latexfile.tex}"
@@ -15573,7 +15573,9 @@ msgstr "椭圆"
 
 #: ../src/ui/dialog/find.cpp:100
 msgid "Search ellipses, arcs, circles"
-msgstr "搜索椭圆, 弧, 圆"
+msgstr ""
+"搜索椭圆、弧\n"
+"、圆"
 
 #: ../src/ui/dialog/find.cpp:101
 msgid "Stars"
@@ -15597,7 +15599,7 @@ msgstr "路径"
 
 #: ../src/ui/dialog/find.cpp:103
 msgid "Search paths, lines, polylines"
-msgstr "搜索路径, 线, 多边形"
+msgstr "搜索路径、线、多边形"
 
 #: ../src/ui/dialog/find.cpp:104
 msgid "Texts"
@@ -15657,7 +15659,7 @@ msgstr "选取全部匹配搜索条件的对象"
 
 #: ../src/ui/dialog/find.cpp:116
 msgid "_Replace All"
-msgstr "替换全部(_R)"
+msgstr "全部替换(_R)"
 
 #: ../src/ui/dialog/find.cpp:116
 msgid "Replace all matches"
@@ -15720,7 +15722,7 @@ msgid ""
 "Some fonts are not available and have been substituted."
 msgstr ""
 "\n"
-"某些字体无法使用会改用替代字体。"
+"某些字体无法使用，已被替换。"
 
 #: ../src/ui/dialog/font-substitution.cpp:82
 msgid "Font substitution"
@@ -15949,7 +15951,7 @@ msgstr "箫伯纳字母"
 
 #: ../src/ui/dialog/glyphs.cpp:112
 msgid "Linear B"
-msgstr "线性 B"
+msgstr "线性文字 B"
 
 #: ../src/ui/dialog/glyphs.cpp:113 ../src/ui/dialog/glyphs.cpp:201
 msgid "Tai Le"
@@ -25756,7 +25758,7 @@ msgstr "编辑对象的颜色、渐变、箭头和其它填充和描边属性…
 #. FIXME: Probably better to either use something from the icon naming spec or ship our own "select-font" icon
 #: ../src/verbs.cpp:2867
 msgid "Gl_yphs..."
-msgstr "字形…"
+msgstr "字符(_Y)…"
 
 #: ../src/verbs.cpp:2868
 msgid "Select characters from a glyphs palette"
