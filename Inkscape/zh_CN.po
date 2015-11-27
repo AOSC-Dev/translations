@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 17:34-0500\n"
+"PO-Revision-Date: 2015-11-27 17:47-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,5749,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,5943,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -26089,7 +26089,7 @@ msgstr "所有层中撤销所有隐藏"
 
 #: ../src/verbs.cpp:2978
 msgid "Link an ICC color profile"
-msgstr "链接一个ICC颜色文件"
+msgstr "链接一个 ICC 色彩配置文件"
 
 #: ../src/verbs.cpp:2979
 msgid "Remove Color Profile"
@@ -26097,7 +26097,7 @@ msgstr "移除色彩配置文件"
 
 #: ../src/verbs.cpp:2980
 msgid "Remove a linked ICC color profile"
-msgstr "移除已链接的ICC颜色文件"
+msgstr "移除已链接的 ICC 色彩配置文件"
 
 #: ../src/verbs.cpp:2983
 msgid "Add External Script"
@@ -26109,19 +26109,19 @@ msgstr "添加一个外部脚本"
 
 #: ../src/verbs.cpp:2985
 msgid "Add Embedded Script"
-msgstr "添加嵌入式脚本"
+msgstr "添加嵌入脚本"
 
 #: ../src/verbs.cpp:2985
 msgid "Add an embedded script"
-msgstr "添加一个嵌入式脚本"
+msgstr "添加一个嵌入脚本"
 
 #: ../src/verbs.cpp:2987
 msgid "Edit Embedded Script"
-msgstr "编辑嵌入式脚本"
+msgstr "编辑嵌入脚本"
 
 #: ../src/verbs.cpp:2987
 msgid "Edit an embedded script"
-msgstr "编辑一个嵌入式脚本"
+msgstr "编辑一个嵌入脚本"
 
 #: ../src/verbs.cpp:2989
 msgid "Remove External Script"
@@ -26133,11 +26133,11 @@ msgstr "移除一个外部脚本"
 
 #: ../src/verbs.cpp:2991
 msgid "Remove Embedded Script"
-msgstr "移除嵌入式脚本"
+msgstr "移除嵌入脚本"
 
 #: ../src/verbs.cpp:2991
 msgid "Remove an embedded script"
-msgstr "移除一个嵌入式脚本"
+msgstr "移除一个嵌入脚本"
 
 #: ../src/verbs.cpp:3013 ../src/verbs.cpp:3014
 msgid "Center on horizontal and vertical axis"
@@ -26145,18 +26145,18 @@ msgstr "水平和垂直轴上的中心"
 
 #: ../src/widgets/arc-toolbar.cpp:129
 msgid "Arc: Change start/end"
-msgstr "弧:改变开始/结束"
+msgstr "弧：改变起点/终点"
 
 #: ../src/widgets/arc-toolbar.cpp:191
 msgid "Arc: Change open/closed"
-msgstr "弧:改变打开/关闭"
+msgstr "弧：改变打开/关闭"
 
 #: ../src/widgets/arc-toolbar.cpp:280 ../src/widgets/arc-toolbar.cpp:310
 #: ../src/widgets/rect-toolbar.cpp:260 ../src/widgets/rect-toolbar.cpp:299
 #: ../src/widgets/spiral-toolbar.cpp:210 ../src/widgets/spiral-toolbar.cpp:234
 #: ../src/widgets/star-toolbar.cpp:382 ../src/widgets/star-toolbar.cpp:444
 msgid "<b>New:</b>"
-msgstr "<b>新建:</b>"
+msgstr "<b>新建：</b>"
 
 #. FIXME: implement averaging of all parameters for multiple selected
 #. gtk_label_set_markup(GTK_LABEL(l), _("<b>Average:</b>"));
@@ -26165,15 +26165,15 @@ msgstr "<b>新建:</b>"
 #: ../src/widgets/spiral-toolbar.cpp:212 ../src/widgets/spiral-toolbar.cpp:223
 #: ../src/widgets/star-toolbar.cpp:384
 msgid "<b>Change:</b>"
-msgstr "<b>更改:</b>"
+msgstr "<b>更改：</b>"
 
 #: ../src/widgets/arc-toolbar.cpp:319
 msgid "Start:"
-msgstr "起始:"
+msgstr "起点："
 
 #: ../src/widgets/arc-toolbar.cpp:320
 msgid "The angle (in degrees) from the horizontal to the arc's start point"
-msgstr "水平方向到弧起点的角度(单位:度数)"
+msgstr "水平方向到弧起点的角度（°）"
 
 #: ../src/widgets/arc-toolbar.cpp:332
 msgid "End:"
@@ -26181,7 +26181,7 @@ msgstr "终止："
 
 #: ../src/widgets/arc-toolbar.cpp:333
 msgid "The angle (in degrees) from the horizontal to the arc's end point"
-msgstr "水平方向到弧终点的角度(单位:度数)"
+msgstr "水平方向到弧终点的角度（°）"
 
 #: ../src/widgets/arc-toolbar.cpp:349
 msgid "Closed arc"
@@ -26189,7 +26189,7 @@ msgstr "封闭圆弧"
 
 #: ../src/widgets/arc-toolbar.cpp:350
 msgid "Switch to segment (closed shape with two radii)"
-msgstr "切换为线段 (用两个半径线闭合的形状)"
+msgstr "切换为线段（用两个半径线闭合形状）"
 
 #: ../src/widgets/arc-toolbar.cpp:356
 msgid "Open Arc"
@@ -26197,20 +26197,20 @@ msgstr "开口圆弧"
 
 #: ../src/widgets/arc-toolbar.cpp:357
 msgid "Switch to arc (unclosed shape)"
-msgstr "变为弧线(非封闭形状)"
+msgstr "变为弧线（非封闭形状）"
 
 #: ../src/widgets/arc-toolbar.cpp:380
 msgid "Make whole"
-msgstr "完整"
+msgstr "补完"
 
 #: ../src/widgets/arc-toolbar.cpp:381
 msgid "Make the shape a whole ellipse, not arc or segment"
-msgstr "把形状做成整个椭圆, 不是弧或线段"
+msgstr "把形状做成整个椭圆，而非不是弧或线段"
 
 #. TODO: use the correct axis here, too
 #: ../src/widgets/box3d-toolbar.cpp:233
 msgid "3D Box: Change perspective (angle of infinite axis)"
-msgstr "3D 盒子：改变透视 (无限轴的角度)"
+msgstr "3D 盒子：改变透视（无限轴的角度）"
 
 #: ../src/widgets/box3d-toolbar.cpp:302
 msgid "Angle in X direction"
@@ -26228,7 +26228,7 @@ msgstr "X 向消失点（VP）的状态"
 
 #: ../src/widgets/box3d-toolbar.cpp:327
 msgid "Toggle VP in X direction between 'finite' and 'infinite' (=parallel)"
-msgstr "X 向消失点 VP 设置为“有限”或“无限”（相当于平行）"
+msgstr "X 向消失点（VP）设置为“有限”或“无限”（=平行）"
 
 #: ../src/widgets/box3d-toolbar.cpp:342
 msgid "Angle in Y direction"
@@ -26236,7 +26236,7 @@ msgstr "Y 向角度"
 
 #: ../src/widgets/box3d-toolbar.cpp:342
 msgid "Angle Y:"
-msgstr "角度 Y:"
+msgstr "角度 Y："
 
 #. Translators: PL is short for 'perspective line'
 #: ../src/widgets/box3d-toolbar.cpp:344
@@ -26281,7 +26281,7 @@ msgstr "无预置"
 #: ../src/widgets/calligraphy-toolbar.cpp:427
 #: ../src/widgets/eraser-toolbar.cpp:125
 msgid "(hairline)"
-msgstr "(毛细)"
+msgstr "（毛细）"
 
 #. Mean
 #. Rotation
@@ -26295,12 +26295,12 @@ msgstr "(毛细)"
 #: ../src/widgets/tweak-toolbar.cpp:125 ../src/widgets/tweak-toolbar.cpp:142
 #: ../src/widgets/tweak-toolbar.cpp:350
 msgid "(default)"
-msgstr "(默认)"
+msgstr "（默认）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:427
 #: ../src/widgets/eraser-toolbar.cpp:125
 msgid "(broad stroke)"
-msgstr "(宽笔廓)"
+msgstr "（宽笔画）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:430
 #: ../src/widgets/eraser-toolbar.cpp:128
@@ -26309,53 +26309,53 @@ msgstr "笔宽"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:431
 msgid "The width of the calligraphic pen (relative to the visible canvas area)"
-msgstr "书法笔刷宽度(相对于可见画布面积)"
+msgstr "书法笔刷宽度（相对于可见画布面积）"
 
 #. Thinning
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(speed blows up stroke)"
-msgstr "（加速爆炸笔廓）"
+msgstr "（加速炸开笔画）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(slight widening)"
-msgstr "(略微变宽)"
+msgstr "（略微变宽）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(constant width)"
-msgstr "(等宽度)"
+msgstr "（恒定宽度）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(slight thinning, default)"
-msgstr "(略微变窄, 默认)"
+msgstr "（略微变窄，默认）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(speed deflates stroke)"
-msgstr "(加速紧缩笔廓)"
+msgstr "（加速缩紧笔画）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:447
 msgid "Stroke Thinning"
-msgstr "笔廓变细"
+msgstr "笔画变细"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:447
 msgid "Thinning:"
-msgstr "细:"
+msgstr "细："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:448
 msgid "How much velocity thins the stroke (> 0 makes fast strokes thinner, < 0 makes them broader, 0 makes width independent of velocity)"
-msgstr "笔廓变细速度(> 0 笔廓细的快, < 0 笔廓变宽, 0 宽度与速度无关)"
+msgstr "笔画变细和速度的关系（> 0 越快越细，< 0 越快越粗，0 宽度与速度无关）"
 
 #. Angle
 #: ../src/widgets/calligraphy-toolbar.cpp:460
 msgid "(left edge up)"
-msgstr "(左边升高)"
+msgstr "（左边升高）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:460
 msgid "(horizontal)"
-msgstr "(水平)"
+msgstr "（水平）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:460
 msgid "(right edge up)"
-msgstr "(右边升高)"
+msgstr "（右边升高）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:463
 msgid "Pen Angle"
@@ -26364,24 +26364,24 @@ msgstr "笔的角度"
 #: ../src/widgets/calligraphy-toolbar.cpp:463
 #: ../share/extensions/motion.inx.h:3 ../share/extensions/restack.inx.h:5
 msgid "Angle:"
-msgstr "角度:"
+msgstr "角度："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:464
 msgid "The angle of the pen's nib (in degrees; 0 = horizontal; has no effect if fixation = 0)"
-msgstr "笔尖角度(单位:度数; 0=水平; 固定=0时没有效果)"
+msgstr "笔尖角度（°；0=水平；固定=0 时没有效果）"
 
 #. Fixation
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(perpendicular to stroke, \"brush\")"
-msgstr "(垂直于笔廓, \"笔刷\")"
+msgstr "（垂直于笔廓, “笔刷”）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(almost fixed, default)"
-msgstr "(几乎固定， 默认)"
+msgstr "（几乎固定，默认）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:478
 msgid "(fixed by Angle, \"pen\")"
-msgstr "(按角度固定, \"pen\")"
+msgstr "（按角度固定，“钢笔”）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:481
 msgid "Fixation"
@@ -26389,82 +26389,82 @@ msgstr "固定"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:481
 msgid "Fixation:"
-msgstr "固定:"
+msgstr "固定："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:482
 msgid "Angle behavior (0 = nib always perpendicular to stroke direction, 100 = fixed angle)"
-msgstr "角度行为(0=笔尖总是垂直于笔廓方向, 1=固定角度)"
+msgstr "角度行为（0 = 笔尖总是垂直于笔廓方向，100 = 固定角度）"
 
 #. Cap Rounding
 #: ../src/widgets/calligraphy-toolbar.cpp:494
 msgid "(blunt caps, default)"
-msgstr "(平头封口, 默认)"
+msgstr "（平头端点，默认）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:494
 msgid "(slightly bulging)"
-msgstr "(略微膨胀)"
+msgstr "（略微膨胀）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:494
 msgid "(approximately round)"
-msgstr "(近似圆形)"
+msgstr "（近似圆形）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:494
 msgid "(long protruding caps)"
-msgstr "(长的突出封口)"
+msgstr "（长突出端点）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:498
 msgid "Cap rounding"
-msgstr "封口圆角"
+msgstr "端点圆角"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:498
 msgid "Caps:"
-msgstr "端点:"
+msgstr "端点："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:499
 msgid "Increase to make caps at the ends of strokes protrude more (0 = no caps, 1 = round caps)"
-msgstr "增大此值使端点凸凹程度增加(0=没有封口, 1 =圆角封口)"
+msgstr "增大此值使端点凸凹程度增加（0 = 无封口，1 = 圆角封口）"
 
 #. Tremor
 #: ../src/widgets/calligraphy-toolbar.cpp:511
 msgid "(smooth line)"
-msgstr "(平滑线)"
+msgstr "（平滑线）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:511
 msgid "(slight tremor)"
-msgstr "(轻微抖动)"
+msgstr "（轻微抖动）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:511
 msgid "(noticeable tremor)"
-msgstr "(明显抖动)"
+msgstr "（明显抖动）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:511
 msgid "(maximum tremor)"
-msgstr "(最大抖动)"
+msgstr "（最大抖动）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:514
 msgid "Stroke Tremor"
-msgstr "笔廓抖动"
+msgstr "笔画抖动"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:514
 msgid "Tremor:"
-msgstr "抖动:"
+msgstr "抖动："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:515
 msgid "Increase to make strokes rugged and trembling"
-msgstr "增大此值使笔廓更加凸凹并且抖动"
+msgstr "增大此值使笔画更加凸凹并且抖动"
 
 #. Wiggle
 #: ../src/widgets/calligraphy-toolbar.cpp:529
 msgid "(no wiggle)"
-msgstr "(无摆动)"
+msgstr "（无摆动）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:529
 msgid "(slight deviation)"
-msgstr "(略微偏离)"
+msgstr "（略微偏离）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:529
 msgid "(wild waves and curls)"
-msgstr "(剧烈的波浪和卷曲)"
+msgstr "（剧烈的波浪和卷曲）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:532
 msgid "Pen Wiggle"
@@ -26472,32 +26472,32 @@ msgstr "笔摆动"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:532
 msgid "Wiggle:"
-msgstr "摆动:"
+msgstr "摆动："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:533
 msgid "Increase to make the pen waver and wiggle"
-msgstr "增大此值使笔摆动并且停顿"
+msgstr "增大此值使笔画更加波浪回旋"
 
 #. Mass
 #: ../src/widgets/calligraphy-toolbar.cpp:546
 msgid "(no inertia)"
-msgstr "(无惯量)"
+msgstr "（无惯性）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:546
 msgid "(slight smoothing, default)"
-msgstr "(略微光滑, 默认)"
+msgstr "（略微平滑, 默认）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:546
 msgid "(noticeable lagging)"
-msgstr "(明显滞后)"
+msgstr "（明显滞后）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:546
 msgid "(maximum inertia)"
-msgstr "(最大惯量)"
+msgstr "（最大惯性）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:549
 msgid "Pen Mass"
-msgstr "笔的惯性"
+msgstr "笔的质量"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:549
 msgid "Mass:"
@@ -26505,7 +26505,7 @@ msgstr "质量："
 
 #: ../src/widgets/calligraphy-toolbar.cpp:550
 msgid "Increase to make the pen drag behind, as if slowed by inertia"
-msgstr "增大此值使笔拖到后面, 好像由于惯性变慢"
+msgstr "增大此值使笔拖到后面，好像由于惯性变慢一样"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:565
 msgid "Trace Background"
@@ -26513,7 +26513,7 @@ msgstr "临摹背景"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:566
 msgid "Trace the lightness of the background by the width of the pen (white - minimum width, black - maximum width)"
-msgstr "使用Pen的宽度临摹背景的亮度(白色-最细, 黑色-最粗)"
+msgstr "使用笔的宽度临摹背景的亮度（白色-最细，黑色-最粗）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:579
 msgid "Use the pressure of the input device to alter the width of the pen"
@@ -26565,11 +26565,11 @@ msgstr "忽略"
 
 #: ../src/widgets/connector-toolbar.cpp:330
 msgid "Orthogonal"
-msgstr "垂直"
+msgstr "正交"
 
 #: ../src/widgets/connector-toolbar.cpp:331
 msgid "Make connector orthogonal or polyline"
-msgstr "使连接器为垂直或折线"
+msgstr "使连接器为正交或折线"
 
 #: ../src/widgets/connector-toolbar.cpp:345
 msgid "Connector Curvature"
@@ -26589,7 +26589,7 @@ msgstr "连接器间距"
 
 #: ../src/widgets/connector-toolbar.cpp:356
 msgid "Spacing:"
-msgstr "空隙:"
+msgstr "空隙："
 
 #: ../src/widgets/connector-toolbar.cpp:357
 msgid "The amount of space left around objects by auto-routing connectors"
@@ -26605,7 +26605,7 @@ msgstr "连接器长度"
 
 #: ../src/widgets/connector-toolbar.cpp:378
 msgid "Length:"
-msgstr "长度:"
+msgstr "长度："
 
 #: ../src/widgets/connector-toolbar.cpp:379
 msgid "Ideal length for connectors when layout is applied"
@@ -26646,11 +26646,11 @@ msgstr "Z："
 #. display the initial welcome message in the statusbar
 #: ../src/widgets/desktop-widget.cpp:734
 msgid "<b>Welcome to Inkscape!</b> Use shape or freehand tools to create objects; use selector (arrow) to move or transform them."
-msgstr "<b>欢迎来到 Inkscape！</b> 使用形状或手绘工具创建对象; 使用选择器(方向)移动或者变换对象"
+msgstr "<b>欢迎来到 Inkscape！</b>使用形状或手绘工具创建对象；使用选择器（箭头）移动或者变换对象"
 
 #: ../src/widgets/desktop-widget.cpp:828
 msgid "grayscale"
-msgstr "灰度"
+msgstr "灰阶"
 
 #: ../src/widgets/desktop-widget.cpp:829
 msgid ", grayscale"
@@ -26658,7 +26658,7 @@ msgstr ", 灰阶"
 
 #: ../src/widgets/desktop-widget.cpp:830
 msgid "print colors preview"
-msgstr "打印色彩预览"
+msgstr "打印颜色预览"
 
 #: ../src/widgets/desktop-widget.cpp:831
 msgid ", print colors preview"
@@ -26675,27 +26675,27 @@ msgstr "无滤镜"
 #: ../src/widgets/desktop-widget.cpp:860
 #, c-format
 msgid "%s%s: %d (%s%s) - Inkscape"
-msgstr "%s%s: %d (%s%s) - Inkscape"
+msgstr "%s%s：%d（%s%s）- Inkscape"
 
 #: ../src/widgets/desktop-widget.cpp:862 ../src/widgets/desktop-widget.cpp:866
 #, c-format
 msgid "%s%s: %d (%s) - Inkscape"
-msgstr "%s%s: %d (%s) - Inkscape"
+msgstr "%s%s：%d（%s）- Inkscape"
 
 #: ../src/widgets/desktop-widget.cpp:868
 #, c-format
 msgid "%s%s: %d - Inkscape"
-msgstr "%s%s: %d - Inkscape"
+msgstr "%s%s：%d - Inkscape"
 
 #: ../src/widgets/desktop-widget.cpp:874
 #, c-format
 msgid "%s%s (%s%s) - Inkscape"
-msgstr "%s%s (%s%s) - Inkscape"
+msgstr "%s%s（%s%s）- Inkscape"
 
 #: ../src/widgets/desktop-widget.cpp:876 ../src/widgets/desktop-widget.cpp:880
 #, c-format
 msgid "%s%s (%s) - Inkscape"
-msgstr "%s%s (%s) - Inkscape"
+msgstr "%s%s（%s）- Inkscape"
 
 #: ../src/widgets/desktop-widget.cpp:882
 #, c-format
@@ -26717,9 +26717,9 @@ msgid ""
 "\n"
 "If you close without saving, your changes will be discarded."
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">关闭之前保存对文档所作的更改 \"%s\" ？</span>\n"
+"<span weight=\"bold\" size=\"larger\">关闭之前保存对文档“%s”所作的更改？</span>\n"
 "\n"
-"如果没有保存关闭文档, 所作的更改将会丢失."
+"如果没有保存关闭文档，所作的更改将会丢失。"
 
 #: ../src/widgets/desktop-widget.cpp:1118
 #: ../src/widgets/desktop-widget.cpp:1177
@@ -26795,7 +26795,7 @@ msgstr "改变填充规则"
 
 #: ../src/widgets/fill-style.cpp:440 ../src/widgets/fill-style.cpp:518
 msgid "Set fill color"
-msgstr "设置填充色"
+msgstr "设置填充颜色"
 
 #: ../src/widgets/fill-style.cpp:440 ../src/widgets/fill-style.cpp:518
 msgid "Set stroke color"
@@ -26803,19 +26803,19 @@ msgstr "设置笔廓颜色"
 
 #: ../src/widgets/fill-style.cpp:616
 msgid "Set gradient on fill"
-msgstr "设置渐近填充"
+msgstr "设置填充渐变"
 
 #: ../src/widgets/fill-style.cpp:616
 msgid "Set gradient on stroke"
-msgstr "设置笔廓的渐变"
+msgstr "设置笔廓渐变"
 
 #: ../src/widgets/fill-style.cpp:676
 msgid "Set pattern on fill"
-msgstr "设置图案填充"
+msgstr "设置填充图案"
 
 #: ../src/widgets/fill-style.cpp:677
 msgid "Set pattern on stroke"
-msgstr "设置笔廓的图案"
+msgstr "设置笔廓图案"
 
 #: ../src/widgets/font-selector.cpp:120 ../src/widgets/text-toolbar.cpp:953
 #: ../src/widgets/text-toolbar.cpp:1265
@@ -26825,7 +26825,7 @@ msgstr "字体大小"
 #. Family frame
 #: ../src/widgets/font-selector.cpp:134
 msgid "Font family"
-msgstr "字体名称"
+msgstr "字族名称"
 
 #. Style frame
 #: ../src/widgets/font-selector.cpp:179
@@ -26835,7 +26835,7 @@ msgstr "样式"
 
 #: ../src/widgets/font-selector.cpp:211
 msgid "Face"
-msgstr "面部"
+msgstr "形貌"
 
 #: ../src/widgets/font-selector.cpp:240 ../share/extensions/dots.inx.h:3
 msgid "Font size:"
