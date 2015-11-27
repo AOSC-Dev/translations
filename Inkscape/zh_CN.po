@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 17:31-0500\n"
+"PO-Revision-Date: 2015-11-26 22:03-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,3550,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,3825,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -16581,25 +16581,25 @@ msgstr "参考线"
 #: ../src/ui/dialog/guides.cpp:311
 #, c-format
 msgid "Guideline ID: %s"
-msgstr "参考线 ID: %s"
+msgstr "参考线 ID：%s"
 
 #: ../src/ui/dialog/guides.cpp:317
 #, c-format
 msgid "Current: %s"
-msgstr "当前: %s"
+msgstr "当前：%s"
 
 #: ../src/ui/dialog/icon-preview.cpp:155
 #, c-format
 msgid "%d x %d"
-msgstr "%d x %d"
+msgstr "%d × %d"
 
 #: ../src/ui/dialog/icon-preview.cpp:167
 msgid "Magnified:"
-msgstr "放大："
+msgstr "已放大："
 
 #: ../src/ui/dialog/icon-preview.cpp:236
 msgid "Actual Size:"
-msgstr "实际大小:"
+msgstr "实际大小："
 
 #: ../src/ui/dialog/icon-preview.cpp:241
 msgctxt "Icon preview window"
@@ -16616,7 +16616,7 @@ msgstr "显示选区提示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:184
 msgid "Whether selected objects display a selection cue (the same as in selector)"
-msgstr "已选对象是否显示提示(与选择器相同)"
+msgstr "已选对象是否显示提示（与选择器相同）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:190
 msgid "Enable gradient editing"
@@ -16632,11 +16632,11 @@ msgstr "将边而不是边界框转为参考线"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:197
 msgid "Converting an object to guides places these along the object's true edges (imitating the object's shape), not along the bounding box"
-msgstr "将对象转变为参考线, 参考线沿对象的实际边 (模仿对象的形状), 而不是沿边界框"
+msgstr "将对象转变为参考线，参考线沿对象的实际边（模仿对象的形状），而不是沿边界框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "Ctrl+click _dot size:"
-msgstr "Ctrl+点击“点尺寸”(_D)："
+msgstr "Ctrl+点击“点”尺寸(_D)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:204
 msgid "times current stroke width"
@@ -16644,15 +16644,15 @@ msgstr "倍于当前轮廓宽度"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:205
 msgid "Size of dots created with Ctrl+click (relative to current stroke width)"
-msgstr "使用 Ctrl+单击 时创建的点的大小 (相对当前笔廓宽度)"
+msgstr "使用 Ctrl+单击 时创建的点的大小（相对当前笔廓宽度）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:220
 msgid "<b>No objects selected</b> to take the style from."
-msgstr "<b>没有已选对象</b>使用此样式."
+msgstr "<b>没有</b>可从中获取此样式的<b>已选对象</b>。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:229
 msgid "<b>More than one object selected.</b>  Cannot take style from multiple objects."
-msgstr "<b>超过一个对象已选.</b>不能得到多个对象的样式."
+msgstr "<b>超过一个对象已选。</b>不能得到多个对象的样式。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:265
 msgid "Style of new objects"
@@ -16668,11 +16668,11 @@ msgstr "应用最近设置对象的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:274
 msgid "This tool's own style:"
-msgstr "此工具自己的样式:"
+msgstr "此工具自己的样式："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:278
 msgid "Each tool may store its own style to apply to the newly created objects. Use the button below to set it."
-msgstr "每个工具保存自己的样式, 应用到新创建的对象.使用下面的按钮设置."
+msgstr "每个工具保存自己的样式，应用到新创建的对象。使用下面的按钮设置。"
 
 #. style swatch
 #: ../src/ui/dialog/inkscape-preferences.cpp:282
@@ -16685,7 +16685,7 @@ msgstr "使用该工具新创建的对象的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:298
 msgid "Remember the style of the (first) selected object as this tool's style"
-msgstr "记住已选对象(第一个)的样式作为此工具的样式"
+msgstr "记住（第一个）已选对象的样式作为此工具的样式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:303
 msgid "Tools"
@@ -16701,7 +16701,7 @@ msgstr "视觉边界框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:309
 msgid "This bounding box includes stroke width, markers, filter margins, etc."
-msgstr "边界范围包括轮廓宽度, 标记, 滤镜边缘, 等."
+msgstr "边界范围包括轮廓宽度、标记、滤镜边缘等。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:310
 msgid "Geometric bounding box"
@@ -16795,7 +16795,7 @@ msgstr "每一个已选对象在左上角有一个钻石标记"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:347
 msgid "Box"
-msgstr "边界"
+msgstr "边框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:349
 msgid "Each selected object displays its bounding box"
@@ -16868,11 +16868,11 @@ msgstr "即使路径选中进行编辑时仍然显示临时轮廓"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:371
 msgid "_Flash time:"
-msgstr "闪烁时间(_F):"
+msgstr "闪烁时间(_F)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:371
 msgid "Specifies how long the path outline will be visible after a mouse-over (in milliseconds); specify 0 to have the outline shown until mouse leaves the path"
-msgstr "鼠标悬停时路径轮廓的可见时间 (毫秒)；设置为0时一直显示直到鼠标移开"
+msgstr "鼠标悬停时路径轮廓的可见时间（毫秒）；设置为 0 时一直显示直到鼠标移开"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:372
 msgid "Editing preferences"
@@ -16934,7 +16934,7 @@ msgstr "草图模式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:430
 msgid "If on, the sketch result will be the normal average of all sketches made, instead of averaging the old result with the new sketch"
-msgstr "如果选择, 草图的结果是平均所有的草图笔迹, 而不是将旧的结果与新笔迹平均"
+msgstr "如果选择，草图的结果是平均所有的草图笔迹，而不是将旧的结果与新笔迹平均"
 
 #. Pen
 #: ../src/ui/dialog/inkscape-preferences.cpp:433
@@ -16949,11 +16949,11 @@ msgstr "笔刷"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:443
 msgid "If on, pen width is in absolute units (px) independent of zoom; otherwise pen width depends on zoom so that it looks the same at any zoom"
-msgstr "如果打开, 笔廓宽度是与缩放无关的绝对单位(像素); 否则笔廓宽度依赖于缩放以便在不同缩放比例下看起来一样"
+msgstr "如果打开，笔廓宽度是与缩放无关的绝对单位（像素）；否则笔廓宽度取决于缩放以便在不同缩放比例下看起来一样"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:445
 msgid "If on, each newly created object will be selected (deselecting previous selection)"
-msgstr "如果打开, 每一个新创建的对象都自动被选中(以前的选择将取消)."
+msgstr "如果打开，每一个新创建的对象都自动被选中（以前的选择将取消）。"
 
 #. Text
 #: ../src/ui/dialog/inkscape-preferences.cpp:448 ../src/verbs.cpp:2722
@@ -16983,7 +16983,7 @@ msgstr "像素"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:460
 msgid "Pica"
-msgstr "Pica"
+msgstr "12 点"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:460
 msgid "Millimeter"
@@ -17017,7 +17017,7 @@ msgstr "设置在文本工具栏和文本对话框中使用的单位的类型"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:467
 msgid "Always output text size in pixels (px)"
-msgstr "总以像素 (px) 为单位输出文本大小"
+msgstr "总以像素（px）为单位输出文本大小"
 
 #. Spray
 #: ../src/ui/dialog/inkscape-preferences.cpp:473
@@ -17047,7 +17047,7 @@ msgstr "防止渐变参数共享"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:491
 msgid "When on, shared gradient definitions are automatically forked on change; uncheck to allow sharing of gradient definitions so that editing one object may affect other objects using the same gradient"
-msgstr "选定时, 修改时共享的渐变将自动分离; 如果不选定, 修改时将影响到所有共享该渐变的对象"
+msgstr "选定时，修改时共享的渐变将自动分离；如果不选定，修改时将影响到所有共享该渐变的对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:492
 msgid "Use legacy Gradient Editor"
@@ -17055,7 +17055,7 @@ msgstr "使用旧式的渐变编辑器"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:494
 msgid "When on, the Gradient Edit button in the Fill & Stroke dialog will show the legacy Gradient Editor dialog, when off the Gradient Tool will be used"
-msgstr "当打开时，在填充和笔画对话框中的渐变编辑按钮将会显示旧式渐变编辑器对话框，当关闭时则使用渐变工具"
+msgstr "当打开时，在填充和笔画对话框中的渐变编辑按钮将会显示旧式渐变编辑器对话框；当关闭时则使用渐变工具"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:497
 msgid "Linear gradient _angle:"
@@ -17077,7 +17077,7 @@ msgstr "连接器"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:510
 msgid "If on, connector attachment points will not be shown for text objects"
-msgstr "如果打开, 对于文字对象连接器的附着点不显示"
+msgstr "如果打开，对于文字对象连接器的附着点不显示"
 
 #. LPETool
 #. disabled, because the LPETool is not finished yet.
@@ -17135,7 +17135,7 @@ msgstr "孟加拉语 (bn)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:527
 msgid "Bengali/Bangladesh (bn_BD)"
-msgstr "孟加拉语 / 西孟加拉 (bn_BD)"
+msgstr "孟加拉语/西孟加拉 (bn_BD)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:527
 msgid "Bodo (brx)"
@@ -17211,7 +17211,7 @@ msgstr "英语/英国 (en_GB)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:531
 msgid "Pig Latin (en_US@piglatin)"
-msgstr "Pig Latin (en_US@piglatin)"
+msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:531
 msgid "Esperanto (eo)"
@@ -17299,7 +17299,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Konkani in Latin script (kok@latin)"
-msgstr "拉丁字书写的塞尔维亚语(sr@latin)"
+msgstr "孔卡尼语，拉丁字书写(sr@latin)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Korean (ko)"
@@ -17399,7 +17399,7 @@ msgstr "塞尔维亚语 (sr)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
 msgid "Serbian in Latin script (sr@latin)"
-msgstr "拉丁文书写的塞尔维亚语(sr@latin)"
+msgstr "塞尔维亚语，拉丁字书写(sr@latin)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:545
 msgid "Sindhi (sd)"
@@ -17459,7 +17459,7 @@ msgstr "越南语 (vi)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:600
 msgid "Language (requires restart):"
-msgstr "语言(需要重新启动)"
+msgstr "语言（需要重启程序）："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:601
 msgid "Set the language for menus and number formats"
@@ -17482,27 +17482,27 @@ msgstr "更小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:608
 msgid "Toolbox icon size:"
-msgstr "工具栏图标大小:"
+msgstr "工具栏图标大小："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:609
 msgid "Set the size for the tool icons (requires restart)"
-msgstr "设置工具栏图标的大小(需要重启)"
+msgstr "设置工具栏图标的大小（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:612
 msgid "Control bar icon size:"
-msgstr "控制栏图标大小:"
+msgstr "控制栏图标大小："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:613
 msgid "Set the size for the icons in tools' control bars to use (requires restart)"
-msgstr "设置工具的控制栏图标大小(需要重启)"
+msgstr "设置工具的控制栏图标大小（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:616
 msgid "Secondary toolbar icon size:"
-msgstr "第二工具栏图标大小:"
+msgstr "第二工具栏图标大小："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:617
 msgid "Set the size for the icons in secondary toolbars to use (requires restart)"
-msgstr "设置第二工具栏中的图标大小(需要重启)"
+msgstr "设置第二工具栏中的图标大小（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:620
 msgid "Work-around color sliders not drawing"
@@ -17510,7 +17510,7 @@ msgstr "避免色彩滑块不显示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:622
 msgid "When on, will attempt to work around bugs in certain GTK themes drawing color sliders"
-msgstr "选中时, 将会试图避开一些GTK主题中色彩滑块的显示bug"
+msgstr "选中时，将会试图避开一些 GTK 主题中色彩滑块的显示 bug"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:627
 msgid "Clear list"
@@ -17522,15 +17522,15 @@ msgstr "打开最近文件的最大文档数(_R)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:631
 msgid "Set the maximum length of the Open Recent list in the File menu, or clear the list"
-msgstr "文件菜单中最近打开列表中的文件数目, 或者清除列表"
+msgstr "文件菜单中最近打开列表中的文件数目，或者清除列表"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:634
 msgid "_Zoom correction factor (in %):"
-msgstr "缩放纠正系数(以 % 为单位)(_Z):"
+msgstr "缩放纠正系数（%）(_Z):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:635
 msgid "Adjust the slider until the length of the ruler on your screen matches its real length. This information is used when zooming to 1:1, 1:2, etc., to display objects in their true sizes"
-msgstr "调整滑块, 直到下面的尺子在屏幕上的长度与实际尺寸一致. 当缩放到1:1, 1:2, 等比例时, 该因子用来显示对象的实际大小"
+msgstr "调整滑块，直到下面的尺子在屏幕上的长度与实际尺寸一致。该因子为缩放到 1:1、1:2 等比例时显示对象的实际大小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:638
 msgid "Enable dynamic relayout for incomplete sections"
@@ -17543,7 +17543,7 @@ msgstr "当打开时，将会允许未完全完成分解的组件的动态布局
 #. show infobox
 #: ../src/ui/dialog/inkscape-preferences.cpp:643
 msgid "Show filter primitives infobox (requires restart)"
-msgstr "显示滤镜原型信息框(需要重启)"
+msgstr "显示滤镜原型信息框（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:645
 msgid "Show icons and descriptions for the filter primitives available at the filter effects dialog"
@@ -17566,7 +17566,7 @@ msgstr "图标和文本"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:653
 msgid "Dockbar style (requires restart):"
-msgstr "面板栏样式 (需要重启)："
+msgstr "面板栏样式（需要重启）："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:654
 msgid "Selects whether the vertical bars on the dockbar will show text labels, icons, or both"
@@ -17574,7 +17574,7 @@ msgstr "选择在面板栏上的垂直栏是否显示文本标签、图标"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:661
 msgid "Switcher style (requires restart):"
-msgstr "切换器样式(需要重新启动)"
+msgstr "切换器样式（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:662
 msgid "Selects whether the dockbar switcher will show text labels, icons, or both"
@@ -17638,7 +17638,7 @@ msgstr "不透明"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:686
 msgid "Aggressive"
-msgstr "腐蚀"
+msgstr "激进"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:689
 msgctxt "Window size"
