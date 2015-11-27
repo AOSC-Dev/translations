@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 17:13-0500\n"
+"PO-Revision-Date: 2015-11-27 17:34-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,5336,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,5749,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -4836,7 +4836,7 @@ msgstr "  描述："
 
 #: ../src/extension/effect.cpp:41
 msgid " (No preferences)"
-msgstr "（无偏好设置）"
+msgstr "（无首选项）"
 
 #: ../src/extension/effect.h:70 ../src/verbs.cpp:2208
 msgid "Extensions"
@@ -7654,7 +7654,7 @@ msgstr "图片 DPI："
 #: ../src/extension/internal/gdkpixbuf-input.cpp:195
 #, c-format
 msgid "Take information from file or use default bitmap import resolution as defined in the preferences."
-msgstr "从文件获取信息惑使用缺省位图导入分辨率作为偏好设置中定义的分辨率。"
+msgstr "从文件获取信息惑使用缺省位图导入分辨率作为首选项中定义的分辨率。"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:196
 #, c-format
@@ -11505,7 +11505,7 @@ msgstr "教程"
 
 #: ../src/path-chemistry.cpp:63
 msgid "Select <b>object(s)</b> to combine."
-msgstr "选择<b>对象</b>结合."
+msgstr "选择<b>对象</b>合并。"
 
 #: ../src/path-chemistry.cpp:67
 msgid "Combining paths..."
@@ -11597,7 +11597,7 @@ msgstr "斑点"
 
 #: ../src/preferences-skeleton.h:107
 msgid "Tracing"
-msgstr "描图"
+msgstr "临摹"
 
 #: ../src/preferences.cpp:136
 msgid "Inkscape will run with default settings, and new settings will not be saved. "
@@ -11844,7 +11844,7 @@ msgstr "删除"
 
 #: ../src/selection-chemistry.cpp:454
 msgid "Select <b>object(s)</b> to duplicate."
-msgstr "选择<b>对象</b>复制。"
+msgstr "选择<b>对象</b>再制。"
 
 #: ../src/selection-chemistry.cpp:551
 #, c-format
@@ -12168,7 +12168,7 @@ msgstr "图案转化成对象"
 
 #: ../src/selection-chemistry.cpp:3516
 msgid "Select <b>object(s)</b> to make a bitmap copy."
-msgstr "选择<b>对象</b>生成位图副本."
+msgstr "选择<b>对象</b>生成位图副本。"
 
 #: ../src/selection-chemistry.cpp:3520
 msgid "Rendering bitmap..."
@@ -12734,7 +12734,7 @@ msgstr "选择<b>至少一条</b>路径执行布尔操作。"
 
 #: ../src/splivarot.cpp:347
 msgid "Select <b>exactly 2 paths</b> to perform difference, division, or path cut."
-msgstr "选择<b>正好两个路径</b>执行差，分割或者剪切路径."
+msgstr "选择<b>正好两个路径</b>执行差集、分割或者剪切路径。"
 
 #: ../src/splivarot.cpp:363 ../src/splivarot.cpp:378
 msgid "Unable to determine the <b>z-order</b> of the objects selected for difference, XOR, division, or path cut."
@@ -13091,7 +13091,7 @@ msgstr "对齐文本基线"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:849
 msgid "Rearrange"
-msgstr "重新排列"
+msgstr "重新安排"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:851
 #: ../src/widgets/toolbox.cpp:1730
@@ -13208,7 +13208,7 @@ msgstr "文本基线垂直分布"
 #: ../src/ui/dialog/align-and-distribute.cpp:950
 #: ../src/widgets/connector-toolbar.cpp:369
 msgid "Nicely arrange selected connector network"
-msgstr "优化排列选择的连接器网络"
+msgstr "优化安排选择的连接器网络"
 
 #: ../src/ui/dialog/align-and-distribute.cpp:953
 msgid "Exchange positions of selected objects - selection order"
@@ -15006,7 +15006,7 @@ msgstr "移除合并节点"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2663
 msgid "Reorder filter primitive"
-msgstr "重新排列滤镜基元"
+msgstr "重新排序滤镜基元"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:2743
 msgid "Add Effect:"
@@ -16443,7 +16443,7 @@ msgstr "附加文字"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:345
 msgid "Arrange in a grid"
-msgstr "排列到网格"
+msgstr "安排到网格"
 
 #: ../src/ui/dialog/grid-arrange-tab.cpp:571
 #: ../src/ui/dialog/object-attributes.cpp:66
@@ -16921,7 +16921,7 @@ msgstr "钢笔"
 #. Calligraphy
 #: ../src/ui/dialog/inkscape-preferences.cpp:439
 msgid "Calligraphy"
-msgstr "笔刷"
+msgstr "书法"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:443
 msgid "If on, pen width is in absolute units (px) independent of zoom; otherwise pen width depends on zoom so that it looks the same at any zoom"
@@ -18689,11 +18689,11 @@ msgstr "孤立克隆随原对象一起删除"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1351
 msgid "Duplicating original+clones/linked offset"
-msgstr "复制原件+克隆/链接的偏移"
+msgstr "再制原件+克隆/链接的偏移"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1353
 msgid "Relink duplicated clones"
-msgstr "重新链接复制的克隆"
+msgstr "重新链接再制的克隆"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1355
 msgid "When duplicating a selection containing both a clone and its original (possibly in groups), relink the duplicated clone to the duplicated original instead of the old original"
@@ -18969,7 +18969,7 @@ msgstr "轮廓模式显示图片"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1522
 msgid "When active will render images while in outline mode instead of a red box with an x. This is useful for manual tracing."
-msgstr "当启用时轮廓模式会显示图片而不是显示红色方框里面中间一个 x。此选项对手动描绘时很帮助。"
+msgstr "当启用时轮廓模式会显示图片而不是显示红色方框里面中间一个 x。此选项对手动临摹时很帮助。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1524
 msgid "Bitmaps"
@@ -19636,7 +19636,7 @@ msgid ""
 "Note that this behaviour is not defined in the SVG 1.1 specification and not all browsers follow this interpretation."
 msgstr ""
 "图像渲染“image-rendering”属性会影响位图的缩放方式：\n"
-"\t“自动” 无偏好设置；\n"
+"\t“自动” 无首选项；\n"
 "\t“画质最佳化”平滑；\n"
 "\t“性能最佳化”块状锯齿。\n"
 "注意此行为没有定义在 SVG 1.1 规范中，因此不是每种浏览程序都依照此设置值解析 SVG 文件。"
@@ -20046,7 +20046,7 @@ msgstr ""
 
 #: ../src/ui/dialog/pixelartdialog.cpp:499
 msgid "Trace pixel art"
-msgstr "临摹像素艺术"
+msgstr "临摹像素画"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:41
 msgctxt "Polar arrange tab"
@@ -20096,7 +20096,7 @@ msgstr "对象的旋转中心"
 #: ../src/ui/dialog/polar-arrange-tab.cpp:64
 msgctxt "Polar arrange tab"
 msgid "Arrange on:"
-msgstr "排列于："
+msgstr "安排于："
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:68
 msgctxt "Polar arrange tab"
@@ -20137,7 +20137,7 @@ msgstr "在选择内容中找不到一个椭圆"
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:399
 msgid "Arrange on ellipse"
-msgstr "在椭圆上排列"
+msgstr "在椭圆上安排"
 
 #: ../src/ui/dialog/print.cpp:111
 msgid "Could not open temporary PNG for bitmap printing"
@@ -20584,11 +20584,11 @@ msgstr "极坐标"
 #: ../src/ui/dialog/tile.cpp:40
 msgctxt "Arrange dialog"
 msgid "_Arrange"
-msgstr "排列(_A)"
+msgstr "安排(_A)"
 
 #: ../src/ui/dialog/tile.cpp:42
 msgid "Arrange selected objects"
-msgstr "排列选择的对象"
+msgstr "安排选择的对象"
 
 #. #### begin left panel
 #. ### begin notebook
@@ -20699,7 +20699,7 @@ msgstr "平滑(_M)"
 
 #: ../src/ui/dialog/tracedialog.cpp:653
 msgid "Apply Gaussian blur to the bitmap before tracing"
-msgstr "提取轮廓时对位图应用高斯模糊"
+msgstr "临摹前对位图应用高斯模糊"
 
 #. TRANSLATORS: "Stack" is a verb here
 #: ../src/ui/dialog/tracedialog.cpp:657
@@ -20819,7 +20819,7 @@ msgstr "更新(_U)"
 #. I guess it's correct to call the "intermediate bitmap" a preview of the trace
 #: ../src/ui/dialog/tracedialog.cpp:796
 msgid "Preview the intermediate bitmap with the current settings, without actual tracing"
-msgstr "没有实际提取边缘, 使用当前设置预览中间位图"
+msgstr "不实际进行临摹而使用当前设置预览中间位图"
 
 #: ../src/ui/dialog/tracedialog.cpp:800
 msgid "Preview"
@@ -20989,7 +20989,7 @@ msgstr "删除节点"
 #: ../src/ui/dialog/xml-tree.cpp:73 ../src/ui/dialog/xml-tree.cpp:138
 #: ../src/ui/dialog/xml-tree.cpp:985
 msgid "Duplicate node"
-msgstr "复制一份节点"
+msgstr "再制节点"
 
 #: ../src/ui/dialog/xml-tree.cpp:79 ../src/ui/dialog/xml-tree.cpp:199
 #: ../src/ui/dialog/xml-tree.cpp:1021
@@ -21034,7 +21034,7 @@ msgstr "属性值"
 
 #: ../src/ui/dialog/xml-tree.cpp:319
 msgid "<b>Click</b> to select nodes, <b>drag</b> to rearrange."
-msgstr "<b>单击</b>选择节点，<b>拖动</b>重新排列。"
+msgstr "<b>单击</b>选择节点，<b>拖动</b>重新安排。"
 
 #: ../src/ui/dialog/xml-tree.cpp:330
 msgid "<b>Click</b> attribute to edit."
@@ -21279,7 +21279,7 @@ msgstr "临摹位图轮廓(_T)…"
 #. Trace Pixel Art
 #: ../src/ui/interface.cpp:1993
 msgid "Trace Pixel Art"
-msgstr "临摹像素艺术"
+msgstr "临摹像素画"
 
 #: ../src/ui/interface.cpp:2003
 msgctxt "Context menu"
@@ -21435,7 +21435,7 @@ msgstr "添加极值节点"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:354
 msgid "Duplicate nodes"
-msgstr "复制节点"
+msgstr "再制节点"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:417
 #: ../src/widgets/node-toolbar.cpp:408
@@ -21818,7 +21818,7 @@ msgstr "<b>拖动</b>以创建矩形。<b>拖动控制组件</b>以圆整边角�
 
 #: ../src/ui/tools-switch.cpp:100
 msgid "<b>Drag</b> to create a 3D box. <b>Drag controls</b> to resize in perspective. <b>Click</b> to select (with <b>Ctrl+Alt</b> for single faces)."
-msgstr "<b>拖动</b>以创建立方体。<b>拖动控制组件</b>以改变透视大小。<b>单击</b>以选择（<b>Ctrl+Alt</b> 以选择单个面）。"
+msgstr "<b>拖动</b>以创建 3D 盒子。<b>拖动控制组件</b>以改变透视大小。<b>单击</b>以选择（<b>Ctrl+Alt</b> 以选择单个面）。"
 
 #: ../src/ui/tools-switch.cpp:101
 msgid "<b>Drag</b> to create an ellipse. <b>Drag controls</b> to make an arc or segment. <b>Click</b> to select."
@@ -21915,11 +21915,11 @@ msgstr "更改透视（透视线角度）"
 #. status text
 #: ../src/ui/tools/box3d-tool.cpp:573
 msgid "<b>3D Box</b>; with <b>Shift</b> to extrude along the Z axis"
-msgstr "<b>3D立方体</b>；按住 <b>Shift</b> 以沿 Z 轴拉伸"
+msgstr "<b>3D 盒子</b>；按住 <b>Shift</b> 以沿 Z 轴拉伸"
 
 #: ../src/ui/tools/box3d-tool.cpp:599
 msgid "Create 3D box"
-msgstr "创建 3D 立方体"
+msgstr "创建 3D 盒子"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:525
 msgid "<b>Guide path selected</b>; start drawing along the guide with <b>Ctrl</b>"
@@ -22676,17 +22676,17 @@ msgstr "%s。拖动或单击来<b>随机地移动</b>。"
 #: ../src/ui/tools/tweak-tool.cpp:180
 #, c-format
 msgid "%s. Drag or click to <b>scale down</b>; with Shift to <b>scale up</b>."
-msgstr "%s。拖动或单击来 <b>缩小</b>；配合 Shift <b>放大</b>。"
+msgstr "%s。拖动或单击来<b>缩小</b>；配合 Shift <b>放大</b>。"
 
 #: ../src/ui/tools/tweak-tool.cpp:188
 #, c-format
 msgid "%s. Drag or click to <b>rotate clockwise</b>; with Shift, <b>counterclockwise</b>."
-msgstr "%s。拖动或单击来 <b>顺时针旋转</b>；配合 Shift <b>逆时针旋转</b>。"
+msgstr "%s。拖动或单击来<b>顺时针旋转</b>；配合 Shift <b>逆时针旋转</b>。"
 
 #: ../src/ui/tools/tweak-tool.cpp:196
 #, c-format
 msgid "%s. Drag or click to <b>duplicate</b>; with Shift, <b>delete</b>."
-msgstr "%s。拖动或单击来 <b>再制</b>；配合 Shift <b>删除</b>。"
+msgstr "%s。拖动或单击来<b>再制</b>；配合 Shift <b>删除</b>。"
 
 #: ../src/ui/tools/tweak-tool.cpp:204
 #, c-format
@@ -22706,7 +22706,7 @@ msgstr "%s。拖动或单击来<b>合拢路径</b>；配合 Shift <b>分离</b>�
 #: ../src/ui/tools/tweak-tool.cpp:224
 #, c-format
 msgid "%s. Drag or click to <b>roughen paths</b>."
-msgstr "%s。拖动或单击来 <b>粗糙化路径</b>。"
+msgstr "%s。拖动或单击来<b>粗糙化路径</b>。"
 
 #: ../src/ui/tools/tweak-tool.cpp:228
 #, c-format
@@ -22725,7 +22725,7 @@ msgstr "%s。拖动或单击<b>增强模糊</b>；配合 Shift <b>减弱</b>。"
 
 #: ../src/ui/tools/tweak-tool.cpp:1191
 msgid "<b>Nothing selected!</b> Select objects to tweak."
-msgstr "<b>没有选择对象!</b>请选择对象然后扭曲（tweak）。"
+msgstr "<b>没有选择对象！</b>请选择对象然后扭曲（tweak）。"
 
 #: ../src/ui/tools/tweak-tool.cpp:1225
 msgid "Move tweak"
@@ -23862,7 +23862,7 @@ msgstr "3D 盒子：移动消失点"
 #, c-format
 msgid "<b>Finite</b> vanishing point shared by <b>%d</b> box"
 msgid_plural "<b>Finite</b> vanishing point shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box(es)"
-msgstr[0] "<b>%d</b> 个立方体共享<b>有限</b>消失点；按下 <b>Shift</b> 拖动以分开选定的多个立方体"
+msgstr[0] "<b>%d</b> 个盒子共享<b>有限</b>消失点；按下 <b>Shift</b> 拖动以分开选定的多个盒子"
 
 #. This won't make sense any more when infinite VPs are not shown on the canvas,
 #. but currently we update the status message anyway
@@ -23870,13 +23870,13 @@ msgstr[0] "<b>%d</b> 个立方体共享<b>有限</b>消失点；按下 <b>Shift<
 #, c-format
 msgid "<b>Infinite</b> vanishing point shared by <b>%d</b> box"
 msgid_plural "<b>Infinite</b> vanishing point shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box(es)"
-msgstr[0] "<b>%d</b> 个立方体共享<b>无限</b>消失点；按下 <b>Shift</b> 拖动以分开选定的多个立方体"
+msgstr[0] "<b>%d</b> 个盒子共享<b>无限</b>消失点；按下 <b>Shift</b> 拖动以分开选定的多个盒子"
 
 #: ../src/vanishing-point.cpp:345
 #, c-format
 msgid "shared by <b>%d</b> box; drag with <b>Shift</b> to separate selected box(es)"
 msgid_plural "shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box(es)"
-msgstr[0] "由<b>%d</b>个立方体共享；按住 <b>Shift</b> 拖动以分离选中的多个立方体"
+msgstr[0] "由 <b>%d</b> 个盒子共享；按住 <b>Shift</b> 拖动以分离选中的多个盒子"
 
 #: ../src/verbs.cpp:137
 msgid "File"
@@ -24343,7 +24343,7 @@ msgstr "断开克隆(_K)"
 
 #: ../src/verbs.cpp:2473
 msgid "Cut the selected clones' links to the originals, turning them into standalone objects"
-msgstr "断开已选克隆与原始对象的链接, 分别转化成单独的对象"
+msgstr "断开已选克隆与原始对象的链接，分别转化成单独的对象"
 
 #: ../src/verbs.cpp:2474
 msgid "Relink to Copied"
@@ -24363,11 +24363,11 @@ msgstr "选择与已选克隆链接的对象"
 
 #: ../src/verbs.cpp:2478
 msgid "Clone original path (LPE)"
-msgstr "克隆原始路径 (LPE)"
+msgstr "克隆原始路径（LPE）"
 
 #: ../src/verbs.cpp:2479
 msgid "Creates a new path, applies the Clone original LPE, and refers it to the selected path"
-msgstr "创建一个新路径，应用克隆原始 LPE，并引用它到选择的路径"
+msgstr "创建一个新路径，应用克隆的原始 LPE，并引用它到选择的路径"
 
 #: ../src/verbs.cpp:2480
 msgid "Objects to _Marker"
@@ -24471,7 +24471,7 @@ msgstr "笔廓样式(_Y)"
 
 #: ../src/verbs.cpp:2505
 msgid "Select all objects with the same stroke style (width, dash, markers) as the selected objects"
-msgstr "选择所有带有相同笔廓样式（宽度，画线、标记）的对象为选择的对象"
+msgstr "选择所有带有相同笔廓样式（宽度、画线、标记）的对象为选择的对象"
 
 #: ../src/verbs.cpp:2506
 msgid "_Object Type"
@@ -24487,7 +24487,7 @@ msgstr "反选(_V)"
 
 #: ../src/verbs.cpp:2509
 msgid "Invert selection (unselect what is selected and select everything else)"
-msgstr "反向选择(取消选择的, 选择其它的)"
+msgstr "反向选择（取消选中的，选择其余的）"
 
 #: ../src/verbs.cpp:2510
 msgid "Invert in All Layers"
@@ -24531,7 +24531,7 @@ msgstr "环绕页面创建参考线(_G)"
 
 #: ../src/verbs.cpp:2521
 msgid "Create four guides aligned with the page borders"
-msgstr "沿页面边界创建4条参考线"
+msgstr "沿页面边界创建四条参考线"
 
 #: ../src/verbs.cpp:2522
 msgid "Next path effect parameter"
@@ -24734,7 +24734,7 @@ msgstr "简化(_M)"
 
 #: ../src/verbs.cpp:2593
 msgid "Simplify selected paths (remove extra nodes)"
-msgstr "简化已选路径(移除额外的节点)"
+msgstr "简化已选路径（移除多余节点）"
 
 #: ../src/verbs.cpp:2594
 msgid "_Reverse"
@@ -24742,19 +24742,19 @@ msgstr "反向(_R)"
 
 #: ../src/verbs.cpp:2595
 msgid "Reverse the direction of selected paths (useful for flipping markers)"
-msgstr "将所选路径反向(可以翻转标记的方向)"
+msgstr "将所选路径反向（可以翻转标记的方向）"
 
 #: ../src/verbs.cpp:2598
 msgid "Create one or more paths from a bitmap by tracing it"
-msgstr "通过提取位图轮廓创建一个或多个路径"
+msgstr "通过临摹位图轮廓创建一个或多个路径"
 
 #: ../src/verbs.cpp:2599
 msgid "Trace Pixel Art..."
-msgstr "临摹像素艺术…"
+msgstr "临摹像素画…"
 
 #: ../src/verbs.cpp:2600
 msgid "Create paths using Kopf-Lischinski algorithm to vectorize pixel art"
-msgstr "使用 Kopf-Lischinski 算法创建路径来矢量化像素艺术"
+msgstr "使用 Kopf-Lischinski 算法创建路径来矢量化像素画"
 
 #: ../src/verbs.cpp:2601
 msgid "Make a _Bitmap Copy"
@@ -24762,7 +24762,7 @@ msgstr "制作一个位图副本(_B)"
 
 #: ../src/verbs.cpp:2602
 msgid "Export selection to a bitmap and insert it into document"
-msgstr "把选区导出到位图, 然后在加入文档"
+msgstr "把选区导出到位图，然后再加入文档"
 
 #: ../src/verbs.cpp:2603
 msgid "_Combine"
@@ -24788,7 +24788,7 @@ msgstr "安排(_A)…"
 
 #: ../src/verbs.cpp:2610
 msgid "Arrange selected objects in a table or circle"
-msgstr "在一个表格或圆圈中排列选择的对象"
+msgstr "在一个表格或圆圈中安排选择的对象"
 
 #. Layer
 #: ../src/verbs.cpp:2612
@@ -24877,7 +24877,7 @@ msgstr "降低当前层"
 
 #: ../src/verbs.cpp:2634
 msgid "D_uplicate Current Layer"
-msgstr "复制当前图层(_U)"
+msgstr "再制当前图层(_U)"
 
 #: ../src/verbs.cpp:2635
 msgid "Duplicate an existing layer"
@@ -24998,7 +24998,7 @@ msgstr "浮动转化成框架(_F)"
 
 #: ../src/verbs.cpp:2669
 msgid "Put text into a frame (path or shape), creating a flowed text linked to the frame object"
-msgstr "把文字放到框架(路径或形状)里, 创建链接到框架对象的浮动文字"
+msgstr "把文字放到框架（路径或形形状）里，创建链接到框架对象的浮动文字"
 
 #: ../src/verbs.cpp:2670
 msgid "_Unflow"
@@ -25006,7 +25006,7 @@ msgstr "解除浮动(_U)"
 
 #: ../src/verbs.cpp:2671
 msgid "Remove text from frame (creates a single-line text object)"
-msgstr "从框架中移除文字(创建一个单行文字对象)"
+msgstr "从框架中移除文字（创建一个单行文字对象）"
 
 #: ../src/verbs.cpp:2672
 msgid "_Convert to Text"
@@ -25014,7 +25014,7 @@ msgstr "转换为文字(_C)"
 
 #: ../src/verbs.cpp:2673
 msgid "Convert flowed text to regular text object (preserves appearance)"
-msgstr "把浮动文字转化成一般文字对象(保持外观)"
+msgstr "把浮动文字转化成一般文字对象（保持外观）"
 
 #: ../src/verbs.cpp:2675
 msgid "Flip _Horizontal"
@@ -25034,7 +25034,7 @@ msgstr "垂直地翻转已选对象"
 
 #: ../src/verbs.cpp:2681
 msgid "Apply mask to selection (using the topmost object as mask)"
-msgstr "应用蒙版到选区(使用最顶层对象作为蒙版)"
+msgstr "应用蒙版到选区（用最顶层对象作为蒙版）"
 
 #: ../src/verbs.cpp:2683
 msgid "Edit mask"
@@ -25050,7 +25050,7 @@ msgstr "从选区中移除蒙版"
 
 #: ../src/verbs.cpp:2687
 msgid "Apply clipping path to selection (using the topmost object as clipping path)"
-msgstr "应用剪裁路径到选区(使用最顶层对象作为剪裁路径)"
+msgstr "应用剪裁路径到选区（使用最顶层对象作为剪裁路径）"
 
 #: ../src/verbs.cpp:2688
 msgid "Create Cl_ip Group"
@@ -25117,11 +25117,11 @@ msgstr "创建矩形或正方形"
 #: ../src/verbs.cpp:2708
 msgctxt "ContextVerb"
 msgid "3D Box"
-msgstr "3D盒子"
+msgstr "3D 盒子"
 
 #: ../src/verbs.cpp:2709
 msgid "Create 3D boxes"
-msgstr "创建立方体"
+msgstr "创建 3D 盒子"
 
 #: ../src/verbs.cpp:2710
 msgctxt "ContextVerb"
@@ -25130,7 +25130,7 @@ msgstr "椭圆"
 
 #: ../src/verbs.cpp:2711
 msgid "Create circles, ellipses, and arcs"
-msgstr "创建圆, 椭圆或圆弧"
+msgstr "创建圆、椭圆或圆弧"
 
 #: ../src/verbs.cpp:2712
 msgctxt "ContextVerb"
@@ -25171,7 +25171,7 @@ msgstr "绘制贝塞尔曲线和直线"
 #: ../src/verbs.cpp:2720
 msgctxt "ContextVerb"
 msgid "Calligraphy"
-msgstr "笔刷"
+msgstr "书法"
 
 #: ../src/verbs.cpp:2721
 msgid "Draw calligraphic or brush strokes"
@@ -25265,19 +25265,19 @@ msgstr "执行几何构造"
 #. Tool prefs
 #: ../src/verbs.cpp:2745
 msgid "Selector Preferences"
-msgstr "选择器偏好设置"
+msgstr "选择器首选项"
 
 #: ../src/verbs.cpp:2746
 msgid "Open Preferences for the Selector tool"
-msgstr "打开选择工具的偏好设置"
+msgstr "打开选择工具的首选项"
 
 #: ../src/verbs.cpp:2747
 msgid "Node Tool Preferences"
-msgstr "节点工具偏好设置"
+msgstr "节点工具首选项"
 
 #: ../src/verbs.cpp:2748
 msgid "Open Preferences for the Node tool"
-msgstr "打开节点工具的偏好设置"
+msgstr "打开节点工具的首选项"
 
 #: ../src/verbs.cpp:2749
 msgid "Tweak Tool Preferences"
@@ -25285,7 +25285,7 @@ msgstr "扭曲工具设置"
 
 #: ../src/verbs.cpp:2750
 msgid "Open Preferences for the Tweak tool"
-msgstr "打开扭曲工具设置"
+msgstr "打开扭曲工具的首选项"
 
 #: ../src/verbs.cpp:2751
 msgid "Spray Tool Preferences"
@@ -25293,87 +25293,87 @@ msgstr "喷绘工具设置"
 
 #: ../src/verbs.cpp:2752
 msgid "Open Preferences for the Spray tool"
-msgstr "打开喷绘工具的偏好设置"
+msgstr "打开喷绘工具的首选项"
 
 #: ../src/verbs.cpp:2753
 msgid "Rectangle Preferences"
-msgstr "矩形偏好设置"
+msgstr "矩形首选项"
 
 #: ../src/verbs.cpp:2754
 msgid "Open Preferences for the Rectangle tool"
-msgstr "打开矩形工具的偏好设置"
+msgstr "打开矩形工具的首选项"
 
 #: ../src/verbs.cpp:2755
 msgid "3D Box Preferences"
-msgstr "立方体设置"
+msgstr "3D 盒子设置"
 
 #: ../src/verbs.cpp:2756
 msgid "Open Preferences for the 3D Box tool"
-msgstr "打开立方体设置工具"
+msgstr "打开 3D 盒子的首选项"
 
 #: ../src/verbs.cpp:2757
 msgid "Ellipse Preferences"
-msgstr "椭圆偏好设置"
+msgstr "椭圆首选项"
 
 #: ../src/verbs.cpp:2758
 msgid "Open Preferences for the Ellipse tool"
-msgstr "打开椭圆工具的偏好设置"
+msgstr "打开椭圆工具的首选项"
 
 #: ../src/verbs.cpp:2759
 msgid "Star Preferences"
-msgstr "星形偏好设置"
+msgstr "星形首选项"
 
 #: ../src/verbs.cpp:2760
 msgid "Open Preferences for the Star tool"
-msgstr "打开星形工具的偏好设置"
+msgstr "打开星形工具的首选项"
 
 #: ../src/verbs.cpp:2761
 msgid "Spiral Preferences"
-msgstr "螺旋偏好设置"
+msgstr "螺旋首选项"
 
 #: ../src/verbs.cpp:2762
 msgid "Open Preferences for the Spiral tool"
-msgstr "打开螺旋工具的偏好设置"
+msgstr "打开螺旋工具的首选项"
 
 #: ../src/verbs.cpp:2763
 msgid "Pencil Preferences"
-msgstr "铅笔偏好设置"
+msgstr "铅笔首选项"
 
 #: ../src/verbs.cpp:2764
 msgid "Open Preferences for the Pencil tool"
-msgstr "打开铅笔工具的偏好设置"
+msgstr "打开铅笔工具的首选项"
 
 #: ../src/verbs.cpp:2765
 msgid "Pen Preferences"
-msgstr "钢笔偏好设置"
+msgstr "钢笔首选项"
 
 #: ../src/verbs.cpp:2766
 msgid "Open Preferences for the Pen tool"
-msgstr "打开钢笔工具的偏好设置"
+msgstr "打开钢笔工具的首选项"
 
 #: ../src/verbs.cpp:2767
 msgid "Calligraphic Preferences"
-msgstr "笔刷偏好设置"
+msgstr "书法首选项"
 
 #: ../src/verbs.cpp:2768
 msgid "Open Preferences for the Calligraphy tool"
-msgstr "打开笔刷工具的偏好设置"
+msgstr "打开书法工具的首选项"
 
 #: ../src/verbs.cpp:2769
 msgid "Text Preferences"
-msgstr "文字偏好设置"
+msgstr "文字首选项"
 
 #: ../src/verbs.cpp:2770
 msgid "Open Preferences for the Text tool"
-msgstr "打开文字工具的偏好设置"
+msgstr "打开文字工具的首选项"
 
 #: ../src/verbs.cpp:2771
 msgid "Gradient Preferences"
-msgstr "渐变偏好设置"
+msgstr "渐变首选项"
 
 #: ../src/verbs.cpp:2772
 msgid "Open Preferences for the Gradient tool"
-msgstr "打开渐变工具的偏好设置"
+msgstr "打开渐变工具的首选项"
 
 #: ../src/verbs.cpp:2773
 msgid "Mesh Preferences"
@@ -25385,11 +25385,11 @@ msgstr "打开网状工具的首选项"
 
 #: ../src/verbs.cpp:2775
 msgid "Zoom Preferences"
-msgstr "缩放偏好设置"
+msgstr "缩放首选项"
 
 #: ../src/verbs.cpp:2776
 msgid "Open Preferences for the Zoom tool"
-msgstr "打开缩放工具的偏好设置"
+msgstr "打开缩放工具的首选项"
 
 #: ../src/verbs.cpp:2777
 msgid "Measure Preferences"
@@ -25401,19 +25401,19 @@ msgstr "打开测量工具的首选项"
 
 #: ../src/verbs.cpp:2779
 msgid "Dropper Preferences"
-msgstr "取色器偏好设置"
+msgstr "取色器首选项"
 
 #: ../src/verbs.cpp:2780
 msgid "Open Preferences for the Dropper tool"
-msgstr "打开取色器工具的偏好设置"
+msgstr "打开取色器工具的首选项"
 
 #: ../src/verbs.cpp:2781
 msgid "Connector Preferences"
-msgstr "连接器偏好设置"
+msgstr "连接器首选项"
 
 #: ../src/verbs.cpp:2782
 msgid "Open Preferences for the Connector tool"
-msgstr "打开连接器工具的偏好设置"
+msgstr "打开连接器工具的首选项"
 
 #: ../src/verbs.cpp:2783
 msgid "Paint Bucket Preferences"
@@ -25429,7 +25429,7 @@ msgstr "橡皮擦配置"
 
 #: ../src/verbs.cpp:2786
 msgid "Open Preferences for the Eraser tool"
-msgstr "打开橡皮擦工具的偏好设置"
+msgstr "打开橡皮擦工具的首选项"
 
 #: ../src/verbs.cpp:2787
 msgid "LPE Tool Preferences"
@@ -25437,7 +25437,7 @@ msgstr "LPE 工具首选项"
 
 #: ../src/verbs.cpp:2788
 msgid "Open Preferences for the LPETool tool"
-msgstr "打开LPE工具的偏好设置"
+msgstr "打开 LPE 工具的首选项"
 
 #. Zoom/View
 #: ../src/verbs.cpp:2790
@@ -25486,7 +25486,7 @@ msgstr "标尺(_U)"
 
 #: ../src/verbs.cpp:2795
 msgid "Show or hide guides (drag from a ruler to create a guide)"
-msgstr "显示或隐藏参考线(从尺子拖动创建标尺)"
+msgstr "显示或隐藏参考线（从标尺拖动即可创建）"
 
 #: ../src/verbs.cpp:2796
 msgid "Enable snapping"
@@ -25498,7 +25498,7 @@ msgstr "命令栏(_C)"
 
 #: ../src/verbs.cpp:2797
 msgid "Show or hide the Commands bar (under the menu)"
-msgstr "显示或隐藏命令栏(在菜单下)"
+msgstr "显示或隐藏命令栏（到菜单下）"
 
 #: ../src/verbs.cpp:2798
 msgid "Sn_ap Controls Bar"
@@ -25522,7 +25522,7 @@ msgstr "工具箱(_T)"
 
 #: ../src/verbs.cpp:2800
 msgid "Show or hide the main toolbox (on the left)"
-msgstr "显示或隐藏主工具箱(在左边)"
+msgstr "显示或隐藏主工具箱（到左边）"
 
 #: ../src/verbs.cpp:2801
 msgid "_Palette"
@@ -25538,7 +25538,7 @@ msgstr "状态栏(_S)"
 
 #: ../src/verbs.cpp:2802
 msgid "Show or hide the statusbar (at the bottom of the window)"
-msgstr "显示或隐藏状态栏(在窗口底部)"
+msgstr "显示或隐藏状态栏（到窗口底部）"
 
 #: ../src/verbs.cpp:2803
 msgid "Nex_t Zoom"
@@ -25546,7 +25546,7 @@ msgstr "下一缩放(_T)"
 
 #: ../src/verbs.cpp:2803
 msgid "Next zoom (from the history of zooms)"
-msgstr "下一缩放(来自缩放历史)"
+msgstr "下一缩放（来自缩放历史）"
 
 #: ../src/verbs.cpp:2805
 msgid "Pre_vious Zoom"
@@ -25554,7 +25554,7 @@ msgstr "前一缩放(_V)"
 
 #: ../src/verbs.cpp:2805
 msgid "Previous zoom (from the history of zooms)"
-msgstr "前一缩放(来自缩放历史)"
+msgstr "前一缩放（来自缩放历史）"
 
 #: ../src/verbs.cpp:2807
 msgid "Zoom 1:_1"
@@ -25598,11 +25598,11 @@ msgstr "切换激活模式(_F)"
 
 #: ../src/verbs.cpp:2819
 msgid "Remove excess toolbars to focus on drawing"
-msgstr "移除过多的工具栏, 以专注于绘图"
+msgstr "移除过多的工具栏，以专注于绘图"
 
 #: ../src/verbs.cpp:2821
 msgid "Duplic_ate Window"
-msgstr "复制窗口(_A)"
+msgstr "再制窗口(_A)"
 
 #: ../src/verbs.cpp:2821
 msgid "Open a new window with the same document"
@@ -25631,7 +25631,7 @@ msgstr "无滤镜(_F)"
 
 #: ../src/verbs.cpp:2829
 msgid "Switch to normal display without filters"
-msgstr "切换到正常显示模式, 不显示滤镜"
+msgstr "切换到正常显示模式，不显示滤镜"
 
 #: ../src/verbs.cpp:2830
 msgid "_Outline"
@@ -25649,7 +25649,7 @@ msgstr "切换(_T)"
 
 #: ../src/verbs.cpp:2833
 msgid "Toggle between normal and outline display modes"
-msgstr "在普通和线框显示模式之间切换"
+msgstr "在普通和轮廓显示模式之间切换"
 
 #: ../src/verbs.cpp:2835
 msgid "Switch to normal color display mode"
@@ -25706,11 +25706,11 @@ msgstr "缩放选区以适合窗口"
 #. Dialogs
 #: ../src/verbs.cpp:2858
 msgid "P_references..."
-msgstr "偏好设置(_P)…"
+msgstr "首选项(_P)…"
 
 #: ../src/verbs.cpp:2859
 msgid "Edit global Inkscape preferences"
-msgstr "编辑 Inkscape 全局参数"
+msgstr "编辑 Inkscape 全局首选项"
 
 #: ../src/verbs.cpp:2860
 msgid "_Document Properties..."
@@ -25718,7 +25718,7 @@ msgstr "文档属性(_D)…"
 
 #: ../src/verbs.cpp:2861
 msgid "Edit properties of this document (to be saved with the document)"
-msgstr "编辑文档的属性(同文档一起保存)"
+msgstr "编辑文档的属性（同文档一起保存）"
 
 #: ../src/verbs.cpp:2862
 msgid "Document _Metadata..."
@@ -25726,7 +25726,7 @@ msgstr "文档元数据(_M)…"
 
 #: ../src/verbs.cpp:2863
 msgid "Edit document metadata (to be saved with the document)"
-msgstr "编辑文档元数据(同文档一起保存)"
+msgstr "编辑文档元数据（同文档一起保存）"
 
 #: ../src/verbs.cpp:2865
 msgid "Edit objects' colors, gradients, arrowheads, and other fill and stroke properties..."
@@ -25793,7 +25793,7 @@ msgstr "撤销历史"
 
 #: ../src/verbs.cpp:2884
 msgid "View and select font family, font size and other text properties"
-msgstr "显示选择字体名称, 字体大小和其它字体属性"
+msgstr "显示选择字体名称、字体大小和其它文本属性"
 
 #: ../src/verbs.cpp:2885
 msgid "_XML Editor..."
@@ -25805,7 +25805,7 @@ msgstr "显示并编辑文档的 XML 树"
 
 #: ../src/verbs.cpp:2887
 msgid "_Find/Replace..."
-msgstr "查找和替换(_F)…"
+msgstr "查找/替换(_F)…"
 
 #: ../src/verbs.cpp:2888
 msgid "Find objects in document"
@@ -25813,7 +25813,7 @@ msgstr "查找文档中的对象"
 
 #: ../src/verbs.cpp:2889
 msgid "Find and _Replace Text..."
-msgstr "查找与替换文本(_R)…"
+msgstr "查找并替换文本(_R)…"
 
 #: ../src/verbs.cpp:2890
 msgid "Find and replace text in document"
@@ -25845,7 +25845,7 @@ msgstr "创建平铺克隆…"
 
 #: ../src/verbs.cpp:2898
 msgid "Create multiple clones of selected object, arranging them into a pattern or scattering"
-msgstr "创建选择对象的多个克隆, 按照图案或者分散的排列"
+msgstr "创建选择对象的多个克隆, 按照图案或者分散的安排"
 
 #: ../src/verbs.cpp:2899
 msgid "_Object attributes..."
@@ -25857,7 +25857,7 @@ msgstr "编辑对象属性…"
 
 #: ../src/verbs.cpp:2902
 msgid "Edit the ID, locked and visible status, and other object properties"
-msgstr "编辑对象的 ID, 锁定和可见状态, 以及其它属性"
+msgstr "编辑对象的 ID、锁定和可见状态、以及其它属性"
 
 #: ../src/verbs.cpp:2903
 msgid "_Input Devices..."
@@ -25865,7 +25865,7 @@ msgstr "输入设备(_I)"
 
 #: ../src/verbs.cpp:2904
 msgid "Configure extended input devices, such as a graphics tablet"
-msgstr "配置扩展输入设备, 例如绘图板"
+msgstr "配置扩展输入设备，例如绘图板"
 
 #: ../src/verbs.cpp:2905
 msgid "_Extensions..."
@@ -25877,11 +25877,11 @@ msgstr "查询扩展的信息"
 
 #: ../src/verbs.cpp:2907
 msgid "Layer_s..."
-msgstr "层(_S)…"
+msgstr "图层(_S)…"
 
 #: ../src/verbs.cpp:2908
 msgid "View Layers"
-msgstr "显示层"
+msgstr "显示图层"
 
 #: ../src/verbs.cpp:2909
 msgid "Object_s..."
@@ -25893,7 +25893,7 @@ msgstr "查看对象"
 
 #: ../src/verbs.cpp:2911
 msgid "Selection se_ts..."
-msgstr "选择集合(_T)…"
+msgstr "选区集合(_T)…"
 
 #: ../src/verbs.cpp:2912
 msgid "View Tags"
@@ -25905,7 +25905,7 @@ msgstr "路径效果(_F)…"
 
 #: ../src/verbs.cpp:2914
 msgid "Manage, edit, and apply path effects"
-msgstr "管理, 编辑并应用路径效果"
+msgstr "管理、编辑并应用路径效果"
 
 #: ../src/verbs.cpp:2915
 msgid "Filter _Editor..."
@@ -25913,7 +25913,7 @@ msgstr "滤镜编辑器(_E)…"
 
 #: ../src/verbs.cpp:2916
 msgid "Manage, edit, and apply SVG filters"
-msgstr "管理, 编辑, 并应用SVG滤镜效果"
+msgstr "管理、编辑并应用 SVG 滤镜效果"
 
 #: ../src/verbs.cpp:2917
 msgid "SVG Font Editor..."
@@ -25921,7 +25921,7 @@ msgstr "SVG 字体编辑器…"
 
 #: ../src/verbs.cpp:2918
 msgid "Edit SVG fonts"
-msgstr "修改SVG字体"
+msgstr "编辑 SVG 字体"
 
 #: ../src/verbs.cpp:2919
 msgid "Print Colors..."
@@ -25929,7 +25929,7 @@ msgstr "打印色彩…"
 
 #: ../src/verbs.cpp:2920
 msgid "Select which color separations to render in Print Colors Preview rendermode"
-msgstr "选择要分离出来使用“打印颜色预览”渲染模式渲染的颜色"
+msgstr "选择要使用“打印颜色预览”渲染模式渲染的色彩分离模式"
 
 #: ../src/verbs.cpp:2921
 msgid "_Export PNG Image..."
@@ -25937,7 +25937,7 @@ msgstr "导出 PNG 图像(_E)…"
 
 #: ../src/verbs.cpp:2922
 msgid "Export this document or a selection as a PNG image"
-msgstr "导出本文档或一个选择内容为 PNG 图像"
+msgstr "导出本文档或选区为 PNG 图像"
 
 #. Help
 #: ../src/verbs.cpp:2924
@@ -25962,7 +25962,7 @@ msgstr "关于 Inkscape(_A)"
 
 #: ../src/verbs.cpp:2929
 msgid "Inkscape version, authors, license"
-msgstr "Inscape 版本，作者，许可"
+msgstr "Inscape 版本、作者、许可"
 
 #. new HelpVerb(SP_VERB_SHOW_LICENSE, "ShowLicense", N_("_License"),
 #. N_("Distribution terms"), /*"show_license"*/"inkscape_options"),
@@ -25978,7 +25978,7 @@ msgstr "开始学习 Inkscape"
 #. "tutorial_basic"
 #: ../src/verbs.cpp:2936
 msgid "Inkscape: _Shapes"
-msgstr "InkscapeL：形状(_S)"
+msgstr "Inkscape：形状(_S)"
 
 #: ../src/verbs.cpp:2937
 msgid "Using shape tools to create and edit shapes"
@@ -25990,26 +25990,26 @@ msgstr "Inkscape：高级(_A)"
 
 #: ../src/verbs.cpp:2939
 msgid "Advanced Inkscape topics"
-msgstr "高级 Inkscape 主题"
+msgstr "高级 Inkscape 话题"
 
 #. "tutorial_advanced"
 #. TRANSLATORS: "to trace" means "to convert a bitmap to vector graphics" (to vectorize)
 #: ../src/verbs.cpp:2941
 msgid "Inkscape: T_racing"
-msgstr "Inkscape：笔廓(_R)"
+msgstr "Inkscape：临摹(_R)"
 
 #: ../src/verbs.cpp:2942
 msgid "Using bitmap tracing"
-msgstr "位图追踪"
+msgstr "位图临摹"
 
 #. "tutorial_tracing"
 #: ../src/verbs.cpp:2943
 msgid "Inkscape: Tracing Pixel Art"
-msgstr "Inkscape：笔廓剪贴画"
+msgstr "Inkscape：临摹像素画"
 
 #: ../src/verbs.cpp:2944
 msgid "Using Trace Pixel Art dialog"
-msgstr "使用临摹像素艺术对话框"
+msgstr "使用临摹像素画对话框"
 
 #: ../src/verbs.cpp:2945
 msgid "Inkscape: _Calligraphy"
@@ -26017,7 +26017,7 @@ msgstr "Inkscape：书法(_C)"
 
 #: ../src/verbs.cpp:2946
 msgid "Using the Calligraphy pen tool"
-msgstr "使用笔刷工具"
+msgstr "使用书法工具"
 
 #: ../src/verbs.cpp:2947
 msgid "Inkscape: _Interpolate"
@@ -26210,7 +26210,7 @@ msgstr "把形状做成整个椭圆, 不是弧或线段"
 #. TODO: use the correct axis here, too
 #: ../src/widgets/box3d-toolbar.cpp:233
 msgid "3D Box: Change perspective (angle of infinite axis)"
-msgstr "立方体:改变透视 (无限轴的角度)"
+msgstr "3D 盒子：改变透视 (无限轴的角度)"
 
 #: ../src/widgets/box3d-toolbar.cpp:302
 msgid "Angle in X direction"
@@ -26309,7 +26309,7 @@ msgstr "笔宽"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:431
 msgid "The width of the calligraphic pen (relative to the visible canvas area)"
-msgstr "笔刷宽度(相对于可见画布面积)"
+msgstr "书法笔刷宽度(相对于可见画布面积)"
 
 #. Thinning
 #: ../src/widgets/calligraphy-toolbar.cpp:444
@@ -27600,7 +27600,7 @@ msgstr "默认"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:212
 msgid "Reset paint bucket parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置油漆桶参数为默认值（使用“Inkscape 偏好设置 > 工具”来改变默认值）"
+msgstr "重置油漆桶参数为默认值（使用“Inkscape 首选项 > 工具”来改变默认值）"
 
 #: ../src/widgets/pencil-toolbar.cpp:108
 msgid "Bezier"
@@ -27689,7 +27689,7 @@ msgstr "线的光滑(简化)程度"
 
 #: ../src/widgets/pencil-toolbar.cpp:399
 msgid "Reset pencil parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置铅笔的参数为默认值（使用“Inkscape 偏好设置 > 工具”来改变默认值)"
+msgstr "重置铅笔的参数为默认值（使用“Inkscape 首选项 > 工具”来改变默认值)"
 
 #: ../src/widgets/pencil-toolbar.cpp:409 ../src/widgets/pencil-toolbar.cpp:410
 msgid "LPE based interactive simplify"
@@ -28007,7 +28007,7 @@ msgstr "内部最小转数半径(相对于螺旋尺寸)"
 
 #: ../src/widgets/spiral-toolbar.cpp:286 ../src/widgets/star-toolbar.cpp:565
 msgid "Reset shape parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置形状参数为默认值（使用“Inkscape 偏好设置 > 工具”来改变默认值）"
+msgstr "重置形状参数为默认值（使用“Inkscape 首选项 > 工具”来改变默认值）"
 
 #. Width
 #: ../src/widgets/spray-toolbar.cpp:113
@@ -28661,7 +28661,7 @@ msgstr "新矩形的样式"
 
 #: ../src/widgets/toolbox.cpp:189
 msgid "Style of new 3D boxes"
-msgstr "新立方体的样式"
+msgstr "新 3D 盒子的样式"
 
 #: ../src/widgets/toolbox.cpp:191
 msgid "Style of new ellipses"
@@ -31189,7 +31189,7 @@ msgstr "深度函数:"
 #: ../share/extensions/gcodetools_lathe.inx.h:17
 #: ../share/extensions/gcodetools_path_to_gcode.inx.h:6
 msgid "Sort paths to reduse rapid distance"
-msgstr "排列路径以减少快速移动距离"
+msgstr "排序路径以减少快速移动距离"
 
 #: ../share/extensions/gcodetools_area.inx.h:25
 #: ../share/extensions/gcodetools_lathe.inx.h:18
@@ -32586,7 +32586,7 @@ msgstr "插值方式:"
 
 #: ../share/extensions/interp.inx.h:5
 msgid "Duplicate endpaths"
-msgstr "复制一份终点路径"
+msgstr "再制一份终点路径"
 
 #: ../share/extensions/interp.inx.h:6
 msgid "Interpolate style"
@@ -33629,7 +33629,7 @@ msgstr "图案是垂直的"
 #: ../share/extensions/pathalongpath.inx.h:9
 #: ../share/extensions/pathscatter.inx.h:10
 msgid "Duplicate the pattern before deformation"
-msgstr "变形前复制图案"
+msgstr "变形前再制图案"
 
 #: ../share/extensions/pathalongpath.inx.h:14
 msgid "Snake"
@@ -34088,7 +34088,7 @@ msgstr "绘制背面多边形"
 
 #: ../share/extensions/polyhedron_3d.inx.h:49
 msgid "Z-sort faces by:"
-msgstr "Z 排列面依据："
+msgstr "Z 排序面依据："
 
 #: ../share/extensions/polyhedron_3d.inx.h:50
 msgid "Faces"
