@@ -15,8 +15,8 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 02:32-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2015-11-27 01:46-0700\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,4750,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4830,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -21695,32 +21695,32 @@ msgstr "收回控制柄"
 #: ../src/ui/tool/transform-handle-set.cpp:203
 msgctxt "Transform handle tip"
 msgid "<b>Shift+Ctrl</b>: scale uniformly about the rotation center"
-msgstr "<b>Shift+Ctrl</b>: 从中心开始均匀缩放"
+msgstr "<b>Shift+Ctrl</b>：根据旋转中心均匀缩放"
 
 #: ../src/ui/tool/transform-handle-set.cpp:205
 msgctxt "Transform handle tip"
 msgid "<b>Ctrl:</b> scale uniformly"
-msgstr "<b>Ctrl:</b> 均匀缩放"
+msgstr "<b>Ctrl：</b>均匀缩放"
 
 #: ../src/ui/tool/transform-handle-set.cpp:210
 msgctxt "Transform handle tip"
 msgid "<b>Shift+Alt</b>: scale using an integer ratio about the rotation center"
-msgstr "<b>Shift+Alt</b>:从中心开始整数比率缩放"
+msgstr "<b>Shift+Alt</b>：根据旋转中心以整数比率缩放"
 
 #: ../src/ui/tool/transform-handle-set.cpp:212
 msgctxt "Transform handle tip"
 msgid "<b>Shift</b>: scale from the rotation center"
-msgstr "<b>Shift</b>: 从中心开始缩放"
+msgstr "<b>Shift</b>：根据旋转中心缩放"
 
 #: ../src/ui/tool/transform-handle-set.cpp:215
 msgctxt "Transform handle tip"
 msgid "<b>Alt</b>: scale using an integer ratio"
-msgstr "<b>Alt</b>: 整数比率缩放"
+msgstr "<b>Alt</b>：以整数比率缩放"
 
 #: ../src/ui/tool/transform-handle-set.cpp:217
 msgctxt "Transform handle tip"
 msgid "<b>Scale handle</b>: drag to scale the selection"
-msgstr "<b>缩放控制柄</b>：拖动缩放选中对象"
+msgstr "<b>缩放控制柄</b>：拖动以缩放选中对象"
 
 #: ../src/ui/tool/transform-handle-set.cpp:222
 #, c-format
@@ -21732,23 +21732,23 @@ msgstr "按 %.2f%% x %.2f%% 缩放"
 #, c-format
 msgctxt "Transform handle tip"
 msgid "<b>Shift+Ctrl</b>: rotate around the opposite corner and snap angle to %f° increments"
-msgstr "<b>Shift+Ctrl</b>: 绕对角旋转并且吸附角度增量为 %f° "
+msgstr "<b>Shift+Ctrl</b>：绕对角旋转并以增量 %f° 的角度"
 
 #: ../src/ui/tool/transform-handle-set.cpp:452
 msgctxt "Transform handle tip"
 msgid "<b>Shift</b>: rotate around the opposite corner"
-msgstr "<b>Shift</b>: 围绕对角旋转"
+msgstr "<b>Shift</b>：围绕对角旋转"
 
 #: ../src/ui/tool/transform-handle-set.cpp:456
 #, c-format
 msgctxt "Transform handle tip"
 msgid "<b>Ctrl</b>: snap angle to %f° increments"
-msgstr "<b>Ctrl</b>:吸附角度增量  %f° "
+msgstr "<b>Ctrl</b>：吸附增量为 %f° 的角度"
 
 #: ../src/ui/tool/transform-handle-set.cpp:458
 msgctxt "Transform handle tip"
 msgid "<b>Rotation handle</b>: drag to rotate the selection around the rotation center"
-msgstr "<b>旋转控制柄</b>: 拖动使选择对象绕旋转中心旋转"
+msgstr "<b>旋转控制柄</b>：拖动以根据中心旋转选中对象"
 
 #. event
 #: ../src/ui/tool/transform-handle-set.cpp:463
@@ -21761,146 +21761,146 @@ msgstr "旋转 %.2f°"
 #, c-format
 msgctxt "Transform handle tip"
 msgid "<b>Shift+Ctrl</b>: skew about the rotation center with snapping to %f° increments"
-msgstr "<b>Shift+Ctrl</b>: 绕旋转中心旋转并且吸附角度增量为 %f°"
+msgstr "<b>Shift+Ctrl</b>：绕旋转中心旋转并吸附增量为 %f° 的角度"
 
 #: ../src/ui/tool/transform-handle-set.cpp:591
 msgctxt "Transform handle tip"
 msgid "<b>Shift</b>: skew about the rotation center"
-msgstr "<b>Shift</b>: 关于旋转中心的偏移"
+msgstr "<b>Shift</b>：根据旋转中心扭曲"
 
 #: ../src/ui/tool/transform-handle-set.cpp:595
 #, c-format
 msgctxt "Transform handle tip"
 msgid "<b>Ctrl</b>: snap skew angle to %f° increments"
-msgstr "<b>Ctrl</b>:吸附角度增量  %f°"
+msgstr "<b>Ctrl</b>：吸附增量为 %f° 的角度"
 
 #: ../src/ui/tool/transform-handle-set.cpp:598
 msgctxt "Transform handle tip"
 msgid "<b>Skew handle</b>: drag to skew (shear) selection about the opposite handle"
-msgstr "<b>扭转控制柄</b>: 拖动使选择对象绕相对的控制柄旋转 (切变)"
+msgstr "<b>扭转控制柄</b>：拖动以根据相对控制柄扭曲（切变）选中对象"
 
 #: ../src/ui/tool/transform-handle-set.cpp:604
 #, c-format
 msgctxt "Transform handle tip"
 msgid "Skew horizontally by %.2f°"
-msgstr "水平倾斜 %.2f°"
+msgstr "水平扭曲 %.2f°"
 
 #: ../src/ui/tool/transform-handle-set.cpp:607
 #, c-format
 msgctxt "Transform handle tip"
 msgid "Skew vertically by %.2f°"
-msgstr "垂直倾斜 %.2f°"
+msgstr "垂直扭曲 %.2f°"
 
 #: ../src/ui/tool/transform-handle-set.cpp:666
 msgctxt "Transform handle tip"
 msgid "<b>Rotation center</b>: drag to change the origin of transforms"
-msgstr "<b>旋转中心</b>: 拖动修改变换的起始点"
+msgstr "<b>旋转中心</b>：拖动以修改变换的起始点"
 
 #: ../src/ui/tools-switch.cpp:95
 msgid "<b>Click</b> to Select and Transform objects, <b>Drag</b> to select many objects."
-msgstr "<b>点击</b>选择并变换队形, <b>拖动</b>选择多个对象。"
+msgstr "<b>点击</b>以选择并变换对象，<b>拖动</b>以选择多个对象。"
 
 #: ../src/ui/tools-switch.cpp:96
 msgid "Modify selected path points (nodes) directly."
-msgstr "直接修改选择路径点（节点）。"
+msgstr "直接修改选中路径点（节点）。"
 
 #: ../src/ui/tools-switch.cpp:97
 msgid "To tweak a path by pushing, select it and drag over it."
-msgstr "用推压的方法扭曲路径, 选择路径, 然后在上面拖动."
+msgstr "点击，选中并拖动以调整路径。"
 
 #: ../src/ui/tools-switch.cpp:98
 msgid "<b>Drag</b>, <b>click</b> or <b>click and scroll</b> to spray the selected objects."
-msgstr "<b>拖动</b>, <b>点击</b>或<b>点击并滚动</b>来喷射选择的对象。"
+msgstr "<b>拖动</b>，<b>点击</b>或<b>点击并滚动</b>以喷涂选中对象。"
 
 #: ../src/ui/tools-switch.cpp:99
 msgid "<b>Drag</b> to create a rectangle. <b>Drag controls</b> to round corners and resize. <b>Click</b> to select."
-msgstr "<b>拖动</b>创建矩形.<b>拖动控制</b>来圆整角或改变尺寸.<b>单击</b>选择."
+msgstr "<b>拖动</b> 以创建矩形。<b>拖动控制组件</b> 以圆整边角或改变尺寸。<b>点击</b> 以选择。"
 
 #: ../src/ui/tools-switch.cpp:100
 msgid "<b>Drag</b> to create a 3D box. <b>Drag controls</b> to resize in perspective. <b>Click</b> to select (with <b>Ctrl+Alt</b> for single faces)."
-msgstr "<b>拖动</b>创建立方体.<b>拖动控制</b>改变透视大小.<b>单击</b>选择.(<b>Ctrl+Alt</b> 选择单个面)"
+msgstr "<b>拖动</b> 以创建立方体。<b>拖动控制组件</b> 以改变透视大小。<b>点击</b> 以选择（<b>Ctrl+Alt</b> 以选择单个面）。"
 
 #: ../src/ui/tools-switch.cpp:101
 msgid "<b>Drag</b> to create an ellipse. <b>Drag controls</b> to make an arc or segment. <b>Click</b> to select."
-msgstr "<b>拖动</b>创建椭圆.<b>拖动控制</b>来创建圆弧或线段.<b>单击</b>选择."
+msgstr "<b>拖动</b> 以创建椭圆。<b>拖动控制组件</b> 以创建圆弧或线段。<b>点击</b> 以选择。"
 
 #: ../src/ui/tools-switch.cpp:102
 msgid "<b>Drag</b> to create a star. <b>Drag controls</b> to edit the star shape. <b>Click</b> to select."
-msgstr "<b>拖动</b>创建星形.<b>拖动控制</b>编辑星形形状.<b>单击</b>选择."
+msgstr "<b>拖动</b> 以创建星形。<b>拖动控制组件</b> 以编辑星形形状。<b>点击</b> 以选择。"
 
 #: ../src/ui/tools-switch.cpp:103
 msgid "<b>Drag</b> to create a spiral. <b>Drag controls</b> to edit the spiral shape. <b>Click</b> to select."
-msgstr "<b>拖动</b>创建螺旋.<b>拖动控制点</b>编辑螺旋形状.<b>单击</b>选择."
+msgstr "<b>拖动</b> 以创建螺旋。<b>拖动控制组件</b> 以编辑螺旋形状。<b>点击</b> 以选择。"
 
 #: ../src/ui/tools-switch.cpp:104
 msgid "<b>Drag</b> to create a freehand line. <b>Shift</b> appends to selected path, <b>Alt</b> activates sketch mode."
-msgstr "<b>拖动</b>创建手绘线.按住 <b>Shift</b> 附加到选择的路径, <b>Alt</b> 激活草图模式."
+msgstr "<b>拖动</b> 以创建手绘线。按住 <b>Shift</b> 以附加到选中路径，<b>Alt</b> 以激活草图模式。"
 
 #: ../src/ui/tools-switch.cpp:105
 msgid "<b>Click</b> or <b>click and drag</b> to start a path; with <b>Shift</b> to append to selected path. <b>Ctrl+click</b> to create single dots (straight line modes only)."
-msgstr "<b>单击</b>或者<b>单击并拖动</b>开始绘制路径; 按住 <b>Shift</b> 附加到选择的路径.<b>Ctrl+click</b>创建单个点(仅在直线模式中)."
+msgstr "<b>单击</b> 或 <b>单击并拖动</b> 以开始绘制路径；按住 <b>Shift</b> 以附加到选中路径。<b>Ctrl+click</b> 以创建单个点（仅直线模式）。"
 
 #: ../src/ui/tools-switch.cpp:106
 msgid "<b>Drag</b> to draw a calligraphic stroke; with <b>Ctrl</b> to track a guide path. <b>Arrow keys</b> adjust width (left/right) and angle (up/down)."
-msgstr "<b>拖动</b>绘制书法轮廓.<b>Ctrl</b> 沿参考线, <b>Arrow keys</b> 调整宽度(左/右)和角度(上/下)."
+msgstr "<b>拖动</b> 以绘制书法轮廓；<b>Ctrl</b> 以沿参考线绘制，使用 <b>方向键</b> 调整宽度（左/右）和角度（上/下）。"
 
 #: ../src/ui/tools-switch.cpp:107 ../src/ui/tools/text-tool.cpp:1583
 msgid "<b>Click</b> to select or create text, <b>drag</b> to create flowed text; then type."
-msgstr "<b>单击</b>选择或者创建文字, <b>拖动</b>创建浮动文字; 然后输入"
+msgstr "<b>单击</b> 以选择或者创建文字，<b>拖动</b> 以创建浮动文字；然后输入需要的文字。"
 
 #: ../src/ui/tools-switch.cpp:108
 msgid "<b>Drag</b> or <b>double click</b> to create a gradient on selected objects, <b>drag handles</b> to adjust gradients."
-msgstr "<b>拖动</b>或者<b>双击</b>在选择的对象上创建渐变, <b>拖动控制点</b>调节渐变."
+msgstr "<b>拖动</b> 或 <b>双击</b> 以在选择的对象上创建渐变，<b>拖动控制组件</b> 以调节渐变。"
 
 #: ../src/ui/tools-switch.cpp:109
 msgid "<b>Drag</b> or <b>double click</b> to create a mesh on selected objects, <b>drag handles</b> to adjust meshes."
-msgstr "<b>拖动</b>或者<b>双击</b>在选择的对象上创建网孔, <b>拖动控制点</b>调节网孔。"
+msgstr "<b>拖动</b> 或 <b>双击</b> 以在选择的对象上创建网孔，<b>拖动控制点</b> 以调节网孔。"
 
 #: ../src/ui/tools-switch.cpp:110
 msgid "<b>Click</b> or <b>drag around an area</b> to zoom in, <b>Shift+click</b> to zoom out."
-msgstr "<b>单击</b>或者<b>在区域附近拖动</b>放大, <b>Shift+单击</b>缩小."
+msgstr "<b>单击</b> 或 <b>在区域附近拖动</b> 以放大, <b>Shift+单击</b> 以缩小。"
 
 #: ../src/ui/tools-switch.cpp:111
 msgid "<b>Drag</b> to measure the dimensions of objects."
-msgstr "<b>拖动</b>为测量对象的尺寸。"
+msgstr "<b>拖动</b> 以测量对象的尺寸。"
 
 #: ../src/ui/tools-switch.cpp:112 ../src/ui/tools/dropper-tool.cpp:274
 msgid "<b>Click</b> to set fill, <b>Shift+click</b> to set stroke; <b>drag</b> to average color in area; with <b>Alt</b> to pick inverse color; <b>Ctrl+C</b> to copy the color under mouse to clipboard"
-msgstr "<b>单击</b>设置填充, <b>Shift+单击</b> 设置笔廓; <b>拖动</b>平均区域里颜色; 使用 <b>Alt</b> 拾取反色; <b>Ctrl+C</b>复制鼠标下的颜色到剪贴板"
+msgstr "<b>单击</b> 以设置填充，<b>Shift+单击</b> 以设置笔画；<b>拖动</b> 以平均区域里颜色；使用 <b>Alt</b> 拾取反色；按 <b>Ctrl+C</b> 以复制鼠标下的颜色到剪贴板"
 
 #: ../src/ui/tools-switch.cpp:113
 msgid "<b>Click and drag</b> between shapes to create a connector."
-msgstr "在两个形状之间<b>单击并拖动</b>创建连接器."
+msgstr "在两个形状之间 <b>单击并拖动</b> 以创建连接器。"
 
 #: ../src/ui/tools-switch.cpp:114
 msgid "<b>Click</b> to paint a bounded area, <b>Shift+click</b> to union the new fill with the current selection, <b>Ctrl+click</b> to change the clicked object's fill and stroke to the current setting."
-msgstr "<b>Click</b> to paint a bounded area, <b>Shift+click</b> to union the new fill with the current selection, <b>Ctrl+click</b> to change the clicked object's fill and stroke to the current setting."
+msgstr "<b>单击</b> 以填充一个被包围的区域，使用 <b>Shift+click</b> 以联合当前选区和新的填充内容，<b>Ctrl+单击</b> 以使用当前设置替换单击对象的填充和笔画设置。"
 
 #: ../src/ui/tools-switch.cpp:115
 msgid "<b>Drag</b> to erase."
-msgstr "<b>拖动</b>擦除."
+msgstr "<b>拖动</b> 以擦除。"
 
 #: ../src/ui/tools-switch.cpp:116
 msgid "Choose a subtool from the toolbar"
-msgstr "从工具栏中选择一个子项"
+msgstr "从工具栏中选择一个子工具"
 
 #: ../src/ui/tools/arc-tool.cpp:242
 msgid "<b>Ctrl</b>: make circle or integer-ratio ellipse, snap arc/segment angle"
-msgstr "<b>Ctrl</b>: 制作圆或整数比率的椭圆, 吸附弧/线段的角度"
+msgstr "<b>Ctrl</b>：制作圆或整数比率的椭圆，吸附弧/线段的角度"
 
 #: ../src/ui/tools/arc-tool.cpp:243 ../src/ui/tools/rect-tool.cpp:278
 msgid "<b>Shift</b>: draw around the starting point"
-msgstr "<b>Shift</b>: 在起点处绘制"
+msgstr "<b>Shift</b>：在起始点周围绘制"
 
 #: ../src/ui/tools/arc-tool.cpp:412
 #, c-format
 msgid "<b>Ellipse</b>: %s &#215; %s (constrained to ratio %d:%d); with <b>Shift</b> to draw around the starting point"
-msgstr "<b>椭圆</b>: %s &#215; %s (比例 %d:%d);按住 <b>Shift</b> 在起点处绘制 "
+msgstr "<b>椭圆</b>：%s &#215; %s (比例 %d:%d)；按住 <b>Shift</b> 以在起点周围绘制"
 
 #: ../src/ui/tools/arc-tool.cpp:414
 #, c-format
 msgid "<b>Ellipse</b>: %s &#215; %s; with <b>Ctrl</b> to make square or integer-ratio ellipse; with <b>Shift</b> to draw around the starting point"
-msgstr "<b>椭圆</b>: %s &#215; %s; 按住 <b>Ctrl</b> 绘制矩形或者整数比率的椭圆; 按住 <b>Shift</b> 在起点周围绘制"
+msgstr "<b>椭圆</b>：%s &#215; %s; 按住 <b>Ctrl</b> 以绘制矩形或者整数比率的椭圆；按住 <b>Shift</b> 以在起点周围绘制"
 
 #: ../src/ui/tools/arc-tool.cpp:437
 msgid "Create ellipse"
@@ -21910,52 +21910,52 @@ msgstr "创建椭圆"
 #: ../src/ui/tools/box3d-tool.cpp:374 ../src/ui/tools/box3d-tool.cpp:381
 #: ../src/ui/tools/box3d-tool.cpp:388 ../src/ui/tools/box3d-tool.cpp:395
 msgid "Change perspective (angle of PLs)"
-msgstr "更改透视 (angle of PLs)"
+msgstr "更改透视（透视线角度）"
 
 #. status text
 #: ../src/ui/tools/box3d-tool.cpp:573
 msgid "<b>3D Box</b>; with <b>Shift</b> to extrude along the Z axis"
-msgstr "<b>立方体</b>; 按住 <b>Shift</b> 沿 Z 轴挤压"
+msgstr "<b>3D立方体</b>；按住 <b>Shift</b> 以沿 Z 轴拉伸"
 
 #: ../src/ui/tools/box3d-tool.cpp:599
 msgid "Create 3D box"
-msgstr "创建立方体"
+msgstr "创建 3D 立方体"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:525
 msgid "<b>Guide path selected</b>; start drawing along the guide with <b>Ctrl</b>"
-msgstr "<b>已选择辅助路径</b>, 请按<b>Ctrl</b>开始沿参考线绘图"
+msgstr "<b>已选择辅助路径</b>，请按 <b>Ctrl</b> 开始沿参考线绘图"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:527
 msgid "<b>Select a guide path</b> to track with <b>Ctrl</b>"
-msgstr "按下<b>Ctrl</b> <b>选择一条参考路径</b>开始跟踪"
+msgstr "<b>选择一条参考路径</b> 并按下<b>Ctrl</b> 以开始跟踪"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:662
 msgid "Tracking: <b>connection to guide path lost!</b>"
-msgstr "跟踪：<b>失去与参考路径的联系!</b>"
+msgstr "跟踪：<b>失去与参考路径的联系！</b>"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:662
 msgid "<b>Tracking</b> a guide path"
-msgstr "<b>跟踪</b>一条参考线"
+msgstr "正在 <b>跟踪</b> 一条参考线"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:665
 msgid "<b>Drawing</b> a calligraphic stroke"
-msgstr "正在创建笔刷(书法)笔廓"
+msgstr "正在 <b>绘制</b> 书法笔画"
 
 #: ../src/ui/tools/calligraphic-tool.cpp:966
 msgid "Draw calligraphic stroke"
-msgstr "创建笔刷(书法)轮廓线"
+msgstr "绘制书法笔画"
 
 #: ../src/ui/tools/connector-tool.cpp:489
 msgid "Creating new connector"
-msgstr "创建新的连接器"
+msgstr "正在创建新的连接器"
 
 #: ../src/ui/tools/connector-tool.cpp:730
 msgid "Connector endpoint drag cancelled."
-msgstr "连接器端点拖动已取消."
+msgstr "已取消拖动连接器端点。"
 
 #: ../src/ui/tools/connector-tool.cpp:773
 msgid "Reroute connector"
-msgstr "重置连接器"
+msgstr "重导向连接器"
 
 #: ../src/ui/tools/connector-tool.cpp:926
 msgid "Create connector"
@@ -21967,21 +21967,21 @@ msgstr "完成连接器"
 
 #: ../src/ui/tools/connector-tool.cpp:1181
 msgid "<b>Connector endpoint</b>: drag to reroute or connect to new shapes"
-msgstr "<b>连接器终点</b>:拖动重新连接或者连接到新的形状"
+msgstr "<b>连接器终点</b>：拖动以重新连接或连接到新的形状"
 
 #: ../src/ui/tools/connector-tool.cpp:1324
 msgid "Select <b>at least one non-connector object</b>."
-msgstr "<b>至少选择一个非连接器对象</b>."
+msgstr "请选择 <b>至少一个非连接器对象</b>."
 
 #: ../src/ui/tools/connector-tool.cpp:1329
 #: ../src/widgets/connector-toolbar.cpp:310
 msgid "Make connectors avoid selected objects"
-msgstr "连接器避开已选对象"
+msgstr "让连接器避开选中对象"
 
 #: ../src/ui/tools/connector-tool.cpp:1330
 #: ../src/widgets/connector-toolbar.cpp:320
 msgid "Make connectors ignore selected objects"
-msgstr "让连接器忽略已选对象"
+msgstr "让连接器忽略选中对象"
 
 #. alpha of color under cursor, to show in the statusbar
 #. locale-sensitive printf is OK, since this goes to the UI, not into SVG
@@ -21994,7 +21994,7 @@ msgstr " alpha %.3g"
 #: ../src/ui/tools/dropper-tool.cpp:272
 #, c-format
 msgid ", averaged with radius %d"
-msgstr ", 平均半径%d"
+msgstr "，已平均为半径 %d"
 
 #: ../src/ui/tools/dropper-tool.cpp:272
 msgid " under cursor"
@@ -22003,19 +22003,19 @@ msgstr "在光标下"
 #. message, to show in the statusbar
 #: ../src/ui/tools/dropper-tool.cpp:274
 msgid "<b>Release mouse</b> to set color."
-msgstr "<b>释放鼠标</b>设置颜色."
+msgstr "<b>松开鼠标</b> 以设置颜色。"
 
 #: ../src/ui/tools/dropper-tool.cpp:322
 msgid "Set picked color"
-msgstr "设置拾取色"
+msgstr "设置拾取的颜色"
 
 #: ../src/ui/tools/eraser-tool.cpp:427
 msgid "<b>Drawing</b> an eraser stroke"
-msgstr "<b>绘制</b> 橡皮擦笔廓"
+msgstr "正在 <b>绘制</b> 橡皮擦笔画"
 
 #: ../src/ui/tools/eraser-tool.cpp:753
 msgid "Draw eraser stroke"
-msgstr "绘制橡皮擦笔廓"
+msgstr "绘制橡皮擦笔画"
 
 #: ../src/ui/tools/flood-tool.cpp:90
 msgid "Visible Colors"
@@ -22043,23 +22043,23 @@ msgstr "大"
 
 #: ../src/ui/tools/flood-tool.cpp:415
 msgid "<b>Too much inset</b>, the result is empty."
-msgstr "<b>向内平移过量</b>, 结果为空."
+msgstr "<b>向插量过多</b>，结果为空。"
 
 #: ../src/ui/tools/flood-tool.cpp:456
 #, c-format
 msgid "Area filled, path with <b>%d</b> node created and unioned with selection."
 msgid_plural "Area filled, path with <b>%d</b> nodes created and unioned with selection."
-msgstr[0] "区域已填充, 有<b>%d</b>个节点的路径已创建, 并与所选对象结合."
+msgstr[0] "区域已填充，已创建带有 <b>%d</b> 个节点并与选区联合的路径。"
 
 #: ../src/ui/tools/flood-tool.cpp:462
 #, c-format
 msgid "Area filled, path with <b>%d</b> node created."
 msgid_plural "Area filled, path with <b>%d</b> nodes created."
-msgstr[0] "区域以填充, 有<b>%d</b>个节点的路径已创建."
+msgstr[0] "区域已填充，已创建带有 <b>%d</b> 个节点的路径。"
 
 #: ../src/ui/tools/flood-tool.cpp:730 ../src/ui/tools/flood-tool.cpp:1040
 msgid "<b>Area is not bounded</b>, cannot fill."
-msgstr "<b>区域不封闭</b>, 不能填充."
+msgstr "<b>区域未封闭</b>，无法填充。"
 
 #: ../src/ui/tools/flood-tool.cpp:1045
 msgid "<b>Only the visible part of the bounded area was filled.</b> If you want to fill all of the area, undo, zoom out, and fill again."
