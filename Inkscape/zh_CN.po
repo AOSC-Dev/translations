@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 22:03-0500\n"
+"PO-Revision-Date: 2015-11-26 22:13-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,3825,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,3934,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -17657,7 +17657,7 @@ msgstr "已最大化"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:693
 msgid "Default window size:"
-msgstr "默认窗口大小:"
+msgstr "默认窗口大小："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:694
 msgid "Set the default window size"
@@ -17665,7 +17665,7 @@ msgstr "设置默认窗口大小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:697
 msgid "Saving window geometry (size and position)"
-msgstr "保存窗口的几何形状（大小和位置）"
+msgstr "保存窗口的几何信息（大小和位置）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:699
 msgid "Let the window manager determine placement of all windows"
@@ -17673,11 +17673,11 @@ msgstr "让窗口管理器决定所有窗口的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:701
 msgid "Remember and use the last window's geometry (saves geometry to user preferences)"
-msgstr "记录上次窗口的位置和大小(窗口配置保存到用户配置)"
+msgstr "记录上次窗口的位置和大小（窗口配置保存到用户配置）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:703
 msgid "Save and restore window geometry for each document (saves geometry in the document)"
-msgstr "在每个文件中保存和恢复窗口的位置和大小(窗口配置保存到该文件)"
+msgstr "在每个文件中保存和恢复窗口的位置和大小（窗口配置保存到该文件）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:705
 msgid "Saving dialogs status"
@@ -17689,7 +17689,7 @@ msgstr "保存并恢复对话框状态（当关闭时保存最后打开的窗口
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:713
 msgid "Dialog behavior (requires restart)"
-msgstr "对话框行为 (需要重新启动)"
+msgstr "对话框行为（需要重新启动）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:719
 msgid "Desktop integration"
@@ -17705,7 +17705,7 @@ msgstr "使用 GTK 打开和关闭对话框"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:727
 msgid "Dialogs on top:"
-msgstr "对话框在顶层:"
+msgstr "对话框在顶层："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:730
 msgid "Dialogs are treated as regular windows"
@@ -17725,15 +17725,15 @@ msgstr "对话框透明度"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:739
 msgid "_Opacity when focused:"
-msgstr "当聚焦时不透明度(_O)："
+msgstr "聚焦时不透明度(_O)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:741
 msgid "Opacity when _unfocused:"
-msgstr "当失焦时不透明度(_U)："
+msgstr "失焦时不透明度(_U)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:743
 msgid "_Time of opacity change animation:"
-msgstr "不透明更改动画的时间(_T)："
+msgstr "更改不透明度的动画时间(_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:746
 msgid "Miscellaneous"
@@ -17745,15 +17745,15 @@ msgstr "对话框窗口是否要隐藏在窗口管理器任务栏"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:752
 msgid "Zoom drawing when document window is resized, to keep the same area visible (this is the default which can be changed in any window using the button above the right scrollbar)"
-msgstr "当窗口尺寸改变时缩放绘图, 保持相同的可视面积(这个是默认的, 可以使用右边滚动条上的按钮改变)"
+msgstr "当窗口尺寸改变时缩放绘图，保持相同的可视面积（此为默认，可用右边滚动条上的按钮改变）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:754
 msgid "Save documents viewport (zoom and panning position). Useful to turn off when sharing version controlled files."
-msgstr "保存文档视口（缩放和平摇位置）。当共享版本控制文件时关闭很实用。"
+msgstr "保存文档视口（缩放和平移位置）。当共享版本控制文件时关掉会很有用。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:756
 msgid "Whether dialog windows have a close button (requires restart)"
-msgstr "对话框窗口是否有关闭按钮(需要重新启动)"
+msgstr "对话框窗口是否有关闭按钮（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:757
 msgid "Windows"
@@ -17779,33 +17779,33 @@ msgstr "默认网格设置"
 #: ../src/ui/dialog/inkscape-preferences.cpp:773
 #: ../src/ui/dialog/inkscape-preferences.cpp:798
 msgid "Grid units:"
-msgstr "网格单位:"
+msgstr "网格单位："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:778
 #: ../src/ui/dialog/inkscape-preferences.cpp:803
 msgid "Origin X:"
-msgstr "起点 X:"
+msgstr "起点 X："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:779
 #: ../src/ui/dialog/inkscape-preferences.cpp:804
 msgid "Origin Y:"
-msgstr "起点 Y:"
+msgstr "起点 Y："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:784
 msgid "Spacing X:"
-msgstr "间距 X:"
+msgstr "间距 X："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:785
 #: ../src/ui/dialog/inkscape-preferences.cpp:807
 msgid "Spacing Y:"
-msgstr "间距 Y:"
+msgstr "间距 Y："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:787
 #: ../src/ui/dialog/inkscape-preferences.cpp:788
 #: ../src/ui/dialog/inkscape-preferences.cpp:812
 #: ../src/ui/dialog/inkscape-preferences.cpp:813
 msgid "Minor grid line color:"
-msgstr "次要网格线颜色:"
+msgstr "次要网格线颜色："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:788
 #: ../src/ui/dialog/inkscape-preferences.cpp:813
@@ -17817,7 +17817,7 @@ msgstr "普通网格线的颜色"
 #: ../src/ui/dialog/inkscape-preferences.cpp:814
 #: ../src/ui/dialog/inkscape-preferences.cpp:815
 msgid "Major grid line color:"
-msgstr "主网格线颜色："
+msgstr "主要网格线颜色："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:790
 #: ../src/ui/dialog/inkscape-preferences.cpp:815
@@ -17827,7 +17827,7 @@ msgstr "主（高亮）网格线所使用的颜色"
 #: ../src/ui/dialog/inkscape-preferences.cpp:792
 #: ../src/ui/dialog/inkscape-preferences.cpp:817
 msgid "Major grid line every:"
-msgstr "主网格线间隔："
+msgstr "主网格线间距："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:793
 msgid "Show dots instead of lines"
@@ -17835,19 +17835,19 @@ msgstr "显示点而不是线"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:794
 msgid "If set, display dots at gridpoints instead of gridlines"
-msgstr "如果选定, 显示网格点代替网格线"
+msgstr "如果选定，显示网格点而非网格线"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:875
 msgid "Input/Output"
-msgstr "输入 / 输出"
+msgstr "输入/输出"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:878
 msgid "Use current directory for \"Save As ...\""
-msgstr " \"另存为 …\"使用当前路径"
+msgstr "“另存为…”使用当前路径"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:880
 msgid "When this option is on, the \"Save as...\" and \"Save a Copy...\" dialogs will always open in the directory where the currently open document is; when it's off, each will open in the directory where you last saved a file using it"
-msgstr "当这个选项打开时，“另存为…”和“保存一个副本…”对话框将总是打开当前打开的文档所在的目录;当它关闭时，每次将会打开你最后保存文件所使用的目录"
+msgstr "当这个选项打开时，“另存为…”和“保存一个副本…”对话框将总是打开当前打开的文档所在的目录；当它关闭时，每次将会打开你最后保存文件所使用的目录"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:882
 msgid "Add label comments to printing output"
@@ -17855,7 +17855,7 @@ msgstr "打印输出时添加标签注释"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:884
 msgid "When on, a comment will be added to the raw print output, marking the rendered output for an object with its label"
-msgstr "启用时, 原始打印输出将会添加注释, 标记渲染输出作为标签对象"
+msgstr "启用时，原始打印输出将会添加注释，标记渲染输出作为标签对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:886
 msgid "Add default metadata to new documents"
@@ -17871,7 +17871,7 @@ msgstr "采集敏感度(_G)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:892
 msgid "pixels (requires restart)"
-msgstr "像素 (需要重新启动)"
+msgstr "像素（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:893
 msgid "How close on the screen you need to be to an object to be able to grab it with mouse (in screen pixels)"
@@ -17890,7 +17890,7 @@ msgstr "像素"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:896
 msgid "Maximum mouse drag (in screen pixels) which is considered a click, not a drag"
-msgstr "拖动鼠标的最大值(屏幕像素), 是一个单击, 而不是拖动"
+msgstr "单击所允许的最大鼠标拖动距离（屏幕像素），超过此数值将被认为是拖动"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:899
 msgid "_Handle size:"
@@ -17902,7 +17902,7 @@ msgstr "设置节点控制柄的相对大小"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:902
 msgid "Use pressure-sensitive tablet (requires restart)"
-msgstr "使用压力敏感绘图板(需要重启)"
+msgstr "使用压力敏感绘图板（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:904
 msgid "Use the capabilities of a tablet or other pressure-sensitive device. Disable this only if you have problems with the tablet (you can still use it as a mouse)"
@@ -17910,11 +17910,11 @@ msgstr "使用手写板或者其它压力敏感设备.如果使用手写板出�
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:906
 msgid "Switch tool based on tablet device (requires restart)"
-msgstr "根据绘图板设备切换工具 (需要重启)"
+msgstr "根据绘图板设备切换工具（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:908
 msgid "Change tool as different devices are used on the tablet (pen, eraser, mouse)"
-msgstr "当在绘图板上使用不同的设备 (笔, 橡皮擦, 鼠标)时改变工具栏"
+msgstr "当在绘图板上使用不同的设备（笔、橡皮擦、鼠标）时改变工具栏"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:909
 msgid "Input devices"
@@ -17927,7 +17927,7 @@ msgstr "使用已命名的颜色"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:913
 msgid "If set, write the CSS name of the color when available (e.g. 'red' or 'magenta') instead of the numeric value"
-msgstr "如果选中, 尽量写入颜色的CSS名称 (例如, 'red', 'magenta'), 而不用数值"
+msgstr "如果选中, 尽量写入颜色的 CSS 名称（如 red、magenta），而不用数值"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:915
 msgid "XML formatting"
@@ -17939,15 +17939,15 @@ msgstr "内联属性"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:918
 msgid "Put attributes on the same line as the element tag"
-msgstr "将属性与元素的Tag置于同一行"
+msgstr "将属性与元素的标签置于同一行"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid "_Indent, spaces:"
-msgstr "缩进，空格数(_I):"
+msgstr "缩进、空格数(_I):"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:921
 msgid "The number of spaces to use for indenting nested elements; set to 0 for no indentation"
-msgstr "嵌入单元缩进时的空格数目; 0为无缩进"
+msgstr "嵌入单元缩进时的空格数目；0 为无缩进"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:923
 msgid "Path data"
@@ -17968,11 +17968,11 @@ msgstr "优化"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:930
 msgid "Path string format:"
-msgstr "路径字符串格式:"
+msgstr "路径字符串格式："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:930
 msgid "Path data should be written: only with absolute coordinates, only with relative coordinates, or optimized for string length (mixed absolute and relative coordinates)"
-msgstr "路径数据应该写入：只使用绝对坐标，只使用相对坐标，或者优化的字符串长度（混合绝对和相对坐标）"
+msgstr "路径数据应该这样写入：只使用绝对坐标、只使用相对坐标、或者最优字符串长度（混合绝对和相对坐标）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:932
 msgid "Force repeat commands"
@@ -17980,7 +17980,7 @@ msgstr "强制重复命令"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:933
 msgid "Force repeating of the same path command (for example, 'L 1,2 L 3,4' instead of 'L 1,2 3,4')"
-msgstr "强制重复相同的路径命令 (例如,  'L 1,2 L 3,4' 代替 'L 1,2 3,4')"
+msgstr "强制重复相同的路径命令（例如,“L 1,2 L 3,4”代替“L 1,2 3,4”)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:935
 msgid "Numbers"
@@ -18000,7 +18000,7 @@ msgstr "最小指数(_E)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:941
 msgid "The smallest number written to SVG is 10 to the power of this exponent; anything smaller is written as zero"
-msgstr "写入SVG中的最小数字为10的该指数次幂;  更小的数字将用0代替"
+msgstr "写入 SVG 中的最小数字为 10 的该指数次幂；更小的数字将用 0 代替"
 
 #. Code to add controls for attribute checking options
 #. Add incorrect style properties options
@@ -18033,7 +18033,7 @@ msgstr "不恰当的样式属性操作"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:957
 msgid "Print warning if inappropriate style properties found (i.e. 'font-family' set on a <rect>). Database files located in inkscape_data_dir/attributes."
-msgstr "如果发现不恰当的样式属性(譬如在 <rect> 上设置 'font-family')。数据库文件位于 inkscape_data_dir/attributes。"
+msgstr "警告不恰当的样式属性（譬如在 <rect> 上设置“font-family”）。元素样式数据库文件位于 inkscape_data_dir/attributes。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:958
 #: ../src/ui/dialog/inkscape-preferences.cpp:966
@@ -18063,15 +18063,15 @@ msgstr "检查属性和样式属性于"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:971
 msgid "Reading"
-msgstr "阅读"
+msgstr "读取"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:972
 msgid "Check attributes and style properties on reading in SVG files (including those internal to Inkscape which will slow down startup)"
-msgstr "在读取 SVG 时检查属性和样式属性(包括那些将会减慢启动的内置于 Inkscape 的属性)"
+msgstr "在读取 SVG 时检查属性和样式属性（包括那些将会减慢启动的内置于 Inkscape 的属性）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:973
 msgid "Editing"
-msgstr "编辑中"
+msgstr "编辑"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:974
 msgid "Check attributes and style properties while editing SVG files (may slow down Inkscape, mostly useful for debugging)"
@@ -18079,7 +18079,7 @@ msgstr "在编辑 SVG 文件时检查属性和样式属性（可能会减慢 Ink
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:975
 msgid "Writing"
-msgstr "写作"
+msgstr "写入"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:976
 msgid "Check attributes and style properties on writing out SVG files"
@@ -18104,7 +18104,7 @@ msgstr "绝对色调"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:988
 msgid "(Note: Color management has been disabled in this build)"
-msgstr "(注意:色彩管理在当前版本中未启用)"
+msgstr "（注意：色彩管理在当前版本中未启用）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:992
 msgid "Display adjustment"
@@ -18116,12 +18116,12 @@ msgid ""
 "The ICC profile to use to calibrate display output.\n"
 "Searched directories:%s"
 msgstr ""
-"用于校准显示输出的ICC配置.\n"
-"已搜索目录:%s"
+"用于校准显示输出的 ICC 配置。\n"
+"已搜索目录：%s"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1003
 msgid "Display profile:"
-msgstr "显示模式:"
+msgstr "显示模式："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1008
 msgid "Retrieve profile from display"
@@ -18129,11 +18129,11 @@ msgstr "从显示中提取配置文件"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1011
 msgid "Retrieve profiles from those attached to displays via XICC"
-msgstr "从那些附加到通过 XICC 的显示中检索配置档"
+msgstr "从那些附加到通过 XICC 的显示中检索配置文件"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1013
 msgid "Retrieve profiles from those attached to displays"
-msgstr "从那些附加到显示中的检索配置档"
+msgstr "从那些附加到显示中的检索配置文件"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1018
 msgid "Display rendering intent:"
@@ -18220,7 +18220,7 @@ msgstr "色彩管理"
 #. Autosave options
 #: ../src/ui/dialog/inkscape-preferences.cpp:1126
 msgid "Enable autosave (requires restart)"
-msgstr "允许自动保存(需要重新启动)"
+msgstr "允许自动保存（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1127
 msgid "Automatically save the current document(s) at a given interval, thus minimizing loss in case of a crash"
@@ -18821,7 +18821,7 @@ msgstr "线程数(_T)："
 #: ../src/ui/dialog/inkscape-preferences.cpp:1415
 #: ../src/ui/dialog/inkscape-preferences.cpp:1951
 msgid "(requires restart)"
-msgstr "(需要重新启动)"
+msgstr "（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1416
 msgid "Configure number of processors/threads to use when rendering filters"
@@ -19250,7 +19250,7 @@ msgstr "平板"
 
 #: ../src/ui/dialog/input.cpp:1081
 msgid "_Use pressure-sensitive tablet (requires restart)"
-msgstr "使用压力敏感绘图板(需要重启)(_U)"
+msgstr "使用压力敏感绘图板（需要重启）(_U)"
 
 #: ../src/ui/dialog/input.cpp:1086
 msgid "Axes"
@@ -26556,11 +26556,11 @@ msgstr "选择一个预先设定"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:622
 msgid "Add/Edit Profile"
-msgstr "添加/编辑配置档:"
+msgstr "添加/编辑配置文件:"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:623
 msgid "Add or edit calligraphic profile"
-msgstr "添加或编辑书法轮廓配置档"
+msgstr "添加或编辑书法轮廓配置文件"
 
 #: ../src/widgets/connector-toolbar.cpp:118
 msgid "Set connector type: orthogonal"
