@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 17:03-0500\n"
+"PO-Revision-Date: 2015-11-27 17:13-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,5202,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,5336,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -4401,7 +4401,7 @@ msgstr "<b>当前图层已被隐藏</b>。解除隐藏以在此图层上绘制�
 
 #: ../src/context-fns.cpp:39 ../src/context-fns.cpp:68
 msgid "<b>Current layer is locked</b>. Unlock it to be able to draw on it."
-msgstr "<b>当前图层已被锁定</b>。解除锁定以在此图层上绘制。"
+msgstr "<b>当前图层已被锁定</b>。解锁以在此图层上绘制。"
 
 #: ../src/desktop-events.cpp:242
 msgid "Create guide"
@@ -12084,15 +12084,15 @@ msgstr "重新链接克隆"
 
 #: ../src/selection-chemistry.cpp:2661
 msgid "Select <b>clones</b> to unlink."
-msgstr "选择多个<b>克隆</b>解除链接。"
+msgstr "选择多个<b>克隆</b>断开。"
 
 #: ../src/selection-chemistry.cpp:2714
 msgid "<b>No clones to unlink</b> in the selection."
-msgstr "选区里<b>没有克隆可解除链接</b>。"
+msgstr "选区里<b>没有克隆可断开</b>。"
 
 #: ../src/selection-chemistry.cpp:2718
 msgid "Unlink clone"
-msgstr "解除链接克隆"
+msgstr "断开克隆"
 
 #: ../src/selection-chemistry.cpp:2731
 msgid "Select a <b>clone</b> to go to its original. Select a <b>linked offset</b> to go to its source. Select a <b>text on path</b> to go to the path. Select a <b>flowed text</b> to go to its frame."
@@ -12817,7 +12817,7 @@ msgstr "选择<b>文字和路径</b>把文字放在路径上。"
 
 #: ../src/text-chemistry.cpp:96
 msgid "This text object is <b>already put on a path</b>. Remove it from the path first. Use <b>Shift+D</b> to look up its path."
-msgstr "文字对象<b>已放置在路径上</b>。请先将其从路径上移除。使用 <b>Shift+D</b>查找其所属的路径。"
+msgstr "文字对象<b>已放置在路径上</b>。请先将其从路径上移除。按住 <b>Shift+D</b>查找其所属的路径。"
 
 #. rect is the only SPShape which is not <path> yet, and thus SVG forbids us from putting text on it
 #: ../src/text-chemistry.cpp:102
@@ -21352,19 +21352,19 @@ msgstr "放置弧或者线段的<b>终点</b>；按住 <b>Ctrl</b> 吸附角度�
 
 #: ../src/ui/object-edit.cpp:1142
 msgid "Adjust the <b>tip radius</b> of the star or polygon; with <b>Shift</b> to round; with <b>Alt</b> to randomize"
-msgstr "调节星形或者多边形的 <b>尖角半径</b>；按住 <b>Shift</b> 舍入；使用 <b>Alt</b> 随机"
+msgstr "调节星形或者多边形的 <b>尖角半径</b>；按住 <b>Shift</b> 舍入；按住 <b>Alt</b> 随机"
 
 #: ../src/ui/object-edit.cpp:1150
 msgid "Adjust the <b>base radius</b> of the star; with <b>Ctrl</b> to keep star rays radial (no skew); with <b>Shift</b> to round; with <b>Alt</b> to randomize"
-msgstr "调节星形的<b>基准半径</b>; 按住 <b>Ctrl</b> 保持星形线半径（没有歪斜）；按住 <b>Shift</b> 舍入；使用 <b>Alt</b> 随机化"
+msgstr "调节星形的<b>基准半径</b>; 按住 <b>Ctrl</b> 保持星形线半径（没有歪斜）；按住 <b>Shift</b> 舍入；按住 <b>Alt</b> 随机化"
 
 #: ../src/ui/object-edit.cpp:1345
 msgid "Roll/unroll the spiral from <b>inside</b>; with <b>Ctrl</b> to snap angle; with <b>Alt</b> to converge/diverge"
-msgstr "从<b>内部</b>卷起/展开螺旋；按住 <b>Ctrl</b> 吸附角度；使用 <b>Alt</b> 合并/分解"
+msgstr "从<b>内部</b>卷起/展开螺旋；按住 <b>Ctrl</b> 吸附角度；按住 <b>Alt</b> 合并/分解"
 
 #: ../src/ui/object-edit.cpp:1349
 msgid "Roll/unroll the spiral from <b>outside</b>; with <b>Ctrl</b> to snap angle; with <b>Shift</b> to scale/rotate; with <b>Alt</b> to lock radius"
-msgstr "从<b>外部</b>卷起/展开螺旋；按住 <b>Ctrl</b> 吸附角度；使用 <b>Alt</b> 合并/分解"
+msgstr "从<b>外部</b>卷起/展开螺旋；按住 <b>Ctrl</b> 吸附角度；按住 <b>Alt</b> 合并/分解"
 
 #: ../src/ui/object-edit.cpp:1398
 msgid "Adjust the <b>offset distance</b>"
@@ -21866,7 +21866,7 @@ msgstr "<b>拖动</b>以测量对象的尺寸。"
 
 #: ../src/ui/tools-switch.cpp:112 ../src/ui/tools/dropper-tool.cpp:274
 msgid "<b>Click</b> to set fill, <b>Shift+click</b> to set stroke; <b>drag</b> to average color in area; with <b>Alt</b> to pick inverse color; <b>Ctrl+C</b> to copy the color under mouse to clipboard"
-msgstr "<b>单击</b>以设置填充，<b>Shift+单击</b>以设置笔廓；<b>拖动</b>以平均区域里颜色；使用 <b>Alt</b> 拾取反色；按 <b>Ctrl+C</b> 以复制鼠标下的颜色到剪贴板"
+msgstr "<b>单击</b>以设置填充，<b>Shift+单击</b>以设置笔廓；<b>拖动</b>以平均区域里颜色；按住 <b>Alt</b> 拾取反色；按 <b>Ctrl+C</b> 以复制鼠标下的颜色到剪贴板"
 
 #: ../src/ui/tools-switch.cpp:113
 msgid "<b>Click and drag</b> between shapes to create a connector."
@@ -23529,7 +23529,7 @@ msgstr "笔廓图案"
 
 #: ../src/ui/widget/selected-style.cpp:197
 msgid "<b>L</b>"
-msgstr "<b>左</b>"
+msgstr "<b>线</b>"
 
 #: ../src/ui/widget/selected-style.cpp:200
 #: ../src/ui/widget/style-swatch.cpp:294
@@ -23543,7 +23543,7 @@ msgstr "线性渐变笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:207
 msgid "<b>R</b>"
-msgstr "<b>右</b>"
+msgstr "<b>辐</b>"
 
 #: ../src/ui/widget/selected-style.cpp:210
 #: ../src/ui/widget/style-swatch.cpp:298
@@ -23557,7 +23557,7 @@ msgstr "辐向渐变绘制"
 
 #: ../src/ui/widget/selected-style.cpp:218
 msgid "<b>M</b>"
-msgstr "<b>中</b>"
+msgstr "<b>网</b>"
 
 #: ../src/ui/widget/selected-style.cpp:221
 msgid "Mesh gradient fill"
@@ -23762,7 +23762,7 @@ msgstr "调整 Alpha"
 #: ../src/ui/widget/selected-style.cpp:1388
 #, c-format
 msgid "Adjusting <b>alpha</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Ctrl</b> to adjust lightness, with <b>Shift</b> to adjust saturation, without modifiers to adjust hue"
-msgstr "正在调整 <b>alpha</b>: 原为 %.3g, 现为 <b>%.3g</b> (差异 %.3g); 使用 <b>Ctrl</b> 调整亮度，使用 <b>Shift</b> 调整饱和度，对调整色调没有辅助键"
+msgstr "正在调整 <b>alpha</b>：从 %.3g 到 <b>%.3g</b>（差异 %.3g）；按下 <b>Ctrl</b> 调整亮度，按住 <b>Shift</b> 调整饱和度，不带修改键调整色调"
 
 #: ../src/ui/widget/selected-style.cpp:1392
 msgid "Adjust saturation"
@@ -23771,7 +23771,7 @@ msgstr "调整饱和度"
 #: ../src/ui/widget/selected-style.cpp:1394
 #, c-format
 msgid "Adjusting <b>saturation</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Ctrl</b> to adjust lightness, with <b>Alt</b> to adjust alpha, without modifiers to adjust hue"
-msgstr "正在调整<b>饱和度</b>: 原为 %.3g, 现为 <b>%.3g</b> (差异 %.3g); 使用 <b>Ctrl</b> 调整亮度，使用 <b>Alt</b> 调整 alpha，调整色调没有辅助键"
+msgstr "正在调整<b>饱和度</b>：从 %.3g 到 <b>%.3g</b>（差异 %.3g）；按住 <b>Ctrl</b> 调整亮度，按住 <b>Alt</b> 调整 alpha，不带修改键调整色调"
 
 #: ../src/ui/widget/selected-style.cpp:1398
 msgid "Adjust lightness"
@@ -23780,7 +23780,7 @@ msgstr "调整亮度"
 #: ../src/ui/widget/selected-style.cpp:1400
 #, c-format
 msgid "Adjusting <b>lightness</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Shift</b> to adjust saturation, with <b>Alt</b> to adjust alpha, without modifiers to adjust hue"
-msgstr "正在调整<b>亮度</b>: 原为 %.3g, 现为 <b>%.3g</b> (差异 %.3g); 使用 <b>Shift</b> 调整饱和度，使用 <b>Alt</b> 调整 alpha，调整色调没有辅助键"
+msgstr "正在调整<b>亮度</b>：从 %.3g 到 <b>%.3g</b>（差异 %.3g）；按住 <b>Shift</b> 调整饱和度，按住 <b>Alt</b> 调整 alpha，不带修改键调整色调"
 
 #: ../src/ui/widget/selected-style.cpp:1404
 msgid "Adjust hue"
@@ -23789,7 +23789,7 @@ msgstr "调整色调"
 #: ../src/ui/widget/selected-style.cpp:1406
 #, c-format
 msgid "Adjusting <b>hue</b>: was %.3g, now <b>%.3g</b> (diff %.3g); with <b>Shift</b> to adjust saturation, with <b>Alt</b> to adjust alpha, with <b>Ctrl</b> to adjust lightness"
-msgstr "正在调整<b>色调</b>: 原为 %.3g, 现为 <b>%.3g</b> (差异 %.3g); 使用 <b>Shift</b> 调整饱和度，使用 <b>Alt</b> 调整 alpha，使用<b>Ctrl</b>调整亮度"
+msgstr "正在调整<b>色调</b>：从 %.3g 到 <b>%.3g</b>（差异 %.3g）；按住 <b>Shift</b> 调整饱和度，按住 <b>Alt</b> 调整 alpha，按住 <b>Ctrl</b> 调整亮度"
 
 #: ../src/ui/widget/selected-style.cpp:1524
 #: ../src/ui/widget/selected-style.cpp:1538
@@ -23799,7 +23799,7 @@ msgstr "调整笔廓宽度"
 #: ../src/ui/widget/selected-style.cpp:1525
 #, c-format
 msgid "Adjusting <b>stroke width</b>: was %.3g, now <b>%.3g</b> (diff %.3g)"
-msgstr "调整 <b>笔廓宽度</b>: 从 %.3g 到 <b>%.3g</b> (相差 %.3g)"
+msgstr "调整 <b>笔廓宽度</b>：从 %.3g 到 <b>%.3g</b>（相差 %.3g）"
 
 #. TRANSLATORS: "Link" means to _link_ two sliders together
 #: ../src/ui/widget/spin-scale.cpp:138 ../src/ui/widget/spin-slider.cpp:156
@@ -23818,12 +23818,12 @@ msgstr "R 渐变"
 #: ../src/ui/widget/style-swatch.cpp:312
 #, c-format
 msgid "Fill: %06x/%.3g"
-msgstr "填充: %06x/%.3g"
+msgstr "填充：%06x/%.3g"
 
 #: ../src/ui/widget/style-swatch.cpp:314
 #, c-format
 msgid "Stroke: %06x/%.3g"
-msgstr "轮廓: %06x/%.3g"
+msgstr "笔廓：%06x/%.3g"
 
 #: ../src/ui/widget/style-swatch.cpp:319
 msgctxt "Fill and stroke"
@@ -23833,7 +23833,7 @@ msgstr "<i>无</i>"
 #: ../src/ui/widget/style-swatch.cpp:346
 #, c-format
 msgid "Stroke width: %.5g%s"
-msgstr "笔廓宽度: %.5g%s"
+msgstr "笔廓宽度：%.5g%s"
 
 #: ../src/ui/widget/style-swatch.cpp:362
 #, c-format
@@ -23843,7 +23843,7 @@ msgstr "O：%2.0f"
 #: ../src/ui/widget/style-swatch.cpp:367
 #, c-format
 msgid "Opacity: %2.1f %%"
-msgstr "不透明度: %2.1f %%"
+msgstr "不透明度：%2.1f %%"
 
 #: ../src/vanishing-point.cpp:133
 msgid "Split vanishing points"
@@ -23855,7 +23855,7 @@ msgstr "合并消失点"
 
 #: ../src/vanishing-point.cpp:246
 msgid "3D box: Move vanishing point"
-msgstr "立方体: 移动消失点"
+msgstr "3D 盒子：移动消失点"
 
 # HACK: It's nonsence to write two plurals for cases like such. Language normalization performed so it won't look weird to users.
 #: ../src/vanishing-point.cpp:330
@@ -23876,7 +23876,7 @@ msgstr[0] "<b>%d</b> 个立方体共享<b>无限</b>消失点；按下 <b>Shift<
 #, c-format
 msgid "shared by <b>%d</b> box; drag with <b>Shift</b> to separate selected box(es)"
 msgid_plural "shared by <b>%d</b> boxes; drag with <b>Shift</b> to separate selected box(es)"
-msgstr[0] "由<b>%d</b>个立方体共享; 按住 <b>Shift</b> 拖动以分离选中的多个立方体"
+msgstr[0] "由<b>%d</b>个立方体共享；按住 <b>Shift</b> 拖动以分离选中的多个立方体"
 
 #: ../src/verbs.cpp:137
 msgid "File"
@@ -23910,7 +23910,7 @@ msgstr "已切换到下一层"
 
 #: ../src/verbs.cpp:1262
 msgid "Cannot go past last layer."
-msgstr "不能切换到最后一层之后."
+msgstr "不能切换到最后一层之后。"
 
 #: ../src/verbs.cpp:1271
 msgid "Switch to previous layer"
@@ -23922,21 +23922,21 @@ msgstr "已切换到前一层"
 
 #: ../src/verbs.cpp:1274
 msgid "Cannot go before first layer."
-msgstr "不能切换到第一层之前."
+msgstr "不能切换到第一层之前。"
 
 #: ../src/verbs.cpp:1295 ../src/verbs.cpp:1362 ../src/verbs.cpp:1398
 #: ../src/verbs.cpp:1404 ../src/verbs.cpp:1428 ../src/verbs.cpp:1443
 msgid "No current layer."
-msgstr "没有当前层."
+msgstr "没有当前层。"
 
 #: ../src/verbs.cpp:1324 ../src/verbs.cpp:1328
 #, c-format
 msgid "Raised layer <b>%s</b>."
-msgstr "升高层 <b>%s</b>."
+msgstr "升高层 <b>%s</b>。"
 
 #: ../src/verbs.cpp:1325
 msgid "Layer to top"
-msgstr "层置顶"
+msgstr "置顶层"
 
 #: ../src/verbs.cpp:1329
 msgid "Raise layer"
@@ -23945,11 +23945,11 @@ msgstr "升高层"
 #: ../src/verbs.cpp:1332 ../src/verbs.cpp:1336
 #, c-format
 msgid "Lowered layer <b>%s</b>."
-msgstr "降低层 <b>%s</b>."
+msgstr "降低层 <b>%s</b>。"
 
 #: ../src/verbs.cpp:1333
 msgid "Layer to bottom"
-msgstr "层置底"
+msgstr "置底层"
 
 #: ../src/verbs.cpp:1337
 msgid "Lower layer"
@@ -23957,7 +23957,7 @@ msgstr "降低层"
 
 #: ../src/verbs.cpp:1346
 msgid "Cannot move layer any further."
-msgstr "不能再移动层."
+msgstr "不能再移动层。"
 
 #: ../src/verbs.cpp:1357
 msgid "Duplicate layer"
@@ -23966,7 +23966,7 @@ msgstr "再制层"
 #. TRANSLATORS: this means "The layer has been duplicated."
 #: ../src/verbs.cpp:1360
 msgid "Duplicated layer."
-msgstr "再制的层."
+msgstr "已再制层。"
 
 #: ../src/verbs.cpp:1393
 msgid "Delete layer"
@@ -23975,7 +23975,7 @@ msgstr "删除层"
 #. TRANSLATORS: this means "The layer has been deleted."
 #: ../src/verbs.cpp:1396
 msgid "Deleted layer."
-msgstr "已删除层."
+msgstr "已删除层。"
 
 #: ../src/verbs.cpp:1413
 msgid "Show all layers"
@@ -23991,7 +23991,7 @@ msgstr "锁定所有层"
 
 #: ../src/verbs.cpp:1437
 msgid "Unlock all layers"
-msgstr "解除锁定所有层"
+msgstr "解锁所有层"
 
 #: ../src/verbs.cpp:1521
 msgid "Flip horizontally"
@@ -24010,17 +24010,17 @@ msgstr "创建新的选择集合"
 #. code); otherwise leave as "tutorial-basic.svg".
 #: ../src/verbs.cpp:2153
 msgid "tutorial-basic.svg"
-msgstr "tutorial-basic.zh_CN.svg"
+msgstr ""
 
 #. TRANSLATORS: See "tutorial-basic.svg" comment.
 #: ../src/verbs.cpp:2157
 msgid "tutorial-shapes.svg"
-msgstr "tutorial-shapes.zh_CN.svg"
+msgstr ""
 
 #. TRANSLATORS: See "tutorial-basic.svg" comment.
 #: ../src/verbs.cpp:2161
 msgid "tutorial-advanced.svg"
-msgstr "tutorial-advanced.zh_CN.svg"
+msgstr ""
 
 #. TRANSLATORS: See "tutorial-basic.svg" comment.
 #: ../src/verbs.cpp:2165
@@ -24053,11 +24053,11 @@ msgstr ""
 
 #: ../src/verbs.cpp:2370 ../src/verbs.cpp:2969
 msgid "Unlock all objects in the current layer"
-msgstr "接触锁定当前层上的所有锁定对象"
+msgstr "解锁当前层上的所有锁定对象"
 
 #: ../src/verbs.cpp:2374 ../src/verbs.cpp:2971
 msgid "Unlock all objects in all layers"
-msgstr "解除锁定所有层上的锁定对象"
+msgstr "解锁所有层上的锁定对象"
 
 #: ../src/verbs.cpp:2378 ../src/verbs.cpp:2973
 msgid "Unhide all objects in the current layer"
@@ -24137,7 +24137,7 @@ msgstr "清理文档(_U)"
 
 #: ../src/verbs.cpp:2415
 msgid "Remove unused definitions (such as gradients or clipping paths) from the &lt;defs&gt; of the document"
-msgstr "从文档的&lt;defs&gt;中移除未使用的定义(比如渐变或剪裁路径)"
+msgstr "从文档的 &lt;defs&gt; 中移除未使用的定义（比如渐变或剪裁路径）"
 
 #: ../src/verbs.cpp:2417
 msgid "_Import..."
@@ -24175,7 +24175,7 @@ msgstr "切换到上一个文档窗口"
 
 #: ../src/verbs.cpp:2427
 msgid "_Close"
-msgstr "关闭(_C)"
+msgstr "1关闭(_C)"
 
 #: ../src/verbs.cpp:2428
 msgid "Close this document window"
@@ -24937,7 +24937,7 @@ msgstr "解锁所有层(_U)"
 
 #: ../src/verbs.cpp:2649
 msgid "Unlock all the layers"
-msgstr "解除锁定所有层"
+msgstr "解锁所有层"
 
 #: ../src/verbs.cpp:2650
 msgid "_Lock/Unlock Current Layer"
