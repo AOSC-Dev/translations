@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 01:59-0500\n"
+"PO-Revision-Date: 2015-11-27 02:02-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,4294,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4392,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -19707,7 +19707,7 @@ msgstr "设置对象标签"
 
 #: ../src/ui/dialog/object-properties.cpp:500
 msgid "Set object title"
-msgstr "设置对象平铺"
+msgstr "设置对象标题"
 
 #: ../src/ui/dialog/object-properties.cpp:509
 msgid "Set object description"
@@ -19715,7 +19715,7 @@ msgstr "设置对象描述"
 
 #: ../src/ui/dialog/object-properties.cpp:535
 msgid "Set image rendering option"
-msgstr "设备色彩对应方式:"
+msgstr "设置图像渲染选项："
 
 #: ../src/ui/dialog/object-properties.cpp:554
 msgid "Lock object"
@@ -19751,11 +19751,11 @@ msgstr "解锁对象"
 
 #: ../src/ui/dialog/objects.cpp:906
 msgid "Layer to group"
-msgstr "层转为群组"
+msgstr "图层转群组"
 
 #: ../src/ui/dialog/objects.cpp:906
 msgid "Group to layer"
-msgstr "群组转为层"
+msgstr "群组转图层"
 
 #: ../src/ui/dialog/objects.cpp:1104
 msgid "Moved objects"
@@ -19918,7 +19918,7 @@ msgstr "选择高亮色"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:715
 msgid "Clipart found"
-msgstr "发现剪贴画"
+msgstr "找到剪贴画"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:764
 msgid "Downloading image..."
@@ -19946,7 +19946,7 @@ msgstr "正在搜索剪贴画…"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:1099 ../src/ui/dialog/ocaldialogs.cpp:1120
 msgid "Could not connect to the Open Clip Art Library"
-msgstr "不能连接到 Open Clip Art 库"
+msgstr "不能连接到开放剪贴画库"
 
 #: ../src/ui/dialog/ocaldialogs.cpp:1145
 msgid "Could not parse search results"
@@ -19970,11 +19970,11 @@ msgstr "关闭"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:190
 msgid "_Curves (multiplier):"
-msgstr "曲线（乘法）(_C)："
+msgstr "曲线（倍数）(_C)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:193
 msgid "Favors connections that are part of a long curve"
-msgstr "支持连接是长曲线的一部分"
+msgstr "偏爱为长曲线的一部分的连接"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:204
 msgid "_Islands (weight):"
@@ -19986,11 +19986,11 @@ msgstr "避免单一的断开像素"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:209
 msgid "A constant vote value"
-msgstr "恒定投票值"
+msgstr "恒定票值"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:219
 msgid "Sparse pixels (window _radius):"
-msgstr "稀疏像素（窗口半径)(_R)："
+msgstr "稀疏像素（窗口半径）(_R)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:228
 msgid "The radius of the window analyzed"
@@ -19998,7 +19998,7 @@ msgstr "分析的窗口的半径"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:229
 msgid "Sparse pixels (_multiplier):"
-msgstr "稀疏像素（乘法）(_M)："
+msgstr "稀疏像素（倍数）(_M)："
 
 #: ../src/ui/dialog/pixelartdialog.cpp:240
 msgid "Favors connections that are part of foreground color"
@@ -20014,7 +20014,7 @@ msgstr "启发式"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:266
 msgid "_Voronoi diagram"
-msgstr "沃罗努瓦图表(_V)"
+msgstr "沃罗努瓦图(_V)"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:267
 msgid "Output composed of straight lines"
@@ -20022,7 +20022,7 @@ msgstr "输出由直线组成"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:273
 msgid "Convert to _B-spline curves"
-msgstr "转换为 _B-spline 曲线"
+msgstr "转换为 _B 样条曲线"
 
 #: ../src/ui/dialog/pixelartdialog.cpp:274
 msgid "Preserve staircasing artifacts"
@@ -20100,7 +20100,7 @@ msgstr "结束角度"
 #: ../src/ui/dialog/polar-arrange-tab.cpp:48
 msgctxt "Polar arrange tab"
 msgid "Anchor point:"
-msgstr "锚点:"
+msgstr "锚点："
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:52
 msgctxt "Polar arrange tab"
@@ -35181,11 +35181,11 @@ msgstr "德劳内三角化"
 
 #: ../share/extensions/voronoi2svg.inx.h:7
 msgid "Voronoi and Delaunay"
-msgstr "沃罗努瓦图表及德劳内变换"
+msgstr "沃罗努瓦图及德劳内变换"
 
 #: ../share/extensions/voronoi2svg.inx.h:8
 msgid "Options for Voronoi diagram"
-msgstr "沃罗努瓦图表选项"
+msgstr "沃罗努瓦图选项"
 
 #: ../share/extensions/voronoi2svg.inx.h:10
 msgid "Automatic from selected objects"
@@ -35193,7 +35193,7 @@ msgstr "从已选择对象中自动化"
 
 #: ../share/extensions/voronoi2svg.inx.h:12
 msgid "Select a set of objects. Their centroids will be used as the sites of the Voronoi diagram. Text objects are not handled."
-msgstr "选择一组对象。它们的质心将会用作沃罗努瓦图表的站点。文本对不处理。"
+msgstr "选择一组对象。它们的质心将会用作沃罗努瓦图的站点。文本对不处理。"
 
 #: ../share/extensions/web-set-att.inx.h:1
 msgid "Set Attributes"
