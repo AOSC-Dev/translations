@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 22:24-0500\n"
+"PO-Revision-Date: 2015-11-26 22:33-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,4071,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4164,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -7145,7 +7145,7 @@ msgstr "笔廓不透明度："
 
 #: ../src/extension/internal/filter/morphology.h:206
 msgid "Adds a colorizable outline"
-msgstr "加入彩色外框"
+msgstr "添加彩色轮廓"
 
 #: ../src/extension/internal/filter/overlays.h:56
 msgid "Noise Fill"
@@ -11494,7 +11494,7 @@ msgstr "裁剪(_P)"
 
 #: ../src/menus-skeleton.h:193
 msgid "Mas_k"
-msgstr "遮罩(_K)"
+msgstr "蒙版(_K)"
 
 #: ../src/menus-skeleton.h:197
 msgid "Patter_n"
@@ -12202,7 +12202,7 @@ msgstr "创建位图"
 
 #: ../src/selection-chemistry.cpp:3730 ../src/selection-chemistry.cpp:3842
 msgid "Select <b>object(s)</b> to create clippath or mask from."
-msgstr "选择<b>对象</b>创建裁剪路径或者遮罩."
+msgstr "选择<b>对象</b>创建裁剪路径或者蒙版."
 
 #: ../src/selection-chemistry.cpp:3816 ../src/ui/dialog/objects.cpp:1918
 msgid "Create Clip Group"
@@ -12210,7 +12210,7 @@ msgstr "创建裁剪群组"
 
 #: ../src/selection-chemistry.cpp:3845
 msgid "Select mask object and <b>object(s)</b> to apply clippath or mask to."
-msgstr "选择遮罩对象和<b>对象</b>应用裁剪路径或者遮罩."
+msgstr "选择蒙版对象和<b>对象</b>应用裁剪路径或者蒙版."
 
 #: ../src/selection-chemistry.cpp:3992
 msgid "Set clipping path"
@@ -12218,11 +12218,11 @@ msgstr "设置裁剪路径"
 
 #: ../src/selection-chemistry.cpp:3994
 msgid "Set mask"
-msgstr "设置遮罩"
+msgstr "设置蒙版"
 
 #: ../src/selection-chemistry.cpp:4009
 msgid "Select <b>object(s)</b> to remove clippath or mask from."
-msgstr "选择<b>对象</b>去除裁剪路径或者遮罩."
+msgstr "选择<b>对象</b>去除裁剪路径或者蒙版."
 
 #: ../src/selection-chemistry.cpp:4125
 msgid "Release clipping path"
@@ -12230,7 +12230,7 @@ msgstr "释放裁剪路径"
 
 #: ../src/selection-chemistry.cpp:4127
 msgid "Release mask"
-msgstr "释放遮罩"
+msgstr "释放蒙版"
 
 #: ../src/selection-chemistry.cpp:4146
 msgid "Select <b>object(s)</b> to fit canvas to."
@@ -12547,7 +12547,7 @@ msgstr "%s；<i>已裁剪</i>"
 #: ../src/sp-item.cpp:1048
 #, c-format
 msgid "%s; <i>masked</i>"
-msgstr "%s；<i>已应用遮罩</i>"
+msgstr "%s；<i>已应用蒙版</i>"
 
 #: ../src/sp-item.cpp:1058
 #, c-format
@@ -14227,11 +14227,11 @@ msgstr "贴齐路径的时候也会试着贴齐裁剪路径"
 
 #: ../src/ui/dialog/document-properties.cpp:148
 msgid "Snap to mask paths"
-msgstr "贴齐遮罩路径"
+msgstr "贴齐蒙版路径"
 
 #: ../src/ui/dialog/document-properties.cpp:148
 msgid "When snapping to paths, then also try snapping to mask paths"
-msgstr "贴齐路径的时候也会试着贴齐遮罩路径"
+msgstr "贴齐路径的时候也会试着贴齐蒙版路径"
 
 #: ../src/ui/dialog/document-properties.cpp:149
 msgid "Snap perpendicularly"
@@ -18718,7 +18718,7 @@ msgstr "重新链接复制的克隆"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1355
 msgid "When duplicating a selection containing both a clone and its original (possibly in groups), relink the duplicated clone to the duplicated original instead of the old original"
-msgstr "当再制的选区同时包含原始和其克隆对象时 (比如同时在群组中), 将再制的克隆链接到再制的原始对象上, 而不是旧的原始对象."
+msgstr "当再制的选区同时包含原始和其克隆对象时（比如同时在群组中），将再制的克隆链接到再制的原始对象上，而不是旧的原始对象。"
 
 #. TRANSLATORS: Heading for the Inkscape Preferences "Clones" Page
 #: ../src/ui/dialog/inkscape-preferences.cpp:1358
@@ -18728,19 +18728,19 @@ msgstr "克隆"
 #. Clip paths and masks options
 #: ../src/ui/dialog/inkscape-preferences.cpp:1361
 msgid "When applying, use the topmost selected object as clippath/mask"
-msgstr "使用最上面的已选对象作为裁剪路径或遮罩"
+msgstr "使用最上面的已选对象作为裁剪路径或蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1363
 msgid "Uncheck this to use the bottom selected object as the clipping path or mask"
-msgstr "不选定这项使用底层已选对象作为裁剪路径或遮罩"
+msgstr "不选定这项以使用底层已选对象作为裁剪路径或蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1364
 msgid "Remove clippath/mask object after applying"
-msgstr "应用之后去除剪裁路径或遮罩"
+msgstr "在应用后，去除剪裁路径或蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1366
 msgid "After applying, remove the object used as the clipping path or mask from the drawing"
-msgstr "应用之后, 从绘图中去除作为剪裁路径或遮罩的对象"
+msgstr "在应用后, 从绘图中去除作为剪裁路径或蒙版的对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1368
 msgid "Before applying"
@@ -18748,27 +18748,27 @@ msgstr "在应用前"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1370
 msgid "Do not group clipped/masked objects"
-msgstr "不组合剪辑/掩盖的对象"
+msgstr "不组合剪裁/蒙版的对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1371
 msgid "Put every clipped/masked object in its own group"
-msgstr "把每个剪辑/掩盖的对象放在它自己的组中"
+msgstr "把每个剪裁/蒙版的对象放在它自己的组中"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1372
 msgid "Put all clipped/masked objects into one group"
-msgstr "把所有剪辑/掩盖的对象放在一个组中"
+msgstr "把所有剪裁/蒙版的对象放在一个组中"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1375
 msgid "Apply clippath/mask to every object"
-msgstr "应用剪辑路径/蒙板到每个对象"
+msgstr "应用剪裁路径/蒙版到每个对象"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1378
 msgid "Apply clippath/mask to groups containing single object"
-msgstr "应用剪辑路径/蒙板到包含单一对象的组"
+msgstr "应用剪裁路径/蒙版到包含单一对象的组"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1381
 msgid "Apply clippath/mask to group containing all objects"
-msgstr "应用剪辑路径/蒙板到包含所有对象的组"
+msgstr "应用剪裁路径/蒙版到包含所有对象的组"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1383
 msgid "After releasing"
@@ -18780,11 +18780,11 @@ msgstr "解除自动创建的群组"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1387
 msgid "Ungroup groups created when setting clip/mask"
-msgstr "当设置剪辑/蒙板时取消创建的分组"
+msgstr "当设置剪裁/蒙板时取消创建的分组"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1389
 msgid "Clippaths and masks"
-msgstr "裁剪和遮罩"
+msgstr "裁剪和蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1392
 msgid "Stroke Style Markers"
@@ -18838,7 +18838,7 @@ msgstr "MiB"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1420
 msgid "Set the amount of memory per document which can be used to store rendered parts of the drawing for later reuse; set to zero to disable caching"
-msgstr "设置每个文档可以用于存储作为绘图的已渲染部分用于以后重复使用的内存的数量;设为 0 表示禁用缓存"
+msgstr "设置每个文档可以用于存储作为绘图的已渲染部分用于以后重复使用的内存的数量；设为 0 表示禁用缓存"
 
 #. blur quality
 #. filter quality
@@ -18850,7 +18850,7 @@ msgstr "最佳质量（最慢）"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1425
 #: ../src/ui/dialog/inkscape-preferences.cpp:1449
 msgid "Better quality (slower)"
-msgstr "较好质量(较慢)"
+msgstr "较好质量（较慢）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1427
 #: ../src/ui/dialog/inkscape-preferences.cpp:1451
@@ -18860,7 +18860,7 @@ msgstr "普通质量"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1429
 #: ../src/ui/dialog/inkscape-preferences.cpp:1453
 msgid "Lower quality (faster)"
-msgstr "较低质量(较快)"
+msgstr "较低质量（较快）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1431
 #: ../src/ui/dialog/inkscape-preferences.cpp:1455
@@ -18879,22 +18879,22 @@ msgstr "最佳质量，但是放大倍数大的时候非常慢（导出位图始
 #: ../src/ui/dialog/inkscape-preferences.cpp:1438
 #: ../src/ui/dialog/inkscape-preferences.cpp:1462
 msgid "Better quality, but slower display"
-msgstr "较好质量, 但是显示较慢"
+msgstr "较好质量，但是显示较慢"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1440
 #: ../src/ui/dialog/inkscape-preferences.cpp:1464
 msgid "Average quality, acceptable display speed"
-msgstr "普通质量, 可接受的显示速度"
+msgstr "普通质量，可接受的显示速度"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1442
 #: ../src/ui/dialog/inkscape-preferences.cpp:1466
 msgid "Lower quality (some artifacts), but display is faster"
-msgstr "较差质量(有一些失真), 但是显示较快"
+msgstr "较差质量（有一些失真），但是显示较快"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1444
 #: ../src/ui/dialog/inkscape-preferences.cpp:1468
 msgid "Lowest quality (considerable artifacts), but display is fastest"
-msgstr "最差质量（大量图像错误），但是显示最快"
+msgstr "最差质量（大量图像失真），但是显示最快"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1458
 msgid "Filter effects quality for display"
@@ -18936,7 +18936,7 @@ msgstr "默认导出分辨率(_R)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1486
 msgid "Default bitmap resolution (in dots per inch) in the Export dialog"
-msgstr "导出对话框里的默认位图分辨率(单位点每英寸)"
+msgstr "导出对话框里的默认位图分辨率（按 dpi 计）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1487
 #: ../src/ui/dialog/xml-tree.cpp:920
@@ -18969,11 +18969,11 @@ msgstr "位图缩放(图像渲染)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1513
 msgid "Default _import resolution:"
-msgstr "默认导入分辨率(_I):"
+msgstr "默认导入分辨率(_I)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1514
 msgid "Default bitmap resolution (in dots per inch) for bitmap import"
-msgstr "用于位图导入的默认位图分辨率(单位为点每英寸)"
+msgstr "用于位图导入的默认位图分辨率（按 dpi 计）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1515
 msgid "Override file resolution"
@@ -18986,11 +18986,11 @@ msgstr "使用来自文件所支持的默认位图分辨率"
 #. rendering outlines for pixmap image tags
 #: ../src/ui/dialog/inkscape-preferences.cpp:1521
 msgid "Images in Outline Mode"
-msgstr "外框模式显示图片"
+msgstr "轮廓模式显示图片"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1522
 msgid "When active will render images while in outline mode instead of a red box with an x. This is useful for manual tracing."
-msgstr "当启用时外框模式会显示图片而不是显示红色方框里面中间一个 x。此选项对手动描绘时很帮助。"
+msgstr "当启用时轮廓模式会显示图片而不是显示红色方框里面中间一个 x。此选项对手动描绘时很帮助。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1524
 msgid "Bitmaps"
@@ -19050,7 +19050,7 @@ msgstr "杂项"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1892
 msgctxt "Spellchecker language"
 msgid "None"
-msgstr "不透明"
+msgstr "无"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1913
 msgid "Set the main spell check language"
@@ -19058,19 +19058,19 @@ msgstr "设置拼写检查的首选语言"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1916
 msgid "Second language:"
-msgstr "第二语言:"
+msgstr "第二语言："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1917
 msgid "Set the second spell check language; checking will only stop on words unknown in ALL chosen languages"
-msgstr "设置第二种拼写检查语言; 当单词在在所有选定的语言中均找不到时, 检查才会停止"
+msgstr "设置第二种拼写检查语言；当单词在在所有选定的语言中均找不到时，检查才会停止"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1920
 msgid "Third language:"
-msgstr "第三语言"
+msgstr "第三语言："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1921
 msgid "Set the third spell check language; checking will only stop on words unknown in ALL chosen languages"
-msgstr "设置第三种拼写检查语言; 当单词在在所有选定的语言中均找不到时, 检查才会停止"
+msgstr "设置第三种拼写检查语言；当单词在在所有选定的语言中均找不到时，检查才会停止"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1923
 msgid "Ignore words with digits"
@@ -19078,7 +19078,7 @@ msgstr "忽略含有数字的词"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1925
 msgid "Ignore words containing digits, such as \"R2D2\""
-msgstr "忽略含有数字的单词, 例如 \"R2D2\""
+msgstr "忽略含有数字的单词, 例如“R2D2”"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1927
 msgid "Ignore words in ALL CAPITALS"
@@ -19086,7 +19086,7 @@ msgstr "忽略全部大写的词"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1929
 msgid "Ignore words in all capitals, such as \"IUPAC\""
-msgstr "忽略全部大写的词, 例如\"IUPAC\""
+msgstr "忽略全部大写的词, 例如“IUPAC”"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1931
 msgid "Spellcheck"
@@ -19098,7 +19098,7 @@ msgstr "延时偏差(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1952
 msgid "Factor by which the event clock is skewed from the actual time (0.9766 on some systems)"
-msgstr "事件时钟和实际时钟的偏差的系数（在某些系统上是 0.9766）"
+msgstr "事件时钟和实际时间的偏差的系数（在某些系统上是 0.9766）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1954
 msgid "Pre-render named icons"
@@ -19906,11 +19906,11 @@ msgstr "取消裁剪"
 #. Set mask
 #: ../src/ui/dialog/objects.cpp:1926 ../src/ui/interface.cpp:1735
 msgid "Set Mask"
-msgstr "设置遮罩"
+msgstr "设置蒙版"
 
 #: ../src/ui/dialog/objects.cpp:1927
 msgid "Unset Mask"
-msgstr "取消遮罩"
+msgstr "取消蒙版"
 
 #: ../src/ui/dialog/objects.cpp:1949
 msgid "Select Highlight Color"
@@ -21229,7 +21229,7 @@ msgstr "创建链接(_L)"
 #. Release mask
 #: ../src/ui/interface.cpp:1746
 msgid "Release Mask"
-msgstr "释放遮罩"
+msgstr "释放蒙版"
 
 #. SSet Clip Group
 #: ../src/ui/interface.cpp:1757
@@ -25057,11 +25057,11 @@ msgstr "垂直地翻转已选对象"
 
 #: ../src/verbs.cpp:2681
 msgid "Apply mask to selection (using the topmost object as mask)"
-msgstr "应用遮罩到选区(使用最顶层对象作为遮罩)"
+msgstr "应用蒙版到选区(使用最顶层对象作为蒙版)"
 
 #: ../src/verbs.cpp:2683
 msgid "Edit mask"
-msgstr "编辑遮罩"
+msgstr "编辑蒙版"
 
 #: ../src/verbs.cpp:2684 ../src/verbs.cpp:2692
 msgid "_Release"
@@ -25069,7 +25069,7 @@ msgstr "释放(_R)"
 
 #: ../src/verbs.cpp:2685
 msgid "Remove mask from selection"
-msgstr "从选区中移除遮罩"
+msgstr "从选区中移除蒙版"
 
 #: ../src/verbs.cpp:2687
 msgid "Apply clipping path to selection (using the topmost object as clipping path)"
@@ -25662,7 +25662,7 @@ msgstr "轮廓(_O)"
 
 #: ../src/verbs.cpp:2831
 msgid "Switch to outline (wireframe) display mode"
-msgstr "切换到轮廓(线框)显示模式"
+msgstr "切换到轮廓显示模式"
 
 #. new ZoomVerb(SP_VERB_VIEW_COLOR_MODE_PRINT_COLORS_PREVIEW, "ViewColorModePrintColorsPreview", N_("_Print Colors Preview"),
 #. N_("Switch to print colors preview mode"), NULL),
@@ -27478,11 +27478,11 @@ msgstr "显示选择对象的剪辑路径"
 
 #: ../src/widgets/node-toolbar.cpp:566
 msgid "Edit masks"
-msgstr "编辑遮罩"
+msgstr "编辑蒙版"
 
 #: ../src/widgets/node-toolbar.cpp:567
 msgid "Show mask(s) of selected object(s)"
-msgstr "显示所选对象的遮罩"
+msgstr "显示所选对象的蒙版"
 
 #: ../src/widgets/node-toolbar.cpp:581
 msgid "X coordinate:"
