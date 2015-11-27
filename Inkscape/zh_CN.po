@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 22:33-0500\n"
+"PO-Revision-Date: 2015-11-27 01:59-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,4164,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4294,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -19114,7 +19114,7 @@ msgstr "系统信息"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1968
 msgid "User config: "
-msgstr "用户设置:"
+msgstr "用户设置："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1968
 msgid "Location of users configuration"
@@ -19122,7 +19122,7 @@ msgstr "用户配置的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1972
 msgid "User preferences: "
-msgstr "用户首选项:"
+msgstr "用户首选项："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1972
 msgid "Location of the users preferences file"
@@ -19130,7 +19130,7 @@ msgstr "用户首选项文件的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1976
 msgid "User extensions: "
-msgstr "用户扩展:"
+msgstr "用户扩展："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1976
 msgid "Location of the users extensions"
@@ -19138,15 +19138,15 @@ msgstr "用户扩展的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1980
 msgid "User cache: "
-msgstr "用户缓存:"
+msgstr "用户缓存："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1980
 msgid "Location of users cache"
-msgstr "用户缓存的位置:"
+msgstr "用户缓存的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1988
 msgid "Temporary files: "
-msgstr "临时文件:"
+msgstr "临时文件："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1988
 msgid "Location of the temporary files used for autosave"
@@ -19170,7 +19170,7 @@ msgstr "Inkscape 扩展的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2005
 msgid "System data: "
-msgstr "系统数据:"
+msgstr "系统数据："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2005
 msgid "Locations of system data"
@@ -19178,7 +19178,7 @@ msgstr "系统数据的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2029
 msgid "Icon theme: "
-msgstr "图标主题:"
+msgstr "图标主题："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2029
 msgid "Locations of icon themes"
@@ -19220,7 +19220,7 @@ msgstr "硬件"
 
 #: ../src/ui/dialog/input.cpp:732
 msgid "Link:"
-msgstr "链接:"
+msgstr "链接："
 
 #: ../src/ui/dialog/input.cpp:742 ../src/ui/dialog/input.cpp:743
 #: ../src/ui/dialog/input.cpp:1571 ../src/ui/widget/color-scales.cpp:46
@@ -19262,7 +19262,7 @@ msgstr "按键"
 
 #: ../src/ui/dialog/input.cpp:1170
 msgid "A device can be 'Disabled', its co-ordinates mapped to the whole 'Screen', or to a single (usually focused) 'Window'"
-msgstr "可以‘禁用’的设备，它的坐标映射到整个‘屏幕’，或者一个单一（通常是聚焦的）‘窗口’"
+msgstr "可以“禁用”的设备，它的坐标映射到整个“屏幕”，或者一个单一（通常是聚焦的）的“窗口”"
 
 #: ../src/ui/dialog/input.cpp:1616 ../src/widgets/calligraphy-toolbar.cpp:578
 #: ../src/widgets/spray-toolbar.cpp:224 ../src/widgets/tweak-toolbar.cpp:372
@@ -19288,7 +19288,7 @@ msgstr "无"
 
 #: ../src/ui/dialog/layer-properties.cpp:55
 msgid "Layer name:"
-msgstr "层名:"
+msgstr "层名："
 
 #: ../src/ui/dialog/layer-properties.cpp:136
 msgid "Add layer"
@@ -19315,7 +19315,7 @@ msgstr "重命名图层"
 #: ../src/ui/dialog/layer-properties.cpp:410 ../src/verbs.cpp:194
 #: ../src/verbs.cpp:2337
 msgid "Layer"
-msgstr "层"
+msgstr "图层"
 
 #: ../src/ui/dialog/layer-properties.cpp:355
 msgid "_Rename"
@@ -19332,7 +19332,7 @@ msgstr "已重命名层"
 
 #: ../src/ui/dialog/layer-properties.cpp:374
 msgid "Add Layer"
-msgstr "添加层"
+msgstr "新增图层"
 
 #: ../src/ui/dialog/layer-properties.cpp:380
 msgid "_Add"
@@ -19340,11 +19340,11 @@ msgstr "添加(_A)"
 
 #: ../src/ui/dialog/layer-properties.cpp:404
 msgid "New layer created."
-msgstr "新层已创建."
+msgstr "新图层已创建。"
 
 #: ../src/ui/dialog/layer-properties.cpp:408
 msgid "Move to Layer"
-msgstr "移到层"
+msgstr "移到图层"
 
 #: ../src/ui/dialog/layer-properties.cpp:411
 #: ../src/ui/dialog/lpe-powerstroke-properties.cpp:123
@@ -19354,24 +19354,24 @@ msgstr "移动(_M)"
 
 #: ../src/ui/dialog/layers.cpp:525 ../src/ui/widget/layer-selector.cpp:613
 msgid "Unhide layer"
-msgstr "撤销隐藏层"
+msgstr "撤销隐藏图层"
 
 #: ../src/ui/dialog/layers.cpp:525 ../src/ui/widget/layer-selector.cpp:613
 msgid "Hide layer"
-msgstr "隐藏层"
+msgstr "隐藏图层"
 
 #: ../src/ui/dialog/layers.cpp:536 ../src/ui/widget/layer-selector.cpp:605
 msgid "Lock layer"
-msgstr "锁定层"
+msgstr "锁定图层"
 
 #: ../src/ui/dialog/layers.cpp:536 ../src/ui/widget/layer-selector.cpp:605
 msgid "Unlock layer"
-msgstr "撤销锁定层"
+msgstr "撤销锁定图层"
 
 #: ../src/ui/dialog/layers.cpp:624 ../src/ui/dialog/objects.cpp:844
 #: ../src/verbs.cpp:1407
 msgid "Toggle layer solo"
-msgstr "仅当前层可见"
+msgstr "仅当前图层可见"
 
 #: ../src/ui/dialog/layers.cpp:627 ../src/ui/dialog/objects.cpp:847
 #: ../src/verbs.cpp:1431
@@ -19380,7 +19380,7 @@ msgstr "锁定其他图层"
 
 #: ../src/ui/dialog/layers.cpp:730
 msgid "Move layer"
-msgstr "降低层"
+msgstr "移动图层"
 
 #: ../src/ui/dialog/layers.cpp:892
 msgctxt "Layers"
@@ -19527,7 +19527,7 @@ msgstr "堆"
 
 #: ../src/ui/dialog/memory.cpp:97
 msgid "In Use"
-msgstr "在使用"
+msgstr "在用"
 
 #. TRANSLATORS: "Slack" refers to memory which is in the heap but currently unused.
 #. More typical usage is to call this memory "free" rather than "slack".
@@ -19546,7 +19546,7 @@ msgstr "未知"
 
 #: ../src/ui/dialog/memory.cpp:167
 msgid "Combined"
-msgstr "组合"
+msgstr "总和"
 
 #: ../src/ui/dialog/memory.cpp:209
 msgid "Recalculate"
@@ -19558,7 +19558,7 @@ msgstr "清除日志消息"
 
 #: ../src/ui/dialog/messages.cpp:81
 msgid "Ready."
-msgstr "就绪."
+msgstr "就绪。"
 
 #: ../src/ui/dialog/messages.cpp:174
 msgid "Log capture started."
@@ -19578,7 +19578,7 @@ msgstr "由模板新建"
 
 #: ../src/ui/dialog/object-attributes.cpp:47
 msgid "Href:"
-msgstr "链接:"
+msgstr "链接："
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/linking.html#AElementXLinkRoleAttribute
 #. Identifies the type of the related resource with an absolute URI
@@ -19590,17 +19590,17 @@ msgstr "角色："
 #. For situations where the nature/role alone isn't enough, this offers an additional URI defining the purpose of the link.
 #: ../src/ui/dialog/object-attributes.cpp:55
 msgid "Arcrole:"
-msgstr "Arcrole："
+msgstr "用途："
 
 #: ../src/ui/dialog/object-attributes.cpp:58
 #: ../share/extensions/polyhedron_3d.inx.h:47
 msgid "Show:"
-msgstr "显示:"
+msgstr "显示："
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/linking.html#AElementXLinkActuateAttribute
 #: ../src/ui/dialog/object-attributes.cpp:60
 msgid "Actuate:"
-msgstr "实际:"
+msgstr "开动："
 
 #: ../src/ui/dialog/object-attributes.cpp:65
 msgid "URL:"
@@ -19636,7 +19636,7 @@ msgstr "锁定(_O)"
 #. Create the entry box for the object id
 #: ../src/ui/dialog/object-properties.cpp:139
 msgid "The id= attribute (only letters, digits, and the characters .-_: allowed)"
-msgstr "id=属性（只允许字母，数字和字符 .-_： ）"
+msgstr "id= 属性（只允许字母、数字和字符 .-_:）"
 
 #. Create the entry box for the object label
 #: ../src/ui/dialog/object-properties.cpp:174
@@ -19656,7 +19656,7 @@ msgid ""
 "\t'optimizeSpeed' blocky.\n"
 "Note that this behaviour is not defined in the SVG 1.1 specification and not all browsers follow this interpretation."
 msgstr ""
-"“image-rendering 图像渲染”属性会影响位图的缩放方式：\n"
+"图像渲染“image-rendering”属性会影响位图的缩放方式：\n"
 "\t“自动” 无偏好设置；\n"
 "\t“画质最佳化”平滑；\n"
 "\t“性能最佳化”块状锯齿。\n"
@@ -19671,7 +19671,7 @@ msgstr "勾选使对象不可见"
 #. TRANSLATORS: "Lock" is a verb here
 #: ../src/ui/dialog/object-properties.cpp:309
 msgid "Check to make the object insensitive (not selectable by mouse)"
-msgstr "勾选使对象不可操作(不能通过鼠标选择)"
+msgstr "勾选使对象不可操作（不能通过鼠标选择）"
 
 #. Button for setting the object's id, label, title and description.
 #: ../src/ui/dialog/object-properties.cpp:325 ../src/verbs.cpp:2680
