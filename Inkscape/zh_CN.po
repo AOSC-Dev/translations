@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 17:47-0500\n"
+"PO-Revision-Date: 2015-11-27 18:02-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,5943,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,5999,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -26905,11 +26905,11 @@ msgstr "径向"
 
 #: ../src/widgets/gradient-toolbar.cpp:1044
 msgid "Create radial (elliptic or circular) gradient"
-msgstr "创建辐向(椭圆或圆形)渐变"
+msgstr "创建辐向（椭圆或圆形）渐变"
 
 #: ../src/widgets/gradient-toolbar.cpp:1047 ../src/widgets/mesh-toolbar.cpp:384
 msgid "New:"
-msgstr "新的："
+msgstr "新建："
 
 #: ../src/widgets/gradient-toolbar.cpp:1070 ../src/widgets/mesh-toolbar.cpp:407
 msgid "fill"
@@ -26963,7 +26963,7 @@ msgstr "重复"
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/pservers.html#LinearGradientSpreadMethodAttribute
 #: ../src/widgets/gradient-toolbar.cpp:1128
 msgid "Whether to fill with flat color beyond the ends of the gradient vector (spreadMethod=\"pad\"), or repeat the gradient in the same direction (spreadMethod=\"repeat\"), or repeat the gradient in alternating opposite directions (spreadMethod=\"reflect\")"
-msgstr "是否使用渐变向量的终点颜色填充(spreadMethod=\"pad\"), 或者在相同的方向重复渐变(spreadMethod=\"repeat\"), 或者交替反向渐变(spreadMethod=\"reflect\")"
+msgstr "是要使用渐变向量的终点颜色填充（spreadMethod=\"pad\"），还是在相同的方向重复渐变（spreadMethod=\"repeat\"）还是交替反向渐变（spreadMethod=\"reflect\"）"
 
 #: ../src/widgets/gradient-toolbar.cpp:1133
 msgid "Repeat:"
@@ -26975,7 +26975,7 @@ msgstr "没有分段点"
 
 #: ../src/widgets/gradient-toolbar.cpp:1149
 msgid "Stops"
-msgstr "站"
+msgstr "分段点"
 
 #: ../src/widgets/gradient-toolbar.cpp:1149
 msgid "Select a stop for the current gradient"
@@ -26990,11 +26990,11 @@ msgstr "分段点："
 #: ../src/widgets/gradient-vector.cpp:916
 msgctxt "Gradient"
 msgid "Offset:"
-msgstr "位移："
+msgstr "偏移量："
 
 #: ../src/widgets/gradient-toolbar.cpp:1162
 msgid "Offset of selected stop"
-msgstr "选择分段点的偏移"
+msgstr "选定分段点的偏移"
 
 #: ../src/widgets/gradient-toolbar.cpp:1180
 #: ../src/widgets/gradient-toolbar.cpp:1181
@@ -27060,7 +27060,7 @@ msgstr "改变渐变分段点颜色"
 
 #: ../src/widgets/lpe-toolbar.cpp:233
 msgid "Closed"
-msgstr "已关闭"
+msgstr "闭合"
 
 #: ../src/widgets/lpe-toolbar.cpp:235
 msgid "Open start"
@@ -27076,11 +27076,11 @@ msgstr "全部打开"
 
 #: ../src/widgets/lpe-toolbar.cpp:301
 msgid "All inactive"
-msgstr "全部失活"
+msgstr "全未激活"
 
 #: ../src/widgets/lpe-toolbar.cpp:302
 msgid "No geometric tool is active"
-msgstr "几何工具均为激活"
+msgstr "几何工具均未激活"
 
 #: ../src/widgets/lpe-toolbar.cpp:335
 msgid "Show limiting bounding box"
@@ -27088,7 +27088,7 @@ msgstr "显示约束边界框"
 
 #: ../src/widgets/lpe-toolbar.cpp:336
 msgid "Show bounding box (used to cut infinite lines)"
-msgstr "显示范围框 (用来剪切无限长直线)"
+msgstr "显示范围框（用来切割无限直线）"
 
 #: ../src/widgets/lpe-toolbar.cpp:347
 msgid "Get limiting bounding box from selection"
@@ -27096,7 +27096,7 @@ msgstr "从选区中建立约束边界框"
 
 #: ../src/widgets/lpe-toolbar.cpp:348
 msgid "Set limiting bounding box (used to cut infinite lines) to the bounding box of current selection"
-msgstr "将约束边界框(用来切割直线)的设置为当前选择对象的边界框"
+msgstr "将约束边界框（用来切割无限直线）的设置为当前选择对象的边界框"
 
 #: ../src/widgets/lpe-toolbar.cpp:360
 msgid "Choose a line segment type"
@@ -27119,11 +27119,11 @@ msgstr "单位"
 
 #: ../src/widgets/lpe-toolbar.cpp:397
 msgid "Open LPE dialog"
-msgstr "打开LPE对话框"
+msgstr "打开 LPE 对话框"
 
 #: ../src/widgets/lpe-toolbar.cpp:398
 msgid "Open LPE dialog (to adapt parameters numerically)"
-msgstr "打开LPE对话框(实时路径效果, 通过数字修改参数)"
+msgstr "打开 LPE 对话框（通过数字修改参数）"
 
 #: ../src/widgets/measure-toolbar.cpp:86 ../src/widgets/text-toolbar.cpp:1268
 msgid "Font Size"
