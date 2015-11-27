@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 02:10-0500\n"
+"PO-Revision-Date: 2015-11-27 02:22-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,4594,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4750,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -7537,7 +7537,7 @@ msgstr "自定义"
 
 #: ../src/extension/internal/filter/textures.h:83
 msgid "Custom stroke options"
-msgstr "自定义笔画选项"
+msgstr "自定义笔廓选项"
 
 #: ../src/extension/internal/filter/textures.h:84
 msgid "k1:"
@@ -7846,7 +7846,7 @@ msgstr "插图框"
 #. Crop settings
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:117
 msgid "Clip to:"
-msgstr "裁剪到："
+msgstr "剪裁到："
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:128
 msgid "Page settings"
@@ -9725,7 +9725,7 @@ msgstr "尖角"
 
 #: ../src/live_effects/lpe-jointype.cpp:34
 msgid "Miter Clip"
-msgstr "\t斜接夹"
+msgstr "\t斜接剪裁"
 
 #. {LINEJOIN_EXTRP_MITER,  N_("Extrapolated"),      "extrapolated"}, // disabled because doesn't work well
 #: ../src/live_effects/lpe-jointype.cpp:35
@@ -11490,7 +11490,7 @@ msgstr "对象(_O)"
 
 #: ../src/menus-skeleton.h:189
 msgid "Cli_p"
-msgstr "裁剪(_P)"
+msgstr "剪裁(_P)"
 
 #: ../src/menus-skeleton.h:193
 msgid "Mas_k"
@@ -12202,19 +12202,19 @@ msgstr "创建位图"
 
 #: ../src/selection-chemistry.cpp:3730 ../src/selection-chemistry.cpp:3842
 msgid "Select <b>object(s)</b> to create clippath or mask from."
-msgstr "选择<b>对象</b>创建裁剪路径或者蒙版."
+msgstr "选择<b>对象</b>创建剪裁路径或者蒙版。"
 
 #: ../src/selection-chemistry.cpp:3816 ../src/ui/dialog/objects.cpp:1918
 msgid "Create Clip Group"
-msgstr "创建裁剪群组"
+msgstr "创建剪裁群组"
 
 #: ../src/selection-chemistry.cpp:3845
 msgid "Select mask object and <b>object(s)</b> to apply clippath or mask to."
-msgstr "选择蒙版对象和<b>对象</b>应用裁剪路径或者蒙版."
+msgstr "选择蒙版对象和<b>对象</b>应用剪裁路径或者蒙版。"
 
 #: ../src/selection-chemistry.cpp:3992
 msgid "Set clipping path"
-msgstr "设置裁剪路径"
+msgstr "设置剪裁路径"
 
 #: ../src/selection-chemistry.cpp:3994
 msgid "Set mask"
@@ -12222,11 +12222,11 @@ msgstr "设置蒙版"
 
 #: ../src/selection-chemistry.cpp:4009
 msgid "Select <b>object(s)</b> to remove clippath or mask from."
-msgstr "选择<b>对象</b>去除裁剪路径或者蒙版."
+msgstr "选择<b>对象</b>去除剪裁路径或者蒙版。"
 
 #: ../src/selection-chemistry.cpp:4125
 msgid "Release clipping path"
-msgstr "释放裁剪路径"
+msgstr "释放剪裁路径"
 
 #: ../src/selection-chemistry.cpp:4127
 msgid "Release mask"
@@ -12542,7 +12542,7 @@ msgstr "对象"
 #: ../src/sp-item.cpp:1042
 #, c-format
 msgid "%s; <i>clipped</i>"
-msgstr "%s；<i>已裁剪</i>"
+msgstr "%s；<i>已剪裁</i>"
 
 #: ../src/sp-item.cpp:1048
 #, c-format
@@ -14219,11 +14219,11 @@ msgstr "激活时，对象到参考线的距离在指定范围内时才吸附"
 #. ---------------------------------------------------------------
 #: ../src/ui/dialog/document-properties.cpp:147
 msgid "Snap to clip paths"
-msgstr "贴齐裁剪路径"
+msgstr "贴齐剪裁路径"
 
 #: ../src/ui/dialog/document-properties.cpp:147
 msgid "When snapping to paths, then also try snapping to clip paths"
-msgstr "贴齐路径的时候也会试着贴齐裁剪路径"
+msgstr "贴齐路径的时候也会试着贴齐剪裁路径"
 
 #: ../src/ui/dialog/document-properties.cpp:148
 msgid "Snap to mask paths"
@@ -17055,7 +17055,7 @@ msgstr "使用旧式的渐变编辑器"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:494
 msgid "When on, the Gradient Edit button in the Fill & Stroke dialog will show the legacy Gradient Editor dialog, when off the Gradient Tool will be used"
-msgstr "当打开时，在填充和笔画对话框中的渐变编辑按钮将会显示旧式渐变编辑器对话框；当关闭时则使用渐变工具"
+msgstr "当打开时，在填充和笔廓对话框中的渐变编辑按钮将会显示旧式渐变编辑器对话框；当关闭时则使用渐变工具"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:497
 msgid "Linear gradient _angle:"
@@ -18728,11 +18728,11 @@ msgstr "克隆"
 #. Clip paths and masks options
 #: ../src/ui/dialog/inkscape-preferences.cpp:1361
 msgid "When applying, use the topmost selected object as clippath/mask"
-msgstr "使用最上面的已选对象作为裁剪路径或蒙版"
+msgstr "使用最上面的已选对象作为剪裁路径或蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1363
 msgid "Uncheck this to use the bottom selected object as the clipping path or mask"
-msgstr "不选定这项以使用底层已选对象作为裁剪路径或蒙版"
+msgstr "不选定这项以使用底层已选对象作为剪裁路径或蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1364
 msgid "Remove clippath/mask object after applying"
@@ -18784,16 +18784,16 @@ msgstr "当设置剪裁/蒙板时取消创建的分组"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1389
 msgid "Clippaths and masks"
-msgstr "裁剪和蒙版"
+msgstr "剪裁路径和蒙版"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1392
 msgid "Stroke Style Markers"
-msgstr "笔画样式标记"
+msgstr "笔廓样式标记"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1394
 #: ../src/ui/dialog/inkscape-preferences.cpp:1396
 msgid "Stroke color same as object, fill color either object fill color or marker fill color"
-msgstr "笔画颜色和对象一样，填充颜色和对象填充色或者标记填充色系统"
+msgstr "笔廓颜色和对象一样，填充颜色和对象填充色或者标记填充色系统"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1400
 #: ../share/extensions/hershey.inx.h:27
@@ -19895,13 +19895,13 @@ msgstr "向下"
 
 #: ../src/ui/dialog/objects.cpp:1916
 msgid "Set Clip"
-msgstr "设置裁剪"
+msgstr "设置剪裁"
 
 #. will never be implemented
 #. _watching.push_back( &_addPopupItem( targetDesktop, SP_VERB_OBJECT_SET_INVERSE_CLIPPATH, 0, "Set Inverse Clip", (int)BUTTON_SETINVCLIP ) );
 #: ../src/ui/dialog/objects.cpp:1922
 msgid "Unset Clip"
-msgstr "取消裁剪"
+msgstr "取消剪裁"
 
 #. Set mask
 #: ../src/ui/dialog/objects.cpp:1926 ../src/ui/interface.cpp:1735
@@ -20991,7 +20991,7 @@ msgstr "编辑变换矩阵"
 
 #: ../src/ui/dialog/transformation.cpp:1110
 msgid "Rotation angle (positive = clockwise)"
-msgstr "旋转角度 (正值=顺时针)"
+msgstr "旋转角度（正值=顺时针）"
 
 #: ../src/ui/dialog/xml-tree.cpp:70 ../src/ui/dialog/xml-tree.cpp:126
 msgid "New element node"
@@ -21053,20 +21053,20 @@ msgstr "属性值"
 
 #: ../src/ui/dialog/xml-tree.cpp:319
 msgid "<b>Click</b> to select nodes, <b>drag</b> to rearrange."
-msgstr "<b>点击</b>选择节点, <b>拖动</b>重新排列."
+msgstr "<b>点击</b>选择节点，<b>拖动</b>重新排列。"
 
 #: ../src/ui/dialog/xml-tree.cpp:330
 msgid "<b>Click</b> attribute to edit."
-msgstr "<b>点击</b>属性编辑."
+msgstr "<b>点击</b>属性编辑。"
 
 #: ../src/ui/dialog/xml-tree.cpp:334
 #, c-format
 msgid "Attribute <b>%s</b> selected. Press <b>Ctrl+Enter</b> when done editing to commit changes."
-msgstr "属性<b>%s</b>已选择.完成编辑后按<b>Ctrl+Enter</b>提交更改."
+msgstr "已选择属性<b>%s</b>。完成编辑后按 <b>Ctrl+Enter</b> 提交更改."
 
 #: ../src/ui/dialog/xml-tree.cpp:574
 msgid "Drag XML subtree"
-msgstr "拖动 XML 子数"
+msgstr "拖动 XML 子树"
 
 #: ../src/ui/dialog/xml-tree.cpp:876
 msgid "New element node..."
@@ -21139,19 +21139,19 @@ msgstr "将颜色放置到渐变上"
 
 #: ../src/ui/interface.cpp:1207
 msgid "Could not parse SVG data"
-msgstr "不能解析SVG数据"
+msgstr "不能解析 SVG 数据"
 
 #: ../src/ui/interface.cpp:1246
 msgid "Drop SVG"
-msgstr "放下 SVG"
+msgstr "丢弃 SVG"
 
 #: ../src/ui/interface.cpp:1259
 msgid "Drop Symbol"
-msgstr "放下符号"
+msgstr "丢弃符号"
 
 #: ../src/ui/interface.cpp:1290
 msgid "Drop bitmap image"
-msgstr "放置位图图像"
+msgstr "丢弃位图图像"
 
 #: ../src/ui/interface.cpp:1382
 #, c-format
@@ -21160,9 +21160,9 @@ msgid ""
 "\n"
 "The file already exists in \"%s\". Replacing it will overwrite its contents."
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">文件 \"%s\" 已存在.要替换吗？</span>\n"
+"<span weight=\"bold\" size=\"larger\">文件“%s”已存在。要替换吗？</span>\n"
 "\n"
-"已存在文件 \"%s\"..替换将覆盖其内容."
+"已存在文件“%s”。替换将覆盖其内容。"
 
 #: ../src/ui/interface.cpp:1389 ../share/extensions/web-set-att.inx.h:21
 #: ../share/extensions/web-transmit-att.inx.h:19
@@ -21194,7 +21194,7 @@ msgstr "选择相同扩展名的全部"
 #. Select same fill and stroke
 #: ../src/ui/interface.cpp:1667
 msgid "Fill and Stroke"
-msgstr "填充和笔画"
+msgstr "填充和笔廓"
 
 #. Select same fill color
 #: ../src/ui/interface.cpp:1674
@@ -21204,12 +21204,12 @@ msgstr "填充颜色"
 #. Select same stroke color
 #: ../src/ui/interface.cpp:1681
 msgid "Stroke Color"
-msgstr "描边颜色"
+msgstr "笔廓颜色"
 
 #. Select same stroke style
 #: ../src/ui/interface.cpp:1688
 msgid "Stroke Style"
-msgstr "笔画样式"
+msgstr "笔廓样式"
 
 #. Select same stroke style
 #: ../src/ui/interface.cpp:1695
@@ -21234,17 +21234,17 @@ msgstr "释放蒙版"
 #. SSet Clip Group
 #: ../src/ui/interface.cpp:1757
 msgid "Create Clip G_roup"
-msgstr "创建剪辑组(_R)"
+msgstr "创建剪裁组(_R)"
 
 #. Set Clip
 #: ../src/ui/interface.cpp:1764
 msgid "Set Cl_ip"
-msgstr "设置剪辑(_I)"
+msgstr "设置剪裁(_I)"
 
 #. Release Clip
 #: ../src/ui/interface.cpp:1775
 msgid "Release C_lip"
-msgstr "释放剪辑(_L)"
+msgstr "释放剪裁(_L)"
 
 #. Group
 #: ../src/ui/interface.cpp:1786 ../src/verbs.cpp:2534
@@ -21329,25 +21329,25 @@ msgstr "检查拼写(_G)…"
 
 #: ../src/ui/object-edit.cpp:450
 msgid "Adjust the <b>horizontal rounding</b> radius; with <b>Ctrl</b> to make the vertical radius the same"
-msgstr "调节<b>水平圆角</b>半径; 按住 <b>Ctrl</b> 使垂直半径也相同"
+msgstr "调节<b>水平圆角</b>半径；按住 <b>Ctrl</b> 使垂直半径也相同"
 
 #: ../src/ui/object-edit.cpp:455
 msgid "Adjust the <b>vertical rounding</b> radius; with <b>Ctrl</b> to make the horizontal radius the same"
-msgstr "调节<b>垂直圆角</b>半径; 按住 <b>Ctrl</b> 使水平半径也相同"
+msgstr "调节<b>垂直圆角</b>半径；按住 <b>Ctrl</b> 使水平半径也相同"
 
 #: ../src/ui/object-edit.cpp:460 ../src/ui/object-edit.cpp:465
 msgid "Adjust the <b>width and height</b> of the rectangle; with <b>Ctrl</b> to lock ratio or stretch in one dimension only"
-msgstr "调节矩形的<b>宽度和高度</b>; 按住 <b>Ctrl</b> 锁定比率或者仅沿一个方向拉伸"
+msgstr "调节矩形的<b>宽度和高度</b>；按住 <b>Ctrl</b> 锁定比率或者仅沿一个方向拉伸"
 
 #: ../src/ui/object-edit.cpp:712 ../src/ui/object-edit.cpp:716
 #: ../src/ui/object-edit.cpp:720 ../src/ui/object-edit.cpp:724
 msgid "Resize box in X/Y direction; with <b>Shift</b> along the Z axis; with <b>Ctrl</b> to constrain to the directions of edges or diagonals"
-msgstr "在X/Y方向上缩放盒子;  <b>Shift</b>沿Z轴缩放; <b>Ctrl</b>限制沿边或对角线方向"
+msgstr "在 X/Y 方向上缩放盒子；<b>Shift</b>沿Z轴缩放；<b>Ctrl</b>限制沿边或对角线方向"
 
 #: ../src/ui/object-edit.cpp:728 ../src/ui/object-edit.cpp:732
 #: ../src/ui/object-edit.cpp:736 ../src/ui/object-edit.cpp:740
 msgid "Resize box along the Z axis; with <b>Shift</b> in X/Y direction; with <b>Ctrl</b> to constrain to the directions of edges or diagonals"
-msgstr "沿Z轴缩放;  <b>Shift</b>在X/Y方向上缩放盒子; <b>Ctrl</b>限制沿边或对角线方向"
+msgstr "沿 Z 轴缩放；<b>Shift</b>在 X/Y 方向上缩放盒子；<b>Ctrl</b>限制沿边或对角线方向"
 
 #: ../src/ui/object-edit.cpp:744
 msgid "Move the box in perspective"
@@ -21355,35 +21355,35 @@ msgstr "以透视方式移动盒子"
 
 #: ../src/ui/object-edit.cpp:983
 msgid "Adjust ellipse <b>width</b>, with <b>Ctrl</b> to make circle"
-msgstr "调节椭圆<b>宽度</b>, 按住 <b>Ctrl</b> 生成圆"
+msgstr "调节椭圆 <b>宽度</b>，按住 <b>Ctrl</b> 生成圆"
 
 #: ../src/ui/object-edit.cpp:987
 msgid "Adjust ellipse <b>height</b>, with <b>Ctrl</b> to make circle"
-msgstr "调节椭圆<b>高度</b>, 按住 <b>Ctrl</b> 生成圆"
+msgstr "调节椭圆 <b>高度</b>，按住 <b>Ctrl</b> 生成圆"
 
 #: ../src/ui/object-edit.cpp:991
 msgid "Position the <b>start point</b> of the arc or segment; with <b>Ctrl</b> to snap angle; drag <b>inside</b> the ellipse for arc, <b>outside</b> for segment"
-msgstr "放置弧或者分割的<b>起点</b>; 按住 <b>Ctrl</b> 吸附角度; 在椭圆<b>内部</b>为弧, <b>外部</b>为分割"
+msgstr "放置弧或者线段的<b>起点</b>；按住 <b>Ctrl</b> 吸附角度；在椭圆<b>内部</b>为弧，<b>外部</b>为线段"
 
 #: ../src/ui/object-edit.cpp:996
 msgid "Position the <b>end point</b> of the arc or segment; with <b>Ctrl</b> to snap angle; drag <b>inside</b> the ellipse for arc, <b>outside</b> for segment"
-msgstr "放置弧或者线段的<b>终点</b>; 按住 <b>Ctrl</b> 吸附角度; 在椭圆<b>里面</b>拖动产生弧, <b>外面</b>产生分割"
+msgstr "放置弧或者线段的<b>终点</b>；按住 <b>Ctrl</b> 吸附角度；在椭圆<b>内部</b>为弧，<b>外部</b>为线段"
 
 #: ../src/ui/object-edit.cpp:1142
 msgid "Adjust the <b>tip radius</b> of the star or polygon; with <b>Shift</b> to round; with <b>Alt</b> to randomize"
-msgstr "调节星形或者多边形的<b>tip 半径</b>; 按住 <b>Shift</b> 圆整; 使用 <b>Alt</b> 随机"
+msgstr "调节星形或者多边形的 <b>尖角半径</b>；按住 <b>Shift</b> 舍入；使用 <b>Alt</b> 随机"
 
 #: ../src/ui/object-edit.cpp:1150
 msgid "Adjust the <b>base radius</b> of the star; with <b>Ctrl</b> to keep star rays radial (no skew); with <b>Shift</b> to round; with <b>Alt</b> to randomize"
-msgstr "调节星形的<b>基准半径</b>; 按住 <b>Ctrl</b> 保持星形线半径(没有歪斜); 按住 <b>Shift</b> 圆整; 使用 <b>Alt</b> 随机化"
+msgstr "调节星形的<b>基准半径</b>; 按住 <b>Ctrl</b> 保持星形线半径（没有歪斜）；按住 <b>Shift</b> 舍入；使用 <b>Alt</b> 随机化"
 
 #: ../src/ui/object-edit.cpp:1345
 msgid "Roll/unroll the spiral from <b>inside</b>; with <b>Ctrl</b> to snap angle; with <b>Alt</b> to converge/diverge"
-msgstr "从<b>内部</b>滚动螺旋; 按住 <b>Ctrl</b> 吸附角度; 使用 <b>Alt</b> 合并/分解"
+msgstr "从<b>内部</b>卷起/展开螺旋；按住 <b>Ctrl</b> 吸附角度；使用 <b>Alt</b> 合并/分解"
 
 #: ../src/ui/object-edit.cpp:1349
 msgid "Roll/unroll the spiral from <b>outside</b>; with <b>Ctrl</b> to snap angle; with <b>Shift</b> to scale/rotate; with <b>Alt</b> to lock radius"
-msgstr "从<b>外部</b>卷起/展开螺旋; 按住 <b>Ctrl</b> 吸附角度; 使用 <b>Alt</b> 合并/分解"
+msgstr "从<b>外部</b>卷起/展开螺旋；按住 <b>Ctrl</b> 吸附角度；使用 <b>Alt</b> 合并/分解"
 
 #: ../src/ui/object-edit.cpp:1398
 msgid "Adjust the <b>offset distance</b>"
@@ -21420,12 +21420,12 @@ msgstr ""
 #: ../src/ui/tool/curve-drag-point.cpp:209
 msgctxt "Path segment tip"
 msgid "<b>Linear segment</b>: drag to convert to a Bezier segment, doubleclick to insert node, click to select (more: Shift, Ctrl+Alt)"
-msgstr "<b>直线段</b>: 拖动转为贝塞尔线段，双击添加节点，单击选择 (可以配合: Shift, Ctrl+Alt)"
+msgstr "<b>直线段</b>拖动转为贝塞尔线段，双击添加节点，单击选择 (更多：Shift、Ctrl+Alt)"
 
 #: ../src/ui/tool/curve-drag-point.cpp:213
 msgctxt "Path segment tip"
 msgid "<b>Bezier segment</b>: drag to shape the segment, doubleclick to insert node, click to select (more: Shift, Ctrl+Alt)"
-msgstr "<b>贝塞尔线段</b>：拖动为塑形线段，双击插入节点，单击选择(可以配合: Shift, Ctrl+Alt)"
+msgstr "<b>贝塞尔线段</b>拖动以设定形状，双击添加节点，单击选择 (更多：Shift、Ctrl+Alt)"
 
 #: ../src/ui/tool/multi-path-manipulator.cpp:315
 msgid "Retract handles"
@@ -21534,72 +21534,72 @@ msgstr "自动平滑节点控制柄"
 #: ../src/ui/tool/node.cpp:494
 msgctxt "Path handle tip"
 msgid "more: Shift, Ctrl, Alt"
-msgstr "更多: Shift, Ctrl, Alt"
+msgstr "更多：Shift、Ctrl、Alt"
 
 #: ../src/ui/tool/node.cpp:496
 msgctxt "Path handle tip"
 msgid "more: Ctrl"
-msgstr "更多: Ctrl"
+msgstr "更多：Ctrl"
 
 #: ../src/ui/tool/node.cpp:498
 msgctxt "Path handle tip"
 msgid "more: Ctrl, Alt"
-msgstr "更多: Ctrl, Alt"
+msgstr "更多：Ctrl、Alt"
 
 #: ../src/ui/tool/node.cpp:504
 #, c-format
 msgctxt "Path handle tip"
 msgid "<b>Shift+Ctrl+Alt</b>: preserve length and snap rotation angle to %g° increments while rotating both handles"
-msgstr "<b>Shift+Ctrl+Alt</b>: 在同时旋转两个控制柄时保留长度并吸附旋转角到 %g° 的增量"
+msgstr "<b>Shift+Ctrl+Alt</b>：在同时旋转两个控制柄时保留长度并吸附旋转角到 %g° 的增量"
 
 #: ../src/ui/tool/node.cpp:509
 #, c-format
 msgctxt "Path handle tip"
 msgid "<b>Ctrl+Alt</b>: preserve length and snap rotation angle to %g° increments"
-msgstr "<b>Ctrl+Alt</b>: 保留长度并吸附旋转角度为 %g° 的增量"
+msgstr "<b>Ctrl+Alt</b>：保留长度并吸附旋转角度为 %g° 的增量"
 
 #: ../src/ui/tool/node.cpp:515
 msgctxt "Path handle tip"
 msgid "<b>Shift+Alt</b>: preserve handle length and rotate both handles"
-msgstr "<b>Shift+Alt</b>: 保持控制柄长度并且同时旋转连个控制柄"
+msgstr "<b>Shift+Alt</b>：保持控制柄长度并且同时旋转两个控制柄"
 
 #: ../src/ui/tool/node.cpp:518
 msgctxt "Path handle tip"
 msgid "<b>Alt</b>: preserve handle length while dragging"
-msgstr "<b>Alt</b>: 在拖动同时保持控制柄长度"
+msgstr "<b>Alt</b>：在拖动同时保持控制柄长度"
 
 #: ../src/ui/tool/node.cpp:525
 #, c-format
 msgctxt "Path handle tip"
 msgid "<b>Shift+Ctrl</b>: snap rotation angle to %g° increments and rotate both handles"
-msgstr "<b>Shift+Ctrl</b>: 旋转角度增量为 %g° 同时旋转两个控制柄"
+msgstr "<b>Shift+Ctrl</b>：旋转角度增量为 %g° 同时旋转两个控制柄"
 
 #: ../src/ui/tool/node.cpp:529
 msgctxt "Path handle tip"
 msgid "<b>Ctrl</b>: Move handle by his actual steps in BSpline Live Effect"
-msgstr "<b>Ctrl</b>: 在 BSpline 即时效果中按其实际步骤移动控制柄"
+msgstr "<b>Ctrl</b>：在 B 样条即时效果中按其实际步骤移动控制柄"
 
 #: ../src/ui/tool/node.cpp:532
 #, c-format
 msgctxt "Path handle tip"
 msgid "<b>Ctrl</b>: snap rotation angle to %g° increments, click to retract"
-msgstr "<b>Ctrl</b>: 吸附旋转角度为 %g° 的增量，点击则撤销"
+msgstr "<b>Ctrl</b>：吸附旋转角度为 %g° 的增量，点击则撤销"
 
 #: ../src/ui/tool/node.cpp:537
 msgctxt "Path hande tip"
 msgid "<b>Shift</b>: rotate both handles by the same angle"
-msgstr "<b>Shift</b>: 两个控制柄旋转相同的角度"
+msgstr "<b>Shift</b>：两个控制柄旋转相同的角度"
 
 #: ../src/ui/tool/node.cpp:540
 msgctxt "Path hande tip"
 msgid "<b>Shift</b>: move handle"
-msgstr "<b>Shift</b>: 移动控制柄"
+msgstr "<b>Shift</b>：移动控制柄"
 
 #: ../src/ui/tool/node.cpp:547 ../src/ui/tool/node.cpp:551
 #, c-format
 msgctxt "Path handle tip"
 msgid "<b>Auto node handle</b>: drag to convert to smooth node (%s)"
-msgstr "<b>自动节点处理</b>: 拖动为转换为平滑节点 (%s)"
+msgstr "<b>自动节点控制柄</b>：拖动可转换为平滑节点 (%s)"
 
 #: ../src/ui/tool/node.cpp:554
 #, c-format
@@ -21611,38 +21611,38 @@ msgstr ""
 #, c-format
 msgctxt "Path handle tip"
 msgid "Move handle by %s, %s; angle %.2f°, length %s"
-msgstr "按 %s, %s 移动控制柄; 角度 %.2f°, 长度 %s"
+msgstr "移动控制柄 %s, %s；角度 %.2f°，长度 %s"
 
 #: ../src/ui/tool/node.cpp:1425
 msgctxt "Path node tip"
 msgid "<b>Shift</b>: drag out a handle, click to toggle selection"
-msgstr "<b>Shift</b>:拖出一个控制柄，单击切换选择"
+msgstr "<b>Shift</b>：拖出一个控制柄，单击切换选择"
 
 #: ../src/ui/tool/node.cpp:1427
 msgctxt "Path node tip"
 msgid "<b>Shift</b>: click to toggle selection"
-msgstr "<b>Shift</b>:单击切换选择"
+msgstr "<b>Shift</b>：单击切换选择"
 
 #: ../src/ui/tool/node.cpp:1432
 msgctxt "Path node tip"
 msgid "<b>Ctrl+Alt</b>: move along handle lines, click to delete node"
-msgstr "<b>Ctrl+Alt</b>: 沿着控制柄线条移动，点击为删除节点"
+msgstr "<b>Ctrl+Alt</b>：沿着控制柄线条移动，点击删除节点"
 
 #: ../src/ui/tool/node.cpp:1435
 msgctxt "Path node tip"
 msgid "<b>Ctrl</b>: move along axes, click to change node type"
-msgstr "<b>Ctrl</b>: 沿着轴移动，点击为更改节点类型"
+msgstr "<b>Ctrl</b>：沿着轴移动，点击为更改节点类型"
 
 #: ../src/ui/tool/node.cpp:1439
 msgctxt "Path node tip"
 msgid "<b>Alt</b>: sculpt nodes"
-msgstr "<b>Alt</b>: 锁定节点"
+msgstr "<b>Alt</b>：定型节点"
 
 #: ../src/ui/tool/node.cpp:1448
 #, c-format
 msgctxt "Path node tip"
 msgid "<b>%s</b>: drag to shape the path (more: Shift, Ctrl, Alt)"
-msgstr "<b>%s</b>: 拖动塑造路径形状 (更多: Shift, Ctrl, Alt)"
+msgstr "<b>%s</b>：拖动塑造路径形状（更多：Shift、Ctrl、Alt）"
 
 #: ../src/ui/tool/node.cpp:1451
 #, c-format
@@ -21654,13 +21654,13 @@ msgstr ""
 #, c-format
 msgctxt "Path node tip"
 msgid "<b>%s</b>: drag to shape the path, click to toggle scale/rotation handles (more: Shift, Ctrl, Alt)"
-msgstr "<b>%s</b>: 拖动塑造路径形状，点击为切换缩放/旋转控制柄 (更多: Shift, Ctrl, Alt)"
+msgstr "<b>%s</b>：拖动塑造路径形状，点击切换缩放/旋转控制柄（更多：Shift、Ctrl、Alt）"
 
 #: ../src/ui/tool/node.cpp:1458
 #, c-format
 msgctxt "Path node tip"
 msgid "<b>%s</b>: drag to shape the path, click to select only this node (more: Shift, Ctrl, Alt)"
-msgstr "<b>%s</b>: 拖动为塑造路径旋转，点击为仅选择这个节点 (更多: Shift, Ctrl, Alt)"
+msgstr "<b>%s</b>：拖动改变路径形状，点击仅选择这个节点（更多：Shift、Ctrl、Alt）"
 
 #: ../src/ui/tool/node.cpp:1461
 #, c-format
@@ -21672,7 +21672,7 @@ msgstr ""
 #, c-format
 msgctxt "Path node tip"
 msgid "Move node by %s, %s"
-msgstr "移动节点 通过 %s, %s"
+msgstr "移动节点 %s, %s"
 
 #: ../src/ui/tool/node.cpp:1485
 msgid "Symmetric node"
@@ -23533,7 +23533,7 @@ msgstr "没有填充"
 #: ../src/ui/widget/style-swatch.cpp:321
 msgctxt "Fill and stroke"
 msgid "No stroke"
-msgstr "没有笔画"
+msgstr "没有笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:192
 #: ../src/ui/widget/style-swatch.cpp:300 ../src/widgets/paint-selector.cpp:231
@@ -23588,7 +23588,7 @@ msgstr "网格渐变填充"
 
 #: ../src/ui/widget/selected-style.cpp:221
 msgid "Mesh gradient stroke"
-msgstr "网格渐变笔画"
+msgstr "网格渐变笔廓"
 
 #: ../src/ui/widget/selected-style.cpp:229
 msgid "Different"
@@ -24466,11 +24466,11 @@ msgstr "在所有可见并且未锁定的层中全选"
 
 #: ../src/verbs.cpp:2498
 msgid "Fill _and Stroke"
-msgstr "填充和笔画(_A)…"
+msgstr "填充和笔廓(_A)…"
 
 #: ../src/verbs.cpp:2499
 msgid "Select all objects with the same fill and stroke as the selected objects"
-msgstr "选择所有带有系统填充和描边的对象作为选择的对象"
+msgstr "选择所有带有系统填充和笔廓的对象作为选择的对象"
 
 #: ../src/verbs.cpp:2500
 msgid "_Fill Color"
@@ -24482,19 +24482,19 @@ msgstr "选择带有相同填充的所有对象为选择的对象"
 
 #: ../src/verbs.cpp:2502
 msgid "_Stroke Color"
-msgstr "描边颜色(_S)"
+msgstr "笔廓颜色(_S)"
 
 #: ../src/verbs.cpp:2503
 msgid "Select all objects with the same stroke as the selected objects"
-msgstr "选择所有带有相同描边的对象作为选择对象"
+msgstr "选择所有带有相同笔廓的对象作为选择对象"
 
 #: ../src/verbs.cpp:2504
 msgid "Stroke St_yle"
-msgstr "描边样式(_Y)"
+msgstr "笔廓样式(_Y)"
 
 #: ../src/verbs.cpp:2505
 msgid "Select all objects with the same stroke style (width, dash, markers) as the selected objects"
-msgstr "选择所有带有相同描边样式（宽度，画线、标记）的对象为选择的对象"
+msgstr "选择所有带有相同笔廓样式（宽度，画线、标记）的对象为选择的对象"
 
 #: ../src/verbs.cpp:2506
 msgid "_Object Type"
@@ -25077,11 +25077,11 @@ msgstr "应用剪裁路径到选区(使用最顶层对象作为剪裁路径)"
 
 #: ../src/verbs.cpp:2688
 msgid "Create Cl_ip Group"
-msgstr "创建剪辑组(_I)"
+msgstr "创建剪裁组(_I)"
 
 #: ../src/verbs.cpp:2689
 msgid "Creates a clip group using the selected objects as a base"
-msgstr "使用选择的对象作为一个基础创建一个剪辑组"
+msgstr "使用选择的对象作为一个基础创建一个剪裁组"
 
 #: ../src/verbs.cpp:2691
 msgid "Edit clipping path"
@@ -25753,7 +25753,7 @@ msgstr "编辑文档元数据(同文档一起保存)"
 
 #: ../src/verbs.cpp:2865
 msgid "Edit objects' colors, gradients, arrowheads, and other fill and stroke properties..."
-msgstr "编辑对象的颜色、渐变、箭头和其它填充和描边属性…"
+msgstr "编辑对象的颜色、渐变、箭头和其它填充和笔廓属性…"
 
 #. FIXME: Probably better to either use something from the icon naming spec or ship our own "select-font" icon
 #: ../src/verbs.cpp:2867
@@ -26019,7 +26019,7 @@ msgstr "高级 Inkscape 主题"
 #. TRANSLATORS: "to trace" means "to convert a bitmap to vector graphics" (to vectorize)
 #: ../src/verbs.cpp:2941
 msgid "Inkscape: T_racing"
-msgstr "Inkscape：描边(_R)"
+msgstr "Inkscape：笔廓(_R)"
 
 #: ../src/verbs.cpp:2942
 msgid "Using bitmap tracing"
@@ -26028,7 +26028,7 @@ msgstr "位图追踪"
 #. "tutorial_tracing"
 #: ../src/verbs.cpp:2943
 msgid "Inkscape: Tracing Pixel Art"
-msgstr "Inkscape：描边剪贴画"
+msgstr "Inkscape：笔廓剪贴画"
 
 #: ../src/verbs.cpp:2944
 msgid "Using Trace Pixel Art dialog"
@@ -26212,7 +26212,7 @@ msgstr "封闭圆弧"
 
 #: ../src/widgets/arc-toolbar.cpp:350
 msgid "Switch to segment (closed shape with two radii)"
-msgstr "切换为分割 (用两个半径线闭合的形状)"
+msgstr "切换为线段 (用两个半径线闭合的形状)"
 
 #: ../src/widgets/arc-toolbar.cpp:356
 msgid "Open Arc"
@@ -26337,7 +26337,7 @@ msgstr "笔刷宽度(相对于可见画布面积)"
 #. Thinning
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(speed blows up stroke)"
-msgstr "（加速爆炸描边）"
+msgstr "（加速爆炸笔廓）"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(slight widening)"
@@ -26353,7 +26353,7 @@ msgstr "(略微变窄, 默认)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:444
 msgid "(speed deflates stroke)"
-msgstr "(加速紧缩描边)"
+msgstr "(加速紧缩笔廓)"
 
 #: ../src/widgets/calligraphy-toolbar.cpp:447
 msgid "Stroke Thinning"
@@ -26944,7 +26944,7 @@ msgstr "在填充里面创建渐变"
 
 #: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:411
 msgid "stroke"
-msgstr "描边"
+msgstr "笔廓"
 
 #: ../src/widgets/gradient-toolbar.cpp:1074 ../src/widgets/mesh-toolbar.cpp:411
 msgid "Create gradient in the stroke"
@@ -27119,7 +27119,7 @@ msgstr "从选区中建立约束边界框"
 
 #: ../src/widgets/lpe-toolbar.cpp:348
 msgid "Set limiting bounding box (used to cut infinite lines) to the bounding box of current selection"
-msgstr "将约束边界框(用来裁剪直线)的设置为当前选择对象的边界框"
+msgstr "将约束边界框(用来切割直线)的设置为当前选择对象的边界框"
 
 #: ../src/widgets/lpe-toolbar.cpp:360
 msgid "Choose a line segment type"
@@ -27221,11 +27221,11 @@ msgstr "编辑填充网格"
 
 #: ../src/widgets/mesh-toolbar.cpp:478
 msgid "Edit Stroke"
-msgstr "编辑描边"
+msgstr "编辑笔廓"
 
 #: ../src/widgets/mesh-toolbar.cpp:479
 msgid "Edit stroke mesh"
-msgstr "编辑描边网格"
+msgstr "编辑笔廓网格"
 
 #: ../src/widgets/mesh-toolbar.cpp:490 ../src/widgets/node-toolbar.cpp:521
 msgid "Show Handles"
@@ -27474,7 +27474,7 @@ msgstr "编辑剪裁路径"
 
 #: ../src/widgets/node-toolbar.cpp:556
 msgid "Show clipping path(s) of selected object(s)"
-msgstr "显示选择对象的剪辑路径"
+msgstr "显示选择对象的剪裁路径"
 
 #: ../src/widgets/node-toolbar.cpp:566
 msgid "Edit masks"
@@ -31042,7 +31042,7 @@ msgstr "一阶导数："
 
 #: ../share/extensions/funcplot.inx.h:34
 msgid "Clip with rectangle"
-msgstr "使用矩形剪辑"
+msgstr "使用矩形剪裁"
 
 #: ../share/extensions/funcplot.inx.h:35
 #: ../share/extensions/param_curves.inx.h:28
@@ -31728,7 +31728,7 @@ msgid ""
 "\n"
 "If border is zero, the pattern will be discontinuous at the edges. Use a positive border, preferably greater than the cell size, to produce a smooth join of the pattern at the edges. Use a negative border to reduce the size of the pattern and get an empty border."
 msgstr ""
-"生产一个沃罗努瓦单元的随机图案。图案将可以在填充和描边对话框中访问。你必须选择一个对象或一个组。\n"
+"生产一个沃罗努瓦单元的随机图案。图案将可以在填充和笔廓对话框中访问。你必须选择一个对象或一个组。\n"
 "\n"
 "如果边框为 0，图案将会在边界处中断。使用一个正数边框，最好大于单元尺寸，可以在边界处产生一个图案的平滑联合。使用负数边框将减少图案的尺寸并获得一个空边框。"
 
@@ -32121,7 +32121,7 @@ msgstr "编写象形文字表"
 
 #: ../share/extensions/hershey.inx.h:8
 msgid "Sans 1-stroke"
-msgstr "无衬线 1 描边"
+msgstr "无衬线 1 笔廓"
 
 #: ../share/extensions/hershey.inx.h:9
 msgid "Sans bold"
@@ -32145,11 +32145,11 @@ msgstr "衬线粗体"
 
 #: ../share/extensions/hershey.inx.h:14
 msgid "Script 1-stroke"
-msgstr "Script 1 描边"
+msgstr "Script 1 笔廓"
 
 #: ../share/extensions/hershey.inx.h:15
 msgid "Script 1-stroke (alt)"
-msgstr "Script 1 描边（替代模式）"
+msgstr "Script 1 笔廓（替代模式）"
 
 #: ../share/extensions/hershey.inx.h:16
 msgid "Script medium"
@@ -32169,7 +32169,7 @@ msgstr "哥特式意大利语"
 
 #: ../share/extensions/hershey.inx.h:20
 msgid "Greek 1-stroke"
-msgstr "希腊语 1 描边"
+msgstr "希腊语 1 笔廓"
 
 #: ../share/extensions/hershey.inx.h:21
 msgid "Greek medium"
