@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-26 22:13-0500\n"
+"PO-Revision-Date: 2015-11-26 22:24-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,3934,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4071,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -18137,7 +18137,7 @@ msgstr "从那些附加到显示中的检索配置文件"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1018
 msgid "Display rendering intent:"
-msgstr "显示色彩对应方式:"
+msgstr "显示渲染对应："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1019
 msgid "The rendering intent to use to calibrate display output"
@@ -18145,7 +18145,7 @@ msgstr "用于矫正显示输出的渲染对应方式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1021
 msgid "Proofing"
-msgstr "校核"
+msgstr "打样"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1023
 msgid "Simulate output on screen"
@@ -18173,15 +18173,15 @@ msgstr "选择超出色彩范围时的警告色"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1044
 msgid "Device profile:"
-msgstr "设备配置:"
+msgstr "设备配置："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1045
 msgid "The ICC profile to use to simulate device output"
-msgstr "模拟设备输出的ICC配置"
+msgstr "用于模拟设备输出的 ICC 配置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1048
 msgid "Device rendering intent:"
-msgstr "设备色彩对应方式:"
+msgstr "设备色彩对应方式："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1049
 msgid "The rendering intent to use to calibrate device output"
@@ -18189,11 +18189,11 @@ msgstr "用于矫正显示输出的色彩对应方式"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1051
 msgid "Black point compensation"
-msgstr "黑色点补偿"
+msgstr "黑点补偿"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1053
 msgid "Enables black point compensation"
-msgstr "允许黑色补偿"
+msgstr "允许黑点补偿"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1055
 msgid "Preserve black"
@@ -18201,11 +18201,11 @@ msgstr "保持黑色"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1062
 msgid "(LittleCMS 1.15 or later required)"
-msgstr "(需要LittleCMS 1.15或以下)"
+msgstr "（需要 LittleCMS 1.15 或以上）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1064
 msgid "Preserve K channel in CMYK -> CMYK transforms"
-msgstr "在CMYK -> CMYK 转换中保持K通道"
+msgstr "在 CMYK -> CMYK 转换中保持 K 通道"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1078
 #: ../src/ui/widget/color-icc-selector.cpp:395
@@ -18220,11 +18220,11 @@ msgstr "色彩管理"
 #. Autosave options
 #: ../src/ui/dialog/inkscape-preferences.cpp:1126
 msgid "Enable autosave (requires restart)"
-msgstr "允许自动保存（需要重启）"
+msgstr "启用自动保存（需要重启）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1127
 msgid "Automatically save the current document(s) at a given interval, thus minimizing loss in case of a crash"
-msgstr "在指定的间隔时间内自动保存当前文档, 减小程序崩溃时的损失"
+msgstr "在指定的间隔时间内自动保存当前文档，减小程序崩溃时的损失"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1133
 msgctxt "Filesystem"
@@ -18269,7 +18269,7 @@ msgstr "自动保存"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1156
 msgid "Open Clip Art Library _Server Name:"
-msgstr "Open Clip Art Library 服务器名称(_S)："
+msgstr "Open Clip Art Library 服务器名(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1157
 msgid "The server name of the Open Clip Art Library webdav server; it's used by the Import and Export to OCAL function"
@@ -18277,11 +18277,11 @@ msgstr "Open Clip Art Library WebDAV 服务器的名称；在导入和导出 OCA
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1159
 msgid "Open Clip Art Library _Username:"
-msgstr "Open Clip Art Library 的用户名(_U)："
+msgstr "Open Clip Art Library 用户名(_U)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1160
 msgid "The username used to log into Open Clip Art Library"
-msgstr "登录到Open Clip Art Library 的用户名称"
+msgstr "登录到 Open Clip Art Library 的用户名称"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1162
 msgid "Open Clip Art Library _Password:"
@@ -18289,11 +18289,11 @@ msgstr "Open Clip Art Library 密码(_P)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1163
 msgid "The password used to log into Open Clip Art Library"
-msgstr "登录到Open Clip Art Library 的密码"
+msgstr "登录到 Open Clip Art Library 的密码"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1164
 msgid "Open Clip Art"
-msgstr "开放式剪贴画"
+msgstr "开放剪贴画"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1169
 msgid "Behavior"
@@ -18305,7 +18305,7 @@ msgstr "简化阈值(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1174
 msgid "How strong is the Node tool's Simplify command by default. If you invoke this command several times in quick succession, it will act more and more aggressively; invoking it again after a pause restores the default threshold."
-msgstr "节点工具的简化命令的默认强度. 如果快速连续调用此命令数次, 强度将会逐次剧增; 调用之后暂停一下以恢复默认阈值."
+msgstr "节点工具的简化命令的默认强度。如果快速连续调用此命令数次，强度将会逐次剧增；调用之后暂停一下以恢复默认阈值。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1176
 msgid "Color stock markers the same color as object"
@@ -18367,11 +18367,11 @@ msgstr "在当前层和它的子层上使键盘的选择对象命令生效"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1199
 msgid "Uncheck this to be able to select objects that are hidden (either by themselves or by being in a hidden layer)"
-msgstr "不选中这项可以选择隐藏对象(不管是自身隐藏还是所在的层隐藏)"
+msgstr "不选中这项即可选择隐藏对象（不管是自身隐藏还是所在的层隐藏）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1201
 msgid "Uncheck this to be able to select objects that are locked (either by themselves or by being in a locked layer)"
-msgstr "不选中这项可以选择锁定对象(不管是自身锁定还是所在的层锁定)"
+msgstr "不选中这项即可选择锁定对象（不管是自身锁定还是所在的层锁定）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1203
 msgid "Wrap when cycling objects in z-order"
@@ -18414,22 +18414,22 @@ msgstr "保持"
 #: ../src/ui/dialog/inkscape-preferences.cpp:1220
 #: ../src/widgets/select-toolbar.cpp:573
 msgid "When scaling objects, scale the stroke width by the same proportion"
-msgstr "缩放对象时, 按照相同比例缩放笔廓宽度"
+msgstr "缩放对象时，按照相同比例缩放笔廓宽度"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1222
 #: ../src/widgets/select-toolbar.cpp:584
 msgid "When scaling rectangles, scale the radii of rounded corners"
-msgstr "缩放矩形时, 缩放圆角半径"
+msgstr "缩放矩形时，缩放圆角半径"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1224
 #: ../src/widgets/select-toolbar.cpp:595
 msgid "Move gradients (in fill or stroke) along with the objects"
-msgstr "随对象缩放渐变(填充或笔廓)"
+msgstr "随对象缩放渐变（填充或笔廓）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1226
 #: ../src/widgets/select-toolbar.cpp:606
 msgid "Move patterns (in fill or stroke) along with the objects"
-msgstr "随对象缩放图案(填充或笔廓)"
+msgstr "随对象缩放图案（填充或笔廓）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1227
 msgid "Store transformation"
@@ -18437,7 +18437,7 @@ msgstr "存储变换"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1229
 msgid "If possible, apply transformation to objects without adding a transform= attribute"
-msgstr "如果可能, 应用变换时不增加变换= 属性给对象"
+msgstr "如果可能, 应用变换时不给对象增加 transform= 属性"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1231
 msgid "Always store transformation as a transform= attribute on objects"
@@ -18453,7 +18453,7 @@ msgstr "鼠标滚轮滚动距离(_W)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1238
 msgid "One mouse wheel notch scrolls by this distance in screen pixels (horizontally with Shift)"
-msgstr "鼠标滚轮滚动一个的屏幕像素距离(水平滚动使用 Shift)"
+msgstr "鼠标滚轮滚动一个的屏幕像素距离（使用 Shift 水平滚动）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1239
 msgid "Ctrl+arrows"
@@ -18465,15 +18465,15 @@ msgstr "滚动距离(_R)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1242
 msgid "Pressing Ctrl+arrow key scrolls by this distance (in screen pixels)"
-msgstr "按住 Ctrl+方向键以此距离(屏幕像素)滚动"
+msgstr "按住 Ctrl+方向键以此距离（屏幕像素）滚动"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1244
 msgid "_Acceleration:"
-msgstr "加速(_A):"
+msgstr "加速度(_A)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1245
 msgid "Pressing and holding Ctrl+arrow will gradually speed up scrolling (0 for no acceleration)"
-msgstr "按住并不放 Ctrl+方向键会逐渐提高滚动速度(0 没有加速)"
+msgstr "按住并不放 Ctrl+方向键逐渐提高滚动速度（0 不加速）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1246
 msgid "Autoscrolling"
@@ -18481,11 +18481,11 @@ msgstr "自动滚动"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1248
 msgid "_Speed:"
-msgstr "速度(_S):"
+msgstr "速度(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1249
 msgid "How fast the canvas autoscrolls when you drag beyond canvas edge (0 to turn autoscroll off)"
-msgstr "当你在画布边界拖动时自动滚动的速度(0 禁用自动滚动)"
+msgstr "当你在画布边界拖动时自动滚动的速度（0 禁用自动滚动）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1251
 #: ../src/ui/dialog/tracedialog.cpp:522 ../src/ui/dialog/tracedialog.cpp:721
@@ -18494,7 +18494,7 @@ msgstr "阈值(_T)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1252
 msgid "How far (in screen pixels) you need to be from the canvas edge to trigger autoscroll; positive is outside the canvas, negative is within the canvas"
-msgstr "从画布边缘到触发自动滚动需要多远; 正值远离画布, 负值在画布内"
+msgstr "从画布边缘到触发自动滚动需要多远；正值远离画布，负值在画布内"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1253
 #, fuzzy
@@ -18511,7 +18511,7 @@ msgstr "鼠标滚轮默认为缩放"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1258
 msgid "When on, mouse wheel zooms without Ctrl and scrolls canvas with Ctrl; when off, it zooms with Ctrl and scrolls without Ctrl"
-msgstr "打开时, 鼠标滚轮控制缩放, Ctrl配合滚轮卷屏; 关闭时, 滚轮卷屏, Ctrl配合滚轮缩放"
+msgstr "打开时，鼠标滚轮控制缩放，Ctrl+滚轮 滚屏；关闭时，滚轮滚屏，Ctrl+滚轮 缩放"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1259
 msgid "Scrolling"
@@ -18520,7 +18520,7 @@ msgstr "滚动"
 #. Snapping options
 #: ../src/ui/dialog/inkscape-preferences.cpp:1262
 msgid "Snap indicator"
-msgstr "打开吸附指示"
+msgstr "吸附指示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1264
 msgid "Enable snap indicator"
@@ -18528,7 +18528,7 @@ msgstr "打开吸附指示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1266
 msgid "After snapping, a symbol is drawn at the point that has snapped"
-msgstr "吸附到点后, 在该点上显示一个标记"
+msgstr "吸附到点后，在该点上显示一个标记"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1271
 msgid "Snap indicator persistence (in seconds):"
@@ -18556,7 +18556,7 @@ msgstr "权重系数(_W)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1282
 msgid "When multiple snap solutions are found, then Inkscape can either prefer the closest transformation (when set to 0), or prefer the node that was initially the closest to the pointer (when set to 1)"
-msgstr "当有多种吸附方式时, Inkscape可以优先选择最接近变换后的 (设置为0), 或者一开始最接近指针的点 (设置为1)"
+msgstr "当有多种吸附方式时，Inkscape可以优先选择最接近变换后的（设置为 0），或者一开始最接近指针的点（设置为 1）"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1284
 msgid "Snap the mouse pointer when dragging a constrained knot"
@@ -18572,11 +18572,11 @@ msgstr "延时吸附"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1291
 msgid "Delay (in seconds):"
-msgstr "延迟 (毫秒)："
+msgstr "延迟 (秒)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1292
 msgid "Postpone snapping as long as the mouse is moving, and then wait an additional fraction of a second. This additional delay is specified here. When set to zero or to a very small number, snapping will be immediate."
-msgstr "鼠标移动时将暂停吸附, 并另外延几分之一秒. 在这里指定另外的延迟时间. 如果设置为0或者非常小的数, 将立即进行吸附。"
+msgstr "鼠标移动时将暂停吸附，并另延几秒。在这里指定另外的延迟时。如果设置为 0 或者非常小的数，将立即进行吸附。"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1294
 msgid "Snapping"
@@ -18598,15 +18598,15 @@ msgstr "> 和 < 缩放比例(_S)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1304
 msgid "Pressing > or < scales selection up or down by this increment"
-msgstr "按住 > 或 < 按这个向上或下扩展"
+msgstr "按住 > 或 < 使选区以此数值向上或下缩放"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1306
 msgid "_Inset/Outset by:"
-msgstr "插入/拔出距离(_I)："
+msgstr "内外偏移距离(_I)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1307
 msgid "Inset and Outset commands displace the path by this distance"
-msgstr "按这个距离插入和拔出命令替换路径"
+msgstr "向内偏移和向外偏移命令按这个距离移动路径"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1308
 msgid "Compass-like display of angles"
@@ -18614,7 +18614,7 @@ msgstr "指南针式角度显示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1310
 msgid "When on, angles are displayed with 0 at north, 0 to 360 range, positive clockwise; otherwise with 0 at east, -180 to 180 range, positive counterclockwise"
-msgstr "启用时, 角度将会按照 0 度在北部, 范围 0 到 360 度, 顺时针方向显示, 否则 0 度在东方, 范围 -180 到 180 度, 逆时针方向"
+msgstr "当打开时，角度将会按照 0 度在北部、范围 0 到 360 度、顺时针方向显示；否则 0 度在东方，范围 -180 到 180 度，逆时针方向"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1312
 msgctxt "Rotation angle"
@@ -18623,7 +18623,7 @@ msgstr "无"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "_Rotation snaps every:"
-msgstr "旋转中心每隔(_R)："
+msgstr "旋转捕捉周期(_R)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1316
 msgid "degrees"
@@ -18631,7 +18631,7 @@ msgstr "度"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1317
 msgid "Rotating with Ctrl pressed snaps every that much degrees; also, pressing [ or ] rotates by this amount"
-msgstr "按住 Ctrl 旋转每隔指定度数吸附; 同时, 按住 [或者] 旋转按照此度数"
+msgstr "按住 Ctrl 旋转每隔指定度数吸附；同样还可按住 [ 或者 ] 按照此度数旋转"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1318
 msgid "Relative snapping of guideline angles"
@@ -18643,7 +18643,7 @@ msgstr "当打开时，当旋转一条辅助线时将会相对于原始角度吸
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1322
 msgid "_Zoom in/out by:"
-msgstr "缩小/放大(_Z)："
+msgstr "缩放比例(_Z)："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1322
 #: ../src/ui/dialog/objects.cpp:1626
@@ -18653,7 +18653,7 @@ msgstr "%"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1323
 msgid "Zoom tool click, +/- keys, and middle click zoom in and out by this multiplier"
-msgstr "缩放工具单击,  +/- 键和鼠标中键单击按照此系数缩放"
+msgstr "缩放工具单击，+/- 键和鼠标中键单击按照此系数缩放"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1324
 msgid "Steps"
@@ -18694,7 +18694,7 @@ msgstr "当原始对象移动时，克隆保持自己的位置"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1344
 msgid "Each clone moves according to the value of its transform= attribute; for example, a rotated clone will move in a different direction than its original"
-msgstr "每个克隆的移动量依据变换 = 属性的值.例如, 旋转的克隆与原对象移动方向不同"
+msgstr "每个克隆的移动量依据 transform= 属性的值决定。例如，旋转过的克隆与原对象移动方向不同"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1345
 msgid "Deleting original: clones"
