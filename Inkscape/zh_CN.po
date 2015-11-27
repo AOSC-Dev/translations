@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 02:22-0500\n"
+"PO-Revision-Date: 2015-11-27 02:32-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -9324,12 +9324,14 @@ msgid "Helper size"
 msgstr "辅助标示尺寸"
 
 #: ../src/live_effects/lpe-bspline.cpp:32
+#, fuzzy
 msgid "Apply changes if weight = 0%"
-msgstr ""
+msgstr "应用所有更改"
 
 #: ../src/live_effects/lpe-bspline.cpp:33
+#, fuzzy
 msgid "Apply changes if weight > 0%"
-msgstr ""
+msgstr "应用所有更改"
 
 #: ../src/live_effects/lpe-bspline.cpp:34
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:56
@@ -9957,7 +9959,7 @@ msgstr "控制柄 13："
 
 #: ../src/live_effects/lpe-lattice2.cpp:60
 msgid "Control 13 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 13 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:61
 msgid "Control 14:"
@@ -9965,7 +9967,7 @@ msgstr "控制柄 14："
 
 #: ../src/live_effects/lpe-lattice2.cpp:61
 msgid "Control 14 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 14 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:62
 msgid "Control 15:"
@@ -9973,7 +9975,7 @@ msgstr "控制柄 15："
 
 #: ../src/live_effects/lpe-lattice2.cpp:62
 msgid "Control 15 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 15 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:63
 msgid "Control 16:"
@@ -9981,7 +9983,7 @@ msgstr "控制柄 16："
 
 #: ../src/live_effects/lpe-lattice2.cpp:63
 msgid "Control 16 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 16 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:64
 msgid "Control 17:"
@@ -9989,7 +9991,7 @@ msgstr "控制柄 17："
 
 #: ../src/live_effects/lpe-lattice2.cpp:64
 msgid "Control 17 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 17 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:65
 msgid "Control 18:"
@@ -9997,7 +9999,7 @@ msgstr "控制柄 18："
 
 #: ../src/live_effects/lpe-lattice2.cpp:65
 msgid "Control 18 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 18 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:66
 msgid "Control 19:"
@@ -10005,7 +10007,7 @@ msgstr "控制柄 19："
 
 #: ../src/live_effects/lpe-lattice2.cpp:66
 msgid "Control 19 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 19 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:67
 msgid "Control 20x21:"
@@ -10013,7 +10015,7 @@ msgstr "控制柄 20x21："
 
 #: ../src/live_effects/lpe-lattice2.cpp:67
 msgid "Control 20x21 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 20x21 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:68
 msgid "Control 22x23:"
@@ -10021,7 +10023,7 @@ msgstr "控制柄 22x23："
 
 #: ../src/live_effects/lpe-lattice2.cpp:68
 msgid "Control 22x23 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 22x23 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:69
 msgid "Control 24x26:"
@@ -10029,7 +10031,7 @@ msgstr "控制柄 24x26："
 
 #: ../src/live_effects/lpe-lattice2.cpp:69
 msgid "Control 24x26 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 24x26 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:70
 msgid "Control 25x27:"
@@ -10037,7 +10039,7 @@ msgstr "控制柄 15x27："
 
 #: ../src/live_effects/lpe-lattice2.cpp:70
 msgid "Control 25x27 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 25x27 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:71
 msgid "Control 28x30:"
@@ -10045,7 +10047,7 @@ msgstr "控制柄 18x30："
 
 #: ../src/live_effects/lpe-lattice2.cpp:71
 msgid "Control 28x30 - <b>Ctrl+Alt+Click</b>: reset, <b>Ctrl</b>: move along axes"
-msgstr ""
+msgstr "控制柄 28x30 - <b>Ctrl+Alt+单击</b>：重置，<b>Ctrl</b>：沿轴移动"
 
 #: ../src/live_effects/lpe-lattice2.cpp:72
 msgid "Control 29x31:"
@@ -10452,13 +10454,11 @@ msgstr "沿节点"
 #, fuzzy
 #| msgid "Randomly"
 msgid "Rand"
-msgstr "随机"
+msgstr "乘以随机值(0,1)"
 
 #: ../src/live_effects/lpe-roughen.cpp:39
-#, fuzzy
-#| msgid "Extract"
 msgid "Retract"
-msgstr "提取"
+msgstr "收回"
 
 #. initialise your parameters here:
 #: ../src/live_effects/lpe-roughen.cpp:48
@@ -10490,22 +10490,16 @@ msgid "Global randomize"
 msgstr "全局随机化"
 
 #: ../src/live_effects/lpe-roughen.cpp:60
-#, fuzzy
-#| msgid "Handles:"
 msgid "Handles"
-msgstr "控制点："
+msgstr "控制柄"
 
 #: ../src/live_effects/lpe-roughen.cpp:60
-#, fuzzy
-#| msgid "Randomize positions"
 msgid "Handles options"
-msgstr "随机化位置"
+msgstr "控制柄选项"
 
 #: ../src/live_effects/lpe-roughen.cpp:62
-#, fuzzy
-#| msgid "Smooth node handle"
 msgid "Max. smooth handle angle"
-msgstr "光滑节点控制柄"
+msgstr "最大平滑控制柄角度"
 
 #: ../src/live_effects/lpe-roughen.cpp:64
 #: ../share/extensions/radiusrand.inx.h:5
@@ -10521,14 +10515,12 @@ msgid "Fixed displacement, 1/3 of segment length"
 msgstr ""
 
 #: ../src/live_effects/lpe-roughen.cpp:68
-#, fuzzy
-#| msgid "Spray Tool Preferences"
 msgid "Spray Tool friendly"
-msgstr "喷绘工具设置"
+msgstr "喷绘工具友好"
 
 #: ../src/live_effects/lpe-roughen.cpp:68
 msgid "For use with spray tool"
-msgstr ""
+msgstr "用以与喷绘工具共用"
 
 #: ../src/live_effects/lpe-roughen.cpp:128
 msgid "<b>Add nodes</b> Subdivide each segment"
@@ -10916,24 +10908,18 @@ msgid "From original width"
 msgstr "替换文本"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
-#, fuzzy
-#| msgid "Length"
 msgid "Lock length"
-msgstr "长度"
+msgstr "锁定长度"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:33
-#, fuzzy
-#| msgid "Lock or unlock current layer"
 msgid "Lock length to current distance"
-msgstr "锁定或解锁当前层"
+msgstr "锁定长度到目前距离"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:34
 msgid "Lock angle"
 msgstr "锁定角度"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:35
-#, fuzzy
-#| msgid "Flip horizontally"
 msgid "Flip horizontal"
 msgstr "水平翻转"
 
@@ -10950,38 +10936,32 @@ msgid "End point"
 msgstr "终点"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
-#, fuzzy
-#| msgid "Strength"
 msgid "Stretch"
-msgstr "强度"
+msgstr "拉伸"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:39
 msgid "Stretch the result"
 msgstr "拉伸最终输出"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:40
-#, fuzzy
-#| msgid "Offset points"
 msgid "Offset from knots"
-msgstr "偏移点"
+msgstr "离节偏移量"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:41
 msgid "First Knot"
-msgstr ""
+msgstr "第一个结"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:42
 msgid "Last Knot"
-msgstr ""
+msgstr "最后一结"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:43
 msgid "Rotation helper size"
-msgstr ""
+msgstr "旋转辅助标示尺寸"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:197
-#, fuzzy
-#| msgid "Change node type"
 msgid "Change index of knot"
-msgstr "改变节点类型"
+msgstr "更改结索引"
 
 #: ../src/live_effects/lpe-transform_2pts.cpp:350
 #: ../src/ui/dialog/inkscape-preferences.cpp:1610
@@ -11304,10 +11284,8 @@ msgid "Export document to an EPS file"
 msgstr "导出文档到 EPS 文件"
 
 #: ../src/main.cpp:407
-#, fuzzy
-#| msgid "Choose the PostScript Level used to export. Possible choices are 2 (the default) and 3"
 msgid "Choose the PostScript Level used to export. Possible choices are 2 and 3 (the default)"
-msgstr "选择导出要使用的 PostScript 等级（版本）。正常选择 2 (默认值) 和 3"
+msgstr "选择导出要使用的 PostScript 等级（版本）。选择有 2 和 3（默认）"
 
 #: ../src/main.cpp:409
 msgid "PS Level"
@@ -15394,10 +15372,8 @@ msgid "The <b>feDiffuseLighting</b> and <b>feSpecularLighting</b> filter primiti
 msgstr "滤镜基元 <b>feDiffuseLighting</b> 和 <b>feSpecularLighting</b> 产生“浮雕式”的阴影。输入的 alpha 通道用来提供深度信息：不透明的区域向观察者凸出，透明区域则向内凹陷。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3018
-#, fuzzy
-#| msgid "The <b>feImage</b> filter primitive fills the region with an external image or another part of the document."
 msgid "The <b>feTile</b> filter primitive tiles a region with an input graphic. The source tile is defined by the filter primitive subregion of the input."
-msgstr "滤镜基元 <b>feImage</b>用另外一幅图像或文档的另外一部分来填充区域."
+msgstr "滤镜基元 <b>feTile</b> 用输入图像平铺填充区域。源平铺由输入的滤镜基元子区域决定。"
 
 #: ../src/ui/dialog/filter-effects-dialog.cpp:3022
 msgid "The <b>feTurbulence</b> filter primitive renders Perlin noise. This kind of noise is useful in simulating several nature phenomena like clouds, fire and smoke and in generating complex textures like marble or granite."
@@ -15774,7 +15750,7 @@ msgstr "切罗基文"
 
 #: ../src/ui/dialog/glyphs.cpp:68 ../src/ui/dialog/glyphs.cpp:242
 msgid "Coptic"
-msgstr ""
+msgstr "埃及古語"
 
 #: ../src/ui/dialog/glyphs.cpp:69 ../src/ui/dialog/glyphs.cpp:161
 #: ../share/extensions/hershey.inx.h:22
@@ -17111,7 +17087,7 @@ msgstr "亚美尼亚语 (hy)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:526
 msgid "Assamese (as)"
-msgstr ""
+msgstr "阿萨姆语 (as)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:526
 msgid "Azerbaijani (az)"
@@ -17211,7 +17187,7 @@ msgstr "英语/英国 (en_GB)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:531
 msgid "Pig Latin (en_US@piglatin)"
-msgstr ""
+msgstr "儿童黑话 (en_US@piglatin)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:531
 msgid "Esperanto (eo)"
@@ -17239,7 +17215,7 @@ msgstr "加利西亚语 (gl)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:533
 msgid "Gujarati (gu)"
-msgstr ""
+msgstr "古吉拉特语 (gu)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:534
 msgid "Hebrew (he)"
@@ -17295,7 +17271,7 @@ msgstr "卢旺达语 (rw)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Konkani (kok)"
-msgstr ""
+msgstr "孔卡尼语 (kok)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:537
 msgid "Konkani in Latin script (kok@latin)"
@@ -17319,11 +17295,11 @@ msgstr "马其顿语 (mk)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Maithili (mai)"
-msgstr ""
+msgstr "迈蒂利语 (mai)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Malayalam (ml)"
-msgstr ""
+msgstr "马拉雅拉姆语 (ml)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Manipuri (mni)"
@@ -17335,7 +17311,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Marathi (mr)"
-msgstr ""
+msgstr "马拉地语 (mr)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:539
 msgid "Mongolian (mn)"
@@ -17383,11 +17359,12 @@ msgstr "俄语 (ru)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
 msgid "Sanskrit (sa)"
-msgstr ""
+msgstr "梵语 (sa)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
+#, fuzzy
 msgid "Santali (sat)"
-msgstr ""
+msgstr "饱和度："
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:544
 msgid "Santali in Devanagari script (sat@deva)"
@@ -17431,7 +17408,7 @@ msgstr "瑞典语 (sv)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:546
 msgid "Tamil (ta)"
-msgstr ""
+msgstr "泰米尔语 (ta)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:546
 msgid "Telugu (te)"
@@ -17451,7 +17428,7 @@ msgstr "乌克兰语 (uk)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:547
 msgid "Urdu (ur)"
-msgstr ""
+msgstr "乌尔都语 (ur)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:548
 msgid "Vietnamese (vi)"
@@ -18531,16 +18508,18 @@ msgid "After snapping, a symbol is drawn at the point that has snapped"
 msgstr "吸附到点后，在该点上显示一个标记"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1271
+#, fuzzy
 msgid "Snap indicator persistence (in seconds):"
-msgstr ""
+msgstr "吸附指示"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1272
 msgid "Controls how long the snap indicator message will be shown, before it disappears"
 msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1274
+#, fuzzy
 msgid "What should snap"
-msgstr ""
+msgstr "新特性"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:1276
 msgid "Only snap the node closest to the pointer"
@@ -19817,16 +19796,18 @@ msgid "Toggle visibility of Layer, Group, or Object."
 msgstr "切换图层、 组或对象的可见性。"
 
 #: ../src/ui/dialog/objects.cpp:1677
+#, fuzzy
 msgid "Toggle lock of Layer, Group, or Object."
-msgstr ""
+msgstr "切换图层、 组或对象的可见性。"
 
 #: ../src/ui/dialog/objects.cpp:1689
 msgid "Type: Layer, Group, or Object. Clicking on Layer or Group icon, toggles between the two types."
 msgstr ""
 
 #: ../src/ui/dialog/objects.cpp:1708
+#, fuzzy
 msgid "Is object clipped and/or masked?"
-msgstr ""
+msgstr "不组合剪裁/蒙版的对象"
 
 #: ../src/ui/dialog/objects.cpp:1719
 msgid "Highlight color of outline in Node tool. Click to set. If alpha is zero, use inherited color."
@@ -20537,7 +20518,7 @@ msgstr "用："
 
 #: ../src/ui/dialog/text-edit.cpp:72
 msgid "_Variants"
-msgstr ""
+msgstr "变种(_V)"
 
 #: ../src/ui/dialog/text-edit.cpp:73
 msgid "Set as _default"
@@ -21415,7 +21396,7 @@ msgstr "<b>Ctrl+Alt</b>：单击插入节点"
 #: ../src/ui/tool/curve-drag-point.cpp:204
 msgctxt "Path segment tip"
 msgid "<b>BSpline segment</b>: drag to shape the segment, doubleclick to insert node, click to select (more: Shift, Ctrl+Alt)"
-msgstr ""
+msgstr "<b>B 样条线段</b>：拖动以设定形状，双击添加节点，单击选择 (更多：Shift、Ctrl+Alt)"
 
 #: ../src/ui/tool/curve-drag-point.cpp:209
 msgctxt "Path segment tip"
@@ -23066,8 +23047,6 @@ msgid "Stacked"
 msgstr "堆叠"
 
 #: ../src/ui/widget/font-variants.cpp:67
-#, fuzzy
-#| msgid "Default Fractions"
 msgctxt "Font variant"
 msgid "Default Fractions"
 msgstr "默认占比"
@@ -23080,14 +23059,12 @@ msgstr ""
 #: ../src/ui/widget/font-variants.cpp:69
 msgctxt "Font variant"
 msgid "Slashed Zero"
-msgstr ""
+msgstr "带斜杠零"
 
 #: ../src/ui/widget/font-variants.cpp:71
-#, fuzzy
-#| msgid "Feature Settings"
 msgctxt "Font variant"
 msgid "Feature Settings"
-msgstr "功能设置"
+msgstr "特性设置"
 
 #: ../src/ui/widget/font-variants.cpp:72
 msgctxt "Font variant"
@@ -23353,7 +23330,7 @@ msgstr "设置页面尺寸"
 
 #: ../src/ui/widget/page-sizer.cpp:836
 msgid "User units per "
-msgstr ""
+msgstr "用户单位每"
 
 #: ../src/ui/widget/page-sizer.cpp:932
 msgid "Set page scale"
@@ -23361,7 +23338,7 @@ msgstr "设置页面尺寸"
 
 #: ../src/ui/widget/page-sizer.cpp:958
 msgid "Set 'viewBox'"
-msgstr ""
+msgstr "设置视口“viewbox”"
 
 #: ../src/ui/widget/panel.cpp:113
 msgid "List"
@@ -27264,7 +27241,7 @@ msgstr "光滑:"
 #, fuzzy
 #| msgid "Toggle Bold"
 msgid "Toggle Sides"
-msgstr "切换粗体"
+msgstr "边数："
 
 #: ../src/widgets/mesh-toolbar.cpp:535
 msgid "Toggle selected sides between Beziers and lines."
@@ -27274,13 +27251,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Toggle Bold"
 msgid "Toggle side:"
-msgstr "切换粗体"
+msgstr "切换编辑状态"
 
 #: ../src/widgets/mesh-toolbar.cpp:545
 #, fuzzy
 #| msgid "Make italic"
 msgid "Make elliptical"
-msgstr "斜体"
+msgstr "椭圆(_E)..."
 
 #: ../src/widgets/mesh-toolbar.cpp:546
 msgid "Make selected sides elliptical by changing length of handles. Works best if handles already approximate ellipse."
@@ -27290,13 +27267,13 @@ msgstr ""
 #, fuzzy
 #| msgid "Make italic"
 msgid "Make elliptical:"
-msgstr "斜体"
+msgstr "椭圆(_E)..."
 
 #: ../src/widgets/mesh-toolbar.cpp:556
 #, fuzzy
 #| msgid "Points color"
 msgid "Pick colors:"
-msgstr "网点颜色："
+msgstr "从图像中拾取颜色"
 
 #: ../src/widgets/mesh-toolbar.cpp:557
 msgid "Pick colors for selected corner nodes from underneath mesh."
@@ -27306,7 +27283,7 @@ msgstr ""
 #, fuzzy
 #| msgid "Fill Color"
 msgid "Pick Color"
-msgstr "填充颜色"
+msgstr "拾取颜色"
 
 #: ../src/widgets/node-toolbar.cpp:341
 msgid "Insert node"
@@ -27719,8 +27696,9 @@ msgid "LPE based interactive simplify"
 msgstr ""
 
 #: ../src/widgets/pencil-toolbar.cpp:420 ../src/widgets/pencil-toolbar.cpp:421
+#, fuzzy
 msgid "LPE simplify flatten"
-msgstr ""
+msgstr "平面化透明度"
 
 #: ../src/widgets/rect-toolbar.cpp:125
 msgid "Change rectangle"
@@ -29360,8 +29338,9 @@ msgid "Please select an object"
 msgstr "请选择一个对象"
 
 #: ../share/extensions/gimp_xcf.py:39
+#, fuzzy
 msgid "Inkscape must be installed and set in your path variable."
-msgstr ""
+msgstr "必须安装 Gimp 并在 PATH 变量中设置其运行时数据。"
 
 #: ../share/extensions/gimp_xcf.py:43
 msgid "Gimp must be installed and set in your path variable."
@@ -29826,7 +29805,7 @@ msgstr "请在“替换全部”框中输入一个替代字体。"
 #, fuzzy
 #| msgid "There is no selection to interpolate"
 msgid "There is no selection to restack."
-msgstr "没有选择要插值的内容"
+msgstr "重新堆叠"
 
 #: ../share/extensions/summersnight.py:44
 msgid ""
@@ -29898,8 +29877,9 @@ msgid "The directory \"%s\" does not exists."
 msgstr "目录 \"%s\" 不存在。"
 
 #: ../share/extensions/webslicer_export.py:78
+#, fuzzy
 msgid "No slicer layer found."
-msgstr ""
+msgstr "切割蒙板"
 
 #: ../share/extensions/webslicer_export.py:108
 #, python-format
@@ -32453,13 +32433,15 @@ msgstr "基础"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:5
+#, fuzzy
 msgid "Support non-uniform scaling"
-msgstr ""
+msgstr "支持同步非调用异常"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:7
+#, fuzzy
 msgid "Render images blocky"
-msgstr ""
+msgstr "绘制(_R)"
 
 #. render images like in 0.48
 #: ../share/extensions/image_attributes.inx.h:9
@@ -32473,8 +32455,9 @@ msgstr "图片匹配比例"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:13
+#, fuzzy
 msgid "preserveAspectRatio attribute:"
-msgstr ""
+msgstr "属性摘要"
 
 #. image aspect ratio
 #: ../share/extensions/image_attributes.inx.h:15
@@ -32493,25 +32476,25 @@ msgstr "未设置"
 
 #: ../share/extensions/image_attributes.inx.h:20
 msgid "Change only selected image(s)"
-msgstr ""
+msgstr "只更改选取的图像"
 
 #: ../share/extensions/image_attributes.inx.h:21
 msgid "Change all images in selection"
-msgstr ""
+msgstr "更改选区内的所有图像"
 
 #: ../share/extensions/image_attributes.inx.h:22
 msgid "Change all images in document"
-msgstr ""
+msgstr "更改文档中的所有图像"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:24
 msgid "Image Rendering Quality"
-msgstr ""
+msgstr "图像渲染质量"
 
 #. image-rendering
 #: ../share/extensions/image_attributes.inx.h:26
 msgid "Image rendering attribute:"
-msgstr ""
+msgstr "图像渲染属性："
 
 #: ../share/extensions/image_attributes.inx.h:27
 msgid "Apply attribute to parent group of selection"
@@ -32519,7 +32502,7 @@ msgstr ""
 
 #: ../share/extensions/image_attributes.inx.h:28
 msgid "Apply attribute to SVG root"
-msgstr ""
+msgstr "将属性应用于 SVG 根"
 
 #: ../share/extensions/ink2canvas.inx.h:1
 msgid "Convert to html5 canvas"
@@ -33404,10 +33387,8 @@ msgid "Measurement Type: "
 msgstr "测量类型:"
 
 #: ../share/extensions/measure.inx.h:4
-#, fuzzy
-#| msgid "Text Preferences"
 msgid "Text Presets"
-msgstr "文字偏好设置"
+msgstr "文本预设"
 
 #: ../share/extensions/measure.inx.h:6
 msgid "Text on Path"
@@ -33474,11 +33455,11 @@ msgstr "路径文本，末端"
 
 #: ../share/extensions/measure.inx.h:24
 msgid "Fixed Text, Start of Path"
-msgstr ""
+msgstr "固定文本，路径开端"
 
 #: ../share/extensions/measure.inx.h:25
 msgid "Fixed Text, Center of BBox"
-msgstr ""
+msgstr "固定文本，边界框中心"
 
 #: ../share/extensions/measure.inx.h:26
 msgid "Fixed Text, Center of Mass"
@@ -33843,7 +33824,7 @@ msgstr "串行连接的奇偶校验，99% 的绘图者可使用默认设置（�
 
 #: ../share/extensions/plotter.inx.h:17
 msgid "Serial flow control:"
-msgstr ""
+msgstr "串行流控制："
 
 #: ../share/extensions/plotter.inx.h:18
 msgid "The Software / Hardware flow control of your serial connection (Default: Software)"
