@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 02:02-0500\n"
+"PO-Revision-Date: 2015-11-27 02:10-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,4392,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,4594,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -20115,7 +20115,7 @@ msgstr "对象的旋转中心"
 #: ../src/ui/dialog/polar-arrange-tab.cpp:64
 msgctxt "Polar arrange tab"
 msgid "Arrange on:"
-msgstr "排列在:"
+msgstr "排列于："
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:68
 msgctxt "Polar arrange tab"
@@ -20140,11 +20140,11 @@ msgstr "中心 X/Y："
 #: ../src/ui/dialog/polar-arrange-tab.cpp:105
 msgctxt "Polar arrange tab"
 msgid "Radius X/Y:"
-msgstr "半径 X/Y:"
+msgstr "半径 X/Y："
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:127
 msgid "Angle X/Y:"
-msgstr "角度 X/Y:"
+msgstr "角度 X/Y："
 
 #: ../src/ui/dialog/polar-arrange-tab.cpp:150
 msgid "Rotate objects"
@@ -20168,7 +20168,7 @@ msgstr "无法设置文档"
 
 #: ../src/ui/dialog/print.cpp:142
 msgid "Failed to set CairoRenderContext"
-msgstr "不能设置CairoRenderContext"
+msgstr "不能设置 CairoRenderContext"
 
 #. set up dialog title, based on document name
 #: ../src/ui/dialog/print.cpp:180
@@ -20205,7 +20205,7 @@ msgstr "开始(_S)"
 
 #: ../src/ui/dialog/spellcheck.cpp:109
 msgid "Suggestions:"
-msgstr "建议:"
+msgstr "建议："
 
 #: ../src/ui/dialog/spellcheck.cpp:124
 msgid "Accept the chosen suggestion"
@@ -20234,16 +20234,16 @@ msgstr "开始检查"
 #: ../src/ui/dialog/spellcheck.cpp:460
 #, c-format
 msgid "<b>Finished</b>, <b>%d</b> words added to dictionary"
-msgstr "<b>完成</b>, <b>%d</b>个单词已添加到词典"
+msgstr "<b>完成</b>，<b>%d</b> 个单词已添加到词典"
 
 #: ../src/ui/dialog/spellcheck.cpp:462
 msgid "<b>Finished</b>, nothing suspicious found"
-msgstr "<b>完成</b>, 未找到可疑项"
+msgstr "<b>完成</b>，未找到可疑项"
 
 #: ../src/ui/dialog/spellcheck.cpp:578
 #, c-format
 msgid "Not in dictionary (%s): <b>%s</b>"
-msgstr "不在词典中 (%s)： <b>%s</b>"
+msgstr "不在词典中（%s）：<b>%s</b>"
 
 #: ../src/ui/dialog/spellcheck.cpp:727
 msgid "<i>Checking...</i>"
@@ -20255,7 +20255,7 @@ msgstr "修正拼写"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:139
 msgid "Set SVG Font attribute"
-msgstr "设置SVG字体属性"
+msgstr "设置 SVG 字体属性"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:197
 msgid "Adjust kerning value"
@@ -20263,7 +20263,7 @@ msgstr "调整字间距"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:387
 msgid "Family Name:"
-msgstr "家族名称："
+msgstr "字族名称："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:397
 msgid "Set width:"
@@ -20286,11 +20286,11 @@ msgstr "选择<b>路径</b>来确定字型的曲线"
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:530
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:572
 msgid "The selected object does not have a <b>path</b> description."
-msgstr "选择的对象不是<b>路径</b>."
+msgstr "选择的对象不是<b>路径</b>。"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:537
 msgid "No glyph selected in the SVGFonts dialog."
-msgstr "在SVG字体对话框中没有选择字型."
+msgstr "在 SVG 字体对话框中没有选择字型。"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:548
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:587
@@ -20307,7 +20307,7 @@ msgstr "修改字型名称"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:637
 msgid "Set glyph unicode"
-msgstr "设置字型的unicode"
+msgstr "设置字型的 unicode"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:649
 msgid "Remove font"
@@ -20323,7 +20323,7 @@ msgstr "移除间距对"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:693
 msgid "Missing Glyph:"
-msgstr "丢失的字型:"
+msgstr "丢失的字型："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:697
 msgid "From selection..."
@@ -20356,11 +20356,11 @@ msgstr "字距设置"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:780
 msgid "1st Glyph:"
-msgstr "第一字型:"
+msgstr "第一字型："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:782
 msgid "2nd Glyph:"
-msgstr "第二字型"
+msgstr "第二字型："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:785
 msgid "Add pair"
@@ -20368,15 +20368,15 @@ msgstr "添加配对"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:797
 msgid "First Unicode range"
-msgstr "第一Unicode范围"
+msgstr "第一 Unicode 范围"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:798
 msgid "Second Unicode range"
-msgstr "第二Unicode范围"
+msgstr "第二 Unicode 范围"
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:805
 msgid "Kerning value:"
-msgstr "字距值："
+msgstr "字距调整值："
 
 #: ../src/ui/dialog/svg-fonts-dialog.cpp:863
 msgid "Set font family"
@@ -20472,7 +20472,7 @@ msgstr "在一行中显示更少图标。"
 
 #: ../src/ui/dialog/symbols.cpp:254
 msgid "Toggle 'fit' symbols in icon space."
-msgstr "切换在图标空间中的‘合适’符号。"
+msgstr "切换在图标空间中的“合适”符号。"
 
 #: ../src/ui/dialog/symbols.cpp:266
 msgid "Make symbols smaller by zooming out."
@@ -20579,7 +20579,7 @@ msgstr "垂直文字"
 
 #: ../src/ui/dialog/text-edit.cpp:130 ../src/ui/dialog/text-edit.cpp:131
 msgid "Spacing between lines (percent of font size)"
-msgstr "行间距离(字体大小的百分比)"
+msgstr "行距（字体大小的百分比）"
 
 #: ../src/ui/dialog/text-edit.cpp:147
 msgid "Text path offset"
@@ -20628,7 +20628,7 @@ msgstr "亮度截断黑/白"
 
 #: ../src/ui/dialog/tracedialog.cpp:529
 msgid "Single scan: creates a path"
-msgstr "单个扫描:创建一条路径"
+msgstr "单个扫描：创建一条路径"
 
 #. canny edge detection
 #. TRANSLATORS: "Canny" is the name of the inventor of this edge detection method
@@ -20642,7 +20642,7 @@ msgstr "使用 J. Canny 的最优边缘检测算法临摹轮廓"
 
 #: ../src/ui/dialog/tracedialog.cpp:556
 msgid "Brightness cutoff for adjacent pixels (determines edge thickness)"
-msgstr "邻近像素亮度截断(决定边缘厚度)"
+msgstr "邻近像素亮度截断（决定边缘厚度）"
 
 #: ../src/ui/dialog/tracedialog.cpp:559
 msgid "T_hreshold:"
@@ -20727,7 +20727,7 @@ msgstr "堆叠扫描数(_K)"
 
 #: ../src/ui/dialog/tracedialog.cpp:661
 msgid "Stack scans on top of one another (no gaps) instead of tiling (usually with gaps)"
-msgstr "用互相重叠的堆叠(没有间隙)代替水平平铺(通常有间隙)"
+msgstr "用互相重叠的堆叠（没有间隙）代替水平平铺（常有间隙）"
 
 #: ../src/ui/dialog/tracedialog.cpp:665
 msgid "Remo_ve background"
@@ -20736,11 +20736,11 @@ msgstr "删除背景(_V)"
 #. TRANSLATORS: "Layer" refers to one of the stacked paths in the multiscan
 #: ../src/ui/dialog/tracedialog.cpp:670
 msgid "Remove bottom (background) layer when done"
-msgstr "完成后清除最底层(背景)"
+msgstr "完成后清除最底层（背景）"
 
 #: ../src/ui/dialog/tracedialog.cpp:675
 msgid "Multiple scans: creates a group of paths"
-msgstr "多重扫描:创建一组路径"
+msgstr "多重扫描：创建一组路径"
 
 #. # end multiple scan
 #. ## end mode page
@@ -20756,11 +20756,11 @@ msgstr "抑制斑点(_S)"
 
 #: ../src/ui/dialog/tracedialog.cpp:692
 msgid "Ignore small spots (speckles) in the bitmap"
-msgstr "忽略位图上小的 spots(噪点)"
+msgstr "忽略位图上小噪点"
 
 #: ../src/ui/dialog/tracedialog.cpp:700
 msgid "Speckles of up to this many pixels will be suppressed"
-msgstr "Speckles 达到此值时将会压制许多像素"
+msgstr "将会忽略最高达该尺寸的小噪点"
 
 #: ../src/ui/dialog/tracedialog.cpp:703
 msgid "S_ize:"
@@ -20768,7 +20768,7 @@ msgstr "大小(_I)："
 
 #: ../src/ui/dialog/tracedialog.cpp:708
 msgid "Smooth _corners"
-msgstr "平滑角落(_C)"
+msgstr "平滑尖角(_C)"
 
 #: ../src/ui/dialog/tracedialog.cpp:710
 msgid "Smooth out sharp corners of the trace"
@@ -20851,7 +20851,7 @@ msgstr "水平(_H)："
 
 #: ../src/ui/dialog/transformation.cpp:70
 msgid "Horizontal displacement (relative) or position (absolute)"
-msgstr "水平移位(相对)或者位置(绝对)"
+msgstr "水平位移（相对）或者位置（绝对）"
 
 #: ../src/ui/dialog/transformation.cpp:72
 #: ../src/ui/dialog/transformation.cpp:82
@@ -20860,15 +20860,15 @@ msgstr "垂直(_V)："
 
 #: ../src/ui/dialog/transformation.cpp:72
 msgid "Vertical displacement (relative) or position (absolute)"
-msgstr "垂直移位(相对)或者位置(绝对)"
+msgstr "垂直位移（相对）或者位置（绝对）"
 
 #: ../src/ui/dialog/transformation.cpp:74
 msgid "Horizontal size (absolute or percentage of current)"
-msgstr "水平尺寸(相对于当前的绝对或百分比)"
+msgstr "水平尺寸（绝对或相对于当前的百分比）"
 
 #: ../src/ui/dialog/transformation.cpp:76
 msgid "Vertical size (absolute or percentage of current)"
-msgstr "垂直尺寸增量(相对于当前的绝对或百分比)"
+msgstr "垂直尺寸（绝对或相对于当前的百分比）"
 
 #: ../src/ui/dialog/transformation.cpp:78
 msgid "A_ngle:"
@@ -20877,15 +20877,15 @@ msgstr "角度(_N)："
 #: ../src/ui/dialog/transformation.cpp:78
 #: ../src/ui/dialog/transformation.cpp:1103
 msgid "Rotation angle (positive = counterclockwise)"
-msgstr "旋转角度(正值=逆时针)"
+msgstr "旋转角度（正值=逆时针）"
 
 #: ../src/ui/dialog/transformation.cpp:80
 msgid "Horizontal skew angle (positive = counterclockwise), or absolute displacement, or percentage displacement"
-msgstr "水平错切角度(正值=逆时针), 或绝对移位, 或百分比移位"
+msgstr "水平错切角度（正值=逆时针），或绝对位移，或百分比位移"
 
 #: ../src/ui/dialog/transformation.cpp:82
 msgid "Vertical skew angle (positive = counterclockwise), or absolute displacement, or percentage displacement"
-msgstr "垂直错切角度(正值=逆时针), 或绝对移位, 或百分比移位"
+msgstr "垂直错切角度（正值=逆时针），或绝对位移，或百分比位移"
 
 #: ../src/ui/dialog/transformation.cpp:85
 msgid "Transformation matrix element A"
@@ -20913,11 +20913,11 @@ msgstr "变换矩阵元素 F"
 
 #: ../src/ui/dialog/transformation.cpp:95
 msgid "Rela_tive move"
-msgstr "相对(_T)移动"
+msgstr "相对移动(_T)"
 
 #: ../src/ui/dialog/transformation.cpp:95
 msgid "Add the specified relative displacement to the current position; otherwise, edit the current absolute position directly"
-msgstr "给当前位置添加指定的相对移位;否则直接编辑当前绝对位置"
+msgstr "给当前位置添加指定的相对位移；否则直接编辑当前绝对位置"
 
 #: ../src/ui/dialog/transformation.cpp:96
 msgid "_Scale proportionally"
@@ -20941,7 +20941,7 @@ msgstr "编辑当前矩阵(_U)"
 
 #: ../src/ui/dialog/transformation.cpp:98
 msgid "Edit the current transform= matrix; otherwise, post-multiply transform= by this matrix"
-msgstr "编辑当前变换=矩阵; 否则, 右乘变换=此矩阵"
+msgstr "编辑当前 transform= 矩阵；否则，右乘此 transform= 矩阵"
 
 #: ../src/ui/dialog/transformation.cpp:111
 msgid "_Scale"
@@ -20983,7 +20983,7 @@ msgstr "按顺时针方向旋转"
 #: ../src/ui/dialog/transformation.cpp:971
 #: ../src/ui/dialog/transformation.cpp:995
 msgid "Transform matrix is singular, <b>not used</b>."
-msgstr "变换矩阵是单数的，<b>未被使用</b>。"
+msgstr "变换矩阵是奇异的，<b>未被使用</b>。"
 
 #: ../src/ui/dialog/transformation.cpp:1011
 msgid "Edit transformation matrix"
