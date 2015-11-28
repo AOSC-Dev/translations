@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 19:32-0500\n"
+"PO-Revision-Date: 2015-11-28 00:06-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,6180,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,6417,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -7866,7 +7866,7 @@ msgstr "从 Poppler/Cairo 导入"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:135
 msgid "Import via external library. Text consists of groups containing cloned glyphs where each glyph is a path. Images are stored internally. Meshes cause entire document to be rendered as a raster image."
-msgstr ""
+msgstr "通过外部库中导入。文本包括包含克隆标志符号，每个标志符号在哪里路径组。在内部存储图像。网格使整个文档作为一个光栅图像呈现。"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:136
 msgid "Internal import"
@@ -27951,11 +27951,11 @@ msgstr "圆"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "edge is much denser"
-msgstr "边沿更密"
+msgstr "边沿密多了"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "edge is denser"
-msgstr "边沿变密"
+msgstr "边沿更密"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "even"
@@ -27963,11 +27963,11 @@ msgstr "偶数"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "center is denser"
-msgstr "中心更密集"
+msgstr "中心更密"
 
 #: ../src/widgets/spiral-toolbar.cpp:256
 msgid "center is much denser"
-msgstr "中心更密集"
+msgstr "中心密多了"
 
 #: ../src/widgets/spiral-toolbar.cpp:259
 msgid "Divergence"
@@ -27975,11 +27975,11 @@ msgstr "发散度"
 
 #: ../src/widgets/spiral-toolbar.cpp:259
 msgid "Divergence:"
-msgstr "发散度:"
+msgstr "发散度："
 
 #: ../src/widgets/spiral-toolbar.cpp:259
 msgid "How much denser/sparser are outer revolutions; 1 = uniform"
-msgstr "外部转数有多密/疏;  1=均匀"
+msgstr "外部转数有多密/疏；1 = 均匀"
 
 #: ../src/widgets/spiral-toolbar.cpp:270
 msgid "starts from center"
@@ -27999,32 +27999,32 @@ msgstr "内半径"
 
 #: ../src/widgets/spiral-toolbar.cpp:273
 msgid "Inner radius:"
-msgstr "内半径:"
+msgstr "内半径："
 
 #: ../src/widgets/spiral-toolbar.cpp:273
 msgid "Radius of the innermost revolution (relative to the spiral size)"
-msgstr "内部最小转数半径(相对于螺旋尺寸)"
+msgstr "内部最小转数半径（相对于螺旋尺寸）"
 
 #: ../src/widgets/spiral-toolbar.cpp:286 ../src/widgets/star-toolbar.cpp:565
 msgid "Reset shape parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置形状参数为默认值（使用“Inkscape 首选项 > 工具”来改变默认值）"
+msgstr "重置形状参数为默认值（使用“Inkscape 首选项→工具”来改变默认值）"
 
 #. Width
 #: ../src/widgets/spray-toolbar.cpp:113
 msgid "(narrow spray)"
-msgstr "(小范围喷绘)"
+msgstr "（小范围喷绘）"
 
 #: ../src/widgets/spray-toolbar.cpp:113
 msgid "(broad spray)"
-msgstr "(大范围喷绘)"
+msgstr "（大范围喷绘）"
 
 #: ../src/widgets/spray-toolbar.cpp:116
 msgid "The width of the spray area (relative to the visible canvas area)"
-msgstr "喷绘范围的宽度 (相对于可见画布面积)"
+msgstr "喷绘范围的宽度（相对于可见画布面积）"
 
 #: ../src/widgets/spray-toolbar.cpp:129
 msgid "(maximum mean)"
-msgstr "(最大均值)"
+msgstr "（最大均值）"
 
 #: ../src/widgets/spray-toolbar.cpp:132
 msgid "Focus"
@@ -28032,34 +28032,34 @@ msgstr "焦点"
 
 #: ../src/widgets/spray-toolbar.cpp:132
 msgid "Focus:"
-msgstr "焦点:"
+msgstr "焦点："
 
 #: ../src/widgets/spray-toolbar.cpp:132
 msgid "0 to spray a spot; increase to enlarge the ring radius"
-msgstr "0 为喷射一个点;提高为放大圆环半径"
+msgstr "0 以喷射一下；提高以放大圆环半径"
 
 #. Standard_deviation
 #: ../src/widgets/spray-toolbar.cpp:145
 msgid "(minimum scatter)"
-msgstr "(最小散布)"
+msgstr "（最小分散）"
 
 #: ../src/widgets/spray-toolbar.cpp:145
 msgid "(maximum scatter)"
-msgstr "(最大散布)"
+msgstr "（最大分散）"
 
 #: ../src/widgets/spray-toolbar.cpp:148
 msgctxt "Spray tool"
 msgid "Scatter"
-msgstr "散布"
+msgstr "分散"
 
 #: ../src/widgets/spray-toolbar.cpp:148
 msgctxt "Spray tool"
 msgid "Scatter:"
-msgstr "分散:"
+msgstr "分散："
 
 #: ../src/widgets/spray-toolbar.cpp:148
 msgid "Increase to scatter sprayed objects"
-msgstr "提高为分散喷射的对象"
+msgstr "提高以分散喷射的对象"
 
 #: ../src/widgets/spray-toolbar.cpp:167
 msgid "Spray copies of the initial selection"
@@ -28084,11 +28084,11 @@ msgstr "模式"
 #. Population
 #: ../src/widgets/spray-toolbar.cpp:205
 msgid "(low population)"
-msgstr "(小数量)"
+msgstr "（小数量）"
 
 #: ../src/widgets/spray-toolbar.cpp:205
 msgid "(high population)"
-msgstr "(大数目)"
+msgstr "（大数量）"
 
 #: ../src/widgets/spray-toolbar.cpp:208
 msgid "Amount"
@@ -28104,7 +28104,7 @@ msgstr "使用输入设备的压力改变喷射对象的数值"
 
 #: ../src/widgets/spray-toolbar.cpp:235
 msgid "(high rotation variation)"
-msgstr "(大的旋转差异)"
+msgstr "（大旋转差异）"
 
 #: ../src/widgets/spray-toolbar.cpp:238
 msgid "Rotation"
@@ -28112,12 +28112,12 @@ msgstr "旋转"
 
 #: ../src/widgets/spray-toolbar.cpp:238
 msgid "Rotation:"
-msgstr "旋转"
+msgstr "旋转："
 
 #: ../src/widgets/spray-toolbar.cpp:240
 #, no-c-format
 msgid "Variation of the rotation of the sprayed objects; 0% for the same rotation than the original object"
-msgstr "喷涂对象的旋转变化; 0% 表示和原始对象样的旋转"
+msgstr "喷涂对象的旋转变化；0% 表示和原始对象同样的旋转"
 
 #: ../src/widgets/spray-toolbar.cpp:253
 msgid "(high scale variation)"
@@ -28131,20 +28131,20 @@ msgstr "缩放"
 #: ../src/widgets/spray-toolbar.cpp:256
 msgctxt "Spray tool"
 msgid "Scale:"
-msgstr "缩放:"
+msgstr "缩放："
 
 #: ../src/widgets/spray-toolbar.cpp:258
 #, no-c-format
 msgid "Variation in the scale of the sprayed objects; 0% for the same scale than the original object"
-msgstr "喷涂对象的规模上的变化; 0% 表示和原始对象一样的规模大小"
+msgstr "喷涂对象的规模上的变化；0% 表示和原始对象一样的规模大小"
 
 #: ../src/widgets/star-toolbar.cpp:103
 msgid "Star: Change number of corners"
-msgstr "星:改变角的数量"
+msgstr "星形：改变角的数量"
 
 #: ../src/widgets/star-toolbar.cpp:156
 msgid "Star: Change spoke ratio"
-msgstr "星形:改变轮辐比例"
+msgstr "星形：改变辐条比例"
 
 #: ../src/widgets/star-toolbar.cpp:201
 msgid "Make polygon"
@@ -28156,19 +28156,19 @@ msgstr "创建星形"
 
 #: ../src/widgets/star-toolbar.cpp:240
 msgid "Star: Change rounding"
-msgstr "星:改变圆角"
+msgstr "星形：改变圆角"
 
 #: ../src/widgets/star-toolbar.cpp:280
 msgid "Star: Change randomization"
-msgstr "星:改变随机性"
+msgstr "星形：改变随机性"
 
 #: ../src/widgets/star-toolbar.cpp:463
 msgid "Regular polygon (with one handle) instead of a star"
-msgstr "正规化多边形(有一个控制点)代替星形"
+msgstr "规则多边形（有一个控制点）而非星形"
 
 #: ../src/widgets/star-toolbar.cpp:470
 msgid "Star instead of a regular polygon (with one handle)"
-msgstr "星形代替普通多边形(有一个控制点)"
+msgstr "星形而非规则多边形（有一个控制点）"
 
 #: ../src/widgets/star-toolbar.cpp:491
 msgid "triangle/tri-star"
@@ -28192,7 +28192,7 @@ msgstr "角"
 
 #: ../src/widgets/star-toolbar.cpp:494
 msgid "Corners:"
-msgstr "角:"
+msgstr "角："
 
 #: ../src/widgets/star-toolbar.cpp:494
 msgid "Number of corners of a polygon or star"
@@ -28200,7 +28200,7 @@ msgstr "多边形或星形的角的数目"
 
 #: ../src/widgets/star-toolbar.cpp:507
 msgid "thin-ray star"
-msgstr "带光芒的星形"
+msgstr "薄雷星"
 
 #: ../src/widgets/star-toolbar.cpp:507
 msgid "pentagram"
@@ -28224,11 +28224,11 @@ msgstr "普通多边形"
 
 #: ../src/widgets/star-toolbar.cpp:510
 msgid "Spoke ratio"
-msgstr "轮辐比例:"
+msgstr "辐条比例："
 
 #: ../src/widgets/star-toolbar.cpp:510
 msgid "Spoke ratio:"
-msgstr "辐条比例:"
+msgstr "辐条比例："
 
 #. TRANSLATORS: Tip radius of a star is the distance from the center to the farthest handle.
 #. Base radius is the same for the closest handle.
@@ -28274,11 +28274,11 @@ msgstr "吹胀"
 
 #: ../src/widgets/star-toolbar.cpp:534
 msgid "Rounded:"
-msgstr "圆角:"
+msgstr "圆角："
 
 #: ../src/widgets/star-toolbar.cpp:534
 msgid "How much rounded are the corners (0 for sharp)"
-msgstr "角的圆整程度(0 是尖的)"
+msgstr "角的圆整程度（0 是尖的）"
 
 #: ../src/widgets/star-toolbar.cpp:546
 msgid "NOT randomized"
@@ -28302,7 +28302,7 @@ msgstr "随机化"
 
 #: ../src/widgets/star-toolbar.cpp:549
 msgid "Randomized:"
-msgstr "随机:"
+msgstr "随机化："
 
 #: ../src/widgets/star-toolbar.cpp:549
 msgid "Scatter randomly the corners and angles"
@@ -28375,14 +28375,14 @@ msgstr "方头端点"
 #. Dash
 #: ../src/widgets/stroke-style.cpp:326
 msgid "Dashes:"
-msgstr "线型:"
+msgstr "线型："
 
 #. Drop down marker selectors
 #. TRANSLATORS: Path markers are an SVG feature that allows you to attach arbitrary shapes
 #. (arrowheads, bullets, faces, whatever) to the start, end, or middle nodes of a path.
 #: ../src/widgets/stroke-style.cpp:352
 msgid "Markers:"
-msgstr "标记:"
+msgstr "标记："
 
 #: ../src/widgets/stroke-style.cpp:358
 msgid "Start Markers are drawn on the first node of a path or shape"
@@ -28446,11 +28446,11 @@ msgstr "文本：改变字母间距"
 
 #: ../src/widgets/text-toolbar.cpp:665
 msgid "Text: Change dx (kern)"
-msgstr "文本: 改变 dx (kern)"
+msgstr "文本：改变 dx (字距调整)"
 
 #: ../src/widgets/text-toolbar.cpp:699
 msgid "Text: Change dy"
-msgstr "文本: 改变 dy"
+msgstr "文本：改变 dy"
 
 #: ../src/widgets/text-toolbar.cpp:734
 msgid "Text: Change rotate"
@@ -28466,13 +28466,13 @@ msgstr "字体家族"
 
 #: ../src/widgets/text-toolbar.cpp:1217
 msgid "Select Font Family (Alt-X to access)"
-msgstr "选择字体族 (通过 Alt+X)"
+msgstr "选择字体族（通过 Alt+X）"
 
 #. Focus widget
 #. Enable entry completion
 #: ../src/widgets/text-toolbar.cpp:1227
 msgid "Select all text with this font-family"
-msgstr "选择所有带本 font-family 的文本"
+msgstr "选择所有带本 font-family（字族）的文本"
 
 #: ../src/widgets/text-toolbar.cpp:1231
 msgid "Font not found on system"
@@ -28556,12 +28556,12 @@ msgstr "行高"
 #. label
 #: ../src/widgets/text-toolbar.cpp:1441
 msgid "Line:"
-msgstr "行:"
+msgstr "行："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1442
 msgid "Spacing between lines (times font size)"
-msgstr "行间距(字体大小的倍数)"
+msgstr "行间距（字体大小的倍数）"
 
 #. Drop down menu
 #: ../src/widgets/text-toolbar.cpp:1466 ../src/widgets/text-toolbar.cpp:1497
@@ -28575,47 +28575,47 @@ msgstr "正间距"
 #. name
 #: ../src/widgets/text-toolbar.cpp:1471
 msgid "Word spacing"
-msgstr "字间距"
+msgstr "词间距"
 
 #. label
 #: ../src/widgets/text-toolbar.cpp:1472
 msgid "Word:"
-msgstr "单词："
+msgstr "词："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1473
 msgid "Spacing between words (px)"
-msgstr "单词之间的间距 (px)"
+msgstr "单词之间的间距（px）"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1502
 msgid "Letter spacing"
-msgstr "字母间距"
+msgstr "字间距"
 
 #. label
 #: ../src/widgets/text-toolbar.cpp:1503
 msgid "Letter:"
-msgstr "字母："
+msgstr "字："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1504
 msgid "Spacing between letters (px)"
-msgstr "字母间距 (px)"
+msgstr "字母间距（px）"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1533
 msgid "Kerning"
-msgstr "字距"
+msgstr "字距调整"
 
 #. label
 #: ../src/widgets/text-toolbar.cpp:1534
 msgid "Kern:"
-msgstr "间距："
+msgstr "距："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1535
 msgid "Horizontal kerning (px)"
-msgstr "水平字距 (px)"
+msgstr "水平字距调整（px）"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1564
@@ -28625,12 +28625,12 @@ msgstr "垂直偏移"
 #. label
 #: ../src/widgets/text-toolbar.cpp:1565
 msgid "Vert:"
-msgstr "垂直:"
+msgstr "垂："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1566
 msgid "Vertical shift (px)"
-msgstr "垂直偏移 (px)"
+msgstr "垂直偏移（px）"
 
 #. name
 #: ../src/widgets/text-toolbar.cpp:1595
@@ -28640,7 +28640,7 @@ msgstr "字母旋转"
 #. label
 #: ../src/widgets/text-toolbar.cpp:1596
 msgid "Rot:"
-msgstr "旋转:"
+msgstr "旋："
 
 #. short label
 #: ../src/widgets/text-toolbar.cpp:1597
@@ -28822,32 +28822,32 @@ msgstr "吸附辅助线"
 #. Width
 #: ../src/widgets/tweak-toolbar.cpp:125
 msgid "(pinch tweak)"
-msgstr "(挤压扭曲)"
+msgstr "（挤压扭曲）"
 
 #: ../src/widgets/tweak-toolbar.cpp:125
 msgid "(broad tweak)"
-msgstr "(广泛扭曲)"
+msgstr "（广泛扭曲）"
 
 #: ../src/widgets/tweak-toolbar.cpp:128
 msgid "The width of the tweak area (relative to the visible canvas area)"
-msgstr "扭曲区域宽度(相对于可见画布)"
+msgstr "扭曲区域宽度（相对于可见画布）"
 
 #. Force
 #: ../src/widgets/tweak-toolbar.cpp:142
 msgid "(minimum force)"
-msgstr "(最小作用力)"
+msgstr "（最小作用力）"
 
 #: ../src/widgets/tweak-toolbar.cpp:142
 msgid "(maximum force)"
-msgstr "(最大作用力)"
+msgstr "（最大作用力）"
 
 #: ../src/widgets/tweak-toolbar.cpp:145
 msgid "Force"
-msgstr "力"
+msgstr "力度"
 
 #: ../src/widgets/tweak-toolbar.cpp:145
 msgid "Force:"
-msgstr "强制:"
+msgstr "力度："
 
 #: ../src/widgets/tweak-toolbar.cpp:145
 msgid "The force of the tweak action"
@@ -28867,7 +28867,7 @@ msgstr "移入/移出模式"
 
 #: ../src/widgets/tweak-toolbar.cpp:171
 msgid "Move objects towards cursor; with Shift from cursor"
-msgstr "将对象移向光标; Shift 背向光标"
+msgstr "将对象移向光标；按 Shift 则背向光标"
 
 #: ../src/widgets/tweak-toolbar.cpp:177
 msgid "Move jitter mode"
@@ -28883,7 +28883,7 @@ msgstr "缩放模式"
 
 #: ../src/widgets/tweak-toolbar.cpp:185
 msgid "Shrink objects, with Shift enlarge"
-msgstr "说放对象, 用 Shift 放大"
+msgstr "缩小对象，按 Shift 放大"
 
 #: ../src/widgets/tweak-toolbar.cpp:191
 msgid "Rotate mode"
@@ -28891,7 +28891,7 @@ msgstr "旋转模式"
 
 #: ../src/widgets/tweak-toolbar.cpp:192
 msgid "Rotate objects, with Shift counterclockwise"
-msgstr "旋转对象, 用Shift时为逆时针方向"
+msgstr "旋转对象，按 Shift 则为逆时针方向"
 
 #: ../src/widgets/tweak-toolbar.cpp:198
 msgid "Duplicate/delete mode"
@@ -28899,7 +28899,7 @@ msgstr "再制/删除模式"
 
 #: ../src/widgets/tweak-toolbar.cpp:199
 msgid "Duplicate objects, with Shift delete"
-msgstr "再制对象, Shift 删除"
+msgstr "再制对象，按 Shift 则删除"
 
 #: ../src/widgets/tweak-toolbar.cpp:205
 msgid "Push mode"
