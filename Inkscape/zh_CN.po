@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-28 00:06-0500\n"
+"PO-Revision-Date: 2015-11-28 00:17-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,6417,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,6491,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -27574,15 +27574,15 @@ msgstr "单击的像素与将要填充的临近像素的最大差异"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:175
 msgid "Grow/shrink by"
-msgstr "扩展/收缩"
+msgstr "扩张/收缩"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:175
 msgid "Grow/shrink by:"
-msgstr "扩展/收缩："
+msgstr "扩张/收缩："
 
 #: ../src/widgets/paintbucket-toolbar.cpp:176
 msgid "The amount to grow (positive) or shrink (negative) the created fill path"
-msgstr "创建的填充路径的扩展（正值）或收缩（负值）量"
+msgstr "创建的填充路径的扩张（正值）或收缩（负值）量"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:199
 msgid "Close gaps"
@@ -28911,11 +28911,11 @@ msgstr "沿任意方向推压路径"
 
 #: ../src/widgets/tweak-toolbar.cpp:212
 msgid "Shrink/grow mode"
-msgstr "压缩/膨胀模式"
+msgstr "扩张/收缩模式"
 
 #: ../src/widgets/tweak-toolbar.cpp:213
 msgid "Shrink (inset) parts of paths; with Shift grow (outset)"
-msgstr "收缩 (内偏移) 路径的一部分; 配合Shift膨胀(外偏移)"
+msgstr "收缩（内偏移）路径的一部分；按 Shift 则为扩张（外偏移）"
 
 #: ../src/widgets/tweak-toolbar.cpp:219
 msgid "Attract/repel mode"
@@ -28923,7 +28923,7 @@ msgstr "吸引/排斥模式"
 
 #: ../src/widgets/tweak-toolbar.cpp:220
 msgid "Attract parts of paths towards cursor; with Shift from cursor"
-msgstr "向光标的位置收缩路径; Shift 排斥"
+msgstr "向光标的位置收缩路径；按 Shift 则为排斥"
 
 #: ../src/widgets/tweak-toolbar.cpp:226
 msgid "Roughen mode"
@@ -28959,11 +28959,11 @@ msgstr "使对象更模糊; 用Shift时减轻模糊"
 
 #: ../src/widgets/tweak-toolbar.cpp:275
 msgid "Channels:"
-msgstr "通道:"
+msgstr "通道："
 
 #: ../src/widgets/tweak-toolbar.cpp:287
 msgid "In color mode, act on objects' hue"
-msgstr "彩色模式下, 作用于对象的色调"
+msgstr "彩色模式下，作用于对象的色相"
 
 #. TRANSLATORS:  "H" here stands for hue
 #: ../src/widgets/tweak-toolbar.cpp:291
@@ -28973,7 +28973,7 @@ msgstr "色"
 
 #: ../src/widgets/tweak-toolbar.cpp:303
 msgid "In color mode, act on objects' saturation"
-msgstr "彩色模式下, 作用于对象的饱和度"
+msgstr "彩色模式下，作用于对象的饱和度"
 
 #. TRANSLATORS: "S" here stands for Saturation
 #: ../src/widgets/tweak-toolbar.cpp:307
@@ -28983,7 +28983,7 @@ msgstr "饱"
 
 #: ../src/widgets/tweak-toolbar.cpp:319
 msgid "In color mode, act on objects' lightness"
-msgstr "彩色模式下, 作用于对象的亮度"
+msgstr "彩色模式下，作用于对象的亮度"
 
 #. TRANSLATORS: "L" here stands for Lightness
 #: ../src/widgets/tweak-toolbar.cpp:323
@@ -28993,7 +28993,7 @@ msgstr "亮"
 
 #: ../src/widgets/tweak-toolbar.cpp:335
 msgid "In color mode, act on objects' opacity"
-msgstr "彩色模式下, 作用于对象的不透明度"
+msgstr "彩色模式下，作用于对象的不透明度"
 
 #. TRANSLATORS: "O" here stands for Opacity
 #: ../src/widgets/tweak-toolbar.cpp:339
@@ -29004,11 +29004,11 @@ msgstr "透"
 #. Fidelity
 #: ../src/widgets/tweak-toolbar.cpp:350
 msgid "(rough, simplified)"
-msgstr "(粗糙, 路径简单)"
+msgstr "（粗略，路径简单）"
 
 #: ../src/widgets/tweak-toolbar.cpp:350
 msgid "(fine, but many nodes)"
-msgstr "(精细, 节点较多)"
+msgstr "（精细，节点较多）"
 
 #: ../src/widgets/tweak-toolbar.cpp:353
 msgid "Fidelity"
@@ -29016,11 +29016,11 @@ msgstr "保真度"
 
 #: ../src/widgets/tweak-toolbar.cpp:353
 msgid "Fidelity:"
-msgstr "保真度:"
+msgstr "保真度："
 
 #: ../src/widgets/tweak-toolbar.cpp:354
 msgid "Low fidelity simplifies paths; high fidelity preserves path features but may generate a lot of new nodes"
-msgstr "低保真度简化路径; 高保真度保持路径特征但可能产生许多新节点"
+msgstr "低保真度简化路径；高保真度保持路径特征但可能产生许多新节点"
 
 #: ../src/widgets/tweak-toolbar.cpp:373
 msgid "Use the pressure of the input device to alter the force of tweak action"
@@ -29032,7 +29032,7 @@ msgid ""
 "Try using the procedure Path->Object to Path."
 msgstr ""
 "选取的对象不是路径。\n"
-"试着使用“路径->对象转成路径”功能。"
+"试着使用“路径->对象转换成路径”功能。"
 
 #: ../share/extensions/dimension.py:109
 msgid "Please select an object."
@@ -29040,40 +29040,40 @@ msgstr "请选择一个对象。"
 
 #: ../share/extensions/dimension.py:134
 msgid "Unable to process this object.  Try changing it into a path first."
-msgstr "不能处理对象. 尝试将其转为路径先."
+msgstr "不能处理对象。尝试先将其转为路径。"
 
 #. report to the Inkscape console using errormsg
 #: ../share/extensions/draw_from_triangle.py:180
 msgid "Side Length 'a' (px): "
-msgstr "边长 'a'/px: "
+msgstr "边长 a（px）："
 
 #: ../share/extensions/draw_from_triangle.py:181
 msgid "Side Length 'b' (px): "
-msgstr "边长 'b'/px: "
+msgstr "边长 b（px）："
 
 #: ../share/extensions/draw_from_triangle.py:182
 msgid "Side Length 'c' (px): "
-msgstr "边长 'c'/px: "
+msgstr "边长 c（px）："
 
 #: ../share/extensions/draw_from_triangle.py:183
 msgid "Angle 'A' (radians): "
-msgstr "角度 'A'/弧度:"
+msgstr "角 A（rad）："
 
 #: ../share/extensions/draw_from_triangle.py:184
 msgid "Angle 'B' (radians): "
-msgstr "角度 'B'/弧度:"
+msgstr "角 B（rad）："
 
 #: ../share/extensions/draw_from_triangle.py:185
 msgid "Angle 'C' (radians): "
-msgstr "角度 'C'/弧度:"
+msgstr "角 C（rad）："
 
 #: ../share/extensions/draw_from_triangle.py:186
 msgid "Semiperimeter (px): "
-msgstr "半周长/px:"
+msgstr "半周长（px）："
 
 #: ../share/extensions/draw_from_triangle.py:187
 msgid "Area (px^2): "
-msgstr "面积 /px^2:"
+msgstr "面积（px^2）："
 
 #: ../share/extensions/dxf_input.py:528
 #, python-format
@@ -29082,30 +29082,30 @@ msgstr "遇到 %d 个类型为 POLYLINE（折线）的 ENTITIES（实体）并�
 
 #: ../share/extensions/dxf_outlines.py:49
 msgid "Failed to import the numpy or numpy.linalg modules. These modules are required by this extension. Please install them and try again."
-msgstr "不能导入numpy或者numpy.linalg模块. 该扩展需要这些模块. 请安装后重试. "
+msgstr "不能导入 numpy 或者 numpy.linalg 模块。该扩展需要这些模块，请安装后重试。"
 
 #: ../share/extensions/dxf_outlines.py:315
 msgid "Error: Field 'Layer match name' must be filled when using 'By name match' option"
-msgstr "错误: 字段 'Layer match name' （层匹配名称）在使用 'By name match' （按名称匹配）选项时必须填写"
+msgstr "错误：字段“Layer match name”（层匹配名称）在使用“By name match”（按名称匹配）选项时必须填写"
 
 #: ../share/extensions/dxf_outlines.py:356
 #, python-format
 msgid "Warning: Layer '%s' not found!"
-msgstr "警告: 找不到层 '%s'!"
+msgstr "警告：找不到图层“%s”！"
 
 #: ../share/extensions/embedimage.py:84
 msgid "No xlink:href or sodipodi:absref attributes found, or they do not point to an existing file! Unable to embed image."
-msgstr "没有找到 xlink:href 或 sodipodi:absref 属性, 或者他们指向的文件不存在! 不能嵌入图像."
+msgstr "没有找到 xlink:href 或 sodipodi:absref 属性，或者它们指向的文件不存在！不能嵌入图像。"
 
 #: ../share/extensions/embedimage.py:86
 #, python-format
 msgid "Sorry we could not locate %s"
-msgstr "抱歉, 不能定位 %s"
+msgstr "抱歉，不能定位 %s"
 
 #: ../share/extensions/embedimage.py:111
 #, python-format
 msgid "%s is not of type image/png, image/jpeg, image/bmp, image/gif, image/tiff, or image/x-icon"
-msgstr "%s is 不是以下类型 image/png, image/jpeg, image/bmp, image/gif, image/tiff, or image/x-icon"
+msgstr "%s 不是以下类型中的一个：image/png、image/jpeg、image/bmp、image/gif、image/tiff 或 image/x-icon"
 
 #: ../share/extensions/export_gimp_palette.py:16
 msgid "The export_gpl.py module requires PyXML.  Please download the latest version from http://pyxml.sourceforge.net/."
@@ -29114,11 +29114,11 @@ msgstr "export_gpl.py 模块需要 PyXML。请从 http://pyxml.sourceforge.net/ 
 #: ../share/extensions/extractimage.py:68
 #, python-format
 msgid "Image extracted to: %s"
-msgstr "图像提取到: %s"
+msgstr "图像已提取到：%s"
 
 #: ../share/extensions/extractimage.py:75
 msgid "Unable to find image data."
-msgstr "找不到图像数据."
+msgstr "找不到图像数据。"
 
 #: ../share/extensions/extrude.py:43
 msgid "Need at least 2 paths selected"
@@ -29142,7 +29142,7 @@ msgstr "请选择一个矩形"
 #: ../share/extensions/gcodetools.py:6232
 #: ../share/extensions/gcodetools.py:6427
 msgid "No paths are selected! Trying to work on all available paths."
-msgstr "未选择路径！尝试工作在所有可用的路径上。"
+msgstr "未选择路径！尝试在所有可用的路径上工作。"
 
 #: ../share/extensions/gcodetools.py:3324
 msgid "Nothing is selected. Please select something."
@@ -29150,7 +29150,7 @@ msgstr "没有选择。请选择某些内容。"
 
 #: ../share/extensions/gcodetools.py:3864
 msgid "Directory does not exist! Please specify existing directory at Preferences tab!"
-msgstr "目录不存在或者不是目录."
+msgstr "目录不存在或者不是目录。"
 
 #: ../share/extensions/gcodetools.py:3894
 #, python-format
@@ -29164,27 +29164,27 @@ msgstr ""
 #: ../share/extensions/gcodetools.py:4040
 #, python-format
 msgid "Orientation points for '%s' layer have not been found! Please add orientation points using Orientation tab!"
-msgstr "'%s' 层的定位点还未找到! 请使用“方向”标签页添加定向点!"
+msgstr "“%s”图层的定向点还未找到！请使用“方向”标签页添加定向点！"
 
 #: ../share/extensions/gcodetools.py:4047
 #, python-format
 msgid "There are more than one orientation point groups in '%s' layer"
-msgstr "在 '%s' 层中有超过 1 个的定向点组"
+msgstr "在“%s”层中有超过 1 个的定向点组"
 
 #: ../share/extensions/gcodetools.py:4078
 #: ../share/extensions/gcodetools.py:4080
 msgid "Orientation points are wrong! (if there are two orientation points they should not be the same. If there are three orientation points they should not be in a straight line.)"
-msgstr "定向点错误! (如果有 2 个定向点，那么它们应该是不相同的。如果有 3 个定向点的话，那么它们应该不在同一直线上。)"
+msgstr "定向点错误！（如果有 2 个定向点，那么它们不应相同。如果有 3 个定向点的话，那么它们不应在同一直线上。)"
 
 #: ../share/extensions/gcodetools.py:4250
 #, python-format
 msgid "Warning! Found bad orientation points in '%s' layer. Resulting Gcode could be corrupt!"
-msgstr "警告! 在 '%s' 层上发现错误的定向点。得到的 Gcode 可能损坏!"
+msgstr "警告！在“%s”层上发现错误的定向点。得到的 Gcode 可能损坏！"
 
 #: ../share/extensions/gcodetools.py:4263
 #, python-format
 msgid "Warning! Found bad graffiti reference point in '%s' layer. Resulting Gcode could be corrupt!"
-msgstr "警告!在 '%s' 层中发现错误的涂鸦参考点。得到的 Gcode 可能损坏!"
+msgstr "警告！在“%s”层中发现错误的涂鸦参考点。得到的 Gcode 可能损坏！"
 
 #. xgettext:no-pango-format
 #: ../share/extensions/gcodetools.py:4284
@@ -29197,55 +29197,55 @@ msgstr ""
 "此扩展功能只对路径、动态偏移以及前两者的群组有作用！其他对象都会被忽略！\n"
 "方案 1：按“路径->对象转成路径”或 Shift+Ctrl+C。\n"
 "方案 2：“路径->动态偏移”或 Ctrl+J。\n"
-"方案 3：将全部轮廓线导出成 PostScript 等级 2 (文件->另存新档->.ps) 然后从“文件->导入”导入此文件。"
+"方案 3：将全部轮廓线导出成 PostScript 等级 2 (文件->另存为->.ps) 然后从“文件->导入”导入此文件。"
 
 #: ../share/extensions/gcodetools.py:4290
 msgid "Document has no layers! Add at least one layer using layers panel (Ctrl+Shift+L)"
-msgstr "文档没有层！使用层面板至少添加一个层 (Ctrl+Shift+L)"
+msgstr "文档没有图层！使用图层面板至少添加一层（Ctrl+Shift+L）"
 
 #: ../share/extensions/gcodetools.py:4294
 msgid "Warning! There are some paths in the root of the document, but not in any layer! Using bottom-most layer for them."
-msgstr "警告!在文档的根有相同的路径，但是不在任何的层中！对它们使用最低层。"
+msgstr "警告！在文档的根有相同的路径，但是不在任何的层中！对它们使用最低层。"
 
 #: ../share/extensions/gcodetools.py:4371
 #, python-format
 msgid "Warning! Tool's and default tool's parameter's (%s) types are not the same ( type('%s') != type('%s') )."
-msgstr "警告! 工具的和默认工具的参数 (%s) 类型不相同( type('%s') != type('%s') )。"
+msgstr "警告！工具的和默认工具的参数（%s）类型不相同（type('%s') != type('%s')）。"
 
 #: ../share/extensions/gcodetools.py:4374
 #, python-format
 msgid "Warning! Tool has parameter that default tool has not ( '%s': '%s' )."
-msgstr "警告! 工具拥有默认工具没有的参数 ( '%s': '%s' )。"
+msgstr "警告！工具拥有默认工具没有的参数（'%s': '%s'）。"
 
 #: ../share/extensions/gcodetools.py:4388
 #, python-format
 msgid "Layer '%s' contains more than one tool!"
-msgstr "层 '%s' 包含超过一个工具!"
+msgstr "层“%s”包含超过一个工具！"
 
 #: ../share/extensions/gcodetools.py:4391
 #, python-format
 msgid "Can not find tool for '%s' layer! Please add one with Tools library tab!"
-msgstr "找不到用于 '%s' 层的工具! 请使用“工具库”标签页添加!"
+msgstr "找不到用于“%s”层的工具！请使用“工具库”标签页添加！"
 
 #: ../share/extensions/gcodetools.py:4553
 #: ../share/extensions/gcodetools.py:4708
 msgid "Warning: One or more paths do not have 'd' parameter, try to Ungroup (Ctrl+Shift+G) and Object to Path (Ctrl+Shift+C)!"
-msgstr "警告: 一个或多个路径没有 'd' 参数，尝试“取消组合 (Ctrl+Shift+G)”以及“对象转为路径 (Ctrl+Shift+C)”!"
+msgstr "警告：一个或多个路径没有“d”参数，尝试“取消组合（Ctrl+Shift+G）”以及“对象转为路径（Ctrl+Shift+C）”!"
 
 #: ../share/extensions/gcodetools.py:4667
 msgid "Nothing is selected. Please select something to convert to drill point (dxfpoint) or clear point sign."
-msgstr "未选择内容。请选择一些内容用于转换为钻尖点(dxfpoint)或者清理点标志。"
+msgstr "未选择内容。请选择一些内容用于转换为钻尖点（dxfpoint）或者清理点标志。"
 
 #: ../share/extensions/gcodetools.py:4750
 #: ../share/extensions/gcodetools.py:4996
 msgid "This extension requires at least one selected path."
-msgstr "本扩展需要至少一个选择的路径。"
+msgstr "本扩展需要至少一个已选的路径。"
 
 #: ../share/extensions/gcodetools.py:4756
 #: ../share/extensions/gcodetools.py:5002
 #, python-format
 msgid "Tool diameter must be > 0 but tool's diameter on '%s' layer is not!"
-msgstr "工具直径必须 > 0 但是在 '%s' 层上的工具直径不是!"
+msgstr "工具直径必须 > 0 但是在“%s”层上的工具直径不是！"
 
 #: ../share/extensions/gcodetools.py:4767
 #: ../share/extensions/gcodetools.py:4956
