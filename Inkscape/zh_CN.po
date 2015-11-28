@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-27 18:02-0500\n"
+"PO-Revision-Date: 2015-11-27 19:32-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Poedit-Bookmarks: 240,5999,738,-1,-1,-1,-1,-1,-1,-1\n"
+"X-Poedit-Bookmarks: 240,6180,738,-1,-1,-1,-1,-1,-1,-1\n"
 "X-Generator: Poedit 1.8.6\n"
 
 #: ../inkscape.desktop.in.h:1
@@ -27214,7 +27214,7 @@ msgstr "显示边和张量手柄"
 
 #: ../src/widgets/mesh-toolbar.cpp:506
 msgid "WARNING: Mesh SVG Syntax Subject to Change"
-msgstr "警告：网格 SVG 语法主题要更改"
+msgstr "警告：网格 SVG 语法受更改"
 
 #: ../src/widgets/mesh-toolbar.cpp:516
 msgctxt "Type"
@@ -27231,11 +27231,11 @@ msgstr ""
 
 #: ../src/widgets/mesh-toolbar.cpp:522
 msgid "Coons: no smoothing. Bicubic: smoothing across patch boundaries."
-msgstr "Coons：无平滑。 Bicubic：跨路径界限的平滑。"
+msgstr "Coons：无平滑。Bicubic：跨路径界限的平滑。"
 
 #: ../src/widgets/mesh-toolbar.cpp:524 ../src/widgets/pencil-toolbar.cpp:377
 msgid "Smoothing:"
-msgstr "光滑:"
+msgstr "平滑："
 
 #: ../src/widgets/mesh-toolbar.cpp:534
 #, fuzzy
@@ -27367,7 +27367,7 @@ msgstr "用线段连接"
 
 #: ../src/widgets/node-toolbar.cpp:431
 msgid "Join selected endnodes with a new segment"
-msgstr "添加已选终结点带新线段"
+msgstr "使用新线段联结已选终结点"
 
 #: ../src/widgets/node-toolbar.cpp:440
 msgid "Delete segment"
@@ -27375,7 +27375,7 @@ msgstr "删除线段"
 
 #: ../src/widgets/node-toolbar.cpp:441
 msgid "Delete segment between two non-endpoint nodes"
-msgstr "移除两个不是端点的节点之间的线段"
+msgstr "移除两个非端点的节点之间的线段"
 
 #: ../src/widgets/node-toolbar.cpp:450
 msgid "Node Cusp"
@@ -27383,11 +27383,11 @@ msgstr "节点尖锐"
 
 #: ../src/widgets/node-toolbar.cpp:451
 msgid "Make selected nodes corner"
-msgstr "生成已选节点角"
+msgstr "使已选节点成为角"
 
 #: ../src/widgets/node-toolbar.cpp:460
 msgid "Node Smooth"
-msgstr "节点光滑"
+msgstr "节点平滑"
 
 #: ../src/widgets/node-toolbar.cpp:461
 msgid "Make selected nodes smooth"
@@ -27411,7 +27411,7 @@ msgstr "使已选节点自动平滑"
 
 #: ../src/widgets/node-toolbar.cpp:490
 msgid "Node Line"
-msgstr "节点 直线"
+msgstr "节点直线"
 
 #: ../src/widgets/node-toolbar.cpp:491
 msgid "Make selected segments lines"
@@ -27419,11 +27419,11 @@ msgstr "使已选线段变成直线"
 
 #: ../src/widgets/node-toolbar.cpp:500
 msgid "Node Curve"
-msgstr "节点 曲线"
+msgstr "节点曲线"
 
 #: ../src/widgets/node-toolbar.cpp:501
 msgid "Make selected segments curves"
-msgstr "使用选中线段制作曲线"
+msgstr "使已选线段变成曲线"
 
 #: ../src/widgets/node-toolbar.cpp:510
 msgid "Show Transform Handles"
@@ -27443,7 +27443,7 @@ msgstr "显示轮廓"
 
 #: ../src/widgets/node-toolbar.cpp:533
 msgid "Show path outline (without path effects)"
-msgstr "显示路径的轮廓 （不显示路径效果）"
+msgstr "显示路径的轮廓（不带路径效果）"
 
 #: ../src/widgets/node-toolbar.cpp:555
 msgid "Edit clipping paths"
@@ -27479,7 +27479,7 @@ msgstr "所选节点的 Y 坐标"
 
 #: ../src/widgets/paint-selector.cpp:219
 msgid "No paint"
-msgstr "没有绘制"
+msgstr "无绘制"
 
 #: ../src/widgets/paint-selector.cpp:221
 msgid "Flat color"
@@ -27499,17 +27499,17 @@ msgstr "网格渐变"
 
 #: ../src/widgets/paint-selector.cpp:235
 msgid "Unset paint (make it undefined so it can be inherited)"
-msgstr "取消绘图设置(变成未定义状态以便继承)"
+msgstr "取消绘图设置（变成未定义状态以便继承）"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:252
 msgid "Any path self-intersections or subpaths create holes in the fill (fill-rule: evenodd)"
-msgstr "任何自相交的路径或子路径将在填充里面创建孔洞（填充规则：奇偶）"
+msgstr "任何自相交的路径或子路径将在填充里面创建孔洞（奇偶，fill-rule: evenodd）"
 
 #. TRANSLATORS: for info, see http://www.w3.org/TR/2000/CR-SVG-20000802/painting.html#FillRuleProperty
 #: ../src/widgets/paint-selector.cpp:263
 msgid "Fill is solid unless a subpath is counterdirectional (fill-rule: nonzero)"
-msgstr "全部填充除了子路径是反方向(填充规则:非零)"
+msgstr "全部填充除非子路径反向（非零，fill-rule: nonzero）"
 
 #: ../src/widgets/paint-selector.cpp:605
 msgid "<b>No objects</b>"
@@ -27546,7 +27546,7 @@ msgstr "<b>网格渐变</b>"
 
 #: ../src/widgets/paint-selector.cpp:1098
 msgid "Use the <b>Node tool</b> to adjust position, scale, and rotation of the pattern on canvas. Use <b>Object &gt; Pattern &gt; Objects to Pattern</b> to create a new pattern from selection."
-msgstr "使用<b>节点工具</b>调整位置, 大小, 和图案在画布上的方向.使用<b>对象 &gt; 图案 &gt; 对象到图案</b>从选择对象创建一个新的图案."
+msgstr "使用<b>节点工具</b>调整位置、大小、和图案在画布上的方向。使用<b>对象→图案→对象转化成图案/b>从选择对象创建一个新的图案."
 
 #: ../src/widgets/paint-selector.cpp:1111
 msgid "<b>Pattern fill</b>"
@@ -27562,7 +27562,7 @@ msgstr "填充使用"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:135
 msgid "Fill by:"
-msgstr "填充"
+msgstr "填充使用："
 
 #: ../src/widgets/paintbucket-toolbar.cpp:147
 msgid "Fill Threshold"
@@ -27578,19 +27578,19 @@ msgstr "扩展/收缩"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:175
 msgid "Grow/shrink by:"
-msgstr "扩展/收缩:"
+msgstr "扩展/收缩："
 
 #: ../src/widgets/paintbucket-toolbar.cpp:176
 msgid "The amount to grow (positive) or shrink (negative) the created fill path"
-msgstr "创建的填充路径的扩展(正值)或收缩(负值)量"
+msgstr "创建的填充路径的扩展（正值）或收缩（负值）量"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:199
 msgid "Close gaps"
-msgstr "关闭缺口"
+msgstr "闭合缺口"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:200
 msgid "Close gaps:"
-msgstr "关闭缺口:"
+msgstr "闭合缺口："
 
 #: ../src/widgets/paintbucket-toolbar.cpp:211
 #: ../src/widgets/pencil-toolbar.cpp:398 ../src/widgets/spiral-toolbar.cpp:285
@@ -27600,7 +27600,7 @@ msgstr "默认"
 
 #: ../src/widgets/paintbucket-toolbar.cpp:212
 msgid "Reset paint bucket parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置油漆桶参数为默认值（使用“Inkscape 首选项 > 工具”来改变默认值）"
+msgstr "重置油漆桶参数为默认值（使用“Inkscape 首选项→工具”来改变默认值）"
 
 #: ../src/widgets/pencil-toolbar.cpp:108
 msgid "Bezier"
@@ -27612,11 +27612,11 @@ msgstr "创建规则贝塞尔路径"
 
 #: ../src/widgets/pencil-toolbar.cpp:116
 msgid "Create Spiro path"
-msgstr "创建 Spiro 路径"
+msgstr "创建螺线路径"
 
 #: ../src/widgets/pencil-toolbar.cpp:122
 msgid "Create BSpline path"
-msgstr "创建 BSpline 路径"
+msgstr "创建 B 样条路径"
 
 #: ../src/widgets/pencil-toolbar.cpp:128
 msgid "Zigzag"
@@ -27645,11 +27645,11 @@ msgstr "不透明"
 
 #: ../src/widgets/pencil-toolbar.cpp:179
 msgid "Triangle in"
-msgstr "三角(入)"
+msgstr "三角入"
 
 #: ../src/widgets/pencil-toolbar.cpp:180
 msgid "Triangle out"
-msgstr "三角(出)"
+msgstr "三角出"
 
 #: ../src/widgets/pencil-toolbar.cpp:182
 msgid "From clipboard"
@@ -27657,7 +27657,7 @@ msgstr "从剪贴板"
 
 #: ../src/widgets/pencil-toolbar.cpp:183
 msgid "Bend from clipboard"
-msgstr "从剪贴板"
+msgstr "从剪贴板弯折"
 
 #: ../src/widgets/pencil-toolbar.cpp:184
 msgid "Last applied"
@@ -27665,7 +27665,7 @@ msgstr "最近应用"
 
 #: ../src/widgets/pencil-toolbar.cpp:209 ../src/widgets/pencil-toolbar.cpp:210
 msgid "Shape:"
-msgstr "形状:"
+msgstr "形状："
 
 #: ../src/widgets/pencil-toolbar.cpp:209
 msgid "Shape of new paths drawn by this tool"
@@ -27673,23 +27673,23 @@ msgstr "该工具绘制的新路径的形状"
 
 #: ../src/widgets/pencil-toolbar.cpp:374
 msgid "(many nodes, rough)"
-msgstr "(很多节点, 粗糙)"
+msgstr "（很多节点，粗糙）"
 
 #: ../src/widgets/pencil-toolbar.cpp:374
 msgid "(few nodes, smooth)"
-msgstr "(很少节点,光滑)"
+msgstr "（很少节点，光滑）"
 
 #: ../src/widgets/pencil-toolbar.cpp:377
 msgid "Smoothing: "
-msgstr "光滑:"
+msgstr "平滑："
 
 #: ../src/widgets/pencil-toolbar.cpp:378
 msgid "How much smoothing (simplifying) is applied to the line"
-msgstr "线的光滑(简化)程度"
+msgstr "线的平滑（简化）程度"
 
 #: ../src/widgets/pencil-toolbar.cpp:399
 msgid "Reset pencil parameters to defaults (use Inkscape Preferences > Tools to change defaults)"
-msgstr "重置铅笔的参数为默认值（使用“Inkscape 首选项 > 工具”来改变默认值)"
+msgstr "重置铅笔的参数为默认值（使用“Inkscape 首选项→工具”来改变默认值）"
 
 #: ../src/widgets/pencil-toolbar.cpp:409 ../src/widgets/pencil-toolbar.cpp:410
 msgid "LPE based interactive simplify"
@@ -27706,7 +27706,7 @@ msgstr "更改矩形"
 
 #: ../src/widgets/rect-toolbar.cpp:317
 msgid "W:"
-msgstr "宽:"
+msgstr "宽："
 
 #: ../src/widgets/rect-toolbar.cpp:317
 msgid "Width of rectangle"
@@ -27714,7 +27714,7 @@ msgstr "矩形宽度"
 
 #: ../src/widgets/rect-toolbar.cpp:334
 msgid "H:"
-msgstr "高:"
+msgstr "高："
 
 #: ../src/widgets/rect-toolbar.cpp:334
 msgid "Height of rectangle"
@@ -27722,7 +27722,7 @@ msgstr "矩形高度"
 
 #: ../src/widgets/rect-toolbar.cpp:348 ../src/widgets/rect-toolbar.cpp:363
 msgid "not rounded"
-msgstr "没有圆整"
+msgstr "不进行舍入"
 
 #: ../src/widgets/rect-toolbar.cpp:351
 msgid "Horizontal radius"
@@ -27750,7 +27750,7 @@ msgstr "垂直方向圆角半径"
 
 #: ../src/widgets/rect-toolbar.cpp:385
 msgid "Not rounded"
-msgstr "没有圆整"
+msgstr "不进行舍入"
 
 #: ../src/widgets/rect-toolbar.cpp:386
 msgid "Make corners sharp"
@@ -27766,7 +27766,7 @@ msgstr "标尺的单位"
 
 #: ../src/widgets/ruler.cpp:210
 msgid "Lower"
-msgstr "降低"
+msgstr "下"
 
 #: ../src/widgets/ruler.cpp:211
 msgid "Lower limit of ruler"
@@ -27782,7 +27782,7 @@ msgstr "标尺的上限"
 
 #: ../src/widgets/ruler.cpp:231
 msgid "Position of mark on the ruler"
-msgstr "标尺上标记的位置"
+msgstr "标尺上的标记位置"
 
 #: ../src/widgets/ruler.cpp:240
 msgid "Max Size"
@@ -27798,35 +27798,35 @@ msgstr "按照工具栏变换"
 
 #: ../src/widgets/select-toolbar.cpp:341
 msgid "Now <b>stroke width</b> is <b>scaled</b> when objects are scaled."
-msgstr "对象缩放<b>笔廓宽度</b>也会跟着<b>缩放</b>."
+msgstr "对象缩放<b>笔廓宽度</b>也会跟着<b>缩放</b>。"
 
 #: ../src/widgets/select-toolbar.cpp:343
 msgid "Now <b>stroke width</b> is <b>not scaled</b> when objects are scaled."
-msgstr "对象缩放<b>笔廓宽度</b>也会跟着<b>不会缩放</b>."
+msgstr "对象缩放<b>笔廓宽度不会</b>跟着</b>缩放</b>。"
 
 #: ../src/widgets/select-toolbar.cpp:354
 msgid "Now <b>rounded rectangle corners</b> are <b>scaled</b> when rectangles are scaled."
-msgstr "矩形缩放<b>圆角矩形的圆角</b>也会跟着<b>缩放</b>."
+msgstr "矩形缩放<b>圆角矩形的圆角</b也会>跟着<b>缩放</b>。"
 
 #: ../src/widgets/select-toolbar.cpp:356
 msgid "Now <b>rounded rectangle corners</b> are <b>not scaled</b> when rectangles are scaled."
-msgstr "矩形缩放<b>圆角矩形的圆角</b>也会跟着<b>不会缩放</b>."
+msgstr "矩形缩放<b>圆角矩形的圆角不会</b>跟着<b>缩放</b>。"
 
 #: ../src/widgets/select-toolbar.cpp:367
 msgid "Now <b>gradients</b> are <b>transformed</b> along with their objects when those are transformed (moved, scaled, rotated, or skewed)."
-msgstr "<b>渐变</b>随着对象(移动, 缩放, 旋转或错切)<b>变换</b>."
+msgstr "<b>渐变</b>随着对象<b>变换</b>（移动、缩放、旋转或错切）。"
 
 #: ../src/widgets/select-toolbar.cpp:369
 msgid "Now <b>gradients</b> remain <b>fixed</b> when objects are transformed (moved, scaled, rotated, or skewed)."
-msgstr "<b>渐变</b>不会随着对象(移动, 缩放, 旋转或错切)<b>变换</b>."
+msgstr "<b>渐变不</b>随对象<b>变换</b>（移动、缩放、旋转或错切）。"
 
 #: ../src/widgets/select-toolbar.cpp:380
 msgid "Now <b>patterns</b> are <b>transformed</b> along with their objects when those are transformed (moved, scaled, rotated, or skewed)."
-msgstr "<b>图案</b>随着对象(移动, 缩放, 旋转或错切)<b>变换</b>."
+msgstr "<b>图案</b>随着对象<b>变换</b>（移动、缩放、旋转或错切）。"
 
 #: ../src/widgets/select-toolbar.cpp:382
 msgid "Now <b>patterns</b> remain <b>fixed</b> when objects are transformed (moved, scaled, rotated, or skewed)."
-msgstr "<b>图案</b>不会随着对象(移动, 缩放, 旋转或错切)<b>变换</b>."
+msgstr "<b>图案不</b>随对象<b>变换</b>（移动、缩放、旋转或错切）。"
 
 #. four spinbuttons
 #: ../src/widgets/select-toolbar.cpp:500
@@ -27865,7 +27865,7 @@ msgstr "宽度"
 #: ../src/widgets/select-toolbar.cpp:512
 msgctxt "Select toolbar"
 msgid "W:"
-msgstr "宽:"
+msgstr "宽："
 
 #: ../src/widgets/select-toolbar.cpp:514
 msgid "Width of selection"
@@ -27887,7 +27887,7 @@ msgstr "高度"
 #: ../src/widgets/select-toolbar.cpp:531
 msgctxt "Select toolbar"
 msgid "H:"
-msgstr "高:"
+msgstr "高："
 
 #: ../src/widgets/select-toolbar.cpp:533
 msgid "Height of selection"
