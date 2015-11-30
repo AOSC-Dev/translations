@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.91\n"
 "Report-Msgid-Bugs-To: inkscape-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2015-11-01 13:46+0100\n"
-"PO-Revision-Date: 2015-11-28 00:17-0500\n"
+"PO-Revision-Date: 2015-11-28 00:18-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: AOSC zh_CN <aosc@member.fsf.org>\n"
 "Language: zh_CN\n"
@@ -35561,7 +35561,7 @@ msgstr "隐藏球体背后的线"
 
 #: ../share/extensions/wmf_input.inx.h:1 ../share/extensions/wmf_output.inx.h:1
 msgid "Windows Metafile Input"
-msgstr "Windows 元文件输入"
+msgstr "Windows 图元文件输入"
 
 #: ../share/extensions/wmf_input.inx.h:3 ../share/extensions/wmf_output.inx.h:3
 msgid "A popular graphics file format for clipart"

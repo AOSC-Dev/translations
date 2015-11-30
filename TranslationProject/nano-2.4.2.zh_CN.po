@@ -9,14 +9,15 @@ msgstr ""
 "Project-Id-Version: nano 2.3.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-07-05 03:46-0400\n"
-"PO-Revision-Date: 2011-03-08 03:15+0800\n"
-"Last-Translator: Aron Xu <happyaron.xu@gmail.com>\n"
+"PO-Revision-Date: 2015-11-30 01:52-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 1.8.6\n"
 
 #. TRANSLATORS: This is a prompt.
 #: src/browser.c:211
@@ -32,7 +33,7 @@ msgstr "已取消"
 #: src/browser.c:253 src/browser.c:300
 #, c-format
 msgid "Can't go outside of %s in restricted mode"
-msgstr "在限制模式中无法跳至%s 外部"
+msgstr "在限制模式中无法跳至 %s 外部"
 
 #: src/browser.c:264 src/browser.c:310 src/browser.c:331 src/files.c:950
 #: src/files.c:959 src/files.c:1781 src/files.c:1908 src/files.c:1962
@@ -40,7 +41,7 @@ msgstr "在限制模式中无法跳至%s 外部"
 #: src/rcfile.c:592 src/rcfile.c:1431
 #, c-format
 msgid "Error reading %s: %s"
-msgstr "读取%s 出错：%s"
+msgstr "读取 %s 出错：%s"
 
 #: src/browser.c:290
 msgid "Can't move up a directory"
@@ -89,22 +90,19 @@ msgid "Couldn't determine hostname for lock file: %s"
 msgstr ""
 
 #: src/files.c:165 src/files.c:175 src/files.c:212 src/files.c:222
-#, fuzzy, c-format
-#| msgid "Error writing backup file %s: %s"
+#, c-format
 msgid "Error writing lock file %s: %s"
-msgstr "写入备份文件%s 出错：%s"
+msgstr "写入锁文件 %s 出错：%s"
 
 #: src/files.c:237
-#, fuzzy, c-format
-#| msgid "Error writing backup file %s: %s"
+#, c-format
 msgid "Error deleting lock file %s: %s"
-msgstr "写入备份文件%s 出错：%s"
+msgstr "删除锁文件 %s 出错：%s"
 
 #: src/files.c:272
-#, fuzzy, c-format
-#| msgid "Error writing backup file %s: %s"
+#, c-format
 msgid "Error opening lock file %s: %s"
-msgstr "写入备份文件%s 出错：%s"
+msgstr "打开锁文件 %s 出错：%s"
 
 #: src/files.c:282
 #, c-format
@@ -118,10 +116,9 @@ msgid "File %s is being edited (by %s with %s, PID %d); continue?"
 msgstr ""
 
 #: src/files.c:306
-#, fuzzy, c-format
-#| msgid "Error writing backup file %s: File owner mismatch"
+#, c-format
 msgid "Error writing lock file: Directory '%s' doesn't exist"
-msgstr "写入备份文件%s 出错：文件所有者不匹配"
+msgstr "写入锁文件出错：目录 %s 不存在"
 
 #: src/files.c:336
 #, c-format
@@ -145,49 +142,49 @@ msgstr "新缓冲区"
 #, c-format
 msgid "Read %lu line (Converted from DOS and Mac format)"
 msgid_plural "Read %lu lines (Converted from DOS and Mac format)"
-msgstr[0] "已读取%lu 行(转换自DOS 与Mac 格式)"
+msgstr[0] "已读取 %lu 行 (转换自 DOS 与 Mac 格式)"
 
 #: src/files.c:863
 #, c-format
 msgid "Read %lu line (Converted from DOS and Mac format - Warning: No write permission)"
 msgid_plural "Read %lu lines (Converted from DOS and Mac format - Warning: No write permission)"
-msgstr[0] "已读取%lu 行(转换自DOS 与Mac 格式- 警告：无写入权限)"
+msgstr[0] "已读取 %lu 行 (转换自 DOS 与 Mac 格式 - 警告：无写入权限)"
 
 #: src/files.c:869
 #, c-format
 msgid "Read %lu line (Converted from Mac format)"
 msgid_plural "Read %lu lines (Converted from Mac format)"
-msgstr[0] "已读取%lu 行 (转换自Mac 格式)"
+msgstr[0] "已读取 %lu 行 (转换自 Mac 格式)"
 
 #: src/files.c:873
 #, c-format
 msgid "Read %lu line (Converted from Mac format - Warning: No write permission)"
 msgid_plural "Read %lu lines (Converted from Mac format - Warning: No write permission)"
-msgstr[0] "已读取%lu 行 (转换自Mac 格式- 警告：无写入权限)"
+msgstr[0] "已读取 %lu 行 (转换自 Mac 格式—警告：无写入权限)"
 
 #: src/files.c:879
 #, c-format
 msgid "Read %lu line (Converted from DOS format)"
 msgid_plural "Read %lu lines (Converted from DOS format)"
-msgstr[0] "已读取%lu 行 (转换自DOS 格式)"
+msgstr[0] "已读取 %lu 行 (转换自 DOS 格式)"
 
 #: src/files.c:883
 #, c-format
 msgid "Read %lu line (Converted from DOS format - Warning: No write permission)"
 msgid_plural "Read %lu lines (Converted from DOS format - Warning: No write permission)"
-msgstr[0] "已读取%lu 行 (转换自DOS 格式- 警告：无写入权限)"
+msgstr[0] "已读取 %lu 行 (转换自 DOS 格式—警告：无写入权限)"
 
 #: src/files.c:889
 #, c-format
 msgid "Read %lu line"
 msgid_plural "Read %lu lines"
-msgstr[0] "已读取%lu 行"
+msgstr[0] "已读取 %lu 行"
 
 #: src/files.c:892
 #, c-format
 msgid "Read %lu line ( Warning: No write permission)"
 msgid_plural "Read %lu lines (Warning: No write permission)"
-msgstr[0] "已读取%lu 行(警告：无写入权限)"
+msgstr[0] "已读取 %lu 行 (警告：无写入权限)"
 
 #: src/files.c:927 src/files.c:964
 msgid "Reading File"
@@ -200,7 +197,7 @@ msgstr "新文件"
 #: src/files.c:937
 #, c-format
 msgid "\"%s\" not found"
-msgstr "找不到\"%s\""
+msgstr "找不到 \"%s\""
 
 #: src/files.c:945 src/rcfile.c:585 src/rcfile.c:1381 src/rcfile.c:1422
 #, c-format
@@ -215,22 +212,22 @@ msgstr "\"%s\" 是一个设备文件"
 #: src/files.c:1040
 #, c-format
 msgid "Command to execute in new buffer [from %s] "
-msgstr "在新缓冲区中执行的命令 [从%s] "
+msgstr "在新缓冲区中执行的命令 [从 %s] "
 
 #: src/files.c:1042
 #, c-format
 msgid "Command to execute [from %s] "
-msgstr "执行的命令 [从%s] "
+msgstr "执行的命令 [从 %s] "
 
 #: src/files.c:1049
 #, c-format
 msgid "File to insert into new buffer [from %s] "
-msgstr "要插入新缓冲区的文件 [从%s] "
+msgstr "要插入新缓冲区的文件 [从 %s] "
 
 #: src/files.c:1051
 #, c-format
 msgid "File to insert [from %s] "
-msgstr "要插入的文件 [从%s] "
+msgstr "要插入的文件 [从 %s] "
 
 #: src/files.c:1300
 msgid "Key invalid in non-multibuffer mode"
@@ -243,17 +240,18 @@ msgstr "写入备份文件失败，继续保存吗？(如果不确定请输入N)
 #: src/files.c:1725
 #, c-format
 msgid "Can't write outside of %s"
-msgstr "无法写入%s 外部"
+msgstr "无法写入 %s 之外"
 
+# Whose tw-ish translation was that?
 #: src/files.c:1740
 msgid "Cannot prepend or append to a symlink with --nofollow set"
-msgstr "--nofollow 设定下，无法前引或附加至符号连结档"
+msgstr "--nofollow 设定下，无法前引或附加至符号链接文件"
 
 #: src/files.c:1822 src/files.c:1847 src/files.c:1865 src/files.c:1878
 #: src/files.c:1889 src/files.c:1918
 #, c-format
 msgid "Error writing backup file %s: %s"
-msgstr "写入备份文件%s 出错：%s"
+msgstr "写入备份文件 %s 出错：%s"
 
 #: src/files.c:1823 src/nano.c:713
 msgid "Too many backup files?"
@@ -265,19 +263,19 @@ msgstr "太多备份文件？"
 #: src/files.c:3119
 #, c-format
 msgid "Error writing %s: %s"
-msgstr "写入%s 出错：%s"
+msgstr "写入 %s 出错：%s"
 
 #: src/files.c:1972 src/text.c:2845 src/text.c:2857 src/text.c:3245
 #: src/text.c:3254
 #, c-format
 msgid "Error writing temp file: %s"
-msgstr "写入临时文件%s 出错"
+msgstr "写入临时文件 %s 出错"
 
 #: src/files.c:2152
 #, c-format
 msgid "Wrote %lu line"
 msgid_plural "Wrote %lu lines"
-msgstr[0] "已写入%lu 行"
+msgstr[0] "已写入 %lu 行"
 
 #: src/files.c:2254
 msgid " [DOS Format]"
@@ -370,7 +368,7 @@ msgid ""
 "Detected a legacy nano history file (%s) which I tried to move\n"
 "to the preferred location (%s) but encountered an error: %s"
 msgstr ""
-"检测到了旧版的Nano 历史文件(%s)并试图移动到默认位置(%s)。\n"
+"检测到了旧版的 Nano 历史文件 (%s) 并试图移动到默认位置 (%s)。\n"
 "此操作出现错误：%s"
 
 #: src/files.c:2990
@@ -380,8 +378,8 @@ msgid ""
 "to the preferred location (%s)\n"
 "(see the nano FAQ about this change)"
 msgstr ""
-"检测到了旧版的Nano 历史文件(%s)并已移动到默认位置(%s)。\n"
-"(关于这个变更请参阅Nano 常见问题解答)"
+"检测到了旧版的 Nano 历史文件 (%s) 并已移动到默认位置 (%s)。\n"
+"(关于这个变更请参阅 Nano 常见问题解答)"
 
 #. TRANSLATORS: Try to keep the next four strings at most 10 characters.
 #: src/global.c:475
@@ -393,21 +391,17 @@ msgid "Close"
 msgstr "关闭"
 
 #: src/global.c:477
-#, fuzzy
-#| msgid "UnCut Text"
 msgid "Uncut Text"
 msgstr "还原剪切"
 
 #: src/global.c:479
-#, fuzzy
-#| msgid "UnJustify"
 msgid "Unjustify"
 msgstr "还原对齐"
 
 #. TRANSLATORS: Try to keep this at most 12 characters.
 #: src/global.c:483
 msgid "WhereIs Next"
-msgstr "何处是下一个"
+msgstr "搜索下一个"
 
 #. TRANSLATORS: Try to keep the next ten strings at most 10 characters.
 #: src/global.c:490
@@ -438,6 +432,7 @@ msgstr "上页"
 msgid "Next Page"
 msgstr "下页"
 
+# 这我也没得改，TWish 能翻短…
 #: src/global.c:497
 msgid "Read File"
 msgstr "读档"
@@ -485,22 +480,16 @@ msgid "Search for a string or a regular expression"
 msgstr "查找字符串或正则表示式"
 
 #: src/global.c:526
-#, fuzzy
-#| msgid "Search for a string or a regular expression"
 msgid "Search for a string"
-msgstr "查找字符串或正则表示式"
+msgstr "查找字符串"
 
 #: src/global.c:528
-#, fuzzy
-#| msgid "Go to next screen"
 msgid "Go one screenful up"
-msgstr "跳至后一屏"
+msgstr "上滚一屏"
 
 #: src/global.c:529
-#, fuzzy
-#| msgid "Go to next screen"
 msgid "Go one screenful down"
-msgstr "跳至后一屏"
+msgstr "下滚一屏"
 
 #: src/global.c:531
 msgid "Cut the current line and store it in the cutbuffer"
@@ -530,7 +519,7 @@ msgstr "跳至指定行与列位置"
 #, fuzzy
 #| msgid "Mark text at the cursor position"
 msgid "Mark text starting from the cursor position"
-msgstr "标记游标所在文字"
+msgstr "标记光标所在文字"
 
 #: src/global.c:542
 #, fuzzy
@@ -612,11 +601,11 @@ msgstr "移动至对应括号"
 
 #: src/global.c:571
 msgid "Scroll up one line without scrolling the cursor"
-msgstr "向上卷动一行但不卷动游标"
+msgstr "向上滚动一行但不滚动光标"
 
 #: src/global.c:573
 msgid "Scroll down one line without scrolling the cursor"
-msgstr "向下卷动一行但不卷动游标"
+msgstr "向下滚动一行但不滚动光标"
 
 #: src/global.c:576
 msgid "Switch to the previous file buffer"
@@ -632,23 +621,23 @@ msgstr "插入下一按键原型"
 
 #: src/global.c:580
 msgid "Insert a tab at the cursor position"
-msgstr "插入制表符于游标位置"
+msgstr "插入制表符于光标位置"
 
 #: src/global.c:581
 msgid "Insert a newline at the cursor position"
-msgstr "插入新行于游标位置"
+msgstr "插入新行于光标位置"
 
 #: src/global.c:582
 msgid "Delete the character under the cursor"
-msgstr "删除游标之下的字符"
+msgstr "删除光标之下的字符"
 
 #: src/global.c:584
 msgid "Delete the character to the left of the cursor"
-msgstr "删除游标左侧的字符"
+msgstr "删除光标左侧的字符"
 
 #: src/global.c:587
 msgid "Cut from the cursor position to the end of the file"
-msgstr "从游标位置剪切至文件结尾"
+msgstr "从光标位置剪切至文件结尾"
 
 #: src/global.c:590
 msgid "Justify the entire file"
@@ -660,11 +649,11 @@ msgstr "计算字数、行数与字符数"
 
 #: src/global.c:597
 msgid "Refresh (redraw) the current screen"
-msgstr "重新显示当前画面"
+msgstr "刷新（重绘）当前画面"
 
 #: src/global.c:599
 msgid "Suspend the editor (if suspend is enabled)"
-msgstr "暂停编辑器(如果启用了暂停)"
+msgstr "暂停编辑器 (如果启用了暂停)"
 
 #: src/global.c:602
 msgid "Toggle the case sensitivity of the search"
@@ -688,15 +677,15 @@ msgstr "编辑下次搜索/替换字符串"
 
 #: src/global.c:617
 msgid "Go to file browser"
-msgstr "打开文件选单"
+msgstr "转到文件浏览器"
 
 #: src/global.c:620
 msgid "Toggle the use of DOS format"
-msgstr "切换使用DOS 格式"
+msgstr "切换使用 DOS 格式"
 
 #: src/global.c:621
 msgid "Toggle the use of Mac format"
-msgstr "切换使用Mac 格式"
+msgstr "切换使用 Mac 格式"
 
 #: src/global.c:622
 msgid "Toggle appending"
@@ -704,7 +693,7 @@ msgstr "切换追加"
 
 #: src/global.c:623
 msgid "Toggle prepending"
-msgstr "切换前置插入"
+msgstr "切换前引"
 
 #: src/global.c:624
 msgid "Toggle backing up of the original file"
@@ -827,7 +816,7 @@ msgstr "不替换"
 
 #: src/global.c:774
 msgid "Cur Pos"
-msgstr "游标位置"
+msgstr "光标位置"
 
 #: src/global.c:789
 msgid "First Line"
@@ -893,19 +882,19 @@ msgstr "尾端"
 
 #: src/global.c:848
 msgid "Beg of Par"
-msgstr "段落开头"
+msgstr "段首"
 
 #: src/global.c:850
 msgid "End of Par"
-msgstr "段落结尾"
+msgstr "段尾"
 
 #: src/global.c:855
 msgid "Scroll Up"
-msgstr "向上卷动"
+msgstr "上滚"
 
 #: src/global.c:857
 msgid "Scroll Down"
-msgstr "向下卷动"
+msgstr "下滚"
 
 #: src/global.c:862
 #, fuzzy
@@ -1019,7 +1008,7 @@ msgstr "辅助模式"
 
 #: src/global.c:1242
 msgid "Constant cursor position display"
-msgstr "持续显示游标位置"
+msgstr "持续显示光标位置"
 
 #: src/global.c:1244
 msgid "Use of one more line for editing"
@@ -1027,7 +1016,7 @@ msgstr "编辑时使用多一行"
 
 #: src/global.c:1246
 msgid "Smooth scrolling"
-msgstr "平滑式卷动画面"
+msgstr "平滑式滚动画面"
 
 #: src/global.c:1248
 #, fuzzy
@@ -1045,7 +1034,7 @@ msgstr "语法色彩高亮"
 
 #: src/global.c:1254
 msgid "Smart home key"
-msgstr "智能HOME 键"
+msgstr "智能 HOME 键"
 
 #: src/global.c:1256
 msgid "Auto indent"
@@ -1085,6 +1074,7 @@ msgstr "不从 DOS/Mac 格式转换"
 msgid "Suspension"
 msgstr "暂停"
 
+# 这些看得出是强行模仿 Western Typography 首行不缩进……
 #: src/help.c:209
 msgid ""
 "Search Command Help Text\n"
@@ -1095,7 +1085,7 @@ msgid ""
 msgstr ""
 "搜索命令辅助说明\n"
 "\n"
-" 首先输入您想要搜索的字符串或字符，然后按下回车键。如果存在着符合您所输入的文字，画面就会更新到最合乎搜索字符串的位置。\n"
+"首先输入您想要搜索的字符串或字符，然后按下回车键。如果存在着符合您所输入的文字，画面就会更新到最合乎搜索字符串的位置。\n"
 "\n"
 "最近一次搜索的字符串将会显示在搜索提示符后的括号中。不输入任何文字而直接按下回车键则会重复使用最近一次的搜索条件。"
 
@@ -1108,7 +1098,7 @@ msgid ""
 msgstr ""
 "如果您已经用标记选择了一段文字并进行搜索替换，就只有在选择文字中符合者将会被替换。\n"
 "\n"
-" 以下的功能键可用于搜索模式：\n"
+"以下的功能键可用于搜索模式：\n"
 "\n"
 
 #: src/help.c:224
@@ -1137,7 +1127,7 @@ msgid ""
 msgstr ""
 "插入文件辅助说明\n"
 "\n"
-" 先把文件的名称键入，它将会插入在当前缓冲区的游标所在之处。\n"
+" 先把文件的名称键入，它将会插入在当前缓冲区的光标所在之处。\n"
 "\n"
 " 如果您所编译的 nano 支持多重文件缓冲区，并且将此功能以命令列旗标-F 或--multibuffer、Meta-F 开关，或者 nanorc 文件来启动的话，所插入的文件 将会被载入另外的缓冲区中 (利用 Meta-< 和 > 在文件缓冲区间切换)。 "
 
@@ -1482,7 +1472,7 @@ msgstr "用于加亮的语法定义"
 
 #: src/nano.c:899
 msgid "Constantly show cursor position"
-msgstr "持续显示游标位置"
+msgstr "持续显示光标位置"
 
 #: src/nano.c:901
 msgid "Fix Backspace/Delete confusion problem"
@@ -1500,7 +1490,7 @@ msgstr "自动缩进新行"
 
 #: src/nano.c:905
 msgid "Cut from cursor to end of line"
-msgstr "从游标剪切至行尾"
+msgstr "从光标剪切至行尾"
 
 #: src/nano.c:907
 msgid "Don't follow symbolic links, overwrite"
