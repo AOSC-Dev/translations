@@ -12142,11 +12142,11 @@ msgstr "允许 gcc 生成 LIW 指令"
 
 #: config/nds32/nds32.opt:26
 msgid "Generate code in big-endian mode."
-msgstr "生成大端在前的代码。"
+msgstr "生成大端序模式的代码。"
 
 #: config/nds32/nds32.opt:30
 msgid "Generate code in little-endian mode."
-msgstr "生成小端在前的代码。"
+msgstr "生成小端序模式的代码。"
 
 #: config/nds32/nds32.opt:34
 #, fuzzy
@@ -13173,7 +13173,7 @@ msgstr "生成大端序模式的代码"
 
 #: config/arc/arc.opt:30
 msgid "Compile code for little endian mode.  This is the default"
-msgstr "生成笑端序模式的代码。此为默认"
+msgstr "生成小端序模式的代码。此为默认"
 
 #: config/arc/arc.opt:34
 msgid ""
@@ -57748,7 +57748,7 @@ msgstr "未知类型 %<%T%>找到在的期间 Objective-C 编码"
 #: objc/objc-encoding.c:813
 #, gcc-internal-format
 msgid "trying to encode non-integer type as a bitfield"
-msgstr "尝试将未整数类型编码为位段（bitfield）"
+msgstr "尝试将非整数类型编码为位段（bitfield）"
 
 #: objc/objc-gnu-runtime-abi-01.c:143
 #, gcc-internal-format
