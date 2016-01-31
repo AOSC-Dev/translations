@@ -2,22 +2,23 @@
 # Copyright (C) 2011 Robert L. Krawitz (rlk@alum.mit.edu) and Mike Sweet (mike@easysw.com)
 # This file is distributed under the same license as the gutenprint package.
 # Wylmer Wang <wantinghard@gmail.com>, 2011.
+# Luo Lei <luolei@ubuntukylin.com>, 2013.
 # Mingcong Bai <jeffbai@aosc.xyz>, 2015.
-# Mingye Wang <arthur200126@gmail.com>, 2015.
+# Mingye Wang <arthur200126@gmail.com>, 2015, 2016.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gutenprint 5.2.10-pre2\n"
 "Report-Msgid-Bugs-To: gimp-print-devel@lists.sourceforge.net\n"
 "POT-Creation-Date: 2014-01-22 08:53-0500\n"
-"PO-Revision-Date: 2015-10-29 23:42-0400\n"
+"PO-Revision-Date: 2016-01-29 17:44-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: src/main/dither-main.c:44 src/main/print-color.c:49
@@ -60,11 +61,11 @@ msgstr "自适应混合"
 
 #: src/main/dither-main.c:64
 msgid "Ordered"
-msgstr "有序"
+msgstr "顺序"
 
 #: src/main/dither-main.c:65
 msgid "Ordered New"
-msgstr "有序·改"
+msgstr "顺序·改"
 
 #: src/main/dither-main.c:66
 msgid "Fast"
@@ -80,15 +81,15 @@ msgstr "混合弗洛伊德—斯坦伯格算法"
 
 #: src/main/dither-main.c:69
 msgid "Predithered Input"
-msgstr "预抖动的输入"
+msgstr "预抖动拟色的输入"
 
 #: src/main/dither-main.c:70
 msgid "Drop Size Segmented"
-msgstr "液滴尺寸已分段"
+msgstr "分段液滴大小"
 
 #: src/main/dither-main.c:71
 msgid "Drop Size Segmented New"
-msgstr "液滴尺寸已分段·改"
+msgstr "分段液滴大小·改"
 
 #: src/main/dither-main.c:91 src/main/print-color.c:56
 msgid "Density"
@@ -96,7 +97,7 @@ msgstr "密度"
 
 #: src/main/dither-main.c:92
 msgid "Adjust the density (amount of ink) of the print. Reduce the density if the ink bleeds through the paper or smears; increase the density if black regions are not solid."
-msgstr "调整印刷密度（莫水量）。如墨水透出纸张或抹黑纸张则需降低印刷密度；如黑色块不均匀或过淡则需提高印刷密度。"
+msgstr "调整打印密度（莫水量）。如墨水透出纸张或抹出污迹则需降低打印密度；如黑色块不均匀或过淡则需提高打印密度。"
 
 #: src/main/dither-main.c:100
 msgid "Dither Algorithm"
@@ -111,7 +112,7 @@ msgid ""
 "Fast and Very Fast are considerably faster, and work well for text and line art.\n"
 "Hybrid Floyd-Steinberg generally produces inferior output."
 msgstr ""
-"使用要选择的抖动算法。\n"
+"使用要选择的抖动（拟色）算法。\n"
 "自适应混合法一般提供最佳的总体质量。\n"
 "EvenTone 是一个新式的实验算法，经常能提供极好的效果。\n"
 "有序运行快一点，提供的质量对照片来说基本相同。\n"
@@ -124,7 +125,7 @@ msgstr "杂项（未分类）"
 
 #: src/main/module.c:53
 msgid "Family driver"
-msgstr ""
+msgstr "系列（Family）通用驱动"
 
 #: src/main/module.c:54
 msgid "Color conversion module"
@@ -176,7 +177,7 @@ msgstr "CD 光盘毂尺寸"
 
 #: src/main/print-canon.c:304 src/main/print-escp2.c:193
 msgid "Print only outside of the hub of the CD, or all the way to the hole"
-msgstr "仅印刷 CD 光盘毂外的部分，或一直印刷到盘片中心孔处"
+msgstr "仅打印 CD 光盘毂外的部分，或一直打印到盘片中心孔处"
 
 #: src/main/print-canon.c:309 src/main/print-escp2.c:198
 msgid "CD Size (Custom)"
@@ -201,7 +202,7 @@ msgstr "CD 光盘水平微调"
 #: src/main/print-canon.c:322 src/main/print-canon.c:328
 #: src/main/print-escp2.c:211 src/main/print-escp2.c:217
 msgid "Fine adjustment to horizontal position for CD printing"
-msgstr "微调 CD 光盘印刷的水平位置"
+msgstr "微调 CD 光盘打印的水平位置"
 
 #: src/main/print-canon.c:327 src/main/print-escp2.c:216
 msgid "CD Vertical Fine Adjustment"
@@ -216,7 +217,7 @@ msgstr "分辨率"
 #: src/main/print-canon.c:334 src/main/print-lexmark.c:285
 #: src/main/print-olympus.c:3764
 msgid "Resolution and quality of the print"
-msgstr "印刷质量和分辨率"
+msgstr "打印质量和分辨率"
 
 #: src/main/print-canon.c:344 src/main/print-escp2.c:239
 #: src/main/print-lexmark.c:290 src/main/print-olympus.c:3769
@@ -404,7 +405,7 @@ msgstr "黑白"
 #: src/main/print-canon.c:3332 src/main/print-canon.c:3416
 #: src/gutenprintui2/panel.c:1717
 msgid "Both"
-msgstr "两者"
+msgstr "两者兼用"
 
 #: src/main/print-canon.c:3335 src/main/print-canon.c:3344
 #: src/main/print-canon.c:3420 src/main/print-color.c:314
@@ -633,7 +634,7 @@ msgstr "Raw 通道"
 
 #: src/main/print-color.c:216
 msgid "SimpleGamma"
-msgstr "SimpleGamma"
+msgstr "简单伽马"
 
 #: src/main/print-color.c:217
 msgid "Do not correct for screen gamma"
@@ -665,15 +666,15 @@ msgstr ""
 
 #: src/main/print-color.c:248
 msgid "Composite Gamma"
-msgstr "混合伽马值"
+msgstr "混成伽马"
 
 #: src/main/print-color.c:249
 msgid "Adjust the gamma of the print. Larger values will produce a generally brighter print, while smaller values will produce a generally darker print. "
-msgstr ""
+msgstr "调整打印文件的伽玛值。较大的伽玛值会得到偏亮的打印效果，而较小的伽玛值会得到偏暗的打印效果。"
 
 #: src/main/print-color.c:258
 msgid "AppGamma"
-msgstr "AppGamma"
+msgstr "应用伽马"
 
 #: src/main/print-color.c:259
 msgid "Gamma value assumed by application"
@@ -1028,18 +1029,16 @@ msgid "GCR Lower Bound"
 msgstr "GCR 下界"
 
 #: src/main/print-color.c:374 src/main/print-escp2.c:887
-#, fuzzy
 msgid "Lower bound of gray component reduction"
-msgstr "灰色成分减少的下界"
+msgstr "灰色分量减少的下界"
 
 #: src/main/print-color.c:381 src/main/print-escp2.c:894
 msgid "GCR Upper Bound"
 msgstr "GCR 上界"
 
 #: src/main/print-color.c:382 src/main/print-escp2.c:895
-#, fuzzy
 msgid "Upper bound of gray component reduction"
-msgstr "灰色成分减少的上界"
+msgstr "灰色分量减少的上界"
 
 #: src/main/print-color.c:421
 msgid "LUT dump file"
@@ -1051,7 +1050,7 @@ msgstr "高级输出控制"
 
 #: src/main/print-color.c:422
 msgid "Dump file for LUT for external color adjustment"
-msgstr "转储 LUT 文件以进行色彩调整"
+msgstr "转储 LUT 文件以进行外部色彩调整"
 
 #: src/main/print-color.c:456
 msgid "Curve for raw channel "
@@ -1150,9 +1149,8 @@ msgid "Gray Component Reduction"
 msgstr "灰色成分减少"
 
 #: src/main/print-color.c:555
-#, fuzzy
 msgid "Gray component reduction curve"
-msgstr "灰色成分减少曲线"
+msgstr "灰色分量减少曲线"
 
 #: src/main/print-color.c:1740
 msgid "Traditional Gutenprint color conversion"
@@ -1166,7 +1164,7 @@ msgstr "必须为 %s 设置一个值\n"
 #: src/main/printers.c:610 src/main/printers.c:615
 #, c-format
 msgid "`%s' is not a valid %s\n"
-msgstr "`%s' 不是有效的 %s\n"
+msgstr "“%s”不是有效的 %s\n"
 
 #: src/main/printers.c:634
 #, c-format
@@ -1183,23 +1181,25 @@ msgstr "%s 数值必须介于 %d 及 %d 之间 (当前值为 %d)\n"
 msgid "%s bounds must be between %f and %f\n"
 msgstr ""
 
+# A wrapped curve has the same value at x=0 and x=1. The wrap mode of a curve cannot be changed except by routines that destroy the old curve entirely (e. g. stp_curve_copy, stp_curve_read).
+# 也就是自成环。
 #: src/main/printers.c:719
 #, c-format
 msgid "%s wrap mode must be %s\n"
-msgstr ""
+msgstr "%s 成环模式必须为%s\n"
 
 #: src/main/printers.c:723
 msgid "no wrap"
-msgstr ""
+msgstr "不成环"
 
 #: src/main/printers.c:723
 msgid "wrap around"
-msgstr ""
+msgstr "成环"
 
 #: src/main/printers.c:767
 #, c-format
 msgid "Unknown type parameter %s (%d)\n"
-msgstr ""
+msgstr "未知类型的参数 %s（%d）\n"
 
 #: src/main/printers.c:780 src/main/printers.c:791
 #, c-format
@@ -1213,12 +1213,12 @@ msgstr "页面尺寸无效\n"
 #: src/main/printers.c:872
 #, c-format
 msgid "Top margin must not be less than %d\n"
-msgstr ""
+msgstr "顶边距不得小于 %d\n"
 
 #: src/main/printers.c:878
 #, c-format
 msgid "Left margin must not be less than %d\n"
-msgstr ""
+msgstr "左边距不得小于 %d\n"
 
 #: src/main/printers.c:884
 msgid "Height must be greater than zero\n"
@@ -1231,12 +1231,12 @@ msgstr "宽度必须大于零\n"
 #: src/main/printers.c:896
 #, c-format
 msgid "Image is too wide for the page: left margin is %d, width %d, right edge is %d\n"
-msgstr ""
+msgstr "图像对页面太宽：左边距为 %d，宽度为 %d，右边距为 %d\n"
 
 #: src/main/printers.c:903
 #, c-format
 msgid "Image is too long for the page: top margin is %d, height %d, bottom edge is %d\n"
-msgstr ""
+msgstr "图像对页面太长： 顶边距为 %d，高度为 %d，底边距为 %d\n"
 
 #: src/main/print-escp2.c:150
 msgid "Automatic Printing Mode"
@@ -1248,11 +1248,11 @@ msgstr "自动打印模式"
 
 #: src/main/print-escp2.c:222
 msgid "CD Allow Other Media Sizes"
-msgstr ""
+msgstr "CD 允许其他介质尺寸"
 
 #: src/main/print-escp2.c:223
 msgid "Allow non-CD media sizes when printing to CD"
-msgstr ""
+msgstr "当打印到 CD 时允许使用非一般 CD 的介质尺寸"
 
 #: src/main/print-escp2.c:229 src/main/print-pcl.c:1371
 msgid "Resolution of the print"
@@ -1260,11 +1260,11 @@ msgstr "印刷品分辨率"
 
 #: src/main/print-escp2.c:245
 msgid "Enhanced Gloss"
-msgstr ""
+msgstr "增强发光"
 
 #: src/main/print-escp2.c:246
 msgid "Add gloss enhancement"
-msgstr ""
+msgstr "增加亮闪闪的发光增强"
 
 #: src/main/print-escp2.c:257
 msgid "Printing Direction"
@@ -1289,23 +1289,23 @@ msgstr "输出顺序"
 
 #: src/main/print-escp2.c:281 src/main/print-escp2.c:282
 msgid "Alignment Passes"
-msgstr ""
+msgstr "对齐遍数"
 
 #: src/main/print-escp2.c:287 src/main/print-escp2.c:288
 msgid "Alignment Choices"
-msgstr ""
+msgstr "对齐选择"
 
 #: src/main/print-escp2.c:293 src/main/print-escp2.c:294
 msgid "Ink change command"
-msgstr ""
+msgstr "换墨命令"
 
 #: src/main/print-escp2.c:299 src/main/print-escp2.c:300
 msgid "Alternate Alignment Passes"
-msgstr ""
+msgstr "备选对齐遍数"
 
 #: src/main/print-escp2.c:305 src/main/print-escp2.c:306
 msgid "Alternate Alignment Choices"
-msgstr ""
+msgstr "备选对齐选择"
 
 #: src/main/print-escp2.c:311
 msgid "Supports Packet Mode"
@@ -1421,7 +1421,7 @@ msgstr "液滴尺寸小"
 
 #: src/main/print-escp2.c:519
 msgid "Drop Size 1 (small)"
-msgstr ""
+msgstr "液滴尺寸 1（小）"
 
 #: src/main/print-escp2.c:526
 msgid "Drop Size Medium"
@@ -1429,7 +1429,7 @@ msgstr "液滴尺寸中"
 
 #: src/main/print-escp2.c:527
 msgid "Drop Size 2 (medium)"
-msgstr ""
+msgstr "液滴尺寸 2（中）"
 
 #: src/main/print-escp2.c:534
 msgid "Drop Size Large"
@@ -1437,7 +1437,7 @@ msgstr "液滴尺寸大"
 
 #: src/main/print-escp2.c:535
 msgid "Drop Size 3 (large)"
-msgstr ""
+msgstr "液滴尺寸 3（大）"
 
 #: src/main/print-escp2.c:542 src/main/print-escp2.c:543
 msgid "Light Cyan Value"
@@ -1461,11 +1461,11 @@ msgstr "淡黄色值"
 
 #: src/main/print-escp2.c:598 src/main/print-escp2.c:599
 msgid "Dark Yellow Transition"
-msgstr ""
+msgstr "深黄色过渡"
 
 #: src/main/print-escp2.c:606 src/main/print-escp2.c:607
 msgid "Dark Yellow Density Scale"
-msgstr ""
+msgstr "深黄色密度比例"
 
 #: src/main/print-escp2.c:614 src/main/print-escp2.c:615
 #: src/main/print-escp2.c:638 src/main/print-escp2.c:639
@@ -1475,12 +1475,12 @@ msgstr "灰色值"
 #: src/main/print-escp2.c:622 src/main/print-escp2.c:623
 #: src/main/print-escp2.c:646 src/main/print-escp2.c:647
 msgid "Gray Transition"
-msgstr ""
+msgstr "灰色过渡"
 
 #: src/main/print-escp2.c:630 src/main/print-escp2.c:631
 #: src/main/print-escp2.c:654 src/main/print-escp2.c:655
 msgid "Gray Density Scale"
-msgstr ""
+msgstr "灰色密度比例"
 
 #: src/main/print-escp2.c:662 src/main/print-escp2.c:663
 #: src/main/print-escp2.c:734 src/main/print-escp2.c:735
@@ -1490,12 +1490,12 @@ msgstr "淡灰色值"
 #: src/main/print-escp2.c:670 src/main/print-escp2.c:671
 #: src/main/print-escp2.c:742 src/main/print-escp2.c:743
 msgid "Light Gray Transition"
-msgstr ""
+msgstr "淡灰色过渡"
 
 #: src/main/print-escp2.c:678 src/main/print-escp2.c:679
 #: src/main/print-escp2.c:750 src/main/print-escp2.c:751
 msgid "Light Gray Density Scale"
-msgstr ""
+msgstr "淡灰色密度比例"
 
 #: src/main/print-escp2.c:686 src/main/print-escp2.c:687
 msgid "Dark Gray Value"
@@ -1651,19 +1651,19 @@ msgstr ""
 
 #: src/main/print-escp2.c:942
 msgid "Quality Enhancement"
-msgstr ""
+msgstr "质量增强"
 
 #: src/main/print-escp2.c:943
 msgid "Enhance print quality by additional passes"
-msgstr ""
+msgstr "通过额外遍数增强打印质量"
 
 #: src/main/print-escp2.c:950
 msgid "Paper Thickness"
-msgstr ""
+msgstr "纸张厚度"
 
 #: src/main/print-escp2.c:951
 msgid "Set printer paper thickness"
-msgstr ""
+msgstr "设置打印纸张的厚度"
 
 #: src/main/print-escp2.c:958
 msgid "Vacuum Intensity"
@@ -1711,7 +1711,6 @@ msgid "Full Manual Control"
 msgstr "完全手动控制"
 
 #: src/main/print-escp2.c:2216
-#, fuzzy
 msgid "Automatic Setting Control"
 msgstr "自动设置控制"
 
@@ -2114,9 +2113,8 @@ msgstr "高级光面照相纸"
 #: src/xml/xmli18n-tmp.h:778 src/xml/xmli18n-tmp.h:800
 #: src/xml/xmli18n-tmp.h:821 src/xml/xmli18n-tmp.h:842
 #: src/xml/xmli18n-tmp.h:861
-#, fuzzy
 msgid "Premium Luster Photo Paper"
-msgstr "高级发光·真·金闪闪照相纸"
+msgstr "特级柔光照相纸"
 
 #: src/main/print-lexmark.c:896 src/xml/xmli18n-tmp.h:21
 #: src/xml/xmli18n-tmp.h:48 src/xml/xmli18n-tmp.h:66 src/xml/xmli18n-tmp.h:87
@@ -2686,7 +2684,7 @@ msgstr "标准命令"
 
 #: src/gutenprintui2/panel.c:305
 msgid "Use standard print command"
-msgstr "使用标准印刷命令"
+msgstr "使用标准打印命令"
 
 #: src/gutenprintui2/panel.c:306
 msgid "Custom Command"
@@ -2694,7 +2692,7 @@ msgstr "自定义命令"
 
 #: src/gutenprintui2/panel.c:306
 msgid "Use custom print command"
-msgstr "使用自定义印刷命令"
+msgstr "使用自定义打印命令"
 
 #: src/gutenprintui2/panel.c:307 src/gutenprintui2/plist.c:704
 #: src/gutenprintui2/plist.c:787
@@ -2707,15 +2705,13 @@ msgstr "打印到文件"
 
 #: src/gutenprintui2/panel.c:523
 msgid "Edit Curve..."
-msgstr "编辑曲线 ..."
+msgstr "编辑曲线…"
 
 #: src/gutenprintui2/panel.c:534
-#, fuzzy
 msgid "Set Default"
 msgstr "设置为默认值"
 
 #: src/gutenprintui2/panel.c:536
-#, fuzzy
 msgid "Restore Previous"
 msgstr "恢复到之前的配置"
 
@@ -2731,7 +2727,7 @@ msgstr "取消"
 
 #: src/gutenprintui2/panel.c:642
 msgid "Select File..."
-msgstr "选择文件 ..."
+msgstr "选择文件…"
 
 #: src/gutenprintui2/panel.c:1028
 msgid "Reset"
@@ -2809,7 +2805,6 @@ msgid "Height of the paper that you wish to print to"
 msgstr ""
 
 #: src/gutenprintui2/panel.c:1578
-#, fuzzy
 msgid "Automatic Paper Size"
 msgstr "自动调整纸张大小"
 
@@ -2971,7 +2966,6 @@ msgid "Enter the file to print to. "
 msgstr "输入要打印到的文件。 "
 
 #: src/gutenprintui2/panel.c:1950
-#, fuzzy
 msgid "File to print to"
 msgstr "要打印到的文件"
 
@@ -3009,7 +3003,7 @@ msgstr "选择需要使用的打印机名称（非打印机的类型或型号）
 
 #: src/gutenprintui2/panel.c:2105
 msgid "Setup Printer..."
-msgstr "设置打印机..."
+msgstr "设置打印机…"
 
 #: src/gutenprintui2/panel.c:2107
 msgid "Choose the printer model, PPD file, and command that is used to print to this printer"
@@ -3017,7 +3011,7 @@ msgstr "选择打印机型号、PPD 文件以及用于此打印机的印刷命�
 
 #: src/gutenprintui2/panel.c:2120
 msgid "New Printer..."
-msgstr "新打印机..."
+msgstr "新打印机…"
 
 #: src/gutenprintui2/panel.c:2121
 msgid "Define a new logical printer. This can be used to name a collection of settings that you wish to remember for future use."
@@ -3119,7 +3113,7 @@ msgstr "选择希望使用的输出类型"
 
 #: src/gutenprintui2/panel.c:2496
 msgid "Adjust Output..."
-msgstr "调整输出..."
+msgstr "调整输出…"
 
 #: src/gutenprintui2/panel.c:2505
 msgid "Adjust color balance, brightness, contrast, saturation, and dither algorithm"
@@ -3437,12 +3431,12 @@ msgstr "用法：%s [选项] 命令\n"
 #: src/escputil/escputil.c:415
 #, c-format
 msgid "Type `%s --help' for more information.\n"
-msgstr "输入 `%s --help' 以获取更多信息。\n"
+msgstr "输入“%s --help”以获取更多信息。\n"
 
 #: src/escputil/escputil.c:417
 #, c-format
 msgid "Type `%s -h' for more information.\n"
-msgstr "输入 `%s -h' 以获取更多信息。\n"
+msgstr "输入“%s -h”以获取更多信息。\n"
 
 #: src/escputil/escputil.c:486
 #, c-format
@@ -3609,7 +3603,6 @@ msgstr "淡品红色"
 #: src/xml/xmli18n-tmp.h:2815 src/xml/xmli18n-tmp.h:3073
 #: src/xml/xmli18n-tmp.h:3095 src/xml/xmli18n-tmp.h:3121
 #: src/xml/xmli18n-tmp.h:3187
-#, fuzzy
 msgid "Light Black"
 msgstr "淡黑色"
 
@@ -3838,7 +3831,7 @@ msgid "Warning: Maintenance request pending\n"
 msgstr ""
 
 #: src/escputil/escputil.c:1242
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: Unknown (%d)\n"
 msgstr "警告：未知 (%d)\n"
 
@@ -3923,7 +3916,7 @@ msgstr "无法识别打印机型号\n"
 #: src/escputil/escputil.c:1902
 #, c-format
 msgid "Cleaning heads...\n"
-msgstr "正在清理喷墨头...\n"
+msgstr "正在清理喷墨头…\n"
 
 #: src/escputil/escputil.c:1919
 #, c-format
@@ -4154,7 +4147,7 @@ msgstr ""
 #: src/escputil/escputil.c:2233
 #, c-format
 msgid "Attempting to set alignment..."
-msgstr "正在尝试设置对齐..."
+msgstr "正在尝试设置对齐…"
 
 #: src/escputil/escputil.c:2236
 #, c-format
@@ -4180,13 +4173,12 @@ msgid "_Print with Gutenprint..."
 msgstr "使用 Gutenprint 打印 (_P)"
 
 #: src/gimp2/print-gutenprint.c:49
-#, fuzzy
 msgid "<Image>/File/Print with Gutenprint..."
-msgstr "<图像>/文件/使用 Gutenprint 打印..."
+msgstr "<图像>/文件/使用 Gutenprint 打印…"
 
 #: src/gimp2/print-image-gimp.c:225
 msgid "Printing..."
-msgstr "正在打印..."
+msgstr "正在打印…"
 
 #: src/xml/xmli18n-tmp.h:2 src/xml/xmli18n-tmp.h:26 src/xml/xmli18n-tmp.h:52
 #: src/xml/xmli18n-tmp.h:70 src/xml/xmli18n-tmp.h:92 src/xml/xmli18n-tmp.h:114
