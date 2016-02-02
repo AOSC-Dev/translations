@@ -11,7 +11,7 @@ Header
 ------
 
 ```PO
-# Chinese translation of Claws Mail.
+# Chinese (China) translation of Claws Mail.
 # Copyright © 2000-2015 The Claws Mail team.
 # This file is distributed under the same license
 # as the Claws Mail package, see COPYING file.
@@ -33,3 +33,9 @@ Submission
 3. `msgmerge -U trans.po repo.po` with current repo file
 4. `msgfmt -vc -o /dev/null --check-accelerator=_ --statistics trans.po`
 5. Send PO to translations@thewildbeast.co.uk
+
+Maintainance
+------------
+
+1. Remember to `msgmerge -U` with upstream POT
+2. Remember to upload upstream POT to Transifex
