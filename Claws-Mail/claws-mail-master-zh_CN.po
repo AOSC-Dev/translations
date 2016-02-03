@@ -1,4 +1,4 @@
-# Chinese translation of Claws Mail.
+# Chinese (China) translation of Claws Mail.
 # Copyright © 2000-2015 The Claws Mail team.
 # This file is distributed under the same license
 # as the Claws Mail package, see COPYING file.
@@ -6,7 +6,8 @@
 # Tsu-Fan Cheng <tscheng@ic.sunysb.edu>, 2003.
 # Ralgh Young <bamanzi@gmail.com>, 2004-2007.
 # Yuwei Yu <acevery@gmail.com>, 2010.
-# Rob <rbnwmk@gmail.com>, 2012
+# Rob <rbnwmk@gmail.com>, 2012.
+# Mark Chang (zh_TW translator) <mark.cyj@gmail.com>, 2015.
 # Mingye Wang (Arthur2e5) <arthur200126@gmail.com>, 2015.
 #
 msgid ""
@@ -47,8 +48,8 @@ msgid ""
 "given, the checkbox indicates which accounts will be included. Bold text "
 "indicates the default account."
 msgstr ""
-"使用'收信'将按顺序进行收取邮件, 构选框表示包含收取邮件的账户。粗体显示的是默"
-"认帐号。"
+"使用 '收信' 将按顺序进行收取邮件, 构选框表示包含收取邮件的账户。粗体显示的是"
+"默认帐号。"
 
 #: src/account.c:812
 msgid " _Set as default account "
@@ -83,7 +84,7 @@ msgstr "取"
 
 #: src/account.c:1560
 msgid "'Get Mail' retrieves mail from the checked accounts"
-msgstr "'收信'收取已选中账户的邮件"
+msgstr "'收信' 收取已选中账户的邮件"
 
 #: src/account.c:1567 src/addrduplicates.c:471 src/addressadd.c:215
 #: src/addressbook.c:125 src/compose.c:7233 src/editaddress.c:1265
@@ -606,35 +607,35 @@ msgstr "LDAP 起始错误"
 
 #: src/addressbook.c:536
 msgid "Error binding to LDAP server"
-msgstr "无法连接到LDAP服务器"
+msgstr "无法连接到 LDAP 服务器"
 
 #: src/addressbook.c:537
 msgid "Error searching LDAP database"
-msgstr "搜寻LDAP资料库时出错"
+msgstr "搜寻 LDAP 资料库时出错"
 
 #: src/addressbook.c:538
 msgid "Timeout performing LDAP operation"
-msgstr "进行LDAP操作时超时"
+msgstr "进行 LDAP 操作时超时"
 
 #: src/addressbook.c:539
 msgid "Error in LDAP search criteria"
-msgstr "LDAP搜寻条件错误"
+msgstr "LDAP 搜寻条件错误"
 
 #: src/addressbook.c:540
 msgid "No LDAP entries found for search criteria"
-msgstr "LDAP搜寻没有结果"
+msgstr "LDAP 搜寻没有结果"
 
 #: src/addressbook.c:541
 msgid "LDAP search terminated on request"
-msgstr "LDAP已按请求终止"
+msgstr "LDAP 已按请求终止"
 
 #: src/addressbook.c:542
 msgid "Error starting TLS connection"
-msgstr "创建TLS链接时发生错误"
+msgstr "创建 TLS 链接时发生错误"
 
 #: src/addressbook.c:543
 msgid "Distinguished Name (dn) is missing"
-msgstr "无辨别名(dn)信息"
+msgstr "无辨别名 (dn) 信息"
 
 #: src/addressbook.c:544
 msgid "Missing required information"
@@ -685,7 +686,7 @@ msgstr "无法贴入通讯群组。"
 #: src/addressbook.c:2914
 #, fuzzy, c-format
 msgid "Do you want to delete the query results and addresses in '%s'?"
-msgstr "你想要删除'%s'里面的查询结果和地址信息吗?"
+msgstr "你想要删除 '%s' 里面的查询结果和地址信息吗?"
 
 #: src/addressbook.c:2917 src/addressbook.c:2943 src/addressbook.c:2950
 #: src/plugins/archive/archiver_prefs.c:329 src/prefs_filtering_action.c:177
@@ -699,7 +700,7 @@ msgid ""
 "Do you want to delete '%s'? If you delete the folder only, the addresses it "
 "contains will be moved into the parent folder."
 msgstr ""
-"你确定要删除'%s'这个目录以及里面所有的地址吗？ \n"
+"你确定要删除 '%s' 这个目录以及里面所有的地址吗？ \n"
 "如果只删除目录，地址簿会被移到上一层的目录中。"
 
 #: src/addressbook.c:2929 src/imap_gtk.c:362 src/mh_gtk.c:205
@@ -711,7 +712,7 @@ msgstr "删除目录"
 #: src/addressbook.c:2930
 #, fuzzy
 msgid "Delete _folder only"
-msgstr "+只删除目录(_F)"
+msgstr "+ 只删除目录(_F)"
 
 #: src/addressbook.c:2930
 msgid "Delete folder and _addresses"
@@ -723,7 +724,7 @@ msgid ""
 "Do you want to delete '%s'?\n"
 "The addresses it contains will not be lost."
 msgstr ""
-"你想要删除'%s'吗?\n"
+"你想要删除 '%s' 吗?\n"
 "内含的地址数据不会丢失。"
 
 #: src/addressbook.c:2948
@@ -732,7 +733,7 @@ msgid ""
 "Do you want to delete '%s'?\n"
 "The addresses it contains will be lost."
 msgstr ""
-"你想要删除'%s'吗?\n"
+"你想要删除 '%s' 吗?\n"
 "里面的地址数据将会丢失。"
 
 # c-format
@@ -993,7 +994,7 @@ msgstr "名"
 
 #: src/browseldap.c:270
 msgid "LDAP Name"
-msgstr "LDAP名称"
+msgstr "LDAP 名称"
 
 #: src/browseldap.c:272
 msgid "Attribute Value"
@@ -1039,7 +1040,7 @@ msgstr "其它"
 #, c-format
 msgid ""
 "This plugin provides %s (%s), which is already provided by the %s plugin."
-msgstr "这插件提供 %s (%s)功能，已加载的 %s 插件已提供同个功能。"
+msgstr "这插件提供 %s (%s) 功能，已加载的 %s 插件已提供同个功能。"
 
 #: src/common/plugin.c:434
 msgid "Plugin already loaded"
@@ -1051,53 +1052,54 @@ msgstr "为插件分配内存失败"
 
 #: src/common/plugin.c:479
 msgid "This module is not licensed under a GPL v3 or later compatible license."
-msgstr "这模块的版权协议并不在通用许可协议(GPL v3)或者更高兼容版本许可证之下。"
+msgstr ""
+"这模块的版权协议并不在通用许可协议 (GPL v3) 或者更高兼容版本许可证之下。"
 
 #: src/common/plugin.c:488
 msgid "This module is for Claws Mail GTK1."
-msgstr "该模块是用于GTK1版本的Claws Mail。"
+msgstr "该模块是用于 GTK1 版本的 Claws Mail。"
 
 #: src/common/plugin.c:770
 #, c-format
 msgid ""
 "Your version of Claws Mail is newer than the version the '%s' plugin was "
 "built with."
-msgstr "您的Claws Mail版本比'%s'插件所采用的建立版本还要新。"
+msgstr "您的 Claws Mail 版本比 '%s' 插件所采用的建立版本还要新。"
 
 #: src/common/plugin.c:773
 msgid ""
 "Your version of Claws Mail is newer than the version the plugin was built "
 "with."
-msgstr "您的Claws Mail版本比此插件所采用建立的版本还要新。"
+msgstr "您的 Claws Mail 版本比此插件所采用建立的版本还要新。"
 
 #: src/common/plugin.c:782
 #, c-format
 msgid "Your version of Claws Mail is too old for the '%s' plugin."
-msgstr "您的Claws Mail版本太老旧，不能使用 '%s' 插件。"
+msgstr "您的 Claws Mail 版本太老旧，不能使用 '%s' 插件。"
 
 #: src/common/plugin.c:784
 msgid "Your version of Claws Mail is too old for the plugin."
-msgstr "您的Claws Mail版本太老旧，不能使用此插件。"
+msgstr "您的 Claws Mail 版本太老旧，不能使用此插件。"
 
 #: src/common/session.c:183 src/imap.c:1189
 msgid "SSL handshake failed\n"
-msgstr "SSL握手失败\n"
+msgstr "SSL 握手失败\n"
 
 #: src/common/smtp.c:179
 msgid "No SMTP AUTH method available\n"
-msgstr "无SMTP认证方式\n"
+msgstr "无 SMTP 认证方式\n"
 
 #: src/common/smtp.c:182
 msgid "Selected SMTP AUTH method not available\n"
-msgstr "已选择的SMTP 认证方式无效\n"
+msgstr "已选择的 SMTP 认证方式无效\n"
 
 #: src/common/smtp.c:505 src/common/smtp.c:559
 msgid "bad SMTP response\n"
-msgstr "SMTP回应错误\n"
+msgstr "SMTP 回应错误\n"
 
 #: src/common/smtp.c:530 src/common/smtp.c:548 src/common/smtp.c:662
 msgid "error occurred on SMTP session\n"
-msgstr "SMTP连接发生错误\n"
+msgstr "SMTP 连接发生错误\n"
 
 #: src/common/smtp.c:539 src/pop.c:905
 msgid "error occurred on authentication\n"
@@ -1106,11 +1108,11 @@ msgstr "认证时发生错误\n"
 #: src/common/smtp.c:589
 #, c-format
 msgid "Message is too big (Maximum size is %s)\n"
-msgstr "邮件太大(最大为 %s)\n"
+msgstr "邮件太大 (最大为 %s)\n"
 
 #: src/common/smtp.c:621 src/pop.c:898
 msgid "couldn't start TLS session\n"
-msgstr "无法启动TLS会话\n"
+msgstr "无法启动 TLS 会话\n"
 
 #: src/common/socket.c:569
 #, fuzzy
@@ -1130,7 +1132,7 @@ msgstr "连接失败。"
 #: src/common/socket.c:972
 #, fuzzy, c-format
 msgid "%s:%d: unknown host.\n"
-msgstr "%s中的\"%s\"未知"
+msgstr "%s 中的 \"%s\" 未知"
 
 #: src/common/socket.c:1064
 #, fuzzy, c-format
@@ -1179,7 +1181,7 @@ msgstr "未发现数字证书发布者"
 
 #: src/common/ssl_certificate.c:646
 msgid "Certificate issuer is not a CA"
-msgstr "数字证书发布者不是CA"
+msgstr "数字证书发布者不是 CA"
 
 #: src/common/ssl_certificate.c:871
 #, fuzzy, c-format
@@ -1199,7 +1201,7 @@ msgstr "无法打开钥匙文件 %s\n"
 #: src/common/ssl_certificate.c:898
 #, fuzzy, c-format
 msgid "Key file %s missing (%s)\n"
-msgstr "密钥文件%s遗失(%s)\n"
+msgstr "密钥文件 %s 遗失 (%s)\n"
 
 #: src/common/ssl_certificate.c:1046
 #, fuzzy, c-format
@@ -1225,7 +1227,7 @@ msgstr "<不在数字证书之内>"
 
 #: src/common/string_match.c:81
 msgid "(Subject cleared by RegExp)"
-msgstr "（主题被RegExp清除了）"
+msgstr "（主题被 RegExp 清除了）"
 
 #: src/common/utils.c:257
 #, c-format
@@ -1380,22 +1382,22 @@ msgstr "周六"
 #: src/common/utils.c:4835
 msgctxt "Abbr. month name for use by strftime"
 msgid "Jan"
-msgstr "1月"
+msgstr "1 月"
 
 #: src/common/utils.c:4836
 msgctxt "Abbr. month name for use by strftime"
 msgid "Feb"
-msgstr "2月"
+msgstr "2 月"
 
 #: src/common/utils.c:4837
 msgctxt "Abbr. month name for use by strftime"
 msgid "Mar"
-msgstr "3月"
+msgstr "3 月"
 
 #: src/common/utils.c:4838
 msgctxt "Abbr. month name for use by strftime"
 msgid "Apr"
-msgstr "4月"
+msgstr "4 月"
 
 #: src/common/utils.c:4839
 msgctxt "Abbr. month name for use by strftime"
@@ -1405,37 +1407,37 @@ msgstr "五月"
 #: src/common/utils.c:4840
 msgctxt "Abbr. month name for use by strftime"
 msgid "Jun"
-msgstr "6月"
+msgstr "6 月"
 
 #: src/common/utils.c:4841
 msgctxt "Abbr. month name for use by strftime"
 msgid "Jul"
-msgstr "7月"
+msgstr "7 月"
 
 #: src/common/utils.c:4842
 msgctxt "Abbr. month name for use by strftime"
 msgid "Aug"
-msgstr "8月"
+msgstr "8 月"
 
 #: src/common/utils.c:4843
 msgctxt "Abbr. month name for use by strftime"
 msgid "Sep"
-msgstr "9月"
+msgstr "9 月"
 
 #: src/common/utils.c:4844
 msgctxt "Abbr. month name for use by strftime"
 msgid "Oct"
-msgstr "10月"
+msgstr "10 月"
 
 #: src/common/utils.c:4845
 msgctxt "Abbr. month name for use by strftime"
 msgid "Nov"
-msgstr "11月"
+msgstr "11 月"
 
 #: src/common/utils.c:4846
 msgctxt "Abbr. month name for use by strftime"
 msgid "Dec"
-msgstr "12月"
+msgstr "12 月"
 
 #: src/common/utils.c:4857
 msgctxt "For use by strftime (morning)"
@@ -1767,11 +1769,11 @@ msgstr "自动(_A)"
 
 #: src/compose.c:730 src/mainwindow.c:872 src/messageview.c:353
 msgid "7bit ASCII (US-ASC_II)"
-msgstr "7位ASCII (US-ASC_II)"
+msgstr "7 位 ASCII (US-ASC_II)"
 
 #: src/compose.c:731 src/mainwindow.c:873 src/messageview.c:354
 msgid "Unicode (_UTF-8)"
-msgstr "统一码 (_UTF-8)"
+msgstr "统一码(_UTF-8)"
 
 #: src/compose.c:735 src/mainwindow.c:877 src/messageview.c:358
 msgid "Central European (ISO-8859-_2)"
@@ -1787,16 +1789,16 @@ msgstr "土耳其 (ISO-8859-_9)"
 
 #: src/compose.c:1072
 msgid "New message From format error."
-msgstr "新邮件'发件人'格式错误。"
+msgstr "新邮件 '发件人' 格式错误。"
 
 #: src/compose.c:1164
 msgid "New message subject format error."
-msgstr "新邮件'主题'格式错误。"
+msgstr "新邮件 '主题' 格式错误。"
 
 #: src/compose.c:1195 src/quote_fmt.c:569
 #, c-format
 msgid "The body of the \"New message\" template has an error at line %d."
-msgstr "\"新邮件\"内容格式错误: 第 %d 行。"
+msgstr "\"新邮件\" 内容格式错误: 第 %d 行。"
 
 #: src/compose.c:1456
 msgid "Unable to reply. The original email probably doesn't exist."
@@ -1811,7 +1813,7 @@ msgstr "这 \"回复\" 模版中 \"来自\" 信息栏内的邮箱地址无效。
 #: src/compose.c:1687 src/quote_fmt.c:589
 #, c-format
 msgid "The body of the \"Reply\" template has an error at line %d."
-msgstr "\"回复\"模板内容错误: 第 %d 行。"
+msgstr "\"回复\" 模板内容错误: 第 %d 行。"
 
 #: src/compose.c:1823 src/compose.c:2015 src/quote_fmt.c:606
 msgid ""
@@ -1822,7 +1824,7 @@ msgstr "这 \"转发\" 模版中 \"来自\" 信息栏内的邮箱地址无效。
 #: src/compose.c:1883 src/quote_fmt.c:609
 #, c-format
 msgid "The body of the \"Forward\" template has an error at line %d."
-msgstr "\"转发\"模板内容错误: 第 %d 行。"
+msgstr "\"转发\" 模板内容错误: 第 %d 行。"
 
 #: src/compose.c:2057
 msgid "Fw: multiple emails"
@@ -1831,7 +1833,7 @@ msgstr "转发: 多封邮件"
 #: src/compose.c:2537
 #, c-format
 msgid "The body of the \"Redirect\" template has an error at line %d."
-msgstr "\"改发\"内容格式错误: 第 %d 行"
+msgstr "\"改发\" 内容格式错误: 第 %d 行"
 
 #: src/compose.c:2604 src/gtk/headers.h:14
 msgid "Cc:"
@@ -1865,7 +1867,7 @@ msgstr "致："
 
 #: src/compose.c:2832
 msgid "Couldn't attach a file (charset conversion failed)."
-msgstr "无法添加附件(转换字符集失败)。"
+msgstr "无法添加附件 (转换字符集失败)。"
 
 #: src/compose.c:2838
 #, c-format
@@ -1886,7 +1888,7 @@ msgstr "这模板的 \"引号\" 无效。"
 #: src/compose.c:3611
 #, c-format
 msgid "Could not get size of file '%s'."
-msgstr "无法取得文件'%s'的大小。"
+msgstr "无法取得文件 '%s' 的大小。"
 
 #: src/compose.c:3622
 #, c-format
@@ -1935,12 +1937,12 @@ msgstr " [已修改] "
 #: src/compose.c:4788 src/plugins/python/composewindowtype.c:424
 #, c-format
 msgid "%s - Compose message%s"
-msgstr "%s - 新邮件%s"
+msgstr "%s - 新邮件 %s"
 
 #: src/compose.c:4791 src/plugins/python/composewindowtype.c:427
 #, c-format
 msgid "[no subject] - Compose message%s"
-msgstr "[无主题] - 撰写新邮件%s"
+msgstr "[无主题] - 撰写新邮件 %s"
 
 #: src/compose.c:4793 src/plugins/python/composewindowtype.c:415
 msgid "Compose message"
@@ -1980,7 +1982,7 @@ msgstr "没有指定收信人。"
 #: src/compose.c:5109 src/plugins/attachwarner/attachwarner.c:212
 #, fuzzy
 msgid "_Queue"
-msgstr "+排列发送(_Q)"
+msgstr "+ 排列发送(_Q)"
 
 #: src/compose.c:5110
 #, c-format
@@ -2080,7 +2082,7 @@ msgid ""
 "\n"
 "Send it anyway?"
 msgstr ""
-"第 %d 行长度超出了限制(998字节)。\n"
+"第 %d 行长度超出了限制 (998 字节)。\n"
 "本邮件的内容可能在传送过程中出现出错。\n"
 "\n"
 "仍然要发送吗?"
@@ -2097,7 +2099,7 @@ msgstr "加密告警"
 #: src/compose.c:5918
 #, fuzzy
 msgid "C_ontinue"
-msgstr "+继续(_O)"
+msgstr "+ 继续(_O)"
 
 #: src/compose.c:5967
 msgid "No account for sending mails available!"
@@ -2105,7 +2107,7 @@ msgstr "没有发信所需的帐号！"
 
 #: src/compose.c:5976
 msgid "Selected account isn't NNTP: Posting is impossible."
-msgstr "已选择的不是NNTP帐号: 无法上传。"
+msgstr "已选择的不是 NNTP 帐号: 无法上传。"
 
 #: src/compose.c:6211
 #, c-format
@@ -2135,7 +2137,7 @@ msgstr "删除已输入的内容"
 
 #: src/compose.c:6999 src/plugins/vcalendar/vcal_meeting_gtk.c:289
 msgid "Use <tab> to autocomplete from addressbook"
-msgstr "使用<tab>键自动完成地址"
+msgstr "使用 <tab> 键自动完成地址"
 
 #: src/compose.c:7221
 msgid "Mime type"
@@ -2205,7 +2207,7 @@ msgstr "用于发送此邮件的地址"
 msgid ""
 "The privacy system '%s' cannot be loaded. You will not be able to sign or "
 "encrypt this message."
-msgstr "无法加载隐私系统`%s'，不能在此邮件上使用签名或加密功能。"
+msgstr "无法加载隐私系统 `%s'，不能在此邮件上使用签名或加密功能。"
 
 #: src/compose.c:8483 src/plugins/archive/archiver_gtk.c:1077
 msgid "_None"
@@ -2218,24 +2220,24 @@ msgstr "模板内容错误: 第 %d 行。"
 
 #: src/compose.c:8700
 msgid "Template From format error."
-msgstr "模板中'发件人'格式错误。"
+msgstr "模板中 '发件人' 格式错误。"
 
 #: src/compose.c:8718
 msgid "Template To format error."
-msgstr "模板中'收件人'格式错误。"
+msgstr "模板中 '收件人' 格式错误。"
 
 #: src/compose.c:8736
 msgid "Template Cc format error."
-msgstr "模板中'抄送'格式错误。"
+msgstr "模板中 '抄送' 格式错误。"
 
 #: src/compose.c:8754
 msgid "Template Bcc format error."
-msgstr "模板中'密送'格式错误。"
+msgstr "模板中 '密送' 格式错误。"
 
 #: src/compose.c:8772
 #, fuzzy
 msgid "Template Reply-To format error."
-msgstr "模板中'收件人'格式错误。"
+msgstr "模板中 '收件人' 格式错误。"
 
 #: src/compose.c:8791
 msgid "Template subject format error."
@@ -2243,7 +2245,7 @@ msgstr "模板中主题格式错误。"
 
 #: src/compose.c:9060
 msgid "Invalid MIME type."
-msgstr "不正确的MIME类型。"
+msgstr "不正确的 MIME 类型。"
 
 #: src/compose.c:9075
 msgid "File doesn't exist or is empty."
@@ -2278,11 +2280,11 @@ msgid ""
 msgstr ""
 "外部编辑器仍在运行。\n"
 "强制关闭该进程吗？\n"
-"进程组id: %d"
+"进程组 id: %d"
 
 #: src/compose.c:9968 src/messageview.c:1097
 msgid "Claws Mail needs network access in order to send this email."
-msgstr "Claws Mail需要访问网络才能发送这封邮件。"
+msgstr "Claws Mail 需要访问网络才能发送这封邮件。"
 
 #: src/compose.c:9994
 msgid "Could not queue message."
@@ -2372,7 +2374,7 @@ msgstr "不保存(_D)"
 #: src/compose.c:10535
 #, fuzzy, c-format
 msgid "Do you want to apply the template '%s'?"
-msgstr "是否应用模板'%s'?"
+msgstr "是否应用模板 '%s'?"
 
 #: src/compose.c:10537
 msgid "Apply template"
@@ -2471,11 +2473,11 @@ msgstr ""
 " - 名\n"
 " - 姓\n"
 " - 昵称\n"
-" - 任何email地址\n"
+" - 任何 email 地址\n"
 " - 其他信息\n"
 "\n"
-"点击[确定]以继续编辑此项联系人。\n"
-"点击[取消]关闭窗口(不保存)。"
+"点击 [确定] 以继续编辑此项联系人。\n"
+"点击 [取消] 关闭窗口(不保存)。"
 
 #: src/editaddress.c:169
 msgid ""
@@ -2492,11 +2494,11 @@ msgstr ""
 "添加一个新的联系人需要至少设置如下数据中的一项:\n"
 " - 姓\n"
 " - 名\n"
-" - 任何email地址\n"
+" - 任何 email 地址\n"
 " - 任何地址属性\n"
 "\n"
-"点击[确定]以继续编辑此项联系人。\n"
-"点击[取消]关闭窗口(不保存)。"
+"点击 [确定] 以继续编辑此项联系人。\n"
+"点击 [取消] 关闭窗口(不保存)。"
 
 #: src/editaddress.c:233
 msgid "Edit Person Details"
@@ -2734,7 +2736,7 @@ msgstr "请提供服务器的网域名称。"
 
 #: src/editldap.c:176
 msgid "At least one LDAP search attribute should be supplied."
-msgstr "请提供起码一项LDAP搜寻条目。"
+msgstr "请提供起码一项 LDAP 搜寻条目。"
 
 #: src/editldap.c:277
 msgid "Connected successfully to server"
@@ -2742,7 +2744,7 @@ msgstr "成功连接服务器"
 
 #: src/editldap.c:335 src/editldap.c:973
 msgid "Edit LDAP Server"
-msgstr "编辑LDAP服务器"
+msgstr "编辑 LDAP 服务器"
 
 #: src/editldap.c:436
 msgid "A name that you wish to call the server."
@@ -2755,9 +2757,9 @@ msgid ""
 "be used. You may specify \"localhost\" if running an LDAP server on the same "
 "computer as Claws Mail."
 msgstr ""
-"LDAP服务器的机器名。例如\"ldap.mydomain.com\"代表\"mydomain.com\"机构的LDAP服"
-"务器名称。也可以填入IP地址。如果LDAP服务与Claws Mail在同一台机器上运行，则可"
-"以填入\"localhost\"。"
+"LDAP 服务器的机器名。例如 \"ldap.mydomain.com\" 代表 \"mydomain.com\" 机构的 "
+"LDAP 服务器名称。也可以填入 IP 地址。如果 LDAP 服务与 Claws Mail 在同一台机器"
+"上运行，则可以填入 \"localhost\"。"
 
 #: src/editldap.c:469
 msgid "TLS"
@@ -2773,8 +2775,8 @@ msgid ""
 "sure to check the correct configuration in ldap.conf (TLS_CACERTDIR and "
 "TLS_REQCERT fields)."
 msgstr ""
-"采用TLS方式安全连接到LDAP服务器。如果连接失败，请检查配置文件ldap.conf中的"
-"TLS_CACERTDIR和TLS_REQCERT两项设置。"
+"采用 TLS 方式安全连接到 LDAP 服务器。如果连接失败，请检查配置文件 ldap.conf "
+"中的 TLS_CACERTDIR 和 TLS_REQCERT 两项设置。"
 
 #: src/editldap.c:478
 msgid ""
@@ -2782,12 +2784,12 @@ msgid ""
 "sure to check the correct configuration in ldap.conf (TLS_CACERTDIR and "
 "TLS_REQCERT fields)."
 msgstr ""
-"采用SSL方式安全连接到LDAP服务器。如果连接失败，请检查配置文件ldap.conf中的"
-"TLS_CACERTDIR和TLS_REQCERT两项设置。"
+"采用 SSL 方式安全连接到 LDAP 服务器。如果连接失败，请检查配置文件 ldap.conf "
+"中的 TLS_CACERTDIR 和 TLS_REQCERT 两项设置。"
 
 #: src/editldap.c:490
 msgid "The port number that the server listens on. Port 389 is the default."
-msgstr "服务器监听的端口号。默认端口号为389。"
+msgstr "服务器监听的端口号。默认端口号为 389。"
 
 #: src/editldap.c:493
 msgid " Check Server "
@@ -2823,7 +2825,7 @@ msgstr "搜索属性"
 msgid ""
 "A list of LDAP attribute names that should be searched when attempting to "
 "find a name or address."
-msgstr "为查找名称和地址需要搜索的LDAP属性名称列表。"
+msgstr "为查找名称和地址需要搜索的 LDAP 属性名称列表。"
 
 #: src/editldap.c:589
 msgid " Defaults "
@@ -2837,7 +2839,7 @@ msgstr "重置属性名称。默认值能够在搜索中发现绝大多数名称
 
 #: src/editldap.c:599
 msgid "Max Query Age (secs)"
-msgstr "询问时间上限(秒)"
+msgstr "询问时间上限 (秒)"
 
 #: src/editldap.c:614
 msgid ""
@@ -2852,12 +2854,12 @@ msgid ""
 "This is useful for servers that have slow response times at the expense of "
 "more memory to cache results."
 msgstr ""
-"此处定义地址数据缓存的最大有效时间(单位为秒)，超出后缓存将重建。为方便自动匹"
+"此处定义地址数据缓存的最大有效时间 (单位为秒)，超出后缓存将重建。为方便自动匹"
 "配并补齐地址，会在缓存中保存查询到的结果，直到超出上述期限。数据缓存将有效地"
 "提高根据同一姓名或者地址进行补齐时响应能力，因为在向服务器提交新一轮搜索之"
-"前，会先在缓存中进行查询。默认值为600秒(10分钟), 这个数值应该对大多数服务器是"
-"足够的。如果采用更大的值，将可以进一步减少后面查询所需要的时间。虽然要多消耗"
-"一点内存来保存结果，但这在服务器响应较慢的情况下是非常有用的。"
+"前，会先在缓存中进行查询。默认值为 600 秒 (10 分钟), 这个数值应该对大多数服务"
+"器是足够的。如果采用更大的值，将可以进一步减少后面查询所需要的时间。虽然要多"
+"消耗一点内存来保存结果，但这在服务器响应较慢的情况下是非常有用的。"
 
 #: src/editldap.c:631
 msgid "Include server in dynamic search"
@@ -2871,7 +2873,7 @@ msgstr "要在自动完成地址时动态搜索服务器，请选中此选项。
 
 #: src/editldap.c:642
 msgid "Match names 'containing' search term"
-msgstr "匹配项'包含'指定词语"
+msgstr "匹配项 '包含' 指定词语"
 
 #: src/editldap.c:647
 msgid ""
@@ -2881,9 +2883,9 @@ msgid ""
 "performance reasons, address completion uses \"begins-with\" for all "
 "searches against other address interfaces."
 msgstr ""
-"你可以使用\"begins-with\"或者\"contains\"来搜索名称和地址。选中此选项表示将进"
-"行\"contains\"搜索，这种方式将会多耗一点时间。注意: 为了性能方面的考虑, 同其"
-"他数据不一样的是，对地址的自动完成将采用\"begins-with\"方式。"
+"你可以使用 \"begins-with\" 或者 \"contains\" 来搜索名称和地址。选中此选项表示"
+"将进行 \"contains\" 搜索，这种方式将会多耗一点时间。注意: 为了性能方面的考"
+"虑, 同其他数据不一样的是，对地址的自动完成将采用 \"begins-with\" 方式。"
 
 #: src/editldap.c:700
 msgid "Bind DN"
@@ -2896,8 +2898,8 @@ msgid ""
 "as: \"cn=user,dc=claws-mail,dc=org\". This is usually left empty when "
 "performing a search."
 msgstr ""
-"用于连接LDAP服务器的用户名。这通常只在带有保护的服务器上使用。这个值的形式通"
-"常是这样: \"cn=user,dc=claws-mail,dc=com\"。只用于搜索时这项通常为空。"
+"用于连接 LDAP 服务器的用户名。这通常只在带有保护的服务器上使用。这个值的形式"
+"通常是这样: \"cn=user,dc=claws-mail,dc=com\"。只用于搜索时这项通常为空。"
 
 #: src/editldap.c:716
 msgid "Bind Password"
@@ -2905,11 +2907,11 @@ msgstr "绑定密码"
 
 #: src/editldap.c:726
 msgid "The password to be used when connecting as the \"Bind DN\" user."
-msgstr "用\"Bind DN\"用户连接时的密码。"
+msgstr "用 \"Bind DN\" 用户连接时的密码。"
 
 #: src/editldap.c:731
 msgid "Timeout (secs)"
-msgstr "超时(秒)"
+msgstr "超时 (秒)"
 
 #: src/editldap.c:745
 msgid "The timeout period in seconds."
@@ -2934,7 +2936,7 @@ msgstr "扩展"
 
 #: src/editldap.c:978
 msgid "Add New LDAP Server"
-msgstr "增加新的LDAP服务器"
+msgstr "增加新的 LDAP 服务器"
 
 #: src/edittags.c:187 src/prefs_filtering_action.c:1446
 #: src/prefs_summaries.c:441
@@ -2980,19 +2982,19 @@ msgstr "请选择要添加或者删除的标签（立即生效）。"
 
 #: src/editvcard.c:95
 msgid "File does not appear to be vCard format."
-msgstr "文件不是vCard格式。"
+msgstr "文件不是 vCard 格式。"
 
 #: src/editvcard.c:107
 msgid "Select vCard File"
-msgstr "选择vCard文件"
+msgstr "选择 vCard 文件"
 
 #: src/editvcard.c:152 src/editvcard.c:256
 msgid "Edit vCard Entry"
-msgstr "编辑vCard条目"
+msgstr "编辑 vCard 条目"
 
 #: src/editvcard.c:261
 msgid "Add New vCard Entry"
-msgstr "增加新的vCard条目"
+msgstr "增加新的 vCard 条目"
 
 #: src/etpan/etpan-ssl.c:167
 msgid "Impossible to set the client certificate.\n"
@@ -3016,7 +3018,7 @@ msgid ""
 "The HTML output directory '%s'\n"
 "does not exist. Do you want to create it?"
 msgstr ""
-"HTML输出目录 '%s'\n"
+"HTML 输出目录 '%s'\n"
 "并不存在。创建新目录？"
 
 #: src/exphtmldlg.c:180
@@ -3029,7 +3031,7 @@ msgid ""
 "Could not create output directory for HTML file:\n"
 "%s"
 msgstr ""
-"无法为HTML文件创建输出目录:\n"
+"无法为 HTML 文件创建输出目录:\n"
 "%s"
 
 #: src/exphtmldlg.c:191 src/expldifdlg.c:201
@@ -3038,15 +3040,15 @@ msgstr "创建目录失败"
 
 #: src/exphtmldlg.c:233
 msgid "Error creating HTML file"
-msgstr "创建HTML文件时发生错误"
+msgstr "创建 HTML 文件时发生错误"
 
 #: src/exphtmldlg.c:319
 msgid "Select HTML output file"
-msgstr "选择HTML输出文件"
+msgstr "选择 HTML 输出文件"
 
 #: src/exphtmldlg.c:383
 msgid "HTML Output File"
-msgstr "HTML输出文件"
+msgstr "HTML 输出文件"
 
 #: src/exphtmldlg.c:392 src/expldifdlg.c:409 src/export.c:171 src/import.c:170
 #: src/importldif.c:684
@@ -3081,15 +3083,15 @@ msgstr "自定义"
 
 #: src/exphtmldlg.c:457
 msgid "Custom-2"
-msgstr "自定义-2"
+msgstr "自定义 - 2"
 
 #: src/exphtmldlg.c:458
 msgid "Custom-3"
-msgstr "自定义-3"
+msgstr "自定义 - 3"
 
 #: src/exphtmldlg.c:459
 msgid "Custom-4"
-msgstr "自定义-4"
+msgstr "自定义 - 4"
 
 #: src/exphtmldlg.c:466
 msgid "Full Name Format"
@@ -3129,7 +3131,7 @@ msgstr "用网页浏览器打开"
 
 #: src/exphtmldlg.c:591
 msgid "Export Address Book to HTML File"
-msgstr "将地址簿输出成HTML文件"
+msgstr "将地址簿输出成 HTML 文件"
 
 #: src/exphtmldlg.c:656 src/expldifdlg.c:720 src/importldif.c:1020
 msgid "File Info"
@@ -3145,7 +3147,7 @@ msgstr "请指明所要创建的目录和 LDIF 文件名。"
 
 #: src/expldifdlg.c:110
 msgid "Specify parameters to format distinguished name."
-msgstr "指定创建唯一名称(DN)的参数。"
+msgstr "指定创建唯一名称 (DN) 的参数。"
 
 #: src/expldifdlg.c:187
 #, c-format
@@ -3153,7 +3155,7 @@ msgid ""
 "LDIF Output Directory '%s'\n"
 "does not exist. OK to create new directory?"
 msgstr ""
-"LDIF输出目录 '%s'\n"
+"LDIF 输出目录 '%s'\n"
 "并不存在。是否创建新的目录？"
 
 #: src/expldifdlg.c:190
@@ -3166,7 +3168,7 @@ msgid ""
 "Could not create output directory for LDIF file:\n"
 "%s"
 msgstr ""
-"无法为LDIF文件创建输出目录:\n"
+"无法为 LDIF 文件创建输出目录:\n"
 "%s"
 
 #: src/expldifdlg.c:241
@@ -3178,19 +3180,19 @@ msgid ""
 "A suffix is required if data is to be used for an LDAP server. Are you sure "
 "you wish to proceed without a suffix?"
 msgstr ""
-"如果数据要用于LDAP服务器的话，后缀是必须的。你确定不用指定后缀就继续么？"
+"如果数据要用于 LDAP 服务器的话，后缀是必须的。你确定不用指定后缀就继续么？"
 
 #: src/expldifdlg.c:261
 msgid "Error creating LDIF file"
-msgstr "创建LDIF文件出错"
+msgstr "创建 LDIF 文件出错"
 
 #: src/expldifdlg.c:336
 msgid "Select LDIF output file"
-msgstr "选择LDIF输出文件"
+msgstr "选择 LDIF 输出文件"
 
 #: src/expldifdlg.c:400
 msgid "LDIF Output File"
-msgstr "LDIF输出文件"
+msgstr "LDIF 输出文件"
 
 #: src/expldifdlg.c:431
 msgid ""
@@ -3198,7 +3200,7 @@ msgid ""
 "to:\n"
 "  uid=102376,ou=people,dc=claws-mail,dc=org"
 msgstr ""
-"用地址簿里面的唯一ID生成DN数据，结果格式如下:\n"
+"用地址簿里面的唯一 ID 生成 DN 数据，结果格式如下:\n"
 "  uid=102376,ou=people,dc=claws-mail,dc=org"
 
 #: src/expldifdlg.c:437
@@ -3207,7 +3209,7 @@ msgid ""
 "similar to:\n"
 "  cn=John Doe,ou=people,dc=claws-mail,dc=org"
 msgstr ""
-"用地址簿里面的显示名生成DN数据，结果格式如下:\n"
+"用地址簿里面的显示名生成 DN 数据，结果格式如下:\n"
 "  cn=John Doe,ou=people,dc=claws-mail,dc=org"
 
 #: src/expldifdlg.c:443
@@ -3216,7 +3218,7 @@ msgid ""
 "formatted similar to:\n"
 "  mail=john.doe@domain.com,ou=people,dc=claws-mail,dc=org"
 msgstr ""
-"用该人所拥有的第一个邮件地址生成DN数据，结果格式如下:\n"
+"用该人所拥有的第一个邮件地址生成 DN 数据，结果格式如下:\n"
 "  mail=john.doe@domain.com,ou=people,dc=claws-mail,dc=org"
 
 #: src/expldifdlg.c:489
@@ -3231,7 +3233,8 @@ msgid ""
 "  ou=people,dc=domainname,dc=com\n"
 "  o=Organization Name,c=Country\n"
 msgstr ""
-"此后缀用于为LDAP条目创建唯一标识\"Distinguished Name\" (简称 DN)。示例:  \n"
+"此后缀用于为 LDAP 条目创建唯一标识 \"Distinguished Name\" (简称 DN)。示"
+"例:  \n"
 "  dc=claws-mail,dc=org\n"
 "  ou=people,dc=domainname,dc=com\n"
 "  o=Organization Name,c=Country\n"
@@ -3252,14 +3255,14 @@ msgid ""
 "Distinguished Name\" (or RDN) to create the DN. Please select one of the "
 "available RDN options that will be used to create the DN."
 msgstr ""
-"LDIF文件包含的多个数据记录通常均可导入LDAP服务器。LDIF文件中的数据记录可用"
-"\"Distinguished Name\" (简称 DN)这一属性唯一定位。通常在\"Relative "
-"Distinguished Name\" (简称 RDN) 后面添加后缀来创建DN唯一标识。请在可行的RDN选"
-"项中选择一个用于创建DN唯一表示。"
+"LDIF 文件包含的多个数据记录通常均可导入 LDAP 服务器。LDIF 文件中的数据记录可"
+"用 \"Distinguished Name\" (简称 DN) 这一属性唯一定位。通常在 \"Relative "
+"Distinguished Name\" (简称 RDN) 后面添加后缀来创建 DN 唯一标识。请在可行的 "
+"RDN 选项中选择一个用于创建 DN 唯一表示。"
 
 #: src/expldifdlg.c:543
 msgid "Use DN attribute if present in data"
-msgstr "使用数据中已有的DN属性"
+msgstr "使用数据中已有的 DN 属性"
 
 #: src/expldifdlg.c:548
 msgid ""
@@ -3268,9 +3271,9 @@ msgid ""
 "address book data, may be used in the exported LDIF file. The RDN selected "
 "above will be used if the DN user attribute is not found."
 msgstr ""
-"地址簿中可能包含一些以前从LDIF格式的文件中导入的条目。如果这些条目已经含有"
-"\"Distinguished Name\"(DN)数据，这里可以直接使用它们。如果不能找到DN数据，则"
-"使用RDN数据。"
+"地址簿中可能包含一些以前从 LDIF 格式的文件中导入的条目。如果这些条目已经含有 "
+"\"Distinguished Name\"(DN) 数据，这里可以直接使用它们。如果不能找到 DN 数据，"
+"则使用 RDN 数据。"
 
 #: src/expldifdlg.c:558
 msgid "Exclude record if no Email Address"
@@ -3284,15 +3287,15 @@ msgstr "地址簿中的联系人可能没有邮件地址。选中此项则可以
 
 #: src/expldifdlg.c:655
 msgid "Export Address Book to LDIF File"
-msgstr "将地址簿输出成LDIF文件"
+msgstr "将地址簿输出成 LDIF 文件"
 
 #: src/expldifdlg.c:721
 msgid "Distinguished Name"
-msgstr "唯一名称(DN)"
+msgstr "唯一名称 (DN)"
 
 #: src/export.c:113 src/summaryview.c:8190
 msgid "Export to mbox file"
-msgstr "以mbox格式导出目录"
+msgstr "以 mbox 格式导出目录"
 
 #: src/export.c:131
 msgid "Locate the folder to export and specify the mbox file."
@@ -3304,7 +3307,7 @@ msgstr "来源目录:"
 
 #: src/export.c:148 src/import.c:142
 msgid "Mbox file:"
-msgstr "Mbox文件:"
+msgstr "Mbox 文件:"
 
 #: src/export.c:203
 msgid "Target mbox filename can't be left empty."
@@ -3333,7 +3336,7 @@ msgstr "属性"
 
 #: src/exporthtml.c:974
 msgid "Claws Mail Address Book"
-msgstr "Claws Mail地址簿"
+msgstr "Claws Mail 地址簿"
 
 #: src/exporthtml.c:1069 src/exportldif.c:606
 msgid "Name already exists but is not a directory."
@@ -3366,7 +3369,7 @@ msgstr "无法连接服务器"
 msgid ""
 "The file %s is empty or corrupted! Do you want to use the backup file from "
 "%s?"
-msgstr "文件 %s 是空白的或已经损毁！确认要用使用来自%s的备份文件吗？"
+msgstr "文件 %s 是空白的或已经损毁！确认要用使用来自 %s 的备份文件吗？"
 
 #: src/filtering.c:603 src/filtering.c:678 src/filtering.c:707
 #, fuzzy
@@ -3456,7 +3459,7 @@ msgstr ""
 #: src/filtering.c:752
 #, fuzzy, c-format
 msgid "applying action [ %s ]\n"
-msgstr "套用动作 [ %s ]\n"
+msgstr "套用动作 [%s]\n"
 
 #: src/filtering.c:757
 #, fuzzy
@@ -3466,7 +3469,7 @@ msgstr "无法套用此动作\n"
 #: src/filtering.c:759
 #, fuzzy, c-format
 msgid "no further processing after action [ %s ]\n"
-msgstr "此动作 [ %s ] 套用后没有其它的处理进程\n"
+msgstr "此动作 [%s] 套用后没有其它的处理进程\n"
 
 #: src/filtering.c:810
 #, fuzzy, c-format
@@ -3476,17 +3479,17 @@ msgstr "运行处理规则(_U)"
 #: src/filtering.c:814
 #, fuzzy, c-format
 msgid "processing rule <unnamed> [ %s ]\n"
-msgstr "套用规则 <unnamed> [ %s ]\n"
+msgstr "套用规则 <unnamed> [%s]\n"
 
 #: src/filtering.c:832
 #, fuzzy, c-format
 msgid "disabled rule '%s' [ %s ]\n"
-msgstr "关闭规则 '%s' [ %s ]\n"
+msgstr "关闭规则 '%s' [%s]\n"
 
 #: src/filtering.c:836
 #, fuzzy, c-format
 msgid "disabled rule <unnamed> [ %s ]\n"
-msgstr "关闭规则 <unnamed> [ %s ]\n"
+msgstr "关闭规则 <unnamed> [%s]\n"
 
 #: src/filtering.c:874
 #, fuzzy
@@ -3526,7 +3529,7 @@ msgid ""
 "%s%s %s\n"
 msgstr ""
 "邮件过滤中 (%s%s%s)\n"
-"%s邮件文件： %s\n"
+"%s 邮件文件： %s\n"
 "%s%s %s\n"
 "%s%s %s\n"
 "%s%s %s\n"
@@ -3544,7 +3547,7 @@ msgid ""
 "%smessage file: %s\n"
 msgstr ""
 "邮件过滤中 (%s%s%s)\n"
-"%s邮件文件： %s\n"
+"%s 邮件文件： %s\n"
 
 #: src/folder.c:1565 src/foldersel.c:403 src/prefs_folder_item.c:300
 msgid "Inbox"
@@ -3569,17 +3572,17 @@ msgstr "草稿"
 #: src/folder.c:2011
 #, c-format
 msgid "Processing (%s)...\n"
-msgstr "处理中(%s)…\n"
+msgstr "处理中 (%s)…\n"
 
 #: src/folder.c:3256
 #, c-format
 msgid "Copying %s to %s...\n"
-msgstr "将%s 复制到%s…\n"
+msgstr "将 %s 复制到 %s…\n"
 
 #: src/folder.c:3256
 #, c-format
 msgid "Moving %s to %s...\n"
-msgstr "将%s 移动到%s…\n"
+msgstr "将 %s 移动到 %s…\n"
 
 #: src/folder.c:3564
 #, c-format
@@ -3593,7 +3596,7 @@ msgstr "正在处理邮件…"
 #: src/folder.c:4563
 #, c-format
 msgid "Synchronising %s for offline use...\n"
-msgstr "正在同步%s以便离线使用…\n"
+msgstr "正在同步 %s 以便离线使用…\n"
 
 #: src/folder.c:4820
 #, fuzzy
@@ -3616,7 +3619,7 @@ msgstr "新目录"
 #: src/plugins/vcalendar/vcal_folder.c:2043
 #, c-format
 msgid "'%c' can't be included in folder name."
-msgstr "目录名称不能包含`%c'。"
+msgstr "目录名称不能包含 `%c'。"
 
 #: src/foldersel.c:610 src/imap_gtk.c:225 src/imap_gtk.c:283 src/mh_gtk.c:167
 #: src/mh_gtk.c:273 src/news_gtk.c:321 src/plugins/mailmbox/plugin_gtk.c:269
@@ -3624,14 +3627,14 @@ msgstr "目录名称不能包含`%c'。"
 #: src/plugins/vcalendar/vcal_folder.c:2050
 #, c-format
 msgid "The folder '%s' already exists."
-msgstr "目录'%s'已存在。"
+msgstr "目录 '%s' 已存在。"
 
 #: src/foldersel.c:617 src/imap_gtk.c:231 src/mh_gtk.c:173
 #: src/plugins/mailmbox/plugin_gtk.c:276 src/plugins/rssyl/opml_import.c:91
 #: src/plugins/rssyl/rssyl_cb_menu.c:124
 #, c-format
 msgid "Can't create the folder '%s'."
-msgstr "无法创建目录'%s'。"
+msgstr "无法创建目录 '%s'。"
 
 #: src/folderview.c:236
 msgid "Mark all re_ad"
@@ -3707,7 +3710,7 @@ msgstr "全部标记为已读"
 #: src/folderview.c:1015 src/imap.c:4605 src/mainwindow.c:5174 src/setup.c:91
 #, fuzzy, c-format
 msgid "Scanning folder %s%c%s..."
-msgstr "扫描目录%s%c%s…"
+msgstr "扫描目录 %s%c%s…"
 
 #: src/folderview.c:1019 src/imap.c:4610 src/mainwindow.c:5179 src/setup.c:96
 #, fuzzy, c-format
@@ -3765,7 +3768,7 @@ msgstr "清空废件夹内所有邮件？"
 #: src/folderview.c:2381
 #, fuzzy
 msgid "_Empty trash"
-msgstr "+清空废件夹(_E)"
+msgstr "+ 清空废件夹(_E)"
 
 #: src/folderview.c:2424 src/inc.c:1540 src/toolbar.c:2607
 msgid "Offline warning"
@@ -3910,7 +3913,7 @@ msgstr "搞定。"
 #: src/grouplistdialog.c:492
 #, c-format
 msgid "%d newsgroups received (%s read)"
-msgstr "已接收%d新闻组(已读%s)"
+msgstr "已接收 %d 新闻组 (已读 %s)"
 
 #: src/gtk/about.c:131
 msgid ""
@@ -3918,9 +3921,9 @@ msgid ""
 "\n"
 "For further information visit the Claws Mail website:\n"
 msgstr ""
-"Claws Mail是一个轻量级的邮件客户端，具有速度快、可配置性强的特点。\n"
+"Claws Mail 是一个轻量级的邮件客户端，具有速度快、可配置性强的特点。\n"
 "\n"
-"如欲获得进一步的信息，请访问Claws Mail网站:\n"
+"如欲获得进一步的信息，请访问 Claws Mail 网站:\n"
 
 #: src/gtk/about.c:137
 #, fuzzy
@@ -3942,8 +3945,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Claws Mail是自由软件，在遵循通用许可协议(GPL)的前提下发布。如果你想给Claws "
-"Mail项目捐款，可访问如下网址:\n"
+"Claws Mail 是自由软件，在遵循通用许可协议 (GPL) 的前提下发布。如果你想给 "
+"Claws Mail 项目捐款，可访问如下网址:\n"
 
 #: src/gtk/about.c:158
 #, fuzzy
@@ -3976,7 +3979,7 @@ msgid ""
 "Locale: %s (charset: %s)\n"
 "Operating System: %s %s (%s)"
 msgstr ""
-"GTK+版本: %d.%d.%d / GLib版本: %d.%d.%d\n"
+"GTK + 版本: %d.%d.%d/GLib 版本: %d.%d.%d\n"
 "本地语言: %s (字符集: %s)\n"
 "操作系统: %s %s (%s)"
 
@@ -3986,7 +3989,7 @@ msgid ""
 "Locale: %s (charset: %s)\n"
 "Operating System: %s"
 msgstr ""
-"GTK+版本: %d.%d.%d / GLib版本: %d.%d.%d\n"
+"GTK + 版本: %d.%d.%d/GLib 版本: %d.%d.%d\n"
 "本地语言: %s (字符集: %s)\n"
 "操作系统: %s"
 
@@ -3996,13 +3999,13 @@ msgid ""
 "Locale: %s (charset: %s)\n"
 "Operating System: unknown"
 msgstr ""
-"GTK+版本: %d.%d.%d / GLib版本: %d.%d.%d\n"
+"GTK + 版本: %d.%d.%d/GLib 版本: %d.%d.%d\n"
 "本地语言: %s (字符集: %s)\n"
 "操作系统: (未知)"
 
 #: src/gtk/about.c:242 src/prefs_themes.c:706 src/wizard.c:526
 msgid "The Claws Mail Team"
-msgstr "Claws Mail开发组"
+msgstr "Claws Mail 开发组"
 
 #: src/gtk/about.c:261
 msgid "Previous team members"
@@ -4035,7 +4038,7 @@ msgstr "本版本编译进的特性\n"
 #: src/gtk/about.c:420
 msgctxt "compface"
 msgid "adds support for the X-Face header\n"
-msgstr "提供X-Face邮件头的支持\n"
+msgstr "提供 X-Face 邮件头的支持\n"
 
 #: src/gtk/about.c:430
 msgctxt "Enchant"
@@ -4050,7 +4053,7 @@ msgstr "提供采用加密方式连接服务器的功能\n"
 #: src/gtk/about.c:450
 msgctxt "IPv6"
 msgid "adds support for IPv6 addresses, the new Internet addressing protocol\n"
-msgstr "提供对IPv6地址的支持，IPv6是新一代的因特网寻址协议\n"
+msgstr "提供对 IPv6 地址的支持，IPv6 是新一代的因特网寻址协议\n"
 
 #: src/gtk/about.c:461
 msgctxt "iconv"
@@ -4060,17 +4063,17 @@ msgstr "提供在不同字符集之间的转换功能\n"
 #: src/gtk/about.c:471
 msgctxt "JPilot"
 msgid "adds support for PalmOS addressbooks\n"
-msgstr "提供PalmOS地址簿支持\n"
+msgstr "提供 PalmOS 地址簿支持\n"
 
 #: src/gtk/about.c:481
 msgctxt "LDAP"
 msgid "adds support for LDAP shared addressbooks\n"
-msgstr "提供LDAP共享地址簿支持\n"
+msgstr "提供 LDAP 共享地址簿支持\n"
 
 #: src/gtk/about.c:491
 msgctxt "libetpan"
 msgid "adds support for IMAP and NNTP servers\n"
-msgstr "提供连接IMAP和NNTP服务器的功能\n"
+msgstr "提供连接 IMAP 和 NNTP 服务器的功能\n"
 
 #: src/gtk/about.c:501
 msgctxt "libSM"
@@ -4090,8 +4093,8 @@ msgid ""
 "version.\n"
 "\n"
 msgstr ""
-"本程序为自由软件；你可以任意传播或是修改它，但需遵循自由软件基金会发布的GNU通"
-"用许可协议(可以是第三版或者更高版本)中列出的条款。\n"
+"本程序为自由软件；你可以任意传播或是修改它，但需遵循自由软件基金会发布的 GNU "
+"通用许可协议 (可以是第三版或者更高版本) 中列出的条款。\n"
 "\n"
 
 #: src/gtk/about.c:549
@@ -4103,7 +4106,7 @@ msgid ""
 "\n"
 msgstr ""
 "提供本程序仅仅是期望它能够有所用途，但并不附带任何保障，既没有一般商品规格所"
-"隐含的质量担保，也没有特殊用途的担保。请阅读GNU通用许可协议以了解详情。\n"
+"隐含的质量担保，也没有特殊用途的担保。请阅读 GNU 通用许可协议以了解详情。\n"
 "\n"
 
 #: src/gtk/about.c:567
@@ -4111,7 +4114,7 @@ msgstr ""
 msgid ""
 "You should have received a copy of the GNU General Public License along with "
 "this program. If not, see "
-msgstr "你应该随同本程序收到一份GNU通用公共许可(GPL)。如未收到，请访问: "
+msgstr "你应该随同本程序收到一份 GNU 通用公共许可 (GPL)。如未收到，请访问: "
 
 #: src/gtk/about.c:698 src/main.c:2541
 msgid "Session statistics\n"
@@ -4157,7 +4160,7 @@ msgstr "待发邮件总数: %d\n"
 
 #: src/gtk/about.c:773
 msgid "About Claws Mail"
-msgstr "关于Claws Mail"
+msgstr "关于 Claws Mail"
 
 #: src/gtk/about.c:831
 #, fuzzy
@@ -4273,16 +4276,16 @@ msgstr "没有选择任何字典。"
 #: src/gtk/gtkaspell.c:365 src/gtk/gtkaspell.c:395
 #, c-format
 msgid "Couldn't initialize %s speller."
-msgstr "无法初始化%s拼写工具。"
+msgstr "无法初始化 %s 拼写工具。"
 
 #: src/gtk/gtkaspell.c:707
 msgid "Couldn't initialize Enchant broker."
-msgstr "无法初始化Enchant拼写检查器代理。"
+msgstr "无法初始化 Enchant 拼写检查器代理。"
 
 #: src/gtk/gtkaspell.c:713
 #, c-format
 msgid "Couldn't initialize %s dictionary:"
-msgstr "无法初始化%s字典:"
+msgstr "无法初始化 %s 字典:"
 
 #: src/gtk/gtkaspell.c:1070
 msgid "No misspelled word found."
@@ -4302,7 +4305,7 @@ msgid ""
 "Holding down Control key while pressing Enter\n"
 "will learn from mistake.\n"
 msgstr ""
-"学习功能: 按住Control键时按Enter\n"
+"学习功能: 按住 Control 键时按 Enter\n"
 "可以将被认为拼写错误的单词加入到单词本。\n"
 
 #: src/gtk/gtkaspell.c:1800
@@ -4317,7 +4320,7 @@ msgstr "更多…"
 #: src/gtk/gtkaspell.c:1867
 #, fuzzy, c-format
 msgid "\"%s\" unknown in dictionary '%s'"
-msgstr "%s中的\"%s\"未知"
+msgstr "%s 中的 \"%s\" 未知"
 
 #: src/gtk/gtkaspell.c:1883
 msgid "Accept in this session"
@@ -4334,7 +4337,7 @@ msgstr "替换为…"
 #: src/gtk/gtkaspell.c:1916
 #, c-format
 msgid "Check with %s"
-msgstr "用%s检查"
+msgstr "用 %s 检查"
 
 #: src/gtk/gtkaspell.c:1938
 msgid "(no suggestions)"
@@ -4348,7 +4351,7 @@ msgstr "字典: %s"
 #: src/gtk/gtkaspell.c:2027
 #, c-format
 msgid "Use alternate (%s)"
-msgstr "用另一个(%s)"
+msgstr "用另一个 (%s)"
 
 #: src/gtk/gtkaspell.c:2038
 msgid "Use both dictionaries"
@@ -4452,7 +4455,7 @@ msgstr "消息 ID"
 
 #: src/gtk/headers.h:16
 msgid "Message-ID:"
-msgstr "消息ID:"
+msgstr "消息 ID:"
 
 #: src/gtk/headers.h:17
 msgid "In-Reply-To"
@@ -4544,11 +4547,11 @@ msgstr "再发密抄送:"
 
 #: src/gtk/headers.h:28
 msgid "Resent-Message-ID"
-msgstr "再发送消息ID"
+msgstr "再发送消息 ID"
 
 #: src/gtk/headers.h:28
 msgid "Resent-Message-ID:"
-msgstr "再发送消息ID:"
+msgstr "再发送消息 ID:"
 
 #: src/gtk/headers.h:29
 msgid "Return-Path"
@@ -4658,11 +4661,11 @@ msgstr "传送编码"
 
 #: src/gtk/headers.h:44
 msgid "MIME-Version"
-msgstr "MIME版本"
+msgstr "MIME 版本"
 
 #: src/gtk/headers.h:44
 msgid "MIME-Version:"
-msgstr "MIME版本:"
+msgstr "MIME 版本:"
 
 #: src/gtk/headers.h:45
 msgid "Precedence"
@@ -4900,7 +4903,7 @@ msgstr "已锁定的邮件"
 
 #: src/gtk/icon_legend.c:86
 msgid "Folder (normal, opened)"
-msgstr "目录(普通，已打开)"
+msgstr "目录 (普通，已打开)"
 
 #: src/gtk/icon_legend.c:87
 msgid "Folder with read messages hidden"
@@ -4918,12 +4921,12 @@ msgstr "图标说明"
 #, fuzzy
 msgid ""
 "The following icons are used to show the status of messages and folders:"
-msgstr "<span weight=\"bold\">下列图标用于标识邮件和目录的状态: </span>"
+msgstr "<span weight=\"bold\"> 下列图标用于标识邮件和目录的状态: </span>"
 
 #: src/gtk/inputdialog.c:233 src/gtk/inputdialog.c:255
 #, c-format
 msgid "Input password for %s on %s:"
-msgstr "请输入%s在%s上的密码:"
+msgstr "请输入 %s 在 %s 上的密码:"
 
 #: src/gtk/inputdialog.c:236 src/gtk/inputdialog.c:239
 #: src/gtk/inputdialog.c:258 src/gtk/inputdialog.c:261
@@ -4997,7 +5000,7 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
-"加载插件[%s]时发生如下错误:\n"
+"加载插件 [%s] 时发生如下错误:\n"
 "\n"
 "%s\n"
 
@@ -5043,11 +5046,11 @@ msgstr "描述"
 #: src/gtk/pluginwindow.c:374
 #, fuzzy, c-format
 msgid "For more information about plugins see the %sClaws Mail website%s."
-msgstr "可从Claws Mail网站下载更多插件。"
+msgstr "可从 Claws Mail 网站下载更多插件。"
 
 #: src/gtk/pluginwindow.c:415
 msgid "Click here to load one or more plugins"
-msgstr "点击此处加载插件(可多选)"
+msgstr "点击此处加载插件 (可多选)"
 
 #: src/gtk/pluginwindow.c:418
 msgid "Unload the selected plugin"
@@ -5120,15 +5123,15 @@ msgstr "已删除的邮件"
 
 #: src/gtk/quicksearch.c:461
 msgid "messages which contain S in the Sender field"
-msgstr "在发信人栏中包含S的邮件"
+msgstr "在发信人栏中包含 S 的邮件"
 
 #: src/gtk/quicksearch.c:462
 msgid "true if execute \"S\" succeeds"
-msgstr "如果执行 \"S\"成功"
+msgstr "如果执行 \"S\" 成功"
 
 #: src/gtk/quicksearch.c:463
 msgid "messages originating from user S"
-msgstr "由S所发出的邮件"
+msgstr "由 S 所发出的邮件"
 
 #: src/gtk/quicksearch.c:464
 msgid "forwarded messages"
@@ -5141,24 +5144,24 @@ msgstr "带附件的邮件"
 #: src/gtk/quicksearch.c:466
 #, fuzzy
 msgid "messages which contain S in any header name or value"
-msgstr "在X-Label信息头里含有S的邮件"
+msgstr "在 X-Label 信息头里含有 S 的邮件"
 
 #: src/gtk/quicksearch.c:467
 #, fuzzy
 msgid "messages which contain S in the value of any header"
-msgstr "在X-Label信息头里含有S的邮件"
+msgstr "在 X-Label 信息头里含有 S 的邮件"
 
 #: src/gtk/quicksearch.c:468
 msgid "messages which contain S in Message-ID header"
-msgstr "在消息ID中包含 S 的邮件"
+msgstr "在消息 ID 中包含 S 的邮件"
 
 #: src/gtk/quicksearch.c:469
 msgid "messages which contain S in In-Reply-To header"
-msgstr "在回复信头中包含S的邮件"
+msgstr "在回复信头中包含 S 的邮件"
 
 #: src/gtk/quicksearch.c:470
 msgid "messages which are marked with color #"
-msgstr "带颜色标记#的邮件"
+msgstr "带颜色标记 #的邮件"
 
 #: src/gtk/quicksearch.c:471
 msgid "locked messages"
@@ -5166,7 +5169,7 @@ msgstr "已锁定的邮件"
 
 #: src/gtk/quicksearch.c:472
 msgid "messages which are in newsgroup S"
-msgstr "在新闻组S中的邮件"
+msgstr "在新闻组 S 中的邮件"
 
 #: src/gtk/quicksearch.c:473
 msgid "new messages"
@@ -5178,7 +5181,7 @@ msgstr "旧邮件"
 
 #: src/gtk/quicksearch.c:475
 msgid "incomplete messages (not entirely downloaded)"
-msgstr "不完整的邮件(未完全下载)"
+msgstr "不完整的邮件 (未完全下载)"
 
 #: src/gtk/quicksearch.c:476
 #, fuzzy
@@ -5191,45 +5194,45 @@ msgstr "已读邮件"
 
 #: src/gtk/quicksearch.c:478
 msgid "messages which contain S in subject"
-msgstr "主题中包含S的邮件"
+msgstr "主题中包含 S 的邮件"
 
 #: src/gtk/quicksearch.c:479
 #, fuzzy
 msgid "messages whose score is equal to # points"
-msgstr "得分与#一样高的邮件"
+msgstr "得分与 #一样高的邮件"
 
 #: src/gtk/quicksearch.c:480
 #, fuzzy
 msgid "messages whose score is greater than # points"
-msgstr "得分较#高的邮件"
+msgstr "得分较 #高的邮件"
 
 #: src/gtk/quicksearch.c:481
 #, fuzzy
 msgid "messages whose score is lower than # points"
-msgstr "得分较#低的邮件"
+msgstr "得分较 #低的邮件"
 
 #: src/gtk/quicksearch.c:482
 #, fuzzy
 msgid "messages whose size is equal to # bytes"
-msgstr "文件与#一样大的邮件"
+msgstr "文件与 #一样大的邮件"
 
 #: src/gtk/quicksearch.c:483
 #, fuzzy
 msgid "messages whose size is greater than # bytes"
-msgstr "文件比#大的邮件"
+msgstr "文件比 #大的邮件"
 
 #: src/gtk/quicksearch.c:484
 #, fuzzy
 msgid "messages whose size is smaller than # bytes"
-msgstr "文件比#小的邮件"
+msgstr "文件比 #小的邮件"
 
 #: src/gtk/quicksearch.c:485
 msgid "messages which have been sent to S"
-msgstr "已经送给S的邮件"
+msgstr "已经送给 S 的邮件"
 
 #: src/gtk/quicksearch.c:486
 msgid "messages which tags contain S"
-msgstr "在标签中包含S的邮件"
+msgstr "在标签中包含 S 的邮件"
 
 #: src/gtk/quicksearch.c:487
 msgid "messages which have tag(s)"
@@ -5245,28 +5248,28 @@ msgstr "未读消息"
 
 #: src/gtk/quicksearch.c:490
 msgid "messages which contain S in References header"
-msgstr "在References信息头里含有S的邮件"
+msgstr "在 References 信息头里含有 S 的邮件"
 
 #: src/gtk/quicksearch.c:491
 #, c-format
 msgid "messages returning 0 when passed to command - %F is message file"
-msgstr "邮件传送给命令进行处理时返回0 - %F为邮件文件名称"
+msgstr "邮件传送给命令进行处理时返回 0 - %F 为邮件文件名称"
 
 #: src/gtk/quicksearch.c:492
 msgid "messages which contain S in X-Label header"
-msgstr "在X-Label信息头里含有S的邮件"
+msgstr "在 X-Label 信息头里含有 S 的邮件"
 
 #: src/gtk/quicksearch.c:494
 msgid "logical AND operator"
-msgstr "逻辑运算AND"
+msgstr "逻辑运算 AND"
 
 #: src/gtk/quicksearch.c:495
 msgid "logical OR operator"
-msgstr "逻辑运算OR"
+msgstr "逻辑运算 OR"
 
 #: src/gtk/quicksearch.c:496
 msgid "logical NOT operator"
-msgstr "逻辑运算NOT"
+msgstr "逻辑运算 NOT"
 
 #: src/gtk/quicksearch.c:497
 msgid "case sensitive search"
@@ -5387,7 +5390,7 @@ msgstr "到期于："
 #: src/gtk/sslcertwindow.c:302
 #, c-format
 msgid "SSL certificate for %s"
-msgstr "%s 的SSL数字证书"
+msgstr "%s 的 SSL 数字证书"
 
 #: src/gtk/sslcertwindow.c:318
 #, fuzzy, c-format
@@ -5396,7 +5399,7 @@ msgid ""
 "You may be connecting to a rogue server.\n"
 "\n"
 msgstr ""
-"%s的签证，但却是连接至%s。\n"
+"%s 的签证，但却是连接至 %s。\n"
 "可能是连接到一个恶意的服务器\n"
 "\n"
 
@@ -5422,12 +5425,12 @@ msgstr "查看数字证书(_V)"
 #: src/gtk/sslcertwindow.c:364
 #, fuzzy
 msgid "SSL certificate is invalid"
-msgstr "SSL认证(_T)"
+msgstr "SSL 认证(_T)"
 
 #: src/gtk/sslcertwindow.c:366
 #, fuzzy
 msgid "SSL certificate is unknown"
-msgstr "SSL认证(_T)"
+msgstr "SSL 认证(_T)"
 
 #: src/gtk/sslcertwindow.c:369 src/gtk/sslcertwindow.c:419
 #: src/gtk/sslcertwindow.c:481
@@ -5455,7 +5458,7 @@ msgstr "SSL 签证是无效且过期的"
 #: src/gtk/sslcertwindow.c:416
 #, fuzzy
 msgid "SSL certificate is expired"
-msgstr "SSL认证(_T)"
+msgstr "SSL 认证(_T)"
 
 #: src/gtk/sslcertwindow.c:419
 msgid "_Accept"
@@ -5474,7 +5477,7 @@ msgstr "已知的数字证书:"
 msgid ""
 "Certificate for %s has changed.\n"
 "%sDo you want to accept it?"
-msgstr "%s的数字证书已更改。是否接受？"
+msgstr "%s 的数字证书已更改。是否接受？"
 
 #: src/gtk/sslcertwindow.c:472
 msgid "_View certificates"
@@ -5483,12 +5486,12 @@ msgstr "查看数字证书(_V)"
 #: src/gtk/sslcertwindow.c:477
 #, fuzzy
 msgid "SSL certificate changed and is invalid"
-msgstr "%s 的SSL数字证书"
+msgstr "%s 的 SSL 数字证书"
 
 #: src/gtk/sslcertwindow.c:479
 #, fuzzy
 msgid "SSL certificate changed"
-msgstr "SSL认证(_T)"
+msgstr "SSL 认证(_T)"
 
 #: src/headerview.c:95
 msgid "Tags:"
@@ -5528,7 +5531,7 @@ msgstr "载入图像"
 
 #: src/imap.c:582
 msgid "IMAP4 connection broken\n"
-msgstr "IMAP4连接已经断开\n"
+msgstr "IMAP4 连接已经断开\n"
 
 #: src/imap.c:621 src/imap.c:624 src/imap.c:627 src/imap.c:630 src/imap.c:633
 #: src/imap.c:637 src/imap.c:640 src/imap.c:643 src/imap.c:646 src/imap.c:650
@@ -5561,12 +5564,12 @@ msgstr " 错误状态\n"
 #: src/imap.c:630
 #, fuzzy
 msgid " stream error\n"
-msgstr "Socket错误。"
+msgstr "Socket 错误。"
 
 #: src/imap.c:633
 #, fuzzy
 msgid " parse error (very probably non-RFC compliance from the server)\n"
-msgstr " 解析错误(很可能是因为不符合服务器的RFC规范)\n"
+msgstr " 解析错误 (很可能是因为不符合服务器的 RFC 规范)\n"
 
 #: src/imap.c:637
 #, fuzzy
@@ -5576,7 +5579,7 @@ msgstr "连接失败"
 #: src/imap.c:640
 #, fuzzy
 msgid " memory error\n"
-msgstr "IMAP错误%s: 内存错误\n"
+msgstr "IMAP 错误 %s: 内存错误\n"
 
 #: src/imap.c:643
 #, fuzzy
@@ -5586,12 +5589,12 @@ msgstr "内部错误"
 #: src/imap.c:646
 #, fuzzy
 msgid " protocol error (very probably non-RFC compliance from the server)\n"
-msgstr " 协定错误(很可能是因为不符合服务器的RFC规范)\n"
+msgstr " 协定错误 (很可能是因为不符合服务器的 RFC 规范)\n"
 
 #: src/imap.c:650
 #, fuzzy
 msgid " connection not accepted\n"
-msgstr "%s IMAP错误: 连接不被接受\n"
+msgstr "%s IMAP 错误: 连接不被接受\n"
 
 #: src/imap.c:653
 #, fuzzy
@@ -5661,7 +5664,7 @@ msgstr " 截取错误\n"
 #: src/imap.c:692
 #, fuzzy
 msgid " UID FETCH error\n"
-msgstr " UID取得错误\n"
+msgstr " UID 取得错误\n"
 
 #: src/imap.c:695
 #, fuzzy
@@ -5691,7 +5694,7 @@ msgstr " 搜索错误\n"
 #: src/imap.c:710
 #, fuzzy
 msgid " UID SEARCH error\n"
-msgstr " UID搜索错误\n"
+msgstr " UID 搜索错误\n"
 
 #: src/imap.c:713
 #, fuzzy
@@ -5711,7 +5714,7 @@ msgstr " 保存错误\n"
 #: src/imap.c:722
 #, fuzzy
 msgid " UID STORE error\n"
-msgstr " UID保存错误\n"
+msgstr " UID 保存错误\n"
 
 #: src/imap.c:725
 #, fuzzy
@@ -5726,12 +5729,12 @@ msgstr " 取消定阅错误\n"
 #: src/imap.c:731
 #, fuzzy
 msgid " STARTTLS error\n"
-msgstr " STARTLS错误\n"
+msgstr " STARTLS 错误\n"
 
 #: src/imap.c:734
 #, fuzzy
 msgid " INVAL error\n"
-msgstr " INVAL错误\n"
+msgstr " INVAL 错误\n"
 
 #: src/imap.c:737
 #, fuzzy
@@ -5762,8 +5765,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"CRAM-MD5登录方式仅仅在libetpan编译进了SASL支持并且CRAM-MD5 SASL插件已经加载的"
-"情况下可用。"
+"CRAM-MD5 登录方式仅仅在 libetpan 编译进了 SASL 支持并且 CRAM-MD5 SASL 插件已"
+"经加载的情况下可用。"
 
 #: src/imap.c:946
 msgid ""
@@ -5774,8 +5777,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"CRAM-MD5登录方式仅仅在编译libetpan时添加了SASL支持并且CRAM-MD5 SASL插件已经加"
-"载的情况下可用。"
+"CRAM-MD5 登录方式仅仅在编译 libetpan 时添加了 SASL 支持并且 CRAM-MD5 SASL 插"
+"件已经加载的情况下可用。"
 
 #: src/imap.c:952
 #, fuzzy
@@ -5787,8 +5790,8 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"CRAM-MD5登录方式仅仅在libetpan编译进了SASL支持并且CRAM-MD5 SASL插件已经加载的"
-"情况下可用。"
+"CRAM-MD5 登录方式仅仅在 libetpan 编译进了 SASL 支持并且 CRAM-MD5 SASL 插件已"
+"经加载的情况下可用。"
 
 #: src/imap.c:959
 #, c-format
@@ -5808,12 +5811,12 @@ msgstr "连接到 %s 失败"
 #: src/imap.c:988 src/imap.c:991
 #, c-format
 msgid "IMAP4 connection to %s has been disconnected. Reconnecting...\n"
-msgstr "与 %s 的IMAP4连接已经断开。正在重新连接…\n"
+msgstr "与 %s 的 IMAP4 连接已经断开。正在重新连接…\n"
 
 #: src/imap.c:1021 src/imap.c:3652 src/imap.c:4311 src/imap.c:4408
 #: src/imap.c:4586 src/imap.c:5398
 msgid "Claws Mail needs network access in order to access the IMAP server."
-msgstr "Claws Mail需要访问网络才能连接IMAP服务。"
+msgstr "Claws Mail 需要访问网络才能连接 IMAP 服务。"
 
 #: src/imap.c:1130 src/inc.c:818 src/news.c:387 src/send_message.c:281
 msgid "Insecure connection"
@@ -5827,8 +5830,8 @@ msgid ""
 "Do you want to continue connecting to this server? The communication would "
 "not be secure."
 msgstr ""
-"该连接已经被配置为使用SSL确保安全，但本版本的Claws Mail并没有SSL功能(编译时没"
-"有加入)。\n"
+"该连接已经被配置为使用 SSL 确保安全，但本版本的 Claws Mail 并没有 SSL 功能 "
+"(编译时没有加入)。\n"
 "请问是否要继续连接该服务器? 如果继续的话，并不能保证通讯是安全的。"
 
 #: src/imap.c:1137 src/inc.c:825 src/news.c:394 src/send_message.c:288
@@ -5852,7 +5855,7 @@ msgstr "无法连接到 IMAP4 服务器: %s:%d\n"
 
 #: src/imap.c:1231 src/imap.c:4073
 msgid "Can't start TLS session.\n"
-msgstr "无法启动TLS。\n"
+msgstr "无法启动 TLS。\n"
 
 #: src/imap.c:1294
 #, c-format
@@ -5883,16 +5886,16 @@ msgstr "无法擦除\n"
 #: src/imap.c:2871
 #, c-format
 msgid "Looking for unsubscribed folders in %s..."
-msgstr "正在%s中查找未订阅的目录…"
+msgstr "正在 %s 中查找未订阅的目录…"
 
 #: src/imap.c:2874
 #, c-format
 msgid "Looking for subfolders of %s..."
-msgstr "正在查找%s的子目录…"
+msgstr "正在查找 %s 的子目录…"
 
 #: src/imap.c:3192
 msgid "can't create mailbox: LIST failed\n"
-msgstr "无法创建收信夹: LIST失败\n"
+msgstr "无法创建收信夹: LIST 失败\n"
 
 #: src/imap.c:3207
 msgid "can't create mailbox\n"
@@ -5901,7 +5904,7 @@ msgstr "无法启动收信夹\n"
 #: src/imap.c:3338
 #, c-format
 msgid "can't rename mailbox: %s to %s\n"
-msgstr "无法将邮箱%s 重新命名为 %s\n"
+msgstr "无法将邮箱 %s 重新命名为 %s\n"
 
 #: src/imap.c:3451
 msgid "can't delete mailbox\n"
@@ -5923,7 +5926,7 @@ msgstr "无法选择目录: %s\n"
 
 #: src/imap.c:4070
 msgid "Server requires TLS to log in.\n"
-msgstr "需要TLS特性才能登录服务器。\n"
+msgstr "需要 TLS 特性才能登录服务器。\n"
 
 #: src/imap.c:4080
 msgid "Can't refresh capabilities.\n"
@@ -5935,8 +5938,8 @@ msgid ""
 "Connection to %s failed: server requires TLS, but Claws Mail has been "
 "compiled without TLS support.\n"
 msgstr ""
-"不能成功连接上%s: 需要TLS特性才能登录该服务器，但编译时Claws Mail没有指定要包"
-"含OpenSSL支持。\n"
+"不能成功连接上 %s: 需要 TLS 特性才能登录该服务器，但编译时 Claws Mail 没有指"
+"定要包含 OpenSSL 支持。\n"
 
 #: src/imap.c:4093
 msgid "Server logins are disabled.\n"
@@ -5959,10 +5962,10 @@ msgid ""
 "\n"
 "You probably need to install libetpan and recompile Claws Mail."
 msgstr ""
-"你定义了多个IMAP帐号, 但当前的这个Claws Mail编译时并没有添加IMAP支持，故IMAP"
-"帐号将被禁用。\n"
+"你定义了多个 IMAP 帐号, 但当前的这个 Claws Mail 编译时并没有添加 IMAP 支持，"
+"故 IMAP 帐号将被禁用。\n"
 "\n"
-"你需要安装libetpan并重新编译Claws Mail。"
+"你需要安装 libetpan 并重新编译 Claws Mail。"
 
 #: src/imap_gtk.c:63 src/mh_gtk.c:55 src/plugins/mailmbox/plugin_gtk.c:59
 msgid "Create _new folder..."
@@ -6031,7 +6034,7 @@ msgid ""
 msgstr ""
 "请输入新目录的名字:\n"
 "(如果想创建一个可包含子目录，但不包含邮件的目录，\n"
-"请在名字的后面加上'/')"
+"请在名字的后面加上 '/')"
 
 #: src/imap_gtk.c:199 src/mh_gtk.c:147
 msgid "Inherit properties from parent folder"
@@ -6042,7 +6045,7 @@ msgstr "从父目录继承属性"
 #: src/plugins/vcalendar/vcal_folder.c:2035
 #, c-format
 msgid "Input new name for '%s':"
-msgstr "请输入'%s'的新名字:"
+msgstr "请输入 '%s' 的新名字:"
 
 #: src/imap_gtk.c:262 src/mh_gtk.c:255 src/plugins/mailmbox/plugin_gtk.c:414
 #: src/plugins/rssyl/rssyl_cb_menu.c:200
@@ -6068,7 +6071,7 @@ msgid ""
 "\n"
 "Do you really want to delete?"
 msgstr ""
-"在'%s'之下的所有目录以及其中所有的邮件将被永久删除，不可能恢复。\n"
+"在 '%s' 之下的所有目录以及其中所有的邮件将被永久删除，不可能恢复。\n"
 "\n"
 "确实要删除吗？"
 
@@ -6077,12 +6080,12 @@ msgstr ""
 #: src/plugins/vcalendar/vcal_folder.c:1989
 #, c-format
 msgid "Can't remove the folder '%s'."
-msgstr "无法删除目录'%s'。"
+msgstr "无法删除目录 '%s'。"
 
 #: src/imap_gtk.c:506
 #, c-format
 msgid "Do you want to search for unsubscribed subfolders of '%s'?"
-msgstr "是否要搜索'%s'的尚未订阅的子目录?"
+msgstr "是否要搜索 '%s' 的尚未订阅的子目录?"
 
 #: src/imap_gtk.c:509
 msgid "Search recursively"
@@ -6099,7 +6102,7 @@ msgstr "搜索(_S)"
 #: src/imap_gtk.c:525
 #, c-format
 msgid "Choose a subfolder of %s to subscribe to: "
-msgstr "请选择%s的一个子目录订阅: "
+msgstr "请选择 %s 的一个子目录订阅: "
 
 #: src/imap_gtk.c:536 src/mainwindow.c:675
 msgid "Subscribe"
@@ -6118,8 +6121,8 @@ msgid ""
 msgstr ""
 "已经订阅此目录，且没有尚未订阅的子目录。\n"
 "\n"
-"如果有新目录（采用其它客户端创建或者订阅的），可用邮箱根目录的\"检查新目录"
-"\"命令。"
+"如果有新目录（采用其它客户端创建或者订阅的），可用邮箱根目录的 \"检查新目录"
+"\" 命令。"
 
 #: src/imap_gtk.c:565
 #, c-format
@@ -6149,11 +6152,11 @@ msgstr "退订(_U)"
 
 #: src/import.c:113 src/import.c:207
 msgid "Import mbox file"
-msgstr "导入mbox格式的邮件包"
+msgstr "导入 mbox 格式的邮件包"
 
 #: src/import.c:131
 msgid "Locate the mbox file and specify the destination folder."
-msgstr "请指定mbox文件和目标目录。"
+msgstr "请指定 mbox 文件和目标目录。"
 
 #: src/import.c:148
 msgid "Destination folder:"
@@ -6161,7 +6164,7 @@ msgstr "目的文档夹："
 
 #: src/import.c:202
 msgid "Source mbox filename can't be left empty."
-msgstr "源mbox文件名不能空置。"
+msgstr "源 mbox 文件名不能空置。"
 
 #: src/import.c:207
 msgid ""
@@ -6169,7 +6172,7 @@ msgid ""
 "Import mbox file to the Inbox folder?"
 msgstr ""
 "未设置目标目录.\n"
-"是否要将mbox文件导入收信夹?"
+"是否要将 mbox 文件导入收信夹?"
 
 #: src/import.c:229
 msgid "Can't find the destination folder."
@@ -6185,7 +6188,7 @@ msgstr "请选择欲导入的地址簿及文件名。"
 
 #: src/importldif.c:188
 msgid "Select and rename LDIF field names to import."
-msgstr "选择并重命名要导入的LDIF字段名。"
+msgstr "选择并重命名要导入的 LDIF 字段名。"
 
 #: src/importldif.c:191
 msgid "File imported."
@@ -6201,17 +6204,17 @@ msgstr "必须提供地址簿名称。"
 
 #: src/importldif.c:496
 msgid "LDIF file imported successfully."
-msgstr "LDIF文件导入成功。"
+msgstr "LDIF 文件导入成功。"
 
 #: src/importldif.c:581
 msgid "Select LDIF File"
-msgstr "选择LDIF文件"
+msgstr "选择 LDIF 文件"
 
 #: src/importldif.c:667
 msgid ""
 "Specify the name for the address book that will be created from the LDIF "
 "file data."
-msgstr "指定地址簿的名称, 该地址簿用于存放从LDIF文件中导入的数据。"
+msgstr "指定地址簿的名称, 该地址簿用于存放从 LDIF 文件中导入的数据。"
 
 #: src/importldif.c:672
 msgid "File Name"
@@ -6219,11 +6222,11 @@ msgstr "文件名"
 
 #: src/importldif.c:682
 msgid "The full file specification of the LDIF file to import."
-msgstr "需要导入的LDIF文件的位置"
+msgstr "需要导入的 LDIF 文件的位置"
 
 #: src/importldif.c:689
 msgid "Select the LDIF file to import."
-msgstr "请选择要导入的LDIF文件。"
+msgstr "请选择要导入的 LDIF 文件。"
 
 #: src/importldif.c:725
 #, fuzzy
@@ -6236,7 +6239,7 @@ msgstr "S"
 
 #: src/importldif.c:727
 msgid "LDIF Field Name"
-msgstr "LDIF字段名"
+msgstr "LDIF 字段名"
 
 #: src/importldif.c:728
 msgid "Attribute Name"
@@ -6244,7 +6247,7 @@ msgstr "属性名称"
 
 #: src/importldif.c:783
 msgid "LDIF Field"
-msgstr "LDIF域"
+msgstr "LDIF 域"
 
 #: src/importldif.c:795
 msgid "Attribute"
@@ -6260,14 +6263,14 @@ msgid ""
 "below the list. A double click anywhere in the row will also select the "
 "field for import."
 msgstr ""
-"请在上面的LDIF字段列表中选择要操作的字段。保留字段(在\"R\"栏有选中标记)将会被"
-"自动导入，不能重命名。单击\"选中\"栏(\"S\")可以将该字段标记为需要导入；单击一"
-"行的其他地方将使得该字段的详细内容显示在下面，可以进行重命名；双击一行重任何"
-"地方也可以使该字段处于选中状态。"
+"请在上面的 LDIF 字段列表中选择要操作的字段。保留字段 (在\"R\"栏有选中标记) 将"
+"会被自动导入，不能重命名。单击 \"选中\" 栏 (\"S\") 可以将该字段标记为需要导"
+"入；单击一行的其他地方将使得该字段的详细内容显示在下面，可以进行重命名；双击"
+"一行重任何地方也可以使该字段处于选中状态。"
 
 #: src/importldif.c:822
 msgid "The LDIF field can be renamed to the User Attribute name."
-msgstr "LDIF域可以重命名为用户属性名称。"
+msgstr "LDIF 域可以重命名为用户属性名称。"
 
 #: src/importldif.c:827
 msgid "Select for Import"
@@ -6275,7 +6278,7 @@ msgstr "选择导入该项"
 
 #: src/importldif.c:832
 msgid "Select the LDIF field for import into the address book."
-msgstr "选择要导入到地址簿的LDIF字段。"
+msgstr "选择要导入到地址簿的 LDIF 字段。"
 
 #: src/importldif.c:834
 msgid " Modify "
@@ -6292,7 +6295,7 @@ msgstr "已导入的记录:"
 
 #: src/importldif.c:943
 msgid "Import LDIF file into Address Book"
-msgstr "将LDIF文件导入至地址簿"
+msgstr "将 LDIF 文件导入至地址簿"
 
 #: src/importldif.c:980
 msgid "Proceed"
@@ -6300,15 +6303,15 @@ msgstr "继续"
 
 #: src/importmutt.c:141
 msgid "Error importing MUTT file."
-msgstr "导入MUTT文件失败。"
+msgstr "导入 MUTT 文件失败。"
 
 #: src/importmutt.c:156
 msgid "Select MUTT File"
-msgstr "选择MUTT文件"
+msgstr "选择 MUTT 文件"
 
 #: src/importmutt.c:203
 msgid "Import MUTT file into Address Book"
-msgstr "将MUTT文件导入至地址簿"
+msgstr "将 MUTT 文件导入至地址簿"
 
 #: src/importmutt.c:288 src/importpine.c:288
 msgid "Please select a file to import."
@@ -6316,19 +6319,19 @@ msgstr "请选择导入的文件。"
 
 #: src/importpine.c:140
 msgid "Error importing Pine file."
-msgstr "导入Pine文件失败。"
+msgstr "导入 Pine 文件失败。"
 
 #: src/importpine.c:155
 msgid "Select Pine File"
-msgstr "选择Pine文件"
+msgstr "选择 Pine 文件"
 
 #: src/importpine.c:202
 msgid "Import Pine file into Address Book"
-msgstr "将Pine文件导入至地址簿中"
+msgstr "将 Pine 文件导入至地址簿中"
 
 #: src/inc.c:186 src/inc.c:295 src/inc.c:322
 msgid "Claws Mail needs network access in order to get mails."
-msgstr "Claws Mail需要访问网络才能收取邮件。"
+msgstr "Claws Mail 需要访问网络才能收取邮件。"
 
 #: src/inc.c:344
 #, c-format
@@ -6355,11 +6358,11 @@ msgstr "正在收取"
 #, c-format
 msgid "Done (%d message (%s) received)"
 msgid_plural "Done (%d messages (%s) received)"
-msgstr[0] "完成(取回%d个邮件(%s))"
+msgstr[0] "完成 (取回 %d 个邮件 (%s))"
 
 #: src/inc.c:647
 msgid "Done (no new messages)"
-msgstr "完成(没有新邮件)"
+msgstr "完成 (没有新邮件)"
 
 #: src/inc.c:652
 msgid "Connection failed"
@@ -6382,7 +6385,7 @@ msgstr "超时"
 #, c-format
 msgid "Finished (%d new message)"
 msgid_plural "Finished (%d new messages)"
-msgstr[0] "完成 (%d个新邮件)"
+msgstr[0] "完成 (%d 个新邮件)"
 
 #: src/inc.c:763
 msgid "Finished (no new messages)"
@@ -6391,22 +6394,22 @@ msgstr "完成 (没有新邮件)"
 #: src/inc.c:802
 #, c-format
 msgid "%s: Retrieving new messages"
-msgstr "%s:正在收取邮件"
+msgstr "%s: 正在收取邮件"
 
 #: src/inc.c:832
 #, fuzzy, c-format
 msgid "Account '%s': Connecting to POP3 server: %s:%d..."
-msgstr "'%s' 帐号: 正在连接POP3服务器: %s…"
+msgstr "'%s' 帐号: 正在连接 POP3 服务器: %s…"
 
 #: src/inc.c:850
 #, c-format
 msgid "Can't connect to POP3 server: %s:%d"
-msgstr " 无法连接到POP3服务器: %s:%d"
+msgstr " 无法连接到 POP3 服务器: %s:%d"
 
 #: src/inc.c:854
 #, c-format
 msgid "Can't connect to POP3 server: %s:%d\n"
-msgstr "无法连接到POP3服务器: %s:%d\n"
+msgstr "无法连接到 POP3 服务器: %s:%d\n"
 
 #: src/inc.c:934 src/plugins/managesieve/managesieve.c:427
 #: src/send_message.c:497
@@ -6416,38 +6419,38 @@ msgstr "正在授权…"
 #: src/inc.c:936
 #, fuzzy, c-format
 msgid "Retrieving messages from %s (%s)..."
-msgstr "正在从%s收取邮件 (%s)…"
+msgstr "正在从 %s 收取邮件 (%s)…"
 
 #: src/inc.c:942
 msgid "Getting the number of new messages (STAT)..."
-msgstr "获取新邮件数目中(STAT)…"
+msgstr "获取新邮件数目中 (STAT)…"
 
 #: src/inc.c:946
 msgid "Getting the number of new messages (LAST)..."
-msgstr " 获取新邮件数目中(LAST)…"
+msgstr " 获取新邮件数目中 (LAST)…"
 
 #: src/inc.c:950
 msgid "Getting the number of new messages (UIDL)..."
-msgstr " 获取新邮件数目中(UIDL)…"
+msgstr " 获取新邮件数目中 (UIDL)…"
 
 #: src/inc.c:954
 msgid "Getting the size of messages (LIST)..."
-msgstr "获取邮件大小中(LIST)…"
+msgstr "获取邮件大小中 (LIST)…"
 
 #: src/inc.c:961 src/send_message.c:515
 msgid "Quitting"
 msgstr "正退出"
 
 #: src/inc.c:986
-#, c-format
+#, fuzzy, c-format
 msgid "Retrieving message (%d / %d) (%s / %s)"
-msgstr "取回邮件(%d/%d)(%s/%s)"
+msgstr "取回邮件 (%d/%d)(%s/%s)"
 
 #: src/inc.c:999
 #, c-format
 msgid "Retrieving (%d message (%s) received)"
 msgid_plural "Retrieving (%d messages (%s) received)"
-msgstr[0] "正在收取邮件(已收到%d个，大小为%s)"
+msgstr[0] "正在收取邮件 (已收到 %d 个，大小为 %s)"
 
 #: src/inc.c:1158
 #, c-format
@@ -6477,7 +6480,7 @@ msgstr "无法写入文件。"
 
 #: src/inc.c:1185
 msgid "Socket error."
-msgstr "Socket错误。"
+msgstr "Socket 错误。"
 
 #: src/inc.c:1188
 #, c-format
@@ -6491,7 +6494,7 @@ msgstr "连接被远程主机关闭。"
 #: src/inc.c:1196
 #, c-format
 msgid "Connection to %s:%d closed by the remote host."
-msgstr "与%s:%d的连接被远程主机关闭。"
+msgstr "与 %s:%d 的连接被远程主机关闭。"
 
 #: src/inc.c:1201
 msgid "Mailbox is locked."
@@ -6523,7 +6526,7 @@ msgstr ""
 msgid ""
 "Session timed out. You may be able to recover by increasing the timeout "
 "value in Preferences/Other/Miscellaneous."
-msgstr "会话超时。你可以在'偏好设置/其它/杂项'中增大超时时间。"
+msgstr "会话超时。你可以在 '偏好设置/其它/杂项' 中增大超时时间。"
 
 #: src/inc.c:1227
 #, c-format
@@ -6537,12 +6540,12 @@ msgstr "合并操作被取消\n"
 #: src/inc.c:1530
 #, c-format
 msgid "%s%sYou're working offline. Override for %d minutes?"
-msgstr "%s%s你正在脱机工作。是否在%d分钟内更改？"
+msgstr "%s%s 你正在脱机工作。是否在 %d 分钟内更改？"
 
 #: src/inc.c:1536
 #, c-format
 msgid "%s%sYou're working offline. Override?"
-msgstr "%s%s你正在脱机工作。是否临时切换到离线模式？"
+msgstr "%s%s 你正在脱机工作。是否临时切换到离线模式？"
 
 #: src/inc.c:1543
 msgid "On_ly once"
@@ -6563,7 +6566,7 @@ msgid ""
 "File '%s' already exists.\n"
 "Can't create folder."
 msgstr ""
-"文件'%s'已存在。\n"
+"文件 '%s' 已存在。\n"
 "无法创建目录。"
 
 #: src/main.c:363
@@ -6585,7 +6588,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"您的Sylpheed过滤规则可以采用下面位置指定的脚本进行转换:\n"
+"您的 Sylpheed 过滤规则可以采用下面位置指定的脚本进行转换:\n"
 "%s"
 
 #: src/main.c:377
@@ -6598,8 +6601,8 @@ msgid ""
 "a while if you have cached IMAP or News data, and will take some extra room "
 "on your disk."
 msgstr ""
-"保留备份使得你可以转回使用一个旧版本，但升级过程会多消耗一些时间(尤其是您有缓"
-"冲的IMAP或者新闻组邮件的话)，并且会多占用一些磁盘空间。"
+"保留备份使得你可以转回使用一个旧版本，但升级过程会多消耗一些时间 (尤其是您有"
+"缓冲的 IMAP 或者新闻组邮件的话)，并且会多占用一些磁盘空间。"
 
 #: src/main.c:388
 msgid "Migration of configuration"
@@ -6607,7 +6610,7 @@ msgstr "配置迁移"
 
 #: src/main.c:399
 msgid "Copying configuration... This may take a while..."
-msgstr "正在复制配置…这也许将需要一会儿…"
+msgstr "正在复制配置… 这也许将需要一会儿…"
 
 #: src/main.c:408
 msgid "Migration failed!"
@@ -6646,8 +6649,8 @@ msgid ""
 "possibly due to a failing IMAP account. Use \"Rebuild folder tree\" on the "
 "mailbox parent folder's context menu to try to fix it."
 msgstr ""
-"Claws Mail检测到一个尚未配置完全的邮箱。它很可能是由于IMAP帐号失败造成的。请"
-"选择邮箱，用右键菜单中的\"重建邮件夹树\"来尝试修复它。"
+"Claws Mail 检测到一个尚未配置完全的邮箱。它很可能是由于 IMAP 帐号失败造成的。"
+"请选择邮箱，用右键菜单中的 \"重建邮件夹树\" 来尝试修复它。"
 
 #: src/main.c:1479
 msgid ""
@@ -6655,7 +6658,7 @@ msgid ""
 "probably provided by an out-of-date external plugin. Please reinstall the "
 "plugin and try again."
 msgstr ""
-"Claws Mail检测到一个已经配置的邮箱，但无法加载。它可能是由一个已经过时的第三"
+"Claws Mail 检测到一个已经配置的邮箱，但无法加载。它可能是由一个已经过时的第三"
 "方插件建立的。请重新安装该插件后再尝试。"
 
 #: src/main.c:1729
@@ -6674,11 +6677,11 @@ msgstr "信头格式错误\n"
 #: src/main.c:1754
 #, fuzzy
 msgid "Duplicated 'To:' header\n"
-msgstr "重复的'收件者:'标头\n"
+msgstr "重复的 '收件者:' 标头\n"
 
 #: src/main.c:1765
 msgid "Missing required 'To:' header\n"
-msgstr "缺少'To:'信息\n"
+msgstr "缺少'To:' 信息\n"
 
 #: src/main.c:1908
 #, c-format
@@ -6703,13 +6706,13 @@ msgstr ""
 "  --compose-from-file 文件名称\n"
 "                         从指定的文件内数据打开新邮件窗口；\n"
 "                         使用 - 作为从标准输入读取的文件名称；\n"
-"                         内容格式： 以标头开始(收件者：是必要的)，直到空白"
+"                         内容格式： 以标头开始 (收件者：是必要的)，直到空白"
 "行，接着是\n"
 "                         邮件的内容，直到文件结束"
 
 #: src/main.c:1916
 msgid "  --subscribe [uri]      subscribe to the given URI if possible"
-msgstr "  --subscribe [uri]      订阅指定的URI"
+msgstr "  --subscribe [uri]      订阅指定的 URI"
 
 #: src/main.c:1917
 msgid ""
@@ -6717,7 +6720,7 @@ msgid ""
 "                         open composition window with specified files\n"
 "                         attached"
 msgstr ""
-"  --attach 文件1 [文件2]…\n"
+"  --attach 文件 1 [文件 2]…\n"
 "                         打开写新邮件窗口，并附上所指定的文件"
 
 #: src/main.c:1920
@@ -6801,7 +6804,7 @@ msgstr "  --offline              切换到脱机模式"
 
 #: src/main.c:1941
 msgid "  --exit --quit -q       exit Claws Mail"
-msgstr "  --exit --quit -q       退出Claws Mail"
+msgstr "  --exit --quit -q       退出 Claws Mail"
 
 #: src/main.c:1942
 msgid "  --debug                debug mode"
@@ -6845,7 +6848,7 @@ msgstr "未知选项\n"
 #: src/main.c:2016
 #, c-format
 msgid "Processing (%s)..."
-msgstr "正在处理(%s)…"
+msgstr "正在处理 (%s)…"
 
 #: src/main.c:2019
 msgid "top level folder"
@@ -6885,7 +6888,7 @@ msgstr "添加邮箱(_A)"
 
 #: src/mainwindow.c:517
 msgid "MH..."
-msgstr "MH格式…"
+msgstr "MH 格式…"
 
 #: src/mainwindow.c:520
 msgid "Change mailbox order..."
@@ -6893,15 +6896,15 @@ msgstr "改变邮箱顺序…"
 
 #: src/mainwindow.c:523
 msgid "_Import mbox file..."
-msgstr "导入mbox格式的邮件包(_I)…"
+msgstr "导入 mbox 格式的邮件包(_I)…"
 
 #: src/mainwindow.c:524
 msgid "_Export to mbox file..."
-msgstr "以mbox格式导出(_E)…"
+msgstr "以 mbox 格式导出(_E)…"
 
 #: src/mainwindow.c:525
 msgid "_Export selected to mbox file..."
-msgstr "以mbox格式导出选中的邮件(_E)…"
+msgstr "以 mbox 格式导出选中的邮件(_E)…"
 
 #: src/mainwindow.c:527
 msgid "Empty all _Trash folders"
@@ -7385,7 +7388,7 @@ msgstr "彻底清除"
 
 #: src/mainwindow.c:770
 msgid "SSL cer_tificates"
-msgstr "SSL认证(_T)"
+msgstr "SSL 认证(_T)"
 
 #: src/mainwindow.c:774
 msgid "Filtering Lo_g"
@@ -7716,11 +7719,11 @@ msgstr "不允许发贴"
 
 #: src/mainwindow.c:3977
 msgid "Mbox import has failed."
-msgstr "导入mbox文件失败。"
+msgstr "导入 mbox 文件失败。"
 
 #: src/mainwindow.c:3986 src/mainwindow.c:3995
 msgid "Export to mbox has failed."
-msgstr "导出到mbox失败。"
+msgstr "导出到 mbox 失败。"
 
 #: src/mainwindow.c:4036 src/plugins/notification/notification_trayicon.c:509
 msgid "Exit"
@@ -7741,7 +7744,7 @@ msgstr "是否现在同步目录?"
 #: src/mainwindow.c:4229
 #, fuzzy
 msgid "_Synchronise"
-msgstr "+同步(_S)"
+msgstr "+ 同步(_S)"
 
 #: src/mainwindow.c:4670
 msgid "Deleting duplicated messages..."
@@ -7751,7 +7754,7 @@ msgstr "删除重复的邮件…"
 #, c-format
 msgid "Deleted %d duplicate message in %d folders.\n"
 msgid_plural "Deleted %d duplicate messages in %d folders.\n"
-msgstr[0] "删除 %d 个重复的邮件(分布于 %d 个目录)。\n"
+msgstr[0] "删除 %d 个重复的邮件 (分布于 %d 个目录)。\n"
 
 #: src/mainwindow.c:4968 src/summaryview.c:5759
 msgid "Processing rules to apply before folder rules"
@@ -7771,7 +7774,7 @@ msgstr "无法注册默认程序: 不能获取程序路径"
 
 #: src/mainwindow.c:5158
 msgid "Claws Mail has been registered as default client."
-msgstr "Claws Mail已经被注册为默认程序。"
+msgstr "Claws Mail 已经被注册为默认程序。"
 
 #: src/mainwindow.c:5160
 msgid ""
@@ -7782,7 +7785,7 @@ msgstr "无法注册为默认程序: 不能写入注册表。"
 #, c-format
 msgid "Forgotten %d password in %d accounts.\n"
 msgid_plural "Forgotten %d passwords in %d accounts.\n"
-msgstr[0] "清除已记录的%d个密码(%d个账户)。\n"
+msgstr[0] "清除已记录的 %d 个密码 (%d 个账户)。\n"
 
 #: src/matcher.c:214 src/matcher.c:215 src/matcher.c:216 src/matcher.c:217
 #: src/matcher.c:218 src/matcher.c:219 src/matcher.c:220 src/matcher.c:221
@@ -7818,7 +7821,7 @@ msgstr "不分大小写"
 #: src/matcher.c:1849
 #, c-format
 msgid "checking if message matches [ %s ]\n"
-msgstr "正在检查邮件是否匹配[ %s ]\n"
+msgstr "正在检查邮件是否匹配 [%s]\n"
 
 #: src/matcher.c:1920 src/matcher.c:1939 src/matcher.c:1952
 msgid "message matches\n"
@@ -7839,18 +7842,18 @@ msgid ""
 "Could not open mbox file:\n"
 "%s\n"
 msgstr ""
-"无法打开mbox文件:\n"
+"无法打开 mbox 文件:\n"
 "%s\n"
 
 #: src/mbox.c:144
 #, fuzzy, c-format
 msgid "Importing from mbox... (%d mail imported)"
 msgid_plural "Importing from mbox... (%d mails imported)"
-msgstr[0] "正在从mbox文件导入… (已经导入%d封邮件)"
+msgstr[0] "正在从 mbox 文件导入… (已经导入 %d 封邮件)"
 
 #: src/mbox.c:553
 msgid "Overwrite mbox file"
-msgstr "覆盖mbox文件"
+msgstr "覆盖 mbox 文件"
 
 #: src/mbox.c:554
 msgid "This file already exists. Do you want to overwrite it?"
@@ -7867,12 +7870,12 @@ msgid ""
 "Could not create mbox file:\n"
 "%s\n"
 msgstr ""
-"无法创建mbox文件:\n"
+"无法创建 mbox 文件:\n"
 "%s\n"
 
 #: src/mbox.c:572
 msgid "Exporting to mbox..."
-msgstr "正在导出目录到mbox文件…"
+msgstr "正在导出目录到 mbox 文件…"
 
 #: src/message_search.c:162
 msgid "Find in current message"
@@ -7940,7 +7943,7 @@ msgid ""
 "It is advised to not to send the return receipt."
 msgstr ""
 "该邮件要求返回邮件收到通知。\n"
-"但你的邮件地址并未在来信的'收信人(To:)'和'抄送人(CC:)'中被指定。\n"
+"但你的邮件地址并未在来信的 '收信人 (To:)' 和 '抄送人 (CC:)' 中被指定。\n"
 "\n"
 "建议不发送回执。"
 
@@ -7978,11 +7981,11 @@ msgstr "无法保存文件 '%s'。"
 #: src/messageview.c:1910
 #, c-format
 msgid "Show all %s."
-msgstr "显示全部%s。"
+msgstr "显示全部 %s。"
 
 #: src/messageview.c:1912
 msgid "Only the first megabyte of text is shown."
-msgstr "仅显示内容的前1Mb文字。"
+msgstr "仅显示内容的前 1Mb 文字。"
 
 #: src/messageview.c:1943
 msgid ""
@@ -8125,7 +8128,7 @@ msgid ""
 "Can't remove the folder '%s'\n"
 "\n"
 "%s."
-msgstr "无法删除目录'%s'。"
+msgstr "无法删除目录 '%s'。"
 
 #: src/mh_gtk.c:365 src/plugins/mailmbox/plugin_gtk.c:298
 #, fuzzy, c-format
@@ -8133,7 +8136,7 @@ msgid ""
 "Really remove the mailbox '%s'?\n"
 "(The messages are NOT deleted from the disk)"
 msgstr ""
-"确定要移除邮箱'%s'？\n"
+"确定要移除邮箱 '%s'？\n"
 "(其中的邮件并不会从磁盘中删除)"
 
 #: src/mh_gtk.c:367 src/plugins/mailmbox/plugin_gtk.c:300
@@ -8168,7 +8171,7 @@ msgstr "全部保存(_A)…"
 
 #: src/mimeview.c:272
 msgid "MIME Type"
-msgstr "MIME类型"
+msgstr "MIME 类型"
 
 #: src/mimeview.c:1026 src/mimeview.c:1031 src/mimeview.c:1036
 #: src/mimeview.c:1041
@@ -8182,23 +8185,23 @@ msgstr "再次检查"
 #: src/mimeview.c:1059
 #, fuzzy, c-format
 msgid "%s Click the icon to check it."
-msgstr "点击图标或者按'C'选中。"
+msgstr "点击图标或者按'C' 选中。"
 
 #: src/mimeview.c:1061
 #, fuzzy, c-format
 msgid "%s Click the icon or hit '%s' to check it."
-msgstr "点击图标或者按'C'选中。"
+msgstr "点击图标或者按'C' 选中。"
 
 #: src/mimeview.c:1071
 #, fuzzy
 msgid "Timeout checking the signature. Click the icon to try again."
-msgstr "检查签名超时。请点击图标或者按'C'以重试。"
+msgstr "检查签名超时。请点击图标或者按'C' 以重试。"
 
 #: src/mimeview.c:1073
 #, fuzzy, c-format
 msgid ""
 "Timeout checking the signature. Click the icon or hit '%s' to try again."
-msgstr "检查签名超时。请点击图标或者按'C'以重试。"
+msgstr "检查签名超时。请点击图标或者按'C' 以重试。"
 
 #: src/mimeview.c:1313
 msgid "Checking signature..."
@@ -8226,7 +8229,7 @@ msgstr "选择目的目录"
 #: src/mimeview.c:1888 src/plugins/archive/archiver_prefs.c:132
 #, c-format
 msgid "'%s' is not a directory."
-msgstr "“%s”不是一个目录。"
+msgstr "“%s” 不是一个目录。"
 
 #: src/mimeview.c:2125 src/mimeview.c:2132 src/textview.c:2990
 msgid "Open with"
@@ -8290,7 +8293,7 @@ msgstr "描述："
 #: src/news.c:302
 #, fuzzy, c-format
 msgid "NNTP connection to %s:%d has been disconnected.\n"
-msgstr "与 %s:%d 的NNTP连接已经断开。正在重新连接…\n"
+msgstr "与 %s:%d 的 NNTP 连接已经断开。正在重新连接…\n"
 
 #: src/news.c:335
 #, fuzzy, c-format
@@ -8300,13 +8303,13 @@ msgstr "帐号 '%s': 正在连接到 NNTP 服务器: %s…\n"
 #: src/news.c:356
 #, fuzzy, c-format
 msgid "Error logging in to %s:%d...\n"
-msgstr "登录到%s时发生了错误: %d …\n"
+msgstr "登录到 %s 时发生了错误: %d …\n"
 
 #: src/news.c:437
 #, fuzzy
 msgid ""
 "Libetpan does not support return code 480 so for now we choose to continue\n"
-msgstr "Libetpan 不支持返回值480，因此将继续运行\n"
+msgstr "Libetpan 不支持返回值 480，因此将继续运行\n"
 
 #: src/news.c:446
 #, fuzzy
@@ -8316,16 +8319,16 @@ msgstr "虽然模式读取器失效，但仍将继续\n"
 #: src/news.c:450
 #, c-format
 msgid "Error creating session with %s:%d\n"
-msgstr "与%s通信时发生错误: %d\n"
+msgstr "与 %s 通信时发生错误: %d\n"
 
 #: src/news.c:465
 #, fuzzy, c-format
 msgid "Error authenticating to %s:%d...\n"
-msgstr "对%s授权时发生了错误: %d …\n"
+msgstr "对 %s 授权时发生了错误: %d …\n"
 
 #: src/news.c:490
 msgid "Claws Mail needs network access in order to access the News server."
-msgstr "Claws Mail需要访问网络才能链接倒News服务器。"
+msgstr "Claws Mail 需要访问网络才能链接倒 News 服务器。"
 
 #: src/news.c:861
 #, c-format
@@ -8344,7 +8347,7 @@ msgstr "无效帖子索引范围: %d - %d \n"
 
 #: src/news.c:1129 src/news.c:1153 src/news.c:1177
 msgid "couldn't get xhdr\n"
-msgstr "无法取得xhdr\n"
+msgstr "无法取得 xhdr\n"
 
 #: src/news.c:1213
 #, fuzzy, c-format
@@ -8353,7 +8356,7 @@ msgstr "取得 xover %d - %d 于 %s 内…\n"
 
 #: src/news.c:1228
 msgid "couldn't get xover\n"
-msgstr "无法取得xover\n"
+msgstr "无法取得 xover\n"
 
 #: src/news.c:1243
 #, fuzzy
@@ -8368,23 +8371,23 @@ msgid ""
 "\n"
 "You probably need to install libetpan and recompile Claws Mail."
 msgstr ""
-"你定义了多个新闻组(News)帐号, 但当前的这个Claws Mail编译时并没有添加新闻组支"
-"持，故新闻组帐号将被禁用。\n"
+"你定义了多个新闻组 (News) 帐号, 但当前的这个 Claws Mail 编译时并没有添加新闻"
+"组支持，故新闻组帐号将被禁用。\n"
 "\n"
-"你可能需要安装libetpan并重新编译Claws Mail。"
+"你可能需要安装 libetpan 并重新编译 Claws Mail。"
 
 #: src/news_gtk.c:56
 msgid "_Subscribe to newsgroup..."
-msgstr "订阅新闻组 (_S)…"
+msgstr "订阅新闻组(_S)…"
 
 #: src/news_gtk.c:57
 msgid "_Unsubscribe newsgroup"
-msgstr "退订新闻组 (_U)…"
+msgstr "退订新闻组(_U)…"
 
 #: src/news_gtk.c:265
 #, c-format
 msgid "Really unsubscribe newsgroup '%s'?"
-msgstr "确定要退订新闻组'%s'？"
+msgstr "确定要退订新闻组 '%s'？"
 
 #: src/news_gtk.c:266
 msgid "Unsubscribe newsgroup"
@@ -8396,7 +8399,7 @@ msgstr "重命名新闻组目录"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:51
 msgid "Acpi Notifier"
-msgstr "Acpi通知"
+msgstr "Acpi 通知"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:67
 #, fuzzy
@@ -8404,7 +8407,7 @@ msgid ""
 "Make sure that the kernel module 'acerhk' is loaded.\n"
 "You can get it from http://www.cakey.de/acerhk/"
 msgstr ""
-"请确认核心模块 'acerhk' 是否已加载\n"
+"请确认核心模块'acerhk' 是否已加载\n"
 "可以从 http://www.cakey.de/acerhk/ 取得"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:69
@@ -8413,28 +8416,28 @@ msgid ""
 "Make sure that the kernel module 'acer_acpi' is loaded.\n"
 "You can get it from http://code.google.com/p/aceracpi/"
 msgstr ""
-"请确认核心模块 'acer_acpi' 是否已加载\n"
+"请确认核心模块'acer_acpi' 是否已加载\n"
 "可以从 http://code.google.com/p/aceracpi/ 取得"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:71
 #, fuzzy
 msgid "Make sure that the kernel module 'asus_laptop' is loaded."
-msgstr "请确认核心模块 'asus_laptop' 是否已加载"
+msgstr "请确认核心模块'asus_laptop' 是否已加载"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:72
 msgid "Make sure that the kernel module 'asus_acpi' is loaded."
-msgstr "请确认内核模块'asus_acpi'已经加载。"
+msgstr "请确认内核模块'asus_acpi' 已经加载。"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:73
 msgid "Make sure that the kernel module 'ibm_acpi' is loaded."
-msgstr "请确认内核模块'ibm_acpi'已经加载。"
+msgstr "请确认内核模块'ibm_acpi' 已经加载。"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:74
 msgid ""
 "Make sure that you have apanelc installed.\n"
 "You can get it from http://apanel.sourceforge.net/"
 msgstr ""
-"请确认您已经安装了apanelc。\n"
+"请确认您已经安装了 apanelc。\n"
 "您可以从 http://apanel.sourceforge.net/ 下载它。"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:207
@@ -8481,11 +8484,11 @@ msgstr "LED "
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:386
 msgid "ACPI type: "
-msgstr "ACPI类型："
+msgstr "ACPI 类型："
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:395
 msgid "ACPI file: "
-msgstr "ACPI文件："
+msgstr "ACPI 文件："
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:406
 msgid "values - On: "
@@ -8502,7 +8505,7 @@ msgstr "当用户内部需求时闪烁"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:867
 msgid "This plugin handles various ACPI mail LEDs."
-msgstr "本插件利用ACPI来控制LED邮件通知。"
+msgstr "本插件利用 ACPI 来控制 LED 邮件通知。"
 
 #: src/plugins/acpi_notifier/acpi_notifier.c:888
 #, fuzzy
@@ -8575,7 +8578,7 @@ msgstr "所有信头中的所有地址"
 #, fuzzy
 msgid ""
 "Exclude addresses matching the following regular expressions (one per line)"
-msgstr "不包含符合下列正规表达式(1行1个)的地址"
+msgstr "不包含符合下列正规表达式 (1 行 1 个) 的地址"
 
 #: src/plugins/archive/archiver.c:43 src/plugins/archive/archiver_prefs.c:91
 #, fuzzy
@@ -8615,11 +8618,11 @@ msgid ""
 "Default options can be set in /Configuration/Preferences/Plugins/Mail "
 "Archiver"
 msgstr ""
-"这个插件程序为 Claws Mail加入了归档功能\n"
+"这个插件程序为 Claws Mail 加入了归档功能\n"
 "\n"
 "此程序提供你为归档功能选择一个邮件文件夹，接下来选择名称，格式和路径。子数据"
-"夹可以被包含在内，而且MD5的检查码编码也可以加在所有的归档文件内。数个归档选项"
-"都是有效的\n"
+"夹可以被包含在内，而且 MD5 的检查码编码也可以加在所有的归档文件内。数个归档选"
+"项都是有效的\n"
 "可以被归档方式包括：\n"
 "\tTAR\n"
 "\tPAX\n"
@@ -8632,9 +8635,9 @@ msgstr ""
 "\n"
 "支持的文件夹型式包含 MH, IMAP, RSSyl and vCalendar.\n"
 "\n"
-"要进行归档功能，进入 /工具/创建归档\n"
+"要进行归档功能，进入/工具/创建归档\n"
 "\n"
-"缺省选项可以设置在 /配置/选项/插件程序/邮件 归档器"
+"缺省选项可以设置在/配置/选项/插件程序/邮件 归档器"
 
 #: src/plugins/archive/archiver.c:152
 #, fuzzy
@@ -8945,8 +8948,8 @@ msgid ""
 "Names will be truncated to max 96 characters"
 msgstr ""
 "选择这个选项，将可为每一个归档的文件增加描述名称\n"
-"名称的设计为： 日期起源@至@主旨\n"
-"名称长度将被限制为最长96个字符"
+"名称的设计为： 日期起源 @至 @主旨\n"
+"名称长度将被限制为最长 96 个字符"
 
 #: src/plugins/archive/archiver_gtk.c:1190
 #, fuzzy
@@ -8969,7 +8972,7 @@ msgid ""
 "Date must comply to ISO-8601 [YYYY-MM-DD]"
 msgstr ""
 "在确认日期前选择邮件\n"
-"日期必需遵守 ISO-8601 [YYYY-MM-DD]的规定"
+"日期必需遵守 ISO-8601 [YYYY-MM-DD] 的规定"
 
 #: src/plugins/archive/archiver_prefs.c:186
 #, fuzzy
@@ -9044,7 +9047,7 @@ msgstr "缺省将选择这个选项以包含归档的子文件夹"
 #: src/plugins/archive/archiver_prefs.c:317
 #, fuzzy
 msgid "MD5sum"
-msgstr "MD5和"
+msgstr "MD5 和"
 
 #: src/plugins/archive/archiver_prefs.c:319
 #, fuzzy
@@ -9054,8 +9057,8 @@ msgid ""
 "Be aware though, that this dramatically increases the time it\n"
 "will take to create the archives"
 msgstr ""
-"缺省将选择这个选项，对每一个帮存的文件加入MD5的检查演算\n"
-"必需了解的是，创建归档将增加(读取的)时间\n"
+"缺省将选择这个选项，对每一个帮存的文件加入 MD5 的检查演算\n"
+"必需了解的是，创建归档将增加 (读取的) 时间\n"
 " "
 
 #: src/plugins/archive/archiver_prefs.c:323
@@ -9139,8 +9142,8 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"一个在你所发送的邮件中所提及的附加文件，事实上并不存在，这个描述是出现在第%d"
-"行，这字串这个为开头为： %s\n"
+"一个在你所发送的邮件中所提及的附加文件，事实上并不存在，这个描述是出现在第 "
+"%d 行，这字串这个为开头为： %s\n"
 "\n"
 "%s"
 
@@ -9172,7 +9175,7 @@ msgstr "添加附件"
 #: src/plugins/attachwarner/attachwarner_prefs.c:83
 #, fuzzy
 msgid "One of the following regular expressions is matched (one per line)"
-msgstr "以下规则表达式中至少有一项符合(每行一个)"
+msgstr "以下规则表达式中至少有一项符合 (每行一个)"
 
 #: src/plugins/attachwarner/attachwarner_prefs.c:87
 #, fuzzy
@@ -9258,16 +9261,16 @@ msgid ""
 "Use \"/Mark/Mark as spam\" and \"/Mark/Mark as ham\" to train Bogofilter "
 "with a few hundred spam and ham messages."
 msgstr ""
-"Bogofilter无法过滤邮件。很可能是因为它还没有接受过培训。\n"
-"请使用\"标记/标记为垃圾邮件\"和\"标记/标记为非垃圾邮件\"来培训Bogofilter，一"
-"般得培训几百封邮件后才能有较高的识别率。"
+"Bogofilter 无法过滤邮件。很可能是因为它还没有接受过培训。\n"
+"请使用 \"标记/标记为垃圾邮件\" 和 \"标记/标记为非垃圾邮件\" 来培训 "
+"Bogofilter，一般得培训几百封邮件后才能有较高的识别率。"
 
 #: src/plugins/bogofilter/bogofilter.c:619
 #, c-format
 msgid ""
 "The Bogofilter plugin couldn't filter a message. The command `%s %s %s` "
 "couldn't be run."
-msgstr "Bogofilter插件无法过滤邮件: 无法运行命令 `%s %s %s`。"
+msgstr "Bogofilter 插件无法过滤邮件: 无法运行命令 `%s %s %s`。"
 
 #: src/plugins/bogofilter/bogofilter.c:766
 msgid "Bogofilter: learning from message..."
@@ -9277,7 +9280,7 @@ msgstr "Bogofilter: 正在从邮件接受培训…"
 #: src/plugins/bogofilter/bogofilter.c:826 src/plugins/bsfilter/bsfilter.c:511
 #, c-format
 msgid "Learning failed; `%s` returned with status %d."
-msgstr "培训失败: `%s`返回状态%d。"
+msgstr "培训失败: `%s` 返回状态 %d。"
 
 #: src/plugins/bogofilter/bogofilter.c:794
 msgid "Bogofilter: learning from messages..."
@@ -9289,7 +9292,7 @@ msgid ""
 "Learning failed; `%s %s %s` returned with error:\n"
 "%s"
 msgstr ""
-"培训失败: `%s %s %s`返回错误:\n"
+"培训失败: `%s %s %s` 返回错误:\n"
 "%s"
 
 #: src/plugins/bogofilter/bogofilter.c:1010
@@ -9307,16 +9310,16 @@ msgid ""
 "\n"
 "Options can be found in /Configuration/Preferences/Plugins/Bogofilter"
 msgstr ""
-"本插件用Botofilter程序检查所有从IMAP, LOCAL或者POP帐号收到的邮件, 以判断来信"
-"是否是垃圾邮件。你需要先在本机安装Bogofilter。\n"
+"本插件用 Botofilter 程序检查所有从 IMAP, LOCAL 或者 POP 帐号收到的邮件, 以判"
+"断来信是否是垃圾邮件。你需要先在本机安装 Bogofilter。\n"
 "\n"
-"在Bogofilter能够正确识别垃圾邮件之前，你得先对它进行一下培训。培训方法就是先"
-"告诉它哪些是垃圾邮件(\"标记/标记为垃圾邮件\")，哪些不是(\"标记/标记为非垃圾邮"
-"件\")。\n"
+"在 Bogofilter 能够正确识别垃圾邮件之前，你得先对它进行一下培训。培训方法就是"
+"先告诉它哪些是垃圾邮件 (\"标记/标记为垃圾邮件\")，哪些不是 (\"标记/标记为非垃"
+"圾邮件\")。\n"
 "\n"
 "如果一个邮件被判断为垃圾邮件，它将会被删除或者保存到一个特殊目录。\n"
 "\n"
-"相关选项可以在'/配置/偏好/插件/Bogofilter'中设置"
+"相关选项可以在 '/ 配置/偏好/插件/Bogofilter' 中设置"
 
 #: src/plugins/bogofilter/bogofilter.c:1043 src/plugins/bsfilter/bsfilter.c:674
 #: src/plugins/spamassassin/spamassassin.c:651
@@ -9397,11 +9400,11 @@ msgstr "点击此按钮可选择一个目录，以用于存放不确定是否是
 
 #: src/plugins/bogofilter/bogofilter_gtk.c:258
 msgid "Insert X-Bogosity header"
-msgstr "插入X-Bogosity邮件头"
+msgstr "插入 X-Bogosity 邮件头"
 
 #: src/plugins/bogofilter/bogofilter_gtk.c:262
 msgid "Only done for messages in MH folders"
-msgstr "只检查MH格式的邮箱"
+msgstr "只检查 MH 格式的邮箱"
 
 #: src/plugins/bogofilter/bogofilter_gtk.c:268
 #: src/plugins/bsfilter/bsfilter_gtk.c:191
@@ -9437,8 +9440,8 @@ msgid ""
 "If Bogofilter thought an email was spam or unsure, but it was whitelisted, "
 "learn it as ham."
 msgstr ""
-"如果bogofilter认为电子邮件是垃圾邮件或不确定，但是它在白名单中，则学习并视为"
-"非垃圾邮件"
+"如果 bogofilter 认为电子邮件是垃圾邮件或不确定，但是它在白名单中，则学习并视"
+"为非垃圾邮件"
 
 #: src/plugins/bogofilter/bogofilter_gtk.c:295
 #, fuzzy
@@ -9447,7 +9450,7 @@ msgstr "bogofilter 调用"
 
 #: src/plugins/bogofilter/bogofilter_gtk.c:303
 msgid "Path to bogofilter executable"
-msgstr "bogofilter程序目录"
+msgstr "bogofilter 程序目录"
 
 #: src/plugins/bogofilter/bogofilter_gtk.c:309
 #: src/plugins/bsfilter/bsfilter_gtk.c:232
@@ -9478,16 +9481,16 @@ msgid ""
 "Use \"/Mark/Mark as spam\" and \"/Mark/Mark as ham\" to train Bsfilter with "
 "a few hundred spam and ham messages."
 msgstr ""
-"Bogofilter无法过滤邮件。很可能是因为它还没有接受过培训。\n"
-"请使用\"标记/标记为垃圾邮件\"和\"标记/标记为非垃圾邮件\"来培训Bogofilter，一"
-"般得培训几百封邮件后才能有较高的识别率。"
+"Bogofilter 无法过滤邮件。很可能是因为它还没有接受过培训。\n"
+"请使用 \"标记/标记为垃圾邮件\" 和 \"标记/标记为非垃圾邮件\" 来培训 "
+"Bogofilter，一般得培训几百封邮件后才能有较高的识别率。"
 
 #: src/plugins/bsfilter/bsfilter.c:400
 #, fuzzy, c-format
 msgid ""
 "The Bsfilter plugin couldn't filter a message. The command `%s` couldn't be "
 "run."
-msgstr "Bogofilter插件无法过滤邮件: 无法运行命令 `%s %s %s`。"
+msgstr "Bogofilter 插件无法过滤邮件: 无法运行命令 `%s %s %s`。"
 
 #: src/plugins/bsfilter/bsfilter.c:501
 #, fuzzy
@@ -9510,16 +9513,16 @@ msgid ""
 "\n"
 "Options can be found in /Configuration/Preferences/Plugins/Bsfilter"
 msgstr ""
-"本插件用Botofilter程序检查所有从IMAP, LOCAL或者POP帐号收到的邮件, 以判断来信"
-"是否是垃圾邮件。你需要先在本机安装Bogofilter。\n"
+"本插件用 Botofilter 程序检查所有从 IMAP, LOCAL 或者 POP 帐号收到的邮件, 以判"
+"断来信是否是垃圾邮件。你需要先在本机安装 Bogofilter。\n"
 "\n"
-"在Bogofilter能够正确识别垃圾邮件之前，你得先对它进行一下培训。培训方法就是先"
-"告诉它哪些是垃圾邮件(\"标记/标记为垃圾邮件\")，哪些不是(\"标记/标记为非垃圾邮"
-"件\")。\n"
+"在 Bogofilter 能够正确识别垃圾邮件之前，你得先对它进行一下培训。培训方法就是"
+"先告诉它哪些是垃圾邮件 (\"标记/标记为垃圾邮件\")，哪些不是 (\"标记/标记为非垃"
+"圾邮件\")。\n"
 "\n"
 "如果一个邮件被判断为垃圾邮件，它将会被删除或者保存到一个特殊目录。\n"
 "\n"
-"相关选项可以在'/配置/偏好/插件/Bogofilter'中设置"
+"相关选项可以在 '/ 配置/偏好/插件/Bogofilter' 中设置"
 
 #: src/plugins/bsfilter/bsfilter_gtk.c:171
 #: src/plugins/spamassassin/spamassassin_gtk.c:407
@@ -9532,8 +9535,8 @@ msgid ""
 "If Bsfilter thought an email was spam or unsure, but it was whitelisted, "
 "learn it as ham."
 msgstr ""
-"如果Bsfilter把一封邮件当作为垃圾邮件或是未知，但是此邮件已经存在白名单中，则"
-"将会进行学习并把它当作是一般邮件"
+"如果 Bsfilter 把一封邮件当作为垃圾邮件或是未知，但是此邮件已经存在白名单中，"
+"则将会进行学习并把它当作是一般邮件"
 
 #: src/plugins/bsfilter/bsfilter_gtk.c:218
 #, fuzzy
@@ -9543,7 +9546,7 @@ msgstr "Bsfilter 调用"
 #: src/plugins/bsfilter/bsfilter_gtk.c:226
 #, fuzzy
 msgid "Path to bsfilter executable"
-msgstr "bogofilter程序目录"
+msgstr "bogofilter 程序目录"
 
 #: src/plugins/clamd/clamav_plugin.c:47
 #: src/plugins/clamd/clamav_plugin_gtk.c:553
@@ -9649,7 +9652,7 @@ msgstr ""
 "当一封邮件的附件中包含了病毒，它可以被删除或是另存至一个指定的目的文件夹\n"
 "\n"
 "因为这个插件程序是透过 socket 和 clamd 进行通信, \n"
-"所以需要满足一些最低的需求，包含对你的家目录和 .claws-mail文件夹\n"
+"所以需要满足一些最低的需求，包含对你的家目录和 .claws-mail 文件夹\n"
 "提供访问的权限给 clamav-daemon。其中 clamav-daemon 是被用来透过\n"
 "unix socket 进行通信使用的。\n"
 "所有的用户最终都必需允许在这些文件夹内提供运行的权限\n"
@@ -9724,7 +9727,7 @@ msgid ""
 "Full path to clamd.conf. If this field is not empty then the plugin has been "
 "able to locate the file automatically"
 msgstr ""
-"clamd.conf的完整路径。如果这个字段不是空白的，则这个插件程序会自动地把这个档"
+"clamd.conf 的完整路径。如果这个字段不是空白的，则这个插件程序会自动地把这个档"
 "案放置在指定的位置"
 
 #: src/plugins/clamd/clamav_plugin_gtk.c:336
@@ -9755,7 +9758,7 @@ msgstr "删除于"
 #: src/plugins/clamd/clamav_plugin_gtk.c:377
 #, fuzzy
 msgid "Hostname or IP for remote host running clamav daemon"
-msgstr "远程主机名称或IP正在运行clamav讨护神"
+msgstr "远程主机名称或 IP 正在运行 clamav 讨护神"
 
 #: src/plugins/clamd/clamav_plugin_gtk.c:399
 #, fuzzy
@@ -9806,7 +9809,7 @@ msgstr ""
 #, fuzzy
 msgid "Could not create socket"
 msgstr ""
-"无法创建mbox文件:\n"
+"无法创建 mbox 文件:\n"
 "%s\n"
 
 #: src/plugins/clamd/libclamd/clamd-plugin.c:422
@@ -9824,7 +9827,7 @@ msgstr "： 无法打开"
 #: src/plugins/clamd/libclamd/clamd-plugin.c:474
 #, fuzzy
 msgid "Socket write error"
-msgstr "Socket错误。"
+msgstr "Socket 错误。"
 
 #: src/plugins/clamd/libclamd/clamd-plugin.c:467
 #, fuzzy, c-format
@@ -9834,7 +9837,7 @@ msgstr "读取文件错误"
 #: src/plugins/clamd/libclamd/clamd-plugin.c:481
 #, fuzzy
 msgid "Socket read error"
-msgstr "Socket错误。"
+msgstr "Socket 错误。"
 
 #: src/plugins/demo/demo.c:31 src/plugins/demo/demo.c:100
 msgid "Demo"
@@ -9851,8 +9854,8 @@ msgid ""
 "\n"
 "It is not really useful."
 msgstr ""
-"本插件仅用于演示如何编写Claws Mail插件。它将为日志输出安装一个钩子以将日志写"
-"到标准输出。\n"
+"本插件仅用于演示如何编写 Claws Mail 插件。它将为日志输出安装一个钩子以将日志"
+"写到标准输出。\n"
 "\n"
 "它没有什么实际用途"
 
@@ -9936,7 +9939,7 @@ msgid ""
 msgstr ""
 "加载远程资源可以导入部份隐私功能。若将远程资源加载关闭，将不会存在任何的网络"
 "要求。\n"
-"对于邮件中有夹带的图片、scripts、插件对象或Java applets，则依然可以进行处理"
+"对于邮件中有夹带的图片、scripts、插件对象或 Java applets，则依然可以进行处理"
 
 #: src/plugins/fancy/fancy_prefs.c:244
 #, fuzzy
@@ -9956,7 +9959,7 @@ msgstr "用网页浏览器打开(_O)"
 #: src/plugins/fancy/fancy_prefs.c:298
 #, fuzzy
 msgid "The CSS in this file will be applied to all HTML parts"
-msgstr "此文件内的CSS将套用在所有的HTML上"
+msgstr "此文件内的 CSS 将套用在所有的 HTML 上"
 
 #: src/plugins/fancy/fancy_prefs.c:308
 #: src/plugins/notification/notification_prefs.c:1347
@@ -10007,7 +10010,7 @@ msgstr "用网页浏览器打开(_O)"
 #: src/plugins/fancy/fancy_viewer.c:651
 #, fuzzy, c-format
 msgid "An error occurred: %d\n"
-msgstr "SMTP连接发生错误\n"
+msgstr "SMTP 连接发生错误\n"
 
 #: src/plugins/fancy/fancy_viewer.c:707
 #, fuzzy, c-format
@@ -10062,7 +10065,7 @@ msgstr "加载图片"
 #: src/plugins/fancy/fancy_viewer.c:803
 #, fuzzy
 msgid "Import feed"
-msgstr "导入mbox格式的邮件包"
+msgstr "导入 mbox 格式的邮件包"
 
 #: src/plugins/fancy/fancy_viewer.c:1016
 #, fuzzy
@@ -10072,7 +10075,7 @@ msgstr "Fancy"
 #: src/plugins/fancy/fancy_viewer.c:1044
 #, fuzzy
 msgid "Fancy HTML Viewer"
-msgstr "Dillo网页查看器"
+msgstr "Dillo 网页查看器"
 
 #: src/plugins/fancy/fancy_viewer.c:1049
 #, fuzzy, c-format
@@ -10081,9 +10084,9 @@ msgid ""
 "By default all remote content is blocked. Options can be found in /"
 "Configuration/Preferences/Plugins/Fancy"
 msgstr ""
-"本插件内嵌Dillo网页浏览器来显示HTML邮件。\n"
+"本插件内嵌 Dillo 网页浏览器来显示 HTML 邮件。\n"
 "\n"
-"你以在'/配置/偏好/插件/Dillo浏览器'中配置选项。"
+"你以在 '/ 配置/偏好/插件/Dillo 浏览器' 中配置选项。"
 
 #: src/plugins/fetchinfo/fetchinfo_plugin.c:167
 #: src/plugins/fetchinfo/fetchinfo_plugin.c:200
@@ -10106,8 +10109,8 @@ msgid ""
 "\n"
 "Options can be found in /Configuration/Preferences/Plugins/Fetchinfo"
 msgstr ""
-"此插件程序修改了已下载的邮件，它插入了一些下载的信息到标头内，包括UIDL，"
-"Claws Mail 帐号名称，POP服务器，用户ID和邮件取回的时间\n"
+"此插件程序修改了已下载的邮件，它插入了一些下载的信息到标头内，包括 UIDL，"
+"Claws Mail 帐号名称，POP 服务器，用户 ID 和邮件取回的时间\n"
 "\n"
 "可以在 /Configuration/Preferences/Plugins/Fetchinfo 找到所有的选项"
 
@@ -10135,7 +10138,7 @@ msgstr "UIDL"
 #, fuzzy
 msgid ""
 "Adds the X-FETCH-UIDL header with the unique ID listing of message (POP3)"
-msgstr "将邮件(POP3)唯一的ID清单加入 X-FETCH-UIDL 标头"
+msgstr "将邮件 (POP3) 唯一的 ID 清单加入 X-FETCH-UIDL 标头"
 
 #: src/plugins/fetchinfo/fetchinfo_plugin_gtk.c:106
 #, fuzzy
@@ -10160,12 +10163,12 @@ msgstr "将接收服务器加入 X-FETCH-SERVER 标头"
 #: src/plugins/fetchinfo/fetchinfo_plugin_gtk.c:110
 #, fuzzy
 msgid "UserID"
-msgstr "用户ID"
+msgstr "用户 ID"
 
 #: src/plugins/fetchinfo/fetchinfo_plugin_gtk.c:110
 #, fuzzy
 msgid "Adds the X-FETCH-USERID header with the user ID"
-msgstr "将用户ID加入 X-FETCH-USERID 标头"
+msgstr "将用户 ID 加入 X-FETCH-USERID 标头"
 
 #: src/plugins/fetchinfo/fetchinfo_plugin_gtk.c:112
 #, fuzzy
@@ -10177,7 +10180,7 @@ msgstr "取得时间"
 msgid ""
 "Adds the X-FETCH-TIME header with the date and time of message retrieval in "
 "RFC822 format"
-msgstr "将RFC822格式邮件内之取得时程和时间加入 the X-FETCH-TIME 标头"
+msgstr "将 RFC822 格式邮件内之取得时程和时间加入 the X-FETCH-TIME 标头"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:126
 #, fuzzy
@@ -10195,10 +10198,11 @@ msgid ""
 "code in the field below to grant Claws Mail access to your Google contact "
 "list."
 msgstr ""
-"你需要认证Claws Mail，才能使用GData插件程序访问你的Google连络人清单\n"
+"你需要认证 Claws Mail，才能使用 GData 插件程序访问你的 Google 连络人清单\n"
 "\n"
-"按下下方的按钮以参访Google的认证页。当你确认了认证后，将可以取得认证码。在下"
-"方的区域中输入这组认证码后，你将可以使用Claws Mail对Google连络人清单进行访问 "
+"按下下方的按钮以参访 Google 的认证页。当你确认了认证后，将可以取得认证码。在"
+"下方的区域中输入这组认证码后，你将可以使用 Claws Mail 对 Google 连络人清单进"
+"行访问 "
 
 #: src/plugins/gdata/cm_gdata_contacts.c:143
 #, fuzzy
@@ -10208,7 +10212,7 @@ msgstr "每次卷动"
 #: src/plugins/gdata/cm_gdata_contacts.c:149
 #, fuzzy
 msgid "Click here to open the Google authorization page in a browser"
-msgstr "按下这里在浏览器内打开Google认证页"
+msgstr "按下这里在浏览器内打开 Google 认证页"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:153
 #, fuzzy
@@ -10223,7 +10227,7 @@ msgstr "界面"
 #: src/plugins/gdata/cm_gdata_contacts.c:325
 #, fuzzy, c-format
 msgid "GData plugin: Error querying for contacts: %s\n"
-msgstr "GData插件程序： 连个人查找错误： %s\n"
+msgstr "GData 插件程序： 连个人查找错误： %s\n"
 
 #. TRANSLATORS: First part of "Added X of Y contacts to cache"
 #: src/plugins/gdata/cm_gdata_contacts.c:341
@@ -10242,64 +10246,64 @@ msgstr[0] "1 个连络人加入至缓存"
 #: src/plugins/gdata/cm_gdata_contacts.c:353
 #, fuzzy
 msgid "GData plugin: Starting async contacts query\n"
-msgstr "GData插件程序： 开始进行异步连络人查找\n"
+msgstr "GData 插件程序： 开始进行异步连络人查找\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:374
 #, fuzzy, c-format
 msgid "GData plugin: Error querying for groups: %s\n"
-msgstr "GData插件程序： 群组查找错误： %s\n"
+msgstr "GData 插件程序： 群组查找错误： %s\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:411
 #, fuzzy
 msgid "GData plugin: Groups received\n"
-msgstr "GData插件程序： 群组已接收\n"
+msgstr "GData 插件程序： 群组已接收\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:418
 #, fuzzy
 msgid "GData plugin: Starting async groups query\n"
-msgstr "GData插件程序： 开始异步的群组查寻\n"
+msgstr "GData 插件程序： 开始异步的群组查寻\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:443
 #, fuzzy, c-format
 msgid "GData plugin: Authorization error: %s\n"
-msgstr "GData插件程序：认证错误： %s\n"
+msgstr "GData 插件程序：认证错误： %s\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:450
 #, fuzzy
 msgid "GData plugin: Authorization successful\n"
-msgstr "GData插件程序： 认证成功\n"
+msgstr "GData 插件程序： 认证成功\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:460
 #, fuzzy
 msgid "GData plugin: Starting interactive authorization\n"
-msgstr "GData插件程序： 开始进行内部认证\n"
+msgstr "GData 插件程序： 开始进行内部认证\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:470
 #, fuzzy
 msgid "GData plugin: Got authorization code, requesting authorization\n"
-msgstr "GData插件程序： 已取得认证码，要求认证\n"
+msgstr "GData 插件程序： 已取得认证码，要求认证\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:477
 #, fuzzy
 msgid ""
 "GData plugin: No authorization code received, authorization request "
 "cancelled\n"
-msgstr "GData插件程序：没有收到认证码，认证要求取消\n"
+msgstr "GData 插件程序：没有收到认证码，认证要求取消\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:494
 #, fuzzy, c-format
 msgid "GData plugin: Authorization refresh error: %s\n"
-msgstr "GData插件程序： 认证刷新失败： %s\n"
+msgstr "GData 插件程序： 认证刷新失败： %s\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:503
 #, fuzzy
 msgid "GData plugin: Authorization refresh successful\n"
-msgstr "GData插件程序： 认证刷新成功\n"
+msgstr "GData 插件程序： 认证刷新成功\n"
 
 #: src/plugins/gdata/cm_gdata_contacts.c:556
 #, fuzzy
 msgid "GData plugin: Trying to refresh authorization\n"
-msgstr "GData插件程序： 正在尝试刷新认证\n"
+msgstr "GData 插件程序： 正在尝试刷新认证\n"
 
 #: src/plugins/gdata/cm_gdata_prefs.c:77
 #: src/plugins/managesieve/sieve_prefs.c:200 src/prefs_account.c:1745
@@ -10314,7 +10318,7 @@ msgstr "用户名："
 #: src/plugins/gdata/cm_gdata_prefs.c:94
 #, fuzzy
 msgid "Polling interval (seconds):"
-msgstr "轮询间隔时间(秒)"
+msgstr "轮询间隔时间 (秒)"
 
 #: src/plugins/gdata/cm_gdata_prefs.c:101
 #, fuzzy
@@ -10330,7 +10334,7 @@ msgstr "GData"
 #: src/plugins/gdata/gdata_plugin.c:107
 #, fuzzy
 msgid "Failed to register address completion hook in the GData plugin"
-msgstr "在GData插件程序中注册地址自动完成Hook失败"
+msgstr "在 GData 插件程序中注册地址自动完成 Hook 失败"
 
 #: src/plugins/gdata/gdata_plugin.c:114
 #, fuzzy
@@ -10348,10 +10352,10 @@ msgid ""
 "\n"
 "Feedback to <berndth@gmx.de> is welcome."
 msgstr ""
-"此插件程序提供了Claws Mail具备GData通信协定的访问能力.\n"
+"此插件程序提供了 Claws Mail 具备 GData 通信协定的访问能力.\n"
 "\n"
-"GData通信协定是一个Google服务的界面\n"
-"截至目前，只实作了将Google连络人加入Tab-address自动完成的功能\n"
+"GData 通信协定是一个 Google 服务的界面\n"
+"截至目前，只实作了将 Google 连络人加入 Tab-address 自动完成的功能\n"
 "欢迎回馈给 <berndth@gmx.de>"
 
 #: src/plugins/gdata/gdata_plugin.c:187
@@ -10370,7 +10374,7 @@ msgstr "Libravatar"
 #: src/plugins/libravatar/libravatar.c:381
 #, fuzzy
 msgid "Failed to register avatar header update hook"
-msgstr "注册 'folder update hook' 失败"
+msgstr "注册'folder update hook' 失败"
 
 #: src/plugins/libravatar/libravatar.c:390
 #, fuzzy
@@ -10411,7 +10415,7 @@ msgstr ""
 "/Configuration/Preferences/Plugins/Libravatar.\n"
 "\n"
 "此插件程序使用 libcurl 取得图像，因此如果你处于一个 proxy 后方请参考 curl(1) "
-"说明，若要了解更多请参考 'http_proxy'(_p)\n"
+"说明，若要了解更多请参考'http_proxy'(_p)\n"
 "配置. 更详细的信息请参阅 README 文件\n"
 "\n"
 "欢迎回复当 <ricardo@mones.org> \n"
@@ -10516,7 +10520,7 @@ msgstr "鉴定认证"
 #: src/plugins/libravatar/libravatar_prefs.c:307
 #, fuzzy
 msgid "MonsterID"
-msgstr "用户ID"
+msgstr "用户 ID"
 
 #: src/plugins/libravatar/libravatar_prefs.c:308
 #, fuzzy
@@ -10561,7 +10565,7 @@ msgstr "一个已经创建的且几乎是独一无二的脸"
 #: src/plugins/libravatar/libravatar_prefs.c:318
 #, fuzzy
 msgid "A generated 8-bit arcade-style pixelated image"
-msgstr "一个已经创建的8比特拱形点矩阵图标"
+msgstr "一个已经创建的 8 比特拱形点矩阵图标"
 
 #: src/plugins/libravatar/libravatar_prefs.c:319
 #, fuzzy
@@ -10574,8 +10578,8 @@ msgid ""
 "Enter the URL you want to be redirected when no user icon is available. "
 "Leave an empty URL to use the default libravatar orange icon."
 msgstr ""
-"当没有有效的用户图标时，输入你想要改寄的URL若要使用缺省的libravatar橘色图示，"
-"请在URL处留白"
+"当没有有效的用户图标时，输入你想要改寄的 URL 若要使用缺省的 libravatar 橘色图"
+"示，请在 URL 处留白"
 
 #: src/plugins/libravatar/libravatar_prefs.c:382
 #, fuzzy
@@ -10588,8 +10592,8 @@ msgid ""
 "Follow redirect responses received from libravatar server to other avatar "
 "services like gravatar.com"
 msgstr ""
-"跟随来自于已收到的libravatar服务器改寄回应到其它的avatar服务，像是gravatar."
-"com"
+"跟随来自于已收到的 libravatar 服务器改寄回应到其它的 avatar 服务，像是 "
+"gravatar.com"
 
 #: src/plugins/libravatar/libravatar_prefs.c:392
 #, fuzzy
@@ -10599,7 +10603,7 @@ msgstr "启用联合服务器(_E)"
 #: src/plugins/libravatar/libravatar_prefs.c:393
 #, fuzzy
 msgid "Try to get avatar from sender's domain libravatar server"
-msgstr "尝试从寄件者区域内的libravatar服务器取得avatar"
+msgstr "尝试从寄件者区域内的 libravatar 服务器取得 avatar"
 
 #: src/plugins/libravatar/libravatar_prefs.c:410
 #, fuzzy
@@ -10622,8 +10626,8 @@ msgid ""
 "Set to 0 to use global socket I/O timeout. Maximum value must be also less "
 "than global socket I/O timeout."
 msgstr ""
-"设置为0将使用全局的socket I/O 超时设置值。最大值必定小于全局的socket I/O 的超"
-"时设置值"
+"设置为 0 将使用全局的 socket I/O 超时设置值。最大值必定小于全局的 socket I/O "
+"的超时设置值"
 
 #: src/plugins/libravatar/libravatar_prefs.c:455
 #, fuzzy
@@ -10647,7 +10651,7 @@ msgstr "设置邮箱顺序"
 #: src/plugins/mailmbox/plugin.c:63
 #, fuzzy
 msgid "This is a plugin to handle mailboxes in mbox format."
-msgstr "这个插件程序以mbox格式掌控了邮件箱"
+msgstr "这个插件程序以 mbox 格式掌控了邮件箱"
 
 #: src/plugins/mailmbox/plugin.c:84
 #, fuzzy
@@ -10671,19 +10675,19 @@ msgid ""
 "All folder(s) and message(s) under '%s' will be deleted.\n"
 "Do you really want to delete?"
 msgstr ""
-"在'%s'之下的所有目录以及其中所有的邮件将被永久删除，不可能恢复。\n"
+"在 '%s' 之下的所有目录以及其中所有的邮件将被永久删除，不可能恢复。\n"
 "\n"
 "确实要删除吗？"
 
 #: src/plugins/managesieve/managesieve.c:439
 #, fuzzy
 msgid "No Sieve auth method available\n"
-msgstr "无SMTP认证方式\n"
+msgstr "无 SMTP 认证方式\n"
 
 #: src/plugins/managesieve/managesieve.c:443
 #, fuzzy
 msgid "Selected Sieve auth method not available\n"
-msgstr "已选择的SMTP 认证方式无效\n"
+msgstr "已选择的 SMTP 认证方式无效\n"
 
 #: src/plugins/managesieve/managesieve.c:676
 #, fuzzy
@@ -10699,7 +10703,7 @@ msgstr "字典: %s"
 #: src/plugins/managesieve/managesieve.c:873
 #, fuzzy, c-format
 msgid "unhandled message on Sieve session: %s\n"
-msgstr "无法掌控在Sieve进程中的邮件： %s\n"
+msgstr "无法掌控在 Sieve 进程中的邮件： %s\n"
 
 #: src/plugins/managesieve/managesieve.c:735
 #, fuzzy
@@ -10713,17 +10717,17 @@ msgstr "%s 连接失败\n"
 #: src/plugins/managesieve/managesieve.c:943
 #, fuzzy
 msgid "error occurred on SIEVE session\n"
-msgstr "SMTP连接发生错误\n"
+msgstr "SMTP 连接发生错误\n"
 
 #: src/plugins/managesieve/managesieve.c:869
 #, fuzzy, c-format
 msgid "error occurred on Sieve session. data: %s\n"
-msgstr "SMTP连接发生错误\n"
+msgstr "SMTP 连接发生错误\n"
 
 #: src/plugins/managesieve/managesieve.c:878
 #, fuzzy, c-format
 msgid "unhandled message on Sieve session: %d\n"
-msgstr "无法掌控在Sieve进程中的邮件： %d\n"
+msgstr "无法掌控在 Sieve 进程中的邮件： %d\n"
 
 #: src/plugins/managesieve/managesieve.c:1135
 #, fuzzy
@@ -10800,7 +10804,7 @@ msgstr "这封邮件已被更改，是否保存最后的修改？"
 #: src/plugins/managesieve/sieve_editor.c:693
 #, fuzzy, c-format
 msgid "%s - Sieve Filter%s"
-msgstr "%s - 过滤器%s"
+msgstr "%s - 过滤器 %s"
 
 #: src/plugins/managesieve/sieve_editor.c:742
 #: src/plugins/pdf_viewer/poppler_viewer.c:1278
@@ -10811,17 +10815,17 @@ msgstr "正在载入…"
 #: src/plugins/managesieve/sieve_manager.c:241
 #, fuzzy
 msgid "Add Sieve script"
-msgstr "添加Sieve脚本"
+msgstr "添加 Sieve 脚本"
 
 #: src/plugins/managesieve/sieve_manager.c:160
 #, fuzzy
 msgid "Enter name for a new Sieve filter script."
-msgstr "请输入要新建的RSS目录树的名称"
+msgstr "请输入要新建的 RSS 目录树的名称"
 
 #: src/plugins/managesieve/sieve_manager.c:242
 #, fuzzy
 msgid "Enter new name for the script."
-msgstr "请输入'%s'的新名字:"
+msgstr "请输入 '%s' 的新名字:"
 
 #: src/plugins/managesieve/sieve_manager.c:323
 #, fuzzy, c-format
@@ -10861,12 +10865,12 @@ msgstr "正在连接"
 #: src/plugins/managesieve/sieve_manager.c:655
 #, fuzzy
 msgid "Manage Sieve Filters"
-msgstr "管理Sieve过滤器"
+msgstr "管理 Sieve 过滤器"
 
 #: src/plugins/managesieve/sieve_manager.c:796
 #, fuzzy
 msgid "To use Sieve, enable it in an account's preferences."
-msgstr "若要使用Sieve，要在帐号的选项中启用它"
+msgstr "若要使用 Sieve，要在帐号的选项中启用它"
 
 #: src/plugins/managesieve/sieve_plugin.c:36
 #: src/plugins/managesieve/sieve_plugin.c:154
@@ -10877,12 +10881,12 @@ msgstr "ManageSieve"
 #: src/plugins/managesieve/sieve_plugin.c:46
 #, fuzzy
 msgid "Manage Sieve Filters..."
-msgstr "管理Sieve过滤器"
+msgstr "管理 Sieve 过滤器"
 
 #: src/plugins/managesieve/sieve_plugin.c:114
 #, fuzzy
 msgid "Manage sieve filters on a server using the ManageSieve protocol."
-msgstr "在服务器上使用ManageSieve协定管理Sieve过滤器"
+msgstr "在服务器上使用 ManageSieve 协定管理 Sieve 过滤器"
 
 #: src/plugins/managesieve/sieve_prefs.c:146
 #, fuzzy
@@ -10930,7 +10934,7 @@ msgstr "不可用"
 #: src/plugins/managesieve/sieve_prefs.c:195
 #, fuzzy
 msgid "Require TLS"
-msgstr "需要TLS"
+msgstr "需要 TLS"
 
 #: src/plugins/managesieve/sieve_prefs.c:203
 #: src/plugins/rssyl/rssyl_feed_props.c:267
@@ -10953,7 +10957,7 @@ msgstr "使用验证"
 #: src/plugins/vcalendar/vcal_prefs.c:464 src/prefs_account.c:1280
 #: src/prefs_account.c:1791
 msgid "User ID"
-msgstr "用户ID"
+msgstr "用户 ID"
 
 #: src/plugins/managesieve/sieve_prefs.c:247
 #: src/plugins/rssyl/rssyl_feed_props.c:394
@@ -10977,12 +10981,12 @@ msgstr "自动"
 #: src/plugins/managesieve/sieve_prefs.c:379
 #, fuzzy
 msgid "Sieve server must not contain a space."
-msgstr "Sieve服务器必不能包含空白"
+msgstr "Sieve 服务器必不能包含空白"
 
 #: src/plugins/managesieve/sieve_prefs.c:385
 #, fuzzy
 msgid "Sieve server is not entered."
-msgstr "未输入SMTP服务器"
+msgstr "未输入 SMTP 服务器"
 
 #: src/plugins/managesieve/sieve_prefs.c:413
 #, fuzzy
@@ -11003,7 +11007,7 @@ msgstr "注册程序关闭钩子失败"
 #, fuzzy, c-format
 msgid "Could not open log file %s: %s\n"
 msgstr ""
-"无法打开mbox文件:\n"
+"无法打开 mbox 文件:\n"
 "%s\n"
 
 #: src/plugins/newmail/newmail.c:141
@@ -11068,12 +11072,12 @@ msgstr "注册邮件目录更新钩子失败"
 #: src/plugins/notification/notification_plugin.c:236
 #, fuzzy
 msgid "Failed to register folder update hook in the Notification plugin"
-msgstr "注册 'folder update hook' 失败"
+msgstr "注册'folder update hook' 失败"
 
 #: src/plugins/notification/notification_plugin.c:246
 #, fuzzy
 msgid "Failed to register msginfo update hook in the Notification plugin"
-msgstr "注册 'folder update hook' 失败"
+msgstr "注册'folder update hook' 失败"
 
 #: src/plugins/notification/notification_plugin.c:256
 #, fuzzy
@@ -11083,7 +11087,7 @@ msgstr "注册离线开关钩子失败"
 #: src/plugins/notification/notification_plugin.c:267
 #, fuzzy
 msgid "Failed to register main window close hook in the Notification plugin"
-msgstr "此通知插件程序注册主窗口关闭hook失败"
+msgstr "此通知插件程序注册主窗口关闭 hook 失败"
 
 #: src/plugins/notification/notification_plugin.c:280
 #, fuzzy
@@ -11142,12 +11146,12 @@ msgstr "收到一个新的日程信息"
 
 #: src/plugins/notification/notification_popup.c:343
 msgid "New RSS feed article"
-msgstr "新的RSS文章"
+msgstr "新的 RSS 文章"
 
 #: src/plugins/notification/notification_popup.c:344
 #: src/plugins/notification/notification_trayicon.c:869
 msgid "A new article in a RSS feed arrived"
-msgstr "收到一个新的RSS供稿文章"
+msgstr "收到一个新的 RSS 供稿文章"
 
 #: src/plugins/notification/notification_popup.c:347
 msgid "New unknown message"
@@ -11172,7 +11176,7 @@ msgstr "邮件信息"
 #, c-format
 msgid "%d new message arrived"
 msgid_plural "%d new messages arrived"
-msgstr[0] "收到%d个新邮件"
+msgstr[0] "收到 %d 个新邮件"
 
 #: src/plugins/notification/notification_popup.c:497
 msgid "News message"
@@ -11187,23 +11191,23 @@ msgstr "日程安排"
 #, c-format
 msgid "%d new calendar message arrived"
 msgid_plural "%d new calendar messages arrived"
-msgstr[0] "收到%d个日程安排"
+msgstr[0] "收到 %d 个日程安排"
 
 #: src/plugins/notification/notification_popup.c:509
 msgid "RSS news feed"
-msgstr "RSS供稿项"
+msgstr "RSS 供稿项"
 
 #: src/plugins/notification/notification_popup.c:510
 #, fuzzy, c-format
 msgid "%d new article in a RSS feed arrived"
 msgid_plural "%d new articles in a RSS feed arrived"
-msgstr[0] "%d RSS内的新文章已到达"
+msgstr[0] "%d RSS 内的新文章已到达"
 
 #: src/plugins/notification/notification_popup.c:574
 #, c-format
 msgid "%d new message"
 msgid_plural "%d new messages"
-msgstr[0] "%d个新邮件"
+msgstr[0] "%d 个新邮件"
 
 #: src/plugins/notification/notification_prefs.c:416
 msgid "Hotkeys"
@@ -11251,7 +11255,7 @@ msgstr "新闻组目录"
 #: src/plugins/notification/notification_prefs.c:633
 #, fuzzy
 msgid "RSSyl folders"
-msgstr "RSS目录"
+msgstr "RSS 目录"
 
 #: src/plugins/notification/notification_prefs.c:641
 #, fuzzy
@@ -11271,12 +11275,12 @@ msgstr "给与会者发送通知"
 #: src/plugins/notification/notification_prefs.c:669
 #, fuzzy
 msgid "Set window manager urgency hint when new messages exist"
-msgstr "设置“发现新邮件时”的窗口管理员紧急提示"
+msgstr "设置 “发现新邮件时” 的窗口管理员紧急提示"
 
 #: src/plugins/notification/notification_prefs.c:678
 #, fuzzy
 msgid "Set window manager urgency hint when unread messages exist"
-msgstr "设置“发现未读邮件时”的窗口管理员紧急提示"
+msgstr "设置 “发现未读邮件时” 的窗口管理员紧急提示"
 
 #: src/plugins/notification/notification_prefs.c:688
 msgid "Use sound theme"
@@ -11313,7 +11317,7 @@ msgstr "帖子下载最大数量"
 #: src/plugins/notification/notification_prefs.c:833
 #, fuzzy
 msgid "Limit the number of messages shown, use 0 for unlimited"
-msgstr "消息的最大数量(0表示不限制)"
+msgstr "消息的最大数量 (0 表示不限制)"
 
 #: src/plugins/notification/notification_prefs.c:842
 #, fuzzy
@@ -11323,7 +11327,7 @@ msgstr "横幅速度"
 #: src/plugins/notification/notification_prefs.c:848
 #, fuzzy
 msgid "Limit the size of banner, use 0 for screen width"
-msgstr "通知栏的大小限制，继择0表示设置为屏幕宽度"
+msgstr "通知栏的大小限制，继择 0 表示设置为屏幕宽度"
 
 #: src/plugins/notification/notification_prefs.c:850 src/prefs_message.c:189
 #: src/prefs_message.c:223
@@ -11423,7 +11427,7 @@ msgstr "完成"
 #: src/plugins/notification/notification_prefs.c:1294
 #, fuzzy
 msgid "Select command"
-msgstr "Shell命令"
+msgstr "Shell 命令"
 
 #: src/plugins/notification/notification_prefs.c:1323
 msgid "Enable command"
@@ -11440,12 +11444,12 @@ msgstr "命令执行后一段时间不重复执行"
 
 #: src/plugins/notification/notification_prefs.c:1465
 msgid "Enable LCD"
-msgstr "启用键盘LCD灯"
+msgstr "启用键盘 LCD 灯"
 
 #: src/plugins/notification/notification_prefs.c:1484
 #, fuzzy
 msgid "Hostname:Port of LCDd server"
-msgstr "LCDd服务器的服务器:端口"
+msgstr "LCDd 服务器的服务器: 端口"
 
 #: src/plugins/notification/notification_prefs.c:1569
 msgid "Enable Trayicon"
@@ -11453,7 +11457,7 @@ msgstr "启用状态栏图标"
 
 #: src/plugins/notification/notification_prefs.c:1585
 msgid "Hide at start-up"
-msgstr "启动时隐藏Claws-Mail"
+msgstr "启动时隐藏 Claws-Mail"
 
 #: src/plugins/notification/notification_prefs.c:1593
 msgid "Close to tray"
@@ -11566,7 +11570,7 @@ msgstr "下一封添加了颜色标签的邮件(_B)"
 #: src/plugins/notification/notification_trayicon.c:822
 #, fuzzy
 msgid "New article in RSS feed"
-msgstr "新RSS文章"
+msgstr "新 RSS 文章"
 
 #: src/plugins/notification/notification_trayicon.c:825
 #, fuzzy
@@ -11589,7 +11593,7 @@ msgstr[0] "%d 新的新闻贴已到达"
 #, fuzzy, c-format
 msgid "%d new article in RSS feeds arrived"
 msgid_plural "%d new articles in RSS feeds arrived"
-msgstr[0] "%d 新的RSS文章已到达"
+msgstr[0] "%d 新的 RSS 文章已到达"
 
 #: src/plugins/pdf_viewer/poppler_viewer.c:702
 msgid "Title:"
@@ -11655,7 +11659,7 @@ msgstr "%d 个当中"
 #: src/plugins/pdf_viewer/poppler_viewer.c:1368
 #, fuzzy
 msgid "PDF rendering failed for an unknown reason."
-msgstr "PDF因为未知原因打开(渲染)失败"
+msgstr "PDF 因为未知原因打开 (渲染) 失败"
 
 #: src/plugins/pdf_viewer/poppler_viewer.c:1732
 #: src/plugins/pdf_viewer/poppler_viewer.c:1950
@@ -11725,8 +11729,8 @@ msgid ""
 "\n"
 "Any feedback is welcome: iwkse@claws-mail.org"
 msgstr ""
-"这个插件程序可以用来查看PDF和PostScript格式的附件 它是采用通行的 %s 函数库和 "
-"gs 工具达成的\n"
+"这个插件程序可以用来查看 PDF 和 PostScript 格式的附件 它是采用通行的 %s 函数"
+"库和 gs 工具达成的\n"
 "\n"
 "欢迎任何的回复至： iwkse@claws-mail.org"
 
@@ -11746,15 +11750,15 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"警告：无法找到%s插件程序所需要的ghostscript二进制档 (gs) 处理PostScript附件。"
-"只有PDF 附件可以被查看。 要启用PostScript支持请安装gs程序\n"
+"警告：无法找到 %s 插件程序所需要的 ghostscript 二进制档 (gs) 处理 PostScript "
+"附件。只有 PDF 附件可以被查看。 要启用 PostScript 支持请安装 gs 程序\n"
 "\n"
 "%s"
 
 #: src/plugins/perl/perl_gtk.c:50
 #, fuzzy
 msgid "Edit perl filter rules (ext)..."
-msgstr "编辑perl过滤器的规则 (ext)…"
+msgstr "编辑 perl 过滤器的规则 (ext)…"
 
 #: src/plugins/pgpcore/autocompletion.c:133
 #, fuzzy
@@ -11768,13 +11772,13 @@ msgstr "口令"
 #: src/plugins/pgpcore/passphrase.c:249
 #, fuzzy
 msgid "[no user id]"
-msgstr "[没有用户名(ID)]"
+msgstr "[没有用户名 (ID)]"
 
 #: src/plugins/pgpcore/passphrase.c:261
 #, fuzzy
 msgid "Please enter the passphrase for the new key:"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">%s请输入用于新密钥的密码:</span>\n"
+"<span weight=\"bold\"size=\"larger\">%s 请输入用于新密钥的密码:</span>\n"
 "\n"
 "%.*s\n"
 
@@ -11786,7 +11790,7 @@ msgstr "密码不匹配。\n"
 #, fuzzy
 msgid "Please re-enter the passphrase for the new key:"
 msgstr ""
-"<span weight=\"bold\" size=\"larger\">请输入新密钥的密码:</span>\n"
+"<span weight=\"bold\"size=\"larger\"> 请输入新密钥的密码:</span>\n"
 "\n"
 "%.*s\n"
 
@@ -11849,7 +11853,7 @@ msgid ""
 "  Importing key ID "
 msgstr ""
 "\n"
-"  导入密钥ID"
+"  导入密钥 ID"
 
 #: src/plugins/pgpcore/pgp_viewer.c:186
 msgid "   This key has been imported to your keyring.\n"
@@ -11876,7 +11880,7 @@ msgstr ""
 
 #: src/plugins/pgpcore/pgp_viewer.c:195
 msgid "   Key import isn't implemented in Windows.\n"
-msgstr "   Windows上尚未实现密钥导入功能.\n"
+msgstr "   Windows 上尚未实现密钥导入功能.\n"
 
 #: src/plugins/pgpcore/pgp_viewer.c:204
 msgid "   This key is in your keyring.\n"
@@ -11900,14 +11904,14 @@ msgid ""
 "\n"
 "GPGME is copyright 2001 by Werner Koch <dd9jn@gnu.org>"
 msgstr ""
-"本插件负责提供PGP核心操作，它一般被其他插件(比如PGP/Mime)使用。\n"
+"本插件负责提供 PGP 核心操作，它一般被其他插件 (比如 PGP/Mime) 使用。\n"
 "\n"
-"你可以在'/配置/偏好/插件/GPG'和'/配置/偏好/[帐号设置]/插件/GPG'设置相关选"
-"项。\n"
+"你可以在 '/ 配置/偏好/插件/GPG' 和 '/ 配置/偏好 /[帐号设置]/ 插件/GPG' 设置相"
+"关选项。\n"
 "\n"
-"本插件使用了GPGME, 它是GnuPG的一个包装库。\n"
+"本插件使用了 GPGME, 它是 GnuPG 的一个包装库。\n"
 "\n"
-"GPGME的版权归Werner Koch <dd9jn@gnu.org>所有(2001)"
+"GPGME 的版权归 Werner Koch <dd9jn@gnu.org> 所有(2001)"
 
 #: src/plugins/pgpcore/plugin.c:101
 msgid "Core operations"
@@ -11924,11 +11928,11 @@ msgstr "为了地址自动完成功能使用钥匙圈"
 
 #: src/plugins/pgpcore/prefs_gpg.c:130
 msgid "Use gpg-agent to manage passwords"
-msgstr "采用gpg-agent管理密码"
+msgstr "采用 gpg-agent 管理密码"
 
 #: src/plugins/pgpcore/prefs_gpg.c:135
 msgid "Store passphrase in memory"
-msgstr "将passphrase暂时存在内存中"
+msgstr "将 passphrase 暂时存在内存中"
 
 #: src/plugins/pgpcore/prefs_gpg.c:145
 msgid "Expire after"
@@ -11936,7 +11940,7 @@ msgstr "到期时间"
 
 #: src/plugins/pgpcore/prefs_gpg.c:159
 msgid "Setting to '0' will store the passphrase for the whole session"
-msgstr "若设置为 '0' 则会在整个会话期内保存passphrase"
+msgstr "若设置为 '0' 则会在整个会话期内保存 passphrase"
 
 #: src/plugins/pgpcore/prefs_gpg.c:163 src/plugins/rssyl/rssyl_feed_props.c:475
 #: src/plugins/rssyl/rssyl_prefs.c:154 src/prefs_receive.c:159
@@ -11954,7 +11958,7 @@ msgstr "若 GnuPG 无法运作，则在启动时发出警告"
 #: src/plugins/pgpcore/prefs_gpg.c:183
 #, fuzzy
 msgid "Path to GnuPG executable"
-msgstr "bogofilter程序目录"
+msgstr "bogofilter 程序目录"
 
 #: src/plugins/pgpcore/prefs_gpg.c:188
 #, fuzzy
@@ -11987,7 +11991,7 @@ msgstr "手工指定密钥"
 
 #: src/plugins/pgpcore/prefs_gpg.c:393
 msgid "User or key ID:"
-msgstr "用户ID或者密钥ID:"
+msgstr "用户 ID 或者密钥 ID:"
 
 #: src/plugins/pgpcore/prefs_gpg.c:434
 msgid "No secret key found."
@@ -12005,7 +12009,7 @@ msgstr "GPG"
 #: src/plugins/pgpcore/select-keys.c:95
 #, c-format
 msgid "No exact match for '%s'; please select the key."
-msgstr "没有'%s'的严格匹配，请选择一个密钥。"
+msgstr "没有 '%s' 的严格匹配，请选择一个密钥。"
 
 #: src/plugins/pgpcore/select-keys.c:98
 #, c-format
@@ -12048,7 +12052,7 @@ msgstr "不加密(_N)"
 
 #: src/plugins/pgpcore/select-keys.c:583
 msgid "Add key"
-msgstr "加入key 的识别码"
+msgstr "加入 key 的识别码"
 
 #: src/plugins/pgpcore/select-keys.c:584
 msgid "Enter another user or key ID:"
@@ -12070,7 +12074,7 @@ msgid ""
 "\n"
 "Do you trust this key enough to use it anyway?"
 msgstr ""
-"'%s'的密钥不被完全信任。\n"
+"'%s' 的密钥不被完全信任。\n"
 "如果你选择该密钥加密邮件，将不能确保该邮件会被发送给指定的人。\n"
 "你足够信任它并坚持要使用它吗?"
 
@@ -12095,7 +12099,7 @@ msgstr "该签名尚未被检查。"
 
 #: src/plugins/pgpcore/sgpgme.c:213
 msgid "PGP Core: Can't get key - no gpg-agent running."
-msgstr "PGP Core: 无法获取密钥 - gpg-agent没有启动运行"
+msgstr "PGP Core: 无法获取密钥 - gpg-agent 没有启动运行"
 
 #: src/plugins/pgpcore/sgpgme.c:229
 #, fuzzy, c-format
@@ -12145,7 +12149,7 @@ msgstr "来自 %s 的签名检查不通过。"
 #: src/plugins/pgpcore/sgpgme.c:271
 #, fuzzy, c-format
 msgid "Key 0x%s not available to verify this signature"
-msgstr "没有匹配的密钥0x%s，无法检查此签名。"
+msgstr "没有匹配的密钥 0x%s，无法检查此签名。"
 
 #: src/plugins/pgpcore/sgpgme.c:276
 #, fuzzy
@@ -12164,12 +12168,12 @@ msgstr "检查签名时发生错误: %s\n"
 #: src/plugins/pgpcore/sgpgme.c:331
 #, fuzzy, c-format
 msgid "Signature made on %s using %s key ID %s\n"
-msgstr "签名采用%s制作，密钥ID: %s\n"
+msgstr "签名采用 %s 制作，密钥 ID: %s\n"
 
 #: src/plugins/pgpcore/sgpgme.c:337
 #, c-format
 msgid "Good signature from uid \"%s\" (Validity: %s)\n"
-msgstr "\"%s\"的签名完好 (有效期: %s)\n"
+msgstr "\"%s\" 的签名完好 (有效期: %s)\n"
 
 #: src/plugins/pgpcore/sgpgme.c:342
 #, fuzzy, c-format
@@ -12194,7 +12198,7 @@ msgstr "来自 \"%s\" 的签名检查错误\n"
 #: src/plugins/pgpcore/sgpgme.c:370
 #, fuzzy, c-format
 msgid "uid \"%s\" (Validity: %s)\n"
-msgstr "\"%s\"的签名完好 (有效期: %s)\n"
+msgstr "\"%s\" 的签名完好 (有效期: %s)\n"
 
 #: src/plugins/pgpcore/sgpgme.c:372
 msgid "Revoked"
@@ -12217,12 +12221,12 @@ msgstr "主密钥指纹: "
 #: src/plugins/pgpcore/sgpgme.c:398
 #, c-format
 msgid "WARNING: Signer's address \"%s\" does not match DNS entry\n"
-msgstr "警告: 签名者的地址\"%s\"与DNS中的数据并不相符\n"
+msgstr "警告: 签名者的地址 \"%s\" 与 DNS 中的数据并不相符\n"
 
 #: src/plugins/pgpcore/sgpgme.c:404
 #, c-format
 msgid "Verified signer's address is \"%s\"\n"
-msgstr "经验证的签名者地址是\"%s\"\n"
+msgstr "经验证的签名者地址是 \"%s\"\n"
 
 #: src/plugins/pgpcore/sgpgme.c:438
 #, c-format
@@ -12241,7 +12245,7 @@ msgstr "密钥存在二义性"
 #: src/plugins/pgpcore/sgpgme.c:619
 #, c-format
 msgid "Secret key not found (%s)"
-msgstr "没有找到密钥(%s)"
+msgstr "没有找到密钥 (%s)"
 
 #: src/plugins/pgpcore/sgpgme.c:632
 #, c-format
@@ -12251,7 +12255,7 @@ msgstr "设置密钥时出错: %s"
 #: src/plugins/pgpcore/sgpgme.c:721
 #, c-format
 msgid "Gpgme protocol '%s' is unusable: Engine '%s' isn't installed properly."
-msgstr "GPGME协议 '%s'不可用: '%s'引擎未被正确安装。"
+msgstr "GPGME 协议 '%s' 不可用: '%s' 引擎未被正确安装。"
 
 #: src/plugins/pgpcore/sgpgme.c:727
 #, c-format
@@ -12259,30 +12263,31 @@ msgid ""
 "Gpgme protocol '%s' is unusable: Engine '%s' version %s is installed, but "
 "version %s is required.\n"
 msgstr ""
-"GPGME协议'%s'不可用: '%s'引擎虽已安装，但当前版本为%s(至少需要版本%s)。\n"
+"GPGME 协议 '%s' 不可用: '%s' 引擎虽已安装，但当前版本为 %s(至少需要版本 "
+"%s)。\n"
 
 #: src/plugins/pgpcore/sgpgme.c:735
 #, c-format
 msgid "Gpgme protocol '%s' is unusable (unknown problem)"
-msgstr "GPGME协议'%s'不可用(未知错误)"
+msgstr "GPGME 协议 '%s' 不可用 (未知错误)"
 
 #: src/plugins/pgpcore/sgpgme.c:751
 msgid ""
 "GnuPG is not installed properly, or needs to be upgraded.\n"
 "OpenPGP support disabled."
 msgstr ""
-"GnuPG的安装不正常，或需要升级。\n"
-"OpenPGP支持已被禁用。"
+"GnuPG 的安装不正常，或需要升级。\n"
+"OpenPGP 支持已被禁用。"
 
 #: src/plugins/pgpcore/sgpgme.c:785
 msgid ""
 "You have to save the account's information with \"OK\" before being able to "
 "generate a key pair.\n"
-msgstr "您必须先点击\"确定\"按钮保存账户信息，然后才能生成一个密钥对。\n"
+msgstr "您必须先点击 \"确定\" 按钮保存账户信息，然后才能生成一个密钥对。\n"
 
 #: src/plugins/pgpcore/sgpgme.c:790
 msgid "No PGP key found"
-msgstr "没有找到PGP密钥"
+msgstr "没有找到 PGP 密钥"
 
 #: src/plugins/pgpcore/sgpgme.c:791
 msgid ""
@@ -12290,7 +12295,7 @@ msgid ""
 "to sign emails or receive encrypted emails.\n"
 "Do you want to create a new key pair now?"
 msgstr ""
-"没有找到一个PGP密钥, 这意味着你不能加密邮件，也不能收取已加密的邮件。\n"
+"没有找到一个 PGP 密钥, 这意味着你不能加密邮件，也不能收取已加密的邮件。\n"
 "是否现在就生成一对?"
 
 #: src/plugins/pgpcore/sgpgme.c:861 src/plugins/pgpcore/sgpgme.c:877
@@ -12302,7 +12307,7 @@ msgstr "无法生成新的密钥对: %s"
 msgid ""
 "Generating your new key pair... Please move the mouse around to help "
 "generate entropy..."
-msgstr "正在生成密钥对…请晃动鼠标以增加熵值 :-)…"
+msgstr "正在生成密钥对… 请晃动鼠标以增加熵值 :-)…"
 
 #: src/plugins/pgpcore/sgpgme.c:883
 msgid "Couldn't generate a new key pair: unknown error"
@@ -12335,7 +12340,7 @@ msgstr "无法导出密钥。"
 
 #: src/plugins/pgpcore/sgpgme.c:936
 msgid "Key export isn't implemented in Windows."
-msgstr "尚不支持Windows上导出密钥功能."
+msgstr "尚不支持 Windows 上导出密钥功能."
 
 #: src/plugins/pgpinline/pgpinline.c:155
 msgid "Incorrect part"
@@ -12360,16 +12365,16 @@ msgstr "无法将文本数据转换到任意字符集。"
 #: src/plugins/smime/smime.c:415
 #, c-format
 msgid "Couldn't initialize GPG context, %s"
-msgstr "无法初始化GPG，%s"
+msgstr "无法初始化 GPG，%s"
 
 #: src/plugins/pgpinline/pgpinline.c:315
 msgid "Couldn't parse mime part."
-msgstr "无法读取邮件的MIME部分."
+msgstr "无法读取邮件的 MIME 部分."
 
 #: src/plugins/pgpinline/pgpinline.c:345 src/plugins/pgpmime/pgpmime.c:352
 #, c-format
 msgid "Couldn't open decrypted file %s"
-msgstr "无法打开已解密的文件%s"
+msgstr "无法打开已解密的文件 %s"
 
 #: src/plugins/pgpinline/pgpinline.c:362 src/plugins/pgpinline/pgpinline.c:371
 #: src/plugins/pgpinline/pgpinline.c:380 src/plugins/pgpinline/pgpinline.c:388
@@ -12377,7 +12382,7 @@ msgstr "无法打开已解密的文件%s"
 #: src/plugins/pgpmime/pgpmime.c:363 src/plugins/pgpmime/pgpmime.c:377
 #, c-format
 msgid "Couldn't write to decrypted file %s"
-msgstr "无法写入已解密的文件%s"
+msgstr "无法写入已解密的文件 %s"
 
 #: src/plugins/pgpinline/pgpinline.c:376 src/plugins/pgpinline/pgpinline.c:377
 #: src/plugins/pgpinline/pgpinline.c:378
@@ -12398,7 +12403,7 @@ msgstr "--- 此为 PGP/Inline 加密数据的结束 ---\n"
 #: src/plugins/pgpinline/pgpinline.c:415 src/plugins/pgpmime/pgpmime.c:389
 #, c-format
 msgid "Couldn't close decrypted file %s"
-msgstr "无法关闭已解密的文件%s"
+msgstr "无法关闭已解密的文件 %s"
 
 #: src/plugins/pgpinline/pgpinline.c:427
 msgid "Couldn't scan decrypted file."
@@ -12438,12 +12443,12 @@ msgstr "数据加密失败，内容为空。"
 msgid ""
 "Please note that attachments are not encrypted by the PGP/Inline system, nor "
 "are email headers, like Subject."
-msgstr "请注意PGP/Inline系统无法加密附件，也无法加密邮件头(比如邮件主题)。"
+msgstr "请注意 PGP/Inline 系统无法加密附件，也无法加密邮件头 (比如邮件主题)。"
 
 #: src/plugins/pgpinline/pgpinline.c:667 src/plugins/pgpmime/pgpmime.c:662
 #, c-format
 msgid "Couldn't add GPG key %s, %s"
-msgstr "无法添加GPG密钥 %s, %s"
+msgstr "无法添加 GPG 密钥 %s, %s"
 
 #: src/plugins/pgpinline/pgpinline.c:695 src/plugins/pgpmime/pgpmime.c:691
 #, c-format
@@ -12479,14 +12484,14 @@ msgid ""
 "\n"
 "GPGME is copyright 2001 by Werner Koch <dd9jn@gnu.org>"
 msgstr ""
-"本插件可以让你处理采用Inline方式(该方式已经过时)加密或者签名的邮件。你可以对"
-"邮件解密、验证签名或者加密、签名你自己的邮件.\n"
+"本插件可以让你处理采用 Inline 方式 (该方式已经过时) 加密或者签名的邮件。你可"
+"以对邮件解密、验证签名或者加密、签名你自己的邮件.\n"
 "\n"
-"它可以作为默认的隐私系统使用，你可以在'/配置/[帐号偏好]/隐私'中设置；也可以在"
-"撰写邮件时通过'/选项/隐私系统'选择。\n"
-"本插件采用GPGME库(作为GnuPG的包装).\n"
+"它可以作为默认的隐私系统使用，你可以在 “/配置/[帐号偏好]/隐私”中设置；也可以"
+"在撰写邮件时通过“/选项/隐私系统”选择。\n"
+"本插件采用 GPGME 库(作为 GnuPG 的包装).\n"
 "\n"
-"GPGME的版权归Werner Koch <dd9jn@gnu.org>所有(2001)"
+"GPGME 的版权归 Werner Koch <dd9jn@gnu.org> 所有(2001)"
 
 #: src/plugins/pgpmime/pgpmime.c:203
 msgid "Signature boundary not found."
@@ -12514,7 +12519,7 @@ msgstr "OpenPGP 数字签名"
 msgid ""
 "Please note that email headers, like Subject, are not encrypted by the PGP/"
 "Mime system."
-msgstr "请注意PGP/Mimei无法加密邮件头(比如邮件主题)。"
+msgstr "请注意 PGP/Mimei 无法加密邮件头 (比如邮件主题)。"
 
 #: src/plugins/pgpmime/pgpmime.c:790
 msgid "PGP/Mime"
@@ -12537,16 +12542,16 @@ msgid ""
 "\n"
 "GPGME is copyright 2001 by Werner Koch <dd9jn@gnu.org>"
 msgstr ""
-"本插件可以让你处理采用PGP/MIME方式加密或者签名的邮件。你可以对邮件解密、验证"
-"签名或者加密、签名你自己的邮件.\n"
+"本插件可以让你处理采用 PGP/MIME 方式加密或者签名的邮件。你可以对邮件解密、验"
+"证签名或者加密、签名你自己的邮件.\n"
 "\n"
-"它也可验证用于S/MIME签名。\n"
+"它也可验证用于 S/MIME 签名。\n"
 "\n"
-"它可以作为默认的隐私系统使用，你可以在'/配置/[帐号偏好]/隐私'中设置；也可以在"
-"撰写邮件时通过'/选项/隐私系统'选择。\n"
+"它可以作为默认的隐私系统使用，你可以在 '/ 配置 /[帐号偏好]/ 隐私 '中设置；也"
+"可以在撰写邮件时通过'/ 选项/隐私系统 ' 选择。\n"
 "\n"
-"本插件采用了GPGME库作为GnuPG的包装层, 它的版权归Werner Koch <dd9jn@gnu.org>所"
-"有(2001)\n"
+"本插件采用了 GPGME 库作为 GnuPG 的包装层, 它的版权归 Werner Koch <dd9jn@gnu."
+"org> 所有 (2001)\n"
 " "
 
 #: src/plugins/python/python_plugin.c:358
@@ -12673,30 +12678,30 @@ msgid ""
 "Couldn't read contents of old feeds.xml file:\n"
 "%s"
 msgstr ""
-"无法创建mbox文件:\n"
+"无法创建 mbox 文件:\n"
 "%s\n"
 
 #: src/plugins/rssyl/opml_export.c:110
 #, fuzzy, c-format
 msgid "RSSyl: Error while writing '%s' to feed export list.\n"
-msgstr "RSSyl：  当写入'%s'以导出feed清单时发生错误\n"
+msgstr "RSSyl：  当写入 '%s' 以导出 feed 清单时发生错误\n"
 
 #: src/plugins/rssyl/opml_export.c:131
 #, fuzzy, c-format
 msgid "RSSyl: Couldn't delete old OPML file '%s': %s\n"
 msgstr ""
-"无法打开mbox文件:\n"
+"无法打开 mbox 文件:\n"
 "%s\n"
 
 #: src/plugins/rssyl/opml_export.c:141
 #, fuzzy, c-format
 msgid "RSSyl: Couldn't open file '%s' for feed list exporting: %s\n"
-msgstr "RSSyl： 无法打开文件 '%s' 以导出feed清单： %s\n"
+msgstr "RSSyl： 无法打开文件 '%s' 以导出 feed 清单： %s\n"
 
 #: src/plugins/rssyl/opml_export.c:182
 #, fuzzy
 msgid "RSSyl: Error during writing feed export file.\n"
-msgstr "RSSyl： 写入feed导出文件时发生错误\n"
+msgstr "RSSyl： 写入 feed 导出文件时发生错误\n"
 
 #: src/plugins/rssyl/opml_import.c:109
 #, fuzzy, c-format
@@ -12706,7 +12711,7 @@ msgid ""
 "\n"
 "Folder name '%s' is not allowed."
 msgstr ""
-"当订阅feed时发生错误\n"
+"当订阅 feed 时发生错误\n"
 "%s\n"
 "\n"
 "文件夹名称 '%s' 是不允许的"
@@ -12719,7 +12724,8 @@ msgid ""
 "Each newsfeed will create a folder with appropriate entries, fetched from "
 "the web. You can read them, and delete or keep old entries."
 msgstr ""
-"本插件使得您可以创建一个邮箱来阅读 RSS 1.0, RSS 2.0或者Atom格式的新闻源。\n"
+"本插件使得您可以创建一个邮箱来阅读 RSS 1.0, RSS 2.0 或者 Atom 格式的新闻"
+"源。\n"
 "\n"
 "每项新闻源将创建一个邮件夹，从网络提取内容。您可以阅读，删除或者保留里面的条"
 "目。"
@@ -12736,7 +12742,7 @@ msgstr "（空）"
 #: src/plugins/rssyl/rssyl.c:155 src/plugins/rssyl/rssyl.c:166
 #, fuzzy
 msgid "Refresh all feeds"
-msgstr "更新所有的feeds"
+msgstr "更新所有的 feeds"
 
 #: src/plugins/rssyl/rssyl_cb_menu.c:65
 msgid "Subscribe feed"
@@ -12749,13 +12755,13 @@ msgstr "请输入您想订阅的供稿源的网址："
 #: src/plugins/rssyl/rssyl_cb_menu.c:98
 #, fuzzy, c-format
 msgid "'%c' can't be used in folder name."
-msgstr "目录名称不能包含`%c'。"
+msgstr "目录名称不能包含 `%c'。"
 
 #: src/plugins/rssyl/rssyl_cb_menu.c:253
 #, fuzzy
 msgid "Claws Mail needs network access in order to update the feed."
 msgid_plural "Claws Mail needs network access in order to update feeds."
-msgstr[0] "Claws Mail需要访问网络方可更新供稿源。"
+msgstr[0] "Claws Mail 需要访问网络方可更新供稿源。"
 
 #: src/plugins/rssyl/rssyl_cb_menu.c:316
 #, fuzzy, c-format
@@ -12770,7 +12776,7 @@ msgstr "删除目录树"
 #: src/plugins/rssyl/rssyl_cb_menu.c:351
 #, fuzzy
 msgid "Select an OPML file"
-msgstr "选中一个.opml文件"
+msgstr "选中一个. opml 文件"
 
 #: src/plugins/rssyl/rssyl_feed.c:75 src/plugins/rssyl/rssyl_subscribe.c:155
 #, fuzzy, c-format
@@ -12780,17 +12786,17 @@ msgstr "发送新闻过程中无法创建临时文件。"
 #: src/plugins/rssyl/rssyl_feed.h:10
 #, fuzzy, c-format
 msgid "RSSyl: Subscribing new feed: %s\n"
-msgstr "RSSyl: 正在更新供稿源%s\n"
+msgstr "RSSyl: 正在更新供稿源 %s\n"
 
 #: src/plugins/rssyl/rssyl_feed.h:11
 #, fuzzy, c-format
 msgid "RSSyl: New feed subscribed: '%s' (%s)\n"
-msgstr "RSSyl： 已订阅新的feed： '%s' (%s)\n"
+msgstr "RSSyl： 已订阅新的 feed： '%s' (%s)\n"
 
 #: src/plugins/rssyl/rssyl_feed.h:12
 #, fuzzy, c-format
 msgid "RSSyl: Updating feed: %s\n"
-msgstr "RSSyl: 正在更新供稿源%s\n"
+msgstr "RSSyl: 正在更新供稿源 %s\n"
 
 #: src/plugins/rssyl/rssyl_feed.h:13
 #, c-format
@@ -12800,22 +12806,22 @@ msgstr "RSSyl: 供稿源完成更新: %s\n"
 #: src/plugins/rssyl/rssyl_feed.h:14
 #, fuzzy, c-format
 msgid "RSSyl: Error fetching feed at '%s': %s\n"
-msgstr "RSSyl: 正在更新供稿源%s\n"
+msgstr "RSSyl: 正在更新供稿源 %s\n"
 
 #: src/plugins/rssyl/rssyl_feed.h:15
 #, fuzzy, c-format
 msgid "RSSyl: No valid feed found at '%s'\n"
-msgstr "RSSyl: 正在更新供稿源%s\n"
+msgstr "RSSyl: 正在更新供稿源 %s\n"
 
 #: src/plugins/rssyl/rssyl_feed.h:16
 #, fuzzy, c-format
 msgid "RSSyl: Couldn't process feed at '%s'\n"
-msgstr "无法导出忙闲信息到'%s'\n"
+msgstr "无法导出忙闲信息到 '%s'\n"
 
 #: src/plugins/rssyl/rssyl_feed.h:17
 #, fuzzy, c-format
 msgid "RSSyl: Application is exiting, couldn't finish updating feed at '%s'\n"
-msgstr "RSSyl： 应用程序已经存在，无法在 '%s' 结束feed的更新动作\n"
+msgstr "RSSyl： 应用程序已经存在，无法在 '%s' 结束 feed 的更新动作\n"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:273
 #, fuzzy
@@ -12839,7 +12845,7 @@ msgstr "对齐(_T)"
 #: src/plugins/rssyl/rssyl_feed_props.c:310
 #, fuzzy
 msgid "Update feed, deleting items which are no longer in the source feed"
-msgstr "更新 feed，删除那些已经不在来源feed内的项目"
+msgstr "更新 feed，删除那些已经不在来源 feed 内的项目"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:313
 msgid "Fetch comments if possible"
@@ -12848,7 +12854,7 @@ msgstr "无法提取评论"
 #: src/plugins/rssyl/rssyl_feed_props.c:338
 #, fuzzy
 msgid "Always mark it as new"
-msgstr "永远标示为新feed"
+msgstr "永远标示为新 feed"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:344
 #, fuzzy
@@ -12858,7 +12864,7 @@ msgstr "只有当此文档内容异动时，才会把它标示为新文档"
 #: src/plugins/rssyl/rssyl_feed_props.c:350
 #, fuzzy
 msgid "Never mark it as new"
-msgstr "永远不要标示为新feed"
+msgstr "永远不要标示为新 feed"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:355
 #, fuzzy
@@ -12876,14 +12882,14 @@ msgid ""
 "Enable this to keep current folder name, even if feed author changes title "
 "of the feed."
 msgstr ""
-"启用这个功能可以保持目前的文件夹名称，甚至当feed作者改变feed的标题时也一样有"
-"效"
+"启用这个功能可以保持目前的文件夹名称，甚至当 feed 作者改变 feed 的标题时也一"
+"样有效"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:371
 #: src/plugins/vcalendar/vcal_prefs.c:547
 #, fuzzy
 msgid "Verify SSL certificate validity"
-msgstr "SSL认证(_T)"
+msgstr "SSL 认证(_T)"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:391
 msgid "User name"
@@ -12924,7 +12930,7 @@ msgstr "采用缺省定时刷新设置"
 #: src/plugins/rssyl/rssyl_feed_props.c:476
 #, fuzzy
 msgid "Set to 0 to disable automatic refreshing for this feed"
-msgstr "设置为0表示禁止自动刷新"
+msgstr "设置为 0 表示禁止自动刷新"
 
 #: src/plugins/rssyl/rssyl_feed_props.c:528
 msgid "_OK"
@@ -12975,11 +12981,11 @@ msgstr "删除于"
 
 #: src/plugins/rssyl/rssyl_gtk.c:126
 msgid "Add RSS folder tree"
-msgstr "添加RSS目录树"
+msgstr "添加 RSS 目录树"
 
 #: src/plugins/rssyl/rssyl_gtk.c:127
 msgid "Enter name for a new RSS folder tree."
-msgstr "请输入要新建的RSS目录树的名称"
+msgstr "请输入要新建的 RSS 目录树的名称"
 
 #: src/plugins/rssyl/rssyl_gtk.c:143
 msgid ""
@@ -12997,7 +13003,7 @@ msgstr "我的源"
 #: src/plugins/rssyl/rssyl_prefs.c:111
 #, fuzzy
 msgid "Select cookies file"
-msgstr "选择Pine文件"
+msgstr "选择 Pine 文件"
 
 #: src/plugins/rssyl/rssyl_prefs.c:141
 #, fuzzy
@@ -13011,15 +13017,15 @@ msgstr "程序启动时刷新全部供稿源"
 #: src/plugins/rssyl/rssyl_prefs.c:170
 #, fuzzy
 msgid "Verify SSL certificates validity for new feeds"
-msgstr "%s 的SSL数字证书"
+msgstr "%s 的 SSL 数字证书"
 
 #: src/plugins/rssyl/rssyl_prefs.c:177
 msgid "Path to cookies file"
-msgstr "cookies文件位置"
+msgstr "cookies 文件位置"
 
 #: src/plugins/rssyl/rssyl_prefs.c:184
 msgid "Path to Netscape-style cookies.txt file containing your cookies"
-msgstr "Netscape风格的cookies.txt，该文件保存着您的cookies"
+msgstr "Netscape 风格的 cookies.txt，该文件保存着您的 cookies"
 
 #: src/plugins/rssyl/rssyl_prefs.c:195
 msgid "Refreshing"
@@ -13033,7 +13039,7 @@ msgstr "安全与隐私"
 #: src/plugins/rssyl/rssyl_subscribe_gtk.c:47
 #, fuzzy
 msgid "Subscribe new feed?"
-msgstr "订阅新的feed…"
+msgstr "订阅新的 feed…"
 
 #: src/plugins/rssyl/rssyl_subscribe_gtk.c:64
 #, fuzzy
@@ -13086,7 +13092,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"从<b>%s</b>导入 feed 发生错误:\n"
+"从 <b>%s</b> 导入 feed 发生错误:\n"
 "\n"
 "%s"
 
@@ -13096,7 +13102,7 @@ msgid ""
 "No valid feed found at\n"
 "<b>%s</b>"
 msgstr ""
-"在<b>%s</b>\n"
+"在 <b>%s</b>\n"
 "没有有效的 feed"
 
 #: src/plugins/rssyl/rssyl_update_feed.c:152
@@ -13107,12 +13113,12 @@ msgstr "无标题"
 #: src/plugins/rssyl/rssyl_update_feed.c:154
 #, fuzzy, c-format
 msgid "RSSyl: Possibly invalid feed without title at %s.\n"
-msgstr "RSSyl: 正在更新供稿源%s\n"
+msgstr "RSSyl: 正在更新供稿源 %s\n"
 
 #: src/plugins/rssyl/rssyl_update_feed.c:228
 #, fuzzy, c-format
 msgid "Updating feed '%s'..."
-msgstr "正在刷新供稿源'%s'…"
+msgstr "正在刷新供稿源 '%s'…"
 
 #: src/plugins/rssyl/rssyl_update_feed.c:250
 #, fuzzy, c-format
@@ -13122,14 +13128,14 @@ msgid ""
 "\n"
 "Please contact developers, this should not happen."
 msgstr ""
-"无法从<b>%s</b>\n"
+"无法从 <b>%s</b>\n"
 "进行 feed\n"
 "请连络开发人员，这是不应该发生的。"
 
 #: src/plugins/rssyl/rssyl_update_feed.c:334
 #, fuzzy
 msgid "Claws Mail needs network access in order to update your feeds."
-msgstr "Claws Mail需要访问网络方可更新供稿源。"
+msgstr "Claws Mail 需要访问网络方可更新供稿源。"
 
 #: src/plugins/rssyl/rssyl_update_format.c:127
 #, fuzzy
@@ -13163,21 +13169,21 @@ msgid ""
 "\n"
 "GPGME is copyright 2001 by Werner Koch <dd9jn@gnu.org>"
 msgstr ""
-"本插件可以让你处理采用S/MIME方式加密或者签名的邮件。你可以对邮件解密、验证签"
-"名或者加密、签名你自己的邮件.\n"
+"本插件可以让你处理采用 S/MIME 方式加密或者签名的邮件。你可以对邮件解密、验证"
+"签名或者加密、签名你自己的邮件.\n"
 "\n"
-"它可以作为默认的隐私系统使用，你可以在'/配置/[帐号偏好]/隐私'中设置；也可以在"
-"撰写邮件时通过'/选项/隐私系统'选择。\n"
+"它可以作为默认的隐私系统使用，你可以在 '/ 配置 /[帐号偏好]/ 隐私 '中设置；也"
+"可以在撰写邮件时通过'/ 选项/隐私系统 ' 选择。\n"
 "\n"
-"关于如何获得可用于GPGSMS的/MIME证书，可在如下地址找到:\n"
+"关于如何获得可用于 GPGSMS 的/MIME 证书，可在如下地址找到:\n"
 "http://www.claws-mail.org/faq/index.php/S/MIME_howto\n"
 "\n"
-"GPGME库的版权归Werner Koch <dd9jn@gnu.org>所有 2001"
+"GPGME 库的版权归 Werner Koch <dd9jn@gnu.org> 所有 2001"
 
 #: src/plugins/smime/smime.c:423
 #, c-format
 msgid "Couldn't set GPG protocol, %s"
-msgstr "无法设置GPG协议, %s"
+msgstr "无法设置 GPG 协议, %s"
 
 #: src/plugins/smime/smime.c:451
 msgid "Couldn't open temporary file"
@@ -13195,7 +13201,7 @@ msgstr "无法关闭临时文件。"
 msgid ""
 "Please note that email headers, like Subject, are not encrypted by the S/"
 "MIME system."
-msgstr "请留意邮件标题这些邮件头信息没有没有被S/MIME加密。"
+msgstr "请留意邮件标题这些邮件头信息没有没有被 S/MIME 加密。"
 
 #: src/plugins/spam_report/spam_report.c:293
 #, fuzzy
@@ -13255,15 +13261,15 @@ msgstr "SpamAssassin"
 
 #: src/plugins/spamassassin/spamassassin.c:169
 msgid "SpamAssassin plugin couldn't connect to spamd.\n"
-msgstr "SpamAssassin插件无法连接到spamd服务器.\n"
+msgstr "SpamAssassin 插件无法连接到 spamd 服务器.\n"
 
 #: src/plugins/spamassassin/spamassassin.c:185
 msgid "SpamAssassin plugin filtering failed.\n"
-msgstr "SpamAssassin插件过滤失败。\n"
+msgstr "SpamAssassin 插件过滤失败。\n"
 
 #: src/plugins/spamassassin/spamassassin.c:238
 msgid "SpamAssassin plugin is disabled by its preferences.\n"
-msgstr "SpamAssassin插件已经被设置为禁用.\n"
+msgstr "SpamAssassin 插件已经被设置为禁用.\n"
 
 #: src/plugins/spamassassin/spamassassin.c:243
 msgid "SpamAssassin: filtering message..."
@@ -13275,14 +13281,14 @@ msgid ""
 "error is an unreachable spamd daemon. Please make sure spamd is running and "
 "accessible."
 msgstr ""
-"SpamAssassin无法过滤邮件，因为无法连接上spamd服务程序。请确定该服务器已经启动"
-"并可访问。"
+"SpamAssassin 无法过滤邮件，因为无法连接上 spamd 服务程序。请确定该服务器已经"
+"启动并可访问。"
 
 #: src/plugins/spamassassin/spamassassin.c:429
 msgid ""
 "Claws Mail needs network access in order to feed this mail(s) to the remote "
 "learner."
-msgstr "Claws Mail需要访问网络才能将此邮件的内容反馈给远端的垃圾邮件识别器。"
+msgstr "Claws Mail 需要访问网络才能将此邮件的内容反馈给远端的垃圾邮件识别器。"
 
 #: src/plugins/spamassassin/spamassassin.c:574
 msgid "Failed to get username"
@@ -13290,7 +13296,7 @@ msgstr "获取用户名失败"
 
 #: src/plugins/spamassassin/spamassassin.c:586
 msgid "SpamAssassin plugin is loaded but disabled by its preferences.\n"
-msgstr "SpamAssassin插件已经加载，但用户选择了禁用。\n"
+msgstr "SpamAssassin 插件已经加载，但用户选择了禁用。\n"
 
 #: src/plugins/spamassassin/spamassassin.c:620
 msgid ""
@@ -13305,14 +13311,15 @@ msgid ""
 "\n"
 "Options can be found in /Configuration/Preferences/Plugins/SpamAssassin"
 msgstr ""
-"本插件用SpamAssassin服务器检查所有从IMAP, LOCAL或者POP帐号收到的邮件, 以判断"
-"来信是否是垃圾邮件。你需要一个在某处运行的SpamAssassin服务器(spamd)。\n"
+"本插件用 SpamAssassin 服务器检查所有从 IMAP, LOCAL 或者 POP 帐号收到的邮件, "
+"以判断来信是否是垃圾邮件。你需要一个在某处运行的 SpamAssassin 服务器 "
+"(spamd)。\n"
 "\n"
 "它也可以用于手工标识垃圾邮件。\n"
 "\n"
 "如果一个邮件被判断为垃圾邮件，它将会被删除或者保存到一个特殊目录。\n"
 "\n"
-"相关选项可以在'/配置/偏好/插件/SpamAssassin'中设置"
+"相关选项可以在 '/ 配置/偏好/插件/SpamAssassin' 中设置"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:90
 msgid "Localhost"
@@ -13330,7 +13337,7 @@ msgstr "Unix Socket"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:268
 msgid "Enable SpamAssassin plugin"
-msgstr "启用SpamAssassin插件"
+msgstr "启用 SpamAssassin 插件"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:272
 msgid "Transport"
@@ -13346,7 +13353,7 @@ msgstr "用户"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:314
 msgid "User to use with spamd server"
-msgstr "用于使用spamd服务器的用户名"
+msgstr "用于使用 spamd 服务器的用户名"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:316
 #, fuzzy
@@ -13355,15 +13362,15 @@ msgstr "spamd"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:334
 msgid "Hostname or IP address of spamd server"
-msgstr "spamd服务的主机名或者IP地址"
+msgstr "spamd 服务的主机名或者 IP 地址"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:345
 msgid "Port of spamd server"
-msgstr "spamd服务器端口"
+msgstr "spamd 服务器端口"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:351
 msgid "Path of Unix socket"
-msgstr "UNIX套接字路径"
+msgstr "UNIX 套接字路径"
 
 #: src/plugins/spamassassin/spamassassin_gtk.c:386
 msgid ""
@@ -13393,7 +13400,7 @@ msgstr "注册主题变更钩子失败"
 #: src/plugins/tnef_parse/tnef_parse.c:174
 #, fuzzy
 msgid "Failed to parse VCalendar data."
-msgstr "注册 'folder update hook' 失败"
+msgstr "注册'folder update hook' 失败"
 
 #: src/plugins/tnef_parse/tnef_parse.c:213
 #, fuzzy
@@ -13403,13 +13410,13 @@ msgstr "解析 VTask 数据失败"
 #: src/plugins/tnef_parse/tnef_parse.c:263
 #, fuzzy
 msgid "Failed to parse VCard data."
-msgstr "文件不是vCard格式。"
+msgstr "文件不是 vCard 格式。"
 
 #: src/plugins/tnef_parse/tnef_parse.c:399
 #: src/plugins/tnef_parse/tnef_parse.c:423
 #, fuzzy
 msgid "TNEF Parser"
-msgstr "TNEF解析器"
+msgstr "TNEF 解析器"
 
 #: src/plugins/tnef_parse/tnef_parse.c:428
 #, fuzzy
@@ -13568,17 +13575,17 @@ msgid ""
 "meetings and calendars, publish your free/busy information and retrieve that "
 "information from others."
 msgstr ""
-"本插件将为Sylpheed-Claws增加对vCalendar格式信息的支持，该格式在Evolution和"
-"Outlook中用于记录会议等待办事宜。\n"
+"本插件将为 Sylpheed-Claws 增加对 vCalendar 格式信息的支持，该格式在 "
+"Evolution 和 Outlook 中用于记录会议等待办事宜。\n"
 "\n"
-"加载后，本插件将在文件夹树中创建一个vCalendar邮箱，用于存放您创建或者收到的会"
-"议通知。\n"
+"加载后，本插件将在文件夹树中创建一个 vCalendar 邮箱，用于存放您创建或者收到的"
+"会议通知。\n"
 "你收到的会议邀请会以合适的形式显示出来，以便您可以方便地选择接收还是拒绝"
 "它。\n"
-"如果您需要创建一个会议通知，可以在vCalendar或者Meetings文件夹上单击右键，选择"
-"\"New meeting…\"。\n"
-"你也可以订阅远程的webcal数据，导出会议和日历安排，发布您的空余时间信息或者获"
-"取其它人的信息。"
+"如果您需要创建一个会议通知，可以在 vCalendar 或者 Meetings 文件夹上单击右键，"
+"选择 \"New meeting…\"。\n"
+"你也可以订阅远程的 webcal 数据，导出会议和日历安排，发布您的空余时间信息或者"
+"获取其它人的信息。"
 
 #: src/plugins/vcalendar/plugin.c:106
 msgid "Calendar"
@@ -13592,7 +13599,7 @@ msgstr "根据邮件创建会议日程…"
 #, c-format
 msgid ""
 "You are about to create %d meetings, one by one. Do you want to continue?"
-msgstr "您将要创建%d个会议（创建将逐一进行），是否继续？"
+msgstr "您将要创建 %d 个会议（创建将逐一进行），是否继续？"
 
 #: src/plugins/vcalendar/vcalendar.c:139
 msgid "Creating meeting..."
@@ -13661,7 +13668,7 @@ msgid ""
 "%s has %s the invitation whose details follow:"
 msgstr ""
 "您已经收到一项会议提议的回复。\n"
-"%s 已经%s了该邀请。详细内容如下："
+"%s 已经 %s 了该邀请。详细内容如下："
 
 #: src/plugins/vcalendar/vcalendar.c:835
 #, fuzzy
@@ -13706,7 +13713,7 @@ msgstr ""
 #: src/plugins/vcalendar/vcalendar.c:1093
 #, fuzzy
 msgid "Reply anyway"
-msgstr "+仍旧回复"
+msgstr "+ 仍旧回复"
 
 #: src/plugins/vcalendar/vcalendar.c:1222
 msgid "Answer"
@@ -13779,7 +13786,7 @@ msgstr "导出日历(_E)…"
 
 #: src/plugins/vcalendar/vcal_folder.c:166
 msgid "_Subscribe to webCal..."
-msgstr "订阅WebCal(_S)…"
+msgstr "订阅 WebCal(_S)…"
 
 #: src/plugins/vcalendar/vcal_folder.c:168
 msgid "_Rename..."
@@ -13833,12 +13840,12 @@ msgid ""
 "These are the events planned %s:\n"
 msgstr ""
 "\n"
-"以下是计划%s:\n"
+"以下是计划 %s:\n"
 
 #: src/plugins/vcalendar/vcal_folder.c:1590
 #, c-format
 msgid "Timeout (%d seconds) connecting to %s\n"
-msgstr "超时(%d秒)，连接%s失败\n"
+msgstr "超时 (%d 秒)，连接 %s 失败\n"
 
 #: src/plugins/vcalendar/vcal_folder.c:1608
 #, fuzzy, c-format
@@ -13853,7 +13860,7 @@ msgid ""
 "\n"
 "%s"
 msgstr ""
-"无法访问WebCal，URL: \n"
+"无法访问 WebCal，URL: \n"
 "%s\n"
 "\n"
 "%s"
@@ -13866,7 +13873,7 @@ msgid ""
 "\n"
 "%s\n"
 msgstr ""
-"无法访问WebCal，URL: \n"
+"无法访问 WebCal，URL: \n"
 "%s\n"
 "\n"
 "%s\n"
@@ -13878,7 +13885,7 @@ msgid ""
 "%s\n"
 "%s"
 msgstr ""
-"该网址看起来并不像一个WebCal网址：\n"
+"该网址看起来并不像一个 WebCal 网址：\n"
 "%s\n"
 "%s"
 
@@ -13889,7 +13896,7 @@ msgid ""
 "%s\n"
 "%s\n"
 msgstr ""
-"该网址看起来并不像一个WebCal网址：\n"
+"该网址看起来并不像一个 WebCal 网址：\n"
 "%s\n"
 "%s\n"
 
@@ -13901,7 +13908,7 @@ msgstr "无法创建目标目录 %s。"
 
 #: src/plugins/vcalendar/vcal_folder.c:1893
 msgid "Claws Mail needs network access in order to update the Webcal feed."
-msgstr "Claws Mail需要连接网络才能更新WebCal数据。"
+msgstr "Claws Mail 需要连接网络才能更新 WebCal 数据。"
 
 #: src/plugins/vcalendar/vcal_folder.c:1904
 #, fuzzy, c-format
@@ -13915,15 +13922,15 @@ msgstr "订阅新闻组"
 
 #: src/plugins/vcalendar/vcal_folder.c:1916
 msgid "Claws Mail needs network access in order to update the subscription."
-msgstr "Claws Mail需要连接网络才能更新所订阅的数据。"
+msgstr "Claws Mail 需要连接网络才能更新所订阅的数据。"
 
 #: src/plugins/vcalendar/vcal_folder.c:1928
 msgid "Subscribe to WebCal"
-msgstr "订阅WebCal"
+msgstr "订阅 WebCal"
 
 #: src/plugins/vcalendar/vcal_folder.c:1928
 msgid "Enter the WebCal URL:"
-msgstr "请输入WebCal网址"
+msgstr "请输入 WebCal 网址"
 
 #: src/plugins/vcalendar/vcal_folder.c:1940
 msgid "Could not parse the URL."
@@ -14039,42 +14046,42 @@ msgstr "%s 在您计划的会议时间内无空"
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:785
 #, c-format
 msgid "%d hour sooner"
-msgstr "之前%d小时"
+msgstr "之前 %d 小时"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:787
 #, c-format
 msgid "%d hours sooner"
-msgstr "之后%d小时"
+msgstr "之后 %d 小时"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:789
 #, c-format
 msgid "%d hours and %d minutes sooner"
-msgstr "之前%d小时%d分钟"
+msgstr "之前 %d 小时 %d 分钟"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:791
 #, c-format
 msgid "%d minutes sooner"
-msgstr "之前%d分钟"
+msgstr "之前 %d 分钟"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:796
 #, c-format
 msgid "%d hour later"
-msgstr "之后%d小时"
+msgstr "之后 %d 小时"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:798
 #, c-format
 msgid "%d hours later"
-msgstr "之后%d小时"
+msgstr "之后 %d 小时"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:800
 #, c-format
 msgid "%d hours and %d minutes later"
-msgstr "之后%d小时%d分钟"
+msgstr "之后 %d 小时 %d 分钟"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:802
 #, c-format
 msgid "%d minutes later"
-msgstr "之后%d分"
+msgstr "之后 %d 分"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:808
 #, c-format
@@ -14085,7 +14092,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"所有人在%s或%s均有空."
+"所有人在 %s 或 %s 均有空."
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:810
 #, c-format
@@ -14107,17 +14114,17 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"在此前和此后6个小时内不可能让所有人参加这个会议。"
+"在此前和此后 6 个小时内不可能让所有人参加这个会议。"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:817
 #, c-format
 msgid "would be available %s or %s"
-msgstr "将会在%s或者%s有空"
+msgstr "将会在 %s 或者 %s 有空"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:819
 #, c-format
 msgid "would be available %s"
-msgstr "将会在%s有空"
+msgstr "将会在 %s 有空"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:821
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:882
@@ -14128,16 +14135,16 @@ msgstr "不可用"
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:824
 #, c-format
 msgid ", but would be available %s or %s."
-msgstr ", 但在%s或者%s有空。"
+msgstr ", 但在 %s 或者 %s 有空。"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:826
 #, c-format
 msgid ", but would be available %s."
-msgstr ", 但在%s有空。"
+msgstr ", 但在 %s 有空。"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:828
 msgid ", and isn't available in the previous or next 6 hours."
-msgstr ", 而且在此前和此后6小时内均无空。"
+msgstr ", 而且在此前和此后 6 小时内均无空。"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:885
 msgid "available"
@@ -14200,7 +14207,7 @@ msgstr "坚持各人是否有空"
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1598
 #, fuzzy
 msgid "Starts at:"
-msgstr "<b>开始于:</b>"
+msgstr "<b> 开始于:</b>"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1604
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1628
@@ -14210,7 +14217,7 @@ msgstr "于："
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1622
 #, fuzzy
 msgid "Ends at:"
-msgstr "<b>结束于:<b>"
+msgstr "<b> 结束于:<b>"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1663
 msgid "New meeting"
@@ -14230,13 +14237,13 @@ msgstr "时间"
 #, c-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] "%d小时"
+msgstr[0] "%d 小时"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1880
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d分"
+msgstr[0] "%d 分"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:1891
 #, c-format
@@ -14280,12 +14287,12 @@ msgstr "无法导出此日历项"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:2093
 msgid "Export calendar to ICS"
-msgstr "导出日历到ICS"
+msgstr "导出日历到 ICS"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:2116
 #, c-format
 msgid "Couldn't export calendar to '%s'\n"
-msgstr "无法导出日历到'%s'\n"
+msgstr "无法导出日历到 '%s'\n"
 
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:2232
 msgid "Could not export the freebusy info."
@@ -14294,7 +14301,7 @@ msgstr "无法导出忙闲信息。"
 #: src/plugins/vcalendar/vcal_meeting_gtk.c:2264
 #, c-format
 msgid "Couldn't export free/busy to '%s'\n"
-msgstr "无法导出忙闲信息到'%s'\n"
+msgstr "无法导出忙闲信息到 '%s'\n"
 
 #: src/plugins/vcalendar/vcal_prefs.c:282
 msgid "Reminders"
@@ -14323,11 +14330,11 @@ msgstr "您可以导出到一个本地文件或者一个网络地址"
 
 #: src/plugins/vcalendar/vcal_prefs.c:337
 msgid "Specify a local file or URL (http://server/path/file.ics)"
-msgstr "请指定一个本地文件或者URL(格式如http://server/path/file.ics)"
+msgstr "请指定一个本地文件或者 URL(格式如 http://server/path/file.ics)"
 
 #: src/plugins/vcalendar/vcal_prefs.c:367
 msgid "Include webcal subscriptions in export"
-msgstr "导出时包含webcal中的内容"
+msgstr "导出时包含 webcal 中的内容"
 
 #: src/plugins/vcalendar/vcal_prefs.c:377
 msgid "Command to run after calendar export"
@@ -14335,11 +14342,11 @@ msgstr "导出日历后运行命令"
 
 #: src/plugins/vcalendar/vcal_prefs.c:406
 msgid "Register Claws' calendar in XFCE's Orage clock"
-msgstr "在XFCE的Orage时钟里注册Claws的日程"
+msgstr "在 XFCE 的 Orage 时钟里注册 Claws 的日程"
 
 #: src/plugins/vcalendar/vcal_prefs.c:408
 msgid "Allows Orage (version greater than 4.4) to see Claws Mail's calendar"
-msgstr "允许在XFCE 4.4的日历工具Orage中查看到Claws Mail写入的日程"
+msgstr "允许在 XFCE 4.4 的日历工具 Orage 中查看到 Claws Mail 写入的日程"
 
 #: src/plugins/vcalendar/vcal_prefs.c:421
 #, fuzzy
@@ -14362,7 +14369,7 @@ msgstr "自动导出忙/闲状态到"
 
 #: src/plugins/vcalendar/vcal_prefs.c:456
 msgid "Specify a local file or URL (http://server/path/file.ifb)"
-msgstr "请指定一个本地文件或者一个URL(格式如http://server/path/file.ifb)"
+msgstr "请指定一个本地文件或者一个 URL(格式如 http://server/path/file.ifb)"
 
 #: src/plugins/vcalendar/vcal_prefs.c:486
 msgid "Command to run after free/busy status export"
@@ -14378,8 +14385,8 @@ msgid ""
 "Specify a local file or URL (http://server/path/file.ifb). Use %u for the "
 "left part of the email address, %d for the domain"
 msgstr ""
-"请指定一个本地本件或者URL(http://server/path/file.ifb), 用%u表示email地址的左"
-"边部分，%d表示域名部分"
+"请指定一个本地本件或者 URL(http://server/path/file.ifb), 用 %u 表示 email 地"
+"址的左边部分，%d 表示域名部分"
 
 #: src/plugins/vcalendar/vcal_prefs.c:535
 #, fuzzy
@@ -14388,7 +14395,7 @@ msgstr "回复给发信人选项"
 
 #: src/pop.c:152
 msgid "Required APOP timestamp not found in greeting\n"
-msgstr "未找到握手信息中需要的APOP时间戳\n"
+msgstr "未找到握手信息中需要的 APOP 时间戳\n"
 
 #: src/pop.c:159
 msgid "Timestamp syntax error in greeting\n"
@@ -14396,16 +14403,16 @@ msgstr "握手信息中时间戳格式错误\n"
 
 #: src/pop.c:166
 msgid "Timestamp syntax error in greeting (not ASCII)\n"
-msgstr "握手信息中时间戳格式错误(并非ASCII格式)\n"
+msgstr "握手信息中时间戳格式错误 (并非 ASCII 格式)\n"
 
 #: src/pop.c:190 src/pop.c:217
 msgid "POP3 protocol error\n"
-msgstr "POP3协议错误\n"
+msgstr "POP3 协议错误\n"
 
 #: src/pop.c:263
 #, c-format
 msgid "invalid UIDL response: %s\n"
-msgstr "无效的UIDL响应: %s\n"
+msgstr "无效的 UIDL 响应: %s\n"
 
 #: src/pop.c:841
 #, c-format
@@ -14415,7 +14422,7 @@ msgstr "POP3: 删除过期邮件 %d [%s]\n"
 #: src/pop.c:857
 #, c-format
 msgid "POP3: Skipping message %d [%s] (%d bytes)\n"
-msgstr "POP3: 跳过旧邮件 %d [%s] (%d字节)\n"
+msgstr "POP3: 跳过旧邮件 %d [%s] (%d 字节)\n"
 
 #: src/pop.c:889
 msgid "mailbox is locked\n"
@@ -14431,11 +14438,11 @@ msgstr "命令不被支持\n"
 
 #: src/pop.c:916
 msgid "error occurred on POP3 session\n"
-msgstr "POP3会话中出现错误\n"
+msgstr "POP3 会话中出现错误\n"
 
 #: src/pop.c:1111
 msgid "TOP command unsupported\n"
-msgstr "TOP命令不被支持\n"
+msgstr "TOP 命令不被支持\n"
 
 #: src/prefs_account.c:334 src/prefs_account.c:1450 src/prefs_account.c:2434
 #: src/wizard.c:1492
@@ -14452,11 +14459,11 @@ msgstr "News (NNTP)"
 
 #: src/prefs_account.c:339 src/wizard.c:1494
 msgid "Local mbox file"
-msgstr "本地mbox文件"
+msgstr "本地 mbox 文件"
 
 #: src/prefs_account.c:340
 msgid "None (SMTP only)"
-msgstr "无 (仅SMTP)"
+msgstr "无 (仅 SMTP)"
 
 #: src/prefs_account.c:1033
 msgid "Name of account"
@@ -14493,8 +14500,8 @@ msgid ""
 "Warning: this version of Claws Mail\n"
 "has been built without IMAP and News support."
 msgstr ""
-"<span weight=\"bold\">警告: 当前的Claws Mail\n"
-"编译时没有启用IMAP和News支持。</span>"
+"<span weight=\"bold\"> 警告: 当前的 Claws Mail\n"
+"编译时没有启用 IMAP 和 News 支持。</span>"
 
 #: src/prefs_account.c:1176
 msgid "This server requires authentication"
@@ -14518,11 +14525,11 @@ msgstr "本地邮箱"
 
 #: src/prefs_account.c:1256
 msgid "SMTP server (send)"
-msgstr "SMTP 服务器(发送)"
+msgstr "SMTP 服务器 (发送)"
 
 #: src/prefs_account.c:1264
 msgid "Use mail command rather than SMTP server"
-msgstr "使用mail命令而不是SMTP服务器"
+msgstr "使用 mail 命令而不是 SMTP 服务器"
 
 #: src/prefs_account.c:1273
 msgid "command to send mails"
@@ -14531,7 +14538,7 @@ msgstr "发送邮件的命令"
 #: src/prefs_account.c:1338
 #, c-format
 msgid "Account%d"
-msgstr "帐号%d"
+msgstr "帐号 %d"
 
 #: src/prefs_account.c:1424
 msgid "Local"
@@ -14548,7 +14555,7 @@ msgstr "未被过滤的邮件将放入该目录"
 
 #: src/prefs_account.c:1452
 msgid "Use secure authentication (APOP)"
-msgstr "采用安全鉴定认证(APOP)"
+msgstr "采用安全鉴定认证 (APOP)"
 
 #: src/prefs_account.c:1455
 msgid "Remove messages on server when received"
@@ -14560,7 +14567,7 @@ msgstr "删除于"
 
 #: src/prefs_account.c:1473 src/prefs_account.c:1483
 msgid "0 days and 0 hours : remove immediately"
-msgstr "(0 天和0 小时: 立即删除)"
+msgstr "(0 天和 0 小时: 立即删除)"
 
 #: src/prefs_account.c:1496
 msgid "Receive size limit"
@@ -14584,11 +14591,11 @@ msgstr "帖子下载最大数量"
 
 #: src/prefs_account.c:1556
 msgid "unlimited if 0 is specified"
-msgstr "如果设为0为不作限制"
+msgstr "如果设为 0 为不作限制"
 
 #: src/prefs_account.c:1592
 msgid "IMAP server directory"
-msgstr "IMAP服务器目录:"
+msgstr "IMAP 服务器目录:"
 
 #: src/prefs_account.c:1596
 msgid "(usually empty)"
@@ -14600,7 +14607,7 @@ msgstr "只显示已订阅的目录"
 
 #: src/prefs_account.c:1617
 msgid "Bandwidth-efficient mode (prevents retrieving remote tags)"
-msgstr "高效带宽模式(不读取远端标签)"
+msgstr "高效带宽模式 (不读取远端标签)"
 
 #: src/prefs_account.c:1619
 msgid "This mode uses less bandwidth, but can be slower with some servers."
@@ -14616,7 +14623,7 @@ msgstr "接收邮件时允许采用插件进行过滤"
 
 #: src/prefs_account.c:1637
 msgid "'Get Mail' checks for new messages on this account"
-msgstr "`全部收取'包含本帐户的新邮件"
+msgstr "“全部收取”包含本帐户的新邮件"
 
 #: src/prefs_account.c:1718 src/prefs_customheader.c:208
 #: src/prefs_matcher.c:623 src/prefs_matcher.c:1967 src/prefs_matcher.c:1989
@@ -14625,11 +14632,11 @@ msgstr "页眉"
 
 #: src/prefs_account.c:1720
 msgid "Generate Message-ID"
-msgstr "生成消息ID"
+msgstr "生成消息 ID"
 
 #: src/prefs_account.c:1723
 msgid "Send account mail address in Message-ID"
-msgstr "在消息ID里含帐号邮箱地址发送"
+msgstr "在消息 ID 里含帐号邮箱地址发送"
 
 #: src/prefs_account.c:1726
 #, fuzzy
@@ -14642,21 +14649,21 @@ msgstr "添加自定义消息头"
 
 #: src/prefs_account.c:1748
 msgid "SMTP Authentication (SMTP AUTH)"
-msgstr "SMTP鉴定认证 (SMTP AUTH)"
+msgstr "SMTP 鉴定认证 (SMTP AUTH)"
 
 #: src/prefs_account.c:1833
 msgid ""
 "If you leave these entries empty, the same user ID and password as receiving "
 "will be used."
-msgstr "如果你保持这几项为空，将采用接收邮件的用户ID和口令。"
+msgstr "如果你保持这几项为空，将采用接收邮件的用户 ID 和口令。"
 
 #: src/prefs_account.c:1844
 msgid "Authenticate with POP3 before sending"
-msgstr "发送之前采用POP3进行鉴定认证"
+msgstr "发送之前采用 POP3 进行鉴定认证"
 
 #: src/prefs_account.c:1859
 msgid "POP authentication timeout: "
-msgstr "POP鉴定认证超时限制"
+msgstr "POP 鉴定认证超时限制"
 
 #: src/prefs_account.c:1867
 msgid "minutes"
@@ -14743,23 +14750,23 @@ msgstr "将发出的加密邮件以明文保存"
 
 #: src/prefs_account.c:2438 src/prefs_account.c:2453 src/prefs_account.c:2467
 msgid "Don't use SSL"
-msgstr "不采用SSL"
+msgstr "不采用 SSL"
 
 #: src/prefs_account.c:2441
 msgid "Use SSL for POP3 connection"
-msgstr "用SSL进行POP3连接"
+msgstr "用 SSL 进行 POP3 连接"
 
 #: src/prefs_account.c:2444 src/prefs_account.c:2459 src/prefs_account.c:2490
 msgid "Use STARTTLS command to start SSL session"
-msgstr "用STARTTLS命令开始SSL会话"
+msgstr "用 STARTTLS 命令开始 SSL 会话"
 
 #: src/prefs_account.c:2456
 msgid "Use SSL for IMAP4 connection"
-msgstr "用SSL进行IMAP连接"
+msgstr "用 SSL 进行 IMAP 连接"
 
 #: src/prefs_account.c:2476
 msgid "Use SSL for NNTP connection"
-msgstr "用SSL进行NNTP连接"
+msgstr "用 SSL 进行 NNTP 连接"
 
 #: src/prefs_account.c:2480
 msgid "Send (SMTP)"
@@ -14767,11 +14774,11 @@ msgstr "发送 (SMTP)"
 
 #: src/prefs_account.c:2484
 msgid "Don't use SSL (but, if necessary, use STARTTLS)"
-msgstr "不采用SSL (但在必要的情况下将启用STARTTLS)"
+msgstr "不采用 SSL (但在必要的情况下将启用 STARTTLS)"
 
 #: src/prefs_account.c:2487
 msgid "Use SSL for SMTP connection"
-msgstr "用SSL进行SMTP连接"
+msgstr "用 SSL 进行 SMTP 连接"
 
 #: src/prefs_account.c:2495
 msgid "Client certificates"
@@ -14793,15 +14800,15 @@ msgstr "发送的数字证书"
 #: src/prefs_account.c:2558
 #, fuzzy
 msgid "Automatically accept valid SSL certificates"
-msgstr "保存SSL数字证书"
+msgstr "保存 SSL 数字证书"
 
 #: src/prefs_account.c:2561
 msgid "Use non-blocking SSL"
-msgstr "采用非阻塞式SSL"
+msgstr "采用非阻塞式 SSL"
 
 #: src/prefs_account.c:2573
 msgid "Turn this off if you have SSL connection problems"
-msgstr "(如果你有SSL连接问题请关闭本项)"
+msgstr "(如果你有 SSL 连接问题请关闭本项)"
 
 #: src/prefs_account.c:2691
 msgid "SMTP port"
@@ -14809,15 +14816,15 @@ msgstr "SMTP 端口"
 
 #: src/prefs_account.c:2698
 msgid "POP3 port"
-msgstr "POP3端口"
+msgstr "POP3 端口"
 
 #: src/prefs_account.c:2705
 msgid "IMAP4 port"
-msgstr "IMAP4端口"
+msgstr "IMAP4 端口"
 
 #: src/prefs_account.c:2712
 msgid "NNTP port"
-msgstr "NNTP端口"
+msgstr "NNTP 端口"
 
 #: src/prefs_account.c:2718
 msgid "Domain name"
@@ -14827,7 +14834,7 @@ msgstr "域名"
 msgid ""
 "The domain name will be used in the generated Message-ID, and when "
 "connecting to SMTP servers."
-msgstr "域名将用于生成消息ID的一部分，并用于连接SMTP服务器。"
+msgstr "域名将用于生成消息 ID 的一部分，并用于连接 SMTP 服务器。"
 
 #: src/prefs_account.c:2735
 msgid "Use command to communicate with server"
@@ -14847,7 +14854,7 @@ msgstr "将邮件加注已删除旗标而不删除，以取代将删隐的邮件
 
 #: src/prefs_account.c:2749
 msgid "Mark cross-posted messages as read and color:"
-msgstr "将交叉投递(cross-posted)的邮件表示为已读和彩色:"
+msgstr "将交叉投递 (cross-posted) 的邮件表示为已读和彩色:"
 
 #: src/prefs_account.c:2805
 msgid "Put sent messages in"
@@ -14875,15 +14882,15 @@ msgstr "未输入邮件地址。"
 
 #: src/prefs_account.c:2882
 msgid "SMTP server is not entered."
-msgstr "未输入SMTP服务器"
+msgstr "未输入 SMTP 服务器"
 
 #: src/prefs_account.c:2887
 msgid "User ID is not entered."
-msgstr "未输入用户ID"
+msgstr "未输入用户 ID"
 
 #: src/prefs_account.c:2892
 msgid "POP3 server is not entered."
-msgstr "未输入POP3服务器"
+msgstr "未输入 POP3 服务器"
 
 #: src/prefs_account.c:2912
 msgid "The default Inbox folder doesn't exist."
@@ -14891,11 +14898,11 @@ msgstr "默认的收件夹不存在。"
 
 #: src/prefs_account.c:2918
 msgid "IMAP4 server is not entered."
-msgstr "未输入IMAP4服务器"
+msgstr "未输入 IMAP4 服务器"
 
 #: src/prefs_account.c:2923
 msgid "NNTP server is not entered."
-msgstr "尚未输入NNTP服务器"
+msgstr "尚未输入 NNTP 服务器"
 
 #: src/prefs_account.c:2929
 msgid "local mailbox filename is not entered."
@@ -14962,7 +14969,7 @@ msgstr "菜单名"
 
 #: src/prefs_actions.c:283
 msgid "Shell command"
-msgstr "Shell命令"
+msgstr "Shell 命令"
 
 #: src/prefs_actions.c:293
 msgid "Filter action"
@@ -15085,7 +15092,7 @@ msgstr "该项未保存，真的退出？"
 #: src/prefs_template.c:599 src/prefs_template.c:604
 #, fuzzy
 msgid "_Continue editing"
-msgstr "+继续编辑(_C)"
+msgstr "+ 继续编辑(_C)"
 
 #: src/prefs_actions.c:903
 msgid "Actions list not saved"
@@ -15097,19 +15104,20 @@ msgstr "动作列表已经被修改，确实要关闭？"
 
 #: src/prefs_actions.c:974
 msgid "<span weight=\"bold\" underline=\"single\">Menu name:</span>"
-msgstr "<span weight=\"bold\" underline=\"single\">菜单名称:</span>"
+msgstr "<span weight=\"bold\"underline=\"single\"> 菜单名称:</span>"
 
 #: src/prefs_actions.c:975
+#, fuzzy
 msgid "Use / in menu name to make submenus."
-msgstr "菜单项名称中可以用斜线(/)标识子菜单项"
+msgstr "菜单项名称中可以用斜线 (/) 标识子菜单项"
 
 #: src/prefs_actions.c:977
 msgid "<span weight=\"bold\" underline=\"single\">Command-line:</span>"
-msgstr "<span weight=\"bold\" underline=\"single\">命令:</span>"
+msgstr "<span weight=\"bold\"underline=\"single\"> 命令:</span>"
 
 #: src/prefs_actions.c:978
 msgid "<span weight=\"bold\">Begin with:</span>"
-msgstr "<span weight=\"bold\">开始于:</span>"
+msgstr "<span weight=\"bold\"> 开始于:</span>"
 
 #: src/prefs_actions.c:979
 msgid "to send message body or selection to command's standard input"
@@ -15121,11 +15129,11 @@ msgstr "将用户输入的文字传递给命令的标准输入"
 
 #: src/prefs_actions.c:981
 msgid "to send user provided hidden text to command's standard input"
-msgstr "将用户输入的文字传递给命令的标准输入(输入时不显示明文)"
+msgstr "将用户输入的文字传递给命令的标准输入 (输入时不显示明文)"
 
 #: src/prefs_actions.c:982
 msgid "<span weight=\"bold\">End with:</span>"
-msgstr "<span weight=\"bold\">结束于:</span>"
+msgstr "<span weight=\"bold\"> 结束于:</span>"
 
 #: src/prefs_actions.c:983
 msgid "to replace message body or selection with command's standard output"
@@ -15141,20 +15149,20 @@ msgstr "异步运行命令"
 
 #: src/prefs_actions.c:986
 msgid "<span weight=\"bold\">Use:</span>"
-msgstr "<span weight=\"bold\">采用:</span>"
+msgstr "<span weight=\"bold\"> 采用:</span>"
 
 #: src/prefs_actions.c:987
 msgid "for the file of the selected message in RFC822/2822 format "
-msgstr "被选中邮件文件(RFC822/2822格式)"
+msgstr "被选中邮件文件 (RFC822/2822 格式)"
 
 #: src/prefs_actions.c:988
 msgid ""
 "for the list of the files of the selected messages in RFC822/2822 format"
-msgstr "被选中的多个邮件文件(RFC822/2822格式)"
+msgstr "被选中的多个邮件文件 (RFC822/2822 格式)"
 
 #: src/prefs_actions.c:989
 msgid "for the file of the selected decoded message MIME part"
-msgstr "被选中的MIME part(解码后)"
+msgstr "被选中的 MIME part(解码后)"
 
 #: src/prefs_actions.c:990
 msgid "for a user provided argument"
@@ -15162,7 +15170,7 @@ msgstr "用户提供的参数"
 
 #: src/prefs_actions.c:991
 msgid "for a user provided hidden argument (e.g. password)"
-msgstr "用户提供的隐藏参数(例如: 密码)"
+msgstr "用户提供的隐藏参数 (例如: 密码)"
 
 #: src/prefs_actions.c:992
 msgid "for the text selection"
@@ -15170,7 +15178,7 @@ msgstr "选中的文字"
 
 #: src/prefs_actions.c:993
 msgid "apply filtering actions between {} to selected messages"
-msgstr "对选中的邮件执行{}中的过滤动作"
+msgstr "对选中的邮件执行 {} 中的过滤动作"
 
 #: src/prefs_actions.c:994
 msgid "for a literal %"
@@ -15185,8 +15193,8 @@ msgid ""
 "The Actions feature is a way for the user to launch external commands to "
 "process a complete message file or just one of its parts."
 msgstr ""
-"'动作'这一功能使得用户可以用外部命令来处理一封邮件的内容(或者只处理其中的一部"
-"分)。"
+"'动作' 这一功能使得用户可以用外部命令来处理一封邮件的内容 (或者只处理其中的一"
+"部分)。"
 
 #: src/prefs_actions.c:1092 src/prefs_filtering.c:1695
 #: src/prefs_template.c:1121
@@ -15332,11 +15340,11 @@ msgstr "此名称不能作为自定义信头名称。"
 
 #: src/prefs_customheader.c:563
 msgid "Choose a PNG file"
-msgstr "选择一个PNG图片文件"
+msgstr "选择一个 PNG 图片文件"
 
 #: src/prefs_customheader.c:565
 msgid "Choose an XBM file"
-msgstr "选择一个XBM文件"
+msgstr "选择一个 XBM 文件"
 
 #: src/prefs_customheader.c:567
 msgid "Choose a text file"
@@ -15348,11 +15356,11 @@ msgstr "该文件不是一个图片。"
 
 #: src/prefs_customheader.c:585
 msgid "The chosen image isn't the correct size (48x48)."
-msgstr "选中的图片大小不对(必须是48x48)。"
+msgstr "选中的图片大小不对 (必须是 48x48)。"
 
 #: src/prefs_customheader.c:591
 msgid "The image is too big; it must be maximum 725 bytes."
-msgstr "图片太大。不能超过725字节。"
+msgstr "图片太大。不能超过 725 字节。"
 
 #: src/prefs_customheader.c:596
 msgid "The image isn't in the correct format (PNG)."
@@ -15364,12 +15372,12 @@ msgstr "图片格式不对。"
 
 #: src/prefs_customheader.c:614
 msgid "Couldn't call `compface`. Make sure it's in your $PATH."
-msgstr "无法找到程序`compface`。请确认它存在于你的$PATH所指向的路径中。"
+msgstr "无法找到程序 `compface`。请确认它存在于你的 $PATH 所指向的路径中。"
 
 #: src/prefs_customheader.c:620
 #, c-format
 msgid "Compface error: %s"
-msgstr "Compface错误: %s"
+msgstr "Compface 错误: %s"
 
 #: src/prefs_customheader.c:673
 msgid "This file contains newlines."
@@ -15412,9 +15420,9 @@ msgid "This header is already in the list."
 msgstr "该字段已经在列表中存在。"
 
 #: src/prefs_ext_prog.c:102
-#, c-format
+#, fuzzy, c-format
 msgid "%s will be replaced with file name / URI"
-msgstr "%s 将被替换为相应的文件名或者URI"
+msgstr "%s 将被替换为相应的文件名或者 URI"
 
 #: src/prefs_ext_prog.c:110
 #, fuzzy
@@ -15435,15 +15443,15 @@ msgstr "文本编辑器"
 
 #: src/prefs_ext_prog.c:210
 msgid "Command for 'Display as text'"
-msgstr "用于'以文本方式显示'的命令"
+msgstr "用于 '以文本方式显示' 的命令"
 
 #: src/prefs_ext_prog.c:223
 msgid ""
 "This option enables MIME parts to be displayed in the message view via a "
 "script when using the 'Display as text' contextual menu item"
 msgstr ""
-"此选项使得邮件的MIME部分可以通过一个脚本转化为文本格式显示在邮件内容上。(你仍"
-"然需要使用'以文本方式显示'菜单项来运行这个脚本)"
+"此选项使得邮件的 MIME 部分可以通过一个脚本转化为文本格式显示在邮件内容上。(你"
+"仍然需要使用' 以文本方式显示 '菜单项来运行这个脚本)"
 
 #: src/prefs_ext_prog.c:282 src/prefs_image_viewer.c:138
 #: src/prefs_message.c:354
@@ -15605,7 +15613,7 @@ msgstr "% 符号"
 
 #: src/prefs_filtering_action.c:1263 src/prefs_matcher.c:2169
 msgid "filename (should not be modified)"
-msgstr "文件名(请勿更动)"
+msgstr "文件名 (请勿更动)"
 
 #: src/prefs_filtering_action.c:1264 src/prefs_matcher.c:2170
 #: src/quote_fmt.c:87
@@ -15630,7 +15638,7 @@ msgid ""
 "program or script.\n"
 "The following symbols can be used:"
 msgstr ""
-"'执行'这一功能使得用户可以将邮件内容或者其中一部分信息传递给外部程序或者脚"
+"'执行' 这一功能使得用户可以将邮件内容或者其中一部分信息传递给外部程序或者脚"
 "本。\n"
 "可以使用以下符号: "
 
@@ -15778,6 +15786,7 @@ msgid "Folder list columns configuration"
 msgstr "目录栏目设置"
 
 #: src/prefs_folder_column.c:229
+#, fuzzy
 msgid ""
 "Select columns to be displayed in the folder list. You can modify\n"
 "the order by using the Up / Down buttons or by dragging the items."
@@ -15807,8 +15816,8 @@ msgid ""
 "However, you can set them for the whole mailbox tree by using \"Apply to "
 "subfolders\"."
 msgstr ""
-"<i>这些设置不会保存，因为当前目录是一个顶端目录。但你可以点击\"应用到子文件夹"
-"\"按钮，将这些设置保存到当前邮箱的所有子目录中去。</i>"
+"<i> 这些设置不会保存，因为当前目录是一个顶端目录。但你可以点击 \"应用到子文件"
+"夹\" 按钮，将这些设置保存到当前邮箱的所有子目录中去。</i>"
 
 #: src/prefs_folder_item.c:274 src/prefs_folder_item.c:876
 msgid ""
@@ -15872,13 +15881,13 @@ msgid ""
 "Turn this option on if mail is delivered directly to this folder by server "
 "side filtering on IMAP or by an external application"
 msgstr ""
-"如果IMAP的服务器端过滤程序或者其它应用程序直接将邮件存放到邮件目录下，应该打"
-"开此选项"
+"如果 IMAP 的服务器端过滤程序或者其它应用程序直接将邮件存放到邮件目录下，应该"
+"打开此选项"
 
 #: src/prefs_folder_item.c:495
 #, fuzzy
 msgid "Select the HTML part of multipart messages"
-msgstr "选择复合邮件中的HTML部分"
+msgstr "选择复合邮件中的 HTML 部分"
 
 #: src/prefs_folder_item.c:512
 #, fuzzy
@@ -16041,7 +16050,7 @@ msgid ""
 "might be critical when applying many rules upon thousands of messages."
 msgstr ""
 "如果选中此项，邮件过滤和处理规则的日志功能将打开。\n"
-"您可以通过菜单'工具/过滤日志'访问此日志。\n"
+"您可以通过菜单 '工具/过滤日志' 访问此日志。\n"
 "注意: 打开此功能将降低过滤速度。当您有上千封邮件，过滤规则又比较多时，影响会"
 "很明显"
 
@@ -16100,7 +16109,7 @@ msgstr ""
 "低: 主要记录过滤条件是否匹配、执行了哪些动作。\n"
 "中: 记录邮件处理过程的详细信息，以及为什么某个规则会被跳过。\n"
 "高: 会记录所有的处理过程日志信息，包含每一步的解释。\n"
-"注意:选择越高的级别时，性能方面受到的影响也越大。"
+"注意: 选择越高的级别时，性能方面受到的影响也越大。"
 
 #: src/prefs_logging.c:280
 msgid "Disk log"
@@ -16286,7 +16295,7 @@ msgstr "0 (通过的)"
 
 #: src/prefs_matcher.c:433
 msgid "non-0 (Failed)"
-msgstr "非0 (失败的)"
+msgstr "非 0 (失败的)"
 
 #: src/prefs_matcher.c:569
 msgid "Condition configuration"
@@ -16373,7 +16382,7 @@ msgstr "任何信头中的任何地址"
 #: src/prefs_matcher.c:1621
 #, c-format
 msgid "the address(es) in header '%s'"
-msgstr "信头'%s'中的地址"
+msgstr "信头 '%s' 中的地址"
 
 #: src/prefs_matcher.c:1622
 #, c-format
@@ -16385,7 +16394,7 @@ msgid ""
 msgstr ""
 "未设置对应地址簿/目录。\n"
 "\n"
-"如果你对整个地址簿匹配%s, 请在地址簿/目录下拉列表中选择'%s'"
+"如果你对整个地址簿匹配 %s, 请在地址簿/目录下拉列表中选择 '%s'"
 
 #: src/prefs_matcher.c:1841
 msgid "Headers part"
@@ -16487,8 +16496,8 @@ msgid ""
 "\n"
 "The following symbols can be used:"
 msgstr ""
-"'测试'允许用户用一个外部程序或者脚本检查一封邮件(或者其中一部分信息)程序应该"
-"返回 0 或者 1.\n"
+"'测试' 允许用户用一个外部程序或者脚本检查一封邮件 (或者其中一部分信息) 程序应"
+"该返回 0 或者 1.\n"
 "\n"
 "可以使用如下一些符号:"
 
@@ -16506,11 +16515,11 @@ msgstr "在邮件视图上方显示信头信息面板"
 
 #: src/prefs_message.c:127
 msgid "Display (X-)Face in message view"
-msgstr "显示邮件的(X-)Face"
+msgstr "显示邮件的 (X-)Face"
 
 #: src/prefs_message.c:130
 msgid "Display Face in message view"
-msgstr "显示邮件的Face"
+msgstr "显示邮件的 Face"
 
 #: src/prefs_message.c:144
 msgid "Display headers in message view"
@@ -16522,15 +16531,15 @@ msgstr "HTML 邮件"
 
 #: src/prefs_message.c:159
 msgid "Render HTML messages as text"
-msgstr "以文本方式显示HTML邮件"
+msgstr "以文本方式显示 HTML 邮件"
 
 #: src/prefs_message.c:162
 msgid "Render HTML-only messages with plugin if possible"
-msgstr "如果可能的话调用插件显示HTML邮件"
+msgstr "如果可能的话调用插件显示 HTML 邮件"
 
 #: src/prefs_message.c:165
 msgid "Select the HTML part of multipart/alternative messages"
-msgstr "选择复合邮件中的HTML部分"
+msgstr "选择复合邮件中的 HTML 部分"
 
 #: src/prefs_message.c:175
 msgid "Line space"
@@ -16554,7 +16563,7 @@ msgstr "步骤"
 
 #: src/prefs_message.c:230
 msgid "Show attachment descriptions (rather than names)"
-msgstr "显示附件的描述信息(而不是附件名称)"
+msgstr "显示附件的描述信息 (而不是附件名称)"
 
 #: src/prefs_message.c:233
 msgid "Quotation"
@@ -16666,7 +16675,7 @@ msgid ""
 "Pick color for Target folder. Target folder is used when the option 'Execute "
 "immediately when moving or deleting messages' is turned off"
 msgstr ""
-"选择目标目录的颜色。当'移动或删除邮件时立即执行'选项关闭时目标目录被默认使"
+"选择目标目录的颜色。当 '移动或删除邮件时立即执行' 选项关闭时目标目录被默认使"
 "用。"
 
 #: src/prefs_msg_colors.c:384
@@ -16687,14 +16696,14 @@ msgstr "有新邮件的目录"
 #, c-format
 msgctxt "Tooltip"
 msgid "Pick color for 'color %d'"
-msgstr "为 '颜色 %d'选色"
+msgstr "为 '颜色 %d' 选色"
 
 #. TRANSLATORS: 'color %d' refers to the filtering/processing
 #. rule name and should not be translated
 #: src/prefs_msg_colors.c:432 src/prefs_msg_colors.c:463
 #, c-format
 msgid "Set label for 'color %d'"
-msgstr "设置'颜色 %d'文字标"
+msgstr "设置 '颜色 %d' 文字标"
 
 #. TRANSLATORS: 'color %d' refers to the filtering/processing
 #. rule name and should not be translated
@@ -16702,7 +16711,7 @@ msgstr "设置'颜色 %d'文字标"
 #, c-format
 msgctxt "Dialog title"
 msgid "Pick color for 'color %d'"
-msgstr "选择颜色 'color %d'"
+msgstr "选择颜色'color %d'"
 
 #: src/prefs_msg_colors.c:600
 msgctxt "Dialog title"
@@ -16865,8 +16874,8 @@ msgid ""
 "Use the 'shred' program to overwrite files with random data before deleting "
 "them. This slows down deletion. Be sure to read shred's man page for caveats."
 msgstr ""
-"删除文件前，调用'shred'程序对文件采用随机数据覆盖，以使文件无法恢复。这将导致"
-"删除操作变慢。请阅读shred的手册获得详细信息。"
+"删除文件前，调用'shred' 程序对文件采用随机数据覆盖，以使文件无法恢复。这将导"
+"致删除操作变慢。请阅读 shred 的手册获得详细信息。"
 
 #: src/prefs_other.c:586
 msgid "Synchronise offline folders as soon as possible"
@@ -16992,7 +17001,7 @@ msgstr "发送邮件字符集"
 msgid ""
 "If 'Automatic' is selected, the optimal encoding for the current locale will "
 "be used"
-msgstr "如果选择了`自动'，当前locale设置将被优先选用"
+msgstr "如果选择了 “自动 '，当前 locale 设置将被优先选用"
 
 #: src/prefs_send.c:220
 msgid "Automatic (Recommended)"
@@ -17000,7 +17009,7 @@ msgstr "自动 (推荐)"
 
 #: src/prefs_send.c:222
 msgid "7bit ASCII (US-ASCII)"
-msgstr "7位ASCII (US-ASCII)"
+msgstr "7 位 ASCII (US-ASCII)"
 
 #: src/prefs_send.c:223
 #, fuzzy
@@ -17128,7 +17137,7 @@ msgstr "传送编码"
 msgid ""
 "Specify Content-Transfer-Encoding used when message body contains non-ASCII "
 "characters"
-msgstr "指定当邮件含有非ASCII字符时的邮件内容编码方式"
+msgstr "指定当邮件含有非 ASCII 字符时的邮件内容编码方式"
 
 #: src/prefs_send.c:359 src/send_message.c:502 src/send_message.c:506
 #: src/send_message.c:511
@@ -17177,7 +17186,7 @@ msgstr "错误单词的颜色"
 
 #: src/prefs_spelling.c:220
 msgid "Pick color for misspelled word. Use black to underline"
-msgstr "选择拼写错误时的颜色(黑色表示下划线)"
+msgstr "选择拼写错误时的颜色 (黑色表示下划线)"
 
 #: src/prefs_spelling.c:337
 msgid "Spell Checking"
@@ -17185,7 +17194,7 @@ msgstr "拼写检查"
 
 #: src/prefs_summaries.c:153
 msgid "the abbreviated weekday name"
-msgstr "(星期)一、二、…"
+msgstr "(星期) 一、二、…"
 
 #: src/prefs_summaries.c:154
 msgid "the full weekday name"
@@ -17193,7 +17202,7 @@ msgstr "星期一、星期二、…"
 
 #: src/prefs_summaries.c:155
 msgid "the abbreviated month name"
-msgstr "1月、2月、…"
+msgstr "1 月、2 月、…"
 
 #: src/prefs_summaries.c:156
 msgid "the full month name"
@@ -17326,15 +17335,15 @@ msgstr "进入目录时设置默认选中项"
 
 #: src/prefs_summaries.c:477
 msgid "Show \"no unread (or new) message\" dialog"
-msgstr "显示\"没有未读邮件和新邮件\"对话框"
+msgstr "显示 \"没有未读邮件和新邮件\" 对话框"
 
 #: src/prefs_summaries.c:487
 msgid "Assume 'Yes'"
-msgstr "默认回答'是'"
+msgstr "默认回答 '是'"
 
 #: src/prefs_summaries.c:488
 msgid "Assume 'No'"
-msgstr "默认回答'否'"
+msgstr "默认回答 '否'"
 
 #: src/prefs_summaries.c:496
 msgid "Open message when selected"
@@ -17356,7 +17365,7 @@ msgstr "移动或删除邮件时立即执行"
 msgid ""
 "Defers moving, copying and deleting of messages until you choose 'Tools/"
 "Execute'"
-msgstr "将移动、复制和删除操作延迟到选择了'工具/执行'之后再处理"
+msgstr "将移动、复制和删除操作延迟到选择了 '工具/执行' 之后再处理"
 
 #: src/prefs_summaries.c:521
 msgid "Mark message as read"
@@ -17395,8 +17404,8 @@ msgid ""
 "The display of standard headers (such as 'From:', 'Subject:') will be "
 "translated into your language."
 msgstr ""
-"标准信头(比如'From:', 'Subject')也将翻译为你所采用的语言(比如'发件人', '主"
-"题')。"
+"标准信头 (比如'From:','Subject') 也将翻译为你所采用的语言(比如' 发件人 ',' 主"
+"题 ')。"
 
 #: src/prefs_summaries.c:732
 msgid "Summaries"
@@ -17407,6 +17416,7 @@ msgid "Message list columns configuration"
 msgstr "邮件摘要列表列设置"
 
 #: src/prefs_summary_column.c:243
+#, fuzzy
 msgid ""
 "Select columns to be displayed in the message list. You can modify\n"
 "the order by using the Up / Down buttons or by dragging the items."
@@ -17459,7 +17469,7 @@ msgid ""
 "Override composing account's From header. This doesn't change the composing "
 "account."
 msgstr ""
-"覆盖撰写邮件所用账户的'From'(发件人)字段。此项设置并不影响邮件账户设置。"
+"覆盖撰写邮件所用账户的'From'(发件人) 字段。此项设置并不影响邮件账户设置。"
 
 #: src/prefs_template.c:309
 msgid "Append the new template above to the list"
@@ -17512,22 +17522,22 @@ msgstr "未设定模板名称。"
 #: src/prefs_template.c:811
 #, fuzzy
 msgid "The \"From\" field of the template contains an invalid email address."
-msgstr "样版的\"寄件者\"字段包含了无效的邮件地址"
+msgstr "样版的 \"寄件者\" 字段包含了无效的邮件地址"
 
 #: src/prefs_template.c:817
 #, fuzzy
 msgid "The \"To\" field of the template contains an invalid email address."
-msgstr "样版的\"收件者\"字段包含了无效的邮件地址"
+msgstr "样版的 \"收件者\" 字段包含了无效的邮件地址"
 
 #: src/prefs_template.c:823
 #, fuzzy
 msgid "The \"Cc\" field of the template contains an invalid email address."
-msgstr "样版的\"副本\"字段包含了无效的邮件地址"
+msgstr "样版的 \"副本\" 字段包含了无效的邮件地址"
 
 #: src/prefs_template.c:829
 #, fuzzy
 msgid "The \"Bcc\" field of the template contains an invalid email address."
-msgstr "样版的\"副本\"字段包含了无效的邮件地址"
+msgstr "样版的 \"副本\" 字段包含了无效的邮件地址"
 
 #: src/prefs_template.c:835
 #, fuzzy
@@ -17538,7 +17548,7 @@ msgstr "这 \"回复\" 模版中 \"来自\" 信息栏内的邮箱地址无效。
 #: src/prefs_template.c:841
 #, fuzzy
 msgid "The \"Subject\" field of the template is invalid."
-msgstr "样版的\"主旨\"字段无效"
+msgstr "样版的 \"主旨\" 字段无效"
 
 #: src/prefs_template.c:912
 msgid "Delete template"
@@ -17574,7 +17584,7 @@ msgstr "主题"
 
 #: src/prefs_themes.c:436
 msgid "Only root can remove system themes"
-msgstr "只有root用户才能删除系统主题"
+msgstr "只有 root 用户才能删除系统主题"
 
 #: src/prefs_themes.c:439
 #, c-format
@@ -17674,7 +17684,7 @@ msgstr ""
 #: src/prefs_themes.c:667
 #, c-format
 msgid "%d themes available (%d user, %d system, 1 internal)"
-msgstr "共有%d个主题可用 (用户目录%d个，系统目录%d个，内置1个)"
+msgstr "共有 %d 个主题可用 (用户目录 %d 个，系统目录 %d 个，内置 1 个)"
 
 #: src/prefs_themes.c:708
 #, c-format
@@ -17692,7 +17702,7 @@ msgstr "错误: 无法取得主题状态"
 #: src/prefs_themes.c:756
 #, c-format
 msgid "%d files (%d icons), size: %s"
-msgstr "%d 个文件(%d 个图标), 大小: %s"
+msgstr "%d 个文件 (%d 个图标), 大小: %s"
 
 #: src/prefs_themes.c:804
 msgid "Selector"
@@ -17869,7 +17879,7 @@ msgstr "没有定义收信人。"
 
 #: src/procmime.c:432 src/procmime.c:434 src/procmime.c:435
 msgid "[Error decoding BASE64]\n"
-msgstr "[BASE64解码错误]\n"
+msgstr "[BASE64 解码错误]\n"
 
 #: src/procmsg.c:937 src/procmsg.c:940
 msgid "Already trying to send."
@@ -17886,20 +17896,20 @@ msgstr "待发送的邮件头已经损坏"
 
 #: src/procmsg.c:1639
 msgid "An error happened during SMTP session."
-msgstr "建立SMTP会话时发生错误."
+msgstr "建立 SMTP 会话时发生错误."
 
 #: src/procmsg.c:1653
 msgid ""
 "No specific account has been found to send, and an error happened during "
 "SMTP session."
-msgstr "没有发现可供发送邮件的账户，同时在SMTP会话中发生了一个错误。"
+msgstr "没有发现可供发送邮件的账户，同时在 SMTP 会话中发生了一个错误。"
 
 #: src/procmsg.c:1661
 #, fuzzy
 msgid ""
 "Couldn't determine sending information. Maybe the email hasn't been "
 "generated by Claws Mail."
-msgstr "无法判断待发送的信息。也许这封邮件不是用Claws Mail生成的。"
+msgstr "无法判断待发送的信息。也许这封邮件不是用 Claws Mail 生成的。"
 
 #: src/procmsg.c:1683
 msgid "Couldn't create temporary file for news sending."
@@ -17920,11 +17930,11 @@ msgstr "正在过滤邮件…\n"
 
 #: src/quote_fmt.c:47
 msgid "<span weight=\"bold\">symbols:</span>"
-msgstr "<span weight=\"bold\">符号:</span>"
+msgstr "<span weight=\"bold\"> 符号:</span>"
 
 #: src/quote_fmt.c:48
 msgid "customized date format (see 'man strftime')"
-msgstr "自定义日期显示格式 (请查看strftime的手册页)"
+msgstr "自定义日期显示格式 (请查看 strftime 的手册页)"
 
 #: src/quote_fmt.c:51
 msgid "email address of sender"
@@ -18004,15 +18014,15 @@ msgstr "账户属性: 账户名称"
 
 #: src/quote_fmt.c:76
 msgid "address book <span style=\"oblique\">completion</span>: Cc"
-msgstr "地址簿<span style=\"oblique\">补齐</span>: Cc"
+msgstr "地址簿 <span style=\"oblique\"> 补齐 </span>: Cc"
 
 #: src/quote_fmt.c:77
 msgid "address book <span style=\"oblique\">completion</span>: From"
-msgstr "地址簿<span style=\"oblique\">补齐</span>: From"
+msgstr "地址簿 <span style=\"oblique\"> 补齐 </span>: From"
 
 #: src/quote_fmt.c:78
 msgid "address book <span style=\"oblique\">completion</span>: To"
-msgstr "地址簿<span style=\"oblique\">补齐</span>: To"
+msgstr "地址簿 <span style=\"oblique\"> 补齐 </span>: To"
 
 #: src/quote_fmt.c:80
 msgid "literal backslash"
@@ -18044,7 +18054,7 @@ msgstr "制表符"
 
 #: src/quote_fmt.c:89
 msgid "<span weight=\"bold\">commands:</span>"
-msgstr "<span weight=\"bold\">命令:</span>"
+msgstr "<span weight=\"bold\"> 命令:</span>"
 
 #: src/quote_fmt.c:90
 msgid ""
@@ -18052,9 +18062,9 @@ msgid ""
 "the [dfNFLIstcnriT, ad, af, ao, as, asp, aT, ABc, ABf, ABt]\n"
 "symbols (or their long equivalent)"
 msgstr ""
-"当x标志已经设置时，插入<span style=\"oblique\">expr</span>。\n"
-"其中x为[dfNFLIstcnriT, ad, af, ao, as, asp, aT, ABc, ABf, ABt]\n"
-"中的任何一个(或者它们的长表达式)"
+"当 x 标志已经设置时，插入 <span style=\"oblique\">expr</span>。\n"
+"其中 x 为 [dfNFLIstcnriT, ad, af, ao, as, asp, aT, ABc, ABf, ABt]\n"
+"中的任何一个 (或者它们的长表达式)"
 
 #: src/quote_fmt.c:91
 msgid ""
@@ -18063,9 +18073,9 @@ msgid ""
 "the [dfNFLIstcnriT, ad, af, ao, as, asp, aT, ABc, ABf, ABt]\n"
 "symbols (or their long equivalent)"
 msgstr ""
-"当x标志未被设置时，插入<span style=\"oblique\">expr</span>。\n"
-"其中x为[dfNFLIstcnriT, ad, af, ao, as, asp, aT, ABc, ABf, ABt]\n"
-"中的任何一个(或者它们的长表达式)"
+"当 x 标志未被设置时，插入 <span style=\"oblique\">expr</span>。\n"
+"其中 x 为 [dfNFLIstcnriT, ad, af, ao, as, asp, aT, ABc, ABf, ABt]\n"
+"中的任何一个 (或者它们的长表达式)"
 
 #: src/quote_fmt.c:92
 msgid ""
@@ -18074,7 +18084,7 @@ msgid ""
 "to insert"
 msgstr ""
 "插入文件:\n"
-"<span style=\"oblique\">sub_expr</span>将被替换为要插入的文件名"
+"<span style=\"oblique\">sub_expr</span> 将被替换为要插入的文件名"
 
 #: src/quote_fmt.c:93
 msgid ""
@@ -18084,7 +18094,7 @@ msgid ""
 "the output from"
 msgstr ""
 "插入程序输出:\n"
-"<span style=\"oblique\">sub_expr</span>将被替换为一命令行，\n"
+"<span style=\"oblique\">sub_expr</span> 将被替换为一命令行，\n"
 "该命令行被用于获取输出\n"
 " "
 
@@ -18095,7 +18105,7 @@ msgid ""
 "user-entered text"
 msgstr ""
 "插入用户输入:\n"
-"<span style=\"oblique\">sub_expr</span>将被替换为用户输入的文本\n"
+"<span style=\"oblique\">sub_expr</span> 将被替换为用户输入的文本\n"
 " "
 
 #: src/quote_fmt.c:95
@@ -18105,11 +18115,11 @@ msgid ""
 "to attach"
 msgstr ""
 "附加文件:\n"
-"<span style=\"oblique\">sub_expr</span>将被替换为要插入的附件文件名"
+"<span style=\"oblique\">sub_expr</span> 将被替换为要插入的附件文件名"
 
 #: src/quote_fmt.c:97
 msgid "<span weight=\"bold\">definition of terms:</span>"
-msgstr "<span weight=\"bold\">术语定义:</span>"
+msgstr "<span weight=\"bold\"> 术语定义:</span>"
 
 #: src/quote_fmt.c:98
 msgid ""
@@ -18121,7 +18131,7 @@ msgstr "可以包含上述符号或者命令的文字"
 msgid ""
 "text that can contain any of the symbols (no\n"
 "commands) above"
-msgstr "可以包含上述符号(不能包含命令)的文字"
+msgstr "可以包含上述符号 (不能包含命令) 的文字"
 
 #: src/quote_fmt.c:100
 msgid ""
@@ -18151,7 +18161,7 @@ msgstr "撰写新邮件时使用模板"
 msgid ""
 "Override From header. This doesn't change the account used to compose the "
 "new message."
-msgstr "覆盖'From'(发件人)字段。此项设置并不影响邮件账户设置。"
+msgstr "覆盖'From'(发件人) 字段。此项设置并不影响邮件账户设置。"
 
 #: src/quote_fmt.c:299
 msgid "Use template when replying to messages"
@@ -18159,7 +18169,7 @@ msgstr "回复邮件时使用模板"
 
 #: src/quote_fmt.c:323
 msgid "Override From header. This doesn't change the account used to reply."
-msgstr "覆盖'From'(发件人)字段。此项设置并不影响邮件账户设置。"
+msgstr "覆盖'From'(发件人) 字段。此项设置并不影响邮件账户设置。"
 
 #: src/quote_fmt.c:334 src/quote_fmt.c:464
 msgid "Quotation mark"
@@ -18171,7 +18181,7 @@ msgstr "转发邮件时使用模板"
 
 #: src/quote_fmt.c:453
 msgid "Override From header. This doesn't change the account used to forward."
-msgstr "覆盖'From'(发件人)字段。此项设置并不影响邮件账户设置。"
+msgstr "覆盖'From'(发件人) 字段。此项设置并不影响邮件账户设置。"
 
 #: src/quote_fmt.c:545
 msgid "Defaults"
@@ -18202,7 +18212,7 @@ msgstr "此 \"转寄\" 样版的 \"引言标示\" 字段是无效的"
 #: src/quote_fmt_parse.y:541
 #, c-format
 msgid "Enter text to replace '%s'"
-msgstr "请输入要替换'%s'的文字"
+msgstr "请输入要替换 '%s' 的文字"
 
 #: src/quote_fmt_parse.y:542
 msgid "Enter variable"
@@ -18229,11 +18239,11 @@ msgstr "正在连接"
 
 #: src/send_message.c:356
 msgid "Doing POP before SMTP..."
-msgstr "在SMTP之前进行POP操作…"
+msgstr "在 SMTP 之前进行 POP 操作…"
 
 #: src/send_message.c:359
 msgid "POP before SMTP"
-msgstr "在SMTP之前进行POP"
+msgstr "在 SMTP 之前进行 POP"
 
 #: src/send_message.c:364
 #, fuzzy, c-format
@@ -18270,16 +18280,16 @@ msgstr "送出 RCPT TO 信头…"
 
 #: src/send_message.c:510
 msgid "Sending DATA..."
-msgstr "正在传送DATA…"
+msgstr "正在传送 DATA…"
 
 #: src/send_message.c:514
 msgid "Quitting..."
 msgstr "正在退出…"
 
 #: src/send_message.c:543
-#, c-format
+#, fuzzy, c-format
 msgid "Sending message (%d / %d bytes)"
-msgstr "正在发送邮件 (%d / %d bytes)"
+msgstr "正在发送邮件 (%d/%d bytes)"
 
 #: src/send_message.c:596
 msgid "Sending message"
@@ -18312,7 +18322,7 @@ msgstr ""
 "首先，你必须选择邮箱的位置。\n"
 "如果你已经有了一个 MH 格式的邮箱，你可以\n"
 "直接使用。\n"
-"如果你不确定有没有，请直接按下“确定”。"
+"如果你不确定有没有，请直接按下 “确定”。"
 
 #: src/sourcewindow.c:64
 msgid "Source of the message"
@@ -18326,7 +18336,7 @@ msgstr "%s - 邮件源文件"
 #: src/ssl_manager.c:157
 #, fuzzy
 msgid "Saved SSL certificates"
-msgstr "保存SSL数字证书"
+msgstr "保存 SSL 数字证书"
 
 #: src/ssl_manager.c:431
 msgid "Delete certificate"
@@ -18396,7 +18406,7 @@ msgstr "还剩下些待处理标记。是否进行处理？"
 #: src/summaryview.c:1345
 #, c-format
 msgid "Scanning folder (%s)..."
-msgstr "扫描目录(%s)…"
+msgstr "扫描目录 (%s)…"
 
 #: src/summaryview.c:1842 src/summaryview.c:1894
 msgid "No more unread messages"
@@ -18554,7 +18564,7 @@ msgstr "已被监视的"
 #: src/summaryview.c:2711
 #, c-format
 msgid "%d/%d selected (%s/%s), %d unread"
-msgstr "%d/%d选中 (%s/%s), %d未读"
+msgstr "%d/%d 选中 (%s/%s), %d 未读"
 
 #: src/summaryview.c:2991
 msgid "Sorting summary..."
@@ -18590,7 +18600,7 @@ msgstr "你不是这篇文章的作者。\n"
 #, c-format
 msgid "Do you really want to delete the selected message?"
 msgid_plural "Do you really want to delete the %d selected messages?"
-msgstr[0] "你真要删除选中的%d邮件吗?"
+msgstr[0] "你真要删除选中的 %d 邮件吗?"
 
 #: src/summaryview.c:4406
 msgid "Delete message(s)"
@@ -18624,7 +18634,7 @@ msgstr "覆盖(_O)"
 #, c-format
 msgid ""
 "You are about to print %d messages, one by one. Do you want to continue?"
-msgstr "你想要打印%d封邮件。是否继续？"
+msgstr "你想要打印 %d 封邮件。是否继续？"
 
 #: src/summaryview.c:5371
 msgid "Building threads..."
@@ -18636,11 +18646,11 @@ msgstr "忽略这些规则"
 
 #: src/summaryview.c:5622
 msgid "Apply these rules regardless of the account they belong to"
-msgstr "使用这些规则(不管它们属于那个账户)"
+msgstr "使用这些规则 (不管它们属于那个账户)"
 
 #: src/summaryview.c:5625
 msgid "Apply these rules if they apply to the current account"
-msgstr "使用这些规则(如果它们可用于当前账户)"
+msgstr "使用这些规则 (如果它们可用于当前账户)"
 
 #: src/summaryview.c:5654
 msgid "Filtering"
@@ -18708,12 +18718,12 @@ msgid ""
 "Regular expression (regexp) error:\n"
 "%s"
 msgstr ""
-"正则表达式(regexp)错误:\n"
+"正则表达式 (regexp) 错误:\n"
 "%s"
 
 #: src/summaryview.c:8107
 msgid "Go back to the folder list (You have unread messages)"
-msgstr "回到邮件夹列表(您有未读邮件)"
+msgstr "回到邮件夹列表 (您有未读邮件)"
 
 #: src/summaryview.c:8112
 msgid "Go back to the folder list"
@@ -18750,12 +18760,12 @@ msgstr "保存图片(_S)…"
 #: src/textview.c:722
 #, c-format
 msgid "[%s  %s (%d bytes)]"
-msgstr "[%s %s (%d字节)]"
+msgstr "[%s %s (%d 字节)]"
 
 #: src/textview.c:725
 #, c-format
 msgid "[%s (%d bytes)]"
-msgstr "[%s (%d字节)]"
+msgstr "[%s (%d 字节)]"
 
 #: src/textview.c:914
 msgid ""
@@ -18769,7 +18779,7 @@ msgstr ""
 "  不能显示该邮件。\n"
 "  很可能是一个网络错误导致如此。\n"
 "\n"
-"  可用'工具'菜单中的 "
+"  可用 '工具' 菜单中的 "
 
 #: src/textview.c:919
 msgid "'Network Log'"
@@ -18799,7 +18809,7 @@ msgstr "另存为…"
 #: src/textview.c:1026
 #, fuzzy
 msgid " (Shortcut key: '"
-msgstr " (快捷键: 'y')"
+msgstr " (快捷键:'y')"
 
 #: src/textview.c:1000
 msgid "     - To display as text, select "
@@ -18854,9 +18864,9 @@ msgid "The real URL is different from the displayed URL."
 msgstr ""
 "真实网址与所显示的网址不同。\n"
 "\n"
-"<b>显示的URL:</b> %s\n"
+"<b> 显示的 URL:</b> %s\n"
 "\n"
-"<b>实际的URL:</b> %s\n"
+"<b> 实际的 URL:</b> %s\n"
 "\n"
 "真的要打开吗?"
 
@@ -19148,7 +19158,7 @@ msgstr "回复选项"
 
 #: src/toolbar.c:2001 src/toolbar.c:2018 src/toolbar.c:2035 src/toolbar.c:2052
 msgid "_Reply with quote"
-msgstr "回信,引用原文(_R)"
+msgstr "回信, 引用原文(_R)"
 
 #: src/toolbar.c:2002 src/toolbar.c:2019 src/toolbar.c:2036 src/toolbar.c:2053
 msgid "Reply without _quote"
@@ -19245,24 +19255,24 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"欢迎使用Claws Mail\n"
+"欢迎使用 Claws Mail\n"
 "-------------------------\n"
 "\n"
-"你已经配置了帐号，现在可以点击工具栏上的'收信'图标收取邮件。\n"
+"你已经配置了帐号，现在可以点击工具栏上的 '收信' 图标收取邮件。\n"
 "\n"
 "\n"
-"Claws Mail可通过插件扩展很多功能，\n"
-"比如过滤垃圾邮件(Bogofilter或者SpamAssassin插件)，加密邮件(PGP/Mime)，\n"
-"RSS浏览、日历或者其它功能。你可以通过菜单'/配置/插件'来加载插件。\n"
+"Claws Mail 可通过插件扩展很多功能，\n"
+"比如过滤垃圾邮件(Bogofilter 或者 SpamAssassin 插件)，加密邮件(PGP/Mime)，\n"
+"RSS 浏览、日历或者其它功能。你可以通过菜单 '/ 配置/插件' 来加载插件。\n"
 "\n"
 "\n"
-"你可以通过菜单项'/设置/目前帐号的偏好设置'进入帐号设置界面\n"
-"修改当前帐号的设置；通过菜单项'/设置/偏好'进行其他设置。\n"
+"你可以通过菜单项 '/ 设置/目前帐号的偏好设置' 进入帐号设置界面\n"
+"修改当前帐号的设置；通过菜单项 '/ 设置/偏好' 进行其他设置。\n"
 "\n"
 "\n"
 "\n"
-"你可以在Claws Mail的手册中找到更详细的说明，它可以通过菜单项目\n"
-"'/帮助/手册/'或者如下网址找到: \n"
+"你可以在 Claws Mail 的手册中找到更详细的说明，它可以通过菜单项目\n"
+"'/ 帮助/手册 /' 或者如下网址找到: \n"
 "\n"
 "一些有用的网址\n"
 "-----------\n"
@@ -19274,15 +19284,15 @@ msgstr ""
 "\n"
 "许可协议\n"
 "-------\n"
-"Claws Mail是自由软件，受GNU通用许可协议(GPL)的条款所约束\n"
-"(GPL V3或者更高版本)。GPL协议由自由软件基金会\n"
+"Claws Mail 是自由软件，受 GNU 通用许可协议 (GPL) 的条款所约束\n"
+"(GPL V3 或者更高版本)。GPL 协议由自由软件基金会\n"
 "(Free Software Foundation, 51 Franklin Street,\n"
 "Fifth Floor, Boston, MA 02110-1301, USA)\n"
 "发布，可以在 <%s> 找到\n"
 "\n"
 "捐款\n"
 "---------\n"
-"如果你想捐款给Claws Mail项目，可访问 <%s>。\n"
+"如果你想捐款给 Claws Mail 项目，可访问 <%s>。\n"
 "\n"
 "\n"
 
@@ -19304,11 +19314,11 @@ msgstr "请输入您的用户名。"
 
 #: src/wizard.c:678
 msgid "Please enter your SMTP server."
-msgstr "请输入您的SMTP服务器名。"
+msgstr "请输入您的 SMTP 服务器名。"
 
 #: src/wizard.c:689
 msgid "Please enter your SMTP username."
-msgstr "请输入您的SMTP用户名。"
+msgstr "请输入您的 SMTP 用户名。"
 
 #: src/wizard.c:968
 msgid "Your name:"
@@ -19342,7 +19352,7 @@ msgstr "您可以在尾端加上指定端口号: \"mail.example.com:25\""
 #: src/wizard.c:1106
 #, fuzzy
 msgid "SMTP server address:"
-msgstr "SMTP 服务器(发送)"
+msgstr "SMTP 服务器 (发送)"
 
 #: src/wizard.c:1112
 msgid "Use authentication"
@@ -19371,7 +19381,7 @@ msgstr "通过 STARTTLS 使用 SSL"
 
 #: src/wizard.c:1182 src/wizard.c:1602
 msgid "Client SSL certificate (optional)"
-msgstr "客户端SSL证书(可选)"
+msgstr "客户端 SSL 证书 (可选)"
 
 #: src/wizard.c:1250 src/wizard.c:1282 src/wizard.c:1537
 #, fuzzy
@@ -19399,11 +19409,11 @@ msgstr "您可以在尾端加上指定端口号: \"mail.example.com:110\""
 
 #: src/wizard.c:1579
 msgid "Use SSL to connect to receiving server"
-msgstr "采用SSL连接服务器收取邮件"
+msgstr "采用 SSL 连接服务器收取邮件"
 
 #: src/wizard.c:1644
 msgid "IMAP server directory:"
-msgstr "IMAP服务器目录:"
+msgstr "IMAP 服务器目录:"
 
 #: src/wizard.c:1655
 msgid "Show only subscribed folders"
@@ -19415,8 +19425,8 @@ msgid ""
 "Warning: this version of Claws Mail\n"
 "has been built without IMAP support."
 msgstr ""
-"<span weight=\"bold\">警告: 当前的Claws Mail\n"
-"编译时没有启用支持IMAP功能。</span>"
+"<span weight=\"bold\"> 警告: 当前的 Claws Mail\n"
+"编译时没有启用支持 IMAP 功能。</span>"
 
 #: src/wizard.c:1781
 msgid "Claws Mail Setup Wizard"
@@ -19436,8 +19446,8 @@ msgid ""
 msgstr ""
 "欢迎使用 Claws Mail 设置向导\n"
 "\n"
-"看来这是你第一次使用Claws Mail。所以我们需要先定义些关于你和你的邮箱的一些基"
-"本信息，你可以在五分钟之内完成并开始使用Claws Mail。"
+"看来这是你第一次使用 Claws Mail。所以我们需要先定义些关于你和你的邮箱的一些基"
+"本信息，你可以在五分钟之内完成并开始使用 Claws Mail。"
 
 #: src/wizard.c:1836
 msgid "About You"
@@ -19468,8 +19478,228 @@ msgid ""
 "Claws Mail is now ready.\n"
 "Click Save to start."
 msgstr ""
-"Claws Mail配置完成。\n"
-"点击[保存]开始使用。"
+"Claws Mail 配置完成。\n"
+"点击 [保存] 开始使用。"
+
+msgid ""
+">. \n"
+"\n"
+msgstr ""
+">. \n"
+"\n"
+
+msgid "New folder name must not contain the namespace path separator"
+msgstr "新目录并不能包含名字空间分隔符"
+
+msgid "Sylpheed-Claws 2.6.0 (or older)"
+msgstr "Sylpheed-Claws 2.6.0 或者更老版本"
+
+msgid "Sylpheed-Claws 1.9.15 (or older)"
+msgstr "Sylpheed-Claws 1.9.15 或者更老版本"
+
+msgid "Sylpheed-Claws 1.0.5 (or older)"
+msgstr "Sylpheed-Claws 1.0.5 或者更老版本"
+
+msgid ""
+"\n"
+"Notification Plugin: Failed to write plugin configuration to file\n"
+msgstr ""
+"\n"
+"邮件通知插件: 写配置到文件失败\n"
+
+msgid ""
+"<span weight=\"bold\" size=\"larger\">%sPlease enter the passphrase for:</"
+"span>\n"
+"\n"
+"%.*s\n"
+msgstr ""
+"<span weight=\"bold\" size=\"larger\">%s请输入passphrase:</span>\n"
+"\n"
+"%.*s\n"
+
+msgid "<b> on:</b>"
+msgstr "<b> 在:<b>"
+
+msgid ""
+"<b>Message summary</b>\n"
+"<b>New:</b> %d\n"
+"<b>Unread:</b> %d\n"
+"<b>Total:</b> %d\n"
+"<b>Size:</b> %s\n"
+"\n"
+"<b>Marked:</b> %d\n"
+"<b>Replied:</b> %d\n"
+"<b>Forwarded:</b> %d\n"
+"<b>Locked:</b> %d\n"
+"<b>Ignored:</b> %d\n"
+"<b>Watched:</b> %d"
+msgstr ""
+"<b>邮件统计</b>\n"
+"<b>新邮件:</b> %d\n"
+"<b>未  读:</b> %d\n"
+"<b>总  数:</b> %d\n"
+"<b>大  小:</b> %s\n"
+"\n"
+"<b>已标记:</b> %d\n"
+"<b>已回复:</b> %d\n"
+"<b>已转发:</b> %d\n"
+"<b>已锁定:</b> %d\n"
+"<b>忽  略:</b> %d\n"
+"<b>监  视:</b> %d"
+
+msgid ""
+"%s\n"
+"<span color='%s' style='italic'>From: %s, on %s</span>"
+msgstr ""
+"%s\n"
+"<span color='%s' style='italic'>发件人: %s, 于 %s</span>"
+
+msgid ""
+"%s\n"
+"<span color='%s' style='italic'>To: %s, on %s</span>"
+msgstr ""
+"%s\n"
+"<span color='%s' style='italic'>收件人: %s, 于 %s</span>"
+
+msgid "slow"
+msgstr "慢速"
+
+msgid "fast"
+msgstr "快速"
+
+msgid "Cannot init libCURL"
+msgstr "无法初始化libCURL"
+
+msgid ""
+"RSSyl: Fetching comments is not supported for RDF feeds. Cannot fetch "
+"comments of '%s'"
+msgstr "RSSyl: 不支持从RDF供稿源提取评论。无法获得'%s'的评论"
+
+msgid "N/A"
+msgstr "未知"
+
+msgid "Error parsing feed from URL %s\n"
+msgstr "从网址%s提取供稿数据时出错\n"
+
+msgid "Unsupported feed type at URL %s\n"
+msgstr "不被识别的供稿源类型: %s\n"
+
+msgid "Keep default number of expired entries"
+msgstr "需保存的过期条目数: 采用缺省值"
+
+msgid ""
+"<b>Number of expired entries to keep:</b>\n"
+"<small>(Set to -1 if you want to keep expired entries)</small>"
+msgstr ""
+"<b>要保留的过期条目数：</b>\n"
+"<small>(设置为-1表示保留所有过期条目)</small>"
+
+msgid "Default number of expired items to keep"
+msgstr "要保存的过期条目的缺省数量"
+
+msgid "Set to -1 to keep expired items"
+msgstr "设置为-1表示保存全部过期条目"
+
+msgid "Use this"
+msgstr "采用此主题"
+
+msgctxt "For use by strftime (default date+time format)"
+msgid "%a %b %e %H:%M:%S %Y"
+msgstr "%a %b %e %H:%M:%S %Y"
+
+msgctxt "For use by strftime (default date format)"
+msgid "%m/%d/%y"
+msgstr "%y-%m-%d"
+
+msgctxt "For use by strftime (default time format)"
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+msgctxt "For use by strftime (default 12-hour time format)"
+msgid "%I:%M:%S %p"
+msgstr "%I:%M:%S %p"
+
+msgid "Claws Mail can not start without its data volume (%s)."
+msgstr "Claws Mail没有找到其数据卷(%s)，无法启动。"
+
+msgid "No registered viewer for this file type."
+msgstr "系统中没有注册可查看此文件类型的程序"
+
+msgid "Blink LED"
+msgstr "闪烁LED灯"
+
+msgid "Play sound"
+msgstr "播放声音"
+
+msgid "on external memory card"
+msgstr "在存储卡中"
+
+msgid "on internal memory card"
+msgstr "在内置内存卡中"
+
+msgid "Load remote links in mails"
+msgstr "加载邮件中的远程链接"
+
+msgid "Equivalent to Dillo's '--local' option"
+msgstr "等价于Dillo的'--local'选项"
+
+msgid "You can still load remote links by reloading the page"
+msgstr "你仍然可以通过重新载入该页的方式访问远程链接"
+
+msgid "Full window mode (hide controls)"
+msgstr "全窗口模式(隐藏工具栏)"
+
+msgid "Equivalent to Dillo's '--fullwindow' option"
+msgstr "等价于Dillo的'--fullwindow'选项"
+
+msgid "Can't find the dillo executable in PATH. Is it installed?"
+msgstr "无法在PATH中找到dillo程序。请问确实安装了么?"
+
+msgid ""
+"This plugin places a mailbox icon in the system tray that indicates if you "
+"have new or unread mail.\n"
+"\n"
+"The mailbox is empty if you have no unread mail, otherwise it contains a "
+"letter. A tooltip shows new, unread and total number of messages."
+msgstr ""
+"本插件将在你有新邮件或者未读邮件时，在系统通知栏放置一个邮箱图标。\n"
+"\n"
+"如果你没有未读的邮件，该图标将是一个空邮箱，否则则是含有邮件图样。提示信息将"
+"能够显示新邮件、未读邮件的数量和邮件总数。"
+
+msgid ""
+"Hide Claws Mail using the tray icon instead of closing it\n"
+"when the window close button is clicked"
+msgstr ""
+"点击主窗口的关闭按钮时隐藏Claws Mail到通知栏\n"
+"(而不是退出程序)"
+
+msgid "Hide Claws Mail using the tray icon instead of minimizing it"
+msgstr "利用通知栏图标隐藏Claws Mail(而不是最小化程序)"
+
+msgid "Your Sylpheed-Claws version is too old for AcpiNotifier"
+msgstr "您的Sylpheed-Claws版本太旧了，无法使用AcpiNotifier插件"
+
+msgid ""
+"RSSyl: Fetching comments is not supported for Atom feeds. Cannot fetch "
+"comments of '%s'"
+msgstr "RSSyl: Atom供稿源不支持提取评论。无法获取'%s'的评论。"
+
+msgid "/File/Add mailbox/RSSyl..."
+msgstr "/文件/添加邮箱/RSSyl..."
+
+msgid ""
+"Command could not be started. Pipe creation failed.\n"
+"%s"
+msgstr ""
+"无法启动命令。管道创建失败。\n"
+"%s"
+
+msgid "Charset"
+msgstr "字符"
+
+msgid "by Tag"
+msgstr "按标签"
 
 #~ msgid "Server Name:"
 #~ msgstr "服务器名称："
@@ -19533,13 +19763,6 @@ msgstr ""
 #~ msgid "+_Save to Drafts"
 #~ msgstr "+存为草稿(_S)"
 
-#~ msgid ""
-#~ ">. \n"
-#~ "\n"
-#~ msgstr ""
-#~ ">. \n"
-#~ "\n"
-
 #~ msgid "<span weight=\"bold\" size=\"larger\">Replace \"%s\" with: </span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">将 \"%s\" 替换为: </span>"
 
@@ -19554,9 +19777,6 @@ msgstr ""
 
 #~ msgid "IMAP error on %s: fatal error\n"
 #~ msgstr "IMAP错误%s: 致命错误\n"
-
-#~ msgid "New folder name must not contain the namespace path separator"
-#~ msgstr "新目录并不能包含名字空间分隔符"
 
 #~ msgid "+_Search"
 #~ msgstr "+搜索(_S)"
@@ -19573,37 +19793,11 @@ msgstr ""
 #~ msgid "Failed to register folder update hook"
 #~ msgstr "注册 'folder update hook' 失败"
 
-#~ msgid "Sylpheed-Claws 2.6.0 (or older)"
-#~ msgstr "Sylpheed-Claws 2.6.0 或者更老版本"
-
-#~ msgid "Sylpheed-Claws 1.9.15 (or older)"
-#~ msgstr "Sylpheed-Claws 1.9.15 或者更老版本"
-
-#~ msgid "Sylpheed-Claws 1.0.5 (or older)"
-#~ msgstr "Sylpheed-Claws 1.0.5 或者更老版本"
-
 #~ msgid "can't copy message %s to %s\n"
 #~ msgstr "无法将邮件 %s 复制到 %s\n"
 
 #~ msgid "seconds"
 #~ msgstr "秒"
-
-#~ msgid ""
-#~ "\n"
-#~ "Notification Plugin: Failed to write plugin configuration to file\n"
-#~ msgstr ""
-#~ "\n"
-#~ "邮件通知插件: 写配置到文件失败\n"
-
-#~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">%sPlease enter the passphrase for:</"
-#~ "span>\n"
-#~ "\n"
-#~ "%.*s\n"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">%s请输入passphrase:</span>\n"
-#~ "\n"
-#~ "%.*s\n"
 
 #~ msgid "                    uid \"%s\" (Validity: %s)\n"
 #~ msgstr "               又称为 \"%s\" (有效期: %s)\n"
@@ -19621,55 +19815,11 @@ msgstr ""
 #~ msgid "%s <span weight=\"bold\">(this event recurs)</span>"
 #~ msgstr "%s <span weight=\"bold\">(此事务为长期事务)</span>"
 
-#~ msgid "<b> on:</b>"
-#~ msgstr "<b> 在:<b>"
-
 #~ msgid "+Discard"
 #~ msgstr "+丟弃"
 
 #~ msgid "Save sent messages to Sent folder"
 #~ msgstr "将已经发送的邮件保存到已发送目录"
-
-#~ msgid ""
-#~ "<b>Message summary</b>\n"
-#~ "<b>New:</b> %d\n"
-#~ "<b>Unread:</b> %d\n"
-#~ "<b>Total:</b> %d\n"
-#~ "<b>Size:</b> %s\n"
-#~ "\n"
-#~ "<b>Marked:</b> %d\n"
-#~ "<b>Replied:</b> %d\n"
-#~ "<b>Forwarded:</b> %d\n"
-#~ "<b>Locked:</b> %d\n"
-#~ "<b>Ignored:</b> %d\n"
-#~ "<b>Watched:</b> %d"
-#~ msgstr ""
-#~ "<b>邮件统计</b>\n"
-#~ "<b>新邮件:</b> %d\n"
-#~ "<b>未  读:</b> %d\n"
-#~ "<b>总  数:</b> %d\n"
-#~ "<b>大  小:</b> %s\n"
-#~ "\n"
-#~ "<b>已标记:</b> %d\n"
-#~ "<b>已回复:</b> %d\n"
-#~ "<b>已转发:</b> %d\n"
-#~ "<b>已锁定:</b> %d\n"
-#~ "<b>忽  略:</b> %d\n"
-#~ "<b>监  视:</b> %d"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "<span color='%s' style='italic'>From: %s, on %s</span>"
-#~ msgstr ""
-#~ "%s\n"
-#~ "<span color='%s' style='italic'>发件人: %s, 于 %s</span>"
-
-#~ msgid ""
-#~ "%s\n"
-#~ "<span color='%s' style='italic'>To: %s, on %s</span>"
-#~ msgstr ""
-#~ "%s\n"
-#~ "<span color='%s' style='italic'>收件人: %s, 于 %s</span>"
 
 #~ msgid "<span weight=\"bold\">Your name:</span>"
 #~ msgstr "<span weight=\"bold\">你的名字:</span>"
@@ -19698,12 +19848,6 @@ msgstr ""
 #~ msgid "messages which contain header S"
 #~ msgstr "在信头中包含S的邮件"
 
-#~ msgid "slow"
-#~ msgstr "慢速"
-
-#~ msgid "fast"
-#~ msgstr "快速"
-
 #~ msgid "Enable Popup"
 #~ msgstr "启动弹出对话框"
 
@@ -19713,25 +19857,14 @@ msgstr ""
 #~ msgid "Cannot open temporary file"
 #~ msgstr "无法打开临时文件"
 
-#~ msgid "Cannot init libCURL"
-#~ msgstr "无法初始化libCURL"
-
 #~ msgid "Fetching '%s'..."
 #~ msgstr "正在提取 '%s'..."
 
 #~ msgid "Malformed feed"
 #~ msgstr "输入源存在格式错误"
 
-#~ msgid ""
-#~ "RSSyl: Fetching comments is not supported for RDF feeds. Cannot fetch "
-#~ "comments of '%s'"
-#~ msgstr "RSSyl: 不支持从RDF供稿源提取评论。无法获得'%s'的评论"
-
 #~ msgid "This feed format is not supported yet."
 #~ msgstr "不支持该供稿源的格式。"
-
-#~ msgid "N/A"
-#~ msgstr "未知"
 
 #~ msgid "size unknown"
 #~ msgstr "大小未知"
@@ -19769,24 +19902,8 @@ msgstr ""
 #~ msgid "Couldn't fetch URL %s\n"
 #~ msgstr "无法提取到网址'%s'的内容\n"
 
-#~ msgid "Error parsing feed from URL %s\n"
-#~ msgstr "从网址%s提取供稿数据时出错\n"
-
-#~ msgid "Unsupported feed type at URL %s\n"
-#~ msgstr "不被识别的供稿源类型: %s\n"
-
 #~ msgid "Can't remove feed '%s'."
 #~ msgstr "无法删除供稿源 '%s'。"
-
-#~ msgid "Keep default number of expired entries"
-#~ msgstr "需保存的过期条目数: 采用缺省值"
-
-#~ msgid ""
-#~ "<b>Number of expired entries to keep:</b>\n"
-#~ "<small>(Set to -1 if you want to keep expired entries)</small>"
-#~ msgstr ""
-#~ "<b>要保留的过期条目数：</b>\n"
-#~ "<small>(设置为-1表示保留所有过期条目)</small>"
 
 #~ msgid "Unsubscribe feed"
 #~ msgstr "取消订阅"
@@ -19799,31 +19916,6 @@ msgstr ""
 
 #~ msgid "Default refresh interval in minutes"
 #~ msgstr "定时刷新(180分钟刷新一次)"
-
-#~ msgid "Default number of expired items to keep"
-#~ msgstr "要保存的过期条目的缺省数量"
-
-#~ msgid "Set to -1 to keep expired items"
-#~ msgstr "设置为-1表示保存全部过期条目"
-
-#~ msgid "Use this"
-#~ msgstr "采用此主题"
-
-#~ msgctxt "For use by strftime (default date+time format)"
-#~ msgid "%a %b %e %H:%M:%S %Y"
-#~ msgstr "%a %b %e %H:%M:%S %Y"
-
-#~ msgctxt "For use by strftime (default date format)"
-#~ msgid "%m/%d/%y"
-#~ msgstr "%y-%m-%d"
-
-#~ msgctxt "For use by strftime (default time format)"
-#~ msgid "%H:%M:%S"
-#~ msgstr "%H:%M:%S"
-
-#~ msgctxt "For use by strftime (default 12-hour time format)"
-#~ msgid "%I:%M:%S %p"
-#~ msgstr "%I:%M:%S %p"
 
 #~ msgid "`%c' can't be included in folder name."
 #~ msgstr "目录名称不能包含`%c'。"
@@ -19838,12 +19930,6 @@ msgstr ""
 #~ msgid "Exiting..."
 #~ msgstr "正在退出..."
 
-#~ msgid "Claws Mail can not start without its data volume (%s)."
-#~ msgstr "Claws Mail没有找到其数据卷(%s)，无法启动。"
-
-#~ msgid "No registered viewer for this file type."
-#~ msgstr "系统中没有注册可查看此文件类型的程序"
-
 #~ msgid "Select ..."
 #~ msgstr "选择..."
 
@@ -19853,20 +19939,8 @@ msgstr ""
 #~ msgid "Replace"
 #~ msgstr "替换"
 
-#~ msgid "Blink LED"
-#~ msgstr "闪烁LED灯"
-
-#~ msgid "Play sound"
-#~ msgstr "播放声音"
-
 #~ msgid "Show info banner"
 #~ msgstr "显示信息标语"
-
-#~ msgid "on external memory card"
-#~ msgstr "在存储卡中"
-
-#~ msgid "on internal memory card"
-#~ msgstr "在内置内存卡中"
 
 #~ msgid "<span weight=\"bold\">Store data</span>"
 #~ msgstr "<span weight=\"bold\">保存数据</span>"
@@ -19874,29 +19948,11 @@ msgstr ""
 #~ msgid "Dillo Browser"
 #~ msgstr "Dillo网页查看器"
 
-#~ msgid "Load remote links in mails"
-#~ msgstr "加载邮件中的远程链接"
-
-#~ msgid "Equivalent to Dillo's '--local' option"
-#~ msgstr "等价于Dillo的'--local'选项"
-
-#~ msgid "You can still load remote links by reloading the page"
-#~ msgstr "你仍然可以通过重新载入该页的方式访问远程链接"
-
 #~ msgid "Only for senders found in address book/folder"
 #~ msgstr "仅限于地址簿列出中的地址"
 
-#~ msgid "Full window mode (hide controls)"
-#~ msgstr "全窗口模式(隐藏工具栏)"
-
-#~ msgid "Equivalent to Dillo's '--fullwindow' option"
-#~ msgstr "等价于Dillo的'--fullwindow'选项"
-
 #~ msgid "Dillo HTML Viewer"
 #~ msgstr "Dillo网页查看器"
-
-#~ msgid "Can't find the dillo executable in PATH. Is it installed?"
-#~ msgstr "无法在PATH中找到dillo程序。请问确实安装了么?"
 
 #~ msgid ""
 #~ "This plugin renders HTML mail using the Dillo web browser.\n"
@@ -19928,33 +19984,11 @@ msgstr ""
 #~ msgid "Failed to register theme change hook"
 #~ msgstr "注册主题变更钩子失败"
 
-#~ msgid ""
-#~ "This plugin places a mailbox icon in the system tray that indicates if "
-#~ "you have new or unread mail.\n"
-#~ "\n"
-#~ "The mailbox is empty if you have no unread mail, otherwise it contains a "
-#~ "letter. A tooltip shows new, unread and total number of messages."
-#~ msgstr ""
-#~ "本插件将在你有新邮件或者未读邮件时，在系统通知栏放置一个邮箱图标。\n"
-#~ "\n"
-#~ "如果你没有未读的邮件，该图标将是一个空邮箱，否则则是含有邮件图样。提示信息"
-#~ "将能够显示新邮件、未读邮件的数量和邮件总数。"
-
 #~ msgid "Hide Claws Mail at start-up"
 #~ msgstr "启动时隐藏Claws Mail主窗口"
 
-#~ msgid ""
-#~ "Hide Claws Mail using the tray icon instead of closing it\n"
-#~ "when the window close button is clicked"
-#~ msgstr ""
-#~ "点击主窗口的关闭按钮时隐藏Claws Mail到通知栏\n"
-#~ "(而不是退出程序)"
-
 #~ msgid "Minimize to tray"
 #~ msgstr "最小化到通知栏"
-
-#~ msgid "Hide Claws Mail using the tray icon instead of minimizing it"
-#~ msgstr "利用通知栏图标隐藏Claws Mail(而不是最小化程序)"
 
 #~ msgid ""
 #~ "This plugin provides various ways to notify the user of new and unread "
@@ -19985,16 +20019,8 @@ msgstr ""
 #~ "built with"
 #~ msgstr "您的Sylpheed-Claws比AcpiNotifier插件编译时所用的版本新。"
 
-#~ msgid "Your Sylpheed-Claws version is too old for AcpiNotifier"
-#~ msgstr "您的Sylpheed-Claws版本太旧了，无法使用AcpiNotifier插件"
-
 #~ msgid "Acpi notifier"
 #~ msgstr "Acpi通知"
-
-#~ msgid ""
-#~ "RSSyl: Fetching comments is not supported for Atom feeds. Cannot fetch "
-#~ "comments of '%s'"
-#~ msgstr "RSSyl: Atom供稿源不支持提取评论。无法获取'%s'的评论。"
 
 #~ msgid "/_Refresh feed"
 #~ msgstr "/刷新(_R)"
@@ -20046,19 +20072,6 @@ msgstr ""
 
 #~ msgid "/Remove folder tree..."
 #~ msgstr "/删除文件夹树..."
-
-#~ msgid "/File/Add mailbox/RSSyl..."
-#~ msgstr "/文件/添加邮箱/RSSyl..."
-
-#~ msgid ""
-#~ "Command could not be started. Pipe creation failed.\n"
-#~ "%s"
-#~ msgstr ""
-#~ "无法启动命令。管道创建失败。\n"
-#~ "%s"
-
-#~ msgid "Charset"
-#~ msgstr "字符"
 
 #~ msgid "Change dictionary"
 #~ msgstr "切换字典"
@@ -20125,9 +20138,6 @@ msgstr ""
 
 #~ msgid "by S_ubject"
 #~ msgstr "按主题(_U)"
-
-#~ msgid "by Tag"
-#~ msgstr "按标签"
 
 #~ msgid "by _Mark"
 #~ msgstr "按标记(_M)"
