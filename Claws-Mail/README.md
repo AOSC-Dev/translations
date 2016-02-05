@@ -3,8 +3,6 @@ Claws Mail
 
 Moved to Transifex: https://www.transifex.com/aosc-dev/claws-mail
 
-Do not start yet -- there are still some more scripts to be run.
-
 Upstream Guide: http://www.claws-mail.org/faq/index.php/Translator's_Information
 
 Header
