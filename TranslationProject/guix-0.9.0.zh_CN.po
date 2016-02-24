@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: guix 0.9.0\n"
 "Report-Msgid-Bugs-To: ludo@gnu.org\n"
 "POT-Creation-Date: 2015-10-28 16:31+0100\n"
-"PO-Revision-Date: 2015-11-07 17:42-0500\n"
+"PO-Revision-Date: 2016-02-23 15:23+0100\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: gnu/packages.scm:80
 #, scheme-format
@@ -264,6 +264,8 @@ msgid ""
 "\n"
 "  -s, --system=SYSTEM    attempt to build for SYSTEM--e.g., \"i686-linux\""
 msgstr ""
+"\n"
+"  -s, --system=系统      尝试为 <系统> 构建包——比如，\"i686-linux\""
 
 #: guix/scripts/build.scm:301
 msgid ""
@@ -507,6 +509,8 @@ msgid ""
 "\n"
 "      --verbose          produce verbose output"
 msgstr ""
+"\n"
+"      --verbose          生成详细啰嗦的输出"
 
 #: guix/scripts/package.scm:279
 msgid ""
@@ -874,9 +878,9 @@ msgid "invalid format of the signature field: ~a~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:317
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid signature for '~a'~%"
-msgstr "无效签名。将拒绝此资源。\n"
+msgstr "'~a'~% 签名无效"
 
 #: guix/scripts/substitute.scm:319
 #, scheme-format
@@ -972,7 +976,7 @@ msgstr ""
 
 #: guix/scripts/authenticate.scm:126
 msgid "wrong arguments"
-msgstr ""
+msgstr "参数有误"
 
 #: guix/scripts/system.scm:105
 #, scheme-format
@@ -1013,9 +1017,9 @@ msgid "the dependency graph of dmd services"
 msgstr ""
 
 #: guix/scripts/system.scm:369
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "  file name: ~a~%"
-msgstr "设置输出文件名"
+msgstr "  文件名：~a~%"
 
 #: guix/scripts/system.scm:370
 #, scheme-format
@@ -1034,9 +1038,9 @@ msgid "  root device: ~a~%"
 msgstr ""
 
 #: guix/scripts/system.scm:376
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "  kernel: ~a~%"
-msgstr "无法找到所需的内核加密接口。\n"
+msgstr "  内核：~a~%"
 
 #: guix/scripts/system.scm:476
 #, scheme-format
@@ -1138,9 +1142,9 @@ msgid "no configuration file specified~%"
 msgstr ""
 
 #: guix/scripts/system.scm:700
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: unknown action~%"
-msgstr "未知动作。"
+msgstr "~a：未知操作~%"
 
 #: guix/scripts/system.scm:715
 #, scheme-format
@@ -1461,12 +1465,16 @@ msgid ""
 "Usage: guix size [OPTION]... PACKAGE\n"
 "Report the size of PACKAGE and its dependencies.\n"
 msgstr ""
+"用法：guix size [选项]... 软件包\n"
+"报告 <软件包> 及其依赖的大小。\n"
 
 #: guix/scripts/size.scm:218
 msgid ""
 "\n"
 "  -s, --system=SYSTEM    consider packages for SYSTEM--e.g., \"i686-linux\""
 msgstr ""
+"\n"
+"  -s, --system=系统      为 <系统> 考虑包——比如，\"i686-linux\""
 
 #: guix/scripts/size.scm:220
 msgid ""
@@ -1479,9 +1487,8 @@ msgid "missing store item argument\n"
 msgstr ""
 
 #: guix/scripts/size.scm:292
-#, fuzzy
 msgid "too many arguments\n"
-msgstr "太多参数~%"
+msgstr "太多参数\n"
 
 #: guix/scripts/graph.scm:105
 msgid "the DAG of packages, excluding implicit inputs"
@@ -1544,9 +1551,9 @@ msgid ""
 msgstr ""
 
 #: guix/scripts/challenge.scm:104
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: no substitute at '~a'~%"
-msgstr "替代 i18n 区段进入规格文件"
+msgstr ""
 
 #: guix/scripts/challenge.scm:120
 #, scheme-format
@@ -1632,9 +1639,9 @@ msgid "failed to load '~a': ~a~%"
 msgstr ""
 
 #: guix/ui.scm:253
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: error: ~a~%"
-msgstr "(没有错误)"
+msgstr "~a：错误：~a~%"
 
 #: guix/ui.scm:256 guix/ui.scm:510
 #, scheme-format
@@ -1693,11 +1700,12 @@ msgstr ""
 "~a 项目首页:<~a>"
 
 #: guix/ui.scm:316
-#, fuzzy
 msgid ""
 "\n"
 "General help using GNU software: <http://www.gnu.org/gethelp/>"
-msgstr "GNU 软件一般性帮助：<http://www.gnu.org/gethelp/>\n"
+msgstr ""
+"\n"
+"使用 GNU 软件的一般性帮助：<http://www.gnu.org/gethelp/>"
 
 #: guix/ui.scm:361
 #, scheme-format
@@ -1710,9 +1718,9 @@ msgid "~a: invalid number~%"
 msgstr "~a: 无效的数字~%"
 
 #: guix/ui.scm:384
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "invalid number: ~a~%"
-msgstr "无效的数字。"
+msgstr "无效的数字：~a~%"
 
 #: guix/ui.scm:407
 #, scheme-format
@@ -1750,9 +1758,9 @@ msgid "corrupt input while restoring archive from ~s~%"
 msgstr ""
 
 #: guix/ui.scm:445
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "failed to connect to `~a': ~a~%"
-msgstr "连接到服务器时失败"
+msgstr "连接到 `~a' 失败：~a~%"
 
 #: guix/ui.scm:450
 #, scheme-format
@@ -1780,9 +1788,9 @@ msgid "failed to evaluate expression '~a':~%"
 msgstr ""
 
 #: guix/ui.scm:508
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "syntax error: ~a~%"
-msgstr "语法错误"
+msgstr "语法错误：~a~%"
 
 #: guix/ui.scm:522
 #, scheme-format
@@ -1862,9 +1870,8 @@ msgid_plural "The following packages will be installed:~%~{~a~%~}~%"
 msgstr[0] ""
 
 #: guix/ui.scm:727
-#, fuzzy
 msgid "<unknown location>"
-msgstr "(未知的定位操作码)"
+msgstr "<未知位置>"
 
 #: guix/ui.scm:746
 #, scheme-format
@@ -1872,14 +1879,13 @@ msgid "failed to create configuration directory `~a': ~a~%"
 msgstr ""
 
 #: guix/ui.scm:865 guix/ui.scm:879
-#, fuzzy
 msgid "unknown"
 msgstr "未知"
 
 #: guix/ui.scm:1029
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Generation ~a\t~a"
-msgstr "支持生成 popcnt 指令。"
+msgstr ""
 
 #: guix/ui.scm:1036
 #, scheme-format
@@ -1899,7 +1905,7 @@ msgstr "正删除 ~a~%"
 #: guix/ui.scm:1117
 #, scheme-format
 msgid "Try `guix --help' for more information.~%"
-msgstr ""
+msgstr "请尝试 “guix --help”，以获取更多信息。~%"
 
 #: guix/ui.scm:1144
 msgid ""
@@ -1914,7 +1920,7 @@ msgstr ""
 #: guix/ui.scm:1167
 #, scheme-format
 msgid "guix: ~a: command not found~%"
-msgstr ""
+msgstr "guix：~a：未找到命令~%"
 
 #: guix/ui.scm:1184
 #, scheme-format
@@ -1933,31 +1939,32 @@ msgstr ""
 
 #: guix/http-client.scm:237
 msgid "download failed"
-msgstr ""
+msgstr "下载失败"
 
 #: guix/nar.scm:155
 msgid "signature is not a valid s-expression"
-msgstr ""
+msgstr "签名不是有效的 S-表达式"
 
 #: guix/nar.scm:164
 msgid "invalid signature"
-msgstr ""
+msgstr "无效签名"
 
 #: guix/nar.scm:168
 msgid "invalid hash"
-msgstr ""
+msgstr "无效哈希"
 
 #: guix/nar.scm:176
 msgid "unauthorized public key"
-msgstr ""
+msgstr "公钥未被授权"
 
 #: guix/nar.scm:181
 msgid "corrupt signature data"
-msgstr ""
+msgstr "签名数据损坏"
 
 #: guix/nar.scm:201
+#, fuzzy
 msgid "corrupt file set archive"
-msgstr ""
+msgstr "现用文件损坏 - %s"
 
 #: guix/nar.scm:211
 #, scheme-format
@@ -1987,7 +1994,7 @@ msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:86
 msgid "SYSTEM"
-msgstr "SYSTEM"
+msgstr "系统"
 
 #: nix/nix-daemon/guix-daemon.cc:87
 msgid "assume SYSTEM as the current system type"
@@ -2011,7 +2018,7 @@ msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:95
 msgid "DIR"
-msgstr "DIR"
+msgstr "目录"
 
 #: nix/nix-daemon/guix-daemon.cc:96
 msgid "add DIR to the build chroot"
@@ -2019,7 +2026,7 @@ msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:97
 msgid "GROUP"
-msgstr "GROUP"
+msgstr "组"
 
 #: nix/nix-daemon/guix-daemon.cc:98
 msgid "perform builds as a user of GROUP"
@@ -2031,7 +2038,7 @@ msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:101
 msgid "URLS"
-msgstr "网址"
+msgstr "网址们"
 
 #: nix/nix-daemon/guix-daemon.cc:102
 msgid "use URLS as the default list of substitute providers"
@@ -2075,7 +2082,7 @@ msgstr "套接字"
 
 #: nix/nix-daemon/guix-daemon.cc:136
 msgid "listen for connections on SOCKET"
-msgstr "侦听 SOCKET 上的链接"
+msgstr "侦听 <套接字> 上的链接"
 
 #: nix/nix-daemon/guix-daemon.cc:138
 msgid "produce debugging output"

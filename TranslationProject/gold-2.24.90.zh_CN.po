@@ -10,65 +10,65 @@ msgstr ""
 "Project-Id-Version: gold 2.24.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2015-10-29 23:59-0400\n"
-"PO-Revision-Date: 2015-11-07 01:46-0500\n"
+"PO-Revision-Date: 2016-02-23 15:25+0100\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 # Warning: I am starting off, and is importing translations from other binutil family + gcc.
 #: archive.cc:135
 #, c-format
 msgid "script or expression reference to %s"
-msgstr ""
+msgstr "指向 %s 的脚本或引用"
 
 #: archive.cc:229
 #, c-format
 msgid "%s: no archive symbol table (run ranlib)"
-msgstr ""
+msgstr "%s：没有存档符号表（请运行 ranlib）"
 
 #: archive.cc:317
 #, c-format
 msgid "%s: bad archive symbol table names"
-msgstr ""
+msgstr "%s：不当的存档符号表名称"
 
 #: archive.cc:349
 #, c-format
 msgid "%s: malformed archive header at %zu"
-msgstr ""
+msgstr "%s：于 %zu 处的结构有误的存档标头"
 
 #: archive.cc:369
 #, c-format
 msgid "%s: malformed archive header size at %zu"
-msgstr ""
+msgstr "%s：于 %zu 处的结构有误的存档标头大小"
 
 #: archive.cc:380
 #, c-format
 msgid "%s: malformed archive header name at %zu"
-msgstr ""
+msgstr "%s：于 %zu 处的结构有误的存档标头名"
 
 #: archive.cc:411
 #, c-format
 msgid "%s: bad extended name index at %zu"
-msgstr ""
+msgstr "%s：于 %zu 处有不当的拓展名索引"
 
 #: archive.cc:421
 #, c-format
 msgid "%s: bad extended name entry at header %zu"
-msgstr ""
+msgstr "%s：于 %zu 处有不当的拓展名项"
 
 #: archive.cc:518
 #, c-format
 msgid "%s: short archive header at %zu"
-msgstr ""
+msgstr "%s：于 %zu 处有短存档表头"
 
 #: archive.cc:702
 #, c-format
 msgid "%s: member at %zu is not an ELF object"
-msgstr ""
+msgstr "%s：于 %zu 处的成员非 ELF 对象"
 
 #: archive.cc:1043
 #, c-format
@@ -222,7 +222,7 @@ msgstr ""
 
 #: arm.cc:7293 i386.cc:168 sparc.cc:1349 tilegx.cc:182 x86_64.cc:257
 msgid "** PLT"
-msgstr ""
+msgstr "** PLT"
 
 #: arm.cc:7800 i386.cc:1685 powerpc.cc:5111 sparc.cc:2117 tilegx.cc:3123
 #: tilegx.cc:3575 x86_64.cc:2169 x86_64.cc:2598
@@ -3563,9 +3563,9 @@ msgstr ""
 "这个程序完全没有任何担保。\n"
 
 #: workqueue-threads.cc:106
-#, fuzzy, c-format
+#, c-format
 msgid "%s failed: %s"
-msgstr "打开 %s 失败：%s"
+msgstr "%s 失败：%s"
 
 #: x86_64.cc:2222
 msgid "requires dynamic R_X86_64_32 reloc which may overflow at runtime; recompile with -fPIC"

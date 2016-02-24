@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: minicom 2.6.1.90\n"
 "Report-Msgid-Bugs-To: minicom-devel@lists.alioth.debian.org\n"
 "POT-Creation-Date: 2012-12-01 17:43+0100\n"
-"PO-Revision-Date: 2015-11-07 01:42-0500\n"
+"PO-Revision-Date: 2016-02-17 00:03-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: src/config.c:75
 #, c-format
@@ -551,7 +551,7 @@ msgstr " A: <next>        L: 无       S: 5\n"
 
 #: src/config.c:1442
 msgid " B: <prev>        M: Even     T: 6\n"
-msgstr " B: <prev>        M: 甚至     T: 6\n"
+msgstr " B: <prev>        M: 偶数     T: 6\n"
 
 #: src/config.c:1443
 msgid " C:   9600        N: Odd      U: 7\n"
@@ -604,7 +604,7 @@ msgstr " (键例: ^M = C-M, ^L = C-L, ^G = C-G, ^R = C-R, ^~ = 暂停 1 秒，"
 
 #: src/config.c:1625
 msgid "  \\u = username, \\p = password, \\\\ = \\, \\e = toggle echo, "
-msgstr " \\u = 用户名，\\p = 密码，\\\\ = \\，\\e = 切换回应，"
+msgstr "  \\u = 用户名，\\p = 密码，\\\\ = \\，\\e = 切换回响，"
 
 #: src/config.c:1627
 msgid "  \\l = toggle LF, \\bX1..Xn<sp> = change baud rate. Example: \"\\beq \""

@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: cryptsetup 1.7.0\n"
 "Report-Msgid-Bugs-To: dm-crypt@saout.de\n"
 "POT-Creation-Date: 2015-10-29 13:27+0100\n"
-"PO-Revision-Date: 2015-11-12 12:11-0700\n"
-"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2016-02-23 14:54+0100\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.8.7\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: lib/libdevmapper.c:253
@@ -42,7 +42,7 @@ msgid ""
 "Please move mouse or type some text in another window to gather some random events.\n"
 msgstr ""
 "系统在生成卷密钥时熵不足。\n"
-"请移动鼠标，或在另一个窗口打字以便生成随机事件。\n"
+"请随意移动鼠标或是在别的窗口打字，以便生成随机事件让系统使用。\n"
 
 #: lib/random.c:80
 #, c-format
@@ -550,9 +550,9 @@ msgid "Keyslot %i: offset repaired (%u -> %u).\n"
 msgstr "密钥槽 %i: 偏移已修复 (%u -> %u)。\n"
 
 #: lib/luks1/keymanage.c:371
-#, c-format
+#, fuzzy, c-format
 msgid "Keyslot %i: stripes repaired (%u -> %u).\n"
-msgstr ""
+msgstr "密钥槽 %i：已修复条带（%u -> %u）。\n"
 
 #: lib/luks1/keymanage.c:380
 #, c-format
@@ -626,9 +626,9 @@ msgid "Key slot %d active, purge first.\n"
 msgstr "密钥槽 %d 已激活，请先清除。\n"
 
 #: lib/luks1/keymanage.c:788
-#, c-format
+#, fuzzy, c-format
 msgid "Key slot %d material includes too few stripes. Header manipulation?\n"
-msgstr ""
+msgstr "密钥槽 %d 条带数过少。标头修改？\n"
 
 #: lib/luks1/keymanage.c:955
 #, c-format
@@ -1198,7 +1198,7 @@ msgstr "要从新增密钥文件跳过的字节数"
 
 #: src/cryptsetup.c:1501
 msgid "Slot number for new key (default is first free)"
-msgstr ""
+msgstr "新密钥的槽号（默认为第一个可用的）"
 
 #: src/cryptsetup.c:1502
 msgid "The size of the device"
@@ -1247,7 +1247,7 @@ msgstr "输入密码的最大重试频率"
 
 #: src/cryptsetup.c:1510
 msgid "Align payload at <n> sector boundaries - for luksFormat"
-msgstr ""
+msgstr "于 <n> 个扇区边界处对其载荷数据 - 供 luks 格式用"
 
 #: src/cryptsetup.c:1511
 msgid "File with LUKS header and keyslots backup."
@@ -1263,7 +1263,7 @@ msgstr "使用 /dev/urandom 生成卷密钥。"
 
 #: src/cryptsetup.c:1514
 msgid "Share device with another non-overlapping crypt segment."
-msgstr ""
+msgstr "与另一个不重合的加密段共享设备。"
 
 #: src/cryptsetup.c:1515 src/veritysetup.c:385
 msgid "UUID for device to use."

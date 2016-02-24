@@ -1,18 +1,24 @@
 # Chinese (PRC) translations for Wine
 #
+# Question on style by Arthur2e5:
+# Shall we follow MS style guide instead of the current one?
+# That will make wine zh_CN feel more like MS, and more importantly, we
+# can use correct zh puncts (colons, ...) instead of current English puncts.
+# The current one is in another way Windows-ish though -- significant
+# awfulness/mistake with an excuse citing technical or compatibility issues.
 msgid ""
 msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2015-11-24 16:52-0500\n"
+"PO-Revision-Date: 2016-02-23 16:39+0100\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: appwiz.rc:58
 msgid "Install/Uninstall"
@@ -41,7 +47,7 @@ msgstr "技术支持信息(&S)"
 
 #: appwiz.rc:68 regedit.rc:45 regedit.rc:90
 msgid "&Modify..."
-msgstr ""
+msgstr "修改(&M)..."
 
 #: appwiz.rc:69 appwiz.rc:45 cryptui.rc:346 msacm32.rc:40 winecfg.rc:200
 #: winecfg.rc:237 wordpad.rc:248
@@ -1436,7 +1442,7 @@ msgstr ""
 
 #: crypt32.rc:90
 msgid "OS Version"
-msgstr ""
+msgstr "操作系统版本"
 
 #: crypt32.rc:91
 msgid "Enrollment CSP"
@@ -1720,7 +1726,7 @@ msgstr ""
 
 #: crypt32.rc:161 cryptui.rc:132
 msgid "File Recovery"
-msgstr ""
+msgstr "文件恢复"
 
 #: crypt32.rc:162 cryptui.rc:137
 msgid "Root List Signer"
@@ -1927,7 +1933,7 @@ msgstr "可用"
 
 #: crypt32.rc:220
 msgid "Not Available"
-msgstr ""
+msgstr "不可用"
 
 #: crypt32.rc:221
 msgid "Meets Criteria="
@@ -1971,7 +1977,7 @@ msgstr ""
 
 #: crypt32.rc:231
 msgid "CRL Signing"
-msgstr ""
+msgstr "CRL 签名"
 
 #: crypt32.rc:232
 msgid "Encipher Only"
@@ -1991,7 +1997,7 @@ msgstr ""
 
 #: crypt32.rc:236
 msgid "S/MIME"
-msgstr ""
+msgstr "S/MIME"
 
 #: crypt32.rc:237
 msgid "Signature"
@@ -1999,23 +2005,23 @@ msgstr "签名"
 
 #: crypt32.rc:238
 msgid "SSL CA"
-msgstr ""
+msgstr "SSL CA"
 
 #: crypt32.rc:239
 msgid "S/MIME CA"
-msgstr ""
+msgstr "S/MIME CA"
 
 #: crypt32.rc:240
 msgid "Signature CA"
-msgstr ""
+msgstr "签名 CA"
 
 #: cryptdlg.rc:30
 msgid "Certificate Policy"
-msgstr ""
+msgstr "证书策略"
 
 #: cryptdlg.rc:31
 msgid "Policy Identifier: "
-msgstr ""
+msgstr "策略标识符："
 
 #: cryptdlg.rc:32
 msgid "Policy Qualifier Info"
@@ -2087,7 +2093,7 @@ msgstr "证书状态(&S):"
 
 #: cryptui.rc:224
 msgid "Disclaimer"
-msgstr ""
+msgstr "声明"
 
 #: cryptui.rc:231
 msgid "More &Info"
@@ -2217,7 +2223,7 @@ msgstr ""
 
 #: cryptui.rc:337 cryptui.rc:122 inetcpl.rc:111
 msgid "Certificates"
-msgstr ""
+msgstr "证书"
 
 #: cryptui.rc:340
 msgid "I&ntended purpose:"
@@ -2424,7 +2430,7 @@ msgstr ""
 
 #: cryptui.rc:47
 msgid "Field"
-msgstr ""
+msgstr "域"
 
 #: cryptui.rc:48
 msgid "Value"
@@ -2556,7 +2562,7 @@ msgstr ""
 
 #: cryptui.rc:84
 msgid "Please select a file."
-msgstr ""
+msgstr "请选择一个文件。"
 
 #: cryptui.rc:85
 msgid "The file format is not recognized. Please select another file."
@@ -2624,7 +2630,7 @@ msgstr ""
 
 #: cryptui.rc:105
 msgid "Issued By"
-msgstr ""
+msgstr "颁发者"
 
 #: cryptui.rc:106
 msgid "Expiration Date"
@@ -2904,7 +2910,7 @@ msgstr "西方"
 
 #: gdi32.rc:29
 msgid "Central European"
-msgstr ""
+msgstr "中欧语言"
 
 #: gdi32.rc:30
 msgid "Cyrillic"
@@ -2928,7 +2934,7 @@ msgstr "阿拉伯语"
 
 #: gdi32.rc:35
 msgid "Baltic"
-msgstr ""
+msgstr "波罗的海语言"
 
 #: gdi32.rc:36
 msgid "Vietnamese"
@@ -3012,7 +3018,7 @@ msgstr "正在连接照相机... 请稍候"
 
 #: hhctrl.rc:59
 msgid "S&ync"
-msgstr ""
+msgstr "同步(&Y)"
 
 #: hhctrl.rc:60 hhctrl.rc:73 shdoclc.rc:41 winhlp32.rc:89
 msgid "&Back"
@@ -3093,7 +3099,7 @@ msgstr ""
 
 #: hhctrl.rc:37
 msgid "Show &Tabs"
-msgstr ""
+msgstr "显示标签页(&T)"
 
 #: hhctrl.rc:42
 msgid "Show"
@@ -3396,7 +3402,7 @@ msgstr ""
 
 #: joy.rc:54
 msgid "Buttons"
-msgstr ""
+msgstr "按钮"
 
 #: joy.rc:63
 msgid "Test Force Feedback"
@@ -3450,7 +3456,7 @@ msgstr ""
 
 #: jscript.rc:36
 msgid "Syntax error"
-msgstr ""
+msgstr "语法错误"
 
 #: jscript.rc:37
 msgid "Expected ';'"
@@ -4585,9 +4591,8 @@ msgid "No recovery program for service.\n"
 msgstr ""
 
 #: winerror.mc:1291
-#, fuzzy
 msgid "Service not implemented by exe.\n"
-msgstr "打印功能尚未实现。\n"
+msgstr "服务尚未被 exe 实现。\n"
 
 #: winerror.mc:1296
 msgid "End of media.\n"
@@ -4646,10 +4651,8 @@ msgid "No Unicode translation.\n"
 msgstr ""
 
 #: winerror.mc:1366
-#, fuzzy
-#| msgid "Installation failure.\n"
 msgid "DLL initialization failed.\n"
-msgstr "安装失败。\n"
+msgstr "DLL 初始化失败。\n"
 
 #: winerror.mc:1371
 msgid "Shutdown in progress.\n"
@@ -4820,9 +4823,8 @@ msgid "Property set not found.\n"
 msgstr "找不到属性集。\n"
 
 #: winerror.mc:1581
-#, fuzzy
 msgid "Point not found.\n"
-msgstr "路径 %s 没找到。\n"
+msgstr "未找到点。\n"
 
 #: winerror.mc:1586
 msgid "No running tracking service.\n"
@@ -5514,9 +5516,8 @@ msgid "Class does not exist.\n"
 msgstr "该类不存在。\n"
 
 #: winerror.mc:2456
-#, fuzzy
 msgid "Class has open windows.\n"
-msgstr "关闭窗口。\n"
+msgstr "类还有窗口开着。\n"
 
 #: winerror.mc:2461
 msgid "Invalid index.\n"
@@ -5864,9 +5865,8 @@ msgid "Installation platform not supported.\n"
 msgstr "不支持 OLE 储存文件。\n"
 
 #: winerror.mc:2891
-#, fuzzy
 msgid "Installer not used.\n"
-msgstr "找不到文件。\n"
+msgstr "未使用安装器。\n"
 
 #: winerror.mc:2896
 msgid "Failed to open the patch package.\n"
@@ -6351,9 +6351,8 @@ msgid "Not enough quota.\n"
 msgstr ""
 
 #: winerror.mc:3496
-#, fuzzy
 msgid "No interfaces.\n"
-msgstr "没有界面。\n"
+msgstr "没有接口。\n"
 
 #: winerror.mc:3501
 msgid "RPC call canceled.\n"
@@ -6607,7 +6606,7 @@ msgstr ""
 
 #: mapi32.rc:32
 msgid "Send Mail"
-msgstr ""
+msgstr "发送电子邮件"
 
 #: mpr.rc:35 wininet.rc:37
 msgid "Enter Network Password"
@@ -6932,7 +6931,7 @@ msgstr "字符"
 
 #: oleacc.rc:64
 msgid "list"
-msgstr ""
+msgstr "列表"
 
 #: oleacc.rc:65
 msgid "list item"
@@ -7120,9 +7119,10 @@ msgid "collapsed"
 msgstr ""
 
 #: oleacc.rc:109
+#, fuzzy
 msgctxt "object state"
 msgid "busy"
-msgstr ""
+msgstr "busy"
 
 #: oleacc.rc:110
 msgctxt "object state"
@@ -7226,11 +7226,9 @@ msgid "alert high"
 msgstr "墨量低; "
 
 #: oleacc.rc:127
-#, fuzzy
-#| msgid "Import Selected"
 msgctxt "object state"
 msgid "protected"
-msgstr "导入选定文件"
+msgstr "受保护"
 
 #: oleacc.rc:128
 msgctxt "object state"
@@ -7514,7 +7512,7 @@ msgstr ""
 
 #: setupapi.rc:32 ipconfig.rc:34
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: setupapi.rc:33
 msgid "Copy files from:"
@@ -7800,7 +7798,7 @@ msgstr "小图标(&M)"
 
 #: shell32.rc:32 shell32.rc:47 shell32.rc:124 shell32.rc:164
 msgid "&List"
-msgstr "列表 (&L)"
+msgstr "列表(&L)"
 
 #: shell32.rc:33 shell32.rc:48 shell32.rc:125 shell32.rc:165 taskmgr.rc:67
 #: taskmgr.rc:112 taskmgr.rc:254
@@ -7809,27 +7807,27 @@ msgstr "详细信息(&D)"
 
 #: shell32.rc:51 winefile.rc:78
 msgid "Arrange &Icons"
-msgstr "排列图标 (&I)"
+msgstr "排列图标(&I)"
 
 #: shell32.rc:53
 msgid "By &Name"
-msgstr "按名字 (&N)"
+msgstr "按名称(&N)"
 
 #: shell32.rc:54
 msgid "By &Type"
-msgstr "按类型 (&T)"
+msgstr "按类型(&T)"
 
 #: shell32.rc:55
 msgid "By &Size"
-msgstr "按大小 (&S)"
+msgstr "按大小(&S)"
 
 #: shell32.rc:56
 msgid "By &Date"
-msgstr "按日期 (&D)"
+msgstr "按日期(&D)"
 
 #: shell32.rc:58
 msgid "&Auto Arrange"
-msgstr "自动排列 (&A)"
+msgstr "自动排列(&A)"
 
 #: shell32.rc:60
 msgid "Line up Icons"
@@ -7845,11 +7843,11 @@ msgstr "新建"
 
 #: shell32.rc:69
 msgid "New &Folder"
-msgstr "新文件夹 (&F)"
+msgstr "新键文件夹(&F)"
 
 #: shell32.rc:70
 msgid "New &Link"
-msgstr "新快捷方式 (&L)"
+msgstr "新键快捷方式(&L)"
 
 #: shell32.rc:74
 msgid "Properties"
@@ -7866,7 +7864,7 @@ msgstr ""
 
 #: shell32.rc:98
 msgid "E&xplore"
-msgstr "文件管理器(&X)"
+msgstr "资源管理器(&X)"
 
 #: shell32.rc:101
 msgid "C&ut"
@@ -7878,7 +7876,7 @@ msgstr "创建快捷方式(&L)"
 
 #: shell32.rc:106 regedit.rc:94
 msgid "&Rename"
-msgstr "改名(&R)"
+msgstr "重命名(&R)"
 
 #: shell32.rc:117 notepad.rc:39 oleview.rc:38 regedit.rc:41 view.rc:34
 #: winefile.rc:40 winemine.rc:49 winhlp32.rc:37 wordpad.rc:40
@@ -7899,7 +7897,7 @@ msgstr "文件夹:"
 
 #: shell32.rc:299
 msgid "&Make New Folder"
-msgstr "创建新文件夹 (&M)"
+msgstr "新建文件夹(&M)"
 
 #: shell32.rc:306
 msgid "Message"
@@ -7911,7 +7909,7 @@ msgstr "是(&Y)"
 
 #: shell32.rc:310
 msgid "Yes to &all"
-msgstr "全部选是 (&A)"
+msgstr "全部选是(&A)"
 
 #: shell32.rc:311 shlwapi.rc:47 user32.rc:86
 msgid "&No"
@@ -8031,7 +8029,7 @@ msgstr "我的文档"
 
 #: shell32.rc:205
 msgid "Favorites"
-msgstr ""
+msgstr "收藏夹"
 
 #: shell32.rc:206
 msgid "StartUp"
@@ -8070,6 +8068,7 @@ msgstr ""
 msgid "History"
 msgstr "历史"
 
+# 这也能翻译……
 #: shell32.rc:215
 msgid "Program Files"
 msgstr "Program Files"
@@ -8096,11 +8095,11 @@ msgstr "音乐"
 
 #: shell32.rc:222
 msgid "Pictures"
-msgstr ""
+msgstr "图片"
 
 #: shell32.rc:223
 msgid "Videos"
-msgstr ""
+msgstr "视频"
 
 #: shell32.rc:216
 msgid "Program Files (x86)"
@@ -8120,7 +8119,7 @@ msgstr ""
 
 #: shell32.rc:227
 msgid "Playlists"
-msgstr ""
+msgstr "播放列表"
 
 #: shell32.rc:151 taskmgr.rc:326
 msgid "Status"
@@ -8156,15 +8155,15 @@ msgstr ""
 
 #: shell32.rc:233
 msgid "Searches"
-msgstr ""
+msgstr "搜索"
 
 #: shell32.rc:234
 msgid "Users"
-msgstr ""
+msgstr "用户"
 
 #: shell32.rc:236
 msgid "Downloads"
-msgstr ""
+msgstr "下载"
 
 #: shell32.rc:169
 msgid "Unable to create new Folder: Permission denied."
@@ -8320,7 +8319,7 @@ msgstr "Wine 使用许可"
 
 #: shell32.rc:158
 msgid "Trash"
-msgstr ""
+msgstr "回收站"
 
 #: shlwapi.rc:38 user32.rc:71 regedit.rc:179 winecfg.rc:87 winefile.rc:97
 msgid "Error"
@@ -8991,7 +8990,7 @@ msgstr "音量"
 
 #: winmm.rc:138
 msgid "Master Volume"
-msgstr ""
+msgstr "主音量"
 
 #: winmm.rc:139
 msgid "Mute"
@@ -9127,7 +9126,7 @@ msgstr "权限不足"
 
 #: wldap32.rc:81
 msgid "Busy"
-msgstr ""
+msgstr "忙碌"
 
 #: wldap32.rc:82
 msgid "Unavailable"
@@ -9741,7 +9740,7 @@ msgstr ""
 
 #: cmd.rc:359
 msgid "More..."
-msgstr ""
+msgstr "更多..."
 
 #: cmd.rc:360
 msgid "Line in Batch processing possibly truncated. Using:\n"
@@ -9953,7 +9952,7 @@ msgstr ""
 
 #: ipconfig.rc:37
 msgid "Hostname"
-msgstr ""
+msgstr "主机名"
 
 #: ipconfig.rc:38
 msgid "Node type"
@@ -9961,7 +9960,7 @@ msgstr ""
 
 #: ipconfig.rc:39
 msgid "Broadcast"
-msgstr ""
+msgstr "广播"
 
 #: ipconfig.rc:40
 msgid "Peer-to-peer"
@@ -9969,11 +9968,11 @@ msgstr ""
 
 #: ipconfig.rc:41
 msgid "Mixed"
-msgstr ""
+msgstr "混合"
 
 #: ipconfig.rc:42
 msgid "Hybrid"
-msgstr ""
+msgstr "混合"
 
 #: ipconfig.rc:43
 msgid "IP routing enabled"
@@ -9989,7 +9988,7 @@ msgstr ""
 
 #: ipconfig.rc:49
 msgid "Default gateway"
-msgstr ""
+msgstr "默认网关"
 
 #: ipconfig.rc:50
 msgid "IPv6 address"
@@ -10340,7 +10339,7 @@ msgstr "左(&L):"
 
 #: notepad.rc:110
 msgid "&Top:"
-msgstr "上(&T):"
+msgstr "顶(&T):"
 
 #: notepad.rc:126
 msgid "Encoding:"
@@ -12661,7 +12660,7 @@ msgstr "Wine 设置"
 
 #: winecfg.rc:280
 msgid "Speakers:"
-msgstr ""
+msgstr "扬声器："
 
 #: winecfg.rc:288
 msgid "Appearance"
@@ -12769,7 +12768,7 @@ msgstr "(系统默认)"
 
 #: winecfg.rc:91
 msgid "5.1 Surround"
-msgstr ""
+msgstr "5.1 环绕声"
 
 #: winecfg.rc:92
 #, fuzzy
@@ -13072,7 +13071,7 @@ msgstr "快速编辑模式(&Q)"
 
 #: wineconsole.rc:80
 msgid "&Insert mode"
-msgstr "插入模式(&E)"
+msgstr "插入模式(&I)"
 
 #: wineconsole.rc:88
 msgid "&Font"
