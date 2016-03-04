@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="zh">
+<TS version="2.1" language="zh">
 <context>
     <name>AboutDialog</name>
     <message>
@@ -580,19 +580,19 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Edit actions</source>
-        <translation type="unfinished"></translation>
+        <translation>编辑功能</translation>
     </message>
     <message>
         <source>Interpolation controls</source>
-        <translation type="unfinished"></translation>
+        <translation>补间控制</translation>
     </message>
     <message>
         <source>Timeline controls</source>
-        <translation type="unfinished"></translation>
+        <translation>时间线控制</translation>
     </message>
     <message>
         <source>Zoom controls</source>
-        <translation type="unfinished"></translation>
+        <translation>缩放控制</translation>
     </message>
     <message>
         <source>Quantization controls</source>
@@ -859,7 +859,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>CLIP</source>
-        <translation type="unfinished"></translation>
+        <translation>压限</translation>
     </message>
     <message>
         <source>Rate</source>
@@ -2572,7 +2572,7 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     <name>InstrumentFunctionArpeggioView</name>
     <message>
         <source>ARPEGGIO</source>
-        <translation type="unfinished">急速和弦</translation>
+        <translation>琶音</translation>
     </message>
     <message>
         <source>An arpeggio is a method playing (especially plucked) instruments, which makes the music much livelier. The strings of such instruments (e.g. harps) are plucked like chords. The only difference is that this is done in a sequential order, so the notes are not played at the same time. Typical arpeggios are major or minor triads, but there are a lot of other possible chords, you can select.</source>
@@ -3042,7 +3042,7 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     </message>
     <message>
         <source>STACKING</source>
-        <translation type="unfinished"></translation>
+        <translation>堆叠</translation>
     </message>
     <message>
         <source>Chord:</source>
@@ -3238,7 +3238,7 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     <name>InstrumentSoundShapingView</name>
     <message>
         <source>TARGET</source>
-        <translation type="unfinished"></translation>
+        <translation>目标</translation>
     </message>
     <message>
         <source>These tabs contain envelopes. They&apos;re very important for modifying a sound, in that they are almost always necessary for substractive synthesis. For example if you have a volume envelope, you can set when the sound should have a specific volume. If you want to create some soft strings then your sound has to fade in and out very softly. This can be done by setting large attack and release times. It&apos;s the same for other envelope targets like panning, cutoff frequency for the used filter and so on. Just monkey around with it! You can really make cool sounds out of a saw-wave with just some envelopes...!</source>
@@ -3282,7 +3282,7 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     </message>
     <message>
         <source>Envelopes, LFOs and filters are not supported by the current instrument.</source>
-        <translation type="unfinished"></translation>
+        <translation>包络和低频振荡 (LFO) 不被当前乐器支持。</translation>
     </message>
 </context>
 <context>
@@ -3368,7 +3368,7 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     </message>
     <message>
         <source>FX %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>效果 %1: %2</translation>
     </message>
 </context>
 <context>
@@ -3423,7 +3423,7 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     </message>
     <message>
         <source>ENV/LFO</source>
-        <translation>包络/振荡</translation>
+        <translation>包络/低振</translation>
     </message>
     <message>
         <source>FUNC</source>
@@ -3471,11 +3471,11 @@ You can remove and move FX channels in the context menu, which is accessed by ri
     </message>
     <message>
         <source>Use these controls to view and edit the next/previous track in the song editor.</source>
-        <translation type="unfinished"></translation>
+        <translation>使用这些控制选项来查看和编辑在歌曲编辑器中的上个/下个轨道。</translation>
     </message>
     <message>
         <source>SAVE</source>
-        <translation type="unfinished"></translation>
+        <translation>保存</translation>
     </message>
 </context>
 <context>
@@ -4811,7 +4811,7 @@ Knobs and other widgets in the Operators view have their own what&apos;s this -t
     </message>
     <message>
         <source>Matrix view</source>
-        <translation type="unfinished"></translation>
+        <translation>矩阵视图</translation>
     </message>
     <message>
         <source>The Matrix view contains the modulation matrix. Here you can define the modulation relationships between the various operators: Each audible operator (oscillators 1-3) has 3-4 properties that can be modulated by any of the modulators. Using more modulations consumes more CPU power. 
@@ -4835,7 +4835,7 @@ Each modulation target has 4 knobs, one for each modulator. By default the knobs
     </message>
     <message>
         <source> semitones</source>
-        <translation type="unfinished"></translation>
+        <translation>半音</translation>
     </message>
     <message>
         <source>Finetune left</source>
@@ -5313,7 +5313,7 @@ PM means phase modulation: Oscillator 3&apos;s phase is modulated by oscillator 
     <name>OscillatorObject</name>
     <message>
         <source>Osc %1 waveform</source>
-        <translation type="unfinished"></translation>
+        <translation>Osc %1 波形</translation>
     </message>
     <message>
         <source>Osc %1 harmonic</source>
@@ -5321,11 +5321,11 @@ PM means phase modulation: Oscillator 3&apos;s phase is modulated by oscillator 
     </message>
     <message>
         <source>Osc %1 volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Osc %1 音量</translation>
     </message>
     <message>
         <source>Osc %1 panning</source>
-        <translation type="unfinished"></translation>
+        <translation>Osc %1 声像</translation>
     </message>
     <message>
         <source>Osc %1 fine detuning left</source>
@@ -5489,11 +5489,11 @@ use mouse wheel to set volume of a step</source>
     </message>
     <message>
         <source>Peak Controller Bug</source>
-        <translation type="unfinished"></translation>
+        <translation>峰值控制器 Bug</translation>
     </message>
     <message>
         <source>Due to a bug in older version of LMMS, the peak controllers may not be connect properly. Please ensure that peak controllers are connected properly and re-save this file. Sorry for any inconvenience caused.</source>
-        <translation type="unfinished"></translation>
+        <translation>在老版本的 LMMS 中, 峰值控制器因为有 bug 而可能没有正确连接。请确保峰值控制器正常连接后再次保存次文件。我们对给你造成的不便深表歉意。</translation>
     </message>
 </context>
 <context>
@@ -8591,7 +8591,19 @@ Analysis Tools are plugins for which only input channels were identified.
 Don&apos;t Knows are plugins for which no input or output channels were identified.
 
 Double clicking any of the plugins will bring up information on the ports.</source>
-        <translation type="unfinished"></translation>
+        <translation>这个对话框显示 LMMS 找到的所有 LADSPA 插件信息。这些插件根据接口类型和名字被分为五个类别。
+
+&quot;可用效果&quot; 是指可以被 LMMS 使用的插件。为了让 LMMS 可以开启效果, 首先, 这个插件需要是有效果的。也就是说, 这个插件需要有输入和输出通道。LMMS 会将音频接口名称中有 ‘in’ 的接口识别为输入接口, 将音频接口名称中有 ‘out’ 的接口识别为输出接口。并且, 效果插件需要有相同的输入输出通道, 还要能支持实时处理。
+
+&quot;不可用效果&quot; 是指被识别为效果插件的插件, 但是输入输出通道数不同或者不支持实时音频处理。
+
+&quot;乐器&quot; 是指只检测到有输出通道的插件。
+
+&quot;分析工具&quot; 是指只检测到有输入通道的插件。
+
+&quot;未知&quot; 是指没有检测到任何输出或输出通道的插件。
+
+双击任意插件将会显示接口信息。</translation>
     </message>
 </context>
 <context>
@@ -8723,7 +8735,7 @@ Double clicking any of the plugins will bring up information on the ports.</sour
     <name>lb302SynthView</name>
     <message>
         <source>Resonance:</source>
-        <translation type="unfinished">共鸣：</translation>
+        <translation>共鸣：</translation>
     </message>
     <message>
         <source>Decay:</source>
@@ -8767,7 +8779,7 @@ Double clicking any of the plugins will bring up information on the ports.</sour
     </message>
     <message>
         <source>Triangle wave</source>
-        <translation type="unfinished">三角波</translation>
+        <translation>三角波</translation>
     </message>
     <message>
         <source>Click here for a triangle-wave.</source>
@@ -8795,7 +8807,7 @@ Double clicking any of the plugins will bring up information on the ports.</sour
     </message>
     <message>
         <source>Sine wave</source>
-        <translation type="unfinished">正弦波</translation>
+        <translation>正弦波</translation>
     </message>
     <message>
         <source>Click for a sine-wave.</source>
@@ -9658,7 +9670,7 @@ Double clicking any of the plugins will bring up information on the ports.</sour
     <name>patchesDialog</name>
     <message>
         <source>Qsynth: Channel Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Qsynth: 通道预设</translation>
     </message>
     <message>
         <source>Bank selector</source>
@@ -10371,7 +10383,7 @@ Latency: %2 ms</source>
     </message>
     <message>
         <source>Chorus Lines:</source>
-        <translation type="unfinished"></translation>
+        <translation>合唱声部:</translation>
     </message>
 </context>
 <context>
@@ -10870,7 +10882,7 @@ If it runs with other VST-software under Linux, please contact an LMMS-developer
     </message>
     <message>
         <source>Fuzziness %1 </source>
-        <translation type="unfinished"></translation>
+        <translation>模糊度 %1 </translation>
     </message>
     <message>
         <source>Impulse %1</source>
@@ -10977,7 +10989,7 @@ If it runs with other VST-software under Linux, please contact an LMMS-developer
     </message>
     <message>
         <source>Length:</source>
-        <translation type="unfinished"></translation>
+        <translation>长度:</translation>
     </message>
     <message>
         <source>The Length knob sets the length of the selected string.  Longer strings will both ring longer and sound brighter, however, they will also eat up more CPU cycles.</source>
@@ -11029,7 +11041,7 @@ The LED in the lower right corner of the waveform editor determines whether the 
     </message>
     <message>
         <source>Enable waveform</source>
-        <translation type="unfinished"></translation>
+        <translation>启用波形</translation>
     </message>
     <message>
         <source>String</source>
@@ -11041,35 +11053,35 @@ The LED in the lower right corner of the waveform editor determines whether the 
     </message>
     <message>
         <source>Sine wave</source>
-        <translation type="unfinished">正弦波</translation>
+        <translation>正弦波</translation>
     </message>
     <message>
         <source>Use a sine-wave for current oscillator.</source>
-        <translation type="unfinished"></translation>
+        <translation>为当前振荡器使用正弦波。</translation>
     </message>
     <message>
         <source>Triangle wave</source>
-        <translation type="unfinished">三角波</translation>
+        <translation>三角波</translation>
     </message>
     <message>
         <source>Use a triangle-wave for current oscillator.</source>
-        <translation type="unfinished"></translation>
+        <translation>为当前振荡器使用三角波。</translation>
     </message>
     <message>
         <source>Use a saw-wave for current oscillator.</source>
-        <translation type="unfinished"></translation>
+        <translation>为当前振荡器使用锯齿波。</translation>
     </message>
     <message>
         <source>Use a square-wave for current oscillator.</source>
-        <translation type="unfinished"></translation>
+        <translation>为当前振荡器使用方波。</translation>
     </message>
     <message>
         <source>Use white-noise for current oscillator.</source>
-        <translation type="unfinished"></translation>
+        <translation>为当前振荡器使用白噪音。</translation>
     </message>
     <message>
         <source>Use a user-defined waveform for current oscillator.</source>
-        <translation type="unfinished"></translation>
+        <translation>为当前振荡器使用用户自定波形。</translation>
     </message>
 </context>
 <context>
@@ -11111,11 +11123,11 @@ The LED in the lower right corner of the waveform editor determines whether the 
     </message>
     <message>
         <source>Voice %1 wave shape</source>
-        <translation type="unfinished"></translation>
+        <translation>声音 %1 波形形状</translation>
     </message>
     <message>
         <source>Voice %1 sync</source>
-        <translation type="unfinished"></translation>
+        <translation>声音 %1 同步</translation>
     </message>
     <message>
         <source>Voice %1 ring modulate</source>
@@ -11127,7 +11139,7 @@ The LED in the lower right corner of the waveform editor determines whether the 
     </message>
     <message>
         <source>Voice %1 test</source>
-        <translation type="unfinished"></translation>
+        <translation>声音 %1 测试</translation>
     </message>
 </context>
 <context>
@@ -11158,11 +11170,11 @@ The LED in the lower right corner of the waveform editor determines whether the 
     </message>
     <message>
         <source>Smooth waveform</source>
-        <translation type="unfinished"></translation>
+        <translation>平滑波形</translation>
     </message>
     <message>
         <source>Click here to apply smoothing to wavegraph</source>
-        <translation type="unfinished"></translation>
+        <translation>点击这里来使波形图更为平滑</translation>
     </message>
     <message>
         <source>Increase graph amplitude by 1dB</source>
@@ -11182,11 +11194,11 @@ The LED in the lower right corner of the waveform editor determines whether the 
     </message>
     <message>
         <source>Clip input</source>
-        <translation type="unfinished"></translation>
+        <translation>输入压限</translation>
     </message>
     <message>
         <source>Clip input signal to 0dB</source>
-        <translation type="unfinished"></translation>
+        <translation>将输入信号限制到 0dB</translation>
     </message>
 </context>
 <context>
