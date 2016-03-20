@@ -968,7 +968,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/Gui/ui/MainWindow.ui" line="215"/>
         <source>&amp;Load Project</source>
-        <translation>载入项目(&amp;Load)</translation>
+        <translation>载入项目(&amp;L)</translation>
     </message>
     <message>
         <location filename="../src/Gui/ui/MainWindow.ui" line="218"/>
@@ -1003,7 +1003,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../src/Gui/ui/MainWindow.ui" line="275"/>
         <source>&amp;Close project</source>
-        <translation>关闭项目 (&amp;C)</translation>
+        <translation>关闭项目(&amp;C)</translation>
     </message>
     <message>
         <location filename="../src/Gui/ui/MainWindow.ui" line="278"/>
