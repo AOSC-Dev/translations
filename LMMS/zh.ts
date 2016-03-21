@@ -486,19 +486,19 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Discrete progression</source>
-        <translation type="unfinished"></translation>
+        <translation>离散步进</translation>
     </message>
     <message>
         <source>Linear progression</source>
-        <translation type="unfinished"></translation>
+        <translation>线性步进</translation>
     </message>
     <message>
         <source>Cubic Hermite progression</source>
-        <translation type="unfinished"></translation>
+        <translation>立方 Hermite 步进</translation>
     </message>
     <message>
         <source>Tension value for spline</source>
-        <translation type="unfinished"></translation>
+        <translation>样条函数的张力值</translation>
     </message>
     <message>
         <source>A higher tension value may make a smoother curve but overshoot some values. A low tension value will cause the slope of the curve to level off at each control point.</source>
@@ -518,7 +518,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Tension: </source>
-        <translation type="unfinished"></translation>
+        <translation>张力:</translation>
     </message>
     <message>
         <source>Cut selected values (%1+X)</source>
@@ -530,7 +530,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Paste values from clipboard (%1+V)</source>
-        <translation type="unfinished"></translation>
+        <translation>从剪切板粘贴数值 (%1+V)</translation>
     </message>
     <message>
         <source>Click here and selected values will be cut into the clipboard.  You can paste them anywhere in any pattern by clicking on the paste button.</source>
@@ -554,7 +554,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Quantization controls</source>
-        <translation type="unfinished"></translation>
+        <translation>量化控制</translation>
     </message>
     <message>
         <source>Automation Editor - no pattern</source>
@@ -678,7 +678,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Track and step actions</source>
-        <translation type="unfinished"></translation>
+        <translation>轨道和音阶动作</translation>
     </message>
     <message>
         <source>Add beat/bassline</source>
@@ -698,7 +698,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Clone Steps</source>
-        <translation type="unfinished"></translation>
+        <translation>克隆音阶</translation>
     </message>
 </context>
 <context>
@@ -797,7 +797,7 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>NOIS</source>
-        <translation type="unfinished"></translation>
+        <translation>噪音</translation>
     </message>
     <message>
         <source>Input Noise:</source>
@@ -1282,19 +1282,19 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>2x Moog</source>
-        <translation type="unfinished"></translation>
+        <translation>2x Moog</translation>
     </message>
     <message>
         <source>SV LowPass</source>
-        <translation type="unfinished"></translation>
+        <translation>SV 低通</translation>
     </message>
     <message>
         <source>SV BandPass</source>
-        <translation type="unfinished"></translation>
+        <translation>SV 带通</translation>
     </message>
     <message>
         <source>SV HighPass</source>
-        <translation type="unfinished"></translation>
+        <translation>SV 高通</translation>
     </message>
     <message>
         <source>SV Notch</source>
@@ -1377,15 +1377,15 @@ Zixing Liu &lt;liushuyu@aosc.xyz&gt;
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished">名称</translation>
+        <translation>名称</translation>
     </message>
     <message>
         <source>Description</source>
-        <translation type="unfinished">描述</translation>
+        <translation>描述</translation>
     </message>
     <message>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>作者</translation>
     </message>
     <message>
         <source>Plugin description</source>
@@ -1630,7 +1630,7 @@ Right clicking will bring up a context menu where you can change the order in wh
     </message>
     <message>
         <source>LFO- attack:</source>
-        <translation type="unfinished"></translation>
+        <translation>LFO 打击声 (attack):</translation>
     </message>
     <message>
         <source>Use this knob for setting attack-time of the current LFO. The bigger this value the longer the LFO needs to increase its amplitude to maximum.</source>
@@ -1678,7 +1678,7 @@ Right clicking will bring up a context menu where you can change the order in wh
     </message>
     <message>
         <source>FREQ x 100</source>
-        <translation type="unfinished"></translation>
+        <translation>频率 x 100</translation>
     </message>
     <message>
         <source>Click here if the frequency of this LFO should be multiplied by 100.</source>
@@ -1698,11 +1698,11 @@ Right clicking will bring up a context menu where you can change the order in wh
     </message>
     <message>
         <source>control envelope-amount by this LFO</source>
-        <translation type="unfinished"></translation>
+        <translation>控制此 LFO 的包络数量</translation>
     </message>
     <message>
         <source>ms/LFO:</source>
-        <translation type="unfinished"></translation>
+        <translation>ms/LFO:</translation>
     </message>
     <message>
         <source>Hint</source>
@@ -1710,7 +1710,7 @@ Right clicking will bring up a context menu where you can change the order in wh
     </message>
     <message>
         <source>Drag a sample from somewhere and drop it in this window.</source>
-        <translation type="unfinished"></translation>
+        <translation>从别处拖动采样到此窗口。</translation>
     </message>
 </context>
 <context>
@@ -2002,7 +2002,7 @@ Right clicking will bring up a context menu where you can change the order in wh
         <location filename="plugins/Eq/EqCurve.cpp" line="121"/>
         <location filename="plugins/Eq/EqCurve.cpp" line="124"/>
         <source>Freq: </source>
-        <translation type="unfinished"></translation>
+        <translation>频率: </translation>
     </message>
 </context>
 <context>
@@ -5463,11 +5463,11 @@ use mouse wheel to set volume of a step</source>
     <name>PeakControllerDialog</name>
     <message>
         <source>PEAK</source>
-        <translation type="unfinished"></translation>
+        <translation>峰值</translation>
     </message>
     <message>
         <source>LFO Controller</source>
-        <translation type="unfinished">LFO 控制器</translation>
+        <translation>LFO 控制器</translation>
     </message>
 </context>
 <context>
@@ -5514,11 +5514,11 @@ use mouse wheel to set volume of a step</source>
     </message>
     <message>
         <source>TRES</source>
-        <translation type="unfinished"></translation>
+        <translation>阀值</translation>
     </message>
     <message>
         <source>Treshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>阀值:</translation>
     </message>
 </context>
 <context>
@@ -6832,7 +6832,7 @@ Remember to also save your project manually.</source>
     <name>TempoSyncKnob</name>
     <message>
         <source>Tempo Sync</source>
-        <translation type="unfinished"></translation>
+        <translation>节奏同步</translation>
     </message>
     <message>
         <source>No Sync</source>
@@ -6840,67 +6840,67 @@ Remember to also save your project manually.</source>
     </message>
     <message>
         <source>Eight beats</source>
-        <translation type="unfinished"></translation>
+        <translation>八拍</translation>
     </message>
     <message>
         <source>Whole note</source>
-        <translation type="unfinished"></translation>
+        <translation>全音符</translation>
     </message>
     <message>
         <source>Half note</source>
-        <translation type="unfinished"></translation>
+        <translation>二分音符</translation>
     </message>
     <message>
         <source>Quarter note</source>
-        <translation type="unfinished"></translation>
+        <translation>四分音符</translation>
     </message>
     <message>
         <source>8th note</source>
-        <translation type="unfinished"></translation>
+        <translation>八分音符</translation>
     </message>
     <message>
         <source>16th note</source>
-        <translation type="unfinished"></translation>
+        <translation>16 分音符</translation>
     </message>
     <message>
         <source>32nd note</source>
-        <translation type="unfinished"></translation>
+        <translation>32 分音符</translation>
     </message>
     <message>
         <source>Custom...</source>
-        <translation type="unfinished"></translation>
+        <translation>自定义...</translation>
     </message>
     <message>
         <source>Custom </source>
-        <translation type="unfinished"></translation>
+        <translation>自定义</translation>
     </message>
     <message>
         <source>Synced to Eight Beats</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为八拍</translation>
     </message>
     <message>
         <source>Synced to Whole Note</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为全音符</translation>
     </message>
     <message>
         <source>Synced to Half Note</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为二分音符</translation>
     </message>
     <message>
         <source>Synced to Quarter Note</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为四分音符</translation>
     </message>
     <message>
         <source>Synced to 8th Note</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为八分音符</translation>
     </message>
     <message>
         <source>Synced to 16th Note</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为16分音符</translation>
     </message>
     <message>
         <source>Synced to 32nd Note</source>
-        <translation type="unfinished"></translation>
+        <translation>同步为32分音符</translation>
     </message>
 </context>
 <context>
@@ -7196,7 +7196,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>semitones</source>
-        <translation type="unfinished"></translation>
+        <translation>半音</translation>
     </message>
     <message>
         <source>With this knob you can set the coarse detuning of oscillator %1. You can detune the oscillator 24 semitones (2 octaves) up and down. This is useful for creating sounds with a chord.</source>
@@ -7370,7 +7370,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>by </source>
-        <translation type="unfinished"></translation>
+        <translation>制造商 </translation>
     </message>
     <message>
         <source> - VST plugin control</source>
@@ -7396,7 +7396,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Control VST-plugin from LMMS host</source>
-        <translation type="unfinished">从 LMMS 宿主控制 VST-插件</translation>
+        <translation>从 LMMS 宿主控制 VST-插件</translation>
     </message>
     <message>
         <source>Click here, if you want to control VST-plugin from host.</source>
@@ -7404,7 +7404,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Open VST-plugin preset</source>
-        <translation type="unfinished">打开 VST-插件预设</translation>
+        <translation>打开 VST-插件预设</translation>
     </message>
     <message>
         <source>Click here, if you want to open another *.fxp, *.fxb VST-plugin preset.</source>
@@ -7412,7 +7412,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Previous (-)</source>
-        <translation type="unfinished">上一个 (-)</translation>
+        <translation>上一个 (-)</translation>
     </message>
     <message>
         <source>Click here, if you want to switch to another VST-plugin preset program.</source>
@@ -7420,7 +7420,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Next (+)</source>
-        <translation type="unfinished">下一个 (+)</translation>
+        <translation>下一个 (+)</translation>
     </message>
     <message>
         <source>Click here to select presets that are currently loaded in VST.</source>
@@ -7432,15 +7432,15 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Click here, if you want to save current VST-plugin preset program.</source>
-        <translation type="unfinished">点击这里, 如果你想保存当前 VST-插件预设。</translation>
+        <translation>点击这里, 如果你想保存当前 VST-插件预设。</translation>
     </message>
     <message>
         <source>Effect by: </source>
-        <translation type="unfinished"></translation>
+        <translation>音效制作:</translation>
     </message>
     <message>
         <source>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br /&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -8028,7 +8028,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>补间</translation>
     </message>
     <message>
         <source>Normalize</source>
@@ -8039,23 +8039,23 @@ Please make sure you have read-permission to the file and the directory containi
     <name>dynProcControlDialog</name>
     <message>
         <source>INPUT</source>
-        <translation type="unfinished"></translation>
+        <translation>输入</translation>
     </message>
     <message>
         <source>Input gain:</source>
-        <translation type="unfinished"></translation>
+        <translation>输入增益:</translation>
     </message>
     <message>
         <source>OUTPUT</source>
-        <translation type="unfinished"></translation>
+        <translation>输出</translation>
     </message>
     <message>
         <source>Output gain:</source>
-        <translation type="unfinished"></translation>
+        <translation>输出增益:</translation>
     </message>
     <message>
         <source>ATTACK</source>
-        <translation type="unfinished"></translation>
+        <translation>打击声</translation>
     </message>
     <message>
         <source>Peak attack time:</source>
@@ -8146,7 +8146,7 @@ Please make sure you have read-permission to the file and the directory containi
     </message>
     <message>
         <source>Stereo mode</source>
-        <translation type="unfinished"></translation>
+        <translation>双声道模式</translation>
     </message>
 </context>
 <context>
@@ -9007,15 +9007,15 @@ Double clicking any of the plugins will bring up information on the ports.</sour
     <name>opl2instrumentView</name>
     <message>
         <source>Attack</source>
-        <translation type="unfinished">打进声</translation>
+        <translation>打进声</translation>
     </message>
     <message>
         <source>Decay</source>
-        <translation type="unfinished">衰减</translation>
+        <translation>衰减</translation>
     </message>
     <message>
         <source>Release</source>
-        <translation type="unfinished">释放</translation>
+        <translation>释放</translation>
     </message>
     <message>
         <source>Frequency multiplier</source>
