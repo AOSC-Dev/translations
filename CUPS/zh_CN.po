@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: CUPS 1.6\n"
 "Report-Msgid-Bugs-To: http://www.cups.org/str.php\n"
 "POT-Creation-Date: 2016-03-17 10:36-0600\n"
-"PO-Revision-Date: 2016-03-18 19:14-0600\n"
+"PO-Revision-Date: 2016-03-29 16:32-0600\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3407,86 +3407,87 @@ msgstr "尝试设置 %s 打印机状态为无效值 %d。"
 #: scheduler/ipp.c:5370 scheduler/ipp.c:5396
 #, c-format
 msgid "Attribute \"%s\" is in the wrong group."
-msgstr ""
+msgstr "属性“%s”位于错误的组。"
 
 #: scheduler/ipp.c:5372 scheduler/ipp.c:5398
 #, c-format
 msgid "Attribute \"%s\" is the wrong value type."
-msgstr ""
+msgstr "属性“%s”不是正确的值类型。"
 
 #: scheduler/ipp.c:240
 #, c-format
 msgid "Attribute groups are out of order (%x < %x)."
-msgstr ""
+msgstr "属性组排序错乱（%x < %x）。"
 
 #: ppdc/sample.c:126
 msgid "B0"
-msgstr ""
+msgstr "B0"
 
 #: ppdc/sample.c:127
 msgid "B1"
-msgstr ""
+msgstr "B1"
 
 #: ppdc/sample.c:137
 msgid "B10"
-msgstr ""
+msgstr "B10"
 
 #: ppdc/sample.c:128
 msgid "B2"
-msgstr ""
+msgstr "B2"
 
 #: ppdc/sample.c:129
 msgid "B3"
-msgstr ""
+msgstr "B3"
 
 #: ppdc/sample.c:130
 msgid "B4"
-msgstr ""
+msgstr "B4"
 
 #: ppdc/sample.c:131
 msgid "B5"
-msgstr ""
+msgstr "B5"
 
 #: ppdc/sample.c:132
 msgid "B5 Oversize"
-msgstr ""
+msgstr "B5 超大"
 
 #: ppdc/sample.c:133
 msgid "B6"
-msgstr ""
+msgstr "B6"
 
 #: ppdc/sample.c:134
 msgid "B7"
-msgstr ""
+msgstr "B7"
 
 #: ppdc/sample.c:135
 msgid "B8"
-msgstr ""
+msgstr "B8"
 
 #: ppdc/sample.c:136
 msgid "B9"
-msgstr ""
+msgstr "B9"
 
 #: scheduler/ipp.c:11184
 #, c-format
 msgid "Bad 'document-format' value \"%s\"."
-msgstr ""
+msgstr "无效的“document-format”值“%s”。"
 
 #: cups/dest.c:1829
+#, fuzzy
 msgid "Bad NULL dests pointer"
-msgstr ""
+msgstr "无效的 NULL 目标指针"
 
 #: cups/ppd.c:322
 msgid "Bad OpenGroup"
-msgstr ""
+msgstr "无效的 OpenGroup 值"
 
 #: cups/ppd.c:324
 msgid "Bad OpenUI/JCLOpenUI"
-msgstr ""
+msgstr "无效的 OpenUI/JCLOpenUI 值"
 
 #: cups/ppd.c:326
 msgid "Bad OrderDependency"
-msgstr ""
+msgstr "无效的 OrderDependency 值"
 
 #: cups/ppd-cache.c:458 cups/ppd-cache.c:505 cups/ppd-cache.c:590
 #: cups/ppd-cache.c:596 cups/ppd-cache.c:612 cups/ppd-cache.c:628
@@ -3499,90 +3500,90 @@ msgstr ""
 #: cups/ppd-cache.c:885 cups/ppd-cache.c:955 cups/ppd-cache.c:963
 #: cups/ppd-cache.c:971
 msgid "Bad PPD cache file."
-msgstr ""
+msgstr "无效的 PPD 缓存文件。"
 
 #: scheduler/ipp.c:2629
 msgid "Bad PPD file."
-msgstr ""
+msgstr "无效的 PPD 文件。"
 
 #: cups/http-support.c:1366
 msgid "Bad Request"
-msgstr ""
+msgstr "无效请求"
 
 #: cups/snmp.c:954
 msgid "Bad SNMP version number"
-msgstr ""
+msgstr "无效的 SNMP 版本号"
 
 #: cups/ppd.c:327
 msgid "Bad UIConstraints"
-msgstr ""
+msgstr "无锡噢的 UIConstraints 值"
 
 #: cups/hash.c:53 cups/http-support.c:1460
 msgid "Bad arguments to function"
-msgstr ""
+msgstr "函数的参数无效"
 
 #: scheduler/ipp.c:1382
 #, c-format
 msgid "Bad copies value %d."
-msgstr ""
+msgstr "无效的副本值 %d。"
 
 #: cups/ppd.c:335
 msgid "Bad custom parameter"
-msgstr ""
+msgstr "无效的自定义参数"
 
 #: cups/http-support.c:1600 scheduler/ipp.c:2364
 #, c-format
 msgid "Bad device-uri \"%s\"."
-msgstr ""
+msgstr "无效的 device-uri 值“%s”。"
 
 #: scheduler/ipp.c:2403
 #, c-format
 msgid "Bad device-uri scheme \"%s\"."
-msgstr ""
+msgstr "无效的 device-uri 方案“%s”。"
 
 #: scheduler/ipp.c:8396 scheduler/ipp.c:8414 scheduler/ipp.c:9640
 #, c-format
 msgid "Bad document-format \"%s\"."
-msgstr ""
+msgstr "无效的 document-format 值“%s”。"
 
 #: scheduler/ipp.c:9658
 #, c-format
 msgid "Bad document-format-default \"%s\"."
-msgstr ""
+msgstr "无效的 document-format-default 值“%s”。"
 
 #: cups/ppd-util.c:172
 msgid "Bad filename buffer"
-msgstr ""
+msgstr "无效的文件名缓存"
 
 #: cups/http-support.c:1469
 msgid "Bad hostname/address in URI"
-msgstr ""
+msgstr "URI 中的主机名/地址无效"
 
 #: scheduler/ipp.c:1557
 #, c-format
 msgid "Bad job-name value: %s"
-msgstr ""
+msgstr "无效的 job-name 值：%s"
 
 #: scheduler/ipp.c:1550
 msgid "Bad job-name value: Wrong type or count."
-msgstr ""
+msgstr "无效的 job-name 支持：无效的类型或序号。"
 
 #: scheduler/ipp.c:10254
 msgid "Bad job-priority value."
-msgstr ""
+msgstr "无效的 job-priority 值。"
 
 #: scheduler/ipp.c:1412
 #, c-format
 msgid "Bad job-sheets value \"%s\"."
-msgstr ""
+msgstr "无效的 job-sheets 值“%s”。"
 
 #: scheduler/ipp.c:1396
 msgid "Bad job-sheets value type."
-msgstr ""
+msgstr "无效的 job-sheets 值类型。"
 
 #: scheduler/ipp.c:10284
 msgid "Bad job-state value."
-msgstr ""
+msgstr "无效的 job-state 值。"
 
 #: scheduler/ipp.c:2953 scheduler/ipp.c:3415 scheduler/ipp.c:6179
 #: scheduler/ipp.c:6326 scheduler/ipp.c:7825 scheduler/ipp.c:8094
@@ -3590,125 +3591,125 @@ msgstr ""
 #: scheduler/ipp.c:10147
 #, c-format
 msgid "Bad job-uri \"%s\"."
-msgstr ""
+msgstr "无效的 job-uri 值“%s”。"
 
 #: scheduler/ipp.c:2032 scheduler/ipp.c:5718
 #, c-format
 msgid "Bad notify-pull-method \"%s\"."
-msgstr ""
+msgstr "无效的 notify-pull-method 值“%s”。"
 
 #: scheduler/ipp.c:1996 scheduler/ipp.c:5682
 #, c-format
 msgid "Bad notify-recipient-uri \"%s\"."
-msgstr ""
+msgstr "无效的 notify-recipient-uri 值“%s”。"
 
 #: scheduler/ipp.c:1428
 #, c-format
 msgid "Bad number-up value %d."
-msgstr ""
+msgstr "无效的 number-up 值 %d。"
 
 #: cups/adminutil.c:282
 #, c-format
 msgid "Bad option + choice on line %d."
-msgstr ""
+msgstr "行 %d 中存在无效的选项 + 选择。"
 
 #: scheduler/ipp.c:1445
 #, c-format
 msgid "Bad page-ranges values %d-%d."
-msgstr ""
+msgstr "无效的 page-range 值 %d-%d。"
 
 #: cups/http-support.c:1466
 msgid "Bad port number in URI"
-msgstr ""
+msgstr "URI 中的端口号无效"
 
 #: scheduler/ipp.c:2446
 #, c-format
 msgid "Bad port-monitor \"%s\"."
-msgstr ""
+msgstr "无效的 port-monitor 值“%s”。"
 
 #: scheduler/ipp.c:2518
 #, c-format
 msgid "Bad printer-state value %d."
-msgstr ""
+msgstr "无效的 printer-state 值 %d。"
 
 #: cups/dest.c:632 cups/dest.c:1389 cups/dest.c:1436
 msgid "Bad printer-uri."
-msgstr ""
+msgstr "无效的 printer-uri 值。"
 
 #: scheduler/ipp.c:208
 #, c-format
 msgid "Bad request ID %d."
-msgstr ""
+msgstr "无效的请求 ID %d。"
 
 #: scheduler/ipp.c:193
 #, c-format
 msgid "Bad request version number %d.%d."
-msgstr ""
+msgstr "无效的请求版本号 %d.%d。"
 
 #: cups/http-support.c:1463
 msgid "Bad resource in URI"
-msgstr ""
+msgstr "URI 中的资源无效"
 
 #: cups/http-support.c:1475
 msgid "Bad scheme in URI"
-msgstr ""
+msgstr "URI 中的方案无效"
 
 #: cgi-bin/admin.c:1470
 msgid "Bad subscription ID"
-msgstr ""
+msgstr "无效的订阅 ID"
 
 #: cups/http-support.c:1472
 msgid "Bad username in URI"
-msgstr ""
+msgstr "URI 中的用户名无效"
 
 #: cups/ppd.c:337
 msgid "Bad value string"
-msgstr ""
+msgstr "无效的值字串"
 
 #: cups/http-support.c:1478
 msgid "Bad/empty URI"
-msgstr ""
+msgstr "无效或空的 URI"
 
 #: cgi-bin/admin.c:3276 cgi-bin/admin.c:3522
 msgid "Banners"
-msgstr ""
+msgstr "条幅"
 
 #: ppdc/sample.c:282
 msgid "Bond Paper"
-msgstr ""
+msgstr "证券纸"
 
 #: backend/usb-darwin.c:2048
 #, c-format
 msgid "Boolean expected for waiteof option \"%s\"."
-msgstr ""
+msgstr "waiteof 选项“%s”预期布里值。"
 
 #: filter/pstops.c:2034
 msgid "Buffer overflow detected, aborting."
-msgstr ""
+msgstr "检测到缓冲区溢出，正在中止。"
 
 #: ppdc/sample.c:277
 msgid "CMYK"
-msgstr ""
+msgstr "CMYK"
 
 #: ppdc/sample.c:358
 msgid "CPCL Label Printer"
-msgstr ""
+msgstr "CPCL 标签打印机"
 
 #: cgi-bin/classes.c:165 cgi-bin/printers.c:168
 msgid "Cancel Jobs"
-msgstr ""
+msgstr "取消任务"
 
 #: cgi-bin/admin.c:1471 cgi-bin/admin.c:1510 cgi-bin/admin.c:1520
 msgid "Cancel RSS Subscription"
-msgstr ""
+msgstr "取消 RSS 订阅"
 
 #: backend/ipp.c:2250
 msgid "Canceling print job."
-msgstr ""
+msgstr "正在取消打印任务"
 
 #: scheduler/ipp.c:991 scheduler/ipp.c:2496
 msgid "Cannot change printer-is-shared for remote queues."
-msgstr ""
+msgstr "无法为远程队列更改 printer-is-shared 值。"
 
 #: scheduler/ipp.c:2486
 msgid "Cannot share a remote Kerberized printer."
@@ -3716,37 +3717,37 @@ msgstr ""
 
 #: ppdc/sample.c:271
 msgid "Cassette"
-msgstr ""
+msgstr "磁带"
 
 #: cgi-bin/admin.c:1641 cgi-bin/admin.c:1783 cgi-bin/admin.c:1796
 #: cgi-bin/admin.c:1807
 msgid "Change Settings"
-msgstr ""
+msgstr "更改选项"
 
 #: scheduler/ipp.c:2044 scheduler/ipp.c:5730
 #, c-format
 msgid "Character set \"%s\" not supported."
-msgstr ""
+msgstr "不受支持的字符集“%s”。"
 
 #: cgi-bin/classes.c:187 cgi-bin/classes.c:314
 msgid "Classes"
-msgstr ""
+msgstr "类"
 
 #: cgi-bin/printers.c:174
 msgid "Clean Print Heads"
-msgstr ""
+msgstr "清理打印头"
 
 #: scheduler/ipp.c:3867
 msgid "Close-Job doesn't support the job-uri attribute."
-msgstr ""
+msgstr "Close-Job 指令不支持 job-uri 属性。"
 
 #: ppdc/sample.c:276
 msgid "Color"
-msgstr ""
+msgstr "彩色"
 
 #: ppdc/sample.c:274
 msgid "Color Mode"
-msgstr ""
+msgstr "色彩模式"
 
 #: berkeley/lpc.c:196
 msgid ""
@@ -3754,6 +3755,9 @@ msgid ""
 "\n"
 "exit    help    quit    status  ?"
 msgstr ""
+"命令可能为缩写。可用命令如下：\n"
+"\n"
+"exit    help    quit    status  ?"
 
 #: cups/snmp.c:958
 msgid "Community name uses indefinite length"
@@ -3761,80 +3765,80 @@ msgstr ""
 
 #: backend/ipp.c:861 backend/lpd.c:955 backend/socket.c:400
 msgid "Connected to printer."
-msgstr ""
+msgstr "已连接到打印机。"
 
 #: backend/ipp.c:766 backend/lpd.c:778 backend/socket.c:319
 msgid "Connecting to printer."
-msgstr ""
+msgstr "正在连接到打印机。"
 
 #: cups/http-support.c:1339
 msgid "Continue"
-msgstr ""
+msgstr "继续"
 
 #: ppdc/sample.c:360
 msgid "Continuous"
-msgstr ""
+msgstr "连续"
 
 #: backend/lpd.c:1104 backend/lpd.c:1236
 msgid "Control file sent successfully."
-msgstr ""
+msgstr "已成功发送控制文件。"
 
 #: backend/ipp.c:1399 backend/lpd.c:470
 msgid "Copying print data."
-msgstr ""
+msgstr "正在复制打印数据。"
 
 #: cups/http-support.c:1348
 msgid "Created"
-msgstr ""
+msgstr "创建时间"
 
 #: cups/ppd.c:1138 cups/ppd.c:1178 cups/ppd.c:1423 cups/ppd.c:1526
 msgid "Custom"
-msgstr ""
+msgstr "自定义"
 
 #: ppdc/sample.c:354
 msgid "CustominCutInterval"
-msgstr ""
+msgstr "CustominCutInterval"
 
 #: ppdc/sample.c:352
 msgid "CustominTearInterval"
-msgstr ""
+msgstr "CustominTearInterval"
 
 #: ppdc/sample.c:338
 msgid "Cut"
-msgstr ""
+msgstr "剪切"
 
 #: ppdc/sample.c:446
 msgid "Cutter"
-msgstr ""
+msgstr "车床刀具"
 
 #: ppdc/sample.c:239
 msgid "Dark"
-msgstr ""
+msgstr "暗色"
 
 #: ppdc/sample.c:235
 msgid "Darkness"
-msgstr ""
+msgstr "暗度"
 
 #: backend/lpd.c:1189
 msgid "Data file sent successfully."
-msgstr ""
+msgstr "已成功发送数据文件。"
 
 #: cgi-bin/admin.c:2080 cgi-bin/admin.c:2091 cgi-bin/admin.c:2136
 msgid "Delete Class"
-msgstr ""
+msgstr "删除类"
 
 #: cgi-bin/admin.c:2165 cgi-bin/admin.c:2176 cgi-bin/admin.c:2221
 msgid "Delete Printer"
-msgstr ""
+msgstr "删除打印机"
 
 #: ppdc/sample.c:273
 msgid "DeskJet Series"
-msgstr ""
+msgstr "DeskJet 系列"
 
 #: scheduler/ipp.c:1311
 #, c-format
 msgid "Destination \"%s\" is not accepting jobs."
-msgstr ""
+msgstr "目标“%s”不接受任务。"
 
 #: systemv/lpinfo.c:300
 #, c-format
@@ -3846,83 +3850,91 @@ msgid ""
 "        device-id = %s\n"
 "        location = %s"
 msgstr ""
+"设备：\turi = %s\n"
+"\tclass = %s\n"
+"\tinfo = %s\n"
+"\tmake-and-model = %s\n"
+"\tdevice-id = %s\n"
+"\tlocation = %s"
 
 #: ppdc/sample.c:431
 msgid "Direct Thermal Media"
-msgstr ""
+msgstr "直接热敏介质"
 
 #: cups/file.c:258
 #, c-format
 msgid "Directory \"%s\" contains a relative path."
-msgstr ""
+msgstr "目录“%s”包含相对路径。"
 
 #: cups/file.c:230
 #, c-format
 msgid "Directory \"%s\" has insecure permissions (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "目录“%s”带有不安全的权限许可 (0%o/uid=%d/gid=%d)。"
 
 #: cups/file.c:247
 #, c-format
 msgid "Directory \"%s\" is a file."
-msgstr ""
+msgstr "目录“%s”是一个文件。"
 
 #: cups/file.c:218
 #, c-format
 msgid "Directory \"%s\" not available: %s"
-msgstr ""
+msgstr "目录“%s”不可用：%s"
 
 #: cups/file.c:203
 #, c-format
 msgid "Directory \"%s\" permissions OK (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "目录“%s”的权限许可无问题 (0%o/uid=%d/gid=%d)。"
 
 #: ppdc/sample.c:340
 msgid "Disabled"
-msgstr ""
+msgstr "已禁用"
 
 #: scheduler/ipp.c:6228
 #, c-format
 msgid "Document #%d does not exist in job #%d."
-msgstr ""
+msgstr "任务 #%2$d 中不包含文档 #%1$d。"
 
 #: ppdc/sample.c:267
+#, fuzzy
 msgid "Duplexer"
-msgstr ""
+msgstr "双工器"
 
 #: ppdc/sample.c:229
 msgid "Dymo"
-msgstr ""
+msgstr "Dymo"
 
 #: ppdc/sample.c:426
 msgid "EPL1 Label Printer"
-msgstr ""
+msgstr "EPL1 标签打印机"
 
 #: ppdc/sample.c:429
 msgid "EPL2 Label Printer"
-msgstr ""
+msgstr "EPL2 标签打印机"
 
 #: cgi-bin/admin.c:1835 cgi-bin/admin.c:1847 cgi-bin/admin.c:1901
 #: cgi-bin/admin.c:1908 cgi-bin/admin.c:1943 cgi-bin/admin.c:1956
 #: cgi-bin/admin.c:1980 cgi-bin/admin.c:2053
 msgid "Edit Configuration File"
-msgstr ""
+msgstr "编辑配置文件"
 
 #: cups/adminutil.c:327
 msgid "Empty PPD file."
-msgstr ""
+msgstr "空 PPD 文件。"
 
 #: cups/http.c:4647
 msgid "Encryption is not supported."
-msgstr ""
+msgstr "不支持加密。"
 
 #. TRANSLATORS: Banner/cover sheet after the print job.
 #: cgi-bin/admin.c:3547
+#, fuzzy
 msgid "Ending Banner"
-msgstr ""
+msgstr "结尾条幅"
 
 #: ppdc/sample.c:2
 msgid "English"
-msgstr ""
+msgstr "英语"
 
 #: scheduler/client.c:2221
 msgid ""
@@ -3930,6 +3942,8 @@ msgid ""
 "this page. If you are using Kerberos authentication, make sure you have a "
 "valid Kerberos ticket."
 msgstr ""
+"输入你的用户名和密码或 root 的用户名和密码以访问此页面。如果您正在使用 "
+"Kerberos 认证，请求确定您拥有有效的 Kerberos 凭据。"
 
 #: ppdc/sample.c:73
 msgid "Envelope #10 "
