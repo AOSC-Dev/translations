@@ -3,14 +3,14 @@
 # This file is distributed under the same license as the binutils package.
 # Wang Li <charles@linux.net.cn>, 2003.
 # Wei-Lun Chao <bluebat@member.fsf.org>, 2005, 2013.
-# Mingye Wang <arthur200126@gmail.com>, 2015.
+# Mingye Wang <arthur200126@gmail.com>, 2015, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: binutils 2.12.91\n"
+"Project-Id-Version: binutils 2.24.90\n"
 "Report-Msgid-Bugs-To: bug-binutils@gnu.org\n"
 "POT-Creation-Date: 2014-02-10 09:42+1030\n"
-"PO-Revision-Date: 2016-02-23 17:07+0100\n"
+"PO-Revision-Date: 2016-04-27 20:35-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1116,9 +1116,9 @@ msgid "   -y --output-delaylib <outname> Create a delay-import library.\n"
 msgstr "   -y --output-delaylib <outname> 生成延迟导入库。\n"
 
 #: dlltool.c:3933
-#, fuzzy, c-format
+#, c-format
 msgid "   -a --add-indirect         Add dll indirects to export file.\n"
-msgstr "   -a --add-indirect         间接添加 dll 至导出文件。\n"
+msgstr "   -a --add-indirect         添加 dll 间接至导出文件。\n"
 
 #: dlltool.c:3934
 #, c-format
@@ -1232,9 +1232,9 @@ msgid "   -n --no-delete            Keep temp files (repeat for extra preservati
 msgstr "   -n --no-delete            保留临时文件 (重复以保留更多)。\n"
 
 #: dlltool.c:3956
-#, fuzzy, c-format
+#, c-format
 msgid "   -t --temp-prefix <prefix> Use <prefix> to construct temp file names.\n"
-msgstr "   -t --temp-prefix <前置>   使用 <前置> 来建构临时文件名称。\n"
+msgstr "   -t --temp-prefix <前缀>   使用 <前缀> 来构造临时文件名称。\n"
 
 #: dlltool.c:3957
 #, c-format
@@ -1442,9 +1442,9 @@ msgid "   --output-lib <outname> Generate input library.\n"
 msgstr "   --output-lib <outname> 生成输入库。\n"
 
 #: dllwrap.c:497
-#, fuzzy, c-format
+#, c-format
 msgid "   --add-indirect         Add dll indirects to export file.\n"
-msgstr "   --add-indirect         间接添加 dll 至导出文件。\n"
+msgstr "   --add-indirect         添加 dll 间接至导出文件。\n"
 
 #: dllwrap.c:498
 #, c-format
@@ -1805,9 +1805,9 @@ msgid "  (Unknown inline attribute value: %s)"
 msgstr "  (未知的内嵌属性值：%s)"
 
 #: dwarf.c:1869
-#, fuzzy, c-format
+#, c-format
 msgid "(implementation defined: %s)"
-msgstr "未实现"
+msgstr "（实现决定：%s）"
 
 #: dwarf.c:1872
 #, c-format
@@ -2524,14 +2524,14 @@ msgid " Unknown macro opcode %02x seen\n"
 msgstr ""
 
 #: dwarf.c:4049
-#, fuzzy, c-format
+#, c-format
 msgid " DW_MACRO_GNU_%02x\n"
-msgstr " DW_MACINFO_end_file\n"
+msgstr " DW_MACRO_GNU_%02x\n"
 
 #: dwarf.c:4052
-#, fuzzy, c-format
+#, c-format
 msgid " DW_MACRO_GNU_%02x -"
-msgstr " DW_MACINFO_end_file\n"
+msgstr " DW_MACRO_GNU_%02x -"
 
 #: dwarf.c:4100
 #, fuzzy, c-format
@@ -2680,13 +2680,13 @@ msgstr ""
 "    地址               长度\n"
 
 #: dwarf.c:4677
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "    Address    Length\n"
 msgstr ""
 "\n"
-"    地址               长度\n"
+"    地址       长度\n"
 
 #: dwarf.c:4760
 #, c-format
@@ -2776,9 +2776,9 @@ msgid "Version %ld\n"
 msgstr "版本 %ld\n"
 
 #: dwarf.c:6087
-#, fuzzy, c-format
+#, c-format
 msgid "Unsupported version %lu.\n"
-msgstr "  不支持的版本\n"
+msgstr "不支持的版本 %lu。\n"
 
 #: dwarf.c:6091
 msgid "The address table data in version 3 may be wrong.\n"
