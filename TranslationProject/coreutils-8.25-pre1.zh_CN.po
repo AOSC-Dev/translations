@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-04-28 10:51-0400\n"
+"PO-Revision-Date: 2016-04-28 11:31-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -299,7 +299,7 @@ msgstr "%s：选项\"-W %s\"必需带参数\n"
 #: lib/mkdir-p.c:179 src/install.c:487
 #, c-format
 msgid "cannot change permissions of %s"
-msgstr "无法更改%s 的权限"
+msgstr "无法更改 %s 的权限"
 
 #: lib/mkdir-p.c:189 src/copy.c:2480 src/install.c:728 src/install.c:741
 #, c-format
@@ -1130,34 +1130,34 @@ msgstr "Jim Meyering"
 #: src/chcon.c:99 src/runcon.c:201 src/runcon.c:232
 #, c-format
 msgid "failed to create security context: %s"
-msgstr "创建安全上下文失败：%s"
+msgstr "创建安全环境失败：%s"
 
 #: src/chcon.c:111
 #, c-format
 msgid "failed to set %s security context component to %s"
-msgstr "设置%s 安全上下文组件到%s 失败"
+msgstr "设置%s 安全环境组件到 %s 失败"
 
 #: src/chcon.c:155 src/chcon.c:546 src/copy.c:916 src/runcon.c:215
 #: src/stat.c:750
 #, c-format
 msgid "failed to get security context of %s"
-msgstr "无法取得%s 的安全上下文"
+msgstr "无法取得 %s 的安全环境"
 
 #: src/chcon.c:165
 #, c-format
 msgid "can't apply partial context to unlabeled file %s"
-msgstr "部分关联无法应用于文件%s"
+msgstr "部分关联无法应用于文件 %s"
 
 #: src/chcon.c:189
 #, c-format
 msgid "failed to change context of %s to %s"
-msgstr "改变%s 的环境到%s 失败"
+msgstr "改变%s 的环境到 %s 失败"
 
 #: src/chcon.c:254 src/chmod.c:217 src/chown-core.c:324 src/copy.c:717
 #: src/du.c:529 src/ls.c:3054
 #, c-format
 msgid "cannot access %s"
-msgstr "无法访问%s"
+msgstr "无法访问 %s"
 
 #: src/chcon.c:265 src/chmod.c:230 src/chown-core.c:337 src/du.c:509
 #, c-format
@@ -1167,7 +1167,7 @@ msgstr "无法读取目录%s"
 #: src/chcon.c:292
 #, c-format
 msgid "changing security context of %s\n"
-msgstr "正在更改%s 的安全上下文\n"
+msgstr "正在更改 %s 的安全环境\n"
 
 #: src/chcon.c:326 src/chmod.c:348 src/chown-core.c:538 src/remove.c:566
 #: src/selinux.c:322
@@ -1197,8 +1197,8 @@ msgid ""
 "Change the SELinux security context of each FILE to CONTEXT.\n"
 "With --reference, change the security context of each FILE to that of RFILE.\n"
 msgstr ""
-"将每个 <文件> 的安全上下文变更至指定 <上下文>。\n"
-"使用 --reference 选项时，把指定 <文件> 的安全上下文设置为与 <参考文件> 相同。\n"
+"将每个 <文件> 的安全环境变更至指定 <环境>。\n"
+"使用 --reference 选项时，把指定 <文件> 的安全环境设置为与 <参考文件> 相同。\n"
 
 #: src/chcon.c:364 src/chgrp.c:124 src/chown.c:94
 msgid ""
@@ -1216,10 +1216,10 @@ msgid ""
 "  -t, --type=TYPE        set type TYPE in the target security context\n"
 "  -l, --range=RANGE      set range RANGE in the target security context\n"
 msgstr ""
-"  -u, --user=用户 \t\t设置指定用户的目标安全上下文\n"
-"  -r, --role=角色 \t\t设置指定角色的目标安全上下文\n"
-"  -t, --type=类型 \t\t设置指定类型的目标安全上下文\n"
-"  -l, --range=范围 \t\t设置指定范围的目标安全上下文\n"
+"  -u, --user=用户 \t\t设置指定用户的目标安全环境\n"
+"  -r, --role=角色 \t\t设置指定角色的目标安全环境\n"
+"  -t, --type=类型 \t\t设置指定类型的目标安全环境\n"
+"  -l, --range=范围 \t\t设置指定范围的目标安全环境\n"
 
 #: src/chcon.c:375 src/chgrp.c:133 src/chmod.c:389 src/chown.c:110
 msgid ""
@@ -1233,7 +1233,7 @@ msgstr ""
 msgid ""
 "      --reference=RFILE  use RFILE's security context rather than specifying\n"
 "                         a CONTEXT value\n"
-msgstr "      --reference=参     使用指定 <参考文件> 的安全上下文，而非指定值\n"
+msgstr "      --reference=参     使用指定 <参考文件> 的安全环境，而非指定值\n"
 
 #: src/chcon.c:383 src/chgrp.c:141 src/chown.c:118
 msgid "  -R, --recursive        operate on files and directories recursively\n"
@@ -1291,14 +1291,14 @@ msgstr "无效模式：%s"
 #: src/chcon.c:566
 #, c-format
 msgid "conflicting security context specifiers given"
-msgstr "给出的安全上下文说明冲突"
+msgstr "给出的安全环境说明冲突"
 
 #: src/chcon.c:575 src/chgrp.c:288 src/chgrp.c:306 src/chmod.c:538
 #: src/chmod.c:557 src/chown.c:289 src/chown.c:318 src/cp.c:438 src/cp.c:498
 #: src/mv.c:97 src/pwd.c:276 src/rm.c:329 src/touch.c:347
 #, c-format
 msgid "failed to get attributes of %s"
-msgstr "无法取得%s 的属性"
+msgstr "无法取得 %s 的属性"
 
 #: src/chgrp.c:92
 #, c-format
@@ -1320,8 +1320,8 @@ msgid ""
 "With --reference, change the group of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"将每个文件的安全上下文变更至指定上下文。\n"
-"使用 --reference 选项时，把指定文件的安全上下文设置为与参考文件相同。\n"
+"将每个文件的安全环境变更至指定环境。\n"
+"使用 --reference 选项时，把指定文件的安全环境设置为与参考文件相同。\n"
 
 #: src/chgrp.c:119 src/chmod.c:384 src/chown.c:89
 msgid ""
@@ -1388,7 +1388,7 @@ msgstr "无法创建符号链接%s"
 #: src/chmod.c:277
 #, c-format
 msgid "changing permissions of %s"
-msgstr "更改%s 的权限"
+msgstr "更改 %s 的权限"
 
 #: src/chmod.c:313
 #, c-format
@@ -1412,8 +1412,8 @@ msgid ""
 "With --reference, change the mode of each FILE to that of RFILE.\n"
 "\n"
 msgstr ""
-"将每个文件的安全上下文变更至指定环境。\n"
-"使用 --reference 选项时，把指定文件的安全上下文设置为与参考文件相同。\n"
+"将每个文件的安全环境变更至指定环境。\n"
+"使用 --reference 选项时，把指定文件的安全环境设置为与参考文件相同。\n"
 "\n"
 
 #: src/chmod.c:393
@@ -1472,17 +1472,17 @@ msgstr "无法更改 %s 的所属组从 %s 到 %s\n"
 #: src/chown-core.c:166 src/chown-core.c:172
 #, c-format
 msgid "failed to change ownership of %s\n"
-msgstr "更改%s 的所有者失败\n"
+msgstr "更改 %s 的所有者失败\n"
 
 #: src/chown-core.c:170
 #, c-format
 msgid "failed to change ownership of %s to %s\n"
-msgstr "无法更改%s 的所有者为%s\n"
+msgstr "无法更改 %s 的所有者为%s\n"
 
 #: src/chown-core.c:171
 #, c-format
 msgid "failed to change group of %s to %s\n"
-msgstr "无法更改%s 的所属组为%s\n"
+msgstr "无法更改 %s 的所属组为%s\n"
 
 #: src/chown-core.c:179
 #, c-format
@@ -1502,17 +1502,17 @@ msgstr "%s 的所有权已保留\n"
 #: src/chown-core.c:378
 #, c-format
 msgid "cannot dereference %s"
-msgstr "无法取消%s 的引用"
+msgstr "无法取消 %s 的引用"
 
 #: src/chown-core.c:466
 #, c-format
 msgid "changing ownership of %s"
-msgstr "正在更改%s 的所有者"
+msgstr "正在更改 %s 的所有者"
 
 #: src/chown-core.c:467
 #, c-format
 msgid "changing group of %s"
-msgstr "正在更改%s 的所属组"
+msgstr "正在更改 %s 的所属组"
 
 #: src/chown.c:79
 #, c-format
@@ -1584,12 +1584,12 @@ msgstr "Roland McGrath"
 #: src/chroot.c:137 src/install.c:584
 #, c-format
 msgid "invalid group %s"
-msgstr "无效的组%s"
+msgstr "无效的组 %s"
 
 #: src/chroot.c:152
 #, c-format
 msgid "invalid group list %s"
-msgstr "无效的组列表%s"
+msgstr "无效的组列表 %s"
 
 #: src/chroot.c:185
 #, c-format
@@ -1672,8 +1672,10 @@ msgstr "设置用户ID 失败"
 #: src/chroot.c:427 src/nohup.c:229 src/stdbuf.c:391 src/timeout.c:457
 #, c-format
 msgid "failed to run command %s"
-msgstr "无法运行命令%s"
+msgstr "无法运行命令 %s"
 
+# 其实可以糊个中文名的，但我也不知道 Yudong Xia 中文字是啥。
+# https://www.linkedin.com/in/yudongxia
 #. This is a proper name. See the gettext manual, section Names.
 #: src/cksum.c:40
 msgid "Q. Frank Xia"
@@ -1752,12 +1754,12 @@ msgid ""
 "  --nocheck-order   do not check that the input is correctly sorted\n"
 msgstr ""
 "\n"
-"  --check-order\t\t\t检查输入是否被正确排序，即使所有输入行均成对\n"
-"  --nocheck-order\t\t不检查输入是否被正确排序\n"
+"  --check-order     检查输入是否被正确排序，即使所有输入行均成对\n"
+"  --nocheck-order   不检查输入是否被正确排序\n"
 
 #: src/comm.c:135
 msgid "  --output-delimiter=STR  separate columns with STR\n"
-msgstr "  --output-delimiter=STR\t依照STR 分列\n"
+msgstr "  --output-delimiter=字串 依照给定字串分列\n"
 
 #: src/comm.c:138 src/cut.c:178 src/head.c:133 src/numfmt.c:944 src/paste.c:453
 #: src/tail.c:304
@@ -1794,7 +1796,7 @@ msgstr ""
 #: src/comm.c:229
 #, c-format
 msgid "file %d is not in sorted order"
-msgstr "文件%d 没有被正确排序"
+msgstr "文件 %d 没有被正确排序"
 
 #: src/comm.c:420
 #, fuzzy, c-format
@@ -1811,7 +1813,7 @@ msgstr "无法lseek %s"
 #, fuzzy, c-format
 #| msgid "error reading %s"
 msgid "error deallocating %s"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/copy.c:229 src/dd.c:1820 src/dd.c:2154 src/du.c:1130 src/head.c:155
 #: src/head.c:306 src/head.c:388 src/head.c:584 src/head.c:666 src/head.c:735
@@ -1820,7 +1822,7 @@ msgstr "读取%s 时出错"
 #: src/tail.c:1945 src/uniq.c:465
 #, c-format
 msgid "error reading %s"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/copy.c:262 src/dd.c:2218 src/dd.c:2281 src/head.c:183 src/tail.c:390
 #, c-format
@@ -1831,7 +1833,7 @@ msgstr "写入%s 出错"
 #, fuzzy, c-format
 #| msgid "error reading %s"
 msgid "overflow reading %s"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/copy.c:410
 #, c-format
@@ -1861,7 +1863,7 @@ msgstr "无法保留%s 的所有者"
 #: src/copy.c:859
 #, c-format
 msgid "failed to lookup file %s"
-msgstr "查阅文件%s 失败"
+msgstr "查阅文件 %s 失败"
 
 #: src/copy.c:864
 #, c-format
@@ -1872,19 +1874,19 @@ msgstr "保留%s 的作者失败"
 #: src/mkfifo.c:143 src/mknod.c:199
 #, c-format
 msgid "failed to set default file creation context to %s"
-msgstr "无法取得%s 的创建环境"
+msgstr "无法取得 %s 的创建环境"
 
 #: src/copy.c:931
 #, fuzzy, c-format
 #| msgid "failed to set default file creation context to %s"
 msgid "failed to set default file creation context for %s"
-msgstr "无法取得%s 的创建环境"
+msgstr "无法取得 %s 的创建环境"
 
 #: src/copy.c:957
 #, fuzzy, c-format
 #| msgid "failed to set the security context of %s to %s"
 msgid "failed to set the security context of %s"
-msgstr "设置%s 的安全上下文为%s 失败"
+msgstr "设置%s 的安全环境为%s 失败"
 
 #: src/copy.c:1030 src/csplit.c:654 src/du.c:1022 src/fmt.c:439 src/head.c:888
 #: src/sort.c:4585 src/split.c:1496 src/tail.c:1888 src/wc.c:710
@@ -1896,12 +1898,12 @@ msgstr "无法打开%s 读取数据"
 #: src/head.c:846 src/tail.c:1734 src/tail.c:1790 src/truncate.c:113
 #, c-format
 msgid "cannot fstat %s"
-msgstr "无法获取%s 的文件状态(fstat)"
+msgstr "无法获取 %s 的文件状态(fstat)"
 
 #: src/copy.c:1046
 #, c-format
 msgid "skipping file %s, as it was replaced while being copied"
-msgstr "跳过文件%s，因为在准备复制时它已被其它文件取代"
+msgstr "跳过文件 %s，因为在准备复制时它已被其它文件取代"
 
 #: src/copy.c:1086 src/copy.c:1789 src/copy.c:2154 src/ln.c:331
 #: src/remove.c:262 src/remove.c:279 src/remove.c:405 src/remove.c:431
@@ -1922,7 +1924,7 @@ msgstr "无法通过符号链接%s 进行操作"
 #: src/copy.c:1181
 #, c-format
 msgid "cannot create regular file %s"
-msgstr "无法创建普通文件%s"
+msgstr "无法创建普通文件 %s"
 
 #: src/copy.c:1202
 #, fuzzy, c-format
@@ -1978,7 +1980,7 @@ msgstr "无法创建指向%2$s 的硬链接%1$s"
 #: src/stat.c:1321 src/truncate.c:337
 #, c-format
 msgid "cannot stat %s"
-msgstr "无法获取%s 的文件状态(stat)"
+msgstr "无法获取 %s 的文件状态(stat)"
 
 #: src/copy.c:1871
 #, c-format
@@ -1988,7 +1990,7 @@ msgstr "略过目录%s"
 #: src/copy.c:1885
 #, c-format
 msgid "warning: source file %s specified more than once"
-msgstr "警告：指定来源文件%s 多于一次"
+msgstr "警告：指定来源文件 %s 多于一次"
 
 #: src/copy.c:1934 src/ln.c:262
 #, c-format
@@ -2033,7 +2035,7 @@ msgstr "无法备份%s"
 #: src/copy.c:2193
 #, c-format
 msgid "will not copy %s through just-created symlink %s"
-msgstr "不会以%s 覆盖刚创建的%s"
+msgstr "不会以%s 覆盖刚创建的 %s"
 
 #: src/copy.c:2270
 #, c-format
@@ -2044,7 +2046,7 @@ msgstr "无法将目录%s 复制到自己%s"
 #, fuzzy, c-format
 #| msgid "warning: source file %s specified more than once"
 msgid "warning: source directory %s specified more than once"
-msgstr "警告：指定来源文件%s 多于一次"
+msgstr "警告：指定来源文件 %s 多于一次"
 
 #: src/copy.c:2304
 #, c-format
@@ -2084,12 +2086,12 @@ msgstr "无法创建指向%2$s 的符号链接%1$s"
 #: src/copy.c:2639 src/mkfifo.c:169
 #, c-format
 msgid "cannot create fifo %s"
-msgstr "无法创建先进先出文件%s"
+msgstr "无法创建先进先出文件 %s"
 
 #: src/copy.c:2648
 #, c-format
 msgid "cannot create special file %s"
-msgstr "无法创建特殊文件%s"
+msgstr "无法创建特殊文件 %s"
 
 #: src/copy.c:2659 src/ls.c:3263 src/stat.c:1003
 #, c-format
@@ -2458,7 +2460,7 @@ msgstr "无法对%s 强制为目标环境，保持原样"
 #: src/cp.c:1190
 #, c-format
 msgid "cannot preserve security context without an SELinux-enabled kernel"
-msgstr "无法在未启用SELinux 支持的内核上使用安全上下文"
+msgstr "无法在未启用SELinux 支持的内核上使用安全环境"
 
 #: src/cp.c:1206
 #, c-format
@@ -3442,12 +3444,12 @@ msgstr[0] "%<PRIuMAX> 个被截断了的块\n"
 #: src/dd.c:936
 #, c-format
 msgid "closing input file %s"
-msgstr "正在关闭输入文件%s"
+msgstr "正在关闭输入文件 %s"
 
 #: src/dd.c:943
 #, c-format
 msgid "closing output file %s"
-msgstr "正在关闭输出文件%s"
+msgstr "正在关闭输出文件 %s"
 
 #: src/dd.c:1158
 #, c-format
@@ -3513,7 +3515,7 @@ msgid ""
 "warning: working around lseek kernel bug for file (%s)\n"
 "  of mt_type=0x%0lx -- see <sys/mtio.h> for the list of types"
 msgstr ""
-"警告：暂时避免有关文件%s 的lseek 内核错误\n"
+"警告：暂时避免有关文件 %s 的lseek 内核错误\n"
 "  错误地址在mt_type=0x%0lx -- 有关mt_type 类型的列表请参考<sys/mtio.h>"
 
 #: src/dd.c:1792
@@ -3529,7 +3531,7 @@ msgstr "%s：无法搜索"
 #: src/dd.c:1866
 #, c-format
 msgid "offset overflow while reading file %s"
-msgstr "读入文件%s 时偏移量溢出"
+msgstr "读入文件 %s 时偏移量溢出"
 
 #: src/dd.c:1878
 #, c-format
@@ -3646,13 +3648,13 @@ msgstr "文件"
 #, fuzzy, c-format
 #| msgid "closing output file %s"
 msgid "option --output: field %s unknown"
-msgstr "正在关闭输出文件%s"
+msgstr "正在关闭输出文件 %s"
 
 #: src/df.c:394
 #, fuzzy, c-format
 #| msgid "warning: source file %s specified more than once"
 msgid "option --output: field %s used more than once"
-msgstr "警告：指定来源文件%s 多于一次"
+msgstr "警告：指定来源文件 %s 多于一次"
 
 #: src/df.c:415 src/df.c:454
 msgid "Size"
@@ -4914,7 +4916,7 @@ msgstr ""
 "显示指定用户或当前用户(当未指定用户时)的用户与组信息。\n"
 "\n"
 "  -a\t\t\t忽略，仅为与其他版本相兼容而设计\n"
-"  -Z, --context\t\t仅显示当前用户的安全上下文\n"
+"  -Z, --context\t\t仅显示当前用户的安全环境\n"
 "  -g, --group\t\t仅显示有效的用户组ID\n"
 "  -G, --groups\t\t显示所有组的ID\n"
 "  -n, --name\t\t显示组名称而非数字，不与-ugG 一起使用\n"
@@ -4943,7 +4945,7 @@ msgstr "--context (-Z) 选项只能在开启SELinux 支持的内核上使用"
 #: src/id.c:195
 #, c-format
 msgid "cannot print security context when user specified"
-msgstr "不能显示特定用户的安全上下文"
+msgstr "不能显示特定用户的安全环境"
 
 #: src/id.c:198
 #, c-format
@@ -4970,7 +4972,7 @@ msgstr "不能得到进程环境"
 #, fuzzy, c-format
 #| msgid "cannot dereference %s"
 msgid "cannot get effective UID"
-msgstr "无法取消%s 的引用"
+msgstr "无法取消 %s 的引用"
 
 #: src/id.c:354
 #, fuzzy, c-format
@@ -5010,7 +5012,7 @@ msgstr " 环境=%s"
 #: src/install.c:375
 #, c-format
 msgid "warning: %s: failed to change context to %s"
-msgstr "警告：%s：切换到%s 用户环境失败"
+msgstr "警告：%s：切换到 %s 用户环境失败"
 
 #: src/install.c:417
 #, c-format
@@ -5020,7 +5022,7 @@ msgstr "正在创建目录%s"
 #: src/install.c:485
 #, c-format
 msgid "cannot change ownership of %s"
-msgstr "无法更改%s 的所有权"
+msgstr "无法更改 %s 的所有权"
 
 #: src/install.c:509
 #, c-format
@@ -6205,7 +6207,7 @@ msgstr "  -b, --binary\t\t以二进制模式读取\n"
 #: src/md5sum.c:189
 #, c-format
 msgid "  -c, --check          read %s sums from the FILEs and check them\n"
-msgstr "  -c, --check\t\t从文件中读取%s 的校验值并予以检查\n"
+msgstr "  -c, --check\t\t从文件中读取 %s 的校验值并予以检查\n"
 
 #: src/md5sum.c:192
 msgid "      --tag            create a BSD-style checksum\n"
@@ -6292,7 +6294,7 @@ msgstr "成功"
 #: src/md5sum.c:688
 #, c-format
 msgid "%s: no properly formatted %s checksum lines found"
-msgstr "%s：找不到格式适用的%s 校验和"
+msgstr "%s：找不到格式适用的 %s 校验和"
 
 #: src/md5sum.c:698
 #, c-format
@@ -6391,7 +6393,7 @@ msgstr ""
 "  -m, --mode=模式   \t设置权限模式(类似chmod)，而不是rwxrwxrwx 减umask\n"
 "  -p, --parents     \t需要时创建目标目录的上层目录，但即使这些目录已存在也不当作错误处理\n"
 "  -v, --verbose     \t每次创建新目录都显示信息\n"
-"  -Z, --context=CTX  \t将每个创建的目录的SELinux 安全上下文设置为CTX\n"
+"  -Z, --context=CTX  \t将每个创建的目录的SELinux 安全环境设置为CTX\n"
 
 #: src/mkdir.c:70
 msgid ""
@@ -6405,7 +6407,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "failed to set default file creation context to %s"
 msgid "failed to set default creation context for %s"
-msgstr "无法取得%s 的创建环境"
+msgstr "无法取得 %s 的创建环境"
 
 #: src/mkdir.c:180
 #, fuzzy, c-format
@@ -6464,7 +6466,7 @@ msgstr "模式必须只指定文件许可位"
 #, fuzzy, c-format
 #| msgid "cannot change permissions of %s"
 msgid "cannot set permissions of %s"
-msgstr "无法更改%s 的权限"
+msgstr "无法更改 %s 的权限"
 
 #: src/mknod.c:54
 #, c-format
@@ -6538,7 +6540,7 @@ msgstr "无效的次设备号 %s"
 #: src/mknod.c:245
 #, c-format
 msgid "invalid device %s %s"
-msgstr "无效的设备文件%s %s"
+msgstr "无效的设备文件 %s %s"
 
 #: src/mknod.c:265
 #, c-format
@@ -6978,12 +6980,12 @@ msgstr "忽略输入"
 #: src/nohup.c:172
 #, c-format
 msgid "ignoring input and appending output to %s"
-msgstr "忽略输入并把输出追加到%s"
+msgstr "忽略输入并把输出追加到 %s"
 
 #: src/nohup.c:173
 #, c-format
 msgid "appending output to %s"
-msgstr "把输出追加到%s"
+msgstr "把输出追加到 %s"
 
 #: src/nohup.c:190
 #, c-format
@@ -7422,7 +7424,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "error reading %s"
 msgid "error reading input"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/numfmt.c:1642
 #, fuzzy, c-format
@@ -8498,7 +8500,7 @@ msgstr "无法切换到目录%s"
 #: src/pwd.c:173 src/pwd.c:280 src/split.c:427
 #, c-format
 msgid "failed to stat %s"
-msgstr "获取%s 的文件状态失败(stat)"
+msgstr "获取 %s 的文件状态失败(stat)"
 
 #: src/pwd.c:238
 #, c-format
@@ -8619,7 +8621,7 @@ msgstr "%s：是否进入目录%s? "
 #: src/remove.c:290
 #, c-format
 msgid "%s: remove write-protected %s %s? "
-msgstr "%s：是否删除有写保护的%s %s？"
+msgstr "%s：是否删除有写保护的 %s %s？"
 
 #: src/remove.c:291
 #, c-format
@@ -8661,7 +8663,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "Try `%s ./%s' to remove the file %s.\n"
 msgid "Try '%s ./%s' to remove the file %s.\n"
-msgstr "尝试使用\"%s ./%s\"删除文件%s。\n"
+msgstr "尝试使用\"%s ./%s\"删除文件 %s。\n"
 
 #: src/rm.c:134
 #, fuzzy
@@ -8810,19 +8812,15 @@ msgstr ""
 "\t\t\t忽略仅由目录非空产生的所有错误\n"
 
 #: src/rmdir.c:171
-#, fuzzy
-#| msgid ""
-#| "  -p, --parents   remove DIRECTORY and its ancestors; e.g., `rmdir -p a/b/c' is\n"
-#| "                    similar to `rmdir a/b/c a/b a'\n"
-#| "  -v, --verbose   output a diagnostic for every directory processed\n"
 msgid ""
 "  -p, --parents   remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b/c' is\n"
 "                    similar to 'rmdir a/b/c a/b a'\n"
 "  -v, --verbose   output a diagnostic for every directory processed\n"
 msgstr ""
-"  -p, --parents\t\t删除指定目录及其上级文件夹，例如\"rmdir -p a/b/c'\"\n"
-"\t\t\t与\"rmdir a/b/c a/b a'\" 基本相同\n"
-"  -v, --verbose\t\t输出处理的目录详情\n"
+"  -p, --parents   删除指定目录及其上级文件夹，\n"
+"                  例如\"rmdir -p a/b/c'\"\n"
+" 与 “rmdir a/b/c a/b a” 相类\n"
+"  -v, --verbose   输出处理的每个目录详情\n"
 
 #: src/rmdir.c:241
 #, c-format
@@ -8866,10 +8864,10 @@ msgid ""
 "  -l, --range=RANGE  levelrange\n"
 "\n"
 msgstr ""
-"以不同的安全上下文运行程序。\n"
-"如果没有指定环境或命令之一，输出当前安全上下文。\n"
+"以不同的安全环境运行程序。\n"
+"如果没有指定环境或命令之一，输出当前安全环境。\n"
 "\n"
-"  环境\t\t\t完整的安全上下文描述\n"
+"  环境\t\t\t完整的安全环境描述\n"
 "  -c, --compute\t\t在更改前计算环境变化\n"
 "  -t, --type=类型\t类型(与父进程角色相同)\n"
 "  -u, --user=用户\t用户身份\n"
@@ -8900,7 +8898,7 @@ msgstr "复合级别范围"
 #: src/runcon.c:171 src/runcon.c:207
 #, c-format
 msgid "failed to get current context"
-msgstr "无法获得当前安全上下文"
+msgstr "无法获得当前安全环境"
 
 #: src/runcon.c:181
 #, c-format
@@ -8949,7 +8947,7 @@ msgstr "设置新角色%s 失败"
 #: src/runcon.c:253
 #, c-format
 msgid "unable to set security context %s"
-msgstr "无法设置安全上下文%s"
+msgstr "无法设置安全环境%s"
 
 #: src/selinux.c:126 src/selinux.c:299
 #, fuzzy, c-format
@@ -10088,7 +10086,7 @@ msgstr "已排除输出文件后缀"
 #: src/split.c:420
 #, c-format
 msgid "creating file %s\n"
-msgstr "正在创建文件%s\n"
+msgstr "正在创建文件 %s\n"
 
 #: src/split.c:429
 #, c-format
@@ -10122,19 +10120,19 @@ msgstr "关闭目录%s"
 #, fuzzy, c-format
 #| msgid "closing output file %s"
 msgid "closing output pipe"
-msgstr "正在关闭输出文件%s"
+msgstr "正在关闭输出文件 %s"
 
 #: src/split.c:469
 #, fuzzy, c-format
 #| msgid "closing input file %s"
 msgid "moving input pipe"
-msgstr "正在关闭输入文件%s"
+msgstr "正在关闭输入文件 %s"
 
 #: src/split.c:471
 #, fuzzy, c-format
 #| msgid "closing input file %s"
 msgid "closing input pipe"
-msgstr "正在关闭输入文件%s"
+msgstr "正在关闭输入文件 %s"
 
 #: src/split.c:476
 #, fuzzy, c-format
@@ -10416,7 +10414,7 @@ msgstr ""
 "  %A   用可读性较好的方式输出权限\n"
 "  %b   计算已分配块数(参见%B)\n"
 "  %B   以字节为单位输出%b 所报告的每个块的大小\n"
-"  %C   SELinux 安全上下文字符串\n"
+"  %C   SELinux 安全环境字符串\n"
 
 #: src/stat.c:1462
 #, fuzzy
@@ -11485,7 +11483,7 @@ msgstr ""
 #, fuzzy, c-format
 #| msgid "error reading %s"
 msgid "error opening %s"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/sync.c:123
 #, fuzzy, c-format
@@ -11497,7 +11495,7 @@ msgstr "%s：无法重置非阻塞模式"
 #, fuzzy, c-format
 #| msgid "error reading %s"
 msgid "error syncing %s"
-msgstr "读取%s 时出错"
+msgstr "读取 %s 时出错"
 
 #: src/sync.c:212
 #, c-format
@@ -11518,7 +11516,7 @@ msgid ""
 "for details about the options it supports.\n"
 msgstr ""
 "\n"
-"注意：您的shell 可能内置了自己的%s 程序版本，它会覆盖这里所提及的相应\n"
+"注意：您的shell 可能内置了自己的 %s 程序版本，它会覆盖这里所提及的相应\n"
 "版本。请查阅您的shell 文档获知它所支持的选项。\n"
 
 #: src/system.h:350
@@ -12855,17 +12853,17 @@ msgstr "%s 的文件大小为负数，无法使用"
 #: src/truncate.c:156 src/truncate.c:358
 #, c-format
 msgid "cannot get the size of %s"
-msgstr "无法获得%s 的大小"
+msgstr "无法获得 %s 的大小"
 
 #: src/truncate.c:178
 #, c-format
 msgid "overflow rounding up size of file %s"
-msgstr "处理大于等于文件%s 的指定大小的最大倍数时溢出"
+msgstr "处理大于等于文件 %s 的指定大小的最大倍数时溢出"
 
 #: src/truncate.c:188
 #, c-format
 msgid "overflow extending size of file %s"
-msgstr "扩展文件%s 大小时溢出"
+msgstr "扩展文件 %s 大小时溢出"
 
 #: src/truncate.c:203
 #, c-format
