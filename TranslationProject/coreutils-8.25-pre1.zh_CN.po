@@ -7,6 +7,7 @@
 # Funda Wang <fundawang@linux.net.cn>, 2004, 2005.
 # Ji ZhengYu <zhengyuji@gmail.com>, 2009.
 # Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011, 2015.
+# Mingye Wang (Arthur2e5) <arthur200126@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
