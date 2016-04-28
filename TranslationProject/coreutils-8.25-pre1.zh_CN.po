@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-04-27 21:58-0400\n"
+"PO-Revision-Date: 2016-04-28 10:51-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -27,12 +27,12 @@ msgstr ""
 #: lib/argmatch.c:133
 #, c-format
 msgid "invalid argument %s for %s"
-msgstr "%2$s 的参数%1$s 无效"
+msgstr "%2$s 的参数 %1$s 无效"
 
 #: lib/argmatch.c:134
 #, c-format
 msgid "ambiguous argument %s for %s"
-msgstr "%2$s 的参数%1$s 不明确"
+msgstr "%2$s 的参数 %1$s 不明确"
 
 #: lib/argmatch.c:153
 msgid "Valid arguments are:"
@@ -151,9 +151,10 @@ msgstr "端口"
 msgid "socket"
 msgstr "套接字"
 
+# https://lists.gnu.org/archive/html/coreutils/2014-07/msg00089.html
 #: lib/file-type.c:108
 msgid "whiteout"
-msgstr ""
+msgstr "whiteout"
 
 #: lib/file-type.c:110
 msgid "weird file"
@@ -169,7 +170,7 @@ msgstr "名称解析出现临时错误"
 
 #: lib/gai_strerror.c:59
 msgid "Bad value for ai_flags"
-msgstr "错误的ai_flags 值"
+msgstr "错误的 ai_flags 值"
 
 #: lib/gai_strerror.c:60
 msgid "Non-recoverable failure in name resolution"
@@ -177,7 +178,7 @@ msgstr "名称解析时出现不可恢复的错误"
 
 #: lib/gai_strerror.c:61
 msgid "ai_family not supported"
-msgstr "不支持的ai_family"
+msgstr "不支持的 ai_family"
 
 #: lib/gai_strerror.c:62
 msgid "Memory allocation failure"
@@ -197,7 +198,7 @@ msgstr "ai_socktype 不支持 Servname"
 
 #: lib/gai_strerror.c:66
 msgid "ai_socktype not supported"
-msgstr "不支持ai_socktype"
+msgstr "不支持的 ai_socktype"
 
 #: lib/gai_strerror.c:67
 msgid "System error"
@@ -344,11 +345,11 @@ msgstr "返回到初始工作目录失败"
 #. and use glyphs suitable for your language.
 #: lib/quotearg.c:347
 msgid "`"
-msgstr "\""
+msgstr "“"
 
 #: lib/quotearg.c:348
 msgid "'"
-msgstr "\""
+msgstr "”"
 
 #: lib/randread.c:128
 #, c-format
@@ -456,7 +457,7 @@ msgstr "使用 --no-preserve-root 选项跳过安全模式"
 #. locale -k LC_MESSAGES | grep '^yesexpr='
 #: lib/rpmatch.c:150
 msgid "^[yY]"
-msgstr "^[yY]"
+msgstr "^[yY是]"
 
 #. TRANSLATORS: A regular expression testing for a negative answer
 #. (english: "no").  Testing the first character may be sufficient.
@@ -466,7 +467,7 @@ msgstr "^[yY]"
 #. locale -k LC_MESSAGES | grep '^noexpr='
 #: lib/rpmatch.c:163
 msgid "^[nN]"
-msgstr "^[nN]"
+msgstr "^[nN否不]"
 
 #: lib/set-acl.c:46 src/copy.c:2503 src/cp.c:523
 #, c-format
@@ -531,7 +532,7 @@ msgstr "急需I/O 条件"
 
 #: lib/siglist.h:73
 msgid "Stopped (signal)"
-msgstr "已停止(信号)"
+msgstr "已停止（信号）"
 
 #: lib/siglist.h:76
 msgid "Stopped"
@@ -547,15 +548,15 @@ msgstr "子进程已退出"
 
 #: lib/siglist.h:85
 msgid "Stopped (tty input)"
-msgstr "已停止(tty 输入)"
+msgstr "已停止（tty 输入）"
 
 #: lib/siglist.h:88
 msgid "Stopped (tty output)"
-msgstr "已停止(tty 输出)"
+msgstr "已停止（tty 输出）"
 
 #: lib/siglist.h:91
 msgid "I/O possible"
-msgstr "可能需要I/O"
+msgstr "可能需要 I/O"
 
 #: lib/siglist.h:94
 msgid "CPU time limit exceeded"
@@ -587,7 +588,7 @@ msgstr "用户自定义信号 2"
 
 #: lib/siglist.h:117
 msgid "EMT trap"
-msgstr "捕获EMT 信号"
+msgstr "捕获 EMT 信号"
 
 #: lib/siglist.h:120
 msgid "Bad system call"
@@ -612,12 +613,12 @@ msgstr "资源丢失"
 #: lib/strsignal.c:114
 #, c-format
 msgid "Real-time signal %d"
-msgstr "实时信号%d"
+msgstr "实时信号 %d"
 
 #: lib/strsignal.c:118
 #, c-format
 msgid "Unknown signal %d"
-msgstr "未知信号%d"
+msgstr "未知信号 %d"
 
 #: lib/unicodeio.c:102
 msgid "iconv function not usable"
@@ -634,12 +635,12 @@ msgstr "字符值超出可接受的范围以外"
 #: lib/unicodeio.c:181
 #, c-format
 msgid "cannot convert U+%04X to local character set"
-msgstr "无法将U+%04X 转换至用户的字符集"
+msgstr "无法将 U+%04X 转换至本地字符集"
 
 #: lib/unicodeio.c:183
 #, c-format
 msgid "cannot convert U+%04X to local character set: %s"
-msgstr "无法将U+%04X 转换至用户的字符集：%s"
+msgstr "无法将 U+%04X 转换至本地字符集：%s"
 
 #: lib/userspec.c:106
 msgid "invalid user"
@@ -661,12 +662,12 @@ msgstr "无法显示错误信息"
 #: lib/version-etc.c:74
 #, c-format
 msgid "Packaged by %s (%s)\n"
-msgstr "由%s (%s)打包\n"
+msgstr "由 %s (%s)打包\n"
 
 #: lib/version-etc.c:77
 #, c-format
 msgid "Packaged by %s\n"
-msgstr "由%s 打包\n"
+msgstr "由 %s 打包\n"
 
 #. TRANSLATORS: Translate "(C)" to the copyright symbol
 #. (C-in-a-circle), if this symbol is available in the user's
@@ -693,19 +694,19 @@ msgstr ""
 #: lib/version-etc.c:102
 #, c-format
 msgid "Written by %s.\n"
-msgstr "由%s 编写。\n"
+msgstr "由 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: lib/version-etc.c:106
 #, c-format
 msgid "Written by %s and %s.\n"
-msgstr "由%s 和%s 编写。\n"
+msgstr "由 %s 和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #: lib/version-etc.c:110
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr "由%s、%s 和%s 编写。\n"
+msgstr "由 %s、%s 和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -716,7 +717,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"由%s、%s、%s 和\n"
+"由 %s、%s、%s 和\n"
 "%s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -728,7 +729,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"由%s、%s、%s、\n"
+"由 %s、%s、%s、\n"
 "%s 和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -740,7 +741,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
-"由%s、%s、%s、\n"
+"由 %s、%s、%s、\n"
 "%s、%s 和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -752,7 +753,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
-"由%s、%s、%s、\n"
+"由 %s、%s、%s、\n"
 "%s、%s、%s 和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -765,9 +766,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"由%s、%s、%s、\n"
+"由 %s、%s、%s、\n"
 "%s、%s、%s、%s\n"
-"和%s 编写。\n"
+"和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -779,9 +780,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"由%s、%s、%s、\n"
+"由 %s、%s、%s、\n"
 "%s、%s、%s、%s、\n"
-"%s、和%s 编写。\n"
+"%s、和 %s 编写。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -793,7 +794,7 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
-"由%s、%s、%s、\n"
+"由 %s、%s、%s、\n"
 "%s、%s、%s、%s、\n"
 "%s、%s、和其他人编写。\n"
 
@@ -808,7 +809,8 @@ msgid ""
 "Report bugs to: %s\n"
 msgstr ""
 "\n"
-"请向<%s> 报告软件错误。请向 <i18n-zh@googlegroups.com> 报告翻译错误。\n"
+"请向 <%s> 报告软件错误。\n"
+"请向 <i18n-zh@googlegroups.com> 报告翻译错误。\n"
 
 #: lib/version-etc.c:247
 #, c-format
@@ -848,7 +850,7 @@ msgstr "未知流"
 #: lib/xfreopen.c:39
 #, c-format
 msgid "failed to reopen %s with mode %s"
-msgstr "以%s 模式重新打开%s 失败"
+msgstr "以 %s 模式重新打开 %s 失败"
 
 #: lib/xmemcoll.c:39 src/expr.c:877
 #, c-format
@@ -858,12 +860,12 @@ msgstr "字符串比较出现错误"
 #: lib/xmemcoll.c:40
 #, c-format
 msgid "Set LC_ALL='C' to work around the problem."
-msgstr "请设置LC_ALL='C' 以避免出现问题。"
+msgstr "请设置 LC_ALL='C' 以避免出现问题。"
 
 #: lib/xmemcoll.c:42
 #, c-format
 msgid "The strings compared were %s and %s."
-msgstr "要比较的字符串为%s 和%s。"
+msgstr "要比较的字符串为 %s 和 %s。"
 
 #: lib/xprintf.c:50 lib/xprintf.c:76
 #, c-format
@@ -873,17 +875,17 @@ msgstr "不能执行格式化输出"
 #: lib/xstrtol-error.c:63
 #, c-format
 msgid "invalid %s%s argument '%s'"
-msgstr "非法的%s%s 参数\"%s\""
+msgstr "非法的 %s%s 参数“%s”"
 
 #: lib/xstrtol-error.c:68
 #, c-format
 msgid "invalid suffix in %s%s argument '%s'"
-msgstr "非法的后缀在%s%s 参数\"%s\""
+msgstr "非法的后缀在 %s%s 参数“%s”"
 
 #: lib/xstrtol-error.c:72
 #, c-format
 msgid "%s%s argument '%s' too large"
-msgstr "%s%s 参数\"%s\"太大"
+msgstr "%s%s 参数“%s”太大"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/base64.c:35
@@ -909,7 +911,7 @@ msgid ""
 "\n"
 msgstr ""
 "  -d, --decode\t\t解码数据\n"
-"  -i, --ignore-garbag\t解码时忽略非字母字符\n"
+"  -i, --ignore-garbage\t解码时忽略非字母字符\n"
 "  -w, --wrap=字符数\t在指定的字符数后自动换行(默认为76)，0 为禁用自动换行\n"
 "\n"
 
@@ -1239,7 +1241,7 @@ msgstr "  -R, --recursive        递归地在文件和目录上操作\n"
 
 #: src/chcon.c:386
 msgid "  -v, --verbose          output a diagnostic for every file processed\n"
-msgstr ""
+msgstr "  -v, --verbose          对每个被处理的文件都输出一条诊断信息\n"
 
 #: src/chcon.c:389 src/chgrp.c:144 src/chown.c:121
 msgid ""
@@ -2122,13 +2124,15 @@ msgstr ""
 #: src/coreutils.c:64
 #, c-format
 msgid "Usage: %s --coreutils-prog=PROGRAM_NAME [PARAMETERS]... \n"
-msgstr ""
+msgstr "用法：%s --coreutils-prog=程序名 [参数]... \n"
 
 #: src/coreutils.c:67
 msgid ""
 "Execute the PROGRAM_NAME built-in program with the given PARAMETERS.\n"
 "\n"
 msgstr ""
+"带着给定的 <参数> 运行名为 <程序名> 的内置程序。\n"
+"\n"
 
 #: src/coreutils.c:85
 #, c-format
@@ -2136,6 +2140,8 @@ msgid ""
 "\n"
 "Use: '%s --coreutils-prog=PROGRAM_NAME --help' for individual program help.\n"
 msgstr ""
+"\n"
+"使用：“%s --coreutils-prog=程序名 --help” 以获得程序各自的帮助。\n"
 
 #: src/coreutils.c:177 src/coreutils.c:202
 #, fuzzy, c-format
@@ -2803,7 +2809,7 @@ msgstr ""
 
 #: src/date.c:128
 msgid "Display the current time in the given FORMAT, or set the system date.\n"
-msgstr ""
+msgstr "按照指定的 <格式> 显示当前时间，或设置系统日期。\n"
 
 #: src/date.c:134
 #, fuzzy
@@ -4506,7 +4512,7 @@ msgstr "请设置LC_ALL='C' 以避免出现问题。"
 #: src/expr.c:880
 #, c-format
 msgid "the strings compared were %s and %s"
-msgstr "已比较的字符串为%s 和%s"
+msgstr "已比较的字符串为%s 和 %s"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/factor.c:129
@@ -7172,7 +7178,7 @@ msgstr ""
 
 #: src/numfmt.c:953
 msgid "  none       no auto-scaling is done; suffixes will trigger an error\n"
-msgstr ""
+msgstr "  none       不进行自动缩放，后缀将引发错误\n"
 
 #: src/numfmt.c:956
 msgid ""
@@ -7182,6 +7188,11 @@ msgid ""
 "               1M = 1000000,\n"
 "               1Mi = 1048576,\n"
 msgstr ""
+"  auto       允许可选的单/双字母后缀：\n"
+"               1K = 1000,\n"
+"               1Ki = 1024,\n"
+"               1M = 1000000,\n"
+"               1Mi = 1048576,\n"
 
 #: src/numfmt.c:962
 msgid ""
@@ -7190,6 +7201,10 @@ msgid ""
 "               1M = 1000000,\n"
 "               ...\n"
 msgstr ""
+"  si         允许可选的单字母后缀：\n"
+"               1K = 1000,\n"
+"               1M = 1000000,\n"
+"               ...\n"
 
 #: src/numfmt.c:967
 msgid ""
@@ -7198,6 +7213,10 @@ msgid ""
 "               1M = 1048576,\n"
 "               ...\n"
 msgstr ""
+"  iec        允许可选的单字母后缀：\n"
+"               1K = 1024,\n"
+"               1M = 1048576,\n"
+"               ...\n"
 
 #: src/numfmt.c:972
 msgid ""
@@ -7206,6 +7225,10 @@ msgid ""
 "               1Mi = 1048576,\n"
 "               ...\n"
 msgstr ""
+"  iec-i      允许可选的双字母后缀：\n"
+"               1Ki = 1024,\n"
+"               1Mi = 1048576,\n"
+"               ...\n"
 
 #: src/numfmt.c:978
 #, fuzzy
@@ -7321,7 +7344,7 @@ msgstr "格式%s 中%% 指令过多"
 #, fuzzy, c-format
 #| msgid "invalid suffix in %s%s argument `%s'"
 msgid "invalid suffix in input %s: %s"
-msgstr "非法的后缀在%s%s 参数\"%s\""
+msgstr "非法的后缀在%s%s 参数“%s”"
 
 #: src/numfmt.c:1211
 #, c-format
@@ -11381,10 +11404,9 @@ msgid "missing argument to %s"
 msgstr "缺少%s 的参数"
 
 #: src/stty.c:1309
-#, fuzzy, c-format
-#| msgid "%s: error truncating"
+#, c-format
 msgid "%s: error setting %s"
-msgstr "%s：截断文件时出错"
+msgstr "%s：设置 %s 时出错"
 
 #: src/stty.c:1357
 #, c-format
@@ -11402,10 +11424,8 @@ msgid "%s: no size information for this device"
 msgstr "%s：此设备没有大小信息"
 
 #: src/stty.c:2306
-#, fuzzy
-#| msgid "invalid integer argument %s"
 msgid "invalid integer argument"
-msgstr "无效的整数参数%s"
+msgstr "无效的整数参数"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/sum.c:37
