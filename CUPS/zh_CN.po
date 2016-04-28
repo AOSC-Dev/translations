@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: CUPS 1.6\n"
 "Report-Msgid-Bugs-To: http://www.cups.org/str.php\n"
 "POT-Creation-Date: 2016-03-17 10:36-0600\n"
-"PO-Revision-Date: 2016-03-29 16:32-0600\n"
+"PO-Revision-Date: 2016-04-28 10:49-0600\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3947,91 +3947,91 @@ msgstr ""
 
 #: ppdc/sample.c:73
 msgid "Envelope #10 "
-msgstr ""
+msgstr "10 号信封 "
 
 #: ppdc/sample.c:74
 msgid "Envelope #11"
-msgstr ""
+msgstr "11 号信封"
 
 #: ppdc/sample.c:75
 msgid "Envelope #12"
-msgstr ""
+msgstr "12 号信封"
 
 #: ppdc/sample.c:76
 msgid "Envelope #14"
-msgstr ""
+msgstr "14 号信封"
 
 #: ppdc/sample.c:77
 msgid "Envelope #9"
-msgstr ""
+msgstr "9 号信封"
 
 #: ppdc/sample.c:89
 msgid "Envelope B4"
-msgstr ""
+msgstr "B4 信封"
 
 #: ppdc/sample.c:90
 msgid "Envelope B5"
-msgstr ""
+msgstr "B5 信封"
 
 #: ppdc/sample.c:91
 msgid "Envelope B6"
-msgstr ""
+msgstr "B6 信封"
 
 #: ppdc/sample.c:78
 msgid "Envelope C0"
-msgstr ""
+msgstr "C0 信封"
 
 #: ppdc/sample.c:79
 msgid "Envelope C1"
-msgstr ""
+msgstr "C1 信封"
 
 #: ppdc/sample.c:80
 msgid "Envelope C2"
-msgstr ""
+msgstr "C2 信封"
 
 #: ppdc/sample.c:81
 msgid "Envelope C3"
-msgstr ""
+msgstr "C3 信封"
 
 #: ppdc/sample.c:67
 msgid "Envelope C4"
-msgstr ""
+msgstr "C4 信封"
 
 #: ppdc/sample.c:68
 msgid "Envelope C5"
-msgstr ""
+msgstr "C5 信封"
 
 #: ppdc/sample.c:69
 msgid "Envelope C6"
-msgstr ""
+msgstr "C6 信封"
 
 #: ppdc/sample.c:82
 msgid "Envelope C65"
-msgstr ""
+msgstr "C65 信封"
 
 #: ppdc/sample.c:83
 msgid "Envelope C7"
-msgstr ""
+msgstr "C7 信封"
 
 #: ppdc/sample.c:84
 msgid "Envelope Choukei 3"
-msgstr ""
+msgstr "Choukei 3 信封"
 
 #: ppdc/sample.c:85
 msgid "Envelope Choukei 3 Long Edge"
-msgstr ""
+msgstr "Choukei 3 长边缘信封"
 
 #: ppdc/sample.c:86
 msgid "Envelope Choukei 4"
-msgstr ""
+msgstr "Choukei 4 信封"
 
 #: ppdc/sample.c:87
 msgid "Envelope Choukei 4 Long Edge"
-msgstr ""
+msgstr "Choukei 4 长边缘信封"
 
 #: ppdc/sample.c:70
 msgid "Envelope DL"
-msgstr ""
+msgstr "DL 信封"
 
 #: ppdc/sample.c:261
 msgid "Envelope Feed"
@@ -4039,75 +4039,75 @@ msgstr ""
 
 #: ppdc/sample.c:88
 msgid "Envelope Invite"
-msgstr ""
+msgstr "请柬信封"
 
 #: ppdc/sample.c:92
 msgid "Envelope Italian"
-msgstr ""
+msgstr "意大利信封"
 
 #: ppdc/sample.c:93
 msgid "Envelope Kaku2"
-msgstr ""
+msgstr "Kaku2 信封"
 
 #: ppdc/sample.c:94
 msgid "Envelope Kaku2 Long Edge"
-msgstr ""
+msgstr "Kaku2 长边缘信封"
 
 #: ppdc/sample.c:95
 msgid "Envelope Kaku3"
-msgstr ""
+msgstr "Kaku3 信封"
 
 #: ppdc/sample.c:96
 msgid "Envelope Kaku3 Long Edge"
-msgstr ""
+msgstr "Kaku2 长边缘信封"
 
 #: ppdc/sample.c:97
 msgid "Envelope Monarch"
-msgstr ""
+msgstr "君主信封"
 
 #: ppdc/sample.c:99
 msgid "Envelope PRC1 "
-msgstr ""
+msgstr "中国一号信封 "
 
 #: ppdc/sample.c:100
 msgid "Envelope PRC1 Long Edge"
-msgstr ""
+msgstr "中国一号长边缘信封"
 
 #: ppdc/sample.c:117
 msgid "Envelope PRC10"
-msgstr ""
+msgstr "中国十号信封"
 
 #: ppdc/sample.c:118
 msgid "Envelope PRC10 Long Edge"
-msgstr ""
+msgstr "中国十号长边缘信封"
 
 #: ppdc/sample.c:101
 msgid "Envelope PRC2"
-msgstr ""
+msgstr "中国二号信封"
 
 #: ppdc/sample.c:102
 msgid "Envelope PRC2 Long Edge"
-msgstr ""
+msgstr "中国二号长边缘信封"
 
 #: ppdc/sample.c:103
 msgid "Envelope PRC3"
-msgstr ""
+msgstr "中国三号信封"
 
 #: ppdc/sample.c:104
 msgid "Envelope PRC3 Long Edge"
-msgstr ""
+msgstr "中国三号长边缘信封"
 
 #: ppdc/sample.c:105
 msgid "Envelope PRC4"
-msgstr ""
+msgstr "中国四号信封"
 
 #: ppdc/sample.c:106
 msgid "Envelope PRC4 Long Edge"
-msgstr ""
+msgstr "中国四号长边缘信封"
 
 #: ppdc/sample.c:108
 msgid "Envelope PRC5 Long Edge"
-msgstr ""
+msgstr "中国五号长边缘信封"
 
 #: ppdc/sample.c:107
 msgid "Envelope PRC5PRC5"
@@ -4115,128 +4115,129 @@ msgstr ""
 
 #: ppdc/sample.c:109
 msgid "Envelope PRC6"
-msgstr ""
+msgstr "中国六号信封"
 
 #: ppdc/sample.c:110
 msgid "Envelope PRC6 Long Edge"
-msgstr ""
+msgstr "中国六号长边缘信封"
 
 #: ppdc/sample.c:111
 msgid "Envelope PRC7"
-msgstr ""
+msgstr "中国七号信封"
 
 #: ppdc/sample.c:112
 msgid "Envelope PRC7 Long Edge"
-msgstr ""
+msgstr "中国七号长边缘信封"
 
 #: ppdc/sample.c:113
 msgid "Envelope PRC8"
-msgstr ""
+msgstr "中国八号信封"
 
 #: ppdc/sample.c:114
 msgid "Envelope PRC8 Long Edge"
-msgstr ""
+msgstr "中国八号长边缘信封"
 
 #: ppdc/sample.c:115
 msgid "Envelope PRC9"
-msgstr ""
+msgstr "中国九号信封"
 
 #: ppdc/sample.c:116
 msgid "Envelope PRC9 Long Edge"
-msgstr ""
+msgstr "中国九号长边缘信封"
 
 #: ppdc/sample.c:98
 msgid "Envelope Personal"
-msgstr ""
+msgstr "个人信封"
 
 #: ppdc/sample.c:119
 msgid "Envelope You4"
-msgstr ""
+msgstr "You4 信封"
 
 #: ppdc/sample.c:120
 msgid "Envelope You4 Long Edge"
-msgstr ""
+msgstr "You4 长边缘信封"
 
 #: test/ippfind.c:2817
 msgid "Environment Variables:"
-msgstr ""
+msgstr "环境变量："
 
 #: ppdc/sample.c:240
 msgid "Epson"
-msgstr ""
+msgstr "Epson"
 
 #: cgi-bin/admin.c:3590
 msgid "Error Policy"
-msgstr ""
+msgstr "错误策略"
 
 #: filter/rastertopwg.c:449
 msgid "Error reading raster data."
-msgstr ""
+msgstr "读取栅格化数据出错。"
 
 #: filter/rastertopwg.c:421 filter/rastertopwg.c:439 filter/rastertopwg.c:457
 #: filter/rastertopwg.c:468
 msgid "Error sending raster data."
-msgstr ""
+msgstr "发送栅格化数据出错。"
 
 #: systemv/lpinfo.c:103 systemv/lpmove.c:88
 msgid "Error: need hostname after \"-h\" option."
-msgstr ""
+msgstr "错误：“-h”选项后需要主机名。"
 
 #: ppdc/sample.c:350
 msgid "Every 10 Labels"
-msgstr ""
+msgstr "每 10 个标签"
 
 #: ppdc/sample.c:342
 msgid "Every 2 Labels"
-msgstr ""
+msgstr "每 2 个标签"
 
 #: ppdc/sample.c:343
 msgid "Every 3 Labels"
-msgstr ""
+msgstr "每 3 个标签"
 
 #: ppdc/sample.c:344
 msgid "Every 4 Labels"
-msgstr ""
+msgstr "每 4 个标签"
 
 #: ppdc/sample.c:345
 msgid "Every 5 Labels"
-msgstr ""
+msgstr "每 5 个标签"
 
 #: ppdc/sample.c:346
 msgid "Every 6 Labels"
-msgstr ""
+msgstr "每 6 个标签"
 
 #: ppdc/sample.c:347
 msgid "Every 7 Labels"
-msgstr ""
+msgstr "每 7 个标签"
 
 #: ppdc/sample.c:348
 msgid "Every 8 Labels"
-msgstr ""
+msgstr "每 8 个标签"
 
 #: ppdc/sample.c:349
 msgid "Every 9 Labels"
-msgstr ""
+msgstr "每 9 个标签"
 
 #: ppdc/sample.c:341
 msgid "Every Label"
-msgstr ""
+msgstr "每个标签"
 
 #: ppdc/sample.c:121
 msgid "Executive"
-msgstr ""
+msgstr "执行"
 
 #: cups/http-support.c:1394
+#, fuzzy
 msgid "Expectation Failed"
-msgstr ""
+msgstr "期望失败"
 
 #: cgi-bin/admin.c:2342 cgi-bin/admin.c:2361
 msgid "Export Printers to Samba"
-msgstr ""
+msgstr "将打印机导出到 Samba"
 
 #: test/ippfind.c:2763
 msgid "Expressions:"
-msgstr ""
+msgstr "表达式："
 
 #: systemv/cupstestdsc.c:172 systemv/cupstestdsc.c:189
 #: systemv/cupstestdsc.c:214 systemv/cupstestdsc.c:231
@@ -4246,7 +4247,7 @@ msgstr ""
 #: systemv/cupstestdsc.c:369 systemv/cupstestdsc.c:379
 #: systemv/cupstestdsc.c:387
 msgid "FAIL"
-msgstr ""
+msgstr "失败"
 
 #: ppdc/sample.c:122
 msgid "FanFold German"
@@ -4263,31 +4264,32 @@ msgstr ""
 #: cups/file.c:262
 #, c-format
 msgid "File \"%s\" contains a relative path."
-msgstr ""
+msgstr "文件“%s”包含相对路径。"
 
 #: cups/file.c:237
 #, c-format
 msgid "File \"%s\" has insecure permissions (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "文件“%s”带有不安全的权限许可 (0%o/uid=%d/gid=%d)。"
 
 #: cups/file.c:251
 #, c-format
 msgid "File \"%s\" is a directory."
-msgstr ""
+msgstr "文件“%s”是一个目录。"
 
 #: cups/file.c:223
 #, c-format
 msgid "File \"%s\" not available: %s"
-msgstr ""
+msgstr "文件“%s”不可用：%s"
 
 #: cups/file.c:209
 #, c-format
 msgid "File \"%s\" permissions OK (0%o/uid=%d/gid=%d)."
-msgstr ""
+msgstr "文件“%s”的权限许可无问题 (0%o/uid=%d/gid=%d)。"
 
 #: ppdc/sample.c:169
+#, fuzzy
 msgid "File Folder "
-msgstr ""
+msgstr "文件夹 "
 
 #: scheduler/ipp.c:2382
 #, c-format
@@ -4295,28 +4297,30 @@ msgid ""
 "File device URIs have been disabled. To enable, see the FileDevice directive "
 "in \"%s/cups-files.conf\"."
 msgstr ""
+"已禁用文件设备 URI。要启用此功能，参阅“%s/cups-files.conf”中的 FileDevice 参"
+"数。"
 
 #: filter/rastertoepson.c:1138 filter/rastertohp.c:810
 #: filter/rastertolabel.c:1246
 #, c-format
 msgid "Finished page %d."
-msgstr ""
+msgstr "已完成第 %d 页。"
 
 #: ppdc/sample.c:125
 msgid "Folio"
-msgstr ""
+msgstr "对开本"
 
 #: cups/http-support.c:1373
 msgid "Forbidden"
-msgstr ""
+msgstr "已禁止"
 
 #: cups/ppd.c:769 cups/ppd.c:1327
 msgid "General"
-msgstr ""
+msgstr "常规"
 
 #: ppdc/sample.c:251
 msgid "Generic"
-msgstr ""
+msgstr "通用"
 
 #: cups/snmp.c:968
 msgid "Get-Response-PDU uses indefinite length"
@@ -4324,22 +4328,22 @@ msgstr ""
 
 #: ppdc/sample.c:285
 msgid "Glossy Paper"
-msgstr ""
+msgstr "光面纸"
 
 #: scheduler/ipp.c:2931 scheduler/ipp.c:3341 scheduler/ipp.c:3879
 #: scheduler/ipp.c:6157 scheduler/ipp.c:6304 scheduler/ipp.c:7802
 #: scheduler/ipp.c:8936 scheduler/ipp.c:9160 scheduler/ipp.c:9512
 #: scheduler/ipp.c:10125
 msgid "Got a printer-uri attribute but no job-id."
-msgstr ""
+msgstr "获取到了 printer-uri 属性却未获取到 job-id。"
 
 #: ppdc/sample.c:275
 msgid "Grayscale"
-msgstr ""
+msgstr "灰度"
 
 #: ppdc/sample.c:272
 msgid "HP"
-msgstr ""
+msgstr "HP"
 
 #: ppdc/sample.c:170
 msgid "Hanging Folder"
@@ -4347,151 +4351,151 @@ msgstr ""
 
 #: cups/hash.c:245
 msgid "Hash buffer too small."
-msgstr ""
+msgstr "哈希值缓冲区太小。"
 
 #: cgi-bin/help.c:143
 msgid "Help file not in index."
-msgstr ""
+msgstr "帮助文件不在索引中。"
 
 #: cups/ipp.c:3183 cups/ipp.c:3210 cups/ipp.c:3233
 msgid "IPP 1setOf attribute with incompatible value tags."
-msgstr ""
+msgstr "带有不兼容值标签的 IPP 1setOf 属性。"
 
 #: cups/ipp.c:3146
 msgid "IPP attribute has no name."
-msgstr ""
+msgstr "IPP 属性未命名。"
 
 #: cups/ipp.c:7016
 msgid "IPP attribute is not a member of the message."
-msgstr ""
+msgstr "IPP 属性不是消息成员。"
 
 #: cups/ipp.c:3594
 msgid "IPP begCollection value not 0 bytes."
-msgstr ""
+msgstr "IPP begCollection 值大小不是 0 字节。"
 
 #: cups/ipp.c:3376
 msgid "IPP boolean value not 1 byte."
-msgstr ""
+msgstr "IPP 布里值大小不是 1 字节。"
 
 #: cups/ipp.c:3437
 msgid "IPP date value not 11 bytes."
-msgstr ""
+msgstr "IPP 日期值大小不是 11 字节。"
 
 #: cups/ipp.c:3615
 msgid "IPP endCollection value not 0 bytes."
-msgstr ""
+msgstr "IPP endCollection 值大小不是 0 字节。"
 
 #: cups/ipp.c:3351
 msgid "IPP enum value not 4 bytes."
-msgstr ""
+msgstr "IPP enum 值大小不是 4 字节。"
 
 #: cups/ipp.c:3075
 msgid "IPP extension tag larger than 0x7FFFFFFF."
-msgstr ""
+msgstr "IPP 扩展标签大于 0x7FFFFFFF。"
 
 #: cups/ipp.c:3348
 msgid "IPP integer value not 4 bytes."
-msgstr ""
+msgstr "IPP 整数值大小不是 4 字节。"
 
 #: cups/ipp.c:3547
 msgid "IPP language length overflows value."
-msgstr ""
+msgstr "IPP 语言长度溢出值限制。"
 
 #: cups/ipp.c:3556
 msgid "IPP language length too large."
-msgstr ""
+msgstr "IPP 语言长度太长。"
 
 #: cups/ipp.c:3260
 msgid "IPP member name is not empty."
-msgstr ""
+msgstr "IPP 成员名称非空。"
 
 #: cups/ipp.c:3641
 msgid "IPP memberName value is empty."
-msgstr ""
+msgstr "IPP memberName 值为空。"
 
 #: cups/ipp.c:3633
 msgid "IPP memberName with no attribute."
-msgstr ""
+msgstr "IPP memberName 无属性。"
 
 #: cups/ipp.c:3129
 msgid "IPP name larger than 32767 bytes."
-msgstr ""
+msgstr "IPP 名称大小超过 32767 字节。"
 
 #: cups/ipp.c:3514
 msgid "IPP nameWithLanguage value less than minimum 4 bytes."
-msgstr ""
+msgstr "IPP nameWithLanguage 值大小小于 4 字节的最小限制。"
 
 #: cups/ipp.c:3671
 msgid "IPP octetString length too large."
-msgstr ""
+msgstr "IPP octetString 长度过长。"
 
 #: cups/ipp.c:3482
 msgid "IPP rangeOfInteger value not 8 bytes."
-msgstr ""
+msgstr "IPP rangeOfInteger 值大小不是 8 字节。"
 
 #: cups/ipp.c:3455
 msgid "IPP resolution value not 9 bytes."
-msgstr ""
+msgstr "IPP 分辨率值大小不是 9 字节。"
 
 #: cups/ipp.c:3574
 msgid "IPP string length overflows value."
-msgstr ""
+msgstr "IPP 字串长度超过溢出值限制。"
 
 #: cups/ipp.c:3510
 msgid "IPP textWithLanguage value less than minimum 4 bytes."
-msgstr ""
+msgstr "IPP textWithLanguage 值大小小于 4 字节的最小限制。"
 
 #: cups/ipp.c:3334
 msgid "IPP value larger than 32767 bytes."
-msgstr ""
+msgstr "IPP 值大小超过 32767 字节。"
 
 #: ppdc/sample.c:1
 msgid "ISOLatin1"
-msgstr ""
+msgstr "ISOLatin1"
 
 #: cups/ppd.c:330
 msgid "Illegal control character"
-msgstr ""
+msgstr "非法控制字符"
 
 #: cups/ppd.c:331
 msgid "Illegal main keyword string"
-msgstr ""
+msgstr "非法主关键词字串"
 
 #: cups/ppd.c:332
 msgid "Illegal option keyword string"
-msgstr ""
+msgstr "非法选项关键词字串"
 
 #: cups/ppd.c:333
 msgid "Illegal translation string"
-msgstr ""
+msgstr "非法翻译字串"
 
 #: cups/ppd.c:334
 msgid "Illegal whitespace character"
-msgstr ""
+msgstr "非法空白字符"
 
 #: ppdc/sample.c:266
 msgid "Installable Options"
-msgstr ""
+msgstr "可安装选项"
 
 #: ppdc/sample.c:269
 msgid "Installed"
-msgstr ""
+msgstr "已安装"
 
 #: ppdc/sample.c:288
 msgid "IntelliBar Label Printer"
-msgstr ""
+msgstr "IntelliBar 标签打印机"
 
 #: ppdc/sample.c:287
 msgid "Intellitech"
-msgstr ""
+msgstr "Intellitech"
 
 #: cups/http-support.c:1400
 msgid "Internal Server Error"
-msgstr ""
+msgstr "内部服务器错误"
 
 #: cups/ppd.c:321
 msgid "Internal error"
-msgstr ""
+msgstr "内部错误"
 
 #: ppdc/sample.c:167
 msgid "Internet Postage 2-Part"
@@ -4503,89 +4507,89 @@ msgstr ""
 
 #: backend/ipp.c:326
 msgid "Internet Printing Protocol"
-msgstr ""
+msgstr "互联网打印协议"
 
 #: cups/pwg-media.c:294 cups/pwg-media.c:313
 msgid "Invalid media name arguments."
-msgstr ""
+msgstr "无效的媒体名称参数。"
 
 #: cups/dest-options.c:1032
 msgid "Invalid media size."
-msgstr ""
+msgstr "无效的媒体大小。"
 
 #: scheduler/ipp.c:2669 scheduler/ipp.c:6973
 msgid "Invalid ppd-name value."
-msgstr ""
+msgstr "无效的 ppd-name 值。"
 
 #: filter/commandtops.c:114
 #, c-format
 msgid "Invalid printer command \"%s\"."
-msgstr ""
+msgstr "无效的打印机命令“%s”。"
 
 #: cups/ppd.c:1445
 msgid "JCL"
-msgstr ""
+msgstr "JCL"
 
 #: ppdc/sample.c:53
 msgid "JIS B0"
-msgstr ""
+msgstr "JIS B0"
 
 #: ppdc/sample.c:55
 msgid "JIS B1"
-msgstr ""
+msgstr "JIS B1"
 
 #: ppdc/sample.c:54
 msgid "JIS B10"
-msgstr ""
+msgstr "JIS B10"
 
 #: ppdc/sample.c:56
 msgid "JIS B2"
-msgstr ""
+msgstr "JIS B2"
 
 #: ppdc/sample.c:57
 msgid "JIS B3"
-msgstr ""
+msgstr "JIS B3"
 
 #: ppdc/sample.c:58
 msgid "JIS B4"
-msgstr ""
+msgstr "JIS B4"
 
 #: ppdc/sample.c:59
 msgid "JIS B4 Long Edge"
-msgstr ""
+msgstr "JIS B4 长边缘"
 
 #: ppdc/sample.c:60
 msgid "JIS B5"
-msgstr ""
+msgstr "JIS B5"
 
 #: ppdc/sample.c:61
 msgid "JIS B5 Long Edge"
-msgstr ""
+msgstr "JIS B5 长边缘"
 
 #: ppdc/sample.c:62
 msgid "JIS B6"
-msgstr ""
+msgstr "JIS B6"
 
 #: ppdc/sample.c:63
 msgid "JIS B6 Long Edge"
-msgstr ""
+msgstr "JIS B6 长边缘"
 
 #: ppdc/sample.c:64
 msgid "JIS B7"
-msgstr ""
+msgstr "JIS B7"
 
 #: ppdc/sample.c:65
 msgid "JIS B8"
-msgstr ""
+msgstr "JIS B8"
 
 #: ppdc/sample.c:66
 msgid "JIS B9"
-msgstr ""
+msgstr "JIS B9"
 
 #: scheduler/ipp.c:9232
 #, c-format
 msgid "Job #%d cannot be restarted - no files."
-msgstr ""
+msgstr "无法重启任务 #%d - 没有文件。"
 
 #: scheduler/ipp.c:2971 scheduler/ipp.c:3205 scheduler/ipp.c:3264
 #: scheduler/ipp.c:3443 scheduler/ipp.c:3889 scheduler/ipp.c:5816
@@ -4595,37 +4599,37 @@ msgstr ""
 #: scheduler/ipp.c:9200 scheduler/ipp.c:9552 scheduler/ipp.c:10165
 #, c-format
 msgid "Job #%d does not exist."
-msgstr ""
+msgstr "任务 #%d 不存在。"
 
 #: scheduler/ipp.c:3475
 #, c-format
 msgid "Job #%d is already aborted - can't cancel."
-msgstr ""
+msgstr "任务 #%d 已中止 - 无法取消。"
 
 #: scheduler/ipp.c:3469
 #, c-format
 msgid "Job #%d is already canceled - can't cancel."
-msgstr ""
+msgstr "任务 #%d 已取消 - 无法取消。"
 
 #: scheduler/ipp.c:3481
 #, c-format
 msgid "Job #%d is already completed - can't cancel."
-msgstr ""
+msgstr "任务 #%d 已完成 - 无法取消。"
 
 #: scheduler/ipp.c:7869 scheduler/ipp.c:8153 scheduler/ipp.c:10180
 #, c-format
 msgid "Job #%d is finished and cannot be altered."
-msgstr ""
+msgstr "任务 #%d 已完成且不可更动。"
 
 #: scheduler/ipp.c:9214
 #, c-format
 msgid "Job #%d is not complete."
-msgstr ""
+msgstr "任务 #%d 未完成。"
 
 #: scheduler/ipp.c:2986
-#, c-format
+#, fuzzy, c-format
 msgid "Job #%d is not held for authentication."
-msgstr ""
+msgstr "任务 #%d 已完成认证。"
 
 #: scheduler/ipp.c:8990
 #, c-format
@@ -4634,72 +4638,74 @@ msgstr ""
 
 #: cgi-bin/ipp-var.c:1038
 msgid "Job Completed"
-msgstr ""
+msgstr "任务已完成"
 
 #: cgi-bin/ipp-var.c:1036
 msgid "Job Created"
-msgstr ""
+msgstr "任务已创建"
 
 #: cgi-bin/ipp-var.c:1042
 msgid "Job Options Changed"
-msgstr ""
+msgstr "任务选项更动"
 
 #: cgi-bin/ipp-var.c:1040
 msgid "Job Stopped"
-msgstr ""
+msgstr "任务已停止"
 
 #: scheduler/ipp.c:10262
 msgid "Job is completed and cannot be changed."
-msgstr ""
+msgstr "任务已完成且不能更改。"
 
 #: cgi-bin/jobs.c:192
 msgid "Job operation failed"
-msgstr ""
+msgstr "任务操作失败"
 
 #: scheduler/ipp.c:10298 scheduler/ipp.c:10315 scheduler/ipp.c:10326
 msgid "Job state cannot be changed."
-msgstr ""
+msgstr "无法更改任务状态。"
 
 #: scheduler/ipp.c:9080
 msgid "Job subscriptions cannot be renewed."
-msgstr ""
+msgstr "无法为任务订阅续期。"
 
 #: cgi-bin/jobs.c:97 cgi-bin/jobs.c:108 cgi-bin/jobs.c:189
 msgid "Jobs"
-msgstr ""
+msgstr "任务"
 
 #: backend/lpd.c:175
 msgid "LPD/LPR Host or Printer"
-msgstr ""
+msgstr "LPD/LPR 主机或打印机"
 
 #: ppdc/sample.c:230
 msgid "Label Printer"
-msgstr ""
+msgstr "标签打印机"
 
 #: ppdc/sample.c:441
+#, fuzzy
 msgid "Label Top"
-msgstr ""
+msgstr "标签顶部"
 
 #: scheduler/ipp.c:2053 scheduler/ipp.c:5739
 #, c-format
 msgid "Language \"%s\" not supported."
-msgstr ""
+msgstr "不支持的语言“%s”。"
 
 #: ppdc/sample.c:164
+#, fuzzy
 msgid "Large Address"
-msgstr ""
+msgstr "大地址"
 
 #: ppdc/sample.c:286
 msgid "LaserJet Series PCL 4/5"
-msgstr ""
+msgstr "LaserJet 系列 PCL 4/5"
 
 #: ppdc/sample.c:43
 msgid "Letter Oversize"
-msgstr ""
+msgstr "信函超大"
 
 #: ppdc/sample.c:44
 msgid "Letter Oversize Long Edge"
-msgstr ""
+msgstr "信函超大长边缘"
 
 #: ppdc/sample.c:236
 msgid "Light"
@@ -4707,140 +4713,141 @@ msgstr ""
 
 #: cups/ppd.c:329
 msgid "Line longer than the maximum allowed (255 characters)"
-msgstr ""
+msgstr "行长度超过允许的最大值（255 字符）"
 
 #: cgi-bin/admin.c:2379
 msgid "List Available Printers"
-msgstr ""
+msgstr "列出可用打印机"
 
 #: cups/ppd-localize.c:291
 msgid "Load paper."
-msgstr ""
+msgstr "装入纸张。"
 
 #: scheduler/ipp.c:5448
 msgid "Local printer created."
-msgstr ""
+msgstr "已创建本地打印机。"
 
 #: ppdc/sample.c:264
 msgid "Long-Edge (Portrait)"
-msgstr ""
+msgstr "长边缘（竖直）"
 
 #: cups/http-support.c:1727
 msgid "Looking for printer..."
-msgstr ""
+msgstr "正在寻找打印机…"
 
 #: ppdc/sample.c:260
+#, fuzzy
 msgid "Manual Feed"
-msgstr ""
+msgstr "手动装纸"
 
 #: cups/ppd.c:816 cups/ppd.c:1382
 msgid "Media Size"
-msgstr ""
+msgstr "媒体大小"
 
 #: cups/ppd.c:820 cups/ppd.c:1386 ppdc/sample.c:254
 msgid "Media Source"
-msgstr ""
+msgstr "媒体来源"
 
 #: ppdc/sample.c:359
 msgid "Media Tracking"
-msgstr ""
+msgstr "媒体跟踪"
 
 #: cups/ppd.c:818 cups/ppd.c:1384 ppdc/sample.c:280
 msgid "Media Type"
-msgstr ""
+msgstr "媒体类型"
 
 #: ppdc/sample.c:237
 msgid "Medium"
-msgstr ""
+msgstr "介质"
 
 #: cups/ppd.c:318
 msgid "Memory allocation error"
-msgstr ""
+msgstr "内存分配错误"
 
 #: cups/ppd.c:338
 msgid "Missing CloseGroup"
-msgstr ""
+msgstr "缺少 CloseGroup"
 
 #: cups/ppd.c:319
 msgid "Missing PPD-Adobe-4.x header"
-msgstr ""
+msgstr "缺少 PPD-Adobe-4.x 文件头"
 
 #: cups/ppd.c:328
 msgid "Missing asterisk in column 1"
-msgstr ""
+msgstr "列 1 中缺少星号"
 
 #: scheduler/ipp.c:6220
 msgid "Missing document-number attribute."
-msgstr ""
+msgstr "缺少 document-number 属性。"
 
 #: cups/adminutil.c:263
 #, c-format
 msgid "Missing double quote on line %d."
-msgstr ""
+msgstr "行 %d 缺少双引号。"
 
 #: cgi-bin/admin.c:712 cgi-bin/admin.c:2092 cgi-bin/admin.c:2177
 #: cgi-bin/admin.c:2771 cgi-bin/admin.c:3025 cgi-bin/admin.c:3136
 #: cgi-bin/admin.c:3846
 msgid "Missing form variable"
-msgstr ""
+msgstr "缺少表单变量"
 
 #: scheduler/ipp.c:9606
 msgid "Missing last-document attribute in request."
-msgstr ""
+msgstr "请求中缺少 last-document 属性。"
 
 #: cups/pwg-media.c:558
 msgid "Missing media or media-col."
-msgstr ""
+msgstr "缺少 media 或 media-col。"
 
 #: cups/pwg-media.c:477
 msgid "Missing media-size in media-col."
-msgstr ""
+msgstr "media-col 中缺少 media-size。"
 
 #: scheduler/ipp.c:6823
 msgid "Missing notify-subscription-ids attribute."
-msgstr ""
+msgstr "缺少 notify-subscription-ids 属性。"
 
 #: cups/ppd.c:336
 msgid "Missing option keyword"
-msgstr ""
+msgstr "缺少选项关键词"
 
 #: scheduler/ipp.c:3112 scheduler/ipp.c:3137
 msgid "Missing requesting-user-name attribute."
-msgstr ""
+msgstr "缺少 requesting-user-name 属性。"
 
 #: scheduler/ipp.c:5368 scheduler/ipp.c:5394
 #, c-format
 msgid "Missing required attribute \"%s\"."
-msgstr ""
+msgstr "缺少必要的属性“%s”。"
 
 #: scheduler/ipp.c:389
 msgid "Missing required attributes."
-msgstr ""
+msgstr "缺少必要的属性。"
 
 #: cups/http-support.c:1490
 msgid "Missing resource in URI"
-msgstr ""
+msgstr "URI 中缺少资源"
 
 #: cups/http-support.c:1484
 msgid "Missing scheme in URI"
-msgstr ""
+msgstr "URI 中缺少方案"
 
 #: cups/adminutil.c:244
 #, c-format
 msgid "Missing value on line %d."
-msgstr ""
+msgstr "行 %d 缺少值。"
 
 #: cups/ppd.c:320
 msgid "Missing value string"
-msgstr ""
+msgstr "缺少值字串。"
 
 #: cups/pwg-media.c:465
 msgid "Missing x-dimension in media-size."
-msgstr ""
+msgstr "media-size 中缺少 x-dimension。"
 
 #: cups/pwg-media.c:471
 msgid "Missing y-dimension in media-size."
-msgstr ""
+msgstr "media-size 中缺少 y-dimension。"
 
 #: systemv/lpinfo.c:470
 #, c-format
@@ -4850,132 +4857,139 @@ msgid ""
 "        make-and-model = %s\n"
 "        device-id = %s"
 msgstr ""
+"型号：\tname = %s\n"
+"\tnatural_language = %s\n"
+"\tmake-and-model = %s\n"
+"\tdevice-id = %s"
 
 #: test/ippfind.c:2794
+#, fuzzy
 msgid "Modifiers:"
-msgstr ""
+msgstr "修饰符："
 
 #: cgi-bin/admin.c:546
 msgid "Modify Class"
-msgstr ""
+msgstr "修改类"
 
 #: cgi-bin/admin.c:859
 msgid "Modify Printer"
-msgstr ""
+msgstr "修改打印机"
 
 #: cgi-bin/ipp-var.c:413 cgi-bin/ipp-var.c:504
 msgid "Move All Jobs"
-msgstr ""
+msgstr "移动所有任务"
 
 #: cgi-bin/ipp-var.c:352 cgi-bin/ipp-var.c:411 cgi-bin/ipp-var.c:502
 msgid "Move Job"
-msgstr ""
+msgstr "移动任务"
 
 #: cups/http-support.c:1357
+#, fuzzy
 msgid "Moved Permanently"
-msgstr ""
+msgstr "永久移动"
 
 #: cups/ppd.c:317
 msgid "NULL PPD file pointer"
-msgstr ""
+msgstr "PPD 文件指针为 NULL"
 
 #: cups/snmp.c:1005
 msgid "Name OID uses indefinite length"
-msgstr ""
+msgstr "名称 OID 使用不定长度"
 
 #: scheduler/ipp.c:1075
 msgid "Nested classes are not allowed."
-msgstr ""
+msgstr "不允许嵌套类。"
 
 #: ppdc/sample.c:425
 msgid "Never"
-msgstr ""
+msgstr "从不"
 
 #: cups/ppd.c:1973
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: cups/http-support.c:1354
 msgid "No Content"
-msgstr ""
+msgstr "无内容"
 
 #: cups/ppd-util.c:453
 msgid "No PPD name"
-msgstr ""
+msgstr "无 PPD 名称"
 
 #: cups/snmp.c:999
 msgid "No VarBind SEQUENCE"
-msgstr ""
+msgstr "无 VarBind SEQUENCE"
 
 #: cups/adminutil.c:778
 msgid "No Windows printer drivers are installed."
-msgstr ""
+msgstr "未安装 Windows 打印机驱动。"
 
 #: cups/request.c:570 cups/request.c:933
 msgid "No active connection"
-msgstr ""
+msgstr "无活动连接"
 
 #: cups/request.c:350
 msgid "No active connection."
-msgstr ""
+msgstr "无活动连接。"
 
 #: scheduler/ipp.c:3392
 #, c-format
 msgid "No active jobs on %s."
-msgstr ""
+msgstr "%s 上无活动任务。"
 
 #: scheduler/ipp.c:217
 msgid "No attributes in request."
-msgstr ""
+msgstr "请求中无属性。"
 
 #: scheduler/ipp.c:3013
 msgid "No authentication information provided."
-msgstr ""
+msgstr "未提供认证信息。"
 
 #: cups/snmp.c:956
+#, fuzzy
 msgid "No community name"
-msgstr ""
+msgstr "无社群名称"
 
 #: scheduler/ipp.c:6020
 msgid "No default printer."
-msgstr ""
+msgstr "无默认打印机。"
 
 #: cgi-bin/ipp-var.c:424 scheduler/ipp.c:7403
 msgid "No destinations added."
-msgstr ""
+msgstr "未添加目标。"
 
 #: backend/usb.c:200
 msgid "No device URI found in argv[0] or in DEVICE_URI environment variable."
-msgstr ""
+msgstr "argv[0] 或 DEVICE_URI 环境变量中无设备 URI。"
 
 #: cups/snmp.c:986
 msgid "No error-index"
-msgstr ""
+msgstr "无 error-index"
 
 #: cups/snmp.c:978
 msgid "No error-status"
-msgstr ""
+msgstr "无 error-status"
 
 #: scheduler/ipp.c:8358 scheduler/ipp.c:9620
 msgid "No file in print request."
-msgstr ""
+msgstr "打印请求中无文件。"
 
 #: cups/ppd-util.c:166
 msgid "No modification time"
-msgstr ""
+msgstr "无修改时间"
 
 #: cups/snmp.c:1003
 msgid "No name OID"
-msgstr ""
+msgstr "无名称 OID"
 
 #: filter/rastertoepson.c:1168 filter/rastertohp.c:841
 #: filter/rastertolabel.c:1275
 msgid "No pages were found."
-msgstr ""
+msgstr "未找到页面。"
 
 #: cups/ppd-util.c:160
 msgid "No printer name"
-msgstr ""
+msgstr "无打印机名称"
 
 #: cups/ppd-util.c:711
 msgid "No printer-uri found"
