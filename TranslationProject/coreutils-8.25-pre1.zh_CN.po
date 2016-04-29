@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-04-28 17:09-0400\n"
+"PO-Revision-Date: 2016-04-29 00:15-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -11836,10 +11836,9 @@ msgid "cannot watch %s"
 msgstr "无法监视 %s"
 
 #: src/tail.c:1513
-#, fuzzy, c-format
-#| msgid "%s: replace %s? "
+#, c-format
 msgid "%s was replaced"
-msgstr "%s：是否替换 %s？ "
+msgstr "%s 已被替换"
 
 #: src/tail.c:1577
 #, c-format
@@ -11957,16 +11956,14 @@ msgid "invalid integer %s"
 msgstr "无效的整数 %s"
 
 #: src/test.c:245
-#, fuzzy, c-format
-#| msgid "')' expected"
+#, c-format
 msgid "%s expected"
-msgstr "预期为 ')'"
+msgstr "预期为 %s"
 
 #: src/test.c:248
-#, fuzzy, c-format
-#| msgid "')' expected, found %s"
+#, c-format
 msgid "%s expected, found %s"
-msgstr "预期为 ')'，实际为 %s"
+msgstr "预期为 %s，得到 %s"
 
 #: src/test.c:265 src/test.c:623
 #, c-format
@@ -11986,10 +11983,9 @@ msgid "-ot does not accept -l"
 msgstr "-ot 不能于-l 同时使用"
 
 #: src/test.c:372
-#, fuzzy, c-format
-#| msgid "unknown binary operator"
+#, c-format
 msgid "%s: unknown binary operator"
-msgstr "未知双目运算符"
+msgstr "%s：未知双目运算符"
 
 #: src/test.c:651
 #, c-format
@@ -12181,10 +12177,9 @@ msgid "Matthew Bradburn"
 msgstr "Matthew Bradburn"
 
 #: src/test.c:863
-#, fuzzy, c-format
-#| msgid "missing `]'"
+#, c-format
 msgid "missing %s"
-msgstr "缺少\"]\""
+msgstr "缺少 %s"
 
 #: src/test.c:877
 #, c-format
@@ -12982,16 +12977,12 @@ msgstr ""
 "\n"
 
 #: src/uniq.c:183
-#, fuzzy
-#| msgid ""
-#| "  -c, --count           prefix lines by the number of occurrences\n"
-#| "  -d, --repeated        only print duplicate lines\n"
 msgid ""
 "  -c, --count           prefix lines by the number of occurrences\n"
 "  -d, --repeated        only print duplicate lines, one for each group\n"
 msgstr ""
-"  -c, --count\t\t在每行前加上表示相应行目出现次数的前缀编号\n"
-"  -d, --repeated\t只输出重复的行\n"
+"  -c, --count           在每行前加上表示相应行目出现次数的前缀编号\n"
+"  -d, --repeated        只输出重复的行，每组各一个\n"
 
 #: src/uniq.c:187
 msgid ""
