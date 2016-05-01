@@ -4,6 +4,14 @@
 # Mingcong Bai (JeffBai) <jeffbaichina97@gmail.com>, 2015.
 # Mingye Wang <arthur200126@gmail.com>, 2015.
 #
+# Fellow translatiors:
+# Many examples in this text need to be translated to match the strings
+# in `help2man'. A handy translation memory can help you a lot.
+#
+# Some of these are just copypasting and manual indenting. I am kinda
+# lazy now, hence I really don't think it's good to lock the submission
+# to myself. -- Arthur2e5, 2015-05-01.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: help2man-texi 1.47.3\n"
