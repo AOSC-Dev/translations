@@ -10,7 +10,7 @@
 #
 # Some of these are just copypasting and manual indenting. I am kinda
 # lazy now, hence I really don't think it's good to lock the submission
-# to myself. -- Arthur2e5, 2015-05-01.
+# to myself. -- Arthur2e5, 2016-05-01.
 #
 msgid ""
 msgstr ""

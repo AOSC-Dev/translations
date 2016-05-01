@@ -26,7 +26,7 @@
 #
 # The work may not be that difficult, it's just time-consuming and
 # somehow boring to fight a hill of fuzzy strings. Consider having some
-# caffeine along with this work. -- Arthur2e5, 2015-05-01.
+# caffeine along with this work. -- Arthur2e5, 2016-05-01.
 #
 msgid ""
 msgstr ""
