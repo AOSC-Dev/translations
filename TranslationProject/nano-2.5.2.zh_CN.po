@@ -4,22 +4,23 @@
 #
 # LI Daobing <lidaobing@gmail.com>, 2007, 2008, 2009.
 # Aron Xu <happyaron.xu@gmail.com>, 2009, 2010, 2011.
-# Arthur Wang <arthur2e5@aosc.xyz>, 2016.
 # Jeff Bai <jeffbai@aosc.xyz>, 2016.
+# Mingye Wang <arthur2e5@aosc.xyz>, 2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: nano 2.5.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-12 00:24-0500\n"
-"PO-Revision-Date: 2016-05-01 16:29-0600\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2016-05-01 23:02-0400\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Bookmarks: 250,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 #. TRANSLATORS: This is a prompt.
@@ -701,12 +702,10 @@ msgid "Save file without prompting"
 msgstr "不提示并保存文件"
 
 #: src/global.c:611
-#, fuzzy
 msgid "Search next occurrence backward"
 msgstr "向后搜索下一匹配项"
 
 #: src/global.c:612
-#, fuzzy
 msgid "Search next occurrence forward"
 msgstr "向前搜索下一匹配项"
 
@@ -791,22 +790,16 @@ msgid "Go to directory"
 msgstr "跳至目录"
 
 #: src/global.c:652
-#, fuzzy
-#| msgid "Invoke the spell checker, if available"
 msgid "Invoke the linter, if available"
-msgstr "尝试运行拼写检查"
+msgstr "尝试运行查疑器（linter），若可用"
 
 #: src/global.c:653
-#, fuzzy
-#| msgid "Go to previous line"
 msgid "Go to previous linter msg"
-msgstr "跳至前一行"
+msgstr "跳至前一个查疑消息"
 
 #: src/global.c:654
-#, fuzzy
-#| msgid "Go to next line"
 msgid "Go to next linter msg"
-msgstr "跳至后一行"
+msgstr "跳至下一个查疑消息"
 
 #: src/global.c:656
 msgid "Invoke formatter, if available"
@@ -838,10 +831,8 @@ msgid "To Spell"
 msgstr "拼写检查"
 
 #: src/global.c:757
-#, fuzzy
-#| msgid "Go To Line"
 msgid "To Linter"
-msgstr "跳行"
+msgstr "转至查疑器"
 
 #: src/global.c:760
 msgid "Formatter"
@@ -1058,16 +1049,12 @@ msgstr "丢弃缓冲区"
 
 #. TRANSLATORS: Try to keep the next two strings at most 20 characters.
 #: src/global.c:1020
-#, fuzzy
-#| msgid "Prev Line"
 msgid "Prev Lint Msg"
-msgstr "上行"
+msgstr "上个疑处"
 
 #: src/global.c:1022
-#, fuzzy
-#| msgid "Next Line"
 msgid "Next Lint Msg"
-msgstr "下行"
+msgstr "下个疑处"
 
 #. TRANSLATORS: The next seventeen strings are toggle descriptions;
 #. * they are best kept shorter than 40 characters, but may be longer.
@@ -1585,10 +1572,10 @@ msgstr "--tabsize=<#cols>"
 msgid "Set width of a tab to #cols columns"
 msgstr "将制表符宽度设置为 #col 列"
 
+# Statusbar messages will disappear after 1 keystroke instead of 25. Note that -c overrides this. 
 #: src/nano.c:903
-#, fuzzy
 msgid "Do quick statusbar blanking"
-msgstr "快速空白状态栏"
+msgstr "快速清空状态栏"
 
 #: src/nano.c:905
 msgid "Print version information and exit"
@@ -1952,16 +1939,12 @@ msgid "Missing magic string name"
 msgstr "缺少魔法字串名称"
 
 #: src/rcfile.c:984
-#, fuzzy
-#| msgid "Cannot add a header regex without a syntax command"
 msgid "Cannot add a linter without a syntax command"
-msgstr "无法直接增加头部正则表达式而没有语法行"
+msgstr "无法不带语法命令添加查疑器"
 
 #: src/rcfile.c:989
-#, fuzzy
-#| msgid "Missing color name"
 msgid "Missing linter command"
-msgstr "缺少颜色名称"
+msgstr "缺少查疑命令"
 
 #: src/rcfile.c:1010
 msgid "Cannot add formatter without a syntax command"
@@ -2194,9 +2177,8 @@ msgstr "无法创建管道"
 
 #: src/text.c:853 src/text.c:2590 src/text.c:2745 src/text.c:2987
 #: src/text.c:3278
-#, fuzzy
 msgid "Could not fork"
-msgstr "无法分叉"
+msgstr "无法 fork"
 
 #: src/text.c:1855
 #, c-format
@@ -2250,20 +2232,16 @@ msgid "Finished checking spelling"
 msgstr "已完成拼写检查"
 
 #: src/text.c:2922
-#, fuzzy
-#| msgid "Don't add newlines to the ends of files"
 msgid "No linter defined for this type of file!"
-msgstr "不要将换行加到文件末端"
+msgstr "没有为此文件类型定义查疑器！"
 
 #: src/text.c:2927
-#, fuzzy
 msgid "Save modified buffer before linting?"
-msgstr "在 前保存已修改的缓冲区吗？"
+msgstr "在查疑前保存已修改的缓冲区吗？"
 
 #: src/text.c:2944
-#, fuzzy
 msgid "Invoking linter, please wait"
-msgstr "正在调用 ，请稍候"
+msgstr "正在调用查疑器，请稍候"
 
 #: src/text.c:3100
 #, c-format
@@ -2280,12 +2258,10 @@ msgid "No more errors in unopened files, cancelling"
 msgstr "未打开的文件中已没有错误，正在取消"
 
 #: src/text.c:3184
-#, fuzzy
 msgid "At last message"
-msgstr "于最后一条消息"
+msgstr "于末条消息"
 
 #: src/text.c:3189
-#, fuzzy
 msgid "At first message"
 msgstr "于首条消息"
 
