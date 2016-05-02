@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: nano 2.5.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-12 00:24-0500\n"
-"PO-Revision-Date: 2016-05-01 23:02-0400\n"
+"PO-Revision-Date: 2016-05-01 23:04-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1050,11 +1050,11 @@ msgstr "丢弃缓冲区"
 #. TRANSLATORS: Try to keep the next two strings at most 20 characters.
 #: src/global.c:1020
 msgid "Prev Lint Msg"
-msgstr "上个疑处"
+msgstr "上个疑点"
 
 #: src/global.c:1022
 msgid "Next Lint Msg"
-msgstr "下个疑处"
+msgstr "下个疑点"
 
 #. TRANSLATORS: The next seventeen strings are toggle descriptions;
 #. * they are best kept shorter than 40 characters, but may be longer.
@@ -1572,7 +1572,7 @@ msgstr "--tabsize=<#cols>"
 msgid "Set width of a tab to #cols columns"
 msgstr "将制表符宽度设置为 #col 列"
 
-# Statusbar messages will disappear after 1 keystroke instead of 25. Note that -c overrides this. 
+# Statusbar messages will disappear after 1 keystroke instead of 25. Note that -c overrides this.
 #: src/nano.c:903
 msgid "Do quick statusbar blanking"
 msgstr "快速清空状态栏"
