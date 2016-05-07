@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-04-30 16:32-0400\n"
+"PO-Revision-Date: 2016-05-07 16:05-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1343,7 +1343,7 @@ msgstr "                         (只在可以改变符号链接所有者的系�
 msgid ""
 "      --reference=RFILE  use RFILE's group rather than specifying a\n"
 "                         GROUP value\n"
-msgstr ""
+msgstr "      --reference=参    使用指定 <参考文件> 的组，而不是指定组\n"
 
 #: src/chgrp.c:159
 #, c-format
@@ -1422,10 +1422,12 @@ msgstr ""
 #: src/chmod.c:393
 msgid "      --reference=RFILE  use RFILE's mode instead of MODE values\n"
 msgstr ""
+"      --reference=参     使用指定 <参考文件> 的权限模式，而非指定值\n"
+"\n"
 
 #: src/chmod.c:396
 msgid "  -R, --recursive        change files and directories recursively\n"
-msgstr ""
+msgstr "  -R, --recursive        递归地修改文件和目录\n"
 
 #: src/chmod.c:401
 msgid ""
@@ -1532,6 +1534,8 @@ msgid ""
 "With --reference, change the owner and group of each FILE to those of RFILE.\n"
 "\n"
 msgstr ""
+"将每个文件的所有者/组变更至指定所有者/组。\n"
+"使用 --reference 选项时，把指定文件的所有者和所有组设置为与参考文件相同。\n"
 
 #: src/chown.c:103
 msgid ""
@@ -1551,6 +1555,8 @@ msgid ""
 "      --reference=RFILE  use RFILE's owner and group rather than\n"
 "                         specifying OWNER:GROUP values\n"
 msgstr ""
+"      --reference=参    使用指定 <参考文件> 的所有者和组，而不\n"
+"                        指定所有者:所有组\n"
 
 #: src/chown.c:136
 msgid ""
@@ -2648,7 +2654,7 @@ msgid ""
 "                            the -s option is specified\n"
 "  -n                      (ignored)\n"
 msgstr ""
-"  -f, --fields=列表\t\t只选中指定的这些域；并打印所有不包含分界符的\n"
+"  -f, --fields=列表\t\t只选中指定的这些字段；并打印所有不包含分界符的\n"
 "\t\t\t\t行，除非-s 选项被指定\n"
 "  -n\t\t\t\t(忽略)\n"
 
@@ -2656,7 +2662,7 @@ msgstr ""
 msgid ""
 "      --complement        complement the set of selected bytes, characters\n"
 "                            or fields\n"
-msgstr "      --complement\t\t补全选中的字节、字符或域\n"
+msgstr "      --complement\t\t补全选中的字节、字符或字段\n"
 
 #: src/cut.c:173
 msgid ""
@@ -2706,11 +2712,11 @@ msgstr "分界符必须是单个字符"
 
 #: src/cut.c:567
 msgid "you must specify a list of bytes, characters, or fields"
-msgstr "您必须指定一组字节、字符或域的列表"
+msgstr "您必须指定一组字节、字符或字段的列表"
 
 #: src/cut.c:570
 msgid "an input delimiter may be specified only when operating on fields"
-msgstr "只有当操作域时才可以指定输入分界符"
+msgstr "只有当操作字段时才可以指定输入分界符"
 
 #: src/cut.c:574
 msgid ""
@@ -2718,7 +2724,7 @@ msgid ""
 "\tonly when operating on fields"
 msgstr ""
 "清除没有分界符的行仅在\n"
-"\t操作域时才有意义"
+"\t操作字段时才有意义"
 
 #: src/date.c:123
 #, c-format
@@ -2953,7 +2959,7 @@ msgid ""
 "O to use the locale's alternate numeric symbols if available.\n"
 msgstr ""
 "\n"
-"在任何标记之后还允许一个可选的域宽度指定，它是一个十进制数字。\n"
+"在任何标记之后还允许一个可选的字段宽度指定，它是一个十进制数字。\n"
 "作为一个可选的修饰声明，它可以是 E，在可能的情况下使用本地环境关联的\n"
 "表示方式；或者是 O，在可能的情况下使用本地环境关联的数字符号。\n"
 
@@ -3387,10 +3393,9 @@ msgid "%s: cannot skip to specified offset"
 msgstr "%s：无法跳至指定偏移量"
 
 #: src/dd.c:2304
-#, fuzzy, c-format
-#| msgid "failed to truncate to %<PRIuMAX> bytes in output file %s"
+#, c-format
 msgid "failed to truncate to %<PRIdMAX> bytes in output file %s"
-msgstr "无法针对输出文件 %2$s 的 %1$<PRIuMAX> 字节处实施截断"
+msgstr "无法将输出文件 %2$s 截断到 %1$<PRIdMAX> 字节"
 
 #: src/dd.c:2317
 #, c-format
@@ -3477,17 +3482,16 @@ msgstr "挂载点"
 msgid "File"
 msgstr "文件"
 
+# field: 域/字段
 #: src/df.c:387
-#, fuzzy, c-format
-#| msgid "closing output file %s"
+#, c-format
 msgid "option --output: field %s unknown"
-msgstr "正在关闭输出文件 %s"
+msgstr "选项 --output：未知字段 %s"
 
 #: src/df.c:394
-#, fuzzy, c-format
-#| msgid "warning: source file %s specified more than once"
+#, c-format
 msgid "option --output: field %s used more than once"
-msgstr "警告：指定来源文件 %s 多于一次"
+msgstr "选项 --output：字段 %s 用了不止一次"
 
 #: src/df.c:415 src/df.c:454
 msgid "Size"
@@ -3514,17 +3518,10 @@ msgid "cannot access %s: over-mounted by another device"
 msgstr ""
 
 #: src/df.c:1411
-#, fuzzy
-#| msgid ""
-#| "Show information about the file system on which each FILE resides,\n"
-#| "or all file systems by default.\n"
-#| "\n"
 msgid ""
 "Show information about the file system on which each FILE resides,\n"
 "or all file systems by default.\n"
-msgstr ""
-"显示每个文件所在的文件系统的信息，默认是显示所有文件系统。\n"
-"\n"
+msgstr "显示每个文件所在的文件系统的信息，默认是显示所有文件系统。\n"
 
 #. TRANSLATORS: The thousands and decimal separators are best
 #. adjusted to an appropriate default for your locale.
@@ -3556,58 +3553,37 @@ msgstr ""
 "      --no-sync\t\t取得使用量数据前不进行同步动作 (默认)\n"
 
 #: src/df.c:1435
-#, fuzzy
-#| msgid ""
-#| "  -P, --portability     use the POSIX output format\n"
-#| "      --sync            invoke sync before getting usage info\n"
-#| "  -t, --type=TYPE       limit listing to file systems of type TYPE\n"
-#| "  -T, --print-type      print file system type\n"
-#| "  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE\n"
-#| "  -v                    (ignored)\n"
 msgid ""
 "      --output[=FIELD_LIST]  use the output format defined by FIELD_LIST,\n"
 "                               or print all fields if FIELD_LIST is omitted.\n"
 "  -P, --portability     use the POSIX output format\n"
 "      --sync            invoke sync before getting usage info\n"
 msgstr ""
-"  -P, --portability\t使用 POSIX 兼容的输出格式\n"
-"      --sync\t\t取得使用量数据前先进行同步动作\n"
-"  -t, --type=类型\t只显示指定文件系统为指定类型的信息\n"
-"  -T, --print-type\t显示文件系统类型\n"
-"  -x, --exclude-type=类型\t只显示文件系统不是指定类型信息\n"
-"  -v\t\t\t(忽略)\n"
+"      --output[=字段列表] 使用字段列表指定的输出格式，\n"
+"                          若省略之则打印所有字段。\n"
+"  -P, --portability     使用 POSIX 输出格式\n"
+"      --sync            获取使用量数据前先进行同步动作\n"
 
 #: src/df.c:1441
-#, fuzzy
 #| msgid ""
 #| "      --verbose           print a diagnostic just before each\n"
 #| "                            output file is opened\n"
 msgid ""
 "      --total           elide all entries insignificant to available space,\n"
 "                          and produce a grand total\n"
-msgstr "      --verbose\t\t在每个输出文件打开前输出文件特征\n"
+msgstr ""
 
 #: src/df.c:1445
-#, fuzzy
-#| msgid ""
-#| "  -P, --portability     use the POSIX output format\n"
-#| "      --sync            invoke sync before getting usage info\n"
-#| "  -t, --type=TYPE       limit listing to file systems of type TYPE\n"
-#| "  -T, --print-type      print file system type\n"
-#| "  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE\n"
-#| "  -v                    (ignored)\n"
 msgid ""
 "  -t, --type=TYPE       limit listing to file systems of type TYPE\n"
 "  -T, --print-type      print file system type\n"
 "  -x, --exclude-type=TYPE   limit listing to file systems not of type TYPE\n"
 "  -v                    (ignored)\n"
 msgstr ""
-"  -P, --portability\t使用 POSIX 兼容的输出格式\n"
-"      --sync\t\t取得使用量数据前先进行同步动作\n"
-"  -t, --type=类型\t只显示指定文件系统为指定类型的信息\n"
-"  -T, --print-type\t显示文件系统类型\n"
-"  -x, --exclude-type=类型\t只显示文件系统不是指定类型信息\n"
-"  -v\t\t\t(忽略)\n"
+"  -t, --type=类型       只显示文件系统为指定类型的信息\n"
+"  -T, --print-type      打印文件系统类型\n"
+"  -x, --exclude-type=类型   只显示文件系统不是指定类型的信息\n"
+"  -v                    (忽略)\n"
 
 #: src/df.c:1455
 msgid ""
@@ -3618,10 +3594,9 @@ msgid ""
 msgstr ""
 
 #: src/df.c:1492
-#, fuzzy, c-format
-#| msgid "options --compare (-C) and --strip are mutually exclusive"
+#, c-format
 msgid "options %s and %s are mutually exclusive"
-msgstr "选项--compare (-C) 和--strip 是互斥的"
+msgstr "选项 %s 和 %s 是互斥的"
 
 #: src/df.c:1642
 #, c-format
@@ -3738,10 +3713,8 @@ msgstr ""
 "\n"
 
 #: src/dirname.c:59
-#, fuzzy
-#| msgid "  -0, --null     end each output line with 0 byte rather than newline\n"
 msgid "  -z, --zero     end each output line with NUL, not newline\n"
-msgstr "  -0, --null     以空字符而非换行符符结束每一输出行\n"
+msgstr "  -z, --zero     以空字符而非换行符符结束每一输出行\n"
 
 #: src/dirname.c:64
 #, c-format
@@ -3774,13 +3747,6 @@ msgstr ""
 "\n"
 
 #: src/du.c:290
-#, fuzzy
-#| msgid ""
-#| "  -a, --all             write counts for all files, not just directories\n"
-#| "      --apparent-size   print apparent sizes, rather than disk usage; although\n"
-#| "                          the apparent size is usually smaller, it may be\n"
-#| "                          larger due to holes in (`sparse') files, internal\n"
-#| "                          fragmentation, indirect blocks, and the like\n"
 msgid ""
 "  -0, --null            end each output line with NUL, not newline\n"
 "  -a, --all             write counts for all files, not just directories\n"
@@ -3789,10 +3755,12 @@ msgid ""
 "                          larger due to holes in ('sparse') files, internal\n"
 "                          fragmentation, indirect blocks, and the like\n"
 msgstr ""
-"  -a, --all\t\t输出所有文件的磁盘用量，不仅仅是目录\n"
-"      --apparent-size\t显示表面用量，而并非是磁盘用量；虽然表面用量通常会\n"
-"\t\t\t小一些，但有时它会因为稀疏文件间的\"洞\"、内部碎\n"
-"\t\t\t片、非直接引用的块等原因而变大。\n"
+"  -0, --null            以空字符而非换行符符结束每一输出行\n"
+"  -a, --all             输出所有文件的磁盘用量计数，不仅仅是目录\n"
+"      --apparent-size   显示表面（看上去的）用量，而非磁盘用量；\n"
+"                        虽然表面用量通常会比实际小一些，但有时它会因为稀疏\n"
+"                        文件间内的“空洞”、内部碎片、非直接引用的块等原因\n"
+"                        而变大。\n"
 
 #: src/du.c:299
 #, fuzzy
@@ -4345,7 +4313,7 @@ msgstr ""
 #: src/factor.c:2082
 #, c-format
 msgid "squfof queue overflow"
-msgstr ""
+msgstr "squfof 队列溢出"
 
 #: src/factor.c:2498
 #, c-format
@@ -5050,7 +5018,7 @@ msgid ""
 "  -t CHAR           use CHAR as input and output field separator\n"
 msgstr ""
 "  -i, --ignore-case \t比较时忽略大小写\n"
-"  -j 域 \t\t等于\"-1 域 -2 域\"\n"
+"  -j 字段 \t\t等于\"-1 字段 -2 字段\"\n"
 "  -o 格式 \t\t按照指定格式构造输出行\n"
 "  -t 字符 \t\t使用指定字符作为输入和输出的分隔符\n"
 
@@ -5066,11 +5034,11 @@ msgid ""
 "                      print them without trying to pair them\n"
 msgstr ""
 "  -v 文件编号        \t类似 -a 文件编号，但禁止组合输出行\n"
-"  -1 域          \t在文件 1 的此域组合\n"
-"  -2 域          \t在文件 2 的此域组合\n"
+"  -1 字段          \t在文件 1 的此字段组合\n"
+"  -2 字段          \t在文件 2 的此字段组合\n"
 "  --check-order     \t检查输入行是否正确排序，即使所有输入行均是成对的\n"
 "  --nocheck-order   \t不检查输入是否正确排序\n"
-"  --header          \t将首行视作域的头部，直接输出而不对其进行匹配\n"
+"  --header          \t将首行视作字段的头部，直接输出而不对其进行匹配\n"
 
 #: src/join.c:226 src/shuf.c:82 src/sort.c:507 src/uniq.c:205
 #, fuzzy
@@ -5114,12 +5082,12 @@ msgid ""
 "warning message will be given.\n"
 msgstr ""
 "\n"
-"除非使用了\"-t 字符串\" 选项，否则前导空格分隔的域将被忽略，如果指定了字符串，\n"
-"则使用指定字符串分隔任意的域并从 1 开始计数的域编号。可以指定的格式是由一个\n"
-"或多个逗号活空格所分隔的描述，其形式为\"文件编号.域\"或者\"0\"。默认的\n"
-"格式输出合并后的域、文件 1 和文件 2 剩下的域，均由该指定字符串分隔。\n"
+"除非使用了\"-t 字符串\" 选项，否则前导空格分隔的字段将被忽略，如果指定了字符串，\n"
+"则使用指定字符串分隔任意的字段并从 1 开始计数的字段编号。可以指定的格式是由一个\n"
+"或多个逗号活空格所分隔的描述，其形式为\"文件编号.字段\"或者\"0\"。默认的\n"
+"格式输出合并后的字段、文件 1 和文件 2 剩下的字段，均由该指定字符串分隔。\n"
 "\n"
-"重要提示：文件 1 和文件 2 必须在合并域中排序。\n"
+"重要提示：文件 1 和文件 2 必须在合并字段中排序。\n"
 "例如，如果\"join\"后没有选项，使用\"sort -k 1b,1\"。\n"
 "注意，所进行的比较遵从\"LC_COLLATE\"所指定的的规则。\n"
 "如果输入没有被排序并导致某些行无法合并，将会显示警告信息。\n"
@@ -6005,20 +5973,22 @@ msgstr ""
 "\n"
 
 #: src/md5sum.c:180
-#, fuzzy
 #| msgid "  -b, --binary         read in binary mode (default unless reading tty stdin)\n"
 msgid ""
 "\n"
 "  -b, --binary         read in binary mode (default unless reading tty stdin)\n"
-msgstr "  -b, --binary\t\t以二进制模式读取 (除非从 tty 标准输入读取否则为默认)\n"
+msgstr ""
+"\n"
+"  -b, --binary         以二进制模式读取（除非从 tty 读取标准输入，否则为默认）\n"
 
 #: src/md5sum.c:185
-#, fuzzy
 #| msgid "  -b, --binary         read in binary mode\n"
 msgid ""
 "\n"
 "  -b, --binary         read in binary mode\n"
-msgstr "  -b, --binary\t\t以二进制模式读取\n"
+msgstr ""
+"\n"
+"  -b, --binary         以二进制模式读取\n"
 
 #: src/md5sum.c:189
 #, c-format
@@ -6094,10 +6064,8 @@ msgid "%s: %<PRIuMAX>: improperly formatted %s checksum line"
 msgstr "%s：%<PRIuMAX>：%s 的校验和行目格式不适当"
 
 #: src/md5sum.c:623
-#, fuzzy
-#| msgid "%s: FAILED open or read\n"
 msgid "FAILED open or read"
-msgstr "%s：打开或读取失败\n"
+msgstr "打开或读取失败"
 
 #: src/md5sum.c:662
 msgid "FAILED"
@@ -6714,28 +6682,20 @@ msgid "invalid footer numbering style: %s"
 msgstr "无效的页脚号样式：%s"
 
 #: src/nl.c:501
-#, fuzzy
-#| msgid "invalid starting line number: %s"
 msgid "invalid starting line number"
-msgstr "无效的起始行号：%s"
+msgstr "无效的起始行号"
 
 #: src/nl.c:506
-#, fuzzy
-#| msgid "invalid line number increment: %s"
 msgid "invalid line number increment"
-msgstr "无效的行号递增值：%s"
+msgstr "无效的行号递增值"
 
 #: src/nl.c:513
-#, fuzzy
-#| msgid "invalid number of blank lines: %s"
 msgid "invalid line number of blank lines"
-msgstr "无效的空行数：%s"
+msgstr "无效的空行数"
 
 #: src/nl.c:520
-#, fuzzy
-#| msgid "invalid line number field width: %s"
 msgid "invalid line number field width"
-msgstr "无效的行宽数值：%s"
+msgstr "无效的行宽数值"
 
 #: src/nl.c:531
 #, c-format
@@ -6857,10 +6817,9 @@ msgid "Assaf Gordon"
 msgstr ""
 
 #: src/numfmt.c:693
-#, fuzzy, c-format
-#| msgid "%s: value not completely converted"
+#, c-format
 msgid "value too large to be converted: %s"
-msgstr "%s：给定值不能完全转换"
+msgstr "值太大，无法转换：%s"
 
 #: src/numfmt.c:697
 #, c-format
@@ -7070,10 +7029,10 @@ msgid ""
 "Multiple fields/ranges can be separated with commas\n"
 msgstr ""
 "每种参数格式表示范围如下：\n"
-"    N\t从第 1 个开始数的第 N 个字节、字符或域\n"
-"    N-\t从第 N 个开始到所在行结束的所有字符、字节或域\n"
-"    N-M\t从第 N 个开始到第 M 个之间 (包括第 M 个)的所有字符、字节或域\n"
-"    -M\t从第 1 个开始到第 M 个之间 (包括第 M 个)的所有字符、字节或域\n"
+"    N\t从第 1 个开始数的第 N 个字节、字符或字段\n"
+"    N-\t从第 N 个开始到所在行结束的所有字符、字节或字段\n"
+"    N-M\t从第 N 个开始到第 M 个之间 (包括第 M 个)的所有字符、字节或字段\n"
+"    -M\t从第 1 个开始到第 M 个之间 (包括第 M 个)的所有字符、字节或字段\n"
 "\n"
 "当没有文件参数，或者文件不存在时，从标准输入读取\n"
 
@@ -7863,10 +7822,11 @@ msgid ""
 "  -d, --double-space\n"
 "                    double space the output\n"
 msgstr ""
-"  -a, --across\t\t设置每列从上到下输出，配合\"-列数\"选项一起使用\n"
+"  -a, --across      设置每列从上到下输出，配合\"-列数\"选项一起使用\n"
 "  -c, --show-control-chars\n"
-"\t\t\t使用头标 (^G)和八进制反斜杠标记\n"
-"  -d, --double-space\t加倍输出空白区域\n"
+"                    使用帽标 (^G) 和八进制反斜杠表示法\n"
+"  -d, --double-space\n"
+"                    在输出中用空行双倍行距\n"
 
 #: src/pr.c:2750
 msgid ""
@@ -8160,7 +8120,7 @@ msgstr "无效的通用字符名称\\%c%0*x"
 #: src/printf.c:565
 #, c-format
 msgid "invalid field width: %s"
-msgstr "无效的域宽度：%s"
+msgstr "无效的字段宽度：%s"
 
 #: src/printf.c:600
 #, c-format
@@ -8520,11 +8480,11 @@ msgid ""
 "  -d, --dir             remove empty directories\n"
 "  -v, --verbose         explain what is being done\n"
 msgstr ""
-"      --no-preserve-root\t不特殊对待“/”\n"
-"      --preserve-root\t不允许删除“/”(默认)\n"
-"  -r, -R, --recursive\t递归删除目录及其内容\n"
+"      --no-preserve-root  不特殊对待“/”\n"
+"      --preserve-root  不允许删除“/”(默认)\n"
+"  -r, -R, --recursive  递归删除目录及其内容\n"
 "  -d, --dir            删除空目录\n"
-"  -v, --verbose\t\t详细显示进行的步骤\n"
+"  -v, --verbose        详细显示进行的步骤\n"
 
 #: src/rm.c:161
 msgid ""
@@ -8839,7 +8799,7 @@ msgstr "字节偏移量 %s 过大"
 #: src/set-fields.c:262
 #, c-format
 msgid "field number %s is too large"
-msgstr "域编号 %s 过大"
+msgstr "字段编号 %s 过大"
 
 #: src/set-fields.c:273
 #, fuzzy, c-format
@@ -8861,7 +8821,7 @@ msgstr "缺少位置列表"
 
 #: src/set-fields.c:283
 msgid "missing list of fields"
-msgstr "缺少域列表"
+msgstr "缺少字段列表"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/shred.c:74
@@ -9212,16 +9172,13 @@ msgid "multiple -i options specified"
 msgstr "指定了多个-i 选项"
 
 #: src/shuf.c:434 src/shuf.c:440 src/shuf.c:445
-#, fuzzy
-#| msgid "invalid input range %s"
 msgid "invalid input range"
-msgstr "无效的输入范围：%s"
+msgstr "无效的输入范围"
 
 #: src/shuf.c:458
-#, fuzzy, c-format
-#| msgid "invalid line count %s"
+#, c-format
 msgid "invalid line count: %s"
-msgstr "无效的行数 %s"
+msgstr "无效的行数：%s"
 
 #: src/shuf.c:465 src/sort.c:4477
 #, c-format
@@ -9461,7 +9418,7 @@ msgid ""
 "SIZE may be followed by the following multiplicative suffixes:\n"
 msgstr ""
 "\n"
-"POS 是 F[.C][OPTS]，F 代表域编号，C 是域中字母的位置，F 和 C 均从 1开始计数\n"
+"POS 是 F[.C][OPTS]，F 代表字段编号，C 是字段中字母的位置，F 和 C 均从 1开始计数\n"
 "如果没有有效的-t 或-b 选项存在，则从前导空格后开始计数字符。OPTS 是一个或多个\n"
 "由单个字母表示的顺序选项，以此覆盖此 key 的全局顺序设置。如果没有指定 key 则\n"
 "将其整个行。\n"
@@ -9605,7 +9562,7 @@ msgstr "值 %lu 开头有大量空格，考虑同时指定\"b\""
 #: src/sort.c:2452
 #, c-format
 msgid "key %lu is numeric and spans multiple fields"
-msgstr "值 %lu 为数字且跨多个域"
+msgstr "值 %lu 为数字且跨多个字段"
 
 #: src/sort.c:2484
 #, fuzzy, c-format
@@ -9805,16 +9762,6 @@ msgid ""
 msgstr "      --verbose\t\t在每个输出文件打开前输出文件特征\n"
 
 #: src/split.c:259
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "CHUNKS may be:\n"
-#| "N       split into N files based on size of input\n"
-#| "K/N     output Kth of N to stdout\n"
-#| "l/N     split into N files without splitting lines\n"
-#| "l/K/N   output Kth of N to stdout without splitting lines\n"
-#| "r/N     like `l' but use round robin distribution\n"
-#| "r/K/N   likewise but only output Kth of N to stdout\n"
 msgid ""
 "\n"
 "CHUNKS may be:\n"
@@ -9826,13 +9773,13 @@ msgid ""
 "  r/K/N   likewise but only output Kth of N to stdout\n"
 msgstr ""
 "\n"
-"块数可能为：\n"
-"N\t基于输入的大小分割为 N 个文件\n"
-"K/N\t将 N 个文件中的第 K 个输出到标准输出\n"
-"l/N\t分割为 N 个文件，但分割时不切断行\n"
-"l/K/N\t将 N 个文件中的第 K 个输出到标准输出，但分割时不切断行\n"
-"r/N\t类似 l 但使用轮询分配\n"
-"r/K/N\t类似 r/N 但尽将 N 个文件中的第 K 个输出到标准输出\n"
+"块数可以为：\n"
+"  N\t按照输入的大小分割为 N 个文件\n"
+"  K/N\t将 N 个文件中的第 K 个输出到标准输出\n"
+"  l/N\t分割为 N 个文件，但分割时不切断行\n"
+"  l/K/N\t将 N 个文件中的第 K 个输出到标准输出，但分割时不切断行\n"
+"  r/N\t类似 l 但使用轮询分配\n"
+"  r/K/N\t类似 r/N 但仅将 N 个文件中的第 K 个输出到标准输出\n"
 
 #: src/split.c:408
 #, c-format
@@ -9903,10 +9850,9 @@ msgid "failed to close input pipe"
 msgstr "关闭目录 %s 失败"
 
 #: src/split.c:518
-#, fuzzy, c-format
-#| msgid "waiting for strip"
+#, c-format
 msgid "waiting for child process"
-msgstr "等待拆解"
+msgstr "等待子进程"
 
 #: src/split.c:528
 #, c-format
@@ -9929,22 +9875,16 @@ msgid "cannot split in more than one way"
 msgstr "无法以多于一种的方式切分输入"
 
 #: src/split.c:1218 src/split.c:1333 src/split.c:1546
-#, fuzzy
-#| msgid "%s: invalid number of chunks"
 msgid "invalid number of chunks"
-msgstr "%s：无效的块数"
+msgstr "无效块数"
 
 #: src/split.c:1223
-#, fuzzy
-#| msgid "%s: invalid chunk number"
 msgid "invalid chunk number"
-msgstr "%s：无效块数"
+msgstr "无效块号"
 
 #: src/split.c:1270
-#, fuzzy
-#| msgid "%s: invalid suffix length"
 msgid "invalid suffix length"
-msgstr "%s：文件类型无效"
+msgstr "无效后缀长度"
 
 #: src/split.c:1344
 #, c-format
@@ -9975,10 +9915,8 @@ msgid "%s: invalid start value for numerical suffix"
 msgstr "无效的起始行号：%s"
 
 #: src/split.c:1430
-#, fuzzy
-#| msgid "%s: invalid IO block size"
 msgid "invalid IO block size"
-msgstr "%s：无效的 IO 块大小"
+msgstr "无效的 IO 块大小"
 
 #: src/split.c:1448
 #, c-format
@@ -10006,10 +9944,9 @@ msgid "failed to canonicalize %s"
 msgstr "标准化 %s 失败"
 
 #: src/stat.c:1149
-#, fuzzy, c-format
-#| msgid "warning: unrecognized escape `\\%c'"
+#, c-format
 msgid "warning: unrecognized escape '\\%c'"
-msgstr "警告：无法识别的转义字符\"\\%c\""
+msgstr "警告：无法识别的转义字符 “\\%c”"
 
 #: src/stat.c:1204
 #, c-format
@@ -12854,7 +12791,7 @@ msgid ""
 "characters.  Fields are skipped before chars.\n"
 msgstr ""
 "\n"
-"若域中为先空字符 (通常包括空格以及制表符)，然后非空字符，域中字符前的空字符将被跳过。\n"
+"若字段中为先空字符 (通常包括空格以及制表符)，然后非空字符，字段中字符前的空字符将被跳过。\n"
 
 #: src/uniq.c:218
 msgid ""
@@ -13030,13 +12967,6 @@ msgstr ""
 "  -l, --lines\t\t输出行数统计\n"
 
 #: src/wc.c:132
-#, fuzzy
-#| msgid ""
-#| "      --files0-from=F    read input from the files specified by\n"
-#| "                           NUL-terminated names in file F;\n"
-#| "                           If F is - then read names from standard input\n"
-#| "  -L, --max-line-length  print the length of the longest line\n"
-#| "  -w, --words            print the word counts\n"
 msgid ""
 "      --files0-from=F    read input from the files specified by\n"
 "                           NUL-terminated names in file F;\n"
@@ -13044,9 +12974,9 @@ msgid ""
 "  -L, --max-line-length  print the maximum display width\n"
 "  -w, --words            print the word counts\n"
 msgstr ""
-"      --files0-from=文件\t从指定文件读取以 NUL 终止的名称，如果该文件被\n"
-"\t\t\t\t\t指定为\"-\"则从标准输入读文件名\n"
-"  -L, --max-line-length\t显示最长行的长度\n"
+"      --files0-from=文件\t从指定文件读取以 NUL 终止的名称；\n"
+"\t\t\t\t\t如果指定文件为“-”则从标准输入读取\n"
+"  -L, --max-line-length\t显示最长行的显示宽度\n"
 "  -w, --words\t\t\t显示单词计数\n"
 
 #: src/who.c:210
