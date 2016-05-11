@@ -1,8 +1,8 @@
 # zh_CN translation for help2man texinfo page.
 # Copyright (C) 2015 Free Software Foundation, Inc.
 # This file is distributed under the same license as the help2man-texi package.
-# Mingcong Bai (JeffBai) <jeffbaichina97@gmail.com>, 2015.
-# Mingye Wang <arthur200126@gmail.com>, 2015.
+# Mingcong "Jeff" Bai <jeffbaichina97@gmail.com>, 2015.
+# Mingye "Arthur" Wang <arthur200126@gmail.com>, 2015.
 #
 # Fellow translatiors:
 # Many examples in this text need to be translated to match the strings
@@ -559,7 +559,7 @@ msgid ""
 msgstr ""
 "  -a, --archive                相当于 -dpR\n"
 "      --backup[=CONTROL]       对每个文件备份 ...\n"
-"  -b                           就像 --backup 不过 ...\n"
+"  -b                           类似 --backup 不过 ...\n"
 
 #. type: itemize
 msgid ""
@@ -677,6 +677,9 @@ msgid ""
 "@samp{i}, @samp{s} or @samp{m} modifiers (@pxref{perlre, , perlre(1), "
 "*manpages*, The @code{perlre(1)} manual page})"
 msgstr ""
+"正则表达式模式使用 Perl 正则表达式语法指定，并可后加 @samp{i}、@samp{s}或"
+"@samp{m} 修饰符 (@pxref{perlre, , perlre(1), "
+"*manpages*, @code{perlre(1)} 手册页})"
 
 #. type: Plain text
 msgid ""
@@ -707,6 +710,18 @@ msgid ""
 "COPYRIGHT\n"
 "SEE ALSO\n"
 msgstr ""
+"名称\n"
+"摘要\n"
+"描述\n"
+"选项\n"
+"@emph{其它}\n"
+"环境\n"
+"文件\n"
+"示例\n"
+"作者\n"
+"报告错误\n"
+"版权\n"
+"参见\n"
 
 #. type: Plain text
 msgid ""
@@ -1055,9 +1070,8 @@ msgid ""
 "              output version information and exit\n"
 "\n"
 msgstr ""
-"      @exstrong--version\n"
+"      @exstrong{--version}\n"
 "              输出版本信息并退出\n"
-"\n"
 "\n"
 
 #. type: example
@@ -1104,7 +1118,7 @@ msgid ""
 msgstr ""
 "@exstrong{COPYRIGHT}\n"
 "       版权所有 (C) 2011 自由软件基金会。\n"
-"      本软件为自由软件；请参阅源代码以获取许可条款。\n"
+"       本软件为自由软件；请参阅源代码以获取许可条款。\n"
 "       此软件不对提供任何担保，甚至不保证适销性或对某一特定用途的适用性的保证。\n"
 
 #. type: example
@@ -1116,6 +1130,10 @@ msgid ""
 "       the command\n"
 "\n"
 msgstr ""
+"       @exstrong{foo} 的完整文档以 Texinfo 手册的形式维护。\n"
+"       若 @exstrong{info} 和 @exstrong{foo} 程序在你处已安装妥当，\n"
+"       命令\n"
+"\n"
 
 #. type: example
 #, no-wrap
