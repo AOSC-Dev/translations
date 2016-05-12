@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-02-23 16:39+0100\n"
+"PO-Revision-Date: 2016-05-11 17:28-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -1229,7 +1229,7 @@ msgstr ""
 
 #: crypt32.rc:37
 msgid "Certificate Policies"
-msgstr ""
+msgstr "证书策略"
 
 #: crypt32.rc:38
 msgid "Subject Key Identifier"
