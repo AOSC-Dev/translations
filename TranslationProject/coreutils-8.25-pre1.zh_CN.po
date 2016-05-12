@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: coreutils 8.25-pre1\n"
 "Report-Msgid-Bugs-To: bug-coreutils@gnu.org\n"
 "POT-Creation-Date: 2016-01-13 12:48+0000\n"
-"PO-Revision-Date: 2016-05-07 16:05-0400\n"
+"PO-Revision-Date: 2016-05-11 17:22-0400\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1628,7 +1628,7 @@ msgstr "  --userspec=用户:组     指定所用的用户及用户组（可使�
 #: src/chroot.c:201
 #, c-format
 msgid "  --skip-chdir           do not change working directory to %s\n"
-msgstr ""
+msgstr "  --skip-chdir           不要将工作目录换到 %s\n"
 
 #: src/chroot.c:207
 msgid ""
@@ -1641,7 +1641,7 @@ msgstr ""
 #: src/chroot.c:286
 #, c-format
 msgid "option --skip-chdir only permitted if NEWROOT is old %s"
-msgstr ""
+msgstr "仅在 NEWROOT 为旧 %s 时允许使用选项 --skip-chdir"
 
 #: src/chroot.c:329
 #, c-format
@@ -9565,18 +9565,15 @@ msgid "key %lu is numeric and spans multiple fields"
 msgstr "值 %lu 为数字且跨多个字段"
 
 #: src/sort.c:2484
-#, fuzzy, c-format
-#| msgid "option `-%s' is ignored"
-#| msgid_plural "options `-%s' are ignored"
+#, c-format
 msgid "option '-%s' is ignored"
 msgid_plural "options '-%s' are ignored"
-msgstr[0] "选项\"-%s\"被忽略"
+msgstr[0] "选项“-%s”被忽略"
 
 #: src/sort.c:2490
-#, fuzzy, c-format
-#| msgid "option `-r' only applies to last-resort comparison"
+#, c-format
 msgid "option '-r' only applies to last-resort comparison"
-msgstr "选项\"-r\" 仅用于 last-resort 比较"
+msgstr "选项“-r”仅用于最后一手比较"
 
 #: src/sort.c:2764 src/sort.c:2773
 msgid "write failed"
@@ -9592,10 +9589,8 @@ msgid "standard error"
 msgstr "标准错误"
 
 #: src/sort.c:3738
-#, fuzzy
-#| msgid "%s: cannot rewind"
 msgid "cannot read"
-msgstr "%s：无法反绕操作"
+msgstr "无法读取"
 
 #: src/sort.c:4017
 #, c-format
@@ -9603,10 +9598,9 @@ msgid "%s: invalid field specification %s"
 msgstr "%s：无效的区块规格 %s"
 
 #: src/sort.c:4028
-#, fuzzy, c-format
-#| msgid "options `-%s' are incompatible"
+#, c-format
 msgid "options '-%s' are incompatible"
-msgstr "选项\"-%s\"不兼容"
+msgstr "选项“-%s”不兼容"
 
 #: src/sort.c:4079
 #, c-format
@@ -9614,16 +9608,12 @@ msgid "%s: invalid count at start of %s"
 msgstr "%s：在 %s 处的计数无效"
 
 #: src/sort.c:4337
-#, fuzzy
-#| msgid "invalid number after `-'"
 msgid "invalid number after '-'"
-msgstr "在\"-\"后的编号无效"
+msgstr "在“-”后的数字无效"
 
 #: src/sort.c:4344 src/sort.c:4430 src/sort.c:4458
-#, fuzzy
-#| msgid "invalid number after `.'"
 msgid "invalid number after '.'"
-msgstr "在\".\"后的编号无效"
+msgstr "在“.”后的数字无效"
 
 #: src/sort.c:4357 src/sort.c:4463
 msgid "stray character in field spec"
@@ -9647,10 +9637,8 @@ msgid "character offset is zero"
 msgstr "字符偏移量为零"
 
 #: src/sort.c:4449
-#, fuzzy
-#| msgid "invalid number after `,'"
 msgid "invalid number after ','"
-msgstr "在\",\"后的编号无效"
+msgstr "在“,”后的数字无效"
 
 #: src/sort.c:4499
 #, c-format
@@ -9678,10 +9666,8 @@ msgid "using %s sorting rules"
 msgstr "使用 %s 排序规则"
 
 #: src/sort.c:4670
-#, fuzzy
-#| msgid "failed to set new role %s"
 msgid "failed to set locale; "
-msgstr "设置新角色 %s 失败"
+msgstr "设置语言区域失败；"
 
 #: src/sort.c:4671
 msgid "using simple byte comparison"
@@ -9693,16 +9679,14 @@ msgid "extra operand %s not allowed with -%c"
 msgstr "不允许额外的操作数 %s 与-%c 一起使用"
 
 #: src/split.c:207
-#, fuzzy, c-format
-#| msgid "the suffix length needs to be at least %zu"
+#, c-format
 msgid "the suffix length needs to be at least %<PRIuMAX>"
-msgstr "后缀长度至少应为 %zu"
+msgstr "后缀长度至少应为 %<PRIuMAX>"
 
 #: src/split.c:224
-#, fuzzy, c-format
-#| msgid "Usage: %s [OPTION]... [INPUT [PREFIX]]\n"
+#, c-format
 msgid "Usage: %s [OPTION]... [FILE [PREFIX]]\n"
-msgstr "用法：%s [选项]... [输入 [前缀]]\n"
+msgstr "用法：%s [选项]... [文件 [前缀]]\n"
 
 #: src/split.c:228
 #, fuzzy
@@ -9721,16 +9705,7 @@ msgstr ""
 "\n"
 
 #: src/split.c:236
-#, fuzzy, c-format
-#| msgid ""
-#| "  -a, --suffix-length=N   use suffixes of length N (default %d)\n"
-#| "  -b, --bytes=SIZE        put SIZE bytes per output file\n"
-#| "  -C, --line-bytes=SIZE   put at most SIZE bytes of lines per output file\n"
-#| "  -d, --numeric-suffixes  use numeric suffixes instead of alphabetic\n"
-#| "  -e, --elide-empty-files  do not generate empty output files with `-n'\n"
-#| "  -l, --lines=NUMBER      put NUMBER lines per output file\n"
-#| "  -n, --number=CHUNKS     generate CHUNKS output files.  See below\n"
-#| "  -u, --unbuffered        immediately copy input to output with `-n r/...'\n"
+#, c-format
 msgid ""
 "  -a, --suffix-length=N   generate suffixes of length N (default %d)\n"
 "      --additional-suffix=SUFFIX  append an additional SUFFIX to file names\n"
@@ -9746,14 +9721,19 @@ msgid ""
 "                            '\\0' (zero) specifies the NUL character\n"
 "  -u, --unbuffered        immediately copy input to output with '-n r/...'\n"
 msgstr ""
-"  -a, --suffix-length=N\t指定后缀长度为 N (默认为 %d)\n"
-"  -b, --bytes=大小\t\t指定每个输出文件的字节大小\n"
-"  -C, --line-bytes=大小\t指定每个输出文件里最大行字节大小\n"
-"  -d, --numeric-suffixes \t使用数字后缀代替字母后缀\n"
-"  -e, --elide-empty-files\t和-n 一起使用时不生成空的输出文件\n"
-"  -l, --lines=数值\t\t指定每个输出文件有多少行\n"
-"  -n, --number=块数\t\t生成块数输出文件。参看下面的说明。\n"
-"  -u, --unbuffered\t\t立即使用-n r/... 复制输入到输出\n"
+"  -a, --suffix-length=N   指定后缀长度为 N (默认为 %d)\n"
+"      --additional-suffix=后缀  在文件名后加入额外的后缀\n"
+"  -b, --bytes=大小        指定每个输出文件的字节大小\n"
+"  -C, --line-bytes=大小   指定每个输出文件里最大记录字节大小\n"
+"  -d                      使用数字后缀代替字母后缀\n"
+"      --numeric-suffixes[=起始] 和 -d 一样，但允许设置起始值\n"
+"  -e, --elide-empty-files 和-n 一起使用时不生成空的输出文件\n"
+"      --filter=命令       写到 shell <命令>；文件名为 $FILE\n"
+"  -l, --lines=数值        指定每个输出文件有多少行\n"
+"  -n, --number=块数       生成块数输出文件。参看下面的说明。\n"
+"  -t, --separator=分隔    使用指定的分隔符替代换行符分割记录；\n"
+"                            可用 '\\0' (零) 指定 NUL 字符\n"
+"  -u, --unbuffered        使用 \"-n r/...\" 立即复制输入到输出\n"
 
 #: src/split.c:252
 msgid ""
@@ -9797,10 +9777,9 @@ msgid "%s would overwrite input; aborting"
 msgstr ""
 
 #: src/split.c:445
-#, fuzzy, c-format
-#| msgid "failed to update the environment with %s"
+#, c-format
 msgid "failed to set FILE environment variable"
-msgstr "更新 %s 的环境失败"
+msgstr "设置 FILE 环境变量失败"
 
 #: src/split.c:447
 #, c-format
@@ -9808,46 +9787,39 @@ msgid "executing with FILE=%s\n"
 msgstr ""
 
 #: src/split.c:449
-#, fuzzy, c-format
-#| msgid "failed to create hard link %s"
+#, c-format
 msgid "failed to create pipe"
-msgstr "无法创建硬链接 %s"
+msgstr "无法创建管道"
 
 #: src/split.c:463
-#, fuzzy, c-format
-#| msgid "closing directory %s"
+#, c-format
 msgid "closing prior pipe"
-msgstr "关闭目录 %s"
+msgstr "正在关闭之前的管道"
 
 #: src/split.c:465
-#, fuzzy, c-format
-#| msgid "closing output file %s"
+#, c-format
 msgid "closing output pipe"
-msgstr "正在关闭输出文件 %s"
+msgstr "正在关闭输出管道"
 
 #: src/split.c:469
-#, fuzzy, c-format
-#| msgid "closing input file %s"
+#, c-format
 msgid "moving input pipe"
-msgstr "正在关闭输入文件 %s"
+msgstr "正在移动输入管道"
 
 #: src/split.c:471
-#, fuzzy, c-format
-#| msgid "closing input file %s"
+#, c-format
 msgid "closing input pipe"
-msgstr "正在关闭输入文件 %s"
+msgstr "正在关闭输入管道"
 
 #: src/split.c:476
-#, fuzzy, c-format
-#| msgid "failed to run command %s"
+#, c-format
 msgid "failed to run command: \"%s -c %s\""
-msgstr "无法运行命令 %s"
+msgstr "无法运行命令：“%s -c %s”"
 
 #: src/split.c:482
-#, fuzzy, c-format
-#| msgid "failed to close directory %s"
+#, c-format
 msgid "failed to close input pipe"
-msgstr "关闭目录 %s 失败"
+msgstr "无法关闭输入管道"
 
 #: src/split.c:518
 #, c-format
@@ -9892,10 +9864,9 @@ msgid "empty record separator"
 msgstr ""
 
 #: src/split.c:1355
-#, fuzzy, c-format
-#| msgid "multi-character tab %s"
+#, c-format
 msgid "multi-character separator %s"
-msgstr "多字符标签 %s"
+msgstr "多字符分隔符 %s"
 
 #: src/split.c:1363
 #, fuzzy, c-format
@@ -10041,30 +10012,14 @@ msgid "Display file or file system status.\n"
 msgstr ""
 
 #: src/stat.c:1438
-#, fuzzy
-#| msgid ""
-#| "Display file or file system status.\n"
-#| "\n"
-#| "  -L, --dereference     follow links\n"
-#| "  -f, --file-system     display file system status instead of file status\n"
 msgid ""
 "  -L, --dereference     follow links\n"
 "  -f, --file-system     display file system status instead of file status\n"
 msgstr ""
-"显示文件或文件系统的状态。\n"
-"\n"
-"  -L, --dereference\t跟随链接\n"
-"  -f, --file-system\t显示文件系统状态而非文件状态\n"
+"  -L, --dereference     跟随链接\n"
+"  -f, --file-system     显示文件系统状态而非文件状态\n"
 
 #: src/stat.c:1442
-#, fuzzy
-#| msgid ""
-#| "  -c  --format=FORMAT   use the specified FORMAT instead of the default;\n"
-#| "                          output a newline after each use of FORMAT\n"
-#| "      --printf=FORMAT   like --format, but interpret backslash escapes,\n"
-#| "                          and do not output a mandatory trailing newline.\n"
-#| "                          If you want a newline, include \\n in FORMAT\n"
-#| "  -t, --terse           print the information in terse form\n"
 msgid ""
 "  -c  --format=FORMAT   use the specified FORMAT instead of the default;\n"
 "                          output a newline after each use of FORMAT\n"
@@ -10073,11 +10028,10 @@ msgid ""
 "                          if you want a newline, include \\n in FORMAT\n"
 "  -t, --terse           print the information in terse form\n"
 msgstr ""
-"  -c --format=格式\t使用指定输出格式代替默认值，每用一次指定格式换一换行符\n"
-"      --printf=格式\t类似 --format，但是会解释反斜杠转义符，不使用换行作\n"
-"\t\t\t\t输出结尾。如果您仍希望使用换行，可以在格式中\n"
-"\t\t\t\t加入\"\\n\"\n"
-"  -t, --terse\t\t使用简洁格式输出\n"
+"  -c --format=格式     使用指定输出格式代替默认值，每用一次指定格式换一换行符\n"
+"     --printf=格式     类似 --format，但是会解释反斜杠转义符，不强制用换行作\n"
+"                          输出结尾；如果您想要换行，可以在格式中加入“\\n”\n"
+"  -t, --terse           使用简洁格式输出\n"
 
 #: src/stat.c:1453
 #, fuzzy
@@ -10285,25 +10239,16 @@ msgstr ""
 "  -e, --error=MODE   调整标准错误流缓冲区\n"
 
 #: src/stdbuf.c:104
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "If MODE is `L' the corresponding stream will be line buffered.\n"
-#| "This option is invalid with standard input.\n"
 msgid ""
 "\n"
 "If MODE is 'L' the corresponding stream will be line buffered.\n"
 "This option is invalid with standard input.\n"
 msgstr ""
 "\n"
-"若 MODE 是 L，则相应的流将是行缓冲模式。\n"
+"若 MODE 是 L，则相应的流将是行缓冲的。\n"
 "标准输入流下此选项无效。\n"
 
 #: src/stdbuf.c:107
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "If MODE is `0' the corresponding stream will be unbuffered.\n"
 msgid ""
 "\n"
 "If MODE is '0' the corresponding stream will be unbuffered.\n"
@@ -10362,10 +10307,9 @@ msgid "line buffering stdin is meaningless"
 msgstr "对标准输入进行行缓冲无意义"
 
 #: src/stdbuf.c:376
-#, fuzzy, c-format
-#| msgid "you must specify a relative %s with %s"
+#, c-format
 msgid "you must specify a buffering mode option"
-msgstr "您必须为 %2$s 中指定一个相关的 %1$s"
+msgstr "您必须指定一个缓冲模式选项"
 
 #: src/stty.c:530
 #, c-format
@@ -10383,23 +10327,14 @@ msgid "Print or change terminal characteristics.\n"
 msgstr ""
 
 #: src/stty.c:542
-#, fuzzy
-#| msgid ""
-#| "Print or change terminal characteristics.\n"
-#| "\n"
-#| "  -a, --all          print all current settings in human-readable form\n"
-#| "  -g, --save         print all current settings in a stty-readable form\n"
-#| "  -F, --file=DEVICE  open and use the specified DEVICE instead of stdin\n"
 msgid ""
 "  -a, --all          print all current settings in human-readable form\n"
 "  -g, --save         print all current settings in a stty-readable form\n"
 "  -F, --file=DEVICE  open and use the specified DEVICE instead of stdin\n"
 msgstr ""
-"输出或修改终端参数。\n"
-"\n"
-"  -a, --all\t\t以可读性较好的方式输出全部当前设置\n"
-"  -g, --save\t\t以 stty 可读取的格式输出当前全部设置\n"
-"  -F, --file=设备\t打开并使用指定设备代替标准输入\n"
+"  -a, --all          以可读性较好的方式输出全部当前设置\n"
+"  -g, --save         以 stty 可读取的格式输出当前全部设置\n"
+"  -F, --file=设备    打开并使用指定设备代替标准输入\n"
 
 #: src/stty.c:549
 msgid ""
@@ -10426,22 +10361,12 @@ msgid " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed
 msgstr ""
 
 #: src/stty.c:567
-#, fuzzy
-#| msgid ""
-#| "\n"
-#| "Special characters:\n"
-#| " * dsusp CHAR    CHAR will send a terminal stop signal once input flushed\n"
-#| "   eof CHAR      CHAR will send an end of file (terminate the input)\n"
-#| "   eol CHAR      CHAR will end the line\n"
 msgid ""
 "   eof CHAR      CHAR will send an end of file (terminate the input)\n"
 "   eol CHAR      CHAR will end the line\n"
 msgstr ""
-"\n"
-"特殊字符：\n"
-" * dsusp 字符\t每当输入刷新时会发送一个用于终端阻塞信号的字符\n"
-"   eof\t字符\t表示文件末尾而发送的字符 (用于终止输入)\n"
-"   eol\t字符\t为表示行尾而发送的字符\n"
+"   eof CHAR      表示文件末尾而发送的字符 (用于终止输入)\n"
+"   eol CHAR      为表示行尾而发送的字符\n"
 
 #: src/stty.c:572
 msgid " * eol2 CHAR     alternate CHAR for ending the line\n"
