@@ -1,67 +1,67 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separate] 
-@="Ìí¼Óµ½Ñ¹ËõÎÄ¼ş"
+@="æ·»åŠ åˆ°å‹ç¼©æ–‡ä»¶"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatesingle]
-@="Ìí¼Óµ½Ñ¹ËõÎÄ¼ş²¢·Ö¾í"
+@="æ·»åŠ åˆ°å‹ç¼©æ–‡ä»¶å¹¶åˆ†å·"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separate7z]
-@="´ò°ü³É .7z Ñ¹ËõÎÄ¼ş"
+@="æ‰“åŒ…æˆ .7z å‹ç¼©æ–‡ä»¶"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separate7zfastest]
-@="´ò°ü³É .7z Ñ¹ËõÎÄ¼ş£¬×î¿ì"
+@="æ‰“åŒ…æˆ .7z å‹ç¼©æ–‡ä»¶ï¼Œæœ€å¿«"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separate7znormal]
-@="´ò°ü³É .7z Ñ¹ËõÎÄ¼ş£¬ÆÕÍ¨"
+@="æ‰“åŒ…æˆ .7z å‹ç¼©æ–‡ä»¶ï¼Œæ™®é€š"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separate7zultra]
-@="´ò°ü³É .7z Ñ¹ËõÎÄ¼ş£¬³¬Ç¿"
+@="æ‰“åŒ…æˆ .7z å‹ç¼©æ–‡ä»¶ï¼Œè¶…å¼º"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatezip]
-@="´ò°ü³É .zip Ñ¹ËõÎÄ¼ş"
+@="æ‰“åŒ…æˆ .zip å‹ç¼©æ–‡ä»¶"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatezipfastest]
-@="´ò°ü³É .zip Ñ¹ËõÎÄ¼ş£¬×î¿ì"
+@="æ‰“åŒ…æˆ .zip å‹ç¼©æ–‡ä»¶ï¼Œæœ€å¿«"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatezipnormal]
-@="´ò°ü³É .zip Ñ¹ËõÎÄ¼ş£¬ÆÕÍ¨"
+@="æ‰“åŒ…æˆ .zip å‹ç¼©æ–‡ä»¶ï¼Œæ™®é€š"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatezipultra]
-@="´ò°ü³É .zip Ñ¹ËõÎÄ¼ş£¬³¬Ç¿"
+@="æ‰“åŒ…æˆ .zip å‹ç¼©æ–‡ä»¶ï¼Œè¶…å¼º"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatezipmail]
-@="´ò°ü³É .zip Ñ¹ËõÎÄ¼ş²¢·¢µçÓÊ"
+@="æ‰“åŒ…æˆ .zip å‹ç¼©æ–‡ä»¶å¹¶å‘ç”µé‚®"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2separatesfx]
-@="´ò°ü³É×Ô½âÑ¹Ñ¹ËõÎÄ¼ş"
+@="æ‰“åŒ…æˆè‡ªè§£å‹å‹ç¼©æ–‡ä»¶"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2browseasarchive]
-@="×÷ÎªÑ¹ËõÎÄ¼ş´ò¿ª"
+@="ä½œä¸ºå‹ç¼©æ–‡ä»¶æ‰“å¼€"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2browsepath]
-@="ÓÃ PeaZip ä¯ÀÀ´Ë´¦"
+@="ç”¨ PeaZip æµè§ˆæ­¤å¤„"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2split]
-@="·Ö¸îÎÄ¼ş"
+@="åˆ†å‰²æ–‡ä»¶"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2convert] 
-@="×ª»»"
+@="è½¬æ¢"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.add2wipe]
-@="°²È«É¾³ı"
+@="å®‰å…¨åˆ é™¤"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2here]
-@="½âÑ¹µ½µ±Ç°ÎÄ¼ş¼Ğ"
+@="è§£å‹åˆ°å½“å‰æ–‡ä»¶å¤¹"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2folder]
-@="½âÑ¹µ½ĞÂÎÄ¼ş¼Ğ"
+@="è§£å‹åˆ°æ–°æ–‡ä»¶å¤¹"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2main]
-@="½âÑ¹ÎÄ¼ş ..."
+@="è§£å‹æ–‡ä»¶ ..."
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2a]
-@="½âÑ¹ÎÄ¼ş"
+@="è§£å‹æ–‡ä»¶"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\PeaZip.ext2test]
-@="²âÊÔÑ¹Ëõ°ü"
+@="æµ‹è¯•å‹ç¼©åŒ…"
