@@ -38,8 +38,8 @@ txt_5_5_plugin: 获取插件
 txt_5_5_copypath: 复制路径
 txt_5_5_delete: 在指定的位置删除字符
 txt_5_5_halt: 任务完成后关闭计算机
-txt_5_5_positionw: 提示：1 添加到第一个字符前，2 第二个，依此类推... "z" 为文件名的末尾
-txt_5_5_positionwd: 提示：1 从第一个包含的字符开始删除，2 第二个，... "z" 为文件名的末尾
+txt_5_5_positionw: 提示：1 添加到第一个字符前，2 第二个，依此类推… "z" 为文件名的末尾
+txt_5_5_positionwd: 提示：1 从第一个包含的字符开始删除，2 第二个，… "z" 为文件名的末尾
 txt_5_5_replaceneww: 提示：新放个空字串来简单地移除旧字串
 txt_5_5_lower: 小写字母
 txt_5_5_replaceoldw: 在文件名中修改所有匹配的字串或字符
@@ -454,15 +454,15 @@ txt_algo: 算法
 txt_all: 所有
 txt_all_default: 所有（默认）
 txt_all_type: 相同类型的全部对象
-txt_all_date: 相同日期的全部对象...
-txt_all_psize: 相同压缩大小的所有对象...
+txt_all_date: 相同日期的全部对象…
+txt_all_psize: 相同压缩大小的所有对象…
 txt_all_attributes: 相同属性的所有对象
-txt_all_size: 相同大小的所有对象...
+txt_all_size: 相同大小的所有对象…
 txt_error_input_upx: 允许单个的可执行文件作为输入
 txt_always_pw: 总是询问密码
-txt_ignore_ext: 对"解压并 ..."，总是忽略路径
-txt_ignore_disp: 对"解压显示的 ..."，总是忽略路径
-txt_ignore_sel: 对"解压选定的 ..."，总是忽略路径
+txt_ignore_ext: 对"解压并…"，总是忽略路径
+txt_ignore_disp: 对"解压显示的…"，总是忽略路径
+txt_ignore_sel: 对"解压选定的…"，总是忽略路径
 txt_key_hint: 将密钥文件的 Hash 值添加到密码；PeaZip 和其他遵循相同标准的程序都可以解密压缩文档，或者将Hash值作为密码的一部分来输入
 txt_timestamp: 附加时间戳到压缩文档名
 txt_appoptions: 程序选项
@@ -522,10 +522,10 @@ txt_content: 内容
 txt_controlpanel: 控制面板
 txt_convert: 将磁盘转换成 NTFS 格式
 txt_copy: 复制
-txt_copyto: 复制到 ...
+txt_copyto: 复制到…
 txt_create: 创建
 txt_create_archive: 创建压缩文档
-txt_title_create: 创建压缩文档，压缩、加密、分割 ...
+txt_title_create: 创建压缩文档，压缩、加密、分割…
 txt_create_keyfile: 创建密钥文件
 txt_create_folder: 创建文件夹
 txt_create_theme: 从当前设置创建新主题:
@@ -586,22 +586,22 @@ txt_explore_outpath: 浏览输出路径
 txt_explore_path: 浏览路径
 txt_ext: 扩展名:
 txt_caption_extract: 解压
-txt_ext_nopath: 解压（不包含路径）
+txt_ext_nopath: 解压（不包含路径啊）
 txt_ext_all: 全部解压
 txt_ext_allhere: 全部解压到此处
 txt_ext_allto: 全部解压到
 txt_extopen_custom: 解压并使用自定义的程序打开
-txt_extopen_with: 解压并用此程序打开 ...
+txt_extopen_with: 解压并用此程序打开…
 txt_ext_disp_here: 解压显示的对象到此处
 txt_ext_disp: 解压显示的对象
-txt_ext_disp_to: 解压显示的对象到 ...
+txt_ext_disp_to: 解压显示的对象到…
 txt_ext_here: 解压到此处
 txt_ext_sel_here: 解压选定的对象到此处
 txt_ext_sel: 解压选定的对象
-txt_ext_sel_to: 解压选定对象到 ...
+txt_ext_sel_to: 解压选定对象到…
 txt_extobj: 解压对象
 txt_newfoldermenu: 解压到新文件夹
-txt_extto: 解压到...
+txt_extto: 解压到…
 txt_level_fast: 快速
 txt_fastcompr: 快速压缩
 txt_fastopen: 快速打开，如果列表受限则停止浏览
@@ -705,10 +705,10 @@ txt_required_memory: MB，需要的内存
 txt_method: 方法
 txt_misc: 更多
 txt_modify: 修改
-txt_morecontrols: 更多控制（历史记录、书签...）
+txt_morecontrols: 更多控制（历史记录、书签…）
 txt_morerecent: 比选定的对象更新
-txt_ent_hint: 在编辑区域移动鼠标、按任意键，从系统中载入文件以便收集熵...
-txt_moveto: 移动到...
+txt_ent_hint: 在编辑区域移动鼠标、按任意键，从系统中载入文件以便收集熵…
+txt_moveto: 移动到…
 txt_mypc: 计算机根目录
 txt_list_na: n/a
 txt_name: 名称
@@ -738,14 +738,14 @@ txt_ondblclick: 双击动作：
 txt_opacity: 透明度
 txt_open: 打开
 txt_openarchive: 打开压缩文档
-txt_title_open: 打开压缩文档、解密、合并...
+txt_title_open: 打开压缩文档、解密、合并…
 txt_open_bookmark: 打开书签
 txt_cphere: 在此打开命令提示符
 txt_open_file: 打开文件
 txt_open_files: 打开文件
 txt_open_path: 打开路径
 txt_opensource: 打开便携压缩文档
-txt_openwith: 打开方式...
+txt_openwith: 打开方式…
 txt_aborted: 操作被中止
 txt_unit_cd: 光驱
 txt_options: 选项[&P]
@@ -785,7 +785,7 @@ txt_type_unsupported_select: 请选择支持的压缩类型:
 txt_no_theme_name: 请指定主题名称
 txt_please_wait: 请稍候
 txt_copy_wait: 在执行其他预定的同类型操作之前，请等待当前的预定的文件复制/移动操作完成
-txt_previewwith: 用此预览 ...
+txt_previewwith: 用此预览…
 txt_projectadmin: 项目管理员:
 txt_type_description_quad: BALZ / QUAD: 高性能、基于 ROLZ 的文件压缩程序
 txt_quickdelete: 快速删除
@@ -826,7 +826,7 @@ txt_searchfor: 搜索：
 txt_nrsearch: 搜索此处（不递归）
 txt_search_hint: 在压缩文档子目录中，使用过滤器搜索匹配的文件
 txt_search_web: 在网络中搜索
-txt_list_searching: 搜索...
+txt_list_searching: 搜索…
 txt_securedelete: 安全删除
 txt_default_description: 选择某个功能或拖动文件到此处
 txt_selectall: 全选
@@ -853,7 +853,7 @@ txt_solid_auto: 固实，自动调节
 txt_solid_extension: 固实，按扩展名分组
 txt_listtest: 抱歉，暂不支持对此格式进行列表 / 测试操作
 txt_sortbysel: 对选中的项目排序
-txt_list_sorting: 排序 ...
+txt_list_sorting: 排序…
 txt_speed: 速度
 txt_split: 分割
 txt_type_description_split: 分割并检查完整性
@@ -971,7 +971,7 @@ txt_2_3_encryption: 加密
 txt_2_3_extinnew: 解压缩到新文件夹
 txt_2_3_keyfile: 密钥文件
 txt_2_3_kf_not_found_gwrap: 不能发现或读取密钥文件。请选择其他密钥文件。
-txt_2_3_moreoptions: 更多选项 ...
+txt_2_3_moreoptions: 更多选项…
 txt_2_3_nopaths: 没有路径
 txt_2_3_options: 选项
 txt_2_3_overexisting: 覆盖已有文件
@@ -1027,7 +1027,7 @@ txt_report: 报告
 txt_resume: 继续
 txt_priority: 右键设置作业优先级
 txt_running: 运行，
-txt_isrunning: 运行...
+txt_isrunning: 运行…
 txt_saveas: 另存为
 txt_savejob: 保存作业定义（可能包括密码！）
 txt_savelog: 保存作业记录
@@ -1046,7 +1046,7 @@ txt_time: 时间：
 解压缩
 在系统中
 - 右击压缩文档，在右键菜单中选择“解压到此处”或“解压到此处（到新文件夹中）”来直接解压缩
-- 另外，请使用“解压...”菜单可以有更多选项：输出路径，密码，解压到新文件夹，选择路过、重命名或覆盖已有的文件等。
+- 另外，请使用“解压…”菜单可以有更多选项：输出路径，密码，解压到新文件夹，选择路过、重命名或覆盖已有的文件等。
 
 要在PeaZip中打开压缩文档，请双击，或者拖拽压缩文档的到PeaZip窗口或图标上
 - 在工具栏或右键菜单中点击“解压”可以看到包含所有选项的确认对话框（输出路径、密码、命名规则、解压到新文件夹等），但仅可以解压选定的对象
@@ -1109,18 +1109,18 @@ txt_time: 时间：
 在选项 > 系统集成中，可以设置文件关联、右键和“发送到”菜单集成（仅在Windows中有效），启用或禁用浏览器的功能，比如工具栏、地址栏、导航栏等
 “组织”菜单含有自定义、开启或关闭浏览器的功能，比如说工具栏、地址栏、导航栏，等等。
 
-F1 	帮助
-F2 	浏览桌面/ Ctrl+F2 浏览用户文件夹 / Shift+F2 浏览计算机根目录 / Ctrl+Shift+F2 浏览压缩文档根目录（如果正在浏览压缩文档，否则浏览计算机根目录）
+F1	帮助
+F2	浏览桌面/ Ctrl+F2 浏览用户文件夹 / Shift+F2 浏览计算机根目录 / Ctrl+Shift+F2 浏览压缩文档根目录（如果正在浏览压缩文档，否则浏览计算机根目录）
 F3	搜索（建议使用递归选项） / Ctrl+F3 开始而不递归（搜索此处） / Shift+F3 递归
-F4 	向上一级
-F5 	刷新
-F6 	切换浏览/平坦视图
-F7 	浏览最近访问的项目（Ctrl查看第二个，Shift查看第三个）
-F8 	浏览书签列表中的第一个项目（Ctrl查看第二个，Shift查看第三个）
-F9 	设置密码/密钥文件 / Ctrl+F9 创建密钥文件或随机密码
-F10 	菜单
-F11 	设置高级过滤器
-F12 	全部解压到...
+F4	向上一级
+F5	刷新
+F6	切换浏览/平坦视图
+F7	浏览最近访问的项目（Ctrl查看第二个，Shift查看第三个）
+F8	浏览书签列表中的第一个项目（Ctrl查看第二个，Shift查看第三个）
+F9	设置密码/密钥文件 / Ctrl+F9 创建密钥文件或随机密码
+F10	菜单
+F11	设置高级过滤器
+F12	全部解压到…
 
 创建压缩文档
 
@@ -1149,7 +1149,7 @@ F12 	全部解压到...
 2a） 点击"全部解压缩"可解压缩压缩文档，或"全部解压缩到"并输入输出路径；
 2b） 在关联的压缩文档对象上双击或按回车键可预览它，或如果是压缩文档在PeaZip中打开压缩文档，或如果是目录则浏览它；
 2c） 选择打包的对象并按鼠标中键或空格键可解压缩它（会询问输出路径）；
-2d） 右击使用右键菜单可以执行所有可用的功能，比如解压缩选定的或显示对象，预览、测试、列表、添加或删除等等...
+2d） 右击使用右键菜单可以执行所有可用的功能，比如解压缩选定的或显示对象，预览、测试、列表、添加或删除等等…
 提示: 如果您想解压缩压缩文档到一个新目录，请使用右键菜单（或I/O标签）中的"解压缩到新文件夹"开关，或在压缩文档浏览器中按\或Ctrl+N。
 
 使用:
