@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: help2man-texi 1.47.3\n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
 "POT-Creation-Date: 2015-11-02 22:44+1100\n"
-"PO-Revision-Date: 2016-05-01 14:38-0400\n"
+"PO-Revision-Date: 2016-06-14 16:40+0800\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -479,7 +479,7 @@ msgstr "版本字串。"
 
 #. type: table
 msgid "Include stderr when parsing option output."
-msgstr ""
+msgstr "解析选项输出时一并考虑标准错误。"
 
 #. type: chapter
 #, no-wrap
@@ -506,6 +506,8 @@ msgid ""
 "have different invocations, then list them all.  For example (edited for "
 "brevity):"
 msgstr ""
+"关于如何使用程序的简明信息。如果程序的不同用法调用方式不同，则请全部列出。例"
+"如（范例已行精简）："
 
 #. type: smallexample
 #, no-wrap
@@ -514,6 +516,9 @@ msgid ""
 "  or:  cp [OPTION]... SOURCE... DIRECTORY\n"
 "@dots{}\n"
 msgstr ""
+"Usage: cp [OPTION]... SOURCE DEST\n"
+"  or:  cp [OPTION]... SOURCE... DIRECTORY\n"
+"@dots{}\n"
 
 #. type: itemize
 msgid ""
@@ -678,8 +683,8 @@ msgid ""
 "*manpages*, The @code{perlre(1)} manual page})"
 msgstr ""
 "正则表达式模式使用 Perl 正则表达式语法指定，并可后加 @samp{i}、@samp{s}或"
-"@samp{m} 修饰符 (@pxref{perlre, , perlre(1), "
-"*manpages*, @code{perlre(1)} 手册页})"
+"@samp{m} 修饰符 (@pxref{perlre, , perlre(1), *manpages*, @code{perlre(1)} 手"
+"册页})"
 
 #. type: Plain text
 msgid ""
