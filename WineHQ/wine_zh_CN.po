@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-07 16:33+0800\n"
+"PO-Revision-Date: 2016-08-07 17:14+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -1785,23 +1785,23 @@ msgstr "个人的"
 
 #: crypt32.rc:174
 msgid "Intermediate Certification Authorities"
-msgstr ""
+msgstr "中间证书颁发机构"
 
 #: crypt32.rc:175
 msgid "Other People"
-msgstr ""
+msgstr "其他人"
 
 #: crypt32.rc:176
 msgid "Trusted Publishers"
-msgstr ""
+msgstr "已信任的发布者"
 
 #: crypt32.rc:177
 msgid "Untrusted Certificates"
-msgstr ""
+msgstr "未信任的发布者"
 
 #: crypt32.rc:182
 msgid "KeyID="
-msgstr ""
+msgstr "KeyID="
 
 #: crypt32.rc:183
 msgid "Certificate Issuer"
@@ -1809,43 +1809,44 @@ msgstr "证书颁发者"
 
 #: crypt32.rc:184
 msgid "Certificate Serial Number="
-msgstr ""
+msgstr "证书序列号="
 
 #: crypt32.rc:185
 msgid "Other Name="
-msgstr ""
+msgstr "其他名称="
 
 #: crypt32.rc:186
 msgid "Email Address="
-msgstr ""
+msgstr "电子邮件地址="
 
 #: crypt32.rc:187
 msgid "DNS Name="
-msgstr ""
+msgstr "DNS 名称="
 
 #: crypt32.rc:188
 msgid "Directory Address"
-msgstr ""
+msgstr "目录地址"
 
 #: crypt32.rc:189
 msgid "URL="
-msgstr ""
+msgstr "URL="
 
 #: crypt32.rc:190
 msgid "IP Address="
-msgstr ""
+msgstr "IP 地址="
 
 #: crypt32.rc:191
 msgid "Mask="
-msgstr ""
+msgstr "掩码="
 
 #: crypt32.rc:192
 msgid "Registered ID="
-msgstr ""
+msgstr "注册 ID="
 
 #: crypt32.rc:193
+#, fuzzy
 msgid "Unknown Key Usage"
-msgstr ""
+msgstr "未知密钥使用"
 
 #: crypt32.rc:194
 msgid "Subject Type="
@@ -1854,15 +1855,16 @@ msgstr ""
 #: crypt32.rc:195
 msgctxt "Certificate Authority"
 msgid "CA"
-msgstr ""
+msgstr "CA"
 
 #: crypt32.rc:196
+#, fuzzy
 msgid "End Entity"
-msgstr ""
+msgstr "最终实体"
 
 #: crypt32.rc:197
 msgid "Path Length Constraint="
-msgstr ""
+msgstr "目录长度约束="
 
 #: crypt32.rc:198
 msgctxt "path length"
@@ -1871,40 +1873,41 @@ msgstr "无"
 
 #: crypt32.rc:199
 msgid "Information Not Available"
-msgstr ""
+msgstr "信息不可用"
 
 #: crypt32.rc:200
 msgid "Authority Info Access"
-msgstr ""
+msgstr "机构信息访问"
 
 #: crypt32.rc:201
 msgid "Access Method="
-msgstr ""
+msgstr "访问方式="
 
 #: crypt32.rc:202
 msgctxt "Online Certificate Status Protocol"
 msgid "OCSP"
-msgstr ""
+msgstr "OCSP"
 
 #: crypt32.rc:203
 msgid "CA Issuers"
-msgstr ""
+msgstr "CA 颁发者"
 
 #: crypt32.rc:204
 msgid "Unknown Access Method"
-msgstr ""
+msgstr "未知访问方式"
 
 #: crypt32.rc:205
+#, fuzzy
 msgid "Alternative Name"
-msgstr ""
+msgstr "别名"
 
 #: crypt32.rc:206
 msgid "CRL Distribution Point"
-msgstr ""
+msgstr "CRL 分发点"
 
 #: crypt32.rc:207
 msgid "Distribution Point Name"
-msgstr ""
+msgstr "分发点名称"
 
 #: crypt32.rc:208
 msgid "Full Name"
@@ -1912,43 +1915,46 @@ msgstr "全名"
 
 #: crypt32.rc:209
 msgid "RDN Name"
-msgstr ""
+msgstr "RDN 名称"
 
 #: crypt32.rc:210
 msgid "CRL Reason="
-msgstr ""
+msgstr "CRL 原因="
 
 #: crypt32.rc:211
 msgid "CRL Issuer"
-msgstr ""
+msgstr "CRL 颁发者"
 
 #: crypt32.rc:212
+#, fuzzy
 msgid "Key Compromise"
-msgstr ""
+msgstr "密钥泄漏"
 
 #: crypt32.rc:213
+#, fuzzy
 msgid "CA Compromise"
-msgstr ""
+msgstr "CA 泄漏"
 
 #: crypt32.rc:214
 msgid "Affiliation Changed"
-msgstr ""
+msgstr "附属关系已更改"
 
 #: crypt32.rc:215
 msgid "Superseded"
-msgstr ""
+msgstr "已取代"
 
 #: crypt32.rc:216
 msgid "Operation Ceased"
-msgstr ""
+msgstr "操作已停止"
 
 #: crypt32.rc:217
+#, fuzzy
 msgid "Certificate Hold"
-msgstr ""
+msgstr "持有证书"
 
 #: crypt32.rc:218
 msgid "Financial Information="
-msgstr ""
+msgstr "财经信息="
 
 #: crypt32.rc:219 taskmgr.rc:397
 msgid "Available"
@@ -1960,7 +1966,7 @@ msgstr "不可用"
 
 #: crypt32.rc:221
 msgid "Meets Criteria="
-msgstr ""
+msgstr "符合标准="
 
 #: crypt32.rc:222 cryptui.rc:166 oleaut32.rc:32 wininet.rc:83 ipconfig.rc:47
 msgid "Yes"
@@ -1976,47 +1982,49 @@ msgstr "数字签名"
 
 #: crypt32.rc:225
 msgid "Non-Repudiation"
-msgstr ""
+msgstr "不可抵赖"
 
 #: crypt32.rc:226
 msgid "Key Encipherment"
-msgstr ""
+msgstr "密钥加密"
 
 #: crypt32.rc:227
 msgid "Data Encipherment"
-msgstr ""
+msgstr "数据加密"
 
 #: crypt32.rc:228
 msgid "Key Agreement"
-msgstr ""
+msgstr "密钥协议"
 
 #: crypt32.rc:229
 msgid "Certificate Signing"
-msgstr ""
+msgstr "证书签名"
 
 #: crypt32.rc:230
 msgid "Off-line CRL Signing"
-msgstr ""
+msgstr "离线 CRL 签名"
 
 #: crypt32.rc:231
 msgid "CRL Signing"
 msgstr "CRL 签名"
 
 #: crypt32.rc:232
+#, fuzzy
 msgid "Encipher Only"
-msgstr ""
+msgstr "仅加密者"
 
 #: crypt32.rc:233
+#, fuzzy
 msgid "Decipher Only"
-msgstr ""
+msgstr "仅解密者"
 
 #: crypt32.rc:234
 msgid "SSL Client Authentication"
-msgstr ""
+msgstr "SSL 客户端认证"
 
 #: crypt32.rc:235
 msgid "SSL Server Authentication"
-msgstr ""
+msgstr "SSL 服务端认证"
 
 #: crypt32.rc:236
 msgid "S/MIME"
@@ -2048,31 +2056,31 @@ msgstr "策略标识符："
 
 #: cryptdlg.rc:32
 msgid "Policy Qualifier Info"
-msgstr ""
+msgstr "策略限定符信息"
 
 #: cryptdlg.rc:33
 msgid "Policy Qualifier Id="
-msgstr ""
+msgstr "策略限定符 ID="
 
 #: cryptdlg.rc:36
 msgid "Qualifier"
-msgstr ""
+msgstr "限定符"
 
 #: cryptdlg.rc:37
 msgid "Notice Reference"
-msgstr ""
+msgstr "公告参考"
 
 #: cryptdlg.rc:38
 msgid "Organization="
-msgstr ""
+msgstr "组织="
 
 #: cryptdlg.rc:39
 msgid "Notice Number="
-msgstr ""
+msgstr "公告号码="
 
 #: cryptdlg.rc:40
 msgid "Notice Text="
-msgstr ""
+msgstr "公告文本="
 
 #: cryptui.rc:180 cryptui.rc:235 inetcpl.rc:46
 msgid "General"
@@ -2084,7 +2092,7 @@ msgstr "安装证书(&I)…"
 
 #: cryptui.rc:192
 msgid "Issuer &Statement"
-msgstr ""
+msgstr "颁发者声明(&S)"
 
 #: cryptui.rc:200
 msgid "&Show:"
@@ -2136,15 +2144,15 @@ msgstr "证书用途"
 
 #: cryptui.rc:244
 msgid "&Enable all purposes for this certificate"
-msgstr ""
+msgstr "启用此证书的所有用途(&E)"
 
 #: cryptui.rc:246
 msgid "D&isable all purposes for this certificate"
-msgstr ""
+msgstr "禁用此证书的所有用途(&I)"
 
 #: cryptui.rc:248
 msgid "Enable &only the following purposes for this certificate:"
-msgstr ""
+msgstr "仅启用此证书的如下用途(&O)："
 
 #: cryptui.rc:253
 msgid "Add &Purpose..."
@@ -2152,32 +2160,33 @@ msgstr "添加用途(&P)…"
 
 #: cryptui.rc:257
 msgid "Add Purpose"
-msgstr ""
+msgstr "添加用途"
 
 #: cryptui.rc:260
+#, fuzzy
 msgid ""
 "Add the object identifier (OID) for the certificate purpose you wish to add:"
-msgstr ""
+msgstr "为您要添加的证书用途添加对象识别 (OID) ："
 
 #: cryptui.rc:268 cryptui.rc:69
 msgid "Select Certificate Store"
-msgstr ""
+msgstr "选择证书存储"
 
 #: cryptui.rc:271
 msgid "Select the certificate store you want to use:"
-msgstr ""
+msgstr "选择您要使用的证书存储"
 
 #: cryptui.rc:274
 msgid "&Show physical stores"
-msgstr ""
+msgstr "显示物理存储(&S)"
 
 #: cryptui.rc:280 cryptui.rc:291 cryptui.rc:308 cryptui.rc:322 cryptui.rc:71
 msgid "Certificate Import Wizard"
-msgstr ""
+msgstr "证书导入向导"
 
 #: cryptui.rc:283
 msgid "Welcome to the Certificate Import Wizard"
-msgstr ""
+msgstr "欢迎使用证书导入向导"
 
 #: cryptui.rc:286
 msgid ""
@@ -2191,10 +2200,16 @@ msgid ""
 "\n"
 "To continue, click Next."
 msgstr ""
+"该向导可帮助您从文件将证书、证书吊销列表和证书信任列表导入到证书存储。\n"
+"\n"
+"证书在通信时可让对方辨认您的电脑。证书也可用于认证和为消息签名。证书存储是证"
+"书、证书吊销列表和证书信任列表的集合。\n"
+"\n"
+"按下一步以继续。"
 
 #: cryptui.rc:294 cryptui.rc:430
 msgid "&File name:"
-msgstr "文件名(&F):"
+msgstr "文件名(&F)："
 
 #: cryptui.rc:296 cryptui.rc:318 cryptui.rc:432 winecfg.rc:309
 msgid "B&rowse..."
@@ -2204,53 +2219,55 @@ msgstr "浏览(&R)…"
 msgid ""
 "Note: The following file formats may contain more than one certificate, "
 "certificate revocation list, or certificate trust list:"
-msgstr ""
+msgstr "注意：如下格式的文件可能包含多个证书、证书吊销列表或证书信任列表："
 
 #: cryptui.rc:299
+#, fuzzy
 msgid "Cryptographic Message Syntax Standard/PKCS #7 Messages (*.p7b)"
-msgstr ""
+msgstr "加密消息语法标准/PKCS #7 消息 (*.p7b)"
 
 #: cryptui.rc:301
 msgid "Personal Information Exchange/PKCS #12 (*.pfx; *.p12)"
-msgstr ""
+msgstr "个人信息交换/PKCS #12 (*.pfx; *.p12)"
 
 #: cryptui.rc:303 cryptui.rc:81 cryptui.rc:162
 msgid "Microsoft Serialized Certificate Store (*.sst)"
-msgstr ""
+msgstr "Microsoft 序列化证书存储 (*.sst)"
 
 #: cryptui.rc:311
 msgid ""
 "Wine can automatically select the certificate store, or you can specify a "
 "location for the certificates."
-msgstr ""
+msgstr "Wine 可以自动选择证书存储，您也可以指定证书的位置。"
 
 #: cryptui.rc:313
 msgid "&Automatically select certificate store"
-msgstr ""
+msgstr "自动选择证书存储(&A)"
 
 #: cryptui.rc:315
 msgid "&Place all certificates in the following store:"
-msgstr ""
+msgstr "将所有证书放入此存储(&P)："
 
 #: cryptui.rc:325
 msgid "Completing the Certificate Import Wizard"
-msgstr ""
+msgstr "即将完成证书导入向导"
 
 #: cryptui.rc:327
 msgid "You have successfully completed the Certificate Import Wizard."
-msgstr ""
+msgstr "您已成功完成证书导入向导。"
 
 #: cryptui.rc:329 cryptui.rc:443
 msgid "You have specified the following settings:"
-msgstr ""
+msgstr "您已指定如下设置："
 
 #: cryptui.rc:337 cryptui.rc:122 inetcpl.rc:111
 msgid "Certificates"
 msgstr "证书"
 
 #: cryptui.rc:340
+#, fuzzy
 msgid "I&ntended purpose:"
-msgstr ""
+msgstr "预期用途："
 
 #: cryptui.rc:344
 msgid "&Import..."
@@ -2285,7 +2302,7 @@ msgstr "证书用途"
 #: cryptui.rc:359
 msgid ""
 "Select one or more purposes to be listed when Advanced Purposes is selected."
-msgstr ""
+msgstr "选择一个或多个在选中高级用途后要列出的用途。"
 
 #: cryptui.rc:361
 msgid "&Certificate purposes:"
@@ -2294,11 +2311,11 @@ msgstr "证书用途(&C):"
 #: cryptui.rc:370 cryptui.rc:381 cryptui.rc:394 cryptui.rc:404 cryptui.rc:427
 #: cryptui.rc:436 cryptui.rc:150
 msgid "Certificate Export Wizard"
-msgstr ""
+msgstr "证书导出向导"
 
 #: cryptui.rc:373
 msgid "Welcome to the Certificate Export Wizard"
-msgstr ""
+msgstr "欢迎使用证书导出向导"
 
 #: cryptui.rc:376
 msgid ""
@@ -2312,24 +2329,31 @@ msgid ""
 "\n"
 "To continue, click Next."
 msgstr ""
+"该向导可帮助您从证书存储将证书、证书吊销列表和证书信任列表导出到文件。\n"
+"\n"
+"证书在通信时可让对方辨认您的电脑。证书也可用于认证和为消息签名。证书存储是证"
+"书、证书吊销列表和证书信任列表的集合。\n"
+"\n"
+"按下一步以继续。"
 
 #: cryptui.rc:384
+#, fuzzy
 msgid ""
 "If you choose to export the private key, you will be prompted for a password "
 "to protect the private key on a later page."
-msgstr ""
+msgstr "如果您选择导出私钥，将提示您创建密码以保护后页的私钥。"
 
 #: cryptui.rc:385
 msgid "Do you wish to export the private key?"
-msgstr ""
+msgstr "您希望导出私钥吗？"
 
 #: cryptui.rc:386
 msgid "&Yes, export the private key"
-msgstr ""
+msgstr "是，导出私钥(&Y)"
 
 #: cryptui.rc:388
 msgid "N&o, do not export the private key"
-msgstr ""
+msgstr "否，不要导出私钥(&O)"
 
 #: cryptui.rc:399
 msgid "&Confirm password:"
@@ -2337,47 +2361,49 @@ msgstr "确认密码(&C):"
 
 #: cryptui.rc:407
 msgid "Select the format you want to use:"
-msgstr ""
+msgstr "选择您希望使用的格式："
 
 #: cryptui.rc:408
 msgid "&DER-encoded X.509 (*.cer)"
-msgstr ""
+msgstr "&DER 加密的 X.509 (*.cer)"
 
 #: cryptui.rc:410
 msgid "Ba&se64-encoded X.509 (*.cer):"
-msgstr ""
+msgstr "Ba&se64 加密的 X.509 (*.cer):"
 
 #: cryptui.rc:412
+#, fuzzy
 msgid "&Cryptographic Message Syntax Standard/PKCS #7 Message (*.p7b)"
-msgstr ""
+msgstr "加密消息语法标准/PKCS #7 消息 (&C)(*.p7b)"
 
 #: cryptui.rc:414
 msgid "&Include all certificates in the certification path if possible"
-msgstr ""
+msgstr "尽可能在证书路径中包含所有证书(&I)"
 
 #: cryptui.rc:416
+#, fuzzy
 msgid "&Personal Information Exchange/PKCS #12 (*.pfx)"
-msgstr ""
+msgstr "个人信息交换/PKCS #12 (&P)(*.pfx; *.p12)"
 
 #: cryptui.rc:418
 msgid "Incl&ude all certificates in the certification path if possible"
-msgstr ""
+msgstr "尽可能在证书路径中包含所有证书(&U)"
 
 #: cryptui.rc:420
 msgid "&Enable strong encryption"
-msgstr ""
+msgstr "启用强加密(&E)"
 
 #: cryptui.rc:422
 msgid "Delete the private &key if the export is successful"
-msgstr ""
+msgstr "导出成功后删除私钥(&K)"
 
 #: cryptui.rc:439
 msgid "Completing the Certificate Export Wizard"
-msgstr ""
+msgstr "即将完成证书导出向导"
 
 #: cryptui.rc:441
 msgid "You have successfully completed the Certificate Export Wizard."
-msgstr ""
+msgstr "您已成功完成证书导出向导。"
 
 #: cryptui.rc:30 cryptui.rc:93
 msgid "Certificate"
@@ -2391,17 +2417,18 @@ msgstr "证书信息"
 msgid ""
 "This certificate has an invalid signature. The certificate may have been "
 "altered or corrupted."
-msgstr ""
+msgstr "该证书带有无效签名。证书可能被篡改或已损坏。"
 
 #: cryptui.rc:33
 msgid ""
 "This root certificate is not trusted. To trust it, add it to your system's "
 "trusted root certificate store."
-msgstr ""
+msgstr "该根证书不被信任。要信任根证书，将其加入到系统信任的根证书存储。"
 
 #: cryptui.rc:34
+#, fuzzy
 msgid "This certificate could not be validated to a trusted root certificate."
-msgstr ""
+msgstr "无法将该证书验证为根证书。"
 
 #: cryptui.rc:35
 msgid "This certificate's issuer could not be found."
@@ -2409,47 +2436,47 @@ msgstr "找不到这个证书的颁发者。"
 
 #: cryptui.rc:36
 msgid "All the intended purposes of this certificate could not be verified."
-msgstr ""
+msgstr "证书的所有预期用途均无法验证。"
 
 #: cryptui.rc:37
 msgid "This certificate is intended for the following purposes:"
-msgstr ""
+msgstr "该证书的预期用途如下："
 
 #: cryptui.rc:38
 msgid "Issued to: "
-msgstr ""
+msgstr "颁发给："
 
 #: cryptui.rc:39
 msgid "Issued by: "
-msgstr ""
+msgstr "颁发者："
 
 #: cryptui.rc:40
 msgid "Valid from "
-msgstr ""
+msgstr "有效自"
 
 #: cryptui.rc:41
 msgid " to "
-msgstr ""
+msgstr " 到 "
 
 #: cryptui.rc:42
 msgid "This certificate has an invalid signature."
-msgstr ""
+msgstr "该证书带有无效签名。"
 
 #: cryptui.rc:43
 msgid "This certificate has expired or is not yet valid."
-msgstr ""
+msgstr "该证书已过期或尚未生效。"
 
 #: cryptui.rc:44
 msgid "This certificate's validity period exceeds that of its issuer."
-msgstr ""
+msgstr "该证书有效期超出颁发者的有效期。"
 
 #: cryptui.rc:45
 msgid "This certificate was revoked by its issuer."
-msgstr ""
+msgstr "该证书已被颁发者吊销。"
 
 #: cryptui.rc:46
 msgid "This certificate is OK."
-msgstr ""
+msgstr "该证书没有问题。"
 
 #: cryptui.rc:47
 msgid "Field"
@@ -2461,19 +2488,20 @@ msgstr "亮度"
 
 #: cryptui.rc:49 cryptui.rc:102 cryptui.rc:108
 msgid "<All>"
-msgstr ""
+msgstr "<全部>"
 
 #: cryptui.rc:50
+#, fuzzy
 msgid "Version 1 Fields Only"
-msgstr ""
+msgstr "仅版本 1 域"
 
 #: cryptui.rc:51
 msgid "Extensions Only"
-msgstr ""
+msgstr "仅扩展"
 
 #: cryptui.rc:52
 msgid "Critical Extensions Only"
-msgstr ""
+msgstr "仅重要扩展"
 
 #: cryptui.rc:53
 msgid "Properties Only"
@@ -2481,7 +2509,7 @@ msgstr "仅属性"
 
 #: cryptui.rc:55
 msgid "Serial number"
-msgstr ""
+msgstr "序列号"
 
 #: cryptui.rc:56
 msgid "Issuer"
