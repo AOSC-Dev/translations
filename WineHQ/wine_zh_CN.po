@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-07-19 14:49+0800\n"
+"PO-Revision-Date: 2016-08-07 16:54+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
@@ -53,13 +53,13 @@ msgstr "删除(&R)"
 msgid "Support Information"
 msgstr "技术支持信息"
 
-#: appwiz.rc:78 avifil32.rc:54 comctl32.rc:55 comdlg32.rc:231 comdlg32.rc:261
-#: comdlg32.rc:304 comdlg32.rc:358 comdlg32.rc:397 comdlg32.rc:451 credui.rc:52
+#: appwiz.rc:78 avifil32.rc:54 comctl32.rc:55 comdlg32.rc:232 comdlg32.rc:262
+#: comdlg32.rc:305 comdlg32.rc:359 comdlg32.rc:398 comdlg32.rc:452 credui.rc:52
 #: cryptui.rc:263 cryptui.rc:275 cryptui.rc:365 dinput.rc:46 ieframe.rc:96
 #: localui.rc:44 localui.rc:57 mpr.rc:49 msacm32.rc:53 mshtml.rc:47
 #: mshtml.rc:57 msvfw32.rc:36 oledlg.rc:62 oledlg.rc:94 serialui.rc:41
 #: setupapi.rc:59 shell32.rc:276 shell32.rc:300 shell32.rc:322 shell32.rc:340
-#: shlwapi.rc:44 user32.rc:80 user32.rc:98 wininet.rc:51 wininet.rc:71
+#: shlwapi.rc:44 user32.rc:83 user32.rc:98 wininet.rc:51 wininet.rc:71
 #: winspool.rc:42 net.rc:47 notepad.rc:117 oleview.rc:162 oleview.rc:175
 #: progman.rc:106 progman.rc:124 progman.rc:142 progman.rc:158 progman.rc:180
 #: progman.rc:199 progman.rc:216 regedit.rc:247 regedit.rc:258 regedit.rc:271
@@ -130,15 +130,15 @@ msgid "&Install"
 msgstr "安装(&I)"
 
 #: appwiz.rc:110 appwiz.rc:125 avifil32.rc:55 browseui.rc:40 comctl32.rc:56
-#: comctl32.rc:71 comdlg32.rc:170 comdlg32.rc:192 comdlg32.rc:210
-#: comdlg32.rc:232 comdlg32.rc:262 comdlg32.rc:305 comdlg32.rc:327
-#: comdlg32.rc:347 comdlg32.rc:359 comdlg32.rc:398 comdlg32.rc:452
-#: comdlg32.rc:477 comdlg32.rc:500 credui.rc:53 cryptui.rc:264 cryptui.rc:276
+#: comctl32.rc:71 comdlg32.rc:171 comdlg32.rc:193 comdlg32.rc:211
+#: comdlg32.rc:233 comdlg32.rc:263 comdlg32.rc:306 comdlg32.rc:328
+#: comdlg32.rc:348 comdlg32.rc:360 comdlg32.rc:399 comdlg32.rc:453
+#: comdlg32.rc:478 comdlg32.rc:501 credui.rc:53 cryptui.rc:264 cryptui.rc:276
 #: cryptui.rc:366 dinput.rc:47 ieframe.rc:97 inetcpl.rc:81 localui.rc:45
 #: localui.rc:58 mpr.rc:50 msacm32.rc:54 mshtml.rc:48 mshtml.rc:58
 #: msvfw32.rc:37 oledlg.rc:63 oledlg.rc:95 serialui.rc:42 setupapi.rc:42
 #: setupapi.rc:60 shell32.rc:277 shell32.rc:301 shell32.rc:312 shell32.rc:341
-#: shlwapi.rc:45 user32.rc:81 user32.rc:99 wininet.rc:52 wininet.rc:72
+#: shlwapi.rc:45 user32.rc:84 user32.rc:99 wininet.rc:52 wininet.rc:72
 #: winspool.rc:43 notepad.rc:118 oleview.rc:163 oleview.rc:176 progman.rc:107
 #: progman.rc:125 progman.rc:143 progman.rc:159 progman.rc:181 progman.rc:200
 #: progman.rc:217 regedit.rc:248 regedit.rc:259 regedit.rc:272 regedit.rc:288
@@ -294,11 +294,11 @@ msgstr "正在取消..."
 msgid "Properties for %s"
 msgstr "属性 %s"
 
-#: comctl32.rc:57 comdlg32.rc:263
+#: comctl32.rc:57 comdlg32.rc:264
 msgid "&Apply"
 msgstr "应用(&A)"
 
-#: comctl32.rc:58 comctl32.rc:72 comdlg32.rc:306 user32.rc:89
+#: comctl32.rc:58 comctl32.rc:72 comdlg32.rc:307 user32.rc:88
 msgid "Help"
 msgstr "帮助"
 
@@ -331,9 +331,9 @@ msgstr "关闭(&C)"
 msgid "R&eset"
 msgstr "重置(&e)"
 
-#: comctl32.rc:86 comdlg32.rc:171 comdlg32.rc:193 comdlg32.rc:264
-#: comdlg32.rc:328 comdlg32.rc:348 comdlg32.rc:360 comdlg32.rc:478
-#: comdlg32.rc:501 ieframe.rc:58 msacm32.rc:52 oledlg.rc:96 shell32.rc:128
+#: comctl32.rc:86 comdlg32.rc:172 comdlg32.rc:194 comdlg32.rc:265
+#: comdlg32.rc:329 comdlg32.rc:349 comdlg32.rc:361 comdlg32.rc:479
+#: comdlg32.rc:502 ieframe.rc:58 msacm32.rc:52 oledlg.rc:96 shell32.rc:128
 #: clock.rc:44 notepad.rc:60 notepad.rc:119 oleview.rc:72 progman.rc:55
 #: progman.rc:108 progman.rc:126 progman.rc:144 progman.rc:160 progman.rc:184
 #: progman.rc:202 progman.rc:219 regedit.rc:79 taskmgr.rc:87 winefile.rc:82
@@ -387,400 +387,400 @@ msgstr "今天："
 msgid "Go to today"
 msgstr "转到今天"
 
-#: comdlg32.rc:156 comdlg32.rc:169 comdlg32.rc:458 comdlg32.rc:484
+#: comdlg32.rc:157 comdlg32.rc:170 comdlg32.rc:459 comdlg32.rc:485
 #: shell32.rc:167 oleview.rc:102
 msgid "Open"
 msgstr "打开"
 
-#: comdlg32.rc:159 comdlg32.rc:181
+#: comdlg32.rc:160 comdlg32.rc:182
 msgid "File &Name:"
 msgstr "文件名(&N)："
 
-#: comdlg32.rc:162 comdlg32.rc:184
+#: comdlg32.rc:163 comdlg32.rc:185
 msgid "&Directories:"
 msgstr "文件夹(&D)："
 
-#: comdlg32.rc:165 comdlg32.rc:187
+#: comdlg32.rc:166 comdlg32.rc:188
 msgid "List Files of &Type:"
 msgstr "文件类型(&T)："
 
-#: comdlg32.rc:167 comdlg32.rc:189
+#: comdlg32.rc:168 comdlg32.rc:190
 msgid "Dri&ves:"
 msgstr "驱动器(&V)："
 
-#: comdlg32.rc:172 comdlg32.rc:194 winefile.rc:176
+#: comdlg32.rc:173 comdlg32.rc:195 winefile.rc:176
 msgid "&Read Only"
 msgstr "只读(&R)"
 
-#: comdlg32.rc:178
+#: comdlg32.rc:179
 msgid "Save As..."
 msgstr "另存为..."
 
-#: comdlg32.rc:191 comdlg32.rc:145
+#: comdlg32.rc:192 comdlg32.rc:145
 msgid "Save As"
 msgstr "另存为"
 
-#: comdlg32.rc:200 comdlg32.rc:209 comdlg32.rc:355 comdlg32.rc:54 hhctrl.rc:49
+#: comdlg32.rc:201 comdlg32.rc:210 comdlg32.rc:356 comdlg32.rc:54 hhctrl.rc:49
 #: wordpad.rc:165
 msgid "Print"
 msgstr "打印"
 
-#: comdlg32.rc:203
+#: comdlg32.rc:204
 msgid "Printer:"
 msgstr "打印机："
 
-#: comdlg32.rc:205 comdlg32.rc:382
+#: comdlg32.rc:206 comdlg32.rc:383
 msgid "Print range"
 msgstr "打印范围"
 
-#: comdlg32.rc:206 comdlg32.rc:383 regedit.rc:219
+#: comdlg32.rc:207 comdlg32.rc:384 regedit.rc:219
 msgid "&All"
 msgstr "全部(&A)"
 
-#: comdlg32.rc:207
+#: comdlg32.rc:208
 msgid "S&election"
 msgstr "选中的范围(&E)"
 
-#: comdlg32.rc:208
+#: comdlg32.rc:209
 msgid "&Pages"
 msgstr "页数(&G)"
 
-#: comdlg32.rc:211 comdlg32.rc:233
+#: comdlg32.rc:212 comdlg32.rc:234
 msgid "&Setup"
 msgstr "设置(&S)"
 
-#: comdlg32.rc:212
+#: comdlg32.rc:213
 msgid "&From:"
 msgstr "从(&F)："
 
-#: comdlg32.rc:213
+#: comdlg32.rc:214
 msgid "&To:"
 msgstr "到(&T)："
 
-#: comdlg32.rc:214 wineps.rc:42
+#: comdlg32.rc:215 wineps.rc:42
 msgid "Print &Quality:"
 msgstr "打印质量(&Q)："
 
-#: comdlg32.rc:216
+#: comdlg32.rc:217
 msgid "Print to Fi&le"
 msgstr "打印到文件(&L)"
 
-#: comdlg32.rc:217
+#: comdlg32.rc:218
 msgid "Condensed"
 msgstr "压小"
 
-#: comdlg32.rc:223 comdlg32.rc:394
+#: comdlg32.rc:224 comdlg32.rc:395
 msgid "Print Setup"
 msgstr "打印设置"
 
-#: comdlg32.rc:226 comdlg32.rc:362 comdlg32.rc:401
+#: comdlg32.rc:227 comdlg32.rc:363 comdlg32.rc:402
 msgid "Printer"
 msgstr "打印机"
 
-#: comdlg32.rc:227
+#: comdlg32.rc:228
 msgid "&Default Printer"
 msgstr "默认打印机(&D)"
 
-#: comdlg32.rc:228
+#: comdlg32.rc:229
 msgid "[none]"
 msgstr "[无]"
 
-#: comdlg32.rc:229
+#: comdlg32.rc:230
 msgid "Specific &Printer"
 msgstr "指定的打印机(&P)"
 
-#: comdlg32.rc:234 comdlg32.rc:420 comdlg32.rc:439 wineps.rc:34
+#: comdlg32.rc:235 comdlg32.rc:421 comdlg32.rc:440 wineps.rc:34
 msgid "Orientation"
 msgstr "方向"
 
-#: comdlg32.rc:235
+#: comdlg32.rc:236
 msgid "Po&rtrait"
 msgstr "纵向(&P)"
 
-#: comdlg32.rc:236 comdlg32.rc:441 wineps.rc:37
+#: comdlg32.rc:237 comdlg32.rc:442 wineps.rc:37
 msgid "&Landscape"
 msgstr "横向(&L)"
 
-#: comdlg32.rc:239 comdlg32.rc:414 comdlg32.rc:434 wineps.rc:28
+#: comdlg32.rc:240 comdlg32.rc:415 comdlg32.rc:435 wineps.rc:28
 msgid "Paper"
 msgstr "纸张"
 
-#: comdlg32.rc:240
+#: comdlg32.rc:241
 msgid "Si&ze"
 msgstr "纸张大小(&Z)"
 
-#: comdlg32.rc:241
+#: comdlg32.rc:242
 msgid "&Source"
 msgstr "纸张来源(&S)"
 
-#: comdlg32.rc:249 wineconsole.rc:85
+#: comdlg32.rc:250 wineconsole.rc:85
 msgid "Font"
 msgstr "字体"
 
-#: comdlg32.rc:252
+#: comdlg32.rc:253
 msgid "&Font:"
 msgstr "字体(&F)："
 
-#: comdlg32.rc:255
+#: comdlg32.rc:256
 msgid "Font St&yle:"
 msgstr "字体样式(&Y)："
 
-#: comdlg32.rc:258 comdlg32.rc:435 winecfg.rc:294
+#: comdlg32.rc:259 comdlg32.rc:436 winecfg.rc:294
 msgid "&Size:"
 msgstr "大小(&S)："
 
-#: comdlg32.rc:265
+#: comdlg32.rc:266
 msgid "Effects"
 msgstr "效果"
 
-#: comdlg32.rc:266
+#: comdlg32.rc:267
 msgid "Stri&keout"
 msgstr "删除线(&K)"
 
-#: comdlg32.rc:267
+#: comdlg32.rc:268
 msgid "&Underline"
 msgstr "下划线(&U)"
 
-#: comdlg32.rc:268 winecfg.rc:292
+#: comdlg32.rc:269 winecfg.rc:292
 msgid "&Color:"
 msgstr "配色(&C)："
 
-#: comdlg32.rc:271
+#: comdlg32.rc:272
 msgid "Sample"
 msgstr "示例"
 
-#: comdlg32.rc:273
+#: comdlg32.rc:274
 msgid "Scr&ipt:"
 msgstr "书写系统(&I):"
 
-#: comdlg32.rc:281
+#: comdlg32.rc:282
 msgid "Color"
 msgstr "颜色"
 
-#: comdlg32.rc:284
+#: comdlg32.rc:285
 msgid "&Basic Colors:"
 msgstr "基本颜色(&B)："
 
-#: comdlg32.rc:285
+#: comdlg32.rc:286
 msgid "&Custom Colors:"
 msgstr "自定义颜色(&C)："
 
-#: comdlg32.rc:286 comdlg32.rc:309
+#: comdlg32.rc:287 comdlg32.rc:310
 msgid "Color |  Sol&id"
 msgstr "颜色|纯色(&O)"
 
-#: comdlg32.rc:287
+#: comdlg32.rc:288
 msgid "&Red:"
 msgstr "红(&R)："
 
-#: comdlg32.rc:289
+#: comdlg32.rc:290
 msgid "&Green:"
 msgstr "绿(&G)："
 
-#: comdlg32.rc:291
+#: comdlg32.rc:292
 msgid "&Blue:"
 msgstr "蓝(&B)："
 
-#: comdlg32.rc:293
+#: comdlg32.rc:294
 msgid "&Hue:"
 msgstr "色调(&E)："
 
-#: comdlg32.rc:295
+#: comdlg32.rc:296
 msgctxt "Saturation"
 msgid "&Sat:"
 msgstr "饱和度(&S)："
 
-#: comdlg32.rc:297
+#: comdlg32.rc:298
 msgctxt "Luminance"
 msgid "&Lum:"
 msgstr "亮度(&L)："
 
-#: comdlg32.rc:307
+#: comdlg32.rc:308
 msgid "&Add to Custom Colors"
 msgstr "添加到自定义颜色(&A)"
 
-#: comdlg32.rc:308
+#: comdlg32.rc:309
 msgid "&Define Custom Colors >>"
 msgstr "定义自定义颜色(&D) >>"
 
-#: comdlg32.rc:315 regedit.rc:226 regedit.rc:236
+#: comdlg32.rc:316 regedit.rc:226 regedit.rc:236
 msgid "Find"
 msgstr "查找"
 
-#: comdlg32.rc:318 comdlg32.rc:337
+#: comdlg32.rc:319 comdlg32.rc:338
 msgid "Fi&nd What:"
 msgstr "查找(&N)："
 
-#: comdlg32.rc:320 comdlg32.rc:341
+#: comdlg32.rc:321 comdlg32.rc:342
 msgid "Match &Whole Word Only"
 msgstr "全字匹配(&W)"
 
-#: comdlg32.rc:321 comdlg32.rc:342
+#: comdlg32.rc:322 comdlg32.rc:343
 msgid "Match &Case"
 msgstr "区分大小写(&C)"
 
-#: comdlg32.rc:322 joy.rc:71
+#: comdlg32.rc:323 joy.rc:71
 msgid "Direction"
 msgstr "方向"
 
-#: comdlg32.rc:323 view.rc:42
+#: comdlg32.rc:324 view.rc:42
 msgid "&Up"
 msgstr "上(&U)"
 
-#: comdlg32.rc:324 view.rc:43
+#: comdlg32.rc:325 view.rc:43
 msgid "&Down"
 msgstr "下(&D)"
 
-#: comdlg32.rc:326 comdlg32.rc:344
+#: comdlg32.rc:327 comdlg32.rc:345
 msgid "&Find Next"
 msgstr "找下一个(&F)"
 
-#: comdlg32.rc:334
+#: comdlg32.rc:335
 msgid "Replace"
 msgstr "替换"
 
-#: comdlg32.rc:339
+#: comdlg32.rc:340
 msgid "Re&place With:"
 msgstr "替换为(&P)："
 
-#: comdlg32.rc:345
+#: comdlg32.rc:346
 msgid "&Replace"
 msgstr "替换(&R)"
 
-#: comdlg32.rc:346
+#: comdlg32.rc:347
 msgid "Replace &All"
 msgstr "全部替换(&A)"
 
-#: comdlg32.rc:363
+#: comdlg32.rc:364
 msgid "Print to fi&le"
 msgstr "打印到文件(&L)"
 
-#: comdlg32.rc:364 comdlg32.rc:402 ieframe.rc:42 shdoclc.rc:61 shell32.rc:108
+#: comdlg32.rc:365 comdlg32.rc:403 ieframe.rc:42 shdoclc.rc:61 shell32.rc:108
 #: clock.rc:31 wineconsole.rc:30
 msgid "&Properties"
 msgstr "属性(&P)"
 
-#: comdlg32.rc:365 comdlg32.rc:403 msacm32.rc:34 winefile.rc:141
+#: comdlg32.rc:366 comdlg32.rc:404 msacm32.rc:34 winefile.rc:141
 msgid "&Name:"
 msgstr "名称(&N)："
 
-#: comdlg32.rc:367 comdlg32.rc:405
+#: comdlg32.rc:368 comdlg32.rc:406
 msgid "Status:"
 msgstr "状态："
 
-#: comdlg32.rc:369 comdlg32.rc:407
+#: comdlg32.rc:370 comdlg32.rc:408
 msgid "Type:"
 msgstr "型号："
 
-#: comdlg32.rc:371 comdlg32.rc:409
+#: comdlg32.rc:372 comdlg32.rc:410
 msgid "Where:"
 msgstr "位置："
 
-#: comdlg32.rc:373 comdlg32.rc:411
+#: comdlg32.rc:374 comdlg32.rc:412
 msgid "Comment:"
 msgstr "备注："
 
-#: comdlg32.rc:376
+#: comdlg32.rc:377
 msgid "Copies"
 msgstr "份数"
 
-#: comdlg32.rc:377
+#: comdlg32.rc:378
 msgid "Number of &copies:"
 msgstr "份数(&C)："
 
-#: comdlg32.rc:379
+#: comdlg32.rc:380
 msgid "C&ollate"
 msgstr "逐份打印(&O)"
 
-#: comdlg32.rc:384
+#: comdlg32.rc:385
 msgid "Pa&ges"
 msgstr "页数(&G)"
 
-#: comdlg32.rc:385
+#: comdlg32.rc:386
 msgid "&Selection"
 msgstr "选中的范围(&S)"
 
-#: comdlg32.rc:388
+#: comdlg32.rc:389
 msgid "&from:"
 msgstr "从(&F)："
 
-#: comdlg32.rc:389
+#: comdlg32.rc:390
 msgid "&to:"
 msgstr "到(&T)："
 
-#: comdlg32.rc:415 winecfg.rc:300
+#: comdlg32.rc:416 winecfg.rc:300
 msgid "Si&ze:"
 msgstr "大小(&Z):"
 
-#: comdlg32.rc:417
+#: comdlg32.rc:418
 msgid "&Source:"
 msgstr "纸张来源(&S)："
 
-#: comdlg32.rc:422
+#: comdlg32.rc:423
 msgid "P&ortrait"
 msgstr "纵向(&P)"
 
-#: comdlg32.rc:423
+#: comdlg32.rc:424
 msgid "L&andscape"
 msgstr "横向(&L)"
 
-#: comdlg32.rc:428
+#: comdlg32.rc:429
 msgid "Setup Page"
 msgstr "页面设置"
 
-#: comdlg32.rc:437
+#: comdlg32.rc:438
 msgid "&Tray:"
 msgstr "托盘(&T)："
 
-#: comdlg32.rc:440 wineps.rc:35
+#: comdlg32.rc:441 wineps.rc:35
 msgid "&Portrait"
 msgstr "纵向(&P)"
 
-#: comdlg32.rc:443
+#: comdlg32.rc:444
 msgid "L&eft:"
 msgstr "左(&E)："
 
-#: comdlg32.rc:445 notepad.rc:112
+#: comdlg32.rc:446 notepad.rc:112
 msgid "&Right:"
 msgstr "右(&R)："
 
-#: comdlg32.rc:447
+#: comdlg32.rc:448
 msgid "T&op:"
 msgstr "上(&O)："
 
-#: comdlg32.rc:449 notepad.rc:114
+#: comdlg32.rc:450 notepad.rc:114
 msgid "&Bottom:"
 msgstr "下(&B)："
 
-#: comdlg32.rc:453
+#: comdlg32.rc:454
 msgid "P&rinter..."
 msgstr "打印机(&P)..."
 
-#: comdlg32.rc:461
+#: comdlg32.rc:462
 msgid "Look &in:"
 msgstr "浏览(&I)："
 
-#: comdlg32.rc:467
+#: comdlg32.rc:468
 msgid "File &name:"
 msgstr "文件名(&N):"
 
-#: comdlg32.rc:471
+#: comdlg32.rc:472
 msgid "Files of &type:"
 msgstr "文件类型(&T)："
 
-#: comdlg32.rc:474
+#: comdlg32.rc:475
 msgid "Open as &read-only"
 msgstr "以只读方式打开(&R)"
 
-#: comdlg32.rc:476 comdlg32.rc:494 shdoclc.rc:127 shell32.rc:99
+#: comdlg32.rc:477 comdlg32.rc:495 shdoclc.rc:127 shell32.rc:99
 msgid "&Open"
 msgstr "打开(&O)"
 
-#: comdlg32.rc:487
+#: comdlg32.rc:488
 msgid "File name:"
 msgstr "文件名："
 
-#: comdlg32.rc:490
+#: comdlg32.rc:491
 msgid "Files of type:"
 msgstr "文件类型："
 
@@ -1021,6 +1021,10 @@ msgstr "打开文件"
 #: comdlg32.rc:147
 msgid "Select Folder"
 msgstr "选择文件夹"
+
+#: comdlg32.rc:148
+msgid "Font size has to be a number."
+msgstr ""
 
 #: comdlg32.rc:83 oleview.rc:98
 msgid "Ready"
@@ -3101,7 +3105,7 @@ msgstr "显示标签页(&T)"
 msgid "Show"
 msgstr "显示"
 
-#: hhctrl.rc:43
+#: hhctrl.rc:43 winemac.rc:34
 msgid "Hide"
 msgstr "隐藏"
 
@@ -7353,8 +7357,8 @@ msgid "%1 %2 &Object"
 msgstr "%1 %2 对象(&O)"
 
 #: oledlg.rc:34
-msgid "%s &Object"
-msgstr ""
+msgid "%1 &Object"
+msgstr "%1 对象(&O)"
 
 #: oledlg.rc:33 oleview.rc:40
 msgid "&Object"
@@ -7896,7 +7900,7 @@ msgstr "创建新文件夹 (&M)"
 msgid "Message"
 msgstr "消息"
 
-#: shell32.rc:309 shlwapi.rc:46 user32.rc:85
+#: shell32.rc:309 shlwapi.rc:46 user32.rc:79
 msgid "&Yes"
 msgstr "是(&Y)"
 
@@ -7904,7 +7908,7 @@ msgstr "是(&Y)"
 msgid "Yes to &all"
 msgstr "全部选是 (&A)"
 
-#: shell32.rc:311 shlwapi.rc:47 user32.rc:86
+#: shell32.rc:311 shlwapi.rc:47 user32.rc:80
 msgid "&No"
 msgstr "否(&N)"
 
@@ -8421,23 +8425,23 @@ msgstr "关闭(&N)\tCtrl+F4"
 msgid "Nex&t\tCtrl+F6"
 msgstr ""
 
-#: user32.rc:82
+#: user32.rc:81
 msgid "&Abort"
 msgstr "中止(&A)"
 
-#: user32.rc:83
+#: user32.rc:82
 msgid "&Retry"
 msgstr "重试(&R)"
 
-#: user32.rc:84
+#: user32.rc:85
 msgid "&Ignore"
 msgstr "忽略(&I)"
 
-#: user32.rc:87
+#: user32.rc:86
 msgid "&Try Again"
 msgstr "再试(&T)"
 
-#: user32.rc:88
+#: user32.rc:87
 msgid "&Continue"
 msgstr "继续(&C)"
 
@@ -8448,6 +8452,50 @@ msgstr "选择窗口"
 #: user32.rc:72
 msgid "&More Windows..."
 msgstr "更多窗口(&M)..."
+
+#: winemac.rc:32 wineboot.rc:42
+msgid "Wine"
+msgstr "Wine"
+
+#: winemac.rc:33
+msgid "Hide %@"
+msgstr "隐藏 %@"
+
+#: winemac.rc:35
+msgid "Hide Others"
+msgstr "隐藏其他"
+
+#: winemac.rc:36
+msgid "Show All"
+msgstr "显示全部"
+
+#: winemac.rc:37
+msgid "Quit %@"
+msgstr "退出 %@"
+
+#: winemac.rc:38
+msgid "Quit"
+msgstr "退出"
+
+#: winemac.rc:40
+msgid "Window"
+msgstr "窗口"
+
+#: winemac.rc:41
+msgid "Minimize"
+msgstr "最小化"
+
+#: winemac.rc:42
+msgid "Zoom"
+msgstr "缩放"
+
+#: winemac.rc:43
+msgid "Enter Full Screen"
+msgstr "全屏"
+
+#: winemac.rc:44
+msgid "Bring All to Front"
+msgstr "前置全部窗口"
 
 #: wineps.rc:31
 msgid "Paper Si&ze:"
@@ -9718,12 +9766,12 @@ msgstr ""
 msgid "Are you sure?"
 msgstr ""
 
-#: cmd.rc:354 xcopy.rc:43
+#: cmd.rc:354 reg.rc:50 xcopy.rc:43
 msgctxt "Yes key"
 msgid "Y"
 msgstr ""
 
-#: cmd.rc:355 xcopy.rc:44
+#: cmd.rc:355 reg.rc:51 xcopy.rc:44
 msgctxt "No key"
 msgid "N"
 msgstr ""
@@ -9859,7 +9907,7 @@ msgstr ""
 msgid "Volume in drive %1!c! has no label.\n"
 msgstr ""
 
-#: cmd.rc:390
+#: cmd.rc:390 reg.rc:49
 msgid " (Yes|No)"
 msgstr " (是(Y)|否(N))"
 
@@ -11021,52 +11069,147 @@ msgstr "图标文件"
 msgid "Icons (*.ico)"
 msgstr "图标 (*.ico)"
 
-#: reg.rc:30
+#: reg.rc:35
 msgid ""
-"The syntax of this command is:\n"
+"Usage:\n"
+"  REG [operation] [parameters]\n"
 "\n"
-"REG [ ADD | DELETE | QUERY ]\n"
-"REG command /?\n"
+"Supported operations:\n"
+"  ADD | DELETE | QUERY\n"
+"\n"
+"For help on a specific operation, type:\n"
+"  REG [operation] /?\n"
+"\n"
 msgstr ""
 
-#: reg.rc:31
+#: reg.rc:36
 msgid ""
 "REG ADD key_name [/v value_name | /ve] [/t type] [/s separator] [/d data] [/"
 "f]\n"
 msgstr "REG ADD 键名 [/v 值名 | /ve] [/t 类型] [/s 分隔符] [/d 数据] [/f]\n"
 
-#: reg.rc:32
+#: reg.rc:37
 msgid "REG DELETE key_name [/v value_name | /ve | /va] [/f]\n"
 msgstr "REG DELETE 键名 [/v 值名 | /ve | /va] [/f]\n"
 
-#: reg.rc:33
+#: reg.rc:38
 msgid "REG QUERY key_name [/v value_name | /ve] [/s]\n"
 msgstr "REG QUERY 键名 [/v 值名 | /ve] [/s]\n"
 
-#: reg.rc:34
+#: reg.rc:39
 msgid "The operation completed successfully\n"
 msgstr "操作完成\n"
 
-#: reg.rc:35
-msgid "Error: Invalid key name\n"
-msgstr ""
+#: reg.rc:40
+#, fuzzy
+msgid "reg: Invalid key name\n"
+msgstr "错误：键名无效\n"
 
-#: reg.rc:36
-msgid "Error: Invalid command line parameters\n"
-msgstr ""
+#: reg.rc:41
+#, fuzzy
+msgid "reg: Invalid command line parameters\n"
+msgstr "错误：命令行参数无效\n"
 
-#: reg.rc:37
-msgid "Error: Unable to access remote machine\n"
-msgstr ""
+#: reg.rc:42
+#, fuzzy
+msgid "reg: Unable to access remote machine\n"
+msgstr "错误：无法访问远程机器\n"
 
-#: reg.rc:38
+#: reg.rc:43
+#, fuzzy
 msgid ""
-"Error: The system was unable to find the specified registry key or value\n"
+"reg: The system was unable to find the specified registry key or value\n"
+msgstr "错误：系统无法找到指定的注册表键或值\n"
+
+#: reg.rc:44
+#, fuzzy
+msgid "reg: Unsupported registry data type [%1]\n"
+msgstr "错误：不支持的格式\n"
+
+#: reg.rc:45
+#, fuzzy
+msgid "reg: The option [/d] must be followed by a valid integer\n"
+msgstr "uninstaller: 选项 '--remove' 必须后接一个应用程序 GUID\n"
+
+#: reg.rc:46
+#, fuzzy
+msgid "reg: The option [/d] must be followed by a valid hexadecimal value\n"
+msgstr "uninstaller: 选项 '--remove' 必须后接一个应用程序 GUID\n"
+
+#: reg.rc:47
+msgid "reg: Unhandled registry data type [/t 0x%1!x!, /d %2]\n"
 msgstr ""
 
-#: reg.rc:39
-msgid "Error: Unsupported type\n"
+#: reg.rc:48
+#, fuzzy
+msgid "The registry value '%1' already exists. Do you want to overwrite it?"
+msgstr "指定文件已经存在。是否替换？"
+
+#: reg.rc:52
+msgid "The registry operation was cancelled\n"
 msgstr ""
+
+#: reg.rc:53 regedit.rc:204
+msgid "(Default)"
+msgstr "(默认)"
+
+#: reg.rc:54
+#, fuzzy
+msgid "Are you sure you want to delete the registry value '%1'?"
+msgstr "您确认要删除这些值吗?"
+
+#: reg.rc:55
+#, fuzzy
+msgid "Are you sure you want to delete all registry values in '%1'?"
+msgstr "您确认要删除值 '%s' 吗?"
+
+#: reg.rc:56
+#, fuzzy
+msgid "Are you sure you want to delete the registry key '%1'?"
+msgstr "真的删除 '%1'?"
+
+#: reg.rc:57
+#, fuzzy
+msgid "reg: The option [/d] must be followed by a valid string\n"
+msgstr "uninstaller: 选项 '--remove' 必须后接一个应用程序 GUID\n"
+
+#: reg.rc:58
+msgid ""
+"reg: Unable to delete all registry values in '%1'. An unexpected error "
+"occurred.\n"
+msgstr ""
+
+#: reg.rc:59
+msgid ""
+"reg: Unable to complete the specified operation. An unexpected error "
+"occurred.\n"
+msgstr ""
+
+#: reg.rc:60
+msgid "Search complete. Number of matches found: %1!d!\n"
+msgstr ""
+
+#: reg.rc:61
+#, fuzzy
+msgid "reg: Invalid syntax. "
+msgstr "错误：键名无效\n"
+
+#: reg.rc:62
+#, fuzzy
+msgid "reg: Invalid option [%1]. "
+msgstr "uninstaller: 无效的选项 [%1]\n"
+
+#: reg.rc:63
+msgid "Type \"REG /?\" for help.\n"
+msgstr ""
+
+#: reg.rc:64
+msgid "Type \"REG %1 /?\" for help.\n"
+msgstr ""
+
+#: reg.rc:65 regedit.rc:205
+msgid "(value not set)"
+msgstr "(没有设值)"
 
 #: regedit.rc:34
 msgid "&Registry"
@@ -11269,14 +11412,6 @@ msgstr "注册表文件 (*.reg)"
 msgid "Win9x/NT4 Registry files (REGEDIT4)"
 msgstr "Win9x/NT4 注册表文件 (REGEDIT4)"
 
-#: regedit.rc:204
-msgid "(Default)"
-msgstr "(默认)"
-
-#: regedit.rc:205
-msgid "(value not set)"
-msgstr "(没有设值)"
-
 #: regedit.rc:206
 msgid "(cannot display value)"
 msgstr "(不能显示值)"
@@ -11284,6 +11419,135 @@ msgstr "(不能显示值)"
 #: regedit.rc:207
 msgid "(unknown %d)"
 msgstr "(未知 %d)"
+
+#: regedit.rc:359
+msgid ""
+"Usage:\n"
+"  regedit [options] [filename] [reg_key]\n"
+"\n"
+"Options:\n"
+"  [no option]    Launch the graphical version of this program.\n"
+"  /L:system.dat  The location of the system.dat file to be modified.\n"
+"                 Compatible with any other switch. Ignored.\n"
+"  /R:user.dat    The location of the user.dat file to be modified.\n"
+"                 Compatible with any other switch. Ignored.\n"
+"  /C             Import the contents of a registry file.\n"
+"  /D             Delete a specified registry key.\n"
+"  /E             Export the contents of a specified registry key to a file.\n"
+"                 If no key is specified, the entire registry is exported.\n"
+"  /S             Silent mode. No messages will be displayed.\n"
+"  /V             Launch the GUI in advanced mode. Ignored.\n"
+"  /?             Display this information and exit.\n"
+"  [filename]     The location of the file containing registry information "
+"to\n"
+"                 be imported. When used with [/E], this option specifies "
+"the\n"
+"                 file location where registry information will be exported.\n"
+"  [reg_key]      The registry key to be modified.\n"
+"\n"
+"Usage examples:\n"
+"  regedit \"import.reg\"\n"
+"  regedit /E \"export.reg\" \"HKEY_CURRENT_USER\\Console\"\n"
+"  regedit /D \"HKEY_LOCAL_MACHINE\\Error\\Path\"\n"
+msgstr ""
+
+#: regedit.rc:360
+msgid "regedit: Invalid or unrecognized switch [%1]\n"
+msgstr ""
+
+#: regedit.rc:361
+msgid "Type \"regedit /?\" for help.\n"
+msgstr ""
+
+#: regedit.rc:362
+#, fuzzy
+msgid "regedit: No filename was specified.\n"
+msgstr "未指定命令。"
+
+#: regedit.rc:363
+msgid "regedit: No registry key was specified for removal.\n"
+msgstr ""
+
+#: regedit.rc:364
+#, fuzzy
+msgid "regedit: The file '%1' was not found.\n"
+msgstr "uninstaller: 未找到 GUID 为 '%1' 的应用程序\n"
+
+#: regedit.rc:365
+#, fuzzy
+msgid "regedit: Unable to open the file '%1'.\n"
+msgstr "错误：无法访问远程机器\n"
+
+#: regedit.rc:366
+#, fuzzy
+msgid "regedit: Unhandled action.\n"
+msgstr "句柄操作无效。\n"
+
+#: regedit.rc:367
+msgid "regedit: Out of memory! (%1!S!, line %2!u!)\n"
+msgstr ""
+
+#: regedit.rc:368
+#, fuzzy
+msgid "regedit: Invalid hexadecimal value.\n"
+msgstr "错误：键名无效\n"
+
+#: regedit.rc:369
+msgid ""
+"regedit: Unable to convert hexadecimal data. An invalid value was "
+"encountered at '%1'.\n"
+msgstr ""
+
+#: regedit.rc:370
+msgid "regedit: Unrecognized escape sequence [\\%1!c!]\n"
+msgstr ""
+
+#: regedit.rc:371
+msgid "regedit: Unsupported registry data type [%1]\n"
+msgstr ""
+
+#: regedit.rc:372
+#, fuzzy
+msgid "regedit: Unexpected end of line in '%1'.\n"
+msgstr "错误：无法访问远程机器\n"
+
+#: regedit.rc:373
+#, fuzzy
+msgid "regedit: The line '%1' was not recognized.\n"
+msgstr "uninstaller: 未找到 GUID 为 '%1' 的应用程序\n"
+
+#: regedit.rc:374
+#, fuzzy
+msgid "regedit: Unable to add the registry value '%1' to '%2'.\n"
+msgstr "错误：无法访问远程机器\n"
+
+#: regedit.rc:375
+#, fuzzy
+msgid "regedit: Unable to open the registry key '%1'.\n"
+msgstr "错误：无法访问远程机器\n"
+
+#: regedit.rc:376
+msgid "regedit: Unsupported registry data type [%1] encountered in '%2'.\n"
+msgstr ""
+
+#: regedit.rc:377
+msgid "regedit: The registry value '%1' will be exported as binary data.\n"
+msgstr ""
+
+#: regedit.rc:378
+msgid "regedit: Incorrect registry class specification in '%1'.\n"
+msgstr ""
+
+#: regedit.rc:379
+#, fuzzy
+msgid ""
+"regedit: Unable to export '%1'. The specified registry key was not found.\n"
+msgstr "错误：系统无法找到指定的注册表键或值\n"
+
+#: regedit.rc:380
+#, fuzzy
+msgid "regedit: Unable to delete the registry class '%1'.\n"
+msgstr "错误：无法访问远程机器\n"
 
 #: regedit.rc:163
 msgid "Quits the registry editor"
@@ -12440,10 +12704,6 @@ msgstr ""
 "\n"
 "如果您中断进程，有可能丢失没有保存的数据。"
 
-#: wineboot.rc:42
-msgid "Wine"
-msgstr "Wine"
-
 #: wineboot.rc:46
 msgid "The Wine configuration in %s is being updated, please wait..."
 msgstr "正在更新位于 %s 的 Wine 配置，请稍候……"
@@ -12485,8 +12745,8 @@ msgstr ""
 "示”标签页中作不同的设置。"
 
 #: winecfg.rc:159
-msgid "&Add application..."
-msgstr ""
+msgid "Add appli&cation..."
+msgstr "增加程序设置(&C)..."
 
 #: winecfg.rc:160
 msgid "&Remove application"
@@ -12545,9 +12805,9 @@ msgstr ""
 msgid "&New override for library:"
 msgstr "新增函数库顶替(&N)："
 
-#: winecfg.rc:196 wordpad.rc:247
-msgid "&Add"
-msgstr "添加(&A)"
+#: winecfg.rc:196
+msgid "A&dd"
+msgstr "添加(&D)"
 
 #: winecfg.rc:197
 msgid "Existing &overrides:"
@@ -12574,8 +12834,8 @@ msgid "&Native (Windows)"
 msgstr "原装(Windows)(&N)"
 
 #: winecfg.rc:211
-msgid "Bui&ltin then Native"
-msgstr ""
+msgid "Buil&tin then Native"
+msgstr "内建先于原装(&T)"
 
 #: winecfg.rc:212
 msgid "Nati&ve then Builtin"
@@ -12596,20 +12856,20 @@ msgid ""
 msgstr "无法连接到挂载管理器。不能修改驱动器配置。"
 
 #: winecfg.rc:236
-msgid "&Add..."
-msgstr ""
+msgid "A&dd..."
+msgstr "添加(&D)..."
 
 #: winecfg.rc:238
-msgid "Auto&detect"
-msgstr ""
+msgid "Aut&odetect"
+msgstr "自动侦测(&O)"
 
 #: winecfg.rc:241
 msgid "&Path:"
 msgstr "路径(&P)："
 
 #: winecfg.rc:248 winecfg.rc:38
-msgid "Show &Advanced"
-msgstr ""
+msgid "Show Advan&ced"
+msgstr "显示高级选项(&C)"
 
 #: winecfg.rc:249
 msgid "De&vice:"
@@ -12628,8 +12888,8 @@ msgid "S&erial:"
 msgstr "序列号(&E)："
 
 #: winecfg.rc:258
-msgid "Show &dot files"
-msgstr ""
+msgid "&Show dot files"
+msgstr "显示隐藏文件(&S)"
 
 #: winecfg.rc:265
 msgid "Driver diagnostics"
@@ -12708,8 +12968,8 @@ msgid "Select the Unix target directory, please."
 msgstr "请选择目标 Unix 文件夹。"
 
 #: winecfg.rc:37
-msgid "Hide &Advanced"
-msgstr ""
+msgid "Hide Advan&ced"
+msgstr "隐藏高级选项(&C)"
 
 #: winecfg.rc:39
 msgid "(No Theme)"
@@ -13170,8 +13430,11 @@ msgid "Configuration error"
 msgstr "配置错误"
 
 #: wineconsole.rc:42
-msgid "Screen buffer size must be greater or equal to the window's one"
-msgstr ""
+#, fuzzy
+msgid ""
+"The size of the screen buffer must be greater than or equal to the size of "
+"the window."
+msgstr "屏幕缓冲区大小必须不小于窗口"
 
 #: wineconsole.rc:37
 msgid "Each character is %1!u! pixels wide and %2!u! pixels high"
@@ -13869,6 +14132,10 @@ msgstr "制表位"
 msgid "Tab stops"
 msgstr "制表位宽度"
 
+#: wordpad.rc:247
+msgid "&Add"
+msgstr "添加(&A)"
+
 #: wordpad.rc:251
 msgid "Remove al&l"
 msgstr "全部删除(&R)"
@@ -14173,215 +14440,13 @@ msgid ""
 "\n"
 msgstr ""
 
-#~ msgid "%1 &Object"
-#~ msgstr "%1 对象(&O)"
-
-#~ msgid "Hide %@"
-#~ msgstr "隐藏 %@"
-
-#~ msgid "Hide Others"
-#~ msgstr "隐藏其他"
-
-#~ msgid "Show All"
-#~ msgstr "显示全部"
-
-#~ msgid "Quit %@"
-#~ msgstr "退出 %@"
-
-#~ msgid "Quit"
-#~ msgstr "退出"
-
-#~ msgid "Window"
-#~ msgstr "窗口"
-
-#~ msgid "Minimize"
-#~ msgstr "最小化"
-
-#~ msgid "Zoom"
-#~ msgstr "缩放"
-
-#~ msgid "Enter Full Screen"
-#~ msgstr "全屏"
-
-#~ msgid "Bring All to Front"
-#~ msgstr "前置全部窗口"
-
-#, fuzzy
-#~| msgid "Error: Invalid key name\n"
-#~ msgid "reg: Invalid key name\n"
-#~ msgstr "错误：键名无效\n"
-
-#, fuzzy
-#~| msgid "Error: Invalid command line parameters\n"
-#~ msgid "reg: Invalid command line parameters\n"
-#~ msgstr "错误：命令行参数无效\n"
-
-#, fuzzy
-#~| msgid "Error: Unable to access remote machine\n"
-#~ msgid "reg: Unable to access remote machine\n"
-#~ msgstr "错误：无法访问远程机器\n"
-
-#, fuzzy
-#~| msgid ""
-#~| "Error: The system was unable to find the specified registry key or "
-#~| "value\n"
-#~ msgid ""
-#~ "reg: The system was unable to find the specified registry key or value\n"
-#~ msgstr "错误：系统无法找到指定的注册表键或值\n"
-
-#, fuzzy
-#~| msgid "Error: Unsupported type\n"
-#~ msgid "reg: Unsupported registry data type [%1]\n"
-#~ msgstr "错误：不支持的格式\n"
-
-#, fuzzy
-#~| msgid ""
-#~| "uninstaller: The option '--remove' must be followed by an application "
-#~| "GUID\n"
-#~ msgid "reg: The option [/d] must be followed by a valid integer\n"
-#~ msgstr "uninstaller: 选项 '--remove' 必须后接一个应用程序 GUID\n"
-
-#, fuzzy
-#~| msgid ""
-#~| "uninstaller: The option '--remove' must be followed by an application "
-#~| "GUID\n"
-#~ msgid "reg: The option [/d] must be followed by a valid hexadecimal value\n"
-#~ msgstr "uninstaller: 选项 '--remove' 必须后接一个应用程序 GUID\n"
-
-#, fuzzy
-#~| msgid "The specified file already exists. Do you want to replace it?"
-#~ msgid "The registry value '%1' already exists. Do you want to overwrite it?"
-#~ msgstr "指定文件已经存在。是否替换？"
-
-#, fuzzy
-#~| msgid "Are you sure you want to delete these values?"
-#~ msgid "Are you sure you want to delete the registry value '%1'?"
-#~ msgstr "您确认要删除这些值吗?"
-
-#, fuzzy
-#~| msgid "Are you sure you want to delete value '%s'?"
-#~ msgid "Are you sure you want to delete all registry values in '%1'?"
-#~ msgstr "您确认要删除值 '%s' 吗?"
-
-#, fuzzy
-#~| msgid "Are you sure you want to delete '%1'?"
-#~ msgid "Are you sure you want to delete the registry key '%1'?"
-#~ msgstr "真的删除 '%1'?"
-
-#, fuzzy
-#~| msgid ""
-#~| "uninstaller: The option '--remove' must be followed by an application "
-#~| "GUID\n"
-#~ msgid "reg: The option [/d] must be followed by a valid string\n"
-#~ msgstr "uninstaller: 选项 '--remove' 必须后接一个应用程序 GUID\n"
-
-#, fuzzy
-#~| msgid "Error: Invalid key name\n"
-#~ msgid "reg: Invalid syntax. "
-#~ msgstr "错误：键名无效\n"
-
-#, fuzzy
-#~| msgid "uninstaller: Invalid option [%1]\n"
-#~ msgid "reg: Invalid option [%1]. "
-#~ msgstr "uninstaller: 无效的选项 [%1]\n"
-
-#, fuzzy
-#~| msgid "No command was specified."
-#~ msgid "regedit: No filename was specified.\n"
-#~ msgstr "未指定命令。"
-
-#, fuzzy
-#~| msgid "uninstaller: The application with GUID '%1' was not found\n"
-#~ msgid "regedit: The file '%1' was not found.\n"
-#~ msgstr "uninstaller: 未找到 GUID 为 '%1' 的应用程序\n"
-
-#, fuzzy
-#~| msgid "Error: Unable to access remote machine\n"
-#~ msgid "regedit: Unable to open the file '%1'.\n"
-#~ msgstr "错误：无法访问远程机器\n"
-
-#, fuzzy
-#~| msgid "Invalid handle operation.\n"
-#~ msgid "regedit: Unhandled action.\n"
-#~ msgstr "句柄操作无效。\n"
-
-#, fuzzy
-#~| msgid "Error: Invalid key name\n"
-#~ msgid "regedit: Invalid hexadecimal value.\n"
-#~ msgstr "错误：键名无效\n"
-
 #, fuzzy
 #~| msgid "Error: Unsupported type\n"
 #~ msgid "regedit: Unsupported registry data type [%1!u!]\n"
 #~ msgstr "错误：不支持的格式\n"
 
 #, fuzzy
-#~| msgid "Error: Unable to access remote machine\n"
-#~ msgid "regedit: Unexpected end of line in '%1'.\n"
-#~ msgstr "错误：无法访问远程机器\n"
-
-#, fuzzy
-#~| msgid "uninstaller: The application with GUID '%1' was not found\n"
-#~ msgid "regedit: The line '%1' was not recognized.\n"
-#~ msgstr "uninstaller: 未找到 GUID 为 '%1' 的应用程序\n"
-
-#, fuzzy
-#~| msgid "Error: Unable to access remote machine\n"
-#~ msgid "regedit: Unable to add the registry value '%1' to '%2'.\n"
-#~ msgstr "错误：无法访问远程机器\n"
-
-#, fuzzy
-#~| msgid "Error: Unable to access remote machine\n"
-#~ msgid "regedit: Unable to open the registry key '%1'.\n"
-#~ msgstr "错误：无法访问远程机器\n"
-
-#, fuzzy
 #~| msgid "Error: Unsupported type\n"
 #~ msgid ""
 #~ "regedit: Unsupported registry data type [%1!u!] encountered in '%2'.\n"
 #~ msgstr "错误：不支持的格式\n"
-
-#, fuzzy
-#~| msgid ""
-#~| "Error: The system was unable to find the specified registry key or "
-#~| "value\n"
-#~ msgid ""
-#~ "regedit: Unable to export '%1'. The specified registry key was not "
-#~ "found.\n"
-#~ msgstr "错误：系统无法找到指定的注册表键或值\n"
-
-#, fuzzy
-#~| msgid "Error: Unable to access remote machine\n"
-#~ msgid "regedit: Unable to delete the registry class '%1'.\n"
-#~ msgstr "错误：无法访问远程机器\n"
-
-#~ msgid "Add appli&cation..."
-#~ msgstr "增加程序设置(&C)..."
-
-#~ msgid "A&dd"
-#~ msgstr "添加(&D)"
-
-#~ msgid "Buil&tin then Native"
-#~ msgstr "内建先于原装(&T)"
-
-#~ msgid "A&dd..."
-#~ msgstr "添加(&D)..."
-
-#~ msgid "Aut&odetect"
-#~ msgstr "自动侦测(&O)"
-
-#~ msgid "Show Advan&ced"
-#~ msgstr "显示高级选项(&C)"
-
-#~ msgid "&Show dot files"
-#~ msgstr "显示隐藏文件(&S)"
-
-#~ msgid "Hide Advan&ced"
-#~ msgstr "隐藏高级选项(&C)"
-
-#, fuzzy
-#~| msgid "Screen buffer size must be greater or equal to the window's one"
-#~ msgid ""
-#~ "The size of the screen buffer must be greater than or equal to the size "
-#~ "of the window."
-#~ msgstr "屏幕缓冲区大小必须不小于窗口"
