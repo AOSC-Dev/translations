@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-07 17:14+0800\n"
+"PO-Revision-Date: 2016-08-07 17:33+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -2517,11 +2517,11 @@ msgstr "颁发者"
 
 #: cryptui.rc:57
 msgid "Valid from"
-msgstr ""
+msgstr "有效自"
 
 #: cryptui.rc:58
 msgid "Valid to"
-msgstr ""
+msgstr "有效至"
 
 #: cryptui.rc:59
 msgid "Subject"
@@ -2533,19 +2533,20 @@ msgstr "公钥"
 
 #: cryptui.rc:61
 msgid "%1 (%2!d! bits)"
-msgstr ""
+msgstr "%1（%2!d! 位）"
 
 #: cryptui.rc:62
 msgid "SHA1 hash"
-msgstr ""
+msgstr "SHA1 哈希值"
 
 #: cryptui.rc:63
+#, fuzzy
 msgid "Enhanced key usage (property)"
-msgstr ""
+msgstr "增强密钥用途（财产）"
 
 #: cryptui.rc:64
 msgid "Friendly name"
-msgstr ""
+msgstr "易记名称"
 
 #: cryptui.rc:65 shell32.rc:242 ipconfig.rc:44
 msgid "Description"
@@ -2557,59 +2558,59 @@ msgstr "证书属性"
 
 #: cryptui.rc:67
 msgid "Please enter an OID in the form 1.2.3.4"
-msgstr ""
+msgstr "请使用 1.2.3.4 格式输入 OID"
 
 #: cryptui.rc:68
 msgid "The OID you entered already exists."
-msgstr ""
+msgstr "您输入的 OID 已存在。"
 
 #: cryptui.rc:70
 msgid "Please select a certificate store."
-msgstr ""
+msgstr "请选择证书存储。"
 
 #: cryptui.rc:72
 msgid ""
 "The file contains objects that do not match the given criteria. Please "
 "select another file."
-msgstr ""
+msgstr "文件包含不符合给出的标准。请选择另一个文件。"
 
 #: cryptui.rc:73
 msgid "File to Import"
-msgstr ""
+msgstr "要导入的文件"
 
 #: cryptui.rc:74
 msgid "Specify the file you want to import."
-msgstr ""
+msgstr "指定您希望导入的文件。"
 
 #: cryptui.rc:75 cryptui.rc:98
 msgid "Certificate Store"
-msgstr ""
+msgstr "证书存储"
 
 #: cryptui.rc:76
 msgid ""
 "Certificate stores are collections of certificates, certificate revocation "
 "lists, and certificate trust lists."
-msgstr ""
+msgstr "证书存储是证书、证书吊销列表和证书信任列表的集合。"
 
 #: cryptui.rc:77
 msgid "X.509 Certificate (*.cer; *.crt)"
-msgstr ""
+msgstr "X.509 证书 (*.cer; *.crt)"
 
 #: cryptui.rc:78
 msgid "Personal Information Exchange (*.pfx; *.p12)"
-msgstr ""
+msgstr "个人信息交换 (*.pfx; *.p12)"
 
 #: cryptui.rc:79 cryptui.rc:158
 msgid "Certificate Revocation List (*.crl)"
-msgstr ""
+msgstr "证书吊销列表 (*.crl)"
 
 #: cryptui.rc:80 cryptui.rc:159
 msgid "Certificate Trust List (*.stl)"
-msgstr ""
+msgstr "证书信任列表 (*.stl)"
 
 #: cryptui.rc:82
 msgid "CMS/PKCS #7 Messages (*.spc; *.p7b)"
-msgstr ""
+msgstr "CMS/PKCS #7 消息 (*.spc; *.p7b)"
 
 #: cryptui.rc:84
 msgid "Please select a file."
@@ -2617,27 +2618,27 @@ msgstr "请选择一个文件。"
 
 #: cryptui.rc:85
 msgid "The file format is not recognized. Please select another file."
-msgstr ""
+msgstr "无法识别文件格式。请选择另一个文件。"
 
 #: cryptui.rc:86
 msgid "Could not open "
-msgstr "不能打开 "
+msgstr "无法打开 "
 
 #: cryptui.rc:87
 msgid "Determined by the program"
-msgstr ""
+msgstr "由程序确定"
 
 #: cryptui.rc:88
 msgid "Please select a store"
-msgstr ""
+msgstr "请选择存储"
 
 #: cryptui.rc:89
 msgid "Certificate Store Selected"
-msgstr ""
+msgstr "已选中证书存储"
 
 #: cryptui.rc:90
 msgid "Automatically determined by the program"
-msgstr ""
+msgstr "由程序自动确定"
 
 #: cryptui.rc:91 shell32.rc:137
 msgid "File"
@@ -2649,35 +2650,35 @@ msgstr "内容"
 
 #: cryptui.rc:94
 msgid "Certificate Revocation List"
-msgstr ""
+msgstr "证书吊销列表"
 
 #: cryptui.rc:96
 msgid "CMS/PKCS #7 Message"
-msgstr ""
+msgstr "CMS/PKCS #7 消息"
 
 #: cryptui.rc:97
 msgid "Personal Information Exchange"
-msgstr ""
+msgstr "个人信息交换"
 
 #: cryptui.rc:99
 msgid "The import was successful."
-msgstr ""
+msgstr "导入成功。"
 
 #: cryptui.rc:100
 msgid "The import failed."
-msgstr ""
+msgstr "导入失败。"
 
 #: cryptui.rc:101
 msgid "Arial"
-msgstr ""
+msgstr "Arial"
 
 #: cryptui.rc:103
 msgid "<Advanced Purposes>"
-msgstr ""
+msgstr "<高级用途>"
 
 #: cryptui.rc:104
 msgid "Issued To"
-msgstr ""
+msgstr "颁发给"
 
 #: cryptui.rc:105
 msgid "Issued By"
@@ -2689,7 +2690,7 @@ msgstr "截止日期"
 
 #: cryptui.rc:107
 msgid "Friendly Name"
-msgstr ""
+msgstr "易记名称"
 
 #: cryptui.rc:109 cryptui.rc:123
 msgid "<None>"
@@ -2701,6 +2702,8 @@ msgid ""
 "sign messages with it.\n"
 "Are you sure you want to remove this certificate?"
 msgstr ""
+"您已不能使用此证书解密或签名消息。\n"
+"您确实要移除此证书吗？"
 
 #: cryptui.rc:111
 msgid ""
@@ -2708,6 +2711,8 @@ msgid ""
 "sign messages with them.\n"
 "Are you sure you want to remove these certificates?"
 msgstr ""
+"您已不能使用这些证书解密或签名消息。\n"
+"您确实要移除这些证书吗？"
 
 #: cryptui.rc:112
 msgid ""
@@ -2715,6 +2720,8 @@ msgid ""
 "verify messages signed with it.\n"
 "Are you sure you want to remove this certificate?"
 msgstr ""
+"您已不能使用此证书加密或校验消息。\n"
+"您确实要移除此证书吗？"
 
 #: cryptui.rc:113
 msgid ""
@@ -2722,6 +2729,8 @@ msgid ""
 "verify messages signed with them.\n"
 "Are you sure you want to remove these certificates?"
 msgstr ""
+"您已不能使用这些证书加密或校验消息。\n"
+"您确实要移除这些证书吗？"
 
 #: cryptui.rc:114
 msgid ""
@@ -2729,6 +2738,8 @@ msgid ""
 "trusted.\n"
 "Are you sure you want to remove this certificate?"
 msgstr ""
+"将不再信任由此证书颁发机构颁发的证书。\n"
+"您确实要移除此证书吗？"
 
 #: cryptui.rc:115
 msgid ""
@@ -2736,6 +2747,8 @@ msgid ""
 "trusted.\n"
 "Are you sure you want to remove these certificates?"
 msgstr ""
+"将不再信任由这些证书颁发机构颁发的证书。\n"
+"您确实要移除这些证书吗？"
 
 #: cryptui.rc:116
 msgid ""
@@ -2743,6 +2756,8 @@ msgid ""
 "certification authorities it issued, will no longer be trusted.\n"
 "Are you sure you want to remove this trusted root certificate?"
 msgstr ""
+"将不再信任由此根证书颁发机构颁发的证书或证书颁发机构。\n"
+"您确实要移除此已信任的根证书吗？"
 
 #: cryptui.rc:117
 msgid ""
@@ -2750,64 +2765,72 @@ msgid ""
 "certification authorities they issued, will no longer be trusted.\n"
 "Are you sure you want to remove these trusted root certificates?"
 msgstr ""
+"将不再信任由这些根证书颁发机构颁发的证书或证书颁发机构。\n"
+"您确实要移除这些已信任的根证书吗？"
 
 #: cryptui.rc:118
 msgid ""
 "Software signed by this publisher will no longer be trusted.\n"
 "Are you sure you want to remove this certificate?"
 msgstr ""
+"将不再信任由此发行商签名的软件。\n"
+"您确实要移除此证书吗？"
 
 #: cryptui.rc:119
 msgid ""
 "Software signed by these publishers will no longer be trusted.\n"
 "Are you sure you want to remove these certificates?"
 msgstr ""
+"将不再信任由这些发行商签名的软件。\n"
+"您确实要移除这些证书吗？"
 
 #: cryptui.rc:120
 msgid "Are you sure you want to remove this certificate?"
-msgstr ""
+msgstr "您确实要移除此证书吗？"
 
 #: cryptui.rc:121
 msgid "Are you sure you want to remove these certificates?"
-msgstr ""
+msgstr "您确实要移除这些证书吗？"
 
 #: cryptui.rc:124
 msgid "Ensures the identity of a remote computer"
-msgstr ""
+msgstr "确定远程计算机的身份"
 
 #: cryptui.rc:125
 msgid "Proves your identity to a remote computer"
-msgstr ""
+msgstr "证明远程计算机的身份"
 
 #: cryptui.rc:126
 msgid ""
 "Ensures software came from software publisher\n"
 "Protects software from alteration after publication"
 msgstr ""
+"确定软件来自软件发行商\n"
+"确保软件在发行后未被篡改"
 
 #: cryptui.rc:127
 msgid "Protects e-mail messages"
-msgstr ""
+msgstr "保护电子邮件消息"
 
 #: cryptui.rc:128
 msgid "Allows secure communication over the Internet"
-msgstr ""
+msgstr "允许 Internet 上的安全通信"
 
 #: cryptui.rc:129
 msgid "Allows data to be signed with the current time"
-msgstr ""
+msgstr "允许使用当前时间签名数据"
 
 #: cryptui.rc:130
 msgid "Allows you to digitally sign a certificate trust list"
-msgstr ""
+msgstr "允许您为证书信任列表电子签名"
 
 #: cryptui.rc:131
 msgid "Allows data on disk to be encrypted"
-msgstr ""
+msgstr "允许加密磁盘上的数据"
 
 #: cryptui.rc:147
 msgid "Private Key Archival"
-msgstr ""
+msgstr "私钥归档"
 
 #: cryptui.rc:151
 msgid "Export Format"
@@ -2815,15 +2838,15 @@ msgstr "导出格式"
 
 #: cryptui.rc:152
 msgid "Choose the format in which the content will be saved."
-msgstr ""
+msgstr "选择内容保存的格式。"
 
 #: cryptui.rc:153
 msgid "Export Filename"
-msgstr ""
+msgstr "导出文件名"
 
 #: cryptui.rc:154
 msgid "Specify the name of the file in which the content will be saved."
-msgstr ""
+msgstr "指定用于保存内容的文件名称。"
 
 #: cryptui.rc:155
 msgid "The specified file already exists. Do you want to replace it?"
@@ -2831,19 +2854,19 @@ msgstr "指定文件已经存在。是否替换？"
 
 #: cryptui.rc:156
 msgid "DER-Encoded Binary X.509 (*.cer)"
-msgstr ""
+msgstr "DER 加密的 X.509 (*.cer)"
 
 #: cryptui.rc:157
 msgid "Base64-Encoded X.509 (*.cer)"
-msgstr ""
+msgstr "Base64 加密的 X.509 (*.cer)"
 
 #: cryptui.rc:160
 msgid "CMS/PKCS #7 Messages (*.p7b)"
-msgstr ""
+msgstr "CMS/PKCS #7 消息 (*.p7b)"
 
 #: cryptui.rc:161
 msgid "Personal Information Exchange (*.pfx)"
-msgstr ""
+msgstr "个人信息交换 (*.pfx)"
 
 #: cryptui.rc:163
 msgid "File Format"
@@ -2851,65 +2874,65 @@ msgstr "文件格式"
 
 #: cryptui.rc:164
 msgid "Include all certificates in certificate path"
-msgstr ""
+msgstr "包含证书路径中的所有证书"
 
 #: cryptui.rc:165
 msgid "Export keys"
-msgstr ""
+msgstr "导出密钥"
 
 #: cryptui.rc:168
 msgid "The export was successful."
-msgstr ""
+msgstr "导出成功。"
 
 #: cryptui.rc:169
 msgid "The export failed."
-msgstr ""
+msgstr "导出失败。"
 
 #: cryptui.rc:170
 msgid "Export Private Key"
-msgstr ""
+msgstr "导出私钥"
 
 #: cryptui.rc:171
 msgid ""
 "The certificate contains a private key which may be exported along with the "
 "certificate."
-msgstr ""
+msgstr "证书包含可能与证书一同导出的密钥。"
 
 #: cryptui.rc:172
 msgid "Enter Password"
-msgstr ""
+msgstr "输入密码"
 
 #: cryptui.rc:173
 msgid "You may password-protect a private key."
-msgstr ""
+msgstr "您可以使用密码保护私钥。"
 
 #: cryptui.rc:174
 msgid "The passwords do not match."
-msgstr ""
+msgstr "密码不一致。"
 
 #: cryptui.rc:175
 msgid "Note: The private key for this certificate could not be opened."
-msgstr ""
+msgstr "注意：无法打开该证书的私钥。"
 
 #: cryptui.rc:176
 msgid "Note: The private key for this certificate is not exportable."
-msgstr ""
+msgstr "注意：证书的私钥不可导出。"
 
 #: devenum.rc:33
 msgid "Default DirectSound"
-msgstr ""
+msgstr "默认 DirectSound"
 
 #: devenum.rc:34
 msgid "DirectSound: %s"
-msgstr ""
+msgstr "DirectSound：%s"
 
 #: devenum.rc:35
 msgid "Default WaveOut Device"
-msgstr ""
+msgstr "默认 WaveOut 设备"
 
 #: devenum.rc:36
 msgid "Default MidiOut Device"
-msgstr ""
+msgstr "默认 MidiOut 设备"
 
 #: dinput.rc:43
 msgid "Configure Devices"
@@ -2937,7 +2960,7 @@ msgstr "映射"
 
 #: dinput.rc:56
 msgid "Show Assigned First"
-msgstr ""
+msgstr "先显示已分配项"
 
 #: dinput.rc:37
 msgid "Action"
@@ -2953,7 +2976,7 @@ msgstr "区域设置"
 
 #: dxdiagn.rc:29
 msgid "%1!u!MB used, %2!u!MB available"
-msgstr ""
+msgstr "已使用 %1!u!MB，%2!u!MB 可用"
 
 #: gdi32.rc:28
 msgid "Western"
@@ -3001,7 +3024,7 @@ msgstr "日文"
 
 #: gdi32.rc:39
 msgid "CHINESE_GB2312"
-msgstr ""
+msgstr "CHINESE_GB2312"
 
 #: gdi32.rc:40
 msgid "Hangul"
@@ -3009,11 +3032,11 @@ msgstr "韩文"
 
 #: gdi32.rc:41
 msgid "CHINESE_BIG5"
-msgstr ""
+msgstr "CHINESE_BIG5"
 
 #: gdi32.rc:42
 msgid "Hangul(Johab)"
-msgstr ""
+msgstr "韩语 (Johab)"
 
 #: gdi32.rc:43
 msgid "Symbol"
@@ -3021,7 +3044,7 @@ msgstr "符号"
 
 #: gdi32.rc:44
 msgid "OEM/DOS"
-msgstr ""
+msgstr "OEM/DOS"
 
 #: gdi32.rc:45 wldap32.rc:110
 msgid "Other"
@@ -3146,7 +3169,7 @@ msgstr "最爱(&I)"
 
 #: hhctrl.rc:36
 msgid "Hide &Tabs"
-msgstr ""
+msgstr "隐藏标签页(&T)"
 
 #: hhctrl.rc:37
 msgid "Show &Tabs"
@@ -3191,7 +3214,7 @@ msgstr "向前"
 
 #: iccvid.rc:28 iccvid.rc:29
 msgid "Cinepak Video codec"
-msgstr ""
+msgstr "Cinepak 视频编解码器"
 
 #: ieframe.rc:28 shell32.rc:114 notepad.rc:29 oleview.rc:30 oleview.rc:80
 #: progman.rc:32 taskmgr.rc:35 view.rc:31 winefile.rc:28 winhlp32.rc:31
@@ -3237,7 +3260,7 @@ msgstr "标准栏(&S)"
 
 #: ieframe.rc:50
 msgid "&Address bar"
-msgstr ""
+msgstr "地址栏(&A)"
 
 #: ieframe.rc:53 regedit.rc:74
 msgid "&Favorites"
@@ -3257,7 +3280,7 @@ msgstr "打开 URL"
 
 #: ieframe.rc:93
 msgid "Specify the URL you wish to open in Internet Explorer"
-msgstr ""
+msgstr "指定您希望在 Internet Explorer 打开的 URL"
 
 #: ieframe.rc:94
 msgid "Open:"
@@ -3282,7 +3305,7 @@ msgstr "搜索 %s"
 
 #: ieframe.rc:82
 msgid "Start downloading %s"
-msgstr ""
+msgstr "开始下载 %s"
 
 #: ieframe.rc:83
 msgid "Downloading %s"
@@ -3298,7 +3321,7 @@ msgstr "首页"
 
 #: inetcpl.rc:50
 msgid "You can choose the address that will be used as your home page."
-msgstr ""
+msgstr "您可以选择作为您的主页的地址。"
 
 #: inetcpl.rc:53
 msgid "&Current page"
@@ -3318,11 +3341,11 @@ msgstr "浏览历史"
 
 #: inetcpl.rc:57
 msgid "You can delete cached pages, cookies and other data."
-msgstr ""
+msgstr "您可以删除缓存页面、cookies 以及其它数据。"
 
 #: inetcpl.rc:59
 msgid "Delete &files..."
-msgstr ""
+msgstr "删除文件(&F)…"
 
 #: inetcpl.rc:60
 msgid "&Settings..."
@@ -3330,13 +3353,15 @@ msgstr "设置(&S)…"
 
 #: inetcpl.rc:68
 msgid "Delete browsing history"
-msgstr ""
+msgstr "删除浏览记录"
 
 #: inetcpl.rc:71
 msgid ""
 "Temporary internet files\n"
 "Cached copies of web pages, images and certificates."
 msgstr ""
+"临时互联网文件\n"
+"网页、图像和证书的缓存副本。"
 
 #: inetcpl.rc:73
 msgid ""
@@ -3344,24 +3369,32 @@ msgid ""
 "Files saved on your computer by websites, which store things like user "
 "preferences and login information."
 msgstr ""
+"Cookies\n"
+"由网站存储在您的计算机上的文件，可能包含用户偏好设置及登录信息等信息。"
 
 #: inetcpl.rc:75
 msgid ""
 "History\n"
 "List of websites you have accessed."
 msgstr ""
+"历史\n"
+"您访问过的网站的列表。"
 
 #: inetcpl.rc:77
 msgid ""
 "Form data\n"
 "Usernames and other information you have entered into forms."
 msgstr ""
+"表单数据\n"
+"用户名以及您填入表单的其它信息。"
 
 #: inetcpl.rc:79
 msgid ""
 "Passwords\n"
 "Saved passwords you have entered into forms."
 msgstr ""
+"密码\n"
+"您填入表单的密码。"
 
 #: inetcpl.rc:82 progman.rc:67
 msgid "Delete"
@@ -3375,7 +3408,7 @@ msgstr "安全"
 msgid ""
 "Certificates are used for your personal identification and to identify "
 "certificate authorities and publishers."
-msgstr ""
+msgstr "证书被用来进行个人身份验证，以及验证证书颁发机构和发布者的身份。"
 
 #: inetcpl.rc:114
 msgid "Certificates..."
@@ -3387,11 +3420,11 @@ msgstr "发布者…"
 
 #: inetcpl.rc:31
 msgid "Internet Settings"
-msgstr ""
+msgstr "Internet 设置"
 
 #: inetcpl.rc:32
 msgid "Configure Wine Internet Browser and related settings"
-msgstr ""
+msgstr "配置 Wine Internet Explorer 以及相关设置"
 
 #: inetcpl.rc:33
 msgid "Security settings for zone: "
@@ -3403,7 +3436,7 @@ msgstr "自定义"
 
 #: inetcpl.rc:35
 msgid "Very Low"
-msgstr ""
+msgstr "非常低"
 
 #: inetcpl.rc:36
 msgid "Low"
@@ -3415,7 +3448,7 @@ msgstr "中"
 
 #: inetcpl.rc:38
 msgid "Increased"
-msgstr ""
+msgstr "较高"
 
 #: inetcpl.rc:39
 msgid "High"
