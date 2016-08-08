@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-08 10:40+0800\n"
+"PO-Revision-Date: 2016-08-08 12:29+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -5309,35 +5309,36 @@ msgstr "无法删除仅有的管理员用户。\n"
 
 #: winerror.mc:2021
 msgid "Wrong password.\n"
-msgstr ""
+msgstr "密码错误。\n"
 
 #: winerror.mc:2026
 msgid "Ill-formed password.\n"
-msgstr ""
+msgstr "密码格式不正确。\n"
 
 #: winerror.mc:2031
 msgid "Password restriction.\n"
-msgstr ""
+msgstr "密码限制。\n"
 
 #: winerror.mc:2036
 msgid "Logon failure.\n"
-msgstr ""
+msgstr "登录失败。\n"
 
 #: winerror.mc:2041
 msgid "Account restriction.\n"
-msgstr ""
+msgstr "帐号限制。\n"
 
 #: winerror.mc:2046
+#, fuzzy
 msgid "Invalid logon hours.\n"
-msgstr ""
+msgstr "无效登录时间段。\n"
 
 #: winerror.mc:2051
 msgid "Invalid workstation.\n"
-msgstr ""
+msgstr "无效工作站。\n"
 
 #: winerror.mc:2056
 msgid "Password expired.\n"
-msgstr ""
+msgstr "密码已过期。\n"
 
 #: winerror.mc:2061
 msgid "Account disabled.\n"
@@ -5345,15 +5346,15 @@ msgstr "帐号停用。\n"
 
 #: winerror.mc:2066
 msgid "No security ID mapped.\n"
-msgstr ""
+msgstr "未映射安全 ID。\n"
 
 #: winerror.mc:2071
 msgid "Too many LUIDs requested.\n"
-msgstr ""
+msgstr "请求的 LUID 过多。\n"
 
 #: winerror.mc:2076
 msgid "LUIDs exhausted.\n"
-msgstr ""
+msgstr "LUID 耗尽。\n"
 
 #: winerror.mc:2081
 msgid "Invalid sub authority.\n"
@@ -5361,63 +5362,67 @@ msgstr "子权威无效。\n"
 
 #: winerror.mc:2086
 msgid "Invalid ACL.\n"
-msgstr ""
+msgstr "无效 ACL。\n"
 
 #: winerror.mc:2091
 msgid "Invalid SID.\n"
-msgstr ""
+msgstr "无效 SID。\n"
 
 #: winerror.mc:2096
 msgid "Invalid security descriptor.\n"
-msgstr ""
+msgstr "无效安全描述符。\n"
 
 #: winerror.mc:2101
 msgid "Bad inherited ACL.\n"
-msgstr ""
+msgstr "非法继承 ACL。\n"
 
 #: winerror.mc:2106
 msgid "Server disabled.\n"
-msgstr "服务器停用。\n"
+msgstr "服务器已停用。\n"
 
 #: winerror.mc:2111
 msgid "Server not disabled.\n"
-msgstr ""
+msgstr "服务器未停用。\n"
 
 #: winerror.mc:2116
+#, fuzzy
 msgid "Invalid ID authority.\n"
-msgstr ""
+msgstr "无效的 ID 权威。\n"
 
 #: winerror.mc:2121
 msgid "Allotted space exceeded.\n"
-msgstr ""
+msgstr "超出分配的空间。\n"
 
 #: winerror.mc:2126
 msgid "Invalid group attributes.\n"
-msgstr ""
+msgstr "无效的组属性。\n"
 
 #: winerror.mc:2131
+#, fuzzy
 msgid "Bad impersonation level.\n"
-msgstr ""
+msgstr "无效的模拟级别。\n"
 
 #: winerror.mc:2136
 msgid "Can't open anonymous security token.\n"
-msgstr ""
+msgstr "无法打开匿名安全令牌。\n"
 
 #: winerror.mc:2141
+#, fuzzy
 msgid "Bad validation class.\n"
-msgstr ""
+msgstr "无效验证类。\n"
 
 #: winerror.mc:2146
 msgid "Bad token type.\n"
-msgstr ""
+msgstr "无效令牌类型。\n"
 
 #: winerror.mc:2151
+#, fuzzy
 msgid "No security on object.\n"
-msgstr ""
+msgstr "对象上无安全性。\n"
 
 #: winerror.mc:2156
 msgid "Can't access domain information.\n"
-msgstr ""
+msgstr "无法访问域信息。\n"
 
 #: winerror.mc:2161
 msgid "Invalid server state.\n"
@@ -5425,68 +5430,69 @@ msgstr "服务器状态无效。\n"
 
 #: winerror.mc:2166
 msgid "Invalid domain state.\n"
-msgstr ""
+msgstr "无效域状态。\n"
 
 #: winerror.mc:2171
 msgid "Invalid domain role.\n"
-msgstr ""
+msgstr "无效域角色。\n"
 
 #: winerror.mc:2176
 msgid "No such domain.\n"
-msgstr ""
+msgstr "无此域。\n"
 
 #: winerror.mc:2181
 msgid "Domain already exists.\n"
-msgstr "域名已存在。\n"
+msgstr "域已存在。\n"
 
 #: winerror.mc:2186
 msgid "Domain limit exceeded.\n"
-msgstr ""
+msgstr "超出域限制。\n"
 
 #: winerror.mc:2191
 msgid "Internal database corruption.\n"
-msgstr ""
+msgstr "内部数据库已损坏。\n"
 
 #: winerror.mc:2196
 msgid "Internal error.\n"
-msgstr ""
+msgstr "内部错误。\n"
 
 #: winerror.mc:2201
 msgid "Generic access types not mapped.\n"
-msgstr ""
+msgstr "未映射一般访问方式。\n"
 
 #: winerror.mc:2206
 msgid "Bad descriptor format.\n"
-msgstr ""
+msgstr "无效描述符格式。\n"
 
 #: winerror.mc:2211
 msgid "Not a logon process.\n"
-msgstr ""
+msgstr "非登录进程。\n"
 
 #: winerror.mc:2216
 msgid "Logon session ID exists.\n"
-msgstr ""
+msgstr "登录会话 ID 已存在。\n"
 
 #: winerror.mc:2221
 msgid "Unknown authentication package.\n"
-msgstr ""
+msgstr "未知认证包。\n"
 
 #: winerror.mc:2226
 msgid "Bad logon session state.\n"
-msgstr ""
+msgstr "无效的登录会话状态。\n"
 
 #: winerror.mc:2231
+#, fuzzy
 msgid "Logon session ID collision.\n"
-msgstr ""
+msgstr "登录会话 ID 冲突。\n"
 
 #: winerror.mc:2236
 msgid "Invalid logon type.\n"
-msgstr ""
+msgstr "无效的登录类型。\n"
 
 #: winerror.mc:2241
 #, fuzzy
 msgid "Cannot impersonate.\n"
-msgstr "找不到打印机。"
+msgstr "无法模拟。\n"
 
 #: winerror.mc:2246
 msgid "Invalid transaction state.\n"
@@ -5494,7 +5500,7 @@ msgstr "事务状态无效。\n"
 
 #: winerror.mc:2251
 msgid "Security DB commit failure.\n"
-msgstr ""
+msgstr "安全数据库提交故障。\n"
 
 #: winerror.mc:2256
 msgid "Account is built-in.\n"
@@ -5502,31 +5508,31 @@ msgstr "帐号是内建的。\n"
 
 #: winerror.mc:2261
 msgid "Group is built-in.\n"
-msgstr ""
+msgstr "内建组。\n"
 
 #: winerror.mc:2266
 msgid "User is built-in.\n"
-msgstr ""
+msgstr "内建用户。\n"
 
 #: winerror.mc:2271
 msgid "Group is primary for user.\n"
-msgstr ""
+msgstr "此组是用户的主要组。\n"
 
 #: winerror.mc:2276
 msgid "Token already in use.\n"
-msgstr ""
+msgstr "令牌已占用。\n"
 
 #: winerror.mc:2281
 msgid "No such local group.\n"
-msgstr ""
+msgstr "无此本地组。\n"
 
 #: winerror.mc:2286
 msgid "User not in local group.\n"
-msgstr ""
+msgstr "用户不在本地组内。\n"
 
 #: winerror.mc:2291
 msgid "User already in local group.\n"
-msgstr ""
+msgstr "用户已在本地组内。\n"
 
 #: winerror.mc:2296
 msgid "Local group already exists.\n"
@@ -5534,31 +5540,34 @@ msgstr "本地组已经存在。\n"
 
 #: winerror.mc:2301 winerror.mc:2326
 msgid "Logon type not granted.\n"
-msgstr ""
+msgstr "该登录类型不被允许。\n"
 
 #: winerror.mc:2306
+#, fuzzy
 msgid "Too many secrets.\n"
-msgstr ""
+msgstr "密文太多。\n"
 
 #: winerror.mc:2311
+#, fuzzy
 msgid "Secret too long.\n"
-msgstr ""
+msgstr "密文太长。\n"
 
 #: winerror.mc:2316
 msgid "Internal security DB error.\n"
-msgstr ""
+msgstr "内部安全数据库错误。\n"
 
 #: winerror.mc:2321
 msgid "Too many context IDs.\n"
-msgstr ""
+msgstr "上下文 ID 过多。\n"
 
 #: winerror.mc:2331
+#, fuzzy
 msgid "Cross-encrypted NT password required.\n"
-msgstr ""
+msgstr "需要混合加密的 NT 密码。\n"
 
 #: winerror.mc:2336
 msgid "No such member.\n"
-msgstr ""
+msgstr "无此成员。\n"
 
 #: winerror.mc:2341
 msgid "Invalid member.\n"
@@ -5566,79 +5575,80 @@ msgstr "成员无效。\n"
 
 #: winerror.mc:2346
 msgid "Too many SIDs.\n"
-msgstr ""
+msgstr "SID 过多。\n"
 
 #: winerror.mc:2351
+#, fuzzy
 msgid "Cross-encrypted LM password required.\n"
-msgstr ""
+msgstr "需要混合加密的 LM 密码。\n"
 
 #: winerror.mc:2356
 msgid "No inheritable components.\n"
-msgstr ""
+msgstr "无可继承的组件。\n"
 
 #: winerror.mc:2361
 msgid "File or directory corrupt.\n"
-msgstr ""
+msgstr "文件或目录已损坏。\n"
 
 #: winerror.mc:2366
 msgid "Disk is corrupt.\n"
-msgstr ""
+msgstr "磁盘已损坏。\n"
 
 #: winerror.mc:2371
 msgid "No user session key.\n"
-msgstr ""
+msgstr "无用户会话密钥。\n"
 
 #: winerror.mc:2376
 msgid "License quota exceeded.\n"
-msgstr ""
+msgstr "超出许可配额。\n"
 
 #: winerror.mc:2381
 msgid "Wrong target name.\n"
-msgstr ""
+msgstr "错误的目标名称。\n"
 
 #: winerror.mc:2386
 msgid "Mutual authentication failed.\n"
-msgstr ""
+msgstr "双边认证失败。\n"
 
 #: winerror.mc:2391
 msgid "Time skew between client and server.\n"
-msgstr ""
+msgstr "客户端和服务器之间存在时间偏移。\n"
 
 #: winerror.mc:2396
 msgid "Invalid window handle.\n"
-msgstr ""
+msgstr "无效的窗口句柄。\n"
 
 #: winerror.mc:2401
 msgid "Invalid menu handle.\n"
-msgstr ""
+msgstr "无效的目录句柄。\n"
 
 #: winerror.mc:2406
 msgid "Invalid cursor handle.\n"
-msgstr "无效光标句柄。\n"
+msgstr "无效的光标句柄。\n"
 
 #: winerror.mc:2411
 msgid "Invalid accelerator table handle.\n"
-msgstr ""
+msgstr "无效的快捷键表句柄。\n"
 
 #: winerror.mc:2416
 msgid "Invalid hook handle.\n"
-msgstr ""
+msgstr "无效的钩句柄。\n"
 
 #: winerror.mc:2421
 msgid "Invalid DWP handle.\n"
-msgstr ""
+msgstr "无效的 DWP 句柄。\n"
 
 #: winerror.mc:2426
 msgid "Can't create top-level child window.\n"
-msgstr ""
+msgstr "无法创建顶级子窗口。\n"
 
 #: winerror.mc:2431
 msgid "Can't find window class.\n"
-msgstr ""
+msgstr "找不到窗口类。\n"
 
 #: winerror.mc:2436
 msgid "Window owned by another thread.\n"
-msgstr ""
+msgstr "窗口为另一个线程所有。\n"
 
 #: winerror.mc:2441
 msgid "Hotkey already registered.\n"
@@ -5658,15 +5668,15 @@ msgstr "类还有窗口开着。\n"
 
 #: winerror.mc:2461
 msgid "Invalid index.\n"
-msgstr ""
+msgstr "无效索引。\n"
 
 #: winerror.mc:2466
 msgid "Invalid icon handle.\n"
-msgstr ""
+msgstr "无效的图标句柄。\n"
 
 #: winerror.mc:2471
 msgid "Private dialog index.\n"
-msgstr ""
+msgstr "私有对话框索引。\n"
 
 #: winerror.mc:2476
 msgid "List box ID not found.\n"
@@ -5674,7 +5684,7 @@ msgstr "找不到列表框 ID。\n"
 
 #: winerror.mc:2481
 msgid "No wildcard characters.\n"
-msgstr ""
+msgstr "无通配字符。\n"
 
 #: winerror.mc:2486
 msgid "Clipboard not open.\n"
@@ -5682,7 +5692,7 @@ msgstr "剪贴板未打开。\n"
 
 #: winerror.mc:2491
 msgid "Hotkey not registered.\n"
-msgstr ""
+msgstr "热键未注册。\n"
 
 #: winerror.mc:2496
 msgid "Not a dialog window.\n"
@@ -5694,43 +5704,49 @@ msgstr "找不到控件 ID。\n"
 
 #: winerror.mc:2506
 msgid "Invalid combo box message.\n"
-msgstr ""
+msgstr "无效的组合框消息。\n"
 
 #: winerror.mc:2511
 msgid "Not a combo box window.\n"
-msgstr ""
+msgstr "不是组合框窗口。\n"
 
 #: winerror.mc:2516
 msgid "Invalid edit height.\n"
-msgstr ""
+msgstr "无效的高度编辑。\n"
 
 #: winerror.mc:2521
 msgid "DC not found.\n"
 msgstr "找不到 DC。\n"
 
 #: winerror.mc:2526
+#, fuzzy
 msgid "Invalid hook filter.\n"
-msgstr ""
+msgstr "无效的钩过滤。\n"
 
 #: winerror.mc:2531
+#, fuzzy
 msgid "Invalid filter procedure.\n"
-msgstr ""
+msgstr "无效的过滤过程。\n"
 
 #: winerror.mc:2536
+#, fuzzy
 msgid "Hook procedure needs module handle.\n"
-msgstr ""
+msgstr "钩过程需要模块句柄。\n"
 
 #: winerror.mc:2541
+#, fuzzy
 msgid "Global-only hook procedure.\n"
-msgstr ""
+msgstr "仅全局的钩过程。\n"
 
 #: winerror.mc:2546
+#, fuzzy
 msgid "Journal hook already set.\n"
-msgstr ""
+msgstr "日志钩已被设置。\n"
 
 #: winerror.mc:2551
+#, fuzzy
 msgid "Hook procedure not installed.\n"
-msgstr ""
+msgstr "钩过程未安装。\n"
 
 #: winerror.mc:2556
 msgid "Invalid list box message.\n"
@@ -5738,7 +5754,7 @@ msgstr "列表框消息无效。\n"
 
 #: winerror.mc:2561
 msgid "Invalid LB_SETCOUNT sent.\n"
-msgstr ""
+msgstr "发送了无效 LB_SETCOUNT。\n"
 
 #: winerror.mc:2566
 msgid "No tab stops on this list box.\n"
@@ -5746,15 +5762,15 @@ msgstr ""
 
 #: winerror.mc:2571
 msgid "Can't destroy object owned by another thread.\n"
-msgstr ""
+msgstr "无法销毁另一线程所有的对象。\n"
 
 #: winerror.mc:2576
 msgid "Child window menus not allowed.\n"
-msgstr ""
+msgstr "不允许子窗口菜单。\n"
 
 #: winerror.mc:2581
 msgid "Window has no system menu.\n"
-msgstr ""
+msgstr "窗口没有系统菜单。\n"
 
 #: winerror.mc:2586
 msgid "Invalid message box style.\n"
@@ -5762,19 +5778,19 @@ msgstr "消息框风格无效。\n"
 
 #: winerror.mc:2591
 msgid "Invalid SPI parameter.\n"
-msgstr ""
+msgstr "无效的 SPI 参数。\n"
 
 #: winerror.mc:2596
 msgid "Screen already locked.\n"
-msgstr ""
+msgstr "屏幕已锁定。\n"
 
 #: winerror.mc:2601
 msgid "Window handles have different parents.\n"
-msgstr ""
+msgstr "窗口句柄父级不一致。\n"
 
 #: winerror.mc:2606
 msgid "Not a child window.\n"
-msgstr ""
+msgstr "不是子窗口。\n"
 
 #: winerror.mc:2611
 msgid "Invalid GW command.\n"
@@ -5782,15 +5798,15 @@ msgstr "GW 命令无效。\n"
 
 #: winerror.mc:2616
 msgid "Invalid thread ID.\n"
-msgstr ""
+msgstr "无效的线程 ID。\n"
 
 #: winerror.mc:2621
 msgid "Not an MDI child window.\n"
-msgstr ""
+msgstr "不是 MDI 子窗口。\n"
 
 #: winerror.mc:2626
 msgid "Popup menu already active.\n"
-msgstr ""
+msgstr "弹出菜单已激活。\n"
 
 #: winerror.mc:2631
 msgid "No scrollbars.\n"
@@ -5798,35 +5814,35 @@ msgstr "没有滚动条。\n"
 
 #: winerror.mc:2636
 msgid "Invalid scrollbar range.\n"
-msgstr ""
+msgstr "无效的滚动条范围。\n"
 
 #: winerror.mc:2641
 msgid "Invalid ShowWin command.\n"
-msgstr ""
+msgstr "无效的 ShowWin 命令。\n"
 
 #: winerror.mc:2646
 msgid "No system resources.\n"
-msgstr ""
+msgstr "无系统资源。\n"
 
 #: winerror.mc:2651
 msgid "No non-paged system resources.\n"
-msgstr ""
+msgstr "无未分页的系统资源。\n"
 
 #: winerror.mc:2656
 msgid "No paged system resources.\n"
-msgstr ""
+msgstr "无已分页的系统资源。\n"
 
 #: winerror.mc:2661
 msgid "No working set quota.\n"
-msgstr ""
+msgstr "无工作集配额。\n"
 
 #: winerror.mc:2666
 msgid "No page file quota.\n"
-msgstr ""
+msgstr "无分页文件配额。\n"
 
 #: winerror.mc:2671
 msgid "Exceeded commitment limit.\n"
-msgstr ""
+msgstr "超出提交限制。\n"
 
 #: winerror.mc:2676
 msgid "Menu item not found.\n"
@@ -5837,16 +5853,18 @@ msgid "Invalid keyboard handle.\n"
 msgstr "键盘句柄无效。\n"
 
 #: winerror.mc:2686
+#, fuzzy
 msgid "Hook type not allowed.\n"
-msgstr ""
+msgstr "不允许的钩类型。\n"
 
 #: winerror.mc:2691
+#, fuzzy
 msgid "Interactive window station required.\n"
-msgstr ""
+msgstr "需要交互式窗口站。\n"
 
 #: winerror.mc:2696
 msgid "Timeout.\n"
-msgstr ""
+msgstr "超时。\n"
 
 #: winerror.mc:2701
 msgid "Invalid monitor handle.\n"
@@ -5854,19 +5872,19 @@ msgstr "显示器句柄无效。\n"
 
 #: winerror.mc:2706
 msgid "Event log file corrupt.\n"
-msgstr ""
+msgstr "事件日志文件已损坏。\n"
 
 #: winerror.mc:2711
 msgid "Event log can't start.\n"
-msgstr ""
+msgstr "无法启动事件日志。\n"
 
 #: winerror.mc:2716
 msgid "Event log file full.\n"
-msgstr ""
+msgstr "事件日志文件已满。\n"
 
 #: winerror.mc:2721
 msgid "Event log file changed.\n"
-msgstr ""
+msgstr "事件日志文件已更改。\n"
 
 #: winerror.mc:2726
 msgid "Installer service failed.\n"
@@ -5910,7 +5928,7 @@ msgstr "配置有错。\n"
 
 #: winerror.mc:2776
 msgid "Index is missing.\n"
-msgstr ""
+msgstr "缺少索引。\n"
 
 #: winerror.mc:2781
 msgid "Installation source is missing.\n"
@@ -5918,11 +5936,11 @@ msgstr "安装源不存在。\n"
 
 #: winerror.mc:2786
 msgid "Wrong installation package version.\n"
-msgstr ""
+msgstr "错误的安装包版本。\n"
 
 #: winerror.mc:2791
 msgid "Product uninstalled.\n"
-msgstr ""
+msgstr "产品已卸载。\n"
 
 #: winerror.mc:2796
 msgid "Invalid query syntax.\n"
@@ -5934,7 +5952,7 @@ msgstr "字段无效。\n"
 
 #: winerror.mc:2806
 msgid "Device removed.\n"
-msgstr ""
+msgstr "设备已移除。\n"
 
 #: winerror.mc:2811
 msgid "Installation already running.\n"
@@ -5942,7 +5960,7 @@ msgstr "安装程序已经在运行。\n"
 
 #: winerror.mc:2816
 msgid "Installation package failed to open.\n"
-msgstr ""
+msgstr "无法打开安装包。\n"
 
 #: winerror.mc:2821
 msgid "Installation package is invalid.\n"
@@ -5950,7 +5968,7 @@ msgstr "安装包无效。\n"
 
 #: winerror.mc:2826
 msgid "Installer user interface failed.\n"
-msgstr ""
+msgstr "安装程序用户界面故障。\n"
 
 #: winerror.mc:2831
 msgid "Failed to open installation log file.\n"
