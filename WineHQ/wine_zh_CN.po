@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-08 10:20+0800\n"
+"PO-Revision-Date: 2016-08-08 10:40+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -4748,35 +4748,35 @@ msgstr "分区故障。\n"
 
 #: winerror.mc:1326
 msgid "Invalid block length.\n"
-msgstr ""
+msgstr "无效的块长度。\n"
 
 #: winerror.mc:1331
 msgid "Device not partitioned.\n"
-msgstr ""
+msgstr "设备未分区。\n"
 
 #: winerror.mc:1336
 msgid "Unable to lock media.\n"
-msgstr ""
+msgstr "无法锁定介质。\n"
 
 #: winerror.mc:1341
 msgid "Unable to unload media.\n"
-msgstr ""
+msgstr "无法卸载介质。\n"
 
 #: winerror.mc:1346
 msgid "Media changed.\n"
-msgstr ""
+msgstr "介质已更改。\n"
 
 #: winerror.mc:1351
 msgid "I/O bus reset.\n"
-msgstr ""
+msgstr "I/O 总线复位。\n"
 
 #: winerror.mc:1356
 msgid "No media in drive.\n"
-msgstr ""
+msgstr "驱动器中无介质。\n"
 
 #: winerror.mc:1361
 msgid "No Unicode translation.\n"
-msgstr ""
+msgstr "没有 Unicode 翻译。\n"
 
 #: winerror.mc:1366
 msgid "DLL initialization failed.\n"
@@ -4784,99 +4784,100 @@ msgstr "DLL 初始化失败。\n"
 
 #: winerror.mc:1371
 msgid "Shutdown in progress.\n"
-msgstr ""
+msgstr "正在关机。\n"
 
 #: winerror.mc:1376
 msgid "No shutdown in progress.\n"
-msgstr ""
+msgstr "无正在进行的关机操作。\n"
 
 #: winerror.mc:1381
 msgid "I/O device error.\n"
-msgstr ""
+msgstr "I/O 设备错误。\n"
 
 #: winerror.mc:1386
 msgid "No serial devices found.\n"
-msgstr ""
+msgstr "未找到串口设备。\n"
 
 #: winerror.mc:1391
 msgid "Shared IRQ busy.\n"
-msgstr ""
+msgstr "共享 IRQ 忙。\n"
 
 #: winerror.mc:1396
 msgid "Serial I/O completed.\n"
-msgstr ""
+msgstr "已完成串行 I/O。\n"
 
 #: winerror.mc:1401
 msgid "Serial I/O counter timeout.\n"
-msgstr ""
+msgstr "串行 I/O 计数器超时。\n"
 
 #: winerror.mc:1406
 msgid "Floppy ID address mark not found.\n"
-msgstr ""
+msgstr "未找到软盘 ID 地址标记。\n"
 
 #: winerror.mc:1411
 msgid "Floppy reports wrong cylinder.\n"
-msgstr ""
+msgstr "软盘报告错误柱面。\n"
 
 #: winerror.mc:1416
 msgid "Unknown floppy error.\n"
 msgstr "未知软盘错误。\n"
 
 #: winerror.mc:1421
+#, fuzzy
 msgid "Floppy registers inconsistent.\n"
-msgstr ""
+msgstr "软盘寄存器不相符。\n"
 
 #: winerror.mc:1426
 msgid "Hard disk recalibrate failed.\n"
-msgstr ""
+msgstr "硬盘重校正失败。\n"
 
 #: winerror.mc:1431
 msgid "Hard disk operation failed.\n"
-msgstr ""
+msgstr "硬盘操作失败。\n"
 
 #: winerror.mc:1436
 msgid "Hard disk reset failed.\n"
-msgstr ""
+msgstr "硬盘复位失败。\n"
 
 #: winerror.mc:1441
 msgid "End of tape media.\n"
-msgstr ""
+msgstr "磁带介质结尾。\n"
 
 #: winerror.mc:1446
 msgid "Not enough server memory.\n"
-msgstr ""
+msgstr "服务器内存不足。\n"
 
 #: winerror.mc:1451
 msgid "Possible deadlock.\n"
-msgstr ""
+msgstr "可能的死锁。\n"
 
 #: winerror.mc:1456
 msgid "Incorrect alignment.\n"
-msgstr ""
+msgstr "对齐不正确。\n"
 
 #: winerror.mc:1461
 msgid "Set-power-state vetoed.\n"
-msgstr ""
+msgstr "Set-power-state 被否决。\n"
 
 #: winerror.mc:1466
 msgid "Set-power-state failed.\n"
-msgstr ""
+msgstr "Set-power-state 失败。\n"
 
 #: winerror.mc:1471
 msgid "Too many links.\n"
-msgstr ""
+msgstr "链接过多。\n"
 
 #: winerror.mc:1476
 msgid "Newer windows version needed.\n"
-msgstr ""
+msgstr "需要更新版本的 Windows。\n"
 
 #: winerror.mc:1481
 msgid "Wrong operating system.\n"
-msgstr ""
+msgstr "错误的操作系统。\n"
 
 #: winerror.mc:1486
 msgid "Single-instance application.\n"
-msgstr ""
+msgstr "单实例应用程序。\n"
 
 #: winerror.mc:1491
 msgid "Real-mode application.\n"
@@ -4884,15 +4885,15 @@ msgstr "实地址模式应用程序。\n"
 
 #: winerror.mc:1496
 msgid "Invalid DLL.\n"
-msgstr ""
+msgstr "无效的 DLL。\n"
 
 #: winerror.mc:1501
 msgid "No associated application.\n"
-msgstr ""
+msgstr "无关联的应用程序。\n"
 
 #: winerror.mc:1506
 msgid "DDE failure.\n"
-msgstr ""
+msgstr "DDE 故障。\n"
 
 #: winerror.mc:1511
 msgid "DLL not found.\n"
@@ -4904,31 +4905,32 @@ msgstr "用户句柄不足。\n"
 
 #: winerror.mc:1521
 msgid "Message can only be used in synchronous calls.\n"
-msgstr ""
+msgstr "消息仅可用于同步调用。\n"
 
 #: winerror.mc:1526
 msgid "The source element is empty.\n"
-msgstr ""
+msgstr "源元素为空。\n"
 
 #: winerror.mc:1531
 msgid "The destination element is full.\n"
-msgstr ""
+msgstr "目标元素已满。\n"
 
 #: winerror.mc:1536
 msgid "The element address is invalid.\n"
-msgstr ""
+msgstr "元素地址无效。\n"
 
 #: winerror.mc:1541
+#, fuzzy
 msgid "The magazine is not present.\n"
-msgstr ""
+msgstr "不存在盘匣。\n"
 
 #: winerror.mc:1546
 msgid "The device needs reinitialization.\n"
-msgstr ""
+msgstr "设备需要重新初始化。\n"
 
 #: winerror.mc:1551
 msgid "The device requires cleaning.\n"
-msgstr ""
+msgstr "设备需要清理。\n"
 
 #: winerror.mc:1556
 msgid "The device door is open.\n"
@@ -4956,23 +4958,23 @@ msgstr "未找到点。\n"
 
 #: winerror.mc:1586
 msgid "No running tracking service.\n"
-msgstr ""
+msgstr "没有运行中的跟踪服务。\n"
 
 #: winerror.mc:1591
 msgid "No such volume ID.\n"
-msgstr ""
+msgstr "无此卷 ID。\n"
 
 #: winerror.mc:1596
 msgid "Unable to remove the file to be replaced.\n"
-msgstr ""
+msgstr "无法移除将被替换的文件。\n"
 
 #: winerror.mc:1601
 msgid "Unable to move the replacement file into place.\n"
-msgstr ""
+msgstr "无法将替换文件移动到位。\n"
 
 #: winerror.mc:1606
 msgid "Moving the replacement file failed.\n"
-msgstr ""
+msgstr "移动替换文件失败。\n"
 
 #: winerror.mc:1611
 msgid "The journal is being deleted.\n"
@@ -4980,19 +4982,19 @@ msgstr "日志正在被删除。\n"
 
 #: winerror.mc:1616
 msgid "The journal is not active.\n"
-msgstr ""
+msgstr "日志非活动。\n"
 
 #: winerror.mc:1621
 msgid "Potential matching file found.\n"
-msgstr ""
+msgstr "找到潜在的匹配文件。\n"
 
 #: winerror.mc:1626
 msgid "The journal entry was deleted.\n"
-msgstr ""
+msgstr "日志项已被删除。\n"
 
 #: winerror.mc:1631
 msgid "Invalid device name.\n"
-msgstr ""
+msgstr "无效的设备名。\n"
 
 #: winerror.mc:1636
 msgid "Connection unavailable.\n"
@@ -5000,35 +5002,36 @@ msgstr "连接不可用。\n"
 
 #: winerror.mc:1641
 msgid "Device already remembered.\n"
-msgstr ""
+msgstr "已记住设备。\n"
 
 #: winerror.mc:1646
 msgid "No network or bad path.\n"
-msgstr ""
+msgstr "无网络或错误路径。\n"
 
 #: winerror.mc:1651
 msgid "Invalid network provider name.\n"
-msgstr ""
+msgstr "无效的网络提供者名称。\n"
 
 #: winerror.mc:1656
 msgid "Cannot open network connection profile.\n"
-msgstr ""
+msgstr "无法打开网络连接档案。\n"
 
 #: winerror.mc:1661
 msgid "Corrupt network connection profile.\n"
-msgstr ""
+msgstr "网络连接档案已损坏。\n"
 
 #: winerror.mc:1666
 msgid "Not a container.\n"
-msgstr ""
+msgstr "不是容器。\n"
 
 #: winerror.mc:1671
+#, fuzzy
 msgid "Extended error.\n"
-msgstr ""
+msgstr "扩展错误。\n"
 
 #: winerror.mc:1676
 msgid "Invalid group name.\n"
-msgstr ""
+msgstr "无效组名。\n"
 
 #: winerror.mc:1681
 msgid "Invalid computer name.\n"
@@ -5036,15 +5039,15 @@ msgstr "无效计算机名。\n"
 
 #: winerror.mc:1686
 msgid "Invalid event name.\n"
-msgstr ""
+msgstr "无效事件名。\n"
 
 #: winerror.mc:1691
 msgid "Invalid domain name.\n"
-msgstr ""
+msgstr "无效域名。\n"
 
 #: winerror.mc:1696
 msgid "Invalid service name.\n"
-msgstr ""
+msgstr "无效服务名。\n"
 
 #: winerror.mc:1701
 msgid "Invalid network name.\n"
@@ -5052,39 +5055,40 @@ msgstr "无效网络名。\n"
 
 #: winerror.mc:1706
 msgid "Invalid share name.\n"
-msgstr "共享名字无效。\n"
+msgstr "无效共享名。\n"
 
 #: winerror.mc:1716
 msgid "Invalid message name.\n"
-msgstr ""
+msgstr "无效消息名。\n"
 
 #: winerror.mc:1721
 msgid "Invalid message destination.\n"
-msgstr ""
+msgstr "无效消息目标。\n"
 
 #: winerror.mc:1726
 msgid "Session credential conflict.\n"
-msgstr ""
+msgstr "会话凭据冲突。\n"
 
 #: winerror.mc:1731
 msgid "Remote session limit exceeded.\n"
-msgstr ""
+msgstr "超出远程会话限制。\n"
 
 #: winerror.mc:1736
 msgid "Duplicate domain or workgroup name.\n"
-msgstr ""
+msgstr "重复的域或工作组名称。\n"
 
 #: winerror.mc:1741
 msgid "No network.\n"
-msgstr ""
+msgstr "无网络。\n"
 
 #: winerror.mc:1746
 msgid "Operation canceled by user.\n"
 msgstr "操作被用户取消。\n"
 
 #: winerror.mc:1751
+#, fuzzy
 msgid "File has a user-mapped section.\n"
-msgstr ""
+msgstr "文件带有用户映射的区块。\n"
 
 #: winerror.mc:1756 winerror.mc:3751
 msgid "Connection refused.\n"
@@ -5092,15 +5096,15 @@ msgstr "连接被拒绝。\n"
 
 #: winerror.mc:1761
 msgid "Connection gracefully closed.\n"
-msgstr ""
+msgstr "连接已顺利关闭。\n"
 
 #: winerror.mc:1766
 msgid "Address already associated with transport endpoint.\n"
-msgstr ""
+msgstr "地址已关联到传输终点。\n"
 
 #: winerror.mc:1771
 msgid "Address not associated with transport endpoint.\n"
-msgstr ""
+msgstr "地址未关联到传输终点。\n"
 
 #: winerror.mc:1776
 msgid "Connection invalid.\n"
@@ -5108,7 +5112,7 @@ msgstr "连接无效。\n"
 
 #: winerror.mc:1781
 msgid "Connection is active.\n"
-msgstr ""
+msgstr "连接处于活动状态。\n"
 
 #: winerror.mc:1786
 msgid "Network unreachable.\n"
@@ -5116,47 +5120,47 @@ msgstr "网络不可达。\n"
 
 #: winerror.mc:1791
 msgid "Host unreachable.\n"
-msgstr ""
+msgstr "主机不可达。\n"
 
 #: winerror.mc:1796
 msgid "Protocol unreachable.\n"
-msgstr ""
+msgstr "协议不可达。\n"
 
 #: winerror.mc:1801
 msgid "Port unreachable.\n"
-msgstr ""
+msgstr "端口不可达。\n"
 
 #: winerror.mc:1806
 msgid "Request aborted.\n"
-msgstr ""
+msgstr "请求已中止。\n"
 
 #: winerror.mc:1811
 msgid "Connection aborted.\n"
-msgstr "连接被终止。\n"
+msgstr "连接被中止。\n"
 
 #: winerror.mc:1816
 msgid "Please retry operation.\n"
-msgstr ""
+msgstr "请重试操作。\n"
 
 #: winerror.mc:1821
 msgid "Connection count limit reached.\n"
-msgstr ""
+msgstr "连接数量达到上限。\n"
 
 #: winerror.mc:1826
 msgid "Login time restriction.\n"
-msgstr ""
+msgstr "登录时间限制。\n"
 
 #: winerror.mc:1831
 msgid "Login workstation restriction.\n"
-msgstr ""
+msgstr "登录工作站限制。\n"
 
 #: winerror.mc:1836
 msgid "Incorrect network address.\n"
-msgstr ""
+msgstr "无效的网络地址。\n"
 
 #: winerror.mc:1841
 msgid "Service already registered.\n"
-msgstr ""
+msgstr "服务已注册。\n"
 
 #: winerror.mc:1846
 msgid "Service not found.\n"
@@ -5164,23 +5168,23 @@ msgstr "找不到服务。\n"
 
 #: winerror.mc:1851
 msgid "User not authenticated.\n"
-msgstr ""
+msgstr "用户未认证。\n"
 
 #: winerror.mc:1856
 msgid "User not logged on.\n"
-msgstr ""
+msgstr "用户未登录。\n"
 
 #: winerror.mc:1861
 msgid "Continue work in progress.\n"
-msgstr ""
+msgstr "继续正在进行的工作。\n"
 
 #: winerror.mc:1866
 msgid "Already initialized.\n"
-msgstr ""
+msgstr "已初始化。\n"
 
 #: winerror.mc:1871
 msgid "No more local devices.\n"
-msgstr ""
+msgstr "没有更多本地设备。\n"
 
 #: winerror.mc:1876
 msgid "The site does not exist.\n"
@@ -5196,35 +5200,36 @@ msgstr "只有已连接时才支持。\n"
 
 #: winerror.mc:1891
 msgid "Perform operation even when nothing changed.\n"
-msgstr ""
+msgstr "在不存在更改时依然执行操作。\n"
 
 #: winerror.mc:1896
 msgid "The user profile is invalid.\n"
-msgstr ""
+msgstr "无效用户档案。\n"
 
 #: winerror.mc:1901
+#, fuzzy
 msgid "Not supported on Small Business Server.\n"
-msgstr ""
+msgstr "在 Small Business Server 上不支持。\n"
 
 #: winerror.mc:1906
 msgid "Not all privileges assigned.\n"
-msgstr ""
+msgstr "未分配所有权限。\n"
 
 #: winerror.mc:1911
 msgid "Some security IDs not mapped.\n"
-msgstr ""
+msgstr "一部分安全 ID 未映射。\n"
 
 #: winerror.mc:1916
 msgid "No quotas for account.\n"
-msgstr ""
+msgstr "帐号无配额。\n"
 
 #: winerror.mc:1921
 msgid "Local user session key.\n"
-msgstr ""
+msgstr "本地用户会话密钥。\n"
 
 #: winerror.mc:1926
 msgid "Password too complex for LM.\n"
-msgstr ""
+msgstr "密码对于 LM 太复杂。\n"
 
 #: winerror.mc:1931
 msgid "Unknown revision.\n"
@@ -5232,43 +5237,47 @@ msgstr "未知修订版。\n"
 
 #: winerror.mc:1936
 msgid "Incompatible revision levels.\n"
-msgstr ""
+msgstr "不兼容的修订级别。\n"
 
 #: winerror.mc:1941
 msgid "Invalid owner.\n"
 msgstr "所有者无效。\n"
 
 #: winerror.mc:1946
+#, fuzzy
 msgid "Invalid primary group.\n"
-msgstr ""
+msgstr "无效的首选组。\n"
 
 #: winerror.mc:1951
+#, fuzzy
 msgid "No impersonation token.\n"
-msgstr ""
+msgstr "无模拟令牌。\n"
 
 #: winerror.mc:1956
+#, fuzzy
 msgid "Can't disable mandatory group.\n"
-msgstr ""
+msgstr "不能禁用必选组。\n"
 
 #: winerror.mc:1961
 msgid "No logon servers available.\n"
-msgstr ""
+msgstr "无可用的登录服务器。\n"
 
 #: winerror.mc:1966
 msgid "No such logon session.\n"
-msgstr ""
+msgstr "无此登录会话。\n"
 
 #: winerror.mc:1971
 msgid "No such privilege.\n"
-msgstr ""
+msgstr "无此权限。\n"
 
 #: winerror.mc:1976
+#, fuzzy
 msgid "Privilege not held.\n"
-msgstr ""
+msgstr "未保有权限。\n"
 
 #: winerror.mc:1981
 msgid "Invalid account name.\n"
-msgstr ""
+msgstr "无效的帐号名。\n"
 
 #: winerror.mc:1986
 msgid "User already exists.\n"
@@ -5276,7 +5285,7 @@ msgstr "用户已经存在。\n"
 
 #: winerror.mc:1991
 msgid "No such user.\n"
-msgstr ""
+msgstr "无此用户。\n"
 
 #: winerror.mc:1996
 msgid "Group already exists.\n"
@@ -5284,19 +5293,19 @@ msgstr "组已经存在。\n"
 
 #: winerror.mc:2001
 msgid "No such group.\n"
-msgstr ""
+msgstr "无此组。\n"
 
 #: winerror.mc:2006
 msgid "User already in group.\n"
-msgstr ""
+msgstr "用户已在组内。\n"
 
 #: winerror.mc:2011
 msgid "User not in group.\n"
-msgstr ""
+msgstr "用户不在组内。\n"
 
 #: winerror.mc:2016
 msgid "Can't delete last admin user.\n"
-msgstr ""
+msgstr "无法删除仅有的管理员用户。\n"
 
 #: winerror.mc:2021
 msgid "Wrong password.\n"
