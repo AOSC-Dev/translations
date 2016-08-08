@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-07 17:33+0800\n"
+"PO-Revision-Date: 2016-08-08 09:57+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -3456,7 +3456,7 @@ msgstr "高"
 
 #: joy.rc:36
 msgid "Joysticks"
-msgstr ""
+msgstr "手柄"
 
 #: joy.rc:39 winecfg.rc:213
 msgid "&Disable"
@@ -3479,10 +3479,12 @@ msgid ""
 "After disabling or enabling a device, the connected joysticks won't be "
 "updated here until you restart this applet."
 msgstr ""
+"在禁用或启用设备之后，直到您重启该小工具为止，将不会在这里更新已连接的手柄的"
+"信息。"
 
 #: joy.rc:50
 msgid "Test Joystick"
-msgstr ""
+msgstr "测试手柄"
 
 #: joy.rc:54
 msgid "Buttons"
@@ -3490,17 +3492,18 @@ msgstr "按钮"
 
 #: joy.rc:63
 msgid "Test Force Feedback"
-msgstr ""
+msgstr "测试力反馈"
 
 #: joy.rc:67
 msgid "Available Effects"
 msgstr "可选效果"
 
 #: joy.rc:69
+#, fuzzy
 msgid ""
 "Press any button in the controller to activate the chosen effect. The effect "
 "direction can be changed with the controller axis."
-msgstr ""
+msgstr "在控制器上按任意键以激活选中的效果。可根据控制器轴改变效果的方向。"
 
 #: joy.rc:31
 msgid "Game Controllers"
@@ -3508,35 +3511,36 @@ msgstr "游戏控制器"
 
 #: jscript.rc:28
 msgid "Error converting object to primitive type"
-msgstr ""
+msgstr "将对象转换为基本类型时出错"
 
 #: jscript.rc:29
 msgid "Invalid procedure call or argument"
-msgstr ""
+msgstr "过程调用或参数无效"
 
 #: jscript.rc:30
+#, fuzzy
 msgid "Subscript out of range"
-msgstr ""
+msgstr "标记越界"
 
 #: jscript.rc:31
 msgid "Object required"
-msgstr ""
+msgstr "需要对象"
 
 #: jscript.rc:32
 msgid "Automation server can't create object"
-msgstr ""
+msgstr "自动化服务器无法创建对象"
 
 #: jscript.rc:33
 msgid "Object doesn't support this property or method"
-msgstr ""
+msgstr "对象不支持此属性或方式"
 
 #: jscript.rc:34
 msgid "Object doesn't support this action"
-msgstr ""
+msgstr "对象不支持此动作"
 
 #: jscript.rc:35
 msgid "Argument not optional"
-msgstr ""
+msgstr "参数非可选参数"
 
 #: jscript.rc:36
 msgid "Syntax error"
@@ -3544,23 +3548,23 @@ msgstr "语法错误"
 
 #: jscript.rc:37
 msgid "Expected ';'"
-msgstr ""
+msgstr "期望 ';'"
 
 #: jscript.rc:38
 msgid "Expected '('"
-msgstr ""
+msgstr "期望 '('"
 
 #: jscript.rc:39
 msgid "Expected ')'"
-msgstr ""
+msgstr "期望 ')'"
 
 #: jscript.rc:40
 msgid "Expected identifier"
-msgstr ""
+msgstr "期望标识符"
 
 #: jscript.rc:41
 msgid "Expected '='"
-msgstr ""
+msgstr "期望 '='"
 
 #: jscript.rc:42
 msgid "Invalid character"
@@ -3568,23 +3572,23 @@ msgstr "无效字符"
 
 #: jscript.rc:43
 msgid "Unterminated string constant"
-msgstr ""
+msgstr "未终止的字符串常量"
 
 #: jscript.rc:44
 msgid "'return' statement outside of function"
-msgstr ""
+msgstr "函数外的 'return' 语句"
 
 #: jscript.rc:45
 msgid "Can't have 'break' outside of loop"
-msgstr ""
+msgstr "循环外不能存在 'break'"
 
 #: jscript.rc:46
 msgid "Can't have 'continue' outside of loop"
-msgstr ""
+msgstr "循环外不能存在 'continue'"
 
 #: jscript.rc:47
 msgid "Label redefined"
-msgstr ""
+msgstr "标签被重复定义"
 
 #: jscript.rc:48
 msgid "Label not found"
@@ -3592,43 +3596,43 @@ msgstr "找不到标签"
 
 #: jscript.rc:49
 msgid "Expected '@end'"
-msgstr ""
+msgstr "期望 '@end'"
 
 #: jscript.rc:50
 msgid "Conditional compilation is turned off"
-msgstr ""
+msgstr "条件编译已关闭"
 
 #: jscript.rc:51
 msgid "Expected '@'"
-msgstr ""
+msgstr "期望 '@'"
 
 #: jscript.rc:54
 msgid "Number expected"
-msgstr ""
+msgstr "期望得到数字"
 
 #: jscript.rc:52
 msgid "Function expected"
-msgstr ""
+msgstr "期望得到函数"
 
 #: jscript.rc:53
 msgid "'[object]' is not a date object"
-msgstr ""
+msgstr "'[object]' 不是日期对象"
 
 #: jscript.rc:55
 msgid "Object expected"
-msgstr ""
+msgstr "期望得到对象"
 
 #: jscript.rc:56
 msgid "Illegal assignment"
-msgstr ""
+msgstr "非法赋值"
 
 #: jscript.rc:57
 msgid "'|' is undefined"
-msgstr ""
+msgstr "'|' 未定义"
 
 #: jscript.rc:58
 msgid "Boolean object expected"
-msgstr ""
+msgstr "期望得到布尔型对象"
 
 #: jscript.rc:59
 msgid "Cannot delete '|'"
@@ -3636,27 +3640,27 @@ msgstr "不能删除 '|'"
 
 #: jscript.rc:60
 msgid "VBArray object expected"
-msgstr ""
+msgstr "期望得到 VBArray 对象"
 
 #: jscript.rc:61
 msgid "JScript object expected"
-msgstr ""
+msgstr "期望得到 JScript 对象"
 
 #: jscript.rc:62
 msgid "Syntax error in regular expression"
-msgstr ""
+msgstr "正则表达式中存在语法错误"
 
 #: jscript.rc:64
 msgid "URI to be encoded contains invalid characters"
-msgstr ""
+msgstr "待编码的 URI 中包含无效字符"
 
 #: jscript.rc:63
 msgid "URI to be decoded is incorrect"
-msgstr ""
+msgstr "待解码的 URI 不正确"
 
 #: jscript.rc:65
 msgid "Number of fraction digits is out of range"
-msgstr ""
+msgstr "分数位数的数字超出范围"
 
 #: jscript.rc:66
 msgid "Precision is out of range"
@@ -3664,19 +3668,19 @@ msgstr "精度超出范围"
 
 #: jscript.rc:67
 msgid "Array length must be a finite positive integer"
-msgstr ""
+msgstr "数组的长度必须为一个有限正整数"
 
 #: jscript.rc:68
 msgid "Array object expected"
-msgstr ""
+msgstr "期望得到 Array 对象"
 
 #: winerror.mc:26
 msgid "Success.\n"
-msgstr ""
+msgstr "成功。\n"
 
 #: winerror.mc:31
 msgid "Invalid function.\n"
-msgstr ""
+msgstr "无效的函数。\n"
 
 #: winerror.mc:36
 msgid "File not found.\n"
@@ -3688,15 +3692,15 @@ msgstr "找不到路径。\n"
 
 #: winerror.mc:46
 msgid "Too many open files.\n"
-msgstr ""
+msgstr "太多打开的文件。\n"
 
 #: winerror.mc:51
 msgid "Access denied.\n"
-msgstr ""
+msgstr "访问被拒绝。\n"
 
 #: winerror.mc:56
 msgid "Invalid handle.\n"
-msgstr ""
+msgstr "无效的句柄。\n"
 
 #: winerror.mc:61
 msgid "Memory trashed.\n"
@@ -3708,23 +3712,23 @@ msgstr "内存不足。\n"
 
 #: winerror.mc:71
 msgid "Invalid block.\n"
-msgstr ""
+msgstr "无效的块。\n"
 
 #: winerror.mc:76
 msgid "Bad environment.\n"
-msgstr ""
+msgstr "环境错误。\n"
 
 #: winerror.mc:81
 msgid "Bad format.\n"
-msgstr ""
+msgstr "格式错误。\n"
 
 #: winerror.mc:86
 msgid "Invalid access.\n"
-msgstr ""
+msgstr "无效的访问。\n"
 
 #: winerror.mc:91
 msgid "Invalid data.\n"
-msgstr ""
+msgstr "无效的数据。\n"
 
 #: winerror.mc:96
 msgid "Out of memory.\n"
@@ -3732,51 +3736,51 @@ msgstr "内存不足。\n"
 
 #: winerror.mc:101
 msgid "Invalid drive.\n"
-msgstr ""
+msgstr "无效的驱动器。\n"
 
 #: winerror.mc:106
 msgid "Can't delete current directory.\n"
-msgstr ""
+msgstr "无法删除当前目录。\n"
 
 #: winerror.mc:111
 msgid "Not same device.\n"
-msgstr ""
+msgstr "不是同一驱动器\n"
 
 #: winerror.mc:116
 msgid "No more files.\n"
-msgstr ""
+msgstr "没有更多文件。\n"
 
 #: winerror.mc:121
 msgid "Write protected.\n"
-msgstr ""
+msgstr "写保护。\n"
 
 #: winerror.mc:126
 msgid "Bad unit.\n"
-msgstr ""
+msgstr "单位错误。\n"
 
 #: winerror.mc:131
 msgid "Not ready.\n"
-msgstr ""
+msgstr "未就绪。\n"
 
 #: winerror.mc:136
 msgid "Bad command.\n"
-msgstr ""
+msgstr "错误指令。\n"
 
 #: winerror.mc:141
 msgid "CRC error.\n"
-msgstr ""
+msgstr "CRC 错误。\n"
 
 #: winerror.mc:146
 msgid "Bad length.\n"
-msgstr ""
+msgstr "长度错误。\n"
 
 #: winerror.mc:151 winerror.mc:526
 msgid "Seek error.\n"
-msgstr ""
+msgstr "寻道错误。\n"
 
 #: winerror.mc:156
 msgid "Not DOS disk.\n"
-msgstr ""
+msgstr "不是 DOS 磁盘。\n"
 
 #: winerror.mc:161
 msgid "Sector not found.\n"
@@ -3800,19 +3804,19 @@ msgstr "一般性错误。\n"
 
 #: winerror.mc:186
 msgid "Sharing violation.\n"
-msgstr ""
+msgstr "共享冲突。\n"
 
 #: winerror.mc:191
 msgid "Lock violation.\n"
-msgstr ""
+msgstr "锁定冲突。\n"
 
 #: winerror.mc:196
 msgid "Wrong disk.\n"
-msgstr ""
+msgstr "错误磁盘。\n"
 
 #: winerror.mc:201
 msgid "Sharing buffer exceeded.\n"
-msgstr ""
+msgstr "共享缓存区超限。\n"
 
 #: winerror.mc:206
 msgid "End of file.\n"
@@ -3820,23 +3824,24 @@ msgstr "文件尾。\n"
 
 #: winerror.mc:211 winerror.mc:436
 msgid "Disk full.\n"
-msgstr ""
+msgstr "磁盘满。\n"
 
 #: winerror.mc:216
 msgid "Request not supported.\n"
-msgstr ""
+msgstr "请求不被支持。\n"
 
 #: winerror.mc:221
+#, fuzzy
 msgid "Remote machine not listening.\n"
-msgstr ""
+msgstr "远程机器未监听。\n"
 
 #: winerror.mc:226
 msgid "Duplicate network name.\n"
-msgstr ""
+msgstr "重复的网络名称。\n"
 
 #: winerror.mc:231
 msgid "Bad network path.\n"
-msgstr ""
+msgstr "网络路径错误。\n"
 
 #: winerror.mc:236
 msgid "Network busy.\n"
@@ -3848,31 +3853,31 @@ msgstr "设备不存在。\n"
 
 #: winerror.mc:246
 msgid "Too many commands.\n"
-msgstr ""
+msgstr "命令过多。\n"
 
 #: winerror.mc:251
 msgid "Adapter hardware error.\n"
-msgstr ""
+msgstr "适配器硬件错误。\n"
 
 #: winerror.mc:256
 msgid "Bad network response.\n"
-msgstr ""
+msgstr "网络响应错误。\n"
 
 #: winerror.mc:261
 msgid "Unexpected network error.\n"
-msgstr ""
+msgstr "未预期的网络错误。\n"
 
 #: winerror.mc:266
 msgid "Bad remote adapter.\n"
-msgstr ""
+msgstr "远程适配器错误。\n"
 
 #: winerror.mc:271
 msgid "Print queue full.\n"
-msgstr ""
+msgstr "打印队列已满。\n"
 
 #: winerror.mc:276
 msgid "No spool space.\n"
-msgstr ""
+msgstr "池空间耗尽。\n"
 
 #: winerror.mc:281
 msgid "Print canceled.\n"
@@ -3884,11 +3889,11 @@ msgstr "网络名已删除。\n"
 
 #: winerror.mc:291
 msgid "Network access denied.\n"
-msgstr ""
+msgstr "网络访问被拒绝。\n"
 
 #: winerror.mc:296
 msgid "Bad device type.\n"
-msgstr ""
+msgstr "设备类型错误。\n"
 
 #: winerror.mc:301
 msgid "Bad network name.\n"
@@ -3896,23 +3901,24 @@ msgstr "错误的网络名。\n"
 
 #: winerror.mc:306
 msgid "Too many network names.\n"
-msgstr ""
+msgstr "网络名称过多。\n"
 
 #: winerror.mc:311
 msgid "Too many network sessions.\n"
-msgstr ""
+msgstr "网络会话过多。\n"
 
 #: winerror.mc:316
 msgid "Sharing paused.\n"
 msgstr "共享已暂停。\n"
 
 #: winerror.mc:321
+#, fuzzy
 msgid "Request not accepted.\n"
-msgstr ""
+msgstr "未接受请求。\n"
 
 #: winerror.mc:326
 msgid "Redirector paused.\n"
-msgstr ""
+msgstr "重定向器已暂停。\n"
 
 #: winerror.mc:331
 msgid "File exists.\n"
@@ -3920,23 +3926,24 @@ msgstr "文件存在。\n"
 
 #: winerror.mc:336
 msgid "Cannot create.\n"
-msgstr ""
+msgstr "无法创建。\n"
 
 #: winerror.mc:341
 msgid "Int24 failure.\n"
-msgstr ""
+msgstr "Int24 故障。\n"
 
 #: winerror.mc:346
+#, fuzzy
 msgid "Out of structures.\n"
-msgstr ""
+msgstr "超出结构。\n"
 
 #: winerror.mc:351
 msgid "Already assigned.\n"
-msgstr ""
+msgstr "已被分配。\n"
 
 #: winerror.mc:356 winerror.mc:1711
 msgid "Invalid password.\n"
-msgstr ""
+msgstr "无效密码。\n"
 
 #: winerror.mc:361
 msgid "Invalid parameter.\n"
@@ -3947,36 +3954,39 @@ msgid "Net write fault.\n"
 msgstr "网络写入错误。\n"
 
 #: winerror.mc:371
+#, fuzzy
 msgid "No process slots.\n"
-msgstr ""
+msgstr "无线程槽。\n"
 
 #: winerror.mc:376
 msgid "Too many semaphores.\n"
-msgstr ""
+msgstr "信号过多。\n"
 
 #: winerror.mc:381
 msgid "Exclusive semaphore already owned.\n"
-msgstr ""
+msgstr "专属信号已被占用。\n"
 
 #: winerror.mc:386
 msgid "Semaphore is set.\n"
-msgstr ""
+msgstr "信号已设置。\n"
 
 #: winerror.mc:391
 msgid "Too many semaphore requests.\n"
-msgstr ""
+msgstr "信号请求过多。\n"
 
 #: winerror.mc:396
+#, fuzzy
 msgid "Invalid at interrupt time.\n"
-msgstr ""
+msgstr "中断时间无效。\n"
 
 #: winerror.mc:401
+#, fuzzy
 msgid "Semaphore owner died.\n"
-msgstr ""
+msgstr "信号所有者已终止。\n"
 
 #: winerror.mc:406
 msgid "Semaphore user limit.\n"
-msgstr ""
+msgstr "信号用户限制。\n"
 
 #: winerror.mc:411
 msgid "Insert disk for drive %1.\n"
@@ -3984,11 +3994,12 @@ msgstr "插入驱动器 %1 的磁盘。\n"
 
 #: winerror.mc:416
 msgid "Drive locked.\n"
-msgstr ""
+msgstr "驱动器已锁定。\n"
 
 #: winerror.mc:421
+#, fuzzy
 msgid "Broken pipe.\n"
-msgstr ""
+msgstr "管道中断。\n"
 
 #: winerror.mc:426
 msgid "Open failed.\n"
@@ -3996,27 +4007,28 @@ msgstr "打开失败。\n"
 
 #: winerror.mc:431
 msgid "Buffer overflow.\n"
-msgstr ""
+msgstr "缓冲区溢出。\n"
 
 #: winerror.mc:441
 msgid "No more search handles.\n"
-msgstr ""
+msgstr "搜索句柄耗尽。\n"
 
 #: winerror.mc:446
 msgid "Invalid target handle.\n"
-msgstr ""
+msgstr "无效的目标句柄。\n"
 
 #: winerror.mc:451
 msgid "Invalid IOCTL.\n"
-msgstr ""
+msgstr "无效的 IOCTL。\n"
 
 #: winerror.mc:456
+#, fuzzy
 msgid "Invalid verify switch.\n"
-msgstr ""
+msgstr "无效的验证开关。\n"
 
 #: winerror.mc:461
 msgid "Bad driver level.\n"
-msgstr ""
+msgstr "驱动级别错误。\n"
 
 #: winerror.mc:466
 msgid "Call not implemented.\n"
@@ -4024,7 +4036,7 @@ msgstr "调用尚未实现。\n"
 
 #: winerror.mc:471
 msgid "Semaphore timeout.\n"
-msgstr ""
+msgstr "信号超时。\n"
 
 #: winerror.mc:476
 msgid "Insufficient buffer.\n"
@@ -4032,15 +4044,15 @@ msgstr "缓冲区不足。\n"
 
 #: winerror.mc:481
 msgid "Invalid name.\n"
-msgstr "无效名字。\n"
+msgstr "无效的名称。\n"
 
 #: winerror.mc:486
 msgid "Invalid level.\n"
-msgstr ""
+msgstr "无效的级别。\n"
 
 #: winerror.mc:491
 msgid "No volume label.\n"
-msgstr ""
+msgstr "无卷标。\n"
 
 #: winerror.mc:496
 msgid "Module not found.\n"
@@ -4052,7 +4064,7 @@ msgstr "找不到过程。\n"
 
 #: winerror.mc:506
 msgid "No children to wait for.\n"
-msgstr ""
+msgstr "没有要等待的子进程。\n"
 
 #: winerror.mc:511
 msgid "Child process has not completed.\n"
