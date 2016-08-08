@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-08 12:29+0800\n"
+"PO-Revision-Date: 2016-08-08 17:52+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -3748,7 +3748,7 @@ msgstr "不是同一驱动器\n"
 
 #: winerror.mc:116
 msgid "No more files.\n"
-msgstr "没有更多文件。\n"
+msgstr "无更多文件。\n"
 
 #: winerror.mc:121
 msgid "Write protected.\n"
@@ -4395,7 +4395,7 @@ msgstr "扩展属性列表不匹配。\n"
 
 #: winerror.mc:901
 msgid "No more data available.\n"
-msgstr "没有更多可用数据。\n"
+msgstr "无更多可用数据。\n"
 
 #: winerror.mc:906
 msgid "Cannot use Copy API.\n"
@@ -5184,7 +5184,7 @@ msgstr "已初始化。\n"
 
 #: winerror.mc:1871
 msgid "No more local devices.\n"
-msgstr "没有更多本地设备。\n"
+msgstr "无更多本地设备。\n"
 
 #: winerror.mc:1876
 msgid "The site does not exist.\n"
@@ -5972,15 +5972,16 @@ msgstr "安装程序用户界面故障。\n"
 
 #: winerror.mc:2831
 msgid "Failed to open installation log file.\n"
-msgstr ""
+msgstr "无法打开安装日志文件。\n"
 
 #: winerror.mc:2836
 msgid "Installation language not supported.\n"
 msgstr "不被支持的安装语言。\n"
 
 #: winerror.mc:2841
+#, fuzzy
 msgid "Installation transform failed to apply.\n"
-msgstr ""
+msgstr "安装转换应用失败。\n"
 
 #: winerror.mc:2846
 msgid "Installation package rejected.\n"
@@ -5988,7 +5989,7 @@ msgstr "安装包被拒绝。\n"
 
 #: winerror.mc:2851
 msgid "Function could not be called.\n"
-msgstr ""
+msgstr "无法调用函数。\n"
 
 #: winerror.mc:2856
 msgid "Function failed.\n"
@@ -6000,11 +6001,11 @@ msgstr "表格无效。\n"
 
 #: winerror.mc:2866
 msgid "Data type mismatch.\n"
-msgstr ""
+msgstr "数据类型不匹配。\n"
 
 #: winerror.mc:2871 winerror.mc:3081
 msgid "Unsupported type.\n"
-msgstr ""
+msgstr "不支持的类型。\n"
 
 #: winerror.mc:2876
 msgid "Creation failed.\n"
@@ -6012,12 +6013,11 @@ msgstr "创建失败。\n"
 
 #: winerror.mc:2881
 msgid "Temporary directory not writable.\n"
-msgstr ""
+msgstr "临时文件目录不可写。\n"
 
 #: winerror.mc:2886
-#, fuzzy
 msgid "Installation platform not supported.\n"
-msgstr "不支持 OLE 储存文件。\n"
+msgstr "安装平台不支持。\n"
 
 #: winerror.mc:2891
 msgid "Installer not used.\n"
@@ -6025,7 +6025,7 @@ msgstr "未使用安装器。\n"
 
 #: winerror.mc:2896
 msgid "Failed to open the patch package.\n"
-msgstr ""
+msgstr "无法打开补丁包。\n"
 
 #: winerror.mc:2901
 msgid "Invalid patch package.\n"
@@ -6033,11 +6033,11 @@ msgstr "补丁包无效。\n"
 
 #: winerror.mc:2906
 msgid "Unsupported patch package.\n"
-msgstr ""
+msgstr "不支持的补丁包。\n"
 
 #: winerror.mc:2911
 msgid "Another version is installed.\n"
-msgstr ""
+msgstr "已安装另一版本。\n"
 
 #: winerror.mc:2916
 msgid "Invalid command line.\n"
@@ -6045,35 +6045,38 @@ msgstr "命令行无效。\n"
 
 #: winerror.mc:2921
 msgid "Remote installation not allowed.\n"
-msgstr ""
+msgstr "不允许远程安装。\n"
 
 #: winerror.mc:2926
+#, fuzzy
 msgid "Reboot initiated after successful install.\n"
-msgstr ""
+msgstr "已在成功安装后启动重启进程。\n"
 
 #: winerror.mc:2931
 msgid "Invalid string binding.\n"
-msgstr ""
+msgstr "无效的字符串绑定。\n"
 
 #: winerror.mc:2936
 msgid "Wrong kind of binding.\n"
-msgstr ""
+msgstr "绑定类型错误。\n"
 
 #: winerror.mc:2941
 msgid "Invalid binding.\n"
-msgstr ""
+msgstr "无效的绑定。\n"
 
 #: winerror.mc:2946
+#, fuzzy
 msgid "RPC protocol sequence not supported.\n"
-msgstr ""
+msgstr "不支持 RPC 协议序列。\n"
 
 #: winerror.mc:2951
+#, fuzzy
 msgid "Invalid RPC protocol sequence.\n"
-msgstr ""
+msgstr "无效的 RPC 协议序列。\n"
 
 #: winerror.mc:2956
 msgid "Invalid string UUID.\n"
-msgstr ""
+msgstr "无效的字符串 UUID。\n"
 
 #: winerror.mc:2961
 #, fuzzy
@@ -6082,16 +6085,16 @@ msgstr "数字格式无效。\n"
 
 #: winerror.mc:2966
 msgid "Invalid network address.\n"
-msgstr ""
+msgstr "无效的网络地址。\n"
 
 #: winerror.mc:2971
 #, fuzzy
 msgid "No endpoint found.\n"
-msgstr "找不到文件。\n"
+msgstr "找不到端点。\n"
 
 #: winerror.mc:2976
 msgid "Invalid timeout value.\n"
-msgstr ""
+msgstr "无效的超时值。\n"
 
 #: winerror.mc:2981
 msgid "Object UUID not found.\n"
@@ -6099,23 +6102,24 @@ msgstr "未找到对象 UUID。\n"
 
 #: winerror.mc:2986
 msgid "UUID already registered.\n"
-msgstr ""
+msgstr "UUID 已注册。\n"
 
 #: winerror.mc:2991
 msgid "UUID type already registered.\n"
-msgstr ""
+msgstr "UUID 类型已注册。\n"
 
 #: winerror.mc:2996
 msgid "Server already listening.\n"
-msgstr ""
+msgstr "服务器已在监听。\n"
 
 #: winerror.mc:3001
+#, fuzzy
 msgid "No protocol sequences registered.\n"
-msgstr ""
+msgstr "无已注册的 RPC 协议序列。\n"
 
 #: winerror.mc:3006
 msgid "RPC server not listening.\n"
-msgstr ""
+msgstr "RPC 服务器未在监听。\n"
 
 #: winerror.mc:3011
 msgid "Unknown manager type.\n"
@@ -6127,15 +6131,16 @@ msgstr "未知接口。\n"
 
 #: winerror.mc:3021
 msgid "No bindings.\n"
-msgstr ""
+msgstr "无绑定。\n"
 
 #: winerror.mc:3026
+#, fuzzy
 msgid "No protocol sequences.\n"
-msgstr ""
+msgstr "无协议序列。\n"
 
 #: winerror.mc:3031
 msgid "Can't create endpoint.\n"
-msgstr ""
+msgstr "无法创建端点。\n"
 
 #: winerror.mc:3036
 msgid "Out of resources.\n"
@@ -6143,11 +6148,11 @@ msgstr "资源不足。\n"
 
 #: winerror.mc:3041
 msgid "RPC server unavailable.\n"
-msgstr ""
+msgstr "RPC 服务器不可用。\n"
 
 #: winerror.mc:3046
 msgid "RPC server too busy.\n"
-msgstr ""
+msgstr "RPC 服务器太忙。\n"
 
 #: winerror.mc:3051
 msgid "Invalid network options.\n"
@@ -6155,35 +6160,35 @@ msgstr "网络选项无效。\n"
 
 #: winerror.mc:3056
 msgid "No RPC call active.\n"
-msgstr ""
+msgstr "无活动 RPC 调用。\n"
 
 #: winerror.mc:3061
 msgid "RPC call failed.\n"
-msgstr ""
+msgstr "RPC 调用失败。\n"
 
 #: winerror.mc:3066
 msgid "RPC call failed and didn't execute.\n"
-msgstr ""
+msgstr "RPC 调用失败且未执行。\n"
 
 #: winerror.mc:3071
 msgid "RPC protocol error.\n"
-msgstr ""
+msgstr "RPC 协议错误。\n"
 
 #: winerror.mc:3076
 msgid "Unsupported transfer syntax.\n"
-msgstr ""
+msgstr "不支持的传输语法。\n"
 
 #: winerror.mc:3086
 msgid "Invalid tag.\n"
-msgstr ""
+msgstr "无效的标签。\n"
 
 #: winerror.mc:3091
 msgid "Invalid array bounds.\n"
-msgstr ""
+msgstr "无效的数组边界。\n"
 
 #: winerror.mc:3096
 msgid "No entry name.\n"
-msgstr ""
+msgstr "无条目名称。\n"
 
 #: winerror.mc:3101
 msgid "Invalid name syntax.\n"
@@ -6191,75 +6196,79 @@ msgstr "名字语法无效。\n"
 
 #: winerror.mc:3106
 msgid "Unsupported name syntax.\n"
-msgstr ""
+msgstr "不支持的名称语法。\n"
 
 #: winerror.mc:3111
 msgid "No network address.\n"
 msgstr "没有网络地址。\n"
 
 #: winerror.mc:3116
+#, fuzzy
 msgid "Duplicate endpoint.\n"
-msgstr ""
+msgstr "重复的端点。\n"
 
 #: winerror.mc:3121
 msgid "Unknown authentication type.\n"
-msgstr ""
+msgstr "未知认证类型。\n"
 
 #: winerror.mc:3126
 msgid "Maximum calls too low.\n"
-msgstr ""
+msgstr "调用上限太低。\n"
 
 #: winerror.mc:3131
 msgid "String too long.\n"
-msgstr ""
+msgstr "字符串过长。\n"
 
 #: winerror.mc:3136
+#, fuzzy
 msgid "Protocol sequence not found.\n"
-msgstr ""
+msgstr "找不到协议序列。\n"
 
 #: winerror.mc:3141
+#, fuzzy
 msgid "Procedure number out of range.\n"
-msgstr ""
+msgstr "过程序号超出范围。\n"
 
 #: winerror.mc:3146
 msgid "Binding has no authentication data.\n"
-msgstr ""
+msgstr "绑定不带有认证数据。\n"
 
 #: winerror.mc:3151
 msgid "Unknown authentication service.\n"
-msgstr ""
+msgstr "未知认证服务。\n"
 
 #: winerror.mc:3156
 msgid "Unknown authentication level.\n"
-msgstr ""
+msgstr "未知认证级别。\n"
 
 #: winerror.mc:3161
 msgid "Invalid authentication identity.\n"
-msgstr ""
+msgstr "认证身份无效。\n"
 
 #: winerror.mc:3166
 msgid "Unknown authorization service.\n"
-msgstr ""
+msgstr "未知认证服务。\n"
 
 #: winerror.mc:3171
 msgid "Invalid entry.\n"
-msgstr ""
+msgstr "无效条目。\n"
 
 #: winerror.mc:3176
 msgid "Can't perform operation.\n"
-msgstr ""
+msgstr "无法执行操作。\n"
 
 #: winerror.mc:3181
 msgid "Endpoints not registered.\n"
 msgstr "终点尚未注册。\n"
 
 #: winerror.mc:3186
+#, fuzzy
 msgid "Nothing to export.\n"
-msgstr ""
+msgstr "没有要导出的项目。\n"
 
 #: winerror.mc:3191
 msgid "Incomplete name.\n"
-msgstr ""
+msgstr "不完整的名称。\n"
 
 #: winerror.mc:3196
 msgid "Invalid version option.\n"
@@ -6267,34 +6276,33 @@ msgstr "版本选项无效。\n"
 
 #: winerror.mc:3201
 msgid "No more members.\n"
-msgstr ""
+msgstr "无更多成员。\n"
 
 #: winerror.mc:3206
+#, fuzzy
 msgid "Not all objects unexported.\n"
-msgstr ""
+msgstr "有的对象已导出。\n"
 
 #: winerror.mc:3211
-#, fuzzy
 msgid "Interface not found.\n"
-msgstr "找不到文件。\n"
+msgstr "找不到接口。\n"
 
 #: winerror.mc:3216
-#, fuzzy
 msgid "Entry already exists.\n"
-msgstr "端口 %s 已经存在。\n"
+msgstr "条目已存在。\n"
 
 #: winerror.mc:3221
-#, fuzzy
 msgid "Entry not found.\n"
-msgstr "找不到文件。\n"
+msgstr "找不到条目。\n"
 
 #: winerror.mc:3226
 msgid "Name service unavailable.\n"
 msgstr "名字服务不可用。\n"
 
 #: winerror.mc:3231
+#, fuzzy
 msgid "Invalid network address family.\n"
-msgstr ""
+msgstr "无效的网络地址家族。\n"
 
 #: winerror.mc:3236
 msgid "Operation not supported.\n"
@@ -6302,43 +6310,45 @@ msgstr "不支持此操作。\n"
 
 #: winerror.mc:3241
 msgid "No security context available.\n"
-msgstr ""
+msgstr "无可用的安全上下文。\n"
 
 #: winerror.mc:3246
 msgid "RPCInternal error.\n"
-msgstr ""
+msgstr "RPC 内部错误。\n"
 
 #: winerror.mc:3251
+#, fuzzy
 msgid "RPC divide-by-zero.\n"
-msgstr ""
+msgstr "RPC 除零。\n"
 
 #: winerror.mc:3256
 msgid "Address error.\n"
-msgstr ""
+msgstr "地址错误。\n"
 
 #: winerror.mc:3261
 msgid "Floating-point divide-by-zero.\n"
-msgstr ""
+msgstr "浮点除零。\n"
 
 #: winerror.mc:3266
+#, fuzzy
 msgid "Floating-point underflow.\n"
-msgstr ""
+msgstr "浮点太小。\n"
 
 #: winerror.mc:3271
 msgid "Floating-point overflow.\n"
-msgstr ""
+msgstr "浮点溢出。\n"
 
 #: winerror.mc:3276
 msgid "No more entries.\n"
-msgstr ""
+msgstr "无更多条目。\n"
 
 #: winerror.mc:3281
 msgid "Character translation table open failed.\n"
-msgstr ""
+msgstr "无法打开字符翻译表。\n"
 
 #: winerror.mc:3286
 msgid "Character translation table file too small.\n"
-msgstr ""
+msgstr "字符翻译表太小。\n"
 
 #: winerror.mc:3291
 msgid "Null context handle.\n"
@@ -6346,15 +6356,15 @@ msgstr ""
 
 #: winerror.mc:3296
 msgid "Context handle damaged.\n"
-msgstr ""
+msgstr "上下文句柄损坏。\n"
 
 #: winerror.mc:3301
 msgid "Binding handle mismatch.\n"
-msgstr ""
+msgstr "绑定句柄不匹配。\n"
 
 #: winerror.mc:3306
 msgid "Cannot get call handle.\n"
-msgstr ""
+msgstr "无法获取调用句柄。\n"
 
 #: winerror.mc:3311
 msgid "Null reference pointer.\n"
@@ -6362,15 +6372,16 @@ msgstr ""
 
 #: winerror.mc:3316
 msgid "Enumeration value out of range.\n"
-msgstr ""
+msgstr "枚举值超出范围。\n"
 
 #: winerror.mc:3321
 msgid "Byte count too small.\n"
-msgstr ""
+msgstr "字节数太小。\n"
 
 #: winerror.mc:3326
+#, fuzzy
 msgid "Bad stub data.\n"
-msgstr ""
+msgstr "无效存根数据。\n"
 
 #: winerror.mc:3331
 msgid "Invalid user buffer.\n"
@@ -6378,47 +6389,51 @@ msgstr "用户缓冲区无效。\n"
 
 #: winerror.mc:3336
 msgid "Unrecognized media.\n"
-msgstr ""
+msgstr "无法识别的介质。\n"
 
 #: winerror.mc:3341
 msgid "No trust secret.\n"
-msgstr ""
+msgstr "无可信密文。\n"
 
 #: winerror.mc:3346
 msgid "No trust SAM account.\n"
-msgstr ""
+msgstr "无可信 SAM 帐号。\n"
 
 #: winerror.mc:3351
+#, fuzzy
 msgid "Trusted domain failure.\n"
-msgstr ""
+msgstr "可信域故障。\n"
 
 #: winerror.mc:3356
+#, fuzzy
 msgid "Trusted relationship failure.\n"
-msgstr ""
+msgstr "可信关系故障。\n"
 
 #: winerror.mc:3361
+#, fuzzy
 msgid "Trust logon failure.\n"
-msgstr ""
+msgstr "可信登录故障。\n"
 
 #: winerror.mc:3366
 msgid "RPC call already in progress.\n"
-msgstr ""
+msgstr "RPC 调用已在运行。\n"
 
 #: winerror.mc:3371
 msgid "NETLOGON is not started.\n"
-msgstr ""
+msgstr "未启动 NETLOGON。\n"
 
 #: winerror.mc:3376
 msgid "Account expired.\n"
-msgstr ""
+msgstr "帐户已过期。\n"
 
 #: winerror.mc:3381
+#, fuzzy
 msgid "Redirector has open handles.\n"
-msgstr ""
+msgstr "重定向器仍有打开的句柄。\n"
 
 #: winerror.mc:3386
 msgid "Printer driver already installed.\n"
-msgstr ""
+msgstr "打印机驱动已安装。\n"
 
 #: winerror.mc:3391
 msgid "Unknown port.\n"
@@ -6429,13 +6444,13 @@ msgid "Unknown printer driver.\n"
 msgstr "未知打印机驱动。\n"
 
 #: winerror.mc:3401
-#, fuzzy
 msgid "Unknown print processor.\n"
-msgstr "找不到打印机驱动程序。"
+msgstr "未知打印处理器。\n"
 
 #: winerror.mc:3406
+#, fuzzy
 msgid "Invalid separator file.\n"
-msgstr ""
+msgstr "无效的分隔文件。\n"
 
 #: winerror.mc:3411
 msgid "Invalid priority.\n"
@@ -6463,47 +6478,52 @@ msgstr "环境无效。\n"
 
 #: winerror.mc:3441
 msgid "No more bindings.\n"
-msgstr ""
+msgstr "无更多绑定。\n"
 
 #: winerror.mc:3446
+#, fuzzy
 msgid "Can't log on with inter-domain trust account.\n"
-msgstr ""
+msgstr "无法使用跨域可信帐号登录。\n"
 
 #: winerror.mc:3451
+#, fuzzy
 msgid "Can't log on with workstation trust account.\n"
-msgstr ""
+msgstr "无法使用工作站可信帐号登录。\n"
 
 #: winerror.mc:3456
+#, fuzzy
 msgid "Can't log on with server trust account.\n"
-msgstr ""
+msgstr "无法使用服务器可信帐号登录。\n"
 
 #: winerror.mc:3461
+#, fuzzy
 msgid "Domain trust information inconsistent.\n"
-msgstr ""
+msgstr "域信任信息不匹配。\n"
 
 #: winerror.mc:3466
+#, fuzzy
 msgid "Server has open handles.\n"
-msgstr ""
+msgstr "服务器有打开的句柄。\n"
 
 #: winerror.mc:3471
 msgid "Resource data not found.\n"
-msgstr ""
+msgstr "找不到资源数据。\n"
 
 #: winerror.mc:3476
 msgid "Resource type not found.\n"
-msgstr ""
+msgstr "找不到资源类型。\n"
 
 #: winerror.mc:3481
 msgid "Resource name not found.\n"
-msgstr ""
+msgstr "找不到资源名称。\n"
 
 #: winerror.mc:3486
 msgid "Resource language not found.\n"
-msgstr ""
+msgstr "找不到资源语言。\n"
 
 #: winerror.mc:3491
 msgid "Not enough quota.\n"
-msgstr ""
+msgstr "配额不足。\n"
 
 #: winerror.mc:3496
 msgid "No interfaces.\n"
@@ -6511,73 +6531,78 @@ msgstr "没有接口。\n"
 
 #: winerror.mc:3501
 msgid "RPC call canceled.\n"
-msgstr ""
+msgstr "已取消 RPC 调用。\n"
 
 #: winerror.mc:3506
-#, fuzzy
 msgid "Binding incomplete.\n"
-msgstr "打印功能尚未实现。\n"
+msgstr "绑定不完整。\n"
 
 #: winerror.mc:3511
+#, fuzzy
 msgid "RPC comm failure.\n"
-msgstr ""
+msgstr "RPC 通信故障。\n"
 
 #: winerror.mc:3516
 msgid "Unsupported authorization level.\n"
-msgstr ""
+msgstr "不支持的认证级别。\n"
 
 #: winerror.mc:3521
 msgid "No principal name registered.\n"
-msgstr ""
+msgstr "无已注册的主体名称。\n"
 
 #: winerror.mc:3526
 msgid "Not an RPC error.\n"
-msgstr ""
+msgstr "非 RPC 错误。\n"
 
 #: winerror.mc:3531
+#, fuzzy
 msgid "UUID is local only.\n"
-msgstr ""
+msgstr "UUID 仅用于本地。\n"
 
 #: winerror.mc:3536
+#, fuzzy
 msgid "Security package error.\n"
-msgstr ""
+msgstr "安全包错误。\n"
 
 #: winerror.mc:3541
-#, fuzzy
 msgid "Thread not canceled.\n"
-msgstr "找不到文件。\n"
+msgstr "未取消线程。\n"
 
 #: winerror.mc:3546
 msgid "Invalid handle operation.\n"
 msgstr "句柄操作无效。\n"
 
 #: winerror.mc:3551
+#, fuzzy
 msgid "Wrong serializing package version.\n"
-msgstr ""
+msgstr "序列化包版本错误。\n"
 
 #: winerror.mc:3556
+#, fuzzy
 msgid "Wrong stub version.\n"
-msgstr ""
+msgstr "存根版本错误。\n"
 
 #: winerror.mc:3561
 msgid "Invalid pipe object.\n"
-msgstr ""
+msgstr "无效的管道对象。\n"
 
 #: winerror.mc:3566
+#, fuzzy
 msgid "Wrong pipe order.\n"
-msgstr ""
+msgstr "管道顺序错误。\n"
 
 #: winerror.mc:3571
 msgid "Wrong pipe version.\n"
-msgstr ""
+msgstr "管道版本错误。\n"
 
 #: winerror.mc:3576
 msgid "Group member not found.\n"
 msgstr "无法找到该群组成员。\n"
 
 #: winerror.mc:3581
+#, fuzzy
 msgid "Can't create endpoint mapper DB.\n"
-msgstr ""
+msgstr "无法创建端点映射数据库。\n"
 
 #: winerror.mc:3586
 msgid "Invalid object.\n"
@@ -6585,7 +6610,7 @@ msgstr "对象无效。\n"
 
 #: winerror.mc:3591
 msgid "Invalid time.\n"
-msgstr ""
+msgstr "时间无效。\n"
 
 #: winerror.mc:3596
 msgid "Invalid form name.\n"
@@ -6597,7 +6622,7 @@ msgstr "窗体大小无效。\n"
 
 #: winerror.mc:3606
 msgid "Already awaiting printer handle.\n"
-msgstr ""
+msgstr "已在等待打印机句柄。\n"
 
 #: winerror.mc:3611
 msgid "Printer deleted.\n"
@@ -6609,33 +6634,33 @@ msgstr "打印机状态无效。\n"
 
 #: winerror.mc:3621
 msgid "User must change password.\n"
-msgstr ""
+msgstr "用户必须更改密码。\n"
 
 #: winerror.mc:3626
 msgid "Domain controller not found.\n"
 msgstr "找不到域控制器。\n"
 
 #: winerror.mc:3631
+#, fuzzy
 msgid "Account locked out.\n"
-msgstr ""
+msgstr "帐号已禁用。\n"
 
 #: winerror.mc:3636
-#, fuzzy
 msgid "Invalid pixel format.\n"
-msgstr "数字格式无效。\n"
+msgstr "像素格式无效。\n"
 
 #: winerror.mc:3641
 msgid "Invalid driver.\n"
-msgstr ""
+msgstr "驱动无效。\n"
 
 #: winerror.mc:3646
 #, fuzzy
 msgid "Invalid object resolver set.\n"
-msgstr "数字格式无效。\n"
+msgstr "对象解析器集无效。\n"
 
 #: winerror.mc:3651
 msgid "Incomplete RPC send.\n"
-msgstr ""
+msgstr "RPC 发送不完整。\n"
 
 #: winerror.mc:3656
 msgid "Invalid asynchronous RPC handle.\n"
@@ -6643,19 +6668,20 @@ msgstr "异步 RPC 句柄无效。\n"
 
 #: winerror.mc:3661
 msgid "Invalid asynchronous RPC call.\n"
-msgstr ""
+msgstr "异步 RPC 调用无效。\n"
 
 #: winerror.mc:3666
 msgid "RPC pipe closed.\n"
-msgstr ""
+msgstr "RPC 管道已关闭。\n"
 
 #: winerror.mc:3671
+#, fuzzy
 msgid "Discipline error on RPC pipe.\n"
-msgstr ""
+msgstr "RPC 管道中出现规则性错误。\n"
 
 #: winerror.mc:3676
 msgid "No data on RPC pipe.\n"
-msgstr ""
+msgstr "RPC 管道中没有数据。\n"
 
 #: winerror.mc:3681
 msgid "No site name available.\n"
@@ -6663,7 +6689,7 @@ msgstr "没有可用的站点名。\n"
 
 #: winerror.mc:3686
 msgid "The file cannot be accessed.\n"
-msgstr ""
+msgstr "无法访问此文件。\n"
 
 #: winerror.mc:3691
 msgid "The filename cannot be resolved.\n"
@@ -6671,11 +6697,11 @@ msgstr "不能解析文件名。\n"
 
 #: winerror.mc:3696
 msgid "RPC entry type mismatch.\n"
-msgstr ""
+msgstr "RPC 条目类型不匹配。\n"
 
 #: winerror.mc:3701
 msgid "Not all objects could be exported.\n"
-msgstr ""
+msgstr "无法导出所有对象。\n"
 
 #: winerror.mc:3706
 msgid "The interface could not be exported.\n"
@@ -6706,9 +6732,8 @@ msgid "The username could not be found.\n"
 msgstr "找不到用户名。\n"
 
 #: winerror.mc:3741
-#, fuzzy
 msgid "This network connection does not exist.\n"
-msgstr "站点不存在。\n"
+msgstr "网络连接不存在。\n"
 
 #: winerror.mc:3746
 msgid "Connection reset by peer.\n"
@@ -6756,7 +6781,7 @@ msgstr "这个端口没有可设置选项"
 
 #: mapi32.rc:31
 msgid "Mail sending failed as you do not have a MAPI mail client installed."
-msgstr ""
+msgstr "因为您未安装 MAPI 邮件客户端，邮件发送失败。"
 
 #: mapi32.rc:32
 msgid "Send Mail"
@@ -6828,7 +6853,7 @@ msgstr "HTML 文件"
 
 #: mshtml.rc:29
 msgid "Downloading from %s..."
-msgstr ""
+msgstr "正在从 %s 下载…"
 
 #: mshtml.rc:28
 msgid "Done"
@@ -6849,6 +6874,7 @@ msgid "insert disk %s"
 msgstr "插入软盘 %s"
 
 #: msi.rc:33
+#, fuzzy
 msgid ""
 "Windows Installer %s\n"
 "\n"
@@ -6880,6 +6906,35 @@ msgid ""
 "\t/help\n"
 "\t/?\n"
 msgstr ""
+"Windows Installer %s\n"
+"\n"
+"用法：\n"
+"msiexec 命令 {必要参数} [可选参数]\n"
+"\n"
+"安装产品：\n"
+"\t/i {安装包|产品序列号} [属性]\n"
+"\t/package {安装包|产品序列号} [属性]\n"
+"\t/a package [属性]\n"
+"修复安装：\n"
+"\t/f[p|o|e|d|c|a|u|m|s|v] {产品|序列号}\n"
+"卸载产品：\n"
+"\t/uninstall {产品|序列号} [属性]\n"
+"\t/x {产品|序列号} [属性]\n"
+"宣传产品：\n"
+"\t/j[u|m] package [/t 变形] [/g 语言代号]\n"
+"应用补丁\n"
+"\t/p 补丁包 [属性]\n"
+"\t/p 补丁包 /a 安装包 [属性]\n"
+"以上命令的日志和用户界面修饰：\n"
+"\t/l[*][i|w|e|a|r|u|c|m|o|p|v|][+|!] 日志文件\n"
+"\t/q{|n|b|r|f|n+|b+|b-}\n"
+"注册 MSI 服务：\n"
+"\t/y\n"
+"取消注册 MSI 服务：\n"
+"\t/z\n"
+"显示此帮助信息：\n"
+"\t/help\n"
+"\t/?\n"
 
 #: msi.rc:60
 msgid "enter which folder contains %s"
@@ -6903,13 +6958,15 @@ msgstr "选择包含 %s 的文件夹"
 
 #: msrle32.rc:31
 msgid "Wine MS-RLE video codec"
-msgstr ""
+msgstr "Wine MS-RLE 视频编解码器"
 
 #: msrle32.rc:32
 msgid ""
 "Wine MS-RLE video codec\n"
 "Copyright 2002 by Michael Guennewig"
 msgstr ""
+"Wine MS-RLE 视频编解码器\n"
+"Copyright 2002 由 Michael Guennewig 创作"
 
 #: msvfw32.rc:33
 msgid "Video Compression"
