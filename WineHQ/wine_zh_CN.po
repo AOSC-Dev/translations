@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-08 17:52+0800\n"
+"PO-Revision-Date: 2016-08-08 18:26+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
@@ -7006,11 +7006,11 @@ msgstr "全帧(未压缩)"
 
 #: msvidc32.rc:29
 msgid "Wine Video 1 video codec"
-msgstr ""
+msgstr "Wine Video 1 视频编解码器"
 
 #: oleacc.rc:31
 msgid "unknown object"
-msgstr ""
+msgstr "未知对象"
 
 #: oleacc.rc:32
 msgid "title bar"
@@ -7018,31 +7018,32 @@ msgstr "标题栏"
 
 #: oleacc.rc:33
 msgid "menu bar"
-msgstr ""
+msgstr "菜单栏"
 
 #: oleacc.rc:34
 msgid "scroll bar"
 msgstr "滚动条"
 
 #: oleacc.rc:35
+#, fuzzy
 msgid "grip"
-msgstr ""
+msgstr "滚动滑块"
 
 #: oleacc.rc:36
 msgid "sound"
-msgstr ""
+msgstr "声音"
 
 #: oleacc.rc:37
 msgid "cursor"
-msgstr ""
+msgstr "光标"
 
 #: oleacc.rc:38
 msgid "caret"
-msgstr ""
+msgstr "插入符"
 
 #: oleacc.rc:39
 msgid "alert"
-msgstr ""
+msgstr "警告"
 
 #: oleacc.rc:40
 msgid "window"
@@ -7050,19 +7051,19 @@ msgstr "窗口"
 
 #: oleacc.rc:41
 msgid "client"
-msgstr ""
+msgstr "客户端"
 
 #: oleacc.rc:42
 msgid "popup menu"
-msgstr ""
+msgstr "弹出菜单"
 
 #: oleacc.rc:43
 msgid "menu item"
-msgstr ""
+msgstr "菜单项"
 
 #: oleacc.rc:44
 msgid "tool tip"
-msgstr ""
+msgstr "工具提示"
 
 #: oleacc.rc:45
 msgid "application"
@@ -7074,23 +7075,23 @@ msgstr "文档"
 
 #: oleacc.rc:47
 msgid "pane"
-msgstr ""
+msgstr "面板"
 
 #: oleacc.rc:48
 msgid "chart"
-msgstr ""
+msgstr "图表"
 
 #: oleacc.rc:49
 msgid "dialog"
-msgstr ""
+msgstr "对话框"
 
 #: oleacc.rc:50
 msgid "border"
-msgstr ""
+msgstr "边框"
 
 #: oleacc.rc:51
 msgid "grouping"
-msgstr ""
+msgstr "分组"
 
 #: oleacc.rc:52
 msgid "separator"
@@ -7098,7 +7099,7 @@ msgstr "分隔符"
 
 #: oleacc.rc:53
 msgid "tool bar"
-msgstr ""
+msgstr "工具栏"
 
 #: oleacc.rc:54
 msgid "status bar"
@@ -7110,11 +7111,11 @@ msgstr "表格"
 
 #: oleacc.rc:56
 msgid "column header"
-msgstr ""
+msgstr "列头"
 
 #: oleacc.rc:57
 msgid "row header"
-msgstr ""
+msgstr "行头"
 
 #: oleacc.rc:58
 msgid "column"
@@ -7122,19 +7123,20 @@ msgstr "列"
 
 #: oleacc.rc:59
 msgid "row"
-msgstr ""
+msgstr "行"
 
 #: oleacc.rc:60
 msgid "cell"
-msgstr ""
+msgstr "格"
 
 #: oleacc.rc:61
 msgid "link"
-msgstr ""
+msgstr "链接"
 
 #: oleacc.rc:62
+#, fuzzy
 msgid "help balloon"
-msgstr ""
+msgstr "帮助气球"
 
 #: oleacc.rc:63
 msgid "character"
@@ -7146,32 +7148,32 @@ msgstr "列表"
 
 #: oleacc.rc:65
 msgid "list item"
-msgstr ""
+msgstr "列表项"
 
 #: oleacc.rc:66
 msgid "outline"
-msgstr ""
+msgstr "大纲"
 
 #: oleacc.rc:67
 msgid "outline item"
-msgstr ""
+msgstr "大纲项"
 
 #: oleacc.rc:68
+#, fuzzy
 msgid "page tab"
-msgstr ""
+msgstr "页标签"
 
 #: oleacc.rc:69
-#, fuzzy
 msgid "property page"
-msgstr "下一页"
+msgstr "属性页"
 
 #: oleacc.rc:70
 msgid "indicator"
-msgstr ""
+msgstr "指示器"
 
 #: oleacc.rc:71
 msgid "graphic"
-msgstr ""
+msgstr "图像"
 
 #: oleacc.rc:72
 msgid "static text"
@@ -7183,47 +7185,49 @@ msgstr "文本"
 
 #: oleacc.rc:74
 msgid "push button"
-msgstr ""
+msgstr "按钮"
 
 #: oleacc.rc:75
 msgid "check button"
-msgstr ""
+msgstr "按钮"
 
 #: oleacc.rc:76
 msgid "radio button"
-msgstr ""
+msgstr "单选按钮"
 
 #: oleacc.rc:77
 msgid "combo box"
-msgstr ""
+msgstr "组合框"
 
 #: oleacc.rc:78
 msgid "drop down"
-msgstr ""
+msgstr "下拉菜单"
 
 #: oleacc.rc:79
 msgid "progress bar"
-msgstr ""
+msgstr "进度条"
 
 #: oleacc.rc:80
 msgid "dial"
-msgstr ""
+msgstr "表盘"
 
 #: oleacc.rc:81
+#, fuzzy
 msgid "hot key field"
-msgstr ""
+msgstr "热键输入框"
 
 #: oleacc.rc:82
 msgid "slider"
-msgstr ""
+msgstr "滚动滑块"
 
 #: oleacc.rc:83
+#, fuzzy
 msgid "spin box"
-msgstr ""
+msgstr "数字调整框"
 
 #: oleacc.rc:84
 msgid "diagram"
-msgstr ""
+msgstr "图表"
 
 #: oleacc.rc:85
 msgid "animation"
@@ -7231,43 +7235,47 @@ msgstr "动画"
 
 #: oleacc.rc:86
 msgid "equation"
-msgstr ""
+msgstr "等式"
 
 #: oleacc.rc:87
 msgid "drop down button"
-msgstr ""
+msgstr "下拉按钮"
 
 #: oleacc.rc:88
 msgid "menu button"
-msgstr ""
+msgstr "菜单按钮"
 
 #: oleacc.rc:89
+#, fuzzy
 msgid "grid drop down button"
-msgstr ""
+msgstr "格下拉按钮"
 
 #: oleacc.rc:90
 msgid "white space"
-msgstr ""
+msgstr "空白"
 
 #: oleacc.rc:91
+#, fuzzy
 msgid "page tab list"
-msgstr ""
+msgstr "页标签列表"
 
 #: oleacc.rc:92
 msgid "clock"
 msgstr "时钟"
 
 #: oleacc.rc:93
+#, fuzzy
 msgid "split button"
-msgstr ""
+msgstr "分割按钮"
 
 #: oleacc.rc:94
 msgid "IP address"
-msgstr ""
+msgstr "IP 地址"
 
 #: oleacc.rc:95
+#, fuzzy
 msgid "outline button"
-msgstr ""
+msgstr "边框按钮"
 
 #: oleacc.rc:97
 msgctxt "object state"
@@ -7297,12 +7305,12 @@ msgstr "已按下"
 #: oleacc.rc:102
 msgctxt "object state"
 msgid "checked"
-msgstr ""
+msgstr "已选中"
 
 #: oleacc.rc:103
 msgctxt "object state"
 msgid "mixed"
-msgstr ""
+msgstr "混合"
 
 #: oleacc.rc:104
 msgctxt "object state"
@@ -7322,23 +7330,22 @@ msgstr "默认"
 #: oleacc.rc:107
 msgctxt "object state"
 msgid "expanded"
-msgstr ""
+msgstr "已展开"
 
 #: oleacc.rc:108
 msgctxt "object state"
 msgid "collapsed"
-msgstr ""
+msgstr "已收起"
 
 #: oleacc.rc:109
-#, fuzzy
 msgctxt "object state"
 msgid "busy"
-msgstr "busy"
+msgstr "忙"
 
 #: oleacc.rc:110
 msgctxt "object state"
 msgid "floating"
-msgstr ""
+msgstr "浮动"
 
 #: oleacc.rc:111
 msgctxt "object state"
@@ -7353,24 +7360,22 @@ msgstr "有动画"
 #: oleacc.rc:113
 msgctxt "object state"
 msgid "invisible"
-msgstr ""
+msgstr "不可见"
 
 #: oleacc.rc:114
 msgctxt "object state"
 msgid "offscreen"
-msgstr ""
+msgstr "屏幕外"
 
 #: oleacc.rc:115
-#, fuzzy
 msgctxt "object state"
 msgid "sizeable"
-msgstr "启用(&E)"
+msgstr "可变大小"
 
 #: oleacc.rc:116
-#, fuzzy
 msgctxt "object state"
 msgid "moveable"
-msgstr "启用(&E)"
+msgstr "可移动"
 
 #: oleacc.rc:117
 msgctxt "object state"
@@ -7378,21 +7383,19 @@ msgid "self voicing"
 msgstr ""
 
 #: oleacc.rc:118
-#, fuzzy
 msgctxt "object state"
 msgid "focusable"
-msgstr "已暂停"
+msgstr "可聚焦"
 
 #: oleacc.rc:119
-#, fuzzy
 msgctxt "object state"
 msgid "selectable"
-msgstr "表格"
+msgstr "可选中"
 
 #: oleacc.rc:120
 msgctxt "object state"
 msgid "linked"
-msgstr ""
+msgstr "已链接"
 
 #: oleacc.rc:121
 msgctxt "object state"
@@ -7400,33 +7403,33 @@ msgid "traversed"
 msgstr ""
 
 #: oleacc.rc:122
-#, fuzzy
 msgctxt "object state"
 msgid "multi selectable"
-msgstr "表格"
+msgstr "可多选"
 
 #: oleacc.rc:123
 #, fuzzy
 msgctxt "object state"
 msgid "extended selectable"
-msgstr "表格"
+msgstr "扩展可选中"
 
 #: oleacc.rc:124
 #, fuzzy
 msgctxt "object state"
 msgid "alert low"
-msgstr "墨量低; "
+msgstr "低警告"
 
 #: oleacc.rc:125
+#, fuzzy
 msgctxt "object state"
 msgid "alert medium"
-msgstr ""
+msgstr "中警告"
 
 #: oleacc.rc:126
 #, fuzzy
 msgctxt "object state"
 msgid "alert high"
-msgstr "墨量低; "
+msgstr "高警告"
 
 #: oleacc.rc:127
 msgctxt "object state"
@@ -7434,9 +7437,10 @@ msgid "protected"
 msgstr "受保护"
 
 #: oleacc.rc:128
+#, fuzzy
 msgctxt "object state"
 msgid "has popup"
-msgstr ""
+msgstr "有弹出项"
 
 #: oleaut32.rc:30 oleview.rc:147
 msgid "True"
@@ -7549,18 +7553,16 @@ msgid "Add Control"
 msgstr "添加控件"
 
 #: oledlg.rc:35
-#, fuzzy
 msgid "&Convert..."
-msgstr "字体(&F)…"
+msgstr "转换(&C)…"
 
 #: oledlg.rc:36
-#, fuzzy
 msgid "%1 %2 &Object"
-msgstr "对象(&O)"
+msgstr "%1 %2 对象(&O)"
 
 #: oledlg.rc:34
 msgid "%1 &Object"
-msgstr ""
+msgstr "%1 对象(&O)"
 
 #: oledlg.rc:33 oleview.rc:40
 msgid "&Object"
@@ -7669,7 +7671,7 @@ msgstr "速度"
 
 #: serialui.rc:33
 msgid "Parity"
-msgstr ""
+msgstr "奇偶性"
 
 #: serialui.rc:35
 msgid "Flow Control"
@@ -7699,15 +7701,15 @@ msgstr "需要文件"
 msgid ""
 "Insert the manufacturer's installation disk, and then\n"
 "make sure the correct drive is selected below"
-msgstr ""
+msgstr "插入厂商的安装磁盘，然后确定下面选择了正确的驱动器。"
 
 #: setupapi.rc:57
 msgid "Copy manufacturer's files from:"
-msgstr ""
+msgstr "从此处复制厂商文件："
 
 #: setupapi.rc:31
 msgid "The file '%1' on %2 is needed"
-msgstr ""
+msgstr "需要 %2 上的文件“%1”"
 
 #: setupapi.rc:32 ipconfig.rc:34
 msgid "Unknown"
@@ -7715,11 +7717,11 @@ msgstr "未知"
 
 #: setupapi.rc:33
 msgid "Copy files from:"
-msgstr ""
+msgstr "从此处复制："
 
 #: setupapi.rc:34
 msgid "Type the path where the file is located, and then click OK."
-msgstr ""
+msgstr "输入文件所在的路径，然后按确定。"
 
 #: shdoclc.rc:42
 msgid "F&orward"
@@ -8059,7 +8061,7 @@ msgstr "还原(&R)"
 
 #: shell32.rc:86
 msgid "&Erase"
-msgstr ""
+msgstr "擦除(&E)"
 
 #: shell32.rc:98
 msgid "E&xplore"
@@ -8232,19 +8234,19 @@ msgstr "收藏夹"
 
 #: shell32.rc:206
 msgid "StartUp"
-msgstr ""
+msgstr "启动"
 
 #: shell32.rc:207
 msgid "Start Menu"
-msgstr ""
+msgstr "开始菜单"
 
 #: shell32.rc:208
 msgid "My Music"
-msgstr ""
+msgstr "我的音乐"
 
 #: shell32.rc:209
 msgid "My Videos"
-msgstr ""
+msgstr "我的视频"
 
 #: shell32.rc:210
 msgctxt "directory"
@@ -8253,15 +8255,16 @@ msgstr "桌面"
 
 #: shell32.rc:211
 msgid "NetHood"
-msgstr ""
+msgstr "网上邻居"
 
 #: shell32.rc:212
 msgid "Templates"
 msgstr "模板"
 
 #: shell32.rc:213
+#, fuzzy
 msgid "PrintHood"
-msgstr ""
+msgstr "附近的打印机"
 
 #: shell32.rc:214 winhlp32.rc:49
 msgid "History"
@@ -8270,11 +8273,11 @@ msgstr "历史"
 # 这也能翻译……
 #: shell32.rc:215
 msgid "Program Files"
-msgstr "Program Files"
+msgstr "程序文件"
 
 #: shell32.rc:217
 msgid "My Pictures"
-msgstr ""
+msgstr "我的图片"
 
 #: shell32.rc:218
 msgid "Common Files"
@@ -8286,7 +8289,7 @@ msgstr "文档"
 
 #: shell32.rc:220
 msgid "Administrative Tools"
-msgstr ""
+msgstr "管理人员工具"
 
 #: shell32.rc:221
 msgid "Music"
@@ -8302,7 +8305,7 @@ msgstr "视频"
 
 #: shell32.rc:216
 msgid "Program Files (x86)"
-msgstr "Program Files (x86)"
+msgstr "程序文件 (x86)"
 
 #: shell32.rc:224
 msgid "Contacts"
@@ -8314,7 +8317,7 @@ msgstr "链接"
 
 #: shell32.rc:226
 msgid "Slide Shows"
-msgstr ""
+msgstr "幻灯片"
 
 #: shell32.rc:227
 msgid "Playlists"
@@ -8334,23 +8337,23 @@ msgstr "型号"
 
 #: shell32.rc:228
 msgid "Sample Music"
-msgstr ""
+msgstr "示例音乐"
 
 #: shell32.rc:229
 msgid "Sample Pictures"
-msgstr ""
+msgstr "示例图片"
 
 #: shell32.rc:230
 msgid "Sample Playlists"
-msgstr ""
+msgstr "示例播放列表"
 
 #: shell32.rc:231
 msgid "Sample Videos"
-msgstr ""
+msgstr "示例视频"
 
 #: shell32.rc:232
 msgid "Saved Games"
-msgstr ""
+msgstr "已保存的游戏"
 
 #: shell32.rc:233
 msgid "Searches"
@@ -8511,6 +8514,15 @@ msgid ""
 "along with Wine; if not, write to the Free Software Foundation, Inc., 51 "
 "Franklin St, Fifth Floor, Boston, MA 02110-1301, USA."
 msgstr ""
+"Wine 是自由软件；您可以在遵守自由软件基金会发布的 GNU 宽通用公共许可证第 2.1 "
+"版或（在您自愿的前提下）任意更新版本的前提下对其进行修改和/或重新分发。\n"
+"\n"
+"Wine 是在作者认为其有用的情况下分发的，但不包含任何担保；甚至不包含对其商业价"
+"值或特定需求的适用性所暗示的担保。更多详情请参见 GNU 宽通用公共许可证。\n"
+"\n"
+"您应该已经随 Wine 获得一份 GNU 宽通用公共许可证；如果没有，请发信函至 Free "
+"Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA "
+"02110-1301, USA."
 
 #: shell32.rc:256
 msgid "Wine License"
@@ -8568,6 +8580,8 @@ msgid ""
 "When installed, an ActiveX component has full access to your computer. Do "
 "not click install unless you have absolute trust in the above source."
 msgstr ""
+"安装后，ActiveX 组件对您的计算机有完全访问权。除非您确实信任上述来源，请不要"
+"按安装。"
 
 #: urlmon.rc:51
 msgid "Installation of component failed: %08x"
@@ -8616,7 +8630,7 @@ msgstr "关闭(&N)\tCtrl+F4"
 
 #: user32.rc:51
 msgid "Nex&t\tCtrl+F6"
-msgstr ""
+msgstr "下一步(&T)\tCtrl+F6"
 
 #: user32.rc:81
 msgid "&Abort"
@@ -8652,43 +8666,43 @@ msgstr "Wine"
 
 #: winemac.rc:33
 msgid "Hide %@"
-msgstr ""
+msgstr "隐藏 %@"
 
 #: winemac.rc:35
 msgid "Hide Others"
-msgstr ""
+msgstr "隐藏其他"
 
 #: winemac.rc:36
 msgid "Show All"
-msgstr ""
+msgstr "显示全部"
 
 #: winemac.rc:37
 msgid "Quit %@"
-msgstr ""
+msgstr "退出 %@"
 
 #: winemac.rc:38
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: winemac.rc:40
 msgid "Window"
-msgstr ""
+msgstr "窗口"
 
 #: winemac.rc:41
 msgid "Minimize"
-msgstr ""
+msgstr "最小化"
 
 #: winemac.rc:42
 msgid "Zoom"
-msgstr ""
+msgstr "缩放"
 
 #: winemac.rc:43
 msgid "Enter Full Screen"
-msgstr ""
+msgstr "进入全屏"
 
 #: winemac.rc:44
 msgid "Bring All to Front"
-msgstr ""
+msgstr "全部切换到前台"
 
 #: wineps.rc:31
 msgid "Paper Si&ze:"
@@ -8704,11 +8718,11 @@ msgstr "设置"
 
 #: wininet.rc:42 wininet.rc:62
 msgid "Realm"
-msgstr "Realm"
+msgstr "领域"
 
 #: wininet.rc:57
 msgid "Authentication Required"
-msgstr ""
+msgstr "需要认证"
 
 #: wininet.rc:61
 msgid "Server"
@@ -8716,7 +8730,7 @@ msgstr "服务器"
 
 #: wininet.rc:80
 msgid "There is a problem with the certificate for this site."
-msgstr ""
+msgstr "此站点的证书有问题。"
 
 #: wininet.rc:82
 msgid "Do you want to continue anyway?"
@@ -8728,28 +8742,28 @@ msgstr "局域网连接"
 
 #: wininet.rc:29
 msgid "The certificate is issued by an unknown or untrusted publisher."
-msgstr ""
+msgstr "证书由未知或不受信任的发行商颁发。"
 
 #: wininet.rc:30
 msgid "The date on the certificate is invalid."
-msgstr ""
+msgstr "证书上的日期无效。"
 
 #: wininet.rc:31
 msgid "The name on the certificate does not match the site."
-msgstr ""
+msgstr "证书上的名称与站点不匹配。"
 
 #: wininet.rc:32
 msgid ""
 "There is at least one unspecified security problem with this certificate."
-msgstr ""
+msgstr "证书至少带有一个不明安全问题。"
 
 #: winmm.rc:32
 msgid "The specified command was carried out."
-msgstr ""
+msgstr "已执行指定的命令。"
 
 #: winmm.rc:33
 msgid "Undefined external error."
-msgstr ""
+msgstr "未定义的外部错误。"
 
 #: winmm.rc:34
 msgid "A device ID has been used that is out of range for your system."
