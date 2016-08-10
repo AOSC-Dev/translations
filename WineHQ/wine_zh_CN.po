@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-10 12:23+0800\n"
-"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2016-08-10 20:03+0800\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -8743,9 +8743,8 @@ msgid "Undefined external error."
 msgstr "未定义的外部错误。"
 
 #: winmm.rc:34
-#, fuzzy
 msgid "A device ID has been used that is out of range for your system."
-msgstr "一个正在使用的设备 ID 超出了你的系统的范围。"
+msgstr "一个正在使用的设备 ID 超出了您系统的范围。"
 
 #: winmm.rc:35
 msgid "The driver was not enabled."
@@ -8755,7 +8754,7 @@ msgstr "驱动程序没有启用。"
 msgid ""
 "The specified device is already in use. Wait until it is free, and then try "
 "again."
-msgstr ""
+msgstr "指定的设备正被占用。请在设备完成占用后重试。"
 
 #: winmm.rc:37
 msgid "The specified device handle is invalid."
@@ -8777,11 +8776,11 @@ msgstr ""
 msgid ""
 "This function is not supported. Use the Capabilities function to determine "
 "which functions and messages the driver supports."
-msgstr ""
+msgstr "不支持该函数。使用 Capabilities 函数以确定驱动支持的函数和消息。"
 
 #: winmm.rc:41
 msgid "An error number was specified that is not defined in the system."
-msgstr ""
+msgstr "指定的错误号码未在系统中定义。"
 
 #: winmm.rc:42
 msgid "An invalid flag was passed to a system function."
@@ -8789,37 +8788,40 @@ msgstr "一个无效的标识被传递到了系统函数。"
 
 #: winmm.rc:43
 msgid "An invalid parameter was passed to a system function."
-msgstr ""
+msgstr "传递到系统函数的参数无效。"
 
 #: winmm.rc:46
 msgid ""
 "The specified format is not supported or cannot be translated. Use the "
 "Capabilities function to determine the supported formats."
-msgstr ""
+msgstr "指定的格式不被支持或无法翻译。使用 Capabilities 函数以确定支持的格式。"
 
 #: winmm.rc:47 winmm.rc:53
 msgid ""
 "Cannot perform this operation while media data is still playing. Reset the "
 "device, or wait until the data is finished playing."
-msgstr ""
+msgstr "无法在媒体数据仍在播放时进行此操作。重置设备或等待数据完成播放。"
 
 #: winmm.rc:48
+#, fuzzy
 msgid ""
 "The wave header was not prepared. Use the Prepare function to prepare the "
 "header, and then try again."
-msgstr ""
+msgstr "波形头未准备好。使用 Prepare 函数以准备头，然后重试。"
 
 #: winmm.rc:49
+#, fuzzy
 msgid ""
 "Cannot open the device without using the WAVE_ALLOWSYNC flag. Use the flag, "
 "and then try again."
-msgstr ""
+msgstr "不使用 WAVE_ALLOWSYNC 旗标时无法打开设备。请使用此旗标，然后重试。"
 
 #: winmm.rc:52
+#, fuzzy
 msgid ""
 "The MIDI header was not prepared. Use the Prepare function to prepare the "
 "header, and then try again."
-msgstr ""
+msgstr "MIDI 头未准备好。使用 Prepare 函数以准备头，然后重试。"
 
 #: winmm.rc:54
 msgid ""
@@ -8855,7 +8857,7 @@ msgstr "MCI 设备 ID 无效。请使用打开 MCI 设备时所返回的 ID。"
 
 #: winmm.rc:61
 msgid "The driver cannot recognize the specified command parameter."
-msgstr ""
+msgstr "驱动程序无法识别指定的命令参数。"
 
 #: winmm.rc:62
 msgid "The driver cannot recognize the specified command."
@@ -8865,7 +8867,7 @@ msgstr "驱动程序无法识别指定的命令。"
 msgid ""
 "There is a problem with your media device. Make sure it is working correctly "
 "or contact the device manufacturer."
-msgstr ""
+msgstr "您的媒体设备存在问题。请确定媒体设备正常工作或联系设备生产商。"
 
 #: winmm.rc:64
 msgid "The specified device is not open or is not recognized by MCI."
@@ -8875,12 +8877,13 @@ msgstr "指定的设备没有打开或者不能被 MCI 识别。"
 msgid ""
 "The device name is already being used as an alias by this application. Use a "
 "unique alias."
-msgstr ""
+msgstr "设备名已被此应用程序用作别名。需使用唯一别名。"
 
 #: winmm.rc:67
+#, fuzzy
 msgid ""
 "There is an undetectable problem in loading the specified device driver."
-msgstr ""
+msgstr "载入指定设备驱动时存在无法探测的问题。"
 
 #: winmm.rc:68
 msgid "No command was specified."
@@ -8890,13 +8893,14 @@ msgstr "没有指定任何命令。"
 msgid ""
 "The output string was too large to fit in the return buffer. Increase the "
 "size of the buffer."
-msgstr ""
+msgstr "输出字符串太大，无法放入返回缓冲区。需增大缓冲区大小。"
 
 #: winmm.rc:70
+#, fuzzy
 msgid ""
 "The specified command requires a character-string parameter. Please provide "
 "one."
-msgstr ""
+msgstr "指定的命令需要字符串参数。请提供一个参数。"
 
 #: winmm.rc:71
 msgid "The specified integer is invalid for this command."
@@ -8943,91 +8947,97 @@ msgstr "设备驱动程序出现了问题。该驱动程序已经关闭。无法
 
 #: winmm.rc:80
 msgid "Cannot use 'all' as the device name with the specified command."
-msgstr ""
+msgstr "指定的命令无法使用“all”作为设备名称。"
 
 #: winmm.rc:81
+#, fuzzy
 msgid ""
 "Errors occurred in more than one device. Specify each command and device "
 "separately to determine which devices caused the error."
-msgstr ""
+msgstr "在多个设备中出现错误。单独指定每个命令和设备以确定造成错误的设备。"
 
 #: winmm.rc:82
 msgid "Cannot determine the device type from the given filename extension."
-msgstr ""
+msgstr "无法根据文件名扩展名确定设备类型。"
 
 #: winmm.rc:83
+#, fuzzy
 msgid "The specified parameter is out of range for the specified command."
-msgstr ""
+msgstr "指定的参数超出指定命令的范围。"
 
 #: winmm.rc:84
 msgid "The specified parameters cannot be used together."
-msgstr ""
+msgstr "不能同时使用指定的参数。"
 
 #: winmm.rc:85
+#, fuzzy
 msgid ""
 "Cannot save the specified file. Make sure you have enough disk space or are "
 "still connected to the network."
-msgstr ""
+msgstr "无法保存指定的文件。请确定您有足够的磁盘空间或仍连接在网络上。"
 
 #: winmm.rc:86
+#, fuzzy
 msgid ""
 "Cannot find the specified device. Make sure it is installed and that the "
 "device name is spelled correctly."
-msgstr ""
+msgstr "找不到指定的设备。请确定设备已安装且设备名拼写正确。"
 
 #: winmm.rc:87
 msgid ""
 "The specified device is now being closed. Wait a few seconds, and then try "
 "again."
-msgstr ""
+msgstr "指定的设备正在关闭。请等待数秒后重试。"
 
 #: winmm.rc:88
 msgid ""
 "The specified alias is already being used in this application. Use a unique "
 "alias."
-msgstr ""
+msgstr "指定的别名正被此应用程序使用。请使用唯一别名。"
 
 #: winmm.rc:89
 msgid "The specified parameter is invalid for this command."
-msgstr ""
+msgstr "为此命令指定的参数无效。"
 
 #: winmm.rc:90
 msgid ""
 "The device driver is already in use. To share it, use the 'shareable' "
 "parameter with each 'open' command."
 msgstr ""
+"设备驱动已被占用。要共享设备驱动。请在每个“open”命令上使用“shareable”参数。"
 
 #: winmm.rc:91
 msgid ""
 "The specified command requires an alias, file, driver, or device name. "
 "Please supply one."
-msgstr ""
+msgstr "指定的命令需要一个参数、文件、驱动或设备名称。请提供其一。"
 
 #: winmm.rc:92
 msgid ""
 "The specified value for the time format is invalid. Refer to the MCI "
 "documentation for valid formats."
-msgstr ""
+msgstr "为时间格式指定的值无效。参见 MCI 文档以了解有效格式。"
 
 #: winmm.rc:93
 msgid ""
 "A closing double-quotation mark is missing from the parameter value. Please "
 "supply one."
-msgstr ""
+msgstr "缺少参数值的闭合双引号。请加上此闭合符号。"
 
 #: winmm.rc:94
 msgid "A parameter or value was specified twice. Only specify it once."
-msgstr ""
+msgstr "重复指定了参数或值。只需指定一次。"
 
 #: winmm.rc:95
 msgid ""
 "The specified file cannot be played on the specified MCI device. The file "
 "may be corrupt, or not in the correct format."
-msgstr ""
+msgstr "指定的文件无法使用指定的 MCI 设备播放。文件可能已损坏或其格式不正确。"
 
 #: winmm.rc:96
+#, fuzzy
 msgid "A null parameter block was passed to MCI."
-msgstr ""
+msgstr "为 MCI 传递了无效的参数块。"
 
 #: winmm.rc:97
 msgid "Cannot save an unnamed file. Supply a filename."
@@ -9035,27 +9045,28 @@ msgstr "无法保存没有名字的文件。请提供文件名。"
 
 #: winmm.rc:98
 msgid "You must specify an alias when using the 'new' parameter."
-msgstr ""
+msgstr "使用“new”参数时必须指定别名。"
 
 #: winmm.rc:99
 msgid "Cannot use the 'notify' flag with auto-opened devices."
-msgstr ""
+msgstr "无法在自动打开的设备上使用“notify”旗标。"
 
 #: winmm.rc:100
+#, fuzzy
 msgid "Cannot use a filename with the specified device."
-msgstr ""
+msgstr "指定的设备不能使用文件名。"
 
 #: winmm.rc:101
 msgid ""
 "Cannot carry out the commands in the order specified. Correct the command "
 "sequence, and then try again."
-msgstr ""
+msgstr "无法使用指定顺序执行命令。请更正命令顺序后重试。"
 
 #: winmm.rc:102
 msgid ""
 "Cannot carry out the specified command on an auto-opened device. Wait until "
 "the device is closed, and then try again."
-msgstr ""
+msgstr "无法在自动打开的设备上执行指定的命令。请等待设备关闭后重试。"
 
 #: winmm.rc:103
 msgid ""
@@ -9067,13 +9078,13 @@ msgstr ""
 #: winmm.rc:104
 msgid ""
 "Cannot specify extra characters after a string enclosed in quotation marks."
-msgstr ""
+msgstr "不能在引号包围的字符串后指定附加字符。"
 
 #: winmm.rc:105
 msgid ""
 "The specified device is not installed on the system. Use the Drivers option "
 "in Control Panel to install the device."
-msgstr ""
+msgstr "此系统未安装指定的设备。使用控制面板上的驱动选项来安装此设备。"
 
 #: winmm.rc:106
 msgid ""
@@ -9085,50 +9096,60 @@ msgstr "无法访问指定的文件或者 MCI 设备。请尝试切换到其他�
 msgid ""
 "Cannot access the specified file or MCI device because the application "
 "cannot change directories."
-msgstr ""
+msgstr "无法访问指定的文件或 MCI 设备，因为应用程序无法更改目录。"
 
 #: winmm.rc:108
 msgid ""
 "Cannot access specified file or MCI device because the application cannot "
 "change drives."
-msgstr ""
+msgstr "无法访问指定的文件或 MCI 设备，因为应用程序无法更改驱动器。"
 
 #: winmm.rc:109
 msgid "Specify a device or driver name that is less than 79 characters."
-msgstr ""
+msgstr "指定一个短于 79 字符的设备或驱动名称。"
 
 #: winmm.rc:110
 msgid "Specify a device or driver name that is less than 69 characters."
-msgstr ""
+msgstr "指定一个短于 69 字符的设备或驱动名称。"
 
 #: winmm.rc:111
 msgid ""
 "The specified command requires an integer parameter. Please provide one."
-msgstr ""
+msgstr "指定的命令需要一个整数参数。请提供一个整数作为参数。"
 
 #: winmm.rc:112
+#, fuzzy
 msgid ""
 "All wave devices that can play files in the current format are in use. Wait "
 "until a wave device is free, and then try again."
 msgstr ""
+"所有可以播放当前格式文件的波形设备均正被占用。请等其中一个波形设备可用后重"
+"试。"
 
 #: winmm.rc:113
+#, fuzzy
 msgid ""
 "Cannot set the current wave device for play back because it is in use. Wait "
 "until the device is free, and then try again."
 msgstr ""
+"无法将当前波形设备设定为回放设备，因为设备正被占用。请等待设备可用后重试。"
 
 #: winmm.rc:114
+#, fuzzy
 msgid ""
 "All wave devices that can record files in the current format are in use. "
 "Wait until a wave device is free, and then try again."
 msgstr ""
+"所有可以读取当前格式文件的波形设备均正被占用。请等其中一个波形设备可用后重"
+"试。"
 
 #: winmm.rc:115
+#, fuzzy
 msgid ""
 "Cannot set the current wave device for recording because it is in use. Wait "
 "until the device is free, and then try again."
 msgstr ""
+"无法将当前波形设备设定为录音设备，因为设备正被占用。请等待设备可用后重试。"
 
 #: winmm.rc:116
 msgid "Any compatible waveform playback device may be used."
@@ -9136,37 +9157,39 @@ msgstr "可以使用任何兼容的波形回放设备。"
 
 #: winmm.rc:117
 msgid "Any compatible waveform recording device may be used."
-msgstr ""
+msgstr "可以使用任何兼容的波形录音设备。"
 
 #: winmm.rc:118
 msgid ""
 "No wave device that can play files in the current format is installed. Use "
 "the Drivers option to install the wave device."
 msgstr ""
+"未安装任何可以播放当前格式文件的波形设备。请使用设备选项以安装波形设备。"
 
 #: winmm.rc:119
 msgid ""
 "The device you are trying to play to cannot recognize the current file "
 "format."
-msgstr ""
+msgstr "您正在尝试用于播放的设备无法识别当前的文件格式。"
 
 #: winmm.rc:120
 msgid ""
 "No wave device that can record files in the current format is installed. Use "
 "the Drivers option to install the wave device."
 msgstr ""
+"未安装任何可以录制当前格式文件的波形设备。请使用设备选项以安装波形设备。"
 
 #: winmm.rc:121
 msgid ""
 "The device you are trying to record from cannot recognize the current file "
 "format."
-msgstr ""
+msgstr "您正在尝试用于录制的设备无法识别当前的文件格式。"
 
 #: winmm.rc:126
 msgid ""
 "The time formats of the \"song pointer\" and SMPTE are mutually exclusive. "
 "You can't use them together."
-msgstr ""
+msgstr "“song pointer”和 SMPTE 时间格式互斥。您不能同时使用这两种格式。"
 
 #: winmm.rc:128
 msgid ""
@@ -9182,43 +9205,45 @@ msgstr "指定的 MIDI 设备没有被安装。请使用位于“控制面板”
 
 #: winmm.rc:130
 msgid "An error occurred with the specified port."
-msgstr ""
+msgstr "指定的端口出错。"
 
 #: winmm.rc:133
 msgid ""
 "All multimedia timers are being used by other applications. Quit one of "
 "these applications; then, try again."
-msgstr ""
+msgstr "所有多媒体计时器均正被其他应用程序占用。退出其中一个应用程序后重试。"
 
 #: winmm.rc:132
+#, fuzzy
 msgid "The system doesn't have a current MIDI port specified."
-msgstr ""
+msgstr "系统未指定当前 MIDI 端口。"
 
 #: winmm.rc:127
 msgid ""
 "The system has no installed MIDI devices. Use the Drivers option from the "
 "Control Panel to install a MIDI driver."
-msgstr ""
+msgstr "此系统未安装任何 MIDI 设备。请使用控制面板上的驱动选项来安装此设备。"
 
 #: winmm.rc:122
+#, fuzzy
 msgid "There is no display window."
-msgstr ""
+msgstr "没有显示窗口。"
 
 #: winmm.rc:123
 msgid "Could not create or use window."
-msgstr ""
+msgstr "无法创建或使用窗口。"
 
 #: winmm.rc:124
 msgid ""
 "Cannot read the specified file. Make sure the file is still present, or "
 "check your disk or network connection."
-msgstr ""
+msgstr "无法读取指定的文件。请确定此文件依然存在，或检查您的磁盘和网络连接。"
 
 #: winmm.rc:125
 msgid ""
 "Cannot write to the specified file. Make sure you have enough disk space or "
 "are still connected to the network."
-msgstr ""
+msgstr "无法写入到指定的文件。确定您有足够的磁盘空间或仍连接在网络上。"
 
 #: winmm.rc:136
 msgid "Wine Sound Mapper"
@@ -9273,92 +9298,100 @@ msgid "Size Limit Exceeded"
 msgstr "超大"
 
 #: wldap32.rc:35
+#, fuzzy
 msgid "Compare False"
-msgstr ""
+msgstr "比较假值"
 
 #: wldap32.rc:36
+#, fuzzy
 msgid "Compare True"
-msgstr ""
+msgstr "比较真值"
 
 #: wldap32.rc:37
 msgid "Authentication Method Not Supported"
-msgstr ""
+msgstr "不支持的认证方式"
 
 #: wldap32.rc:38
+#, fuzzy
 msgid "Strong Authentication Required"
-msgstr ""
+msgstr "需要强认证"
 
 #: wldap32.rc:39
+#, fuzzy
 msgid "Referral (v2)"
-msgstr ""
+msgstr "推举 (v2)"
 
 #: wldap32.rc:40
 msgid "Referral"
-msgstr ""
+msgstr "推举"
 
 #: wldap32.rc:41
 msgid "Administration Limit Exceeded"
-msgstr ""
+msgstr "超出管理限制。"
 
 #: wldap32.rc:42
+#, fuzzy
 msgid "Unavailable Critical Extension"
-msgstr ""
+msgstr "不可用的关键扩展"
 
 #: wldap32.rc:43
+#, fuzzy
 msgid "Confidentiality Required"
-msgstr ""
+msgstr "需要保密性"
 
 #: wldap32.rc:46
 msgid "No Such Attribute"
-msgstr ""
+msgstr "无此属性"
 
 #: wldap32.rc:47
 msgid "Undefined Type"
-msgstr ""
+msgstr "未定义类型"
 
 #: wldap32.rc:48
 msgid "Inappropriate Matching"
-msgstr ""
+msgstr "不当匹配"
 
 #: wldap32.rc:49
 msgid "Constraint Violation"
-msgstr ""
+msgstr "约束冲突"
 
 #: wldap32.rc:50
 msgid "Attribute Or Value Exists"
-msgstr ""
+msgstr "属性或值已存在"
 
 #: wldap32.rc:51
 msgid "Invalid Syntax"
-msgstr ""
+msgstr "无效语法"
 
 #: wldap32.rc:62
 msgid "No Such Object"
-msgstr ""
+msgstr "无此对象"
 
 #: wldap32.rc:63
 msgid "Alias Problem"
-msgstr ""
+msgstr "别名问题"
 
 #: wldap32.rc:64
 msgid "Invalid DN Syntax"
-msgstr ""
+msgstr "DN 语法无效"
 
 #: wldap32.rc:65
+#, fuzzy
 msgid "Is Leaf"
-msgstr ""
+msgstr "为叶"
 
 #: wldap32.rc:66
+#, fuzzy
 msgid "Alias Dereference Problem"
-msgstr ""
+msgstr "别名差别问题"
 
 #: wldap32.rc:78
 msgid "Inappropriate Authentication"
-msgstr ""
+msgstr "不当认证"
 
 #: wldap32.rc:79
 msgid "Invalid Credentials"
-msgstr ""
+msgstr "无效凭据"
 
 #: wldap32.rc:80
 msgid "Insufficient Rights"
@@ -9370,59 +9403,64 @@ msgstr "忙碌"
 
 #: wldap32.rc:82
 msgid "Unavailable"
-msgstr ""
+msgstr "不可用"
 
 #: wldap32.rc:83
+#, fuzzy
 msgid "Unwilling To Perform"
-msgstr ""
+msgstr "拒绝执行"
 
 #: wldap32.rc:84
 msgid "Loop Detected"
-msgstr ""
+msgstr "检测到循环"
 
 #: wldap32.rc:90
 msgid "Sort Control Missing"
-msgstr ""
+msgstr "缺少排序控制"
 
 #: wldap32.rc:91
+#, fuzzy
 msgid "Index range error"
-msgstr ""
+msgstr "索引范围错误"
 
 #: wldap32.rc:94
 msgid "Naming Violation"
-msgstr ""
+msgstr "命名冲突"
 
 #: wldap32.rc:95
 msgid "Object Class Violation"
-msgstr ""
+msgstr "对象类冲突"
 
 #: wldap32.rc:96
+#, fuzzy
 msgid "Not allowed on Non-leaf"
-msgstr ""
+msgstr "不允许用于非叶"
 
 #: wldap32.rc:97
+#, fuzzy
 msgid "Not allowed on RDN"
-msgstr ""
+msgstr "不允许用于 RDN"
 
 #: wldap32.rc:98
 msgid "Already Exists"
-msgstr ""
+msgstr "已存在"
 
 #: wldap32.rc:99
+#, fuzzy
 msgid "No Object Class Mods"
-msgstr ""
+msgstr "无对象类模块"
 
 #: wldap32.rc:100
 msgid "Results Too Large"
-msgstr ""
+msgstr "结果太大"
 
 #: wldap32.rc:101
 msgid "Affects Multiple DSAs"
-msgstr ""
+msgstr "影响多个 DSA"
 
 #: wldap32.rc:111
 msgid "Server Down"
-msgstr "服务器不可用"
+msgstr "服务器下线"
 
 #: wldap32.rc:112
 msgid "Local Error"
@@ -9434,65 +9472,74 @@ msgstr "编码错误"
 
 #: wldap32.rc:114
 msgid "Decoding Error"
-msgstr ""
+msgstr "解码错误"
 
 #: wldap32.rc:115
 msgid "Timeout"
 msgstr "超时"
 
 #: wldap32.rc:116
+#, fuzzy
 msgid "Auth Unknown"
-msgstr ""
+msgstr "未知认证"
 
 #: wldap32.rc:117
 msgid "Filter Error"
-msgstr ""
+msgstr "筛选器错误"
 
 #: wldap32.rc:118
 msgid "User Canceled"
-msgstr ""
+msgstr "用户已取消"
 
 #: wldap32.rc:119
 msgid "Parameter Error"
-msgstr ""
+msgstr "参数错误"
 
 #: wldap32.rc:120
+#, fuzzy
 msgid "No Memory"
-msgstr ""
+msgstr "内存不足"
 
 #: wldap32.rc:121
 msgid "Can't connect to the LDAP server"
-msgstr ""
+msgstr "无法连接到 LDAP 服务器"
 
 #: wldap32.rc:122
 msgid "Operation not supported by this version of the LDAP protocol"
-msgstr ""
+msgstr "该版本的 LDAP 协议不支持该操作"
 
 #: wldap32.rc:123
+#, fuzzy
 msgid "Specified control was not found in message"
-msgstr ""
+msgstr "消息中找不到指定控制"
 
 #: wldap32.rc:124
+#, fuzzy
 msgid "No result present in message"
-msgstr ""
+msgstr "消息中无结果"
 
 #: wldap32.rc:125
+#, fuzzy
 msgid "More results returned"
-msgstr ""
+msgstr "返回了更多结果"
 
 #: wldap32.rc:126
+#, fuzzy
 msgid "Loop while handling referrals"
-msgstr ""
+msgstr "处理推举时发现循环"
 
 #: wldap32.rc:127
+#, fuzzy
 msgid "Referral hop limit exceeded"
-msgstr ""
+msgstr "超出推举跳跃限制"
 
 #: attrib.rc:30 cmd.rc:361
 msgid ""
 "Not Yet Implemented\n"
 "\n"
 msgstr ""
+"尚未实现\n"
+"\n"
 
 #: attrib.rc:31 cmd.rc:364
 msgid "%1: File Not Found\n"
@@ -9574,6 +9621,7 @@ msgid "Clock"
 msgstr "时钟"
 
 #: cmd.rc:40
+#, fuzzy
 msgid ""
 "CALL <batchfilename> is used within a batch file to execute commands from\n"
 "another batch file. When the batch file exits, control returns to the file\n"
@@ -9583,6 +9631,11 @@ msgid ""
 "Changes to default directory, environment variables etc made within a\n"
 "called procedure are inherited by the caller.\n"
 msgstr ""
+"CALL <批处理文件名> 用于在批处理文件中执行来自另一个批处理文件的命令。\n"
+"当批处理文件存在时，控制器将返回到调用它的文件。CALL 可为要调用的程序\n"
+"提供参数。\n"
+"\n"
+"该命令将切换到，调用的程序中创建的环境变量等将由调用者继承。\n"
 
 #: cmd.rc:44
 msgid ""
@@ -9592,31 +9645,31 @@ msgstr "CD <目录> 是 CHDIR 的缩写版本。它可以切换当前的默认�
 
 #: cmd.rc:47
 msgid "CHDIR <directory> changes the current default directory.\n"
-msgstr "CHDIR <目录> 切换当前默认目录。\n"
+msgstr "CHDIR <目录> 可切换当前默认目录。\n"
 
 #: cmd.rc:50
 msgid "CLS clears the console screen.\n"
-msgstr "CLS 清空控制台屏幕。\n"
+msgstr "CLS 可清空控制台屏幕。\n"
 
 #: cmd.rc:53
 msgid "COPY <filename> copies a file.\n"
-msgstr "COPY <文件名> 复制一个文件\n"
+msgstr "COPY <文件名> 可复制一个文件。\n"
 
 #: cmd.rc:56
 msgid "CTTY changes the input/output device.\n"
-msgstr ""
+msgstr "CITY 可更改输入/输出设备。\n"
 
 #: cmd.rc:59
 msgid "DATE shows or changes the system date.\n"
-msgstr ""
+msgstr "DATE 可显示或更改系统日期。\n"
 
 #: cmd.rc:62
 msgid "DEL <filename> deletes a file or set of files.\n"
-msgstr ""
+msgstr "DEL <filename> 可删除一个或一组文件。\n"
 
 #: cmd.rc:65
 msgid "DIR lists the contents of a directory.\n"
-msgstr ""
+msgstr "DIR 可列出目录的内容。\n"
 
 #: cmd.rc:75
 msgid ""
@@ -9629,10 +9682,16 @@ msgid ""
 "default). The ECHO OFF command can be prevented from displaying by\n"
 "preceding it with an @ sign.\n"
 msgstr ""
+"ECHO <字符串> 可在当前终端设备上显示 <字符串>。\n"
+"\n"
+"ECHO ON 可将所有批处理文件中调用的命令在执行前显示在终端设备上。\n"
+"\n"
+"ECHO OFF 的效果与 ECHO ON 相反（ECHO 默认为 OFF）。可在命令前添加 @\n"
+"来避免 ECHO OFF 的效果。\n"
 
 #: cmd.rc:78
 msgid "ERASE <filename> deletes a file or set of files.\n"
-msgstr ""
+msgstr "ERASE <filename> 可删除一个或一组文件。\n"
 
 #: cmd.rc:85
 msgid ""
@@ -9642,8 +9701,14 @@ msgid ""
 "\n"
 "The % sign must be doubled when using FOR in a batch file.\n"
 msgstr ""
+"FOR 用于逐一执行用于一组文件的命令。\n"
+"\n"
+"用法：FOR %变量 IN（命令组）DO 命令\n"
+"\n"
+"在批处理文件中使用 FOR 时必须将 % 符号写两次。\n"
 
 #: cmd.rc:97
+#, fuzzy
 msgid ""
 "The GOTO command transfers execution to another statement within a batch\n"
 "file.\n"
@@ -9656,12 +9721,21 @@ msgid ""
 "\n"
 "GOTO has no effect when used interactively.\n"
 msgstr ""
+"GOTO 命令可将批处理文件中的执行转移到另一个声明。\n"
+"\n"
+"GOTO 目标标签不可长于 255 字符，且不可包含空格（和其他操作系统不同）。\n"
+"如果批处理文件中包含多个标签则执行第一个。将 GOTO 指向不存在的标签则会\n"
+"终止批处理文件执行。\n"
+"\n"
+"GOTO 在交互模式下使用时没有效果。\n"
 
 #: cmd.rc:101
 msgid ""
 "HELP <command> shows brief help details on a topic.\n"
 "HELP without an argument shows all CMD built-in commands.\n"
 msgstr ""
+"HELP <命令> 显示某个主题的简短帮助信息。\n"
+"不使用参数时调用 HELP 将显示所有 CMD 内置命令。\n"
 
 #: cmd.rc:111
 msgid ""
@@ -9674,6 +9748,14 @@ msgid ""
 "In the second form of the command, string1 and string2 must be in double\n"
 "quotes. The comparison is not case-sensitive.\n"
 msgstr ""
+"IF 用于根据条件执行命令。\n"
+"\n"
+"语法：\tIF [NOT] EXIST 文件名 命令\n"
+"\tIF [NOT] 字符串1==字符串2 命令\n"
+"\tIF [NOT] ERRORLEVEL 序号 命令\n"
+"\n"
+"在命令的第二种用法中，字符串 1 和字符串 2 必须用双引号包住。比较条件\n"
+"非大小写敏感。\n"
 
 #: cmd.rc:118
 msgid ""
@@ -9683,14 +9765,19 @@ msgid ""
 "The command will prompt you for the new volume label for the given drive.\n"
 "You can display the disk volume label with the VOL command.\n"
 msgstr ""
+"LABEL 用于设置磁盘卷标。\n"
+"\n"
+"语法：LABEL [drive:]\n"
+"该命令将询问指定驱动器的新卷标。\n"
+"您可以使用 VOL 命令显示磁盘卷标。\n"
 
 #: cmd.rc:121
 msgid "MD <name> is the short version of MKDIR. It creates a subdirectory.\n"
-msgstr ""
+msgstr "MD <名称> 是 MKDIR 的缩写版本。该命令用于创建子目录。\n"
 
 #: cmd.rc:123
 msgid "MKDIR <name> creates a subdirectory.\n"
-msgstr ""
+msgstr "MKDIR <名称> 用于创建子目录。\n"
 
 #: cmd.rc:131
 msgid ""
@@ -9701,6 +9788,11 @@ msgid ""
 "\n"
 "MOVE fails if the old and new locations are on different DOS drive letters.\n"
 msgstr ""
+"MOVE 可将文件或目录移动至文件系统内的新位置。\n"
+"\n"
+"移动目录时，将一同移动目录所包含的所有文件和子目录。\n"
+"\n"
+"MOVE 不支持在不同的 DOS 盘符间移动对象。\n"
 
 #: cmd.rc:142
 msgid ""
@@ -9714,16 +9806,29 @@ msgid ""
 "variable, for example:\n"
 "PATH %PATH%;c:\\temp\n"
 msgstr ""
+"PATH 可显示或更改命令搜索路径。\n"
+"\n"
+"输入 PATH 将显示当前的 PATH 设置（默认从注册表读取）。在 PATH 后附加\n"
+"新值以改变设置。\n"
+"\n"
+"也可以使用 PATH 环境变量来编辑 PATH 值，例如：\n"
+"PATH %PATH%;c:\\temp\n"
 
 #: cmd.rc:148
+#, fuzzy
 msgid ""
 "PAUSE displays a message on the screen asking the user to press a key.\n"
 "\n"
 "It is mainly useful in batch files to allow the user to read the output of\n"
 "a previous command before it scrolls off the screen.\n"
 msgstr ""
+"PAUSE 可在屏幕上显示一条消息，提示用户按某个按键。\n"
+"\n"
+"该命令主要用于在批处理文件中允许用户读取上一个命令的输出，以免其输出\n"
+"上滚到屏幕外。\n"
 
 #: cmd.rc:169
+#, fuzzy
 msgid ""
 "PROMPT sets the command-line prompt.\n"
 "\n"
@@ -9745,28 +9850,48 @@ msgid ""
 "The prompt can also be changed by altering the PROMPT environment variable,\n"
 "so the command 'SET PROMPT=text' has the same effect as 'PROMPT text'.\n"
 msgstr ""
+"PROMPT 可设置命令行提示符。\n"
+"\n"
+"PROMPT 命令后跟随的字符串（包括紧随其后的空格）将在 cmd 等待输入时\n"
+"在行头显示。\n"
+"\n"
+"如下字符串带有特殊含义，如下：\n"
+"\n"
+"$$    美金符号           $_    换行                $b    管道符号 (|)\n"
+"$d    当前日期           $e    转义                $g    > 符号\n"
+"$l    < 符号             $n    当前盘符            $p    当前路径\n"
+"$q    等号               $t    当前时间            $v    cmd 版本\n"
+"\n"
+"注意，输入 PROMPT 命令而不附带提示符字串将重置提示符为默认值，也就是\n"
+"当前目录（包含当前盘符）后带一个大于号（>）。\n"
+"（等效于 PROMPT $p$g）。\n"
+"\n"
+"您也可以使用 PROMPT 环境变量更改提示符，因而命令“SET PROMPT=text”和\n"
+"“PROMPT text”等效。\n"
 
 #: cmd.rc:173
 msgid ""
 "A command line beginning with REM (followed by a space) performs no action,\n"
 "and can therefore be used as a comment in a batch file.\n"
 msgstr ""
+"由 REM（由空格紧随）开头的命令行不生效，因而可用作批处理文件中的注释。\n"
+"\n"
 
 #: cmd.rc:176
 msgid "REN <filename> is the short version of RENAME. It renames a file.\n"
-msgstr ""
+msgstr "REN <文件名> 是 RENAME 的缩写版本。用于重命名文件。\n"
 
 #: cmd.rc:178
 msgid "RENAME <filename> renames a file.\n"
-msgstr ""
+msgstr "RENAME <文件名> 用于重命名文件。\n"
 
 #: cmd.rc:181
 msgid "RD <directory> is the short version of RMDIR. It deletes a directory.\n"
-msgstr ""
+msgstr "RD <目录> 是 RMDIR 的缩写版本。用于删除目录。\n"
 
 #: cmd.rc:183
 msgid "RMDIR <directory> deletes a directory.\n"
-msgstr ""
+msgstr "RMDIR <目录> 用于删除目录。\n"
 
 #: cmd.rc:229
 msgid ""
@@ -9786,6 +9911,19 @@ msgid ""
 "values than in a native Win32 implementation. Note that it is not possible\n"
 "to affect the operating system environment from within cmd.\n"
 msgstr ""
+"SET 可显示或更改 cmd 环境变量。\n"
+"\n"
+"SET 不带参数使用可用于显示当前所有的环境变量。\n"
+"\n"
+"传教或修改环境变量的语法如下：\n"
+"\n"
+"SET <变量>=<值>\n"
+"\n"
+"<变量> 和 <值> 均为字符串。等号前和变量名均不能带有空格。\n"
+"\n"
+"在 Wine 环境中，运行 Wine 的操作系统中的环境变量将传递到 Win32 环境中，\n"
+"因此环境中可能包含 Win32 原生实现之外的值。注意，您不能在 cmd 内影响\n"
+"操作系统的环境。\n"
 
 #: cmd.rc:234
 msgid ""
@@ -9793,6 +9931,8 @@ msgid ""
 "list, so parameter 2 becomes parameter 1 and so on. It has no effect if\n"
 "called from the command line.\n"
 msgstr ""
+"SHIFT 用于在列表头删除一个参数，因而第 2 个参数将变成第 1 个参数，\n"
+"以此类推。从命令行调用该命令时没有任何效果。\n"
 
 #: cmd.rc:212 start.rc:56
 msgid ""
@@ -9824,20 +9964,48 @@ msgid ""
 "/ProgIDOpen    Open a document using the specified progID.\n"
 "/?             Display this help and exit.\n"
 msgstr ""
+"启动程序，或用一般用于带有某个后缀的程序打开文档。\n"
+"用法：\n"
+"start [选项] 程序文件名 [...]\n"
+"start [选项] 文档文件名\n"
+"\n"
+"选项：\n"
+"“标题”\t设置子窗口的标题。\n"
+"/d 目录\t在指定目录启动程序。\n"
+"/b\t\t不要为程序创建新控制台。\n"
+"/i\t\t使用新环境启动程序。\n"
+"/min\t\t最小化启动程序。\n"
+"/max\t\t最大化启动程序。\n"
+"/low\t\t使用 idle 优先级类启动程序。\n"
+"/normal\t\t使用 normal 优先级类启动程序。\n"
+"/high\t\t使用 high 优先级类启动程序。\n"
+"/realtime\t使用 realtime 优先级类启动程序。\n"
+"/abovenormal\t使用 abovenormal 优先级类启动程序。\n"
+"/belownormal\t使用 belownormal 优先级类启动程序。\n"
+"/n\t\t在指定 NUMA 节点启动程序。\n"
+"/affinity 掩码\t使用指定关联性掩码启动程序。\n"
+"/wait\t\t等待启动了的程序完成操作后使用其退出代码退出。\n"
+"/unix\t\t使用 Unix 文件名并像 Windows 资源管理器一样启动文件。\n"
+"/ProgIDOpen\t使用指定 progID 打开文档。\n"
+"/?\t\t显示此帮助并退出。\n"
 
 #: cmd.rc:237
 msgid "TIME sets or shows the current system time.\n"
-msgstr "TIME 设置或显示当前系统时间。\n"
+msgstr "TIME 可设置或显示当前系统时间。\n"
 
 #: cmd.rc:240
 msgid "TITLE <string> sets the window title for the cmd window.\n"
-msgstr ""
+msgstr "TITLE <字符串> 可设置 cmd 窗口的标题。\n"
 
 #: cmd.rc:244
+#, fuzzy
 msgid ""
 "TYPE <filename> copies <filename> to the console device (or elsewhere if\n"
 "redirected). No check is made that the file is readable text.\n"
 msgstr ""
+"TYPE <文件名> 可将 <文件名> 复制到控制台设别（在重定向后复制到别处）。\n"
+"不进行任何检查，因此文件是可读文本。\n"
+"\n"
 
 #: cmd.rc:253
 msgid ""
@@ -9849,10 +10017,17 @@ msgid ""
 "\n"
 "The verify flag has no function in Wine.\n"
 msgstr ""
+"VERIFY 用于设置、清除或测试校验旗标。有效形式如下：\n"
+"\n"
+"VERIFY ON\t设置此旗标。\n"
+"VERIFY OFF\t清除此旗标。\n"
+"VERIFY\t\t根据实际情况显示 ON 或 OFF。\n"
+"\n"
+"Verify 旗标对 Wine 不生效。\n"
 
 #: cmd.rc:256
 msgid "VER displays the version of cmd you are running.\n"
-msgstr ""
+msgstr "VER 显示您正在运行的 cmd 的版本。\n"
 
 #: cmd.rc:259
 msgid "VOL shows the volume label of a disk device.\n"
