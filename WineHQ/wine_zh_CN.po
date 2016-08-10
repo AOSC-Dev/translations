@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-10 20:03+0800\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2016-08-11 19:49+0800\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1224,12 +1224,10 @@ msgid "Issuer Alternative Name"
 msgstr ""
 
 #: crypt32.rc:35
-#, fuzzy
 msgid "Basic Constraints"
 msgstr "基本约束"
 
 #: crypt32.rc:36
-#, fuzzy
 msgid "Key Usage"
 msgstr "密钥用法"
 
@@ -1306,7 +1304,6 @@ msgid "S/MIME Capabilities"
 msgstr "S/MIME 特性"
 
 #: crypt32.rc:55
-#, fuzzy
 msgid "Prefer Signed Data"
 msgstr "已签名的数据优先"
 
@@ -1570,7 +1567,6 @@ msgid "CA Encryption Certificate"
 msgstr "CA 加密证书"
 
 #: crypt32.rc:119 cryptui.rc:148
-#, fuzzy
 msgid "Key Recovery Agent"
 msgstr "密钥恢复助手"
 
@@ -1705,7 +1701,6 @@ msgid "OEM Windows System Component Verification"
 msgstr "OEM Windows 系统组件校验"
 
 #: crypt32.rc:152 cryptui.rc:136
-#, fuzzy
 msgid "Embedded Windows System Component Verification"
 msgstr "嵌入式 Windows 系统组件验证"
 
@@ -1923,7 +1918,6 @@ msgid "CRL Issuer"
 msgstr "CRL 颁发者"
 
 #: crypt32.rc:212
-#, fuzzy
 msgid "Key Compromise"
 msgstr "密钥泄漏"
 
@@ -2216,7 +2210,6 @@ msgid ""
 msgstr "注意：如下格式的文件可能包含多个证书、证书吊销列表或证书信任列表："
 
 #: cryptui.rc:299
-#, fuzzy
 msgid "Cryptographic Message Syntax Standard/PKCS #7 Messages (*.p7b)"
 msgstr "加密消息语法标准/PKCS #7 消息 (*.p7b)"
 
@@ -2365,7 +2358,6 @@ msgid "Ba&se64-encoded X.509 (*.cer):"
 msgstr "Ba&se64 加密的 X.509 (*.cer):"
 
 #: cryptui.rc:412
-#, fuzzy
 msgid "&Cryptographic Message Syntax Standard/PKCS #7 Message (*.p7b)"
 msgstr "加密消息语法标准/PKCS #7 消息 (&C)(*.p7b)"
 
@@ -3824,9 +3816,8 @@ msgid "Request not supported.\n"
 msgstr "请求不被支持。\n"
 
 #: winerror.mc:221
-#, fuzzy
 msgid "Remote machine not listening.\n"
-msgstr "远程机器未监听。\n"
+msgstr "远程机器未在监听。\n"
 
 #: winerror.mc:226
 msgid "Duplicate network name.\n"
@@ -3988,7 +3979,6 @@ msgid "Drive locked.\n"
 msgstr "驱动器已锁定。\n"
 
 #: winerror.mc:421
-#, fuzzy
 msgid "Broken pipe.\n"
 msgstr "管道中断。\n"
 
@@ -4013,7 +4003,6 @@ msgid "Invalid IOCTL.\n"
 msgstr "无效的 IOCTL。\n"
 
 #: winerror.mc:456
-#, fuzzy
 msgid "Invalid verify switch.\n"
 msgstr "无效的验证开关。\n"
 
@@ -4062,7 +4051,6 @@ msgid "Child process has not completed.\n"
 msgstr "子进程未完成。\n"
 
 #: winerror.mc:516
-#, fuzzy
 msgid "Invalid use of direct access handle.\n"
 msgstr "无效的直接访问句柄使用。\n"
 
@@ -4417,7 +4405,6 @@ msgid "Extended attributes not supported.\n"
 msgstr "不支持扩展属性。\n"
 
 #: winerror.mc:941
-#, fuzzy
 msgid "Mutex not owned by caller.\n"
 msgstr "互斥锁不由调用者所有。\n"
 
@@ -4496,7 +4483,6 @@ msgid "Cannot complete.\n"
 msgstr "无法完成。\n"
 
 #: winerror.mc:1036
-#, fuzzy
 msgid "Invalid flags.\n"
 msgstr "无效的标记。\n"
 
@@ -4575,7 +4561,6 @@ msgid "Notify change request in progress.\n"
 msgstr "公告正在进行的更改请求。\n"
 
 #: winerror.mc:1131
-#, fuzzy
 msgid "Dependent services are running.\n"
 msgstr "依赖服务仍在运行。\n"
 
@@ -5314,7 +5299,6 @@ msgid "Account restriction.\n"
 msgstr "帐号限制。\n"
 
 #: winerror.mc:2046
-#, fuzzy
 msgid "Invalid logon hours.\n"
 msgstr "无效登录时间段。\n"
 
@@ -5393,7 +5377,6 @@ msgid "Can't open anonymous security token.\n"
 msgstr "无法打开匿名安全令牌。\n"
 
 #: winerror.mc:2141
-#, fuzzy
 msgid "Bad validation class.\n"
 msgstr "无效验证类。\n"
 
@@ -5529,12 +5512,10 @@ msgid "Logon type not granted.\n"
 msgstr "该登录类型不被允许。\n"
 
 #: winerror.mc:2306
-#, fuzzy
 msgid "Too many secrets.\n"
 msgstr "密文太多。\n"
 
 #: winerror.mc:2311
-#, fuzzy
 msgid "Secret too long.\n"
 msgstr "密文太长。\n"
 
@@ -5547,7 +5528,6 @@ msgid "Too many context IDs.\n"
 msgstr "上下文 ID 过多。\n"
 
 #: winerror.mc:2331
-#, fuzzy
 msgid "Cross-encrypted NT password required.\n"
 msgstr "需要混合加密的 NT 密码。\n"
 
@@ -5564,7 +5544,6 @@ msgid "Too many SIDs.\n"
 msgstr "SID 过多。\n"
 
 #: winerror.mc:2351
-#, fuzzy
 msgid "Cross-encrypted LM password required.\n"
 msgstr "需要混合加密的 LM 密码。\n"
 
@@ -5710,12 +5689,10 @@ msgid "Invalid hook filter.\n"
 msgstr "无效的钩过滤。\n"
 
 #: winerror.mc:2531
-#, fuzzy
 msgid "Invalid filter procedure.\n"
 msgstr "无效的过滤过程。\n"
 
 #: winerror.mc:2536
-#, fuzzy
 msgid "Hook procedure needs module handle.\n"
 msgstr "钩过程需要模块句柄。\n"
 
@@ -5725,14 +5702,12 @@ msgid "Global-only hook procedure.\n"
 msgstr "仅全局的钩过程。\n"
 
 #: winerror.mc:2546
-#, fuzzy
 msgid "Journal hook already set.\n"
-msgstr "日志钩已被设置。\n"
+msgstr "日志钩子已被设置。\n"
 
 #: winerror.mc:2551
-#, fuzzy
 msgid "Hook procedure not installed.\n"
-msgstr "钩过程未安装。\n"
+msgstr "钩子过程未安装。\n"
 
 #: winerror.mc:2556
 msgid "Invalid list box message.\n"
@@ -5843,7 +5818,6 @@ msgid "Hook type not allowed.\n"
 msgstr "不允许的钩子类型。\n"
 
 #: winerror.mc:2691
-#, fuzzy
 msgid "Interactive window station required.\n"
 msgstr "需要交互式窗口站。\n"
 
@@ -6054,7 +6028,6 @@ msgid "RPC protocol sequence not supported.\n"
 msgstr "不支持 RPC 协议序列。\n"
 
 #: winerror.mc:2951
-#, fuzzy
 msgid "Invalid RPC protocol sequence.\n"
 msgstr "无效的 RPC 协议序列。\n"
 
@@ -6118,7 +6091,6 @@ msgid "No bindings.\n"
 msgstr "无绑定。\n"
 
 #: winerror.mc:3026
-#, fuzzy
 msgid "No protocol sequences.\n"
 msgstr "无协议序列。\n"
 
@@ -6265,7 +6237,7 @@ msgstr "无更多成员。\n"
 #: winerror.mc:3206
 #, fuzzy
 msgid "Not all objects unexported.\n"
-msgstr "有的对象已导出。\n"
+msgstr "并非所有的对象都已导出。\n"
 
 #: winerror.mc:3211
 msgid "Interface not found.\n"
@@ -6565,7 +6537,6 @@ msgid "Invalid pipe object.\n"
 msgstr "无效的管道对象。\n"
 
 #: winerror.mc:3566
-#, fuzzy
 msgid "Wrong pipe order.\n"
 msgstr "管道顺序错误。\n"
 
@@ -7112,7 +7083,6 @@ msgid "link"
 msgstr "链接"
 
 #: oleacc.rc:62
-#, fuzzy
 msgid "help balloon"
 msgstr "帮助气球"
 
@@ -7190,7 +7160,6 @@ msgid "dial"
 msgstr "表盘"
 
 #: oleacc.rc:81
-#, fuzzy
 msgid "hot key field"
 msgstr "热键输入框"
 
@@ -9312,7 +9281,6 @@ msgid "Authentication Method Not Supported"
 msgstr "不支持的认证方式"
 
 #: wldap32.rc:38
-#, fuzzy
 msgid "Strong Authentication Required"
 msgstr "需要强认证"
 
@@ -9406,7 +9374,6 @@ msgid "Unavailable"
 msgstr "不可用"
 
 #: wldap32.rc:83
-#, fuzzy
 msgid "Unwilling To Perform"
 msgstr "拒绝执行"
 
@@ -9621,7 +9588,6 @@ msgid "Clock"
 msgstr "时钟"
 
 #: cmd.rc:40
-#, fuzzy
 msgid ""
 "CALL <batchfilename> is used within a batch file to execute commands from\n"
 "another batch file. When the batch file exits, control returns to the file\n"
@@ -9635,7 +9601,7 @@ msgstr ""
 "当批处理文件存在时，控制器将返回到调用它的文件。CALL 可为要调用的程序\n"
 "提供参数。\n"
 "\n"
-"该命令将切换到，调用的程序中创建的环境变量等将由调用者继承。\n"
+"对默认目录的修改，调用的程序中创建的环境变量等将由调用者继承。\n"
 
 #: cmd.rc:44
 msgid ""
@@ -9998,13 +9964,12 @@ msgid "TITLE <string> sets the window title for the cmd window.\n"
 msgstr "TITLE <字符串> 可设置 cmd 窗口的标题。\n"
 
 #: cmd.rc:244
-#, fuzzy
 msgid ""
 "TYPE <filename> copies <filename> to the console device (or elsewhere if\n"
 "redirected). No check is made that the file is readable text.\n"
 msgstr ""
-"TYPE <文件名> 可将 <文件名> 复制到控制台设别（在重定向后复制到别处）。\n"
-"不进行任何检查，因此文件是可读文本。\n"
+"TYPE <文件名> 将 <文件名> 复制到控制台设备（在重定向后复制到别处）。\n"
+"此程序不会检查文件是否是可读文本。\n"
 "\n"
 
 #: cmd.rc:253
@@ -10031,7 +9996,7 @@ msgstr "VER 显示您正在运行的 cmd 的版本。\n"
 
 #: cmd.rc:259
 msgid "VOL shows the volume label of a disk device.\n"
-msgstr ""
+msgstr "VOL 显示磁盘设备的卷标\n"
 
 #: cmd.rc:263
 msgid ""
@@ -10053,7 +10018,7 @@ msgstr ""
 msgid ""
 "PUSHD <directory> saves the current directory onto a stack, and then\n"
 "changes the current directory to the supplied one.\n"
-msgstr ""
+msgstr "PUSHD <目录> 将当前目录保存到栈，然后切换到所提供的目录。\n"
 
 #: cmd.rc:278
 msgid "POPD changes current directory to the last one saved with PUSHD.\n"
@@ -10100,7 +10065,7 @@ msgstr ""
 msgid ""
 "EXIT terminates the current command session and returns to the operating\n"
 "system or shell from which you invoked cmd.\n"
-msgstr ""
+msgstr "EXIT 结束当前命令会话并返回操作系统或者调用 CMD 的命令壳。\n"
 
 #: cmd.rc:351
 msgid ""
@@ -10164,7 +10129,7 @@ msgstr ""
 
 #: cmd.rc:357
 msgid "No open command associated with file type '%1'\n"
-msgstr ""
+msgstr "没有与文件类型 '%1' 相关联的打开命令\n"
 
 #: cmd.rc:358
 msgid "Overwrite %1?"
@@ -10180,7 +10145,7 @@ msgstr ""
 
 #: cmd.rc:362
 msgid "Argument missing\n"
-msgstr ""
+msgstr "缺少参数\n"
 
 #: cmd.rc:363
 msgid "Syntax error\n"
@@ -10233,25 +10198,29 @@ msgstr "删除 %1？"
 
 #: cmd.rc:376
 msgid "Echo is %1\n"
-msgstr ""
+msgstr "Echo 处于 %1 状态\n"
 
 #: cmd.rc:377
 msgid "Verify is %1\n"
-msgstr ""
+msgstr "Verify 处于 %1 状态\n"
 
 #: cmd.rc:378
 msgid "Verify must be ON or OFF\n"
 msgstr ""
+"Verify 只能是开启 (ON) 或关闭 (OFF) 状态\n"
+" \n"
 
 #: cmd.rc:379
 msgid "Parameter error\n"
-msgstr ""
+msgstr "参数错误\n"
 
 #: cmd.rc:380
 msgid ""
 "Volume Serial Number is %1!04x!-%2!04x!\n"
 "\n"
 msgstr ""
+"卷的序列号是 %1!04x!-%2!04x!\n"
+"\n"
 
 #: cmd.rc:381
 msgid "Volume label (11 characters, <Enter> for none)?"
@@ -10304,15 +10273,15 @@ msgstr "无法将 '%1' 识别为内部或外部命令，或者批处理脚本\n"
 
 #: cmd.rc:393
 msgid "Division by zero error.\n"
-msgstr ""
+msgstr "被零除错误。\n"
 
 #: cmd.rc:394
 msgid "Expected an operand.\n"
-msgstr ""
+msgstr "期望一个操作数。\n"
 
 #: cmd.rc:395
 msgid "Expected an operator.\n"
-msgstr ""
+msgstr "期望一个操作符\n"
 
 #: cmd.rc:396
 msgid "Mismatch in parentheses.\n"
@@ -10332,7 +10301,7 @@ msgstr "DirectX 诊断工具"
 
 #: dxdiag.rc:31
 msgid "Usage: dxdiag [/whql:off | /whql:on] [/t filename | /x filename]"
-msgstr ""
+msgstr "用法: dxdiag [/whql:off | /whql:on] [/t 文件名 | /x 文件名]"
 
 #: explorer.rc:31
 msgid "Wine Explorer"
@@ -10352,13 +10321,13 @@ msgstr ""
 
 #: hostname.rc:31
 msgid "Error: Invalid option '%c'.\n"
-msgstr ""
+msgstr "错误: 无效的选项 '%c'。\n"
 
 #: hostname.rc:32
 msgid ""
 "Error: Setting the system hostname is not possible with the hostname "
 "utility.\n"
-msgstr ""
+msgstr "错误: 无法使用 hostname 工具设置系统的主机名。\n"
 
 #: ipconfig.rc:30
 msgid "Usage: ipconfig [ /? | /all ]\n"
@@ -10366,7 +10335,7 @@ msgstr "用法: ipconfig [ /? | /all ]\n"
 
 #: ipconfig.rc:31
 msgid "Error: Unknown or invalid command line parameters specified\n"
-msgstr ""
+msgstr "错误: 指定的命令行选项未知或无效。\n"
 
 #: ipconfig.rc:32
 msgid "%1 adapter %2\n"
@@ -10390,7 +10359,7 @@ msgstr "主机名"
 
 #: ipconfig.rc:38
 msgid "Node type"
-msgstr ""
+msgstr "节点类型"
 
 #: ipconfig.rc:39
 msgid "Broadcast"
@@ -10410,7 +10379,7 @@ msgstr "混合"
 
 #: ipconfig.rc:43
 msgid "IP routing enabled"
-msgstr ""
+msgstr "IP 路由已启用"
 
 #: ipconfig.rc:45
 msgid "Physical address"
@@ -11454,6 +11423,7 @@ msgid "Icons (*.ico)"
 msgstr "图标 (*.ico)"
 
 #: reg.rc:35
+#, fuzzy
 msgid ""
 "Usage:\n"
 "  REG [operation] [parameters]\n"
@@ -11465,6 +11435,12 @@ msgid ""
 "  REG [operation] /?\n"
 "\n"
 msgstr ""
+"用法:\n"
+"  REG [操作] [参数]\n"
+"\n"
+"支持的操作:\n"
+"  ADD | DELETE | QUERY\n"
+"\n"
 
 #: reg.rc:36
 msgid ""
@@ -11486,15 +11462,15 @@ msgstr "操作完成\n"
 
 #: reg.rc:40
 msgid "reg: Invalid key name\n"
-msgstr ""
+msgstr "reg: 无效的键名\n"
 
 #: reg.rc:41
 msgid "reg: Invalid command line parameters\n"
-msgstr ""
+msgstr "reg: 无效的命令行参数\n"
 
 #: reg.rc:42
 msgid "reg: Unable to access remote machine\n"
-msgstr ""
+msgstr "reg: 无法访问远程设备\n"
 
 #: reg.rc:43
 msgid ""
@@ -11503,7 +11479,7 @@ msgstr ""
 
 #: reg.rc:44
 msgid "reg: Unsupported registry data type [%1]\n"
-msgstr ""
+msgstr "reg: 不受支持的数据类型 [%1]\n"
 
 #: reg.rc:45
 msgid "reg: The option [/d] must be followed by a valid integer\n"
@@ -11515,15 +11491,15 @@ msgstr ""
 
 #: reg.rc:47
 msgid "reg: Unhandled registry data type [/t 0x%1!x!, /d %2]\n"
-msgstr ""
+msgstr "reg: 未能处理的注册表数据类型 [/t 0x%1!x!, /d %2]\n"
 
 #: reg.rc:48
 msgid "The registry value '%1' already exists. Do you want to overwrite it?"
-msgstr ""
+msgstr "注册表值 '%1' 已经存在。您想要覆盖它吗?"
 
 #: reg.rc:52
 msgid "The registry operation was cancelled\n"
-msgstr ""
+msgstr "注册表操作已经取消\n"
 
 #: reg.rc:53 regedit.rc:204
 msgid "(Default)"
@@ -11531,15 +11507,15 @@ msgstr "(默认)"
 
 #: reg.rc:54
 msgid "Are you sure you want to delete the registry value '%1'?"
-msgstr ""
+msgstr "您真的要删除注册表键值 '%1' 吗?"
 
 #: reg.rc:55
 msgid "Are you sure you want to delete all registry values in '%1'?"
-msgstr ""
+msgstr "您真的要删除 '%1' 下的所有注册表键值吗?"
 
 #: reg.rc:56
 msgid "Are you sure you want to delete the registry key '%1'?"
-msgstr ""
+msgstr "您真的要删除注册表键 '%1' 吗?"
 
 #: reg.rc:57
 msgid "reg: The option [/d] must be followed by a valid string\n"
@@ -11827,11 +11803,11 @@ msgstr ""
 
 #: regedit.rc:361
 msgid "Type \"regedit /?\" for help.\n"
-msgstr ""
+msgstr "输入 \"regedit /?\" 来获得帮助\n"
 
 #: regedit.rc:362
 msgid "regedit: No filename was specified.\n"
-msgstr ""
+msgstr "regedit: 没有指定文件名。\n"
 
 #: regedit.rc:363
 msgid "regedit: No registry key was specified for removal.\n"
@@ -11839,61 +11815,61 @@ msgstr ""
 
 #: regedit.rc:364
 msgid "regedit: The file '%1' was not found.\n"
-msgstr ""
+msgstr "regedit: 找不到文件 '%1'。\n"
 
 #: regedit.rc:365
 msgid "regedit: Unable to open the file '%1'.\n"
-msgstr ""
+msgstr "regedit: 无法打开文件 '%1'。\n"
 
 #: regedit.rc:366
 msgid "regedit: Unhandled action.\n"
-msgstr ""
+msgstr "regedit: 无法处理的操作。\n"
 
 #: regedit.rc:367
 msgid "regedit: Out of memory! (%1!S!, line %2!u!)\n"
-msgstr ""
+msgstr "regedit: 内存不足! (%1!S!, 行 %2!u!)\n"
 
 #: regedit.rc:368
 msgid "regedit: Invalid hexadecimal value.\n"
-msgstr ""
+msgstr "regedit: 无效的十六进制值。\n"
 
 #: regedit.rc:369
 msgid ""
 "regedit: Unable to convert hexadecimal data. An invalid value was "
 "encountered at '%1'.\n"
-msgstr ""
+msgstr "regedit: 无法转换十六进制数据。在 '%1' 处发现无效值。\n"
 
 #: regedit.rc:370
 msgid "regedit: Unrecognized escape sequence [\\%1!c!]\n"
-msgstr ""
+msgstr "regedit: 无法识别的转义序列 [\\%1!c!]\n"
 
 #: regedit.rc:371
 msgid "regedit: Unsupported registry data type [%1]\n"
-msgstr ""
+msgstr "regedit: 不受支持的注册表数据类型 [%1]\n"
 
 #: regedit.rc:372
 msgid "regedit: Unexpected end of line in '%1'.\n"
-msgstr ""
+msgstr "regedit: '%1' 中存在未预期的行尾。\n"
 
 #: regedit.rc:373
 msgid "regedit: The line '%1' was not recognized.\n"
-msgstr ""
+msgstr "regedit: 行 '%1' 无法被识别。\n"
 
 #: regedit.rc:374
 msgid "regedit: Unable to add the registry value '%1' to '%2'.\n"
-msgstr ""
+msgstr "regedit: 无法向 '%2' 添加注册表值 '%1'。\n"
 
 #: regedit.rc:375
 msgid "regedit: Unable to open the registry key '%1'.\n"
-msgstr ""
+msgstr "regedit: 无法打开注册表键 '%1'。\n"
 
 #: regedit.rc:376
 msgid "regedit: Unsupported registry data type [%1] encountered in '%2'.\n"
-msgstr ""
+msgstr "regedit: 在 '%2' 遇到不受支持的注册表数据类型 [%1]。\n"
 
 #: regedit.rc:377
 msgid "regedit: The registry value '%1' will be exported as binary data.\n"
-msgstr ""
+msgstr "regedit: 注册表值 '%1' 将会被导出为二进制数据。\n"
 
 #: regedit.rc:378
 msgid "regedit: Incorrect registry class specification in '%1'.\n"
@@ -11902,7 +11878,7 @@ msgstr ""
 #: regedit.rc:379
 msgid ""
 "regedit: Unable to export '%1'. The specified registry key was not found.\n"
-msgstr ""
+msgstr "regedit: 无法导出 '%1'。未找到指定的注册表键。\n"
 
 #: regedit.rc:380
 msgid "regedit: Unable to delete the registry class '%1'.\n"
@@ -12043,6 +12019,10 @@ msgid ""
 "Provides DLL registration services.\n"
 "\n"
 msgstr ""
+"Wine DLL 注册工具\n"
+"\n"
+"提供 DLL 注册服务。\n"
+"\n"
 
 #: regsvr32.rc:40
 msgid ""
@@ -12057,52 +12037,62 @@ msgid ""
 "  [/n]  Do not call DllRegisterServer. This option must be used with [/i].\n"
 "\n"
 msgstr ""
+"用法:\n"
+"  regsvr32 [/u] [/s] [/n] [/i[:命令行]] Dll 名称\n"
+"\n"
+"选项:\n"
+"  [/u] 解除注册一个服务。\n"
+"  [/s] 安静模式 (不显示任何信息)。\n"
+"  [/i] 调用 DllInstall, 并传递一个可选的 [命令行]。\n"
+"\t当使用 [/u] 选项时，DllInstall 将会运行在卸载模式下。\n"
+"  [/n] 不要调用 DllRegisterServer。此选项必须与 [/i] 一起使用。\n"
+"\n"
 
 #: regsvr32.rc:41
 msgid ""
 "regsvr32: Invalid or unrecognized switch [%1]\n"
 "\n"
-msgstr ""
+msgstr "regsvr32: 无效或未知的开关 [%1]\n"
 
 #: regsvr32.rc:42
 msgid "regsvr32: Failed to load DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 无法加载 DLL '%1'\n"
 
 #: regsvr32.rc:43
 msgid "regsvr32: '%1!S!' not implemented in DLL '%2'\n"
-msgstr ""
+msgstr "regsvr32: '%1!S!' 并没有在 DLL '%2' 中实现\n"
 
 #: regsvr32.rc:44
 msgid "regsvr32: Failed to register DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 无法注册 DLL '%1'\n"
 
 #: regsvr32.rc:45
 msgid "regsvr32: Successfully registered DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 成功注册了 DLL '%1'\n"
 
 #: regsvr32.rc:46
 msgid "regsvr32: Failed to unregister DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 无法解除注册 DLL '%1'\n"
 
 #: regsvr32.rc:47
 msgid "regsvr32: Successfully unregistered DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 成功解除注册 DLL '%1'\n"
 
 #: regsvr32.rc:48
 msgid "regsvr32: Failed to install DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 无法安装 DLL '%1'\n"
 
 #: regsvr32.rc:49
 msgid "regsvr32: Successfully installed DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 成功安装 DLL '%1'\n"
 
 #: regsvr32.rc:50
 msgid "regsvr32: Failed to uninstall DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 无法卸载 DLL '%1'\n"
 
 #: regsvr32.rc:51
 msgid "regsvr32: Successfully uninstalled DLL '%1'\n"
-msgstr ""
+msgstr "regsvr32: 成功卸载 DLL '%1'\n"
 
 #: start.rc:58
 msgid ""
@@ -12976,16 +12966,16 @@ msgstr ""
 
 #: uninstaller.rc:31
 msgid "uninstaller: The application with GUID '%1' was not found\n"
-msgstr ""
+msgstr "uninstaller: 无法找到 GUID 为 '%1' 的应用程序\n"
 
 #: uninstaller.rc:32
 msgid ""
 "uninstaller: The option '--remove' must be followed by an application GUID\n"
-msgstr ""
+msgstr "uninstaller: 选项 '--remove' 必须跟随一个应用程序 GUID\n"
 
 #: uninstaller.rc:33
 msgid "uninstaller: Invalid option [%1]\n"
-msgstr ""
+msgstr "uninstaller: 无效选项 [%1]\n"
 
 #: uninstaller.rc:35
 msgid ""
@@ -12994,6 +12984,10 @@ msgid ""
 "Uninstall applications from the current Wine prefix.\n"
 "\n"
 msgstr ""
+"Wine 应用程序卸载器\n"
+"\n"
+"从当前 Wine 前缀卸载应用程序。\n"
+"\n"
 
 #: uninstaller.rc:43
 msgid ""
@@ -13008,6 +13002,16 @@ msgid ""
 "  [no option]       Launch the graphical version of this program.\n"
 "\n"
 msgstr ""
+"用法:\n"
+"  uninstaller [选项]\n"
+"\n"
+"选项:\n"
+"  --help\t    显示此帮助信息。\n"
+"  --list\t    列出所有安装在此 Wine 前缀的应用程序。\n"
+"  --remove\t    卸载指定的应用程序。\n"
+"\t\t    使用 '--list' 来获得应用程序的 GUID。\n"
+"  [不指定任何选项]       启动此程序的图形界面。\n"
+"\n"
 
 #: view.rc:36
 msgid "&Pan"
@@ -14783,6 +14787,35 @@ msgid ""
 "\t\tthan source.\n"
 "\n"
 msgstr ""
+"XCOPY - 将源文件或目录拷贝到目标位置。\n"
+"\n"
+"语法:\n"
+"XCOPY 源 [目标] [/I] [/S] [/Q] [/F] [/L] [/W] [/T] [/N] [/U] [/R] [/H] \n"
+"\t     [/C] [/P] [/A] [/M] [/E] [/D] [/Y] [/-Y]\n"
+"\n"
+"说明:\n"
+"[/I] 如果目标位置不存在，并且操作会拷贝两个或更多的文件，就假设目标\n"
+"\t是目录。\n"
+"[/S] 拷贝目录和子目录。\n"
+"[/E] 拷贝目录和子目录，也包括空目录。\n"
+"[/Q] 安静模式，这将不会在拷贝时列出项目名字。\n"
+"[/F] 拷贝时显示完整的源和目标的名字。\n"
+"[/L] 演习模式，仅显示将会被拷贝的项目名字。\n"
+"[/W] 在拷贝前进行提示。\n"
+"[/T] 不拷贝文件，仅创建空的目录结构。\n"
+"[/Y] 禁用覆盖文件前的提示。\n"
+"[/-Y] 启用覆盖文件前的提示。\n"
+"[/P] 拷贝每一个源文件前进行提示。\n"
+"[/N] 使用短名字拷贝。\n"
+"[/U] 只拷贝在目的位置存在的文件。\n"
+"[/R] 覆盖只读文件。\n"
+"[/H] 拷贝时包括隐藏和系统文件。\n"
+"[/C] 即使拷贝时出现错误，仍然继续。\n"
+"[/A] 只拷贝有归档属性的文件。\n"
+"[/M] 只拷贝有归档属性的文件，拷贝后移除归档属性。\n"
+"[/D | /D:m-d-y] 拷贝在指定时间后创建或修改的文件。\n"
+"\t\t如果没有提供日期，将会只拷贝目标位置中比源位置旧的文件。\n"
+"\n"
 
 #, fuzzy
 #~| msgid "&Object"
