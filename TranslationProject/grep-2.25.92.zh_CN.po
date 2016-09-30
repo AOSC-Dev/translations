@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: grep 2.23.7\n"
 "Report-Msgid-Bugs-To: bug-grep@gnu.org\n"
 "POT-Creation-Date: 2016-09-15 19:47-0700\n"
-"PO-Revision-Date: 2016-09-24 23:52+0800\n"
-"Last-Translator: Dingyuan Wang <abcdoyle888@gmail.com>\n"
+"PO-Revision-Date: 2016-09-30 16:48-0400\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Bugs: Report translation errors to the Language-Team address.\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 1.8.7\n"
 
 #: lib/argmatch.c:134
 #, c-format
@@ -52,7 +52,7 @@ msgstr "字符类的语法是 [[:space:]]，而非 [:space:]"
 
 #: lib/dfa.c:1198
 msgid "unfinished \\ escape"
-msgstr "未做好 \\ 转义"
+msgstr "未结束的 \\ 转义"
 
 #: lib/dfa.c:1359
 msgid "invalid content of \\{\\}"
@@ -81,7 +81,7 @@ msgstr "未知的系统错误"
 #: lib/getopt.c:575 lib/getopt.c:604
 #, c-format
 msgid "%s: option '%s' is ambiguous; possibilities:"
-msgstr "%s: 选项 '%s' 有歧义；可能原因："
+msgstr "%s: 选项 '%s' 有歧义；可能指代："
 
 #: lib/getopt.c:619
 #, c-format
@@ -136,7 +136,7 @@ msgstr "%s: 选项 '-W %s' 不允许带参数\n"
 #: lib/getopt.c:1043 lib/getopt.c:1061
 #, c-format
 msgid "%s: option '-W %s' requires an argument\n"
-msgstr "%s: 选项 '-W %s' 必须带参数\n"
+msgstr "%s: 选项 '-W %s' 必须带个参数\n"
 
 #: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34 src/pcresearch.c:340
 #, c-format
@@ -153,6 +153,7 @@ msgstr "无法记录当前工作目录"
 msgid "failed to return to initial working directory"
 msgstr "无法返回起始工作目录"
 
+#  看好了，suitable for the locale。简体中文是首先双引号……
 #. TRANSLATORS:
 #. Get translations for open and closing quotation marks.
 #. The message catalog should translate "`" to a left
@@ -176,11 +177,11 @@ msgstr "无法返回起始工作目录"
 #. and use glyphs suitable for your language.
 #: lib/quotearg.c:347
 msgid "`"
-msgstr "‘"
+msgstr "“"
 
 #: lib/quotearg.c:348
 msgid "'"
-msgstr "’"
+msgstr "”"
 
 #: lib/regcomp.c:135
 msgid "Success"
@@ -204,7 +205,7 @@ msgstr "无效的字符类名"
 
 #: lib/regcomp.c:150
 msgid "Trailing backslash"
-msgstr "多余的反斜杠"
+msgstr "结尾多余的反斜杠"
 
 #: lib/regcomp.c:153
 msgid "Invalid back reference"
@@ -301,7 +302,7 @@ msgstr "作者 %s 和 %s。\n"
 #: lib/version-etc.c:110
 #, c-format
 msgid "Written by %s, %s, and %s.\n"
-msgstr "作者 %s, %s 及 %s。\n"
+msgstr "作者 %s、%s 及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -312,7 +313,7 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
+"作者 %s、%s、%s\n"
 "及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -324,8 +325,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
-"%s, 及 %s。\n"
+"作者 %s、%s、%s、\n"
+"%s 及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -336,8 +337,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, and %s.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
-"%s, %s, 及 %s。\n"
+"作者 %s、%s、%s、\n"
+"%s、%s 及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -348,8 +349,8 @@ msgid ""
 "Written by %s, %s, %s,\n"
 "%s, %s, %s, and %s.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
-"%s, %s, %s, 及 %s。\n"
+"作者 %s、%s、%s、\n"
+"%s、%s、%s 及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -361,8 +362,8 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "and %s.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
-"%s, %s, %s, %s,\n"
+"作者 %s、%s、%s、\n"
+"%s、%s、%s、%s、\n"
 "及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
@@ -375,9 +376,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, and %s.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
-"%s, %s, %s, %s,\n"
-"%s, 及 %s。\n"
+"作者 %s、%s、%s、\n"
+"%s、%s、%s、%s、\n"
+"%s 及 %s。\n"
 
 #. TRANSLATORS: Each %s denotes an author name.
 #. You can use line breaks, estimating that each author name occupies
@@ -389,9 +390,9 @@ msgid ""
 "%s, %s, %s, %s,\n"
 "%s, %s, and others.\n"
 msgstr ""
-"作者 %s, %s, %s,\n"
-"%s, %s, %s, %s,\n"
-"%s, %s, 以及其他人。\n"
+"作者 %s、%s、%s、\n"
+"%s、%s、%s、%s、\n"
+"%s、%s 等人。\n"
 
 #. TRANSLATORS: The placeholder indicates the bug-reporting address
 #. for this package.  Please add _another line_ saying
@@ -404,7 +405,8 @@ msgid ""
 "Report bugs to: %s\n"
 msgstr ""
 "\n"
-"请将错误报告给: %s。翻译问题请报告至:Chinese (simplified) <i18n-zh@googlegroups.com>。\n"
+"请将错误报告给：%s。\n"
+"请将翻译问题报告给：<i18n-zh@googlegroups.com>。\n"
 
 #: lib/version-etc.c:247
 #, c-format
@@ -524,9 +526,9 @@ msgid ""
 "  -G, --basic-regexp        PATTERN is a basic regular expression (BRE)\n"
 "  -P, --perl-regexp         PATTERN is a Perl regular expression\n"
 msgstr ""
-"  -E, --extended-regexp     PATTERN 是一个扩展的正则表达式 (缩写为 ERE)\n"
+"  -E, --extended-regexp     PATTERN 是一个扩展正则表达式 (ERE)\n"
 "  -F, --fixed-strings       PATTERN 是一组由断行符分隔的字符串\n"
-"  -G, --basic-regexp        PATTERN 是一个基本正则表达式 (缩写为 BRE)\n"
+"  -G, --basic-regexp        PATTERN 是一个基本正则表达式 (BRE)\n"
 "  -P, --perl-regexp         PATTERN 是一个 Perl 正则表达式\n"
 
 #: src/grep.c:1918
