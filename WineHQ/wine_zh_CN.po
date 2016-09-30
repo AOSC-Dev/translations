@@ -11,14 +11,15 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-08-11 19:49+0800\n"
-"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
-"Language-Team: Chinese (PRC) <https://github.com/AOSC-Dev/translations>\n"
+"PO-Revision-Date: 2016-08-30 13:17+0800\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.8\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: appwiz.rc:58
 msgid "Install/Uninstall"
@@ -2468,8 +2469,9 @@ msgid "Field"
 msgstr "域"
 
 #: cryptui.rc:48
+#, fuzzy
 msgid "Value"
-msgstr "亮度"
+msgstr "值"
 
 #: cryptui.rc:49 cryptui.rc:102 cryptui.rc:108
 msgid "<All>"
@@ -3024,6 +3026,7 @@ msgid "Hangul(Johab)"
 msgstr "韩语 (Johab)"
 
 #: gdi32.rc:43
+#, fuzzy
 msgid "Symbol"
 msgstr "符号"
 
@@ -10308,8 +10311,9 @@ msgid "Wine Explorer"
 msgstr "Wine 资源管理器"
 
 #: explorer.rc:33
+#, fuzzy
 msgid "Start"
-msgstr "起点"
+msgstr "启动"
 
 #: explorer.rc:34 winefile.rc:36
 msgid "&Run..."
