@@ -34,7 +34,7 @@ project: language (locale code), number-of-non-finished, percentage-of-completio
 ```
 
 You should also read our
-[zh_CN L10n Guide](https://repo.anthonos.org/misc/l10n/zh_CN_l10n.pdf).
+[zh_CN L10n Guide](https://repo.aosc.io/misc/l10n/zh_CN_l10n.pdf).
 
 
 Pull Requests
