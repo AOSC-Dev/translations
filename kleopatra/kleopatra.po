@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-08-05 10:17+0000\n"
-"PO-Revision-Date: 2016-11-13 02:40-0700\n"
+"PO-Revision-Date: 2016-11-20 12:17-0700\n"
 "Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese <kde-china@kde.org>\n"
 "Language: zh_CN\n"
@@ -673,12 +673,7 @@ msgstr ""
 
 #: src/commands/exportpaperkeycommand.cpp:135
 #: src/commands/exportsecretkeycommand.cpp:156
-#, fuzzy, kde-format
-#| msgctxt "@info"
-#| msgid ""
-#| "<para>An error occurred while trying to export the secret certificate.</"
-#| "para> <para>The output from <command>%1</command> was: <message>%2</"
-#| "message></para>"
+#, kde-format
 msgctxt "@info"
 msgid ""
 "<para>An error occurred while trying to export the secret key.</para> "
@@ -1683,6 +1678,9 @@ msgid ""
 "manually select what to do with the files now.<nl/>If they contain signed or "
 "encrypted data please report a bug (see Help->Report Bug)."
 msgstr ""
+"在一个或多个文件中找不到加密过或签名过的数据。 <nl/> 你现在需要手动选择怎么处"
+"理这些文件。 <nl/> 如果这些文件真的包含签名或加密数据，请回报错误。（详见 帮"
+"助->回报错误）"
 
 #: src/crypto/autodecryptverifyfilescontroller.cpp:181 src/utils/output.cpp:454
 #, kde-format
@@ -1721,7 +1719,7 @@ msgstr "无法打开并读取文件“%1”。"
 msgid ""
 "The file <filename>%1</filename> contains certificates and can't be "
 "decrypted or verified."
-msgstr ""
+msgstr "文件 <filename>%1</filename> 包含无法验证或解密的证书。"
 
 #: src/crypto/autodecryptverifyfilescontroller.cpp:238
 #, kde-format
@@ -3059,6 +3057,12 @@ msgid ""
 "<li>Photos increase the size of certificates.</li>\n"
 "</ul>"
 msgstr ""
+"<p> 目前 Kleopatra 并不支持显示在证书中嵌入的照片，也不支持向证书中添加照片。"
+"这主要是因为下面几个原因：</p>\n"
+"<ul>\n"
+"<li> 照片给人一种虚假的安全感 </li>\n"
+"<li> 照片会增加证书的大小 </li>\n"
+"</ul>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, certificationsTab)
 #: src/dialogs/certificatedetailsdialog.ui:150
@@ -4042,7 +4046,7 @@ msgstr "套接字名称无效！"
 #, kde-format
 msgid ""
 "Could not allocate resources to connect to Kleopatra UI server at %1: %2"
-msgstr ""
+msgstr "无法为连接到位于 %1 的 Kleopatra UI 服务器分配所需的资源: %2"
 
 #: src/libkleopatraclient/core/command.cpp:633
 #, kde-format
@@ -4052,7 +4056,7 @@ msgstr "无法连接到位于 %1 的 Kleopatra 界面服务器：%2"
 #: src/libkleopatraclient/core/command.cpp:646
 #, kde-format
 msgid "Could not get the process-id of the Kleopatra UI server at %1: %2"
-msgstr ""
+msgstr "无法获取位于 %1 的 Kleopatra UI 服务器的进程 ID: %2"
 
 #: src/libkleopatraclient/core/command.cpp:676
 #, fuzzy, kde-format
@@ -4460,6 +4464,9 @@ msgid ""
 "timing. You can also move this window around with your mouse, or start some "
 "disk-intensive application."
 msgstr ""
+"创建密钥的过程中需要大量的随机数。你可以通过一些动作加速这个过程，比如在下面"
+"的文本输入区中输入一些乱七八糟的东西。文本本身并不重要，我们需要的是每个字符"
+"输入的时间间隔。还如，你可以移动这个窗口，或者打开一些很吃硬盘的应用程序。"
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:345
 msgid "new email"
@@ -4528,7 +4535,7 @@ msgstr "密钥对已成功创建"
 msgid ""
 "Your new key pair was created successfully. Please find details on the "
 "result and some suggested next steps below."
-msgstr ""
+msgstr "你的新密钥对已经成功生成。请仔细查看下方的详细结果和推荐的后续步骤。"
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:940
 msgctxt "@title"
