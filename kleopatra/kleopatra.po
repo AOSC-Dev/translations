@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-08-05 10:17+0000\n"
-"PO-Revision-Date: 2016-11-20 12:17-0700\n"
+"PO-Revision-Date: 2016-11-24 12:46-0700\n"
 "Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese <kde-china@kde.org>\n"
 "Language: zh_CN\n"
@@ -1095,6 +1095,10 @@ msgid ""
 "complete, depending on your network connection, and the number of "
 "certificates to check.</para> <para>Are you sure you want to continue?</para>"
 msgstr ""
+"<para>刷新 OpenPGP 证书将会重新下载所有证书并检查这些证书的最新吊销状态。</"
+"para><para>这将会占用较大网络带宽，所以可能会影响您和其他人的网络使用。取决于"
+"您的网络状况和证书数量，此操作可能需要一小时或数小时才能完成。</para> <para>"
+"您确定要继续吗？</para>"
 
 #: src/commands/refreshopenpgpcertscommand.cpp:119
 msgctxt "@title:window"
@@ -3132,7 +3136,7 @@ msgstr "转储"
 #: src/dialogs/certificatedetailsdialog.ui:327
 msgid ""
 "This is a dump of all information the backend has about this certificate:"
-msgstr ""
+msgstr "这是后端所知道的关于此证书的所有信息："
 
 #: src/dialogs/certificateselectiondialog.cpp:115
 msgid "Please select one or more of the following certificates:"
@@ -3298,6 +3302,8 @@ msgid ""
 "These certificates will be deleted even though you did <emphasis>not</"
 "emphasis><nl/> explicitly select them (<a href=\"whatsthis://\">Why?</a>):"
 msgstr ""
+"这些证书将会被一同删除——即使您 <emphasis>并没有</emphasis><nl/> 要求删除它们 "
+"(<a href=\"whatsthis://\">为什么？</a>):"
 
 #: src/dialogs/deletecertificatesdialog.cpp:138
 msgctxt "@info:whatsthis"
@@ -3327,6 +3333,8 @@ msgid_plural ""
 "material, which is needed to decrypt past communication encrypted to the "
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
+"您要删除的证书是您自己的证书。您自己的证书包含了用于解密过去消息的私钥，所以"
+"您不应该删除这些证书。"
 
 #: src/dialogs/deletecertificatesdialog.cpp:230
 msgid ""
@@ -3338,6 +3346,8 @@ msgid_plural ""
 "key material, which is needed to decrypt past communication encrypted to the "
 "certificate, and should therefore not be deleted."
 msgstr[0] ""
+"您要删除的证书中存在您自己的证书。您自己的证书包含了用于解密过去消息的私钥，"
+"所以您不应该删除您自己的证书。"
 
 #: src/dialogs/deletecertificatesdialog.cpp:245
 msgid "Secret Key Deletion"
@@ -3500,12 +3510,12 @@ msgid "Change Trust Level of %1"
 msgstr "更改 %1 的信任等级"
 
 #: src/dialogs/ownertrustdialog.cpp:130
-#, fuzzy, kde-format
+#, kde-format
 msgctxt "@info"
 msgid ""
 "How much do you trust certifications made by <b>%1</b> to correctly verify "
 "authenticity of certificates?"
-msgstr "您有多大的把握相信由 <b>%1</b> 创建的证书能正确地表明证书的真实性？"
+msgstr "您有多大的把握确信由 <b>%1</b> 创建的证书能正确地表明证书的真实性？"
 
 #. i18n: ectx: property (text), widget (QRadioButton, unknownRB)
 #: src/dialogs/ownertrustdialog.ui:29
@@ -3590,6 +3600,9 @@ msgid ""
 "certification at this trust level, so assign this much trust with care.</"
 "font>"
 msgstr ""
+"<font size=\"-1\">请仅在您非常信任证书并且验证环节非常到位的情况下选择此项。"
+"<br>在这个信任级别下，这些证书仅需有一个在此信任级别下的证书即可生效。因此请"
+"谨慎分配这种级别的信任！</font>"
 
 #. i18n: ectx: property (text), widget (QRadioButton, ultimateRB)
 #: src/dialogs/ownertrustdialog.ui:263
@@ -3610,6 +3623,10 @@ msgid ""
 "<br>Certificates will become valid with just a single certification at this "
 "trust level.</font>"
 msgstr ""
+"<font size=\"-1\">请仅在这是您的证书的情况下选择此项。在默认情况下，如果一个"
+"证书存在绝密密钥的话，就会自动选择这个选项。不过如果您手动导入了这个证书，您"
+"则需要手动调节信任等级。<br>在这个信任等级下，仅需一个在此信任级别的证书即可"
+"生效。</font>"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/dialogs/selectchecklevelwidget.ui:16
@@ -3640,6 +3657,8 @@ msgid ""
 "their certificate, but you have not verified they are actually in possession "
 "of the secret certificate."
 msgstr ""
+"如果您认识这个人，并且问过这个人这个证书是不是他/她的，但是并没有检查这个人是"
+"否拥有对应的绝密证书的话，请选择这个选项。"
 
 #. i18n: ectx: property (text), widget (QRadioButton, checkLevelThoroughlyRB)
 #: src/dialogs/selectchecklevelwidget.ui:98
@@ -3653,6 +3672,8 @@ msgid ""
 "and have verified that they are in possession of the secret key (e.g. by "
 "sending them encrypted mail and asking for it to be decrypted)."
 msgstr ""
+"如果您检查过这个人的身份证件，并证实这个人的确保有绝密密钥 (比如发送加密邮件"
+"并要求对方解密) 的话，请选择这个选项。"
 
 #: src/dialogs/selftestdialog.cpp:111
 msgid "Skipped"
@@ -4021,12 +4042,12 @@ msgstr "没有给 --query 选项指定指纹参数"
 #: src/kleopatraapplication.cpp:340
 #, kde-format
 msgid "Ambiguous commands \"%1\" and \"%2\""
-msgstr ""
+msgstr "存在歧义的命令 \"%1\" 和 \"%2\""
 
 #: src/kleopatraapplication.cpp:346
 #, kde-format
 msgid "No files specified for \"%1\" command"
-msgstr ""
+msgstr "没有为 \"%1\" 命令指定文件"
 
 #: src/kleopatraapplication.cpp:361
 #, kde-format
@@ -5050,6 +5071,9 @@ msgid ""
 "  %1\n"
 "You might want to execute \"gpgconf %3\" on the command line.\n"
 msgstr ""
+"在对 %2 进行 GnuPG 配置自检时发生了错误：\n"
+"  %1\n"
+"您或许需要在终端手动执行 \"gpgconf %3\" 命令。\n"
 
 #: src/selftest/gpgconfcheck.cpp:139
 msgid "Diagnostics:"
@@ -5099,7 +5123,7 @@ msgctxt "@info"
 msgid ""
 "<para>Kleopatra detected the following errors in the libkleopatrarc "
 "configuration:</para>%1"
-msgstr ""
+msgstr "<para>Kleopatra 在 libkleopatrarc 的配置中检测到了以下错误：</para>%1"
 
 #: src/selftest/registrycheck.cpp:62
 msgctxt "@title"
@@ -5120,6 +5144,11 @@ msgid ""
 "<application>EnigMail</application>.</para><para>Keeping the entry might "
 "lead to an old GnuPG backend being used.</para>"
 msgstr ""
+"<para>Kleopatra 在注册表中发现了一个过时的注册表项 (<resource>%1\\%2</"
+"resource>),，这有可能是由早期的 <application>Gpg4win</application> 程序或诸如"
+"<application>WinPT</application> 及 <application>EnigMail</application> 创建"
+"的。</para><para>保留这个注册表项可能会导致程序使用旧版本的 GnuPG 后端。</"
+"para>"
 
 #: src/selftest/registrycheck.cpp:86
 #, kde-format
