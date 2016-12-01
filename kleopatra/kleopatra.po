@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-08-05 10:17+0000\n"
-"PO-Revision-Date: 2016-11-24 12:46-0700\n"
+"PO-Revision-Date: 2016-12-01 13:36-0700\n"
 "Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese <kde-china@kde.org>\n"
 "Language: zh_CN\n"
@@ -1726,9 +1726,9 @@ msgid ""
 msgstr "文件 <filename>%1</filename> 包含无法验证或解密的证书。"
 
 #: src/crypto/autodecryptverifyfilescontroller.cpp:238
-#, kde-format
+#, fuzzy, kde-format
 msgid "Select the file to verify with \"%1\""
-msgstr ""
+msgstr "校验文件/签名"
 
 #: src/crypto/createchecksumscontroller.cpp:88
 msgctxt "@info"
@@ -1804,9 +1804,9 @@ msgid "Calculating total size..."
 msgstr "正在计算总大小..."
 
 #: src/crypto/createchecksumscontroller.cpp:700
-#, kde-format
+#, fuzzy, kde-format
 msgid "Checksumming (%2) in %1"
-msgstr ""
+msgstr "已用字体“%2”替代“%1”"
 
 #: src/crypto/createchecksumscontroller.cpp:713
 #: src/crypto/verifychecksumscontroller.cpp:678
@@ -2871,9 +2871,9 @@ msgid "Cannot find checksums file for file %1"
 msgstr "无法找到文件 %1 的校验和文件"
 
 #: src/crypto/verifychecksumscontroller.cpp:667
-#, kde-format
+#, fuzzy, kde-format
 msgid "Verifying checksums (%2) in %1"
-msgstr ""
+msgstr "正在校验：%1..."
 
 #: src/dialogs/adduseriddialog.cpp:71 src/models/keylistmodel.cpp:265
 #: src/models/useridlistmodel.cpp:80
@@ -3642,8 +3642,9 @@ msgstr "我还未检查过"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/dialogs/selectchecklevelwidget.ui:52
+#, fuzzy
 msgid "Describe semantics here..."
-msgstr ""
+msgstr "在此处打开终端"
 
 #. i18n: ectx: property (text), widget (QRadioButton, checkLevelCasualRB)
 #: src/dialogs/selectchecklevelwidget.ui:62
@@ -3785,10 +3786,10 @@ msgstr ""
 "<p>这张智能卡上有存储两张证书的空间：\n"
 "<ol>\n"
 "<li> 一张普通证书 </li>\n"
-"<li>一张是用于 <em>qualified signatures</em> according to the German "
-"Signaturgesetz</li>\n"
+"<li>A special certificate for making <em>qualified signatures</em> according "
+"to the German Signaturgesetz</li>\n"
 "</ol>\n"
-"您需要分别为这两张证书输入初始 PIN </p>"
+"You need to set initial PINs for both of them.</p>"
 
 #. i18n: ectx: property (text), widget (QLabel, nksLB)
 #: src/dialogs/setinitialpindialog.ui:27
@@ -4101,7 +4102,7 @@ msgstr "执行 %1 失败：%2"
 #, fuzzy, kde-format
 #| msgid "Failed to execute %1: %2"
 msgid "Failed to send recipient %1: %2"
-msgstr "执行 %1 失败：%2"
+msgstr "LoadTypeLib( %1 ) 失败 ($%2!x!)"
 
 #: src/libkleopatraclient/core/command.cpp:711
 #, kde-format
@@ -4679,8 +4680,9 @@ msgstr "密钥类型："
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1636
 #: src/newcertificatewizard/newcertificatewizard.cpp:1646
+#, fuzzy
 msgid "Key Curve:"
-msgstr ""
+msgstr "曲线 (%)："
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1638
 #: src/newcertificatewizard/newcertificatewizard.cpp:1640
