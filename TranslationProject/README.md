@@ -32,11 +32,14 @@ Contact
   - This group is half-active.
     [List](http://groups.google.com/group/i18n-zh)
 - [zh_TW](https://translationproject.org/team/zh_TW.html): *Chinese
-  (Traditonal)*, same thing as `zh_CN`.
-  - This group is seldom active.
+  (Traditonal)*, same broken name.
+  - This group is sometimes active.
     [List](http://lists.linux.org.tw/cgi-bin/mailman/listinfo/zh-l10n)
+  - The community has a home page at [l10n.tw](http://l10n.tw/translate/).
+    This community also handles other l10n tasks, including those for KDE
+    and GNOME.
 - [zh_HK](https://translationproject.org/team/zh_HK.html): *Chinese
-  (Hong Kong)*, finally right.
+  (Hong Kong)*, finally a good name.
   - This group is silent. No mailing lists available.
 - [Coordinators](mailto:coordinator@translationproject.org) are useful if you
   want to do something big. Non-Hostile, rich in protein.
