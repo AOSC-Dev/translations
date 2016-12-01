@@ -25,7 +25,7 @@
 #
 #  3. Typography.
 #     a. Capitalization.  English convensions mangle command names in help text
-#        if it's the first word of the sentense (e.g. `Getopts blah blah...'). 
+#        if it's the first word of the sentense (e.g. `Getopts blah blah...').
 #        Do yourself a favor and change the names back into lowercase.
 #     b. Quotes.  Chinese has no `typewriter quote' convension, and standard
 #        “curly quotes” should be used.
@@ -39,7 +39,7 @@ msgstr ""
 "Project-Id-Version: bash 4.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-09-10 12:42-0400\n"
-"PO-Revision-Date: 2016-12-01 16:46-0500\n"
+"PO-Revision-Date: 2016-12-01 17:25-0500\n"
 "Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
@@ -1677,9 +1677,10 @@ msgstr "无法启动调试器；调试模式已禁用"
 msgid "%s: Is a directory"
 msgstr "%s：是一个目录"
 
+# 这个是查看用户的 /etc/passwd 信息得到的名字。既然是用户的名字，就叫做无名氏吧。（有点想写“红领巾”来着。）
 #: shell.c:1777
 msgid "I have no name!"
-msgstr "没有名字！"
+msgstr "无名氏！"
 
 #: shell.c:1930
 #, c-format
@@ -1722,10 +1723,13 @@ msgstr "请输入`%s -c \"help set\"' 以获得关于 shell 选项的更多信�
 msgid "Type `%s -c help' for more information about shell builtin commands.\n"
 msgstr "请输入 `%s -c help' 以获得关于 shell 内建命令的更多信息.\n"
 
+# 写如何报告程序错误的地方应该提到如何报告翻译问题。
 #: shell.c:1961
 #, c-format
 msgid "Use the `bashbug' command to report bugs.\n"
-msgstr "请使用`bashbug' 命令来报告错误.\n"
+msgstr ""
+"请使用“bashbug”命令来报告程序错误。\n"
+"请将翻译错误报告到 <i18n-zh@googlegroups.com>。\n"
 
 #: shell.c:1963
 #, c-format
@@ -2095,7 +2099,7 @@ msgstr "all_local_variables: 当前作用域中没有函数上下文"
 #: variables.c:4218
 #, c-format
 msgid "%s has null exportstr"
-msgstr "%s 有空的 exportstr"
+msgstr "%s 的 exportstr 为空"
 
 #: variables.c:4223 variables.c:4232
 #, c-format
@@ -2105,7 +2109,7 @@ msgstr "%2$s 的 exportstr 中有无效的字符 %1$d"
 #: variables.c:4238
 #, c-format
 msgid "no `=' in exportstr for %s"
-msgstr "%s 的 exportstr 中没有 `='"
+msgstr "%s 的 exportstr 中没有“=”"
 
 #: variables.c:4684
 msgid "pop_var_context: head of shell_variables not a function context"
@@ -5532,7 +5536,7 @@ msgid ""
 "    \n"
 "    A synonym for `mapfile'."
 msgstr ""
-"从一个文件中读取行到数组变量中\n"
+"从一个文件中读取行到数组变量中。\n"
 "    \n"
 "    一个 `mapfile'的同义词。"
 
