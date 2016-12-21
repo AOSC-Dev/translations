@@ -6,13 +6,15 @@
 # Lie Ex <lilith.ex@gmail.com>, 2008-2010.
 # Weng Xuetian <wengxt@gmail.com>, 2015.
 # Tom Li <biergaizi@member.fsf.org>, 2016.
+# Tong Hui <tonghuix@gmail.com>, 2016.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-08-05 10:17+0000\n"
-"PO-Revision-Date: 2016-12-01 13:36-0700\n"
-"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2016-12-21 16:58+0800\n"
+"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
 "Language-Team: Chinese <kde-china@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -1311,13 +1313,13 @@ msgstr "邮件操作"
 msgid ""
 "Don't confirm signing certificate if there is only one valid certificate for "
 "the identity"
-msgstr ""
+msgstr "如果签名身份只有一个有效证书则不要确认签名证书"
 
 #: src/conf/cryptooperationsconfigwidget.cpp:76
 msgid ""
 "Don't confirm encryption certificates if there is exactly one valid "
 "certificate for each recipient"
-msgstr ""
+msgstr "如果每个收件人确实仅有一个有效证书则不要确认加密证书"
 
 #: src/conf/cryptooperationsconfigwidget.cpp:82
 msgid "File Operations"
@@ -1726,9 +1728,9 @@ msgid ""
 msgstr "文件 <filename>%1</filename> 包含无法验证或解密的证书。"
 
 #: src/crypto/autodecryptverifyfilescontroller.cpp:238
-#, fuzzy, kde-format
+#, kde-format
 msgid "Select the file to verify with \"%1\""
-msgstr "校验文件/签名"
+msgstr "用“%1”选择要验证的文件"
 
 #: src/crypto/createchecksumscontroller.cpp:88
 msgctxt "@info"
@@ -1804,9 +1806,9 @@ msgid "Calculating total size..."
 msgstr "正在计算总大小..."
 
 #: src/crypto/createchecksumscontroller.cpp:700
-#, fuzzy, kde-format
+#, kde-format
 msgid "Checksumming (%2) in %1"
-msgstr "已用字体“%2”替代“%1”"
+msgstr "正在检查 %1 的校验和 (%2)"
 
 #: src/crypto/createchecksumscontroller.cpp:713
 #: src/crypto/verifychecksumscontroller.cpp:678
@@ -1839,7 +1841,7 @@ msgstr "签名和被签名数据不匹配"
 
 #: src/crypto/decryptverifyemailcontroller.cpp:297
 msgid "Signed data can only be given for detached signature verification"
-msgstr ""
+msgstr "已签名的数据只能授予未附加的签名验证"
 
 #: src/crypto/decryptverifyemailcontroller.cpp:303
 msgid "Input/Output count mismatch"
@@ -2024,7 +2026,7 @@ msgstr "<b>由 %1 签署</b>"
 msgid ""
 "<br/><b>Warning:</b> The sender's mail address is not stored in the %1 used "
 "for signing."
-msgstr ""
+msgstr "<br/><b>警告：</b>此发送者的邮件地址并没有存储在用于签名的 %1 中。"
 
 #: src/crypto/decryptverifytask.cpp:452
 msgid "certificate"
@@ -2040,7 +2042,7 @@ msgstr[0] "<b>%1 个有效签名。</b>"
 msgid ""
 "<br/><b>Warning:</b> The sender's mail address is not stored in the "
 "certificates used for signing."
-msgstr ""
+msgstr "<br/><b>警告：</b>此发送者的邮件地址并没有存储在用于签名的证书中。"
 
 #: src/crypto/decryptverifytask.cpp:468
 msgid "<b>Decryption canceled.</b>"
@@ -2084,7 +2086,7 @@ msgstr ", "
 #, kde-format
 msgid ""
 "<p>The sender's address %1 is not stored in the certificate. Stored: %2</p>"
-msgstr ""
+msgstr "<p>此发送者的邮件地址 %1 并没有存储在证书中。存储在：%2</p>"
 
 #: src/crypto/decryptverifytask.cpp:537
 #, kde-format
@@ -2268,7 +2270,7 @@ msgstr "<b>选择要执行的操作</b>"
 msgid ""
 "Here you can check and, if needed, override the operations Kleopatra "
 "detected for the input given."
-msgstr ""
+msgstr "这里可以检查并覆盖（如果有必要）Kleopatra 检测的对给定输入的操作。"
 
 #: src/crypto/gui/decryptverifyfileswizard.cpp:218
 msgid "&Decrypt/Verify"
@@ -2594,7 +2596,7 @@ msgctxt "@title"
 msgid ""
 "Please select for whom you want the files to be encrypted. Do not forget to "
 "pick one of your own certificates."
-msgstr ""
+msgstr "请选择文件要为谁加密。不要忘记加入你自己的一个证书。"
 
 #: src/crypto/gui/signencryptfileswizard.cpp:696
 msgctxt "@action"
@@ -2871,9 +2873,9 @@ msgid "Cannot find checksums file for file %1"
 msgstr "无法找到文件 %1 的校验和文件"
 
 #: src/crypto/verifychecksumscontroller.cpp:667
-#, fuzzy, kde-format
+#, kde-format
 msgid "Verifying checksums (%2) in %1"
-msgstr "正在校验：%1..."
+msgstr "正在检查校验和 (%2) 于 %1"
 
 #: src/dialogs/adduseriddialog.cpp:71 src/models/keylistmodel.cpp:265
 #: src/models/useridlistmodel.cpp:80
@@ -2978,7 +2980,7 @@ msgstr "添加新用户编号"
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: src/dialogs/adduseriddialog.ui:48
 msgid "This is how the new User-ID will be stored in the certificate:"
-msgstr ""
+msgstr "这里是新的用户编号将如何存储在证书中："
 
 #: src/dialogs/certificatedetailsdialog.cpp:292
 #, kde-format
@@ -3642,9 +3644,8 @@ msgstr "我还未检查过"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/dialogs/selectchecklevelwidget.ui:52
-#, fuzzy
 msgid "Describe semantics here..."
-msgstr "在此处打开终端"
+msgstr "在这里描述语意..."
 
 #. i18n: ectx: property (text), widget (QRadioButton, checkLevelCasualRB)
 #: src/dialogs/selectchecklevelwidget.ui:62
@@ -3773,7 +3774,6 @@ msgstr "PIN 设定成功。"
 
 #. i18n: ectx: property (text), widget (QLabel, mainLB)
 #: src/dialogs/setinitialpindialog.ui:13
-#, fuzzy
 msgid ""
 "<p>On this SmartCard, there is space for two certificates:\n"
 "<ol>\n"
@@ -3785,11 +3785,10 @@ msgid ""
 msgstr ""
 "<p>这张智能卡上有存储两张证书的空间：\n"
 "<ol>\n"
-"<li> 一张普通证书 </li>\n"
-"<li>A special certificate for making <em>qualified signatures</em> according "
-"to the German Signaturgesetz</li>\n"
+"<li>一张普通证书</li>\n"
+"<li>一张根据德国 Signaturgesetz 标准制作的</li><em>有效签名的特殊证书</em>\n"
 "</ol>\n"
-"You need to set initial PINs for both of them.</p>"
+"您需要为他们分别设置初始 PIN。</p> "
 
 #. i18n: ectx: property (text), widget (QLabel, nksLB)
 #: src/dialogs/setinitialpindialog.ui:27
@@ -3806,7 +3805,7 @@ msgstr "设置初始密码 (NKS)"
 msgid ""
 "Step 2: Set the initial PIN for the qualified signature certificate (\"SigG"
 "\"):"
-msgstr ""
+msgstr "第二步：为合格的签名证书设置初始密码（\"SigG\"）："
 
 #. i18n: ectx: property (text), widget (QPushButton, sigGPB)
 #: src/dialogs/setinitialpindialog.ui:81
@@ -3859,7 +3858,7 @@ msgstr "使用 pgp 作为生成的 OpenPGP 文件的默认扩展名"
 #: src/kcfg/fileoperationspreferences.kcfg:11
 msgid ""
 "Set this to make kleopatra default to pgp file extensions for OpenPGP files."
-msgstr ""
+msgstr "这个设置可以让 Kleopatra 以 pgp 作为 OpenPGP 文件的扩展。"
 
 #. i18n: ectx: whatsthis, entry (AutoDecryptVerify), group (FileOperations)
 #: src/kcfg/fileoperationspreferences.kcfg:16
@@ -4018,7 +4017,7 @@ msgstr ""
 
 #: src/kleopatra_options.h:93
 msgid "Parent Window Id for dialogs"
-msgstr ""
+msgstr "对话的父窗口 ID"
 
 #: src/kleopatra_options.h:101
 msgid "File(s) to process"
@@ -4081,28 +4080,24 @@ msgid "Could not get the process-id of the Kleopatra UI server at %1: %2"
 msgstr "无法获取位于 %1 的 Kleopatra UI 服务器的进程 ID: %2"
 
 #: src/libkleopatraclient/core/command.cpp:676
-#, fuzzy, kde-format
-#| msgid "Failed to execute %1: %2"
+#, kde-format
 msgid "Failed to send critical option %1: %2"
-msgstr "执行 %1 失败：%2"
+msgstr "无法发送关键选项 %1: %2"
 
 #: src/libkleopatraclient/core/command.cpp:685
-#, fuzzy, kde-format
-#| msgid "Failed to execute %1: %2"
+#, kde-format
 msgid "Failed to send file path %1: %2"
-msgstr "执行 %1 失败：%2"
+msgstr "无法发送文件路径 %1: %2"
 
 #: src/libkleopatraclient/core/command.cpp:691
-#, fuzzy, kde-format
-#| msgid "Failed to execute %1: %2"
+#, kde-format
 msgid "Failed to send sender %1: %2"
-msgstr "执行 %1 失败：%2"
+msgstr "无法发送发送者 %1: %2"
 
 #: src/libkleopatraclient/core/command.cpp:698
-#, fuzzy, kde-format
-#| msgid "Failed to execute %1: %2"
+#, kde-format
 msgid "Failed to send recipient %1: %2"
-msgstr "LoadTypeLib( %1 ) 失败 ($%2!x!)"
+msgstr "无法发送给收件人 %1: %2"
 
 #: src/libkleopatraclient/core/command.cpp:711
 #, kde-format
@@ -4609,6 +4604,9 @@ msgid ""
 "\n"
 "Thanks,\n"
 msgstr ""
+"请处理此证书并通知发信者去哪里获取处理好的证书。\n"
+"\n"
+"感谢，\n"
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1002
 msgid "My new OpenPGP certificate"
@@ -4645,7 +4643,7 @@ msgctxt "@info"
 msgid ""
 "This operation will delete the certification request. Please make sure that "
 "you have sent or saved it before proceeding."
-msgstr ""
+msgstr "此选项会删除证书请求。请确认处理前已将其发出或保存。"
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1093
 msgctxt "@title"
@@ -4680,9 +4678,8 @@ msgstr "密钥类型："
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1636
 #: src/newcertificatewizard/newcertificatewizard.cpp:1646
-#, fuzzy
 msgid "Key Curve:"
-msgstr "曲线 (%)："
+msgstr "密钥曲线："
 
 #: src/newcertificatewizard/newcertificatewizard.cpp:1638
 #: src/newcertificatewizard/newcertificatewizard.cpp:1640
@@ -4771,7 +4768,7 @@ msgstr[0] "%1 比特"
 #: src/newcertificatewizard/newcertificatewizard.cpp:1822
 msgctxt "@info:tooltip"
 msgid "Adding more than one User ID is not yet implemented."
-msgstr ""
+msgstr "没有实现添加多个用户 ID 功能。"
 
 #. i18n: ectx: property (title), widget (QWizardPage, Kleo::NewCertificateUi::OverviewPage)
 #: src/newcertificatewizard/overviewpage.ui:5
@@ -5381,7 +5378,7 @@ msgstr "INPUT 和 MESSAGE 的数量不匹配"
 
 #: src/uiserver/decryptverifycommandemailbase.cpp:190
 msgid "MESSAGE can only be given for detached signature verification"
-msgstr ""
+msgstr "MESSAGE 只能赋给非附加的签名验证"
 
 #: src/uiserver/decryptverifycommandemailbase.cpp:196
 #: src/uiserver/encryptcommand.cpp:108 src/uiserver/signcommand.cpp:104
@@ -5691,7 +5688,7 @@ msgstr "“%1”为空或找不到"
 
 #: src/utils/archivedefinition.cpp:288 src/utils/archivedefinition.cpp:299
 msgid "cannot use argument passing on standard input for unpack-command"
-msgstr ""
+msgstr "不能通过标准输入传递参数给 unpack-command"
 
 #: src/utils/archivedefinition.cpp:355
 #, kde-format
@@ -5699,6 +5696,8 @@ msgid ""
 "Cannot find common base directory for these files:\n"
 "%1"
 msgstr ""
+"不能为这些文件找到通用基本路径：\n"
+"%1"
 
 #: src/utils/archivedefinition.cpp:412
 #, kde-format
