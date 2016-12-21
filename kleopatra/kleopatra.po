@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: kleopatra\n"
 "Report-Msgid-Bugs-To: http://bugs.kde.org\n"
 "POT-Creation-Date: 2016-08-05 10:17+0000\n"
-"PO-Revision-Date: 2016-12-21 16:58+0800\n"
-"Last-Translator: Tong Hui <tonghuix@gmail.com>\n"
+"PO-Revision-Date: 2016-12-21 14:08-0500\n"
+"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
 "Language-Team: Chinese <kde-china@kde.org>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,6 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.8.11\n"
 
+# 感觉这样搞个团体名字很不清真……？
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "KDE 中国"
@@ -33,7 +34,7 @@ msgstr "kde-china@kde.org"
 
 #: src/aboutdata.cpp:52
 msgid "Certificate Manager and Unified Crypto GUI"
-msgstr "证书管理器和统一密钥管理界面"
+msgstr "证书管理器和统一加解密界面"
 
 #: src/aboutdata.cpp:62
 msgid "Current Maintainer"
@@ -53,7 +54,7 @@ msgstr "David Faure"
 
 #: src/aboutdata.cpp:71
 msgid "Backend configuration framework, KIO integration"
-msgstr "后端配置框架，KIO 整合"
+msgstr "后端配置框架、KIO 整合"
 
 #: src/aboutdata.cpp:75
 msgid "Michel Boyer de la Giroday"
@@ -85,7 +86,7 @@ msgstr "Karl-Heinz Zimmer"
 
 #: src/aboutdata.cpp:91
 msgid "DN display ordering support, infrastructure"
-msgstr "DN 显示顺序支持，基础设施"
+msgstr "DN 显示顺序支持、基础设施"
 
 #: src/aboutdata.cpp:95
 #| msgid "Current Maintainer"
@@ -94,7 +95,7 @@ msgstr "Laurent Montel"
 
 #: src/aboutdata.cpp:96
 msgid "Qt5 port, general code maintenance"
-msgstr "Qt5 移植，全局代码维护"
+msgstr "Qt5 移植、一般代码维护"
 
 #: src/aboutdata.cpp:102
 msgid "Kleopatra"
@@ -652,6 +653,7 @@ msgctxt "@title"
 msgid "Failed to find PaperKey executable."
 msgstr "找不到 PaperKey 可执行文件。"
 
+# 私钥这么叫很萌啊……
 #: src/commands/exportpaperkeycommand.cpp:106
 msgctxt "@title"
 msgid "Print secret key"
@@ -2431,6 +2433,8 @@ msgid ""
 "recipients/senders of the message.\n"
 "Please select the correct certificates for each recipient:"
 msgstr ""
+"Kleopatra 不能为每一个收件人/发件人确定匹配的证书。\n"
+"请为每个收件人选择正确的证书："
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:438
 msgid ""
@@ -2438,6 +2442,8 @@ msgid ""
 "sender of the message.\n"
 "Please select the correct certificates for the sender:"
 msgstr ""
+"Kleopatra 不能为发件人确定匹配的证书。\n"
+"请为发件人选择正确的证书："
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:441
 msgid ""
@@ -2445,6 +2451,8 @@ msgid ""
 "recipients of the message.\n"
 "Please select the correct certificates for each recipient:"
 msgstr ""
+"Kleopatra 不能为每一个收件人确定匹配的证书。\n"
+"请为每个收件人选择正确的证书："
 
 #: src/crypto/gui/signencryptemailconflictdialog.cpp:450
 msgid ""
@@ -3063,11 +3071,11 @@ msgid ""
 "<li>Photos increase the size of certificates.</li>\n"
 "</ul>"
 msgstr ""
-"<p> 目前 Kleopatra 并不支持显示在证书中嵌入的照片，也不支持向证书中添加照片。"
+"<p>目前 Kleopatra 并不支持显示在证书中嵌入的照片，也不支持向证书中添加照片。"
 "这主要是因为下面几个原因：</p>\n"
 "<ul>\n"
-"<li> 照片给人一种虚假的安全感 </li>\n"
-"<li> 照片会增加证书的大小 </li>\n"
+"<li>照片给人一种虚假的安全感。</li>\n"
+"<li>照片会增加证书的大小。</li>\n"
 "</ul>"
 
 #. i18n: ectx: attribute (title), widget (QWidget, certificationsTab)
@@ -3867,6 +3875,8 @@ msgid ""
 "input files but instead automatically starts the operations it detects as "
 "applicable to the input."
 msgstr ""
+"设置此选项之后，Kleopatra 不会询问您想拿输入文件做什么，而是会自动执行它认为"
+"适合输入的操作。"
 
 #. i18n: ectx: label, entry (RefreshInterval), group (SMime Validation)
 #: src/kcfg/smimevalidationpreferences.kcfg:6
@@ -4013,7 +4023,7 @@ msgctxt ""
 msgid ""
 "Show details of a local certificate or search for it on a keyserver by "
 "fingerprint"
-msgstr ""
+msgstr "显示本地证书的详细信息，或从密钥服务器中凭指纹搜索此信息"
 
 #: src/kleopatra_options.h:93
 msgid "Parent Window Id for dialogs"
