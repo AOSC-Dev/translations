@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: pingus 0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-13 03:15+0100\n"
-"PO-Revision-Date: 2011-09-18 18:50+0000\n"
-"Last-Translator: luojie-dune <Unknown>\n"
-"Language-Team: Chinese (traditional) <zh-l10n@linux.org.tw>\n"
-"Language: zh_TW\n"
+"PO-Revision-Date: 2017-01-16 17:13+0800\n"
+"Last-Translator: Icenowy Zheng <icenowy@aosc.xyz>\n"
+"Language-Team: Anthon Open Source Community\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Launchpad-Export-Date: 2013-02-10 19:39+0000\n"
-"X-Generator: Launchpad (build 16482)\n"
+"X-Generator: Poedit 1.8.11\n"
 
 #: src/editor/object_properties.cpp:87 src/editor/object_properties.cpp:515
 msgid "Object:"
@@ -513,8 +513,7 @@ msgstr "略过"
 msgid "Play"
 msgstr "开始游戏"
 
-#: src/pingus/screens/start_screen.cpp:111
-#: src/pingus/screens/level_menu.cpp:50
+#: src/pingus/screens/start_screen.cpp:111 src/pingus/screens/level_menu.cpp:50
 msgid "Back"
 msgstr "返回"
 
@@ -635,8 +634,8 @@ msgid ""
 "..:: Ctrl-g: mouse grab   ::   F10: fps counter   ::   F11: "
 "fullscreen   ::   F12: screenshot ::.."
 msgstr ""
-"..:: Ctrl-g: 固定鼠标在窗口内  ::  F10: 显示 FPS  ::  F11: 全屏  ::  F12: 截图"
-" ::.."
+"..:: Ctrl-g: 固定鼠标在窗口内  ::  F10: 显示 FPS  ::  F11: 全屏  ::  F12: 截"
+"图 ::.."
 
 #: src/pingus/screens/result_screen.cpp:91
 msgid "Give up"
@@ -938,8 +937,8 @@ msgid ""
 "opposed to the vertical dig ability the Digger action provides. This new "
 "action is called Basher. "
 msgstr ""
-"与已经从先前的等级中知道的“打井”行动类似，有一种允许Pingus由水平凿地洞的一个行"
-"动，而这个新的行动被称为“开路”。 "
+"与已经从先前的等级中知道的“打井”行动类似，有一种允许Pingus由水平凿地洞的一个"
+"行动，而这个新的行动被称为“开路”。 "
 
 #: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:5
 msgid "Sacrifice a few and save the rest"
@@ -965,8 +964,8 @@ msgid ""
 "is to give a Pingu the command to dig a hole into the ground so that they "
 "can reach the exit. This can be accomplished simply by clicking on a Pingu. "
 msgstr ""
-"这是你的第一个任务。当然，这很简单。你只要有一个 Pingus 挖一个洞到地面然后他们可"
-"以离开那个范围。只要点选一个 Pingus 即可完成。 "
+"这是你的第一个任务。当然，这很简单。你只要有一个 Pingus 挖一个洞到地面然后他"
+"们可以离开那个范围。只要点选一个 Pingus 即可完成。 "
 
 #: data/levels/tutorial/floater-tutorial-grumbel.pingus:5
 msgid "Float or Die"
@@ -980,8 +979,8 @@ msgid ""
 "survive the fall, so keep your eyes open! "
 msgstr ""
 "在第一个任务中，你的表现不错！现在开始下一阶段，这次你需要为一些 Pingus 戴上"
-"飞行背包，这样你可以慢慢的降落地面。如果 Pingus 从太高的地方跌落，他们就没有办法存"
-"活。所以看好了哦！"
+"飞行背包，这样你可以慢慢的降落地面。如果 Pingus 从太高的地方跌落，他们就没有"
+"办法存活。所以看好了哦！"
 
 #: data/levels/tutorial/jumper-tutorial-grumbel.pingus:5
 msgid "Jump for joy"
@@ -993,8 +992,8 @@ msgid ""
 "reachable by walking. That's when the Jumper comes in handy - it allows the "
 "Pingu to make a small jump and so enables him to reach the platform. "
 msgstr ""
-"有时候一个 Pingus 需要到达一个遥远的平台，但不能用走路走到。这时候“弹跳”就会派上用"
-"场-他会让 pingus 在空中画出一条弧线，使它能够到达平台。"
+"有时候一个 Pingus 需要到达一个遥远的平台，但不能用走路走到。这时候“弹跳”就会"
+"派上用场-他会让 pingus 在空中画出一条弧线，使它能够到达平台。"
 
 #: data/levels/tutorial/miner-tutorial2-grumbel.pingus:5
 msgid "Miner's heaven"
@@ -1006,8 +1005,8 @@ msgid ""
 "diagonal one. It allows a Pingu to dig diagonally through ground, thus "
 "creating a path for following Pingus. The action is called Miner. "
 msgstr ""
-"另一个行动出现啦－另外一个挖掘行动，这次是斜线的。它让 Pingus 以 45 度角挖掘地面，为"
-"跟随的 Pingus 创造一条路径。 这个行动叫做“矿工”。 "
+"另一个行动出现啦－另外一个挖掘行动，这次是斜线的。它让 Pingus 以 45 度角挖掘"
+"地面，为跟随的 Pingus 创造一条路径。 这个行动叫做“矿工”。 "
 
 #: data/levels/tutorial/snow10-grumbel.pingus:5
 msgid "Panic Island (float/bash)"
@@ -1019,8 +1018,8 @@ msgid ""
 "one gets a bit trickier. The Pingus are coming out of two entrances in "
 "parallel and it is your job to coordinate the two groups wisely. "
 msgstr ""
-"先前的等级中没有要求你敏捷地行动，不过这一关就开始要求啦。Pingus 正在同时从"
-"两个地方出来，而且你的工作就是聪明地协调这两组 Pingus。"
+"先前的等级中没有要求你敏捷地行动，不过这一关就开始要求啦。Pingus 正在同时从两"
+"个地方出来，而且你的工作就是聪明地协调这两组 Pingus。"
 
 #: data/levels/tutorial/snow11-grumbel.pingus:5
 msgid "Jump'n Bump... and Bash..."
@@ -1033,9 +1032,9 @@ msgid ""
 "coordinating them all. Since you only need to save 5 it should be doable, "
 "but if all else fails use the pause-mode ('p') to get an overview again. "
 msgstr ""
-"又到了惊慌失措的时间了。Pingus不会太快出来，但当他们转身撞到墙壁时后，很快的你在调"
-"整他们时会有些麻烦。你应该可以救到5只，但如果全都失败的话，请使用暂停模式"
-"（'p')去好好想想吧。 "
+"又到了惊慌失措的时间了。Pingus 不会太快出来，但当他们转身撞到墙壁时后，很快的"
+"你在调整他们时会有些麻烦。你应该可以救到5只，但如果全都失败的话，请使用暂停模"
+"式（'p'）去好好想想吧。 "
 
 #: data/levels/tutorial/snow12-grumbel.pingus:5
 msgid "Two groups in parallel, coordinate wisely"
@@ -1047,8 +1046,8 @@ msgid ""
 "level gives you enough time to think your actions through. No more tips this "
 "time, but good luck! "
 msgstr ""
-"你这次有两个小组要去协调。不用慌，这一关会给你足够的时间去思考你的穿"
-"越行动的。这次没有更多的提示、但还是祝你好运！ "
+"你这次有两个小组要去协调。不用慌，这一关会给你足够的时间去思考你的穿越行动"
+"的。这次没有更多的提示、但还是祝你好运！ "
 
 #: data/levels/tutorial/snow14-grumbel.pingus:5
 msgid "Block'a Rock"
@@ -1060,8 +1059,8 @@ msgid ""
 "levels. Blast your way free and make sure you also keep the rest of the "
 "Pingus under control. The Blocker action will be helpful."
 msgstr ""
-"这一关又是一个给你融会贯通的机会。炸开一条路，并且也要保证剩下的 Pingus 别出事。"
-"“拦路”会是你的好帮手"
+"这一关又是一个给你融会贯通的机会。炸开一条路，并且也要保证剩下的 Pingus 别出"
+"事。“拦路”会是你的好帮手"
 
 #: data/levels/tutorial/snow15-grumbel.pingus:5
 msgid "Climb, Climber,... Boom!"
@@ -1100,8 +1099,8 @@ msgid ""
 "reach the exit, so just send a few and let them prepare the path for the "
 "rest. "
 msgstr ""
-"团队合作是这次找到出口的方法。你没有足够的“飞翔”可以到达出口，所以送一些过去而让"
-"他们为额外的企鹅开路。 "
+"团队合作是这次找到出口的方法。你没有足够的“飞翔”可以到达出口，所以送一些过去"
+"而让他们为额外的企鹅开路。 "
 
 #: data/levels/tutorial/snow19-grumbel.pingus:5
 msgid "Learn to use the bridge"
@@ -1114,7 +1113,7 @@ msgid ""
 "allows following Pingus to reach the other end too. "
 msgstr ""
 "如果没有“弹跳”在手上并要通过这一个大洞的话，造一座桥也许会相当有帮助。它会花"
-"一些时间去建造，但是不像跳线者的行动，它让其它Pingus也可以到达另一端。 "
+"一些时间去建造，但是不像“弹跳”的行动，它让其它Pingus也可以到达另一端。 "
 
 #: data/levels/tutorial/snow20-grumbel.pingus:5
 msgid "Three solutions, it's up to you"
@@ -1126,8 +1125,8 @@ msgid ""
 "This level presents you with at least three different ways to solve it. It's "
 "up to you which one you pick. "
 msgstr ""
-"现在你已学到所有的技能，是该多一些练习的时后了。这一个等级给你至少三种不同的"
-"方法去解决它。你自己决定你该挑选哪一个。 "
+"现在你已学到所有的技能，是该多做一些练习了。这一个等级有至少三种不同的方法去"
+"解决它。你自己决定你该挑选哪一个。 "
 
 #: data/levels/tutorial/snow21-grumbel.pingus:5
 msgid "Climb, Climber, climb... and build a bridge"
@@ -1139,8 +1138,8 @@ msgid ""
 "to climb up straight walls, thus allowing him to reach stuff that might be "
 "too high to reach by other means. "
 msgstr ""
-"你再次进入到一个新的行动，攀爬者的行动允许Pingus爬上笔直的墙，而使他能够达到"
-"平常太高或用其它方式不能达到的东西。 "
+"你再次学习到了新的技能：“攀登”允许 Pingus 爬上笔直的墙，而使他能够达到用其它"
+"方式不能达到的高度。 "
 
 #: data/levels/tutorial/snow22-grumbel.pingus:5
 msgid "Entrance high, Exit low"
@@ -1153,13 +1152,13 @@ msgid ""
 "the stuff you need for this level in previous levels, so this shouldn't be "
 "too much of a problem for you. "
 msgstr ""
-"如果你没有足够的飞行者可以带所有的Pingus往下条到出口－你必须找到其它的方法把"
-"他们引导下来。 你在先前的等级中应该已经学到这个等级需要的动作，所以这对你应该"
-"不是问题。 "
+"如果你没有足够的“飞翔”可以带所有的 Pingus 往下跳到出口－你必须找到其它的方法"
+"把他们引导下来。你在先前的关卡中应该已经学到了这一关需要的动作，所以这对你应"
+"该不是问题。 "
 
 #: data/levels/tutorial/snow7-grumbel.pingus:5
 msgid "One must prepare, the rest must follow"
-msgstr "一个必须准备，额外必须跟随"
+msgstr "前赴后继"
 
 #: data/levels/tutorial/snow7-grumbel.pingus:6
 msgid ""
@@ -1167,12 +1166,12 @@ msgid ""
 "coordinate your Pingus. You'll have to find other ways to keep them under "
 "control while a single one prepares the path for the rest. "
 msgstr ""
-"有时有些情况是你手上没有阻挡物可以协调你的Pingus。你必须再找出一个方法在可以"
-"控制的情况下，让一个Pingu准备可以让大家达到出口的路径。 "
+"有时有些情况是你手上没有“拦路”可以协调你的 Pingus 。你必须再找出一个方法在可"
+"以控制的情况下，让一个 Pingus 建立起可以让大家达到出口的路径。 "
 
 #: data/levels/tutorial/snow8-grumbel.pingus:5
 msgid "Dig and float, just don't fall and smash"
-msgstr ""
+msgstr "深挖然后漂浮，别掉下去"
 
 # 7126: Close, but not yet completely correct.
 #: data/levels/tutorial/snow8-grumbel.pingus:6
@@ -1182,12 +1181,13 @@ msgid ""
 "apply it to the Pingus so that they will be able to reach the exit. Make "
 "sure that not too many of them die. "
 msgstr ""
-"和一开始的二个等级不同，你在这一个等级中可学会二个动作。 你的工作很简单： 在"
-"左边上的仪表板选择一个行动并让Pingus 他们能够到达出口。 确定他们不要死。 "
+"和一开始的两关不同，你在这一关中有两种动作可供使用。 你的工作很简单： 在左边"
+"上的仪表板选择一个动作施加在 Pingus 上，让 Pingus 能够到达出口。 保证他们尽量"
+"不要死。 "
 
 #: data/levels/tutorial/snow9-grumbel.pingus:5
 msgid "Dig, bash and other problems"
-msgstr "挖掘,冲击和其它的问题"
+msgstr "打井，开路和其它的问题"
 
 #: data/levels/tutorial/snow9-grumbel.pingus:6
 msgid ""
@@ -1197,9 +1197,9 @@ msgid ""
 "think you've reached a situation from which you can no longer solve the "
 "level, double click the armageddon button at the lower right. "
 msgstr ""
-"你征服了更多的等级，他们将变的更困难，但不要慌，因为这一个仍然很容易。 只要使"
-"用你在先前的等级中学到的技能，应该没有太大的问题。如果你认为你已经到达一种不"
-"能解决等极的情况，请点两次右下的 armageddon 钮。 "
+"越往后的关卡会越难，但不要慌，因为这一关还很容易。 只要使用你在先前的等级中学"
+"到的技能，应该没有太大的问题。如果你认为你已经到达一种不能过关的情况，请点两"
+"次右下的自爆钮。 "
 
 #: data/levels/tutorial/solid-tutorial-grumbel.pingus:5
 msgid "Solid ground can block the path"
@@ -1212,9 +1212,9 @@ msgid ""
 "These regions are marked dark grey on the level map and cannot be destroyed, "
 "so you must find a way around them. "
 msgstr ""
-"你在之前的等极已经发现你的 Pingus 能挖过几乎任何地带，但是有一种他们不能穿透"
-"的材料：钢铁。这些本地在等级地图上是黑灰色做上记号而且不能够被破坏。因此，你"
-"一定要找出其它路在周围。 "
+"你在之前的等级已经发现你的 Pingus 能挖过几乎任何地带，但是有一种他们不能穿透"
+"的材料：钢铁。这些区域在关卡地图上是以黑灰色做记号的，不能够被你的操作破坏。"
+"因此，你一定要在周围找出其它路线。 "
 
 #: data/levels/halloween/halloween1-grumbel.pingus:5
 msgid "One jump to catch them all"
@@ -1228,13 +1228,13 @@ msgid ""
 "front of them it's your job to save them. Can you save them from a terrible "
 "fate?"
 msgstr ""
-"Pingus已经发现他们自己迷失在旅途中。这个神秘的地方是什么？微笑南瓜，庞大的烛"
-"台和下面沸腾的汤…… 这是什么巫术？ 现在，一个致命的深渊正在他们之前，你的工作"
-"是解救他们。 你能从可怕的命运中解救他们吗？"
+"Pingus 发现他们自己迷失在旅途中。这个神秘的地方是什么？微笑着的南瓜，庞大的烛"
+"台和下面沸腾的汤…… 这是什么巫术？ 现在，一个致命的深渊正在他们面前，你的工作"
+"是解救他们。你能从恐怖的命运中解救他们吗？"
 
 #: data/levels/halloween/halloween2-grumbel.pingus:5
 msgid "One Thousand and One Jumps"
-msgstr "一千零一次跳线"
+msgstr "一千零一次跳跃"
 
 #: data/levels/halloween/halloween2-grumbel.pingus:6
 msgid ""
@@ -1243,8 +1243,9 @@ msgid ""
 "their inevitable demise? It's your job to find out, but are you good enough "
 "to save them all?"
 msgstr ""
-"如此高高在上的出口远远超出普通Pingus可企及的范围 ，有什么办法？ 也许一个跳跃"
-"能救出他们？ 或是减缓他们的终结吗？ 若找到答案了，你能解救他们全体吗？"
+"如此高高在上的出口远远超出普通Pingus可企及的范围，有什么办法？ 也许一个跳跃能"
+"救出他们？ 或仅仅是拖延了他们的死期吗？现在，你要找出一个方案。不过，你能想出"
+"把他们全数救出的方法吗？ "
 
 #: data/levels/halloween/halloween3-grumbel.pingus:5
 msgid "Boom Boom"
@@ -1917,10 +1918,9 @@ msgstr ""
 msgid ""
 "Pingus intelligence reported that a huge factory located in the subtropical "
 "zone might be a reason of a climate change. They decided to go there and "
-"shut down the factory. This will be a long and dangerous expedition. "
-"Pingus and you will have to face many difficulties on your way. As the ice "
-"is melting, at first you have to build some bridges and watch out for the "
-"cliff."
+"shut down the factory. This will be a long and dangerous expedition. Pingus "
+"and you will have to face many difficulties on your way. As the ice is "
+"melting, at first you have to build some bridges and watch out for the cliff."
 msgstr ""
 
 #: data/levels/factorycampaign/factory_campaign2.pingus:5
@@ -2122,11 +2122,11 @@ msgstr "学习基础"
 
 #: data/worldmaps/tutorial.worldmap:124
 msgid "Watch Ending"
-msgstr ""
+msgstr "观看结尾"
 
 #: data/worldmaps/tutorial.worldmap:131
 msgid "Watch Intro"
-msgstr ""
+msgstr "观看简介"
 
 #: data/stories/tutorial_intro.story:2
 msgid "The Journey Begins"
@@ -2139,9 +2139,9 @@ msgid ""
 "like nothing could disrupt their peace.  The Pingus were happy and it seemed "
 "like this could never end."
 msgstr ""
-"很久以前，Pingus在南极跟其它动物们快乐地和平相处。所有的东西看起来都维持著平"
-"衡，而且看起来好像没有东西可以破坏他们的和平。Pingus很快乐而这看起来并不会消"
-"失。"
+"很久以前，Pingus 在南极跟其它动物们快乐地和平相处。所有的东西看起来都维持著平"
+"衡，而且看起来好像没有东西可以破坏他们的和平。Pingus很快乐而这看起来永远不会"
+"终结。"
 
 #: data/stories/tutorial_intro.story:17
 msgid ""
@@ -2150,8 +2150,8 @@ msgid ""
 "in the world's climate, but things seemed to get worse and worse with every "
 "year."
 msgstr ""
-"但有一天，事情有了些微的改变： 天空开始变黑而地球开始暖化。 首先，他们认为这"
-"是正常的气候变化，但事情看来一年比一年便的更糟。"
+"但有一天，事情有了些微的改变： 天空开始变黑，而地球开始暖化。 首先，他们认为"
+"这是正常的气候变化，但事情看来一年比一年变的更糟。"
 
 #: data/stories/tutorial_intro.story:25
 msgid ""
@@ -2171,7 +2171,7 @@ msgid ""
 "the South Pole."
 msgstr ""
 "所以长老团聚在一起决定要怎么做。 他们决定派出一支远征队环绕世界去寻找出暖化的"
-"原因。 这支远征队是由几百名最勇敢的南极Pingus所组成。"
+"原因。 这支远征队是由几百名南极最勇敢的 Pingus 所组成。"
 
 #: data/stories/tutorial_intro.story:41
 msgid ""
@@ -2182,8 +2182,8 @@ msgid ""
 "world."
 msgstr ""
 "而他们选择了你去领导他们环游世界的旅程。 因为旅程将会是危险又困难的， 你的第"
-"一个目标是Mogorok岛，也就是大家所知的新手岛。根据长老团，这个岛总是Pingus进入"
-"世界的第一站。"
+"一个目标是Mogorok岛，也就是大家所知的新手岛。按照长老团所说的，这个岛总是 "
+"Pingus 进入世界的第一站。"
 
 #: data/stories/tutorial_intro.story:50
 msgid ""
@@ -2191,8 +2191,8 @@ msgid ""
 "abilities. The Pingus can learn to build bridges, climb, bash and use many "
 "other talents which they will need on their long and dangerous journey."
 msgstr ""
-"这个岛可以理想地教导Pingus他们的能力。Pingus 能学习创建桥梁，攀登，猛攻并使用"
-"许多其它技巧，在他们又长又危险的旅途中一定会有用。"
+"这个岛可以理想地教导 Pingus 发挥他们的能力。Pingus 能学习创建桥梁，攀登，开路"
+"并使用许多其它技巧，在他们又长又危险的旅途中一定会有用。"
 
 #: data/stories/tutorial_intro.story:57
 msgid ""
@@ -2201,8 +2201,8 @@ msgid ""
 "and learn to master them, since you will need all of them on your journey "
 "around the world."
 msgstr ""
-"在那里的时候，你能练习你的能力在指挥和指导Pingus之下。 你也能熟悉所有Pingus "
-"提供的能力并学习征服他们，因为你将需要它们全部在你的环球之旅中。"
+"在那里的时候，你也能通过指挥 Pingus 练习你的能力。 你也能熟悉所有 Pingus 提供"
+"的能力并学习指导他们，因为你将在环球之旅中需要全部这些能力。"
 
 #: data/stories/tutorial_intro.story:65
 msgid ""
@@ -2211,6 +2211,9 @@ msgid ""
 "\n"
 "Good Luck!"
 msgstr ""
+"现在，你和这群 Pingus 们到达了新手岛。是时候下达你的指令，开始征程啦！\n"
+"\n"
+"祝你武运昌隆！"
 
 #: data/stories/tutorial_outro.story:2
 msgid "The Journey Continues"
@@ -2224,9 +2227,8 @@ msgid ""
 "the whole way into the warmer climates the Pingus have to find something "
 "else to guide them on their journey."
 msgstr ""
-"现在你和 Pingus 已经学到基础并练习，那也该继续开始世界之旅了。从浮冰旅行到教"
-"学岛 Pingus没有去找到其它方法进入较温暖的气候，他们必须找到其它去引导他们的旅"
-"程。"
+"现在你和 Pingus 已经学到基础并练习，那也该开始世界之旅了。教学岛的浮冰没办法"
+"让 Pingus 踏上去往更温暖地带的旅程，他们需要找到更好的方法，继续他们的征途。"
 
 #: data/stories/tutorial_outro.story:18
 msgid ""
@@ -2236,9 +2238,8 @@ msgid ""
 "large tree at the end of the island which gave them wood to construct a "
 "float."
 msgstr ""
-"但是长老们说过，教学岛不只提供一种好方法练习，它也是开始世界之旅的出发点。在"
-"Pingus在发现这主要的意义之后，他们在岛的最后发现了一棵大树能够提供木材可以建"
-"造浮子。"
+"但是长老们说过，教学岛不只提供了练习的机会，它也是开始世界之旅的出发点。在 "
+"Pingus 在发现这意义之后，他们在岛的尾端发现了一棵大树能够提供建造浮船的木材。"
 
 #: data/stories/tutorial_outro.story:27
 msgid ""
@@ -2247,8 +2248,8 @@ msgid ""
 "their journey and leave their familiar ground and enter the unknown parts of "
 "the world."
 msgstr ""
-"所以他们开始建造一些大型救生艇足以携带他们全部。他们也在包装食物之后他们准备"
-"开始他们的旅程，离开他们熟悉的地方并进入未知世界的部分。"
+"所以他们开始建造一些足以携带他们全部的大型舰艇。在包装好食物之后，他们准备开"
+"始他们的旅程，离开他们熟悉的地方并进入未知世界的部分。"
 
 #: data/stories/tutorial_outro.story:35
 msgid ""
@@ -2257,6 +2258,9 @@ msgid ""
 "\n"
 "To be continued..."
 msgstr ""
+"在夕阳中， Pingus 们坐在船上，看着远方，思考着未知的风险和机遇……\n"
+"\n"
+"未完待续……"
 
 #: data/levelsets/alien.levelset:3
 msgid "Alien by Josh Dye"
