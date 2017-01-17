@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: pingus 0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-13 03:15+0100\n"
-"PO-Revision-Date: 2017-01-16 14:12-0700\n"
+"PO-Revision-Date: 2017-01-16 22:47-0700\n"
 "Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Anthon Open Source Community\n"
 "Language: zh_CN\n"
@@ -1576,7 +1576,7 @@ msgstr ""
 
 #: data/levels/desert/desert8-grumbel.pingus:5
 msgid "Tunnel Time"
-msgstr ""
+msgstr "地道战"
 
 #: data/levels/desert/desert8-grumbel.pingus:6
 msgid ""
@@ -1671,7 +1671,7 @@ msgstr ""
 
 #: data/levels/mysteryisland/lavapit3.pingus:7
 msgid "The Lava Pit"
-msgstr ""
+msgstr "岩浆池"
 
 #: data/levels/mysteryisland/lavapit3.pingus:8
 msgid ""
@@ -1799,7 +1799,7 @@ msgstr ""
 
 #: data/levels/alien/aliens4-phil.pingus:5
 msgid "Alien's nest"
-msgstr ""
+msgstr "外星人巢穴"
 
 #: data/levels/alien/aliens4-phil.pingus:6
 msgid "Pingus invade the nest. Take care of jaws. What's the matrix above?"
@@ -1849,7 +1849,7 @@ msgstr "空中交接"
 
 #: data/levels/alien/space2.pingus:5
 msgid "Lost in Space"
-msgstr ""
+msgstr "太空迷途"
 
 #: data/levels/alien/space2.pingus:6
 msgid "We don't know where we are but we don't leave anybody behind."
@@ -1936,7 +1936,7 @@ msgstr ""
 
 #: data/levels/factorycampaign/factory_campaign2.pingus:5
 msgid "Destination North"
-msgstr ""
+msgstr "前往北极"
 
 #: data/levels/factorycampaign/factory_campaign2.pingus:6
 msgid ""
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: data/levels/factorycampaign/factory_campaign4.pingus:5
 msgid "Difficulties on the way"
-msgstr ""
+msgstr "艰难的旅程"
 
 #: data/levels/factorycampaign/factory_campaign4.pingus:6
 msgid ""
@@ -1978,7 +1978,7 @@ msgstr ""
 
 #: data/levels/factorycampaign/factory_campaign6.pingus:5
 msgid "Egypt - So easy"
-msgstr ""
+msgstr "埃及 - 真简单"
 
 #: data/levels/factorycampaign/factory_campaign6.pingus:6
 msgid "Pingus reached Egypt. Looks easy, but is it really so easy? Try it out."
@@ -2005,7 +2005,7 @@ msgstr ""
 
 #: data/levels/factorycampaign/factory_campaign9.pingus:5
 msgid "Egypt - Pyramids"
-msgstr ""
+msgstr "埃及 - 金字塔"
 
 #: data/levels/factorycampaign/factory_campaign9.pingus:6
 msgid ""
@@ -2037,7 +2037,7 @@ msgstr ""
 
 #: data/levels/xmas2011/xmas03-grumbel.pingus:5
 msgid "If only penguins could fly"
-msgstr ""
+msgstr "如果企鹅会飞"
 
 #: data/levels/xmas2011/xmas03-grumbel.pingus:6
 msgid ""
@@ -2081,7 +2081,7 @@ msgstr ""
 
 #: data/levels/xmas2011/xmas07-grumbel.pingus:5
 msgid "No Way to Stop"
-msgstr ""
+msgstr "无法停止"
 
 #: data/levels/xmas2011/xmas07-grumbel.pingus:6
 msgid ""
@@ -2295,7 +2295,7 @@ msgstr "沙漠"
 
 #: data/levelsets/desert.levelset:4
 msgid "Getting hot outside..."
-msgstr ""
+msgstr "外面真热…"
 
 #: data/levelsets/eyeland.levelset:2
 msgid "Eye Land"
@@ -2315,7 +2315,7 @@ msgstr ""
 
 #: data/levelsets/halloween2011.levelset:3
 msgid "Going Underground"
-msgstr ""
+msgstr "转战地下"
 
 #: data/levelsets/halloween.levelset:3
 msgid "Halloween 2007"
@@ -2331,15 +2331,15 @@ msgstr ""
 
 #: data/levelsets/hellmouth.levelset:4
 msgid "A cave full of slime..."
-msgstr ""
+msgstr "史莱姆洞穴"
 
 #: data/levelsets/jungle.levelset:3
 msgid "Jungle"
-msgstr ""
+msgstr "丛林"
 
 #: data/levelsets/mysteryisland.levelset:3
 msgid "Island of Mystery"
-msgstr ""
+msgstr "神秘岛"
 
 #: data/levelsets/mysteryisland.levelset:4
 msgid "Marooned on an Uncharted Isle [by Lachlan McCubbin]"
