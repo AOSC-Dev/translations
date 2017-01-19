@@ -1,14 +1,17 @@
 # Copyright (C) 2008 Free Software Foundation, Inc.
 # This file is distributed under the same license as the pingus package.
 # Wei-Lun Chao <chaoweilun@gmail.com>, 2008.
+# Zixing Liu <liushuyu@@aosc.xyz>, 2017.
+# Icenowy Zheng <icenowy@aosc.xyz>, 2017.
+# Mingcong Bai <jeffbai@aosc.xyz>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pingus 0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-13 03:15+0100\n"
-"PO-Revision-Date: 2017-01-16 22:47-0700\n"
-"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2017-01-19 09:21-0600\n"
+"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Anthon Open Source Community\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +26,7 @@ msgstr "物体："
 
 #: src/editor/object_properties.cpp:88 src/editor/object_properties.cpp:516
 msgid "Nothing selected"
-msgstr "没有东西被选择"
+msgstr "没有选择"
 
 #: src/editor/object_properties.cpp:97
 msgid "Transparent"
@@ -55,7 +58,7 @@ msgstr "删除"
 
 #: src/editor/object_properties.cpp:108
 msgid "Direction:"
-msgstr "方向:"
+msgstr "方向："
 
 #: src/editor/object_properties.cpp:110
 msgid "Left"
@@ -63,7 +66,7 @@ msgstr "左"
 
 #: src/editor/object_properties.cpp:111
 msgid "Misc"
-msgstr "各种杂项"
+msgstr "杂项"
 
 #: src/editor/object_properties.cpp:112
 msgid "Right"
@@ -71,7 +74,7 @@ msgstr "右"
 
 #: src/editor/object_properties.cpp:117
 msgid "ReleaseRate:"
-msgstr "释放频率:"
+msgstr "ReleaseRate:"
 
 #: src/editor/object_properties.cpp:140
 msgid "Para-X:"
@@ -83,15 +86,15 @@ msgstr "Para-Y:"
 
 #: src/editor/object_properties.cpp:149
 msgid "Scroll-X:"
-msgstr "滚动-X:"
+msgstr "Scroll-X:"
 
 #: src/editor/object_properties.cpp:150
 msgid "Scroll-Y:"
-msgstr "滚动-Y:"
+msgstr "Scroll-Y:"
 
 #: src/editor/object_properties.cpp:158
 msgid "Owner Id:"
-msgstr "所属者编号："
+msgstr "所有者 Id："
 
 #: src/editor/object_properties.cpp:162
 msgid "Z-Pos:"
@@ -103,27 +106,27 @@ msgstr "颜色："
 
 #: src/editor/object_properties.cpp:181
 msgid "Small Stars:"
-msgstr "小星星:"
+msgstr "小星星："
 
 #: src/editor/object_properties.cpp:184
 msgid "Middle Stars:"
-msgstr "中等的星星："
+msgstr "中星星："
 
 #: src/editor/object_properties.cpp:187
 msgid "Large Stars:"
-msgstr "大的星星："
+msgstr "大星星："
 
 #: src/editor/object_properties.cpp:195
 msgid "Repeat:"
-msgstr "重覆:"
+msgstr "重复："
 
 #: src/editor/object_properties.cpp:211
 msgid "Id:"
-msgstr ""
+msgstr "Id："
 
 #: src/editor/object_properties.cpp:215
 msgid "Target Id:"
-msgstr ""
+msgstr "目标 Id："
 
 #: src/editor/object_properties.cpp:220 src/editor/level_properties.cpp:74
 msgid "Height:"
@@ -131,15 +134,15 @@ msgstr "高度："
 
 #: src/editor/object_properties.cpp:521
 msgid "Object: [Group]"
-msgstr "物体: [群组]"
+msgstr "物体：[群组]"
 
 #: src/editor/object_properties.cpp:522
 msgid "Group not supported"
-msgstr "群组未支持"
+msgstr "未支持群组"
 
 #: src/editor/object_properties.cpp:527
 msgid "Object: "
-msgstr "物体: "
+msgstr "物体： "
 
 #: src/editor/panel.cpp:171
 msgid "New level"
@@ -147,19 +150,19 @@ msgstr "新关卡"
 
 #: src/editor/panel.cpp:173
 msgid "Open level..."
-msgstr "打开等极……"
+msgstr "打开关卡…"
 
 #: src/editor/panel.cpp:175
 msgid "Save level..."
-msgstr "存储关卡……"
+msgstr "保存关卡…"
 
 #: src/editor/panel.cpp:177
 msgid "Save level as..."
-msgstr "存储关卡为……"
+msgstr "关卡另存为…"
 
 #: src/editor/panel.cpp:180
 msgid "Play level..."
-msgstr "玩这个等极……"
+msgstr "开始关卡…"
 
 #: src/editor/panel.cpp:183
 msgid "Configure actions"
@@ -167,11 +170,11 @@ msgstr "设置动作"
 
 #: src/editor/panel.cpp:185
 msgid "Configure level"
-msgstr "设置等级"
+msgstr "设置关卡"
 
 #: src/editor/panel.cpp:187
 msgid "Display object properties"
-msgstr "显示物品的特性"
+msgstr "显示物品特性"
 
 #: src/editor/panel.cpp:189
 msgid "Show object insertion window"
@@ -183,19 +186,19 @@ msgstr "显示迷你地图"
 
 #: src/editor/panel.cpp:194
 msgid "Duplicate the selected objects"
-msgstr "复制所选择的物品"
+msgstr "复制选中物品"
 
 #: src/editor/panel.cpp:196
 msgid "Delete the selected objects"
-msgstr "删除所选择的物品"
+msgstr "删除选中物品"
 
 #: src/editor/panel.cpp:199
 msgid "Raise object to top"
-msgstr "提升物品到最高程度"
+msgstr "提升物品到顶层"
 
 #: src/editor/panel.cpp:201
 msgid "Raise object"
-msgstr "上升物体"
+msgstr "提升物体"
 
 #: src/editor/panel.cpp:203
 msgid "Lower object"
@@ -203,32 +206,32 @@ msgstr "降低物体"
 
 #: src/editor/panel.cpp:205
 msgid "Lower object to bottom"
-msgstr "降低物体到底部"
+msgstr "降低物体到底层"
 
 #: src/editor/panel.cpp:211
 msgid "Flip object horizontally"
-msgstr "使物体水平地翻转"
+msgstr "水平翻转物体"
 
 #: src/editor/panel.cpp:213
 msgid "Flip object vertically"
-msgstr "使物体纵向地翻转"
+msgstr "垂直翻转物体"
 
 #: src/editor/panel.cpp:216
 msgid "Rotate object -90 degree"
-msgstr "旋转物体-90度"
+msgstr "旋转物体 -90 度"
 
 #: src/editor/panel.cpp:218
 msgid "Rotate object 90 degree"
-msgstr "物体旋转90度"
+msgstr "旋转物体 90 度"
 
 #: src/editor/panel.cpp:227
 msgid "Display help"
-msgstr "显示说明"
+msgstr "显示帮助"
 
 #: src/editor/panel.cpp:229 src/editor/object_selector.cpp:174
 #: src/pingus/screens/pingus_menu.cpp:74
 msgid "Exit"
-msgstr "离开"
+msgstr "退出"
 
 #: src/editor/file_dialog.cpp:58
 msgid "Datadir"
@@ -244,7 +247,7 @@ msgstr "打开"
 
 #: src/editor/file_dialog.cpp:63
 msgid "Save"
-msgstr "存储"
+msgstr "保存"
 
 #: src/editor/file_dialog.cpp:66 src/editor/message_box.cpp:35
 msgid "Cancel"
@@ -252,19 +255,19 @@ msgstr "取消"
 
 #: src/editor/file_dialog.cpp:77
 msgid "Filename:"
-msgstr "文件名称："
+msgstr "文件名："
 
 #: src/editor/file_dialog.cpp:78
 msgid "Pathname:"
-msgstr "路径名称："
+msgstr "路径名："
 
 #: src/editor/file_dialog.cpp:98
 msgid "Open a level"
-msgstr "打开一个关卡"
+msgstr "打开关卡"
 
 #: src/editor/file_dialog.cpp:98
 msgid "Save your level"
-msgstr "存储你的关卡"
+msgstr "保存关卡"
 
 #: src/editor/level_properties.cpp:52
 msgid "Author:"
@@ -272,7 +275,7 @@ msgstr "作者："
 
 #: src/editor/level_properties.cpp:55
 msgid "Levelname:"
-msgstr "关卡名称："
+msgstr "关卡名："
 
 #: src/editor/level_properties.cpp:58
 msgid "Description:"
@@ -280,11 +283,11 @@ msgstr "描述："
 
 #: src/editor/level_properties.cpp:62
 msgid "Pingus Count:"
-msgstr ""
+msgstr "Pingus 数量："
 
 #: src/editor/level_properties.cpp:65
 msgid "Pingus to Save:"
-msgstr "需要挽救的数量："
+msgstr "需要拯救的的 Pingus 数量："
 
 #: src/editor/level_properties.cpp:68
 msgid "Time:"
@@ -315,6 +318,16 @@ msgid ""
 "Group selected objects\n"
 "Ungroup selected objects\n"
 msgstr ""
+"全选\n"
+"清除选中\n"
+"提升物体\n"
+"降低物体\n"
+"提升物体到顶层\n"
+"降低物体到底层\n"
+"旋转 90 度\n"
+"旋转 270 度\n"
+"合并选中物体为组\n"
+"拆分选中的物体组\n"
 
 #: src/editor/editor_screen.cpp:271
 msgid ""
@@ -326,6 +339,13 @@ msgid ""
 "Toggle background color\n"
 "Increase/lower repeat\n"
 msgstr ""
+"水平翻转物体\n"
+"垂直翻转物体\n"
+"删除所有标记的物体\n"
+"逐像素移动物体\n"
+"移动物体 32 像素\n"
+"切换背景色\n"
+"提高/降低重复\n"
 
 #: src/editor/editor_screen.cpp:282
 msgid ""
@@ -407,7 +427,7 @@ msgstr ""
 #: src/pingus/components/pingus_counter.cpp:43
 #, c-format, boost-format
 msgid "Released:%3d/%d   Out:%3d   Saved:%3d/%d"
-msgstr "放出:%3d/%d   在外面:%3d   获救:%3d/%d"
+msgstr "放出：%3d/%d   在外面：%3d   获救：%3d/%d"
 
 #: src/pingus/action_name.cpp:27
 msgid "Angel"
@@ -513,7 +533,7 @@ msgstr "返回"
 
 #: src/pingus/screens/start_screen.cpp:166
 msgid "Number of Pingus: "
-msgstr "Pingus数量: "
+msgstr "Pingus数量： "
 
 #: src/pingus/screens/start_screen.cpp:169
 msgid "Number to Save: "
@@ -521,11 +541,11 @@ msgstr "挽救数量： "
 
 #: src/pingus/screens/start_screen.cpp:172
 msgid "Time: "
-msgstr "时间: "
+msgstr "时间： "
 
 #: src/pingus/screens/start_screen.cpp:178
 msgid "Author: "
-msgstr "作者: "
+msgstr "作者： "
 
 #: src/pingus/screens/addon_menu.cpp:53 src/pingus/screens/option_menu.cpp:336
 msgid "Close"
@@ -593,7 +613,7 @@ msgstr "故事"
 
 #: src/pingus/screens/pingus_menu.cpp:55
 msgid "..:: Start the game ::.."
-msgstr "..:: 游戏开始 ::.."
+msgstr "..：： 游戏开始 ：：.."
 
 #: src/pingus/screens/pingus_menu.cpp:59
 msgid "Editor"
@@ -601,7 +621,7 @@ msgstr "编辑"
 
 #: src/pingus/screens/pingus_menu.cpp:60
 msgid "..:: Create your own levels ::.."
-msgstr "..:: 创建自己的关卡 ::.."
+msgstr "..：： 创建自己的关卡 ：：.."
 
 #: src/pingus/screens/pingus_menu.cpp:64
 msgid "Options"
@@ -609,7 +629,7 @@ msgstr "选项"
 
 #: src/pingus/screens/pingus_menu.cpp:65
 msgid "..:: Configure the game ::.."
-msgstr "..:: 配置游戏 ::.."
+msgstr "..：： 配置游戏 ：：.."
 
 #: src/pingus/screens/pingus_menu.cpp:69 src/pingus/screens/level_menu.cpp:177
 msgid "Levelsets"
@@ -617,19 +637,19 @@ msgstr "关卡组合"
 
 #: src/pingus/screens/pingus_menu.cpp:70
 msgid "..:: Play User Built levels ::.."
-msgstr "..:: 玩家自制关卡 ::.."
+msgstr "..：： 玩家自制关卡 ：：.."
 
 #: src/pingus/screens/pingus_menu.cpp:75
 msgid "..:: Bye, bye ::.."
-msgstr "..:: 再见 ::.."
+msgstr "..：： 再见 ：：.."
 
 #: src/pingus/screens/pingus_menu.cpp:87
 msgid ""
 "..:: Ctrl-g: mouse grab   ::   F10: fps counter   ::   F11: "
 "fullscreen   ::   F12: screenshot ::.."
 msgstr ""
-"..:: Ctrl-g: 固定鼠标在窗口内  ::  F10: 显示 FPS  ::  F11: 全屏  ::  F12: 截"
-"图 ::.."
+"..：： Ctrl-g： 固定鼠标在窗口内  ：：  F10： 显示 FPS  ：：  F11： 全屏  "
+"：：  F12： 截图 ：：.."
 
 #: src/pingus/screens/result_screen.cpp:91
 msgid "Give up"
@@ -762,11 +782,11 @@ msgstr "打印版本号后退出"
 
 #: src/pingus/pingus_main.cpp:184
 msgid "Enable info level log output"
-msgstr "启用 INFO 等级的日志输出"
+msgstr "启用 INFO 关卡的日志输出"
 
 #: src/pingus/pingus_main.cpp:186
 msgid "Enable debug level log output"
-msgstr "启用 DEBUG 等级的日志输出"
+msgstr "启用 DEBUG 关卡的日志输出"
 
 #: src/pingus/pingus_main.cpp:188
 msgid "Disable all log output"
@@ -891,19 +911,19 @@ msgstr "设置目标帧速"
 
 #: src/pingus/pingus_main.cpp:248
 msgid "Set the size of the map tiles (default: 32)"
-msgstr "设置地图瓷砖尺寸(缺省: 32)"
+msgstr "设置地图瓷砖尺寸(缺省： 32)"
 
 #: src/pingus/pingus_main.cpp:688
 msgid "Pingus: Out of memory!"
-msgstr "Pingus: 内存不足!"
+msgstr "Pingus： 内存不足!"
 
 #: src/pingus/pingus_main.cpp:692
 msgid "Pingus: Standard exception caught!:\n"
-msgstr "Pingus: 标准库抛出异常！：\n"
+msgstr "Pingus： 标准库抛出异常！：\n"
 
 #: src/pingus/pingus_main.cpp:696
 msgid "Pingus: Unknown throw caught!"
-msgstr "Pingus: 发生不明错误！"
+msgstr "Pingus： 发生不明错误！"
 
 #: src/pingus/game_time.cpp:29
 msgid "unlimited"
@@ -911,7 +931,7 @@ msgstr "无限"
 
 #: src/engine/display/screenshot.cpp:37
 msgid "Screenshot: Saving screenshot to: "
-msgstr "屏幕画面捕获:把屏幕画面捕获存储至: "
+msgstr "屏幕画面捕获：把屏幕画面捕获存储至： "
 
 #: src/engine/display/screenshot.cpp:39
 msgid "Screenshot: Screenshot is done."
@@ -932,7 +952,7 @@ msgid ""
 "opposed to the vertical dig ability the Digger action provides. This new "
 "action is called Basher. "
 msgstr ""
-"与已经从先前的等级中知道的“打井”行动类似，有一种允许Pingus由水平凿地洞的一个"
+"与已经从先前的关卡中知道的“打井”行动类似，有一种允许Pingus由水平凿地洞的一个"
 "行动，而这个新的行动被称为“开路”。 "
 
 #: data/levels/tutorial/bomber-tutorial2-grumbel.pingus:5
@@ -1013,7 +1033,7 @@ msgid ""
 "one gets a bit trickier. The Pingus are coming out of two entrances in "
 "parallel and it is your job to coordinate the two groups wisely. "
 msgstr ""
-"先前的等级中没有要求你敏捷地行动，不过这一关就开始要求啦。Pingus 正在同时从两"
+"先前的关卡中没有要求你敏捷地行动，不过这一关就开始要求啦。Pingus 正在同时从两"
 "个地方出来，而且你的工作就是聪明地协调这两组 Pingus。"
 
 #: data/levels/tutorial/snow11-grumbel.pingus:5
@@ -1068,8 +1088,8 @@ msgid ""
 "Digger action in this level the Bomber needs to jump in, but how can it "
 "reach the place to bomb? "
 msgstr ""
-"你可能已经从先前的等级中了解，你必须时常结合不同的行动去完成工作。由於在这个"
-"等级中少了“打井”，你需要用“自爆”替代。可是如何让它到达可以轰炸的地方？ "
+"你可能已经从先前的关卡中了解，你必须时常结合不同的行动去完成工作。由於在这个"
+"关卡中少了“打井”，你需要用“自爆”替代。可是如何让它到达可以轰炸的地方？ "
 
 #: data/levels/tutorial/snow16-grumbel.pingus:5
 msgid "Bridging gets more complicated..."
@@ -1120,7 +1140,7 @@ msgid ""
 "This level presents you with at least three different ways to solve it. It's "
 "up to you which one you pick. "
 msgstr ""
-"现在你已学到所有的技能，是该多做一些练习了。这一个等级有至少三种不同的方法去"
+"现在你已学到所有的技能，是该多做一些练习了。这一个关卡有至少三种不同的方法去"
 "解决它。你自己决定你该挑选哪一个。 "
 
 #: data/levels/tutorial/snow21-grumbel.pingus:5
@@ -1192,7 +1212,7 @@ msgid ""
 "think you've reached a situation from which you can no longer solve the "
 "level, double click the armageddon button at the lower right. "
 msgstr ""
-"越往后的关卡会越难，但不要慌，因为这一关还很容易。 只要使用你在先前的等级中学"
+"越往后的关卡会越难，但不要慌，因为这一关还很容易。 只要使用你在先前的关卡中学"
 "到的技能，应该没有太大的问题。如果你认为你已经到达一种不能过关的情况，请点两"
 "次右下的自爆钮。 "
 
@@ -1207,7 +1227,7 @@ msgid ""
 "These regions are marked dark grey on the level map and cannot be destroyed, "
 "so you must find a way around them. "
 msgstr ""
-"你在之前的等级已经发现你的 Pingus 能挖过几乎任何地带，但是有一种他们不能穿透"
+"你在之前的关卡已经发现你的 Pingus 能挖过几乎任何地带，但是有一种他们不能穿透"
 "的材料：钢铁。这些区域在关卡地图上是以黑灰色做记号的，不能够被你的操作破坏。"
 "因此，你一定要在周围找出其它路线。 "
 
@@ -1826,7 +1846,7 @@ msgid ""
 "Spy's pingus have marked the location of jaws in the matrix of the death. "
 "Many died to gain that information :..( Perhaps this help. Perhaps..."
 msgstr ""
-"间谍企鹅们已经在迷宫中标出了鲨鱼的正确位置。但是很多在获取情报时不幸丧生 :.."
+"间谍企鹅们已经在迷宫中标出了鲨鱼的正确位置。但是很多在获取情报时不幸丧生 ：.."
 "（也许这是有帮助的。也许…？"
 
 #: data/levels/alien/aliens7-phil.pingus:7
