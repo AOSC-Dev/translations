@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: pingus 0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-02-13 03:15+0100\n"
-"PO-Revision-Date: 2017-01-19 09:21-0600\n"
+"PO-Revision-Date: 2017-01-24 19:42+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Anthon Open Source Community\n"
 "Language: zh_CN\n"
@@ -782,11 +782,11 @@ msgstr "打印版本号后退出"
 
 #: src/pingus/pingus_main.cpp:184
 msgid "Enable info level log output"
-msgstr "启用 INFO 关卡的日志输出"
+msgstr "启用 INFO 等级的日志输出"
 
 #: src/pingus/pingus_main.cpp:186
 msgid "Enable debug level log output"
-msgstr "启用 DEBUG 关卡的日志输出"
+msgstr "启用 DEBUG 等级的日志输出"
 
 #: src/pingus/pingus_main.cpp:188
 msgid "Disable all log output"
@@ -2131,6 +2131,8 @@ msgid ""
 "seems impossible, but wise coordination of the two groups and a brave leap "
 "should let you make it to the exit."
 msgstr ""
+"两组 Pingus 被一个又大又深的谷给隔离开来了，把它们用桥梁连接起来看上去完全不"
+"可能；但是，依靠聪明的组间协调和勇敢的跳跃，这些企鹅终将到达终点。"
 
 #: data/levels/xmas2011/xmas10-grumbel.pingus:5
 msgid "Spiraling Away"
@@ -2295,11 +2297,11 @@ msgstr ""
 
 #: data/levelsets/alien.levelset:3
 msgid "Alien by Josh Dye"
-msgstr ""
+msgstr "外星人（由 Josh Dye 制作）"
 
 #: data/levelsets/alien.levelset:4
 msgid "Escape from alien"
-msgstr ""
+msgstr "逃离外星人"
 
 #: data/levelsets/crystal.levelset:3
 msgid "Crystal"
@@ -2319,11 +2321,11 @@ msgstr "外面真热…"
 
 #: data/levelsets/eyeland.levelset:2
 msgid "Eye Land"
-msgstr ""
+msgstr "大眼睛之岛"
 
 #: data/levelsets/factory.levelset:3
 msgid "Factory Campaign"
-msgstr ""
+msgstr "工厂战役"
 
 #: data/levelsets/factory.levelset:4
 msgid "Pingus expedition"
@@ -2331,7 +2333,7 @@ msgstr ""
 
 #: data/levelsets/halloween2011.levelset:2
 msgid "Halloween 2011"
-msgstr ""
+msgstr "2011年万圣节"
 
 #: data/levelsets/halloween2011.levelset:3
 msgid "Going Underground"
@@ -2347,7 +2349,7 @@ msgstr "万圣节前夕的困惑"
 
 #: data/levelsets/hellmouth.levelset:3
 msgid "Hellmouth"
-msgstr ""
+msgstr "地狱之口"
 
 #: data/levelsets/hellmouth.levelset:4
 msgid "A cave full of slime..."
@@ -2367,11 +2369,11 @@ msgstr ""
 
 #: data/levelsets/pacman.levelset:3
 msgid "Pac-Man"
-msgstr ""
+msgstr "吃~豆~人~"
 
 #: data/levelsets/pacman.levelset:4
 msgid "Trapped in a video game"
-msgstr ""
+msgstr "困在视频游戏当中"
 
 #: data/levelsets/xmas2011.levelset:3
 msgid "Xmas 2011"
@@ -2379,7 +2381,7 @@ msgstr "2011 年圣诞节"
 
 #: data/levelsets/xmas2011.levelset:4
 msgid "Merry Christmas and a Happy New Year"
-msgstr ""
+msgstr " 圣诞与新年快乐"
 
 #~ msgid "Rocketlauncher"
 #~ msgstr "火箭筒"
