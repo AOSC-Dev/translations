@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: pingus 0.7.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-24 23:00+0800\n"
-"PO-Revision-Date: 2017-01-24 19:42+0800\n"
+"PO-Revision-Date: 2017-01-24 23:22+0800\n"
 "Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Anthon Open Source Community\n"
 "Language: zh_CN\n"
@@ -1783,7 +1783,7 @@ msgstr ""
 
 #: data/levels/alien/aliens1-phil.pingus:7
 msgid "Escape from Aliens"
-msgstr ""
+msgstr "逃离外星人"
 
 #: data/levels/alien/aliens1-phil.pingus:8
 msgid ""
@@ -1793,7 +1793,7 @@ msgstr ""
 
 #: data/levels/alien/aliens2-phil.pingus:7
 msgid "Escape from Aliens 2"
-msgstr ""
+msgstr "逃离外星人 II"
 
 #: data/levels/alien/aliens2-phil.pingus:8
 msgid "Aliens are now closest making your escape harder. You must dig it up."
@@ -2080,6 +2080,8 @@ msgid ""
 "Going in and out of the abyss with all Pingus isn't an option here, but a "
 "small group preparing the path for the others should get you across."
 msgstr ""
+"让所有 Pingus 先进到谷底再出来不是一个可行的方案，但是可以派一小组先遣队为其"
+"他的 Pingus 建立好道路，这样就能穿越深谷。"
 
 #: data/levels/xmas2011/xmas07-grumbel.pingus:5
 msgid "No Way to Stop"
@@ -2287,11 +2289,11 @@ msgstr "逃离外星人"
 
 #: data/levelsets/crowdus.levelset:3
 msgid "The Eight Pingus"
-msgstr ""
+msgstr "八只 Pingus"
 
 #: data/levelsets/crowdus.levelset:4
 msgid "Eight Pingus get separated from the others."
-msgstr ""
+msgstr "有八只 Pingus 走散了"
 
 #: data/levelsets/crystal.levelset:3
 msgid "Crystal"
@@ -2299,7 +2301,7 @@ msgstr "水晶"
 
 #: data/levelsets/crystal.levelset:4
 msgid "Crystaline sparkling full of danger"
-msgstr ""
+msgstr "水晶闪闪，危险重重"
 
 #: data/levelsets/desert.levelset:3
 msgid "Desert"
@@ -2319,7 +2321,7 @@ msgstr "工厂战役"
 
 #: data/levelsets/factory.levelset:4
 msgid "Pingus expedition"
-msgstr ""
+msgstr "Pingus 的远征"
 
 #: data/levelsets/halloween2011.levelset:2
 msgid "Halloween 2011"
@@ -2355,7 +2357,7 @@ msgstr "神秘岛"
 
 #: data/levelsets/mysteryisland.levelset:4
 msgid "Marooned on an Uncharted Isle [by Lachlan McCubbin]"
-msgstr ""
+msgstr "受困无名岛（由 Lachlan McCubbin 制作）"
 
 #: data/levelsets/pacman.levelset:3
 msgid "Pac-Man"
@@ -2366,21 +2368,20 @@ msgid "Trapped in a video game"
 msgstr "困在视频游戏当中"
 
 #: data/levelsets/pollution.levelset:2
-#, fuzzy
 msgid "Pollution"
-msgstr "分辨率"
+msgstr "污染"
 
 #: data/levelsets/pollution.levelset:3
 msgid "Stop the pollution"
-msgstr ""
+msgstr "阻止污染！"
 
 #: data/levelsets/space-adventure.levelset:3
 msgid "Space adventure"
-msgstr ""
+msgstr "太空冒险"
 
 #: data/levelsets/space-adventure.levelset:4
 msgid "Going beyond planet Earth and familiar lands"
-msgstr ""
+msgstr "跨越地球，走向宇宙"
 
 #: data/levelsets/xmas2011.levelset:3
 msgid "Xmas 2011"
