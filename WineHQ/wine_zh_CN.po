@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2016-11-07 16:40+0800\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"PO-Revision-Date: 2017-02-18 00:14-0700\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
+"X-Generator: Poedit 1.8.11\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: appwiz.rc:58
@@ -8286,10 +8286,8 @@ msgid "Wine Control Panel"
 msgstr "Wine 控制面板"
 
 #: shell32.rc:195
-#, fuzzy
-#| msgid "Unable to display Run File dialog box (internal error)"
 msgid "Unable to display Run dialog box (internal error)"
-msgstr "无法显示运行文件对话框 (内部错误)"
+msgstr "无法显示运行对话框 (内部错误)"
 
 #: shell32.rc:196
 msgid "Unable to display Browse dialog box (internal error)"
@@ -9182,10 +9180,8 @@ msgid "Confidentiality Required"
 msgstr "需要保密性"
 
 #: wldap32.rc:46
-#, fuzzy
-#| msgid "Shutdown in progress.\n"
 msgid "SASL Bind in Progress"
-msgstr "正在关机。\n"
+msgstr "SASL 绑定进行中"
 
 #: wldap32.rc:48
 msgid "No Such Attribute"
@@ -11692,65 +11688,53 @@ msgid "(unknown %d)"
 msgstr "(未知 %d)"
 
 #: regedit.rc:214
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to modify the selected registry value."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法修改注册表值"
 
 #: regedit.rc:215
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to create a new registry key."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法新建注册表键"
 
 #: regedit.rc:216
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to create a new registry value."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法新建注册表值"
 
 #: regedit.rc:217
 msgid ""
 "Unable to rename the key '%1'.\n"
 "The specified key name already exists."
 msgstr ""
+"无法重命名键 '%1'。\n"
+"指定的键名已存在。"
 
 #: regedit.rc:218
 msgid ""
 "Unable to rename the value '%1'.\n"
 "The specified value name already exists."
 msgstr ""
+"无法重命名值 '%1'。\n"
+"指定的值名已存在。"
 
 #: regedit.rc:219
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to delete the selected registry key."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法删除选定的注册表键"
 
 #: regedit.rc:220
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to rename the selected registry key."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法重命名选定的注册表键"
 
 #: regedit.rc:221
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to rename the selected registry value."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法重命名选定的注册表值"
 
 #: regedit.rc:222
 msgid ""
 "The keys and values contained in %1 were successfully added to the registry."
-msgstr ""
+msgstr "%1 中的键值已全部成功添加进注册表。"
 
 #: regedit.rc:223
-#, fuzzy
-#| msgid ""
-#| "regedit: Unable to export '%1'. The specified registry key was not "
-#| "found.\n"
 msgid "Unable to import %1. The specified file is not a valid registry file."
-msgstr "regedit: 无法导出 '%1'。未找到指定的注册表键。\n"
+msgstr "无法导入 '%1'。指定的文件并不是有效的注册表文件。"
 
 #: regedit.rc:375
 msgid ""
@@ -11975,32 +11959,24 @@ msgid "Displays program information, version number and copyright"
 msgstr "显示程序信息、版本号及版权"
 
 #: regedit.rc:181
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to query the registry value '%1'."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法查询注册表值 '%1'"
 
 #: regedit.rc:182
-#, fuzzy
-#| msgid "Can't edit keys of this type (%u)"
 msgid "Unable to edit registry keys of this type (%1!u!)."
-msgstr "不能编辑这类型的键 (%u)"
+msgstr "不能编辑这种类型的键 (%1!u!)"
 
 #: regedit.rc:183
-#, fuzzy
-#| msgid "Value is too big (%u)"
 msgid "The value is too big (%1!u!)."
-msgstr "值太大 (%u)"
+msgstr "值太大 (%1!u!)"
 
 #: regedit.rc:184
 msgid "Confirm Value Delete"
 msgstr "确认删除值"
 
 #: regedit.rc:191
-#, fuzzy
-#| msgid "Search string '%s' not found"
 msgid "Search complete. The string '%1' was not found."
-msgstr "未找到字符串 '%s'"
+msgstr "查找完成。未找到字符串 '%s'。"
 
 #: regedit.rc:186
 msgid "Are you sure you want to delete these values?"
@@ -12015,10 +11991,8 @@ msgid "New Value #%d"
 msgstr "新值 #%d"
 
 #: regedit.rc:180
-#, fuzzy
-#| msgid "regedit: Unable to open the registry key '%1'.\n"
 msgid "Unable to query the registry key '%1'."
-msgstr "regedit: 无法打开注册表键 '%1'。\n"
+msgstr "无法查询注册表键 '%1'"
 
 #: regedit.rc:152
 msgid "Adds a new multi-string value"
@@ -12029,17 +12003,13 @@ msgid "Exports selected branch of the registry to a text file"
 msgstr "把选定的注册表分支导出为文本文件"
 
 #: regedit.rc:187
-#, fuzzy
-#| msgid "Confirm Value Delete"
 msgid "Confirm Key Delete"
-msgstr "确认删除值"
+msgstr "确认删除键"
 
 #: regedit.rc:188
-#, fuzzy
-#| msgid "Are you sure you want to delete the registry key '%1'?"
 msgid ""
 "Are you sure you want to delete the registry key '%1' and all of its subkeys?"
-msgstr "您真的要删除注册表键 '%1' 吗?"
+msgstr "您真的要删除注册表键 '%1' 和其所有子键吗？"
 
 #: regsvr32.rc:32
 msgid ""
