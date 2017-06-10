@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
 "PO-Revision-Date: 2016-11-07 16:40+0800\n"
-"Last-Translator: Jeff Bai <jeffbai@aosc.xyz>\n"
+"Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -11552,17 +11552,12 @@ msgid "&About Registry Editor"
 msgstr "关于注册表编辑器(&A)"
 
 #: regedit.rc:89 regedit.rc:96 regedit.rc:229
-#, fuzzy
-#| msgctxt "object state"
-#| msgid "expanded"
 msgid "Expand"
-msgstr "已展开"
+msgstr "展开"
 
 #: regedit.rc:134 regedit.rc:232
-#, fuzzy
-#| msgid "Modify Binary Data..."
 msgid "Modify &Binary Data..."
-msgstr "修改二进制数据..."
+msgstr "修改二进制数据(&B)..."
 
 #: regedit.rc:266
 msgid "Export registry"
@@ -11661,13 +11656,9 @@ msgid "Contains commands for accessing frequently used keys"
 msgstr "用于记录常用键的全部命令"
 
 #: regedit.rc:163
-#, fuzzy
-#| msgid ""
-#| "Contains commands for displaying help and information about registry "
-#| "editor"
 msgid ""
 "Contains commands for displaying Help and information about Registry Editor"
-msgstr "注册表编辑器的帮助及关于信息"
+msgstr "包含用于显示注册表编辑器的帮助及关于信息的命令"
 
 #: regedit.rc:164
 msgid "Contains commands for creating new keys or values"
@@ -11901,8 +11892,6 @@ msgid "regedit: The line contains invalid syntax.\n"
 msgstr "regedit: 该行包含无效字符。\n"
 
 #: regedit.rc:187
-#, fuzzy
-#| msgid "Quits the registry editor"
 msgid "Quits the Registry Editor"
 msgstr "退出注册表编辑器"
 
@@ -11919,8 +11908,6 @@ msgid "Shows or hides the status bar"
 msgstr "显示或隐藏状态栏"
 
 #: regedit.rc:191
-#, fuzzy
-#| msgid "Change position of split between two panes"
 msgid "Changes the position of the split between two panes"
 msgstr "改变两个窗格之间的分隔线位置"
 
@@ -11965,10 +11952,8 @@ msgid "Adds a new binary value"
 msgstr "添加新二进制值"
 
 #: regedit.rc:174
-#, fuzzy
-#| msgid "Adds a new binary value"
 msgid "Adds a new 32-bit value"
-msgstr "添加新二进制值"
+msgstr "添加新 32 位值"
 
 #: regedit.rc:177
 msgid "Imports a text file into the registry"
@@ -11983,10 +11968,8 @@ msgid "Prints all or part of the registry"
 msgstr "打印注册表的全部或部分"
 
 #: regedit.rc:181
-#, fuzzy
-#| msgid "Registry Editor"
 msgid "Opens Registry Editor Help"
-msgstr "注册表编辑器"
+msgstr "打开注册表编辑器帮助"
 
 #: regedit.rc:182
 msgid "Displays program information, version number and copyright"
@@ -12029,26 +12012,20 @@ msgid "Unable to query the registry key '%1'."
 msgstr "无法打开注册表键 '%1'。"
 
 #: regedit.rc:170
-#, fuzzy
-#| msgid "Modifies the value's data"
 msgid "Modifies the value's data in binary form"
-msgstr "修改值的数据"
+msgstr "以二进制形式修改值的数据"
 
 #: regedit.rc:175
 msgid "Adds a new multi-string value"
 msgstr "添加新多字符串值"
 
 #: regedit.rc:198
-#, fuzzy
-#| msgid "Exports selected branch of the registry to a text file"
 msgid "Exports the selected branch of the registry to a text file"
 msgstr "把选定的注册表分支导出为文本文件"
 
 #: regedit.rc:176
-#, fuzzy
-#| msgid "Adds a new string value"
 msgid "Adds a new expandable string value"
-msgstr "添加新字符串值"
+msgstr "添加新可扩展字符串值"
 
 #: regedit.rc:211
 msgid "Confirm Key Delete"
@@ -12060,11 +12037,8 @@ msgid ""
 msgstr "您真的要删除注册表键 '%1' 及其包含的所有子键吗?"
 
 #: regedit.rc:230
-#, fuzzy
-#| msgctxt "object state"
-#| msgid "collapsed"
 msgid "Collapse"
-msgstr "已收起"
+msgstr "收起"
 
 #: regsvr32.rc:32
 msgid ""
