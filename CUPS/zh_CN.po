@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: CUPS 1.6\n"
 "Report-Msgid-Bugs-To: http://www.cups.org/str.php\n"
 "POT-Creation-Date: 2017-06-11 11:07+0800\n"
-"PO-Revision-Date: 2017-06-11 11:08+0800\n"
+"PO-Revision-Date: 2017-06-11 12:38+0800\n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: \n"
 "Language: zh_CN\n"
@@ -69,9 +69,8 @@ msgid "\tAlerts: %s"
 msgstr "\t警告：%s"
 
 #: systemv/lpstat.c:1865 systemv/lpstat.c:1984
-#, fuzzy
 msgid "\tBanner required"
-msgstr "\t需要条幅"
+msgstr "\t需要横幅"
 
 #: systemv/lpstat.c:1866 systemv/lpstat.c:1985
 msgid "\tCharset sets:"
@@ -108,11 +107,11 @@ msgstr "\t描述：%s"
 
 #: systemv/lpstat.c:1790 systemv/lpstat.c:1910
 msgid "\tForm mounted:"
-msgstr ""
+msgstr "\t已挂载表单："
 
 #: systemv/lpstat.c:1863 systemv/lpstat.c:1982
 msgid "\tForms allowed:"
-msgstr ""
+msgstr "\t已允许表单："
 
 #: systemv/lpstat.c:1829 systemv/lpstat.c:1949
 #, c-format
@@ -173,9 +172,9 @@ msgid "\tprinting is enabled"
 msgstr "\t已启用打印"
 
 #: systemv/lpstat.c:1472
-#, fuzzy, c-format
+#, c-format
 msgid "\tqueued for %s"
-msgstr "\t已为 %s 队列"
+msgstr "\t已为 %s 列队"
 
 #: berkeley/lpc.c:414
 msgid "\tqueuing is disabled"
@@ -432,7 +431,6 @@ msgid "       cupstestdsc [options] -"
 msgstr "       cupstestdsc [选项] -"
 
 #: systemv/cupstestppd.c:3857
-#, fuzzy
 msgid "       program | cupstestppd [options] -"
 msgstr "       程序 | cupstestppd [选项] -"
 
@@ -520,7 +518,7 @@ msgstr "      %s  %s 文件“%s”存在无效权限。"
 #: systemv/cupstestppd.c:2849 systemv/cupstestppd.c:2904
 #, c-format
 msgid "      %s  Bad spelling of %s - should be %s."
-msgstr "      %s  %s 拼写错误 - 应为 %s。"
+msgstr "      %s  %s 拼写错误 — 应为 %s。"
 
 #: systemv/cupstestppd.c:2949
 #, c-format
@@ -578,11 +576,12 @@ msgstr ""
 #, c-format
 msgid "      %s  Missing choice *%s %s in UIConstraints \"*%s %s *%s %s\"."
 msgstr ""
+"      %1$s  UIConstraints “*%4$s %5$s *%6$s %7$s”中缺少选择 %2$s %3$s。"
 
 #: systemv/cupstestppd.c:1886
 #, c-format
 msgid "      %s  Missing choice *%s %s in cupsUIConstraints %s: \"%s\""
-msgstr ""
+msgstr "      %1$s  cupsUIConstraints %4$s：“%5$s” 中缺少选择 *%2$s %3$s"
 
 #: systemv/cupstestppd.c:1818
 #, c-format
@@ -592,20 +591,20 @@ msgstr "      %s  缺少 cupsUIResolver %s"
 #: systemv/cupstestppd.c:1977 systemv/cupstestppd.c:2018
 #, c-format
 msgid "      %s  Missing option %s in UIConstraints \"*%s %s *%s %s\"."
-msgstr ""
+msgstr "      %1$s  UIConstraints “*%3$s %4$s *%5$s %6$s” 中缺少选项 %2$s。"
 
 #: systemv/cupstestppd.c:1870
 #, c-format
 msgid "      %s  Missing option %s in cupsUIConstraints %s: \"%s\""
-msgstr ""
+msgstr "      %1$s  cupsUIConstraints %3$s：“%4$s” 中缺少选项 %2$s"
 
 #: systemv/cupstestppd.c:3675
-#, fuzzy, c-format
+#, c-format
 msgid "      %s  No base translation \"%s\" is included in file."
 msgstr "      %s  文件中无基础翻译“%s”。"
 
 #: systemv/cupstestppd.c:2272
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "      %s  REQUIRED %s does not define choice None.\n"
 "                REF: Page 122, section 5.17"
@@ -614,7 +613,7 @@ msgstr ""
 "                引用：第 122 页，章节 5.17"
 
 #: systemv/cupstestppd.c:3222 systemv/cupstestppd.c:3236
-#, fuzzy, c-format
+#, c-format
 msgid "      %s  Size \"%s\" defined for %s but not for %s."
 msgstr "      %1$s  已为 %3$s 定义尺寸“%2$s”，但未为 %4$s 定义。"
 
@@ -714,12 +713,12 @@ msgstr ""
 #: systemv/cupstestppd.c:1191
 #, c-format
 msgid "      **FAIL**  Bad LanguageEncoding %s - must be ISOLatin1."
-msgstr "      **失败**  无效的 LanguageEncoding 值 %s - 值必须为 ISOLatin1."
+msgstr "      **失败**  无效的 LanguageEncoding 值 %s — 值必须为 ISOLatin1."
 
 #: systemv/cupstestppd.c:1205
 #, c-format
 msgid "      **FAIL**  Bad LanguageVersion %s - must be English."
-msgstr "      **失败**  无效的 LanguageVersion 值 %s - 值必须为 English."
+msgstr "      **失败**  无效的 LanguageVersion 值 %s — 值必须为 English."
 
 #: systemv/cupstestppd.c:721 systemv/cupstestppd.c:738
 #, c-format
@@ -736,7 +735,7 @@ msgid ""
 "      **FAIL**  Bad ModelName - \"%c\" not allowed in string.\n"
 "                REF: Pages 59-60, section 5.3."
 msgstr ""
-"      **失败**  无效的 ModelName 值 - 字串不应包含“%c”。\n"
+"      **失败**  无效的 ModelName 值 — 字串不应包含“%c”。\n"
 "                引用：第 59-60 页，章节 5.3。"
 
 #: systemv/cupstestppd.c:934
@@ -744,7 +743,7 @@ msgid ""
 "      **FAIL**  Bad PSVersion - not \"(string) int\".\n"
 "                REF: Pages 62-64, section 5.3."
 msgstr ""
-"      **失败**  无效的 PSVersion 值 - 赋值非“(string) int”。\n"
+"      **失败**  无效的 PSVersion 值 — 赋值非“(string) int”。\n"
 "                引用：第 62-64 页，章节 5.3。"
 
 #: systemv/cupstestppd.c:895
@@ -752,7 +751,7 @@ msgid ""
 "      **FAIL**  Bad Product - not \"(string)\".\n"
 "                REF: Page 62, section 5.3."
 msgstr ""
-"      **失败**  无效的 Product 值 - 赋值非“(string)”。\n"
+"      **失败**  无效的 Product 值 — 赋值非“(string)”。\n"
 "                引用：第 62 页，章节 5.3。"
 
 #: systemv/cupstestppd.c:969
@@ -760,7 +759,7 @@ msgid ""
 "      **FAIL**  Bad ShortNickName - longer than 31 chars.\n"
 "                REF: Pages 64-65, section 5.3."
 msgstr ""
-"      **失败**  无效的 ShortNickName 值 - 长度超过 31 个字符。\n"
+"      **失败**  无效的 ShortNickName 值 — 长度超过 31 个字符。\n"
 "                引用：第 64-65 页，章节 5.3。"
 
 #: systemv/cupstestppd.c:1127
@@ -976,7 +975,7 @@ msgstr ""
 #: systemv/cupstestppd.c:343
 #, c-format
 msgid "      **FAIL**  Unable to open PPD file - %s on line %d."
-msgstr "      **失败**  无法打开 PPD 文件 - 行 %2$d 上的 %1$s。"
+msgstr "      **失败**  无法打开 PPD 文件 — 行 %2$d 上的 %1$s。"
 
 #: systemv/cupstestppd.c:1476
 #, c-format
@@ -1025,13 +1024,12 @@ msgstr ""
 
 # Should chapter titles be translated?
 #: systemv/cupstestdsc.c:184
-#, fuzzy
 msgid ""
 "    Missing %!PS-Adobe-3.0 on first line.\n"
 "        REF: Page 17, 3.1 Conforming Documents"
 msgstr ""
 "    首行缺少 %!PS-Adobe-3.0。\n"
-"        引用：第 17 页，3.1 Conforming Documents"
+"        引用：第 17 页，3.1 符合规范的文档"
 
 #: systemv/cupstestdsc.c:354
 #, c-format
@@ -1164,7 +1162,7 @@ msgstr "  --host 正则表达式      使用正则表达式匹配主机名。"
 
 #: ppdc/ppdc.cxx:452
 msgid "  --lf                    End lines with LF (UNIX/Linux/macOS)."
-msgstr ""
+msgstr "  --lf                    使用 LF 行末（UNIX/Linux/macOS）。"
 
 #: scheduler/cupsfilter.c:1481
 msgid "  --list-filters          List filters that will be used."
@@ -1267,7 +1265,6 @@ msgid "  -E                      Encrypt the connection."
 msgstr "  -E                      加密连接。"
 
 #: test/ipptool.c:4939
-#, fuzzy
 msgid "  -E                      Test with HTTP Upgrade to TLS."
 msgstr "  -E                      使用升级为 TLS 的 HTTP 测试。"
 
@@ -1558,7 +1555,6 @@ msgid "  IPPFIND_SERVICE_DOMAIN  Domain name"
 msgstr "  IPPFIND_SERVICE_DOMAIN  域名"
 
 #: test/ippfind.c:2817
-#, fuzzy
 msgid ""
 "  IPPFIND_SERVICE_HOSTNAME\n"
 "                          Fully-qualified domain name"
@@ -1615,7 +1611,6 @@ msgid "  {service_domain}        Domain name"
 msgstr "  {service_domain}        域名"
 
 #: test/ippfind.c:2807
-#, fuzzy
 msgid "  {service_hostname}      Fully-qualified domain name"
 msgstr "  {service_hostname}      完全限定域名"
 
@@ -1712,23 +1707,23 @@ msgstr " 通过"
 #: cups/ipp.c:5202
 #, c-format
 msgid "\"%s\": Bad URI value \"%s\" - %s (RFC 2911 section 4.1.5)."
-msgstr "“%s”：无效的 URI 值“%s” - %s（RFC 2911 章节 4.1.5）。"
+msgstr "“%s”：无效的 URI 值“%s” — %s（RFC 2911 章节 4.1.5）。"
 
 #: cups/ipp.c:5213
 #, c-format
 msgid "\"%s\": Bad URI value \"%s\" - bad length %d (RFC 2911 section 4.1.5)."
-msgstr "“%s”：无效的 URI 值“%s” - 无效的长度 %d（RFC 2911 章节 4.1.5）。"
+msgstr "“%s”：无效的 URI 值“%s” — 无效的长度 %d（RFC 2911 章节 4.1.5）。"
 
 #: cups/ipp.c:4833
 #, c-format
 msgid "\"%s\": Bad attribute name - bad length %d (RFC 2911 section 4.1.3)."
-msgstr "“%s”：无效的属性名称 - 无效的长度 %d（RFC 2911 章节 4.1.3）。"
+msgstr "“%s”：无效的属性名称 — 无效的长度 %d（RFC 2911 章节 4.1.3）。"
 
 #: cups/ipp.c:4825
 #, c-format
 msgid ""
 "\"%s\": Bad attribute name - invalid character (RFC 2911 section 4.1.3)."
-msgstr "“%s”：无效的属性名称 - 无效字符（RFC 2911 章节 4.1.3）。"
+msgstr "“%s”：无效的属性名称 — 无效字符（RFC 2911 章节 4.1.3）。"
 
 #: cups/ipp.c:4851
 #, c-format
@@ -1795,7 +1790,7 @@ msgstr "“%s”：无效的 dateTime 秒 %u（RFC 2911 章节 4.1.14）。"
 #: cups/ipp.c:4865
 #, c-format
 msgid "\"%s\": Bad enum value %d - out of range (RFC 2911 section 4.1.4)."
-msgstr "“%s”：无效的 enum 值 %d - 数值越界（RFC 2911 章节 4.1.4）。"
+msgstr "“%s”：无效的 enum 值 %d — 数值越界（RFC 2911 章节 4.1.4）。"
 
 #: cups/ipp.c:5180
 #, c-format
@@ -1856,7 +1851,7 @@ msgstr ""
 #, c-format
 msgid ""
 "\"%s\": Bad octetString value - bad length %d (RFC 2911 section 4.1.10)."
-msgstr "“%s”：无效的 octetString 值 - 无效长度 %d（RFC 2911 章节 4.1.10）。"
+msgstr "“%s”：无效的 octetString 值 — 无效长度 %d（RFC 2911 章节 4.1.10）。"
 
 #: cups/ipp.c:5022
 #, c-format
@@ -1864,14 +1859,14 @@ msgid ""
 "\"%s\": Bad rangeOfInteger value %d-%d - lower greater than upper (RFC 2911 "
 "section 4.1.13)."
 msgstr ""
-"“%s”：无效的 rangeOfInteger 值 %d-%d - 下界大于上界（RFC 2911 章节 4.1.13）。"
+"“%s”：无效的 rangeOfInteger 值 %d-%d — 下界大于上界（RFC 2911 章节 4.1.13）。"
 
 #: cups/ipp.c:5003
 #, c-format
 msgid ""
 "\"%s\": Bad resolution value %dx%d%s - bad units value (RFC 2911 section "
 "4.1.15)."
-msgstr "“%s”：无效的分辨率值 %dx%d%s - 无效单位值（RFC 2911 章节 4.1.15）。"
+msgstr "“%s”：无效的分辨率值 %dx%d%s — 无效单位值（RFC 2911 章节 4.1.15）。"
 
 #: cups/ipp.c:4972
 #, c-format
@@ -1879,6 +1874,8 @@ msgid ""
 "\"%s\": Bad resolution value %dx%d%s - cross feed resolution must be "
 "positive (RFC 2911 section 4.1.15)."
 msgstr ""
+"“%s”：无效的分辨率值 %d×%d%s — 横向喂入分辨率必须为正值（RFC 2911 章节 "
+"4.1.15）。"
 
 #: cups/ipp.c:4987
 #, c-format
@@ -1886,6 +1883,7 @@ msgid ""
 "\"%s\": Bad resolution value %dx%d%s - feed resolution must be positive (RFC "
 "2911 section 4.1.15)."
 msgstr ""
+"“%s”：无效的分辨率值 %d×%d%s — 喂入分辨率必须为正值（RFC 2911 章节 4.1.15）。"
 
 #: cups/ipp.c:5084
 #, c-format
@@ -2044,7 +2042,7 @@ msgstr "%s：不知如何处理。"
 #, c-format
 msgid ""
 "%s: Error - %s environment variable names non-existent destination \"%s\"."
-msgstr "%s：错误 - %s 环境变量指定了不存在的目的地“%s”。"
+msgstr "%s：错误 — %s 环境变量指定了不存在的目的地“%s”。"
 
 #: berkeley/lpq.c:139 berkeley/lpq.c:212 berkeley/lpr.c:229 berkeley/lpr.c:340
 #: systemv/lp.c:161 systemv/lp.c:581 systemv/lp.c:701 systemv/lp.c:750
@@ -2055,188 +2053,188 @@ msgstr "%s：错误 - %s 环境变量指定了不存在的目的地“%s”。"
 #: systemv/lpstat.c:1577
 #, c-format
 msgid "%s: Error - add '/version=1.1' to server name."
-msgstr "%s：错误 - 请将“/version=1.1”添加到服务器名称。"
+msgstr "%s：错误 — 请将“/version=1.1”添加到服务器名称。"
 
 #: systemv/lp.c:238
 #, c-format
 msgid "%s: Error - bad job ID."
-msgstr "%s：错误 - 无效的任务 ID。"
+msgstr "%s：错误 — 无效的任务 ID。"
 
 #: systemv/lp.c:227
 #, c-format
 msgid "%s: Error - cannot print files and alter jobs simultaneously."
-msgstr "%s：错误 - 无法在打印文件的同时更改任务。"
+msgstr "%s：错误 — 无法在打印文件的同时更改任务。"
 
 #: systemv/lp.c:518
 #, c-format
 msgid "%s: Error - cannot print from stdin if files or a job ID are provided."
-msgstr "%s：错误 - 在指定了文件或任务 ID 的情况下不能从标准输入打印。"
+msgstr "%s：错误 — 在指定了文件或任务 ID 的情况下不能从标准输入打印。"
 
 #: berkeley/lpr.c:254 systemv/lp.c:280
 #, c-format
 msgid "%s: Error - copies must be 1 or more."
-msgstr ""
+msgstr "%s：错误 — 副本数必须为至少 1。"
 
 #: systemv/lp.c:470
 #, c-format
 msgid "%s: Error - expected character set after \"-S\" option."
-msgstr "%s：错误 - 在“-S”选项后预期字符集。"
+msgstr "%s：错误 — 在“-S”选项后预期字符集。"
 
 #: systemv/lp.c:489
 #, c-format
 msgid "%s: Error - expected content type after \"-T\" option."
-msgstr "%s：错误 - 在“-T”选项后预期内容类型。"
+msgstr "%s：错误 — 在“-T”选项后预期内容类型。"
 
 #: berkeley/lpr.c:245
 #, c-format
 msgid "%s: Error - expected copies after \"-#\" option."
-msgstr "%s：错误 - 在“-#”选项后预期副本数量。"
+msgstr "%s：错误 — 在“-#”选项后预期副本数量。"
 
 #: systemv/lp.c:271
 #, c-format
 msgid "%s: Error - expected copies after \"-n\" option."
-msgstr "%s：错误 - 在“-n”选项后预期副本数量。"
+msgstr "%s：错误 — 在“-n”选项后预期副本数量。"
 
 #: berkeley/lpr.c:207
 #, c-format
 msgid "%s: Error - expected destination after \"-P\" option."
-msgstr "%s：错误 - 在“-P”选项后预期目的地。"
+msgstr "%s：错误 — 在“-P”选项后预期目的地。"
 
 #: systemv/lp.c:137
 #, c-format
 msgid "%s: Error - expected destination after \"-d\" option."
-msgstr "%s：错误 - 在“-d”选项后预期目的地。"
+msgstr "%s：错误 — 在“-d”选项后预期目的地。"
 
 #: systemv/lp.c:178
 #, c-format
 msgid "%s: Error - expected form after \"-f\" option."
-msgstr "%s：错误 - 在“-f”选项后预期表单。"
+msgstr "%s：错误 — 在“-f”选项后预期表单。"
 
 #: systemv/lp.c:406
 #, c-format
 msgid "%s: Error - expected hold name after \"-H\" option."
-msgstr ""
+msgstr "%s：错误 — 在“-H”选项后期待保持名称。"
 
 #: berkeley/lpr.c:104
 #, c-format
 msgid "%s: Error - expected hostname after \"-H\" option."
-msgstr "%s：错误 - 在“-H”选项后预期主机名。"
+msgstr "%s：错误 — 在“-H”选项后预期主机名。"
 
 #: berkeley/lpq.c:173 berkeley/lprm.c:124 systemv/cancel.c:124
 #: systemv/cupsaccept.c:127 systemv/lp.c:198 systemv/lpstat.c:269
 #, c-format
 msgid "%s: Error - expected hostname after \"-h\" option."
-msgstr "%s：错误 - 在“-h”选项后预期主机名。"
+msgstr "%s：错误 — 在“-h”选项后预期主机名。"
 
 #: systemv/lp.c:386
 #, c-format
 msgid "%s: Error - expected mode list after \"-y\" option."
-msgstr "%s：错误 - 在“-y”选项后预期模式列表。"
+msgstr "%s：错误 — 在“-y”选项后预期模式列表。"
 
 #: berkeley/lpr.c:275
 #, c-format
 msgid "%s: Error - expected name after \"-%c\" option."
-msgstr "%s：错误 - 在“-%c”选项后预期名称。"
+msgstr "%s：错误 — 在“-%c”选项后预期名称。"
 
 #: berkeley/lpr.c:156 systemv/lp.c:301
 #, c-format
 msgid "%s: Error - expected option=value after \"-o\" option."
-msgstr "%s：错误 - 在“-o”选项后预期选项=赋值。"
+msgstr "%s：错误 — 在“-o”选项后预期选项=赋值。"
 
 #: systemv/lp.c:449
 #, c-format
 msgid "%s: Error - expected page list after \"-P\" option."
-msgstr "%s：错误 - 在“-P”选项后预期页码列表。"
+msgstr "%s：错误 — 在“-P”选项后预期页码列表。"
 
 #: systemv/lp.c:322
 #, c-format
 msgid "%s: Error - expected priority after \"-%c\" option."
-msgstr "%s：错误 - 在“-%c”选项后预期优先级。"
+msgstr "%s：错误 — 在“-%c”选项后预期优先级。"
 
 #: systemv/cupsaccept.c:146
 #, c-format
 msgid "%s: Error - expected reason text after \"-r\" option."
-msgstr "%s：错误 - 在“-r”选项后预期理由文本。"
+msgstr "%s：错误 — 在“-r”选项后预期理由文本。"
 
 #: systemv/lp.c:367
 #, c-format
 msgid "%s: Error - expected title after \"-t\" option."
-msgstr "%s：错误 - 在“-t”选项后预期标题。"
+msgstr "%s：错误 — 在“-t”选项后预期标题。"
 
 #: berkeley/lpq.c:102 berkeley/lpr.c:84 berkeley/lprm.c:104 systemv/cancel.c:94
 #: systemv/cupsaccept.c:104 systemv/lp.c:114 systemv/lpadmin.c:423
 #: systemv/lpstat.c:129
 #, c-format
 msgid "%s: Error - expected username after \"-U\" option."
-msgstr "%s：错误 - 在“-U”选项后预期用户名。"
+msgstr "%s：错误 — 在“-U”选项后预期用户名。"
 
 #: systemv/cancel.c:146
 #, c-format
 msgid "%s: Error - expected username after \"-u\" option."
-msgstr "%s：错误 - 在“-u”选项后预期用户名。"
+msgstr "%s：错误 — 在“-u”选项后预期用户名。"
 
 #: berkeley/lpr.c:129
 #, c-format
 msgid "%s: Error - expected value after \"-%c\" option."
-msgstr "%s：错误 - 在“-%c”选项后预期赋值。"
+msgstr "%s：错误 — 在“-%c”选项后预期赋值。"
 
 #: systemv/lpstat.c:149 systemv/lpstat.c:158
 #, c-format
 msgid ""
 "%s: Error - need \"completed\", \"not-completed\", or \"all\" after \"-W\" "
 "option."
-msgstr "%s：错误 - 在“-W”选项后需要“completed”，“not-completed”或“all”值。"
+msgstr "%s：错误 — 在“-W”选项后需要“completed”，“not-completed”或“all”值。"
 
 #: berkeley/lpq.c:239 berkeley/lpr.c:370 systemv/lp.c:611
 #, c-format
 msgid "%s: Error - no default destination available."
-msgstr "%s：错误 - 无可用的默认目的地。"
+msgstr "%s：错误 — 无可用的默认目的地。"
 
 #: systemv/lp.c:342
 #, c-format
 msgid "%s: Error - priority must be between 1 and 100."
-msgstr "%s：错误 - 优先级必须在 1 至 100 之间。"
+msgstr "%s：错误 — 优先级必须在 1 至 100 之间。"
 
 #: berkeley/lpr.c:373 systemv/lp.c:614
 #, c-format
 msgid "%s: Error - scheduler not responding."
-msgstr "%s：错误 - 调度器无响应。"
+msgstr "%s：错误 — 调度器无响应。"
 
 #: berkeley/lpr.c:316 systemv/lp.c:550
 #, c-format
 msgid "%s: Error - too many files - \"%s\"."
-msgstr "%s：错误 - 文件太多 -“%s”。"
+msgstr "%s：错误 — 文件太多 -“%s”。"
 
 #: berkeley/lpr.c:298 systemv/lp.c:533
 #, c-format
 msgid "%s: Error - unable to access \"%s\" - %s"
-msgstr "%s：错误 - 无法访问“%s”- %s"
+msgstr "%s：错误 — 无法访问“%s”- %s"
 
 #: berkeley/lpr.c:416 systemv/lp.c:645
 #, c-format
 msgid "%s: Error - unable to queue from stdin - %s."
-msgstr "%s：错误 - 无法从标准输出列表 - %s。"
+msgstr "%s：错误 — 无法从标准输出列表 — %s。"
 
 #: berkeley/lprm.c:86 berkeley/lprm.c:173 systemv/cancel.c:221
 #, c-format
 msgid "%s: Error - unknown destination \"%s\"."
-msgstr "%s：错误 - 未知目的地“%s”。"
+msgstr "%s：错误 — 未知目的地“%s”。"
 
 #: berkeley/lpq.c:141
 #, c-format
 msgid "%s: Error - unknown destination \"%s/%s\"."
-msgstr "%s：错误 - 未知目的地“%s/%s”。"
+msgstr "%s：错误 — 未知目的地“%s/%s”。"
 
 #: berkeley/lpr.c:284 berkeley/lprm.c:139 systemv/cancel.c:162
 #: systemv/cupsaccept.c:155 systemv/lp.c:508 systemv/lpstat.c:452
 #, c-format
 msgid "%s: Error - unknown option \"%c\"."
-msgstr "%s：错误 - 未知选项“%c”。"
+msgstr "%s：错误 — 未知选项“%c”。"
 
 #: systemv/lp.c:500
 #, c-format
 msgid "%s: Error - unknown option \"%s\"."
-msgstr "%s：错误 - 未知选项“%s”。"
+msgstr "%s：错误 — 未知选项“%s”。"
 
 #: systemv/lp.c:218
 #, c-format
@@ -2345,7 +2343,7 @@ msgstr "%s：无法解析“%s”。"
 #: systemv/lpinfo.c:238
 #, c-format
 msgid "%s: Unknown argument \"%s\"."
-msgstr ""
+msgstr "%s：未知参数“%s”。"
 
 #: berkeley/lpq.c:143 systemv/lpstat.c:573
 #, c-format
@@ -2382,27 +2380,27 @@ msgstr "%s：未知源 MIME 类型 %s/%s。"
 msgid ""
 "%s: Warning - \"%c\" format modifier not supported - output may not be "
 "correct."
-msgstr "%s：警告 - 不支持“%c”格式的修饰符 - 输出可能不正确。"
+msgstr "%s：警告 — 不支持“%c”格式的修饰符 — 输出可能不正确。"
 
 #: systemv/lp.c:475
 #, c-format
 msgid "%s: Warning - character set option ignored."
-msgstr "%s：警告 - 字符集选项被忽略。"
+msgstr "%s：警告 — 字符集选项被忽略。"
 
 #: systemv/lp.c:494
 #, c-format
 msgid "%s: Warning - content type option ignored."
-msgstr "%s：警告 - 内容类型选项被忽略。"
+msgstr "%s：警告 — 内容类型选项被忽略。"
 
 #: systemv/lp.c:183
 #, c-format
 msgid "%s: Warning - form option ignored."
-msgstr "%s：警告 - 图标选项被忽略。"
+msgstr "%s：警告 — 图标选项被忽略。"
 
 #: systemv/lp.c:391
 #, c-format
 msgid "%s: Warning - mode option ignored."
-msgstr "%s：警告 - 模式选项被忽略。"
+msgstr "%s：警告 — 模式选项被忽略。"
 
 #: ppdc/sample.c:305
 msgid "-1"
@@ -2726,19 +2724,19 @@ msgstr "2 英寸/秒"
 
 #: cups/ppd-cache.c:2992
 msgid "2-Hole Punch (Landscape)"
-msgstr ""
+msgstr "双孔冲压（水平）"
 
 #: cups/ppd-cache.c:2993
 msgid "2-Hole Punch (Portrait)"
-msgstr ""
+msgstr "双孔冲压（垂直）"
 
 #: cups/ppd-cache.c:2991
 msgid "2-Hole Punch (Reverse Landscape)"
-msgstr ""
+msgstr "双孔冲压（反向水平）"
 
 #: cups/ppd-cache.c:2990
 msgid "2-Hole Punch (Reverse Portrait)"
-msgstr ""
+msgstr "双孔冲压（反向垂直）"
 
 #: cups/ppd-cache.c:3662 ppdc/sample.c:262
 msgid "2-Sided Printing"
@@ -2850,7 +2848,7 @@ msgstr "24"
 
 #: ppdc/sample.c:241
 msgid "24-Pin Series"
-msgstr ""
+msgstr "24 针序列"
 
 #: ppdc/sample.c:250
 msgid "240x72dpi"
@@ -2894,19 +2892,19 @@ msgstr "3×5"
 
 #: cups/ppd-cache.c:3003
 msgid "3-Hole Punch (Landscape)"
-msgstr ""
+msgstr "三孔冲压（水平）"
 
 #: cups/ppd-cache.c:3001
 msgid "3-Hole Punch (Portrait)"
-msgstr ""
+msgstr "三孔冲压（垂直）"
 
 #: cups/ppd-cache.c:3000
 msgid "3-Hole Punch (Reverse Landscape)"
-msgstr ""
+msgstr "三孔冲压（反向水平）"
 
 #: cups/ppd-cache.c:3002
 msgid "3-Hole Punch (Reverse Portrait)"
-msgstr ""
+msgstr "三孔冲压（反向垂直）"
 
 #: ppdc/sample.c:195
 msgid "3.00x1.00\""
@@ -2998,19 +2996,19 @@ msgstr "4 英寸/秒"
 
 #: cups/ppd-cache.c:2997
 msgid "4-Hole Punch (Landscape)"
-msgstr ""
+msgstr "四孔冲压（水平）"
 
 #: cups/ppd-cache.c:2995
 msgid "4-Hole Punch (Portrait)"
-msgstr ""
+msgstr "四孔冲压（垂直）"
 
 #: cups/ppd-cache.c:2994
 msgid "4-Hole Punch (Reverse Landscape)"
-msgstr ""
+msgstr "四孔冲压（反向水平）"
 
 #: cups/ppd-cache.c:2996
 msgid "4-Hole Punch (Reverse Portrait)"
-msgstr ""
+msgstr "四孔冲压（反向垂直）"
 
 #: ppdc/sample.c:206
 msgid "4.00x1.00\""
@@ -3230,7 +3228,7 @@ msgstr "9×12"
 
 #: ppdc/sample.c:247
 msgid "9-Pin Series"
-msgstr ""
+msgstr "9 针序列"
 
 #: ppdc/sample.c:416
 msgid "90"
@@ -3241,7 +3239,6 @@ msgid "95"
 msgstr "95"
 
 #: berkeley/lpc.c:203
-#, fuzzy
 msgid "?Invalid help command unknown."
 msgstr "?无效 未知帮助命令。"
 
@@ -3320,7 +3317,6 @@ msgid "A4 Oversize"
 msgstr "A4 超大"
 
 #: ppdc/sample.c:28
-#, fuzzy
 msgid "A4 Small"
 msgstr "A4 小型"
 
@@ -3410,7 +3406,7 @@ msgstr "已接受"
 
 #: cups/ppd-cache.c:2973
 msgid "Accordian Fold"
-msgstr ""
+msgstr "手风琴式折纸法"
 
 #: cgi-bin/admin.c:544
 msgid "Add Class"
@@ -3435,19 +3431,19 @@ msgstr "管理"
 
 #: cups/ppd-cache.c:3423
 msgid "Advanced Photo Paper"
-msgstr ""
+msgstr "高级照片纸"
 
 #: cups/ppd-cache.c:3337
 msgid "Alternate"
-msgstr ""
+msgstr "交替"
 
 #: cups/ppd-cache.c:3345
 msgid "Alternate Roll"
-msgstr ""
+msgstr "交替滚筒"
 
 #: cups/ppd-cache.c:3417
 msgid "Aluminum"
-msgstr ""
+msgstr "铝"
 
 #: ppdc/sample.c:424
 msgid "Always"
@@ -3463,23 +3459,19 @@ msgstr "涂药器"
 
 #: cups/ppd-cache.c:3451
 msgid "Archival Envelope"
-msgstr ""
+msgstr "档案用信封"
 
 #: cups/ppd-cache.c:3463
 msgid "Archival Fabric"
-msgstr ""
+msgstr "档案用编织物"
 
 #: cups/ppd-cache.c:3540
-#, fuzzy
-#| msgid "Special Paper"
 msgid "Archival Paper"
-msgstr "特殊纸张"
+msgstr "档案用纸张"
 
 #: cups/ppd-cache.c:3512
-#, fuzzy
-#| msgid "Special Paper"
 msgid "Archival Photo Paper"
-msgstr "特殊纸张"
+msgstr "档案用照片纸"
 
 #: scheduler/ipp.c:1012
 #, c-format
@@ -3503,7 +3495,7 @@ msgstr "属性组排序错乱（%x < %x）。"
 
 #: cups/ppd-cache.c:3335 cups/ppd-cache.c:3418 cups/ppd-cache.c:3722
 msgid "Automatic"
-msgstr ""
+msgstr "自动"
 
 #: ppdc/sample.c:126
 msgid "B0"
@@ -3555,7 +3547,7 @@ msgstr "B9"
 
 #: cups/ppd-cache.c:3419
 msgid "Back Print Film"
-msgstr ""
+msgstr "印片用胶片"
 
 #: scheduler/ipp.c:11241
 #, c-format
@@ -3563,7 +3555,6 @@ msgid "Bad 'document-format' value \"%s\"."
 msgstr "无效的“document-format”值“%s”。"
 
 #: cups/dest.c:1846
-#, fuzzy
 msgid "Bad NULL dests pointer"
 msgstr "无效的 NULL 目标指针"
 
@@ -3762,7 +3753,7 @@ msgstr "无效或空的 URI"
 
 #: cups/ppd-cache.c:2958
 msgid "Bale"
-msgstr ""
+msgstr "10 令"
 
 #: cgi-bin/admin.c:3274 cgi-bin/admin.c:3520
 msgid "Banners"
@@ -3770,29 +3761,27 @@ msgstr "条幅"
 
 #: cups/ppd-cache.c:2959
 msgid "Bind"
-msgstr ""
+msgstr "捆扎"
 
 #: cups/ppd-cache.c:2963
 msgid "Bind (Landscape)"
-msgstr ""
+msgstr "捆扎（水平）"
 
 #: cups/ppd-cache.c:2961
 msgid "Bind (Portrait)"
-msgstr ""
+msgstr "捆扎（垂直）"
 
 #: cups/ppd-cache.c:2960
 msgid "Bind (Reverse Landscape)"
-msgstr ""
+msgstr "捆扎（反向水平）"
 
 #: cups/ppd-cache.c:2962
 msgid "Bind (Reverse Portrait)"
-msgstr ""
+msgstr "捆扎（反向垂直）"
 
 #: cups/ppd-cache.c:3452
-#, fuzzy
-#| msgid "Envelope #9"
 msgid "Bond Envelope"
-msgstr "9 号信封"
+msgstr "证券信封"
 
 #: ppdc/sample.c:282
 msgid "Bond Paper"
@@ -3800,11 +3789,11 @@ msgstr "证券纸"
 
 #: cups/ppd-cache.c:3947
 msgid "Booklet"
-msgstr ""
+msgstr "册子"
 
 #: cups/ppd-cache.c:2964
 msgid "Booklet Maker"
-msgstr ""
+msgstr "册子机"
 
 #: backend/usb-darwin.c:2008
 #, c-format
@@ -3813,11 +3802,11 @@ msgstr "waiteof 选项“%s”预期布里值。"
 
 #: cups/ppd-cache.c:3348
 msgid "Bottom"
-msgstr ""
+msgstr "底部"
 
 #: cups/ppd-cache.c:3723
 msgid "Bottom Tray"
-msgstr ""
+msgstr "底部纸盘"
 
 #: filter/pstops.c:2032
 msgid "Buffer overflow detected, aborting."
@@ -3825,7 +3814,7 @@ msgstr "检测到缓冲区溢出，正在中止。"
 
 #: cups/ppd-cache.c:3422
 msgid "CD"
-msgstr ""
+msgstr "CD"
 
 #: ppdc/sample.c:277
 msgid "CMYK"
@@ -3853,15 +3842,15 @@ msgstr "无法为远程队列更改 printer-is-shared 值。"
 
 #: scheduler/ipp.c:2512
 msgid "Cannot share a remote Kerberized printer."
-msgstr ""
+msgstr "无法共享远程的通过 Kerberos 授权的打印机。"
 
 #: cups/ppd-cache.c:3420
 msgid "Cardboard"
-msgstr ""
+msgstr "纸板"
 
 #: cups/ppd-cache.c:3421
 msgid "Cardstock"
-msgstr ""
+msgstr "重磅纸"
 
 #: ppdc/sample.c:271
 msgid "Cassette"
@@ -3869,11 +3858,11 @@ msgstr "磁带"
 
 #: cups/ppd-cache.c:3352
 msgid "Center"
-msgstr ""
+msgstr "中部"
 
 #: cups/ppd-cache.c:3724
 msgid "Center Tray"
-msgstr ""
+msgstr "中部纸盘"
 
 #: cgi-bin/admin.c:1639 cgi-bin/admin.c:1781 cgi-bin/admin.c:1794
 #: cgi-bin/admin.c:1805
@@ -3899,19 +3888,15 @@ msgstr "Close-Job 指令不支持 job-uri 属性。"
 
 #: cups/ppd-cache.c:2965
 msgid "Coat"
-msgstr ""
+msgstr "涂料"
 
 #: cups/ppd-cache.c:3453
-#, fuzzy
-#| msgid "Envelope #9"
 msgid "Coated Envelope"
-msgstr "9 号信封"
+msgstr "涂面信封"
 
 #: cups/ppd-cache.c:3541
-#, fuzzy
-#| msgid "Bond Paper"
 msgid "Coated Paper"
-msgstr "证券纸"
+msgstr "涂面纸"
 
 #: cups/ppd-cache.c:3626 ppdc/sample.c:276
 msgid "Color"
@@ -3923,10 +3908,8 @@ msgid "Color Mode"
 msgstr "色彩模式"
 
 #: cups/ppd-cache.c:3488
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Colored Labels"
-msgstr "照片标签"
+msgstr "彩色标签"
 
 #: berkeley/lpc.c:194
 msgid ""
@@ -3940,7 +3923,7 @@ msgstr ""
 
 #: cups/snmp.c:956
 msgid "Community name uses indefinite length"
-msgstr ""
+msgstr "社群名称不限长度"
 
 #: backend/ipp.c:873 backend/lpd.c:940 backend/socket.c:381
 msgid "Connected to printer."
@@ -3959,16 +3942,12 @@ msgid "Continuous"
 msgstr "连续"
 
 #: cups/ppd-cache.c:3437
-#, fuzzy
-#| msgid "Continuous"
 msgid "Continuous Long"
-msgstr "连续"
+msgstr "长连续"
 
 #: cups/ppd-cache.c:3438
-#, fuzzy
-#| msgid "Continuous"
 msgid "Continuous Short"
-msgstr "连续"
+msgstr "短连续"
 
 #: backend/lpd.c:1089 backend/lpd.c:1221
 msgid "Control file sent successfully."
@@ -3979,20 +3958,16 @@ msgid "Copying print data."
 msgstr "正在复制打印数据。"
 
 #: cups/ppd-cache.c:3454
-#, fuzzy
-#| msgid "Envelope #9"
 msgid "Cotton Envelope"
-msgstr "9 号信封"
+msgstr "棉质信封"
 
 #: cups/ppd-cache.c:3542
-#, fuzzy
-#| msgid "Bond Paper"
 msgid "Cotton Paper"
-msgstr "证券纸"
+msgstr "棉质纸张"
 
 #: cups/ppd-cache.c:2966
 msgid "Cover"
-msgstr ""
+msgstr "封面"
 
 #: cups/http-support.c:1348
 msgid "Created"
@@ -4000,11 +3975,11 @@ msgstr "创建时间"
 
 #: cups/tls-darwin.c:728 cups/tls-gnutls.c:560
 msgid "Credentials do not validate against site CA certificate."
-msgstr ""
+msgstr "无法与站点 CA 证书验证凭据。"
 
 #: cups/tls-darwin.c:739 cups/tls-gnutls.c:577
 msgid "Credentials have expired."
-msgstr ""
+msgstr "凭据已过期。"
 
 #: cups/ppd.c:1152 cups/ppd.c:1192 cups/ppd.c:1437 cups/ppd.c:1540
 msgid "Custom"
@@ -4024,7 +3999,7 @@ msgstr "剪切"
 
 #: cups/ppd-cache.c:3022
 msgid "Cut Media"
-msgstr ""
+msgstr "剪切媒体"
 
 #: ppdc/sample.c:446
 msgid "Cutter"
@@ -4032,7 +4007,7 @@ msgstr "车床刀具"
 
 #: cups/ppd-cache.c:3447
 msgid "DVD"
-msgstr ""
+msgstr "DVD"
 
 #: ppdc/sample.c:239
 msgid "Dark"
@@ -4047,10 +4022,8 @@ msgid "Data file sent successfully."
 msgstr "已成功发送数据文件。"
 
 #: cups/ppd-cache.c:3636
-#, fuzzy
-#| msgid "Color"
 msgid "Deep Color"
-msgstr "彩色"
+msgstr "深色"
 
 #: cgi-bin/admin.c:2078 cgi-bin/admin.c:2089 cgi-bin/admin.c:2134
 msgid "Delete Class"
@@ -4121,7 +4094,7 @@ msgstr "已禁用"
 
 #: cups/ppd-cache.c:3341
 msgid "Disc"
-msgstr ""
+msgstr "光盘"
 
 #: scheduler/ipp.c:6283
 #, c-format
@@ -4130,39 +4103,38 @@ msgstr "任务 #%2$d 中不包含文档 #%1$d。"
 
 #: cups/ppd-cache.c:2974
 msgid "Double Gate Fold"
-msgstr ""
+msgstr "封面拉页"
 
 #: cups/ppd-cache.c:3015
 msgid "Double Staple (Landscape)"
-msgstr ""
+msgstr "封面拉页（水平）"
 
 #: cups/ppd-cache.c:3013
 msgid "Double Staple (Portrait)"
-msgstr ""
+msgstr "封面拉页（垂直）"
 
 #: cups/ppd-cache.c:3012
 msgid "Double Staple (Reverse Landscape)"
-msgstr ""
+msgstr "封面拉页（反向水平）"
 
 #: cups/ppd-cache.c:3014
 msgid "Double Staple (Reverse Portrait)"
-msgstr ""
+msgstr "封面拉页（反向垂直）"
 
 #: cups/ppd-cache.c:3445
 msgid "Double Wall Cardboard"
-msgstr ""
+msgstr "双层纸板"
 
 #: cups/ppd-cache.c:3978 cups/ppd-cache.c:4033 cups/ppd-cache.c:4035
 #: cups/ppd-cache.c:4062
 msgid "Draft"
-msgstr ""
+msgstr "草稿"
 
 #: cups/ppd-cache.c:3446
 msgid "Dry Film"
-msgstr ""
+msgstr "干膜"
 
 #: ppdc/sample.c:267
-#, fuzzy
 msgid "Duplexer"
 msgstr "双工器"
 
@@ -4186,7 +4158,7 @@ msgstr "编辑配置文件"
 
 #: cups/ppd-cache.c:3448
 msgid "Embossing Foil"
-msgstr ""
+msgstr "压花彩箔"
 
 #: cups/adminutil.c:325
 msgid "Empty PPD file."
@@ -4198,17 +4170,16 @@ msgstr "不支持加密。"
 
 #: cups/ppd-cache.c:3449
 msgid "End Board"
-msgstr ""
+msgstr "结尾板"
 
 #. TRANSLATORS: Banner/cover sheet after the print job.
 #: cgi-bin/admin.c:3545
-#, fuzzy
 msgid "Ending Banner"
-msgstr "结尾条幅"
+msgstr "结尾横幅"
 
 #: cups/ppd-cache.c:2975
 msgid "Engineering Z Fold"
-msgstr ""
+msgstr "工程用 Z 折纸法"
 
 #: ppdc/sample.c:2
 msgid "English"
@@ -4225,11 +4196,11 @@ msgstr ""
 
 #: cups/ppd-cache.c:3340 cups/ppd-cache.c:3450
 msgid "Envelope"
-msgstr ""
+msgstr "信封"
 
 #: ppdc/sample.c:73
 msgid "Envelope #10"
-msgstr ""
+msgstr "10 号信封"
 
 #: ppdc/sample.c:74
 msgid "Envelope #11"
@@ -4317,7 +4288,7 @@ msgstr "DL 信封"
 
 #: ppdc/sample.c:261
 msgid "Envelope Feed"
-msgstr ""
+msgstr "信封喂纸口"
 
 #: ppdc/sample.c:88
 msgid "Envelope Invite"
@@ -4349,7 +4320,7 @@ msgstr "君主信封"
 
 #: ppdc/sample.c:99
 msgid "Envelope PRC1"
-msgstr ""
+msgstr "中国一号信封"
 
 #: ppdc/sample.c:100
 msgid "Envelope PRC1 Long Edge"
@@ -4393,7 +4364,7 @@ msgstr "中国五号长边缘信封"
 
 #: ppdc/sample.c:107
 msgid "Envelope PRC5PRC5"
-msgstr ""
+msgstr "中国五号信封"
 
 #: ppdc/sample.c:109
 msgid "Envelope PRC6"
@@ -4505,23 +4476,20 @@ msgid "Every Label"
 msgstr "每个标签"
 
 #: cups/ppd-cache.c:3428
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Everyday Glossy Photo Paper"
-msgstr "光面纸"
+msgstr "日常用光面照片纸"
 
 #: cups/ppd-cache.c:3429
 msgid "Everyday Matte Paper"
-msgstr ""
+msgstr "日常用雾面纸"
 
 #: ppdc/sample.c:121
 msgid "Executive"
 msgstr "执行"
 
 #: cups/http-support.c:1394
-#, fuzzy
 msgid "Expectation Failed"
-msgstr "期望失败"
+msgstr "未满足期望"
 
 #: cgi-bin/admin.c:2340 cgi-bin/admin.c:2359
 msgid "Export Printers to Samba"
@@ -4533,7 +4501,7 @@ msgstr "表达式："
 
 #: cups/ppd-cache.c:3430
 msgid "Extra Heavyweight Paper"
-msgstr ""
+msgstr "超重磅纸"
 
 #: systemv/cupstestdsc.c:164 systemv/cupstestdsc.c:181
 #: systemv/cupstestdsc.c:206 systemv/cupstestdsc.c:223
@@ -4547,31 +4515,31 @@ msgstr "失败"
 
 #: cups/ppd-cache.c:3462
 msgid "Fabric"
-msgstr ""
+msgstr "编织物"
 
 #: cups/ppd-cache.c:3725
 msgid "Face Down"
-msgstr ""
+msgstr "朝下"
 
 #: cups/ppd-cache.c:3726
 msgid "Face Up"
-msgstr ""
+msgstr "朝上"
 
 #: ppdc/sample.c:122
 msgid "FanFold German"
-msgstr ""
+msgstr "德国式扇折"
 
 #: ppdc/sample.c:123
 msgid "FanFold Legal German"
-msgstr ""
+msgstr "德国式法律扇折"
 
 #: ppdc/sample.c:124
 msgid "Fanfold US"
-msgstr ""
+msgstr "美国式扇折"
 
 #: cups/ppd-cache.c:3604
 msgid "Fast Grayscale"
-msgstr ""
+msgstr "快速灰度"
 
 #: cups/file.c:260
 #, c-format
@@ -4600,7 +4568,7 @@ msgstr "文件“%s”的权限许可无问题 (0%o/uid=%d/gid=%d)。"
 
 #: ppdc/sample.c:169
 msgid "File Folder"
-msgstr ""
+msgstr "文件夹"
 
 #: scheduler/ipp.c:2399
 #, c-format
@@ -4613,13 +4581,11 @@ msgstr ""
 
 #: cups/ppd-cache.c:3469
 msgid "Film"
-msgstr ""
+msgstr "胶片"
 
 #: cups/ppd-cache.c:3455
-#, fuzzy
-#| msgid "Envelope #9"
 msgid "Fine Envelope"
-msgstr "9 号信封"
+msgstr "精致信封"
 
 #: filter/rastertoepson.c:1136 filter/rastertohp.c:808
 #: filter/rastertolabel.c:1257
@@ -4629,23 +4595,23 @@ msgstr "已完成第 %d 页。"
 
 #: cups/ppd-cache.c:3470
 msgid "Flexo Base"
-msgstr ""
+msgstr "柔性版基"
 
 #: cups/ppd-cache.c:3471
 msgid "Flexo Photo Polymer"
-msgstr ""
+msgstr "柔性照片聚合物"
 
 #: cups/ppd-cache.c:3472
 msgid "Flute"
-msgstr ""
+msgstr "瓦楞纸"
 
 #: cups/ppd-cache.c:3473
 msgid "Foil"
-msgstr ""
+msgstr "烫压"
 
 #: cups/ppd-cache.c:2972 cups/ppd-cache.c:3862
 msgid "Fold"
-msgstr ""
+msgstr "折纸"
 
 #: ppdc/sample.c:125
 msgid "Folio"
@@ -4657,11 +4623,11 @@ msgstr "已禁止"
 
 #: cups/ppd-cache.c:3474
 msgid "Full Cut Tabs"
-msgstr ""
+msgstr "完整裁剪标签"
 
 #: cups/ppd-cache.c:2976
 msgid "Gate Fold"
-msgstr ""
+msgstr "对开页"
 
 #: cups/ppd.c:783 cups/ppd.c:1341
 msgid "General"
@@ -4673,61 +4639,51 @@ msgstr "通用"
 
 #: cups/snmp.c:966
 msgid "Get-Response-PDU uses indefinite length"
-msgstr ""
+msgstr "Get-Response-PDU 使用无限长度"
 
 #: cups/ppd-cache.c:3475
-#, fuzzy
-#| msgid "Classes"
 msgid "Glass"
-msgstr "类"
+msgstr "玻璃"
 
 #: cups/ppd-cache.c:3476
 msgid "Glass Colored"
-msgstr ""
+msgstr "彩色玻璃"
 
 #: cups/ppd-cache.c:3477
 msgid "Glass Opaque"
-msgstr ""
+msgstr "不透明玻璃"
 
 #: cups/ppd-cache.c:3478
 msgid "Glass Surfaced"
-msgstr ""
+msgstr "涂面玻璃"
 
 #: cups/ppd-cache.c:3479
 msgid "Glass Textured"
-msgstr ""
+msgstr "材质玻璃"
 
 #: cups/ppd-cache.c:3424
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Glossy Brochure Paper"
-msgstr "光面纸"
+msgstr "光面海报纸"
 
 #: cups/ppd-cache.c:3464
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Glossy Fabric"
-msgstr "光面纸"
+msgstr "光面编织物"
 
 #: cups/ppd-cache.c:3489
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Glossy Labels"
-msgstr "光面纸"
+msgstr "光面标签"
 
 #: cups/ppd-cache.c:3440
 msgid "Glossy Optical Disc"
-msgstr ""
+msgstr "光面光盘"
 
 #: ppdc/sample.c:285
 msgid "Glossy Paper"
 msgstr "光面纸"
 
 #: cups/ppd-cache.c:3514
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Glossy Photo Paper"
-msgstr "光面纸"
+msgstr "光面照片纸"
 
 #: scheduler/ipp.c:2986 scheduler/ipp.c:3396 scheduler/ipp.c:3934
 #: scheduler/ipp.c:6212 scheduler/ipp.c:6359 scheduler/ipp.c:7855
@@ -4738,7 +4694,7 @@ msgstr "获取到了 printer-uri 属性却未获取到 job-id。"
 
 #: cups/ppd-cache.c:3480
 msgid "Gravure Cylinder"
-msgstr ""
+msgstr "凹印滚筒"
 
 #: cups/ppd-cache.c:3615 ppdc/sample.c:275
 msgid "Grayscale"
@@ -4750,19 +4706,19 @@ msgstr "HP"
 
 #: cups/ppd-cache.c:3343
 msgid "Hagaki"
-msgstr ""
+msgstr "叶书"
 
 #: cups/ppd-cache.c:2977
 msgid "Half Fold"
-msgstr ""
+msgstr "对折"
 
 #: cups/ppd-cache.c:2978
 msgid "Half Z Fold"
-msgstr ""
+msgstr "半 Z 折"
 
 #: ppdc/sample.c:170
 msgid "Hanging Folder"
-msgstr ""
+msgstr "倒挂文件夹"
 
 #: cups/hash.c:243
 msgid "Hash buffer too small."
@@ -4770,15 +4726,15 @@ msgstr "哈希值缓冲区太小。"
 
 #: cups/ppd-cache.c:3545
 msgid "Heavyweight Coated Paper"
-msgstr ""
+msgstr "重磅涂面纸"
 
 #: cups/ppd-cache.c:3456
 msgid "Heavyweight Envelope"
-msgstr ""
+msgstr "重磅信封"
 
 #: cups/ppd-cache.c:3544
 msgid "Heavyweight Paper"
-msgstr ""
+msgstr "重磅纸"
 
 #: cgi-bin/help.c:137
 msgid "Help file not in index."
@@ -4786,27 +4742,23 @@ msgstr "帮助文件不在索引中。"
 
 #: cups/ppd-cache.c:3988 cups/ppd-cache.c:4038 cups/ppd-cache.c:4065
 msgid "High"
-msgstr ""
+msgstr "高"
 
 #: cups/ppd-cache.c:3465
 msgid "High Gloss Fabric"
-msgstr ""
+msgstr "高光编织物"
 
 #: cups/ppd-cache.c:3490
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "High Gloss Labels"
-msgstr "照片标签"
+msgstr "高光标签"
 
 #: cups/ppd-cache.c:3441
 msgid "High Gloss Optical Disc"
-msgstr ""
+msgstr "高光光盘"
 
 #: cups/ppd-cache.c:3515
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "High Gloss Photo Paper"
-msgstr "光面纸"
+msgstr "高光照片纸"
 
 #: cups/ipp.c:3160 cups/ipp.c:3187 cups/ipp.c:3210
 msgid "IPP 1setOf attribute with incompatible value tags."
@@ -4926,29 +4878,23 @@ msgstr "非法空白字符"
 
 #: cups/ppd-cache.c:3481
 msgid "Image Setter Paper"
-msgstr ""
+msgstr "底片输出机纸"
 
 #: cups/ppd-cache.c:3482
 msgid "Imaging Cylinder"
-msgstr ""
+msgstr "图像滚筒"
 
 #: cups/ppd-cache.c:3457
-#, fuzzy
-#| msgid "Envelope #9"
 msgid "Inkjet Envelope"
-msgstr "9 号信封"
+msgstr "喷墨信封"
 
 #: cups/ppd-cache.c:3491
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Inkjet Labels"
-msgstr "照片标签"
+msgstr "喷墨标签"
 
 #: cups/ppd-cache.c:3546
-#, fuzzy
-#| msgid "Bond Paper"
 msgid "Inkjet Paper"
-msgstr "证券纸"
+msgstr "喷墨纸"
 
 #: ppdc/sample.c:266
 msgid "Installable Options"
@@ -4976,11 +4922,11 @@ msgstr "内部错误"
 
 #: ppdc/sample.c:167
 msgid "Internet Postage 2-Part"
-msgstr ""
+msgstr "网邮 2 部"
 
 #: ppdc/sample.c:168
 msgid "Internet Postage 3-Part"
-msgstr ""
+msgstr "网邮 3 部"
 
 #: backend/ipp.c:325
 msgid "Internet Printing Protocol"
@@ -5066,7 +5012,7 @@ msgstr "JIS B9"
 #: scheduler/ipp.c:9287
 #, c-format
 msgid "Job #%d cannot be restarted - no files."
-msgstr "无法重启任务 #%d - 没有文件。"
+msgstr "无法重启任务 #%d — 没有文件。"
 
 #: scheduler/ipp.c:3026 scheduler/ipp.c:3260 scheduler/ipp.c:3319
 #: scheduler/ipp.c:3498 scheduler/ipp.c:3944 scheduler/ipp.c:5871
@@ -5081,17 +5027,17 @@ msgstr "任务 #%d 不存在。"
 #: scheduler/ipp.c:3530
 #, c-format
 msgid "Job #%d is already aborted - can't cancel."
-msgstr "任务 #%d 已中止 - 无法取消。"
+msgstr "任务 #%d 已中止 — 无法取消。"
 
 #: scheduler/ipp.c:3524
 #, c-format
 msgid "Job #%d is already canceled - can't cancel."
-msgstr "任务 #%d 已取消 - 无法取消。"
+msgstr "任务 #%d 已取消 — 无法取消。"
 
 #: scheduler/ipp.c:3536
 #, c-format
 msgid "Job #%d is already completed - can't cancel."
-msgstr "任务 #%d 已完成 - 无法取消。"
+msgstr "任务 #%d 已完成 — 无法取消。"
 
 #: scheduler/ipp.c:7922 scheduler/ipp.c:8206 scheduler/ipp.c:10235
 #, c-format
@@ -5104,14 +5050,14 @@ msgid "Job #%d is not complete."
 msgstr "任务 #%d 未完成。"
 
 #: scheduler/ipp.c:3041
-#, fuzzy, c-format
+#, c-format
 msgid "Job #%d is not held for authentication."
-msgstr "任务 #%d 已完成认证。"
+msgstr "任务 #%d 未被认证扣留。"
 
 #: scheduler/ipp.c:9045
 #, c-format
 msgid "Job #%d is not held."
-msgstr ""
+msgstr "任务 #%d 未被扣留。"
 
 #: cgi-bin/ipp-var.c:1036
 msgid "Job Completed"
@@ -5151,7 +5097,7 @@ msgstr "任务"
 
 #: cups/ppd-cache.c:2985
 msgid "Jog"
-msgstr ""
+msgstr "垛齐"
 
 #: backend/lpd.c:172
 msgid "LPD/LPR Host or Printer"
@@ -5162,23 +5108,20 @@ msgid "Label Printer"
 msgstr "标签打印机"
 
 #: ppdc/sample.c:441
-#, fuzzy
 msgid "Label Top"
 msgstr "标签顶部"
 
 #: cups/ppd-cache.c:3487
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Labels"
-msgstr "照片标签"
+msgstr "标签"
 
 #: cups/ppd-cache.c:2986
 msgid "Laminate"
-msgstr ""
+msgstr "裱"
 
 #: cups/ppd-cache.c:3497
 msgid "Laminating Foil"
-msgstr ""
+msgstr "裱箔"
 
 #: scheduler/ipp.c:2085 scheduler/ipp.c:5794
 #, c-format
@@ -5186,17 +5129,16 @@ msgid "Language \"%s\" not supported."
 msgstr "不支持的语言“%s”。"
 
 #: ppdc/sample.c:164
-#, fuzzy
 msgid "Large Address"
 msgstr "大地址"
 
 #: cups/ppd-cache.c:3338
 msgid "Large Capacity"
-msgstr ""
+msgstr "大容量"
 
 #: cups/ppd-cache.c:3727
 msgid "Large Capacity Tray"
-msgstr ""
+msgstr "大容量纸盘"
 
 #: ppdc/sample.c:286
 msgid "LaserJet Series PCL 4/5"
@@ -5204,21 +5146,19 @@ msgstr "LaserJet 系列 PCL 4/5"
 
 #: cups/ppd-cache.c:3350
 msgid "Left"
-msgstr ""
+msgstr "左"
 
 #: cups/ppd-cache.c:2979
 msgid "Left Gate Fold"
-msgstr ""
+msgstr "左对开页"
 
 #: cups/ppd-cache.c:3728
-#, fuzzy
-#| msgid "Tray"
 msgid "Left Tray"
-msgstr "托盘"
+msgstr "左纸盘"
 
 #: cups/ppd-cache.c:2980
 msgid "Letter Fold"
-msgstr ""
+msgstr "信函折法"
 
 #: ppdc/sample.c:43
 msgid "Letter Oversize"
@@ -5230,19 +5170,19 @@ msgstr "信函超大长边缘"
 
 #: cups/ppd-cache.c:3498 cups/ppd-cache.c:3547
 msgid "Letterhead"
-msgstr ""
+msgstr "笺头"
 
 #: ppdc/sample.c:236
 msgid "Light"
-msgstr ""
+msgstr "轻"
 
 #: cups/ppd-cache.c:3458
 msgid "Lightweight Envelope"
-msgstr ""
+msgstr "轻型信封"
 
 #: cups/ppd-cache.c:3548
 msgid "Lightweight Paper"
-msgstr ""
+msgstr "轻型纸张"
 
 #: cups/ppd.c:327
 msgid "Line longer than the maximum allowed (255 characters)"
@@ -5265,93 +5205,88 @@ msgid "Long-Edge (Portrait)"
 msgstr "长边缘（竖直）"
 
 #: cups/http-support.c:1727
-#, fuzzy
-#| msgid "Looking for printer..."
 msgid "Looking for printer."
-msgstr "正在寻找打印机…"
+msgstr "正在寻找打印机。"
 
 #: cups/ppd-cache.c:3729
 msgid "Mailbox 1"
-msgstr ""
+msgstr "1 号信箱"
 
 #: cups/ppd-cache.c:3738
 msgid "Mailbox 10"
-msgstr ""
+msgstr "10 号信箱"
 
 #: cups/ppd-cache.c:3730
 msgid "Mailbox 2"
-msgstr ""
+msgstr "2 号信箱"
 
 #: cups/ppd-cache.c:3731
 msgid "Mailbox 3"
-msgstr ""
+msgstr "3 号信箱"
 
 #: cups/ppd-cache.c:3732
 msgid "Mailbox 4"
-msgstr ""
+msgstr "4 号信箱"
 
 #: cups/ppd-cache.c:3733
 msgid "Mailbox 5"
-msgstr ""
+msgstr "5 号信箱"
 
 #: cups/ppd-cache.c:3734
 msgid "Mailbox 6"
-msgstr ""
+msgstr "6 号信箱"
 
 #: cups/ppd-cache.c:3735
 msgid "Mailbox 7"
-msgstr ""
+msgstr "7 号信箱"
 
 #: cups/ppd-cache.c:3736
 msgid "Mailbox 8"
-msgstr ""
+msgstr "8 号信箱"
 
 #: cups/ppd-cache.c:3737
 msgid "Mailbox 9"
-msgstr ""
+msgstr "9 号信箱"
 
 #: cups/ppd-cache.c:3336
 msgid "Main"
-msgstr ""
+msgstr "主队列"
 
 #: cups/ppd-cache.c:3344
 msgid "Main Roll"
-msgstr ""
+msgstr "主滚筒"
 
 #: cups/ppd-cache.c:3339
 msgid "Manual"
-msgstr ""
+msgstr "手动"
 
 #: ppdc/sample.c:260
-#, fuzzy
 msgid "Manual Feed"
-msgstr "手动装纸"
+msgstr "手动喂纸"
 
 #: cups/ppd-cache.c:3425
 msgid "Matte Brochure Paper"
-msgstr ""
+msgstr "雾面海报纸"
 
 #: cups/ppd-cache.c:3426
 msgid "Matte Cover Paper"
-msgstr ""
+msgstr "雾面封面纸"
 
 #: cups/ppd-cache.c:3466
 msgid "Matte Fabric"
-msgstr ""
+msgstr "雾面编织物"
 
 #: cups/ppd-cache.c:3492
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Matte Labels"
-msgstr "照片标签"
+msgstr "雾面标签"
 
 #: cups/ppd-cache.c:3442
 msgid "Matte Optical Disc"
-msgstr ""
+msgstr "雾面光盘"
 
 #: cups/ppd-cache.c:3516
 msgid "Matte Photo Paper"
-msgstr ""
+msgstr "雾面照片纸"
 
 #: cups/ppd.c:830 cups/ppd.c:1396
 msgid "Media Size"
@@ -5379,35 +5314,35 @@ msgstr "内存分配错误"
 
 #: cups/ppd-cache.c:3499
 msgid "Metal"
-msgstr ""
+msgstr "金属"
 
 #: cups/ppd-cache.c:3500
 msgid "Metal Glossy"
-msgstr ""
+msgstr "光面金属"
 
 #: cups/ppd-cache.c:3501
 msgid "Metal High Gloss"
-msgstr ""
+msgstr "高光金属"
 
 #: cups/ppd-cache.c:3502
 msgid "Metal Matte"
-msgstr ""
+msgstr "雾面金属"
 
 #: cups/ppd-cache.c:3503
 msgid "Metal Satin"
-msgstr ""
+msgstr "缎面抛光金属"
 
 #: cups/ppd-cache.c:3504
 msgid "Metal Semi Gloss"
-msgstr ""
+msgstr "半光面金属"
 
 #: cups/ppd-cache.c:3432
 msgid "Mid-Weight Paper"
-msgstr ""
+msgstr "中重纸张"
 
 #: cups/ppd-cache.c:3347 cups/ppd-cache.c:3739
 msgid "Middle"
-msgstr ""
+msgstr "中间"
 
 #: cups/ppd.c:336
 msgid "Missing CloseGroup"
@@ -5508,7 +5443,6 @@ msgstr ""
 "\tdevice-id = %s"
 
 #: test/ippfind.c:2792
-#, fuzzy
 msgid "Modifiers:"
 msgstr "修饰符："
 
@@ -5522,7 +5456,7 @@ msgstr "修改打印机"
 
 #: cups/ppd-cache.c:3505
 msgid "Mounting Tape"
-msgstr ""
+msgstr "装载带"
 
 #: cgi-bin/ipp-var.c:411 cgi-bin/ipp-var.c:502
 msgid "Move All Jobs"
@@ -5533,49 +5467,44 @@ msgid "Move Job"
 msgstr "移动任务"
 
 #: cups/http-support.c:1357
-#, fuzzy
 msgid "Moved Permanently"
-msgstr "永久移动"
+msgstr "已永久移动"
 
 #: cups/ppd-cache.c:3506
 msgid "Multi Layer"
-msgstr ""
+msgstr "多面"
 
 #: cups/ppd-cache.c:3507
 msgid "Multi Part Form"
-msgstr ""
+msgstr "多部表单"
 
 #: cups/ppd-cache.c:3007
-#, fuzzy
-#| msgid "Short-Edge (Landscape)"
 msgid "Multi-Hole Punch (Landscape)"
-msgstr "短边缘（水平）"
+msgstr "多孔冲压（水平）"
 
 #: cups/ppd-cache.c:3005
 msgid "Multi-Hole Punch (Portrait)"
-msgstr ""
+msgstr "多孔冲压（垂直）"
 
 #: cups/ppd-cache.c:3004
 msgid "Multi-Hole Punch (Reverse Landscape)"
-msgstr ""
+msgstr "多孔冲压（反向水平）"
 
 #: cups/ppd-cache.c:3006
 msgid "Multi-Hole Punch (Reverse Portrait)"
-msgstr ""
+msgstr "多孔冲压（反向垂直）"
 
 #: cups/ppd-cache.c:3354
 msgid "Multipurpose"
-msgstr ""
+msgstr "多用"
 
 #: cups/ppd-cache.c:3431
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Multipurpose Paper"
-msgstr "光面纸"
+msgstr "多用纸"
 
 #: cups/ppd-cache.c:3740
 msgid "My Mailbox"
-msgstr ""
+msgstr "我的信箱"
 
 #: cups/ppd.c:315
 msgid "NULL PPD file pointer"
@@ -5594,14 +5523,12 @@ msgid "Never"
 msgstr "从不"
 
 #: cups/tls-darwin.c:670 cups/tls-gnutls.c:502
-#, fuzzy
-#| msgid "Server credentials not set."
 msgid "New credentials are not valid for name."
-msgstr "未设置服务器凭据。"
+msgstr "新凭据不可用于名称。"
 
 #: cups/tls-darwin.c:660 cups/tls-gnutls.c:492
 msgid "New credentials are older than stored credentials."
-msgstr ""
+msgstr "新凭据老于已存储的凭据。"
 
 #: cups/ppd.c:1987
 msgid "No"
@@ -5612,10 +5539,8 @@ msgid "No Content"
 msgstr "无内容"
 
 #: cups/ppd-cache.c:3041
-#, fuzzy
-#| msgid "IPP attribute has no name."
 msgid "No IPP attributes."
-msgstr "IPP 属性未命名。"
+msgstr "无 IPP 属性。"
 
 #: cups/ppd-util.c:451
 msgid "No PPD name"
@@ -5651,12 +5576,10 @@ msgid "No authentication information provided."
 msgstr "未提供认证信息。"
 
 #: cups/tls-darwin.c:610 cups/tls-gnutls.c:439
-#, fuzzy
 msgid "No common name specified."
-msgstr "无社群名称"
+msgstr "未指定通用名称。"
 
 #: cups/snmp.c:954
-#, fuzzy
 msgid "No community name"
 msgstr "无社群名称"
 
@@ -5730,10 +5653,8 @@ msgid "No request-id"
 msgstr "无 request-id"
 
 #: cups/tls-darwin.c:690 cups/tls-gnutls.c:522
-#, fuzzy
-#| msgid "Server credentials not set."
 msgid "No stored credentials, not valid for name."
-msgstr "未设置服务器凭据。"
+msgstr "无已存储的凭据，不可用于名称。"
 
 #: scheduler/ipp.c:5679
 msgid "No subscription attributes in request."
@@ -5752,18 +5673,16 @@ msgid "No version number"
 msgstr "无版本号"
 
 #: ppdc/sample.c:362
-#, fuzzy
 msgid "Non-continuous (Mark sensing)"
 msgstr "非连续（标记嗅探）"
 
 #: ppdc/sample.c:361
-#, fuzzy
 msgid "Non-continuous (Web sensing)"
 msgstr "非连续（Web 嗅探）"
 
 #: cups/ppd-cache.c:3818 cups/ppd-cache.c:3865 cups/ppd-cache.c:3912
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: cups/ppd-cache.c:3981 cups/ppd-cache.c:4036 cups/ppd-cache.c:4063
 #: ppdc/sample.c:238
@@ -5814,7 +5733,7 @@ msgstr "关（单面）"
 
 #: cups/ppd-cache.c:3427
 msgid "Office Recycled Paper"
-msgstr ""
+msgstr "办公室用再生纸"
 
 #: ppdc/sample.c:356
 msgid "Oki"
@@ -5847,15 +5766,14 @@ msgstr "操作策略"
 
 #: cups/ppd-cache.c:3439
 msgid "Optical Disc"
-msgstr ""
+msgstr "光盘"
 
 #: filter/pstops.c:2180
-#, fuzzy, c-format
+#, c-format
 msgid "Option \"%s\" cannot be included via %%%%IncludeFeature."
-msgstr "选项“%s”不能通过  %%%%IncludeFeature 引用。"
+msgstr "选项“%s”不能通过 %%%%IncludeFeature 引用。"
 
 #: cgi-bin/admin.c:3265 cgi-bin/admin.c:3349
-#, fuzzy
 msgid "Options Installed"
 msgstr "已安装选项"
 
@@ -5864,13 +5782,12 @@ msgstr "已安装选项"
 #: test/ippfind.c:2751 test/ipptool.c:4930 ppdc/ppdc.cxx:430
 #: ppdc/ppdhtml.cxx:177 ppdc/ppdi.cxx:123 ppdc/ppdmerge.cxx:361
 #: ppdc/ppdpo.cxx:247
-#, fuzzy
 msgid "Options:"
 msgstr "选项："
 
 #: cups/ppd-cache.c:3508
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
 #: cups/ppd-cache.c:464
 msgid "Out of date PPD cache file."
@@ -5886,15 +5803,15 @@ msgstr "输出模式"
 
 #: cups/ppd-localize.c:314
 msgid "Output bin is almost full."
-msgstr ""
+msgstr "出纸盘已几乎用满。"
 
 #: cups/ppd-localize.c:316
 msgid "Output bin is full."
-msgstr ""
+msgstr "出纸盘已满。"
 
 #: cups/ppd-localize.c:312
 msgid "Output bin is missing."
-msgstr ""
+msgstr "无出纸盘。"
 
 #: systemv/cupstestdsc.c:391
 msgid "PASS"
@@ -5933,15 +5850,12 @@ msgid "Packet does not contain a Get-Response-PDU"
 msgstr "包裹中未包含 Get-Response-PDU"
 
 #: cups/snmp.c:943
-#, fuzzy
 msgid "Packet does not start with SEQUENCE"
 msgstr "包裹未使用 SEQUENCE 开头"
 
 #: cups/ppd-cache.c:3509
-#, fuzzy
-#| msgid "Bond Paper"
 msgid "Paper"
-msgstr "证券纸"
+msgstr "纸张"
 
 #: cups/ppd-localize.c:291
 msgid "Paper jam."
@@ -5961,7 +5875,7 @@ msgstr "纸槽缺失。"
 
 #: cups/ppd-cache.c:2981
 msgid "Parallel Fold"
-msgstr ""
+msgstr "并行折叠"
 
 #: ppdc/sample.c:355
 msgid "ParamCustominCutInterval"
@@ -5974,12 +5888,12 @@ msgstr "ParamCustominTearInterval"
 #: cups/auth.c:192 cups/auth.c:359
 #, c-format
 msgid "Password for %s on %s? "
-msgstr ""
+msgstr "请输入 %2$s 上 %1$s 的密码 "
 
 #: systemv/cupsaddsmb.c:244
 #, c-format
 msgid "Password for %s required to access %s via SAMBA: "
-msgstr ""
+msgstr "要通过 SAMBA 访问 %2$s，必须输入 %1$s 的密码："
 
 #: cgi-bin/classes.c:157
 msgid "Pause Class"
@@ -5991,47 +5905,39 @@ msgstr "暂停打印机"
 
 #: ppdc/sample.c:443
 msgid "Peel-Off"
-msgstr ""
+msgstr "剥片"
 
 #: cups/ppd-cache.c:3493
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Permanent Labels"
-msgstr "照片标签"
+msgstr "永久标签"
 
 #: cups/ppd-cache.c:3342 ppdc/sample.c:160
 msgid "Photo"
 msgstr "照片"
 
 #: cups/ppd-cache.c:3513
-#, fuzzy
-#| msgid "Photo"
 msgid "Photo Film"
-msgstr "照片"
+msgstr "照片胶卷"
 
 #: ppdc/sample.c:161
 msgid "Photo Labels"
 msgstr "照片标签"
 
 #: cups/ppd-cache.c:3510 cups/ppd-cache.c:3511
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Photo Paper"
-msgstr "照片标签"
+msgstr "照片纸"
 
 #: cups/ppd-cache.c:3483 cups/ppd-cache.c:3485
 msgid "Photo Paper Plus Glossy II"
-msgstr ""
+msgstr "Photo Paper Plus Glossy II"
 
 #: cups/ppd-cache.c:3484 cups/ppd-cache.c:3486
 msgid "Photo Paper Pro Platinum"
-msgstr ""
+msgstr "Photo Paper Pro Platinum"
 
 #: cups/ppd-cache.c:3459
-#, fuzzy
-#| msgid "Envelope #9"
 msgid "Plain Envelope"
-msgstr "9 号信封"
+msgstr "普通信封"
 
 #: cups/ppd-cache.c:3539 ppdc/sample.c:281
 msgid "Plain Paper"
@@ -6039,39 +5945,39 @@ msgstr "普通纸"
 
 #: cups/ppd-cache.c:3519
 msgid "Plastic"
-msgstr ""
+msgstr "塑料"
 
 #: cups/ppd-cache.c:3520
 msgid "Plastic Archival"
-msgstr ""
+msgstr "档案用塑料"
 
 #: cups/ppd-cache.c:3521
 msgid "Plastic Colored"
-msgstr ""
+msgstr "彩色塑料"
 
 #: cups/ppd-cache.c:3522
 msgid "Plastic Glossy"
-msgstr ""
+msgstr "光面塑料"
 
 #: cups/ppd-cache.c:3523
 msgid "Plastic High Gloss"
-msgstr ""
+msgstr "高光塑料"
 
 #: cups/ppd-cache.c:3524
 msgid "Plastic Matte"
-msgstr ""
+msgstr "雾面塑料"
 
 #: cups/ppd-cache.c:3525
 msgid "Plastic Satin"
-msgstr ""
+msgstr "缎面抛光塑料"
 
 #: cups/ppd-cache.c:3526
 msgid "Plastic Semi Gloss"
-msgstr ""
+msgstr "半光面塑料"
 
 #: cups/ppd-cache.c:3527
 msgid "Plate"
-msgstr ""
+msgstr "印刷板"
 
 #: cgi-bin/admin.c:3283 cgi-bin/admin.c:3564
 msgid "Policies"
@@ -6079,7 +5985,7 @@ msgstr "策略"
 
 #: cups/ppd-cache.c:3528
 msgid "Polyester"
-msgstr ""
+msgstr "聚酯"
 
 #: cgi-bin/admin.c:3290 cgi-bin/admin.c:3633 cgi-bin/admin.c:3646
 msgid "Port Monitor"
@@ -6095,7 +6001,7 @@ msgstr "明信片"
 
 #: ppdc/sample.c:71
 msgid "Postcard Double"
-msgstr ""
+msgstr "双面明信片"
 
 #: ppdc/sample.c:72
 msgid "Postcard Double Long Edge"
@@ -6107,25 +6013,23 @@ msgstr "超长边缘明信片"
 
 #: cups/ppd-cache.c:2982
 msgid "Poster Fold"
-msgstr ""
+msgstr "对折明信片"
 
 #: cups/ppd-cache.c:3529
 msgid "Pre Cut Tabs"
-msgstr ""
+msgstr "已裁剪标签"
 
 #: cups/ppd-cache.c:3433
 msgid "Premium Inkjet Paper"
-msgstr ""
+msgstr "高级喷墨纸"
 
 #: cups/ppd-cache.c:3434
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Premium Photo Glossy Paper"
-msgstr "光面纸"
+msgstr "高级光面照片纸"
 
 #: cups/ppd-cache.c:3435
 msgid "Premium Presentation Matte Paper"
-msgstr ""
+msgstr "高级雾面展示用纸"
 
 #: backend/ipp.c:981 backend/ipp.c:989
 msgid "Preparing to print."
@@ -6133,13 +6037,11 @@ msgstr "正在准备打印。"
 
 #: cups/ppd-cache.c:3460
 msgid "Preprinted Envelope"
-msgstr ""
+msgstr "预打印信封"
 
 #: cups/ppd-cache.c:3549
-#, fuzzy
-#| msgid "Plain Paper"
 msgid "Preprinted Paper"
-msgstr "普通纸"
+msgstr "预打印纸"
 
 #: ppdc/sample.c:290
 msgid "Print Density"
@@ -6155,7 +6057,7 @@ msgstr "打印模式"
 
 #: cups/ppd-cache.c:3974 cups/ppd-cache.c:4031 cups/ppd-cache.c:4060
 msgid "Print Quality"
-msgstr ""
+msgstr "打印质量"
 
 #: ppdc/sample.c:378
 msgid "Print Rate"
@@ -6178,9 +6080,8 @@ msgid "Print and Cut"
 msgstr "打印和裁剪"
 
 #: ppdc/sample.c:339
-#, fuzzy
 msgid "Print and Tear"
-msgstr "打印和撕裂"
+msgstr "打印和撕纸"
 
 #: backend/socket.c:410 backend/usb-unix.c:182
 msgid "Print file sent."
@@ -6228,18 +6129,16 @@ msgid "Printer Settings"
 msgstr "打印机设置"
 
 #: backend/ipp.c:2231
-#, fuzzy
 msgid "Printer cannot print supplied content."
 msgstr "打印机无法打印所提供的内容。"
 
 #: backend/ipp.c:2234
-#, fuzzy
 msgid "Printer cannot print with supplied options."
 msgstr "打印机无法使用所提供的选项打印。"
 
 #: cups/ppd-cache.c:4087
 msgid "Printer does not support required IPP attributes or document formats."
-msgstr ""
+msgstr "打印机不支持必要的 IPP 属性或文档格式。"
 
 #: cups/notify.c:118
 msgid "Printer:"
@@ -6257,17 +6156,15 @@ msgstr "正在打印第 %d 页，已完成 %u%%。"
 
 #: cups/ppd-cache.c:2987 cups/ppd-cache.c:3909
 msgid "Punch"
-msgstr ""
+msgstr "冲压"
 
 #: cups/ppd-cache.c:3550
-#, fuzzy
-#| msgid "Bond Paper"
 msgid "Punched Paper"
-msgstr "证券纸"
+msgstr "打孔纸"
 
 #: ppdc/sample.c:155
 msgid "Quarto"
-msgstr ""
+msgstr "四开"
 
 #: scheduler/ipp.c:1530 scheduler/ipp.c:10931
 msgid "Quota limit reached."
@@ -6278,17 +6175,15 @@ msgstr "已达到限额上限。"
 # - Will mess up on CJK and double-width environments.
 #: berkeley/lpq.c:499
 msgid "Rank    Owner   Job     File(s)                         Total Size"
-msgstr ""
+msgstr "排序    所有者   任务     文件                         总大小"
 
 #: cups/ppd-cache.c:3353
 msgid "Rear"
-msgstr ""
+msgstr "后部"
 
 #: cups/ppd-cache.c:3741
-#, fuzzy
-#| msgid "Tray"
 msgid "Rear Tray"
-msgstr "托盘"
+msgstr "后部纸盘"
 
 #: cgi-bin/classes.c:161 cgi-bin/printers.c:164
 msgid "Reject Jobs"
@@ -6309,7 +6204,6 @@ msgid "Reprint After Error"
 msgstr "错误后重新打印"
 
 #: cups/http-support.c:1379
-#, fuzzy
 msgid "Request Entity Too Large"
 msgstr "请求的条目过大"
 
@@ -6318,12 +6212,10 @@ msgid "Resolution"
 msgstr "分辨率"
 
 #: cgi-bin/classes.c:155
-#, fuzzy
 msgid "Resume Class"
 msgstr "继续类"
 
 #: cgi-bin/printers.c:157
-#, fuzzy
 msgid "Resume Printer"
 msgstr "继续打印机"
 
@@ -6332,65 +6224,64 @@ msgid "Return Address"
 msgstr "返回地址"
 
 #: ppdc/sample.c:444
-#, fuzzy
 msgid "Rewind"
 msgstr "回退"
 
 #: cups/ppd-cache.c:3351
 msgid "Right"
-msgstr ""
+msgstr "右"
 
 #: cups/ppd-cache.c:2983
 msgid "Right Gate Fold"
-msgstr ""
+msgstr "右对开页"
 
 #: cups/ppd-cache.c:3742
 msgid "Right Tray"
-msgstr ""
+msgstr "右部纸盘"
 
 #: cups/ppd-cache.c:3530
 msgid "Roll"
-msgstr ""
+msgstr "滚筒"
 
 #: cups/ppd-cache.c:3375
 msgid "Roll 1"
-msgstr ""
+msgstr "滚筒 1"
 
 #: cups/ppd-cache.c:3384
 msgid "Roll 10"
-msgstr ""
+msgstr "滚筒 10"
 
 #: cups/ppd-cache.c:3376
 msgid "Roll 2"
-msgstr ""
+msgstr "滚筒 2"
 
 #: cups/ppd-cache.c:3377
 msgid "Roll 3"
-msgstr ""
+msgstr "滚筒 3"
 
 #: cups/ppd-cache.c:3378
 msgid "Roll 4"
-msgstr ""
+msgstr "滚筒 4"
 
 #: cups/ppd-cache.c:3379
 msgid "Roll 5"
-msgstr ""
+msgstr "滚筒 5"
 
 #: cups/ppd-cache.c:3380
 msgid "Roll 6"
-msgstr ""
+msgstr "滚筒 6"
 
 #: cups/ppd-cache.c:3381
 msgid "Roll 7"
-msgstr ""
+msgstr "滚筒 7"
 
 #: cups/ppd-cache.c:3382
 msgid "Roll 8"
-msgstr ""
+msgstr "滚筒 8"
 
 #: cups/ppd-cache.c:3383
 msgid "Roll 9"
-msgstr ""
+msgstr "滚筒 9"
 
 #: cups/adminutil.c:2100
 #, c-format
@@ -6407,37 +6298,31 @@ msgstr "SSL/TLS 协商错误"
 
 #: cups/ppd-cache.c:3008
 msgid "Saddle Stitch"
-msgstr ""
+msgstr "骑马订装"
 
 #: cups/ppd-cache.c:3494
-#, fuzzy
-#| msgid "Photo Labels"
 msgid "Satin Labels"
-msgstr "照片标签"
+msgstr "缎面抛光标签"
 
 #: cups/ppd-cache.c:3443
 msgid "Satin Optical Disc"
-msgstr ""
+msgstr "缎面抛光光盘"
 
 #: cups/ppd-cache.c:3517
-#, fuzzy
-#| msgid "Plain Paper"
 msgid "Satin Photo Paper"
-msgstr "普通纸"
+msgstr "缎面抛光照片纸"
 
 #: cups/ppd-cache.c:3531
 msgid "Screen"
-msgstr ""
+msgstr "网印"
 
 #: cups/ppd-cache.c:3532
 msgid "Screen Paged"
-msgstr ""
+msgstr "网印分页"
 
 #: cups/ppd-cache.c:3495
-#, fuzzy
-#| msgid "Every Label"
 msgid "Security Labels"
-msgstr "每个标签"
+msgstr "安全标签"
 
 #: cups/http-support.c:1360
 msgid "See Other"
@@ -6449,35 +6334,31 @@ msgstr "查看远程打印机。"
 
 #: cups/ppd-cache.c:3533
 msgid "Self Adhesive"
-msgstr ""
+msgstr "自粘合"
 
 #: cups/ppd-cache.c:3534
 msgid "Self Adhesive Film"
-msgstr ""
+msgstr "自粘合胶片"
 
 #: cups/tls-darwin.c:745 cups/tls-gnutls.c:584
-#, fuzzy
-#| msgid "Server credentials not set."
 msgid "Self-signed credentials are blocked."
-msgstr "未设置服务器凭据。"
+msgstr "禁止使用自签发的凭据。"
 
 #: cups/ppd-cache.c:3467
 msgid "Semi-Gloss Fabric"
-msgstr ""
+msgstr "半光面编织物"
 
 #: cups/ppd-cache.c:3496
 msgid "Semi-Gloss Labels"
-msgstr ""
+msgstr "半光面标签"
 
 #: cups/ppd-cache.c:3444
 msgid "Semi-Gloss Optical Disc"
-msgstr ""
+msgstr "半光面光盘"
 
 #: cups/ppd-cache.c:3518
-#, fuzzy
-#| msgid "Glossy Paper"
 msgid "Semi-Gloss Photo Paper"
-msgstr "光面纸"
+msgstr "半光面照片纸"
 
 #: backend/usb-darwin.c:566 backend/usb-libusb.c:346
 msgid "Sending data to printer."
@@ -6525,7 +6406,6 @@ msgid "Set Printer Options"
 msgstr "设置打印机选项"
 
 #: cgi-bin/admin.c:3845 cgi-bin/admin.c:3889 cgi-bin/admin.c:3907
-#, fuzzy
 msgid "Set Publishing"
 msgstr "设置出版"
 
@@ -6539,61 +6419,59 @@ msgstr "短边缘（水平）"
 
 #: cups/ppd-cache.c:3535
 msgid "Shrink Foil"
-msgstr ""
+msgstr "热缩铝箔"
 
 #: cups/ppd-cache.c:3349
 msgid "Side"
-msgstr ""
+msgstr "侧面"
 
 #: cups/ppd-cache.c:3743
-#, fuzzy
-#| msgid "Tray"
 msgid "Side Tray"
-msgstr "托盘"
+msgstr "侧面纸盘"
 
 #: cups/ppd-cache.c:3536
 msgid "Single Face"
-msgstr ""
+msgstr "单面"
 
 #: cups/ppd-cache.c:2999
 msgid "Single Punch (Landscape)"
-msgstr ""
+msgstr "单孔冲压（水平）"
 
 #: cups/ppd-cache.c:2998
 msgid "Single Punch (Portrait)"
-msgstr ""
+msgstr "单孔冲压（垂直）"
 
 #: cups/ppd-cache.c:2988
 msgid "Single Punch (Reverse Landscape)"
-msgstr ""
+msgstr "单孔冲压（反向水平）"
 
 #: cups/ppd-cache.c:2989
 msgid "Single Punch (Reverse Portrait)"
-msgstr ""
+msgstr "单孔冲压（反向垂直）"
 
 #: cups/ppd-cache.c:3017
 msgid "Single Staple (Landscape)"
-msgstr ""
+msgstr "单钉装（水平）"
 
 #: cups/ppd-cache.c:3016
 msgid "Single Staple (Portrait)"
-msgstr ""
+msgstr "单钉装（垂直）"
 
 #: cups/ppd-cache.c:3010
 msgid "Single Staple (Reverse Landscape)"
-msgstr ""
+msgstr "单钉装（反向水平）"
 
 #: cups/ppd-cache.c:3011
 msgid "Single Staple (Reverse Portrait)"
-msgstr ""
+msgstr "单钉装（反向垂直）"
 
 #: cups/ppd-cache.c:3537
 msgid "Single Wall Cardboard"
-msgstr ""
+msgstr "单层纸板"
 
 #: cups/ppd-cache.c:3538
 msgid "Sleeve"
-msgstr ""
+msgstr "套筒"
 
 #: ppdc/sample.c:283
 msgid "Special Paper"
@@ -6602,47 +6480,47 @@ msgstr "特殊纸张"
 #: backend/lpd.c:1126
 #, c-format
 msgid "Spooling job, %.0f%% complete."
-msgstr ""
+msgstr "正在转存任务，已完成 %.0f%%。"
 
 #: cups/ppd-cache.c:3744
 msgid "Stacker 1"
-msgstr ""
+msgstr "摞纸器 1"
 
 #: cups/ppd-cache.c:3753
 msgid "Stacker 10"
-msgstr ""
+msgstr "摞纸器 10"
 
 #: cups/ppd-cache.c:3745
 msgid "Stacker 2"
-msgstr ""
+msgstr "摞纸器 2"
 
 #: cups/ppd-cache.c:3746
 msgid "Stacker 3"
-msgstr ""
+msgstr "摞纸器 3"
 
 #: cups/ppd-cache.c:3747
 msgid "Stacker 4"
-msgstr ""
+msgstr "摞纸器 4"
 
 #: cups/ppd-cache.c:3748
 msgid "Stacker 5"
-msgstr ""
+msgstr "摞纸器 5"
 
 #: cups/ppd-cache.c:3749
 msgid "Stacker 6"
-msgstr ""
+msgstr "摞纸器 6"
 
 #: cups/ppd-cache.c:3750
 msgid "Stacker 7"
-msgstr ""
+msgstr "摞纸器 7"
 
 #: cups/ppd-cache.c:3751
 msgid "Stacker 8"
-msgstr ""
+msgstr "摞纸器 8"
 
 #: cups/ppd-cache.c:3752
 msgid "Stacker 9"
-msgstr ""
+msgstr "摞纸器 9"
 
 #: ppdc/sample.c:336
 msgid "Standard"
@@ -6650,27 +6528,27 @@ msgstr "标准"
 
 #: cups/ppd-cache.c:3009 cups/ppd-cache.c:3815
 msgid "Staple"
-msgstr ""
+msgstr "装订"
 
 #: cups/ppd-cache.c:2967
 msgid "Staple Edge"
-msgstr ""
+msgstr "装订边缘"
 
 #: cups/ppd-cache.c:2971
 msgid "Staple Edge (Landscape)"
-msgstr ""
+msgstr "装订边缘（水平）"
 
 #: cups/ppd-cache.c:2969
 msgid "Staple Edge (Portrait)"
-msgstr ""
+msgstr "装订边缘（垂直）"
 
 #: cups/ppd-cache.c:2968
 msgid "Staple Edge (Reverse Landscape)"
-msgstr ""
+msgstr "装订边缘（反向水平）"
 
 #: cups/ppd-cache.c:2970
 msgid "Staple Edge (Reverse Portrait)"
-msgstr ""
+msgstr "装订边缘（反向垂直）"
 
 #. TRANSLATORS: Banner/cover sheet before the print job.
 #: cgi-bin/admin.c:3536
@@ -6685,32 +6563,29 @@ msgstr "正在开始第 %d 页。"
 
 #: ppdc/sample.c:156
 msgid "Statement"
-msgstr ""
+msgstr "声明"
 
 #: scheduler/ipp.c:3593 scheduler/ipp.c:6892 scheduler/ipp.c:7602
 #: scheduler/ipp.c:9123
 #, c-format
 msgid "Subscription #%d does not exist."
-msgstr ""
+msgstr "订阅 #%d 不存在。"
 
 #: test/ippfind.c:2804
 msgid "Substitutions:"
 msgstr "替代："
 
 #: ppdc/sample.c:157
-#, fuzzy
 msgid "Super A"
-msgstr "Super A"
+msgstr "超大 A"
 
 #: ppdc/sample.c:158
-#, fuzzy
 msgid "Super B"
-msgstr "Super B"
+msgstr "超大 B"
 
 #: ppdc/sample.c:162
-#, fuzzy
 msgid "Super B/A3"
-msgstr "Super B/A3"
+msgstr "超大 B/A3"
 
 #: cups/http-support.c:1342
 msgid "Switching Protocols"
@@ -6718,31 +6593,31 @@ msgstr "正在切换协议"
 
 #: cups/ppd-cache.c:3551
 msgid "Tab Stock"
-msgstr ""
+msgstr "重磅标签"
 
 #: ppdc/sample.c:159
 msgid "Tabloid"
-msgstr ""
+msgstr "大幅面"
 
 #: ppdc/sample.c:45
 msgid "Tabloid Oversize"
-msgstr ""
+msgstr "超大幅面"
 
 #: ppdc/sample.c:46
 msgid "Tabloid Oversize Long Edge"
-msgstr ""
+msgstr "超大幅面长边缘"
 
 #: ppdc/sample.c:337
 msgid "Tear"
-msgstr ""
+msgstr "撕纸"
 
 #: ppdc/sample.c:442
 msgid "Tear-Off"
-msgstr ""
+msgstr "撕纸"
 
 #: ppdc/sample.c:383
 msgid "Tear-Off Adjust Position"
-msgstr ""
+msgstr "调整撕纸位置"
 
 #: scheduler/ipp.c:1366
 #, c-format
@@ -6790,37 +6665,37 @@ msgstr "类名最多可包含 127 可打印字符，不能包含空格、斜杠�
 
 #: cups/ppd-localize.c:336
 msgid "The developer unit needs to be replaced."
-msgstr ""
+msgstr "显影单元需替换。"
 
 #: cups/ppd-localize.c:334
 msgid "The developer unit will need to be replaced soon."
-msgstr ""
+msgstr "显影单元最近需替换。"
 
 #: cups/ppd-localize.c:326
 msgid "The fuser's temperature is high."
-msgstr ""
+msgstr "熔凝器温度高。"
 
 #: cups/ppd-localize.c:328
 msgid "The fuser's temperature is low."
-msgstr ""
+msgstr "熔凝器温度低。"
 
 #: scheduler/ipp.c:2112
 msgid ""
 "The notify-lease-duration attribute cannot be used with job subscriptions."
-msgstr ""
+msgstr "notify-lease-duration 属性不可用于任务订阅。"
 
 #: scheduler/ipp.c:2095 scheduler/ipp.c:5804
 #, c-format
 msgid "The notify-user-data value is too large (%d > 63 octets)."
-msgstr ""
+msgstr "notify-user-data 值过大（%d > 63 八位值）。"
 
 #: cups/ppd-localize.c:332
 msgid "The optical photoconductor needs to be replaced."
-msgstr ""
+msgstr "光导元件需替换。"
 
 #: cups/ppd-localize.c:330
 msgid "The optical photoconductor will need to be replaced soon."
-msgstr ""
+msgstr "光导元件最近需替换。"
 
 #: backend/ipp.c:1001
 msgid "The printer configuration is incorrect or the printer no longer exists."
@@ -6905,15 +6780,15 @@ msgstr "打印机或类未共享。"
 
 #: cups/ppd-localize.c:300
 msgid "The printer's cover is open."
-msgstr ""
+msgstr "打印机盖被打开。"
 
 #: cups/ppd-localize.c:304
 msgid "The printer's door is open."
-msgstr ""
+msgstr "打印机门被打开。"
 
 #: cups/ppd-localize.c:302
 msgid "The printer's interlock is open."
-msgstr ""
+msgstr "打印机联锁被打开。"
 
 #: cups/ppd-localize.c:322
 msgid "The printer's waste bin is almost full."
@@ -6946,7 +6821,7 @@ msgstr "printer-uri 必须使用如下格式：“ipp://HOSTNAME/printers/PRINTE
 msgid ""
 "The subscription name may not contain spaces, slashes (/), question marks "
 "(?), or the pound sign (#)."
-msgstr ""
+msgstr "订阅名称不得包含空格，斜杠（/），问号（?）或井号（#）。"
 
 #: scheduler/client.c:2247
 msgid ""
@@ -6961,7 +6836,7 @@ msgstr "不支持的 which-jobs 值“%s”。"
 
 #: scheduler/ipp.c:5882
 msgid "There are too many subscriptions."
-msgstr ""
+msgstr "订阅过多。"
 
 #: backend/usb-darwin.c:398 backend/usb-darwin.c:464 backend/usb-darwin.c:528
 #: backend/usb-darwin.c:549 backend/usb-libusb.c:271 backend/usb-libusb.c:325
@@ -6970,7 +6845,7 @@ msgstr "遇到了不可恢复的 USB 错误。"
 
 #: ppdc/sample.c:430
 msgid "Thermal Transfer Media"
-msgstr ""
+msgstr "热敏介质"
 
 #: scheduler/ipp.c:1524
 msgid "Too many active jobs."
@@ -6988,23 +6863,19 @@ msgstr "printer-state-reasons 值过多（%d > %d）。"
 
 #: cups/ppd-cache.c:3346
 msgid "Top"
-msgstr ""
+msgstr "顶部"
 
 #: cups/ppd-cache.c:3754
-#, fuzzy
-#| msgid "Tray"
 msgid "Top Tray"
-msgstr "托盘"
+msgstr "顶部纸盘"
 
 #: cups/ppd-cache.c:3552
 msgid "Tractor"
-msgstr ""
+msgstr "墨辊"
 
 #: cups/ppd-cache.c:3553
-#, fuzzy
-#| msgid "Transparency"
 msgid "Transfer"
-msgstr "透明度"
+msgstr "传输"
 
 #: cups/ppd-cache.c:3554 ppdc/sample.c:284
 msgid "Transparency"
@@ -7020,43 +6891,43 @@ msgstr "托盘 1"
 
 #: cups/ppd-cache.c:3364 cups/ppd-cache.c:3764
 msgid "Tray 10"
-msgstr ""
+msgstr "托盘 10"
 
 #: cups/ppd-cache.c:3365
 msgid "Tray 11"
-msgstr ""
+msgstr "托盘 11"
 
 #: cups/ppd-cache.c:3366
 msgid "Tray 12"
-msgstr ""
+msgstr "托盘 12"
 
 #: cups/ppd-cache.c:3367
 msgid "Tray 13"
-msgstr ""
+msgstr "托盘 13"
 
 #: cups/ppd-cache.c:3368
 msgid "Tray 14"
-msgstr ""
+msgstr "托盘 14"
 
 #: cups/ppd-cache.c:3369
 msgid "Tray 15"
-msgstr ""
+msgstr "托盘 15"
 
 #: cups/ppd-cache.c:3370
 msgid "Tray 16"
-msgstr ""
+msgstr "托盘 16"
 
 #: cups/ppd-cache.c:3371
 msgid "Tray 17"
-msgstr ""
+msgstr "托盘 17"
 
 #: cups/ppd-cache.c:3372
 msgid "Tray 18"
-msgstr ""
+msgstr "托盘 18"
 
 #: cups/ppd-cache.c:3373
 msgid "Tray 19"
-msgstr ""
+msgstr "托盘 19"
 
 #: cups/ppd-cache.c:3356 cups/ppd-cache.c:3756 ppdc/sample.c:257
 msgid "Tray 2"
@@ -7064,7 +6935,7 @@ msgstr "托盘 2"
 
 #: cups/ppd-cache.c:3374
 msgid "Tray 20"
-msgstr ""
+msgstr "托盘 20"
 
 #: cups/ppd-cache.c:3357 cups/ppd-cache.c:3757 ppdc/sample.c:258
 msgid "Tray 3"
@@ -7076,48 +6947,48 @@ msgstr "托盘 4"
 
 #: cups/ppd-cache.c:3359 cups/ppd-cache.c:3759
 msgid "Tray 5"
-msgstr ""
+msgstr "托盘 5"
 
 #: cups/ppd-cache.c:3360 cups/ppd-cache.c:3760
 msgid "Tray 6"
-msgstr ""
+msgstr "托盘 6"
 
 #: cups/ppd-cache.c:3361 cups/ppd-cache.c:3761
 msgid "Tray 7"
-msgstr ""
+msgstr "托盘 7"
 
 #: cups/ppd-cache.c:3362 cups/ppd-cache.c:3762
 msgid "Tray 8"
-msgstr ""
+msgstr "托盘 8"
 
 #: cups/ppd-cache.c:3363 cups/ppd-cache.c:3763
 msgid "Tray 9"
-msgstr ""
+msgstr "托盘 9"
 
 #: cups/ppd-cache.c:3021
 msgid "Triple Staple (Landscape)"
-msgstr ""
+msgstr "三钉装（水平）"
 
 #: cups/ppd-cache.c:3019
 msgid "Triple Staple (Portrait)"
-msgstr ""
+msgstr "三钉装（垂直）"
 
 #: cups/ppd-cache.c:3018
 msgid "Triple Staple (Reverse Landscape)"
-msgstr ""
+msgstr "三钉装（反向水平）"
 
 #: cups/ppd-cache.c:3020
 msgid "Triple Staple (Reverse Portrait)"
-msgstr ""
+msgstr "三钉装（反向垂直）"
 
 #: cups/ppd-cache.c:3555
 msgid "Triple Wall Cardboard"
-msgstr ""
+msgstr "三层纸板"
 
 #: cups/tls-darwin.c:650 cups/tls-darwin.c:732 cups/tls-gnutls.c:482
 #: cups/tls-gnutls.c:564
 msgid "Trust on first use is disabled."
-msgstr ""
+msgstr "初次使用信任已禁用。"
 
 #: cups/http-support.c:1382
 msgid "URI Too Long"
@@ -7129,7 +7000,7 @@ msgstr "URI 过大"
 
 #: ppdc/sample.c:138
 msgid "US Ledger"
-msgstr ""
+msgstr "US Ledger"
 
 #: ppdc/sample.c:139
 msgid "US Legal"
@@ -7156,7 +7027,6 @@ msgid "US Letter Oversize Long Edge"
 msgstr "超大长边缘 US Letter"
 
 #: ppdc/sample.c:145
-#, fuzzy
 msgid "US Letter Small"
 msgstr "小型 US Letter"
 
@@ -7198,7 +7068,6 @@ msgid "Unable to allocate memory for page info"
 msgstr "无法为页面信息分配内存"
 
 #: filter/pstops.c:415
-#, fuzzy
 msgid "Unable to allocate memory for pages array"
 msgstr "无法为页面组分配内存"
 
@@ -7263,7 +7132,7 @@ msgstr "无法复制 CUPS 打印机驱动文件（%d）。"
 #: scheduler/ipp.c:2690
 #, c-format
 msgid "Unable to copy PPD file - %s"
-msgstr "无法复制 PPD 文件 - %s"
+msgstr "无法复制 PPD 文件 — %s"
 
 #: scheduler/ipp.c:2735
 msgid "Unable to copy PPD file."
@@ -7280,10 +7149,8 @@ msgid "Unable to copy Windows 9x printer driver files (%d)."
 msgstr "无法复制 Windows 9x 打印机驱动文件（%d）。"
 
 #: cups/tls-darwin.c:616 cups/tls-gnutls.c:445
-#, fuzzy
-#| msgid "Unable to create server credentials."
 msgid "Unable to create credentials from array."
-msgstr "无法创建服务器凭据。"
+msgstr "无法从打印组创建服务器凭据。"
 
 #: cups/ppd-util.c:542 cups/util.c:482
 msgid "Unable to create printer-uri"
@@ -7310,7 +7177,6 @@ msgid "Unable to delete printer"
 msgstr "无法删除打印机"
 
 #: cgi-bin/classes.c:250 cgi-bin/printers.c:259
-#, fuzzy
 msgid "Unable to do maintenance command"
 msgstr "无法执行维护命令"
 
@@ -7337,7 +7203,6 @@ msgid "Unable to establish a secure connection to host (host name mismatch)."
 msgstr "无法建立到主机的安全连接（主机名不匹配）。"
 
 #: cups/tls-darwin.c:1618
-#, fuzzy
 msgid ""
 "Unable to establish a secure connection to host (peer dropped connection "
 "before responding)."
@@ -7496,7 +7361,6 @@ msgstr "无法运行“%s”：%s"
 
 # "Unable to read file" perhaps?
 #: filter/pstops.c:533
-#, fuzzy
 msgid "Unable to see in file"
 msgstr "无法读取文件"
 
@@ -7530,9 +7394,8 @@ msgid "Unable to upload cupsd.conf file"
 msgstr "无法上传 cupsd.conf 文件"
 
 #: backend/usb-darwin.c:2148 backend/usb-darwin.c:2172
-#, fuzzy
 msgid "Unable to use legacy USB class driver."
-msgstr "无法使用遗留 USB 类驱动。"
+msgstr "无法使用老式 USB 类驱动。"
 
 #: backend/runloop.c:112 backend/runloop.c:367
 msgid "Unable to write print data"
@@ -7548,7 +7411,6 @@ msgid "Unauthorized"
 msgstr "未认证"
 
 #: cgi-bin/admin.c:3487
-#, fuzzy
 msgid "Units"
 msgstr "单元"
 
@@ -7618,7 +7480,6 @@ msgid "Unknown request version."
 msgstr "未知请求版本。"
 
 #: cups/http-support.c:1487
-#, fuzzy
 msgid "Unknown scheme in URI"
 msgstr "URI 中含有未知方案"
 
@@ -7651,9 +7512,9 @@ msgid "Unsupported character set \"%s\"."
 msgstr "不支持的字符集“%s”。"
 
 #: scheduler/ipp.c:8392 scheduler/ipp.c:9640
-#, fuzzy, c-format
+#, c-format
 msgid "Unsupported compression \"%s\"."
-msgstr "不支持的压缩方式“%s”。"
+msgstr "不支持的压缩算法“%s”。"
 
 #: scheduler/ipp.c:8528 scheduler/ipp.c:9793
 #, c-format
@@ -7695,7 +7556,6 @@ msgstr "不支持的 page-border 值 %s，将使用 page-border=none。"
 
 #: filter/rastertopwg.c:137 filter/rastertopwg.c:173 filter/rastertopwg.c:181
 #: filter/rastertopwg.c:190
-#, fuzzy
 msgid "Unsupported raster data."
 msgstr "不支持的栅格化数据。"
 
@@ -7833,10 +7693,8 @@ msgid "VarBind uses indefinite length"
 msgstr "VarBind 使用不定长度"
 
 #: cups/ppd-cache.c:3543
-#, fuzzy
-#| msgid "Special Paper"
 msgid "Vellum Paper"
-msgstr "特殊纸张"
+msgstr "羊皮纸"
 
 #: cups/snmp.c:949
 msgid "Version uses indefinite length"
@@ -7860,7 +7718,7 @@ msgstr "警告，未安装 Windows 2000 打印机驱动。"
 
 #: cups/ppd-cache.c:3468
 msgid "Waterproof Fabric"
-msgstr ""
+msgstr "防水编织物"
 
 #: cups/http-support.c:1406
 msgid "Web Interface is Disabled"
@@ -7868,11 +7726,11 @@ msgstr "网页界面被禁用"
 
 #: cups/ppd-cache.c:3556
 msgid "Wet Film"
-msgstr ""
+msgstr "湿膜"
 
 #: cups/ppd-cache.c:3461
 msgid "Windowed Envelope"
-msgstr ""
+msgstr "透明信封"
 
 #: cups/ppd.c:1985
 msgid "Yes"
@@ -7888,7 +7746,7 @@ msgstr ""
 
 #: cups/ppd-cache.c:2984
 msgid "Z Fold"
-msgstr ""
+msgstr "Z 折"
 
 #: ppdc/sample.c:434
 msgid "ZPL Label Printer"
@@ -7921,7 +7779,7 @@ msgstr "无法执行 cups-driverd。"
 #: systemv/cupsaddsmb.c:225
 #, c-format
 msgid "cupsaddsmb: No PPD file for printer \"%s\" - %s"
-msgstr "cupsaddsmb：打印机“%s”无 PPD 文件 - %s"
+msgstr "cupsaddsmb：打印机“%s”无 PPD 文件 — %s"
 
 #: systemv/cupsctl.c:134
 msgid "cupsctl: Cannot set Listen or Port directly."
@@ -7951,9 +7809,8 @@ msgid "cupsd: Expected cups-files.conf filename after \"-s\" option."
 msgstr "cupsd：“-s”选项后预期 cups-files.conf 文件名。"
 
 #: scheduler/main.c:248
-#, fuzzy
 msgid "cupsd: On-demand support not compiled in, running in normal mode."
-msgstr "cupsd：未编译按需支持，使用一般模式运行。"
+msgstr "cupsd：未编译按需 (on-demand) 支持，使用一般模式运行。"
 
 #: scheduler/main.c:285
 msgid "cupsd: Relative cups-files.conf filename not allowed."
@@ -7994,7 +7851,7 @@ msgstr "cupsfilter：只能指定一个文件名。"
 #: scheduler/cupsfilter.c:1303
 #, c-format
 msgid "cupsfilter: Unable to get job file - %s"
-msgstr "cupsfilter：无法获取任务文件 - %s"
+msgstr "cupsfilter：无法获取任务文件 — %s"
 
 #: systemv/cupstestppd.c:239
 msgid "cupstestppd: The -q option is incompatible with the -v option."
@@ -8054,7 +7911,7 @@ msgid "ippfind: Expected port range after %s."
 msgstr "ippfind：在 %s 后预期端口范围。"
 
 #: test/ippfind.c:359
-#, fuzzy, c-format
+#, c-format
 msgid "ippfind: Expected program after %s."
 msgstr "ippfind：在 %s 后预期程序。"
 
@@ -8089,7 +7946,7 @@ msgid "ippfind: Missing open parenthesis."
 msgstr "ippfind：缺少左括号。"
 
 #: test/ippfind.c:899
-#, fuzzy, c-format
+#, c-format
 msgid "ippfind: Missing program after %s."
 msgstr "ippfind：在 %s 后缺少程序。"
 
@@ -8140,7 +7997,7 @@ msgstr "ipptool：“-i”和“-n”不能与“-P”和“-X”混用。"
 #: test/ipptool.c:614
 #, c-format
 msgid "ipptool: Bad URI - %s."
-msgstr "ipptool：无效 URI - %s。"
+msgstr "ipptool：无效 URI — %s。"
 
 #: test/ipptool.c:528
 msgid "ipptool: Invalid seconds for \"-i\"."
@@ -8151,7 +8008,6 @@ msgid "ipptool: May only specify a single URI."
 msgstr "ipptool：只能指定一个 URI。"
 
 #: test/ipptool.c:550
-#, fuzzy
 msgid "ipptool: Missing count for \"-n\"."
 msgstr "ipptool：“-n”选项后缺少数量。"
 
@@ -8246,7 +8102,6 @@ msgid "lpadmin: Expected printer or class after \"-x\" option."
 msgstr "lpadmin：“-x”选项后预期打印机或类。"
 
 #: systemv/lpadmin.c:942
-#, fuzzy
 msgid "lpadmin: No member names were seen."
 msgstr "lpadmin：未找到成员名称。"
 
@@ -8334,14 +8189,13 @@ msgstr "lpadmin：未知选项“%c”。"
 
 #: systemv/lpadmin.c:554
 msgid "lpadmin: Warning - content type list ignored."
-msgstr "lpadmin：警告 - 内容类型列表已被忽略。"
+msgstr "lpadmin：警告 — 内容类型列表已被忽略。"
 
 #: berkeley/lpc.c:66 berkeley/lpc.c:94 berkeley/lpc.c:130
 msgid "lpc> "
 msgstr "lpc> "
 
 #: systemv/lpinfo.c:82
-#, fuzzy
 msgid "lpinfo: Expected 1284 device ID string after \"--device-id\"."
 msgstr "lpinfo：“--device-id”选项后预期 1284 设备 ID 字串。"
 
@@ -8354,7 +8208,6 @@ msgid "lpinfo: Expected make and model after \"--make-and-model\"."
 msgstr "lpinfo：“--make-and-model”选项后预期生产商和型号。"
 
 #: systemv/lpinfo.c:159
-#, fuzzy
 msgid "lpinfo: Expected product string after \"--product\"."
 msgstr "lpinfo：“--product”选项后预期产品。"
 
@@ -8408,7 +8261,7 @@ msgstr "lpoptions：未知打印机或类。"
 msgid ""
 "lpstat: error - %s environment variable names non-existent destination \"%s"
 "\"."
-msgstr "lpstat：错误 - %s 环境变量指定了不存在的目的地“%s”。"
+msgstr "lpstat：错误 — %s 环境变量指定了不存在的目的地“%s”。"
 
 #: systemv/lpstat.c:1008
 #, c-format
@@ -8477,19 +8330,19 @@ msgid "ppdc: Bad variable substitution ($%c) on line %d of %s."
 msgstr "ppdc：共 %3$s 行中的第 %2$d 行中包含无效变量替代 %1$c。"
 
 #: ppdc/ppdc-source.cxx:2673
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Choice found on line %d of %s with no Option."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中找到不带有选项的选择。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中找到不带有 Option 的 Choice。"
 
 #: ppdc/ppdc-source.cxx:1653
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Duplicate #po for locale %s on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中包含重复为地域 %1$s 提供的 #po。"
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中包含重复的为地域 %1$s 提供的 #po。"
 
 #: ppdc/ppdc-source.cxx:887
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected a filter definition on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中预期滤镜定义。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期滤镜定义。"
 
 #: ppdc/ppdc-source.cxx:910
 #, c-format
@@ -8507,19 +8360,19 @@ msgid "ppdc: Expected charset after Font on line %d of %s."
 msgstr "ppdc：共 %2$s 行中的第 %1$d 行中在 Font 声明后预期字符集。"
 
 #: ppdc/ppdc-source.cxx:402
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected choice code on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中预期选择代码。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期选择代码。"
 
 #: ppdc/ppdc-source.cxx:390
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected choice name/text on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中预期选择名称/文本。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期选择名称/文本。"
 
 #: ppdc/ppdc-source.cxx:458
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected color order for ColorModel on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中预期 ColorModel 的颜色顺序。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 ColorModel 的颜色顺序。"
 
 #: ppdc/ppdc-source.cxx:447
 #, c-format
@@ -8527,14 +8380,14 @@ msgid "ppdc: Expected colorspace for ColorModel on line %d of %s."
 msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 ColorMode 的色彩空间。"
 
 #: ppdc/ppdc-source.cxx:469
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected compression for ColorModel on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中预期 ColorMode 的压缩模式。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 ColorMode 的压缩模式。"
 
 #: ppdc/ppdc-source.cxx:650
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected constraints string for UIConstraints on line %d of %s."
-msgstr "ppdc：共 %3$s 行中的第 %2$d 行中预期 UIConstraints 的限制字符串。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 UIConstraints 的限制字符串。"
 
 #: ppdc/ppdc-source.cxx:2859
 #, c-format
@@ -8564,7 +8417,7 @@ msgid "ppdc: Expected group name/text on line %d of %s."
 msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期组名称/文本。"
 
 #: ppdc/ppdc-source.cxx:2573
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected include filename on line %d of %s."
 msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期引用文件名。"
 
@@ -8640,9 +8493,9 @@ msgid "ppdc: Expected option name/text on line %d of %s."
 msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期选项名称/文本。"
 
 #: ppdc/ppdc-source.cxx:1563
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected option section on line %d of %s."
-msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期选项选择。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期选项节。"
 
 #: ppdc/ppdc-source.cxx:1541
 #, c-format
@@ -8650,9 +8503,9 @@ msgid "ppdc: Expected option type on line %d of %s."
 msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期选项类型。"
 
 #: ppdc/ppdc-source.cxx:1720
-#, fuzzy, c-format
+#, c-format
 msgid "ppdc: Expected override field after Resolution on line %d of %s."
-msgstr "ppdc：共 %2$s 行中的第 %1$d 行中在 Resolution 声明后预期覆盖。"
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中在 Resolution 声明后预期覆盖项。"
 
 #: ppdc/ppdc-catalog.cxx:389 ppdc/ppdc-catalog.cxx:401
 #, c-format
@@ -8693,212 +8546,212 @@ msgstr "ppdc：共 %2$s 行中的第 %1$d 行中在 Font 声明后预期状态�
 #: ppdc/ppdc-source.cxx:2748
 #, c-format
 msgid "ppdc: Expected string after Copyright on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 Copyright 声明后的字符串。"
 
 #: ppdc/ppdc-source.cxx:3351
 #, c-format
 msgid "ppdc: Expected string after Version on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 Version 声明后的字符串。"
 
 #: ppdc/ppdc-source.cxx:683
 #, c-format
 msgid "ppdc: Expected two option names on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期两个选项名。"
 
 #: ppdc/ppdc-source.cxx:327
 #, c-format
 msgid "ppdc: Expected value after %s on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中 %1$s 后预期值。"
 
 #: ppdc/ppdc-source.cxx:1040
 #, c-format
 msgid "ppdc: Expected version after Font on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中预期 Font 声明后的版本号。"
 
 #: ppdc/ppdc-source.cxx:182
 #, c-format
 msgid "ppdc: Invalid #include/#po filename \"%s\"."
-msgstr ""
+msgstr "ppdc：无效的 #include/#po 文件名“%s”。"
 
 #: ppdc/ppdc-source.cxx:927
 #, c-format
 msgid "ppdc: Invalid cost for filter on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中滤镜值无效。"
 
 #: ppdc/ppdc-source.cxx:919
 #, c-format
 msgid "ppdc: Invalid empty MIME type for filter on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中滤镜 MIME 类型无效且为空。"
 
 #: ppdc/ppdc-source.cxx:935
 #, c-format
 msgid "ppdc: Invalid empty program name for filter on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中滤镜程序名无效且为空。"
 
 #: ppdc/ppdc-source.cxx:1583
 #, c-format
 msgid "ppdc: Invalid option section \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中含有无效选项节“%1$s”。"
 
 #: ppdc/ppdc-source.cxx:1555
 #, c-format
 msgid "ppdc: Invalid option type \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中含有无效选项类型“%1$s”。"
 
 #: ppdc/ppdc.cxx:244 ppdc/ppdpo.cxx:115
 #, c-format
 msgid "ppdc: Loading driver information file \"%s\"."
-msgstr ""
+msgstr "ppdc：正在载入驱动信息文件“%s”。"
 
 #: ppdc/ppdc.cxx:180
 #, c-format
 msgid "ppdc: Loading messages for locale \"%s\"."
-msgstr ""
+msgstr "ppdc：正在载入地域“%s”的消息文本。"
 
 #: ppdc/ppdc.cxx:119
 #, c-format
 msgid "ppdc: Loading messages from \"%s\"."
-msgstr ""
+msgstr "ppdc：正在从“%s”载入消息文本。"
 
 #: ppdc/ppdc-source.cxx:2366 ppdc/ppdc-source.cxx:2598
 #, c-format
 msgid "ppdc: Missing #endif at end of \"%s\"."
-msgstr ""
+msgstr "ppdc：在“%s”结尾缺少 #endif。"
 
 #: ppdc/ppdc-source.cxx:2467 ppdc/ppdc-source.cxx:2502
 #: ppdc/ppdc-source.cxx:2532
 #, c-format
 msgid "ppdc: Missing #if on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中缺少 #if。"
 
 #: ppdc/ppdc-catalog.cxx:466
 #, c-format
 msgid ""
 "ppdc: Need a msgid line before any translation strings on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中，在任何翻译字串前需要 msgid 行。"
 
 #: ppdc/ppdc-driver.cxx:710
 #, c-format
 msgid "ppdc: No message catalog provided for locale %s."
-msgstr ""
+msgstr "ppdc：未给地域 %s 提供消息文本目录。"
 
 #: ppdc/ppdc-source.cxx:1606 ppdc/ppdc-source.cxx:2836
 #: ppdc/ppdc-source.cxx:2922 ppdc/ppdc-source.cxx:3015
 #: ppdc/ppdc-source.cxx:3148 ppdc/ppdc-source.cxx:3281
 #, c-format
 msgid "ppdc: Option %s defined in two different groups on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中选项 %1$s 在两个不同的组中被定义。"
 
 #: ppdc/ppdc-source.cxx:1599
 #, c-format
 msgid "ppdc: Option %s redefined with a different type on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中选项 %1$s 被重定义为另一个类型。"
 
 #: ppdc/ppdc-source.cxx:660
 #, c-format
 msgid "ppdc: Option constraint must *name on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中选项制约必须包含 *name 声明。"
 
 #: ppdc/ppdc-source.cxx:2449
 #, c-format
 msgid "ppdc: Too many nested #if's on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中包含太多嵌套的 #if。"
 
 #: ppdc/ppdc.cxx:367
 #, c-format
 msgid "ppdc: Unable to create PPD file \"%s\" - %s."
-msgstr ""
+msgstr "ppdc：无法创建 PPD 文件“%s” — %s。"
 
 #: ppdc/ppdc.cxx:259
 #, c-format
 msgid "ppdc: Unable to create output directory %s: %s"
-msgstr ""
+msgstr "ppdc：无法创建输出目录 %s：%s"
 
 #: ppdc/ppdc.cxx:280
 #, c-format
 msgid "ppdc: Unable to create output pipes: %s"
-msgstr ""
+msgstr "ppdc：无法创建输出管道：%s"
 
 #: ppdc/ppdc.cxx:296 ppdc/ppdc.cxx:302
 #, c-format
 msgid "ppdc: Unable to execute cupstestppd: %s"
-msgstr ""
+msgstr "ppdc：无法执行 cupstestppd：%s"
 
 #: ppdc/ppdc-source.cxx:1685
 #, c-format
 msgid "ppdc: Unable to find #po file %s on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中找不到 #po 文件 %1$s。"
 
 #: ppdc/ppdc-source.cxx:2605
 #, c-format
 msgid "ppdc: Unable to find include file \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中找不到引用的文件“%1$s”。"
 
 #: ppdc/ppdc.cxx:191
 #, c-format
 msgid "ppdc: Unable to find localization for \"%s\" - %s"
-msgstr ""
+msgstr "ppdc：无法为“%s”找到本地化文件 — %s"
 
 #: ppdc/ppdc.cxx:128
 #, c-format
 msgid "ppdc: Unable to load localization file \"%s\" - %s"
-msgstr ""
+msgstr "ppdc：无法载入本地化文件“%s” — %s"
 
 #: ppdc/ppdc-file.cxx:41
 #, c-format
 msgid "ppdc: Unable to open %s: %s"
-msgstr ""
+msgstr "ppdc：无法打开 %s：%s"
 
 #: ppdc/ppdc-source.cxx:2009
 #, c-format
 msgid "ppdc: Undefined variable (%s) on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中含有未定义的变量（%1$s）。"
 
 #: ppdc/ppdc-catalog.cxx:483
 #, c-format
 msgid "ppdc: Unexpected text on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %2$s 行中的第 %1$d 行中含有未预期的文本。"
 
 #: ppdc/ppdc-source.cxx:2878
 #, c-format
 msgid "ppdc: Unknown driver type %s on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中包含未知驱动类型 %1$s。"
 
 #: ppdc/ppdc-source.cxx:861
 #, c-format
 msgid "ppdc: Unknown duplex type \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中含有未知双工类型“%1$s”。"
 
 #: ppdc/ppdc-source.cxx:3108
 #, c-format
 msgid "ppdc: Unknown media size \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中包含未知媒体大小“%1$s”。"
 
 #: ppdc/ppdc-catalog.cxx:511
 #, c-format
 msgid "ppdc: Unknown message catalog format for \"%s\"."
-msgstr ""
+msgstr "ppdc：用于“%s”的消息文本目录格式未知。"
 
 #: ppdc/ppdc-source.cxx:3362
 #, c-format
 msgid "ppdc: Unknown token \"%s\" seen on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中找到未知令牌“%1$s”。"
 
 #: ppdc/ppdc-source.cxx:969
 #, c-format
 msgid ""
 "ppdc: Unknown trailing characters in real number \"%s\" on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中实数“%1$s”后找到未知尾随字符。"
 
 #: ppdc/ppdc-source.cxx:2119
 #, c-format
 msgid "ppdc: Unterminated string starting with %c on line %d of %s."
-msgstr ""
+msgstr "ppdc：共 %3$s 行中的第 %2$d 行中包含未终止的字符串，开头为 %1$c。"
 
 #: ppdc/ppdc.cxx:358
 #, c-format
 msgid "ppdc: Warning - overlapping filename \"%s\"."
-msgstr "ppdc：警告 - 重复的文件名“%s”。"
+msgstr "ppdc：警告 — 重复的文件名“%s”。"
 
 #: ppdc/ppdc.cxx:373
 #, c-format
@@ -8923,7 +8776,7 @@ msgstr "ppdmerge：正在忽略 PPD 文件 %s。"
 #: ppdc/ppdmerge.cxx:152
 #, c-format
 msgid "ppdmerge: Unable to backup %s to %s - %s"
-msgstr "ppdmerge：无法将 %s 备份至 %s - %s"
+msgstr "ppdmerge：无法将 %s 备份至 %s — %s"
 
 #: systemv/lpstat.c:1775
 #, c-format
@@ -8979,7 +8832,7 @@ msgstr "调度器正在运行"
 #: cups/adminutil.c:2207
 #, c-format
 msgid "stat of %s failed: %s"
-msgstr ""
+msgstr "为 %s 运行 stat 失败：%s"
 
 #: berkeley/lpc.c:201
 msgid "status\t\tShow status of daemon and queue."
