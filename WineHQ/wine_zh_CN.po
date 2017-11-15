@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2017-10-27 00:02-0500\n"
+"PO-Revision-Date: 2017-11-15 09:30-0600\n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
@@ -66,7 +66,7 @@ msgstr "技术支持信息"
 #: regedit.rc:307 regedit.rc:320 regedit.rc:336 regedit.rc:349 regedit.rc:362
 #: taskmgr.rc:442 taskmgr.rc:517 winecfg.rc:214 winecfg.rc:224
 #: wineconsole.rc:135 winefile.rc:128 winefile.rc:151 winefile.rc:181
-#: winemine.rc:71 winemine.rc:81 winemine.rc:95 wordpad.rc:215 wordpad.rc:226
+#: winemine.rc:73 winemine.rc:84 winemine.rc:98 wordpad.rc:215 wordpad.rc:226
 #: wordpad.rc:244 wordpad.rc:257
 msgid "OK"
 msgstr "确定"
@@ -145,7 +145,7 @@ msgstr "安装(&I)"
 #: progman.rc:200 progman.rc:217 regedit.rc:297 regedit.rc:308 regedit.rc:321
 #: regedit.rc:337 regedit.rc:350 regedit.rc:363 taskmgr.rc:443 taskmgr.rc:518
 #: wineboot.rc:34 winecfg.rc:215 winecfg.rc:225 wineconsole.rc:136
-#: winefile.rc:129 winefile.rc:152 winefile.rc:182 winemine.rc:96
+#: winefile.rc:129 winefile.rc:152 winefile.rc:182 winemine.rc:99
 #: wordpad.rc:216 wordpad.rc:227 wordpad.rc:245 wordpad.rc:258
 msgid "Cancel"
 msgstr "取消"
@@ -338,7 +338,7 @@ msgstr "重置(&e)"
 #: clock.rc:44 notepad.rc:60 notepad.rc:119 oleview.rc:72 progman.rc:55
 #: progman.rc:108 progman.rc:126 progman.rc:144 progman.rc:160 progman.rc:184
 #: progman.rc:202 progman.rc:219 regedit.rc:77 taskmgr.rc:87 winefile.rc:82
-#: winemine.rc:51 winhlp32.rc:57 wordpad.rc:102
+#: winemine.rc:53 winhlp32.rc:57 wordpad.rc:102
 msgid "&Help"
 msgstr "帮助(&H)"
 
@@ -8365,7 +8365,7 @@ msgid "&Rename"
 msgstr "重命名(&R)"
 
 #: shell32.rc:117 notepad.rc:39 oleview.rc:38 regedit.rc:41 view.rc:34
-#: winefile.rc:40 winemine.rc:49 winhlp32.rc:37 wordpad.rc:40
+#: winefile.rc:40 winemine.rc:51 winhlp32.rc:37 wordpad.rc:40
 msgid "E&xit"
 msgstr "退出(&X)"
 
@@ -9795,7 +9795,7 @@ msgstr "处理推举时发现循环"
 msgid "Referral hop limit exceeded"
 msgstr "超出推举跳跃限制"
 
-#: attrib.rc:30 cmd.rc:361
+#: attrib.rc:30 cmd.rc:373
 msgid ""
 "Not Yet Implemented\n"
 "\n"
@@ -9803,7 +9803,7 @@ msgstr ""
 "尚未实现\n"
 "\n"
 
-#: attrib.rc:31 cmd.rc:364
+#: attrib.rc:31 cmd.rc:376
 msgid "%1: File Not Found\n"
 msgstr "%1：找不到文件\n"
 
@@ -10374,13 +10374,37 @@ msgstr ""
 "CHOICE 显示文本并等待用户输入选单中对应某个选项的键。\n"
 "CHOICE 常用于在批处理文件中创建选项菜单。\n"
 
+#: cmd.rc:324
+msgid ""
+"Create a symbolic link.\n"
+"\n"
+"Syntax: MKLINK [options] link_name target\n"
+"\n"
+"Options:\n"
+"/d             Create a directory symbolic link.\n"
+"/h             Create a hard link.\n"
+"/j             Create a directory junction.\n"
+"link_name is the name of the new symbolic link.\n"
+"target is the path that link_name points to.\n"
+msgstr ""
+"创建符号链接\n"
+"\n"
+"语法：MKLINK [options] link_name target\n"
+"\n"
+"选项：\n"
+"/d\t\t创建目录符号链接。\n"
+"/h\t\t创建硬链接。\n"
+"/j\t\t创建目录结。\n"
+"link_nam 为符号链接的名称。\n"
+"target 为 link_name 指向的路径。\n"
+
 #: cmd.rc:312
 msgid ""
 "EXIT terminates the current command session and returns to the operating\n"
 "system or shell from which you invoked cmd.\n"
 msgstr "EXIT 结束当前命令会话并返回操作系统或者调用 CMD 的命令壳。\n"
 
-#: cmd.rc:351
+#: cmd.rc:364
 msgid ""
 "CMD built-in commands are:\n"
 "ASSOC\t\tShow or modify file extension associations\n"
@@ -10399,6 +10423,7 @@ msgid ""
 "FTYPE\t\tShow or modify open commands associated with file types\n"
 "HELP\t\tShow brief help details on a topic\n"
 "MD (MKDIR)\tCreate a subdirectory\n"
+"MKLINK\tCreate a symbolic link\n"
 "MORE\t\tDisplay output in pages\n"
 "MOVE\t\tMove a file, set of files or directory tree\n"
 "PATH\t\tSet or show the search path\n"
@@ -10438,6 +10463,7 @@ msgstr ""
 "FTYPE\t\t显示或更改文件类型关联的打开命令\n"
 "HELP\t\t显示某个主题的帮助信息概览\n"
 "MD (MKDIR)\t创建子目录\n"
+"MKLINK\t创建符号链接\n"
 "MORE\t\t分页显示输出\n"
 "MOVE\t\t移动一个或多个文件，或整个目录树\n"
 "PATH\t\t设置或显示命令搜索路径\n"
@@ -10458,114 +10484,114 @@ msgstr ""
 "XCOPY\t\t将源文件或目录树复制到目标位置\n"
 "EXIT\t\t退出 CMD\n"
 "\n"
-"输入 HELP <命令> 以获取更详细的，关于上述命令的信息。\n"
+"输入 HELP <命令> 以获取关于上述命令的详细信息。\n"
 
-#: cmd.rc:353
+#: cmd.rc:365
 msgid "Are you sure?"
 msgstr "确定吗？"
 
-#: cmd.rc:354 reg.rc:50 xcopy.rc:43
+#: cmd.rc:366 reg.rc:50 xcopy.rc:43
 msgctxt "Yes key"
 msgid "Y"
 msgstr "Y"
 
-#: cmd.rc:355 reg.rc:51 xcopy.rc:44
+#: cmd.rc:367 reg.rc:51 xcopy.rc:44
 msgctxt "No key"
 msgid "N"
 msgstr "N"
 
-#: cmd.rc:356
+#: cmd.rc:368
 msgid "File association missing for extension %1\n"
 msgstr "缺少扩展名 %1 的文件关联\n"
 
-#: cmd.rc:357
+#: cmd.rc:369
 msgid "No open command associated with file type '%1'\n"
 msgstr "没有与文件类型 \"%1\" 相关联的打开命令\n"
 
-#: cmd.rc:358
+#: cmd.rc:370
 msgid "Overwrite %1?"
 msgstr "覆盖 %1？"
 
-#: cmd.rc:359
+#: cmd.rc:371
 msgid "More..."
 msgstr "更多..."
 
-#: cmd.rc:360
+#: cmd.rc:372
 msgid "Line in Batch processing possibly truncated. Using:\n"
 msgstr "批处理中的行可能被截断。正在使用：\n"
 
-#: cmd.rc:362
+#: cmd.rc:374
 msgid "Argument missing\n"
 msgstr "缺少参数\n"
 
-#: cmd.rc:363
+#: cmd.rc:375
 msgid "Syntax error\n"
 msgstr "语法错误\n"
 
-#: cmd.rc:365
+#: cmd.rc:377
 msgid "No help available for %1\n"
 msgstr "%1 的帮助不可用\n"
 
-#: cmd.rc:366
+#: cmd.rc:378
 msgid "Target to GOTO not found\n"
 msgstr "未找到目标 GOTO\n"
 
-#: cmd.rc:367
+#: cmd.rc:379
 msgid "Current Date is %1\n"
 msgstr "当前日期是 %1\n"
 
-#: cmd.rc:368
+#: cmd.rc:380
 msgid "Current Time is %1\n"
 msgstr "当前时间是 %1\n"
 
-#: cmd.rc:369
+#: cmd.rc:381
 msgid "Enter new date: "
 msgstr "输入新的日期："
 
-#: cmd.rc:370
+#: cmd.rc:382
 msgid "Enter new time: "
 msgstr "输入新的时间："
 
-#: cmd.rc:371
+#: cmd.rc:383
 msgid "Environment variable %1 not defined\n"
 msgstr "环境变量 %1 未被定义\n"
 
-#: cmd.rc:372 xcopy.rc:41
+#: cmd.rc:384 xcopy.rc:41
 msgid "Failed to open '%1'\n"
 msgstr "无法打开 \"%1\"\n"
 
-#: cmd.rc:373
+#: cmd.rc:385
 msgid "Cannot call batch label outside of a batch script\n"
 msgstr "无法调用批处理脚本外的批处理标签\n"
 
-#: cmd.rc:374 xcopy.rc:45
+#: cmd.rc:386 xcopy.rc:45
 msgctxt "All key"
 msgid "A"
 msgstr "A"
 
-#: cmd.rc:375
+#: cmd.rc:387
 msgid "Delete %1?"
 msgstr "删除 %1？"
 
-#: cmd.rc:376
+#: cmd.rc:388
 msgid "Echo is %1\n"
 msgstr "Echo 处于 %1 状态\n"
 
-#: cmd.rc:377
+#: cmd.rc:389
 msgid "Verify is %1\n"
 msgstr "Verify 处于 %1 状态\n"
 
-#: cmd.rc:378
+#: cmd.rc:390
 msgid "Verify must be ON or OFF\n"
 msgstr ""
 "Verify 只能是开启 (ON) 或关闭 (OFF) 状态\n"
 " \n"
 
-#: cmd.rc:379
+#: cmd.rc:391
 msgid "Parameter error\n"
 msgstr "参数错误\n"
 
-#: cmd.rc:380
+#: cmd.rc:392
 msgid ""
 "Volume Serial Number is %1!04x!-%2!04x!\n"
 "\n"
@@ -10573,72 +10599,72 @@ msgstr ""
 "卷的序列号是 %1!04x!-%2!04x!\n"
 "\n"
 
-#: cmd.rc:381
+#: cmd.rc:393
 msgid "Volume label (11 characters, <Enter> for none)?"
 msgstr "卷标 (11 个字符, 直接按 <回车> 以留空)?"
 
-#: cmd.rc:382
+#: cmd.rc:394
 msgid "PATH not found\n"
 msgstr "没有找到 PATH\n"
 
-#: cmd.rc:383
+#: cmd.rc:395
 msgid "Press any key to continue... "
 msgstr "请按任意键继续..."
 
-#: cmd.rc:384
+#: cmd.rc:396
 msgid "Wine Command Prompt"
 msgstr "Wine 命令提示符"
 
-#: cmd.rc:385
+#: cmd.rc:397
 msgid "Microsoft Windows %1!S!\n"
 msgstr "Microsoft Windows %1!S!\n"
 
-#: cmd.rc:386
+#: cmd.rc:398
 msgid "More? "
 msgstr "更多?"
 
-#: cmd.rc:387
+#: cmd.rc:399
 msgid "The input line is too long.\n"
 msgstr "输入过长。\n"
 
-#: cmd.rc:388
+#: cmd.rc:400
 msgid "Volume in drive %1!c! is %2\n"
 msgstr "驱动器 %1!c! 的卷标为 %2\n"
 
-#: cmd.rc:389
+#: cmd.rc:401
 msgid "Volume in drive %1!c! has no label.\n"
 msgstr "驱动器 %1!c! 没有卷标。\n"
 
-#: cmd.rc:390 reg.rc:49
+#: cmd.rc:402 reg.rc:49
 msgid " (Yes|No)"
 msgstr " (是(Y)|否(N))"
 
-#: cmd.rc:391
+#: cmd.rc:403
 msgid " (Yes|No|All)"
 msgstr " (是(Y)|否(N)|全部(A))"
 
-#: cmd.rc:392
+#: cmd.rc:404
 msgid ""
 "Can't recognize '%1' as an internal or external command, or batch script.\n"
 msgstr "无法将 \"%1\" 识别为内部或外部命令，或者批处理脚本。\n"
 
-#: cmd.rc:393
+#: cmd.rc:405
 msgid "Division by zero error.\n"
 msgstr "被零除错误。\n"
 
-#: cmd.rc:394
+#: cmd.rc:406
 msgid "Expected an operand.\n"
 msgstr "期望一个操作数。\n"
 
-#: cmd.rc:395
+#: cmd.rc:407
 msgid "Expected an operator.\n"
 msgstr "期望一个操作符。\n"
 
-#: cmd.rc:396
+#: cmd.rc:408
 msgid "Mismatch in parentheses.\n"
 msgstr "括号不匹配。\n"
 
-#: cmd.rc:397
+#: cmd.rc:409
 msgid ""
 "Badly formed number - must be one of decimal (12),\n"
 " hexadecimal (0x34) or octal (056).\n"
@@ -14596,85 +14622,93 @@ msgstr "索引/Inode"
 msgid "%1 of %2 free"
 msgstr "%2 中剩余 %1"
 
-#: winemine.rc:37
+#: winemine.rc:39
 msgid "&Game"
 msgstr "游戏(&G)"
 
-#: winemine.rc:38
+#: winemine.rc:40
 msgid "&New\tF2"
 msgstr "新游戏(&N)\tF2"
 
-#: winemine.rc:40
+#: winemine.rc:42
 msgid "Question &Marks"
 msgstr "问号(&M)"
 
-#: winemine.rc:42
+#: winemine.rc:44
 msgid "&Beginner"
 msgstr "初学者(&B)"
 
-#: winemine.rc:43
+#: winemine.rc:45
 msgid "&Advanced"
 msgstr "高级(&A)"
 
-#: winemine.rc:44
+#: winemine.rc:46
 msgid "&Expert"
 msgstr "专家(&E)"
 
-#: winemine.rc:45
+#: winemine.rc:47
 msgid "&Custom..."
 msgstr "自定义(&C)..."
 
-#: winemine.rc:47
+#: winemine.rc:49
 msgid "&Fastest Times"
 msgstr "最快时间(&F)"
 
-#: winemine.rc:52
+#: winemine.rc:54
 msgid "&About WineMine"
 msgstr "关于 WineMine (&A)"
 
-#: winemine.rc:59
+#: winemine.rc:61
 msgid "Fastest Times"
 msgstr "最快时间"
 
-#: winemine.rc:61
+#: winemine.rc:63
 msgid "Fastest times"
 msgstr "最快时间"
 
-#: winemine.rc:62
+#: winemine.rc:64
 msgid "Beginner"
 msgstr "初学者"
 
-#: winemine.rc:63
+#: winemine.rc:65
 msgid "Advanced"
 msgstr "高级"
 
-#: winemine.rc:64
+#: winemine.rc:66
 msgid "Expert"
 msgstr "专家"
 
-#: winemine.rc:77
+#: winemine.rc:74 winemine.rc:33
+msgid "Reset Results"
+msgstr "重置结果"
+
+#: winemine.rc:80
 msgid "Congratulations!"
 msgstr "祝贺！"
 
-#: winemine.rc:79
+#: winemine.rc:82
 msgid "Please enter your name"
 msgstr "请输入你的名字"
 
-#: winemine.rc:87
+#: winemine.rc:90
 msgid "Custom Game"
 msgstr "自定义游戏"
 
-#: winemine.rc:89
+#: winemine.rc:92
 msgid "Rows"
 msgstr "行"
 
-#: winemine.rc:90
+#: winemine.rc:93
 msgid "Columns"
 msgstr "列"
 
-#: winemine.rc:91
+#: winemine.rc:94
 msgid "Mines"
 msgstr "地雷"
+
+#: winemine.rc:34
+msgid "All results will be lost. Are you sure?"
+msgstr "所有结果都将丢失。您确定吗？"
 
 #: winemine.rc:30
 msgid "WineMine"
