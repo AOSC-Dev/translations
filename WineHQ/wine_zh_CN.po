@@ -3,16 +3,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Wine\n"
-"Report-Msgid-Bugs-To: http://bugs.winehq.org\n"
+"Report-Msgid-Bugs-To: https://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2017-11-15 09:30-0600\n"
+"PO-Revision-Date: 2017-12-16 00:29-0600\n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.4\n"
+"X-Generator: Poedit 2.0.5\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: appwiz.rc:58
@@ -59,12 +59,12 @@ msgstr "技术支持信息"
 #: dinput.rc:46 ieframe.rc:96 localui.rc:44 localui.rc:57 mpr.rc:49
 #: msacm32.rc:53 mshtml.rc:47 mshtml.rc:57 msvfw32.rc:36 oledlg.rc:62
 #: oledlg.rc:94 serialui.rc:41 setupapi.rc:59 shell32.rc:276 shell32.rc:300
-#: shell32.rc:322 shell32.rc:341 shlwapi.rc:44 user32.rc:83 user32.rc:98
-#: wininet.rc:51 wininet.rc:71 winspool.rc:42 net.rc:47 notepad.rc:117
-#: oleview.rc:161 oleview.rc:174 progman.rc:106 progman.rc:124 progman.rc:142
-#: progman.rc:158 progman.rc:180 progman.rc:199 progman.rc:216 regedit.rc:296
-#: regedit.rc:307 regedit.rc:320 regedit.rc:336 regedit.rc:349 regedit.rc:362
-#: taskmgr.rc:442 taskmgr.rc:517 winecfg.rc:214 winecfg.rc:224
+#: shell32.rc:322 shell32.rc:341 shlwapi.rc:44 twain.rc:32 user32.rc:83
+#: user32.rc:98 wininet.rc:51 wininet.rc:71 winspool.rc:42 net.rc:47
+#: notepad.rc:117 oleview.rc:161 oleview.rc:174 progman.rc:106 progman.rc:124
+#: progman.rc:142 progman.rc:158 progman.rc:180 progman.rc:199 progman.rc:216
+#: regedit.rc:296 regedit.rc:307 regedit.rc:320 regedit.rc:336 regedit.rc:349
+#: regedit.rc:362 taskmgr.rc:442 taskmgr.rc:517 winecfg.rc:214 winecfg.rc:224
 #: wineconsole.rc:135 winefile.rc:128 winefile.rc:151 winefile.rc:181
 #: winemine.rc:73 winemine.rc:84 winemine.rc:98 wordpad.rc:215 wordpad.rc:226
 #: wordpad.rc:244 wordpad.rc:257
@@ -118,12 +118,13 @@ msgid ""
 "install it for you.\n"
 "\n"
 "Note: it is recommended to use your distribution's packages instead. See <a "
-"href=\"http://wiki.winehq.org/Gecko\">http://wiki.winehq.org/Gecko</a> for "
+"href=\"https://wiki.winehq.org/Gecko\">https://wiki.winehq.org/Gecko</a> for "
 "details."
 msgstr ""
-"Wine 未找到到用于支持嵌入 HTML 的 Gecko 引擎。Wine 可以自动并下载安装它。\n"
+"Wine 未找到到用于支持嵌入 HTML 的 Gecko 引擎。Wine 可以自动并下载安装该组"
+"件。\n"
 "\n"
-"注意: 推荐您安装为发行版定制的软件包。具体请参看 <a href=\"http://wiki."
+"注意: 推荐您安装为发行版定制的软件包。具体请参看 <a href=\"https://wiki."
 "winehq.org/Gecko\">http://wiki.winehq.org/Gecko</a>。"
 
 #: appwiz.rc:109 appwiz.rc:124
@@ -139,14 +140,14 @@ msgstr "安装(&I)"
 #: localui.rc:45 localui.rc:58 mpr.rc:50 msacm32.rc:54 mshtml.rc:48
 #: mshtml.rc:58 msvfw32.rc:37 oledlg.rc:63 oledlg.rc:95 serialui.rc:42
 #: setupapi.rc:42 setupapi.rc:60 shell32.rc:277 shell32.rc:301 shell32.rc:312
-#: shell32.rc:342 shlwapi.rc:45 user32.rc:84 user32.rc:99 wininet.rc:52
-#: wininet.rc:72 winspool.rc:43 notepad.rc:118 oleview.rc:162 oleview.rc:175
-#: progman.rc:107 progman.rc:125 progman.rc:143 progman.rc:159 progman.rc:181
-#: progman.rc:200 progman.rc:217 regedit.rc:297 regedit.rc:308 regedit.rc:321
-#: regedit.rc:337 regedit.rc:350 regedit.rc:363 taskmgr.rc:443 taskmgr.rc:518
-#: wineboot.rc:34 winecfg.rc:215 winecfg.rc:225 wineconsole.rc:136
-#: winefile.rc:129 winefile.rc:152 winefile.rc:182 winemine.rc:99
-#: wordpad.rc:216 wordpad.rc:227 wordpad.rc:245 wordpad.rc:258
+#: shell32.rc:342 shlwapi.rc:45 twain.rc:33 user32.rc:84 user32.rc:99
+#: wininet.rc:52 wininet.rc:72 winspool.rc:43 notepad.rc:118 oleview.rc:162
+#: oleview.rc:175 progman.rc:107 progman.rc:125 progman.rc:143 progman.rc:159
+#: progman.rc:181 progman.rc:200 progman.rc:217 regedit.rc:297 regedit.rc:308
+#: regedit.rc:321 regedit.rc:337 regedit.rc:350 regedit.rc:363 taskmgr.rc:443
+#: taskmgr.rc:518 wineboot.rc:34 winecfg.rc:215 winecfg.rc:225
+#: wineconsole.rc:136 winefile.rc:129 winefile.rc:152 winefile.rc:182
+#: winemine.rc:99 wordpad.rc:216 wordpad.rc:227 wordpad.rc:245 wordpad.rc:258
 msgid "Cancel"
 msgstr "取消"
 
@@ -156,16 +157,18 @@ msgstr "Wine Mono 安装器"
 
 #: appwiz.rc:118
 msgid ""
-"Wine could not find a Mono package which is needed for .NET applications to "
-"work correctly. Wine can automatically download and install it for you.\n"
+"Wine could not find a wine-mono package which is needed for .NET "
+"applications to work correctly. Wine can automatically download and install "
+"it for you.\n"
 "\n"
 "Note: it is recommended to use your distribution's packages instead. See <a "
-"href=\"http://wiki.winehq.org/Mono\">http://wiki.winehq.org/Mono</a> for "
+"href=\"https://wiki.winehq.org/Mono\">https://wiki.winehq.org/Mono</a> for "
 "details."
 msgstr ""
-"Wine 未找到到用于支持 .NET 应用的 Mono 组件。Wine 可以自动并下载安装它。\n"
+"Wine 未找到到用于支持 .NET 应用的 Mono 组件。Wine 可以自动并下载安装该组"
+"件。\n"
 "\n"
-"注意: 推荐您安装为发行版定制的软件包。具体请参看 <a href=\"http://wiki."
+"注意: 推荐您安装为发行版定制的软件包。具体请参看 <a href=\"https://wiki."
 "winehq.org/Mono\">http://wiki.winehq.org/Mono</a>。"
 
 #: appwiz.rc:31
@@ -8839,6 +8842,10 @@ msgctxt "time unit: seconds"
 msgid " sec"
 msgstr " 秒"
 
+#: twain.rc:29
+msgid "Select Source"
+msgstr "选择来源"
+
 #: urlmon.rc:32 wininet.rc:77
 msgid "Security Warning"
 msgstr "安全警告"
@@ -11805,7 +11812,7 @@ msgid ""
 "  REG [operation] [parameters]\n"
 "\n"
 "Supported operations:\n"
-"  ADD | DELETE | IMPORT | QUERY\n"
+"  ADD | DELETE | IMPORT | EXPORT | QUERY\n"
 "\n"
 "For help on a specific operation, type:\n"
 "  REG [operation] /?\n"
@@ -11815,7 +11822,7 @@ msgstr ""
 "  REG [操作] [参数]\n"
 "\n"
 "支持的操作：\n"
-"  ADD | DELETE | QUERY\n"
+"  ADD | DELETE | IMPORT | EXPORT | QUERY\n"
 "\n"
 "要获取指定操作的帮助，请输入：\n"
 "  REG [操作] /?\n"
@@ -11951,6 +11958,19 @@ msgstr "reg: 无法打开注册表键 '%1'。\n"
 #: reg.rc:69
 msgid "reg: Unrecognized escape sequence [\\%1!c!]\n"
 msgstr "reg: 无法识别的转义序列 [\\%1!c!]\n"
+
+#: reg.rc:70
+#| msgid "REG IMPORT file.reg\n"
+msgid "REG EXPORT key_name file.reg [/y]\n"
+msgstr "REG EXPORT key_name file.reg [/y]\n"
+
+#: reg.rc:71
+msgid "reg: Invalid system key [%1]\n"
+msgstr "regedit: 无效的系统键 [%1]\n"
+
+#: reg.rc:72
+msgid "The file '%1' already exists. Do you want to overwrite it?"
+msgstr "文件 '%1' 已存在。您想要覆盖它吗?"
 
 #: regedit.rc:34
 msgid "&Registry"
@@ -14372,10 +14392,10 @@ msgstr "程序 %s 遇到严重的问题需要关闭。我们对此造成的不�
 #: winedbg.rc:58
 msgid ""
 "This can be caused by a problem in the program or a deficiency in Wine. You "
-"may want to check the <a href=\"http://appdb.winehq.org\">Application "
+"may want to check the <a href=\"https://appdb.winehq.org\">Application "
 "Database</a> for tips about running this application."
 msgstr ""
-"这可能是由程序的问题或者 Wine 的缺陷造成的。你可能需要查看 <a href=\"http://"
+"这可能是由程序的问题或者 Wine 的缺陷造成的。你可能需要查看 <a href=\"https://"
 "appdb.winehq.org\">Application Databa</a> 来获取运行该应用的相关技巧。"
 
 #: winedbg.rc:61
@@ -14390,11 +14410,11 @@ msgstr "程序错误详情"
 msgid ""
 "If this problem is not present under Windows and has not been reported yet, "
 "you can save the detailed information to a file using the \"Save As\" "
-"button, then <a href=\"http://wiki.winehq.org/Bugs\">file a bug report</a> "
+"button, then <a href=\"https://wiki.winehq.org/Bugs\">file a bug report</a> "
 "and attach that file to the report."
 msgstr ""
 "若该问题在 Windows 不会出现并且未曾被报告过，您可以使用“另存为”按钮将详细信息"
-"保存为一个文件，然后<a href=\"http://wiki.winehq.org/Bugs\">新建一个错误报告"
+"保存为一个文件，然后<a href=\"https://wiki.winehq.org/Bugs\">新建一个错误报告"
 "</a>并且附带上该文件。"
 
 #: winedbg.rc:38
