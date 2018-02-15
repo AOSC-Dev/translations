@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.freedesktop.org/enter_bug.cgi?"
 "product=fontconfig\n"
 "POT-Creation-Date: 2018-02-14 21:06-0600\n"
-"PO-Revision-Date: 2018-02-15 15:48-0600\n"
+"PO-Revision-Date: 2018-02-15 16:00-0600\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,11 +26,14 @@ msgid ""
 "force] [--sysroot=SYSROOT] [--system-only] [--verbose] [--version] [--help] "
 "[dirs]\n"
 msgstr ""
+"用法：%s [-EfrsvVh] [-y SYSROOT] [--error-on-no-fonts] [--force|--really-"
+"force] [--sysroot=SYSROOT] [--system-only] [--verbose] [--version] [--help] "
+"[目录]\n"
 
 #: fc-cache/fc-cache.c:101
 #, c-format
 msgid "usage: %s [-EfrsvVh] [-y SYSROOT] [dirs]\n"
-msgstr ""
+msgstr "用法：%s [-EfrsvVh] [-y SYSROOT] [目录]\n"
 
 #: fc-cache/fc-cache.c:104
 #, c-format
@@ -38,167 +41,169 @@ msgid ""
 "Build font information caches in [dirs]\n"
 "(all directories in font configuration by default).\n"
 msgstr ""
+"在 [目录] 构建字体信息缓存\n"
+"（默认为所有字体配置中定义的目录）。\n"
 
 #: fc-cache/fc-cache.c:108
 #, c-format
 msgid "  -E, --error-on-no-fonts  raise an error if no fonts in a directory\n"
-msgstr ""
+msgstr "  -E, --error-on-no-fonts  在目录中无字体时报错\n"
 
 #: fc-cache/fc-cache.c:109
 #, c-format
 msgid ""
 "  -f, --force              scan directories with apparently valid caches\n"
-msgstr ""
+msgstr "  -f, --force              强制扫描带有有效缓存的目录\n"
 
 #: fc-cache/fc-cache.c:110
 #, c-format
 msgid "  -r, --really-force       erase all existing caches, then rescan\n"
-msgstr ""
+msgstr "  -r, --really-force       清空所有缓存并重新扫描\n"
 
 #: fc-cache/fc-cache.c:111
 #, c-format
 msgid "  -s, --system-only        scan system-wide directories only\n"
-msgstr ""
+msgstr "  -s, --system-only        仅扫描系统全局目录\n"
 
 #: fc-cache/fc-cache.c:112
 #, c-format
 msgid "  -y, --sysroot=SYSROOT    prepend SYSROOT to all paths for scanning\n"
-msgstr ""
+msgstr "  -y, --sysroot=SYSROOT    扫描时将 SYSROOT 值附加到路径开头\n"
 
 #: fc-cache/fc-cache.c:113
 #, c-format
 msgid "  -v, --verbose            display status information while busy\n"
-msgstr ""
+msgstr "  -v, --verbose            在程序工作时显示状态信息\n"
 
 #: fc-cache/fc-cache.c:114
 #, c-format
 msgid "  -V, --version            display font config version and exit\n"
-msgstr ""
+msgstr "  -V, --version            显示 Fontconfig 版本并退出\n"
 
 #: fc-cache/fc-cache.c:115
 #, c-format
 msgid "  -h, --help               display this help and exit\n"
-msgstr ""
+msgstr "  -h, --help               显示该帮助信息并退出\n"
 
 #: fc-cache/fc-cache.c:117
 #, c-format
 msgid "  -E         (error-on-no-fonts)\n"
-msgstr ""
+msgstr "  -E         （无字体时报错）\n"
 
 #: fc-cache/fc-cache.c:118
 #, c-format
 msgid "                       raise an error if no fonts in a directory\n"
-msgstr ""
+msgstr "                       在目录中无字体时报错\n"
 
 #: fc-cache/fc-cache.c:119
 #, c-format
 msgid "  -f         (force)   scan directories with apparently valid caches\n"
-msgstr ""
+msgstr "  -f         （强制）   强制扫描带有有效缓存的目录\n"
 
 #: fc-cache/fc-cache.c:120
 #, c-format
 msgid "  -r,   (really force) erase all existing caches, then rescan\n"
-msgstr ""
+msgstr "  -r,   （严格强制）清空所有缓存并重新扫描\n"
 
 #: fc-cache/fc-cache.c:121
 #, c-format
 msgid "  -s         (system)  scan system-wide directories only\n"
-msgstr ""
+msgstr "  -s         （系统）  仅扫描系统全局目录\n"
 
 #: fc-cache/fc-cache.c:122
 #, c-format
 msgid "  -y SYSROOT (sysroot) prepend SYSROOT to all paths for scanning\n"
-msgstr ""
+msgstr "  -y SYSROOT （系统根）扫描时将 SYSROOT 值附加到路径开头\n"
 
 #: fc-cache/fc-cache.c:123
 #, c-format
 msgid "  -v         (verbose) display status information while busy\n"
-msgstr ""
+msgstr "  -v         （详尽）在程序工作时显示状态信息\n"
 
 #: fc-cache/fc-cache.c:124 fc-cat/fc-cat.c:178 fc-list/fc-list.c:99
 #: fc-match/fc-match.c:103 fc-pattern/fc-pattern.c:97
 #, c-format
 msgid "  -V         (version) display font config version and exit\n"
-msgstr ""
+msgstr "  -V         （版本）显示 Fontconfig 版本并退出\n"
 
 #: fc-cache/fc-cache.c:125 fc-cat/fc-cat.c:179 fc-list/fc-list.c:100
 #: fc-match/fc-match.c:104 fc-pattern/fc-pattern.c:98
 #, c-format
 msgid "  -h         (help)    display this help and exit\n"
-msgstr ""
+msgstr "  -h         （帮助）    显示该帮助信息并退出\n"
 
 #: fc-cache/fc-cache.c:162
 #, c-format
 msgid "skipping, looped directory detected\n"
-msgstr ""
+msgstr "跳过此条目，探测到循环目录\n"
 
 #: fc-cache/fc-cache.c:172
 #, c-format
 msgid "skipping, no such directory\n"
-msgstr ""
+msgstr "跳过此条目，无此目录\n"
 
 #: fc-cache/fc-cache.c:185
 #, c-format
 msgid "\"%s\": not a directory, skipping\n"
-msgstr ""
+msgstr "“%s”：不是一个目录，跳过此条目\n"
 
 #: fc-cache/fc-cache.c:210
 #, c-format
 msgid "\"%s\": scanning error\n"
-msgstr ""
+msgstr "“%s”：扫描错误\n"
 
 #: fc-cache/fc-cache.c:219
 #, c-format
 msgid "skipping, existing cache is valid: %d fonts, %d dirs\n"
-msgstr ""
+msgstr "跳过此条目，当前缓存有效：%d 个字体，%d 个目录\n"
 
 #: fc-cache/fc-cache.c:225
 #, c-format
 msgid "caching, new cache contents: %d fonts, %d dirs\n"
-msgstr ""
+msgstr "正在生成缓存，新缓存内容：%d 个字体，%d 个目录\n"
 
 #: fc-cache/fc-cache.c:230
 #, c-format
 msgid "%s: failed to write cache\n"
-msgstr ""
+msgstr "%s：无法写入缓存\n"
 
 #: fc-cache/fc-cache.c:239
 #, c-format
 msgid "%s: Can't create subdir set\n"
-msgstr ""
+msgstr "%s：无法创建子目录集\n"
 
 #: fc-cache/fc-cache.c:253
 #, c-format
 msgid "%s: Can't create subdir list\n"
-msgstr ""
+msgstr "%s：无法创建子目录列表\n"
 
 #: fc-cache/fc-cache.c:359 fc-cat/fc-cat.c:305
 #, c-format
 msgid "%s: Can't initialize font config library\n"
-msgstr ""
+msgstr "%s：无法初始化 Fontconfig 库\n"
 
 #: fc-cache/fc-cache.c:369
 #, c-format
 msgid "%s: Can't create list of directories\n"
-msgstr ""
+msgstr "%s：无法创建目录列表\n"
 
 #: fc-cache/fc-cache.c:377
 #, c-format
 msgid "%s: Can't add directory\n"
-msgstr ""
+msgstr "%s：无法添加目录\n"
 
 #: fc-cache/fc-cache.c:389
 #, c-format
 msgid "Out of Memory\n"
-msgstr ""
+msgstr "内存耗尽\n"
 
 #: fc-cache/fc-cache.c:421
 msgid "failed"
-msgstr ""
+msgstr "缓存生成失败"
 
 #: fc-cache/fc-cache.c:421
 msgid "succeeded"
-msgstr ""
+msgstr "缓存生成成功"
 
 #: fc-cat/fc-cat.c:159
 #, c-format
