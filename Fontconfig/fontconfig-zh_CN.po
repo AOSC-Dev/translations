@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.freedesktop.org/enter_bug.cgi?"
 "product=fontconfig\n"
 "POT-Creation-Date: 2018-02-14 21:06-0600\n"
-"PO-Revision-Date: 2018-02-16 01:41-0600\n"
+"PO-Revision-Date: 2018-02-16 13:04-0600\n"
 "Language-Team: AOSC\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,14 +30,14 @@ msgid ""
 "force] [--sysroot=SYSROOT] [--system-only] [--verbose] [--version] [--help] "
 "[dirs]\n"
 msgstr ""
-"用法：%s [-EfrsvVh] [-y <系统根>] [--error-on-no-fonts] [--force|--really-"
-"force] [--sysroot=<系统根>] [--system-only] [--verbose] [--version] [--"
-"help] [目录]\n"
+"用法：%s [-EfrsvVh] [-y 系统根] [--error-on-no-fonts] [--force|--really-"
+"force] [--sysroot=系统根] [--system-only] [--verbose] [--version] [--help] "
+"[目录]\n"
 
 #: fc-cache/fc-cache.c:101
 #, c-format
 msgid "usage: %s [-EfrsvVh] [-y SYSROOT] [dirs]\n"
-msgstr "用法：%s [-EfrsvVh] [-y <系统根>] [目录]\n"
+msgstr "用法：%s [-EfrsvVh] [-y 系统根] [目录]\n"
 
 #: fc-cache/fc-cache.c:104
 #, c-format
@@ -72,7 +72,7 @@ msgstr "  -s, --system-only        仅扫描系统全局目录\n"
 #: fc-cache/fc-cache.c:112
 #, c-format
 msgid "  -y, --sysroot=SYSROOT    prepend SYSROOT to all paths for scanning\n"
-msgstr "  -y, --sysroot=<系统根>    扫描时将 <系统根> 值附加到路径开头\n"
+msgstr "  -y, --sysroot=系统根    扫描时将 <系统根> 值附加到路径开头\n"
 
 #: fc-cache/fc-cache.c:113
 #, c-format
@@ -117,7 +117,7 @@ msgstr "  -s         (system)  仅扫描系统全局目录\n"
 #: fc-cache/fc-cache.c:122
 #, c-format
 msgid "  -y SYSROOT (sysroot) prepend SYSROOT to all paths for scanning\n"
-msgstr "  -y <系统根> (sysroot) 扫描时将 <系统根> 值附加到路径开头\n"
+msgstr "  -y 系统根 (sysroot) 扫描时将 <系统根> 值附加到路径开头\n"
 
 #: fc-cache/fc-cache.c:123
 #, c-format
@@ -316,13 +316,13 @@ msgid ""
 "usage: %s [-vbqVh] [-f FORMAT] [--verbose] [--brief] [--format=FORMAT] [--"
 "quiet] [--version] [--help] [pattern] {element ...} \n"
 msgstr ""
-"用法：%s [-vbqVh] [-f <输出格式>] [--verbose] [--brief] [--format=<输出格式"
-">] [--quiet] [--version] [--help] [匹配模式] {元素 …} \n"
+"用法：%s [-vbqVh] [-f 格式] [--verbose] [--brief] [--format=格式] [--quiet] "
+"[--version] [--help] [匹配模式] {元素 …} \n"
 
 #: fc-list/fc-list.c:82
 #, c-format
 msgid "usage: %s [-vbqVh] [-f FORMAT] [pattern] {element ...} \n"
-msgstr "用法：%s [-vbqVh] [-f <输出格式>] [匹配模式] {元素 …} \n"
+msgstr "用法：%s [-vbqVh] [-f 格式] [匹配模式] {元素 …} \n"
 
 #: fc-list/fc-list.c:85
 #, c-format
@@ -343,7 +343,7 @@ msgstr "  -b, --brief          简略显示整个字体匹配模式\n"
 #: fc-query/fc-query.c:93 fc-scan/fc-scan.c:91
 #, c-format
 msgid "  -f, --format=FORMAT  use the given output format\n"
-msgstr "  -f, --format=<输出格式>  使用指定的输出格式\n"
+msgstr "  -f, --format=格式  使用指定的输出格式\n"
 
 #: fc-list/fc-list.c:91
 #, c-format
@@ -365,7 +365,7 @@ msgstr "  -b         (brief)   简略显示整个字体匹配模式\n"
 #: fc-list/fc-list.c:97 fc-match/fc-match.c:102 fc-pattern/fc-pattern.c:96
 #, c-format
 msgid "  -f FORMAT  (format)  use the given output format\n"
-msgstr "  -f <输出格式>  (format)  使用指定的输出格式\n"
+msgstr "  -f 格式  (format)  使用指定的输出格式\n"
 
 #: fc-list/fc-list.c:98
 #, c-format
@@ -385,13 +385,13 @@ msgid ""
 "usage: %s [-savbVh] [-f FORMAT] [--sort] [--all] [--verbose] [--brief] [--"
 "format=FORMAT] [--version] [--help] [pattern] {element...}\n"
 msgstr ""
-"用法：%s [-savbVh] [-f <输出格式>] [--sort] [--all] [--verbose] [--brief] "
-"[--format=<输出格式>] [--version] [--help] [匹配模式] {元素…}\n"
+"用法：%s [-savbVh] [-f 格式] [--sort] [--all] [--verbose] [--brief] [--"
+"format=格式] [--version] [--help] [匹配模式] {元素…}\n"
 
 #: fc-match/fc-match.c:84
 #, c-format
 msgid "usage: %s [-savVh] [-f FORMAT] [pattern] {element...}\n"
-msgstr "用法：%s [-savVh] [-f <输出格式>] [匹配模式] {元素…}\n"
+msgstr "用法：%s [-savVh] [-f 格式] [匹配模式] {元素…}\n"
 
 #: fc-match/fc-match.c:87 fc-pattern/fc-pattern.c:85
 #, c-format
@@ -429,13 +429,13 @@ msgid ""
 "usage: %s [-cdVh] [-f FORMAT] [--config] [--default] [--verbose] [--"
 "format=FORMAT] [--version] [--help] [pattern] {element...}\n"
 msgstr ""
-"用法：%s [-cdVh] [-f <输出格式>] [--config] [--default] [--verbose] [--"
-"format=<输出格式>] [--version] [--help] [匹配模式] {元素…}\n"
+"用法：%s [-cdVh] [-f 格式] [--config] [--default] [--verbose] [--format=格"
+"式] [--version] [--help] [匹配模式] {元素…}\n"
 
 #: fc-pattern/fc-pattern.c:82
 #, c-format
 msgid "usage: %s [-cdVh] [-f FORMAT] [pattern] {element...}\n"
-msgstr "用法：%s [-cdVh] [-f <输出格式>] [匹配模式] {元素…}\n"
+msgstr "用法：%s [-cdVh] [-f 格式] [匹配模式] {元素…}\n"
 
 #: fc-pattern/fc-pattern.c:88
 #, c-format
@@ -463,13 +463,13 @@ msgid ""
 "usage: %s [-bVh] [-i index] [-f FORMAT] [--index index] [--brief] [--format "
 "FORMAT] [--version] [--help] font-file...\n"
 msgstr ""
-"用法：%s [-bVh] [-i index] [-f <输出格式>] [--index index] [--brief] [--"
-"format <输出格式>] [--version] [--help] 字体文件…\n"
+"用法：%s [-bVh] [-i index] [-f 格式] [--index index] [--brief] [--format 格"
+"式] [--version] [--help] 字体文件…\n"
 
 #: fc-query/fc-query.c:85
 #, c-format
 msgid "usage: %s [-bVh] [-i index] [-f FORMAT] font-file...\n"
-msgstr "用法：%s [-bVh] [-i index] [-f <输出格式>] 字体文件…\n"
+msgstr "用法：%s [-bVh] [-i index] [-f 格式] 字体文件…\n"
 
 #: fc-query/fc-query.c:88
 #, c-format
@@ -481,7 +481,7 @@ msgstr ""
 #: fc-query/fc-query.c:91 fc-validate/fc-validate.c:92
 #, c-format
 msgid "  -i, --index INDEX    display the INDEX face of each font file only\n"
-msgstr "  -i, --index <编号>    仅显示每个字体文件的 <编号> 样式\n"
+msgstr "  -i, --index 编号    仅显示每个字体文件的 <编号> 样式\n"
 
 #: fc-query/fc-query.c:92 fc-scan/fc-scan.c:90
 #, c-format
@@ -492,7 +492,7 @@ msgstr "  -b, --brief          简略显示字体匹配模式\n"
 #, c-format
 msgid ""
 "  -i INDEX   (index)         display the INDEX face of each font file only\n"
-msgstr "  -i <编号>   (index)         仅显示每个字体文件的 <编号> 样式\n"
+msgstr "  -i 编号   (index)         仅显示每个字体文件的 <编号> 样式\n"
 
 #: fc-query/fc-query.c:98 fc-scan/fc-scan.c:95
 #, c-format
@@ -502,7 +502,7 @@ msgstr "  -b         (brief)         简略显示字体匹配模式\n"
 #: fc-query/fc-query.c:99 fc-scan/fc-scan.c:96
 #, c-format
 msgid "  -f FORMAT  (format)        use the given output format\n"
-msgstr "  -f <输出格式>  (format)        使用指定的输出格式\n"
+msgstr "  -f 格式  (format)        使用指定的输出格式\n"
 
 #: fc-query/fc-query.c:100 fc-scan/fc-scan.c:97
 #, c-format
@@ -525,13 +525,13 @@ msgid ""
 "usage: %s [-bVh] [-f FORMAT] [--brief] [--format FORMAT] [--version] [--"
 "help] font-file...\n"
 msgstr ""
-"用法：%s [-bVh] [-f <输出格式>] [--brief] [--format <输出格式>] [--version] "
-"[--help] 字体文件…\n"
+"用法：%s [-bVh] [-f 格式] [--brief] [--format 格式] [--version] [--help] 字"
+"体文件…\n"
 
 #: fc-scan/fc-scan.c:84
 #, c-format
 msgid "usage: %s [-bVh] [-f FORMAT] font-file...\n"
-msgstr "用法：%s [-bVh] [-f <输出格式>] 字体文件…\n"
+msgstr "用法：%s [-bVh] [-f 格式] 字体文件…\n"
 
 #: fc-scan/fc-scan.c:87
 #, c-format
@@ -571,7 +571,7 @@ msgstr "  -v, --verbose        显示详尽信息\n"
 #, c-format
 msgid ""
 "  -i INDEX   (index)        display the INDEX face of each font file only\n"
-msgstr "  -i <编号>   (index)        仅显示每个字体的 <编号> 字形\n"
+msgstr "  -i 编号   (index)        仅显示每个字体的 <编号> 样式\n"
 
 #: fc-validate/fc-validate.c:99
 #, c-format
