@@ -6,7 +6,7 @@ use Chinese (more specifically `zh_CN`), it's generally a good idea to throw
 Chinese translations to us. All the communication work to upstream will be done
 by us.
 
-![Workflow](https://cdn.rawgit.com/AOSC-Dev/translations/master/workflow.svg)
+![Workflow](workflow.svg)
 
 You may want to check the commit history of translations so you don't mess up
 with someone else doing the same work as yours. [magtac](http://git.io/vZFnd)
