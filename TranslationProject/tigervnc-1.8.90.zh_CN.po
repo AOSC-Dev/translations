@@ -9,20 +9,20 @@ msgstr ""
 "Project-Id-Version: tigervnc 1.5.90\n"
 "Report-Msgid-Bugs-To: tigervnc-devel@googlegroups.com\n"
 "POT-Creation-Date: 2018-06-13 14:22+0000\n"
-"PO-Revision-Date: 2016-04-27 20:52-0400\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2018-10-23 22:02-0600\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: vncviewer/CConn.cxx:116
-#, fuzzy, c-format
+#, c-format
 msgid "connected to socket %s"
-msgstr "已连接到主机 %s 的端口 %d"
+msgstr "已连接到套接字 %s"
 
 #: vncviewer/CConn.cxx:123
 #, c-format
@@ -269,9 +269,8 @@ msgid "Send clipboard to server"
 msgstr "发送剪切板内容到服务器"
 
 #: vncviewer/OptionsDialog.cxx:725
-#, fuzzy
 msgid "Send primary selection as clipboard"
-msgstr "将首个选择及剪切缓存作为剪切板内容发送"
+msgstr "将首个选择作为剪切板内容发送"
 
 #: vncviewer/OptionsDialog.cxx:732
 msgid "Pass system keys directly to server (full screen)"
@@ -343,20 +342,20 @@ msgstr "连接"
 
 #: vncviewer/ServerDialog.cxx:137 vncviewer/ServerDialog.cxx:171
 msgid "TigerVNC configuration (*.tigervnc)"
-msgstr ""
+msgstr "TigerVNC 配置文件 (*.tigervnc)"
 
 #: vncviewer/ServerDialog.cxx:138
 msgid "Select a TigerVNC configuration file"
-msgstr ""
+msgstr "选择 TigerVNC 配置文件"
 
 #: vncviewer/ServerDialog.cxx:172
 msgid "Save the TigerVNC configuration to file"
-msgstr ""
+msgstr "保存 TigerVNC 配置到文件"
 
 #: vncviewer/ServerDialog.cxx:197
 #, c-format
 msgid "%s already exists. Do you want to overwrite?"
-msgstr ""
+msgstr "%s 已存在。你要覆盖此文件么？"
 
 #: vncviewer/ServerDialog.cxx:198 vncviewer/vncviewer.cxx:279
 msgid "No"
@@ -364,7 +363,7 @@ msgstr "否"
 
 #: vncviewer/ServerDialog.cxx:198
 msgid "Overwrite"
-msgstr ""
+msgstr "覆盖"
 
 #: vncviewer/UserDialog.cxx:85
 msgid "Opening password file failed"
@@ -376,12 +375,11 @@ msgstr "VNC 认证"
 
 #: vncviewer/UserDialog.cxx:112
 msgid "This connection is secure"
-msgstr ""
+msgstr "此连接是安全的"
 
 #: vncviewer/UserDialog.cxx:116
-#, fuzzy
 msgid "This connection is not secure"
-msgstr "VNC 连接信息"
+msgstr "此连接不安全"
 
 #: vncviewer/UserDialog.cxx:133
 msgid "Username:"
@@ -398,22 +396,22 @@ msgstr "认证已取消"
 #: vncviewer/Viewport.cxx:377
 #, c-format
 msgid "Failed to update keyboard LED state: %lu"
-msgstr ""
+msgstr "无法更新键盘 LED 状态：%lu"
 
 #: vncviewer/Viewport.cxx:383 vncviewer/Viewport.cxx:389
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to update keyboard LED state: %d"
-msgstr "打开注册键值失败：%ld"
+msgstr "无法更新键盘 LED 状态：%d"
 
 #: vncviewer/Viewport.cxx:419
 msgid "Failed to update keyboard LED state"
-msgstr ""
+msgstr "无法更新键盘 LED 状态"
 
 #: vncviewer/Viewport.cxx:446 vncviewer/Viewport.cxx:454
 #: vncviewer/Viewport.cxx:471
-#, fuzzy, c-format
+#, c-format
 msgid "Failed to get keyboard LED state: %d"
-msgstr "打开注册键值失败：%ld"
+msgstr "无法获取键盘 LED 状态：%d"
 
 #: vncviewer/Viewport.cxx:817
 msgid "No key code specified on key press"
@@ -623,7 +621,7 @@ msgid "Unknown parameter %s on line %d in file %s"
 msgstr "未知参数 %1$s 于文件 %3$s 的第 %2$d 行"
 
 #: vncviewer/vncviewer.cxx:100
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "TigerVNC Viewer %d-bit v%s\n"
 "Built on: %s\n"
@@ -632,7 +630,7 @@ msgid ""
 msgstr ""
 "TigerVNC 查看器 %d 位 v%s\n"
 "构建于：%s\n"
-"版权所有 1999-%d TigerVNC 团队及众多开发者（参见 README.txt）\n"
+"版权所有 1999-%d TigerVNC 团队及众多开发者（参见 README.rst）\n"
 "访问 http://www.tigervnc.org 以获取更多关于 TigerVNC 的信息。"
 
 #: vncviewer/vncviewer.cxx:127
@@ -721,15 +719,15 @@ msgstr "正在监听端口 %d"
 
 #: vncviewer/vncviewer.desktop.in.in:4
 msgid "Remote Desktop Viewer"
-msgstr ""
+msgstr "远程桌面查看器"
 
 #: vncviewer/vncviewer.desktop.in.in:5
 msgid "Connect to VNC server and display remote desktop"
-msgstr ""
+msgstr "连接到 VNC 服务器并显示远程桌面"
 
 #: vncviewer/vncviewer.desktop.in.in:7
 msgid "tigervnc"
-msgstr ""
+msgstr "tigervnc"
 
 #~ msgid "Not enough memory for framebuffer"
 #~ msgstr "帧缓冲内存不足"

@@ -9,14 +9,14 @@ msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-09 23:29+0100\n"
-"PO-Revision-Date: 2015-11-13 20:29-0500\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2018-10-23 21:56-0600\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.6\n"
+"X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: wcd.c:171
@@ -47,7 +47,7 @@ msgstr "无法关闭文件 %s：%s\n"
 #: wcd.c:395 wcd.c:400 wfixpath.c:65
 #, c-format
 msgid "Memory allocation error in %s: %s\n"
-msgstr ""
+msgstr "%s 中发生了内存分配错误：%s\n"
 
 #: wcd.c:707 wcd.c:721
 #, c-format
@@ -103,13 +103,13 @@ msgid "Removed directory %s\n"
 msgstr "已删除目录 %s\n"
 
 #: wcd.c:1113 wcd.c:1182 wcd.c:1250
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "line too long in %s ( > %d). The treefile could be corrupt, else fix by "
 "increasing WCD_MAXPATH in source code.\n"
 msgstr ""
 "%s 中行太长 ( > %d)。目录树文件可能已损坏，如情况并非如此，请于源代码增加 "
-"DD_MAXPATH 赋值以修复此问题。\n"
+"WCD_MAXPATH 的值以修复此问题。\n"
 
 #: wcd.c:1114 wcd.c:1183 wcd.c:1251
 #, c-format
@@ -642,7 +642,7 @@ msgid "Download the latest executables and sources from:\n"
 msgstr "可从此处下载到最新的可执行文件及源代码：\n"
 
 #: wcd.c:2131
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Copyright (C) 1996-%d Erwin Waterlander\n"
 "Copyright (C) 1994-2002 Ondrej Popp on C3PO\n"
@@ -653,7 +653,7 @@ msgid ""
 "Copyright (C) 1990-1992 Mark Adler, Richard B. Wales, Jean-loup Gailly,\n"
 "Kai Uwe Rommel and Igor Mandrichenko on recmatch()\n"
 msgstr ""
-"Copyright (C) 1997-2014 Erwin Waterlander\n"
+"Copyright (C) 1996-%d Erwin Waterlander\n"
 "Copyright (C) 1994-2002 Ondrej Popp 贡献 C3PO 支持\n"
 "Copyright (C) 1995-1996 DJ Delorie 贡献 _fixpath() 支持\n"
 "Copyright (C) 1995-1996 Borja Etxebarria 及 Olivier Sirol 贡献 Ninux Czo "
@@ -1196,7 +1196,7 @@ msgstr "屏幕高度必须大于 21 字符才能显示帮助信息。"
 #: graphics.c:2262 graphics.c:2731
 #, c-format
 msgid "Cannot find the current path %s in the directory tree.\n"
-msgstr ""
+msgstr "无法在目录树中找到当前目录 %s。\n"
 
 #: finddirs.c:241 finddirs.c:249 finddirs.c:273 finddirs.c:300 finddirs.c:314
 #, c-format
@@ -1204,9 +1204,9 @@ msgid "Unable to remove file %s: %s\n"
 msgstr "无法移除文件 %s：%s\n"
 
 #: finddirs.c:322 finddirs.c:486
-#, fuzzy, c-format
+#, c-format
 msgid "Unable to close directory %s: %s\n"
-msgstr "无法创建目录 %s：%s\n"
+msgstr "无法关闭目录 %s：%s\n"
 
 #: finddirs.c:365
 #, c-format
