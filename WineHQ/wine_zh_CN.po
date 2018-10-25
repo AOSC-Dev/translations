@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: https://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2018-10-24 11:25-0500\n"
+"PO-Revision-Date: 2018-10-25 11:43-0500\n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.xyz>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
@@ -296,11 +296,11 @@ msgstr "正在取消..."
 
 #: browseui.rc:29
 msgid "%1!u! %2 remaining"
-msgstr ""
+msgstr "剩余 %1!u! %2"
 
 #: browseui.rc:30
 msgid "%1!u! %2 and %3!u! %4 remaining"
-msgstr ""
+msgstr "剩余 %1!u! %2 %3!u! %4"
 
 #: browseui.rc:31
 msgid "seconds"
