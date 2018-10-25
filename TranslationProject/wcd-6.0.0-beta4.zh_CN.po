@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-02-09 23:29+0100\n"
-"PO-Revision-Date: 2018-10-23 21:56-0600\n"
-"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2018-10-25 12:43-0600\n"
+"Last-Translator: Zixing Liu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr " 长度：%d\n"
 
 #: wcd.c:1758 wcd.c:1827
 msgid "Alias file in UTF-16 format is not supported.\n"
-msgstr ""
+msgstr "不支持 UTF-16 格式的别名文件。\n"
 
 #: wcd.c:1924
 #, c-format
@@ -287,9 +287,9 @@ msgid "  -l ALIAS                aLias current directory\n"
 msgstr "  -l 别名                  为当前目录指定 <别名>\n"
 
 #: wcd.c:1960
-#, fuzzy, c-format
+#, c-format
 msgid "  -ls                     List the aliases\n"
-msgstr "  -g                      图像输出\n"
+msgstr "  -ls                     列出别名\n"
 
 #: wcd.c:1961
 #, c-format
@@ -737,9 +737,9 @@ msgid "Environment variable HOME or WCDHOME is not set.\n"
 msgstr "未设置环境变量 HOME 及 WCDHOME。\n"
 
 #: wcd.c:2821
-#, fuzzy, c-format
+#, c-format
 msgid "aliasfile: %s\n"
-msgstr "%s 已添加到别名文件 %s\n"
+msgstr "别名文件：%s\n"
 
 #: wcd.c:2835
 msgid "HOME is not defined\n"

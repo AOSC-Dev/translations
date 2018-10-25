@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: guix 0.9.1\n"
 "Report-Msgid-Bugs-To: ludo@gnu.org\n"
 "POT-Creation-Date: 2018-06-22 14:08+0200\n"
-"PO-Revision-Date: 2016-04-27 20:31-0400\n"
-"Last-Translator: Mingye Wang (Arthur2e5) <arthur200126@gmail.com>\n"
+"PO-Revision-Date: 2018-10-25 11:38-0600\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 2.2\n"
 
 #: gnu.scm:82
 #, fuzzy, scheme-format
@@ -146,8 +146,7 @@ msgstr ""
 #: gnu/services.scm:620
 msgid ""
 "Make ``firmware'' files loadable by the operating system\n"
-"kernel.  Firmware may then be uploaded to some of the machine's devices, "
-"such\n"
+"kernel.  Firmware may then be uploaded to some of the machine's devices, such\n"
 "as Wifi cards."
 msgstr ""
 
@@ -184,14 +183,13 @@ msgstr ""
 
 #: gnu/system.scm:747
 #, scheme-format
-msgid ""
-"using a monadic value for '~a' is deprecated; use 'plain-file' instead~%"
+msgid "using a monadic value for '~a' is deprecated; use 'plain-file' instead~%"
 msgstr ""
 
 #: gnu/system.scm:892
 #, fuzzy, scheme-format
 msgid "~a: invalid locale name"
-msgstr "~a: 无效的数字~%"
+msgstr "~a: 无效的地区格式"
 
 #: gnu/services/shepherd.scm:175
 #, scheme-format
@@ -212,8 +210,7 @@ msgstr ""
 #, scheme-format
 msgid ""
 "Try adding them to the\n"
-"@code{initrd-modules} field of your @code{operating-system} declaration, "
-"along\n"
+"@code{initrd-modules} field of your @code{operating-system} declaration, along\n"
 "these lines:\n"
 "\n"
 "@example\n"
@@ -244,9 +241,8 @@ msgstr ""
 msgid "invalid argument: ~a~%"
 msgstr "无效参数: ~a~%"
 
-#: guix/scripts.scm:84 guix/scripts/download.scm:135
-#: guix/scripts/import/cran.scm:82 guix/scripts/import/elpa.scm:85
-#: guix/scripts/publish.scm:881 guix/scripts/edit.scm:81
+#: guix/scripts.scm:84 guix/scripts/download.scm:135 guix/scripts/import/cran.scm:82
+#: guix/scripts/import/elpa.scm:85 guix/scripts/publish.scm:881 guix/scripts/edit.scm:81
 #, scheme-format
 msgid "~A: unrecognized option~%"
 msgstr "~A: 无法识别的选项~%"
@@ -433,8 +429,7 @@ msgstr ""
 #: guix/scripts/build.scm:509
 msgid ""
 "\n"
-"  -f, --file=FILE        build the package or derivation that the code "
-"within\n"
+"  -f, --file=FILE        build the package or derivation that the code within\n"
 "                         FILE evaluates to"
 msgstr ""
 
@@ -447,8 +442,7 @@ msgstr ""
 #: guix/scripts/build.scm:514
 msgid ""
 "\n"
-"      --sources[=TYPE]   build source derivations; TYPE may optionally be "
-"one\n"
+"      --sources[=TYPE]   build source derivations; TYPE may optionally be one\n"
 "                         of \"package\", \"all\" (default), or \"transitive\""
 msgstr ""
 
@@ -506,16 +500,13 @@ msgid ""
 "      --log-file         return the log file names for the given derivations"
 msgstr ""
 
-#: guix/scripts/build.scm:539 guix/scripts/download.scm:83
-#: guix/scripts/package.scm:395 guix/scripts/gc.scm:76 guix/scripts/hash.scm:59
-#: guix/scripts/import.scm:92 guix/scripts/import/cran.scm:47
-#: guix/scripts/pull.scm:120 guix/scripts/substitute.scm:879
-#: guix/scripts/system.scm:993 guix/scripts/lint.scm:1107
-#: guix/scripts/publish.scm:94 guix/scripts/edit.scm:44
-#: guix/scripts/size.scm:243 guix/scripts/graph.scm:466
-#: guix/scripts/challenge.scm:241 guix/scripts/copy.scm:122
-#: guix/scripts/pack.scm:661 guix/scripts/weather.scm:258
-#: guix/scripts/container.scm:33 guix/scripts/container/exec.scm:43
+#: guix/scripts/build.scm:539 guix/scripts/download.scm:83 guix/scripts/package.scm:395
+#: guix/scripts/gc.scm:76 guix/scripts/hash.scm:59 guix/scripts/import.scm:92
+#: guix/scripts/import/cran.scm:47 guix/scripts/pull.scm:120 guix/scripts/substitute.scm:879
+#: guix/scripts/system.scm:993 guix/scripts/lint.scm:1107 guix/scripts/publish.scm:94
+#: guix/scripts/edit.scm:44 guix/scripts/size.scm:243 guix/scripts/graph.scm:466
+#: guix/scripts/challenge.scm:241 guix/scripts/copy.scm:122 guix/scripts/pack.scm:661
+#: guix/scripts/weather.scm:258 guix/scripts/container.scm:33 guix/scripts/container/exec.scm:43
 msgid ""
 "\n"
 "  -h, --help             display this help and exit"
@@ -523,16 +514,13 @@ msgstr ""
 "\n"
 "  -h, --help                 显示这份说明然后离开"
 
-#: guix/scripts/build.scm:541 guix/scripts/download.scm:85
-#: guix/scripts/package.scm:397 guix/scripts/gc.scm:78 guix/scripts/hash.scm:61
-#: guix/scripts/import.scm:94 guix/scripts/import/cran.scm:49
-#: guix/scripts/pull.scm:122 guix/scripts/substitute.scm:881
-#: guix/scripts/system.scm:995 guix/scripts/lint.scm:1111
-#: guix/scripts/publish.scm:96 guix/scripts/edit.scm:46
-#: guix/scripts/size.scm:245 guix/scripts/graph.scm:468
-#: guix/scripts/challenge.scm:243 guix/scripts/copy.scm:124
-#: guix/scripts/pack.scm:663 guix/scripts/weather.scm:260
-#: guix/scripts/container.scm:35 guix/scripts/container/exec.scm:45
+#: guix/scripts/build.scm:541 guix/scripts/download.scm:85 guix/scripts/package.scm:397
+#: guix/scripts/gc.scm:78 guix/scripts/hash.scm:61 guix/scripts/import.scm:94
+#: guix/scripts/import/cran.scm:49 guix/scripts/pull.scm:122 guix/scripts/substitute.scm:881
+#: guix/scripts/system.scm:995 guix/scripts/lint.scm:1111 guix/scripts/publish.scm:96
+#: guix/scripts/edit.scm:46 guix/scripts/size.scm:245 guix/scripts/graph.scm:468
+#: guix/scripts/challenge.scm:243 guix/scripts/copy.scm:124 guix/scripts/pack.scm:663
+#: guix/scripts/weather.scm:260 guix/scripts/container.scm:35 guix/scripts/container/exec.scm:45
 msgid ""
 "\n"
 "  -V, --version          display version information and exit"
@@ -601,8 +589,7 @@ msgstr ""
 msgid "unsupported hash format: ~a~%"
 msgstr ""
 
-#: guix/scripts/download.scm:138 guix/scripts/package.scm:884
-#: guix/scripts/publish.scm:883
+#: guix/scripts/download.scm:138 guix/scripts/package.scm:884 guix/scripts/publish.scm:883
 #, scheme-format
 msgid "~A: extraneous argument~%"
 msgstr ""
@@ -657,8 +644,7 @@ msgstr ""
 msgid "no matching generation~%"
 msgstr ""
 
-#: guix/scripts/package.scm:153 guix/scripts/package.scm:690
-#: guix/scripts/system.scm:593
+#: guix/scripts/package.scm:153 guix/scripts/package.scm:690 guix/scripts/system.scm:593
 #, scheme-format
 msgid "invalid syntax: ~a~%"
 msgstr "无效语法: ~a~%"
@@ -997,8 +983,8 @@ msgstr ""
 msgid "~a~%"
 msgstr ""
 
-#: guix/scripts/hash.scm:153 guix/scripts/system.scm:1161
-#: guix/scripts/system.scm:1170 guix/scripts/system.scm:1177
+#: guix/scripts/hash.scm:153 guix/scripts/system.scm:1161 guix/scripts/system.scm:1170
+#: guix/scripts/system.scm:1177
 #, scheme-format
 msgid "wrong number of arguments~%"
 msgstr ""
@@ -1078,8 +1064,8 @@ msgstr ""
 #: guix/scripts/import/elpa.scm:50
 msgid ""
 "\n"
-"  -r, --recursive                generate package expressions for all Emacs "
-"packages that are not yet in Guix"
+"  -r, --recursive                generate package expressions for all Emacs packages that are "
+"not yet in Guix"
 msgstr ""
 
 #: guix/scripts/import/elpa.scm:52
@@ -1102,10 +1088,9 @@ msgid ""
 "Install it by running:\n"
 "\n"
 "  guix package -i ~a\n"
-"  export GUILE_LOAD_PATH=$HOME/.guix-profile/share/guile/site/~a:"
-"$GUILE_LOAD_PATH\n"
-"  export GUILE_LOAD_COMPILED_PATH=$HOME/.guix-profile/lib/guile/~a/site-"
-"ccache:$GUILE_LOAD_COMPILED_PATH\n"
+"  export GUILE_LOAD_PATH=$HOME/.guix-profile/share/guile/site/~a:$GUILE_LOAD_PATH\n"
+"  export GUILE_LOAD_COMPILED_PATH=$HOME/.guix-profile/lib/guile/~a/site-ccache:"
+"$GUILE_LOAD_COMPILED_PATH\n"
 "\n"
 msgstr ""
 
@@ -1165,14 +1150,14 @@ msgid "    repository URL: ~a~%"
 msgstr ""
 
 #: guix/scripts/pull.scm:304
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "    branch: ~a~%"
-msgstr "  内核：~a~%"
+msgstr "  分支：~a~%"
 
 #: guix/scripts/pull.scm:305
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "    commit: ~a~%"
-msgstr "  文件名：~a~%"
+msgstr "  提交：~a~%"
 
 #: guix/scripts/pull.scm:373
 #, scheme-format
@@ -1322,9 +1307,7 @@ msgid "Downloading ~a...~%"
 msgstr ""
 
 #: guix/scripts/substitute.scm:1002
-msgid ""
-"ACL for archive imports seems to be uninitialized, substitutes may be "
-"unavailable\n"
+msgid "ACL for archive imports seems to be uninitialized, substitutes may be unavailable\n"
 msgstr ""
 
 #: guix/scripts/substitute.scm:1056
@@ -1473,9 +1456,9 @@ msgid "  label: ~a~%"
 msgstr ""
 
 #: guix/scripts/system.scm:554
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "  bootloader: ~a~%"
-msgstr "  文件名：~a~%"
+msgstr "  引导器：~a~%"
 
 #. TRANSLATORS: The '~[', '~;', and '~]' sequences in this string must
 #. be preserved.  They denote conditionals, such that the result will
@@ -1558,13 +1541,11 @@ msgid "   reconfigure      switch to a new operating system configuration\n"
 msgstr ""
 
 #: guix/scripts/system.scm:938
-msgid ""
-"   roll-back        switch to the previous operating system configuration\n"
+msgid "   roll-back        switch to the previous operating system configuration\n"
 msgstr ""
 
 #: guix/scripts/system.scm:940
-msgid ""
-"   switch-generation switch to an existing operating system configuration\n"
+msgid "   switch-generation switch to an existing operating system configuration\n"
 msgstr ""
 
 #: guix/scripts/system.scm:942
@@ -1572,8 +1553,7 @@ msgid "   list-generations list the system generations\n"
 msgstr ""
 
 #: guix/scripts/system.scm:944
-msgid ""
-"   build            build the operating system without installing anything\n"
+msgid "   build            build the operating system without installing anything\n"
 msgstr ""
 
 #: guix/scripts/system.scm:946
@@ -1581,9 +1561,7 @@ msgid "   container        build a container that shares the host's store\n"
 msgstr ""
 
 #: guix/scripts/system.scm:948
-msgid ""
-"   vm               build a virtual machine image that shares the host's "
-"store\n"
+msgid "   vm               build a virtual machine image that shares the host's store\n"
 msgstr ""
 
 #: guix/scripts/system.scm:950
@@ -1627,16 +1605,14 @@ msgstr ""
 msgid ""
 "\n"
 "      --on-error=STRATEGY\n"
-"                         apply STRATEGY when an error occurs while reading "
-"FILE"
+"                         apply STRATEGY when an error occurs while reading FILE"
 msgstr ""
 
 #: guix/scripts/system.scm:972
 msgid ""
 "\n"
 "      --file-system-type=TYPE\n"
-"                         for 'disk-image', produce a root file system of "
-"TYPE\n"
+"                         for 'disk-image', produce a root file system of TYPE\n"
 "                         (one of 'ext4', 'iso9660')"
 msgstr ""
 
@@ -1662,8 +1638,7 @@ msgstr ""
 msgid ""
 "\n"
 "  -r, --root=FILE        for 'vm', 'vm-image', 'disk-image', 'container',\n"
-"                         and 'build', make FILE a symlink to the result, "
-"and\n"
+"                         and 'build', make FILE a symlink to the result, and\n"
 "                         register it as a garbage collector root"
 msgstr ""
 
@@ -2454,9 +2429,9 @@ msgid "use '--to' or '--from'~%"
 msgstr ""
 
 #: guix/scripts/pack.scm:89
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: compressor not found~%"
-msgstr "~a: 包未找到~%"
+msgstr "~a: 未找到压缩工具~%"
 
 #: guix/scripts/pack.scm:467
 #, scheme-format
@@ -2527,9 +2502,9 @@ msgid "both a manifest and a package list were given~%"
 msgstr ""
 
 #: guix/scripts/pack.scm:743
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a: unknown pack format"
-msgstr "~A: 未知包~%"
+msgstr "~a: 未知的归档格式"
 
 #: guix/scripts/weather.scm:72
 msgid "computing ~h package derivations for ~a...~%"
@@ -2627,16 +2602,14 @@ msgstr ""
 msgid ""
 "\n"
 "  -m, --manifest=MANIFEST\n"
-"                         look up substitutes for packages specified in "
-"MANIFEST"
+"                         look up substitutes for packages specified in MANIFEST"
 msgstr ""
 
 #: guix/scripts/weather.scm:255
 #, fuzzy
 msgid ""
 "\n"
-"  -s, --system=SYSTEM    consider substitutes for SYSTEM--e.g., \"i686-linux"
-"\""
+"  -s, --system=SYSTEM    consider substitutes for SYSTEM--e.g., \"i686-linux\""
 msgstr ""
 "\n"
 "  -s, --system=系统      为 <系统> 考虑包——比如，\"i686-linux\""
@@ -2814,14 +2787,12 @@ msgstr "Guix 作者\n"
 #: guix/ui.scm:456
 #, fuzzy
 msgid ""
-"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl."
-"html>\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
 "This is free software: you are free to change and redistribute it.\n"
 "There is NO WARRANTY, to the extent permitted by law.\n"
 msgstr ""
 "Copyright (C) 2016 Guix 作者\n"
-"许可证：GPLv3+：GNU 通用公共许可证第 3 版或更新版本 <http://gnu.org/licenses/"
-"gpl.html>。\n"
+"许可证：GPLv3+：GNU 通用公共许可证第 3 版或更新版本 <http://gnu.org/licenses/gpl.html>。\n"
 "本软件是自由软件：您可以自由修改和重新发布它。\n"
 "在法律允许的范围内没有其他保证。\n"
 
@@ -2836,8 +2807,7 @@ msgid ""
 "Report bugs to: ~a."
 msgstr ""
 "\n"
-"报告程序缺陷到：~a。\n"
-"报告翻译错误到：https://translationproject.org/teams"
+"报告程序缺陷到：~a。"
 
 #: guix/ui.scm:470
 #, scheme-format
@@ -3212,9 +3182,8 @@ msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:68
 msgid ""
-"This program is a daemon meant to run in the background.  It serves requests "
-"sent over a Unix-domain socket.  It accesses the store, and builds "
-"derivations on behalf of its clients."
+"This program is a daemon meant to run in the background.  It serves requests sent over a Unix-"
+"domain socket.  It accesses the store, and builds derivations on behalf of its clients."
 msgstr ""
 
 #: nix/nix-daemon/guix-daemon.cc:95
