@@ -1,0 +1,5003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-25 22:17-0600\n"
+"PO-Revision-Date: 2018-10-25 22:19-0600\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+
+#. # Default (English) UI messages for netx
+#. #
+#. # All messages are formatted using Java's MessageFormat class.
+#. # Apostrophe characters ' need to be escaped by using two: ''
+#. # Curly brackets need to be escaped by surrounding them with single apostrophes '{' '{hello}'
+#. #
+#. # L=Launcher, B=Boot, P=Parser, C=cache S=security
+#. #
+#. # General
+#: NullParameter
+msgid "Null parameter"
+msgstr ""
+
+#: ButAllow
+msgid "Allow"
+msgstr ""
+
+#: ButBrowse
+msgid "Browse..."
+msgstr ""
+
+#: ButCancel
+msgid " Cancel "
+msgstr ""
+
+#: ButClose
+msgctxt "ButClose"
+msgid "Close"
+msgstr ""
+
+#: ButAdvancedOptions
+msgid "Advanced Options"
+msgstr ""
+
+#: ButLunchFullItwSettings
+msgid "Launch full settings"
+msgstr ""
+
+#: ButCopy
+msgid "Copy to Clipboard"
+msgstr ""
+
+#: ButMoreInformation
+msgid "More Information..."
+msgstr ""
+
+#: ButOk
+msgid "OK"
+msgstr ""
+
+#: ButProceed
+msgid "Proceed"
+msgstr ""
+
+#: ButRun
+msgid "Run"
+msgstr ""
+
+#: ButSandbox
+msgid "Sandbox"
+msgstr ""
+
+#: ButApply
+msgctxt "ButApply"
+msgid "Apply"
+msgstr ""
+
+#: ButDone
+msgid "Done"
+msgstr ""
+
+#: ButShowDetails
+msgid "Show Details"
+msgstr ""
+
+#: ButHideDetails
+msgid "Hide Details"
+msgstr ""
+
+#: ButYes
+msgid "Yes"
+msgstr ""
+
+#: ButNo
+msgid "No"
+msgstr ""
+
+#: BUTControlledBy
+msgid "Controlled by {0}"
+msgstr ""
+
+#: BUTmodified
+msgid "modified"
+msgstr ""
+
+#: BUTback
+msgid "Back"
+msgstr ""
+
+#: BUTforward
+msgid "Forward"
+msgstr ""
+
+#: BUTreload
+msgctxt "BUTreload"
+msgid "Reload"
+msgstr ""
+
+#: ITWdocsMissingAuthors
+msgid "See authors file"
+msgstr ""
+
+#: HEADLESS_MISSCONFIGURED
+msgid ""
+"Headless check failed. You are forced to run without any graphics. IcedTea-"
+"Web can run like this, but your app probably not. This is likely bug in your "
+"system."
+msgstr ""
+
+#: CertWarnRunTip
+msgid "Trust this applet and run with full permissions"
+msgstr ""
+
+#: CertWarnSandboxTip
+msgid "Do not trust this applet and run with restricted permissions"
+msgstr ""
+
+#: CertWarnCancelTip
+msgid "Do not run this applet"
+msgstr ""
+
+#: CertWarnPolicyTip
+msgid "Advanced sandbox settings"
+msgstr ""
+
+#: CertWarnPolicyEditorItem
+msgid "Launch PolicyEditor"
+msgstr ""
+
+#: CertWarnHTTPSAcceptTip
+msgid "Accept this certificate and trust the HTTPS connection"
+msgstr ""
+
+#: CertWarnHTTPSRejectTip
+msgid ""
+"Do not accept this certificate and do not establish the HTTPS connection"
+msgstr ""
+
+#: AFileOnTheMachine
+msgid "a file on the machine"
+msgstr ""
+
+#: AlwaysAllowAction
+msgid "Always allow this action"
+msgstr ""
+
+#: AlwaysForbidAction
+msgid "Always forbid this action"
+msgstr ""
+
+#: Usage
+msgid "Usage:"
+msgstr ""
+
+#: Error
+msgid "Error"
+msgstr ""
+
+#: Warning
+msgid "Warning"
+msgstr ""
+
+#: Continue
+msgid "Do you want to continue?"
+msgstr ""
+
+#: Field
+msgid "Field"
+msgstr ""
+
+#: From
+msgid "From"
+msgstr ""
+
+#: Name
+msgctxt "Name"
+msgid "Name"
+msgstr ""
+
+#: Password
+msgid "Password:"
+msgstr ""
+
+#: Publisher
+msgid "Publisher"
+msgstr ""
+
+#: Unknown
+msgid "<Unknown>"
+msgstr ""
+
+#: Username
+msgid "Username:"
+msgstr ""
+
+#: Value
+msgid "Value"
+msgstr ""
+
+#: Version
+msgid "Version"
+msgstr ""
+
+#. # about dialogue
+#: AboutDialogueTabAbout
+msgid "About"
+msgstr ""
+
+#: AboutDialogueTabAuthors
+msgid "Authors"
+msgstr ""
+
+#: AboutDialogueTabChangelog
+msgid "Changelog"
+msgstr ""
+
+#: AboutDialogueTabNews
+msgid "News"
+msgstr ""
+
+#: AboutDialogueTabGPLv2
+msgid "GPLv2"
+msgstr ""
+
+#. # version check minidialogue
+#: JREversionDontMatch
+msgid "Warning - your JRE - {0} - does not match requested JRE - {1}"
+msgstr ""
+
+#: JREContinueDialogSentence2
+msgid "Do you want to continue running?"
+msgstr ""
+
+#: JREContinueDialogSentenceTitle
+msgid "Incompatible JRE"
+msgstr ""
+
+#. # missing permissions dialogue
+#: MissingPermissionsMainTitle
+msgid ""
+"Application <span color=''red''> {0} </span> from <span color=''red''> {1} </"
+"span> is missing the permissions attribute. Applications without this "
+"attribute should not be trusted. Do you wish to allow this application to "
+"run?"
+msgstr ""
+
+#: MissingPermissionsInfo
+msgid ""
+"For more information you can visit:<br/><a href=\"http://docs.oracle.com/"
+"javase/7/docs/technotes/guides/jweb/security/manifest.html#permissions\"> "
+"JAR File Manifest Attributes</a> <br/> and<br/> <a href=\"http://docs.oracle."
+"com/javase/7/docs/technotes/guides/jweb/security/no_redeploy.html\"> "
+"Preventing the repurposing of Applications</a>"
+msgstr ""
+
+#. # missing Application-Library-Allowable-Codebase dialogue
+#: ALACAMissingMainTitle
+msgid ""
+"The application <span color=''red''> {0} </span> from <span color=''red''> "
+"{1} </span> uses resources from the following remote locations: {2} Be very "
+"careful when application is loading from different space then you expect. "
+"Are you sure you want to run this application?"
+msgstr ""
+
+#: ALACAMissingInfo
+msgid ""
+"For more information see:<br/><a href=\"http://docs.oracle.com/javase/7/docs/"
+"technotes/guides/jweb/security/manifest.html#app_library\"> JAR File "
+"Manifest Attributes</a> <br/> and<br/> <a href=\"http://docs.oracle.com/"
+"javase/7/docs/technotes/guides/jweb/security/no_redeploy.html\"> Preventing "
+"the Repurposing of an Application</a>"
+msgstr ""
+
+#. # matching Application-Library-Allowable-Codebase dialogue
+#: ALACAMatchingMainTitle
+msgid ""
+"The application <span color=''green''> {0} </span> from <span "
+"color=''green''> {1} </span> uses resources from the following remote "
+"locations:<br/>{2} <br/> They look ok. Are you sure you want to run this "
+"application?"
+msgstr ""
+
+#: ALACAMatchingInfo
+msgid ""
+"For more information you can visit:<br/><a href=\"http://docs.oracle.com/"
+"javase/7/docs/technotes/guides/jweb/security/manifest.html#app_library\"> "
+"JAR File Manifest Attributes</a> <br/> and<br/> <a href=\"http://docs.oracle."
+"com/javase/7/docs/technotes/guides/jweb/security/no_redeploy.html\"> "
+"Preventing the Repurposing of an Application</a>"
+msgstr ""
+
+#: MACDisabledMessage
+msgid "Manifest attribute checks are disabled."
+msgstr ""
+
+#: MACCheckSkipped
+msgid ""
+"check on {0} skipped because property of deployment.manifest.attributes."
+"check was not set to ALL or includes {1} in the combination of options"
+msgstr ""
+
+#. # LS - Severity
+#: LSMinor
+msgid "Minor"
+msgstr ""
+
+#: LSFatal
+msgid "Fatal"
+msgstr ""
+
+#. # LC - Category
+#: LCSystem
+msgid "System Error"
+msgstr ""
+
+#: LCExternalLaunch
+msgid "External Launch Error"
+msgstr ""
+
+#: LCFileFormat
+msgid "File Format Error"
+msgstr ""
+
+#: LCReadError
+msgid "Read Error"
+msgstr ""
+
+#: LCClient
+msgid "Application Error"
+msgstr ""
+
+#: LCLaunching
+msgid "Launch Error"
+msgstr ""
+
+#: LCNotSupported
+msgid "Unsupported Feature"
+msgstr ""
+
+#: LCInit
+msgid "Initialization Error"
+msgstr ""
+
+#: LAllThreadGroup
+msgid "All JNLP applications"
+msgstr ""
+
+#: LNullUpdatePolicy
+msgid "Update policy cannot be null."
+msgstr ""
+
+#: LThreadInterrupted
+msgid "Thread interrupted while waiting for file to launch."
+msgstr ""
+
+#: LThreadInterruptedInfo
+msgid ""
+"This can lead to deadlock or yield other damage during execution. Please "
+"restart your application/browser."
+msgstr ""
+
+#: LCouldNotLaunch
+msgid "Could not launch JNLP file."
+msgstr ""
+
+#: LCouldNotLaunchInfo
+msgid ""
+"The application has not been initialized, for more information execute "
+"javaws/browser from the command line and send a bug report."
+msgstr ""
+
+#: LCantRead
+msgid "Could not read or parse the JNLP file."
+msgstr ""
+
+#: LCantReadInfo
+msgid ""
+"You can try to download this file manually and send it as bug report to "
+"IcedTea-Web team."
+msgstr ""
+
+#: LNullLocation
+msgid "Could not determine .jnlp file location."
+msgstr ""
+
+#: LNullLocationInfo
+msgid ""
+"An attempt was made to launch a JNLP file in another JVM, but the file could "
+"not be located.  In order to launch in an external JVM, the runtime must be "
+"able to locate the .jnlp file either in the local file system or on a server."
+msgstr ""
+
+#: LNetxJarMissing
+msgid "Could not determine location of netx.jar."
+msgstr ""
+
+#: LNetxJarMissingInfo
+msgid ""
+"An attempt was made to launch a JNLP file in another JVM, but the netx.jar "
+"could not be located.  In order to launch in an external JVM, the runtime "
+"must be able to locate the netx.jar file."
+msgstr ""
+
+#: LNotToSpec
+msgid "JNLP file not strictly to specifications."
+msgstr ""
+
+#: LNotToSpecInfo
+msgid ""
+"The JNLP file contains data that is prohibited by the JNLP specification.  "
+"The runtime can attempt to ignore the invalid information and continue "
+"launching the file."
+msgstr ""
+
+#: LNotApplication
+msgid "Not an application file."
+msgstr ""
+
+#: LNotApplicationInfo
+msgid "An attempt was made to load a non-application file as an application."
+msgstr ""
+
+#: LNotApplet
+msgid "Not an applet file."
+msgstr ""
+
+#: LNotAppletInfo
+msgid "An attempt was made to load a non-applet file as an applet."
+msgstr ""
+
+#: LNoInstallers
+msgid "Installers not supported."
+msgstr ""
+
+#: LNoInstallersInfo
+msgid "JNLP installer files are not yet supported."
+msgstr ""
+
+#: LInitApplet
+msgid "Could not initialize applet."
+msgstr ""
+
+#: LInitAppletInfo
+msgid "For more information click \"more information button\"."
+msgstr ""
+
+#: LInitApplication
+msgid "Could not initialize application."
+msgstr ""
+
+#: LInitApplicationInfo
+msgid ""
+"The application has not been initialized, for more information execute "
+"javaws from the command line."
+msgstr ""
+
+#: LNotLaunchable
+msgid "Not a launchable JNLP file."
+msgstr ""
+
+#: LNotLaunchableInfo
+msgid "File must be a JNLP application, applet, or installer type."
+msgstr ""
+
+#: LCantDetermineMainClass
+msgid "Unknown Main-Class."
+msgstr ""
+
+#: LCantDetermineMainClassInfo
+msgid "Could not determine the main class for this application."
+msgstr ""
+
+#: LUnsignedJarWithSecurity
+msgid "Cannot grant permissions to unsigned jars."
+msgstr ""
+
+#: LUnsignedJarWithSecurityInfo
+msgid "Application requested security permissions, but jars are not signed."
+msgstr ""
+
+#: LSignedJNLPAppDifferentCerts
+msgid "The JNLP application is not fully signed by a single cert."
+msgstr ""
+
+#: LSignedJNLPAppDifferentCertsInfo
+msgid ""
+"The JNLP application has its components individually signed, however there "
+"must be a common signer to all entries."
+msgstr ""
+
+#: LUnsignedApplet
+msgid "The applet was unsigned."
+msgstr ""
+
+#: LUnsignedAppletPolicyDenied
+msgid ""
+"The applet was unsigned, and the security policy prevented it from running."
+msgstr ""
+
+#: LUnsignedAppletUserDenied
+msgid "The applet was unsigned, and was not trusted."
+msgstr ""
+
+#: LPartiallySignedApplet
+msgid "The applet was partially signed."
+msgstr ""
+
+#: LPartiallySignedAppletUserDenied
+msgid "The applet was partially signed, and the user did not trust it."
+msgstr ""
+
+#: LSignedAppJarUsingUnsignedJar
+msgid "Signed application using unsigned jars."
+msgstr ""
+
+#: LSignedAppJarUsingUnsignedJarInfo
+msgid ""
+"The main application jar is signed, but some of the jars it is using aren''t."
+msgstr ""
+
+#: LRunInSandboxError
+msgid "Run in Sandbox call performed too late."
+msgstr ""
+
+#: LRunInSandboxErrorInfo
+msgid ""
+"The classloader was notified to run the applet sandboxed, but security "
+"settings were already initialized."
+msgstr ""
+
+#: LSignedJNLPFileDidNotMatch
+msgid "The signed JNLP file did not match the launching JNLP file."
+msgstr ""
+
+#: LNoSecInstance
+msgid ""
+"Error: No security instance for {0}. The application may have trouble "
+"continuing"
+msgstr ""
+
+#: LCertFoundIn
+msgid "{0} found in cacerts ({1})"
+msgstr ""
+
+#: LSingleInstanceExists
+msgid ""
+"Another instance of this applet already exists and only one may be run at "
+"the same time."
+msgstr ""
+
+#: JNotApplet
+msgid "File is not an applet."
+msgstr ""
+
+#: JNotApplication
+msgid "File is not an application."
+msgstr ""
+
+#: JNotComponent
+msgid "File is not a component."
+msgstr ""
+
+#: JNotInstaller
+msgid "File is not an installer."
+msgstr ""
+
+#: JInvalidExtensionDescriptor
+msgid ""
+"Extension does not refer to a component or installer (name={1}, "
+"location={2})."
+msgstr ""
+
+#: LNotVerified
+msgid "Jars not verified."
+msgstr ""
+
+#: LCancelOnUserRequest
+msgid "Cancelled on user request."
+msgstr ""
+
+#: LFatalVerification
+msgid "A fatal error occurred while trying to verify jars."
+msgstr ""
+
+#: LFatalVerificationInfo
+msgid ""
+"An exception has been thrown in class JarCertVerifier. Being unable to read "
+"the cacerts or trusted.certs files could be a possible cause for this "
+"exception."
+msgstr ""
+
+#: LNotVerifiedDialog
+msgid "Not all jars could be verified."
+msgstr ""
+
+#: LAskToContinue
+msgid "Would you still like to continue running this application?"
+msgstr ""
+
+#. # Parser
+#: PInvalidRoot
+msgid "Root element is not a jnlp element."
+msgstr ""
+
+#: PNoResources
+msgid "No resources element specified."
+msgstr ""
+
+#: PUntrustedNative
+msgid ""
+"nativelib element cannot be specified unless a trusted environment is "
+"requested."
+msgstr ""
+
+#: PExtensionHasJ2SE
+msgid "j2se element cannot be specified in a component extension file."
+msgstr ""
+
+#: PInnerJ2SE
+msgid "j2se element cannot be specified within a j2se element."
+msgstr ""
+
+#: PTwoMains
+msgid ""
+"Duplicate main attribute specified on a resources element (there can be only "
+"one)"
+msgstr ""
+
+#: PNativeHasMain
+msgid "main attribute cannot be specified on a nativelib element."
+msgstr ""
+
+#: PNoInfoElement
+msgid "No information element specified."
+msgstr ""
+
+#: PMissingTitle
+msgid "title"
+msgstr ""
+
+#: PMissingVendor
+msgid "vendor"
+msgstr ""
+
+#: PMissingElement
+msgid ""
+"The {0} section has not been specified for your locale nor does a default "
+"value exist in the JNLP file."
+msgstr ""
+
+#: PTwoDescriptions
+msgid "Duplicate description elements of kind {0} are illegal."
+msgstr ""
+
+#: PSharing
+msgid "sharing-allowed element is illegal in a standard JNLP file"
+msgstr ""
+
+#: PTwoSecurity
+msgid "Only one security element allowed per JNLP file."
+msgstr ""
+
+#: PEmptySecurity
+msgid "security element specified but does not contain a permissions element."
+msgstr ""
+
+#: PTwoDescriptors
+msgid "Only one application-desc element allowed per JNLP file."
+msgstr ""
+
+#: PTwoDesktops
+msgid "Only one desktop element allowed"
+msgstr ""
+
+#: PTwoMenus
+msgid "Only one menu element allowed"
+msgstr ""
+
+#: PTwoTitles
+msgid "Only one title element allowed"
+msgstr ""
+
+#: PTwoIcons
+msgid "Only one icon element allowed"
+msgstr ""
+
+#: PTwoUpdates
+msgid "Only one update element is allowed"
+msgstr ""
+
+#: PUnknownApplet
+msgid "Unknown Applet"
+msgstr ""
+
+#: PBadWidth
+msgid "Invalid applet width."
+msgstr ""
+
+#: PBadHeight
+msgid "Invalid applet height."
+msgstr ""
+
+#: PUrlNotInCodebase
+msgid ""
+"Relative URL does not specify a subdirectory of the codebase. (node={0}, "
+"href={1}, base={2})"
+msgstr ""
+
+#: PBadRelativeUrl
+msgid "Invalid relative URL (node={0}, href={1}, base={2})"
+msgstr ""
+
+#: PBadNonrelativeUrl
+msgid "Invalid non-relative URL (node={0}, href={1})"
+msgstr ""
+
+#: PNeedsAttribute
+msgid "The {0} element must specify a {1} attribute."
+msgstr ""
+
+#: PBadXML
+msgid "Invalid XML document syntax."
+msgstr ""
+
+#: PBadHeapSize
+msgid "Invalid value for heap size ({0})"
+msgstr ""
+
+#. # Runtime
+#: BLaunchAbout
+msgid "Launching about window..."
+msgstr ""
+
+#: BLaunchAboutFailure
+msgid "Was not able to launch About window"
+msgstr ""
+
+#: BNeedsFile
+msgid "Must specify a .jnlp file"
+msgstr ""
+
+#: RNoAboutJnlp
+msgid "Unable to find about.jnlp"
+msgstr ""
+
+#: BFileLoc
+msgid "JNLP file location"
+msgstr ""
+
+#: BBadProp
+msgid "Incorrect property format {0} (should be key=value)"
+msgstr ""
+
+#: BBadParam
+msgid "Incorrect parameter format {0} (should be name=value)"
+msgstr ""
+
+#: BNoDir
+msgid "Directory {0} does not exist."
+msgstr ""
+
+#: BNoCodeOrObjectApplet
+msgid ""
+"Applet tag must specify a ''code'' or ''object'' or ''jnlp_href'' attribute."
+msgstr ""
+
+#: RNoResource
+msgid "Missing Resource: {0}"
+msgstr ""
+
+#: RShutdown
+msgid ""
+"This exception to prevent shutdown of JVM, but the process has been "
+"terminated."
+msgstr ""
+
+#: RExitTaken
+msgid "Exit class already set and caller is not exit class."
+msgstr ""
+
+#: RCantReplaceSM
+msgid "Changing the SecurityManager is not allowed."
+msgstr ""
+
+#: RCantCreateFile
+msgid "Cant create file {0}"
+msgstr ""
+
+#: RCantDeleteFile
+msgid "Cant delete file {0}"
+msgstr ""
+
+#: RCantOpenFile
+msgid "Could not open file {0}"
+msgstr ""
+
+#: RCantWriteFile
+msgid "Could not write to file {0}"
+msgstr ""
+
+#: RFileReadOnly
+msgid "Opening file in read-only mode"
+msgstr ""
+
+#: RExpectedFile
+msgid "Expected {0} to be a file but it was not"
+msgstr ""
+
+#: RRemoveRPermFailed
+msgid "Removing read permission on file {0} failed"
+msgstr ""
+
+#: RRemoveWPermFailed
+msgid "Removing write permissions on file {0} failed"
+msgstr ""
+
+#: RRemoveXPermFailed
+msgid "Removing execute permissions on file {0} failed"
+msgstr ""
+
+#: RGetRPermFailed
+msgid "Acquiring read permissions on file {0} failed"
+msgstr ""
+
+#: RGetWPermFailed
+msgid "Acquiring write permissions on file {0} failed"
+msgstr ""
+
+#: RGetXPermFailed
+msgid "Acquiring execute permissions on file {0} failed"
+msgstr ""
+
+#: RCantCreateDir
+msgid "Cant create directory {0}"
+msgstr ""
+
+#: RCantRename
+msgid "Cant rename {0} to {1}"
+msgstr ""
+
+#: RDenyStopped
+msgid "Stopped applications have no permissions."
+msgstr ""
+
+#: RExitNoApp
+msgid ""
+"Cannot exit the JVM because the current application cannot be determined."
+msgstr ""
+
+#: RNoLockDir
+msgid "Unable to create locks directory ({0})"
+msgstr ""
+
+#: RNestedJarExtration
+msgid "Unable to extract nested jar."
+msgstr ""
+
+#: RUnexpected
+msgid "Unexpected {0} at {1}"
+msgstr ""
+
+#: RConfigurationError
+msgid ""
+"Fatal error while reading the configuration, continuing with empty. Please "
+"fix"
+msgstr ""
+
+#: RConfigurationFatal
+msgid ""
+"ERROR: a fatal error has occurred while loading configuration. Perhaps a "
+"global configuration was required but could not be found"
+msgstr ""
+
+#: RFailingToDefault
+msgid "Failing to default configuration"
+msgstr ""
+
+#: RPRoxyPacNotSupported
+msgid "Using Proxy Auto Config (PAC) files is not supported."
+msgstr ""
+
+#: RProxyFirefoxNotFound
+msgid ""
+"Unable to use Firefox''s proxy settings. Using \"DIRECT\" as proxy type."
+msgstr ""
+
+#: RProxyFirefoxOptionNotImplemented
+msgid "Browser proxy option \"{0}\" ({1}) not supported yet."
+msgstr ""
+
+#: RBrowserLocationPromptTitle
+msgid "Please select handler (browser) for this url:"
+msgstr ""
+
+#: HTMLnoneFound
+msgid ""
+"No applet found on this html page (supported are object, embed and applet "
+"tags)"
+msgstr ""
+
+#: HTMLmoreThenOne
+msgid ""
+"More then one ({0}) applets found. Using  first. You can specify ''all'' or "
+"numbers to specify applets you want to run."
+msgstr ""
+
+#. # icedtea-web man (note, spaces are important due to man pages markup
+#: ITWintroL1
+msgid ""
+"{0}provides a Free Software web browser plugin running applets written in "
+"the Java programming language and an implementation of Java Web Start, "
+"originally based on the NetX project."
+msgstr ""
+
+#: ITWintroL2
+msgid ""
+"NetX allows Java applets and applications to be downloaded over the network, "
+"cached, and (by default) run in a secure sandbox environment. Subsequent "
+"runs of the applet download the latest version automatically. Update and "
+"security settings, among others, can be set using the itw-settings command."
+msgstr ""
+
+#: ITWintroL3
+msgid "{0} also includes a plugin to {1} within web browsers."
+msgstr ""
+
+#: ITWintroUrlCaption
+msgid "enable Java applets"
+msgstr ""
+
+#: BFileInfoAuthors
+msgid ""
+"Names and email addresses of contributors to this project can be found in "
+"the file AUTHORS in the IcedTea-Web root directory."
+msgstr ""
+
+#: BFileInfoCopying
+msgid ""
+"The full GPLv2 license of this project can be found in the file COPYING in "
+"the IcedTea-Web root directory."
+msgstr ""
+
+#: BFileInfoNews
+msgid ""
+"News about releases of this project can be found in the file NEWS in the "
+"IcedTea-Web root directory."
+msgstr ""
+
+#: ITWdescO1title
+msgid "Modular"
+msgstr ""
+
+#: ITWdescO1text
+msgid "Easily add JNLP capabilities to an application."
+msgstr ""
+
+#: ITWdescO2title
+msgid "Saves Memory"
+msgstr ""
+
+#: ITWdescO2text
+msgid "Launch programs in a shared JVM."
+msgstr ""
+
+#: ITWdescO3title
+msgid "Fast startup"
+msgstr ""
+
+#: ITWdescO3text
+msgid "Runs applications from a cache for fast starting."
+msgstr ""
+
+#: ITWdescO4title
+msgctxt "ITWdescO4title"
+msgid "Security"
+msgstr ""
+
+#: ITWdescO4text
+msgid "Run any application in a sandbox or log its activities."
+msgstr ""
+
+#: ITWdescO5title
+msgid "Auto-Update"
+msgstr ""
+
+#: ITWdescO5text
+msgid "Applications can auto-update without special code."
+msgstr ""
+
+#: ITWdescO6title
+msgid "Network Deployment"
+msgstr ""
+
+#: ITWdescO6text
+msgid "Deploy to the internet, not with installers."
+msgstr ""
+
+#: ITWdescO7title
+msgid "Open Source"
+msgstr ""
+
+#: ITWdescO7text
+msgid "GNU Lesser General Public License."
+msgstr ""
+
+#: ITWdescL1
+msgid "Visit the {0} or specifically the {1} pages for more information."
+msgstr ""
+
+#: ITWdescWikiUrlTitle
+msgid "IcedTea project wiki"
+msgstr ""
+
+#: ITWdescItwWikiUrlTitle
+msgid "IcedTea-Web home"
+msgstr ""
+
+#: ITWdescL2
+msgid "Help with common issues with IcedTea-Web can be found {0} ."
+msgstr ""
+
+#: ITWdescIssuesUrlTitle
+msgid "here"
+msgstr ""
+
+#: ITWdescL3
+msgid "NetX features:"
+msgstr ""
+
+#: ITWoptionsL1
+msgid "A {0} guide for the IcedTea project is available on the wiki."
+msgstr ""
+
+#: ITWoptionsQuickStartUrlCaption
+msgid "QuickStart"
+msgstr ""
+
+#: ITWoptionsCodeUrlUrlCaption
+msgid "Code style"
+msgstr ""
+
+#: ITWoptionsL2
+msgid ""
+"{0} guidelines and {1} instructions for IcedTea-Web are available as well. "
+"Patches should be accompanied by unit tests and {2} before being sent to {3}"
+msgstr ""
+
+#: ITWoptionsEclipseUrlCaption
+msgid "Eclipse setup"
+msgstr ""
+
+#: ITWoptionsReproducersUrlCaption
+msgid "reproducers"
+msgstr ""
+
+#: ITWoptionsDistroUrlCaption
+msgid "the mailing list"
+msgstr ""
+
+#: ITWoptionsL3
+msgid "Contributing:  "
+msgstr ""
+
+#. # policyeditor man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
+#: PEintro
+msgid ""
+"- view and modify security policy settings for <B>javaws </B>and the "
+"<B>browser plugin</B>"
+msgstr ""
+
+#: PEsynopseP1
+msgid "policy_file"
+msgstr ""
+
+#: PEsynopseP2
+msgid "url"
+msgstr ""
+
+#: PEdescL1
+msgid ""
+"is a GUI application with small command line support to view and edit applet "
+"security policy settings used by the IcedTea-Web implementation of<B> javaws "
+"</B>and the <B> browser plugin. </B>It is intended as a simpler, easier to "
+"use, and more accessible alternative to the standard <B> JDK Policy Tool. </"
+"B>Administrators and power users who need fine grained control over policy "
+"files should probably use Policy Tool instead of PolicyEditor."
+msgstr ""
+
+#: PEdescL2
+msgid ""
+"If executed without any arguments, no file is opened, and saving the file "
+"will result in a prompt on where to save it. Otherwise, if a file path is "
+"given as a command line argument, then that file path will be opened and "
+"parsed as policy file."
+msgstr ""
+
+#: PEexampleL1
+msgid "Show GUI and opens the default policy file."
+msgstr ""
+
+#: PEexampleL2
+msgid "Show the GUI editor with no file opened."
+msgstr ""
+
+#. # javaws man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
+#: JWSintro
+msgid "- a Java Web Start client"
+msgstr ""
+
+#: JWSdescL1
+msgid ""
+"is an implementation of a JNLP client. It uses a JNLP (Java Network Launch "
+"Protocol) file to securely run a remote Java application or a Java applet. "
+"This implementation of {0}is from the IcedTea project and is based on the "
+"NetX project."
+msgstr ""
+
+#: JWSdescL2
+msgid ""
+"A JNLP file is an xml file that describes how to securely run a remote Java "
+"application or a Java applet."
+msgstr ""
+
+#: JWSoptionsL1
+msgid ""
+"When specifying options, the name of the jnlp file can be after the command, "
+"the -jnlp option, an option with no arguments, or after an argument with an "
+"option that takes one argument. A html file that launches a jnlp can be "
+"specified after the -html option."
+msgstr ""
+
+#: JWSoptionsL2
+msgid "The jnlp-file can either be a url or a local path."
+msgstr ""
+
+#: JWSoptionsL3
+msgid ""
+"The JNLP file should only be specified once, whether as a main argument, "
+"after -jnlp or through an html file."
+msgstr ""
+
+#: JWSoptionsTitle1
+msgid "Run options:"
+msgstr ""
+
+#: JWSoptionsTitle2
+msgid "Control options:"
+msgstr ""
+
+#: JWSexampleL1
+msgid "Shows basic help and about informations."
+msgstr ""
+
+#: JWSexampleL2
+msgid "Shows basic help and about informations in terminal only."
+msgstr ""
+
+#: JWSexampleL3
+msgid ""
+"Will start {0} application, originally from {1}, without downloading it, "
+"without headers check and in forced single VM."
+msgstr ""
+
+#. # Boot options, message should be shorter than this ---------------->
+#: BOUsage
+msgid "[-run-options] jnlp file"
+msgstr ""
+
+#: BOUsage2
+msgid "[-control-options]"
+msgstr ""
+
+#: BOJnlp
+msgid "Location of JNLP file to launch (url or file)."
+msgstr ""
+
+#: BOHtml
+msgid ""
+"Location of HTML file to launch (url or file). You can use parameter ALL  or "
+"numbers (like 1 2 5) to select applets on page. However experimental, this "
+"switch should keep you still in safety."
+msgstr ""
+
+#: BOArg
+msgid "Adds an application argument before launching."
+msgstr ""
+
+#: BOParam
+msgid "Adds an applet parameter before launching."
+msgstr ""
+
+#: BOProperty
+msgid "Sets a system property before launching."
+msgstr ""
+
+#: BOUpdate
+msgid "Check for updates."
+msgstr ""
+
+#: BOLicense
+msgid "Display the GPL license and exit."
+msgstr ""
+
+#: BOVerbose
+msgid "Enable verbose output."
+msgstr ""
+
+#: BOAbout
+msgid "Shows a sample application."
+msgstr ""
+
+#: BOVersion
+msgid "Print the IcedTea-Web version and exit."
+msgstr ""
+
+#: BONosecurity
+msgid ""
+"Disables the secure runtime environment. You need also  deployment.security."
+"itw.ignorecertissues to workaround corrupted signatures"
+msgstr ""
+
+#: BONoupdate
+msgid "Disables checking for updates."
+msgstr ""
+
+#: BOHeadless
+msgid "Disables download window, other UIs."
+msgstr ""
+
+#: BOStrict
+msgid "Enables strict checking of JNLP file format."
+msgstr ""
+
+#: BOViewer
+msgid "Shows the trusted certificate viewer."
+msgstr ""
+
+#: BOXml
+msgid "Uses a strict XML parser to parse the JNLP file."
+msgstr ""
+
+#: BOredirect
+msgid "Follows HTTP redirects."
+msgstr ""
+
+#: BXnofork
+msgid "Do not create another JVM."
+msgstr ""
+
+#: BXclearcache
+msgid "Clean the JNLP application cache."
+msgstr ""
+
+#: BXignoreheaders
+msgid "Skip jar header verification."
+msgstr ""
+
+#: BXoffline
+msgid ""
+"Prevent ITW network connection. Only cache will be used. Application can "
+"still connect."
+msgstr ""
+
+#: BOHelp1
+msgid "Prints out information about supported command and basic usage."
+msgstr ""
+
+#: BOHelp2
+msgid ""
+"Prints out information about supported command and basic usage. Can also "
+"take an parameter, and then it prints detailed help for this command."
+msgstr ""
+
+#: BOTrustnone
+msgid "Instead of asking user, will foretold all answers as no."
+msgstr ""
+
+#. # Itweb-settings boot commands
+#: IBOList
+msgid "Shows a list of all the IcedTea-Web settings and their current values."
+msgstr ""
+
+#: IBOGet
+msgid "Shows the value of the specified settings."
+msgstr ""
+
+#: IBOInfo
+msgid ""
+"Shows additional information about the named settings. Includes a "
+"description, the current value, the possible values, and the source of the "
+"setting."
+msgstr ""
+
+#: IBOSet
+msgid ""
+"Sets the settings to the new value specified, if it is an appropriate value."
+msgstr ""
+
+#: IBOResetAll
+msgid "Resets all settings to their original values."
+msgstr ""
+
+#: IBOReset
+msgid "Resets the specified settings to their original value."
+msgstr ""
+
+#: IBOCheck
+msgid "Checks that all the current settings have valid values."
+msgstr ""
+
+#: PBOFile
+msgid ""
+"Specifies a policy file path to open. If exactly one argument is given, and "
+"it is not this flag, it is interpreted as a file path to open, as if this "
+"flag was given first. This flag exists mostly for compatibility with Policy "
+"Tool."
+msgstr ""
+
+#: PBODefaultFile
+msgid ""
+"Specifies that the default user-level policy file should be opened. This is "
+"the file which is normally used by IcedTea-Web to make decisions about "
+"custom policies and permissions for applets at runtime, unless configured "
+"otherwise."
+msgstr ""
+
+#: PBOCodebase
+msgid ""
+"Specifies an applet codebase URL. This can be used with the other selector "
+"options to select a policy entry upon opening the editor; if no such "
+"identifier exists then it will be created and then selected."
+msgstr ""
+
+#: PBOSignedBy
+msgid ""
+"Specifies a certificate alias for a certificate stored in the keystore. This "
+"can be used with the other selector options to select a policy entry upon "
+"opening the editor; if no such identifier exists then it will be created and "
+"then selected."
+msgstr ""
+
+#: PBOPrincipals
+msgid ""
+"Specifies class name/principal name pairs (space-separated) for the policy "
+"entry identifier. This can be used with the other selector options to select "
+"a policy entry upon opening the editor; if no such identifier exists then it "
+"will be created and then selected."
+msgstr ""
+
+#. # Option Parser
+#: OPUnevenParams
+msgid "For option {0} expected an even number of params."
+msgstr ""
+
+#. # NumberOfArguments descriptions.
+#: NOAnone
+msgid "No argument expected"
+msgstr ""
+
+#: NOAone
+msgid "Exactly one argument expected"
+msgstr ""
+
+#: NOAonemore
+msgid "Expected one or more arguments"
+msgstr ""
+
+#: NOAevennumber
+msgid "Expected even number of arguments with param=value as valid argument"
+msgstr ""
+
+#. # Allowed man sections
+#: manNAME
+msgid "NAME"
+msgstr ""
+
+#: manSYNOPSIS
+msgid "SYNOPSIS"
+msgstr ""
+
+#: manDESCRIPTION
+msgid "DESCRIPTION"
+msgstr ""
+
+#: manOPTIONS
+msgid "OPTIONS"
+msgstr ""
+
+#: manCOMMANDS
+msgid "COMMANDS"
+msgstr ""
+
+#: manEXAMPLES
+msgid "EXAMPLES"
+msgstr ""
+
+#: manFILES
+msgid "FILES"
+msgstr ""
+
+#: manBUGS
+msgid "BUGS"
+msgstr ""
+
+#: manAUTHOR
+msgid "AUTHOR"
+msgstr ""
+
+#: manSEE_ALSO
+msgid "SEE ALSO"
+msgstr ""
+
+#. # Cache
+#: CAutoGen
+msgid "automatically generated - do not edit"
+msgstr ""
+
+#: CNotCacheable
+msgid "{0} is not a cacheable resource"
+msgstr ""
+
+#: CDownloading
+msgid "Downloading"
+msgstr ""
+
+#: CComplete
+msgid "Complete"
+msgstr ""
+
+#: CChooseCache
+msgid "Choose a cache directory..."
+msgstr ""
+
+#: CChooseCacheInfo
+msgid "NetX needs a location for storing cache files."
+msgstr ""
+
+#: CChooseCacheDir
+msgid "Cache directory"
+msgstr ""
+
+#: CCannotClearCache
+msgid ""
+"Cannot clear the cache at this time. Try later. If the problem persists, try "
+"closing your browser(s) & JNLP applications. At the end you can try to kill "
+"all java applications. \\\n"
+" You can clear cache by javaws -Xclearcache or via itw-settings Cache -> "
+"View files -> Purge"
+msgstr ""
+
+#: CFakeCache
+msgid "Cache is corrupt. Fixing."
+msgstr ""
+
+#: CFakedCache
+msgid ""
+"Cache was corrupt and has been fixed. It is strongly recommended that you "
+"run ''javaws -Xclearcache'' and rerun your application as soon as possible. "
+"You can also use via itw-settings Cache -> View files -> Purge"
+msgstr ""
+
+#. # extended access warning pane
+#: EXAWdesktopWants
+msgid "Desktop icon shortcut (applications want to)."
+msgstr ""
+
+#: EXAWdesktopDontWants
+msgid "Desktop icon shortcut (applications don''t want to, but you still can)."
+msgstr ""
+
+#: EXAWsubmenu
+msgid "Menu icon shortcut (applications will try to include to submenu - {0})."
+msgstr ""
+
+#: EXAWmenuWants
+msgid "Menu icon shortcut (applications want to)."
+msgstr ""
+
+#: EXAWmenuDontWants
+msgid "Menu icon shortcut (applications don''t want to, but you still can)."
+msgstr ""
+
+#: EXAWsettingsInfo
+msgid ""
+"Your current setting is: {0}. You can change it in itweb-settings in {1} "
+"panel."
+msgstr ""
+
+#: EXAWsettingsManage
+msgid "You can manage existing menu entries in itweb-settings in {0} panel."
+msgstr ""
+
+#: EXAWrememberByApp
+msgid "Remember by application"
+msgstr ""
+
+#: EXAWrememberByPage
+msgid "Remember by domain"
+msgstr ""
+
+#: EXAWdontRemember
+msgid "Don''t remember"
+msgstr ""
+
+#: EXAWrememberByAppTooltip
+msgid ""
+"<html>This application will never ask for more permissions questions</html>"
+msgstr ""
+
+#: EXAWrememberByPageTooltip
+msgid ""
+"<html>All applications from this domain will stop asking, and will follow "
+"your current decision on all permissions</html>"
+msgstr ""
+
+#: EXAWdontRememberTooltip
+msgid ""
+"<html>Your decision will be used only for this single permission for this "
+"single run</html>"
+msgstr ""
+
+#: EXAWbrowser
+msgid "browser desktop item"
+msgstr ""
+
+#: EXAWgenjnlp
+msgid "jnlp generated"
+msgstr ""
+
+#: EXAWjnlphref
+msgid "jnlp href"
+msgstr ""
+
+#: EXAWhtml
+msgid "javaws html"
+msgstr ""
+
+#: EXAWfixhref
+msgid "fix issues in jnlp-href"
+msgstr ""
+
+#: EXAWbrowserTolltip
+msgid ""
+"<html>Browser shortcut<br> <li>This option will create shortcut to open your "
+"browser with current page loaded</li> <li>If your browser support offline "
+"run, this is the safest option</li></html>"
+msgstr ""
+
+#: EXAWbrowsersTolltip
+msgid ""
+"<html>browser used for lunching this applet (will launch IcedTea-web "
+"later)<br> <li>The default browser was preset</li> <li>Feel free to include "
+"a browser of your choice</li></html>"
+msgstr ""
+
+#: EXAWgeneratedTolltip
+msgid ""
+"<html><li>The jnlp file will be generated from your current html page</li> "
+"<li>Once you launch your shortcut, javaws will launch this jnlp file</li> "
+"<li>This applet will then run <b>without</b> the browser</li><li>However "
+"experimental, this is working surprisingly well.</li></html>"
+msgstr ""
+
+#: EXAWhrefTolltip
+msgid ""
+"<html>Some applets are just pointing to jnlp file, which is containing "
+"actual informations about the resources of this app.<br> <li>By selecting "
+"this option, this jnlp file will be saved and used for later launches.</li> "
+"<li>Javaws will be the launcher, and this applet will run <b>out</b> of "
+"browser</li> <li>However good this sounds, this is surprisingly not working</"
+"li></html>"
+msgstr ""
+
+#: EXAWhtmlTolltip
+msgid ""
+"<html>BY using -html switch, javaws can try to parse html and try to extract "
+"applet, and to launch it out of browser<br> <li>highly experimental</li> "
+"<li>really cool</li></html>"
+msgstr ""
+
+#: EXAWfixTolltip
+msgid ""
+"<html>Some jnlp files pointed from applet are not designed to be used as "
+"jnlp apps<br> <li>This will add the known often missing elements to this "
+"file (if missing)</li></html>"
+msgstr ""
+
+#. # Security
+#: SFileReadAccess
+msgid ""
+"The application has requested read access to {0}. Do you want to allow this "
+"action?"
+msgstr ""
+
+#: SFileWriteAccess
+msgid ""
+"The application has requested write access to {0}. Do you want to allow this "
+"action?"
+msgstr ""
+
+#: SDesktopShortcut
+msgid ""
+"The application has requested permission to create a desktop and/or menu "
+"launcher. Do you want to allow this action?"
+msgstr ""
+
+#: SSigUnverified
+msgid ""
+"The application''s digital signature cannot be verified. Do you want to run "
+"the application? It will be granted unrestricted access to your computer."
+msgstr ""
+
+#: SSigVerified
+msgid ""
+"The application''s digital signature has been verified. Do you want to run "
+"the application? It will be granted unrestricted access to your computer."
+msgstr ""
+
+#: SSignatureError
+msgid ""
+"The application''s digital signature has an error. Do you want to run the "
+"application? It will be granted unrestricted access to your computer."
+msgstr ""
+
+#: SUntrustedSource
+msgid ""
+"The digital signature could not be verified by a trusted source. Only run if "
+"you trust the origin of the application."
+msgstr ""
+
+#: SWarnFullPermissionsIgnorePolicy
+msgid ""
+"The code executed will be given full permissions, ignoring any Java policies "
+"you may have."
+msgstr ""
+
+#: STrustedSource
+msgid "The digital signature has been validated by a trusted source."
+msgstr ""
+
+#: SClipboardReadAccess
+msgid ""
+"The application has requested read-only access to the system clipboard. Do "
+"you want to allow this action?"
+msgstr ""
+
+#: SClipboardWriteAccess
+msgid ""
+"The application has requested write-only access to the system clipboard. Do "
+"you want to allow this action?"
+msgstr ""
+
+#: SPrinterAccess
+msgid ""
+"The application has requested printer access. Do you want to allow this "
+"action?"
+msgstr ""
+
+#: SNetworkAccess
+msgid ""
+"The application has requested permission to establish connections to {0}. Do "
+"you want to allow this action?"
+msgstr ""
+
+#: SNoAssociatedCertificate
+msgid "<no associated certificate>"
+msgstr ""
+
+#: SUnverified
+msgid "(unverified)"
+msgstr ""
+
+#: SAlwaysTrustPublisher
+msgid "Always trust content from this publisher"
+msgstr ""
+
+#: SHttpsUnverified
+msgid "The website''s HTTPS certificate cannot be verified."
+msgstr ""
+
+#: SRememberOption
+msgid "<b>Remember this option?</b>"
+msgstr ""
+
+#: SRememberAppletOnly
+msgid "For applet"
+msgstr ""
+
+#: SRememberCodebase
+msgid "For site <u>{0}</u>"
+msgstr ""
+
+#: SUnsignedSummary
+msgid "An unsigned Java application wants to run"
+msgstr ""
+
+#: SUnsignedDetail
+msgid ""
+"An unsigned application from the following location wants to run:<br/>&nbsp;"
+"&nbsp;<u><a href=\"{0}\" >{0}</a></u><br/>The page which made the request "
+"was:<br/>&nbsp;&nbsp;<u><a href=\"{1}\" >{1}</a></u><br/><br/><b>It is "
+"recommended you only run applications from sites you trust.</b> "
+msgstr ""
+
+#: SUnsignedAllowedBefore
+msgid ""
+"<font color=\"green\">You have accepted this applet previously - ({0}).</"
+"font>"
+msgstr ""
+
+#: SUnsignedRejectedBefore
+msgid ""
+"<font color=\"red\">You have rejected this applet previously - ({0}).</font>"
+msgstr ""
+
+#: SUnsignedQuestion
+msgid "Allow the applet to run?"
+msgstr ""
+
+#: SPartiallySignedSummary
+msgid "Only parts of this application code are signed."
+msgstr ""
+
+#: SPartiallySignedDetail
+msgid ""
+"This application contains both signed and unsigned code. While signed code "
+"is safe if you trust the provider, unsigned code may imply code outside of "
+"the trusted provider''s control."
+msgstr ""
+
+#: SPartiallySignedQuestion
+msgid "Do you wish to proceed and run this application anyway?"
+msgstr ""
+
+#: SAuthenticationPrompt
+msgid "The {0} server at {1} is requesting authentication. It says \"{2}\""
+msgstr ""
+
+#: SJNLPFileIsNotSigned
+msgid ""
+"This application contains a digital signature in which the launching JNLP "
+"file is not signed."
+msgstr ""
+
+#: STrustedOnlyAttributeFailure
+msgid ""
+"This application specifies Trusted-only as True in its Manifest. {0} and "
+"requests permission level: {1}. This is not allowed."
+msgstr ""
+
+#: STOAsignedMsgFully
+msgid "The applet is fully signed"
+msgstr ""
+
+#: STOAsignedMsgAndSandbox
+msgid "The applet is fully signed and sandboxed"
+msgstr ""
+
+#: STOAsignedMsgPartiall
+msgid "The applet is not fully signed"
+msgstr ""
+
+#: STempNetwork
+msgid "Allow incoming and outgoing network connections"
+msgstr ""
+
+#: STempReadFilesAndProperties
+msgid "Read-only access to all files and properties"
+msgstr ""
+
+#: STempWriteFilesAndProperties
+msgid "Write-only access to all files and properties"
+msgstr ""
+
+#: STempReflectionAndExternal
+msgid "Java Reflection and external code access"
+msgstr ""
+
+#: STempAllMedia
+msgid "All media (printing, audio, clipboard access)"
+msgstr ""
+
+#. # Security - used for the More Information dialog
+#: SBadKeyUsage
+msgid ""
+"Resources contain entries whose signer certificate''s KeyUsage extension "
+"doesn''t allow code signing."
+msgstr ""
+
+#: SBadExtendedKeyUsage
+msgid ""
+"Resources contain entries whose signer certificate''s ExtendedKeyUsage "
+"extension doesn''t allow code signing."
+msgstr ""
+
+#: SBadNetscapeCertType
+msgid ""
+"Resources contain entries whose signer certificate''s NetscapeCertType "
+"extension doesn''t allow code signing."
+msgstr ""
+
+#: SHasExpiredCert
+msgid "The digital signature has expired."
+msgstr ""
+
+#: SHasExpiringCert
+msgid ""
+"Resources contain entries whose signer certificate will expire within six "
+"months."
+msgstr ""
+
+#: SNotYetValidCert
+msgid "Resources contain entries whose signer certificate is not yet valid."
+msgstr ""
+
+#: SUntrustedCertificate
+msgid "The digital signature was generated with an untrusted certificate."
+msgstr ""
+
+#: STrustedCertificate
+msgid "The digital signature was generated with a trusted certificate."
+msgstr ""
+
+#: SCNMisMatch
+msgid ""
+"The expected hostname for this certificate is: \"{0}\"<br/>The address being "
+"connected to is: \"{1}\""
+msgstr ""
+
+#: SRunWithoutRestrictions
+msgid ""
+"This application will be run without the security restrictions normally "
+"provided by Java."
+msgstr ""
+
+#: SCertificateDetails
+msgid "Certificate Details"
+msgstr ""
+
+#. # Security - certificate information
+#: SIssuer
+msgid "Issuer"
+msgstr ""
+
+#: SSerial
+msgid "Serial"
+msgstr ""
+
+#: SMD5Fingerprint
+msgid "MD5 Fingerprint"
+msgstr ""
+
+#: SSHA1Fingerprint
+msgid "SHA1 Fingerprint"
+msgstr ""
+
+#: SSignature
+msgid "Signature"
+msgstr ""
+
+#: SSignatureAlgorithm
+msgid "Signature Algorithm"
+msgstr ""
+
+#: SSubject
+msgid "Subject"
+msgstr ""
+
+#: SValidity
+msgid "Validity"
+msgstr ""
+
+#. # Certificate Viewer
+#: CVCertificateViewer
+msgctxt "CVCertificateViewer"
+msgid "Certificates"
+msgstr ""
+
+#: CVCertificateType
+msgid "Certificate Type"
+msgstr ""
+
+#: CVDetails
+msgid "Details"
+msgstr ""
+
+#: CVExport
+msgid "Export"
+msgstr ""
+
+#: CVExportPasswordMessage
+msgid "Enter password to protect key file:"
+msgstr ""
+
+#: CVImport
+msgid "Import"
+msgstr ""
+
+#: CVImportPasswordMessage
+msgid "Enter password to access file:"
+msgstr ""
+
+#: CVIssuedBy
+msgid "Issued By"
+msgstr ""
+
+#: CVIssuedTo
+msgid "Issued To"
+msgstr ""
+
+#: CVPasswordTitle
+msgid "Authentication Required"
+msgstr ""
+
+#: CVRemove
+msgctxt "CVRemove"
+msgid "Remove"
+msgstr ""
+
+#: CVRemoveConfirmMessage
+msgid "Are you sure you want to remove the selected certificate?"
+msgstr ""
+
+#: CVRemoveConfirmTitle
+msgid "Confirmation - Remove Certificate?"
+msgstr ""
+
+#: CVUser
+msgid "User"
+msgstr ""
+
+#: CVSystem
+msgid "System"
+msgstr ""
+
+#. # KeyStores: see KeyStores.java
+#: KS
+msgid "KeyStore"
+msgstr ""
+
+#: KSCerts
+msgid "Trusted Certificates"
+msgstr ""
+
+#: KSJsseCerts
+msgid "Trusted JSSE Certificates"
+msgstr ""
+
+#: KSCaCerts
+msgid "Trusted Root CA Certificates"
+msgstr ""
+
+#: KSJsseCaCerts
+msgid "Trusted JSSE Root CA Certificates"
+msgstr ""
+
+#: KSClientCerts
+msgid "Client Authentication Certificates"
+msgstr ""
+
+#. # KeyStores: set password
+#: KSresultUntilNow
+msgid "Got {0} during keystore operation {1}. Attempts to unlock: {2}"
+msgstr ""
+
+#: KSinvalidPassword
+msgid "Invalid password?"
+msgstr ""
+
+#: KSheadlesWarning
+msgid ""
+"Type new password and press ok. Give up by pressing return on empty line."
+msgstr ""
+
+#: KSnwPassHelp
+msgid "Type new password and press ok. Give up by pressing anything else."
+msgstr ""
+
+#: HeadlessDialogues
+msgid ""
+"Type `exit` to terminate ITW, or type one of the below values. Prefix answer "
+"by \"R \" to remember decision and by \"RC \" to do so for whole codebase."
+msgstr ""
+
+#: AWPstdoutHint1
+msgid ""
+"You can type YES/NO or complex answer parseable by "
+"AccessWarningPaneComplexReturn.readValue."
+msgstr ""
+
+#: AWPstdoutHint2
+msgid ""
+"eg: YES,D(not_found_browser,false,null,true,)M(firefox,false,null,false,)"
+msgstr ""
+
+#: AWPstdoutHint3
+msgid ""
+"where: global_answer,desktop_shortcut(browser_bin,fixJnlpHref,type:"
+"null_or_one_of{0},really_create)same_for_menu..."
+msgstr ""
+
+#: PAPstdinInfo
+msgid ""
+"Type NAME space PASSWORD. Sorry, no spaces in name, no security, keep your "
+"screen safe:"
+msgstr ""
+
+#: HDwrongValue
+msgid "Probably wrong value?"
+msgstr ""
+
+#. # HTTP 511
+#: Headless511line0
+msgid "*** Found urls ***"
+msgstr ""
+
+#: Headless511line1
+msgid "Unluckily ITW do not support 511 in headless mode directly."
+msgstr ""
+
+#: Headless511line2
+msgid ""
+"One of above urls when visited externally, will solve the authentication for "
+"you. Then Type answer."
+msgstr ""
+
+#: Headless511line3
+msgid ""
+"If you are desperate, In Xless mode try lynx terminal browser, in Xfull - "
+"browser less mode try ITW''s `javaws {0}`."
+msgstr ""
+
+#: Exit511
+msgid "Exit IcedTea-Web"
+msgstr ""
+
+#: Ignore511
+msgid "Ignore in this session"
+msgstr ""
+
+#: Header511
+msgid ""
+"<h2>HTTP 511 - Network Authentication Required</h2> <p>You can fill the form "
+"in below panel, or try links second tab to proceed via browser</p><a "
+"href=''{0}''>What is 511 Network Authentication Required<a/>"
+msgstr ""
+
+#. # Browser
+#: BrowserGoTo
+msgid "Go to:"
+msgstr ""
+
+#: BrowserSource
+msgid "Source"
+msgstr ""
+
+#: BrowserSocket
+msgid "Use direct socket conenction"
+msgstr ""
+
+#: BrowserSocketHelp
+msgid ""
+"<html>When selected, direct socket connection is opened to url. You may see "
+"headers and other strange stuff.<br/>However, some conenctions may fail "
+"unexpectedly</html>"
+msgstr ""
+
+#: BrowserOpenExternal
+msgid "Open in external browser"
+msgstr ""
+
+#: BrowserOpeninternal
+msgid "Open in integrated browse"
+msgstr ""
+
+#: BrowserCopyUrlToClip
+msgid "Copy to clipboard"
+msgstr ""
+
+#: BrowserClearAll
+msgid "Clear all"
+msgstr ""
+
+#: BrowserWarningLine1
+msgid ""
+"WARNING this is html 3.2 comatible browser, not intended for casual web "
+"browsing!"
+msgstr ""
+
+#: BrowserWarningLine2
+msgid "Provided without any warranty!"
+msgstr ""
+
+#: BrowserArg
+msgid "Launch embeded browser. Use in great need only!"
+msgstr ""
+
+#. # Deployment Configuration messages
+#: DCIncorrectValue
+msgctxt "DCIncorrectValue"
+msgid "Property \"{0}\" has incorrect value \"{1}\". Possible values {2}."
+msgstr ""
+
+#: DCInternal
+msgid "Internal error: {0}"
+msgstr ""
+
+#: DCSourceInternal
+msgid "<internal>"
+msgstr ""
+
+#: DCUnknownSettingWithName
+msgid "Property \"{0}\" is unknown."
+msgstr ""
+
+#: DCmaindircheckNotexists
+msgid "After all attempts, your configuration directory {0} do not exists."
+msgstr ""
+
+#: DCmaindircheckNotdir
+msgid "Your configuration directory {0} is not directory."
+msgstr ""
+
+#: DCmaindircheckRwproblem
+msgid "Your configuration directory {0} cannot be read/written properly."
+msgstr ""
+
+#. # Value Validator messages. Messages should follow "Possible values ..."
+#: VVPossibleValues
+msgid "Possible values {0}"
+msgstr ""
+
+#: VVPossibleBooleanValues
+msgid "are {0} or {1}"
+msgstr ""
+
+#: VVPossibleFileValues
+msgid "include an absolute path to a file or directory"
+msgstr ""
+
+#: VVPossibleRangedIntegerValues
+msgid "are in range {0} to {1} (inclusive)"
+msgstr ""
+
+#: VVPossibleUrlValues
+msgid "include any valid url (eg. http://icedtea.classpath.org/hg/)"
+msgstr ""
+
+#: VVPossibleBrowserValues
+msgid ""
+"Set path to browser or any command launching url. If not set, default "
+"browser is used. If default browser is not available, you will be be "
+"prompted to provide URL consumer. Eg: firefox, or (windows) {0}, microsoft-"
+"edge, (mac) safari, xdg-open (linux) like commands. In headless mode you can "
+"use wget, curl or lynx. It can be also javaws itself to launch other jnlp. "
+"You can set yor custom browser via {4} property. ${1} environment variable "
+"is serving same purpose. You can use keyword {2} to launch internal browser. "
+"But be warned, it is terrible. Use {3} to enforce prompt each time instead "
+"of using defaults."
+msgstr ""
+
+#: VVBrowserVerificationPass
+msgid "Verification Ok: {0}"
+msgstr ""
+
+#: VVBrowserVerificationFail
+msgid "Verification failed. See examples!"
+msgstr ""
+
+#: VVBrowserSaveNotAllowed
+msgid "You have set {0} as value for {1}. Can't overwrite."
+msgstr ""
+
+#: VVBrowserSaveAllowed
+msgid "Will save your selection as {0}"
+msgstr ""
+
+#. # Control Panel - Main
+#: CPMainDescriptionShort
+msgid "Configure IcedTea-Web"
+msgstr ""
+
+#: CPMainDescriptionLong
+msgid ""
+"Configure how the browser plugin (IcedTeaNPPlugin) and javaws (NetX) work"
+msgstr ""
+
+#. # Control Panel - Tab Descriptions
+#: CPAboutDescription
+msgid "View version information about IcedTea Control Panel."
+msgstr ""
+
+#: CPNetworkSettingsDescription
+msgid ""
+"Configure network settings, including how IcedTea-Web connects to the "
+"internet and whether to use any proxies."
+msgstr ""
+
+#: CPTempInternetFilesDescription
+msgid ""
+"Java stores application data for faster execution the next time you run it."
+msgstr ""
+
+#: CPJRESettingsDescription
+msgid ""
+"View and manage Java Runtime Environment versions and settings for Java "
+"applications and applets."
+msgstr ""
+
+#: CPCertificatesDescription
+msgid ""
+"Use certificates to positively identify yourself, certifications, "
+"authorities, and publishers."
+msgstr ""
+
+#: CPSecurityDescription
+msgid "Use this to configure security settings."
+msgstr ""
+
+#: CPDebuggingDescription
+msgid "Enable options here to help with debugging"
+msgstr ""
+
+#: CPDesktopIntegrationDescription
+msgid "Set whether or not to allow creation of desktop shortcut."
+msgstr ""
+
+#: CPDesktopIntegrationShowIntegrations
+msgid "Show desktop and menu integrations window"
+msgstr ""
+
+#: CPDesktopIntegrationLinuxOnly
+msgid "Desktop integration manager available only for Linux. Sorry"
+msgstr ""
+
+#: CPJVMPluginArguments
+msgid "Set JVM arguments for plugin."
+msgstr ""
+
+#: CPJVMitwExec
+msgid "Set JVM for IcedTea-Web — working best with OpenJDK"
+msgstr ""
+
+#: CPJVMitwExecValidation
+msgid "Validate JVM for IcedTea-Web"
+msgstr ""
+
+#: CPJVMPluginSelectExec
+msgid "Browse for JVM for IcedTea-Web"
+msgstr ""
+
+#: CPJVMnone
+msgid "No validation result for"
+msgstr ""
+
+#: CPJVMvalidated
+msgid "Validation result for"
+msgstr ""
+
+#: CPJVMvalueNotSet
+msgid "Value is not set. Hardcoded JVM will be used."
+msgstr ""
+
+#: CPJVMnotLaunched
+msgid "Error, process was not launched, see console output for more info."
+msgstr ""
+
+#: CPJVMnoSuccess
+msgid ""
+"Error, process have not ended successfully, see output for details, but your "
+"java is not set correctly."
+msgstr ""
+
+#: CPJVMopenJdkFound
+msgid "Excellent, OpenJDK detected"
+msgstr ""
+
+#: CPJVMjdk5
+msgid "JDK5 recognized. JDK7 and older are longer supported."
+msgstr ""
+
+#: CPJVMjdk6
+msgid "JDK6 recognized. JDK7 and older are longer supported."
+msgstr ""
+
+#: CPJVMjdk7
+msgid "JDK7 recognized. JDK7 and older are longer supported."
+msgstr ""
+
+#: CPJVMjdk8
+msgid "JDK8 recognized. Jdk8 and higher are supported"
+msgstr ""
+
+#: CPJVMjdk9
+msgid ""
+"JDK9 or higher recognized. Jdk8 and higher are supported. Jdk9 and up can "
+"have modularity issues."
+msgstr ""
+
+#: CPJVMjdk
+msgid ""
+"Unknown version. Hard to judge support. See tooltip or console/standard "
+"output (depends on verbosity)for real version."
+msgstr ""
+
+#: CPJVMoracleFound
+msgid "Great, Oracle java detected"
+msgstr ""
+
+#: CPJVMibmFound
+msgid "Good, IBM java detected"
+msgstr ""
+
+#: CPJVMgijFound
+msgid "Warning, gij detected"
+msgstr ""
+
+#: CPJVMstrangeProcess
+msgid ""
+"Your path had an executable process, but it was not recognized. Verify the "
+"Java version in the console output."
+msgstr ""
+
+#: CPJVMnotDir
+msgid "Error, The path you chose is not a directory."
+msgstr ""
+
+#: CPJVMisDir
+msgid "Ok, the path you chose is a directory."
+msgstr ""
+
+#: CPJVMnoJava
+msgid "Error, the directory you chose does not contain bin/java."
+msgstr ""
+
+#: CPJVMjava
+msgid "Ok, the directory you chose contains bin/java."
+msgstr ""
+
+#: CPJVMnoRtJar
+msgid "Error, the directory you chose does not contain lib/rt.jar"
+msgstr ""
+
+#: CPJVMrtJar
+msgid "Ok, the directory you chose contains lib/rt.jar."
+msgstr ""
+
+#: CPJVMPluginAllowTTValidation
+msgid "Validate JRE immediately"
+msgstr ""
+
+#: CPJVMNotokMessage1
+msgid ""
+"You have entered invalid JDK value: <ul><li><span color=''purple''>{0}</"
+"span></li></ul> with following error message:"
+msgstr ""
+
+#: CPJVMNotokMessage2
+msgid ""
+"You might be seeing this message because: <blockquote> * Some validity tests "
+"have not been passed<br/> * Non-OpenJDK is detected</blockquote>With invalid "
+"JDK IcedTea-Web will probably not be able to start.<br/><span "
+"color=''orange''>If it will break</span>, you have to modify or remove <u>{0}"
+"</u> property in your configuration file:  <ul><li><span color=''blue''>{1}</"
+"span></li></ul> You should  <span color=''green''><i>trust yours admin</i></"
+"span> or at least try to search for OpenJDK in your system or be sure you "
+"know what you are doing."
+msgstr ""
+
+#: CPJVMconfirmInvalidJdkTitle
+msgid "Confirm invalid JDK"
+msgstr ""
+
+#: CPJVMconfirmReset
+msgid "Reset to default?"
+msgstr ""
+
+#: CPPolicyDetail
+msgid ""
+"View or edit your user-level Java Policy File. This allows you to grant or "
+"deny runtime permissions to applets regardless of the standard security "
+"sandboxing rules."
+msgstr ""
+
+#: CPPolicyTooltip
+msgid "Open {0} in policy editor"
+msgstr ""
+
+#: CPPolicyEditorNotFound
+msgid ""
+"Could not find a system policy file editor. Check that policytool is on your "
+"PATH."
+msgstr ""
+
+#. # Control Panel - Buttons
+#: CPButAbout
+msgid "About..."
+msgstr ""
+
+#: CPButNetworkSettings
+msgid "Network Settings..."
+msgstr ""
+
+#: CPButSettings
+msgid "Settings..."
+msgstr ""
+
+#: CPButView
+msgid "View..."
+msgstr ""
+
+#: CPButCertificates
+msgid "Certificates..."
+msgstr ""
+
+#: CPButSimpleEditor
+msgid "Simple editor"
+msgstr ""
+
+#: CPButAdvancedEditor
+msgid "Advanced editor"
+msgstr ""
+
+#. # Control Panel - Headers
+#: CPHead
+msgid "IcedTea-Web Control Panel"
+msgstr ""
+
+#: CPHeadAbout
+msgid " About IcedTea-Web "
+msgstr ""
+
+#: CPHeadNetworkSettings
+msgid " Network Proxy Settings "
+msgstr ""
+
+#: CPHeadTempInternetFiles
+msgid " Temporary Internet Files "
+msgstr ""
+
+#: CPHeadJRESettings
+msgid " Java Runtime Environment Settings "
+msgstr ""
+
+#: CPHeadCertificates
+msgid " Certificates "
+msgstr ""
+
+#: CPHeadDebugging
+msgid " Debugging Settings "
+msgstr ""
+
+#: CPHeadDesktopIntegration
+msgid " Desktop Integrations "
+msgstr ""
+
+#: CPHeadSecurity
+msgid " Security Settings "
+msgstr ""
+
+#: CPHeadJVMSettings
+msgid " JVM Settings "
+msgstr ""
+
+#: CPHeadPolicy
+msgid " Custom Policy Settings "
+msgstr ""
+
+#. # Control Panel - Tabs
+#: CPTabAbout
+msgid "About IcedTea-Web"
+msgstr ""
+
+#: CPTabCache
+msgid "Cache"
+msgstr ""
+
+#: CPTabCertificate
+msgctxt "CPTabCertificate"
+msgid "Certificates"
+msgstr ""
+
+#: CPTabClassLoader
+msgid "Class Loaders"
+msgstr ""
+
+#: CPTabDebugging
+msgid "Debugging"
+msgstr ""
+
+#: CPTabDesktopIntegration
+msgid "Desktop Integration"
+msgstr ""
+
+#: CPTabMenuShortcuts
+msgid "Manage installed menu shortcuts"
+msgstr ""
+
+#: CPTabNetwork
+msgid "Network"
+msgstr ""
+
+#: CPTabRuntimes
+msgid "Runtimes"
+msgstr ""
+
+#: CPTabSecurity
+msgctxt "CPTabSecurity"
+msgid "Security"
+msgstr ""
+
+#: CPTabJVMSettings
+msgid "JVM Settings"
+msgstr ""
+
+#: CPTabPolicy
+msgid "Policy Settings"
+msgstr ""
+
+#. # Control Panel - AboutPanel
+#: CPAboutInfo
+msgid ""
+"This is the control panel for setting deployments.properties.<br/>Not all "
+"options will take effect until implemented.<br/>The use of multiple JREs is "
+"currently limited to OpenJDK.<br/>"
+msgstr ""
+
+#. # Control Panel - AdvancedProxySettings
+#: APSDialogTitle
+msgid "Network Settings"
+msgstr ""
+
+#: APSServersPanel
+msgid "Servers"
+msgstr ""
+
+#: APSProxyTypeLabel
+msgctxt "APSProxyTypeLabel"
+msgid "Type"
+msgstr ""
+
+#: APSProxyAddressLabel
+msgid "Proxy Address"
+msgstr ""
+
+#: APSProxyPortLabel
+msgid "Proxy Port"
+msgstr ""
+
+#: APSLabelHTTP
+msgid "HTTP"
+msgstr ""
+
+#: APSLabelSecure
+msgid "Secure"
+msgstr ""
+
+#: APSLabelFTP
+msgid "FTP"
+msgstr ""
+
+#: APSLabelSocks
+msgid "Socks"
+msgstr ""
+
+#: APSSameProxyForAllProtocols
+msgid "Use the same proxy server for all protocols."
+msgstr ""
+
+#: APSExceptionsLabel
+msgid "Exceptions"
+msgstr ""
+
+#: APSExceptionsDescription
+msgid "Do not use proxy server for addresses beginning with"
+msgstr ""
+
+#: APSExceptionInstruction
+msgid "Separate each entry with a semicolon."
+msgstr ""
+
+#. # Control Panel - DebugginPanel
+#: CPDebuggingPossibilites
+msgid "Logging outputs"
+msgstr ""
+
+#: DPEnableLogging
+msgid "Enable debugging"
+msgstr ""
+
+#: DPEnableLoggingHint
+msgid ""
+"When this switch is on,  then also debug messages are logged. Same as -"
+"verbose or ICEDTEAPLUGIN_DEBUG=true"
+msgstr ""
+
+#: DPEnableHeaders
+msgid "Enable headers"
+msgstr ""
+
+#: DPEnableHeadersHint
+msgid ""
+"When this switch is on, each logged message have header with additional "
+"information like user, place in code  and time"
+msgstr ""
+
+#: DPEnableFile
+msgid "Enable logging to file"
+msgstr ""
+
+#: DPEnableLegacyFileLog
+msgid "Use java.util.logging instead of direct file writing"
+msgstr ""
+
+#: DPEnableClientAppFileLogging
+msgid "Fork client applications  outputs also to file"
+msgstr ""
+
+#: DPEnableLegacyFileLogHint
+msgid ""
+"java.util.logging is know to deadlock rarely when used on applications with "
+"custom logging extensions"
+msgstr ""
+
+#: DPEnableClientAppFileLoggingHint
+msgid ""
+"Logging of client apps is known to sometimes not work with java.util.logging "
+"on"
+msgstr ""
+
+#: CPFilesLogsDestDir
+msgid "File logs directory"
+msgstr ""
+
+#: CPFilesLogsDestDirResert
+msgid "Reset to default"
+msgstr ""
+
+#: DPEnableFileHint
+msgid "output messages will be saved to file in your {0}  directory"
+msgstr ""
+
+#: DPEnableStds
+msgid "Enable logging to standard outputs"
+msgstr ""
+
+#: DPEnableStdsHint
+msgid "messages will be printed to standard outputs"
+msgstr ""
+
+#: DPEnableSyslog
+msgid "Enable logging to system logs"
+msgstr ""
+
+#: DPEnableSyslogHint
+msgid "output messages will be saved to system logs"
+msgstr ""
+
+#: DPDisable
+msgid "Disable"
+msgstr ""
+
+#: DPHide
+msgid "Hide on startup"
+msgstr ""
+
+#: DPShow
+msgid "Show on startup"
+msgstr ""
+
+#: DPShowPluginOnly
+msgid "Show on plugin startup"
+msgstr ""
+
+#: DPShowJavawsOnly
+msgid "Show on javaws startup"
+msgstr ""
+
+#: DPJavaConsole
+msgid "Java Console"
+msgstr ""
+
+#: DPJavaConsoleDisabledHint
+msgid ""
+"Java console is disabled. Use itweb-settings to configure it out of disabled "
+"to any show or hide value."
+msgstr ""
+
+#. # PolicyEditor
+#: PETitle
+msgid "PolicyEditor"
+msgstr ""
+
+#: PETitleWithPath
+msgid "PolicyEditor - {0}"
+msgstr ""
+
+#: PETitleWithChangesMade
+msgid "{0} *"
+msgstr ""
+
+#: PEReadProps
+msgid "Read system properties"
+msgstr ""
+
+#: PEReadPropsDetail
+msgid ""
+"Allow applets to read system properties such as your username and home "
+"directory location"
+msgstr ""
+
+#: PEWriteProps
+msgid "Write system properties"
+msgstr ""
+
+#: PEWritePropsDetail
+msgid "Allow applets to (over)write system properties"
+msgstr ""
+
+#: PEReadFiles
+msgid "Read from local files"
+msgstr ""
+
+#: PEReadFilesDetail
+msgid "Allow applets to read from files in your home directory"
+msgstr ""
+
+#: PEWriteFiles
+msgid "Write to local files"
+msgstr ""
+
+#: PEWriteFilesDetail
+msgid "Allow applets to write to files in your home directory"
+msgstr ""
+
+#: PEDeleteFiles
+msgid "Delete local files"
+msgstr ""
+
+#: PEDeleteFilesDetail
+msgid "Allow applets to delete files in your home directory"
+msgstr ""
+
+#: PEReadSystemFiles
+msgid "Read all system files"
+msgstr ""
+
+#: PEReadSystemFilesDetail
+msgid "Allow applets read-only access to all locations on your computer"
+msgstr ""
+
+#: PEWriteSystemFiles
+msgid "Write all system files"
+msgstr ""
+
+#: PEWriteSystemFilesDetail
+msgid "Allow applets write-only access to all locations on your computer"
+msgstr ""
+
+#: PEReadTempFiles
+msgid "Read from temp files"
+msgstr ""
+
+#: PEReadTempFilesDetail
+msgid "Allow applets to read from your temporary files directory"
+msgstr ""
+
+#: PEWriteTempFiles
+msgid "Write to temp files"
+msgstr ""
+
+#: PEWriteTempFilesDetail
+msgid "Allow applets to write to your temporary files directory"
+msgstr ""
+
+#: PEDeleteTempFiles
+msgid "Delete temp files"
+msgstr ""
+
+#: PEDeleteTempFilesDetail
+msgid "Allow applets to delete files in your temporary files directory"
+msgstr ""
+
+#: PEAWTPermission
+msgid "Window System Access"
+msgstr ""
+
+#: PEAWTPermissionDetail
+msgid "Allow applets all AWT windowing system access"
+msgstr ""
+
+#: PEClipboard
+msgid "Access clipboard"
+msgstr ""
+
+#: PEClipboardDetail
+msgid "Allow applets to read from and write to your clipboard"
+msgstr ""
+
+#: PENetwork
+msgid "Access the network"
+msgstr ""
+
+#: PENetworkDetail
+msgid "Allow applets to establish any network connections"
+msgstr ""
+
+#: PEPrint
+msgid "Print documents"
+msgstr ""
+
+#: PEPrintDetail
+msgid "Allow applets to queue print jobs"
+msgstr ""
+
+#: PEPlayAudio
+msgid "Play sounds"
+msgstr ""
+
+#: PEPlayAudioDetail
+msgid "Allow applets to play sounds, but not record"
+msgstr ""
+
+#: PERecordAudio
+msgid "Record audio"
+msgstr ""
+
+#: PERecordAudioDetail
+msgid "Allow applets to record audio, but not play back"
+msgstr ""
+
+#: PEReflection
+msgid "Java reflection"
+msgstr ""
+
+#: PEReflectionDetail
+msgid "Allow applets to access the Java Reflection API"
+msgstr ""
+
+#: PEClassLoader
+msgid "Get ClassLoader"
+msgstr ""
+
+#: PEClassLoaderDetail
+msgid ""
+"Allow applets to access the system classloader (often used with Reflection)"
+msgstr ""
+
+#: PEClassInPackage
+msgid "Access other packages"
+msgstr ""
+
+#: PEClassInPackageDetail
+msgid ""
+"Allow applets to access classes from other applet packages (often used with "
+"Reflection)"
+msgstr ""
+
+#: PEDeclaredMembers
+msgid "Access private class data"
+msgstr ""
+
+#: PEDeclaredMembersDetail
+msgid ""
+"Allow applets to access normally hidden data from other Java classes (often "
+"used with Reflection)"
+msgstr ""
+
+#: PEAccessThreads
+msgid "Modify threads"
+msgstr ""
+
+#: PEAccessThreadsDetail
+msgid "Allow applets to start, stop, and otherwise manage threads"
+msgstr ""
+
+#: PEAccessThreadGroups
+msgid "Modify threadgroups"
+msgstr ""
+
+#: PEAccessThreadGroupsDetail
+msgid "Allow applets to start, stop, and otherwise manage thread groups"
+msgstr ""
+
+#: PEExec
+msgid "Execute commands"
+msgstr ""
+
+#: PEExecDetail
+msgid "Allow applets to execute system commands"
+msgstr ""
+
+#: PEGetEnv
+msgid "Get environment variables"
+msgstr ""
+
+#: PEGetEnvDetail
+msgid "Allow applets to read system environment variables"
+msgstr ""
+
+#: PECouldNotOpen
+msgid "Unable to open policy file"
+msgstr ""
+
+#: PECouldNotSave
+msgid "Unable to save policy file"
+msgstr ""
+
+#: PEAddEntry
+msgctxt "PEAddEntry"
+msgid "Add New..."
+msgstr ""
+
+#: PERemoveEntry
+msgctxt "PERemoveEntry"
+msgid "Remove"
+msgstr ""
+
+#: PEEntryPrompt
+msgid "Enter a new policy entry identifier"
+msgstr ""
+
+#: PEAddPrincipal
+msgid "Add Principal"
+msgstr ""
+
+#: PERemovePrincipal
+msgid "Remove Principal"
+msgstr ""
+
+#: PEEditPrincipal
+msgid "Edit Principal"
+msgstr ""
+
+#: PEGlobalSettings
+msgid "All Applets"
+msgstr ""
+
+#: PESaveChanges
+msgid "Save changes before exiting?"
+msgstr ""
+
+#: PEChangesSaved
+msgid "Changes saved"
+msgstr ""
+
+#: PECheckboxLabel
+msgid "Permissions"
+msgstr ""
+
+#: PEEntriesLabel
+msgid "Entries"
+msgstr ""
+
+#: PEFileMenu
+msgid "File"
+msgstr ""
+
+#: PENewMenuItem
+msgid "New"
+msgstr ""
+
+#: PEOpenMenuItem
+msgid "Open..."
+msgstr ""
+
+#: PEOpenDefaultMenuItem
+msgid "Open default policy file"
+msgstr ""
+
+#: PESaveMenuItem
+msgid "Save"
+msgstr ""
+
+#: PESaveAsMenuItem
+msgid "Save As..."
+msgstr ""
+
+#: PEExitMenuItem
+msgid "Exit"
+msgstr ""
+
+#: PEEntryMenu
+msgid "Entry"
+msgstr ""
+
+#: PEAddEntryItem
+msgctxt "PEAddEntryItem"
+msgid "Add New..."
+msgstr ""
+
+#: PERemoveEntryItem
+msgctxt "PERemoveEntryItem"
+msgid "Remove"
+msgstr ""
+
+#: PEModifySubmenuItem
+msgid "Modify"
+msgstr ""
+
+#: PEModifyCodebaseItem
+msgid "Codebase"
+msgstr ""
+
+#: PEModifySignedByItem
+msgid "Signed By"
+msgstr ""
+
+#: PEModifyPrincipalsItem
+msgid "Principals"
+msgstr ""
+
+#: PECopyEntryItem
+msgid "Copy"
+msgstr ""
+
+#: PEPasteEntryItem
+msgid "Paste..."
+msgstr ""
+
+#: PEModifyCodebase
+msgid "Change Codebase to:"
+msgstr ""
+
+#: PEModifyPrincipals
+msgid "Modify Principals:"
+msgstr ""
+
+#: PEModifySignedBy
+msgid "Changed SignedBy to:"
+msgstr ""
+
+#: PEPasteEntry
+msgid "Paste copied entry with codebase:"
+msgstr ""
+
+#: PEViewMenu
+msgid "View"
+msgstr ""
+
+#: PECustomPermissionsItem
+msgid "Custom Permissions..."
+msgstr ""
+
+#: PECodebaseInputLabel
+msgid "Codebase URL:"
+msgstr ""
+
+#: PESignedByInputLabel
+msgid "SignedBy:"
+msgstr ""
+
+#: PEPrincipalsInputLabel
+msgid "Principals:"
+msgstr ""
+
+#: PEPrincipalClassNameInputLabel
+msgid "Class Name:"
+msgstr ""
+
+#: PEPrincipalPrincipalNameInputLabel
+msgid "Principal Name:"
+msgstr ""
+
+#: PEFileModified
+msgid "File Modification Warning"
+msgstr ""
+
+#: PEFileModifiedDetail
+msgid ""
+"The policy file at {0} has been modified since it was opened. Reload and re-"
+"edit before saving?"
+msgstr ""
+
+#: PEFileMissing
+msgid ""
+"The policy file was missing from disk. A new file has been saved with the "
+"same name."
+msgstr ""
+
+#: PEGAccessUnownedCode
+msgid "Execute unowned code"
+msgstr ""
+
+#: PEGMediaAccess
+msgid "Media access"
+msgstr ""
+
+#: PEGRightClick
+msgid "Right click to fold/unfold"
+msgstr ""
+
+#: PEGReadFileSystem
+msgid "Read from system"
+msgstr ""
+
+#: PEGWriteFileSystem
+msgid "Write to system"
+msgstr ""
+
+#: PEClipboardError
+msgid "Clipboard does not appear to contain properly formatted policy entries"
+msgstr ""
+
+#: PEInvalidPolicy
+msgid ""
+"Paste Failed: Could not read policy entry for entry {0} from system clipboard"
+msgstr ""
+
+#: PEInvalidIdentifier
+msgctxt "PEInvalidIdentifier"
+msgid "Please fill in/modify at least one of the fields."
+msgstr ""
+
+#: PEIdentifierMatchesAll
+msgctxt "PEIdentifierMatchesAll"
+msgid "Please fill in/modify at least one of the fields."
+msgstr ""
+
+#: PEClipboardAccessError
+msgid "Could not read from clipboard"
+msgstr ""
+
+#: PEDefaultFileFilePathSpecifiedError
+msgid ""
+"Either -file (or simply a main argument) or -defaultfile may be specified, "
+"but not both"
+msgstr ""
+
+#: PEMainArgAndFileSwitchSpecifiedError
+msgid ""
+"Either -file may be specified or a main argument may be specified, but not "
+"both"
+msgstr ""
+
+#: PESignedByEmpty
+msgid "SignedBy cannot be empty"
+msgstr ""
+
+#: PEInvalidUrl
+msgid "Invalid URL: {0}"
+msgstr ""
+
+#: PEHelpMenu
+msgctxt "PEHelpMenu"
+msgid "Help"
+msgstr ""
+
+#: PEAboutPolicyEditorItem
+msgid "About PolicyEditor"
+msgstr ""
+
+#: PEPolicyEditorHelpItem
+msgctxt "PEPolicyEditorHelpItem"
+msgid "PolicyEditor Help"
+msgstr ""
+
+#: PEHelpDialogTitle
+msgctxt "PEHelpDialogTitle"
+msgid "PolicyEditor Help"
+msgstr ""
+
+#: PEHelpDialogContent
+msgid ""
+"<html><center><h1>PolicyEditor Help</h1></center>PolicyEditor allows you to "
+"secure java applets or applications you want to run with the specified "
+"permissions you decide to give it. <center><h2>Features</h2></center><ul><li/"
+"><b>Accessible:</b> through use of keyboard only, mouse only, or both<li/"
+"><b>Customize:</b> by specifying any permissions you decide to choose<li/"
+"><b>Secure:</b> your applets and applications to use only the permissions "
+"you specify<li/><b>Manage:</b> codebases and their respective permissions "
+"you set</ul>PolicyEditor works by specifying a codebase and checking the "
+"permissions you wish to grant to the current Java applet or application. To "
+"run the applet/application with only the specified permissions, use the "
+"sandbox button or specify sandbox mode in the manifest.<br><br>Within "
+"PolicyEditor there are many additional actions. Right-clicking or pressing "
+"enter (after tabbing to the group) on a permission group with a small arrow "
+"or chevron beside it will expand or collapse the given permission checkbox "
+"group. Other notable features are the ability to copy and paste a set of "
+"permissions into a new codebase, allowing for quick access to a user "
+"specified default permissions group. Also, you''re not limited to the "
+"predefined checkbox permissions. By accessing Custom Permissions through the "
+"view menu, you can add any customized permissions. </html>"
+msgstr ""
+
+#. # Policy Editor CustomPolicyViewer
+#: PECPTitle
+msgid "Custom Policy Viewer"
+msgstr ""
+
+#: PECPListLabel
+msgid "Other policies for {0}"
+msgstr ""
+
+#: PECPAddButton
+msgid "Add"
+msgstr ""
+
+#: PECPRemoveButton
+msgctxt "PECPRemoveButton"
+msgid "Remove"
+msgstr ""
+
+#: PECPCloseButton
+msgctxt "PECPCloseButton"
+msgid "Close"
+msgstr ""
+
+#: PECPType
+msgid "type"
+msgstr ""
+
+#: PECPTarget
+msgid "target"
+msgstr ""
+
+#: PECPActions
+msgid "actions"
+msgstr ""
+
+#: PECPPrompt
+msgid ""
+"Enter a custom permission. Do not include \"permission\" or punctuation "
+"marks."
+msgstr ""
+
+#. # PolicyEditor key mnemonics. See KeyEvent.VK_*
+#: PEFileMenuMnemonic
+msgid "F"
+msgstr ""
+
+#: PEEntryMenuMnemonic
+msgid "E"
+msgstr ""
+
+#: PEViewMenuMnemonic
+msgid "V"
+msgstr ""
+
+#: PEHelpMenuMnemonic
+msgctxt "PEHelpMenuMnemonic"
+msgid "H"
+msgstr ""
+
+#: PEAddEntryMnemonic
+msgctxt "PEAddEntryMnemonic"
+msgid "N"
+msgstr ""
+
+#: PEAddEntryItemMnemonic
+msgctxt "PEAddEntryItemMnemonic"
+msgid "N"
+msgstr ""
+
+#: PERemoveEntryMnemonic
+msgctxt "PERemoveEntryMnemonic"
+msgid "R"
+msgstr ""
+
+#: PERemoveEntryItemMnemonic
+msgctxt "PERemoveEntryItemMnemonic"
+msgid "R"
+msgstr ""
+
+#: PENewMenuItemMnemonic
+msgctxt "PENewMenuItemMnemonic"
+msgid "N"
+msgstr ""
+
+#: PEOpenMenuItemMnemonic
+msgid "O"
+msgstr ""
+
+#: PEOpenDefaultMenuItemMnemonic
+msgid "D"
+msgstr ""
+
+#: PESaveMenuItemMnemonic
+msgid "S"
+msgstr ""
+
+#: PEExitMenuItemMnemonic
+msgid "X"
+msgstr ""
+
+#: PECustomPermissionsItemMnemonic
+msgid "U"
+msgstr ""
+
+#: PECopyEntryItemMnemonic
+msgid "C"
+msgstr ""
+
+#: PEPasteEntryItemMnemonic
+msgid "P"
+msgstr ""
+
+#: PESaveAsMenuItemMnemonic
+msgctxt "PESaveAsMenuItemMnemonic"
+msgid "A"
+msgstr ""
+
+#: PEModifySubmenuItemMnemonic
+msgid "M"
+msgstr ""
+
+#: PEModifyEntryCodebaseItemMnemonic
+msgid "B"
+msgstr ""
+
+#: PEModifyEntryPrincipalsItemMnemonic
+msgid "I"
+msgstr ""
+
+#: PEModifyEntrySignedByItemMnemonic
+msgid "G"
+msgstr ""
+
+#: PEAboutPolicyEditorItemMnemonic
+msgctxt "PEAboutPolicyEditorItemMnemonic"
+msgid "A"
+msgstr ""
+
+#: PEPolicyEditorHelpItemMnemonic
+msgctxt "PEPolicyEditorHelpItemMnemonic"
+msgid "H"
+msgstr ""
+
+#. # See javax.swing.KeyStroke.getKeyStroke(String)
+#: PEAddEntryItemAccelerator
+msgid "control shift N"
+msgstr ""
+
+#: PERemoveEntryItemAccelerator
+msgid "DELETE"
+msgstr ""
+
+#: PENewMenuItemAccelerator
+msgid "control N"
+msgstr ""
+
+#: PEOpenMenuItemAccelerator
+msgid "control O"
+msgstr ""
+
+#: PEOpenDefaultMenuItemAccelerator
+msgid "control D"
+msgstr ""
+
+#: PESaveMenuItemAccelerator
+msgid "control S"
+msgstr ""
+
+#: PESaveAsMenuItemAccelerator
+msgid "control shift S"
+msgstr ""
+
+#: PEExitMenuItemAccelerator
+msgctxt "PEExitMenuItemAccelerator"
+msgid "control Q"
+msgstr ""
+
+#: PECustomPermissionsItemAccelerator
+msgid "control U"
+msgstr ""
+
+#: PECopyEntryItemAccelerator
+msgid "control C"
+msgstr ""
+
+#: PEPasteEntryItemAccelerator
+msgid "control V"
+msgstr ""
+
+#: PEModifyEntryCodebaseItemAccelerator
+msgid "F2"
+msgstr ""
+
+#: PEModifyEntryPrincipalsItemAccelerator
+msgid "shift F2"
+msgstr ""
+
+#: PEModifyEntrySignedByItemAccelerator
+msgid "control F2"
+msgstr ""
+
+#: PEAboutPolicyEditorCloseAccelerator
+msgctxt "PEAboutPolicyEditorCloseAccelerator"
+msgid "control Q"
+msgstr ""
+
+#. #conole itself labels
+#: CONSOLErungc
+msgid "Run GC"
+msgstr ""
+
+#: CONSOLErunFinalizers
+msgid "Run Finalizers"
+msgstr ""
+
+#: CONSOLErunningFinalizers
+msgid "Running finalization...."
+msgstr ""
+
+#: CONSOLEmemoryInfo
+msgid "Memory Info"
+msgstr ""
+
+#: CONSOLEsystemProperties
+msgid "System Properties"
+msgstr ""
+
+#: CONSOLEclassLoaders
+msgid "Available Classloaders"
+msgstr ""
+
+#: CONSOLEthreadList
+msgid "Thread List"
+msgstr ""
+
+#: CONSOLEthread
+msgid "Thread"
+msgstr ""
+
+#: CONSOLEnoClassLoaders
+msgid "No Classloader info exists in system"
+msgstr ""
+
+#: CONSOLEmemoryMax
+msgid "Max Memory"
+msgstr ""
+
+#: CONSOLEmemoryTotal
+msgid "Total Memory"
+msgstr ""
+
+#: CONSOLEmemoryFree
+msgid "Free Memory"
+msgstr ""
+
+#: CONSOLEClean
+msgid "Clear"
+msgstr ""
+
+#. # console output pane labels
+#: COPsortCopyAllDate
+msgid "sort copy all by date"
+msgstr ""
+
+#: COPshowHeaders
+msgid "Show headers:"
+msgstr ""
+
+#: COPuser
+msgid "user"
+msgstr ""
+
+#: COPorigin
+msgid "origin"
+msgstr ""
+
+#: COPlevel
+msgid "level"
+msgstr ""
+
+#: COPdate
+msgid "date"
+msgstr ""
+
+#: COPthread1
+msgid "thread 1"
+msgstr ""
+
+#: COPthread2
+msgid "thread 2"
+msgstr ""
+
+#: COPShowMessages
+msgid "Show messages"
+msgstr ""
+
+#: COPstdOut
+msgid "std. Out"
+msgstr ""
+
+#: COPstdErr
+msgid "std. Err"
+msgstr ""
+
+#: COPjava
+msgid "java"
+msgstr ""
+
+#: COPplugin
+msgid "plugin"
+msgstr ""
+
+#: COPpreInit
+msgid "pre-init"
+msgstr ""
+
+#: COPpluginOnly
+msgid "plugin only"
+msgstr ""
+
+#: COPSortBy
+msgid "Sort by"
+msgstr ""
+
+#: COPregex
+msgid "Regular expression filter"
+msgstr ""
+
+#: COPAsArrived
+msgid "As arrived (no sort)"
+msgstr ""
+
+#: COPcode
+msgid "code"
+msgstr ""
+
+#: COPmessage
+msgid "message"
+msgstr ""
+
+#: COPSearch
+msgid "Search"
+msgstr ""
+
+#: COPautoRefresh
+msgid "auto refresh"
+msgstr ""
+
+#: COPrefresh
+msgid "refresh"
+msgstr ""
+
+#: COPApply
+msgctxt "COPApply"
+msgid "Apply"
+msgstr ""
+
+#: COPmark
+msgid "mark"
+msgstr ""
+
+#: COPCopyAllPlain
+msgid "Copy all (plain)"
+msgstr ""
+
+#: COPCopyAllRich
+msgid "Copy all (rich)"
+msgstr ""
+
+#: COPnext
+msgid "next>>>"
+msgstr ""
+
+#: COPprevious
+msgid "<<<previous"
+msgstr ""
+
+#: COPcaseSensitive
+msgid "case sensitive"
+msgstr ""
+
+#: COPincomplete
+msgid "incomplete"
+msgstr ""
+
+#: COPhighlight
+msgid "highlight"
+msgstr ""
+
+#: COPwordWrap
+msgid "word wrap"
+msgstr ""
+
+#: COPdebug
+msgid "debug"
+msgstr ""
+
+#: COPinfo
+msgid "info"
+msgstr ""
+
+#: COPpostInit
+msgid "post-init"
+msgstr ""
+
+#: COPcomplete
+msgid "complete"
+msgstr ""
+
+#: COPmatch
+msgid "match"
+msgstr ""
+
+#: COPnot
+msgid "not"
+msgstr ""
+
+#: COPrevert
+msgid "revert"
+msgstr ""
+
+#: COPitw
+msgid "IcedTea-Web"
+msgstr ""
+
+#: COPclientApp
+msgid "Client app."
+msgstr ""
+
+#. # Control Panel - DesktopShortcutPanel
+#: DSPNeverCreate
+msgid "Never create"
+msgstr ""
+
+#: DSPAlwaysAllow
+msgid "Always allow"
+msgstr ""
+
+#: DSPAskUser
+msgid "Ask user"
+msgstr ""
+
+#: DSPAskIfHinted
+msgid "Ask if hinted"
+msgstr ""
+
+#: DSPAlwaysIfHinted
+msgid "Always if hinted"
+msgstr ""
+
+#. # Control Panel - NetworkSettingsPanel
+#: NSDescription-1
+msgid "Unknown Setting."
+msgstr ""
+
+#: NSDescription0
+msgid "Use direct connection."
+msgstr ""
+
+#: NSDescription1
+msgid "Override browser proxy settings."
+msgstr ""
+
+#: NSDescription2
+msgid "Use automatic proxy configuration script at the specified location."
+msgstr ""
+
+#: NSDescription3
+msgid ""
+"Use proxy settings from your default browser to connect to the internet."
+msgstr ""
+
+#: NSAddress
+msgid "Address"
+msgstr ""
+
+#: NSPort
+msgid "Port"
+msgstr ""
+
+#: NSAdvanced
+msgid "Advanced"
+msgstr ""
+
+#: NSBypassLocal
+msgid "Bypass proxy server for local addresses"
+msgstr ""
+
+#: NSDirectConnection
+msgid "Direct connection"
+msgstr ""
+
+#: NSManualProxy
+msgid "Manual proxy server"
+msgstr ""
+
+#: NSAutoProxy
+msgid "Automatic proxy configuration script"
+msgstr ""
+
+#: NSBrowserProxy
+msgid "Use browser settings"
+msgstr ""
+
+#: NSScriptLocation
+msgid "Script location"
+msgstr ""
+
+#. # Control Panel - SecurityGeneralPanel
+#: SGPAllowUserGrantSigned
+msgid "Allow users to grant permissions to signed content"
+msgstr ""
+
+#: SGPAllowUserGrantUntrust
+msgid "Allow users to grant permissions to content from an untrusted authority"
+msgstr ""
+
+#: SGPUseBrowserKeystore
+msgid "Use certificates and keys in browser keystore (Unsupported)"
+msgstr ""
+
+#: SGPUsePersonalCertOneMatch
+msgid ""
+"Use personal certificate automatically if only one matches server request "
+"(Unsupported)"
+msgstr ""
+
+#: SGPWarnCertHostMismatch
+msgid "Warn if site certificate does not match hostname"
+msgstr ""
+
+#: SGPShowValid
+msgid "Show site certificate even if it is valid (Unsupported)"
+msgstr ""
+
+#: SGPShowSandboxWarning
+msgid "Show sandbox warning banner"
+msgstr ""
+
+#: SGPAllowUserAcceptJNLPSecurityRequests
+msgid "Allow user to accept JNLP security requests"
+msgstr ""
+
+#: SGPCheckCertRevocationList
+msgid ""
+"Check certificates for revocation using Certificate Revocation Lists (CRLs) "
+"(Unsupported)"
+msgstr ""
+
+#: SGPEnableOnlineCertValidate
+msgid "Enable online certificate validation (Unsupported)"
+msgstr ""
+
+#: SGPEnableTrustedPublisherList
+msgid "Enable list of trusted publishers (Unsupported)"
+msgstr ""
+
+#: SGPEnableBlacklistRevocation
+msgid "Enable blacklist revocation check (Unsupported)"
+msgstr ""
+
+#: SGPEnableCachingPassword
+msgid "Enable caching password for authentication (Unsupported)"
+msgstr ""
+
+#: SGPUseSSL2
+msgid "Use SSL 2.0 compatible ClientHello format (Unsupported)"
+msgstr ""
+
+#: SGPUseSSL3
+msgid "Use SSL 3.0 (Unsupported)"
+msgstr ""
+
+#: SGPUseTLS1
+msgid "Use TLS 1.0 (Unsupported)"
+msgstr ""
+
+#. # Control Panel - TemporaryInternetFilesPanel
+#: TIFPEnableCache
+msgid "Keep temporary files on my computer"
+msgstr ""
+
+#: TIFPLocation
+msgid " Location "
+msgstr ""
+
+#: TIFPLocationLabel
+msgid "Select the location where temporary files are kept"
+msgstr ""
+
+#: TIFPChange
+msgid "Change"
+msgstr ""
+
+#: TIFPDiskSpace
+msgid " Disk space "
+msgstr ""
+
+#: TIFPCompressionLevel
+msgid "Select the compression level for JAR files"
+msgstr ""
+
+#: TIFPNone
+msgid "None"
+msgstr ""
+
+#: TIFPMax
+msgid "Max"
+msgstr ""
+
+#: TIFPCacheSize
+msgid "Set the amount of disk space for storing temporary files (MB)"
+msgstr ""
+
+#: TIFPDeleteFiles
+msgid "Delete files"
+msgstr ""
+
+#: TIFPViewFiles
+msgid "View files..."
+msgstr ""
+
+#: TIFPFileChooserChooseButton
+msgid "Choose"
+msgstr ""
+
+#: TIFPLimitCacheSize
+msgid "Limit cache size"
+msgstr ""
+
+#: TIFPCacheSizeSpinnerValueTooLargeWarning
+msgid "<html><b>WARNING:</b> Uses more space than {0} MB available</html>"
+msgstr ""
+
+#: TIFPCacheSizeSpinnerLargeValueWarning
+msgid "Available: {0} MB"
+msgstr ""
+
+#: TIFPCacheSizeSetToNoCaching
+msgid "Cached files will be deleted when IcedTea-Web terminates."
+msgstr ""
+
+#: TIFPCacheSizeSpinnerTooltip
+msgid "Minimum: {0} Maximum: {1}"
+msgstr ""
+
+#. # Control Panel - Cache Viewer
+#: CVCPDialogTitle
+msgid "Cache Viewer"
+msgstr ""
+
+#: CVCPButRefresh
+msgid "Refresh"
+msgstr ""
+
+#: CVCPButDelete
+msgctxt "CVCPButDelete"
+msgid "Delete"
+msgstr ""
+
+#: CVCPCleanCache
+msgid "Purge"
+msgstr ""
+
+#: CVCPCleanCacheTip
+msgid ""
+"Some errors may be caused by old files in your cache. Before submitting the "
+"bug, you may clear cache and try to run application again. \\\n"
+" You can clear cache by javaws -Xclearcache or via itw-settings Cache -> "
+"View files -> Purge"
+msgstr ""
+
+#: CVCPColLastModified
+msgid "Last Modified"
+msgstr ""
+
+#: CVCPColSize
+msgid "Size (Bytes)"
+msgstr ""
+
+#: CVCPColDomain
+msgid "Domain"
+msgstr ""
+
+#: CVCPColType
+msgctxt "CVCPColType"
+msgid "Type"
+msgstr ""
+
+#: CVCPColPath
+msgid "Path"
+msgstr ""
+
+#: CVCPColName
+msgctxt "CVCPColName"
+msgid "Name"
+msgstr ""
+
+#. # Control Panel - desktop integration manager
+#: DIMtitle
+msgid "IcedTea-Web Shortcut Manager"
+msgstr ""
+
+#: DIMremoveSelected
+msgid "Remove selected"
+msgstr ""
+
+#: DIMselectRelativeRecordsFromOtherColumns
+msgid "Select related records"
+msgstr ""
+
+#: DIMreloadLists
+msgctxt "DIMreloadLists"
+msgid "Reload"
+msgstr ""
+
+#: DIMselectAll
+msgid "Select all"
+msgstr ""
+
+#: DIMclearSelection
+msgid "Deselect all"
+msgstr ""
+
+#: DIMdescription
+msgid ""
+"Manage the shorctuts and resources (cached images, etc) IcedTea-Web created "
+"for desktop integration"
+msgstr ""
+
+#: DIMguessedDesktop
+msgid "Desktop folder as well guessed as possible."
+msgstr ""
+
+#: DIMselectionPreview
+msgid "Selection preview"
+msgstr ""
+
+#: DIMaskBeforeDelete
+msgid "Are you sure you want to delete {0} files?"
+msgstr ""
+
+#: DIMgeneratedJnlps
+msgid "Generated JNLPs"
+msgstr ""
+
+#: DIMgeneratedJnlpsTooltip
+msgid "All files in this list should be generated by IcedTea-Web!"
+msgstr ""
+
+#: DIMicons
+msgid "Icons"
+msgstr ""
+
+#: DIMiconsTooltip
+msgid "All files in this list should be icons cached by IcedTea-Web!"
+msgstr ""
+
+#: DIMorphans
+msgid "orphans"
+msgstr ""
+
+#: DIMorphansTooltip
+msgid "Will select all items which are not listed in any shortcut."
+msgstr ""
+
+#: DIMmenuItems
+msgid "Menu Items"
+msgstr ""
+
+#: DIMmenuItemsTooltip
+msgid "All shortcuts in this list should be generated by IcedTea-Web!"
+msgstr ""
+
+#: DIMdesktopItems
+msgid "Desktop Items"
+msgstr ""
+
+#: DIMdesktopItemsTooltipL1
+msgid "Not all your shortcuts on your Desktop were generated by IcedTea-Web!"
+msgstr ""
+
+#: DIMdesktopItemsTooltipL2
+msgid "For your convenience:"
+msgstr ""
+
+#: DIMdesktopItemsTooltipL3
+msgid "red items were probably not generated by IcedTea-Web"
+msgstr ""
+
+#: DIMdesktopItemsTooltipL4
+msgid ""
+"dark green items are browser shortcuts, so they were probably generated by "
+"IcedTea-Web"
+msgstr ""
+
+#: DIMdesktopItemsTooltipL5
+msgid ""
+"green items are javaws shortcuts, so they were very likely generated by "
+"IcedTea-Web"
+msgstr ""
+
+#: DIMdesktopItemsTooltipL6
+msgid ""
+"In all cases, be careful what you delete, and verify connections with "
+"`select related records` mode"
+msgstr ""
+
+#: DIMgeneratedButton
+msgid "generated"
+msgstr ""
+
+#: DIMgeneratedButtonTooltip
+msgid "Will select related generated stuff."
+msgstr ""
+
+#: DIMiconsButton
+msgid "icons"
+msgstr ""
+
+#: DIMiconsButtonTooltip
+msgid "Will select related cached icons."
+msgstr ""
+
+#. # Control Panel - Misc.
+#: CPJRESupport
+msgid "IcedTea-Web currently does not support the use of multiple JREs."
+msgstr ""
+
+#: CPInvalidPort
+msgid ""
+"Invalid port number given.\n"
+"[Valid port numbers are 1-65535]"
+msgstr ""
+
+#: CPInvalidPortTitle
+msgid "Error on input."
+msgstr ""
+
+#. # command line control panel
+#: CLNoInfo
+msgid "No information available (is this a valid option?)."
+msgstr ""
+
+#: CLValue
+msgid "Value: {0}"
+msgstr ""
+
+#: CLValueSource
+msgid "Source: {0}"
+msgstr ""
+
+#: CLDescription
+msgid "Description: {0}"
+msgstr ""
+
+#: CLUnknownCommand
+msgid "Unknown command {0}"
+msgstr ""
+
+#: CLUnknownProperty
+msgid "Unknown property-name \"{0}\""
+msgstr ""
+
+#: CLWarningUnknownProperty
+msgid "WARNING: Unknown property name \"{0}\" - creating new property"
+msgstr ""
+
+#: CLNoIssuesFound
+msgid "No issues found."
+msgstr ""
+
+#: CLIncorrectValue
+msgctxt "CLIncorrectValue"
+msgid "Property \"{0}\" has incorrect value \"{1}\". Possible values {2}."
+msgstr ""
+
+#: CLListDescription
+msgid ""
+"Shows a list of all property names and values that are in use by IcedTea-Web"
+msgstr ""
+
+#: CLGetDescription
+msgid "Shows the value for property-name"
+msgstr ""
+
+#: CLSetDescription
+msgid ""
+"Sets the property-name to value if possible. The value is checked for being "
+"valid. If the administrator has locked the property, this will have no effect"
+msgstr ""
+
+#: CLResetDescription
+msgid ""
+"Resets the value for property-name to it''s default value.\n"
+"all resets all properties recognized by IcedTea-Web to their default value."
+msgstr ""
+
+#: CLInfoDescription
+msgid "Shows more information about the given property"
+msgstr ""
+
+#: CLCheckDescription
+msgid ""
+"Shows any properties that have been defined but are not recognized by "
+"IcedTea-Web"
+msgstr ""
+
+#: CLUnexpectedNumberOfCommands
+msgid "Itweb-settings can only run one command at a time."
+msgstr ""
+
+#. #  splash screen related
+#: SPLASHerror
+msgid "Click here for details. An exception has occurred."
+msgstr ""
+
+#: SPLASH_ERROR
+msgid "ERROR"
+msgstr ""
+
+#: SPLASHtitle
+msgid "Title"
+msgstr ""
+
+#: SPLASHvendor
+msgid "Vendor"
+msgstr ""
+
+#: SPLASHhomepage
+msgid "Homepage"
+msgstr ""
+
+#: SPLASHdescription
+msgid "Description"
+msgstr ""
+
+#: SPLASHClose
+msgctxt "SPLASHClose"
+msgid "Close"
+msgstr ""
+
+#: SPLASHclosewAndCopyException
+msgid "Close and copy the stack trace to clipboard"
+msgstr ""
+
+#: SPLASHexOccured
+msgid "An exception has occurred..."
+msgstr ""
+
+#: SPLASHHome
+msgid "Home"
+msgstr ""
+
+#: SPLASHcantCopyEx
+msgid "Cannot copy exception"
+msgstr ""
+
+#: SPLASHnoExRecorded
+msgid "No exception recorded"
+msgstr ""
+
+#: SPLASHmainL1
+msgid ""
+"For even more information you can visit {0} and follow the steps described "
+"there on how to obtain necessary information to file bug"
+msgstr ""
+
+#: SPLASHmainL3
+msgid ""
+"No further information available, try to launch the browser from the command "
+"line and examine the output."
+msgstr ""
+
+#: SPLASHcloseAndCopyShorter
+msgid "Close and copy to clipboard"
+msgstr ""
+
+#: SPLASHmainL4
+msgid ""
+"The following exception has occurred. For more information, try to launch "
+"the browser from the command line and examine the output."
+msgstr ""
+
+#: SPLASHmainL2
+msgid ""
+"Additional information may be available in the console or logs. Even more "
+"information is available if debugging is enabled."
+msgstr ""
+
+#: SPLASHexWas
+msgid "Exception was:"
+msgstr ""
+
+#: SPLASHcfl
+msgid "Can''t follow link to"
+msgstr ""
+
+#: SPLASHvendorsInfo
+msgid "Information from vendor of your application"
+msgstr ""
+
+#: SPLASHanotherInfo
+msgid "Another available info"
+msgstr ""
+
+#: SPLASHdefaultHomepage
+msgid "Unspecified homepage, verify source rather"
+msgstr ""
+
+#: SPLASHerrorInInformation
+msgid "Error during loading of information element, verify source rather"
+msgstr ""
+
+#: SPLASHmissingInformation
+msgid "Information element is missing, verify source rather"
+msgstr ""
+
+#: SPLASHchainWas
+msgid ""
+"This is the list of exceptions that occurred launching your applet. Please "
+"note, those exceptions can originate from multiple applets. For a helpful "
+"bug report, be sure to run only one applet."
+msgstr ""
+
+#: CBCheckFile
+msgid ""
+"The application is a local file. Codebase validation is disabled. See: "
+"http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/"
+"no_redeploy.html for details."
+msgstr ""
+
+#: CBCheckNoEntry
+msgid ""
+"This application does not specify a Codebase in its manifest. Please verify "
+"with the applet''s vendor. Continuing. See: http://docs.oracle.com/javase/7/"
+"docs/technotes/guides/jweb/security/no_redeploy.html for details."
+msgstr ""
+
+#: CBCheckUnsignedPass
+msgid ""
+"Codebase matches codebase manifest attribute, but application is unsigned. "
+"Continuing. See: http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/"
+"security/no_redeploy.html for details."
+msgstr ""
+
+#: CBCheckUnsignedFail
+msgid ""
+"The application''s codebase does NOT match the codebase specified in its "
+"manifest, but the application is unsigned. Continuing. See: http://docs."
+"oracle.com/javase/7/docs/technotes/guides/jweb/security/no_redeploy.html for "
+"details."
+msgstr ""
+
+#: CBCheckOkSignedOk
+msgid ""
+"Codebase matches codebase manifest attribute, and application is signed. "
+"Continuing. See: http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/"
+"security/no_redeploy.html for details."
+msgstr ""
+
+#: CBCheckSignedAppletDontMatchException
+msgid ""
+"Signed applets are not allowed to run when their actual Codebase does not "
+"match the Codebase specified in their manifest. Expected: {0}. Actual: {1}. "
+"See: http://docs.oracle.com/javase/7/docs/technotes/guides/jweb/security/"
+"no_redeploy.html for details."
+msgstr ""
+
+#: CBCheckSignedFail
+msgid ""
+"Application Codebase does NOT match the Codebase specified in the "
+"application''s manifest, and this application is signed. You are strongly "
+"discouraged from running this application. See: http://docs.oracle.com/"
+"javase/7/docs/technotes/guides/jweb/security/no_redeploy.html for details."
+msgstr ""
+
+#. # itweb man base (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
+#: ITWTBbugs
+msgid "There aren''t any known bugs. If you come across one, please file it at"
+msgstr ""
+
+#: ITWTBdebug
+msgid ""
+"Please run in debug (-verbose switch or itw-settings setting or "
+"ICEDTEAPLUGIN_DEBUG variable set to true) mode and include that output (best "
+"is from java console) with URL to jnlp or html file (or the jnlp/html file "
+"or  application itself) when filing out the bug report."
+msgstr ""
+
+#: ITWTBwritten
+msgid "Written and maintained by the IcedTea contributors."
+msgstr ""
+
+#: ITWTBdirs
+msgid ""
+"Where $XDG_CONFIG_DIR, $XDG_CACHE_DIR and $XDG_RUNTIME_DIR are  set  as ~/."
+"config, ~/.cache and /tmp or /var/tmp if not set."
+msgstr ""
+
+#. # itweb-settings man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
+#: ITWSintro
+msgid ""
+"- view and modify settings for <B>javaws </B>and the <B>browser plugin</B>"
+msgstr ""
+
+#: ITWSsynops
+msgid "command arguments"
+msgstr ""
+
+#: IWSdescL1
+msgid ""
+"is a command line and a GUI program to modify and edit settings used by the "
+"IcedTea-Web implementation of<B> javaws </B>and the <B>browser plugin</B>."
+msgstr ""
+
+#: IWSdescL2
+msgid ""
+"If executed without any arguments, it starts up a GUI. Otherwise, it tries "
+"to do what is specified in the argument."
+msgstr ""
+
+#: IWSdescL3
+msgid ""
+"The command-line allows quickly searching, making a copy of and modifying "
+"specific settings without having to hunt through a UI."
+msgstr ""
+
+#: IWSexampleL1
+msgid "Show the GUI editor"
+msgstr ""
+
+#: IWSexampleL2
+msgid "Resets the value of `{0}` setting."
+msgstr ""
+
+#: ITWSdefault
+msgid "default"
+msgstr ""
+
+#: IWSexampleL3
+msgid "Known properties"
+msgstr ""
+
+#: IWSexampleL31
+msgid "(key, value and default value (if different)):"
+msgstr ""
+
+#: IWSexampleL32
+msgid "(key and default value):"
+msgstr ""
+
+#: IWSpossible
+msgid "Possible:"
+msgstr ""
+
+#. # itweb-plugin man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
+#: ITWPintro
+msgid "- allow to run <B>java applets </B>in your favorite <B>browser</B>"
+msgstr ""
+
+#: ITWPsynopsL1
+msgid "is working in your browser, once your browser knows about this files."
+msgstr ""
+
+#: ITWPsynopsL2
+msgid "The {0} must be placed, or linked inside specific directories. See {1}"
+msgstr ""
+
+#: ITWPsynopsL3
+msgid ""
+"<B> Mozilla compatible browsers </B>like Firefox, Midori, Epiphany, Chrome "
+"or Chromium use:"
+msgstr ""
+
+#: ITWPsynopsL4
+msgid "<B> Opera family browsers </B>like Opera use:"
+msgstr ""
+
+#: ITWPtrademarks
+msgid "All third-party trademarks are the property of their respective owners"
+msgstr ""
+
+#. # files descriptions
+#: FILEpipe
+msgid ""
+"Contains in and out pipe for native2java communication and (if enabled) "
+"debugging pipe."
+msgstr ""
+
+#: FILEmozillauser
+msgid ""
+"Location of plugin library for user''s purposes on Mozilla compliant browser."
+msgstr ""
+
+#: FILEmozillaglobal64
+msgid ""
+"Location of plugin library for global purposes  on Mozilla compliant "
+"browser, 64-bit systems."
+msgstr ""
+
+#: FILEmozillaglobal32
+msgid ""
+"Location of plugin library for global purposes  on Mozilla compliant "
+"browser, 32-bit systems."
+msgstr ""
+
+#: FILEopera64
+msgid ""
+"Location of plugin library for global purposes  on opera compliant browser, "
+"64-bit systems."
+msgstr ""
+
+#: FILEopera32
+msgid ""
+"Location of plugin library for global purposes  on opera compliant browser, "
+"32-bit systems."
+msgstr ""
+
+#: TAGSOUPtail
+msgid ""
+"You may have missing tagsoup installation or your ITW was not built against "
+"it. Check your installation and/or consult distribution."
+msgstr ""
+
+#: TAGSOUPnotUsed
+msgid ""
+"You are not using Malformed parser. If you have set {0}, remove it. Or..."
+msgstr ""
+
+#: TAGSOUPbroken
+msgid "Broken Malformed parser."
+msgstr ""
+
+#: TAGSOUPhtmlNotUsed
+msgid ""
+"Tagsoup''s html2xml cleaning is Disabled. Remove {0}. Parsing will probably "
+"fail."
+msgstr ""
+
+#: TAGSOUPhtmlBroken
+msgid ""
+"Tagsoup''s html2xml cleaning not loaded. Install tagsoup (and build ITW "
+"against). Parsing will probably fail."
+msgstr ""
+
+#: FILEcache
+msgid "Contains cached runtime entries."
+msgstr ""
+
+#: FILErecentlyUsed
+msgid "Additional information about items in cache"
+msgstr ""
+
+#: FILEappdata
+msgid "Contains saved application data."
+msgstr ""
+
+#: FILElogs
+msgid ""
+"contains file-log files (if enabled), itw-cplugin-date_time.log for native "
+"part of plugin, itw-javantx-date_time.log for everything else."
+msgstr ""
+
+#: FILEicons
+msgid ""
+"Location where icons of javaws applications desktop/menu launchers icons are "
+"stored"
+msgstr ""
+
+#: FILEjnlps
+msgid ""
+"Location where jnlp files generated from html pages for javaws applications "
+"desktop/menu launchers icons are stored"
+msgstr ""
+
+#: FILEmenus
+msgid "Subdirectory in users menus space, for placing custom menu shortcuts."
+msgstr ""
+
+#: FILEextasuser
+msgid ""
+"File responsible for various actions on applets and apps based on their "
+"codebase based on users actions."
+msgstr ""
+
+#: FILEextasadmin
+msgid ""
+"File responsible for various actions on applets and apps based on their "
+"codebase based on admins actions."
+msgstr ""
+
+#: FILEglobaldp
+msgid "Global deployment config file."
+msgstr ""
+
+#: FILEtmpappdata
+msgid "Contains temporary runtime files."
+msgstr ""
+
+#: FILElocksdir
+msgid "Location of netx locks."
+msgstr ""
+
+#: FILEmainlock
+msgid "Location of netx main lock."
+msgstr ""
+
+#: FILEpolicy
+msgid "Contains granted permissions for selected unsigned apps."
+msgstr ""
+
+#: FILEusercerts
+msgid "Contains  various users stored certificates."
+msgstr ""
+
+#: FILEjavacerts
+msgid "Contains  various system java-wide stored certificates."
+msgstr ""
+
+#: FILEjavadp
+msgid "java-global deployment properties file. May be affected by {0}."
+msgstr ""
+
+#: FILEuserdp
+msgid "Users main deployment properties file."
+msgstr ""
+
+#. # extended policy editor
+#: EPEexpert
+msgid "Expert edit"
+msgstr ""
+
+#: EPEsave
+msgid "Save and close"
+msgstr ""
+
+#: EPEcancel
+msgid "Cancel and close"
+msgstr ""
+
+#: EPEhelp1
+msgid "add/remove rules"
+msgstr ""
+
+#: EPEhelp2
+msgid "select rule type"
+msgstr ""
+
+#: EPEhelp3
+msgid "select decision"
+msgstr ""
+
+#: EPEhelp4
+msgid "modify field manually"
+msgstr ""
+
+#: EPEhelp5
+msgid "Double click first two columns to launch rule editor."
+msgstr ""
+
+#: EPEexpertHelp
+msgid ""
+"Here you can edit saved value. For most actions this do not meter, however "
+"others have really complicated statements. Edit only if you know what you "
+"are doing! But sometimes it is a bit obvious..."
+msgstr ""
+
+#: EPEexpertHint
+msgid "Carefully edit saved values:"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelExtraHighId
+msgid "Disable running of all Java applets"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelVeryHighId
+msgid "Very High Security"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelHighId
+msgid "High Security"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelLowId
+msgid "Low Security"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelExtraHighExplanation
+msgid "No applet will be run"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelVeryHighExplanation
+msgid "No unsigned applets will be run"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelHighExplanation
+msgid "User will be prompted for each unsigned applet"
+msgstr ""
+
+#: APPEXTSECappletSecurityLevelLowExplanation
+msgid "All, even unsigned, applets will be run"
+msgstr ""
+
+#: APPEXTSECunsignedAppletActionAlways
+msgid "Always trust this (matching) applet(s)"
+msgstr ""
+
+#: APPEXTSECunsignedAppletActionNever
+msgid "Never trust this (matching) applet(s)"
+msgstr ""
+
+#: APPEXTSECunsignedAppletActionYes
+msgid "This applet was visited and allowed"
+msgstr ""
+
+#: APPEXTSecunsignedAppletActionSandbox
+msgid "This applet was visited and allowed to run with restricted privileges"
+msgstr ""
+
+#: APPEXTSECunsignedAppletActionNo
+msgid "This applet was visited and denied"
+msgstr ""
+
+#: APPEXTSECControlPanelExtendedAppletSecurityTitle
+msgid "Extended applet security"
+msgstr ""
+
+#: APPEXTSECguiTableModelTableColumnRD
+msgid "Remembered decisions"
+msgstr ""
+
+#: APPEXTSECguiTableModelTableColumnDateOfAction
+msgid "Date of action"
+msgstr ""
+
+#: APPEXTSECguiTableModelTableColumnDocumentBase
+msgid "Document-base"
+msgstr ""
+
+#: APPEXTSECguiTableModelTableColumnCodeBase
+msgid "Code-base"
+msgstr ""
+
+#: APPEXTSECguiTableModelTableColumnArchives
+msgid "Archives"
+msgstr ""
+
+#: APPEXTSECguiPanelAppletInfoHederPart1
+msgid "{0} {1}"
+msgstr ""
+
+#: APPEXTSECguiPanelAppletInfoHederPart2
+msgid "{0} from  {1}"
+msgstr ""
+
+#: APPEXTSECguiPanelConfirmDeletionOf
+msgid "Are you sure you want to delete following {0} items"
+msgstr ""
+
+#: APPEXTSECguiPanelHelpButton
+msgctxt "APPEXTSECguiPanelHelpButton"
+msgid "Help"
+msgstr ""
+
+#: APPEXTSECguiPanelSecurityLevel
+msgid "Security Level"
+msgstr ""
+
+#: APPEXTSECguiPanelGlobalBehaviourCaption
+msgid "Settings of global behavior for applets"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteMenuSelected
+msgid "selected"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteMenuAllA
+msgid "all allowed (A)"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteMenuAllN
+msgid "all forbidden (N)"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteMenuAlly
+msgid "all approved (y)"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteMenuAlln
+msgid "all rejected (n)"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteMenuAllAll
+msgid "absolute all"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteButton
+msgctxt "APPEXTSECguiPanelDeleteButton"
+msgid "Delete"
+msgstr ""
+
+#: APPEXTSECguiPanelDeleteButtonToolTip
+msgid ""
+"You can press delete key during browsing the table. It will act as delete "
+"selected"
+msgstr ""
+
+#: APPEXTSECguiPanelTestUrlButton
+msgid "Test url"
+msgstr ""
+
+#: APPEXTSECguiPanelAddRowButton
+msgid "Add new row"
+msgstr ""
+
+#: APPEXTSECguiPanelValidateTableButton
+msgid "Validate table"
+msgstr ""
+
+#: APPEXTSECguiPanelAskeforeActionBox
+msgid "Ask me before action"
+msgstr ""
+
+#: APPEXTSECguiPanelShowRegExesBox
+msgid "Show full regular expressions"
+msgstr ""
+
+#: APPEXTSECguiPanelInverSelection
+msgid "Invert selection"
+msgstr ""
+
+#: APPEXTSECguiPanelMoveRowUp
+msgid "Move row up"
+msgstr ""
+
+#: APPEXTSECguiPanelMoveRowDown
+msgid "Move row down"
+msgstr ""
+
+#: APPEXTSECguiPanelCustomDefs
+msgid "User definitions"
+msgstr ""
+
+#: APPEXTSECguiPanelGlobalDefs
+msgid "System definitions"
+msgstr ""
+
+#: APPEXTSECguiPanelDocTest
+msgid "Type document base URL"
+msgstr ""
+
+#: APPEXTSECguiPanelCodeTest
+msgid "Type code base URL"
+msgstr ""
+
+#: APPEXTSECguiPanelNoMatch
+msgid "Nothing matched"
+msgstr ""
+
+#: APPEXTSECguiPanelMatchingNote
+msgid ""
+"Please note, that only first matched result will be considered as result."
+msgstr ""
+
+#: APPEXTSECguiPanelMatched
+msgid "Matched"
+msgstr ""
+
+#: APPEXTSECguiPanelMatchingError
+msgid "Error during matching: {0}"
+msgstr ""
+
+#: APPEXTSECguiPanelCanNotValidate
+msgid "Cannot validate, cannot create tmp file - {0}"
+msgstr ""
+
+#: APPEXTSECguiPanelEmptyDoc
+msgid "All document-bases must be full"
+msgstr ""
+
+#: APPEXTSECguiPanelEmptyCode
+msgid "All code-bases must be full"
+msgstr ""
+
+#: APPEXTSECguiPanelTableValid
+msgid "Table looks valid"
+msgstr ""
+
+#: APPEXTSECguiPanelTableInvalid
+msgid "Invalid with following error: {0}"
+msgstr ""
+
+#: APPEXTSECguiPanelShowOnlyPermanent
+msgid "Show only permanent records"
+msgstr ""
+
+#: APPEXTSECguiPanelShowOnlyTemporal
+msgid "Show only previously temporarily decided records"
+msgstr ""
+
+#: APPEXTSECguiPanelShowAll
+msgid "Show all records"
+msgstr ""
+
+#: APPEXTSECguiPanelShowOnlyPermanentA
+msgid "Show only allowed permanent records"
+msgstr ""
+
+#: APPEXTSECguiPanelShowOnlyPermanentN
+msgid "Show only forbidden permanent records"
+msgstr ""
+
+#: APPEXTSECguiPanelShowOnlyTemporalY
+msgid "Show previously allowed applets records"
+msgstr ""
+
+#: APPEXTSECguiPanelShowOnlyTemporalN
+msgid "Show previously denied applets records"
+msgstr ""
+
+#: APPEXTSEChelpHomeDialogue
+msgid "Dialogue"
+msgstr ""
+
+#: APPEXTSEChelp
+msgid ""
+"<body> <h1>Help for Extended applet security - itw-settings, files and "
+"structures, dialogue</h1> <p> Extended Applet Security refers to security "
+"features for unsigned applets. Traditionally, only signed applets required "
+"user confirmation and unsigned applets ran automatically. This is "
+"represented by the ''low security'' setting. Unsigned applets must be "
+"allowed or disallowed individually on ''high security'' (the default), and "
+"additionally do not run at all on ''very high security''. In theory, "
+"unsigned applets can safely run automatically. In practice, however, any "
+"vulnerability in the Java security sandbox will prevent this from being "
+"true. </p> <p> To do so it uses  the <b>Security Level</b> main settings "
+"switch rules in the tables of <b>Custom definitions</b> and <b>Global "
+"definitions</b><br/> You can read much more about development of (and help "
+"us to improve!) this feature at <a href=\"{3}\">dedicated IcedTea-Web page</"
+"a> </p> <A name=\"level\"><h2>Security Level</h2></A> <p> Its a main switch "
+"for \"extended applet security\". Its value is commonly stored in "
+"users_home/.icedtea/deployment.properties, but can be enforced via global "
+"settings in /etc/.java/deployment/deployment.properties or JAVA_HOME/lib/"
+"deployment.properties under the key <b>deployment.security.level</b><br/> "
+"<li/><b>Disable running of all Java applets</b> - stored as <i>DENY_ALL</i> "
+"- No applet will be run<br/> <blockquote cite=\"\" > No applet will be "
+"allowed to run. However the Java virtual machine will always be executed "
+"(and an error screen with reason appear instead of applets). To disable Java "
+"completely you can uninstall IcedTea-Web or disable it in your browser (if "
+"supported). The tables with records are of course ignored. </blockquote> <li/"
+"><b>Very High Security</b> - stored as <i>DENY_UNSIGNED</i> - No unsigned "
+"applets will be run<br/> <blockquote cite=\"\" > No applet <b>unsigned</b> "
+"will be allowed to run (and an error screen with reason will appear instead "
+"of such applets). The tables with records are of course again ignored. </"
+"blockquote> <li/><b>High Security</b> - stored as <i>ASK_UNSIGNED</i> - User "
+"will be prompted for each unsigned applet<br/> <blockquote cite=\"\" > All "
+"<b>unsigned</b> applets will be tested against the tables below if they "
+"should be allowed or forbidden to run. If they are not matched in the table "
+"then the user is prompted and the decision is stored in <a href=\"#table"
+"\">tables</a> below. If the user denies the applet, an error screen with "
+"reason appears and the applet does not run. If the user allows applets to "
+"run, the user can choose to save this decision and whether to allow just one "
+"applet or a whole group of applets (see <a href=\"#dialogue\"><b>Dialogue</"
+"b> paragraph </a>below). <br/>This is default behavior. </blockquote> <li/"
+"><b>Low Security</b> - stored as <i>ALLOW_UNSIGNED</i> - All, even unsigned, "
+"applets will be run<br/> <blockquote cite=\"\" > All applets <b>even "
+"unsigned</b> will be allowed to run. User will not be warned and the tables "
+"with records are of course again ignored. </blockquote> You need to press "
+"<b>ok</b> or <b>apply</b> button to make the changes take effect. </p> "
+"<h2><A name=\"table\">Table with recorded actions</A></h2> <p> <h4>Custom x "
+"Global table</h4> After each action in <b>High Security</b> dialogue the "
+"record is added to, or updated in, the table or configuration file. Commonly "
+"in users file - home/.icedtea/.appletTrustSettings - \"Custom definition\" "
+"panel.<br/> But superuser can specify default behavior in /etc/.java/"
+"deployment/ .appletTrustSettings - \"Global definition\" panel.<br/> <h4>"
+"\"Syntax\"</h4> <li/><b>Action</b> - Desired behavior when applet is "
+"matched<br/> <blockquote cite=\"\" > <li/><b>Always trust this applet</b> - "
+"This unsigned applet will always be run in High Security Security Level. It "
+"is stored as <i>A</i> in .appletTrustSettings<br/> <li/><b>Never trust this "
+"applet</b> - This unsigned applet will never be run in High Security "
+"Security Level. It is stored as <i>N</i> in .appletTrustSettings<br/> <li/"
+"><b>Visited and allowed</b> - When the user is asked about this applet "
+"again, a note that this applet was already trusted in past will be "
+"displayed. It is stored as <i>y</i> in .appletTrustSettings<br/> <li/"
+"><b>Visited and denied</b> - When user will be asked about this applet "
+"again, he will see information that this applet was already denied in past. "
+"It is stored as <i>n</i> in .appletTrustSettings<br/> </blockquote> <li/"
+"><b>Date</b> - date of last action on this item (read only item)<br/> <li/"
+"><b>Document base</b> - is the page from which the applet was requested. It "
+"is actually a regular expression to match a specific URL. See about regular "
+"expressions and their usage <a href=\"#regexes\">lower</a><br/> <li/><b>Code "
+"base</b> - is the URL where an applets code came from. It is actually a "
+"regular expression to match a specific URL. See about regular expressions "
+"and their usage <a href=\"#regexes\">lower</a><br/> <li/><b>Archives</b> - "
+"coma separated list of archives with applet''s code. Can be empty if source "
+"code are just classes or group of applets is allowed<br/> <br/> When you "
+"change a value in the table, its effect is immediate. <h4>Controls of "
+"tables</h4> <p> <li/><b>Delete</b> - deletes items as specified in combo box "
+"on side<br/> <blockquote cite=\"\" > <li/><b>selected</b> - removes all "
+"selected items. Key <b>Del</b> does the same. Default behavior. <b>Multiple "
+"selections</b> allowed. Selection can be inverted by button even more on "
+"side<br/> <li/><b>all allowed (A)</b> - removes all permanently trusted "
+"records<br/> <li/><b>all forbidden (N)</b> - removes all permanently "
+"forbidden records<br/> <li/><b>all approved (y)</b> - removes all previously "
+"(temporarily) trusted records<br/> <li/><b>all rejected (n)</b> - removes "
+"all previously (temporarily) denied records<br/> <li/><b>all</b> - will "
+"clear the table<br/> <br/> <b>Ask me before action</b> - switch to ask "
+"before each deletion (in bulk) or not to ask. Asking dialogue can be pretty "
+"long, so if you do not see the buttons, just press <b>Esc</b> </blockquote> "
+"<li/><b>Show full regular expressions</b> - Disable or Enable filtering of "
+"quotation marks QE in code/document base columns. About regular expressions "
+"see more <a href=\"#regexes\">lower</a><br/> <br/> <li/>Filtering in "
+"table(s)<br/> <blockquote cite=\"\" > <li/><b>Show only permanent records</"
+"b> - Shows only permanently allowed <b>(A)</b> or denied <b>(N)</b> records. "
+"Default behavior<br/> <li/><b>Show only temporarily decided records</b> - "
+"Shows only once allowed <b>(y)</b> or denied <b>(n)</b> informative records."
+"<br/> <li/><b>Show only permanently allowed records</b> - Shows only "
+"permanently allowed <b>(A)</b> records<br/> <li/><b>Show only permanently "
+"denied records</b> - Shows only permanently denied <b>(N)</b> records<br/> "
+"<li/><b>Show only temporarily allowed records</b> - Shows only once allowed "
+"<b>(y)</b> informative records.<br/> <li/><b>Show only temporarily denied "
+"records</b> - Shows only once denied <b>(n)</b> informative records.<br/> </"
+"blockquote> </p> <li/><b>Add new row</b> - will add new, exemplary filled, "
+"row with current date and empty archives  <br/> <li/><b>Validate table</b> - "
+"will test if table can save, load, and if each value is valid:<br/> "
+"<blockquote cite=\"\" > <li/><b>Action</b> - is one of A,N,y,n<br/> <li/"
+"><b>Date</b> - is valid date<br/> <li/><b>Code base and document base</b> - "
+"are valid <a href=\"#regexes\">regular expressions</a> or empty<br/> <li/"
+"><b>Archives</b> - coma separated list of archives or empty<br/> </"
+"blockquote> <li/><b>Test url</b> - In two dialogues (in two steps) will let "
+"you enter document base and codebase, and then try to match them against all "
+"records. All matching items are returned! Last values are remembered> <li/"
+"><b>Move row down/up</b><br/> <blockquote cite=\"\" > Order of rows is "
+"important. First matched result is returned (permanent have priority). So "
+"you can prioritize your matches using these buttons. <br/> For example, if "
+"you Qhttp://blogs.com/E.* regular expression to allow all applets on http://"
+"blogs.com, then it must be AFTER your Qhttp://blogs.com/evilJohnE.* regular "
+"expression forbidding all applets from blog of hacker evilJohn. </"
+"blockquote> </p> <p> <h2><A name=\"dialogue\">Dialogue</A></h2> If <a href="
+"\"#level\"><b>High Security</b></a> is set, and a new unsigned applet is hit "
+"then the dialogue is shown asking you to allow it or deny it. You can also "
+"<b>choose</b> if you want to allow or deny this applet <b>every-time</b> (A "
+"or N) you encounter it or for <b>just one run</b> (y,n).<br/> You can also "
+"select to trust or deny (again temporarily or permanently)  <b>all</b> the "
+"applets from <b>same, exact, codebase</b>. If you are visiting one page, "
+"which has various applets on various documents then this is a choice for you."
+"<br/> If you decide not to allow remembering your decision, then just a "
+"temporary record is made. If you revisit a page, a small green or red label "
+"will inform you about your last decision.<br/> Once you select <b>remember</"
+"b> your decision, the dialog will <b>never appear again</b>.  But you can "
+"<b>edit</b> your decision in <b>itw-settings application <a href=\"#table"
+"\">table</a></b> (packed with IcedTea-Web). If you change your decision to "
+"temporary one (n,y)  or delete its row, the dialogue will appear again. Of "
+"course you can switch also from Always to Never or vice versa. <br/> The "
+"dialogue always mentions the page on which an applet is displayed, and the "
+"URL from which it comes.  There is also a hint, if you have ever visited "
+"this applet saying if you have allowed or rejected it in the past <br/> "
+"<blockquote cite=\"\" > <h3>Controls</h3> <blockquote cite=\"\" > <li/"
+"><b>Remember this option</b> - If set, then dialogue will never be shown for "
+"this applet or page again. <blockquote cite=\"\" > <li/><b>For applet</b> - "
+"Exact applet will be allowed or denied <li/><b>For site</b> - All applets "
+"from this place will be allowed or denied  </blockquote> <li/><b>Proceed</b> "
+"- Applets, as selected above will be allowed <li/><b>Cancel</b> - Applets, "
+"as selected above will be forbidden </blockquote> Be aware to \"proceed\" + "
+"\"Remember this option\" + \"For site\" on pages you do not know! It can "
+"make you vulnerable! </blockquote> </p> <p> <h2><A name=\"regexes\">Regular "
+"expressions</A></h2> IcedTea-Web extended applet security - uses a powerful "
+"matching engine to match exact (sets of) applets. Base stone is "
+"<b>Quotation</b> of URL QE and <b>wildchars</b> like .* or .? or more.<br/> "
+"This was designed to suits the need to block or allow exact pages. The best "
+"is to show some examples:<br/> N 12.12.2012 .* Qhttp://blogs.com/evilJohnE.* "
+"<br/> N 12.12.2012 Qhttp://blogs.com/goodJohn/evilApplet.htmlE.* Qhttp://"
+"blogs.com/goodJohn/E goodJohnsArchive.jar <br/> A 12.12.2012 Qhttp://blogs."
+"com/E.* Qhttp://blogs.com/E.* <br/> N 12.12.2012 .* Qhttp://adds.comE.* <br/"
+"> Y 12.12.2012 .* Qhttp://www.walter-fendt.de/ph14_jar/E <br/> <br/> <i>So "
+"this table, created 12.12.2012:<br/></i> <li/>Forbid all stuff which have "
+"some code on http://blogs.com/evilJohn pages<br/> <li/>Forbidding also one "
+"exact applet from http://blogs.com/goodJohn/ with archive goodJohnsArchive."
+"jar<br/> <li/>Allowing all (other) applets from http://blogs.com/ but only "
+"when displayed also on http://blogs.com/<br/> <li/>Forbidding all applets "
+"with code saved on  http://adds.com (except on http://blogs.com/ - to have "
+"forbidden http://adds.com also on http://blogs.com/, this (http://adds.com) "
+"record must be above blogs record)<br/> <li/>And finally allowing all nice "
+"physical applets on  walter-fendt''s pages <br/> <br/> Note - the date saved "
+"in .appletTrustSettings has a not so nice format, but I left this for now..."
+"<br/> <br/> All information about full regular expression syntax can be "
+"found on <a href=\"http://docs.oracle.com/javase/6/docs/api/java/util/regex/"
+"Pattern.html\">http://docs.oracle.com/javase/6/docs/api/java/util/regex/"
+"Pattern.html</a> </p> <h2>Conclusion</h2> <p> Stay tuned to our homepage at "
+"<a href=\"{0}\">{0}</a>!<br/> If you encounter any bug, feel free to file it "
+"in our <a href=\"{1}\">bugzilla</a> ... According to <a href=\"{2}\">policy</"
+"a><br/> <br/> Safe browsing from your IcedTea-Web team... </p> </body> "
+msgstr ""
