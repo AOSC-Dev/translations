@@ -1,16 +1,18 @@
+# liushuyu <liushuyu_011@163.com>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-25 22:17-0600\n"
-"PO-Revision-Date: 2018-10-25 22:19-0600\n"
+"PO-Revision-Date: 2018-10-25 22:57-0600\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2\n"
 "Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
-"Language-Team: \n"
+"Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. # Default (English) UI messages for netx
 #. #
@@ -27,24 +29,24 @@ msgstr ""
 
 #: ButAllow
 msgid "Allow"
-msgstr ""
+msgstr "允许"
 
 #: ButBrowse
 msgid "Browse..."
-msgstr ""
+msgstr "浏览…"
 
 #: ButCancel
 msgid " Cancel "
-msgstr ""
+msgstr " 取消 "
 
 #: ButClose
 msgctxt "ButClose"
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: ButAdvancedOptions
 msgid "Advanced Options"
-msgstr ""
+msgstr "高级选项"
 
 #: ButLunchFullItwSettings
 msgid "Launch full settings"
@@ -52,73 +54,77 @@ msgstr ""
 
 #: ButCopy
 msgid "Copy to Clipboard"
-msgstr ""
+msgstr "复制到剪贴板"
 
 #: ButMoreInformation
 msgid "More Information..."
-msgstr ""
+msgstr "更多信息…"
 
 #: ButOk
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 #: ButProceed
 msgid "Proceed"
-msgstr ""
+msgstr "继续"
 
 #: ButRun
 msgid "Run"
-msgstr ""
+msgstr "运行"
 
 #: ButSandbox
 msgid "Sandbox"
-msgstr ""
+msgstr "沙箱"
 
 #: ButApply
 msgctxt "ButApply"
 msgid "Apply"
-msgstr ""
+msgstr "应用"
 
 #: ButDone
 msgid "Done"
-msgstr ""
+msgstr "完成"
 
 #: ButShowDetails
 msgid "Show Details"
-msgstr ""
+msgstr "显示细节"
 
 #: ButHideDetails
 msgid "Hide Details"
-msgstr ""
+msgstr "隐藏细节"
 
 #: ButYes
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: ButNo
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: BUTControlledBy
 msgid "Controlled by {0}"
 msgstr ""
 
 #: BUTmodified
+#, fuzzy
 msgid "modified"
-msgstr ""
+msgstr "修改于："
 
 #: BUTback
+#, fuzzy
 msgid "Back"
-msgstr ""
+msgstr "向后"
 
 #: BUTforward
+#, fuzzy
 msgid "Forward"
-msgstr ""
+msgstr "转发"
 
 #: BUTreload
+#, fuzzy
 msgctxt "BUTreload"
 msgid "Reload"
-msgstr ""
+msgstr "重载"
 
 #: ITWdocsMissingAuthors
 msgid "See authors file"
@@ -174,40 +180,42 @@ msgstr ""
 
 #: Usage
 msgid "Usage:"
-msgstr ""
+msgstr "使用方法："
 
 #: Error
 msgid "Error"
-msgstr ""
+msgstr "错误"
 
 #: Warning
 msgid "Warning"
-msgstr ""
+msgstr "警告"
 
 #: Continue
 msgid "Do you want to continue?"
-msgstr ""
+msgstr "你要继续吗？"
 
 #: Field
+#, fuzzy
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #: From
+#, fuzzy
 msgid "From"
-msgstr ""
+msgstr "发件人"
 
 #: Name
 msgctxt "Name"
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: Password
 msgid "Password:"
-msgstr ""
+msgstr "密码："
 
 #: Publisher
 msgid "Publisher"
-msgstr ""
+msgstr "发布者"
 
 #: Unknown
 msgid "<Unknown>"
@@ -215,36 +223,36 @@ msgstr ""
 
 #: Username
 msgid "Username:"
-msgstr ""
+msgstr "用户名："
 
 #: Value
 msgid "Value"
-msgstr ""
+msgstr "值"
 
 #: Version
 msgid "Version"
-msgstr ""
+msgstr "版本"
 
 #. # about dialogue
 #: AboutDialogueTabAbout
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: AboutDialogueTabAuthors
 msgid "Authors"
-msgstr ""
+msgstr "作者"
 
 #: AboutDialogueTabChangelog
 msgid "Changelog"
-msgstr ""
+msgstr "更改日志"
 
 #: AboutDialogueTabNews
 msgid "News"
-msgstr ""
+msgstr "新闻"
 
 #: AboutDialogueTabGPLv2
 msgid "GPLv2"
-msgstr ""
+msgstr "GPLv2"
 
 #. # version check minidialogue
 #: JREversionDontMatch
@@ -257,7 +265,7 @@ msgstr ""
 
 #: JREContinueDialogSentenceTitle
 msgid "Incompatible JRE"
-msgstr ""
+msgstr "不兼容的 JRE"
 
 #. # missing permissions dialogue
 #: MissingPermissionsMainTitle
@@ -329,13 +337,14 @@ msgid "Minor"
 msgstr ""
 
 #: LSFatal
+#, fuzzy
 msgid "Fatal"
-msgstr ""
+msgstr "致命错误"
 
 #. # LC - Category
 #: LCSystem
 msgid "System Error"
-msgstr ""
+msgstr "系统错误"
 
 #: LCExternalLaunch
 msgid "External Launch Error"
@@ -347,7 +356,7 @@ msgstr ""
 
 #: LCReadError
 msgid "Read Error"
-msgstr ""
+msgstr "读取错误"
 
 #: LCClient
 msgid "Application Error"
@@ -659,12 +668,13 @@ msgid "No information element specified."
 msgstr ""
 
 #: PMissingTitle
+#, fuzzy
 msgid "title"
-msgstr ""
+msgstr "título"
 
 #: PMissingVendor
 msgid "vendor"
-msgstr ""
+msgstr "供应商"
 
 #: PMissingElement
 msgid ""
@@ -769,7 +779,7 @@ msgstr ""
 
 #: BFileLoc
 msgid "JNLP file location"
-msgstr ""
+msgstr "JNLP 文件位置"
 
 #: BBadProp
 msgid "Incorrect property format {0} (should be key=value)"
@@ -997,7 +1007,7 @@ msgstr ""
 #: ITWdescO4title
 msgctxt "ITWdescO4title"
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: ITWdescO4text
 msgid "Run any application in a sandbox or log its activities."
@@ -1044,8 +1054,9 @@ msgid "Help with common issues with IcedTea-Web can be found {0} ."
 msgstr ""
 
 #: ITWdescIssuesUrlTitle
+#, fuzzy
 msgid "here"
-msgstr ""
+msgstr "这里"
 
 #: ITWdescL3
 msgid "NetX features:"
@@ -1097,8 +1108,9 @@ msgid "policy_file"
 msgstr ""
 
 #: PEsynopseP2
+#, fuzzy
 msgid "url"
-msgstr ""
+msgstr "URL"
 
 #: PEdescL1
 msgid ""
@@ -1218,8 +1230,9 @@ msgid "Sets a system property before launching."
 msgstr ""
 
 #: BOUpdate
+#, fuzzy
 msgid "Check for updates."
-msgstr ""
+msgstr "检查更新"
 
 #: BOLicense
 msgid "Display the GPL license and exit."
@@ -1227,7 +1240,7 @@ msgstr ""
 
 #: BOVerbose
 msgid "Enable verbose output."
-msgstr ""
+msgstr "启用详细输出"
 
 #: BOAbout
 msgid "Shows a sample application."
@@ -1396,7 +1409,7 @@ msgstr ""
 #. # Allowed man sections
 #: manNAME
 msgid "NAME"
-msgstr ""
+msgstr "名称"
 
 #: manSYNOPSIS
 msgid "SYNOPSIS"
@@ -1404,35 +1417,38 @@ msgstr ""
 
 #: manDESCRIPTION
 msgid "DESCRIPTION"
-msgstr ""
+msgstr "描述"
 
 #: manOPTIONS
 msgid "OPTIONS"
-msgstr ""
+msgstr "选项"
 
 #: manCOMMANDS
+#, fuzzy
 msgid "COMMANDS"
-msgstr ""
+msgstr "<span weight=\"bold\">命令:</span>"
 
 #: manEXAMPLES
 msgid "EXAMPLES"
-msgstr ""
+msgstr "示例"
 
 #: manFILES
 msgid "FILES"
-msgstr ""
+msgstr "文件"
 
 #: manBUGS
+#, fuzzy
 msgid "BUGS"
-msgstr ""
+msgstr "Fouten"
 
 #: manAUTHOR
 msgid "AUTHOR"
-msgstr ""
+msgstr "作者"
 
 #: manSEE_ALSO
+#, fuzzy
 msgid "SEE ALSO"
-msgstr ""
+msgstr "Se også"
 
 #. # Cache
 #: CAutoGen
@@ -1445,11 +1461,11 @@ msgstr ""
 
 #: CDownloading
 msgid "Downloading"
-msgstr ""
+msgstr "正在下载"
 
 #: CComplete
 msgid "Complete"
-msgstr ""
+msgstr "完成"
 
 #: CChooseCache
 msgid "Choose a cache directory..."
@@ -1825,7 +1841,7 @@ msgstr ""
 
 #: SHasExpiredCert
 msgid "The digital signature has expired."
-msgstr ""
+msgstr "数字前面已失效。"
 
 #: SHasExpiringCert
 msgid ""
@@ -1859,58 +1875,61 @@ msgstr ""
 
 #: SCertificateDetails
 msgid "Certificate Details"
-msgstr ""
+msgstr "证书详情"
 
 #. # Security - certificate information
 #: SIssuer
 msgid "Issuer"
-msgstr ""
+msgstr "颁发者"
 
 #: SSerial
+#, fuzzy
 msgid "Serial"
-msgstr ""
+msgstr "序列号(&E):"
 
 #: SMD5Fingerprint
 msgid "MD5 Fingerprint"
-msgstr ""
+msgstr "MD5 指纹"
 
 #: SSHA1Fingerprint
 msgid "SHA1 Fingerprint"
-msgstr ""
+msgstr "SHA1 指纹"
 
 #: SSignature
 msgid "Signature"
-msgstr ""
+msgstr "签名"
 
 #: SSignatureAlgorithm
 msgid "Signature Algorithm"
-msgstr ""
+msgstr "签名算法"
 
 #: SSubject
+#, fuzzy
 msgid "Subject"
-msgstr ""
+msgstr "主题"
 
 #: SValidity
+#, fuzzy
 msgid "Validity"
-msgstr ""
+msgstr "有效性"
 
 #. # Certificate Viewer
 #: CVCertificateViewer
 msgctxt "CVCertificateViewer"
 msgid "Certificates"
-msgstr ""
+msgstr "证书"
 
 #: CVCertificateType
 msgid "Certificate Type"
-msgstr ""
+msgstr "证书类型"
 
 #: CVDetails
 msgid "Details"
-msgstr ""
+msgstr "详细信息"
 
 #: CVExport
 msgid "Export"
-msgstr ""
+msgstr "导出"
 
 #: CVExportPasswordMessage
 msgid "Enter password to protect key file:"
@@ -1918,7 +1937,7 @@ msgstr ""
 
 #: CVImport
 msgid "Import"
-msgstr ""
+msgstr "导入"
 
 #: CVImportPasswordMessage
 msgid "Enter password to access file:"
@@ -1926,20 +1945,21 @@ msgstr ""
 
 #: CVIssuedBy
 msgid "Issued By"
-msgstr ""
+msgstr "颁发者"
 
 #: CVIssuedTo
 msgid "Issued To"
-msgstr ""
+msgstr "颁发给"
 
 #: CVPasswordTitle
 msgid "Authentication Required"
-msgstr ""
+msgstr "需要认证"
 
 #: CVRemove
+#, fuzzy
 msgctxt "CVRemove"
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: CVRemoveConfirmMessage
 msgid "Are you sure you want to remove the selected certificate?"
@@ -1951,11 +1971,11 @@ msgstr ""
 
 #: CVUser
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: CVSystem
 msgid "System"
-msgstr ""
+msgstr "系统"
 
 #. # KeyStores: see KeyStores.java
 #: KS
@@ -1964,7 +1984,7 @@ msgstr ""
 
 #: KSCerts
 msgid "Trusted Certificates"
-msgstr ""
+msgstr "受信证书"
 
 #: KSJsseCerts
 msgid "Trusted JSSE Certificates"
@@ -2075,8 +2095,9 @@ msgid "Go to:"
 msgstr ""
 
 #: BrowserSource
+#, fuzzy
 msgid "Source"
-msgstr ""
+msgstr "来源"
 
 #: BrowserSocket
 msgid "Use direct socket conenction"
@@ -2099,11 +2120,11 @@ msgstr ""
 
 #: BrowserCopyUrlToClip
 msgid "Copy to clipboard"
-msgstr ""
+msgstr "复制到剪贴板"
 
 #: BrowserClearAll
 msgid "Clear all"
-msgstr ""
+msgstr "全部清除"
 
 #: BrowserWarningLine1
 msgid ""
@@ -2127,7 +2148,7 @@ msgstr ""
 
 #: DCInternal
 msgid "Internal error: {0}"
-msgstr ""
+msgstr "内部错误：{0}"
 
 #: DCSourceInternal
 msgid "<internal>"
@@ -2297,47 +2318,49 @@ msgstr ""
 
 #: CPJVMopenJdkFound
 msgid "Excellent, OpenJDK detected"
-msgstr ""
+msgstr "检测到 OpenJDK，非常好"
 
 #: CPJVMjdk5
 msgid "JDK5 recognized. JDK7 and older are longer supported."
-msgstr ""
+msgstr "检测到 JDK5。早于 JDK7 的版本不再受支持。"
 
 #: CPJVMjdk6
 msgid "JDK6 recognized. JDK7 and older are longer supported."
-msgstr ""
+msgstr "检测到 JDK6。早于 JDK7 的版本不再受支持。"
 
 #: CPJVMjdk7
 msgid "JDK7 recognized. JDK7 and older are longer supported."
-msgstr ""
+msgstr "检测到 JDK7。JDK7 不再受支持。"
 
 #: CPJVMjdk8
 msgid "JDK8 recognized. Jdk8 and higher are supported"
-msgstr ""
+msgstr "检测到 JDK8。JDK8 或更高版本受支持。"
 
 #: CPJVMjdk9
 msgid ""
 "JDK9 or higher recognized. Jdk8 and higher are supported. Jdk9 and up can "
 "have modularity issues."
 msgstr ""
+"检测到 JDK9 或更高。虽然 JDK8 或更高版本受支持，但是 JDK9 或更高版本会遇到模"
+"块拆分的问题。"
 
 #: CPJVMjdk
 msgid ""
 "Unknown version. Hard to judge support. See tooltip or console/standard "
 "output (depends on verbosity)for real version."
-msgstr ""
+msgstr "位置版本。不知道支持情况。请参见工具提示或者终端输出中的版本。"
 
 #: CPJVMoracleFound
 msgid "Great, Oracle java detected"
-msgstr ""
+msgstr "检测到 Orcale Java，很好"
 
 #: CPJVMibmFound
 msgid "Good, IBM java detected"
-msgstr ""
+msgstr "检测到 IBM Java，挺好"
 
 #: CPJVMgijFound
 msgid "Warning, gij detected"
-msgstr ""
+msgstr "警告，检测到 gij"
 
 #: CPJVMstrangeProcess
 msgid ""
@@ -2363,15 +2386,15 @@ msgstr ""
 
 #: CPJVMnoRtJar
 msgid "Error, the directory you chose does not contain lib/rt.jar"
-msgstr ""
+msgstr "错误，你选择的目录中没有 lib/rt.jar。"
 
 #: CPJVMrtJar
 msgid "Ok, the directory you chose contains lib/rt.jar."
-msgstr ""
+msgstr "很好，你选择的目录中含有 lib/rt.jar。"
 
 #: CPJVMPluginAllowTTValidation
 msgid "Validate JRE immediately"
-msgstr ""
+msgstr "立刻检验 JRE"
 
 #: CPJVMNotokMessage1
 msgid ""
@@ -2397,7 +2420,7 @@ msgstr ""
 
 #: CPJVMconfirmReset
 msgid "Reset to default?"
-msgstr ""
+msgstr "重置为默认？"
 
 #: CPPolicyDetail
 msgid ""
@@ -2419,23 +2442,23 @@ msgstr ""
 #. # Control Panel - Buttons
 #: CPButAbout
 msgid "About..."
-msgstr ""
+msgstr "关于..."
 
 #: CPButNetworkSettings
 msgid "Network Settings..."
-msgstr ""
+msgstr "网络设置…"
 
 #: CPButSettings
 msgid "Settings..."
-msgstr ""
+msgstr "设置…"
 
 #: CPButView
 msgid "View..."
-msgstr ""
+msgstr "查看…"
 
 #: CPButCertificates
 msgid "Certificates..."
-msgstr ""
+msgstr "证书…"
 
 #: CPButSimpleEditor
 msgid "Simple editor"
@@ -2468,11 +2491,11 @@ msgstr ""
 
 #: CPHeadCertificates
 msgid " Certificates "
-msgstr ""
+msgstr " 证书 "
 
 #: CPHeadDebugging
 msgid " Debugging Settings "
-msgstr ""
+msgstr " 调试设置 "
 
 #: CPHeadDesktopIntegration
 msgid " Desktop Integrations "
@@ -2493,16 +2516,16 @@ msgstr ""
 #. # Control Panel - Tabs
 #: CPTabAbout
 msgid "About IcedTea-Web"
-msgstr ""
+msgstr "关于 IcedTea-Web"
 
 #: CPTabCache
 msgid "Cache"
-msgstr ""
+msgstr "缓存"
 
 #: CPTabCertificate
 msgctxt "CPTabCertificate"
 msgid "Certificates"
-msgstr ""
+msgstr "证书"
 
 #: CPTabClassLoader
 msgid "Class Loaders"
@@ -2510,11 +2533,11 @@ msgstr ""
 
 #: CPTabDebugging
 msgid "Debugging"
-msgstr ""
+msgstr "调试"
 
 #: CPTabDesktopIntegration
 msgid "Desktop Integration"
-msgstr ""
+msgstr "桌面整合"
 
 #: CPTabMenuShortcuts
 msgid "Manage installed menu shortcuts"
@@ -2522,24 +2545,24 @@ msgstr ""
 
 #: CPTabNetwork
 msgid "Network"
-msgstr ""
+msgstr "网络"
 
 #: CPTabRuntimes
 msgid "Runtimes"
-msgstr ""
+msgstr "运行时"
 
 #: CPTabSecurity
 msgctxt "CPTabSecurity"
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
 #: CPTabJVMSettings
 msgid "JVM Settings"
-msgstr ""
+msgstr "JVM 设置"
 
 #: CPTabPolicy
 msgid "Policy Settings"
-msgstr ""
+msgstr "策略设置"
 
 #. # Control Panel - AboutPanel
 #: CPAboutInfo
@@ -2552,40 +2575,42 @@ msgstr ""
 #. # Control Panel - AdvancedProxySettings
 #: APSDialogTitle
 msgid "Network Settings"
-msgstr ""
+msgstr "网络设置"
 
 #: APSServersPanel
 msgid "Servers"
-msgstr ""
+msgstr "服务器"
 
 #: APSProxyTypeLabel
+#, fuzzy
 msgctxt "APSProxyTypeLabel"
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: APSProxyAddressLabel
 msgid "Proxy Address"
-msgstr ""
+msgstr "代理地址"
 
 #: APSProxyPortLabel
 msgid "Proxy Port"
-msgstr ""
+msgstr "代理端口"
 
 #: APSLabelHTTP
 msgid "HTTP"
-msgstr ""
+msgstr "HTTP"
 
 #: APSLabelSecure
 msgid "Secure"
-msgstr ""
+msgstr "安全"
 
 #: APSLabelFTP
 msgid "FTP"
-msgstr ""
+msgstr "FTP"
 
 #: APSLabelSocks
+#, fuzzy
 msgid "Socks"
-msgstr ""
+msgstr "SOC&KS 4"
 
 #: APSSameProxyForAllProtocols
 msgid "Use the same proxy server for all protocols."
@@ -2610,7 +2635,7 @@ msgstr ""
 
 #: DPEnableLogging
 msgid "Enable debugging"
-msgstr ""
+msgstr "启用调试"
 
 #: DPEnableLoggingHint
 msgid ""
@@ -2657,8 +2682,9 @@ msgid "File logs directory"
 msgstr ""
 
 #: CPFilesLogsDestDirResert
+#, fuzzy
 msgid "Reset to default"
-msgstr ""
+msgstr "重置为默认"
 
 #: DPEnableFileHint
 msgid "output messages will be saved to file in your {0}  directory"
@@ -2681,8 +2707,9 @@ msgid "output messages will be saved to system logs"
 msgstr ""
 
 #: DPDisable
+#, fuzzy
 msgid "Disable"
-msgstr ""
+msgstr "禁用"
 
 #: DPHide
 msgid "Hide on startup"
@@ -2936,9 +2963,10 @@ msgid "Add New..."
 msgstr ""
 
 #: PERemoveEntry
+#, fuzzy
 msgctxt "PERemoveEntry"
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: PEEntryPrompt
 msgid "Enter a new policy entry identifier"
@@ -2970,7 +2998,7 @@ msgstr ""
 
 #: PECheckboxLabel
 msgid "Permissions"
-msgstr ""
+msgstr "权限"
 
 #: PEEntriesLabel
 msgid "Entries"
@@ -2978,15 +3006,16 @@ msgstr ""
 
 #: PEFileMenu
 msgid "File"
-msgstr ""
+msgstr "文件"
 
 #: PENewMenuItem
+#, fuzzy
 msgid "New"
-msgstr ""
+msgstr "新建"
 
 #: PEOpenMenuItem
 msgid "Open..."
-msgstr ""
+msgstr "打开…"
 
 #: PEOpenDefaultMenuItem
 msgid "Open default policy file"
@@ -2994,15 +3023,15 @@ msgstr ""
 
 #: PESaveMenuItem
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: PESaveAsMenuItem
 msgid "Save As..."
-msgstr ""
+msgstr "另存为..."
 
 #: PEExitMenuItem
 msgid "Exit"
-msgstr ""
+msgstr "退出"
 
 #: PEEntryMenu
 msgid "Entry"
@@ -3014,13 +3043,14 @@ msgid "Add New..."
 msgstr ""
 
 #: PERemoveEntryItem
+#, fuzzy
 msgctxt "PERemoveEntryItem"
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: PEModifySubmenuItem
 msgid "Modify"
-msgstr ""
+msgstr "修改"
 
 #: PEModifyCodebaseItem
 msgid "Codebase"
@@ -3036,11 +3066,11 @@ msgstr ""
 
 #: PECopyEntryItem
 msgid "Copy"
-msgstr ""
+msgstr "复制"
 
 #: PEPasteEntryItem
 msgid "Paste..."
-msgstr ""
+msgstr "粘贴…"
 
 #: PEModifyCodebase
 msgid "Change Codebase to:"
@@ -3060,7 +3090,7 @@ msgstr ""
 
 #: PEViewMenu
 msgid "View"
-msgstr ""
+msgstr "查看"
 
 #: PECustomPermissionsItem
 msgid "Custom Permissions..."
@@ -3079,12 +3109,14 @@ msgid "Principals:"
 msgstr ""
 
 #: PEPrincipalClassNameInputLabel
+#, fuzzy
 msgid "Class Name:"
-msgstr ""
+msgstr "类名:"
 
 #: PEPrincipalPrincipalNameInputLabel
+#, fuzzy
 msgid "Principal Name:"
-msgstr ""
+msgstr "主体名称"
 
 #: PEFileModified
 msgid "File Modification Warning"
@@ -3168,7 +3200,7 @@ msgstr ""
 #: PEHelpMenu
 msgctxt "PEHelpMenu"
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: PEAboutPolicyEditorItem
 msgid "About PolicyEditor"
@@ -3217,30 +3249,33 @@ msgid "Other policies for {0}"
 msgstr ""
 
 #: PECPAddButton
+#, fuzzy
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: PECPRemoveButton
+#, fuzzy
 msgctxt "PECPRemoveButton"
 msgid "Remove"
-msgstr ""
+msgstr "Eliminar"
 
 #: PECPCloseButton
 msgctxt "PECPCloseButton"
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: PECPType
 msgid "type"
-msgstr ""
+msgstr "类型"
 
 #: PECPTarget
+#, fuzzy
 msgid "target"
-msgstr ""
+msgstr "目标："
 
 #: PECPActions
 msgid "actions"
-msgstr ""
+msgstr "动作"
 
 #: PECPPrompt
 msgid ""
@@ -3250,21 +3285,25 @@ msgstr ""
 
 #. # PolicyEditor key mnemonics. See KeyEvent.VK_*
 #: PEFileMenuMnemonic
+#, fuzzy
 msgid "F"
-msgstr ""
+msgstr "F"
 
 #: PEEntryMenuMnemonic
+#, fuzzy
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: PEViewMenuMnemonic
+#, fuzzy
 msgid "V"
-msgstr ""
+msgstr "V"
 
 #: PEHelpMenuMnemonic
+#, fuzzy
 msgctxt "PEHelpMenuMnemonic"
 msgid "H"
-msgstr ""
+msgstr "色"
 
 #: PEAddEntryMnemonic
 msgctxt "PEAddEntryMnemonic"
@@ -3277,14 +3316,16 @@ msgid "N"
 msgstr ""
 
 #: PERemoveEntryMnemonic
+#, fuzzy
 msgctxt "PERemoveEntryMnemonic"
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: PERemoveEntryItemMnemonic
+#, fuzzy
 msgctxt "PERemoveEntryItemMnemonic"
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: PENewMenuItemMnemonic
 msgctxt "PENewMenuItemMnemonic"
@@ -3292,63 +3333,77 @@ msgid "N"
 msgstr ""
 
 #: PEOpenMenuItemMnemonic
+#, fuzzy
 msgid "O"
-msgstr ""
+msgstr "O"
 
 #: PEOpenDefaultMenuItemMnemonic
+#, fuzzy
 msgid "D"
-msgstr ""
+msgstr "D"
 
 #: PESaveMenuItemMnemonic
+#, fuzzy
 msgid "S"
-msgstr ""
+msgstr "S"
 
 #: PEExitMenuItemMnemonic
+#, fuzzy
 msgid "X"
-msgstr ""
+msgstr "X"
 
 #: PECustomPermissionsItemMnemonic
+#, fuzzy
 msgid "U"
-msgstr ""
+msgstr "U"
 
 #: PECopyEntryItemMnemonic
+#, fuzzy
 msgid "C"
-msgstr ""
+msgstr "C"
 
 #: PEPasteEntryItemMnemonic
+#, fuzzy
 msgid "P"
-msgstr ""
+msgstr "P"
 
 #: PESaveAsMenuItemMnemonic
+#, fuzzy
 msgctxt "PESaveAsMenuItemMnemonic"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: PEModifySubmenuItemMnemonic
+#, fuzzy
 msgid "M"
-msgstr ""
+msgstr "M"
 
 #: PEModifyEntryCodebaseItemMnemonic
+#, fuzzy
 msgid "B"
-msgstr ""
+msgstr "B"
 
 #: PEModifyEntryPrincipalsItemMnemonic
+#, fuzzy
 msgid "I"
-msgstr ""
+msgstr "I"
 
 #: PEModifyEntrySignedByItemMnemonic
+#, fuzzy
 msgid "G"
-msgstr ""
+msgstr "取"
 
 #: PEAboutPolicyEditorItemMnemonic
+#, fuzzy
 msgctxt "PEAboutPolicyEditorItemMnemonic"
 msgid "A"
-msgstr ""
+msgstr "A"
 
 #: PEPolicyEditorHelpItemMnemonic
+#, fuzzy
 msgctxt "PEPolicyEditorHelpItemMnemonic"
 msgid "H"
-msgstr ""
+msgstr "色"
 
 #. # See javax.swing.KeyStroke.getKeyStroke(String)
 #: PEAddEntryItemAccelerator
@@ -3356,8 +3411,9 @@ msgid "control shift N"
 msgstr ""
 
 #: PERemoveEntryItemAccelerator
+#, fuzzy
 msgid "DELETE"
-msgstr ""
+msgstr "Eliminar"
 
 #: PENewMenuItemAccelerator
 msgid "control N"
@@ -3397,8 +3453,9 @@ msgid "control V"
 msgstr ""
 
 #: PEModifyEntryCodebaseItemAccelerator
+#, fuzzy
 msgid "F2"
-msgstr ""
+msgstr "F"
 
 #: PEModifyEntryPrincipalsItemAccelerator
 msgid "shift F2"
@@ -3443,8 +3500,9 @@ msgid "Thread List"
 msgstr ""
 
 #: CONSOLEthread
+#, fuzzy
 msgid "Thread"
-msgstr ""
+msgstr "讨论线索"
 
 #: CONSOLEnoClassLoaders
 msgid "No Classloader info exists in system"
@@ -3464,7 +3522,7 @@ msgstr ""
 
 #: CONSOLEClean
 msgid "Clear"
-msgstr ""
+msgstr "清除"
 
 #. # console output pane labels
 #: COPsortCopyAllDate
@@ -3476,28 +3534,32 @@ msgid "Show headers:"
 msgstr ""
 
 #: COPuser
+#, fuzzy
 msgid "user"
-msgstr ""
+msgstr "Usuario"
 
 #: COPorigin
 msgid "origin"
 msgstr ""
 
 #: COPlevel
+#, fuzzy
 msgid "level"
-msgstr ""
+msgstr "级别："
 
 #: COPdate
 msgid "date"
-msgstr ""
+msgstr "日期"
 
 #: COPthread1
+#, fuzzy
 msgid "thread 1"
-msgstr ""
+msgstr "讨论线索"
 
 #: COPthread2
+#, fuzzy
 msgid "thread 2"
-msgstr ""
+msgstr "讨论线索"
 
 #: COPShowMessages
 msgid "Show messages"
@@ -3517,7 +3579,7 @@ msgstr ""
 
 #: COPplugin
 msgid "plugin"
-msgstr ""
+msgstr "插件"
 
 #: COPpreInit
 msgid "pre-init"
@@ -3544,12 +3606,13 @@ msgid "code"
 msgstr ""
 
 #: COPmessage
+#, fuzzy
 msgid "message"
-msgstr ""
+msgstr "邮件"
 
 #: COPSearch
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: COPautoRefresh
 msgid "auto refresh"
@@ -3557,16 +3620,16 @@ msgstr ""
 
 #: COPrefresh
 msgid "refresh"
-msgstr ""
+msgstr "刷新"
 
 #: COPApply
 msgctxt "COPApply"
 msgid "Apply"
-msgstr ""
+msgstr "应用"
 
 #: COPmark
 msgid "mark"
-msgstr ""
+msgstr "标记"
 
 #: COPCopyAllPlain
 msgid "Copy all (plain)"
@@ -3577,20 +3640,24 @@ msgid "Copy all (rich)"
 msgstr ""
 
 #: COPnext
+#, fuzzy
 msgid "next>>>"
-msgstr ""
+msgstr "下一项"
 
 #: COPprevious
+#, fuzzy
 msgid "<<<previous"
-msgstr ""
+msgstr "anterior"
 
 #: COPcaseSensitive
+#, fuzzy
 msgid "case sensitive"
-msgstr ""
+msgstr "区分大小写"
 
 #: COPincomplete
+#, fuzzy
 msgid "incomplete"
-msgstr ""
+msgstr "不全"
 
 #: COPhighlight
 msgid "highlight"
@@ -3602,11 +3669,12 @@ msgstr ""
 
 #: COPdebug
 msgid "debug"
-msgstr ""
+msgstr "调试"
 
 #: COPinfo
+#, fuzzy
 msgid "info"
-msgstr ""
+msgstr "2 - 信息"
 
 #: COPpostInit
 msgid "post-init"
@@ -3614,7 +3682,7 @@ msgstr ""
 
 #: COPcomplete
 msgid "complete"
-msgstr ""
+msgstr "完成"
 
 #: COPmatch
 msgid "match"
@@ -3625,8 +3693,9 @@ msgid "not"
 msgstr ""
 
 #: COPrevert
+#, fuzzy
 msgid "revert"
-msgstr ""
+msgstr "恢复"
 
 #: COPitw
 msgid "IcedTea-Web"
@@ -3681,15 +3750,15 @@ msgstr ""
 
 #: NSAddress
 msgid "Address"
-msgstr ""
+msgstr "地址"
 
 #: NSPort
 msgid "Port"
-msgstr ""
+msgstr "端口"
 
 #: NSAdvanced
 msgid "Advanced"
-msgstr ""
+msgstr "高级"
 
 #: NSBypassLocal
 msgid "Bypass proxy server for local addresses"
@@ -3791,15 +3860,16 @@ msgstr ""
 
 #: TIFPLocation
 msgid " Location "
-msgstr ""
+msgstr " 位置 "
 
 #: TIFPLocationLabel
 msgid "Select the location where temporary files are kept"
 msgstr ""
 
 #: TIFPChange
+#, fuzzy
 msgid "Change"
-msgstr ""
+msgstr "Modificar"
 
 #: TIFPDiskSpace
 msgid " Disk space "
@@ -3811,7 +3881,7 @@ msgstr ""
 
 #: TIFPNone
 msgid "None"
-msgstr ""
+msgstr "无"
 
 #: TIFPMax
 msgid "Max"
@@ -3823,15 +3893,16 @@ msgstr ""
 
 #: TIFPDeleteFiles
 msgid "Delete files"
-msgstr ""
+msgstr "删除文件"
 
 #: TIFPViewFiles
 msgid "View files..."
 msgstr ""
 
 #: TIFPFileChooserChooseButton
+#, fuzzy
 msgid "Choose"
-msgstr ""
+msgstr "Elegir"
 
 #: TIFPLimitCacheSize
 msgid "Limit cache size"
@@ -3860,12 +3931,12 @@ msgstr ""
 
 #: CVCPButRefresh
 msgid "Refresh"
-msgstr ""
+msgstr "刷新"
 
 #: CVCPButDelete
 msgctxt "CVCPButDelete"
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: CVCPCleanCache
 msgid "Purge"
@@ -3880,8 +3951,9 @@ msgid ""
 msgstr ""
 
 #: CVCPColLastModified
+#, fuzzy
 msgid "Last Modified"
-msgstr ""
+msgstr "最后修改"
 
 #: CVCPColSize
 msgid "Size (Bytes)"
@@ -3892,18 +3964,20 @@ msgid "Domain"
 msgstr ""
 
 #: CVCPColType
+#, fuzzy
 msgctxt "CVCPColType"
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #: CVCPColPath
+#, fuzzy
 msgid "Path"
-msgstr ""
+msgstr "路径"
 
 #: CVCPColName
 msgctxt "CVCPColName"
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #. # Control Panel - desktop integration manager
 #: DIMtitle
@@ -3912,20 +3986,21 @@ msgstr ""
 
 #: DIMremoveSelected
 msgid "Remove selected"
-msgstr ""
+msgstr "移除选定项"
 
 #: DIMselectRelativeRecordsFromOtherColumns
 msgid "Select related records"
 msgstr ""
 
 #: DIMreloadLists
+#, fuzzy
 msgctxt "DIMreloadLists"
 msgid "Reload"
-msgstr ""
+msgstr "重载"
 
 #: DIMselectAll
 msgid "Select all"
-msgstr ""
+msgstr "全选"
 
 #: DIMclearSelection
 msgid "Deselect all"
@@ -3959,7 +4034,7 @@ msgstr ""
 
 #: DIMicons
 msgid "Icons"
-msgstr ""
+msgstr "图标"
 
 #: DIMiconsTooltip
 msgid "All files in this list should be icons cached by IcedTea-Web!"
@@ -4025,7 +4100,7 @@ msgstr ""
 
 #: DIMiconsButton
 msgid "icons"
-msgstr ""
+msgstr "图标"
 
 #: DIMiconsButtonTooltip
 msgid "Will select related cached icons."
@@ -4052,20 +4127,23 @@ msgid "No information available (is this a valid option?)."
 msgstr ""
 
 #: CLValue
+#, fuzzy
 msgid "Value: {0}"
-msgstr ""
+msgstr "值"
 
 #: CLValueSource
+#, fuzzy
 msgid "Source: {0}"
-msgstr ""
+msgstr "[source]"
 
 #: CLDescription
 msgid "Description: {0}"
-msgstr ""
+msgstr "描述：{0}"
 
 #: CLUnknownCommand
+#, fuzzy
 msgid "Unknown command {0}"
-msgstr ""
+msgstr "未知命令"
 
 #: CLUnknownProperty
 msgid "Unknown property-name \"{0}\""
@@ -4126,28 +4204,29 @@ msgstr ""
 
 #: SPLASH_ERROR
 msgid "ERROR"
-msgstr ""
+msgstr "错误"
 
 #: SPLASHtitle
 msgid "Title"
-msgstr ""
+msgstr "标题"
 
 #: SPLASHvendor
 msgid "Vendor"
 msgstr ""
 
 #: SPLASHhomepage
+#, fuzzy
 msgid "Homepage"
-msgstr ""
+msgstr "%1 首页： <%2>"
 
 #: SPLASHdescription
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 #: SPLASHClose
 msgctxt "SPLASHClose"
 msgid "Close"
-msgstr ""
+msgstr "关闭"
 
 #: SPLASHclosewAndCopyException
 msgid "Close and copy the stack trace to clipboard"
@@ -4158,8 +4237,9 @@ msgid "An exception has occurred..."
 msgstr ""
 
 #: SPLASHHome
+#, fuzzy
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: SPLASHcantCopyEx
 msgid "Cannot copy exception"
@@ -4345,7 +4425,7 @@ msgstr ""
 
 #: ITWSdefault
 msgid "default"
-msgstr ""
+msgstr "默认"
 
 #: IWSexampleL3
 msgid "Known properties"
@@ -4652,16 +4732,18 @@ msgid "Code-base"
 msgstr ""
 
 #: APPEXTSECguiTableModelTableColumnArchives
+#, fuzzy
 msgid "Archives"
-msgstr ""
+msgstr "存档"
 
 #: APPEXTSECguiPanelAppletInfoHederPart1
 msgid "{0} {1}"
 msgstr ""
 
 #: APPEXTSECguiPanelAppletInfoHederPart2
+#, fuzzy
 msgid "{0} from  {1}"
-msgstr ""
+msgstr "发件人"
 
 #: APPEXTSECguiPanelConfirmDeletionOf
 msgid "Are you sure you want to delete following {0} items"
@@ -4670,7 +4752,7 @@ msgstr ""
 #: APPEXTSECguiPanelHelpButton
 msgctxt "APPEXTSECguiPanelHelpButton"
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: APPEXTSECguiPanelSecurityLevel
 msgid "Security Level"
@@ -4681,8 +4763,9 @@ msgid "Settings of global behavior for applets"
 msgstr ""
 
 #: APPEXTSECguiPanelDeleteMenuSelected
+#, fuzzy
 msgid "selected"
-msgstr ""
+msgstr "已选中"
 
 #: APPEXTSECguiPanelDeleteMenuAllA
 msgid "all allowed (A)"
@@ -4707,7 +4790,7 @@ msgstr ""
 #: APPEXTSECguiPanelDeleteButton
 msgctxt "APPEXTSECguiPanelDeleteButton"
 msgid "Delete"
-msgstr ""
+msgstr "删除"
 
 #: APPEXTSECguiPanelDeleteButtonToolTip
 msgid ""
