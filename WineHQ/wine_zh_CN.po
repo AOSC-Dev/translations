@@ -9076,11 +9076,11 @@ msgstr "山地夏令时（墨西哥）"
 
 #: tzres.rc:106
 msgid "GMT Standard Time"
-msgstr "格林威治标准时间"
+msgstr "格林尼治标准时间"
 
 #: tzres.rc:107
 msgid "GMT Daylight Time"
-msgstr "格林威治夏令时"
+msgstr "格林尼治夏令时"
 
 #: tzres.rc:68
 msgid "Central Asia Standard Time"
@@ -9211,14 +9211,12 @@ msgid "Azores Daylight Time"
 msgstr "亚速尔群岛夏令时"
 
 #: tzres.rc:158
-#, fuzzy
 msgid "North Asia East Standard Time"
-msgstr "东北亚标准时间"
+msgstr "北亚东部标准时间"
 
 #: tzres.rc:159
-#, fuzzy
 msgid "North Asia East Daylight Time"
-msgstr "东北亚夏令时"
+msgstr "北亚东部夏令时"
 
 #: tzres.rc:40
 msgid "Argentina Standard Time"
@@ -9249,12 +9247,10 @@ msgid "India Daylight Time"
 msgstr "印度夏令时"
 
 #: tzres.rc:112
-#, fuzzy
 msgid "GTB Standard Time"
 msgstr "GTB 标准时间"
 
 #: tzres.rc:113
-#, fuzzy
 msgid "GTB Daylight Time"
 msgstr "GTB 夏令时"
 
@@ -9292,11 +9288,11 @@ msgstr "台北夏令时"
 
 #: tzres.rc:220
 msgid "W. Europe Standard Time"
-msgstr "北欧标准时间"
+msgstr "西欧标准时间"
 
 #: tzres.rc:221
 msgid "W. Europe Daylight Time"
-msgstr "北欧夏令时"
+msgstr "西欧夏令时"
 
 #: tzres.rc:138
 msgid "Montevideo Standard Time"
@@ -9323,14 +9319,12 @@ msgid "Caucasus Daylight Time"
 msgstr "高加索夏令时"
 
 #: tzres.rc:46
-#, fuzzy
 msgid "AUS Eastern Standard Time"
-msgstr "AUS 东部标准时间"
+msgstr "澳大利亚东部标准时间"
 
 #: tzres.rc:47
-#, fuzzy
 msgid "AUS Eastern Daylight Time"
-msgstr "AUS 东部夏令时"
+msgstr "澳大利亚东部夏令时"
 
 #: tzres.rc:148
 msgid "N. Central Asia Standard Time"
@@ -9414,11 +9408,11 @@ msgstr "南非夏令时"
 
 #: tzres.rc:64
 msgid "Cen. Australia Standard Time"
-msgstr "澳洲中部标准时间"
+msgstr "澳大利亚中部标准时间"
 
 #: tzres.rc:65
 msgid "Cen. Australia Daylight Time"
-msgstr "澳洲中部夏令时"
+msgstr "澳大利亚中部夏令时"
 
 #: tzres.rc:190
 msgid "Sri Lanka Standard Time"
@@ -9445,14 +9439,12 @@ msgid "Yakutsk Daylight Time"
 msgstr "雅库次克夏令时"
 
 #: tzres.rc:176
-#, fuzzy
 msgid "SA Eastern Standard Time"
-msgstr "SA 东部标准时间"
+msgstr "南美东部标准时间"
 
 #: tzres.rc:177
-#, fuzzy
 msgid "SA Eastern Daylight Time"
-msgstr "SA 东部夏令时"
+msgstr "南美东部夏令时"
 
 #: tzres.rc:34
 msgid "Arab Standard Time"
@@ -9503,14 +9495,12 @@ msgid "Syria Daylight Time"
 msgstr "叙利亚夏令时"
 
 #: tzres.rc:44
-#, fuzzy
 msgid "AUS Central Standard Time"
-msgstr "AUS 中部标准时间"
+msgstr "澳大利亚中部标准时间"
 
 #: tzres.rc:45
-#, fuzzy
 msgid "AUS Central Daylight Time"
-msgstr "AUS 中部夏令时"
+msgstr "澳大利亚中部夏令时"
 
 #: tzres.rc:110
 msgid "Greenwich Standard Time"
@@ -9545,14 +9535,12 @@ msgid "Bangladesh Daylight Time"
 msgstr "孟加拉夏令时"
 
 #: tzres.rc:178
-#, fuzzy
 msgid "SA Pacific Standard Time"
-msgstr "SA 太平洋标准时间"
+msgstr "南美太平洋标准时间"
 
 #: tzres.rc:179
-#, fuzzy
 msgid "SA Pacific Daylight Time"
-msgstr "SA 太平洋夏令时"
+msgstr "南美太平洋夏令时"
 
 #: tzres.rc:222
 msgid "West Asia Standard Time"
@@ -9644,11 +9632,11 @@ msgstr "巴西中部夏令时"
 
 #: tzres.rc:56
 msgid "Belarus Standard Time"
-msgstr "白俄罗斯标准时间"
+msgstr "白罗斯标准时间"
 
 #: tzres.rc:57
 msgid "Belarus Daylight Time"
-msgstr "白俄罗斯夏令时"
+msgstr "白罗斯夏令时"
 
 #: tzres.rc:180
 msgid "SA Western Standard Time"
@@ -9723,12 +9711,10 @@ msgid "E. Africa Daylight Time"
 msgstr "东非夏令时"
 
 #: tzres.rc:102
-#, fuzzy
 msgid "FLE Standard Time"
 msgstr "FLE 标准时间"
 
 #: tzres.rc:103
-#, fuzzy
 msgid "FLE Daylight Time"
 msgstr "FLE 夏令时"
 
@@ -9757,30 +9743,28 @@ msgid "W. Central Africa Daylight Time"
 msgstr "中西非夏令时"
 
 #: tzres.rc:162
-#, fuzzy
 msgid "Pacific SA Standard Time"
-msgstr "太平洋 SA 标准时间"
+msgstr "太平洋南美标准时间"
 
 #: tzres.rc:163
-#, fuzzy
 msgid "Pacific SA Daylight Time"
-msgstr "太平洋 SA 夏令时"
+msgstr "太平洋南美夏令时"
 
 #: tzres.rc:88
 msgid "E. Australia Standard Time"
-msgstr "澳洲东部标准时间"
+msgstr "澳大利亚东部标准时间"
 
 #: tzres.rc:89
 msgid "E. Australia Daylight Time"
-msgstr "澳洲东部夏令时"
+msgstr "澳大利亚东部夏令时"
 
 #: tzres.rc:216
 msgid "W. Australia Standard Time"
-msgstr "澳洲西部标准时间"
+msgstr "澳大利亚西部标准时间"
 
 #: tzres.rc:217
 msgid "W. Australia Daylight Time"
-msgstr "澳洲西部夏令时"
+msgstr "澳大利亚西部夏令时"
 
 #: urlmon.rc:32 wininet.rc:77
 msgid "Security Warning"
