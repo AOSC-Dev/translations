@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: https://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2019-02-19 11:34-0600\n"
+"PO-Revision-Date: 2019-02-19 11:39-0600\n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
@@ -14531,7 +14531,7 @@ msgstr "普通 Metafile 阅读器"
 
 #: view.rc:50
 msgid "Metafiles (*.wmf, *.emf)"
-msgstr ""
+msgstr "元文件 (*.wmf, *.emf)"
 
 #: wineboot.rc:31
 msgid "Waiting for Program"
@@ -16061,8 +16061,6 @@ msgid "Text documents (*.txt)"
 msgstr "文本文件 (*.txt)"
 
 #: wordpad.rc:149
-#, fuzzy
-#| msgid "Unicode text document (*.txt)"
 msgid "Unicode text documents (*.txt)"
 msgstr "Unicode 文本文件 (*.txt)"
 
