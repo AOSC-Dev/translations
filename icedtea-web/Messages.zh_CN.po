@@ -4,11 +4,11 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-25 22:17-0600\n"
-"PO-Revision-Date: 2018-10-25 22:57-0600\n"
+"PO-Revision-Date: 2019-05-03 12:13-0600\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese <kde-i18n-doc@kde.org>\n"
 "Language: zh_CN\n"
@@ -24,8 +24,9 @@ msgstr ""
 #. #
 #. # General
 #: NullParameter
+#, fuzzy
 msgid "Null parameter"
-msgstr ""
+msgstr "为 MCI 传递了无效的参数块。"
 
 #: ButAllow
 msgid "Allow"
@@ -49,8 +50,9 @@ msgid "Advanced Options"
 msgstr "高级选项"
 
 #: ButLunchFullItwSettings
+#, fuzzy
 msgid "Launch full settings"
-msgstr ""
+msgstr "完全信任"
 
 #: ButCopy
 msgid "Copy to Clipboard"
@@ -102,33 +104,35 @@ msgid "No"
 msgstr "否"
 
 #: BUTControlledBy
+#, fuzzy
 msgid "Controlled by {0}"
-msgstr ""
+msgstr "控制者"
 
 #: BUTmodified
 #, fuzzy
 msgid "modified"
-msgstr "修改于："
+msgstr "修改日期"
 
 #: BUTback
 #, fuzzy
 msgid "Back"
-msgstr "向后"
+msgstr "后退"
 
 #: BUTforward
 #, fuzzy
 msgid "Forward"
-msgstr "转发"
+msgstr "前进"
 
 #: BUTreload
 #, fuzzy
 msgctxt "BUTreload"
 msgid "Reload"
-msgstr "重载"
+msgstr "重新加载"
 
 #: ITWdocsMissingAuthors
+#, fuzzy
 msgid "See authors file"
-msgstr ""
+msgstr "作者(_A)"
 
 #: HEADLESS_MISSCONFIGURED
 msgid ""
@@ -146,16 +150,19 @@ msgid "Do not trust this applet and run with restricted permissions"
 msgstr ""
 
 #: CertWarnCancelTip
+#, fuzzy
 msgid "Do not run this applet"
-msgstr ""
+msgstr "第一次运行 GNOME 待办事项"
 
 #: CertWarnPolicyTip
+#, fuzzy
 msgid "Advanced sandbox settings"
-msgstr ""
+msgstr "高级设置..."
 
 #: CertWarnPolicyEditorItem
+#, fuzzy
 msgid "Launch PolicyEditor"
-msgstr ""
+msgstr "启动(_L)"
 
 #: CertWarnHTTPSAcceptTip
 msgid "Accept this certificate and trust the HTTPS connection"
@@ -167,16 +174,19 @@ msgid ""
 msgstr ""
 
 #: AFileOnTheMachine
+#, fuzzy
 msgid "a file on the machine"
-msgstr ""
+msgstr "计算机名称(&M)："
 
 #: AlwaysAllowAction
+#, fuzzy
 msgid "Always allow this action"
-msgstr ""
+msgstr "允许"
 
 #: AlwaysForbidAction
+#, fuzzy
 msgid "Always forbid this action"
-msgstr ""
+msgstr "动作"
 
 #: Usage
 msgid "Usage:"
@@ -197,7 +207,7 @@ msgstr "你要继续吗？"
 #: Field
 #, fuzzy
 msgid "Field"
-msgstr "Campo"
+msgstr "域"
 
 #: From
 #, fuzzy
@@ -218,8 +228,9 @@ msgid "Publisher"
 msgstr "发布者"
 
 #: Unknown
+#, fuzzy
 msgid "<Unknown>"
-msgstr ""
+msgstr "未知"
 
 #: Username
 msgid "Username:"
@@ -260,8 +271,9 @@ msgid "Warning - your JRE - {0} - does not match requested JRE - {1}"
 msgstr ""
 
 #: JREContinueDialogSentence2
+#, fuzzy
 msgid "Do you want to continue running?"
-msgstr ""
+msgstr "还是要继续吗？"
 
 #: JREContinueDialogSentenceTitle
 msgid "Incompatible JRE"
@@ -333,13 +345,14 @@ msgstr ""
 
 #. # LS - Severity
 #: LSMinor
+#, fuzzy
 msgid "Minor"
-msgstr ""
+msgstr "次要网格线颜色："
 
 #: LSFatal
 #, fuzzy
 msgid "Fatal"
-msgstr "致命错误"
+msgstr "致命错误\n"
 
 #. # LC - Category
 #: LCSystem
@@ -347,40 +360,48 @@ msgid "System Error"
 msgstr "系统错误"
 
 #: LCExternalLaunch
+#, fuzzy
 msgid "External Launch Error"
-msgstr ""
+msgstr "自动启动外部编辑器"
 
 #: LCFileFormat
+#, fuzzy
 msgid "File Format Error"
-msgstr ""
+msgstr "模板中 '发件人' 格式错误。"
 
 #: LCReadError
 msgid "Read Error"
 msgstr "读取错误"
 
 #: LCClient
+#, fuzzy
 msgid "Application Error"
-msgstr ""
+msgstr "启动应用程序出错。"
 
 #: LCLaunching
+#, fuzzy
 msgid "Launch Error"
-msgstr ""
+msgstr "启动(_L)"
 
 #: LCNotSupported
+#, fuzzy
 msgid "Unsupported Feature"
-msgstr ""
+msgstr "试图使用不支持的功能：“%s”"
 
 #: LCInit
+#, fuzzy
 msgid "Initialization Error"
-msgstr ""
+msgstr "初始化"
 
 #: LAllThreadGroup
+#, fuzzy
 msgid "All JNLP applications"
-msgstr ""
+msgstr "查看所有应用程序(_V)"
 
 #: LNullUpdatePolicy
+#, fuzzy
 msgid "Update policy cannot be null."
-msgstr ""
+msgstr "升级期间设备无法被使用。"
 
 #: LThreadInterrupted
 msgid "Thread interrupted while waiting for file to launch."
@@ -393,8 +414,9 @@ msgid ""
 msgstr ""
 
 #: LCouldNotLaunch
+#, fuzzy
 msgid "Could not launch JNLP file."
-msgstr ""
+msgstr "无法写入文件 %1。"
 
 #: LCouldNotLaunchInfo
 msgid ""
@@ -403,8 +425,9 @@ msgid ""
 msgstr ""
 
 #: LCantRead
+#, fuzzy
 msgid "Could not read or parse the JNLP file."
-msgstr ""
+msgstr "不能读入配置文件 %s。"
 
 #: LCantReadInfo
 msgid ""
@@ -413,8 +436,9 @@ msgid ""
 msgstr ""
 
 #: LNullLocation
+#, fuzzy
 msgid "Could not determine .jnlp file location."
-msgstr ""
+msgstr "无法确定“%s”的原始位置"
 
 #: LNullLocationInfo
 msgid ""
@@ -424,8 +448,9 @@ msgid ""
 msgstr ""
 
 #: LNetxJarMissing
+#, fuzzy
 msgid "Could not determine location of netx.jar."
-msgstr ""
+msgstr "无法确定“%s”的原始位置"
 
 #: LNetxJarMissingInfo
 msgid ""
@@ -446,40 +471,46 @@ msgid ""
 msgstr ""
 
 #: LNotApplication
+#, fuzzy
 msgid "Not an application file."
-msgstr ""
+msgstr "Open file in default application"
 
 #: LNotApplicationInfo
 msgid "An attempt was made to load a non-application file as an application."
 msgstr ""
 
 #: LNotApplet
+#, fuzzy
 msgid "Not an applet file."
-msgstr ""
+msgstr "小程序"
 
 #: LNotAppletInfo
 msgid "An attempt was made to load a non-applet file as an applet."
 msgstr ""
 
 #: LNoInstallers
+#, fuzzy
 msgid "Installers not supported."
-msgstr ""
+msgstr "未支持"
 
 #: LNoInstallersInfo
 msgid "JNLP installer files are not yet supported."
 msgstr ""
 
 #: LInitApplet
+#, fuzzy
 msgid "Could not initialize applet."
-msgstr ""
+msgstr "小程序"
 
 #: LInitAppletInfo
+#, fuzzy
 msgid "For more information click \"more information button\"."
-msgstr ""
+msgstr "一项了解更多信息。"
 
 #: LInitApplication
+#, fuzzy
 msgid "Could not initialize application."
-msgstr ""
+msgstr "无法创建应用程序“%s”"
 
 #: LInitApplicationInfo
 msgid ""
@@ -488,16 +519,18 @@ msgid ""
 msgstr ""
 
 #: LNotLaunchable
+#, fuzzy
 msgid "Not a launchable JNLP file."
-msgstr ""
+msgstr "文件..."
 
 #: LNotLaunchableInfo
 msgid "File must be a JNLP application, applet, or installer type."
 msgstr ""
 
 #: LCantDetermineMainClass
+#, fuzzy
 msgid "Unknown Main-Class."
-msgstr ""
+msgstr "未知的 POSIX 类名"
 
 #: LCantDetermineMainClassInfo
 msgid "Could not determine the main class for this application."
@@ -522,8 +555,9 @@ msgid ""
 msgstr ""
 
 #: LUnsignedApplet
+#, fuzzy
 msgid "The applet was unsigned."
-msgstr ""
+msgstr "小程序"
 
 #: LUnsignedAppletPolicyDenied
 msgid ""
@@ -531,12 +565,14 @@ msgid ""
 msgstr ""
 
 #: LUnsignedAppletUserDenied
+#, fuzzy
 msgid "The applet was unsigned, and was not trusted."
-msgstr ""
+msgstr "小程序"
 
 #: LPartiallySignedApplet
+#, fuzzy
 msgid "The applet was partially signed."
-msgstr ""
+msgstr "有签名"
 
 #: LPartiallySignedAppletUserDenied
 msgid "The applet was partially signed, and the user did not trust it."
@@ -572,8 +608,9 @@ msgid ""
 msgstr ""
 
 #: LCertFoundIn
+#, fuzzy
 msgid "{0} found in cacerts ({1})"
-msgstr ""
+msgstr "{0}转出变换: {1}"
 
 #: LSingleInstanceExists
 msgid ""
@@ -582,20 +619,27 @@ msgid ""
 msgstr ""
 
 #: JNotApplet
+#, fuzzy
 msgid "File is not an applet."
-msgstr ""
+msgstr "小程序"
 
 #: JNotApplication
+#, fuzzy
 msgid "File is not an application."
-msgstr ""
+msgstr "Open file in default application"
 
 #: JNotComponent
+#, fuzzy
 msgid "File is not a component."
 msgstr ""
+"Gpg4win 是一个 Windows 平台上的 GnuPG 核心组件安装包，提供了用于邮件和文件加"
+"密的一系列工具，它完全支持 OpenPGP 和 S/MIME 两种加密标准。Gpg4win 和其中包含"
+"的的软件都是自由软件。"
 
 #: JNotInstaller
+#, fuzzy
 msgid "File is not an installer."
-msgstr ""
+msgstr "未使用安装器。\n"
 
 #: JInvalidExtensionDescriptor
 msgid ""
@@ -604,12 +648,14 @@ msgid ""
 msgstr ""
 
 #: LNotVerified
+#, fuzzy
 msgid "Jars not verified."
-msgstr ""
+msgstr "错误：签名未校验"
 
 #: LCancelOnUserRequest
+#, fuzzy
 msgid "Cancelled on user request."
-msgstr ""
+msgstr "已被用户取消"
 
 #: LFatalVerification
 msgid "A fatal error occurred while trying to verify jars."
@@ -623,8 +669,9 @@ msgid ""
 msgstr ""
 
 #: LNotVerifiedDialog
+#, fuzzy
 msgid "Not all jars could be verified."
-msgstr ""
+msgstr "证书的所有预期用途均无法验证。"
 
 #: LAskToContinue
 msgid "Would you still like to continue running this application?"
@@ -632,12 +679,14 @@ msgstr ""
 
 #. # Parser
 #: PInvalidRoot
+#, fuzzy
 msgid "Root element is not a jnlp element."
-msgstr ""
+msgstr "找不到元素。\n"
 
 #: PNoResources
+#, fuzzy
 msgid "No resources element specified."
-msgstr ""
+msgstr "元素"
 
 #: PUntrustedNative
 msgid ""
@@ -664,13 +713,14 @@ msgid "main attribute cannot be specified on a nativelib element."
 msgstr ""
 
 #: PNoInfoElement
+#, fuzzy
 msgid "No information element specified."
-msgstr ""
+msgstr "信息"
 
 #: PMissingTitle
 #, fuzzy
 msgid "title"
-msgstr "título"
+msgstr "标题"
 
 #: PMissingVendor
 msgid "vendor"
@@ -703,36 +753,44 @@ msgid "Only one application-desc element allowed per JNLP file."
 msgstr ""
 
 #: PTwoDesktops
+#, fuzzy
 msgid "Only one desktop element allowed"
-msgstr ""
+msgstr "在 <%2$s> 中仅允许一个成员 <%1$s>"
 
 #: PTwoMenus
+#, fuzzy
 msgid "Only one menu element allowed"
-msgstr ""
+msgstr "在 <%2$s> 中仅允许一个成员 <%1$s>"
 
 #: PTwoTitles
+#, fuzzy
 msgid "Only one title element allowed"
-msgstr ""
+msgstr "在 <%2$s> 中仅允许一个成员 <%1$s>"
 
 #: PTwoIcons
+#, fuzzy
 msgid "Only one icon element allowed"
-msgstr ""
+msgstr "在 <%2$s> 中仅允许一个成员 <%1$s>"
 
 #: PTwoUpdates
+#, fuzzy
 msgid "Only one update element is allowed"
-msgstr ""
+msgstr "在 <%2$s> 中仅允许一个成员 <%1$s>"
 
 #: PUnknownApplet
+#, fuzzy
 msgid "Unknown Applet"
-msgstr ""
+msgstr "小程序"
 
 #: PBadWidth
+#, fuzzy
 msgid "Invalid applet width."
-msgstr ""
+msgstr "变量宽度%d有误。"
 
 #: PBadHeight
+#, fuzzy
 msgid "Invalid applet height."
-msgstr ""
+msgstr "无效的高度编辑。\n"
 
 #: PUrlNotInCodebase
 msgid ""
@@ -753,8 +811,9 @@ msgid "The {0} element must specify a {1} attribute."
 msgstr ""
 
 #: PBadXML
+#, fuzzy
 msgid "Invalid XML document syntax."
-msgstr ""
+msgstr "显示并编辑文档的 XML 树"
 
 #: PBadHeapSize
 msgid "Invalid value for heap size ({0})"
@@ -762,20 +821,23 @@ msgstr ""
 
 #. # Runtime
 #: BLaunchAbout
+#, fuzzy
 msgid "Launching about window..."
-msgstr ""
+msgstr "预览启动错误：%s\n"
 
 #: BLaunchAboutFailure
 msgid "Was not able to launch About window"
 msgstr ""
 
 #: BNeedsFile
+#, fuzzy
 msgid "Must specify a .jnlp file"
-msgstr ""
+msgstr "Specify a configuration file"
 
 #: RNoAboutJnlp
+#, fuzzy
 msgid "Unable to find about.jnlp"
-msgstr ""
+msgstr "找不到图像数据。"
 
 #: BFileLoc
 msgid "JNLP file location"
@@ -790,8 +852,9 @@ msgid "Incorrect parameter format {0} (should be name=value)"
 msgstr ""
 
 #: BNoDir
+#, fuzzy
 msgid "Directory {0} does not exist."
-msgstr ""
+msgstr "写入锁文件出错：目录“%s”不存在"
 
 #: BNoCodeOrObjectApplet
 msgid ""
@@ -799,8 +862,9 @@ msgid ""
 msgstr ""
 
 #: RNoResource
+#, fuzzy
 msgid "Missing Resource: {0}"
-msgstr ""
+msgstr "资源"
 
 #: RShutdown
 msgid ""
@@ -813,32 +877,39 @@ msgid "Exit class already set and caller is not exit class."
 msgstr ""
 
 #: RCantReplaceSM
+#, fuzzy
 msgid "Changing the SecurityManager is not allowed."
-msgstr ""
+msgstr "Changing language to English"
 
 #: RCantCreateFile
+#, fuzzy
 msgid "Cant create file {0}"
-msgstr ""
+msgstr "创建备份文件"
 
 #: RCantDeleteFile
+#, fuzzy
 msgid "Cant delete file {0}"
-msgstr ""
+msgstr "文件无法移到回收站。是否彻底删除?"
 
 #: RCantOpenFile
+#, fuzzy
 msgid "Could not open file {0}"
-msgstr ""
+msgstr "不能打开文件。"
 
 #: RCantWriteFile
+#, fuzzy
 msgid "Could not write to file {0}"
-msgstr ""
+msgstr "无法写入文件 %1。"
 
 #: RFileReadOnly
+#, fuzzy
 msgid "Opening file in read-only mode"
-msgstr ""
+msgstr "文件“%s”为只读。"
 
 #: RExpectedFile
+#, fuzzy
 msgid "Expected {0} to be a file but it was not"
-msgstr ""
+msgstr "期望得到 ';'"
 
 #: RRemoveRPermFailed
 msgid "Removing read permission on file {0} failed"
@@ -865,12 +936,14 @@ msgid "Acquiring execute permissions on file {0} failed"
 msgstr ""
 
 #: RCantCreateDir
+#, fuzzy
 msgid "Cant create directory {0}"
-msgstr ""
+msgstr "无法创建文件夹：%s"
 
 #: RCantRename
+#, fuzzy
 msgid "Cant rename {0} to {1}"
-msgstr ""
+msgstr "无法重命名文件“%1”为“%2”"
 
 #: RDenyStopped
 msgid "Stopped applications have no permissions."
@@ -882,16 +955,18 @@ msgid ""
 msgstr ""
 
 #: RNoLockDir
+#, fuzzy
 msgid "Unable to create locks directory ({0})"
-msgstr ""
+msgstr "无法为 %s 找到或创建回收站目录"
 
 #: RNestedJarExtration
 msgid "Unable to extract nested jar."
 msgstr ""
 
 #: RUnexpected
+#, fuzzy
 msgid "Unexpected {0} at {1}"
-msgstr ""
+msgstr "regedit: '%1' 中存在未预期的行尾。\n"
 
 #: RConfigurationError
 msgid ""
@@ -906,8 +981,9 @@ msgid ""
 msgstr ""
 
 #: RFailingToDefault
+#, fuzzy
 msgid "Failing to default configuration"
-msgstr ""
+msgstr "(默认)"
 
 #: RPRoxyPacNotSupported
 msgid "Using Proxy Auto Config (PAC) files is not supported."
@@ -923,8 +999,9 @@ msgid "Browser proxy option \"{0}\" ({1}) not supported yet."
 msgstr ""
 
 #: RBrowserLocationPromptTitle
+#, fuzzy
 msgid "Please select handler (browser) for this url:"
-msgstr ""
+msgstr "请选择要打开的网址。"
 
 #: HTMLnoneFound
 msgid ""
@@ -959,8 +1036,9 @@ msgid "{0} also includes a plugin to {1} within web browsers."
 msgstr ""
 
 #: ITWintroUrlCaption
+#, fuzzy
 msgid "enable Java applets"
-msgstr ""
+msgstr "启用 Java"
 
 #: BFileInfoAuthors
 msgid ""
@@ -989,16 +1067,18 @@ msgid "Easily add JNLP capabilities to an application."
 msgstr ""
 
 #: ITWdescO2title
+#, fuzzy
 msgid "Saves Memory"
-msgstr ""
+msgstr "内存不足"
 
 #: ITWdescO2text
 msgid "Launch programs in a shared JVM."
 msgstr ""
 
 #: ITWdescO3title
+#, fuzzy
 msgid "Fast startup"
-msgstr ""
+msgstr "快"
 
 #: ITWdescO3text
 msgid "Runs applications from a cache for fast starting."
@@ -1014,40 +1094,47 @@ msgid "Run any application in a sandbox or log its activities."
 msgstr ""
 
 #: ITWdescO5title
+#, fuzzy
 msgid "Auto-Update"
-msgstr ""
+msgstr "自动"
 
 #: ITWdescO5text
 msgid "Applications can auto-update without special code."
 msgstr ""
 
 #: ITWdescO6title
+#, fuzzy
 msgid "Network Deployment"
-msgstr ""
+msgstr "无网络。\n"
 
 #: ITWdescO6text
+#, fuzzy
 msgid "Deploy to the internet, not with installers."
-msgstr ""
+msgstr "Internet 设置"
 
 #: ITWdescO7title
+#, fuzzy
 msgid "Open Source"
-msgstr ""
+msgstr "开源"
 
 #: ITWdescO7text
+#, fuzzy
 msgid "GNU Lesser General Public License."
-msgstr ""
+msgstr "GNU 宽松通用公共许可证，仅限第 3 版"
 
 #: ITWdescL1
 msgid "Visit the {0} or specifically the {1} pages for more information."
 msgstr ""
 
 #: ITWdescWikiUrlTitle
+#, fuzzy
 msgid "IcedTea project wiki"
-msgstr ""
+msgstr "项目维基"
 
 #: ITWdescItwWikiUrlTitle
+#, fuzzy
 msgid "IcedTea-Web home"
-msgstr ""
+msgstr "'主文件夹'"
 
 #: ITWdescL2
 msgid "Help with common issues with IcedTea-Web can be found {0} ."
@@ -1056,11 +1143,12 @@ msgstr ""
 #: ITWdescIssuesUrlTitle
 #, fuzzy
 msgid "here"
-msgstr "这里"
+msgstr "移动到此处(_M)"
 
 #: ITWdescL3
+#, fuzzy
 msgid "NetX features:"
-msgstr ""
+msgstr "特性："
 
 #: ITWoptionsL1
 msgid "A {0} guide for the IcedTea project is available on the wiki."
@@ -1071,8 +1159,9 @@ msgid "QuickStart"
 msgstr ""
 
 #: ITWoptionsCodeUrlUrlCaption
+#, fuzzy
 msgid "Code style"
-msgstr ""
+msgstr "样式"
 
 #: ITWoptionsL2
 msgid ""
@@ -1081,20 +1170,23 @@ msgid ""
 msgstr ""
 
 #: ITWoptionsEclipseUrlCaption
+#, fuzzy
 msgid "Eclipse setup"
-msgstr ""
+msgstr "设置(&S)"
 
 #: ITWoptionsReproducersUrlCaption
 msgid "reproducers"
 msgstr ""
 
 #: ITWoptionsDistroUrlCaption
+#, fuzzy
 msgid "the mailing list"
-msgstr ""
+msgstr "邮件列表："
 
 #: ITWoptionsL3
+#, fuzzy
 msgid "Contributing:  "
-msgstr ""
+msgstr "你对为下个开发周期写代码，改进设计"
 
 #. # policyeditor man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
 #: PEintro
@@ -1104,8 +1196,9 @@ msgid ""
 msgstr ""
 
 #: PEsynopseP1
+#, fuzzy
 msgid "policy_file"
-msgstr ""
+msgstr "策略："
 
 #: PEsynopseP2
 #, fuzzy
@@ -1140,8 +1233,9 @@ msgstr ""
 
 #. # javaws man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
 #: JWSintro
+#, fuzzy
 msgid "- a Java Web Start client"
-msgstr ""
+msgstr "无法启动 Web"
 
 #: JWSdescL1
 msgid ""
@@ -1176,12 +1270,55 @@ msgid ""
 msgstr ""
 
 #: JWSoptionsTitle1
+#, fuzzy
 msgid "Run options:"
-msgstr ""
+msgstr "更改运行选项"
 
 #: JWSoptionsTitle2
+#, fuzzy
 msgid "Control options:"
 msgstr ""
+"修改 shell 资源限制。\n"
+"    \n"
+"    在允许此类控制的系统上，提供对于 shell 及其创建的进程所可用的\n"
+"    资源的控制。\n"
+"    \n"
+"    选项：\n"
+"      -S\t使用软 (`soft') 资源限制\n"
+"      -H\t使用硬 (`hard') 资源限制\n"
+"      -a\t所有当前限制都被报告\n"
+"      -b\t套接字缓存尺寸\n"
+"      -c\t创建的核文件的最大尺寸\n"
+"      -d\t一个进程的数据区的最大尺寸\n"
+"      -e\t最高的调度优先级 (`nice')\n"
+"      -f\t有 shell 及其子进程可以写的最大文件尺寸\n"
+"      -i\t最多的可以挂起的信号数\n"
+"      -k\t分配给此进程的最大 kqueue 数量\n"
+"      -l\t一个进程可以锁定的最大内存尺寸\n"
+"      -m\t最大的内存进驻尺寸\n"
+"      -n\t最多的打开的文件描述符个数\n"
+"      -p\t管道缓冲区尺寸\n"
+"      -q\tPOSIX 信息队列的最大字节数\n"
+"      -r\t实时调度的最大优先级\n"
+"      -s\t最大栈尺寸\n"
+"      -t\t最大的CPU时间，以秒为单位\n"
+"      -u\t最大用户进程数\n"
+"      -v\t虚拟内存尺寸\n"
+"      -x\t最大的文件锁数量\n"
+"      -P\t最大伪终端数量\n"
+"      -T\t最大线程数量\n"
+"    \n"
+"    并非所有选项在所有系统上可用。\n"
+"    \n"
+"    如果提供了 LIMIT 变量，则它为指定资源的新的值；特别的 LIMIT 值为\n"
+"    `soft'、`hard'和`unlimited'，分别表示当前的软限制，硬限制和无限制。\n"
+"    否则打印指定资源的当前限制值，不带选项则假定为 -f\n"
+"    \n"
+"    取值都是 1024 字节为单位，除了 -t 以秒为单位，-p 以 512 字节递增，\n"
+"    -u 为无范围的进程数量。\n"
+"    \n"
+"    退出状态：\n"
+"    返回成功，除非使用了无效的选项或者错误发生。"
 
 #: JWSexampleL1
 msgid "Shows basic help and about informations."
@@ -1199,12 +1336,55 @@ msgstr ""
 
 #. # Boot options, message should be shorter than this ---------------->
 #: BOUsage
+#, fuzzy
 msgid "[-run-options] jnlp file"
-msgstr ""
+msgstr "更改运行选项"
 
 #: BOUsage2
+#, fuzzy
 msgid "[-control-options]"
 msgstr ""
+"修改 shell 资源限制。\n"
+"    \n"
+"    在允许此类控制的系统上，提供对于 shell 及其创建的进程所可用的\n"
+"    资源的控制。\n"
+"    \n"
+"    选项：\n"
+"      -S\t使用软 (`soft') 资源限制\n"
+"      -H\t使用硬 (`hard') 资源限制\n"
+"      -a\t所有当前限制都被报告\n"
+"      -b\t套接字缓存尺寸\n"
+"      -c\t创建的核文件的最大尺寸\n"
+"      -d\t一个进程的数据区的最大尺寸\n"
+"      -e\t最高的调度优先级 (`nice')\n"
+"      -f\t有 shell 及其子进程可以写的最大文件尺寸\n"
+"      -i\t最多的可以挂起的信号数\n"
+"      -k\t分配给此进程的最大 kqueue 数量\n"
+"      -l\t一个进程可以锁定的最大内存尺寸\n"
+"      -m\t最大的内存进驻尺寸\n"
+"      -n\t最多的打开的文件描述符个数\n"
+"      -p\t管道缓冲区尺寸\n"
+"      -q\tPOSIX 信息队列的最大字节数\n"
+"      -r\t实时调度的最大优先级\n"
+"      -s\t最大栈尺寸\n"
+"      -t\t最大的CPU时间，以秒为单位\n"
+"      -u\t最大用户进程数\n"
+"      -v\t虚拟内存尺寸\n"
+"      -x\t最大的文件锁数量\n"
+"      -P\t最大伪终端数量\n"
+"      -T\t最大线程数量\n"
+"    \n"
+"    并非所有选项在所有系统上可用。\n"
+"    \n"
+"    如果提供了 LIMIT 变量，则它为指定资源的新的值；特别的 LIMIT 值为\n"
+"    `soft'、`hard'和`unlimited'，分别表示当前的软限制，硬限制和无限制。\n"
+"    否则打印指定资源的当前限制值，不带选项则假定为 -f\n"
+"    \n"
+"    取值都是 1024 字节为单位，除了 -t 以秒为单位，-p 以 512 字节递增，\n"
+"    -u 为无范围的进程数量。\n"
+"    \n"
+"    退出状态：\n"
+"    返回成功，除非使用了无效的选项或者错误发生。"
 
 #: BOJnlp
 msgid "Location of JNLP file to launch (url or file)."
@@ -1235,20 +1415,23 @@ msgid "Check for updates."
 msgstr "检查更新"
 
 #: BOLicense
+#, fuzzy
 msgid "Display the GPL license and exit."
-msgstr ""
+msgstr "GPL 许可证"
 
 #: BOVerbose
 msgid "Enable verbose output."
 msgstr "启用详细输出"
 
 #: BOAbout
+#, fuzzy
 msgid "Shows a sample application."
-msgstr ""
+msgstr "样本..."
 
 #: BOVersion
+#, fuzzy
 msgid "Print the IcedTea-Web version and exit."
-msgstr ""
+msgstr "打印版本信息并退出。"
 
 #: BONosecurity
 msgid ""
@@ -1257,8 +1440,9 @@ msgid ""
 msgstr ""
 
 #: BONoupdate
+#, fuzzy
 msgid "Disables checking for updates."
-msgstr ""
+msgstr "正在检查 rustup 的更新"
 
 #: BOHeadless
 msgid "Disables download window, other UIs."
@@ -1269,24 +1453,27 @@ msgid "Enables strict checking of JNLP file format."
 msgstr ""
 
 #: BOViewer
+#, fuzzy
 msgid "Shows the trusted certificate viewer."
-msgstr ""
+msgstr "此证书的签名有效，且其有效性受到完全信任。"
 
 #: BOXml
 msgid "Uses a strict XML parser to parse the JNLP file."
 msgstr ""
 
 #: BOredirect
+#, fuzzy
 msgid "Follows HTTP redirects."
-msgstr ""
+msgstr "http://"
 
 #: BXnofork
 msgid "Do not create another JVM."
 msgstr ""
 
 #: BXclearcache
+#, fuzzy
 msgid "Clean the JNLP application cache."
-msgstr ""
+msgstr "离线 Web 应用程序缓存"
 
 #: BXignoreheaders
 msgid "Skip jar header verification."
@@ -1318,8 +1505,9 @@ msgid "Shows a list of all the IcedTea-Web settings and their current values."
 msgstr ""
 
 #: IBOGet
+#, fuzzy
 msgid "Shows the value of the specified settings."
-msgstr ""
+msgstr "您已指定如下设置："
 
 #: IBOInfo
 msgid ""
@@ -1391,16 +1579,18 @@ msgstr ""
 
 #. # NumberOfArguments descriptions.
 #: NOAnone
+#, fuzzy
 msgid "No argument expected"
-msgstr ""
+msgstr "需要参数"
 
 #: NOAone
 msgid "Exactly one argument expected"
 msgstr ""
 
 #: NOAonemore
+#, fuzzy
 msgid "Expected one or more arguments"
-msgstr ""
+msgstr "需要两个参数"
 
 #: NOAevennumber
 msgid "Expected even number of arguments with param=value as valid argument"
@@ -1412,8 +1602,26 @@ msgid "NAME"
 msgstr "名称"
 
 #: manSYNOPSIS
+#, fuzzy
 msgid "SYNOPSIS"
 msgstr ""
+"显示内建命令的相关信息。\n"
+"    \n"
+"    显示内建命令的简略信息。如果指定了 PATTERN 模式，\n"
+"    给出所有匹配 PATTERN 模式的命令的详细帮助，否则打\n"
+"    印一个帮助主题列表\n"
+"    \n"
+"    选项：\n"
+"      -d\t输出每个主题的简短描述\n"
+"      -m\t以伪 man 手册的格式显示使用方法\n"
+"      -s\t为每一个匹配 PATTERN 模式的主题仅显示一个用法\n"
+"    \t简介\n"
+"    \n"
+"    参数：\n"
+"      PATTERN\tPattern 模式指定一个帮助主题\n"
+"    \n"
+"    退出状态：\n"
+"    返回成功，除非 PATTERN 模式没有找到或者使用了无效选项。"
 
 #: manDESCRIPTION
 msgid "DESCRIPTION"
@@ -1426,7 +1634,7 @@ msgstr "选项"
 #: manCOMMANDS
 #, fuzzy
 msgid "COMMANDS"
-msgstr "<span weight=\"bold\">命令:</span>"
+msgstr "命令："
 
 #: manEXAMPLES
 msgid "EXAMPLES"
@@ -1439,7 +1647,7 @@ msgstr "文件"
 #: manBUGS
 #, fuzzy
 msgid "BUGS"
-msgstr "Fouten"
+msgstr "显示已存在的缺陷"
 
 #: manAUTHOR
 msgid "AUTHOR"
@@ -1448,16 +1656,18 @@ msgstr "作者"
 #: manSEE_ALSO
 #, fuzzy
 msgid "SEE ALSO"
-msgstr "Se også"
+msgstr "16 位有符号整数。另请参阅“integer-16-unsigned”键。"
 
 #. # Cache
 #: CAutoGen
+#, fuzzy
 msgid "automatically generated - do not edit"
-msgstr ""
+msgstr "在登录时自动运行 GNOME 待办事项"
 
 #: CNotCacheable
+#, fuzzy
 msgid "{0} is not a cacheable resource"
-msgstr ""
+msgstr "0"
 
 #: CDownloading
 msgid "Downloading"
@@ -1468,16 +1678,18 @@ msgid "Complete"
 msgstr "完成"
 
 #: CChooseCache
+#, fuzzy
 msgid "Choose a cache directory..."
-msgstr ""
+msgstr "选择目录"
 
 #: CChooseCacheInfo
 msgid "NetX needs a location for storing cache files."
 msgstr ""
 
 #: CChooseCacheDir
+#, fuzzy
 msgid "Cache directory"
-msgstr ""
+msgstr "缓存,高速缓存"
 
 #: CCannotClearCache
 msgid ""
@@ -1489,8 +1701,9 @@ msgid ""
 msgstr ""
 
 #: CFakeCache
+#, fuzzy
 msgid "Cache is corrupt. Fixing."
-msgstr ""
+msgstr "注册表损坏。\n"
 
 #: CFakedCache
 msgid ""
@@ -1531,16 +1744,19 @@ msgid "You can manage existing menu entries in itweb-settings in {0} panel."
 msgstr ""
 
 #: EXAWrememberByApp
+#, fuzzy
 msgid "Remember by application"
-msgstr ""
+msgstr "不再询问"
 
 #: EXAWrememberByPage
+#, fuzzy
 msgid "Remember by domain"
-msgstr ""
+msgstr "不再询问"
 
 #: EXAWdontRemember
+#, fuzzy
 msgid "Don''t remember"
-msgstr ""
+msgstr "不要批量处理 GDI 请求"
 
 #: EXAWrememberByAppTooltip
 msgid ""
@@ -1560,20 +1776,24 @@ msgid ""
 msgstr ""
 
 #: EXAWbrowser
+#, fuzzy
 msgid "browser desktop item"
-msgstr ""
+msgstr "设置到桌面(&D)"
 
 #: EXAWgenjnlp
+#, fuzzy
 msgid "jnlp generated"
-msgstr ""
+msgstr "已生成"
 
 #: EXAWjnlphref
+#, fuzzy
 msgid "jnlp href"
-msgstr ""
+msgstr "链接："
 
 #: EXAWhtml
+#, fuzzy
 msgid "javaws html"
-msgstr ""
+msgstr "HTML (*.html)"
 
 #: EXAWfixhref
 msgid "fix issues in jnlp-href"
@@ -1703,8 +1923,9 @@ msgid ""
 msgstr ""
 
 #: SNoAssociatedCertificate
+#, fuzzy
 msgid "<no associated certificate>"
-msgstr ""
+msgstr "未关联"
 
 #: SUnverified
 msgid "(unverified)"
@@ -1719,16 +1940,19 @@ msgid "The website''s HTTPS certificate cannot be verified."
 msgstr ""
 
 #: SRememberOption
+#, fuzzy
 msgid "<b>Remember this option?</b>"
-msgstr ""
+msgstr "<b>均</b>"
 
 #: SRememberAppletOnly
+#, fuzzy
 msgid "For applet"
-msgstr ""
+msgstr "小程序"
 
 #: SRememberCodebase
+#, fuzzy
 msgid "For site <u>{0}</u>"
-msgstr ""
+msgstr "%2$u 的 %1$u"
 
 #: SUnsignedSummary
 msgid "An unsigned Java application wants to run"
@@ -1754,8 +1978,9 @@ msgid ""
 msgstr ""
 
 #: SUnsignedQuestion
+#, fuzzy
 msgid "Allow the applet to run?"
-msgstr ""
+msgstr "小程序"
 
 #: SPartiallySignedSummary
 msgid "Only parts of this application code are signed."
@@ -1789,16 +2014,18 @@ msgid ""
 msgstr ""
 
 #: STOAsignedMsgFully
+#, fuzzy
 msgid "The applet is fully signed"
-msgstr ""
+msgstr "有签名"
 
 #: STOAsignedMsgAndSandbox
 msgid "The applet is fully signed and sandboxed"
 msgstr ""
 
 #: STOAsignedMsgPartiall
+#, fuzzy
 msgid "The applet is not fully signed"
-msgstr ""
+msgstr "有签名"
 
 #: STempNetwork
 msgid "Allow incoming and outgoing network connections"
@@ -1858,8 +2085,9 @@ msgid "The digital signature was generated with an untrusted certificate."
 msgstr ""
 
 #: STrustedCertificate
+#, fuzzy
 msgid "The digital signature was generated with a trusted certificate."
-msgstr ""
+msgstr "此证书的签名有效，且其有效性受到完全信任。"
 
 #: SCNMisMatch
 msgid ""
@@ -1885,7 +2113,7 @@ msgstr "颁发者"
 #: SSerial
 #, fuzzy
 msgid "Serial"
-msgstr "序列号(&E):"
+msgstr "使用串行终端。"
 
 #: SMD5Fingerprint
 msgid "MD5 Fingerprint"
@@ -1911,7 +2139,7 @@ msgstr "主题"
 #: SValidity
 #, fuzzy
 msgid "Validity"
-msgstr "有效性"
+msgstr "有效"
 
 #. # Certificate Viewer
 #: CVCertificateViewer
@@ -1932,16 +2160,18 @@ msgid "Export"
 msgstr "导出"
 
 #: CVExportPasswordMessage
+#, fuzzy
 msgid "Enter password to protect key file:"
-msgstr ""
+msgstr "您可以使用密码保护私钥。"
 
 #: CVImport
 msgid "Import"
 msgstr "导入"
 
 #: CVImportPasswordMessage
+#, fuzzy
 msgid "Enter password to access file:"
-msgstr ""
+msgstr "输入密码"
 
 #: CVIssuedBy
 msgid "Issued By"
@@ -1959,15 +2189,17 @@ msgstr "需要认证"
 #, fuzzy
 msgctxt "CVRemove"
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "移除"
 
 #: CVRemoveConfirmMessage
+#, fuzzy
 msgid "Are you sure you want to remove the selected certificate?"
-msgstr ""
+msgstr "您确实要移除此证书吗？"
 
 #: CVRemoveConfirmTitle
+#, fuzzy
 msgid "Confirmation - Remove Certificate?"
-msgstr ""
+msgstr "确认密码"
 
 #: CVUser
 msgid "User"
@@ -1979,28 +2211,33 @@ msgstr "系统"
 
 #. # KeyStores: see KeyStores.java
 #: KS
+#, fuzzy
 msgid "KeyStore"
-msgstr ""
+msgstr "此证书是新的，可使用绝密密钥。"
 
 #: KSCerts
 msgid "Trusted Certificates"
 msgstr "受信证书"
 
 #: KSJsseCerts
+#, fuzzy
 msgid "Trusted JSSE Certificates"
-msgstr ""
+msgstr "允许将根证书标记为“信任”"
 
 #: KSCaCerts
+#, fuzzy
 msgid "Trusted Root CA Certificates"
-msgstr ""
+msgstr "允许将根证书标记为“信任”"
 
 #: KSJsseCaCerts
+#, fuzzy
 msgid "Trusted JSSE Root CA Certificates"
-msgstr ""
+msgstr "允许将根证书标记为“信任”"
 
 #: KSClientCerts
+#, fuzzy
 msgid "Client Authentication Certificates"
-msgstr ""
+msgstr "客户端数字证书"
 
 #. # KeyStores: set password
 #: KSresultUntilNow
@@ -2008,8 +2245,9 @@ msgid "Got {0} during keystore operation {1}. Attempts to unlock: {2}"
 msgstr ""
 
 #: KSinvalidPassword
+#, fuzzy
 msgid "Invalid password?"
-msgstr ""
+msgstr "无效密码。\n"
 
 #: KSheadlesWarning
 msgid ""
@@ -2050,13 +2288,15 @@ msgid ""
 msgstr ""
 
 #: HDwrongValue
+#, fuzzy
 msgid "Probably wrong value?"
-msgstr ""
+msgstr "参数有误"
 
 #. # HTTP 511
 #: Headless511line0
+#, fuzzy
 msgid "*** Found urls ***"
-msgstr ""
+msgstr "网址"
 
 #: Headless511line1
 msgid "Unluckily ITW do not support 511 in headless mode directly."
@@ -2075,12 +2315,14 @@ msgid ""
 msgstr ""
 
 #: Exit511
+#, fuzzy
 msgid "Exit IcedTea-Web"
-msgstr ""
+msgstr "离开"
 
 #: Ignore511
+#, fuzzy
 msgid "Ignore in this session"
-msgstr ""
+msgstr "在当前会话中忽略该词"
 
 #: Header511
 msgid ""
@@ -2091,8 +2333,9 @@ msgstr ""
 
 #. # Browser
 #: BrowserGoTo
+#, fuzzy
 msgid "Go to:"
-msgstr ""
+msgstr "转到(_G)"
 
 #: BrowserSource
 #, fuzzy
@@ -2100,8 +2343,9 @@ msgid "Source"
 msgstr "来源"
 
 #: BrowserSocket
+#, fuzzy
 msgid "Use direct socket conenction"
-msgstr ""
+msgstr "无效的直接访问句柄使用。\n"
 
 #: BrowserSocketHelp
 msgid ""
@@ -2111,12 +2355,14 @@ msgid ""
 msgstr ""
 
 #: BrowserOpenExternal
+#, fuzzy
 msgid "Open in external browser"
-msgstr ""
+msgstr "在新的浏览器窗口中打开"
 
 #: BrowserOpeninternal
+#, fuzzy
 msgid "Open in integrated browse"
-msgstr ""
+msgstr "浏览(&B)..."
 
 #: BrowserCopyUrlToClip
 msgid "Copy to clipboard"
@@ -2151,20 +2397,23 @@ msgid "Internal error: {0}"
 msgstr "内部错误：{0}"
 
 #: DCSourceInternal
+#, fuzzy
 msgid "<internal>"
-msgstr ""
+msgstr "内部"
 
 #: DCUnknownSettingWithName
+#, fuzzy
 msgid "Property \"{0}\" is unknown."
-msgstr ""
+msgstr "未知属性。\n"
 
 #: DCmaindircheckNotexists
 msgid "After all attempts, your configuration directory {0} do not exists."
 msgstr ""
 
 #: DCmaindircheckNotdir
+#, fuzzy
 msgid "Your configuration directory {0} is not directory."
-msgstr ""
+msgstr "  --config-dir           显示配置数据目录"
 
 #: DCmaindircheckRwproblem
 msgid "Your configuration directory {0} cannot be read/written properly."
@@ -2172,20 +2421,24 @@ msgstr ""
 
 #. # Value Validator messages. Messages should follow "Possible values ..."
 #: VVPossibleValues
+#, fuzzy
 msgid "Possible values {0}"
-msgstr ""
+msgstr "只能对整数值进行移位运算"
 
 #: VVPossibleBooleanValues
+#, fuzzy
 msgid "are {0} or {1}"
-msgstr ""
+msgstr "{0}\t对象 \"{1}\""
 
 #: VVPossibleFileValues
+#, fuzzy
 msgid "include an absolute path to a file or directory"
-msgstr ""
+msgstr "在包含文件路径中找不到`%s'。"
 
 #: VVPossibleRangedIntegerValues
+#, fuzzy
 msgid "are in range {0} to {1} (inclusive)"
-msgstr ""
+msgstr "月份%d超出介于0-13间的正常范围。"
 
 #: VVPossibleUrlValues
 msgid "include any valid url (eg. http://icedtea.classpath.org/hg/)"
@@ -2205,25 +2458,29 @@ msgid ""
 msgstr ""
 
 #: VVBrowserVerificationPass
+#, fuzzy
 msgid "Verification Ok: {0}"
-msgstr ""
+msgstr "一般"
 
 #: VVBrowserVerificationFail
+#, fuzzy
 msgid "Verification failed. See examples!"
-msgstr ""
+msgstr "<b>校验失败：%1。</b>"
 
 #: VVBrowserSaveNotAllowed
 msgid "You have set {0} as value for {1}. Can't overwrite."
 msgstr ""
 
 #: VVBrowserSaveAllowed
+#, fuzzy
 msgid "Will save your selection as {0}"
-msgstr ""
+msgstr "保存所选"
 
 #. # Control Panel - Main
 #: CPMainDescriptionShort
+#, fuzzy
 msgid "Configure IcedTea-Web"
-msgstr ""
+msgstr "网络："
 
 #: CPMainDescriptionLong
 msgid ""
@@ -2259,8 +2516,9 @@ msgid ""
 msgstr ""
 
 #: CPSecurityDescription
+#, fuzzy
 msgid "Use this to configure security settings."
-msgstr ""
+msgstr "此区域的安全设置："
 
 #: CPDebuggingDescription
 msgid "Enable options here to help with debugging"
@@ -2291,16 +2549,19 @@ msgid "Validate JVM for IcedTea-Web"
 msgstr ""
 
 #: CPJVMPluginSelectExec
+#, fuzzy
 msgid "Browse for JVM for IcedTea-Web"
-msgstr ""
+msgstr "浏览网络"
 
 #: CPJVMnone
+#, fuzzy
 msgid "No validation result for"
-msgstr ""
+msgstr "无效验证类。\n"
 
 #: CPJVMvalidated
+#, fuzzy
 msgid "Validation result for"
-msgstr ""
+msgstr "无效验证类。\n"
 
 #: CPJVMvalueNotSet
 msgid "Value is not set. Hardcoded JVM will be used."
@@ -2415,8 +2676,9 @@ msgid ""
 msgstr ""
 
 #: CPJVMconfirmInvalidJdkTitle
+#, fuzzy
 msgid "Confirm invalid JDK"
-msgstr ""
+msgstr "确认(_C)"
 
 #: CPJVMconfirmReset
 msgid "Reset to default?"
@@ -2461,29 +2723,37 @@ msgid "Certificates..."
 msgstr "证书…"
 
 #: CPButSimpleEditor
+#, fuzzy
 msgid "Simple editor"
-msgstr ""
+msgstr "简单"
 
 #: CPButAdvancedEditor
+#, fuzzy
 msgid "Advanced editor"
-msgstr ""
+msgstr "高级(&A)..."
 
 #. # Control Panel - Headers
 #: CPHead
+#, fuzzy
 msgid "IcedTea-Web Control Panel"
-msgstr ""
+msgstr "关于控制面板(&A)"
 
 #: CPHeadAbout
+#, fuzzy
 msgid " About IcedTea-Web "
-msgstr ""
+msgstr "关于 Web"
 
 #: CPHeadNetworkSettings
+#, fuzzy
 msgid " Network Proxy Settings "
-msgstr ""
+msgstr "通过 SOCKSv5 代理网络不可达。"
 
 #: CPHeadTempInternetFiles
+#, fuzzy
 msgid " Temporary Internet Files "
 msgstr ""
+"临时互联网文件\n"
+"网页、图像和证书的缓存副本。"
 
 #: CPHeadJRESettings
 msgid " Java Runtime Environment Settings "
@@ -2498,20 +2768,24 @@ msgid " Debugging Settings "
 msgstr " 调试设置 "
 
 #: CPHeadDesktopIntegration
+#, fuzzy
 msgid " Desktop Integrations "
-msgstr ""
+msgstr "在桌面上"
 
 #: CPHeadSecurity
+#, fuzzy
 msgid " Security Settings "
-msgstr ""
+msgstr "此区域的安全设置："
 
 #: CPHeadJVMSettings
+#, fuzzy
 msgid " JVM Settings "
-msgstr ""
+msgstr "设置(&S)..."
 
 #: CPHeadPolicy
+#, fuzzy
 msgid " Custom Policy Settings "
-msgstr ""
+msgstr "自定义(&C)..."
 
 #. # Control Panel - Tabs
 #: CPTabAbout
@@ -2528,8 +2802,9 @@ msgid "Certificates"
 msgstr "证书"
 
 #: CPTabClassLoader
+#, fuzzy
 msgid "Class Loaders"
-msgstr ""
+msgstr "类"
 
 #: CPTabDebugging
 msgid "Debugging"
@@ -2585,7 +2860,7 @@ msgstr "服务器"
 #, fuzzy
 msgctxt "APSProxyTypeLabel"
 msgid "Type"
-msgstr "Tipo"
+msgstr "类别"
 
 #: APSProxyAddressLabel
 msgid "Proxy Address"
@@ -2610,7 +2885,7 @@ msgstr "FTP"
 #: APSLabelSocks
 #, fuzzy
 msgid "Socks"
-msgstr "SOC&KS 4"
+msgstr "SOCKS 服务器"
 
 #: APSSameProxyForAllProtocols
 msgid "Use the same proxy server for all protocols."
@@ -2630,8 +2905,9 @@ msgstr ""
 
 #. # Control Panel - DebugginPanel
 #: CPDebuggingPossibilites
+#, fuzzy
 msgid "Logging outputs"
-msgstr ""
+msgstr "日志记录"
 
 #: DPEnableLogging
 msgid "Enable debugging"
@@ -2644,8 +2920,9 @@ msgid ""
 msgstr ""
 
 #: DPEnableHeaders
+#, fuzzy
 msgid "Enable headers"
-msgstr ""
+msgstr "信头"
 
 #: DPEnableHeadersHint
 msgid ""
@@ -2654,8 +2931,9 @@ msgid ""
 msgstr ""
 
 #: DPEnableFile
+#, fuzzy
 msgid "Enable logging to file"
-msgstr ""
+msgstr "启用详细日志输出"
 
 #: DPEnableLegacyFileLog
 msgid "Use java.util.logging instead of direct file writing"
@@ -2678,8 +2956,9 @@ msgid ""
 msgstr ""
 
 #: CPFilesLogsDestDir
+#, fuzzy
 msgid "File logs directory"
-msgstr ""
+msgstr "文件或目录已损坏。\n"
 
 #: CPFilesLogsDestDirResert
 #, fuzzy
@@ -2691,16 +2970,18 @@ msgid "output messages will be saved to file in your {0}  directory"
 msgstr ""
 
 #: DPEnableStds
+#, fuzzy
 msgid "Enable logging to standard outputs"
-msgstr ""
+msgstr "启用详细调试输出"
 
 #: DPEnableStdsHint
 msgid "messages will be printed to standard outputs"
 msgstr ""
 
 #: DPEnableSyslog
+#, fuzzy
 msgid "Enable logging to system logs"
-msgstr ""
+msgstr "启用详细调试输出"
 
 #: DPEnableSyslogHint
 msgid "output messages will be saved to system logs"
@@ -2709,27 +2990,32 @@ msgstr ""
 #: DPDisable
 #, fuzzy
 msgid "Disable"
-msgstr "禁用"
+msgstr "禁用,停用"
 
 #: DPHide
+#, fuzzy
 msgid "Hide on startup"
-msgstr ""
+msgstr "启动后隐藏。"
 
 #: DPShow
+#, fuzzy
 msgid "Show on startup"
-msgstr ""
+msgstr "在 GNOME 待办事项运行时，显示启动通知"
 
 #: DPShowPluginOnly
+#, fuzzy
 msgid "Show on plugin startup"
-msgstr ""
+msgstr "启动时显示对话框"
 
 #: DPShowJavawsOnly
+#, fuzzy
 msgid "Show on javaws startup"
-msgstr ""
+msgstr "启动时显示对话框"
 
 #: DPJavaConsole
+#, fuzzy
 msgid "Java Console"
-msgstr ""
+msgstr "Java"
 
 #: DPJavaConsoleDisabledHint
 msgid ""
@@ -2743,16 +3029,19 @@ msgid "PolicyEditor"
 msgstr ""
 
 #: PETitleWithPath
+#, fuzzy
 msgid "PolicyEditor - {0}"
-msgstr ""
+msgstr "CPU 0"
 
 #: PETitleWithChangesMade
+#, fuzzy
 msgid "{0} *"
-msgstr ""
+msgstr "0%"
 
 #: PEReadProps
+#, fuzzy
 msgid "Read system properties"
-msgstr ""
+msgstr "系统属性"
 
 #: PEReadPropsDetail
 msgid ""
@@ -2761,136 +3050,153 @@ msgid ""
 msgstr ""
 
 #: PEWriteProps
+#, fuzzy
 msgid "Write system properties"
-msgstr ""
+msgstr "系统属性"
 
 #: PEWritePropsDetail
 msgid "Allow applets to (over)write system properties"
 msgstr ""
 
 #: PEReadFiles
+#, fuzzy
 msgid "Read from local files"
-msgstr ""
+msgstr "Build new local files"
 
 #: PEReadFilesDetail
 msgid "Allow applets to read from files in your home directory"
 msgstr ""
 
 #: PEWriteFiles
+#, fuzzy
 msgid "Write to local files"
-msgstr ""
+msgstr "Build new local files"
 
 #: PEWriteFilesDetail
 msgid "Allow applets to write to files in your home directory"
 msgstr ""
 
 #: PEDeleteFiles
+#, fuzzy
 msgid "Delete local files"
-msgstr ""
+msgstr "删除文件(&F)..."
 
 #: PEDeleteFilesDetail
 msgid "Allow applets to delete files in your home directory"
 msgstr ""
 
 #: PEReadSystemFiles
+#, fuzzy
 msgid "Read all system files"
-msgstr ""
+msgstr "全部文件"
 
 #: PEReadSystemFilesDetail
 msgid "Allow applets read-only access to all locations on your computer"
 msgstr ""
 
 #: PEWriteSystemFiles
+#, fuzzy
 msgid "Write all system files"
-msgstr ""
+msgstr "将系统日志写入文件"
 
 #: PEWriteSystemFilesDetail
 msgid "Allow applets write-only access to all locations on your computer"
 msgstr ""
 
 #: PEReadTempFiles
+#, fuzzy
 msgid "Read from temp files"
-msgstr ""
+msgstr "Read package from file"
 
 #: PEReadTempFilesDetail
 msgid "Allow applets to read from your temporary files directory"
 msgstr ""
 
 #: PEWriteTempFiles
+#, fuzzy
 msgid "Write to temp files"
-msgstr ""
+msgstr "写入"
 
 #: PEWriteTempFilesDetail
 msgid "Allow applets to write to your temporary files directory"
 msgstr ""
 
 #: PEDeleteTempFiles
+#, fuzzy
 msgid "Delete temp files"
-msgstr ""
+msgstr "删除文件(&F)..."
 
 #: PEDeleteTempFilesDetail
 msgid "Allow applets to delete files in your temporary files directory"
 msgstr ""
 
 #: PEAWTPermission
+#, fuzzy
 msgid "Window System Access"
-msgstr ""
+msgstr "窗口没有系统菜单。\n"
 
 #: PEAWTPermissionDetail
 msgid "Allow applets all AWT windowing system access"
 msgstr ""
 
 #: PEClipboard
+#, fuzzy
 msgid "Access clipboard"
-msgstr ""
+msgstr "访问"
 
 #: PEClipboardDetail
 msgid "Allow applets to read from and write to your clipboard"
 msgstr ""
 
 #: PENetwork
+#, fuzzy
 msgid "Access the network"
-msgstr ""
+msgstr "网络访问被拒绝。\n"
 
 #: PENetworkDetail
 msgid "Allow applets to establish any network connections"
 msgstr ""
 
 #: PEPrint
+#, fuzzy
 msgid "Print documents"
-msgstr ""
+msgstr "文档"
 
 #: PEPrintDetail
 msgid "Allow applets to queue print jobs"
 msgstr ""
 
 #: PEPlayAudio
+#, fuzzy
 msgid "Play sounds"
-msgstr ""
+msgstr "播放(_P)"
 
 #: PEPlayAudioDetail
 msgid "Allow applets to play sounds, but not record"
 msgstr ""
 
 #: PERecordAudio
+#, fuzzy
 msgid "Record audio"
-msgstr ""
+msgstr "录制(_R)"
 
 #: PERecordAudioDetail
 msgid "Allow applets to record audio, but not play back"
 msgstr ""
 
 #: PEReflection
+#, fuzzy
 msgid "Java reflection"
-msgstr ""
+msgstr "Java"
 
 #: PEReflectionDetail
 msgid "Allow applets to access the Java Reflection API"
 msgstr ""
 
 #: PEClassLoader
+#, fuzzy
 msgid "Get ClassLoader"
-msgstr ""
+msgstr "帮助我们"
 
 #: PEClassLoaderDetail
 msgid ""
@@ -2898,8 +3204,9 @@ msgid ""
 msgstr ""
 
 #: PEClassInPackage
+#, fuzzy
 msgid "Access other packages"
-msgstr ""
+msgstr "访问"
 
 #: PEClassInPackageDetail
 msgid ""
@@ -2918,91 +3225,112 @@ msgid ""
 msgstr ""
 
 #: PEAccessThreads
+#, fuzzy
 msgid "Modify threads"
-msgstr ""
+msgstr "线程"
 
 #: PEAccessThreadsDetail
 msgid "Allow applets to start, stop, and otherwise manage threads"
 msgstr ""
 
 #: PEAccessThreadGroups
+#, fuzzy
 msgid "Modify threadgroups"
-msgstr ""
+msgstr "修改(&M)..."
 
 #: PEAccessThreadGroupsDetail
 msgid "Allow applets to start, stop, and otherwise manage thread groups"
 msgstr ""
 
 #: PEExec
+#, fuzzy
 msgid "Execute commands"
 msgstr ""
+"基于模式匹配来执行命令。\n"
+"    \n"
+"    基于 PATTERN 模式匹配的词 WORD，有选择的执行 COMMANDS 命令。\n"
+"    `|' 用于分隔多个模式。\n"
+"    \n"
+"    退出状态：\n"
+"    返回最后一个执行的命令的状态。"
 
 #: PEExecDetail
 msgid "Allow applets to execute system commands"
 msgstr ""
 
 #: PEGetEnv
+#, fuzzy
 msgid "Get environment variables"
-msgstr ""
+msgstr "处理环境变量"
 
 #: PEGetEnvDetail
 msgid "Allow applets to read system environment variables"
 msgstr ""
 
 #: PECouldNotOpen
+#, fuzzy
 msgid "Unable to open policy file"
-msgstr ""
+msgstr "无法打开帮助文件"
 
 #: PECouldNotSave
+#, fuzzy
 msgid "Unable to save policy file"
-msgstr ""
+msgstr "保存文件"
 
 #: PEAddEntry
+#, fuzzy
 msgctxt "PEAddEntry"
 msgid "Add New..."
-msgstr ""
+msgstr "添加新名称(_A)"
 
 #: PERemoveEntry
 #, fuzzy
 msgctxt "PERemoveEntry"
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "移除"
 
 #: PEEntryPrompt
 msgid "Enter a new policy entry identifier"
 msgstr ""
 
 #: PEAddPrincipal
+#, fuzzy
 msgid "Add Principal"
-msgstr ""
+msgstr "本金(_P)："
 
 #: PERemovePrincipal
+#, fuzzy
 msgid "Remove Principal"
-msgstr ""
+msgstr "本金(_P)："
 
 #: PEEditPrincipal
+#, fuzzy
 msgid "Edit Principal"
-msgstr ""
+msgstr "本金(_P)："
 
 #: PEGlobalSettings
+#, fuzzy
 msgid "All Applets"
-msgstr ""
+msgstr "\t\t（全部）"
 
 #: PESaveChanges
+#, fuzzy
 msgid "Save changes before exiting?"
-msgstr ""
+msgstr "在关闭前保存对“%s”项目的修改？"
 
 #: PEChangesSaved
+#, fuzzy
 msgid "Changes saved"
-msgstr ""
+msgstr "没有需要保存的更改。"
 
 #: PECheckboxLabel
 msgid "Permissions"
 msgstr "权限"
 
 #: PEEntriesLabel
+#, fuzzy
 msgid "Entries"
-msgstr ""
+msgstr "无"
 
 #: PEFileMenu
 msgid "File"
@@ -3018,8 +3346,9 @@ msgid "Open..."
 msgstr "打开…"
 
 #: PEOpenDefaultMenuItem
+#, fuzzy
 msgid "Open default policy file"
-msgstr ""
+msgstr "Open file in default application"
 
 #: PESaveMenuItem
 msgid "Save"
@@ -3034,19 +3363,21 @@ msgid "Exit"
 msgstr "退出"
 
 #: PEEntryMenu
+#, fuzzy
 msgid "Entry"
-msgstr ""
+msgstr "输入条"
 
 #: PEAddEntryItem
+#, fuzzy
 msgctxt "PEAddEntryItem"
 msgid "Add New..."
-msgstr ""
+msgstr "添加新名称(_A)"
 
 #: PERemoveEntryItem
 #, fuzzy
 msgctxt "PERemoveEntryItem"
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "移除"
 
 #: PEModifySubmenuItem
 msgid "Modify"
@@ -3057,8 +3388,9 @@ msgid "Codebase"
 msgstr ""
 
 #: PEModifySignedByItem
+#, fuzzy
 msgid "Signed By"
-msgstr ""
+msgstr "有签名"
 
 #: PEModifyPrincipalsItem
 msgid "Principals"
@@ -3073,16 +3405,19 @@ msgid "Paste..."
 msgstr "粘贴…"
 
 #: PEModifyCodebase
+#, fuzzy
 msgid "Change Codebase to:"
-msgstr ""
+msgstr "更改(&C)..."
 
 #: PEModifyPrincipals
+#, fuzzy
 msgid "Modify Principals:"
-msgstr ""
+msgstr "修改(&M)..."
 
 #: PEModifySignedBy
+#, fuzzy
 msgid "Changed SignedBy to:"
-msgstr ""
+msgstr "附属关系已更改"
 
 #: PEPasteEntry
 msgid "Paste copied entry with codebase:"
@@ -3093,12 +3428,14 @@ msgid "View"
 msgstr "查看"
 
 #: PECustomPermissionsItem
+#, fuzzy
 msgid "Custom Permissions..."
-msgstr ""
+msgstr "自定义(_C)："
 
 #: PECodebaseInputLabel
+#, fuzzy
 msgid "Codebase URL:"
-msgstr ""
+msgstr "网址…"
 
 #: PESignedByInputLabel
 msgid "SignedBy:"
@@ -3111,7 +3448,7 @@ msgstr ""
 #: PEPrincipalClassNameInputLabel
 #, fuzzy
 msgid "Class Name:"
-msgstr "类名:"
+msgstr "类名称："
 
 #: PEPrincipalPrincipalNameInputLabel
 #, fuzzy
@@ -3135,24 +3472,28 @@ msgid ""
 msgstr ""
 
 #: PEGAccessUnownedCode
+#, fuzzy
 msgid "Execute unowned code"
-msgstr ""
+msgstr "这是个 %code% 错误"
 
 #: PEGMediaAccess
+#, fuzzy
 msgid "Media access"
-msgstr ""
+msgstr "<abbr title=\"介质访问控制\">MAC</abbr>-地址"
 
 #: PEGRightClick
 msgid "Right click to fold/unfold"
 msgstr ""
 
 #: PEGReadFileSystem
+#, fuzzy
 msgid "Read from system"
-msgstr ""
+msgstr "Read package from file"
 
 #: PEGWriteFileSystem
+#, fuzzy
 msgid "Write to system"
-msgstr ""
+msgstr "将系统日志写入文件"
 
 #: PEClipboardError
 msgid "Clipboard does not appear to contain properly formatted policy entries"
@@ -3174,8 +3515,9 @@ msgid "Please fill in/modify at least one of the fields."
 msgstr ""
 
 #: PEClipboardAccessError
+#, fuzzy
 msgid "Could not read from clipboard"
-msgstr ""
+msgstr "无法读取空剪贴板。"
 
 #: PEDefaultFileFilePathSpecifiedError
 msgid ""
@@ -3190,12 +3532,14 @@ msgid ""
 msgstr ""
 
 #: PESignedByEmpty
+#, fuzzy
 msgid "SignedBy cannot be empty"
-msgstr ""
+msgstr "无法变形空图层"
 
 #: PEInvalidUrl
+#, fuzzy
 msgid "Invalid URL: {0}"
-msgstr ""
+msgstr "URL 无效。\n"
 
 #: PEHelpMenu
 msgctxt "PEHelpMenu"
@@ -3203,18 +3547,21 @@ msgid "Help"
 msgstr "帮助"
 
 #: PEAboutPolicyEditorItem
+#, fuzzy
 msgid "About PolicyEditor"
-msgstr ""
+msgstr "关于…"
 
 #: PEPolicyEditorHelpItem
+#, fuzzy
 msgctxt "PEPolicyEditorHelpItem"
 msgid "PolicyEditor Help"
-msgstr ""
+msgstr "如何使用帮助(&H)\tF1"
 
 #: PEHelpDialogTitle
+#, fuzzy
 msgctxt "PEHelpDialogTitle"
 msgid "PolicyEditor Help"
-msgstr ""
+msgstr "如何使用帮助(&H)\tF1"
 
 #: PEHelpDialogContent
 msgid ""
@@ -3241,23 +3588,25 @@ msgstr ""
 
 #. # Policy Editor CustomPolicyViewer
 #: PECPTitle
+#, fuzzy
 msgid "Custom Policy Viewer"
-msgstr ""
+msgstr "策略："
 
 #: PECPListLabel
+#, fuzzy
 msgid "Other policies for {0}"
-msgstr ""
+msgstr "证书策略"
 
 #: PECPAddButton
 #, fuzzy
 msgid "Add"
-msgstr "Dodaj"
+msgstr "添加(&A)"
 
 #: PECPRemoveButton
 #, fuzzy
 msgctxt "PECPRemoveButton"
 msgid "Remove"
-msgstr "Eliminar"
+msgstr "移除"
 
 #: PECPCloseButton
 msgctxt "PECPCloseButton"
@@ -3271,7 +3620,7 @@ msgstr "类型"
 #: PECPTarget
 #, fuzzy
 msgid "target"
-msgstr "目标："
+msgstr "目标"
 
 #: PECPActions
 msgid "actions"
@@ -3303,17 +3652,19 @@ msgstr "V"
 #, fuzzy
 msgctxt "PEHelpMenuMnemonic"
 msgid "H"
-msgstr "色"
+msgstr "H"
 
 #: PEAddEntryMnemonic
+#, fuzzy
 msgctxt "PEAddEntryMnemonic"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: PEAddEntryItemMnemonic
+#, fuzzy
 msgctxt "PEAddEntryItemMnemonic"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: PERemoveEntryMnemonic
 #, fuzzy
@@ -3328,9 +3679,10 @@ msgid "R"
 msgstr "R"
 
 #: PENewMenuItemMnemonic
+#, fuzzy
 msgctxt "PENewMenuItemMnemonic"
 msgid "N"
-msgstr ""
+msgstr "N"
 
 #: PEOpenMenuItemMnemonic
 #, fuzzy
@@ -3345,7 +3697,7 @@ msgstr "D"
 #: PESaveMenuItemMnemonic
 #, fuzzy
 msgid "S"
-msgstr "S"
+msgstr "饱"
 
 #: PEExitMenuItemMnemonic
 #, fuzzy
@@ -3391,7 +3743,7 @@ msgstr "I"
 #: PEModifyEntrySignedByItemMnemonic
 #, fuzzy
 msgid "G"
-msgstr "取"
+msgstr "G"
 
 #: PEAboutPolicyEditorItemMnemonic
 #, fuzzy
@@ -3403,101 +3755,125 @@ msgstr "A"
 #, fuzzy
 msgctxt "PEPolicyEditorHelpItemMnemonic"
 msgid "H"
-msgstr "色"
+msgstr "H"
 
 #. # See javax.swing.KeyStroke.getKeyStroke(String)
 #: PEAddEntryItemAccelerator
+#, fuzzy
 msgid "control shift N"
-msgstr ""
+msgstr "shift [n]"
 
 #: PERemoveEntryItemAccelerator
 #, fuzzy
 msgid "DELETE"
-msgstr "Eliminar"
+msgstr "删除(_D)"
 
 #: PENewMenuItemAccelerator
+#, fuzzy
 msgid "control N"
-msgstr ""
+msgstr "控件"
 
 #: PEOpenMenuItemAccelerator
+#, fuzzy
 msgid "control O"
-msgstr ""
+msgstr "控件"
 
 #: PEOpenDefaultMenuItemAccelerator
+#, fuzzy
 msgid "control D"
-msgstr ""
+msgstr "控件"
 
 #: PESaveMenuItemAccelerator
+#, fuzzy
 msgid "control S"
-msgstr ""
+msgstr " 版本控制系统： %s\n"
 
 #: PESaveAsMenuItemAccelerator
+#, fuzzy
 msgid "control shift S"
-msgstr ""
+msgstr "%s: 无任务控制"
 
 #: PEExitMenuItemAccelerator
+#, fuzzy
 msgctxt "PEExitMenuItemAccelerator"
 msgid "control Q"
 msgstr ""
+"提示：要使用跳出字符（escape cahracter）？可使用 Control-q 再加上要输入的字"
+"符。"
 
 #: PECustomPermissionsItemAccelerator
+#, fuzzy
 msgid "control U"
-msgstr ""
+msgstr "控件"
 
 #: PECopyEntryItemAccelerator
+#, fuzzy
 msgid "control C"
-msgstr ""
+msgstr "Quit request from job control (^C)"
 
 #: PEPasteEntryItemAccelerator
+#, fuzzy
 msgid "control V"
-msgstr ""
+msgstr "控件"
 
 #: PEModifyEntryCodebaseItemAccelerator
 #, fuzzy
 msgid "F2"
-msgstr "F"
+msgstr "新游戏(&N)\tF2"
 
 #: PEModifyEntryPrincipalsItemAccelerator
+#, fuzzy
 msgid "shift F2"
-msgstr ""
+msgstr "新游戏(&N)\tF2"
 
 #: PEModifyEntrySignedByItemAccelerator
+#, fuzzy
 msgid "control F2"
-msgstr ""
+msgstr "改名(&R)\tF2"
 
 #: PEAboutPolicyEditorCloseAccelerator
+#, fuzzy
 msgctxt "PEAboutPolicyEditorCloseAccelerator"
 msgid "control Q"
 msgstr ""
+"提示：要使用跳出字符（escape cahracter）？可使用 Control-q 再加上要输入的字"
+"符。"
 
 #. #conole itself labels
 #: CONSOLErungc
+#, fuzzy
 msgid "Run GC"
-msgstr ""
+msgstr "运行(&R)..."
 
 #: CONSOLErunFinalizers
+#, fuzzy
 msgid "Run Finalizers"
-msgstr ""
+msgstr "运行(&R)..."
 
 #: CONSOLErunningFinalizers
+#, fuzzy
 msgid "Running finalization...."
-msgstr ""
+msgstr "正在运行"
 
 #: CONSOLEmemoryInfo
+#, fuzzy
 msgid "Memory Info"
-msgstr ""
+msgstr "记忆"
 
 #: CONSOLEsystemProperties
+#, fuzzy
 msgid "System Properties"
-msgstr ""
+msgstr "系统属性"
 
 #: CONSOLEclassLoaders
+#, fuzzy
 msgid "Available Classloaders"
-msgstr ""
+msgstr "不可用；"
 
 #: CONSOLEthreadList
+#, fuzzy
 msgid "Thread List"
-msgstr ""
+msgstr "讨论线索"
 
 #: CONSOLEthread
 #, fuzzy
@@ -3505,20 +3881,24 @@ msgid "Thread"
 msgstr "讨论线索"
 
 #: CONSOLEnoClassLoaders
+#, fuzzy
 msgid "No Classloader info exists in system"
-msgstr ""
+msgstr "读取文件系统信息"
 
 #: CONSOLEmemoryMax
+#, fuzzy
 msgid "Max Memory"
-msgstr ""
+msgstr "记忆"
 
 #: CONSOLEmemoryTotal
+#, fuzzy
 msgid "Total Memory"
-msgstr ""
+msgstr "记忆"
 
 #: CONSOLEmemoryFree
+#, fuzzy
 msgid "Free Memory"
-msgstr ""
+msgstr "内存不足"
 
 #: CONSOLEClean
 msgid "Clear"
@@ -3526,26 +3906,29 @@ msgstr "清除"
 
 #. # console output pane labels
 #: COPsortCopyAllDate
+#, fuzzy
 msgid "sort copy all by date"
-msgstr ""
+msgstr "按日期排序(&D)"
 
 #: COPshowHeaders
+#, fuzzy
 msgid "Show headers:"
-msgstr ""
+msgstr "显示所有信息头(_H)"
 
 #: COPuser
 #, fuzzy
 msgid "user"
-msgstr "Usuario"
+msgstr "用户名"
 
 #: COPorigin
+#, fuzzy
 msgid "origin"
-msgstr ""
+msgstr "原点"
 
 #: COPlevel
 #, fuzzy
 msgid "level"
-msgstr "级别："
+msgstr "级别"
 
 #: COPdate
 msgid "date"
@@ -3562,61 +3945,76 @@ msgid "thread 2"
 msgstr "讨论线索"
 
 #: COPShowMessages
+#, fuzzy
 msgid "Show messages"
-msgstr ""
+msgstr "在画布上显示弹出信息："
 
 #: COPstdOut
+#, fuzzy
 msgid "std. Out"
-msgstr ""
+msgstr "标准误"
 
 #: COPstdErr
+#, fuzzy
 msgid "std. Err"
-msgstr ""
+msgstr "标准误"
 
 #: COPjava
+#, fuzzy
 msgid "java"
-msgstr ""
+msgstr "Java"
 
 #: COPplugin
 msgid "plugin"
 msgstr "插件"
 
 #: COPpreInit
+#, fuzzy
 msgid "pre-init"
-msgstr ""
+msgstr "上首(_V)"
 
 #: COPpluginOnly
+#, fuzzy
 msgid "plugin only"
 msgstr ""
+"本插件仅用于演示如何编写 Claws Mail 插件。它将为日志输出安装一个钩子以将日志"
+"写到标准输出。\n"
+"\n"
+"它没有什么实际用途"
 
 #: COPSortBy
+#, fuzzy
 msgid "Sort by"
-msgstr ""
+msgstr "排序方式"
 
 #: COPregex
+#, fuzzy
 msgid "Regular expression filter"
-msgstr ""
+msgstr "正则表达式"
 
 #: COPAsArrived
+#, fuzzy
 msgid "As arrived (no sort)"
-msgstr ""
+msgstr "收到一个新邮件"
 
 #: COPcode
+#, fuzzy
 msgid "code"
-msgstr ""
+msgstr "代码"
 
 #: COPmessage
 #, fuzzy
 msgid "message"
-msgstr "邮件"
+msgstr "消息"
 
 #: COPSearch
 msgid "Search"
 msgstr "搜索"
 
 #: COPautoRefresh
+#, fuzzy
 msgid "auto refresh"
-msgstr ""
+msgstr "自动刷新"
 
 #: COPrefresh
 msgid "refresh"
@@ -3632,22 +4030,24 @@ msgid "mark"
 msgstr "标记"
 
 #: COPCopyAllPlain
+#, fuzzy
 msgid "Copy all (plain)"
-msgstr ""
+msgstr "拷贝(_C)"
 
 #: COPCopyAllRich
+#, fuzzy
 msgid "Copy all (rich)"
-msgstr ""
+msgstr "RTF 富文本 (*.rtf)"
 
 #: COPnext
 #, fuzzy
 msgid "next>>>"
-msgstr "下一项"
+msgstr "下一步(&N) >"
 
 #: COPprevious
 #, fuzzy
 msgid "<<<previous"
-msgstr "anterior"
+msgstr "返回(_P)"
 
 #: COPcaseSensitive
 #, fuzzy
@@ -3657,15 +4057,17 @@ msgstr "区分大小写"
 #: COPincomplete
 #, fuzzy
 msgid "incomplete"
-msgstr "不全"
+msgstr "不完整数据"
 
 #: COPhighlight
+#, fuzzy
 msgid "highlight"
-msgstr ""
+msgstr "高亮"
 
 #: COPwordWrap
+#, fuzzy
 msgid "word wrap"
-msgstr ""
+msgstr "单词"
 
 #: COPdebug
 msgid "debug"
@@ -3674,19 +4076,21 @@ msgstr "调试"
 #: COPinfo
 #, fuzzy
 msgid "info"
-msgstr "2 - 信息"
+msgstr "信息"
 
 #: COPpostInit
+#, fuzzy
 msgid "post-init"
-msgstr ""
+msgstr "正在下载 rustup-init"
 
 #: COPcomplete
 msgid "complete"
 msgstr "完成"
 
 #: COPmatch
+#, fuzzy
 msgid "match"
-msgstr ""
+msgstr "匹配"
 
 #: COPnot
 msgid "not"
@@ -3695,49 +4099,61 @@ msgstr ""
 #: COPrevert
 #, fuzzy
 msgid "revert"
-msgstr "恢复"
+msgstr "还原"
 
 #: COPitw
+#, fuzzy
 msgid "IcedTea-Web"
-msgstr ""
+msgstr "为 &Web"
 
 #: COPclientApp
+#, fuzzy
 msgid "Client app."
-msgstr ""
+msgstr "欢迎使用 <app>Builder</app>"
 
 #. # Control Panel - DesktopShortcutPanel
 #: DSPNeverCreate
+#, fuzzy
 msgid "Never create"
-msgstr ""
+msgstr "从不(_N)"
 
 #: DSPAlwaysAllow
+#, fuzzy
 msgid "Always allow"
-msgstr ""
+msgstr "允许"
 
 #: DSPAskUser
+#, fuzzy
 msgid "Ask user"
 msgstr ""
+"该选项用于保存在主机未获得保存用户密码权限时的选择。默认值“undecided”意味着浏"
+"览器需要询问用户并请求权限，“allow”和“deny”则指示浏览器自动提交决定。"
 
 #: DSPAskIfHinted
+#, fuzzy
 msgid "Ask if hinted"
-msgstr ""
+msgstr "总是询问"
 
 #: DSPAlwaysIfHinted
+#, fuzzy
 msgid "Always if hinted"
-msgstr ""
+msgstr "总是(_A)"
 
 #. # Control Panel - NetworkSettingsPanel
 #: NSDescription-1
+#, fuzzy
 msgid "Unknown Setting."
-msgstr ""
+msgstr "未知"
 
 #: NSDescription0
+#, fuzzy
 msgid "Use direct connection."
-msgstr ""
+msgstr "\t连接：直接"
 
 #: NSDescription1
+#, fuzzy
 msgid "Override browser proxy settings."
-msgstr ""
+msgstr "配置 Wine Internet Explorer 以及相关设置"
 
 #: NSDescription2
 msgid "Use automatic proxy configuration script at the specified location."
@@ -3765,24 +4181,29 @@ msgid "Bypass proxy server for local addresses"
 msgstr ""
 
 #: NSDirectConnection
+#, fuzzy
 msgid "Direct connection"
-msgstr ""
+msgstr "\t连接：直接"
 
 #: NSManualProxy
+#, fuzzy
 msgid "Manual proxy server"
-msgstr ""
+msgstr "此服务器不是 SOCKSv4 代理服务器。"
 
 #: NSAutoProxy
+#, fuzzy
 msgid "Automatic proxy configuration script"
-msgstr ""
+msgstr "自动配置"
 
 #: NSBrowserProxy
+#, fuzzy
 msgid "Use browser settings"
-msgstr ""
+msgstr "使用 GNOME 字体设置"
 
 #: NSScriptLocation
+#, fuzzy
 msgid "Script location"
-msgstr ""
+msgstr "位置:"
 
 #. # Control Panel - SecurityGeneralPanel
 #: SGPAllowUserGrantSigned
@@ -3804,30 +4225,34 @@ msgid ""
 msgstr ""
 
 #: SGPWarnCertHostMismatch
+#, fuzzy
 msgid "Warn if site certificate does not match hostname"
-msgstr ""
+msgstr "证书上的名称与站点不匹配。"
 
 #: SGPShowValid
 msgid "Show site certificate even if it is valid (Unsupported)"
 msgstr ""
 
 #: SGPShowSandboxWarning
+#, fuzzy
 msgid "Show sandbox warning banner"
-msgstr ""
+msgstr "显示横幅"
 
 #: SGPAllowUserAcceptJNLPSecurityRequests
 msgid "Allow user to accept JNLP security requests"
 msgstr ""
 
 #: SGPCheckCertRevocationList
+#, fuzzy
 msgid ""
 "Check certificates for revocation using Certificate Revocation Lists (CRLs) "
 "(Unsupported)"
-msgstr ""
+msgstr "如果选中此项，将使用证书吊销列表(CRL)检验 S/MIME 证书。"
 
 #: SGPEnableOnlineCertValidate
+#, fuzzy
 msgid "Enable online certificate validation (Unsupported)"
-msgstr ""
+msgstr "在线证书校验"
 
 #: SGPEnableTrustedPublisherList
 msgid "Enable list of trusted publishers (Unsupported)"
@@ -3846,12 +4271,14 @@ msgid "Use SSL 2.0 compatible ClientHello format (Unsupported)"
 msgstr ""
 
 #: SGPUseSSL3
+#, fuzzy
 msgid "Use SSL 3.0 (Unsupported)"
-msgstr ""
+msgstr "用 SSL 进行 POP3 连接"
 
 #: SGPUseTLS1
+#, fuzzy
 msgid "Use TLS 1.0 (Unsupported)"
-msgstr ""
+msgstr "试图使用不支持的功能：“%s”"
 
 #. # Control Panel - TemporaryInternetFilesPanel
 #: TIFPEnableCache
@@ -3863,17 +4290,19 @@ msgid " Location "
 msgstr " 位置 "
 
 #: TIFPLocationLabel
+#, fuzzy
 msgid "Select the location where temporary files are kept"
-msgstr ""
+msgstr "选择 Krita 交换文件的位置。"
 
 #: TIFPChange
 #, fuzzy
 msgid "Change"
-msgstr "Modificar"
+msgstr "更改"
 
 #: TIFPDiskSpace
+#, fuzzy
 msgid " Disk space "
-msgstr ""
+msgstr "没有足够的磁盘空间。"
 
 #: TIFPCompressionLevel
 msgid "Select the compression level for JAR files"
@@ -3884,8 +4313,9 @@ msgid "None"
 msgstr "无"
 
 #: TIFPMax
+#, fuzzy
 msgid "Max"
-msgstr ""
+msgstr "最大值"
 
 #: TIFPCacheSize
 msgid "Set the amount of disk space for storing temporary files (MB)"
@@ -3896,38 +4326,43 @@ msgid "Delete files"
 msgstr "删除文件"
 
 #: TIFPViewFiles
+#, fuzzy
 msgid "View files..."
-msgstr ""
+msgstr "视图(_V)"
 
 #: TIFPFileChooserChooseButton
 #, fuzzy
 msgid "Choose"
-msgstr "Elegir"
+msgstr "选择"
 
 #: TIFPLimitCacheSize
+#, fuzzy
 msgid "Limit cache size"
-msgstr ""
+msgstr "超出大小限制"
 
 #: TIFPCacheSizeSpinnerValueTooLargeWarning
 msgid "<html><b>WARNING:</b> Uses more space than {0} MB available</html>"
 msgstr ""
 
 #: TIFPCacheSizeSpinnerLargeValueWarning
+#, fuzzy
 msgid "Available: {0} MB"
-msgstr ""
+msgstr "MB"
 
 #: TIFPCacheSizeSetToNoCaching
 msgid "Cached files will be deleted when IcedTea-Web terminates."
 msgstr ""
 
 #: TIFPCacheSizeSpinnerTooltip
+#, fuzzy
 msgid "Minimum: {0} Maximum: {1}"
-msgstr ""
+msgstr "最小值 1280，最大值 1480"
 
 #. # Control Panel - Cache Viewer
 #: CVCPDialogTitle
+#, fuzzy
 msgid "Cache Viewer"
-msgstr ""
+msgstr "缓存,高速缓存"
 
 #: CVCPButRefresh
 msgid "Refresh"
@@ -3956,23 +4391,25 @@ msgid "Last Modified"
 msgstr "最后修改"
 
 #: CVCPColSize
+#, fuzzy
 msgid "Size (Bytes)"
-msgstr ""
+msgstr "文件大小 (字节)"
 
 #: CVCPColDomain
+#, fuzzy
 msgid "Domain"
-msgstr ""
+msgstr "域"
 
 #: CVCPColType
 #, fuzzy
 msgctxt "CVCPColType"
 msgid "Type"
-msgstr "Tipo"
+msgstr "类别"
 
 #: CVCPColPath
 #, fuzzy
 msgid "Path"
-msgstr "路径"
+msgstr "道路"
 
 #: CVCPColName
 msgctxt "CVCPColName"
@@ -3989,22 +4426,24 @@ msgid "Remove selected"
 msgstr "移除选定项"
 
 #: DIMselectRelativeRecordsFromOtherColumns
+#, fuzzy
 msgid "Select related records"
-msgstr ""
+msgstr "Print full records"
 
 #: DIMreloadLists
 #, fuzzy
 msgctxt "DIMreloadLists"
 msgid "Reload"
-msgstr "重载"
+msgstr "重新加载"
 
 #: DIMselectAll
 msgid "Select all"
 msgstr "全选"
 
 #: DIMclearSelection
+#, fuzzy
 msgid "Deselect all"
-msgstr ""
+msgstr "全部取消选择"
 
 #: DIMdescription
 msgid ""
@@ -4017,16 +4456,19 @@ msgid "Desktop folder as well guessed as possible."
 msgstr ""
 
 #: DIMselectionPreview
+#, fuzzy
 msgid "Selection preview"
-msgstr ""
+msgstr "无预览"
 
 #: DIMaskBeforeDelete
+#, fuzzy
 msgid "Are you sure you want to delete {0} files?"
-msgstr ""
+msgstr "确定要永久删除“%s”吗？"
 
 #: DIMgeneratedJnlps
+#, fuzzy
 msgid "Generated JNLPs"
-msgstr ""
+msgstr "已生成"
 
 #: DIMgeneratedJnlpsTooltip
 msgid "All files in this list should be generated by IcedTea-Web!"
@@ -4049,24 +4491,30 @@ msgid "Will select all items which are not listed in any shortcut."
 msgstr ""
 
 #: DIMmenuItems
+#, fuzzy
 msgid "Menu Items"
 msgstr ""
+"若选中此项，您可以直接设置菜单项的快捷键: 当焦点在菜单项上时，直接按下组合键"
+"即可。\n"
+"如果您想锁定当前已有的快捷键，可关闭此项。"
 
 #: DIMmenuItemsTooltip
 msgid "All shortcuts in this list should be generated by IcedTea-Web!"
 msgstr ""
 
 #: DIMdesktopItems
+#, fuzzy
 msgid "Desktop Items"
-msgstr ""
+msgstr "桌面"
 
 #: DIMdesktopItemsTooltipL1
 msgid "Not all your shortcuts on your Desktop were generated by IcedTea-Web!"
 msgstr ""
 
 #: DIMdesktopItemsTooltipL2
+#, fuzzy
 msgid "For your convenience:"
-msgstr ""
+msgstr "你的意见"
 
 #: DIMdesktopItemsTooltipL3
 msgid "red items were probably not generated by IcedTea-Web"
@@ -4091,8 +4539,9 @@ msgid ""
 msgstr ""
 
 #: DIMgeneratedButton
+#, fuzzy
 msgid "generated"
-msgstr ""
+msgstr "已生成"
 
 #: DIMgeneratedButtonTooltip
 msgid "Will select related generated stuff."
@@ -4118,23 +4567,62 @@ msgid ""
 msgstr ""
 
 #: CPInvalidPortTitle
+#, fuzzy
 msgid "Error on input."
-msgstr ""
+msgstr "%s：读取输入文件错误"
 
 #. # command line control panel
 #: CLNoInfo
+#, fuzzy
 msgid "No information available (is this a valid option?)."
-msgstr ""
+msgstr "选项非有效多字节字符串"
 
 #: CLValue
 #, fuzzy
 msgid "Value: {0}"
-msgstr "值"
+msgstr ""
+"解析选项参数。\n"
+"    \n"
+"    Getopts 被 shell 过程用于解析可定位的参数作为选项。\n"
+"    \n"
+"    \n"
+"    OPTSTRING 字符串包含待识别的选项字母；如果一个字母后面跟\n"
+"    着分号，则该选项需要一个参数，而该参数应用空格与选项分开。\n"
+"    \n"
+"    \n"
+"    每次启动时，getopts 会将下一个选项放到 shell 变量 $name\n"
+"    中，如果 name 变量不存在则先将其初始化，而下一个待处\n"
+"    理的参数序号放入 shell 变量 OPTIND 中。OPTIND 变量在每\n"
+"    次 shell 或者 shell 脚本启动时都被初始化为1。当一个选项要\n"
+"    求有一个参数时，getopts 将参数放入 shell 变量 OPTARG\n"
+"    中。\n"
+"    \n"
+"    getopts 有两种报告错误的方法。如果 OPTSTRING 变量的第\n"
+"    一个字符是冒号，getopts 使用沉默错误报告。在这种模式\n"
+"    下，不会打印错误消息。如果看到了一个无效的选项，\n"
+"    getopts 将找到的选项字符放至 OPTARG 变量中。如果一个必\n"
+"    须的选项没有找到，getopts 放一个 ':' 到 NAME 变量中并且设\n"
+"    置 OPTARG 变量为找到的选项字符。如果 getopts 不在沉默模\n"
+"    式中，并且遇到了一个无效的选项，getopts 放置一个 '?' 到 NAME \n"
+"    变量中并且取消设定 OPTARG变量。如果必须的选项没有找到，\n"
+"    一个'?'会被放入 NAME变量中，OPTARG 将被取消设定，并且会\n"
+"    打印一个诊断信息。\n"
+"    \n"
+"    如果 shell 变量 OPTERR 的值为0，getopts 禁用\n"
+"    错误信息的打印，即使 OPTSTRING 变量的第一个字符不是一\n"
+"    个冒号。OPTERR 的默认值为1.\n"
+"    \n"
+"    Getopts 通常解析可定位的参数($0 - $9)，不过如果提供了\n"
+"    更多的参数，它们反而会被解析。\n"
+"    \n"
+"    退出状态：\n"
+"    如果一个选项被找到则返回成功；如果遇到了选项的结尾或者\n"
+"    有错误发生则返回失败。"
 
 #: CLValueSource
 #, fuzzy
 msgid "Source: {0}"
-msgstr "[source]"
+msgstr "纸张来源(&S)"
 
 #: CLDescription
 msgid "Description: {0}"
@@ -4143,19 +4631,23 @@ msgstr "描述：{0}"
 #: CLUnknownCommand
 #, fuzzy
 msgid "Unknown command {0}"
-msgstr "未知命令"
+msgstr ""
+"未知命令 %s\n"
+"\n"
 
 #: CLUnknownProperty
+#, fuzzy
 msgid "Unknown property-name \"{0}\""
-msgstr ""
+msgstr "未知属性。\n"
 
 #: CLWarningUnknownProperty
 msgid "WARNING: Unknown property name \"{0}\" - creating new property"
 msgstr ""
 
 #: CLNoIssuesFound
+#, fuzzy
 msgid "No issues found."
-msgstr ""
+msgstr "未找到"
 
 #: CLIncorrectValue
 msgctxt "CLIncorrectValue"
@@ -4168,8 +4660,9 @@ msgid ""
 msgstr ""
 
 #: CLGetDescription
+#, fuzzy
 msgid "Shows the value for property-name"
-msgstr ""
+msgstr "编辑器属性类型名称"
 
 #: CLSetDescription
 msgid ""
@@ -4211,13 +4704,14 @@ msgid "Title"
 msgstr "标题"
 
 #: SPLASHvendor
+#, fuzzy
 msgid "Vendor"
-msgstr ""
+msgstr "Vendor"
 
 #: SPLASHhomepage
 #, fuzzy
 msgid "Homepage"
-msgstr "%1 首页： <%2>"
+msgstr "主页"
 
 #: SPLASHdescription
 msgid "Description"
@@ -4233,21 +4727,24 @@ msgid "Close and copy the stack trace to clipboard"
 msgstr ""
 
 #: SPLASHexOccured
+#, fuzzy
 msgid "An exception has occurred..."
-msgstr ""
+msgstr "发生内部错误。\n"
 
 #: SPLASHHome
 #, fuzzy
 msgid "Home"
-msgstr "Inicio"
+msgstr "Home"
 
 #: SPLASHcantCopyEx
+#, fuzzy
 msgid "Cannot copy exception"
-msgstr ""
+msgstr "不能使用 Copy API。\n"
 
 #: SPLASHnoExRecorded
+#, fuzzy
 msgid "No exception recorded"
-msgstr ""
+msgstr "清除已记录帧"
 
 #: SPLASHmainL1
 msgid ""
@@ -4262,8 +4759,9 @@ msgid ""
 msgstr ""
 
 #: SPLASHcloseAndCopyShorter
+#, fuzzy
 msgid "Close and copy to clipboard"
-msgstr ""
+msgstr "复制到剪贴板"
 
 #: SPLASHmainL4
 msgid ""
@@ -4278,20 +4776,23 @@ msgid ""
 msgstr ""
 
 #: SPLASHexWas
+#, fuzzy
 msgid "Exception was:"
-msgstr ""
+msgstr "异常"
 
 #: SPLASHcfl
+#, fuzzy
 msgid "Can''t follow link to"
-msgstr ""
+msgstr "跟随链接(_F)"
 
 #: SPLASHvendorsInfo
 msgid "Information from vendor of your application"
 msgstr ""
 
 #: SPLASHanotherInfo
+#, fuzzy
 msgid "Another available info"
-msgstr ""
+msgstr "该主题没有说明文件"
 
 #: SPLASHdefaultHomepage
 msgid "Unspecified homepage, verify source rather"
@@ -4394,8 +4895,16 @@ msgid ""
 msgstr ""
 
 #: ITWSsynops
+#, fuzzy
 msgid "command arguments"
 msgstr ""
+"本命令格式为：\n"
+"\n"
+"NET 命令 [参数]\n"
+"    -或-\n"
+"NET 命令 /HELP\n"
+"\n"
+"其中“命令”为 HELP、START、STOP 或 USE 其中之一。\n"
 
 #: IWSdescL1
 msgid ""
@@ -4416,32 +4925,38 @@ msgid ""
 msgstr ""
 
 #: IWSexampleL1
+#, fuzzy
 msgid "Show the GUI editor"
-msgstr ""
+msgstr "显示画笔编辑器"
 
 #: IWSexampleL2
+#, fuzzy
 msgid "Resets the value of `{0}` setting."
-msgstr ""
+msgstr "若设置为 '0' 则会在整个会话期内保存 passphrase"
 
 #: ITWSdefault
 msgid "default"
 msgstr "默认"
 
 #: IWSexampleL3
+#, fuzzy
 msgid "Known properties"
-msgstr ""
+msgstr "属性(&P)..."
 
 #: IWSexampleL31
+#, fuzzy
 msgid "(key, value and default value (if different)):"
-msgstr ""
+msgstr "将 KEY 重设为默认值"
 
 #: IWSexampleL32
+#, fuzzy
 msgid "(key and default value):"
-msgstr ""
+msgstr "将 KEY 重设为默认值"
 
 #: IWSpossible
+#, fuzzy
 msgid "Possible:"
-msgstr ""
+msgstr "   应该可导入它"
 
 #. # itweb-plugin man (note, spaces (especially the one around markup) are important due to man pages markup). Only bold  tag is now recognized by ReplacingTextFormatter.
 #: ITWPintro
@@ -4518,8 +5033,9 @@ msgid ""
 msgstr ""
 
 #: TAGSOUPbroken
+#, fuzzy
 msgid "Broken Malformed parser."
-msgstr ""
+msgstr "MIME 解析器"
 
 #: TAGSOUPhtmlNotUsed
 msgid ""
@@ -4542,8 +5058,9 @@ msgid "Additional information about items in cache"
 msgstr ""
 
 #: FILEappdata
+#, fuzzy
 msgid "Contains saved application data."
-msgstr ""
+msgstr "    警告：文件包含二进制数据。"
 
 #: FILElogs
 msgid ""
@@ -4580,16 +5097,19 @@ msgid ""
 msgstr ""
 
 #: FILEglobaldp
+#, fuzzy
 msgid "Global deployment config file."
-msgstr ""
+msgstr "Dump contents of config file"
 
 #: FILEtmpappdata
+#, fuzzy
 msgid "Contains temporary runtime files."
-msgstr ""
+msgstr "缓存和临时文件(_T)"
 
 #: FILElocksdir
+#, fuzzy
 msgid "Location of netx locks."
-msgstr ""
+msgstr "不支持原子锁。\n"
 
 #: FILEmainlock
 msgid "Location of netx main lock."
@@ -4617,32 +5137,47 @@ msgstr ""
 
 #. # extended policy editor
 #: EPEexpert
+#, fuzzy
 msgid "Expert edit"
-msgstr ""
+msgstr "专家(&E)"
 
 #: EPEsave
+#, fuzzy
 msgid "Save and close"
-msgstr ""
+msgstr "关闭，不保存"
 
 #: EPEcancel
+#, fuzzy
 msgid "Cancel and close"
 msgstr ""
+"添加一个新的联系人需要至少设置如下数据中的一项:\n"
+" - 姓\n"
+" - 名\n"
+" - 任何 email 地址\n"
+" - 任何地址属性\n"
+"\n"
+"点击 [确定] 以继续编辑此项联系人。\n"
+"点击 [取消] 关闭窗口(不保存)。"
 
 #: EPEhelp1
+#, fuzzy
 msgid "add/remove rules"
-msgstr ""
+msgstr "添加或删除..."
 
 #: EPEhelp2
+#, fuzzy
 msgid "select rule type"
-msgstr ""
+msgstr "规则"
 
 #: EPEhelp3
+#, fuzzy
 msgid "select decision"
-msgstr ""
+msgstr "定案"
 
 #: EPEhelp4
+#, fuzzy
 msgid "modify field manually"
-msgstr ""
+msgstr "修改(&M)..."
 
 #: EPEhelp5
 msgid "Double click first two columns to launch rule editor."
@@ -4656,32 +5191,38 @@ msgid ""
 msgstr ""
 
 #: EPEexpertHint
+#, fuzzy
 msgid "Carefully edit saved values:"
-msgstr ""
+msgstr "阅读键描述并编辑其对应的值"
 
 #: APPEXTSECappletSecurityLevelExtraHighId
 msgid "Disable running of all Java applets"
 msgstr ""
 
 #: APPEXTSECappletSecurityLevelVeryHighId
+#, fuzzy
 msgid "Very High Security"
-msgstr ""
+msgstr "快(&H)"
 
 #: APPEXTSECappletSecurityLevelHighId
+#, fuzzy
 msgid "High Security"
-msgstr ""
+msgstr "快(&H)"
 
 #: APPEXTSECappletSecurityLevelLowId
+#, fuzzy
 msgid "Low Security"
-msgstr ""
+msgstr "低"
 
 #: APPEXTSECappletSecurityLevelExtraHighExplanation
+#, fuzzy
 msgid "No applet will be run"
-msgstr ""
+msgstr "小程序"
 
 #: APPEXTSECappletSecurityLevelVeryHighExplanation
+#, fuzzy
 msgid "No unsigned applets will be run"
-msgstr ""
+msgstr "无符号字节，类型“y”"
 
 #: APPEXTSECappletSecurityLevelHighExplanation
 msgid "User will be prompted for each unsigned applet"
@@ -4700,36 +5241,43 @@ msgid "Never trust this (matching) applet(s)"
 msgstr ""
 
 #: APPEXTSECunsignedAppletActionYes
+#, fuzzy
 msgid "This applet was visited and allowed"
-msgstr ""
+msgstr "最常浏览"
 
 #: APPEXTSecunsignedAppletActionSandbox
 msgid "This applet was visited and allowed to run with restricted privileges"
 msgstr ""
 
 #: APPEXTSECunsignedAppletActionNo
+#, fuzzy
 msgid "This applet was visited and denied"
-msgstr ""
+msgstr "最常浏览"
 
 #: APPEXTSECControlPanelExtendedAppletSecurityTitle
+#, fuzzy
 msgid "Extended applet security"
-msgstr ""
+msgstr "安全"
 
 #: APPEXTSECguiTableModelTableColumnRD
+#, fuzzy
 msgid "Remembered decisions"
-msgstr ""
+msgstr "已记住设备。\n"
 
 #: APPEXTSECguiTableModelTableColumnDateOfAction
+#, fuzzy
 msgid "Date of action"
-msgstr ""
+msgstr "动作"
 
 #: APPEXTSECguiTableModelTableColumnDocumentBase
+#, fuzzy
 msgid "Document-base"
-msgstr ""
+msgstr "进制"
 
 #: APPEXTSECguiTableModelTableColumnCodeBase
+#, fuzzy
 msgid "Code-base"
-msgstr ""
+msgstr "这是个 %code% 错误"
 
 #: APPEXTSECguiTableModelTableColumnArchives
 #, fuzzy
@@ -4737,17 +5285,19 @@ msgid "Archives"
 msgstr "存档"
 
 #: APPEXTSECguiPanelAppletInfoHederPart1
+#, fuzzy
 msgid "{0} {1}"
-msgstr ""
+msgstr "字符串缺失值提示字段不等于下列任一值：0, 1, 2, 3。"
 
 #: APPEXTSECguiPanelAppletInfoHederPart2
 #, fuzzy
 msgid "{0} from  {1}"
-msgstr "发件人"
+msgstr "{0}\t对象 \"{1}\""
 
 #: APPEXTSECguiPanelConfirmDeletionOf
+#, fuzzy
 msgid "Are you sure you want to delete following {0} items"
-msgstr ""
+msgstr "真的删除这 %1 项?"
 
 #: APPEXTSECguiPanelHelpButton
 msgctxt "APPEXTSECguiPanelHelpButton"
@@ -4755,12 +5305,14 @@ msgid "Help"
 msgstr "帮助"
 
 #: APPEXTSECguiPanelSecurityLevel
+#, fuzzy
 msgid "Security Level"
-msgstr ""
+msgstr "安全"
 
 #: APPEXTSECguiPanelGlobalBehaviourCaption
+#, fuzzy
 msgid "Settings of global behavior for applets"
-msgstr ""
+msgstr "使用全局设置"
 
 #: APPEXTSECguiPanelDeleteMenuSelected
 #, fuzzy
@@ -4768,24 +5320,29 @@ msgid "selected"
 msgstr "已选中"
 
 #: APPEXTSECguiPanelDeleteMenuAllA
+#, fuzzy
 msgid "all allowed (A)"
-msgstr ""
+msgstr "允许使用所有过滤表达式"
 
 #: APPEXTSECguiPanelDeleteMenuAllN
+#, fuzzy
 msgid "all forbidden (N)"
-msgstr ""
+msgstr "popd [-n] [+N | -N]"
 
 #: APPEXTSECguiPanelDeleteMenuAlly
+#, fuzzy
 msgid "all approved (y)"
-msgstr ""
+msgstr "Y"
 
 #: APPEXTSECguiPanelDeleteMenuAlln
+#, fuzzy
 msgid "all rejected (n)"
-msgstr ""
+msgstr "N"
 
 #: APPEXTSECguiPanelDeleteMenuAllAll
+#, fuzzy
 msgid "absolute all"
-msgstr ""
+msgstr "绝对"
 
 #: APPEXTSECguiPanelDeleteButton
 msgctxt "APPEXTSECguiPanelDeleteButton"
@@ -4799,56 +5356,69 @@ msgid ""
 msgstr ""
 
 #: APPEXTSECguiPanelTestUrlButton
+#, fuzzy
 msgid "Test url"
-msgstr ""
+msgstr "URL"
 
 #: APPEXTSECguiPanelAddRowButton
+#, fuzzy
 msgid "Add new row"
-msgstr ""
+msgstr "增加行"
 
 #: APPEXTSECguiPanelValidateTableButton
+#, fuzzy
 msgid "Validate table"
-msgstr ""
+msgstr "验证已有的图标缓存"
 
 #: APPEXTSECguiPanelAskeforeActionBox
+#, fuzzy
 msgid "Ask me before action"
-msgstr ""
+msgstr "清除回收筒前请求确认"
 
 #: APPEXTSECguiPanelShowRegExesBox
+#, fuzzy
 msgid "Show full regular expressions"
-msgstr ""
+msgstr "正则表达式"
 
 #: APPEXTSECguiPanelInverSelection
+#, fuzzy
 msgid "Invert selection"
-msgstr ""
+msgstr "反选"
 
 #: APPEXTSECguiPanelMoveRowUp
+#, fuzzy
 msgid "Move row up"
-msgstr ""
+msgstr "上移(&U)"
 
 #: APPEXTSECguiPanelMoveRowDown
+#, fuzzy
 msgid "Move row down"
-msgstr ""
+msgstr "下移(&D)"
 
 #: APPEXTSECguiPanelCustomDefs
+#, fuzzy
 msgid "User definitions"
-msgstr ""
+msgstr " 在定义中隐藏"
 
 #: APPEXTSECguiPanelGlobalDefs
+#, fuzzy
 msgid "System definitions"
-msgstr ""
+msgstr " 在定义中隐藏"
 
 #: APPEXTSECguiPanelDocTest
+#, fuzzy
 msgid "Type document base URL"
-msgstr ""
+msgstr "Netscape 基点 URL"
 
 #: APPEXTSECguiPanelCodeTest
+#, fuzzy
 msgid "Type code base URL"
-msgstr ""
+msgstr "Netscape 基点 URL"
 
 #: APPEXTSECguiPanelNoMatch
+#, fuzzy
 msgid "Nothing matched"
-msgstr ""
+msgstr "无"
 
 #: APPEXTSECguiPanelMatchingNote
 msgid ""
@@ -4856,12 +5426,19 @@ msgid ""
 msgstr ""
 
 #: APPEXTSECguiPanelMatched
+#, fuzzy
 msgid "Matched"
 msgstr ""
+"请选择日志详细程度级别。\n"
+"低: 主要记录过滤条件是否匹配、执行了哪些动作。\n"
+"中: 记录邮件处理过程的详细信息，以及为什么某个规则会被跳过。\n"
+"高: 会记录所有的处理过程日志信息，包含每一步的解释。\n"
+"注意: 选择越高的级别时，性能方面受到的影响也越大。"
 
 #: APPEXTSECguiPanelMatchingError
+#, fuzzy
 msgid "Error during matching: {0}"
-msgstr ""
+msgstr "转换过程中出错：%s"
 
 #: APPEXTSECguiPanelCanNotValidate
 msgid "Cannot validate, cannot create tmp file - {0}"
@@ -4876,24 +5453,28 @@ msgid "All code-bases must be full"
 msgstr ""
 
 #: APPEXTSECguiPanelTableValid
+#, fuzzy
 msgid "Table looks valid"
-msgstr ""
+msgstr "表"
 
 #: APPEXTSECguiPanelTableInvalid
+#, fuzzy
 msgid "Invalid with following error: {0}"
-msgstr ""
+msgstr "无效的条件 (?(0)"
 
 #: APPEXTSECguiPanelShowOnlyPermanent
+#, fuzzy
 msgid "Show only permanent records"
-msgstr ""
+msgstr "只显示已订阅的目录"
 
 #: APPEXTSECguiPanelShowOnlyTemporal
 msgid "Show only previously temporarily decided records"
 msgstr ""
 
 #: APPEXTSECguiPanelShowAll
+#, fuzzy
 msgid "Show all records"
-msgstr ""
+msgstr "显示所有层"
 
 #: APPEXTSECguiPanelShowOnlyPermanentA
 msgid "Show only allowed permanent records"
