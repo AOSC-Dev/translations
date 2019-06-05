@@ -6852,8 +6852,10 @@ msgid "Unsupported rate.\n"
 msgstr "不支持的频率。\n"
 
 #: mferror.mc:200
+#, fuzzy
+#| msgid "Unsupported type.\n"
 msgid "Unsupported thinning.\n"
-msgstr ""
+msgstr "不支持的类型。\n"
 
 #: mferror.mc:207
 msgid "Reversing is not supported.\n"
@@ -6993,7 +6995,7 @@ msgstr "到达媒体流结尾。\n"
 
 #: mferror.mc:459
 msgid "Shutdown() was called.\n"
-msgstr " Shutdown() 函数被调用。\n"
+msgstr "Shutdown() 函数被调用。\n"
 
 #: mferror.mc:466
 msgid "Media stream has no duration set.\n"
@@ -7128,9 +7130,8 @@ msgid "Source is missing.\n"
 msgstr "缺少源。\n"
 
 #: mferror.mc:704
-#, fuzzy
 msgid "Topology loader does not support sink activates.\n"
-msgstr "不支持由池激活拓扑读取器。\n"
+msgstr ""
 
 #: mferror.mc:711
 msgid "Clock has no time source set.\n"
