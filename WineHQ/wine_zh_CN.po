@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: https://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2019-06-04 19:24-0600\n"
-"Last-Translator: Zixing Liu <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2020-03-31 02:11-0600\n"
+"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.1\n"
+"X-Generator: Poedit 2.3\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: appwiz.rc:58
@@ -651,11 +651,9 @@ msgid "&Define Custom Colors >>"
 msgstr "定义自定义颜色(&D) >>"
 
 #: comdlg32.rc:312
-#, fuzzy
-#| msgid "&No"
 msgctxt "Solid"
 msgid "&o"
-msgstr "否(&N)"
+msgstr "&o"
 
 #: comdlg32.rc:318 regedit.rc:275 regedit.rc:285
 msgid "Find"
@@ -3659,17 +3657,15 @@ msgstr "期望 '@'"
 
 #: jscript.rc:75
 msgid "Microsoft JScript compilation error"
-msgstr ""
+msgstr "Microsoft JScript 编译错误"
 
 #: jscript.rc:76
 msgid "Microsoft JScript runtime error"
-msgstr ""
+msgstr "Microsoft JScript 运行时错误"
 
 #: jscript.rc:77
-#, fuzzy
-#| msgid "Unknown error"
 msgid "Unknown runtime error"
-msgstr "未知错误"
+msgstr "未知运行时错误"
 
 #: jscript.rc:54
 msgid "Number expected"
@@ -3716,8 +3712,9 @@ msgid "Syntax error in regular expression"
 msgstr "正则表达式中出现语法错误"
 
 #: jscript.rc:63
+#, fuzzy
 msgid "Exception thrown and not caught"
-msgstr ""
+msgstr "发生异常且未被捕捉"
 
 #: jscript.rc:65
 msgid "URI to be encoded contains invalid characters"
@@ -6793,7 +6790,7 @@ msgstr "池尚未完成。\n"
 #, fuzzy
 #| msgid "Sink was already stopped.\n"
 msgid "Clock was stopped\n"
-msgstr "池已被停止。\n"
+msgstr "已终止"
 
 #: mferror.mc:32
 msgid "Media Foundation platform is not initialized.\n"
@@ -7173,9 +7170,8 @@ msgstr "已设置时钟状态。\n"
 
 #: mferror.mc:725
 #, fuzzy
-#| msgid "Clock is not available.\n"
 msgid "Clock is not simple\n"
-msgstr "时钟不可用。\n"
+msgstr "不是简单时钟\n"
 
 #: mpr.rc:35 wininet.rc:37
 msgid "Enter Network Password"
@@ -8265,20 +8261,16 @@ msgid "Off"
 msgstr "关"
 
 #: version.rc:56
-#, fuzzy
-#| msgid "video"
 msgid "Provider"
-msgstr "视频"
+msgstr "提供者"
 
 #: version.rc:59
 #, fuzzy
 #| msgid "Select the format you want to use:"
 msgid "Select the data you want to connect to:"
-msgstr "选择您希望使用的格式："
+msgstr "选择您想要引用的索引"
 
 #: version.rc:66
-#, fuzzy
-#| msgid "Connections"
 msgid "Connection"
 msgstr "连接"
 
@@ -8289,26 +8281,26 @@ msgid "Specify the following to connect to ODBC data:"
 msgstr "选择您希望使用的格式："
 
 #: version.rc:70
+#, fuzzy
 msgid "1. Specify the source of data:"
-msgstr ""
+msgstr "%1 中的迭代数据超过 64k。\n"
 
 #: version.rc:71
 #, fuzzy
 #| msgid "Please enter your name"
 msgid "Use &data source name"
-msgstr "请输入你的名字"
+msgstr "Name of the source package"
 
 #: version.rc:74
 #, fuzzy
 #| msgid "Reset Connections"
 msgid "Use c&onnection string"
-msgstr "连接重置次数"
+msgstr "设置 %s 以使用模式字符串"
 
 #: version.rc:75
 #, fuzzy
-#| msgid "Connections"
 msgid "&Connection string:"
-msgstr "连接"
+msgstr "连接字符串(&C)："
 
 #: version.rc:77
 #, fuzzy
@@ -8321,42 +8313,33 @@ msgid "2. Enter information to log on to the server"
 msgstr ""
 
 #: version.rc:79
-#, fuzzy
-#| msgid "&User name:"
 msgid "User &name:"
-msgstr "用户名(&U)："
+msgstr "用户名(&N)："
 
 #: version.rc:83
 #, fuzzy
-#| msgid "&Blank page"
 msgid "&Blank password"
-msgstr "空白页面(&B)"
+msgstr "空密码(&B)"
 
 #: version.rc:84
-#, fuzzy
-#| msgid "Wrong password.\n"
 msgid "Allow &saving password"
-msgstr "密码错误。\n"
+msgstr "允许保存密码(&S)"
 
 #: version.rc:85
 msgid "3. Enter the &initial catalog to use:"
 msgstr ""
 
 #: version.rc:87
-#, fuzzy
-#| msgid "Reset Connections"
 msgid "&Test Connection"
-msgstr "连接重置次数"
+msgstr "测试连接(&T)"
 
 #: version.rc:92 winemine.rc:65
 msgid "Advanced"
 msgstr "高级"
 
 #: version.rc:95
-#, fuzzy
-#| msgid "Network share"
 msgid "Network settings"
-msgstr "网络共享文件夹"
+msgstr "网络设置"
 
 #: version.rc:96
 #, fuzzy
@@ -8365,20 +8348,17 @@ msgid "&Impersonation level:"
 msgstr "无效的模拟级别。\n"
 
 #: version.rc:98
+#, fuzzy
 msgid "P&rotection level:"
-msgstr ""
+msgstr "保护级别(&R)："
 
 #: version.rc:101
-#, fuzzy
-#| msgid "Connected"
 msgid "Connect:"
-msgstr "已连接"
+msgstr "连接："
 
 #: version.rc:103
-#, fuzzy
-#| msgid "seconds"
 msgid "seconds."
-msgstr "秒"
+msgstr "秒。"
 
 #: version.rc:104
 #, fuzzy
@@ -8387,10 +8367,8 @@ msgid "A&ccess:"
 msgstr "成功"
 
 #: version.rc:110
-#, fuzzy
-#| msgid "&All"
 msgid "All"
-msgstr "全部(&A)"
+msgstr "全部"
 
 #: version.rc:114
 msgid ""
@@ -8402,41 +8380,35 @@ msgstr ""
 #, fuzzy
 #| msgid "&Edit..."
 msgid "&Edit Value..."
-msgstr "编辑(&E)..."
+msgstr "超过一个架构定义和使用了该键。这会引起问题。要编辑键值请自担风险。"
 
 #: version.rc:49
-#, fuzzy
-#| msgid "Properties"
 msgid "Data Link Error"
-msgstr "属性"
+msgstr "数据链错误"
 
 #: version.rc:50
 #, fuzzy
-#| msgid "Please select a file."
 msgid "Please select a provider."
-msgstr "请选择一个文件。"
+msgstr "请选择提供者。"
 
 #: version.rc:51
 msgid ""
 "Provider is no longer available. Ensure that the provider is installed "
 "properly."
-msgstr ""
+msgstr "提供者已不再可用。请确保提供者已正确安装。"
 
 #: version.rc:36
-#, fuzzy
-#| msgid "Properties"
 msgid "Data Link Properties"
-msgstr "属性"
+msgstr "数据链路属性"
 
 #: version.rc:37
+#, fuzzy
 msgid "OLE DB Provider(s)"
-msgstr ""
+msgstr "OLE DB 提供者"
 
 #: version.rc:41
-#, fuzzy
-#| msgid "Ready"
 msgid "Read"
-msgstr "待命"
+msgstr "读取"
 
 #: version.rc:42
 #, fuzzy
@@ -8445,26 +8417,28 @@ msgid "ReadWrite"
 msgstr "产品说明："
 
 #: version.rc:43
+#, fuzzy
 msgid "Share Deny None"
-msgstr ""
+msgstr "拒绝"
 
 #: version.rc:44
+#, fuzzy
 msgid "Share Deny Read"
-msgstr ""
+msgstr "拒绝"
 
 #: version.rc:45
+#, fuzzy
 msgid "Share Deny Write"
-msgstr ""
+msgstr "拒绝"
 
 #: version.rc:46
+#, fuzzy
 msgid "Share Exclusive"
-msgstr ""
+msgstr "异或"
 
 #: version.rc:47
-#, fuzzy
-#| msgid "I/O Writes"
 msgid "Write"
-msgstr "I/O 写入"
+msgstr "写入"
 
 #: oledlg.rc:55
 msgid "Insert Object"
@@ -9646,13 +9620,13 @@ msgstr "佛得角夏令时"
 #, fuzzy
 #| msgid "Hawaiian Standard Time"
 msgid "Haiti Standard Time"
-msgstr "夏威夷标准时间"
+msgstr "中国标准时间"
 
 #: tzres.rc:121
 #, fuzzy
 #| msgid "Hawaiian Daylight Time"
 msgid "Haiti Daylight Time"
-msgstr "夏威夷夏令时"
+msgstr "中国夏令时"
 
 #: tzres.rc:78
 msgid "Central European Standard Time"
@@ -10286,13 +10260,13 @@ msgstr "新西兰夏令时"
 #, fuzzy
 #| msgid "Argentina Standard Time"
 msgid "Aleutian Standard Time"
-msgstr "阿根廷标准时间"
+msgstr "格鲁吉亚标准时间"
 
 #: tzres.rc:35
 #, fuzzy
 #| msgid "Argentina Daylight Time"
 msgid "Aleutian Daylight Time"
-msgstr "阿根廷夏令时"
+msgstr "格鲁吉亚夏令时"
 
 #: tzres.rc:74
 msgid "Central Brazilian Standard Time"
