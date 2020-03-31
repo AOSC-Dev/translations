@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wcd 5.2.6-beta4\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-09 23:29+0100\n"
+"POT-Creation-Date: 2019-01-10 23:45+0100\n"
 "PO-Revision-Date: 2018-10-25 12:43-0600\n"
 "Last-Translator: Zixing Liu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -19,90 +19,90 @@ msgstr ""
 "X-Generator: Poedit 2.2\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: wcd.c:171
+#: wcd.c:170
 #, c-format
 msgid "Wcd: error: "
 msgstr "Wcd：错误："
 
-#: wcd.c:184 wcd.c:238 wcd.c:258
+#: wcd.c:183 wcd.c:237 wcd.c:257
 #, c-format
 msgid "Unable to read file %s: %s\n"
 msgstr "无法读取文件 %s：%s\n"
 
-#: wcd.c:247
+#: wcd.c:246
 #, c-format
 msgid "Unable to read file %s: Not a regular file.\n"
 msgstr "无法读取文件 %s：不是普通文件。\n"
 
-#: wcd.c:260 wcd.c:347
+#: wcd.c:259 wcd.c:346
 #, c-format
 msgid "Unable to write file %s: %s\n"
 msgstr "无法写入文件 %s：%s\n"
 
-#: wcd.c:349
+#: wcd.c:348
 #, c-format
 msgid "Unable to close file %s: %s\n"
 msgstr "无法关闭文件 %s：%s\n"
 
-#: wcd.c:395 wcd.c:400 wfixpath.c:65
+#: wcd.c:409 wcd.c:414 wfixpath.c:65
 #, c-format
 msgid "Memory allocation error in %s: %s\n"
 msgstr "%s 中发生了内存分配错误：%s\n"
 
-#: wcd.c:707 wcd.c:721
+#: wcd.c:716 wcd.c:730
 #, c-format
 msgid "%s added to file %s\n"
 msgstr "已添加 %s 到文件 %s\n"
 
-#: wcd.c:756 wcd.c:1088
+#: wcd.c:765 wcd.c:1097
 #, c-format
 msgid "%s is not a directory.\n"
 msgstr "%s 不是目录。\n"
 
-#: wcd.c:761
+#: wcd.c:770
 #, c-format
 msgid "Please wait. Scanning disk. Building treedata-file %s from %s\n"
 msgstr "请稍等。正在扫描磁盘。正在从 %2$s 构建树状数据文件 %1$s\n"
 
-#: wcd.c:823 wcd.c:2210 wcd.c:2233 wcd.c:2313
+#: wcd.c:832 wcd.c:2223 wcd.c:2246 wcd.c:2326
 #, c-format
 msgid "Writing file \"%s\"\n"
 msgstr "正在写入文件 \"%s\"\n"
 
-#: wcd.c:828
+#: wcd.c:837
 msgid "Write access to tree-file denied.\n"
 msgstr "数据树文件写入权限被拒绝。\n"
 
-#: wcd.c:829
+#: wcd.c:838
 msgid "Set TEMP environment variable if this is a read-only disk.\n"
 msgstr "如果这是一个只读磁盘，请设置 TEMP 环境变量。\n"
 
-#: wcd.c:958
+#: wcd.c:967
 #, c-format
 msgid "Removed symbolic link %s\n"
 msgstr "已移除符号链接 %s。\n"
 
-#: wcd.c:962
+#: wcd.c:971
 #, c-format
 msgid "Unable to remove symbolic link %s: %s\n"
 msgstr "无法移除符号链接 %s：%s\n"
 
-#: wcd.c:966
+#: wcd.c:975
 #, c-format
 msgid "%s is a symbolic link to a file.\n"
 msgstr "%s 是指向另一个文件的符号链接\n"
 
-#: wcd.c:1049
+#: wcd.c:1058
 #, c-format
 msgid "Recursively remove %s? Are you sure? y/n :"
 msgstr "您确定要递归删除 %s 吗？是/否 (y/n)："
 
-#: wcd.c:1071 wcd.c:1081
+#: wcd.c:1080 wcd.c:1090
 #, c-format
 msgid "Removed directory %s\n"
 msgstr "已删除目录 %s\n"
 
-#: wcd.c:1113 wcd.c:1182 wcd.c:1250
+#: wcd.c:1122 wcd.c:1191 wcd.c:1259
 #, c-format
 msgid ""
 "line too long in %s ( > %d). The treefile could be corrupt, else fix by "
@@ -111,21 +111,21 @@ msgstr ""
 "%s 中行太长 ( > %d)。目录树文件可能已损坏，如情况并非如此，请于源代码增加 "
 "WCD_MAXPATH 的值以修复此问题。\n"
 
-#: wcd.c:1114 wcd.c:1183 wcd.c:1251
+#: wcd.c:1123 wcd.c:1192 wcd.c:1260
 #, c-format
 msgid "file: %s, line: %d,"
 msgstr "文件：%s，行：%d，"
 
-#: wcd.c:1121 wcd.c:1190 wcd.c:1258
+#: wcd.c:1130 wcd.c:1199 wcd.c:1267
 #, c-format
 msgid " length: %d\n"
 msgstr " 长度：%d\n"
 
-#: wcd.c:1758 wcd.c:1827
+#: wcd.c:1768 wcd.c:1837
 msgid "Alias file in UTF-16 format is not supported.\n"
 msgstr "不支持 UTF-16 格式的别名文件。\n"
 
-#: wcd.c:1924
+#: wcd.c:1937
 #, c-format
 msgid ""
 "Usage: wcd [options] [directory]\n"
@@ -134,12 +134,12 @@ msgstr ""
 "用法：wcd [选项] [路径]\n"
 "\n"
 
-#: wcd.c:1925
+#: wcd.c:1938
 #, c-format
 msgid "directory:  Name of directory to change to.\n"
 msgstr "路径：要切换的路径名称。\n"
 
-#: wcd.c:1926
+#: wcd.c:1939
 #, c-format
 msgid ""
 "            Wildcards *, ? and [SET] are supported.\n"
@@ -148,316 +148,316 @@ msgstr ""
 "            支持通配符 *,? 及 [SET]。\n"
 "\n"
 
-#: wcd.c:1928
+#: wcd.c:1941
 #, c-format
 msgid "options:\n"
 msgstr "选项：\n"
 
-#: wcd.c:1929
+#: wcd.c:1942
 #, c-format
 msgid "  -a                      Add current path to treefile\n"
 msgstr "  -a                      将当前路径添加到目录树文件\n"
 
-#: wcd.c:1930
+#: wcd.c:1943
 #, c-format
 msgid ""
 "  -aa                     Add current and all parent paths to treefile\n"
 msgstr "  -aa                     将当前及所有父路径添加到目录树文件\n"
 
-#: wcd.c:1931
+#: wcd.c:1944
 #, c-format
 msgid "  -A PATH                 Add tree from PATH\n"
 msgstr "  -A 目录                 从 <目录> 添加目录树\n"
 
-#: wcd.c:1932
+#: wcd.c:1945
 #, c-format
 msgid "  -b                      Ban current path\n"
 msgstr "  -b                      禁用当前路径\n"
 
-#: wcd.c:1933
+#: wcd.c:1946
 #, c-format
 msgid "  -c,  --direct-cd        direct CD mode\n"
 msgstr "  -c,  --direct-cd        直接 CD（目录切换）模式\n"
 
-#: wcd.c:1934
+#: wcd.c:1947
 #, c-format
 msgid "  -d DRIVE                set DRIVE for stack & go files (DOS)\n"
 msgstr "  -d 驱动器                设置存放 stack & go 文件的 <驱动器> (DOS)\n"
 
-#: wcd.c:1935
+#: wcd.c:1948
 #, c-format
 msgid "  -e                      add current path to Extra treefile\n"
 msgstr "  -e                      将当前路径添加到附加目录树文件\n"
 
-#: wcd.c:1936
+#: wcd.c:1949
 #, c-format
 msgid ""
 "  -ee                     add current and all parent paths to Extra "
 "treefile\n"
 msgstr "  -aa                     将当前及所有父路径添加到附加目录树文件\n"
 
-#: wcd.c:1937
+#: wcd.c:1950
 #, c-format
 msgid "  -E PATH                 add tree from PATH to Extra treefile\n"
 msgstr "  -E 目录                 将 <目录> 内容添加到附加目录树文件\n"
 
-#: wcd.c:1938
+#: wcd.c:1951
 #, c-format
 msgid "  -f FILE                 use extra treeFile\n"
 msgstr "  -f 文件                 使用附加目录树 <文件>\n"
 
-#: wcd.c:1939
+#: wcd.c:1952
 #, c-format
 msgid "  +f FILE                 add extra treeFile\n"
 msgstr "  +f 文件                 添加附加目录树 <文件>\n"
 
-#: wcd.c:1940
+#: wcd.c:1953
 #, c-format
 msgid "  -g                      Graphics\n"
 msgstr "  -g                      图像输出\n"
 
-#: wcd.c:1941
+#: wcd.c:1954
 #, c-format
 msgid "  -gd                     Graphics, dump tree\n"
 msgstr "  -g                      图像输出，转储目录树\n"
 
-#: wcd.c:1942
+#: wcd.c:1955
 #, c-format
 msgid "  -G PATH                 set PATH Go-script\n"
 msgstr "  -G 目录                 设置 <目录> 的 Go 脚本\n"
 
-#: wcd.c:1943
+#: wcd.c:1956
 #, c-format
 msgid "  -GN, --no-go-script     No Go-script\n"
 msgstr "  -GN, --no-go-script     无 Go 脚本\n"
 
-#: wcd.c:1944
+#: wcd.c:1957
 #, c-format
 msgid "  -h,  --help             show this Help\n"
 msgstr "  -h, --help              显示此帮助信息\n"
 
-#: wcd.c:1947
+#: wcd.c:1960
 #, c-format
 msgid "  -i,  --ignore-case      Ignore case (default)\n"
 msgstr "  -i,  --ignore-case      忽略大小写（默认）\n"
 
-#: wcd.c:1948
+#: wcd.c:1961
 #, c-format
 msgid "  +i,  --no-ignore-case   regard case\n"
 msgstr "  +i,  --no-ignore-case   区分大小写\n"
 
-#: wcd.c:1950
+#: wcd.c:1963
 #, c-format
 msgid "  -i,  --ignore-case      Ignore case\n"
 msgstr "  -i,  --ignore-case      忽略大小写\n"
 
-#: wcd.c:1951
+#: wcd.c:1964
 #, c-format
 msgid "  +i,  --no-ignore-case   regard case (default)\n"
 msgstr "  +i,  --no-ignore-case   区分大小写（默认）\n"
 
-#: wcd.c:1954
+#: wcd.c:1967
 #, c-format
 msgid "  -I,  --ignore-diacritics     Ignore diacritics\n"
 msgstr "  -I,  --ignore-diacritics     忽略变音符号\n"
 
-#: wcd.c:1955
+#: wcd.c:1968
 #, c-format
 msgid "  +I,  --no-ignore-diacritics  regard diacritics (default)\n"
 msgstr "  -I,  --ignore-diacritics     区分变音符号（默认）\n"
 
-#: wcd.c:1956
+#: wcd.c:1969
 #, c-format
 msgid "  -j,  --just-go          Just go mode\n"
 msgstr "  -j,  --just-go          直接前往模式\n"
 
-#: wcd.c:1957
+#: wcd.c:1970
 #, c-format
 msgid "  -k,  --keep-paths       Keep paths\n"
 msgstr "  -k,  --keep-paths       保持路径\n"
 
-#: wcd.c:1958
+#: wcd.c:1971
 #, c-format
 msgid "  -K,  --color            colors\n"
 msgstr "  -K,  --color            彩色输出\n"
 
-#: wcd.c:1959
+#: wcd.c:1972
 #, c-format
 msgid "  -l ALIAS                aLias current directory\n"
 msgstr "  -l 别名                  为当前目录指定 <别名>\n"
 
-#: wcd.c:1960
+#: wcd.c:1973
 #, c-format
 msgid "  -ls                     List the aliases\n"
 msgstr "  -ls                     列出别名\n"
 
-#: wcd.c:1961
+#: wcd.c:1974
 #, c-format
 msgid "  -L,  --license          show software License\n"
 msgstr "  -L,  --license          显示软件许可证\n"
 
-#: wcd.c:1962
+#: wcd.c:1975
 #, c-format
 msgid "  -m DIR                  Make DIR, add to treefile\n"
 msgstr "  -m 目录                 创建 <目录>，并添加到目录树文件\n"
 
-#: wcd.c:1963
+#: wcd.c:1976
 #, c-format
 msgid "  -M DIR                  Make DIR, add to extra treefile\n"
 msgstr "  -m 目录                  创建 <目录>，并添加到附加目录树文件\n"
 
-#: wcd.c:1964
+#: wcd.c:1977
 #, c-format
 msgid "  -n PATH                 use relative treefile in PATH\n"
 msgstr "  -n 目录                 使用 <目录> 中的相对目录树文件\n"
 
-#: wcd.c:1965
+#: wcd.c:1978
 #, c-format
 msgid "  +n PATH                 add relative treefile in PATH\n"
 msgstr "  -n 目录                 添加 <目录> 中的相对目录树文件\n"
 
-#: wcd.c:1966
+#: wcd.c:1979
 #, c-format
 msgid "  -N,  --numbers          use Numbers\n"
 msgstr "  -N,  --numbers          使用数字\n"
 
-#: wcd.c:1967
+#: wcd.c:1980
 #, c-format
 msgid "  -o                      use stdOut\n"
 msgstr "  -o                      使用标准输出\n"
 
-#: wcd.c:1968
+#: wcd.c:1981
 #, c-format
 msgid "  -od, --to-stdout        dump matches\n"
 msgstr "  -od, --to-stdout        转储匹配\n"
 
-#: wcd.c:1969
+#: wcd.c:1982
 #, c-format
 msgid "  -q,  --quiet            Quieter operation\n"
 msgstr "  -q,  --quiet            静默操作\n"
 
-#: wcd.c:1970
+#: wcd.c:1983
 #, c-format
 msgid "  -r DIR                  Remove DIR\n"
 msgstr "  -r 目录                 移除 <目录>\n"
 
-#: wcd.c:1971
+#: wcd.c:1984
 #, c-format
 msgid "  -rmtree DIR             Remove DIR recursive\n"
 msgstr "  -rmtree 目录            递归移除 <目录>\n"
 
-#: wcd.c:1972
+#: wcd.c:1985
 #, c-format
 msgid "  -s                      Scan disk from $HOME\n"
 msgstr "  -s                      从 $HOME 扫描磁盘\n"
 
-#: wcd.c:1973
+#: wcd.c:1986
 #, c-format
 msgid "  -S PATH                 Scan disk from PATH\n"
 msgstr "  -S 目录                 从 <目录> 扫描磁盘\n"
 
-#: wcd.c:1974
+#: wcd.c:1987
 #, c-format
 msgid ""
 "  +S PATH                 Scan disk from PATH, create relative treefile\n"
 msgstr "  +S 目录                 从 <目录> 扫描磁盘，创建相对目录树文件\n"
 
-#: wcd.c:1975
+#: wcd.c:1988
 #, c-format
 msgid "  -t                      don't strip /tmp_mnt from paths\n"
 msgstr "  -t                      不要从路径切除 /tmp_mnt\n"
 
-#: wcd.c:1976
+#: wcd.c:1989
 #, c-format
 msgid "  -T,  --ascii-tree       draw tree with ASCII characters\n"
 msgstr "  -T,  --ascii-tree       使用 ASCII 字符绘制目录树\n"
 
-#: wcd.c:1977
+#: wcd.c:1990
 #, c-format
 msgid "  -Ta, --alt-tree-nav     Alternative tree navigation\n"
 msgstr "  -Ta, --alt-tree-nav     备选目录树浏览模式\n"
 
-#: wcd.c:1978
+#: wcd.c:1991
 #, c-format
 msgid "  -TC, --center-tree      Centered tree view\n"
 msgstr "  -TC, --center-tree      居中目录树视图\n"
 
-#: wcd.c:1979
+#: wcd.c:1992
 #, c-format
 msgid "  -Tc, --compact-tree     Compact tree\n"
 msgstr "  -Tc, --compact-tree     紧凑目录树\n"
 
-#: wcd.c:1980
+#: wcd.c:1993
 #, c-format
 msgid "  -Td, --cjk-width        support legacy CJK fonts\n"
 msgstr "  -Td, --cjk-width        支持传统 CJK 字体\n"
 
-#: wcd.c:1981
+#: wcd.c:1994
 #, c-format
 msgid "  -u USER                 use USER's treefile\n"
 msgstr "  -u 用户                 使用 <用户> 的目录树文件\n"
 
-#: wcd.c:1982
+#: wcd.c:1995
 #, c-format
 msgid "  +u USER                 add USER's treefile\n"
 msgstr "  +u 用户                 为 <用户> 添加目录树文件\n"
 
-#: wcd.c:1983
+#: wcd.c:1996
 #, c-format
 msgid "  -v,  --verbose          Verbose operation\n"
 msgstr "  -v,  --verbose          详尽操作输出\n"
 
-#: wcd.c:1984
+#: wcd.c:1997
 #, c-format
 msgid "  -V,  --version          show Version info\n"
 msgstr "  -V,  --version          显示版本信息\n"
 
-#: wcd.c:1985
+#: wcd.c:1998
 #, c-format
 msgid "  -w,  --wild-match-only  Wild matching only\n"
 msgstr "  -w,  --wild-match-only  仅使用通配符匹配\n"
 
-#: wcd.c:1986
+#: wcd.c:1999
 #, c-format
 msgid "  -x PATH                 eXclude PATH during disk scan\n"
 msgstr "  -x 目录                 磁盘扫描时排除指定 <目录>\n"
 
-#: wcd.c:1987
+#: wcd.c:2000
 #, c-format
 msgid "  -xf FILE                eXclude paths from FILE\n"
 msgstr "  -xf 文件                从指定 <文件> 中确定要排除的目录\n"
 
-#: wcd.c:1988
+#: wcd.c:2001
 #, c-format
 msgid "  -y,  --assume-yes       assume Yes on all queries\n"
 msgstr "  -y,  --assume-yes       为所有询问项目假设肯定回应\n"
 
-#: wcd.c:1989
+#: wcd.c:2002
 #, c-format
 msgid "  -z NUMBER               set max stack siZe\n"
 msgstr "  -z 大小                 设置目录栈的最大 <大小>\n"
 
-#: wcd.c:1990
+#: wcd.c:2003
 #, c-format
 msgid "  -[NUMBER]               push dir (NUMBER times)\n"
 msgstr "  -[NUMBER]               推进到目录（pushd，NUMBER 次）\n"
 
-#: wcd.c:1991
+#: wcd.c:2004
 #, c-format
 msgid "  +[NUMBER]               pop dir (NUMBER times)\n"
 msgstr "  -[NUMBER]               从目录跳出（popd，NUMBER 次）\n"
 
-#: wcd.c:1992
+#: wcd.c:2005
 #, c-format
 msgid "  =                       show stack\n"
 msgstr "  =                       显示目录栈\n"
 
-#: wcd.c:2001 wcd.c:2130
+#: wcd.c:2014 wcd.c:2143
 #, c-format
 msgid "wcd %s (%s) - Wherever Change Directory\n"
 msgstr "wcd %s (%s) - 目录随意换\n"
 
-#: wcd.c:2002
+#: wcd.c:2015
 #, c-format
 msgid ""
 "Chdir for Dos and Unix.\n"
@@ -466,182 +466,182 @@ msgstr ""
 "用于 Dos 和 Unix 的 Chdir。\n"
 "\n"
 
-#: wcd.c:2006
+#: wcd.c:2019
 #, c-format
 msgid "DOS 16 bit version (WATCOMC).\n"
 msgstr "DOS 16 位版本（WATCOMC）。\n"
 
-#: wcd.c:2008
+#: wcd.c:2021
 #, c-format
 msgid "DOS 16 bit version (TURBOC).\n"
 msgstr "DOS 16 位版本（TURBOC）。\n"
 
-#: wcd.c:2010
+#: wcd.c:2023
 #, c-format
 msgid "DOS 32 bit version (DJGPP).\n"
 msgstr "DOS 32 位版本（DJGPP）。\n"
 
-#: wcd.c:2012
+#: wcd.c:2025
 #, c-format
 msgid "DOS 32 bit version (WATCOMC).\n"
 msgstr "DOS 32 位版本（WATCOMC）。\n"
 
-#: wcd.c:2019
+#: wcd.c:2032
 #, c-format
 msgid "Win64 version (MSVC %d).\n"
 msgstr "Win64 版本（MSVC %d）。\n"
 
-#: wcd.c:2021
+#: wcd.c:2034
 #, c-format
 msgid "Win64 version (MinGW-w64).\n"
 msgstr "Win64 版本（MinGW-w64）。\n"
 
-#: wcd.c:2025
+#: wcd.c:2038
 #, c-format
 msgid "Win32 version (WATCOMC).\n"
 msgstr "Win32 版本（WATCOMC）。\n"
 
-#: wcd.c:2027
+#: wcd.c:2040
 #, c-format
 msgid "Win32 version (MSVC %d).\n"
 msgstr "Win32 版本（MSVC %d）。\n"
 
-#: wcd.c:2029
+#: wcd.c:2042
 #, c-format
 msgid "Win32 version (MinGW-w64).\n"
 msgstr "Win32 版本（MinGW-w64）。\n"
 
-#: wcd.c:2031
+#: wcd.c:2044
 #, c-format
 msgid "Win32 version (MinGW).\n"
 msgstr "Win32 版本（MinGW）。\n"
 
-#: wcd.c:2038
+#: wcd.c:2051
 #, c-format
 msgid "This version is for MSYS and WinZsh.\n"
 msgstr "该版本适用于 MSYS 及 WinZsh。\n"
 
-#: wcd.c:2040
+#: wcd.c:2053
 #, c-format
 msgid "This version is for Windows PowerShell.\n"
 msgstr "该版本适用于 Windows Powershell。\n"
 
-#: wcd.c:2042
+#: wcd.c:2055
 #, c-format
 msgid "This version is for Windows Command Prompt (cmd.exe).\n"
 msgstr "该版本适用于 Windows 命令提示符（cmd.exe）。\n"
 
-#: wcd.c:2047
+#: wcd.c:2060
 #, c-format
 msgid "OS/2 version"
 msgstr "OS/2 版本"
 
-#: wcd.c:2058
+#: wcd.c:2071
 #, c-format
 msgid "This version is for native MSYS.\n"
 msgstr "该版本适用于原生 MSYS 环境。\n"
 
-#: wcd.c:2061
+#: wcd.c:2074
 #, c-format
 msgid "Cygwin version.\n"
 msgstr "Cygwin 版本。\n"
 
-#: wcd.c:2064
+#: wcd.c:2077
 #, c-format
 msgid "This version is for DJGPP DOS bash.\n"
 msgstr "该版本适用于 DJGPP DOS bash。\n"
 
-#: wcd.c:2067
+#: wcd.c:2080
 #, c-format
 msgid "This version is for OS/2 bash.\n"
 msgstr "该版本适用于 OS/2 bash。\n"
 
-#: wcd.c:2070
+#: wcd.c:2083
 #, c-format
 msgid "Interface: "
 msgstr "界面："
 
-#: wcd.c:2076
+#: wcd.c:2089
 #, c-format
 msgid "ncurses version %s.%d\n"
 msgstr "ncurses 版本 %s.%d.\n"
 
-#: wcd.c:2079
+#: wcd.c:2092
 #, c-format
 msgid "PDCurses build %d\n"
 msgstr "PDCurses 构建 %d\n"
 
-#: wcd.c:2081
+#: wcd.c:2094
 #, c-format
 msgid "curses\n"
 msgstr "curses\n"
 
-#: wcd.c:2090
+#: wcd.c:2103
 #, c-format
 msgid "stdout\n"
 msgstr "stdout\n"
 
-#: wcd.c:2094
+#: wcd.c:2107
 #, c-format
 msgid "Native language support included.\n"
 msgstr "包含本地语言支持。\n"
 
-#: wcd.c:2095
+#: wcd.c:2108
 #, c-format
 msgid "LOCALEDIR=%s\n"
 msgstr "LOCALEDIR=%s\n"
 
-#: wcd.c:2097
+#: wcd.c:2110
 #, c-format
 msgid "No native language support included.\n"
 msgstr "未包含本地语言支持。\n"
 
-#: wcd.c:2100
+#: wcd.c:2113
 #, c-format
 msgid "Current locale uses CP%u encoding.\n"
 msgstr "当前语言环境使用 CP%u 编码。\n"
 
-#: wcd.c:2102
+#: wcd.c:2115
 #, c-format
 msgid "Current locale uses %s encoding.\n"
 msgstr "当前语言环境使用 %s 编码。\n"
 
-#: wcd.c:2105
+#: wcd.c:2118
 #, c-format
 msgid "With Unicode support.\n"
 msgstr "带有 Unicode 支持。\n"
 
-#: wcd.c:2110
+#: wcd.c:2123
 #, c-format
 msgid "  Euro symbol: "
 msgstr "  欧元符号： "
 
-#: wcd.c:2112
+#: wcd.c:2125
 #, c-format
 msgid "  Chinese characters: "
 msgstr "  中文字符： "
 
-#: wcd.c:2116
+#: wcd.c:2129
 #, c-format
 msgid "Without Unicode support.\n"
 msgstr "不带有 Unicode 支持。\n"
 
-#: wcd.c:2119
+#: wcd.c:2132
 #, c-format
 msgid "With Unicode normalization.\n"
 msgstr "带有 Unicode 规范化支持。\n"
 
-#: wcd.c:2121
+#: wcd.c:2134
 #, c-format
 msgid "Without Unicode normalization.\n"
 msgstr "不带有 Unicode 归一化支持。\n"
 
-#: wcd.c:2124
+#: wcd.c:2137
 #, c-format
 msgid "Download the latest executables and sources from:\n"
 msgstr "可从此处下载到最新的可执行文件及源代码：\n"
 
-#: wcd.c:2131
+#: wcd.c:2144
 #, c-format
 msgid ""
 "Copyright (C) 1996-%d Erwin Waterlander\n"
@@ -662,7 +662,7 @@ msgstr ""
 "Copyright (C) 1990-1992 Mark Adler, Richard B. Wales, Jean-loup Gailly,\n"
 "Kai Uwe Rommel 及 Igor Mandrichenko 贡献 recmatch() 支持\n"
 
-#: wcd.c:2139
+#: wcd.c:2152
 #, c-format
 msgid ""
 "Source code to scan Windows LAN was originally written and placed\n"
@@ -676,7 +676,7 @@ msgstr ""
 "Rugxulo 是 query_con_codepage() 的原作者（公共领域）。\n"
 "\n"
 
-#: wcd.c:2145
+#: wcd.c:2158
 #, c-format
 msgid ""
 "This program is free software; you can redistribute it and/or\n"
@@ -690,7 +690,7 @@ msgstr ""
 "\n"
 "\n"
 
-#: wcd.c:2151
+#: wcd.c:2164
 #, c-format
 msgid ""
 "This program is distributed in the hope that it will be useful,\n"
@@ -704,7 +704,7 @@ msgstr ""
 "GNU 通用公共许可证。\n"
 "\n"
 
-#: wcd.c:2157
+#: wcd.c:2170
 #, c-format
 msgid ""
 "You should have received a copy of the GNU General Public License\n"
@@ -717,86 +717,86 @@ msgstr ""
 "51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA. 索取。\n"
 "\n"
 
-#: wcd.c:2190
+#: wcd.c:2203
 #, c-format
 msgid "creating directory %s\n"
 msgstr "正在创建目录 %s\n"
 
-#: wcd.c:2522 wcd.c:2562 wcd.c:2577 wcd.c:2645 wcd.c:2714 wcd.c:3216 wcd.c:3235
+#: wcd.c:2535 wcd.c:2575 wcd.c:2590 wcd.c:2658 wcd.c:2727 wcd.c:3229 wcd.c:3248
 #, c-format
 msgid "Value of environment variable %s is too long.\n"
 msgstr "环境变量 %s 的值太长。\n"
 
-#: wcd.c:2551
+#: wcd.c:2564
 #, c-format
 msgid "Failed to unset environment variable TERM: %s\n"
 msgstr "无法取消设置 TERM 环境变量：%s\n"
 
-#: wcd.c:2609 wcd.c:2638
+#: wcd.c:2622 wcd.c:2651
 msgid "Environment variable HOME or WCDHOME is not set.\n"
 msgstr "未设置环境变量 HOME 及 WCDHOME。\n"
 
-#: wcd.c:2821
+#: wcd.c:2834
 #, c-format
 msgid "aliasfile: %s\n"
 msgstr "别名文件：%s\n"
 
-#: wcd.c:2835
+#: wcd.c:2848
 msgid "HOME is not defined\n"
 msgstr "HOME 未定义\n"
 
-#: wcd.c:2839
+#: wcd.c:2852
 msgid "WCDHOME is not defined\n"
 msgstr "WCDHOME 未定义\n"
 
-#: wcd.c:2843
+#: wcd.c:2856
 msgid "WCDSCAN is not defined\n"
 msgstr "WCDSCAN 未定义\n"
 
-#: wcd.c:2868
+#: wcd.c:2881
 msgid "Graphics mode only supported in wcd with curses-based interface.\n"
 msgstr "只有带有基于 curses 界面的 wcd 支持图形模式。\n"
 
-#: wcd.c:3149
+#: wcd.c:3162
 #, c-format
 msgid "%s added to aliasfile %s\n"
 msgstr "%s 已添加到别名文件 %s\n"
 
-#: wcd.c:3248
+#: wcd.c:3261
 #, c-format
 msgid "Unable to read file %s or %s\n"
 msgstr "无法读取文件 %s 或 %s\n"
 
-#: wcd.c:3398
+#: wcd.c:3411
 #, c-format
 msgid "WCDSCAN directory {%s}\n"
 msgstr "WCDSCAN 目录 {%s}\n"
 
-#: wcd.c:3400
+#: wcd.c:3413
 #, c-format
 msgid "banning {%s}\n"
 msgstr "禁止 {%s}\n"
 
-#: wcd.c:3402
+#: wcd.c:3415
 #, c-format
 msgid "excluding {%s}\n"
 msgstr "排除 {%s}\n"
 
-#: wcd.c:3404
+#: wcd.c:3417
 #, c-format
 msgid "filtering {%s}\n"
 msgstr "过滤 {%s}\n"
 
-#: wcd.c:3667
+#: wcd.c:3677
 #, c-format
 msgid "No directory found matching %s\n"
 msgstr "未找到匹配 %s 的路径\n"
 
-#: wcd.c:3668
+#: wcd.c:3678
 msgid "Perhaps you need to rescan the disk or path is banned.\n"
 msgstr "磁盘可能需要重新扫描，或此路径可能已被禁止。\n"
 
-#: wcd.c:3836
+#: wcd.c:3807
 #, c-format
 msgid "Cannot change to %s\n"
 msgstr "无法切换到 %s\n"
@@ -863,337 +863,337 @@ msgstr "无法移除目录 %s：%s\n"
 msgid "Error parsing stack\n"
 msgstr "解析目录栈时发生错误\n"
 
-#: display.c:261
+#: display.c:263
 msgid "internal error in maxLength(), list == NULL\n"
 msgstr "maxLength(), list == NULL 处发生内部错误\n"
 
-#: display.c:282
+#: display.c:284
 msgid "internal error in maxLengthStack(), s == NULL\n"
 msgstr "maxLengthStack(), s == NULL 处发生内部错误\n"
 
-#: display.c:522 display.c:1137 display.c:1513
+#: display.c:524 display.c:1150 display.c:1538
 #, c-format
 msgid "Perfect match for %d directories."
 msgstr "%d 个完全匹配的目录。"
 
-#: display.c:524 display.c:1139 display.c:1515
+#: display.c:526 display.c:1152 display.c:1540
 #, c-format
 msgid "Wild match for %d directories."
 msgstr "%d 个通配符匹配的目录。"
 
-#: display.c:528 display.c:1151 display.c:1517 display.c:1560
+#: display.c:530 display.c:1164 display.c:1542 display.c:1585
 #, c-format
 msgid "Please choose one (<Enter> to abort): "
 msgstr "请选择其中一个（按回车键中止）："
 
-#: display.c:530 display.c:606 display.c:638 display.c:1144
+#: display.c:532 display.c:608 display.c:640 display.c:1157
 #, c-format
 msgid " w=up x=down ?=help  Page %d/%d "
 msgstr " w=上移 x=下移 ?=帮助  第 %d/%d 页 "
 
-#: display.c:682 display.c:1167
+#: display.c:684 display.c:1180
 msgid "Screenheight must be > 20 for help."
 msgstr "屏幕高度必须大于 20 字符才能显示帮助信息"
 
-#: display.c:687 display.c:1170
+#: display.c:689 display.c:1183
 msgid "w or <Up>         page up"
 msgstr "w 或 <Up>         向上翻页"
 
-#: display.c:688 display.c:1171
+#: display.c:690 display.c:1184
 msgid "x or z or <Down>  page down"
 msgstr "x 或 z 或 <Down>  向下翻页"
 
-#: display.c:689 display.c:1172
+#: display.c:691 display.c:1185
 msgid ", or <Left>       scroll 1 left"
 msgstr ", 或 <Left>      向左滚动一个字符"
 
-#: display.c:690 display.c:1173
+#: display.c:692 display.c:1186
 msgid ". or <Right>      scroll 1 right"
 msgstr ", 或 <Right>     向右滚动一个字符"
 
-#: display.c:691 display.c:1174
+#: display.c:693 display.c:1187
 msgid "< or [            scroll 10 left"
 msgstr "< 或 [            向左滚动 10 个字符"
 
-#: display.c:692 display.c:1175
+#: display.c:694 display.c:1188
 msgid "> or ]            scroll 10 right"
 msgstr "> 或 ]            向右滚动 10 个字符"
 
-#: display.c:693 display.c:1176
+#: display.c:695 display.c:1189
 msgid "CTRL-a or <HOME>  scroll to beginning"
 msgstr "CTRL-a 或 <HOME>  滚动到开头"
 
-#: display.c:694 display.c:1177
+#: display.c:696 display.c:1190
 msgid "CTRL-e or <END>   scroll to end"
 msgstr "CTRL-e 或 <END>   滚动到结尾"
 
-#: display.c:695 display.c:1179
+#: display.c:697 display.c:1192
 msgid "CTRL-c or <Esc>   abort"
 msgstr "CTRL-c 或 <Esc>   中止操作"
 
-#: display.c:696 display.c:1180
+#: display.c:698 display.c:1193
 msgid "<Enter>           abort"
 msgstr "<Enter>           中止操作"
 
-#: display.c:697
+#: display.c:699
 msgid "Type w or x to quit help."
 msgstr "按 w 或 x to 以退出帮助。"
 
-#: display.c:1178 graphics.c:1983
+#: display.c:1191 graphics.c:1994
 msgid "CTRL-l or F5      redraw screen"
 msgstr "CTRL-l 或 F5      重绘屏幕"
 
-#: display.c:1181 graphics.c:1968 graphics.c:1985 graphics.c:2008
-#: graphics.c:2025
+#: display.c:1194 graphics.c:1979 graphics.c:1996 graphics.c:2019
+#: graphics.c:2036
 msgid "Press any key."
 msgstr "请按任意键。"
 
-#: display.c:1246 graphics.c:2280
+#: display.c:1256 graphics.c:2289
 msgid "Error opening terminal, falling back to stdout interface.\n"
 msgstr "开启终端失败，回退到 stdout 界面。\n"
 
-#: display.c:1267
+#: display.c:1277
 msgid "screen height must be larger than 3 lines.\n"
 msgstr "屏幕高度必须高于 3 个字符。\n"
 
-#: display.c:1301 graphics.c:2311
+#: display.c:1318 graphics.c:2314
 msgid "error creating scroll window.\n"
 msgstr "创建滚动窗口失败。\n"
 
-#: display.c:1315
+#: display.c:1334 graphics.c:2330
 msgid "error creating input window.\n"
 msgstr "创建输入窗口失败。\n"
 
-#: graphics.c:277
+#: graphics.c:290
 #, c-format
 msgid "Wcd: error: path too long"
 msgstr "Wcd：错误：路径太长"
 
-#: graphics.c:1929
+#: graphics.c:1940
 msgid "/ = search forward,  ? = search backward,  : = help"
 msgstr "/ = 向前搜索,  ? = 向后搜索,  : = 帮助"
 
-#: graphics.c:1934
+#: graphics.c:1945
 msgid "SEARCH: "
 msgstr "搜索："
 
-#: graphics.c:1937
+#: graphics.c:1948
 msgid "Search: "
 msgstr "搜索："
 
-#: graphics.c:1953
+#: graphics.c:1964
 msgid "NAVIGATION MODE (1/2):"
 msgstr "浏览模式 (1/2)："
 
-#: graphics.c:1954
+#: graphics.c:1965
 msgid "h or <Left>       go left"
 msgstr "h 或 <Left>       向左"
 
-#: graphics.c:1955
+#: graphics.c:1966
 msgid "j or <Down>       go down"
 msgstr "j 或 <Down>       向下"
 
-#: graphics.c:1956
+#: graphics.c:1967
 msgid "k or <Up>         go up"
 msgstr "k 或 <Up>         向上"
 
-#: graphics.c:1957
+#: graphics.c:1968
 msgid "l or <Right>      go right"
 msgstr "l 或 <Right>      向右"
 
-#: graphics.c:1958
+#: graphics.c:1969
 msgid "* or v or <Space> go forward to dir with same name"
 msgstr "* 或 v 或 <Space> 前进到同名目录"
 
-#: graphics.c:1959
+#: graphics.c:1970
 msgid "# or p or <BS>    go backward to dir with same name"
 msgstr "# 或 p 或 <BS>    后退到同名目录"
 
-#: graphics.c:1960
+#: graphics.c:1971
 msgid "^ or a            go to beginning of line"
 msgstr "^ 或 a            前往行首"
 
-#: graphics.c:1961
+#: graphics.c:1972
 msgid "$ or e            go to end of line"
 msgstr "$ 或 e            前往行尾"
 
-#: graphics.c:1962
+#: graphics.c:1973
 msgid "1                 go to root dir"
 msgstr "1                 前往根目录"
 
-#: graphics.c:1963
+#: graphics.c:1974
 msgid "g or G            go to last dir"
 msgstr "g 或 G            前往最后访问的目录"
 
-#: graphics.c:1964
+#: graphics.c:1975
 msgid "f                 go page forward"
 msgstr "f                 向前一个页面"
 
-#: graphics.c:1965
+#: graphics.c:1976
 msgid "b                 go page backward"
 msgstr "b                 向后一个页面"
 
-#: graphics.c:1966
+#: graphics.c:1977
 msgid "u                 go half page up"
 msgstr "u                 向上翻半页"
 
-#: graphics.c:1967
+#: graphics.c:1978
 msgid "d                 go half page down"
 msgstr "d                 向下翻半页"
 
-#: graphics.c:1974
+#: graphics.c:1985
 msgid "NAVIGATION MODE (2/2):"
 msgstr "浏览模式 (2/2)："
 
-#: graphics.c:1975
+#: graphics.c:1986
 msgid "A                 switch alternative tree navigation on/off"
 msgstr "A                 开启/关闭备选目录树浏览方式"
 
-#: graphics.c:1976
+#: graphics.c:1987
 msgid "t                 switch centered mode on/off"
 msgstr "t                 开启/关闭居中模式"
 
-#: graphics.c:1977
+#: graphics.c:1988
 msgid "T                 toggle between line drawing and ASCII characters"
 msgstr "T                 切换制表符或 ASCII 字符绘图"
 
-#: graphics.c:1978
+#: graphics.c:1989
 msgid "m                 toggle between compact and wide tree"
 msgstr "m                 切换紧凑或宽目录树"
 
-#: graphics.c:1979
+#: graphics.c:1990
 msgid "<Esc> or q        abort"
 msgstr "<Esc> 或 q        中止"
 
-#: graphics.c:1980
+#: graphics.c:1991
 msgid "/                 search forward"
 msgstr "/                 向前搜索"
 
-#: graphics.c:1981
+#: graphics.c:1992
 msgid "?                 search backward"
 msgstr "?                 向后搜索"
 
-#: graphics.c:1982
+#: graphics.c:1993
 msgid "n                 repeat last / or ? search"
 msgstr "n                 重复上一个 / 或 ? 搜索操作"
 
-#: graphics.c:1984 graphics.c:2007
+#: graphics.c:1995 graphics.c:2018
 msgid "<Enter>           select directory"
 msgstr "<Enter>           选择目录"
 
-#: graphics.c:1991
+#: graphics.c:2002
 msgid "SEARCH MODE with wildcard and subdir support:"
 msgstr "带有通配符及子目录支持的搜索模式："
 
-#: graphics.c:1992
+#: graphics.c:2003
 msgid "<Left>            go left"
 msgstr "<Left>            向左"
 
-#: graphics.c:1993
+#: graphics.c:2004
 msgid "<Down>            go down"
 msgstr "<Down>            向下"
 
-#: graphics.c:1994
+#: graphics.c:2005
 msgid "<Up>              go up"
 msgstr "<Up>              向上"
 
-#: graphics.c:1995
+#: graphics.c:2006
 msgid "<Right>           go right"
 msgstr "<Right>           向右"
 
-#: graphics.c:1996
+#: graphics.c:2007
 msgid "CTRL-v            go forward to dir with same name"
 msgstr "CTRL-v            前进到同名目录"
 
-#: graphics.c:1997
+#: graphics.c:2008
 msgid "CTRL-p            go backward to dir with same name"
 msgstr "CTRL-p            后退到同名目录"
 
-#: graphics.c:1998
+#: graphics.c:2009
 msgid "CTRL-a            go to beginning of line"
 msgstr "CTRL-a            前往行首"
 
-#: graphics.c:1999
+#: graphics.c:2010
 msgid "CTRL-e            go to end of line"
 msgstr "CTRL-e            前往行尾"
 
-#: graphics.c:2000
+#: graphics.c:2011
 msgid "CTRL-g            go to last dir"
 msgstr "CTRL-g            前往最后访问的目录"
 
-#: graphics.c:2001
+#: graphics.c:2012
 msgid "CTRL-f            go page forward"
 msgstr "CTRL-f                 向前一个页面"
 
-#: graphics.c:2002
+#: graphics.c:2013
 msgid "CTRL-b            go page backward"
 msgstr "CTRL-b                 向后一个页面"
 
-#: graphics.c:2003
+#: graphics.c:2014
 msgid "CTRL-u            go half page up"
 msgstr "CTRL-u                 向上翻半页"
 
-#: graphics.c:2004
+#: graphics.c:2015
 msgid "CTRL-d            go half page down"
 msgstr "CTRL-d                 向下翻半页"
 
-#: graphics.c:2005
+#: graphics.c:2016
 msgid "<Esc> or CTRL-x   abort SEARCH MODE"
 msgstr "<Esc> 或 CTRL-x   中止搜索模式"
 
-#: graphics.c:2006
+#: graphics.c:2017
 msgid "CTRL-n            repeat last / or ? search"
 msgstr "CTRL-n            重复上一个 / 或 ? 搜索操作"
 
-#: graphics.c:2014
+#: graphics.c:2025
 msgid "ZOOMING:"
 msgstr "缩放："
 
-#: graphics.c:2015
+#: graphics.c:2026
 msgid "z or i or CTRL-i  zoom in"
 msgstr "z 或 i 或 CTRL-i  放大"
 
-#: graphics.c:2016
+#: graphics.c:2027
 msgid "Z or o or CTRL-o  zoom out"
 msgstr "Z 或 o 或 CTRL-o  缩小"
 
-#: graphics.c:2017
+#: graphics.c:2028
 msgid "c                 condense: fold current level"
 msgstr "c                 压缩：折叠当前级别"
 
-#: graphics.c:2018
+#: graphics.c:2029
 msgid "C                 condense: fold subdir level"
 msgstr "C                 压缩：折叠子目录级别"
 
-#: graphics.c:2019
+#: graphics.c:2030
 msgid "w                 condense: fold current and subdir levels"
 msgstr "w                 压缩：折叠当前及子目录级别"
 
-#: graphics.c:2020
+#: graphics.c:2031
 msgid "y or CTRL-y       uncondense: unfold current and subdir levels"
 msgstr "y 或 CTRL-y       展开：展开当前及子目录级别"
 
-#: graphics.c:2021
+#: graphics.c:2032
 msgid "r or CTRL-r       uncondense: unfold all directories"
 msgstr "r 或 CTRL-r       展开：展开所有目录"
 
-#: graphics.c:2022
+#: graphics.c:2033
 msgid "-                 fold directory"
 msgstr "-                 折叠目录"
 
-#: graphics.c:2023
+#: graphics.c:2034
 msgid "+ or =            unfold directory"
 msgstr "+ 或 =            展开目录"
 
-#: graphics.c:2024
+#: graphics.c:2035
 msgid "l or <Right>      unfold and go right"
 msgstr "l 或 <Right>      展开并向右前进"
 
-#: graphics.c:2028
+#: graphics.c:2039
 msgid "Screenheight must be > 21 for help."
 msgstr "屏幕高度必须大于 21 字符才能显示帮助信息。"
 
-#: graphics.c:2262 graphics.c:2731
+#: graphics.c:2271 graphics.c:2757
 #, c-format
 msgid "Cannot find the current path %s in the directory tree.\n"
 msgstr "无法在目录树中找到当前目录 %s。\n"

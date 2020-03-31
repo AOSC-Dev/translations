@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: psmisc 22.21-pre2\n"
 "Report-Msgid-Bugs-To: csmall@enc.com.au\n"
-"POT-Creation-Date: 2018-08-13 21:33+1000\n"
+"POT-Creation-Date: 2019-10-24 21:25+1100\n"
 "PO-Revision-Date: 2018-10-25 12:26-0600\n"
 "Last-Translator: Zixing Liu <liushuyu011@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
@@ -97,7 +97,7 @@ msgid "fuser (PSmisc) %s\n"
 msgstr "fuser (PSmisc) %s\n"
 
 # GPL Howto 说了，不要翻译 Copyright.
-#: src/fuser.c:171 src/killall.c:782 src/pstree.c:1134
+#: src/fuser.c:171 src/killall.c:807
 #, c-format
 msgid ""
 "Copyright (C) 1993-2017 Werner Almesberger and Craig Small\n"
@@ -106,8 +106,8 @@ msgstr ""
 "Copyright (C) 1993-2017 Werner Almesberger 和 Craig Small\n"
 "\n"
 
-#: src/fuser.c:173 src/killall.c:784 src/peekfd.c:124 src/prtstat.c:68
-#: src/pstree.c:1136
+#: src/fuser.c:173 src/killall.c:809 src/peekfd.c:195 src/prtstat.c:68
+#: src/pstree.c:1232
 #, c-format
 msgid ""
 "PSmisc comes with ABSOLUTELY NO WARRANTY.\n"
@@ -119,110 +119,110 @@ msgstr ""
 "该程序为自由软件，欢迎你在 GNU 通用公共许可证 (GPL) 下重新发布。\n"
 "详情可参阅 COPYING 文件。\n"
 
-#: src/fuser.c:192
+#: src/fuser.c:195
 #, c-format
 msgid "Cannot open /proc directory: %s\n"
 msgstr "无法打开 /proc 目录: %s\n"
 
-#: src/fuser.c:383 src/fuser.c:436 src/fuser.c:2043
+#: src/fuser.c:386 src/fuser.c:439 src/fuser.c:2058
 #, c-format
 msgid "Cannot allocate memory for matched proc: %s\n"
 msgstr "无法为已找到的进程分配内存: %s\n"
 
-#: src/fuser.c:463
+#: src/fuser.c:466
 #, c-format
 msgid "Specified filename %s does not exist.\n"
 msgstr "指定的文件名 %s 不存在。\n"
 
-#: src/fuser.c:466
+#: src/fuser.c:469
 #, c-format
 msgid "Cannot stat %s: %s\n"
 msgstr "无法分析 %s: %s\n"
 
-#: src/fuser.c:603
+#: src/fuser.c:606
 #, c-format
 msgid "Cannot resolve local port %s: %s\n"
 msgstr "无法解析本地端口 %s: %s\n"
 
-#: src/fuser.c:621
+#: src/fuser.c:624
 #, c-format
 msgid "Unknown local port AF %d\n"
 msgstr "未知本地端口 AF %d\n"
 
-#: src/fuser.c:711
+#: src/fuser.c:715
 #, c-format
 msgid "Cannot open protocol file \"%s\": %s\n"
 msgstr "无法打开协议文件 \"%s\": %s\n"
 
-#: src/fuser.c:1014
+#: src/fuser.c:1018
 #, c-format
 msgid "Specified filename %s is not a mountpoint.\n"
 msgstr "指定的文件名 %s 并非挂载点。\n"
 
-#: src/fuser.c:1106
+#: src/fuser.c:1110
 #, c-format
 msgid "%s: Invalid option %s\n"
 msgstr "%s：无效的选项 %s\n"
 
-#: src/fuser.c:1160
+#: src/fuser.c:1164
 msgid "Namespace option requires an argument."
 msgstr "命名空间选项需要一个参数。"
 
-#: src/fuser.c:1177
+#: src/fuser.c:1181
 msgid "Invalid namespace name"
 msgstr "无效的命名空间名"
 
-#: src/fuser.c:1242
+#: src/fuser.c:1246
 msgid "You can only use files with mountpoint options"
 msgstr "你只能使用有挂载点选项的文件"
 
-#: src/fuser.c:1292
+#: src/fuser.c:1296
 msgid "No process specification given"
 msgstr "未指定进程"
 
-#: src/fuser.c:1307
+#: src/fuser.c:1311
 msgid "all option cannot be used with silent option."
 msgstr "所有选项都不能与不输出信息选项同时使用。"
 
-#: src/fuser.c:1312
+#: src/fuser.c:1316
 msgid "You cannot search for only IPv4 and only IPv6 sockets at the same time"
 msgstr "你无法同时搜索 IPv4 和 IPv6 端口"
 
-#: src/fuser.c:1401
+#: src/fuser.c:1405
 #, c-format
 msgid "%*s USER        PID ACCESS COMMAND\n"
 msgstr "%*s 用户     进程号 权限   命令\n"
 
-#: src/fuser.c:1434 src/fuser.c:1491
+#: src/fuser.c:1438 src/fuser.c:1495
 msgid "(unknown)"
 msgstr "(未知)"
 
-#: src/fuser.c:1575 src/fuser.c:1614
+#: src/fuser.c:1579 src/fuser.c:1618
 #, c-format
 msgid "Cannot stat file %s: %s\n"
 msgstr "无法获取 %s 的文件状态: %s\n"
 
-#: src/fuser.c:1707
+#: src/fuser.c:1711
 #, c-format
 msgid "Cannot open /proc/net/unix: %s\n"
 msgstr "无法打开 /proc/net/unix: %s\n"
 
-#: src/fuser.c:1802
+#: src/fuser.c:1806
 #, c-format
 msgid "Kill process %d ? (y/N) "
 msgstr "杀死进程 %d ? (y/N) "
 
-#: src/fuser.c:1838
+#: src/fuser.c:1842
 #, c-format
 msgid "Could not kill process %d: %s\n"
 msgstr "无法杀死进程 %d: %s\n"
 
-#: src/fuser.c:1853
+#: src/fuser.c:1857
 #, c-format
 msgid "Cannot open a network socket.\n"
 msgstr "无法打开网络端口。\n"
 
-#: src/fuser.c:1857
+#: src/fuser.c:1861
 #, c-format
 msgid "Cannot find socket's device number.\n"
 msgstr "无法找到 socket 的设备号。\n"
@@ -252,31 +252,32 @@ msgstr "killall: 不当的正则表达式: %s\n"
 msgid "killall: skipping partial match %s(%d)\n"
 msgstr "killall: 跳过部分符合的部分 %s(%d)\n"
 
-#: src/killall.c:681
+#: src/killall.c:706
 #, c-format
 msgid "Killed %s(%s%d) with signal %d\n"
 msgstr "%s(%s%d) 被信号 %d 杀死\n"
 
-#: src/killall.c:700
+#: src/killall.c:725
 #, c-format
 msgid "%s: no process found\n"
 msgstr "%s: 未找到进程\n"
 
-#: src/killall.c:742
+#: src/killall.c:767
 #, c-format
 msgid ""
-"Usage: killall [ -Z CONTEXT ] [ -u USER ] [ -y TIME ] [ -o TIME ] [ -eIgiqrvw ]\n"
+"Usage: killall [ -Z CONTEXT ] [ -u USER ] [ -y TIME ] [ -o TIME ] [ -"
+"eIgiqrvw ]\n"
 "               [ -s SIGNAL | -SIGNAL ] NAME...\n"
 msgstr ""
 "用法：killall [-Z 上下文] [-u 用户名] [ -y 时间 ] [ -o 时间 ] [ -eIgiqrvw ]\n"
 "               [-s 信号 | -信号 ] 程序名...\n"
 
-#: src/killall.c:746
+#: src/killall.c:771
 #, c-format
 msgid "Usage: killall [OPTION]... [--] NAME...\n"
 msgstr "用法: killall [选项]... [--] 进程名...\n"
 
-#: src/killall.c:749
+#: src/killall.c:774
 #, c-format
 msgid ""
 "       killall -l, --list\n"
@@ -318,7 +319,7 @@ msgstr ""
 "  -w,--wait           等待进程死亡\n"
 "  -n,--ns 进程号         匹配和 \"进程号\" 属于同一命名空间的进程\n"
 
-#: src/killall.c:770
+#: src/killall.c:795
 #, c-format
 msgid ""
 "  -Z,--context REGEXP kill only process(es) having context\n"
@@ -327,45 +328,45 @@ msgstr ""
 "  -Z,--context 正则表达式 仅杀死含有指定上下文的进程\n"
 "                          (必须在其他参数前使用)\n"
 
-#: src/killall.c:875 src/killall.c:881
+#: src/killall.c:900 src/killall.c:906
 msgid "Invalid time format"
 msgstr "无效的时间格式"
 
-#: src/killall.c:901
+#: src/killall.c:926
 #, c-format
 msgid "Cannot find user %s\n"
 msgstr "无法找到用户 %s\n"
 
-#: src/killall.c:931
+#: src/killall.c:961
 msgid "Invalid namespace PID"
 msgstr "无效的命名空间 PID"
 
-#: src/killall.c:938
+#: src/killall.c:970
 #, c-format
 msgid "Bad regular expression: %s\n"
 msgstr "错误的正则表达式: %s\n"
 
-#: src/killall.c:973
+#: src/killall.c:1011
 #, c-format
 msgid "killall: Maximum number of names is %d\n"
 msgstr "killall: 最大名字数量是 %d\n"
 
-#: src/killall.c:978
+#: src/killall.c:1016
 #, c-format
 msgid "killall: %s lacks process entries (not mounted ?)\n"
 msgstr "killall: %s 不含进程信息项 (未挂载?)\n"
 
-#: src/peekfd.c:112
+#: src/peekfd.c:183
 #, c-format
 msgid "Error attaching to pid %i\n"
 msgstr "绑定到 %i 号进程时发生错误\n"
 
-#: src/peekfd.c:120
+#: src/peekfd.c:191
 #, c-format
 msgid "peekfd (PSmisc) %s\n"
 msgstr "peekfd (PSmisc) %s\n"
 
-#: src/peekfd.c:122
+#: src/peekfd.c:193
 #, c-format
 msgid ""
 "Copyright (C) 2007 Trent Waddington\n"
@@ -374,15 +375,17 @@ msgstr ""
 "Copyright © 2007 Trent Waddington\n"
 "\n"
 
-#: src/peekfd.c:132
+#: src/peekfd.c:203
 #, c-format
 msgid ""
 "Usage: peekfd [-8] [-n] [-c] [-d] [-V] [-h] <pid> [<fd> ..]\n"
 "    -8, --eight-bit-clean        output 8 bit clean streams.\n"
 "    -n, --no-headers             don't display read/write from fd headers.\n"
 "    -c, --follow                 peek at any new child processes too.\n"
-"    -t, --tgid                   peek at all threads where tgid equals <pid>.\n"
-"    -d, --duplicates-removed     remove duplicate read/writes from the output.\n"
+"    -t, --tgid                   peek at all threads where tgid equals "
+"<pid>.\n"
+"    -d, --duplicates-removed     remove duplicate read/writes from the "
+"output.\n"
 "    -V, --version                prints version info.\n"
 "    -h, --help                   prints this help.\n"
 "\n"
@@ -569,71 +572,126 @@ msgstr "您必须提供至少一个 PID。"
 msgid "/proc is not mounted, cannot stat /proc/self/stat.\n"
 msgstr "/proc 未被挂载，无法取得 /proc/self/stat 的状态。\n"
 
-#: src/pstree.c:1056
+#: src/pstree.c:1138
 #, c-format
 msgid "%s is empty (not mounted ?)\n"
 msgstr "%s 是空的 (未挂载?)\n"
 
-#: src/pstree.c:1092
+#: src/pstree.c:1172
 #, c-format
 msgid ""
-"Usage: pstree [-acglpsStuZ] [ -h | -H PID ] [ -n | -N type ]\n"
-"Usage: pstree [-acglpsStu] [ -h | -H PID ] [ -n | -N type ]\n"
+"Usage: pstree [-acglpsStTuZ] [ -h | -H PID ] [ -n | -N type ]\n"
 "              [ -A | -G | -U ] [ PID | USER ]\n"
-"       pstree -V\n"
+"   or: pstree -V\n"
+msgstr ""
+"用法：pstree [-acglpsStTuZ] [ -h | -H 进程号 ] [ -n | -N 类型 ]\n"
+"              [ -A | -G | -U ] [ 进程号 | 用户 ]\n"
+"  或：pstree -V\n"
+
+#: src/pstree.c:1177
+#, c-format
+msgid ""
+"Usage: pstree [-acglpsStTu] [ -h | -H PID ] [ -n | -N type ]\n"
+"              [ -A | -G | -U ] [ PID | USER ]\n"
+"   or: pstree -V\n"
+msgstr ""
+"用法：pstree [-acglpsStTu] [ -h | -H 进程号 ] [ -n | -N 类型 ]\n"
+"              [ -A | -G | -U ] [ 进程号 | 用户 ]\n"
+"  或：pstree -V\n"
+
+#: src/pstree.c:1182
+#, c-format
+msgid ""
+"\n"
 "Display a tree of processes.\n"
 "\n"
+msgstr ""
+"\n"
+"显示进程树。\n"
+"\n"
+
+#: src/pstree.c:1185
+#, c-format
+msgid ""
 "  -a, --arguments     show command line arguments\n"
 "  -A, --ascii         use ASCII line drawing characters\n"
-"  -c, --compact       don't compact identical subtrees\n"
-"  -h, --highlight-all highlight current process and its ancestors\n"
-"  -H PID,\n"
-"  --highlight-pid=PID highlight this process and its ancestors\n"
+"  -c, --compact-not   don't compact identical subtrees\n"
+msgstr ""
+"  -a, --arguments     显示命令行参数\n"
+"  -A, --ascii         使用 ASCII 行绘制字符\n"
+"  -c, --compact-not   不要对完全相同的子树进行压缩\n"
+
+#: src/pstree.c:1189
+#, c-format
+msgid ""
+"  -C, --color=TYPE    color process by attribute\n"
+"                      (age)\n"
+msgstr ""
+"  -C, --color=类型    按照指定属性对进程上色\n"
+"                      (age)\n"
+
+#: src/pstree.c:1192
+#, c-format
+msgid ""
 "  -g, --show-pgids    show process group ids; implies -c\n"
 "  -G, --vt100         use VT100 line drawing characters\n"
+msgstr ""
+"  -g, --show-pgids    显示进程组 ID；隐含启用 -c 选项\n"
+"  -G, --vt100         使用 VT100 行绘制字符\n"
+
+#: src/pstree.c:1195
+#, c-format
+msgid ""
+"  -h, --highlight-all highlight current process and its ancestors\n"
+"  -H PID, --highlight-pid=PID\n"
+"                      highlight this process and its ancestors\n"
 "  -l, --long          don't truncate long lines\n"
+msgstr ""
+"  -h, --highlight-all 高亮显示当前进程和其所有祖先\n"
+"  -H PID, --highlight-pid=PID\n"
+"                      高亮显示指定 PID 对应的进程和其所有祖先\n"
+"  -l, --long          不要截断长行\n"
+
+#: src/pstree.c:1200
+#, c-format
+msgid ""
 "  -n, --numeric-sort  sort output by PID\n"
-"  -N type,\n"
-"  --ns-sort=type      sort by namespace type (cgroup, ipc, mnt, net, pid,\n"
-"                                              user, uts)\n"
+"  -N TYPE, --ns-sort=TYPE\n"
+"                      sort output by this namespace type\n"
+"                              (cgroup, ipc, mnt, net, pid, user, uts)\n"
 "  -p, --show-pids     show PIDs; implies -c\n"
+msgstr ""
+"  -n, --numeric-sort  按照 PID 对输出进行排序\n"
+"  -N 类型, --ns-sort=类型\n"
+"                      按照指定命名空间类型对输出进行排序\n"
+"                              (cgroup, ipc, mnt, net, pid, user, uts)\n"
+"  -p, --show-pids     显示 PID；隐含启用 -c 选项\n"
+
+#: src/pstree.c:1206
+#, c-format
+msgid ""
 "  -s, --show-parents  show parents of the selected process\n"
 "  -S, --ns-changes    show namespace transitions\n"
 "  -t, --thread-names  show full thread names\n"
 "  -T, --hide-threads  hide threads, show only processes\n"
+msgstr ""
+"  -s, --show-parents  显示所选进程的父进程\n"
+"  -S, --ns-changes    显示命名空间的变化\n"
+"  -t, --thread-names  显示完整线程名称\n"
+"  -T, --hide-threads  隐藏线程，只显示进程\n"
+
+#: src/pstree.c:1211
+#, c-format
+msgid ""
 "  -u, --uid-changes   show uid transitions\n"
 "  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
 "  -V, --version       display version information\n"
 msgstr ""
-"用法: pstree [-acglpsStuZ] [ -h | -H 进程号 ] [ -n | -N 类型 ]\n"
-"用法: pstree [-acglpsStu] [ -h | -H 进程号 ] [ -n | -N 类型 ]\n"
-"             [ -A | -G | -U ] [ 进程号 | 用户 ]\n"
-"      pstree -V\n"
-"显示进程树。\n"
-"\n"
-"  -a, --arguments     显示命令行参数\n"
-"  -A, --ascii         使用 ASCII 制表符\n"
-"  -c, --compact       不压缩相同的子树\n"
-"  -h, --highlight-all 高亮显示当前进程及其祖先\n"
-"  -H 进程号,\n"
-"  --highlight-pid=PID 高亮显示 \"进程号\" 指定的进程当及其祖先\n"
-"  -g, --show-pgids    显示进程组 ID；隐含 -c\n"
-"  -G, --vt100         使用 VT100 划线符\n"
-"  -l, --long          不截断长行\n"
-"  -n, --numeric-sort  输出按进程号排序\n"
-"  -N type,\n"
-"  --ns-sort=type      按命名空间类型 (cgroup, ipc, mnt, net, pid,\n"
-"                                              user, uts) 排序\n"
-"  -p, --show-pids     显示进程号；隐含 -c\n"
-"  -s, --show-parents  显示选定进程的祖先\n"
-"  -S, --ns-changes    显示命名空间变换\n"
-"  -t, --thread-names  显示完整的线程名字\n"
-"  -T, --hide-threads  隐藏线程，只显示进程\n"
-"  -u, --uid-changes   显示用户名变换\n"
-"  -U, --unicode       使用 UTF-8 (Unicode) 划线符\n"
+"  -u, --uid-changes   显示用户 ID（UID）的变化\n"
+"  -U, --unicode       使用 UTF-8（Unicode）的行绘制字符\n"
 "  -V, --version       显示版本信息\n"
 
-#: src/pstree.c:1121
+#: src/pstree.c:1216
 #, c-format
 msgid ""
 "  -Z, --security-context\n"
@@ -642,9 +700,10 @@ msgstr ""
 "  -Z, --security-context\n"
 "                      显示 SELinux 安全上下文\n"
 
-#: src/pstree.c:1124
-#, c-format
+#: src/pstree.c:1219
+#, fuzzy, c-format
 msgid ""
+"\n"
 "  PID    start at this PID; default is 1 (init)\n"
 "  USER   show only trees rooted at processes of this user\n"
 "\n"
@@ -653,37 +712,47 @@ msgstr ""
 "  用户   仅显示从该 \"用户\" 的进程开始的进程树\n"
 "\n"
 
-#: src/pstree.c:1131
+#: src/pstree.c:1227
 #, c-format
 msgid "pstree (PSmisc) %s\n"
 msgstr "pstree (PSmisc) %s\n"
 
-#: src/pstree.c:1250
+# GPL Howto 说了，不要翻译 Copyright.
+#: src/pstree.c:1230
+#, fuzzy, c-format
+msgid ""
+"Copyright (C) 1993-2019 Werner Almesberger and Craig Small\n"
+"\n"
+msgstr ""
+"Copyright (C) 1993-2017 Werner Almesberger 和 Craig Small\n"
+"\n"
+
+#: src/pstree.c:1354
 #, c-format
 msgid "TERM is not set\n"
 msgstr "未设置 TERM 环境变量\n"
 
-#: src/pstree.c:1254
+#: src/pstree.c:1358
 #, c-format
 msgid "Can't get terminal capabilities\n"
 msgstr "无法获取终端功能\n"
 
-#: src/pstree.c:1272
+#: src/pstree.c:1376
 #, c-format
 msgid "procfs file for %s namespace not available\n"
 msgstr "适用 %s 命名空间的 proc 文件不可用\n"
 
-#: src/pstree.c:1325
+#: src/pstree.c:1429
 #, c-format
 msgid "No such user name: %s\n"
 msgstr "无用户名: %s\n"
 
-#: src/pstree.c:1351
+#: src/pstree.c:1455
 #, c-format
 msgid "No processes found.\n"
 msgstr "未发现进程。\n"
 
-#: src/pstree.c:1359
+#: src/pstree.c:1463
 #, c-format
 msgid "Press return to close\n"
 msgstr "按回车以关闭\n"
@@ -692,6 +761,64 @@ msgstr "按回车以关闭\n"
 #, c-format
 msgid "%s: unknown signal; %s -l lists signals.\n"
 msgstr "%s: 未知的信号; %s -l 显示信号列表。\n"
+
+#~ msgid ""
+#~ "Usage: pstree [-acglpsStuZ] [ -h | -H PID ] [ -n | -N type ]\n"
+#~ "Usage: pstree [-acglpsStu] [ -h | -H PID ] [ -n | -N type ]\n"
+#~ "              [ -A | -G | -U ] [ PID | USER ]\n"
+#~ "       pstree -V\n"
+#~ "Display a tree of processes.\n"
+#~ "\n"
+#~ "  -a, --arguments     show command line arguments\n"
+#~ "  -A, --ascii         use ASCII line drawing characters\n"
+#~ "  -c, --compact       don't compact identical subtrees\n"
+#~ "  -h, --highlight-all highlight current process and its ancestors\n"
+#~ "  -H PID,\n"
+#~ "  --highlight-pid=PID highlight this process and its ancestors\n"
+#~ "  -g, --show-pgids    show process group ids; implies -c\n"
+#~ "  -G, --vt100         use VT100 line drawing characters\n"
+#~ "  -l, --long          don't truncate long lines\n"
+#~ "  -n, --numeric-sort  sort output by PID\n"
+#~ "  -N type,\n"
+#~ "  --ns-sort=type      sort by namespace type (cgroup, ipc, mnt, net, "
+#~ "pid,\n"
+#~ "                                              user, uts)\n"
+#~ "  -p, --show-pids     show PIDs; implies -c\n"
+#~ "  -s, --show-parents  show parents of the selected process\n"
+#~ "  -S, --ns-changes    show namespace transitions\n"
+#~ "  -t, --thread-names  show full thread names\n"
+#~ "  -T, --hide-threads  hide threads, show only processes\n"
+#~ "  -u, --uid-changes   show uid transitions\n"
+#~ "  -U, --unicode       use UTF-8 (Unicode) line drawing characters\n"
+#~ "  -V, --version       display version information\n"
+#~ msgstr ""
+#~ "用法: pstree [-acglpsStuZ] [ -h | -H 进程号 ] [ -n | -N 类型 ]\n"
+#~ "用法: pstree [-acglpsStu] [ -h | -H 进程号 ] [ -n | -N 类型 ]\n"
+#~ "             [ -A | -G | -U ] [ 进程号 | 用户 ]\n"
+#~ "      pstree -V\n"
+#~ "显示进程树。\n"
+#~ "\n"
+#~ "  -a, --arguments     显示命令行参数\n"
+#~ "  -A, --ascii         使用 ASCII 制表符\n"
+#~ "  -c, --compact       不压缩相同的子树\n"
+#~ "  -h, --highlight-all 高亮显示当前进程及其祖先\n"
+#~ "  -H 进程号,\n"
+#~ "  --highlight-pid=PID 高亮显示 \"进程号\" 指定的进程当及其祖先\n"
+#~ "  -g, --show-pgids    显示进程组 ID；隐含 -c\n"
+#~ "  -G, --vt100         使用 VT100 划线符\n"
+#~ "  -l, --long          不截断长行\n"
+#~ "  -n, --numeric-sort  输出按进程号排序\n"
+#~ "  -N type,\n"
+#~ "  --ns-sort=type      按命名空间类型 (cgroup, ipc, mnt, net, pid,\n"
+#~ "                                              user, uts) 排序\n"
+#~ "  -p, --show-pids     显示进程号；隐含 -c\n"
+#~ "  -s, --show-parents  显示选定进程的祖先\n"
+#~ "  -S, --ns-changes    显示命名空间变换\n"
+#~ "  -t, --thread-names  显示完整的线程名字\n"
+#~ "  -T, --hide-threads  隐藏线程，只显示进程\n"
+#~ "  -u, --uid-changes   显示用户名变换\n"
+#~ "  -U, --unicode       使用 UTF-8 (Unicode) 划线符\n"
+#~ "  -V, --version       显示版本信息\n"
 
 #~ msgid ""
 #~ "Copyright (C) 1993-2012 Werner Almesberger and Craig Small\n"
