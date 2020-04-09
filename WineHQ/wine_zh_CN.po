@@ -5,14 +5,14 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: https://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2020-03-31 02:11-0600\n"
-"Last-Translator: liushuyu <liushuyu011@gmail.com>\n"
+"PO-Revision-Date: 2020-04-08 23:45-0500\n"
+"Last-Translator: Mingcong Bai <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Poedit 2.2.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: appwiz.rc:58
@@ -614,7 +614,7 @@ msgstr "自定义颜色(&C)："
 
 #: comdlg32.rc:289
 msgid "|S&olid"
-msgstr ""
+msgstr "|纯色(&O)"
 
 #: comdlg32.rc:290
 msgid "&Red:"
@@ -3712,7 +3712,6 @@ msgid "Syntax error in regular expression"
 msgstr "正则表达式中出现语法错误"
 
 #: jscript.rc:63
-#, fuzzy
 msgid "Exception thrown and not caught"
 msgstr "发生异常且未被捕捉"
 
@@ -6787,10 +6786,8 @@ msgid "Sink has not been finalized.\n"
 msgstr "池尚未完成。\n"
 
 #: mferror.mc:732
-#, fuzzy
-#| msgid "Sink was already stopped.\n"
 msgid "Clock was stopped\n"
-msgstr "已终止"
+msgstr "时钟已停止\n"
 
 #: mferror.mc:32
 msgid "Media Foundation platform is not initialized.\n"
@@ -7169,9 +7166,8 @@ msgid "Clock state was already set.\n"
 msgstr "已设置时钟状态。\n"
 
 #: mferror.mc:725
-#, fuzzy
 msgid "Clock is not simple\n"
-msgstr "不是简单时钟\n"
+msgstr "非简单时钟\n"
 
 #: mpr.rc:35 wininet.rc:37
 msgid "Enter Network Password"
@@ -8265,59 +8261,46 @@ msgid "Provider"
 msgstr "提供者"
 
 #: version.rc:59
-#, fuzzy
-#| msgid "Select the format you want to use:"
 msgid "Select the data you want to connect to:"
-msgstr "选择您想要引用的索引"
+msgstr "选择您想要连接的数据源："
 
 #: version.rc:66
 msgid "Connection"
 msgstr "连接"
 
 #: version.rc:69
-#, fuzzy
-#| msgid "Select the format you want to use:"
 msgid "Specify the following to connect to ODBC data:"
-msgstr "选择您希望使用的格式："
+msgstr "指定以下内容以连接到 ODBC 数据源："
 
 #: version.rc:70
-#, fuzzy
 msgid "1. Specify the source of data:"
-msgstr "%1 中的迭代数据超过 64k。\n"
+msgstr "1. 指定数据源："
 
 #: version.rc:71
-#, fuzzy
-#| msgid "Please enter your name"
 msgid "Use &data source name"
-msgstr "Name of the source package"
+msgstr "使用数据源名称(&D)"
 
 #: version.rc:74
-#, fuzzy
-#| msgid "Reset Connections"
 msgid "Use c&onnection string"
-msgstr "设置 %s 以使用模式字符串"
+msgstr "使用连接字符串(&O)"
 
 #: version.rc:75
-#, fuzzy
 msgid "&Connection string:"
 msgstr "连接字符串(&C)："
 
 #: version.rc:77
-#, fuzzy
-#| msgid "A&dd..."
 msgid "B&uild..."
-msgstr "添加(&D)..."
+msgstr "构建(&U)…"
 
 #: version.rc:78
 msgid "2. Enter information to log on to the server"
-msgstr ""
+msgstr "2. 输入服务器登录信息"
 
 #: version.rc:79
 msgid "User &name:"
 msgstr "用户名(&N)："
 
 #: version.rc:83
-#, fuzzy
 msgid "&Blank password"
 msgstr "空密码(&B)"
 
@@ -8327,7 +8310,7 @@ msgstr "允许保存密码(&S)"
 
 #: version.rc:85
 msgid "3. Enter the &initial catalog to use:"
-msgstr ""
+msgstr "3. 输入要使用的初始目录："
 
 #: version.rc:87
 msgid "&Test Connection"
@@ -8342,13 +8325,10 @@ msgid "Network settings"
 msgstr "网络设置"
 
 #: version.rc:96
-#, fuzzy
-#| msgid "Bad impersonation level.\n"
 msgid "&Impersonation level:"
-msgstr "无效的模拟级别。\n"
+msgstr "模拟级别(&I)："
 
 #: version.rc:98
-#, fuzzy
 msgid "P&rotection level:"
 msgstr "保护级别(&R)："
 
@@ -8361,10 +8341,8 @@ msgid "seconds."
 msgstr "秒。"
 
 #: version.rc:104
-#, fuzzy
-#| msgid "Success"
 msgid "A&ccess:"
-msgstr "成功"
+msgstr "访问(&A)："
 
 #: version.rc:110
 msgid "All"
@@ -8375,19 +8353,18 @@ msgid ""
 "These are the initialization properties for this type of data. To edit a "
 "value, select a property, then choose Edit Value below."
 msgstr ""
+"该数据类型定义了数种初始化属性。要编辑属性值，选择一项属性，然后点选“编辑数"
+"据”。"
 
 #: version.rc:115
-#, fuzzy
-#| msgid "&Edit..."
 msgid "&Edit Value..."
-msgstr "超过一个架构定义和使用了该键。这会引起问题。要编辑键值请自担风险。"
+msgstr "编辑数据(&E)…"
 
 #: version.rc:49
 msgid "Data Link Error"
 msgstr "数据链错误"
 
 #: version.rc:50
-#, fuzzy
 msgid "Please select a provider."
 msgstr "请选择提供者。"
 
@@ -8402,7 +8379,6 @@ msgid "Data Link Properties"
 msgstr "数据链路属性"
 
 #: version.rc:37
-#, fuzzy
 msgid "OLE DB Provider(s)"
 msgstr "OLE DB 提供者"
 
@@ -8411,25 +8387,20 @@ msgid "Read"
 msgstr "读取"
 
 #: version.rc:42
-#, fuzzy
-#| msgid "Readme:"
 msgid "ReadWrite"
-msgstr "产品说明："
+msgstr "读写"
 
 #: version.rc:43
-#, fuzzy
 msgid "Share Deny None"
-msgstr "拒绝"
+msgstr "共享 拒绝 无"
 
 #: version.rc:44
-#, fuzzy
 msgid "Share Deny Read"
-msgstr "拒绝"
+msgstr "共享 拒绝 可读"
 
 #: version.rc:45
-#, fuzzy
 msgid "Share Deny Write"
-msgstr "拒绝"
+msgstr "共享 拒绝 可写"
 
 #: version.rc:46
 #, fuzzy
@@ -9617,16 +9588,12 @@ msgid "Cape Verde Daylight Time"
 msgstr "佛得角夏令时"
 
 #: tzres.rc:120
-#, fuzzy
-#| msgid "Hawaiian Standard Time"
 msgid "Haiti Standard Time"
-msgstr "中国标准时间"
+msgstr "海地标准时间"
 
 #: tzres.rc:121
-#, fuzzy
-#| msgid "Hawaiian Daylight Time"
 msgid "Haiti Daylight Time"
-msgstr "中国夏令时"
+msgstr "海地夏令时"
 
 #: tzres.rc:78
 msgid "Central European Standard Time"
@@ -9837,16 +9804,12 @@ msgid "Argentina Daylight Time"
 msgstr "阿根廷夏令时"
 
 #: tzres.rc:142
-#, fuzzy
-#| msgid "Mauritius Standard Time"
 msgid "Marquesas Standard Time"
-msgstr "毛里求斯标准时间"
+msgstr "马克萨斯标准时间"
 
 #: tzres.rc:143
-#, fuzzy
-#| msgid "Mauritius Daylight Time"
 msgid "Marquesas Daylight Time"
-msgstr "毛里求斯夏令时"
+msgstr "马克萨斯夏令时"
 
 #: tzres.rc:156
 msgid "Myanmar Standard Time"
@@ -10221,16 +10184,12 @@ msgid "Venezuela Daylight Time"
 msgstr "委内瑞拉夏令时"
 
 #: tzres.rc:60
-#, fuzzy
-#| msgid "Mountain Standard Time"
 msgid "Bougainville Standard Time"
-msgstr "山地标准时间"
+msgstr "布干维尔标准时间"
 
 #: tzres.rc:61
-#, fuzzy
-#| msgid "Mountain Daylight Time"
 msgid "Bougainville Daylight Time"
-msgstr "山地夏令时"
+msgstr "布干维尔夏令时"
 
 #: tzres.rc:122
 msgid "Hawaiian Standard Time"
@@ -10257,16 +10216,12 @@ msgid "New Zealand Daylight Time"
 msgstr "新西兰夏令时"
 
 #: tzres.rc:34
-#, fuzzy
-#| msgid "Argentina Standard Time"
 msgid "Aleutian Standard Time"
-msgstr "格鲁吉亚标准时间"
+msgstr "阿留申标准时间"
 
 #: tzres.rc:35
-#, fuzzy
-#| msgid "Argentina Daylight Time"
 msgid "Aleutian Daylight Time"
-msgstr "格鲁吉亚夏令时"
+msgstr "阿留申夏令时"
 
 #: tzres.rc:74
 msgid "Central Brazilian Standard Time"
@@ -10349,16 +10304,12 @@ msgid "Korea Daylight Time"
 msgstr "韩国夏令时"
 
 #: tzres.rc:86
-#, fuzzy
-#| msgid "Easter Island Standard Time"
 msgid "Chatham Islands Standard Time"
-msgstr "复活节岛标准时间"
+msgstr "查塔姆标准时间"
 
 #: tzres.rc:87
-#, fuzzy
-#| msgid "Easter Island Daylight Time"
 msgid "Chatham Islands Daylight Time"
-msgstr "复活节岛夏令时"
+msgstr "查塔姆夏令时"
 
 #: tzres.rc:92
 msgid "E. Africa Standard Time"
