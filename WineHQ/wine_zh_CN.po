@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: Wine\n"
 "Report-Msgid-Bugs-To: https://bugs.winehq.org\n"
 "POT-Creation-Date: N/A\n"
-"PO-Revision-Date: 2020-04-08 23:45-0500\n"
+"PO-Revision-Date: 2020-04-09 00:13-0500\n"
 "Last-Translator: Mingcong Bai <jeffbai@aosc.io>\n"
 "Language-Team: Chinese (PRC)\n"
 "Language: zh_CN\n"
@@ -8403,9 +8403,8 @@ msgid "Share Deny Write"
 msgstr "共享 拒绝 可写"
 
 #: version.rc:46
-#, fuzzy
 msgid "Share Exclusive"
-msgstr "异或"
+msgstr "共享互斥锁"
 
 #: version.rc:47
 msgid "Write"
