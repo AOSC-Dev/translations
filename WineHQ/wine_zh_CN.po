@@ -572,7 +572,7 @@ msgstr "字体(&F)："
 msgid "Font St&yle:"
 msgstr "字体样式(&Y)："
 
-#: comdlg32.rc:260 comdlg32.rc:439 winecfg.rc:293
+#: comdlg32.rc:260 comdlg32.rc:439 winecfg.rc:292
 msgid "&Size:"
 msgstr "大小(&S)："
 
@@ -588,7 +588,7 @@ msgstr "删除线(&K)"
 msgid "&Underline"
 msgstr "下划线(&U)"
 
-#: comdlg32.rc:270 winecfg.rc:291
+#: comdlg32.rc:270 winecfg.rc:290
 msgid "&Color:"
 msgstr "配色(&C)："
 
@@ -671,7 +671,7 @@ msgstr "全字匹配(&W)"
 msgid "Match &Case"
 msgstr "区分大小写(&C)"
 
-#: comdlg32.rc:325 joy.rc:71
+#: comdlg32.rc:325 joy.rc:72
 msgid "Direction"
 msgstr "方向"
 
@@ -760,7 +760,7 @@ msgstr "份数(&C)："
 msgid "C&ollate"
 msgstr "逐份打印(&O)"
 
-#: comdlg32.rc:414 winecfg.rc:299
+#: comdlg32.rc:414 winecfg.rc:298
 msgid "Si&ze:"
 msgstr "大小(&Z):"
 
@@ -2230,7 +2230,7 @@ msgstr ""
 msgid "&File name:"
 msgstr "文件名(&F)："
 
-#: cryptui.rc:301 cryptui.rc:323 cryptui.rc:437 winecfg.rc:312
+#: cryptui.rc:301 cryptui.rc:323 cryptui.rc:437 winecfg.rc:311
 msgid "B&rowse..."
 msgstr "浏览(&R)..."
 
@@ -3505,27 +3505,27 @@ msgstr "较高"
 msgid "High"
 msgstr "高"
 
-#: joy.rc:36
+#: joy.rc:37
 msgid "Joysticks"
 msgstr "操纵杆"
 
-#: joy.rc:39 winecfg.rc:212
+#: joy.rc:40 winecfg.rc:212
 msgid "&Disable"
 msgstr "停用(&D)"
 
-#: joy.rc:40
+#: joy.rc:41
 msgid "&Enable"
 msgstr "启用(&E)"
 
-#: joy.rc:41
+#: joy.rc:42
 msgid "Connected"
 msgstr "已连接"
 
-#: joy.rc:43
+#: joy.rc:44
 msgid "Disabled"
 msgstr "停用"
 
-#: joy.rc:45
+#: joy.rc:46
 msgid ""
 "After disabling or enabling a device, the connected joysticks won't be "
 "updated here until you restart this applet."
@@ -3533,23 +3533,23 @@ msgstr ""
 "在禁用或启用设备之后，已连接的操纵杆的信息将不会在这里更新，直到您重启该小工"
 "具为止。"
 
-#: joy.rc:50
+#: joy.rc:51
 msgid "Test Joystick"
 msgstr "测试操纵杆"
 
-#: joy.rc:54
+#: joy.rc:55
 msgid "Buttons"
 msgstr "按钮"
 
-#: joy.rc:63
+#: joy.rc:64
 msgid "Test Force Feedback"
 msgstr "测试力反馈"
 
-#: joy.rc:67
+#: joy.rc:68
 msgid "Available Effects"
 msgstr "可选效果"
 
-#: joy.rc:69
+#: joy.rc:70
 msgid ""
 "Press any button in the controller to activate the chosen effect. The effect "
 "direction can be changed with the controller axis."
@@ -3558,6 +3558,10 @@ msgstr "在控制器上按任意键以激活选中的效果。可根据控制器
 #: joy.rc:31
 msgid "Game Controllers"
 msgstr "游戏控制器"
+
+#: joy.rc:32
+msgid "Test and configure game controllers."
+msgstr ""
 
 #: jscript.rc:28
 msgid "Error converting object to primitive type"
@@ -3572,188 +3576,206 @@ msgid "Subscript out of range"
 msgstr "标记越界"
 
 #: jscript.rc:31
+#, fuzzy
+#| msgid "Out of paper; "
+msgid "Out of stack space"
+msgstr "缺纸；"
+
+#: jscript.rc:32
 msgid "Object required"
 msgstr "需要对象"
 
-#: jscript.rc:32
+#: jscript.rc:33
 msgid "Automation server can't create object"
 msgstr "自动化服务器无法创建对象"
 
-#: jscript.rc:33
+#: jscript.rc:34
 msgid "Object doesn't support this property or method"
 msgstr "对象不支持此属性或方式"
 
-#: jscript.rc:34
+#: jscript.rc:35
 msgid "Object doesn't support this action"
 msgstr "对象不支持此动作"
 
-#: jscript.rc:35
+#: jscript.rc:36
 msgid "Argument not optional"
 msgstr "参数不是可选参数"
 
-#: jscript.rc:36
+#: jscript.rc:37
 msgid "Syntax error"
 msgstr "语法错误"
 
-#: jscript.rc:37
+#: jscript.rc:38
 msgid "Expected ';'"
 msgstr "期望得到 ';'"
 
-#: jscript.rc:38
+#: jscript.rc:39
 msgid "Expected '('"
 msgstr "期望得到 '('"
 
-#: jscript.rc:39
+#: jscript.rc:40
 msgid "Expected ')'"
 msgstr "期望得到 ')'"
 
-#: jscript.rc:40
+#: jscript.rc:41
 msgid "Expected identifier"
 msgstr "期望标识符"
 
-#: jscript.rc:41
+#: jscript.rc:42
 msgid "Expected '='"
 msgstr "期望得到 '='"
 
-#: jscript.rc:42
+#: jscript.rc:43
 msgid "Invalid character"
 msgstr "无效字符"
 
-#: jscript.rc:43
+#: jscript.rc:44
 msgid "Unterminated string constant"
 msgstr "未终止的字符串常量"
 
-#: jscript.rc:44
+#: jscript.rc:45
 msgid "'return' statement outside of function"
 msgstr "函数外的 'return' 语句"
 
-#: jscript.rc:45
+#: jscript.rc:46
 msgid "Can't have 'break' outside of loop"
 msgstr "循环外不能存在 'break'"
 
-#: jscript.rc:46
+#: jscript.rc:47
 msgid "Can't have 'continue' outside of loop"
 msgstr "循环外不能存在 'continue'"
 
-#: jscript.rc:47
+#: jscript.rc:48
 msgid "Label redefined"
 msgstr "标签被重复定义"
 
-#: jscript.rc:48
+#: jscript.rc:49
 msgid "Label not found"
 msgstr "找不到标签"
 
-#: jscript.rc:49
+#: jscript.rc:50
 msgid "Expected '@end'"
 msgstr "期望 '@end'"
 
-#: jscript.rc:50
+#: jscript.rc:51
 msgid "Conditional compilation is turned off"
 msgstr "条件编译已关闭"
 
-#: jscript.rc:51
+#: jscript.rc:52
 msgid "Expected '@'"
 msgstr "期望 '@'"
 
-#: jscript.rc:75
+#: jscript.rc:78
 msgid "Microsoft JScript compilation error"
 msgstr "Microsoft JScript 编译错误"
 
-#: jscript.rc:76
+#: jscript.rc:79
 msgid "Microsoft JScript runtime error"
 msgstr "Microsoft JScript 运行时错误"
 
-#: jscript.rc:77
+#: jscript.rc:80
 msgid "Unknown runtime error"
 msgstr "未知运行时错误"
 
-#: jscript.rc:54
+#: jscript.rc:55
 msgid "Number expected"
 msgstr "期望得到数字"
 
-#: jscript.rc:52
+#: jscript.rc:53
 msgid "Function expected"
 msgstr "期望得到函数"
 
-#: jscript.rc:53
+#: jscript.rc:54
 msgid "'[object]' is not a date object"
 msgstr "'[object]' 不是日期对象"
 
-#: jscript.rc:55
+#: jscript.rc:56
 msgid "Object expected"
 msgstr "期望得到对象"
 
-#: jscript.rc:56
+#: jscript.rc:57
 msgid "Illegal assignment"
 msgstr "非法赋值"
 
-#: jscript.rc:57
+#: jscript.rc:58
 msgid "'|' is undefined"
 msgstr "'|' 未被定义"
 
-#: jscript.rc:58
+#: jscript.rc:59
 msgid "Boolean object expected"
 msgstr "期望得到布尔型对象"
 
-#: jscript.rc:59
+#: jscript.rc:60
 msgid "Cannot delete '|'"
 msgstr "不能删除 '|'"
 
-#: jscript.rc:60
+#: jscript.rc:61
 msgid "VBArray object expected"
 msgstr "期望得到 VBArray 对象"
 
-#: jscript.rc:61
+#: jscript.rc:62
 msgid "JScript object expected"
 msgstr "期望得到 JScript 对象"
 
-#: jscript.rc:62
+#: jscript.rc:63
+#, fuzzy
+#| msgid "Array object expected"
+msgid "Enumerator object expected"
+msgstr "期望得到 Array 对象"
+
+#: jscript.rc:64
+#, fuzzy
+#| msgid "Boolean object expected"
+msgid "Regular Expression object expected"
+msgstr "期望得到布尔型对象"
+
+#: jscript.rc:65
 msgid "Syntax error in regular expression"
 msgstr "正则表达式中出现语法错误"
 
-#: jscript.rc:63
+#: jscript.rc:66
 msgid "Exception thrown and not caught"
 msgstr "发生异常且未被捕捉"
 
-#: jscript.rc:65
+#: jscript.rc:68
 msgid "URI to be encoded contains invalid characters"
 msgstr "待编码的 URI 包含无效字符"
 
-#: jscript.rc:64
+#: jscript.rc:67
 msgid "URI to be decoded is incorrect"
 msgstr "待解码的 URI 不正确"
 
-#: jscript.rc:66
+#: jscript.rc:69
 msgid "Number of fraction digits is out of range"
 msgstr "分数位数的数字超出范围"
 
-#: jscript.rc:67
+#: jscript.rc:70
 msgid "Precision is out of range"
 msgstr "精度超出范围"
 
-#: jscript.rc:68
+#: jscript.rc:71
 msgid "Array length must be a finite positive integer"
 msgstr "数组的长度必须为一个有限正整数"
 
-#: jscript.rc:69
+#: jscript.rc:72
 msgid "Array object expected"
 msgstr "期望得到 Array 对象"
 
-#: jscript.rc:70
+#: jscript.rc:73
 msgid ""
 "'writable' attribute on the property descriptor cannot be set to 'true' on "
 "this object"
 msgstr "无法在此对象上更改属性描述符中的“writable”属性为“true”"
 
-#: jscript.rc:71
+#: jscript.rc:74
 msgid "Cannot redefine non-configurable property '|'"
 msgstr "无法重定义不可配置的属性“|”"
 
-#: jscript.rc:72
+#: jscript.rc:75
 msgid "Cannot modify non-writable property '|'"
 msgstr "无法更改不可写的属性“|”"
 
-#: jscript.rc:73
+#: jscript.rc:76
 msgid "Property cannot have both accessors and a value"
 msgstr "属性不能同时包含存取器和值"
 
@@ -7222,7 +7244,7 @@ msgstr "超链接"
 msgid "Hyperlink Information"
 msgstr "超链接信息"
 
-#: mshtml.rc:43 winecfg.rc:244
+#: mshtml.rc:43 winecfg.rc:243
 msgid "&Type:"
 msgstr "类型(&T)："
 
@@ -8317,7 +8339,7 @@ msgstr "3. 输入要使用的初始目录："
 msgid "&Test Connection"
 msgstr "测试连接(&T)"
 
-#: version.rc:92 winemine.rc:65
+#: version.rc:92
 msgid "Advanced"
 msgstr "高级"
 
@@ -9091,7 +9113,7 @@ msgstr "输入程序，目录，文件或者Internet资源名，Wine将为您打
 msgid "&Open:"
 msgstr "打开(&O)："
 
-#: shell32.rc:343 progman.rc:182 progman.rc:201 progman.rc:218 winecfg.rc:242
+#: shell32.rc:343 progman.rc:182 progman.rc:201 progman.rc:218 winecfg.rc:241
 #: winefile.rc:129
 msgid "&Browse..."
 msgstr "浏览(&B)..."
@@ -11438,7 +11460,7 @@ msgstr "模拟时钟(&L)"
 msgid "Digi&tal"
 msgstr "数字时钟(&T)"
 
-#: clock.rc:35 notepad.rc:53 winecfg.rc:306 winefile.rc:63 wordpad.rc:84
+#: clock.rc:35 notepad.rc:53 winecfg.rc:305 winefile.rc:63 wordpad.rc:84
 msgid "&Font..."
 msgstr "字体(&F)..."
 
@@ -12273,6 +12295,24 @@ msgstr "起点"
 #: explorer.rc:34 winefile.rc:36
 msgid "&Run..."
 msgstr "运行(&R)..."
+
+#: fsutil.mc:28
+msgid ""
+"- Supported Commands -\n"
+"\n"
+"hardlink      hardlink management\n"
+msgstr ""
+
+#: fsutil.mc:35
+msgid ""
+"- Hardlink - Supported Commands -\n"
+"\n"
+"create        create a hardlink\n"
+msgstr ""
+
+#: fsutil.mc:40
+msgid "Syntax: fsutil hardlink create <new> <existing>\n"
+msgstr ""
 
 #: hostname.rc:30
 msgid "Usage: hostname\n"
@@ -15316,107 +15356,103 @@ msgstr "无法连接到挂载管理器；不能修改驱动器配置。"
 msgid "A&dd..."
 msgstr "添加(&D)..."
 
-#: winecfg.rc:237
-msgid "Aut&odetect"
-msgstr "自动侦测(&O)"
-
-#: winecfg.rc:240
+#: winecfg.rc:239
 msgid "&Path:"
 msgstr "路径(&P)："
 
-#: winecfg.rc:247 winecfg.rc:37
+#: winecfg.rc:246 winecfg.rc:37
 msgid "Show Advan&ced"
 msgstr "显示高级选项(&C)"
 
-#: winecfg.rc:248
+#: winecfg.rc:247
 msgid "De&vice:"
 msgstr "设备(&V)："
 
-#: winecfg.rc:250
+#: winecfg.rc:249
 msgid "Bro&wse..."
 msgstr "浏览(&W)..."
 
-#: winecfg.rc:252
+#: winecfg.rc:251
 msgid "&Label:"
 msgstr "卷标(&L)："
 
-#: winecfg.rc:254
+#: winecfg.rc:253
 msgid "S&erial:"
 msgstr "序列号(&E)："
 
-#: winecfg.rc:257
+#: winecfg.rc:256
 msgid "&Show dot files"
 msgstr "显示隐藏文件(&S)"
 
-#: winecfg.rc:264
+#: winecfg.rc:263
 msgid "Driver diagnostics"
 msgstr "驱动程序诊断"
 
-#: winecfg.rc:266
+#: winecfg.rc:265
 msgid "Defaults"
 msgstr "默认值"
 
-#: winecfg.rc:267
+#: winecfg.rc:266
 msgid "Output device:"
 msgstr "输出设备："
 
-#: winecfg.rc:268
+#: winecfg.rc:267
 msgid "Voice output device:"
 msgstr "语音输出设备："
 
-#: winecfg.rc:269
+#: winecfg.rc:268
 msgid "Input device:"
 msgstr "输入设备："
 
-#: winecfg.rc:270
+#: winecfg.rc:269
 msgid "Voice input device:"
 msgstr "语音输入设备："
 
-#: winecfg.rc:275
+#: winecfg.rc:274
 msgid "&Test Sound"
 msgstr "测试音频(&T)"
 
-#: winecfg.rc:276 winecfg.rc:89
+#: winecfg.rc:275 winecfg.rc:89
 msgid "Speaker configuration"
 msgstr "扬声器设置"
 
-#: winecfg.rc:279
+#: winecfg.rc:278
 msgid "Speakers:"
 msgstr "扬声器："
 
-#: winecfg.rc:287
+#: winecfg.rc:286
 msgid "Appearance"
 msgstr "外观"
 
-#: winecfg.rc:288
+#: winecfg.rc:287
 msgid "&Theme:"
 msgstr "主题(&T)："
 
-#: winecfg.rc:290
+#: winecfg.rc:289
 msgid "&Install theme..."
 msgstr "安装主题(&I)..."
 
-#: winecfg.rc:295
+#: winecfg.rc:294
 msgid "It&em:"
 msgstr "物件(&E)："
 
-#: winecfg.rc:297
+#: winecfg.rc:296
 msgid "C&olor:"
 msgstr "颜色(&O)："
 
-#: winecfg.rc:303
+#: winecfg.rc:302
 msgid "MIME types"
 msgstr "MIME 类型"
 
-#: winecfg.rc:304
+#: winecfg.rc:303
 msgid "Manage file &associations"
 msgstr "管理文件关联(&A)"
 
-#: winecfg.rc:307
+#: winecfg.rc:306
 msgid "Folders"
 msgstr "文件夹"
 
-#: winecfg.rc:310
+#: winecfg.rc:309
 msgid "&Link to:"
 msgstr "映射至(&L)："
 
@@ -16231,8 +16267,10 @@ msgid "&Beginner"
 msgstr "初学者(&B)"
 
 #: winemine.rc:45
-msgid "&Advanced"
-msgstr "高级(&A)"
+#, fuzzy
+#| msgid "Interface"
+msgid "&Intermediate"
+msgstr "接口"
 
 #: winemine.rc:46
 msgid "&Expert"
@@ -16261,6 +16299,12 @@ msgstr "最快时间"
 #: winemine.rc:64
 msgid "Beginner"
 msgstr "初学者"
+
+#: winemine.rc:65
+#, fuzzy
+#| msgid "Interface"
+msgid "Intermediate"
+msgstr "接口"
 
 #: winemine.rc:66
 msgid "Expert"
