@@ -6,4 +6,4 @@ the [GIMP-work](https://github.com/AOSC-Dev/translations/tree/GIMP-work) branch.
 
 ![Workflow](workflow.svg)
 
-Reed CONTRIBUTING.md for more information.
+Read [CONTRIBUTING.md](https://github.com/AOSC-Dev/translations/blob/master/CONTRIBUTING.md) for further information.
