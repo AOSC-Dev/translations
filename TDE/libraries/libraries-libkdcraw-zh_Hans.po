@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Chinese (Simplified) (libraries)\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-28 15:49+0000\n"
-"PO-Revision-Date: 2023-06-28 23:50+0800\n"
+"PO-Revision-Date: 2023-07-07 23:57+0800\n"
 "Last-Translator: Wantao Liu <vantao@aosc.io>\n"
 "Language-Team: Chinese (Simplified) <https://mirror.git.trinitydesktop.org/"
 "weblate/projects/libraries/libkdcraw/zh_Hans/>\n"
@@ -15,13 +15,11 @@ msgstr ""
 "X-Generator: Weblate 4.17\n"
 
 #. Instead of a literal translation, add your name to the end of the list (separated by a comma).
-#, ignore-inconsistent
 msgctxt "NAME OF TRANSLATORS"
 msgid "Your names"
 msgstr "Wantao Liu"
 
 #. Instead of a literal translation, add your email to the end of the list (separated by a comma).
-#, ignore-inconsistent
 msgctxt "EMAIL OF TRANSLATORS"
 msgid "Your emails"
 msgstr "vantao@aosc.io"
@@ -33,9 +31,9 @@ msgid ""
 "able to handle any Raw images. Please check the installation of libkdcraw "
 "package on your computer."
 msgstr ""
-"<qt><p>找不到可执行文件 <b>%1</b>：<br>需要此二进制程序以提供对 RAW 文件格式"
-"的支持。如果继续，您将无法处理任何 RAW 格式图像。请检查 libkdcraw 软件包在您"
-"电脑上的安装情况。"
+"<qt><p>找不到 <b>%1</b> 命令的可执行文件：<br>需要此命令以提供对 RAW 文"
+"件格式的支持。如果继续，您将无法处理 RAW 格式图像。请检查 libkdcraw 软件包在您电脑上"
+"的安装情况。"
 
 #: libkdcraw/dcrawbinary.cpp:176
 msgid ""
@@ -44,13 +42,13 @@ msgid ""
 "run properly. You can continue, but you will not be able to handle any Raw "
 "images. Please check the installation of libkdcraw package on your computer."
 msgstr ""
-"<qt><p>可执行文件 <b>%1</b> 不是最新版本：<br> 在您的计算机中已找到此二进制程"
-"序的 %2 版本。由于此版本过旧，程序将无法正常运行。如果继续，您将无法处理任何 "
-"RAW 格式图像。请检查 libkdcraw 软件包在您电脑上的安装情况。"
+"<qt><p><b>%1</b> 命令的可执行文件不是最新版本：<br> 在您的计算机中已找到此命"
+"令相关可执行文件的 %2 版本。由于此版本过旧，程序将无法正常运行。如果继续，您将无法处"
+"理 RAW 格式图像。请检查 libkdcraw 软件包在您电脑上的安装情况。"
 
 #: libkdcraw/dcrawsettingswidget.cpp:183
 msgid "16 bits color depth"
-msgstr "16 位颜色深度"
+msgstr "16 位色深"
 
 #: libkdcraw/dcrawsettingswidget.cpp:184
 msgid ""
@@ -60,10 +58,10 @@ msgid ""
 "files will be decoded in 8-bit color depth with a BT.709 gamma curve and a "
 "99th-percentile white point. This mode is faster than 16-bit decoding."
 msgstr ""
-"<p>如果启用，所有的 RAW 文件将以 16 位颜色深度解码，并且使用线性伽玛曲线。为"
-"了防止在编辑器中渲染暗色图片，建议在此模式下启用色彩管理。<p>如果禁用，所有"
-"的 RAW 文件将以 8 位颜色深度解码，使用 BT.709 伽玛曲线并且舍弃高于 99% 的白点"
-"值。此模式比 16 位解码更快。"
+"<p>如果启用，所有 RAW 文件将以 16 位色深解码，并且使用线性伽玛曲线。为了防止"
+"在编辑器中图片渲染过暗，建议将色彩管理设置为此模式。<p>如果禁用，所有 RAW 文"
+"件将以 8 位颜色深度解码，并使用 BT.709 伽玛曲线，此模式下的白点设置将导致亮度"
+"高于 99% 的颜色被裁切。此模式比 16 位解码更快。"
 
 #: libkdcraw/dcrawsettingswidget.cpp:203
 msgid "Interpolate RGB as four colors"
@@ -81,9 +79,9 @@ msgstr ""
 "<p><b>将 RGB 插值为四种颜色</b><p>默认情况下，假设所有绿色像素都相同。如果偶"
 "数行绿色像素的感光单元比奇数行绿色像素的感光单元对紫外线更为敏感，则此差异会"
 "导致输出中出现网格图案；使用此选项可解决上述问题，并能够将细节损失降至最低。"
-"<p>如果继续，该选项会使图像变得模糊一点，但它同时也会使用 VNG 保真方式 (VNG "
-"Quality Method) 消除 2x2 的网格状伪影，或使用 AHD 保真方式 (AHD Quality "
-"Method) 消除迷宫 (mazes)。"
+"<p>如果继续，该选项会使图像变得模糊一点，但它同时也会使用 VNG 保真方式（VNG "
+"Quality Method）消除 2x2 的网格状伪影，或使用 AHD 保真方式（AHD Quality "
+"Method）消除迷宫（mazes）。"
 
 #: libkdcraw/dcrawsettingswidget.cpp:217
 #, c-format
@@ -96,7 +94,7 @@ msgstr "浏览 dcraw 项目网站"
 
 #: libkdcraw/dcrawsettingswidget.cpp:224
 msgid "Do not stretch or rotate pixels"
-msgstr "请不要拉伸或旋转像素"
+msgstr "不要拉伸或旋转像素"
 
 #: libkdcraw/dcrawsettingswidget.cpp:225
 msgid ""
@@ -105,9 +103,9 @@ msgid ""
 "stretch the image to its correct aspect ratio. In any case, this option "
 "guarantees that each output pixel corresponds to one RAW pixel.<p>"
 msgstr ""
-"<p><b>请不要拉伸或旋转像素</b><p>对于富士 Super CCD 相机，显示倾斜 45 度的图"
-"像。对于非方形像素的相机，请不要将图像拉伸到正确的纵横比。在任何情况下，该选"
-"项均会保证每个输出像素对应于一个 RAW 像素。<p>"
+"<p><b>不要拉伸或旋转像素</b><p>自动将从富士 Super CCD 相机中导入的图像旋转 "
+"45 度。对于非方形像素的相机，不要将图像拉伸到正确的纵横比。在任何情况下，该"
+"选项均会保证每个输出像素对应于一个 RAW 像素。<p>"
 
 #: libkdcraw/dcrawsettingswidget.cpp:235
 msgid "Quality:"
@@ -115,7 +113,7 @@ msgstr "品质："
 
 #: libkdcraw/dcrawsettingswidget.cpp:237
 msgid "Bilinear"
-msgstr "双线性的"
+msgstr "双线性"
 
 #: libkdcraw/dcrawsettingswidget.cpp:238
 msgid "VNG"
@@ -151,18 +149,18 @@ msgid ""
 "interpolation. This method selects the direction of interpolation so as to "
 "maximize a homogeneity metric, thus typically minimizing color artifacts.<p>"
 msgstr ""
-"<p><b>品质（插值）</b><p>请在此选择去马赛克 RAW 图像解码插值方法。去马赛克算"
-"法是一种数字图像处理技术，根据从许多彩色像素矩阵形式的数字照相机内部的滤色图"
-"像传感器所接收到的部分原始数据来内插完整的图像。也称为 CFA 插值或颜色重建，另"
-"一种常见的称呼是去马赛克。有 4 种方法可以对原始图像进行去马赛克：<p><b>双线性"
-"的</b>：使用高速但低质量的双线性插值（默认——用于运算速度较慢的计算机）。在该"
-"方法中，来自非红色像素的红色值被计算为相邻红色像素的平均值，并且对于蓝色和绿"
-"色也作类似的处理。<p><b>VNG</b>：使用参数可调的渐变插值。该方法计算目标像素附"
-"近的梯度，并使用较低的梯度（表示图像的更平滑和更相似的部分）来进行估值。"
-"<p><b>PPG</b>：使用带图案的像素分组插值。像素分组在进行估计时使用关于自然风景"
-"的推理算法。它在自然图像处理上能够比参数可调的梯度方法产生更少的颜色伪影。"
-"<p><b>AHD</b>：使用自适应的以同质（均匀）为目标的插值。该方法选择内插的方向，"
-"以便最大化同质的指标，因此通常能够最小化颜色产生伪影的概率。<p>"
+"<p><b>品质（插值）</b><p>在此选择 RAW 图像去马赛克过程中的解码插值方法。去"
+"马赛克算法是一种数字图像处理方法，使用从许多数码相机内部的彩色过滤图像传感器"
+"收到的部分原始数据，以彩色像素矩阵的形式插补出一幅完整的图像。也称为 CFA 插值"
+"或颜色重建，另一种常见的称呼是去马赛克。有 4 种方法可以对原始图像进行去马赛"
+"克：<p><b>双线性</b>：使用高速但低质量的双线性插值（默认——用于运算速度较慢的"
+"计算机）。在该方法中，来自非红色像素的红色值被计算为相邻红色像素的平均值，并"
+"且对于蓝色和绿色也作类似的处理。<p><b>VNG</b>：使用参数可调的渐变插值。该方法"
+"计算目标像素附近的梯度，并使用较低的梯度（表示图像的更平滑和更相似的部分）来"
+"进行估值。<p><b>PPG</b>：使用带图案的像素分组插值。像素分组在进行估计时使用关"
+"于自然风景的推理算法。它在自然图像处理上能够比参数可调的梯度方法产生更少的颜"
+"色伪影。<p><b>AHD</b>：使用自适应的以同质（均匀）为目标的插值。该方法选择内插"
+"的方向，以便最大化同质的指标，因此通常能够最小化颜色产生伪影的概率。<p>"
 
 #: libkdcraw/dcrawsettingswidget.cpp:272
 msgid "Filter:"
@@ -173,8 +171,8 @@ msgid ""
 "<p><b>Median Filter</b><p>Set here the passes used by median filter applied "
 "after interpolation to Red-Green and Blue-Green channels."
 msgstr ""
-"<p><b>中值滤波器</b><p>对红-绿通道和蓝-绿通道进行插值之后，请在此设置将要应用"
-"于中值过滤器的通路。"
+"<p><b>中值滤波器</b><p>对红绿通道和蓝绿通道进行插值之后，在此设置将要应用于"
+"中值过滤器的通路。"
 
 #: libkdcraw/dcrawsettingswidget.cpp:282
 msgid "Demosaicing"
@@ -194,11 +192,11 @@ msgstr "相机"
 
 #: libkdcraw/dcrawsettingswidget.cpp:294
 msgid "Automatic"
-msgstr "自动的"
+msgstr "自动"
 
 #: libkdcraw/dcrawsettingswidget.cpp:295
 msgid "Manual"
-msgstr "手动的"
+msgstr "手动"
 
 #: libkdcraw/dcrawsettingswidget.cpp:297
 msgid ""
@@ -209,10 +207,10 @@ msgid ""
 "Calculates an automatic white balance averaging the entire "
 "image<p><b>Manual</b>: Set a custom temperature and green level values"
 msgstr ""
-"<p><b>白平衡模式</b><p>配置原始白平衡：<p><b>默认 D65</b>：使用标准日光 D65 "
+"<p><b>白平衡模式</b><p>配置 RAW 白平衡：<p><b>默认 D65</b>：使用标准日光 D65 "
 "白平衡（dcraw 默认值）<p><b>相机</b>：使用相机指定的白平衡。如果不可用，则恢"
 "复为默认的中性白平衡<p><b>自动</b>：计算出一个平均整个图像的自动白平衡<p><b>"
-"手动</b>：设置自定义色温和绿色级别值"
+"手动</b>：设置自定义色温和绿色电平值"
 
 #: libkdcraw/dcrawsettingswidget.cpp:309
 msgid "T(K):"
@@ -249,7 +247,7 @@ msgstr "混合"
 
 #: libkdcraw/dcrawsettingswidget.cpp:326
 msgid "Rebuild"
-msgstr "重构"
+msgstr "重建（Rebuild）"
 
 #: libkdcraw/dcrawsettingswidget.cpp:328
 msgid ""
@@ -259,14 +257,14 @@ msgid ""
 "and unclipped values together for a gradual fade to white<p><b>Rebuild</b>: "
 "reconstruct highlights using a level value"
 msgstr ""
-"<p><b>高光</b><p>请在此挑选高光裁切模式：<p><b>纯白色</b>：将所有高光裁切为纯"
-"白色<p><b>不裁切</b>：保留高光为各种深浅不同的粉色。<p><b>混合</b>：将已剪裁"
-"和未剪裁的值混合在一起，以实现白色逐渐淡入的效果<p><b>重构</b>：使用级别值重"
-"建高光"
+"<p><b>高光</b><p>在此挑选高光裁切模式：<p><b>纯白色</b>：将所有高光裁切为纯白色"
+"<p><b>不裁切</b>：保留高光为各种深浅不同的粉色。<p><b>混合</b>：将已剪裁和未"
+"剪裁的值混合在一起，逐渐将更高亮度的颜色渐变为纯白色<p><b>重建</b>：使用级别"
+"值重建高光"
 
 #: libkdcraw/dcrawsettingswidget.cpp:337
 msgid "Level:"
-msgstr "等级："
+msgstr "级别："
 
 #: libkdcraw/dcrawsettingswidget.cpp:341
 msgid ""
@@ -285,7 +283,7 @@ msgid ""
 "<p><b>Brighness</b><p>Specify the brightness level of output image.The "
 "default value is 1.0 (works in 8-bit mode only).<p>"
 msgstr ""
-"<p><b>亮度</b><p>指定输出图像的亮度级别。默认值（仅适用于 8 位模式）为1.0。"
+"<p><b>亮度</b><p>指定输出图像的亮度级别。默认值（仅适用于 8 位模式）为 1.0。"
 "<p>"
 
 #: libkdcraw/dcrawsettingswidget.cpp:360
@@ -324,7 +322,7 @@ msgstr ""
 msgid ""
 "<p><b>White point value</b><p>Specify specific white point value of the "
 "output image.<p>"
-msgstr "<p><b>白点值</b><p>请指定输出图像的特定白点值。<p>"
+msgstr "<p><b>白点值</b><p>指定输出图像的特定白点值。<p>"
 
 #: libkdcraw/dcrawsettingswidget.cpp:409
 msgid "White Balance"
@@ -347,7 +345,7 @@ msgstr "阈值："
 #: libkdcraw/dcrawsettingswidget.cpp:425
 msgid ""
 "<p><b>Threshold</b><p>Set here the noise reduction threshold value to use."
-msgstr "<p><b>阈值</b><p>请在此设置要使用的噪点消除阈值。"
+msgstr "<p><b>阈值</b><p>在此设置要使用的噪点消除阈值。"
 
 #: libkdcraw/dcrawsettingswidget.cpp:428
 msgid "Enable Chromatic Aberration correction"
@@ -359,8 +357,8 @@ msgid ""
 "blue layers by the given factors, typically 0.999 to 1.001, to correct "
 "chromatic aberration.<p>"
 msgstr ""
-"<p><b>启用色差校正</b><p>通过给定的因子（通常为 0.999 至 1.001）放大原始的红"
-"色和蓝色层，以校正色差。<p>"
+"<p><b>启用色差校正</b><p>通过给定的因子（通常为 0.999 至 1.001）放大红色和蓝"
+"色 RAW 图层，以校正色差。<p>"
 
 #: libkdcraw/dcrawsettingswidget.cpp:433
 msgid "Red:"
@@ -369,7 +367,7 @@ msgstr "红色："
 #: libkdcraw/dcrawsettingswidget.cpp:438
 msgid ""
 "<p><b>Red multiplier</b><p>Set here the magnification factor of the red layer"
-msgstr "<p><b>红色倍增器</b><p>请在此设置红色层的放大系数"
+msgstr "<p><b>红色系数</b><p>在此设置红色层的放大系数"
 
 #: libkdcraw/dcrawsettingswidget.cpp:441
 msgid "Blue:"
@@ -379,11 +377,11 @@ msgstr "蓝色："
 msgid ""
 "<p><b>Blue multiplier</b><p>Set here the magnification factor of the blue "
 "layer"
-msgstr "<p><b>蓝色倍增器</b><p>请在此设置蓝色层的放大系数"
+msgstr "<p><b>蓝色系数</b><p>在此设置蓝色层的放大系数"
 
 #: libkdcraw/dcrawsettingswidget.cpp:461
 msgid "Corrections"
-msgstr "修改"
+msgstr "修正"
 
 #: libkdcraw/dcrawsettingswidget.cpp:469
 msgid "Camera Profile:"
@@ -395,7 +393,7 @@ msgstr "无"
 
 #: libkdcraw/dcrawsettingswidget.cpp:472
 msgid "Embedded"
-msgstr "内置的"
+msgstr "内嵌"
 
 #: libkdcraw/dcrawsettingswidget.cpp:473, libkdcraw/dcrawsettingswidget.cpp:492
 msgid "Custom"
@@ -403,19 +401,19 @@ msgstr "自定义"
 
 #: libkdcraw/dcrawsettingswidget.cpp:475
 msgid ""
-"<p><b>Camera Profile</b><p>Select here the input color space used to decode "
-"RAW data.<p><b>None</b>: no input color profile is used during RAW decoding."
-"<p><b>Embedded</b>: use embedded color profile from RAW file if exist."
-"<p><b>Custom</b>: use a custom input color space profile."
+"\"（<p><b>Camera Profile</b><p>Select here the input color space used to "
+"decode RAW data.<p><b>None</b>: no input color profile is used during RAW "
+"decoding.<p><b>Embedded</b>: use embedded color profile from RAW file if "
+"exist.<p><b>Custom</b>: use a custom input color space profile."
 msgstr ""
-"<p><b>相机配置文件</b><p>请在此选择用于解码 RAW 数据的输入色彩空间。<p><b>无"
-"</b>：在 RAW 解码期间不使用输入色彩配置文件。<p><b>内置的</b>：若 RAW 文件内"
-"置了色彩配置文件，则使用内置的色彩配置文件。<p><b>自定义</b>：使用自定义的输"
+"<p><b>相机配置文件</b><p>在此选择用于解码 RAW 数据的输入色彩空间。<p><b>无"
+"</b>：在 RAW 解码期间不使用输入色彩配置文件。<p><b>内嵌</b>：若 RAW 文件内"
+"嵌了色彩配置文件，则使用内嵌色彩配置文件。<p><b>自定义</b>：使用自定义的输"
 "入色彩空间配置文件。"
 
 #: libkdcraw/dcrawsettingswidget.cpp:483, libkdcraw/dcrawsettingswidget.cpp:513
 msgid "ICC Files (*.icc; *.icm)"
-msgstr "ICC 文件(*.icc; *.icm)"
+msgstr "ICC 文件（*.icc; *.icm）"
 
 #: libkdcraw/dcrawsettingswidget.cpp:485
 msgid "Workspace:"
@@ -456,7 +454,7 @@ msgid ""
 "with photographic outputs in mind.<p><b>Custom</b>: use a custom output "
 "color space profile."
 msgstr ""
-"<p><b>工作区</b><p>请此处选择用于解码 RAW 数据的输出颜色空间。<p><b>RAW（线"
+"<p><b>工作区</b><p>此处选择用于解码 RAW 数据的输出颜色空间。<p><b>RAW（线"
 "性）</b>：在此模式中，RAW 解码过程没有使用输出色彩空间<p><b>sRGB</b>：这是一"
 "个 RGB 色彩空间，由 Hewlett-Packard 和 Microsoft 合作创建。它是用于网络和人像"
 "摄影图像的最佳选择。<p><b>Adobe RGB</b>：此颜色空间是由 Adobe 开发的扩展 RGB "
