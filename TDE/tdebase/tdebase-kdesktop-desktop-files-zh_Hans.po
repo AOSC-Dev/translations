@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-17 18:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: kdesktop.desktop.cmake:10
+msgid "TDE Desktop"
+msgstr "TDE 桌面"
+
+#. X-TDE-Submenu
+#: kdesktopSetAsBackground.desktop:4
+msgid "Set as Background"
+msgstr "设为背景"
+
+#. Name
+#: kdesktopSetAsBackground.desktop:7
+msgid "Centered"
+msgstr "居中"
+
+#. Name
+#: kdesktopSetAsBackground.desktop:12
+msgid "Tiled"
+msgstr "平铺"
+
+#. Name
+#: kdesktopSetAsBackground.desktop:17
+#, fuzzy
+#| msgid "Centered"
+msgid "Center Tiled"
+msgstr "居中"
+
+#. Name
+#: kdesktopSetAsBackground.desktop:22
+#, fuzzy
+#| msgid "Centered"
+msgid "Centered Maxpect"
+msgstr "居中"
+
+#. Name
+#: kdesktopSetAsBackground.desktop:27
+msgid "Tiled Maxpect"
+msgstr ""
+
+#. Name
+#: kdesktopSetAsBackground.desktop:32
+msgid "Scaled"
+msgstr ""
+
+#. Name
+#: kdesktopSetAsBackground.desktop:37
+#, fuzzy
+#| msgid "Centered"
+msgid "Centered Auto Fit"
+msgstr "居中"
+
+#. Name
+#: kdesktopSetAsBackground.desktop:42
+msgid "Scale & Crop"
+msgstr ""
+
+#. Comment
+#: kwebdesktop/kwebdesktop.desktop:2
+msgid "TDE Web Desktop"
+msgstr "TDE Web 桌面"
+
+#. Comment
+#: patterns/fish.desktop:2
+msgid "Fish Net"
+msgstr "渔网"
+
+#. Comment
+#: patterns/flowers.desktop:2
+msgid "Flowers"
+msgstr "花"
+
+#. Comment
+#: patterns/night-rock.desktop:2
+msgid "Night Rock by Tigert"
+msgstr "Tigert 的夜色中的岩石"
+
+#. Comment
+#: patterns/pavement.desktop:2
+msgid "Pavement"
+msgstr "人行道"
+
+#. Comment
+#: patterns/rattan.desktop:2
+msgid "Rattan"
+msgstr "藤条"
+
+#. Comment
+#: patterns/stonewall2.desktop:2
+msgid "Stonewall 2 by Tigert"
+msgstr "Tigert 的石墙 2"
+
+#. Comment
+#: patterns/triangles.desktop:2
+msgid "Triangles"
+msgstr "三角形"
+
+#. Comment
+#: programs/xearth.desktop:2
+msgid "XEarth by Kirk Johnson"
+msgstr "Kirk Johnson 的 XEarth"
+
+#. Comment
+#: programs/xglobe.desktop:2
+msgid "XGlobe by Thorsten Scheuermann"
+msgstr "Thorsten Scheuermann 的 XGlobe"
+
+#. Comment
+#: programs/xplanet.desktop:2
+msgid "XPlanet by Hari Nair"
+msgstr "Hari Nair 的 XPlanet"
