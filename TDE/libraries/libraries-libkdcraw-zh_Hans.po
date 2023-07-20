@@ -401,7 +401,7 @@ msgstr "自定义"
 
 #: libkdcraw/dcrawsettingswidget.cpp:475
 msgid ""
-"\"（<p><b>Camera Profile</b><p>Select here the input color space used to "
+"<p><b>Camera Profile</b><p>Select here the input color space used to "
 "decode RAW data.<p><b>None</b>: no input color profile is used during RAW "
 "decoding.<p><b>Embedded</b>: use embedded color profile from RAW file if "
 "exist.<p><b>Custom</b>: use a custom input color space profile."
