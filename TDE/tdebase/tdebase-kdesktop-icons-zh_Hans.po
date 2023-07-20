@@ -1,0 +1,275 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is put in the public domain.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-07 18:17+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Name
+#: Home.desktop:2
+msgid "Home"
+msgstr "主文件夹"
+
+#. GenericName
+#: Home.desktop:4
+msgid "Personal Files"
+msgstr "个人文件"
+
+#. Comment
+#: Home.desktop:6
+#, fuzzy
+msgid "Contains personal files"
+msgstr "个人文件"
+
+#. Name
+#: My_Computer:5
+msgid "My Computer"
+msgstr ""
+
+#. Comment
+#: My_Computer:7
+msgid "Access to storage media"
+msgstr ""
+
+#. Name
+#: My_Documents:5
+msgid "My Documents"
+msgstr "文档文件夹"
+
+#. Comment
+#: My_Documents:7
+msgid "Contains personal documents"
+msgstr ""
+
+#. Name
+#: My_Network_Places:5
+msgid "My Network Places"
+msgstr "远程位置"
+
+#. Comment
+#: My_Network_Places:7
+msgid "Access to network places and remote hosts"
+msgstr ""
+
+#. Name
+#: Printers:5
+msgid "Printers"
+msgstr "打印机"
+
+#. Comment
+#: Printers:7
+msgid "Manage print jobs"
+msgstr ""
+
+#. Name
+#: System.desktop:2
+msgid "System"
+msgstr "系统"
+
+#. GenericName
+#: System.desktop:4
+msgid "System Locations"
+msgstr "系统定位"
+
+#. Comment
+#: System.desktop:6
+msgid "Access to system places"
+msgstr ""
+
+#. Name
+#: Templates/CDROM-Device.desktop:12 Templates/CDWRITER-Device.desktop:12
+#: Templates/DVDROM-Device.desktop:12 Templates/ZIP-Device.desktop:12
+msgid "Eject"
+msgstr "弹出"
+
+#. Name
+#: Templates/Directory.desktop:2
+msgid "Folder..."
+msgstr "文件夹..."
+
+#. Comment
+#: Templates/Directory.desktop:3
+msgid "Enter folder name:"
+msgstr "输入文件夹名称："
+
+#. Name
+#: Templates/Floppy.desktop:3
+msgid "Format"
+msgstr "格式"
+
+#. Name
+#: Templates/HTMLFile.desktop:2
+msgid "HTML File..."
+msgstr "HTML 文件..."
+
+#. Comment
+#: Templates/HTMLFile.desktop:3
+msgid "Enter HTML filename:"
+msgstr "输入 HTML 文件名："
+
+#. Name
+#: Templates/TextFile.desktop:2
+msgid "Text File..."
+msgstr "文本文件..."
+
+#. Comment
+#: Templates/TextFile.desktop:3
+msgid "Enter text filename:"
+msgstr "输入文本文件名："
+
+#. Name
+#: Templates/linkCAMERA.desktop:2
+msgid "Camera Device..."
+msgstr "相机设备..."
+
+#. Comment
+#: Templates/linkCAMERA.desktop:3
+msgid "New camera"
+msgstr "新建相机"
+
+#. Name
+#: Templates/linkCDROM.desktop:2
+msgid "CD-ROM Device..."
+msgstr "CD-ROM 设备..."
+
+#. Comment
+#: Templates/linkCDROM.desktop:3
+msgid "New CD-ROM Device"
+msgstr "新建 CD-ROM 设备"
+
+#. Name
+#: Templates/linkCDWRITER.desktop:2
+msgid "CDWRITER Device..."
+msgstr "刻录机设备..."
+
+#. Comment
+#: Templates/linkCDWRITER.desktop:3
+msgid "New CDWRITER Device"
+msgstr "新建刻录机设备"
+
+#. Name
+#: Templates/linkDVDROM.desktop:2
+msgid "DVD-ROM Device..."
+msgstr "DVD-ROM 设备..."
+
+#. Comment
+#: Templates/linkDVDROM.desktop:3
+msgid "New DVD-ROM Device"
+msgstr "新建 DVD-ROM 设备"
+
+#. Name
+#: Templates/linkFloppy.desktop:2
+msgid "Floppy Device..."
+msgstr "软驱设备..."
+
+#. Comment
+#: Templates/linkFloppy.desktop:3
+msgid "New Floppy Device"
+msgstr "新建软驱设备"
+
+#. Name
+#: Templates/linkHD.desktop:2
+msgid "Hard Disc Device..."
+msgstr "硬盘设备..."
+
+#. Comment
+#: Templates/linkHD.desktop:3
+msgid "New Hard Disc"
+msgstr "新建硬盘"
+
+#. Name
+#: Templates/linkMO.desktop:2
+msgid "MO Device..."
+msgstr "MO 设备..."
+
+#. Comment
+#: Templates/linkMO.desktop:3
+msgid "New MO Device"
+msgstr "新建 MO 设备"
+
+#. Name
+#: Templates/linkNFS.desktop:2
+msgid "NFS..."
+msgstr ""
+
+#. Comment
+#: Templates/linkNFS.desktop:3
+msgid "New NFS Link"
+msgstr "新建 NFS 链接"
+
+#. Name
+#: Templates/linkProgram.desktop:2
+msgid "Link to Application..."
+msgstr "应用程序链接..."
+
+#. Comment
+#: Templates/linkProgram.desktop:3
+msgid "New Link to Application"
+msgstr "新建应用程序链接"
+
+#. Name
+#: Templates/linkURL.desktop:2
+msgid "Link to Location (URL)..."
+msgstr "到位置(URL)的链接..."
+
+#. Comment
+#: Templates/linkURL.desktop:3
+msgid "Enter link to location (URL):"
+msgstr "输入到位置(URL)的链接："
+
+#. Name
+#: Templates/linkZIP.desktop:2
+msgid "ZIP Device..."
+msgstr "ZIP 设备..."
+
+#. Comment
+#: Templates/linkZIP.desktop:3
+msgid "New ZIP Device"
+msgstr "新建 ZIP 设备"
+
+#. Name
+#: Trash:8
+msgid "Trash"
+msgstr "回收站"
+
+#. Comment
+#: Trash:10
+msgid "Contains removed files"
+msgstr ""
+
+#. Name
+#. GenericName
+#: Web_Browser:6 Web_Browser:8
+msgid "Web Browser"
+msgstr ""
+
+#. Comment
+#: Web_Browser:10
+msgid "Browse the World Wide Web"
+msgstr ""
+
+#. Name
+#: directory.autostart:3
+msgid "Autostart"
+msgstr "自动启动"
+
+#. Name
+#: directory.desktop:5
+msgid "Desktop"
+msgstr "桌面"
+
+#. Name
+#: directory.templates:3
+msgid "Templates"
+msgstr "模板"
