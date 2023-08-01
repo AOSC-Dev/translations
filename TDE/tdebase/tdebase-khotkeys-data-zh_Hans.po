@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# WanTao Liu <vantao@aosc.io>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 18:17+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-08-02 00:04+0800\n"
+"Last-Translator: WanTao Liu <vantao@aosc.io>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:5
@@ -35,14 +36,13 @@ msgstr "Konqueror 窗口"
 #: konqueror_gestures_trinity21.khotkeys:20
 #: konqueror_gestures_trinity21.khotkeys:26 trinity2b1.khotkeys:226
 #: trinity2b1.khotkeys:232
-#, fuzzy
 msgid "Konqueror"
-msgstr "Konqueror 窗口"
+msgstr "Konqueror"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:35
 msgid "Press, move left, release."
-msgstr ""
+msgstr "按下，向左移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:37 trinity2b1.khotkeys:242
@@ -55,11 +55,13 @@ msgid ""
 "Opera-style: Press, move up, release.\n"
 "NOTE: Conflicts with 'New Tab', and as such is disabled by default."
 msgstr ""
+"Opera-style：按下，向上移动，释放。\n"
+"注意：与“新标签”冲突，因此被默认为禁用。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:43
 msgid "Stop Loading"
-msgstr ""
+msgstr "停止加载"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:58
@@ -86,6 +88,8 @@ msgid ""
 "Going up in URL/directory structure.\n"
 "Mozilla-style: Press, move up, move left, move up, release."
 msgstr ""
+"浏览 URL 或目录的上一级。\n"
+"Mozilla-style：按下，向上移动，向左移动，向上移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:68 trinity2b1.khotkeys:306
@@ -100,57 +104,59 @@ msgid ""
 "NOTE: Conflicts with  \"Activate Previous Tab\", and as such is disabled by "
 "default."
 msgstr ""
+"浏览 URL 或目录的上一级。\n"
+"Opera-style：按下，向上移动，向左移动，向上移动，释放。\n"
+"注意：与“激活上一个标签页”冲突，因此被默认为禁用。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:93
 msgid "Up #2"
-msgstr ""
+msgstr "Up #2"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:116
 msgid "Press, move up, move right, release."
-msgstr ""
+msgstr "按下，向上移动，向右移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:118
 msgid "Activate Next Tab"
-msgstr ""
+msgstr "激活下一个标签页"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:141
 msgid "Press, move up, move left, release."
-msgstr ""
+msgstr "按下，向上移动，向左移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:143
 msgid "Activate Previous Tab"
-msgstr ""
+msgstr "激活上一个标签页"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:185
 msgid "Press, move down, move up, move down, release."
-msgstr ""
+msgstr "按下，向下移动，向上移动，向下移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:187
 msgid "Duplicate Tab"
-msgstr ""
+msgstr "复制标签页"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:210
 msgid "Press, move down, move up, release."
-msgstr ""
+msgstr "按下，向下移动，向上移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:212
-#, fuzzy
 msgid "Duplicate Window"
-msgstr "新建窗口"
+msgstr "复制窗口"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:235
 msgid "Press, move right, release."
-msgstr ""
+msgstr "按下，向右移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:237 trinity2b1.khotkeys:274
@@ -163,11 +169,13 @@ msgid ""
 "Press, move down, move half up, move right, move down, release.\n"
 "(Drawing a lowercase 'h'.)"
 msgstr ""
+"按下，向下移动，向上移动一半，向右移动，向下移动，释放。\n"
+"（画一个小写的“h”）"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:262
 msgid "Home"
-msgstr "主文件夹"
+msgstr "首页"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:289
@@ -175,11 +183,13 @@ msgid ""
 "Press, move right, move down, move right, release.\n"
 "Mozilla-style: Press, move down, move right, release."
 msgstr ""
+"按下，向右移动，向下移动，向右移动，释放。\n"
+"Mozilla-style：按下，向下移动，向右移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:291
 msgid "Close Tab"
-msgstr ""
+msgstr "关闭标签页"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:318
@@ -187,16 +197,18 @@ msgid ""
 "Press, move up, release.\n"
 "Conflicts with Opera-style 'Up #2', which is disabled by default."
 msgstr ""
+"按下，向上移动，释放。\n"
+"与 Opera-style 的“Up #2”相冲突，后者被默认为禁用。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:320
 msgid "New Tab"
-msgstr ""
+msgstr "新建标签页"
 
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:343
 msgid "Press, move down, release."
-msgstr ""
+msgstr "按下，向下移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:345
@@ -206,50 +218,51 @@ msgstr "新建窗口"
 #. Comment
 #: konqueror_gestures_trinity21.khotkeys:368
 msgid "Press, move up, move down, release."
-msgstr ""
+msgstr "按下，向上移动，向下移动，释放。"
 
 #. Name
 #: konqueror_gestures_trinity21.khotkeys:370 trinity2b1.khotkeys:338
 msgid "Reload"
-msgstr "重新装入"
+msgstr "重新加载"
 
 #. Comment
 #: printscreen.khotkeys:5
 msgid "This group contains actions that are set up by default."
-msgstr ""
+msgstr "该组包含了预设操作。"
 
 #. Name
 #: printscreen.khotkeys:8
 msgid "Preset Actions"
-msgstr ""
+msgstr "预设操作"
 
 #. Comment
 #: printscreen.khotkeys:17
 msgid "Launches KSnapShot when PrintScrn is pressed."
-msgstr ""
+msgstr "按下 PrintScrn 键时启动 KSnapShot。"
 
 #. Name
 #: printscreen.khotkeys:19
 msgid "PrintScreen"
-msgstr ""
+msgstr "截图行为"
 
 #. Comment
 #: printscreen.khotkeys:33 printscreen.khotkeys:57 trinity2b1.khotkeys:46
 #: trinity2b1.khotkeys:71 trinity2b1.khotkeys:95 trinity2b1.khotkeys:163
 #: trinity2b1.khotkeys:203 trinity2b1.khotkeys:385
 msgid "Simple_action"
-msgstr ""
+msgstr "简单操作"
 
 #. Comment
 #: printscreen.khotkeys:41
 msgid ""
 "Launches KSnapShot in window capture mode when ALT+PrintScrn is pressed.\n"
 msgstr ""
+"当按下 ALT+PrintScrn 组合键时，KSnapShot 将会在窗口捕捉模式下被启动。\n"
 
 #. Name
 #: printscreen.khotkeys:43
 msgid "PrintWindow"
-msgstr ""
+msgstr "窗口截图行为"
 
 #. Comment
 #: trinity2b1.khotkeys:5
@@ -257,11 +270,13 @@ msgid ""
 "This group contains various examples demonstrating most of the features of "
 "KHotkeys. (Note that this group and all its actions are disabled by default.)"
 msgstr ""
+"该群组包含了丰富的针对大部分 KHotkeys 特性的实例演示（请注意，该群组及其所包"
+"含的所有操作都被默认为禁用）。"
 
 #. Name
 #: trinity2b1.khotkeys:8
 msgid "Examples"
-msgstr ""
+msgstr "实例"
 
 #. Comment
 #: trinity2b1.khotkeys:16
@@ -269,21 +284,22 @@ msgid ""
 "After pressing Ctrl+Alt+I, the KSIRC window will be activated, if it exists. "
 "Simple."
 msgstr ""
+"按下 Ctrl+Alt+I 组合键时，KSIRC 窗口将被激活（如果存在的话），就是这么简单。"
 
 #. Name
 #: trinity2b1.khotkeys:18
 msgid "Activate KSIRC Window"
-msgstr ""
+msgstr "激活 KSIRC 窗口"
 
 #. Comment
 #: trinity2b1.khotkeys:28
 msgid "KSIRC window"
-msgstr ""
+msgstr "KSIRC 窗口"
 
 #. Comment
 #: trinity2b1.khotkeys:34
 msgid "KSIRC"
-msgstr ""
+msgstr "KSIRC"
 
 #. Comment
 #: trinity2b1.khotkeys:54
@@ -301,21 +317,32 @@ msgid ""
 ": (colon)                                  Shift+;\n"
 "' '  (space)                              Space"
 msgstr ""
+"按下 Alt+Ctrl+H 组合键时，“Hello”就会像是您亲自敲键盘一样地被模拟并输入。当您"
+"懒得亲自键入“unsigned”这样的字符串的时候，这招就特别管用。输入的每个按键 "
+"(keypresses) 都由冒号“:”隔开。请注意，按键 (keypresses) 是指在键盘上真实地敲"
+"击，所以您必须写入你在键盘上真正按下的键。在下面的表格中，左栏显示了将要被模"
+"拟的输入，右栏则显示了对应左侧输入的所要执行的（组合）键。\n"
+"\n"
+"“回车”（即新的一行）\t\t\tEnter 或 Return\n"
+"a（小写字母a）\t\t\tA\n"
+"A（大写字母A）\t\t\tShift+A\n"
+":（英文冒号）\t\t\tShift+;\n"
+"“ ”（空格）\t\t\tSpace"
 
 #. Name
 #: trinity2b1.khotkeys:56
 msgid "Type 'Hello'"
-msgstr ""
+msgstr "键入“Hello”"
 
 #. Comment
 #: trinity2b1.khotkeys:79
 msgid "This action runs Konsole, after pressing Ctrl+Alt+T."
-msgstr ""
+msgstr "按下 Ctrl+Alt+T 组合键时，运行 Konsole。"
 
 #. Name
 #: trinity2b1.khotkeys:81
 msgid "Run Konsole"
-msgstr ""
+msgstr "运行 Konsole"
 
 #. Comment
 #: trinity2b1.khotkeys:103
@@ -338,16 +365,33 @@ msgid ""
 "Qt Designer seems to always have title 'Qt Designer by Trolltech', so the "
 "condition will check for the active window having that title."
 msgstr ""
+"首先请阅读关于“键入‘Hello’”操作的注释。\n"
+"\n"
+"Qt Designer 使用 Ctrl+F4 组合键来关闭窗口（也许是因为 MS Windows 也这样做）。"
+"但是 Ctrl+F4 组合键在 TDE 中代表进入虚拟桌面 4，所以该操作（进入虚拟桌面 4）"
+"在 Qt Designer 中不起作用。而且，Qt Designer 也不使用 TDE 的标准操作（即 "
+"Ctrl+W）来关闭窗口。\n"
+"\n"
+"但这个问题可以通过在活动窗口为 Qt Designer 时，将 Ctrl+W 组合键重设为 "
+"Ctrl+F4 来解决。当 Qt Designer 处于活动状态时，每当按下 Ctrl+W 组合键时，"
+"Ctrl+F4 将作为替代，被发送给 Qt Designer。在其他应用程序中，Ctrl+W 组合键仍然"
+"按照常规方式工作。\n"
+"\n"
+"我们现在需要指定三件事：一个新的用以触发“Ctrl+W”的组合键设定，一个新的用以发"
+"送 Ctrl+F4 组合键的键盘输入操作，以及一个新的（令上述操作有效的）条件，即活动"
+"窗口应当为 Qt Designer。\n"
+"Qt Designer 似乎总是以“Qt Designer by Trolltech”为标题，所以这个（令上述操作"
+"有效的）条件将检查活动窗口是否有这个标题。"
 
 #. Name
 #: trinity2b1.khotkeys:105
 msgid "Remap Ctrl+W to Ctrl+F4 in Qt Designer"
-msgstr ""
+msgstr "在 Qt Designer 中重映射 Ctrl+W 组合键为 Ctrl+F4"
 
 #. Comment
 #: trinity2b1.khotkeys:123
 msgid "Qt Designer"
-msgstr "Qt 设计器"
+msgstr "Qt Designer"
 
 #. Comment
 #: trinity2b1.khotkeys:144
@@ -356,11 +400,13 @@ msgid ""
 "minicli. You can use any kind of DCOP call, just like using the command line "
 "'dcop' tool."
 msgstr ""
+"通过按下 Alt+Ctrl+W 组合键，将执行一个 DCOP 调用以显示 minicli。您可以使用任"
+"何种类的 DCOP 调用，就像使用命令行工具“dcop”一样。"
 
 #. Name
 #: trinity2b1.khotkeys:146
 msgid "Perform DCOP call 'kdesktop KDesktopIface popupExecuteCommand()'"
-msgstr ""
+msgstr "执行 DCOP 以调用“kdesktop KDesktopIface popupExecuteCommand()”"
 
 #. Comment
 #: trinity2b1.khotkeys:171
@@ -377,21 +423,30 @@ msgid ""
 "(Run 'xprop' and click on the XMMS window and search for WM_CLASS to see "
 "'XMMS_Player')."
 msgstr ""
+"首先请阅读关于“键入‘Hello’”操作的注释。\n"
+"\n"
+"如同“键入‘Hello’”操作一样，该操作模拟了键盘输入，具体来说，在按下 Ctrl+Alt+B "
+"组合键时，它将模拟键盘输入 B 并发送到 XMMS （在 XMMS 中，B 意味着跳到下一首歌"
+"曲）。选中“发送到特定窗口”复选框，并指定一个包含“XMMS_Player”类的窗口；该操作"
+"将使得输入的内容总是被发送到指定的窗口，通过这样设置，即使 XMMS 在不同的虚拟"
+"桌面上，您也可以保持控制。\n"
+"\n"
+"(运行“xprop”并点击 XMMS 窗口，搜索 WM_CLASS 以查看“XMMS_Player”）。"
 
 #. Name
 #: trinity2b1.khotkeys:173
 msgid "Next in XMMS"
-msgstr ""
+msgstr "在 XMMS 中的下一个"
 
 #. Comment
 #: trinity2b1.khotkeys:185
 msgid "XMMS window"
-msgstr ""
+msgstr "XMMS 窗口"
 
 #. Comment
 #: trinity2b1.khotkeys:191
 msgid "XMMS Player window"
-msgstr ""
+msgstr "XMMS 播放器窗口"
 
 #. Comment
 #: trinity2b1.khotkeys:211
@@ -428,6 +483,32 @@ msgid ""
 "are active only if the active window is Konqueror (class contains "
 "'konqueror')."
 msgstr ""
+"好了，TDE 中的 Konqi 有了标签页功能，您现在也可以使用手势操作啦，不需要再去使"
+"用其他浏览器了吧 （偷偷抹泪）。\n"
+"\n"
+"只需按下鼠标中键，然后开始绘制众多手势中的任意一种，当您完成后，释放鼠标中"
+"键。如果您不想进行手势操作，只是想粘贴选区，那么请点击鼠标中键（您也可以在全"
+"局设置中改变要使用的特定鼠标按钮）。\n"
+"\n"
+"目前为止，有以下手势操作可用：\n"
+"向右和向左后移动 - 前进 (ALt+Right)\n"
+"向左和向右移动 - 后退 (Alt+Left)\n"
+"向上和向下移动 - 向上 (Alt+Up)\n"
+"逆时针转圈 - 重新加载 (F5)。\n"
+"（一旦我发现哪些手势是 Opera 或 Mozilla 中存在而我们缺失的，我将尽快补充，并"
+"会确保它们是相同的。或者您也可以自己动手，欢迎帮助我，并将您的 khotkeysrc 发"
+"给我。）\n"
+"手势形状可以简单地通过在配置对话框（有些对话框来自 KGesture，感谢 Mike "
+"Pilone）中执行它们而输入。您也可以看一眼您的数字键盘来辅助您理解，手势的识别"
+"就像一个编号为从 1 到 9 的 3x3 网格区域。\n"
+"\n"
+"请注意，您必须通过准确地执行手势来触发操作。也正因为如此，才有可能为指定的操"
+"作输入更多的手势。您也应该尽量避免复杂的手势，即多次改变鼠标移动的方向（例"
+"如，像 1236987 这类手势可能已经相当困难，建议设置像 45654 或 74123 这类手势，"
+"因为它们执行起来很简单）。\n"
+"\n"
+"所有手势的（触发）条件都已经在该组中定义，即所有手势都只有在活动窗口是 "
+"Konqueror（手势类中包含 “konqueror”）时才会生效。"
 
 #. Name
 #: trinity2b1.khotkeys:214
@@ -441,8 +522,10 @@ msgid ""
 "http://www.trinitydesktop.org . You may run all kind of commands you can run "
 "in minicli (Alt+F2)."
 msgstr ""
+"在按下 Win+E (Tux+E) 组合键时，将启动浏览器并打开 http://www.trinitydesktop."
+"org 网站。您可以运行所有您能够在 minicli (Alt+F2) 中运行的命令。"
 
 #. Name
 #: trinity2b1.khotkeys:371
 msgid "Go to TDE Website"
-msgstr "转到 TDE 网站"
+msgstr "浏览 TDE 官方网站"
