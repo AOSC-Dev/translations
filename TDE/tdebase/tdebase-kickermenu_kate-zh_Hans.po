@@ -1,0 +1,75 @@
+# translation of kicker.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.net.cn>, 2000
+# Jiang Xiong <jxiong@offtopic.org>, 2002
+# Xiong Jiang <jxiong@offtopic.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-05-11 04:02+0200\n"
+"PO-Revision-Date: 2005-08-21 17:13+0800\n"
+"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Instead of a literal translation, add your name to the end of the list (separated by a comma).
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr ""
+
+#. Instead of a literal translation, add your email to the end of the list (separated by a comma).
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr ""
+
+#: katesessionmenu.cpp:69
+msgid "Start Kate (no arguments)"
+msgstr "启动 Kate(无参数)"
+
+#: katesessionmenu.cpp:72
+msgid "New Kate Session"
+msgstr "新建 Kate 会话"
+
+#: katesessionmenu.cpp:75
+msgid "New Anonymous Session"
+msgstr "新建匿名会话"
+
+#: katesessionmenu.cpp:95
+msgid "Unnamed"
+msgstr ""
+
+#: katesessionmenu.cpp:120
+msgid "Reload Session List"
+msgstr "重新装入会话列表"
+
+#: katesessionmenu.cpp:136
+msgid "Session Name"
+msgstr "会话名称"
+
+#: katesessionmenu.cpp:137
+msgid "Please enter a name for the new session"
+msgstr "请输入新会话的名称"
+
+#: katesessionmenu.cpp:144
+msgid ""
+"An unnamed session will not be saved automatically. Do you want to create "
+"such a session?"
+msgstr "未命名会话不会自动保存。您是否想要创建这样的会话？"
+
+#: katesessionmenu.cpp:146
+msgid "Create anonymous session?"
+msgstr "创建匿名会话吗？"
+
+#: katesessionmenu.cpp:153
+msgid "You allready have a session named %1. Do you want to open that session?"
+msgstr "您已经有名为 %1 的会话。您是否想要打开该会话？"
+
+#: katesessionmenu.cpp:154
+msgid "Session exists"
+msgstr "会话已存在"
