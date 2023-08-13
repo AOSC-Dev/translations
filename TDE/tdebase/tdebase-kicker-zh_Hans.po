@@ -1,0 +1,1224 @@
+# translation of kicker.po to zh_CN
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Wang Jian <lark@linux.net.cn>, 2000
+# Jiang Xiong <jxiong@offtopic.org>, 2002
+# Xiong Jiang <jxiong@offtopic.org>, 2003
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-05-23 18:15+0000\n"
+"PO-Revision-Date: 2005-08-21 17:13+0800\n"
+"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Translator: Wang Jian <lark@linux.net.cn>\n"
+"X-Generator: KBabel 1.0\n"
+
+#. Instead of a literal translation, add your name to the end of the list (separated by a comma).
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "开源软件国际化之简体中文组"
+
+#. Instead of a literal translation, add your email to the end of the list (separated by a comma).
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "i18n-translation@lists.linux.net.cn"
+
+#: buttons/browserbutton.cpp:71
+#, c-format
+msgid "Browse: %1"
+msgstr "浏览：%1"
+
+#: buttons/desktopbutton.cpp:44
+msgid "Show desktop"
+msgstr "显示桌面"
+
+#: buttons/desktopbutton.cpp:45 core/container_button.h:102
+msgid "Desktop Access"
+msgstr "桌面访问"
+
+#: buttons/kbutton.cpp:45
+msgid "Applications, tasks and desktop sessions"
+msgstr "应用程序、任务和桌面会话"
+
+#: buttons/kbutton.cpp:46 buttons/knewbutton.cpp:59 core/container_button.h:89
+#: ui/k_mnu.cpp:89
+msgid "TDE Menu"
+msgstr "K 菜单"
+
+#: buttons/nontdeappbutton.cpp:245
+msgid "Cannot execute non-TDE application."
+msgstr "无法执行非 TDE 应用程序。"
+
+#: buttons/nontdeappbutton.cpp:246
+msgid "Kicker Error"
+msgstr "Kicker 错误"
+
+#: buttons/servicemenubutton.cpp:62 ui/k_new_mnu.cpp:1374 ui/k_new_mnu.cpp:1872
+#: ui/k_new_mnu.h:70
+msgid "Applications"
+msgstr "应用程序"
+
+#: buttons/urlbutton.cpp:192
+msgid "The file %1 does not exist"
+msgstr "文件 %1 不存在"
+
+#: buttons/windowlistbutton.cpp:39
+msgid "Window List"
+msgstr "窗口列表"
+
+#: buttons/windowlistbutton.cpp:40
+msgid "Window list"
+msgstr "窗口列表"
+
+#: core/applethandle.cpp:69
+msgid "%1 menu"
+msgstr "%1 菜单"
+
+#: core/applethandle.cpp:72
+msgid "%1 applet handle"
+msgstr "%1 小程序把手"
+
+#: core/container_applet.cpp:111
+msgid "The %1 applet could not be loaded. Please check your installation."
+msgstr "小程序 %1 无法装入。请检查您的安装。"
+
+#: core/container_applet.cpp:113
+msgid "Applet Loading Error"
+msgstr "小程序装入错误"
+
+#: core/container_button.h:133 ui/k_mnu.cpp:346
+msgid "Quick Browser"
+msgstr "快速浏览器"
+
+#: core/container_button.h:155
+#, fuzzy
+msgid "Windowlist"
+msgstr "窗口列表"
+
+#: core/container_button.h:180
+#, fuzzy
+msgid "Non-TDE Application"
+msgstr "添加非 TDE 应用程序"
+
+#: core/container_extension.cpp:1688 core/container_extension.cpp:1701
+msgid "Show panel"
+msgstr "显示面板"
+
+#: core/container_extension.cpp:1692 core/container_extension.cpp:1705
+msgid "Hide panel"
+msgstr "隐藏面板"
+
+#: core/extensionmanager.cpp:120
+msgid ""
+"The TDE panel (kicker) could not load the main panel due to a problem with "
+"your installation. "
+msgstr "TDE 面板(kicker)无法装入主面板，原因是您的安装有问题。"
+
+#: core/extensionmanager.cpp:122
+msgid "Fatal Error!"
+msgstr "严重错误！"
+
+#: core/kickerbindings.cpp:39
+msgid "Panel"
+msgstr "面板"
+
+#: core/kickerbindings.cpp:40
+msgid "Popup Launch Menu"
+msgstr "弹出启动菜单"
+
+#: core/kickerbindings.cpp:45
+msgid "Toggle Showing Desktop"
+msgstr "切换显示桌面"
+
+#: core/main.cpp:47
+msgid "The TDE panel"
+msgstr "TDE 面板"
+
+#: core/main.cpp:110
+#, fuzzy
+#| msgid "Kicker Error"
+msgid "Kicker"
+msgstr "Kicker 错误"
+
+#: core/main.cpp:112
+#, fuzzy
+msgid "(c) 1999-2010, The KDE Team"
+msgstr "(c) 1999-2004，TDE 团队"
+
+#: core/main.cpp:114
+msgid "Current maintainer"
+msgstr "当前维护者"
+
+#: core/main.cpp:123
+msgid "Kiosk mode"
+msgstr "Kiosk 模式"
+
+#: core/panelextension.cpp:340
+msgid "Add &Applet to Menubar..."
+msgstr "将小程序添加到菜单栏(&A)..."
+
+#: core/panelextension.cpp:341
+msgid "Add &Applet to Panel..."
+msgstr "将小程序添加到面板(&A)..."
+
+#: core/panelextension.cpp:344
+msgid "Add Appli&cation to Menubar"
+msgstr "将应用程序添加到菜单栏(&C)"
+
+#: core/panelextension.cpp:345
+msgid "Add Appli&cation to Panel"
+msgstr "将应用程序添加到面板(&C)"
+
+#: core/panelextension.cpp:349
+msgid "&Remove From Menubar"
+msgstr "从菜单栏删除(&R)"
+
+#: core/panelextension.cpp:350
+msgid "&Remove From Panel"
+msgstr "从面板删除(&R)"
+
+#: core/panelextension.cpp:355
+msgid "Add New &Panel"
+msgstr "添加新面板(&P)"
+
+#: core/panelextension.cpp:357
+msgid "Remove Pa&nel"
+msgstr "删除面板(&N)"
+
+#: core/panelextension.cpp:364 core/panelextension.cpp:372
+msgid "&Lock Panels"
+msgstr "锁定面板(&L)"
+
+#: core/panelextension.cpp:371
+msgid "Un&lock Panels"
+msgstr "解锁面板(&L)"
+
+#: core/panelextension.cpp:379
+msgid "&Configure Panel..."
+msgstr "配置面板(&C)..."
+
+#: core/panelextension.cpp:385
+msgid "&Launch Process Manager..."
+msgstr ""
+
+#: ui/addapplet.cpp:234
+msgid "Add Applet"
+msgstr "添加小程序"
+
+#: ui/addappletvisualfeedback.cpp:61
+msgid "%1 Added"
+msgstr "添加了 %1"
+
+#: ui/appletop_mnu.cpp:52
+msgid "&Move %1 Menu"
+msgstr "移动%1菜单(&M)"
+
+#: ui/appletop_mnu.cpp:53
+msgid "&Move %1 Button"
+msgstr "移动%1按钮(&M)"
+
+#: ui/appletop_mnu.cpp:54
+#, c-format
+msgid "&Move %1"
+msgstr "移动%1(&M)"
+
+#: ui/appletop_mnu.cpp:76
+msgid "&Remove %1 Menu"
+msgstr "删除%1菜单(&R)"
+
+#: ui/appletop_mnu.cpp:77
+msgid "&Remove %1 Button"
+msgstr "删除%1按钮(&R)"
+
+#: ui/appletop_mnu.cpp:78
+#, c-format
+msgid "&Remove %1"
+msgstr "删除%1(&R)"
+
+#: ui/appletop_mnu.cpp:92 ui/extensionop_mnu.cpp:43
+msgid "Report &Bug..."
+msgstr "报告错误(&B)..."
+
+#: ui/appletop_mnu.cpp:106
+#, c-format
+msgid "&About %1"
+msgstr "关于 %1(&A)"
+
+#: ui/appletop_mnu.cpp:126
+msgid "&Configure %1 Button..."
+msgstr "配置 %1 按钮(&C)..."
+
+#: ui/appletop_mnu.cpp:131 ui/extensionop_mnu.cpp:62
+msgid "&Configure %1..."
+msgstr "配置 %1(&C)..."
+
+#: ui/appletop_mnu.cpp:144
+msgid "Applet Menu"
+msgstr "小程序菜单"
+
+#: ui/appletop_mnu.cpp:145
+msgid "%1 Menu"
+msgstr "%1菜单"
+
+#: ui/appletop_mnu.cpp:173
+msgid "Switch to Kickoff Menu Style"
+msgstr ""
+
+#: ui/appletop_mnu.cpp:175
+msgid "Switch to Trinity Classic Menu Style"
+msgstr ""
+
+#: ui/appletop_mnu.cpp:186
+msgid "&Menu Editor"
+msgstr "菜单编辑器(&M)"
+
+#: ui/appletop_mnu.cpp:201
+msgid "&Edit Bookmarks"
+msgstr "编辑书签(&E)"
+
+#: ui/appletop_mnu.cpp:210
+msgid "Panel Menu"
+msgstr "面板菜单"
+
+#: ui/browser_dlg.cpp:39
+msgid "Quick Browser Configuration"
+msgstr "快速浏览器配置"
+
+#: ui/browser_dlg.cpp:47
+msgid "Button icon:"
+msgstr "按钮图标："
+
+#: ui/browser_dlg.cpp:56
+msgid "Path:"
+msgstr "路径："
+
+#: ui/browser_dlg.cpp:63
+msgid "&Browse..."
+msgstr "浏览(&B)..."
+
+#: ui/browser_dlg.cpp:87
+msgid "Select Folder"
+msgstr "选择文件夹"
+
+#: ui/browser_dlg.cpp:100
+msgid "'%1' is not a valid folder."
+msgstr "“%1”不是有效的文件夹。"
+
+#: ui/browser_mnu.cpp:127 ui/browser_mnu.cpp:136
+msgid "Failed to Read Folder"
+msgstr "读取文件夹失败"
+
+#: ui/browser_mnu.cpp:144
+msgid "Not Authorized to Read Folder"
+msgstr "未授权读取文件夹"
+
+#: ui/browser_mnu.cpp:154
+msgid "Open in File Manager"
+msgstr "在文件管理器中打开"
+
+#: ui/browser_mnu.cpp:156
+msgid "Open in Terminal"
+msgstr "在终端中打开"
+
+#: ui/browser_mnu.cpp:302
+msgid "More"
+msgstr "更多"
+
+#: ui/dirdrop_mnu.cpp:32
+msgid "Add as &File Manager URL"
+msgstr "添加为文件管理器 URL(&F)"
+
+#: ui/dirdrop_mnu.cpp:34
+msgid "Add as Quick&Browser"
+msgstr "添加为快速浏览器条目(&B)"
+
+#: ui/exe_dlg.cpp:52 ui/exe_dlg.cpp:56
+msgid "Non-TDE Application Configuration"
+msgstr "非 TDE 应用程序的配置"
+
+#: ui/exe_dlg.cpp:189
+msgid ""
+"The selected file is not executable.\n"
+"Do you want to select another file?"
+msgstr ""
+"选中的文件无法执行。\n"
+"您要选择其它文件吗？"
+
+#: ui/exe_dlg.cpp:190
+msgid "Not Executable"
+msgstr "不可执行"
+
+#: ui/exe_dlg.cpp:190
+msgid "Select Other"
+msgstr "选择其它"
+
+#: ui/itemview.cpp:475 ui/k_new_mnu.cpp:1002
+#, fuzzy
+msgid "New Applications"
+msgstr "应用程序"
+
+#: ui/itemview.cpp:479
+msgid "Restart Computer"
+msgstr ""
+
+#: ui/itemview.cpp:482 ui/k_mnu.cpp:404 ui/k_new_mnu.cpp:1329
+msgid "Switch User"
+msgstr "切换用户"
+
+#: ui/itemview.cpp:860
+#, fuzzy, c-format
+msgid "Host: %1"
+msgstr "浏览：%1"
+
+#: ui/itemview.cpp:1170
+msgid "Directory: /)"
+msgstr ""
+
+#: ui/itemview.cpp:1172
+msgid "Directory: "
+msgstr ""
+
+#: ui/k_mnu.cpp:277
+msgid " Click here to search..."
+msgstr ""
+
+#: ui/k_mnu.cpp:281
+msgid " Press '%1' to search..."
+msgstr ""
+
+#: ui/k_mnu.cpp:285
+msgid " Press '%1' or '%2' to search..."
+msgstr ""
+
+#: ui/k_mnu.cpp:297
+#, fuzzy
+msgid "Search"
+msgstr "搜索(&S)："
+
+#: ui/k_mnu.cpp:297
+#, fuzzy
+#| msgid "TDE Menu"
+msgid "TDE Menu search"
+msgstr "K 菜单"
+
+#: ui/k_mnu.cpp:312
+msgid "All Applications"
+msgstr "全部应用程序"
+
+#: ui/k_mnu.cpp:314 ui/k_new_mnu.h:70
+msgid "Actions"
+msgstr "动作"
+
+#: ui/k_mnu.cpp:395 ui/k_new_mnu.cpp:1391
+msgid "Run Command..."
+msgstr "运行命令..."
+
+#: ui/k_mnu.cpp:416 ui/k_new_mnu.cpp:1323
+msgid "Save Session"
+msgstr "保存会话"
+
+#: ui/k_mnu.cpp:421
+msgid "Lock Session"
+msgstr "锁住会话"
+
+#: ui/k_mnu.cpp:426
+msgid "Log Out..."
+msgstr "注销..."
+
+#: ui/k_mnu.cpp:502 ui/k_new_mnu.cpp:912 ui/k_new_mnu.cpp:1505
+msgid "Lock Current && Start New Session"
+msgstr "锁住当前会话并启动新会话"
+
+#: ui/k_mnu.cpp:504 ui/k_new_mnu.cpp:909 ui/k_new_mnu.cpp:1506
+msgid "Start New Session"
+msgstr "启动新会话"
+
+#: ui/k_mnu.cpp:536 ui/k_new_mnu.cpp:1538
+msgid ""
+"<p>You have chosen to open another desktop session.<br>The current session "
+"will be hidden and a new login screen will be displayed.<br>An F-key is "
+"assigned to each session; F%1 is usually assigned to the first session, F%2 "
+"to the second session and so on. You can switch between sessions by pressing "
+"Ctrl, Alt and the appropriate F-key at the same time. Additionally, the TDE "
+"Panel and Desktop menus have actions for switching between sessions.</p>"
+msgstr ""
+"<p>您已经选择打开另一个桌面会话。<br>当前会话将被隐藏，新的登录屏幕将会出现。"
+"<br>每个会话被分配一个 F-功能键：F%1 当前分配给第一个会话，F%2 分配给第二个会"
+"话，等等。您可以同时按下 Ctrl、Alt 和相应的 F-功能键切换到不同的会话。此外，"
+"TDE 面板和桌面菜单也可用于切换会话。</p>"
+
+#: ui/k_mnu.cpp:547 ui/k_new_mnu.cpp:1549
+msgid "Warning - New Session"
+msgstr "警告 - 新会话"
+
+#: ui/k_mnu.cpp:548 ui/k_new_mnu.cpp:1550
+msgid "&Start New Session"
+msgstr "启动新会话(&S)"
+
+#: ui/k_new_mnu.cpp:226
+msgid "User&nbsp;<b>%1</b>&nbsp;on&nbsp;<b>%2</b>"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:245
+msgid "Most commonly used applications and documents"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:248
+#, fuzzy
+msgid "List of installed applications"
+msgstr "最常使用的应用程序"
+
+#: ui/k_new_mnu.cpp:253
+msgid ""
+"Information and configuration of your system, access to personal files, "
+"network resources and connected disk drives"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:262
+#, fuzzy
+msgid "Recently used applications and documents"
+msgstr "最近用过的应用程序"
+
+#: ui/k_new_mnu.cpp:266
+msgid "<qt>Logout, switch user, switch off or reset, suspend of the system"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:270
+msgid "<p align=\"center\"> <u>F</u>avorites</p>"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:271
+msgid "<p align=\"center\"><u>H</u>istory</p>"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:273
+msgid "<p align=\"center\"> <u>C</u>omputer</p>"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:274
+msgid "<p align=\"center\"><u>A</u>pplications</p>"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:276
+msgid "<p align=\"center\"><u>L</u>eave</p>"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:336
+msgid "Search Internet"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:429
+#, fuzzy
+msgid "Applications, Contacts and Documents"
+msgstr "应用程序、任务和桌面会话"
+
+#: ui/k_new_mnu.cpp:898
+msgid "Start '%1'"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:900
+msgid "Start '%1' (current)"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:902
+msgid "Restart and boot directly into '%1'"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:910
+#, fuzzy
+msgid "Start a parallel session"
+msgstr "启动新会话"
+
+#: ui/k_new_mnu.cpp:913
+#, fuzzy
+msgid "Lock screen and start a parallel session"
+msgstr "锁住当前会话并启动新会话"
+
+#: ui/k_new_mnu.cpp:924
+msgid "Switch to Session of User '%1'"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:925
+#, fuzzy, c-format
+msgid "Session: %1"
+msgstr "保存会话"
+
+#: ui/k_new_mnu.cpp:1311
+#, fuzzy
+msgid "Session"
+msgstr "保存会话"
+
+#: ui/k_new_mnu.cpp:1313
+#, fuzzy
+msgid "Log out"
+msgstr "注销..."
+
+#: ui/k_new_mnu.cpp:1314
+#, fuzzy
+msgid "End current session"
+msgstr "保存会话"
+
+#: ui/k_new_mnu.cpp:1316
+msgid "Lock"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1317
+#, fuzzy
+msgid "Lock computer screen"
+msgstr "锁住会话"
+
+#: ui/k_new_mnu.cpp:1324
+msgid "Save current Session for next login"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1330
+msgid "Manage parallel sessions"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1344
+msgid "System"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1345
+msgid "Shutdown"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1346
+msgid "Turn off computer"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1348
+msgid "&Restart"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1349
+msgid "Restart computer and boot the default system"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1359
+msgid "Start Operating System"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1360
+msgid "Restart and boot another operating system"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1395
+#, fuzzy
+msgid "System Folders"
+msgstr "选择文件夹"
+
+#: ui/k_new_mnu.cpp:1397
+#, fuzzy
+msgid "Home Folder"
+msgstr "主文件夹(&H)"
+
+#: ui/k_new_mnu.cpp:1406
+msgid "My Documents"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1415
+msgid "My Images"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1424
+msgid "My Music"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1433
+msgid "My Videos"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1442
+msgid "My Downloads"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1445
+#, fuzzy
+msgid "Network Folders"
+msgstr "选择文件夹"
+
+#: ui/k_new_mnu.cpp:1670
+msgid ""
+"<center><b>%1</b></center>\n"
+"You do not have permission to execute this command."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1698
+msgid ""
+"<center><b>%1</b></center>\n"
+"Could not run the specified command."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1708
+msgid ""
+"<center><b>%1</b></center>\n"
+"The specified command does not exist."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:1906
+msgid "Documents"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2242 ui/k_new_mnu.cpp:2372
+#, c-format
+msgid "Send Email to %1"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2253
+#, c-format
+msgid "Open Addressbook at %1"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2294
+msgid "- Add ext:type to specify a file extension."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2297
+msgid "- When searching for a phrase, add quotes."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2300
+msgid "- To exclude search terms, use the minus symbol in front."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2303
+msgid "- To search for optional terms, use OR."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2306
+msgid "- You can use upper and lower case."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2309
+msgid "Search Quick Tips"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2361
+msgid "%1 = %2"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2393
+#, c-format
+msgid "Open Local File: %1"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2396
+#, c-format
+msgid "Open Local Dir: %1"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2399
+#, c-format
+msgid "Open Remote Location: %1"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2427
+msgid "Run '%1'"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2472 ui/k_new_mnu.cpp:2545
+msgid "No matches found"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2596
+msgid "%1 (top %2 of %3)"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2730
+msgid "Do you really want to reset the computer and boot Microsoft Windows"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2730
+#, fuzzy
+msgid "Start Windows Confirmation"
+msgstr "快速浏览器配置"
+
+#: ui/k_new_mnu.cpp:2730
+msgid "Start Windows"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2747
+msgid "Could not start Tomboy."
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2807
+#, fuzzy
+msgid "Remove From Favorites"
+msgstr "从面板删除(&R)"
+
+#: ui/k_new_mnu.cpp:2814
+#, fuzzy
+msgid "Add to Favorites"
+msgstr "添加到面板(&A)"
+
+#: ui/k_new_mnu.cpp:2845 ui/service_mnu.cpp:630
+msgid "Add Menu to Desktop"
+msgstr "将菜单添加到桌面"
+
+#: ui/k_new_mnu.cpp:2848 ui/service_mnu.cpp:603
+msgid "Add Item to Desktop"
+msgstr "将项目添加到桌面"
+
+#: ui/k_new_mnu.cpp:2855 ui/service_mnu.cpp:636
+msgid "Add Menu to Main Panel"
+msgstr "将菜单添加到主面板"
+
+#: ui/k_new_mnu.cpp:2858 ui/service_mnu.cpp:609
+msgid "Add Item to Main Panel"
+msgstr "将项目添加到主面板"
+
+#: ui/k_new_mnu.cpp:2864 ui/service_mnu.cpp:642
+msgid "Edit Menu"
+msgstr "编辑菜单"
+
+#: ui/k_new_mnu.cpp:2866 ui/service_mnu.cpp:615
+msgid "Edit Item"
+msgstr "编辑项"
+
+#: ui/k_new_mnu.cpp:2872 ui/service_mnu.cpp:621
+msgid "Put Into Run Dialog"
+msgstr "放入运行对话框"
+
+#: ui/k_new_mnu.cpp:2900
+msgid "Advanced"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:2916
+#, fuzzy
+msgid "Clear Recently Used Applications"
+msgstr "最近用过的应用程序"
+
+#: ui/k_new_mnu.cpp:2919
+#, fuzzy
+msgid "Clear Recently Used Documents"
+msgstr "最近用过的应用程序"
+
+#: ui/k_new_mnu.cpp:3494
+msgid "Media"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3553
+msgid "(%1 available)"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3684 ui/k_new_mnu.cpp:3688
+#, c-format
+msgid "Directory: %1"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3759 ui/k_new_mnu.cpp:3785
+msgid "Suspend"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3769
+msgid "Freeze"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3770
+msgid "Put the computer in software idle mode"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3777
+msgid "Standby"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3778
+msgid "Pause without logging out"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3786
+msgid "Suspend to RAM"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3793
+msgid "Hibernate"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3794
+msgid "Suspend to Disk"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3801
+msgid "Hybrid Suspend"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3802
+msgid "Suspend to RAM + Disk"
+msgstr ""
+
+#: ui/k_new_mnu.cpp:3841
+msgid "Suspend failed"
+msgstr ""
+
+#: ui/k_new_mnu.h:71
+msgid "Notes"
+msgstr ""
+
+#: ui/k_new_mnu.h:71
+msgid "Emails"
+msgstr ""
+
+#: ui/k_new_mnu.h:71
+msgid "Music"
+msgstr ""
+
+#: ui/k_new_mnu.h:72
+msgid "Browsing History"
+msgstr ""
+
+#: ui/k_new_mnu.h:72
+msgid "Chat Logs"
+msgstr ""
+
+#: ui/k_new_mnu.h:72
+msgid "Feeds"
+msgstr ""
+
+#: ui/k_new_mnu.h:73
+msgid "Pictures"
+msgstr ""
+
+#: ui/k_new_mnu.h:73
+msgid "Videos"
+msgstr ""
+
+#: ui/k_new_mnu.h:73
+msgid "Documentation"
+msgstr ""
+
+#: ui/k_new_mnu.h:74
+msgid "Others"
+msgstr ""
+
+#: ui/quickbrowser_mnu.cpp:48
+msgid "&Home Folder"
+msgstr "主文件夹(&H)"
+
+#: ui/quickbrowser_mnu.cpp:53
+msgid "&Root Folder"
+msgstr "根文件夹(&R)"
+
+#: ui/quickbrowser_mnu.cpp:58
+msgid "System &Configuration"
+msgstr "系统配置(&C)"
+
+#: ui/recentapps.cpp:170
+msgid "Recently Used Applications"
+msgstr "最近用过的应用程序"
+
+#: ui/recentapps.cpp:171
+msgid "Most Used Applications"
+msgstr "最常使用的应用程序"
+
+#: ui/appletview.ui:71 ui/removeapplet_mnu.cpp:84 ui/removebutton_mnu.cpp:92
+#: ui/removeextension_mnu.cpp:93
+#, no-c-format
+msgid "All"
+msgstr "全部"
+
+#: ui/removecontainer_mnu.cpp:42
+msgid "&Applet"
+msgstr "小程序(&A)"
+
+#: ui/removecontainer_mnu.cpp:44
+msgid "Appli&cation"
+msgstr "应用程序(&C)"
+
+#: ui/removeextension_mnu.cpp:64
+msgid "%1 (Top)"
+msgstr "%1 (上边)"
+
+#: ui/removeextension_mnu.cpp:67
+msgid "%1 (Right)"
+msgstr "%1 (右边)"
+
+#: ui/removeextension_mnu.cpp:70
+msgid "%1 (Bottom)"
+msgstr "%1 (下边)"
+
+#: ui/removeextension_mnu.cpp:73
+msgid "%1 (Left)"
+msgstr "%1 (左边)"
+
+#: ui/removeextension_mnu.cpp:76
+msgid "%1 (Floating)"
+msgstr "%1 (浮动)"
+
+#: ui/service_mnu.cpp:368
+msgid "No Entries"
+msgstr "空"
+
+#: ui/service_mnu.cpp:375
+msgid "Add This Menu"
+msgstr "添加此菜单"
+
+#: ui/service_mnu.cpp:380
+msgid "Add Non-TDE Application"
+msgstr "添加非 TDE 应用程序"
+
+#: ui/service_mnu.cpp:421
+msgid ""
+"_: Entries in K-menu: %1 app name, %2 description\n"
+"%1 - %2"
+msgstr "%1 - %2"
+
+#: ui/service_mnu.cpp:431
+msgid ""
+"_: Entries in K-menu: %1 description, %2 app name\n"
+"%1 (%2)"
+msgstr "%1 (%2)"
+
+#: core/extensionSettings.kcfg:14
+#, no-c-format
+msgid ""
+"Whether this panel actually exists or not. Primarily to work around the fact "
+"that TDEConfigXT won't write a config file unless there is at least one non-"
+"default entry."
+msgstr ""
+"此面板是否已经存在。主要用于解决 TDEConfigXT 不会写入不包含非默认项的配置文件"
+"的问题。"
+
+#: core/extensionSettings.kcfg:18
+#, no-c-format
+msgid "The position of the panel"
+msgstr "面板的位置"
+
+#: core/extensionSettings.kcfg:25
+#, no-c-format
+msgid "The alignment of the panel"
+msgstr "面板的对齐方式"
+
+#: core/extensionSettings.kcfg:32
+#, no-c-format
+msgid "Primary xinerama screen"
+msgstr "主 xinerama 屏幕"
+
+#: core/extensionSettings.kcfg:37
+#, no-c-format
+msgid "Hide button size"
+msgstr "隐藏按钮大小"
+
+#: core/extensionSettings.kcfg:44
+#, no-c-format
+msgid "Show left panel hide button"
+msgstr "显示左侧面板的隐藏按钮"
+
+#: core/extensionSettings.kcfg:49
+#, no-c-format
+msgid "Show right panel hide button"
+msgstr "显示右侧面板的隐藏按钮"
+
+#: core/extensionSettings.kcfg:54
+#, no-c-format
+msgid "Auto hide panel"
+msgstr "自动隐藏面板"
+
+#: core/extensionSettings.kcfg:59
+#, no-c-format
+msgid "Enable auto hide"
+msgstr "启用自动隐藏"
+
+#: core/extensionSettings.kcfg:64
+#, no-c-format
+msgid "Auto hide when Xinerama screen is not available"
+msgstr ""
+
+#: core/extensionSettings.kcfg:69
+#, no-c-format
+msgid "Delay before auto hide"
+msgstr "自动隐藏的延时"
+
+#: core/extensionSettings.kcfg:74
+#, no-c-format
+msgid "The trigger location for unhides"
+msgstr "取消隐藏的触发位置"
+
+#: core/extensionSettings.kcfg:81
+#, no-c-format
+msgid "Enable background hiding"
+msgstr "启用背景隐藏"
+
+#: core/extensionSettings.kcfg:86
+#, no-c-format
+msgid "Animate panel hiding"
+msgstr "动画式隐藏面板"
+
+#: core/extensionSettings.kcfg:91
+#, no-c-format
+msgid "Panel hiding animation speed"
+msgstr "面板隐藏动画速度"
+
+#: core/extensionSettings.kcfg:96
+#, no-c-format
+msgid "Length in percentage"
+msgstr "百分比长度"
+
+#: core/extensionSettings.kcfg:103
+#, no-c-format
+msgid "Expand as required to fit contents"
+msgstr "展开以便适合内容"
+
+#: core/extensionSettings.kcfg:108
+#, no-c-format
+msgid "Size"
+msgstr "大小"
+
+#: core/extensionSettings.kcfg:113
+#, no-c-format
+msgid "Custom size"
+msgstr "自定义大小"
+
+#: core/kmenubase.ui:16
+#, fuzzy, no-c-format
+msgid "KMenu"
+msgstr "%1菜单"
+
+#: core/kmenubase.ui:98
+#, fuzzy, no-c-format
+msgid "Search:"
+msgstr "搜索(&S)："
+
+#: core/kmenubase.ui:206
+#, no-c-format
+msgid "User&nbsp;<b>user</b>&nbsp;on&nbsp;<b>host</b>"
+msgstr ""
+
+#: ui/appletview.ui:35
+#, no-c-format
+msgid "&Search:"
+msgstr "搜索(&S)："
+
+#: ui/appletview.ui:54
+#, no-c-format
+msgid "<qt>Type here some text to filter on the applet names and comments</qt>"
+msgstr "<qt>在此输入过滤小程序名称和注释的文本</qt>"
+
+#: ui/appletview.ui:62
+#, no-c-format
+msgid "S&how:"
+msgstr "显示(&H)："
+
+#: ui/appletview.ui:76
+#, no-c-format
+msgid "Applets"
+msgstr "小程序"
+
+#: ui/appletview.ui:81
+#, no-c-format
+msgid "Special Buttons"
+msgstr "特殊按钮"
+
+#: ui/appletview.ui:96
+#, no-c-format
+msgid "<qt>Select here the only applet category that you want to show</qt>"
+msgstr "<qt>在此选择您想要显示的小程序类别</qt>"
+
+#: ui/appletview.ui:123
+#, no-c-format
+msgid ""
+"<qt>This is the applet list. Select an applet and click on <b>Add to panel</"
+"b> to add it</qt>"
+msgstr "<qt>这是小程序列表。选择一个小程序，然后单击<b>添加到面板</b>即可</qt>"
+
+#: ui/appletview.ui:156
+#, no-c-format
+msgid "&Add to Panel"
+msgstr "添加到面板(&A)"
+
+#: ui/kmenuitembase.ui:36
+#, no-c-format
+msgid "KMenuItemBase"
+msgstr ""
+
+#: ui/nonKDEButtonSettings.ui:30 ui/nonKDEButtonSettings.ui:81
+#, no-c-format
+msgid ""
+"Enter the name of the executable file to be run when this button is "
+"selected. If it is not in your $PATH then you will need to provide an "
+"absolute path."
+msgstr ""
+"输入选择此按钮后要运行的可执行文件名称。如果该文件所在的文件夹没有在您的 "
+"$PATH 中列出，您就必须提供绝对路径。"
+
+#: ui/nonKDEButtonSettings.ui:38
+#, no-c-format
+msgid "Co&mmand line arguments (optional):"
+msgstr "可选的命令行参数(&M)："
+
+#: ui/nonKDEButtonSettings.ui:44 ui/nonKDEButtonSettings.ui:65
+#, no-c-format
+msgid ""
+"Enter any command line options that should be passed to the command here.\n"
+"\n"
+"<i>Example</i>: For the command `rm -rf` enter \"-rf\" in this text box."
+msgstr ""
+"在此输入要传递给命令的任何命令行选项。\n"
+"\n"
+"<i>示例</i>：对于命令 `rm -fr`，请在此框中输入“-rf”。"
+
+#: ui/nonKDEButtonSettings.ui:54
+#, no-c-format
+msgid "Run in a &terminal window"
+msgstr "在终端窗口中运行(&T)"
+
+#: ui/nonKDEButtonSettings.ui:57
+#, no-c-format
+msgid ""
+"Select this option if the command is a command line application and you wish "
+"to be able to see its output when run."
+msgstr ""
+"如果命令是一个命令行应用程序，而您想要在运行时看到其输入，请选择此选项。"
+
+#: ui/nonKDEButtonSettings.ui:75
+#, no-c-format
+msgid "&Executable:"
+msgstr "可执行程序(&E)："
+
+#: ui/nonKDEButtonSettings.ui:97 ui/nonKDEButtonSettings.ui:111
+#: ui/nonKDEButtonSettings.ui:173 ui/nonKDEButtonSettings.ui:189
+#, no-c-format
+msgid "Enter the name you would like to appear for this button here."
+msgstr "输入您想要此按钮在此出现的名称。"
+
+#: ui/nonKDEButtonSettings.ui:105
+#, no-c-format
+msgid "&Button title:"
+msgstr "按钮标题(&B)："
+
+#: ui/nonKDEButtonSettings.ui:167
+#, no-c-format
+msgid "&Description:"
+msgstr "描述(&D)："
+
+#, fuzzy
+#~ msgid "Search Index"
+#~ msgstr "搜索(&S)："
+
+#~ msgid "TDE Panel"
+#~ msgstr "TDE 面板"
+
+#, fuzzy
+#~ msgid "Bookmarks"
+#~ msgstr "编辑书签(&E)"
+
+#, fuzzy
+#~ msgid "&Remove"
+#~ msgstr "删除%1(&R)"
+
+#, fuzzy
+#~ msgid "&About"
+#~ msgstr "关于 %1(&A)"
+
+#~ msgid "Applet Added: %1"
+#~ msgstr "添加了小程序：%1"
+
+#~ msgid "&Lock Panel"
+#~ msgstr "锁定面板(&L)"
