@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Wantao Liu <vantao@aosc.io>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-17 18:15+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-08-15 21:24+0800\n"
+"Last-Translator: Wantao Liu <vantao@aosc.io>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Name
 #: kdesktop.desktop.cmake:10
@@ -38,44 +39,38 @@ msgstr "平铺"
 
 #. Name
 #: kdesktopSetAsBackground.desktop:17
-#, fuzzy
-#| msgid "Centered"
 msgid "Center Tiled"
-msgstr "居中"
+msgstr "居中并平铺 (Center Tiled)"
 
 #. Name
 #: kdesktopSetAsBackground.desktop:22
-#, fuzzy
-#| msgid "Centered"
 msgid "Centered Maxpect"
-msgstr "居中"
+msgstr "居中并按比例最大化 (Centered Maxpect)"
 
 #. Name
 #: kdesktopSetAsBackground.desktop:27
 msgid "Tiled Maxpect"
-msgstr ""
+msgstr "平铺并按比例最大化 (Tiled Maxpect)"
 
 #. Name
 #: kdesktopSetAsBackground.desktop:32
 msgid "Scaled"
-msgstr ""
+msgstr "拉伸"
 
 #. Name
 #: kdesktopSetAsBackground.desktop:37
-#, fuzzy
-#| msgid "Centered"
 msgid "Centered Auto Fit"
-msgstr "居中"
+msgstr "自适应居中"
 
 #. Name
 #: kdesktopSetAsBackground.desktop:42
 msgid "Scale & Crop"
-msgstr ""
+msgstr "缩放 & 裁剪"
 
 #. Comment
 #: kwebdesktop/kwebdesktop.desktop:2
 msgid "TDE Web Desktop"
-msgstr "TDE Web 桌面"
+msgstr "TDE 网站桌面"
 
 #. Comment
 #: patterns/fish.desktop:2
@@ -85,17 +80,17 @@ msgstr "渔网"
 #. Comment
 #: patterns/flowers.desktop:2
 msgid "Flowers"
-msgstr "花"
+msgstr "繁花"
 
 #. Comment
 #: patterns/night-rock.desktop:2
 msgid "Night Rock by Tigert"
-msgstr "Tigert 的夜色中的岩石"
+msgstr "夜色中的岩石（创作者：Tigert）"
 
 #. Comment
 #: patterns/pavement.desktop:2
 msgid "Pavement"
-msgstr "人行道"
+msgstr "街砖"
 
 #. Comment
 #: patterns/rattan.desktop:2
@@ -105,7 +100,7 @@ msgstr "藤条"
 #. Comment
 #: patterns/stonewall2.desktop:2
 msgid "Stonewall 2 by Tigert"
-msgstr "Tigert 的石墙 2"
+msgstr "石墙 2（创作者：Tigert）"
 
 #. Comment
 #: patterns/triangles.desktop:2
@@ -115,14 +110,14 @@ msgstr "三角形"
 #. Comment
 #: programs/xearth.desktop:2
 msgid "XEarth by Kirk Johnson"
-msgstr "Kirk Johnson 的 XEarth"
+msgstr "XEarth（创作者：Kirk Johnson）"
 
 #. Comment
 #: programs/xglobe.desktop:2
 msgid "XGlobe by Thorsten Scheuermann"
-msgstr "Thorsten Scheuermann 的 XGlobe"
+msgstr "XGlobe（创作者：Thorsten Scheuermann）"
 
 #. Comment
 #: programs/xplanet.desktop:2
 msgid "XPlanet by Hari Nair"
-msgstr "Hari Nair 的 XPlanet"
+msgstr "XPlanet（创作者：Hari Nair）"
