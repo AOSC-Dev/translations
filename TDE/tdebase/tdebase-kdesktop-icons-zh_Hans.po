@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Wantao Liu <vantao@aosc.io>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 18:17+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-08-22 01:38+0800\n"
+"Last-Translator: Wantao Liu <vantao@aosc.io>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Name
 #: Home.desktop:2
@@ -28,39 +29,38 @@ msgstr "个人文件"
 
 #. Comment
 #: Home.desktop:6
-#, fuzzy
 msgid "Contains personal files"
-msgstr "个人文件"
+msgstr "此处包含个人文件"
 
 #. Name
 #: My_Computer:5
 msgid "My Computer"
-msgstr ""
+msgstr "我的电脑"
 
 #. Comment
 #: My_Computer:7
 msgid "Access to storage media"
-msgstr ""
+msgstr "显示连接到此计算机的存储介质"
 
 #. Name
 #: My_Documents:5
 msgid "My Documents"
-msgstr "文档文件夹"
+msgstr "我的文档"
 
 #. Comment
 #: My_Documents:7
 msgid "Contains personal documents"
-msgstr ""
+msgstr "此处包含个人文档"
 
 #. Name
 #: My_Network_Places:5
 msgid "My Network Places"
-msgstr "远程位置"
+msgstr "网上邻居"
 
 #. Comment
 #: My_Network_Places:7
 msgid "Access to network places and remote hosts"
-msgstr ""
+msgstr "访问网络上的计算机和设备"
 
 #. Name
 #: Printers:5
@@ -70,22 +70,22 @@ msgstr "打印机"
 #. Comment
 #: Printers:7
 msgid "Manage print jobs"
-msgstr ""
+msgstr "管理打印任务"
 
 #. Name
 #: System.desktop:2
 msgid "System"
-msgstr "系统"
+msgstr "本机系统"
 
 #. GenericName
 #: System.desktop:4
 msgid "System Locations"
-msgstr "系统定位"
+msgstr "本机系统位置"
 
 #. Comment
 #: System.desktop:6
 msgid "Access to system places"
-msgstr ""
+msgstr "访问本机系统位置"
 
 #. Name
 #: Templates/CDROM-Device.desktop:12 Templates/CDWRITER-Device.desktop:12
@@ -96,7 +96,7 @@ msgstr "弹出"
 #. Name
 #: Templates/Directory.desktop:2
 msgid "Folder..."
-msgstr "文件夹..."
+msgstr "文件夹…"
 
 #. Comment
 #: Templates/Directory.desktop:3
@@ -111,7 +111,7 @@ msgstr "格式"
 #. Name
 #: Templates/HTMLFile.desktop:2
 msgid "HTML File..."
-msgstr "HTML 文件..."
+msgstr "HTML 文件…"
 
 #. Comment
 #: Templates/HTMLFile.desktop:3
@@ -121,7 +121,7 @@ msgstr "输入 HTML 文件名："
 #. Name
 #: Templates/TextFile.desktop:2
 msgid "Text File..."
-msgstr "文本文件..."
+msgstr "文本文件…"
 
 #. Comment
 #: Templates/TextFile.desktop:3
@@ -131,77 +131,77 @@ msgstr "输入文本文件名："
 #. Name
 #: Templates/linkCAMERA.desktop:2
 msgid "Camera Device..."
-msgstr "相机设备..."
+msgstr "相机设备…"
 
 #. Comment
 #: Templates/linkCAMERA.desktop:3
 msgid "New camera"
-msgstr "新建相机"
+msgstr "添加相机"
 
 #. Name
 #: Templates/linkCDROM.desktop:2
 msgid "CD-ROM Device..."
-msgstr "CD-ROM 设备..."
+msgstr "CD-ROM 光驱…"
 
 #. Comment
 #: Templates/linkCDROM.desktop:3
 msgid "New CD-ROM Device"
-msgstr "新建 CD-ROM 设备"
+msgstr "添加 CD-ROM 光驱"
 
 #. Name
 #: Templates/linkCDWRITER.desktop:2
 msgid "CDWRITER Device..."
-msgstr "刻录机设备..."
+msgstr "刻录机…"
 
 #. Comment
 #: Templates/linkCDWRITER.desktop:3
 msgid "New CDWRITER Device"
-msgstr "新建刻录机设备"
+msgstr "添加刻录机"
 
 #. Name
 #: Templates/linkDVDROM.desktop:2
 msgid "DVD-ROM Device..."
-msgstr "DVD-ROM 设备..."
+msgstr "DVD-ROM 光驱…"
 
 #. Comment
 #: Templates/linkDVDROM.desktop:3
 msgid "New DVD-ROM Device"
-msgstr "新建 DVD-ROM 设备"
+msgstr "添加 DVD-ROM 光驱"
 
 #. Name
 #: Templates/linkFloppy.desktop:2
 msgid "Floppy Device..."
-msgstr "软驱设备..."
+msgstr "软驱…"
 
 #. Comment
 #: Templates/linkFloppy.desktop:3
 msgid "New Floppy Device"
-msgstr "新建软驱设备"
+msgstr "添加软驱"
 
 #. Name
 #: Templates/linkHD.desktop:2
 msgid "Hard Disc Device..."
-msgstr "硬盘设备..."
+msgstr "硬盘…"
 
 #. Comment
 #: Templates/linkHD.desktop:3
 msgid "New Hard Disc"
-msgstr "新建硬盘"
+msgstr "添加硬盘"
 
 #. Name
 #: Templates/linkMO.desktop:2
 msgid "MO Device..."
-msgstr "MO 设备..."
+msgstr "MO 光驱…"
 
 #. Comment
 #: Templates/linkMO.desktop:3
 msgid "New MO Device"
-msgstr "新建 MO 设备"
+msgstr "添加 MO 光驱"
 
 #. Name
 #: Templates/linkNFS.desktop:2
 msgid "NFS..."
-msgstr ""
+msgstr "NFS 远程文件夹…"
 
 #. Comment
 #: Templates/linkNFS.desktop:3
@@ -211,32 +211,32 @@ msgstr "新建 NFS 链接"
 #. Name
 #: Templates/linkProgram.desktop:2
 msgid "Link to Application..."
-msgstr "应用程序链接..."
+msgstr "快捷方式…"
 
 #. Comment
 #: Templates/linkProgram.desktop:3
 msgid "New Link to Application"
-msgstr "新建应用程序链接"
+msgstr "新建快捷方式"
 
 #. Name
 #: Templates/linkURL.desktop:2
 msgid "Link to Location (URL)..."
-msgstr "到位置(URL)的链接..."
+msgstr "网址 (URL)…"
 
 #. Comment
 #: Templates/linkURL.desktop:3
 msgid "Enter link to location (URL):"
-msgstr "输入到位置(URL)的链接："
+msgstr "输入网址 (URL)："
 
 #. Name
 #: Templates/linkZIP.desktop:2
 msgid "ZIP Device..."
-msgstr "ZIP 设备..."
+msgstr "Zip 驱动器…"
 
 #. Comment
 #: Templates/linkZIP.desktop:3
 msgid "New ZIP Device"
-msgstr "新建 ZIP 设备"
+msgstr "添加 Zip 驱动器"
 
 #. Name
 #: Trash:8
@@ -246,18 +246,18 @@ msgstr "回收站"
 #. Comment
 #: Trash:10
 msgid "Contains removed files"
-msgstr ""
+msgstr "此处包含已删除的文件"
 
 #. Name
 #. GenericName
 #: Web_Browser:6 Web_Browser:8
 msgid "Web Browser"
-msgstr ""
+msgstr "网页浏览器"
 
 #. Comment
 #: Web_Browser:10
 msgid "Browse the World Wide Web"
-msgstr ""
+msgstr "浏览互联网"
 
 #. Name
 #: directory.autostart:3
@@ -272,4 +272,4 @@ msgstr "桌面"
 #. Name
 #: directory.templates:3
 msgid "Templates"
-msgstr "模板"
+msgstr "文件模板"
