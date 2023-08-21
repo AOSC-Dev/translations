@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# WanTao Liu <vantao@aosc.io>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-07-07 18:17+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-08-22 01:38+0800\n"
+"Last-Translator: WanTao Liu <vantao@aosc.io>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Name
 #: kcmkonsole.desktop:9
@@ -24,18 +24,17 @@ msgstr "控制台"
 #. GenericName
 #: kcmkonsole.desktop:11
 msgid "All Konsole Settings"
-msgstr "Konsole 的全部设置"
+msgstr "Konsole 设置"
 
 #. Keywords
 #: kcmkonsole.desktop:13
 msgid "konsole;console;terminal;"
-msgstr "konsole;console;terminal;终端;控制台;"
+msgstr "konsole，控制台 (console)，终端 (terminal);"
 
 #. Name
 #: konsole-script.desktop:9 konsole.desktop:9 konsolesu.desktop:10
-#, fuzzy
 msgid "Konsole"
-msgstr "控制台"
+msgstr "Konsole"
 
 #. GenericName
 #: konsole-script.desktop:11 konsole.desktop:11
@@ -45,27 +44,27 @@ msgstr "终端程序"
 #. Comment
 #: konsole/x-konsole.desktop:7
 msgid "File to Open a Shell"
-msgstr "打开 Shell 的文件"
+msgstr "用于打开 Shell 的文件类型"
 
 #. Name
 #: konsolepart.desktop:14 terminalemulator.desktop:5
 msgid "Terminal Emulator"
-msgstr "终端仿真器"
+msgstr "终端模拟器"
 
 #. GenericName
 #: konsolesu.desktop:12
 msgid "Terminal Program - Super User Mode"
-msgstr "终端程序 - 超级用户模式"
+msgstr "终端程序：超级用户模式"
 
 #. Name
 #: kwrited.desktop:2
 msgid "TDE Write Daemon"
-msgstr "TDE Write 守护程序"
+msgstr "TDE Write 守护进程"
 
 #. Comment
 #: kwrited.desktop:4
 msgid "Watch for messages from local users sent with write(1) or wall(1)"
-msgstr "监视本地用户发出的 write(1) 或 wall(1)"
+msgstr "监视本地用户发出的 write(1) 或 wall(1) 消息"
 
 #. Name
 #: other/linux.desktop:3
@@ -79,14 +78,13 @@ msgstr "新建 Linux 控制台"
 
 #. Name
 #: other/mc.desktop:3
-#, fuzzy
 msgid "Midnight Commander"
-msgstr "新建 Midnight Commander"
+msgstr "打开 Midnight Commander 界面"
 
 #. Comment
 #: other/mc.desktop:4
 msgid "New Midnight Commander"
-msgstr "新建 Midnight Commander"
+msgstr "打开 Midnight Commander 界面"
 
 #. Name
 #: other/screen.desktop:3
@@ -102,7 +100,6 @@ msgstr "新建屏幕会话"
 #. Title0
 #: other/shell.desktop:3 other/2shells:6 other/3shells:6 other/4shells:6
 #: other/5shells:6
-#, fuzzy
 msgid "Shell"
 msgstr "新建 Shell"
 
@@ -113,80 +110,70 @@ msgstr "新建 Shell"
 
 #. Name
 #: other/su.desktop.cmake:3
-#, fuzzy
 msgid "Root Shell"
-msgstr "新建 Root Shell"
+msgstr "以管理员身份 (root) 新建 Shell"
 
 #. Comment
 #: other/su.desktop.cmake:4
 msgid "New Root Shell"
-msgstr "新建 Root Shell"
+msgstr "以管理员身份 (root) 新建 Shell"
 
 #. Name
 #: other/sumc.desktop.cmake:3
-#, fuzzy
 msgid "Root Midnight Commander"
-msgstr "新建 Root Midnight Commander"
+msgstr "以管理员身份 (root) 打开 Midnight Commander 界面"
 
 #. Comment
 #: other/sumc.desktop.cmake:4
 msgid "New Root Midnight Commander"
-msgstr "新建 Root Midnight Commander"
+msgstr "以管理员身份 (root) 打开 Midnight Commander 界面"
 
 #. Name
 #: terminalhere.desktop:6
-#, fuzzy
 msgid "Terminal"
-msgstr "终端程序"
+msgstr "终端"
 
 #. Name
 #: terminalhere.desktop:11
 msgid "Open Terminal Here"
-msgstr "在此打开终端"
+msgstr "在此处打开终端"
 
 #. Name
 #: other/2shells:2
-#, fuzzy
 msgid "Two consoles"
-msgstr "控制台"
+msgstr "两个控制台"
 
 #. Title1
 #: other/2shells:7 other/3shells:7 other/4shells:7 other/5shells:7
-#, fuzzy
 msgid "Shell No. 2"
-msgstr "新建 Shell"
+msgstr "2 号 Shell"
 
 #. Name
 #: other/3shells:2
 msgid "Three consoles"
-msgstr ""
+msgstr "三个控制台"
 
 #. Title2
 #: other/3shells:8 other/4shells:8 other/5shells:8
-#, fuzzy
 msgid "Shell No. 3"
-msgstr "新建 Shell"
+msgstr "3 号 Shell"
 
 #. Name
 #: other/4shells:2
-#, fuzzy
 msgid "Four consoles"
-msgstr "Linux 控制台"
+msgstr "四个控制台"
 
 #. Title3
 #: other/4shells:9 other/5shells:9
-#, fuzzy
 msgid "Shell No. 4"
-msgstr "新建 Shell"
+msgstr "4 号 Shell"
 
 #. Name
 #: other/5shells:2
-#, fuzzy
 msgid "Five consoles"
-msgstr "Linux 控制台"
+msgstr "五个控制台"
 
 #. Title4
 #: other/5shells:10
-#, fuzzy
 msgid "Shell No. 5"
-msgstr "新建 Shell"
+msgstr "5 号 Shell"
