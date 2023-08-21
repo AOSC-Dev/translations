@@ -1,72 +1,72 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# WanTao Liu <vantao@aosc.io>, 2023.
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-21 15:54+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-08-22 01:38+0800\n"
+"Last-Translator: WanTao Liu <vantao@aosc.io>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Comment
 #: eventsrc:3
 msgid "Konsole"
-msgstr ""
+msgstr "Konsole"
 
 #. Name
 #: eventsrc:6
 msgid "Bell in visible session"
-msgstr "可见会话中的响铃"
+msgstr "可见会话响铃"
 
 #. Comment
 #: eventsrc:7
 msgid "Bell emitted within a visible session"
-msgstr "可见会话中发生的响铃"
+msgstr "可见会话中发生响铃"
 
 #. Name
 #: eventsrc:12
 msgid "Bell in non-visible session"
-msgstr "不可见会话中的响铃"
+msgstr "不可见会话响铃"
 
 #. Comment
 #: eventsrc:13
 msgid "Bell emitted within a non-visible session"
-msgstr "不可见会话中发生的响铃"
+msgstr "不可见会话中发生响铃"
 
 #. Name
 #: eventsrc:18
 msgid "Activity in monitored session"
-msgstr "被监视会话中的活动"
+msgstr "受监视会话中有活动"
 
 #. Comment
 #: eventsrc:19
 msgid "Activity detected in a monitored session"
-msgstr "被监视会话中检测到的活动"
+msgstr "在受监视会话中检测到活动"
 
 #. Name
 #: eventsrc:23
 msgid "Silence in monitored session"
-msgstr "被监视会话中的缄默"
+msgstr "受监视会话中无活动"
 
 #. Comment
 #: eventsrc:24
 msgid "Silence detected in a monitored session"
-msgstr "被监视会话中检测到的缄默"
+msgstr "没有在受监视会话中检测到活动"
 
 #. Name
 #: eventsrc:28
 msgid "Session finished with non-zero status"
-msgstr "非零状态完成的会话"
+msgstr "会话以错误状态完成"
 
 #. Comment
 #: eventsrc:29
 msgid "A session has exited with non-zero status"
-msgstr "会话以非零状态退出"
+msgstr "会话以错误状态退出"
