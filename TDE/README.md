@@ -1,16 +1,28 @@
 # Trinity Desktop Environment
 
-## Information
+## Translation Progress
 
-### TDE Weblate Translation Workspace
+|Component Name|Status|Last Updated Date (UTC+8)|
+|:-|:--:|:--:|
+|libraries/libkdcraw|Completed|Jul 20, 2023|
+|tdebase/kdesktop|Completed|Aug 4, 2023|
+|tdebase/kdesktop - icons|Completed|Aug 22, 2023|
+|tdebase/kdesktop - desktop files|Completed|Aug 4, 2023|
+|tdebase/khotkeys - data|Completed|Aug 4, 2023|
+|tdebase/konsole|Completed|Aug 22, 2023|
+|tdebase/konsole - events|Completed|Aug 22, 2023|
+|tdebase/konsole - desktop files|Completed|Aug 22, 2023|
+|tdebase/kicker|In Progress|/|
+|tdebase/kickermenu_kate|In Progress|/|
+|tdebase/kicker - desktop files|In Progress|/|
 
-Translating Trinity is a relatively easy process which nevertheless requires attention to details. If you want to contribute by translating TDE in your language then you will need to create an account in the translation workspace (called TWIW). The Trinity Project uses Weblate to manage translations. Below you will find a handy guide which walks you through from creating an account to contributing.
+## Other Information
 
 ### Several Portals
 
-- Homepage: [https://www.trinitydesktop.org/](https://www.trinitydesktop.org/)
-- Contribution Guide for Translators: [https://wiki.trinitydesktop.org/TDE_Weblate_Translation_Workspace](https://wiki.trinitydesktop.org/TDE_Weblate_Translation_Workspace)
-- Upstream Repository: [https://mirror.git.trinitydesktop.org/gitea/TDE/tde-i18n](https://mirror.git.trinitydesktop.org/gitea/TDE/tde-i18n)
-- Translation Workspace: [https://mirror.git.trinitydesktop.org/weblate](https://mirror.git.trinitydesktop.org/weblate)
+- [Homepage of TrinityDesktop](https://www.trinitydesktop.org/)
+- [Contribution Guide for Translators](https://wiki.trinitydesktop.org/TDE_Weblate_Translation_Workspace)
+- [Upstream Repository](https://mirror.git.trinitydesktop.org/gitea/TDE/tde-i18n)
+- [Translation Workspace](https://mirror.git.trinitydesktop.org/weblate)
 
 > Further details to be added.
