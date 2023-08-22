@@ -5,41 +5,40 @@
 # Funda Wang <fundawang@en2china.com>, 2002
 # Xiong Jiang <jxiong@offtopic.org>, 2003
 # WhiredPlanck <wplanck@aosc.io>, 2021, 2022.
+# WanTao Liu <vantao@aosc.io>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-10-19 18:22+0000\n"
-"PO-Revision-Date: 2022-05-03 17:21+0000\n"
-"Last-Translator: WhiredPlanck <wplanck@aosc.io>\n"
-"Language-Team: Chinese (Simplified) <https://mirror.git.trinitydesktop.org/"
-"weblate/projects/tdebase/konsole/zh_Hans/>\n"
+"PO-Revision-Date: 2023-08-22 01:39+0800\n"
+"Last-Translator: WanTao Liu <vantao@aosc.io>\n"
+"Language-Team: Chinese (Simplified) <https://mirror.git.trinitydesktop.org/weblate/projects/tdebase/konsole/zh_Hans/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.1\n"
-"Translator: Wang Jian <lark@linux.net.cn>\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Instead of a literal translation, add your name to the end of the list (separated by a comma).
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "TDE 中文翻译组"
+msgstr "Wang Jian, Albert.Lew, Funda Wang, Xiong Jiang, WhiredPlanck, WanTao Liu"
 
 #. Instead of a literal translation, add your email to the end of the list (separated by a comma).
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "i18n-translation@lists.linux.net.cn"
+msgstr "lark@linux.ustc.edu.cn, albert_lew2002@eyou.com, fundawang@en2china.com, jxiong@offtopic.org, wplanck@aosc.io, vantao@aosc.io"
 
 #: TEWidget.cpp:979 TEWidget.cpp:981
 msgid "Size: XXX x XXX"
-msgstr "大小：XXX x XXX"
+msgstr "大小：XXX × XXX"
 
 #: TEWidget.cpp:986
 msgid "Size: %1 x %2"
-msgstr "大小：%1 x %2"
+msgstr "大小：%1 × %2"
 
 #: konsole.cpp:207
 msgid "&Session"
@@ -59,7 +58,7 @@ msgstr "继续任务(&C)"
 
 #: konsole.cpp:514 konsole_part.cpp:340
 msgid "&Hangup"
-msgstr "挂起(&H)"
+msgstr "挂断(&H)"
 
 #: konsole.cpp:515 konsole_part.cpp:341
 msgid "&Interrupt Task"
@@ -119,7 +118,7 @@ msgstr "系统响铃(&B)"
 
 #: konsole.cpp:632 konsole_part.cpp:370
 msgid "System &Notification"
-msgstr "系统通告(&N)"
+msgstr "系统通知(&N)"
 
 #: konsole.cpp:633 konsole_part.cpp:371
 msgid "&Visible Bell"
@@ -139,11 +138,11 @@ msgstr "减小字体(&S)"
 
 #: konsole.cpp:650 konsole_part.cpp:379
 msgid "Se&lect..."
-msgstr "选择(&L)..."
+msgstr "选择(&L)…"
 
 #: konsole.cpp:656
 msgid "&Install Bitmap..."
-msgstr "安装位图(&I)..."
+msgstr "安装点阵字体(&I)…"
 
 #: konsole.cpp:664 konsole_part.cpp:383
 msgid "&Encoding"
@@ -151,43 +150,43 @@ msgstr "编码(&E)"
 
 #: konsole.cpp:672 konsole_part.cpp:396
 msgid "&Keyboard"
-msgstr "键盘(&K)"
+msgstr "键盘响应风格(&K)"
 
 #: konsole.cpp:676 konsole_part.cpp:406
 msgid "Sch&ema"
-msgstr "方案(&E)"
+msgstr "配色方案(&E)"
 
 #: konsole.cpp:681
 msgid "S&ize"
-msgstr "大小(&I)"
+msgstr "窗口尺寸(&I)"
 
 #: konsole.cpp:684
 msgid "40x15 (&Small)"
-msgstr "40x15 (小)(&S)"
+msgstr "40×15 （小）(&S)"
 
 #: konsole.cpp:685
 msgid "80x24 (&VT100)"
-msgstr "80x24 (&VT100)"
+msgstr "80×24 (&VT100)"
 
 #: konsole.cpp:686
 msgid "80x25 (&IBM PC)"
-msgstr "80x25（&IBM PC）"
+msgstr "80×25 (&IBM PC)"
 
 #: konsole.cpp:687
 msgid "80x40 (&XTerm)"
-msgstr "80x24 (&XTerm)"
+msgstr "80×24 (&XTerm)"
 
 #: konsole.cpp:688
 msgid "80x52 (IBM V&GA)"
-msgstr "80x52（IBM V&GA）"
+msgstr "80×52 (IBM V&GA)"
 
 #: konsole.cpp:690
 msgid "&Custom..."
-msgstr "自定义(&C)..."
+msgstr "自定义(&C)…"
 
 #: konsole.cpp:695
 msgid "Hist&ory..."
-msgstr "历史(&O)..."
+msgstr "历史记录(&O)…"
 
 #: konsole.cpp:701 konsole_part.cpp:463
 msgid "&Save as Default"
@@ -195,15 +194,15 @@ msgstr "保存为默认值(&S)"
 
 #: konsole.cpp:724
 msgid "&Tip of the Day"
-msgstr "日积月累(&T)"
+msgstr "每日小技巧(&T)"
 
 #: konsole.cpp:738 konsole_part.cpp:472
 msgid "Set Selection End"
-msgstr "设置选择区结束点"
+msgstr "设为选区终点"
 
 #: konsole.cpp:746
 msgid "&Open.."
-msgstr "打开(&O)..."
+msgstr "打开(&O)…"
 
 #: konsole.cpp:754
 msgid "New Sess&ion"
@@ -215,31 +214,31 @@ msgstr "设置(&E)"
 
 #: konsole.cpp:824 konsole.cpp:1127
 msgid "&Detach Session"
-msgstr "漂移会话(&D)"
+msgstr "拆分至独立窗口(&D)"
 
 #: konsole.cpp:829 konsole.cpp:1132
 msgid "&Rename Session..."
-msgstr "重命名会话(&R)..."
+msgstr "重命名会话(&R)…"
 
 #: konsole.cpp:833 konsole.cpp:1141
 msgid "Monitor for &Activity"
-msgstr "活动状态监视器(&A)"
+msgstr "监视会话中的进程活动(&A)"
 
 #: konsole.cpp:835 konsole.cpp:1144
 msgid "Stop Monitoring for &Activity"
-msgstr "停止监视活动(&A)"
+msgstr "停止监视会话中的进程活动(&A)"
 
 #: konsole.cpp:838 konsole.cpp:1146
 msgid "Monitor for &Silence"
-msgstr "静止状态监视器(&S)"
+msgstr "监视会话中的静默进程(&S)"
 
 #: konsole.cpp:840 konsole.cpp:1149
 msgid "Stop Monitoring for &Silence"
-msgstr "停止监视静止(&S)"
+msgstr "停止监视会话中的静默进程(&S)"
 
 #: konsole.cpp:843 konsole.cpp:1151
 msgid "Send &Input to All Sessions"
-msgstr "将输入发给所有的会话(&I)"
+msgstr "同步输入至所有会话(&I)"
 
 #: konsole.cpp:850 konsole.cpp:1184
 msgid "&Move Session Left"
@@ -251,7 +250,7 @@ msgstr "将会话右移(&O)"
 
 #: konsole.cpp:864
 msgid "Select &Tab Color..."
-msgstr "选择标签颜色(&T)..."
+msgstr "选择标签颜色(&T)…"
 
 #: konsole.cpp:868
 msgid "Switch to Tab"
@@ -271,15 +270,15 @@ msgstr "文字和图标(&T)"
 
 #: konsole.cpp:885
 msgid "Text &Only"
-msgstr "只有文字(&O)"
+msgstr "仅文字(&O)"
 
 #: konsole.cpp:885
 msgid "&Icons Only"
-msgstr "只有图标(&I)"
+msgstr "仅图标(&I)"
 
 #: konsole.cpp:892
 msgid "&Dynamic Hide"
-msgstr "动态隐藏(&D)"
+msgstr "自动隐藏(&D)"
 
 #: konsole.cpp:897
 msgid "&Auto Resize Tabs"
@@ -291,7 +290,7 @@ msgid ""
 "Click and hold for session menu"
 msgstr ""
 "单击此处可新建标准会话\n"
-"单击并按住可出现会话菜单"
+"单击并按住以进入会话菜单"
 
 #: konsole.cpp:975
 msgid "Close the current session"
@@ -299,7 +298,7 @@ msgstr "关闭当前会话"
 
 #: konsole.cpp:1095
 msgid "Paste Selection"
-msgstr "粘贴选择区"
+msgstr "粘贴剪贴板内容"
 
 #: konsole.cpp:1098
 msgid "C&lear Terminal"
@@ -311,7 +310,7 @@ msgstr "重置并清除终端(&R)"
 
 #: konsole.cpp:1102
 msgid "&Find in History..."
-msgstr "在历史中查找(&F)..."
+msgstr "在历史记录中查找(&F)…"
 
 #: konsole.cpp:1110
 msgid "Find Pre&vious"
@@ -319,11 +318,11 @@ msgstr "查找上一个(&V)"
 
 #: konsole.cpp:1114
 msgid "S&ave History As..."
-msgstr "历史另存为(&A)..."
+msgstr "历史记录另存为(&A)…"
 
 #: konsole.cpp:1118
 msgid "Clear &History"
-msgstr "清除历史(&H)"
+msgstr "清除历史记录(&H)"
 
 #: konsole.cpp:1122
 msgid "Clear All H&istories"
@@ -331,7 +330,7 @@ msgstr "清除全部历史记录(&I)"
 
 #: konsole.cpp:1136
 msgid "&ZModem Upload..."
-msgstr "&ZModem 上传..."
+msgstr "通过 &ZModem 上传…"
 
 #: konsole.cpp:1156
 msgid "Hide &Menubar"
@@ -339,11 +338,11 @@ msgstr "隐藏菜单栏(&M)"
 
 #: konsole.cpp:1162
 msgid "Save Sessions &Profile..."
-msgstr "保存会话配置(&P)..."
+msgstr "保存会话配置(&P)…"
 
 #: konsole.cpp:1173
 msgid "&Print Screen..."
-msgstr "打印屏幕(&P)..."
+msgstr "打印屏幕(&P)…"
 
 #: konsole.cpp:1178
 msgid "New Session"
@@ -355,7 +354,7 @@ msgstr "激活菜单"
 
 #: konsole.cpp:1180
 msgid "List Sessions"
-msgstr "列出会话"
+msgstr "列出所有会话"
 
 #: konsole.cpp:1195
 msgid "Go to Previous Session"
@@ -368,7 +367,7 @@ msgstr "前往下一个会话"
 #: konsole.cpp:1201
 #, c-format
 msgid "Switch to Session %1"
-msgstr "切换到会话 %1"
+msgstr "切换至会话 %1"
 
 #: konsole.cpp:1204
 msgid "Enlarge Font"
@@ -376,34 +375,31 @@ msgstr "增大字体"
 
 #: konsole.cpp:1205
 msgid "Shrink Font"
-msgstr "减小字体"
+msgstr "缩小字体"
 
 #: konsole.cpp:1207
 msgid "Toggle Bidi"
-msgstr "切换双向文字"
+msgstr "打开或关闭双向文字"
 
 #: konsole.cpp:1254
 msgid ""
-"You have open sessions (besides the current one). These will be killed if "
-"you continue.\n"
+"You have open sessions (besides the current one). These will be killed if you continue.\n"
 "Are you sure you want to quit?"
 msgstr ""
-"您打开了一些会话（除了当前会话）。如果您继续，这些会话将会会中断。\n"
+"当前存在其他使用中的会话，如果继续，将会强制关闭对应会话中的进程。\n"
 "您确定要退出吗？"
 
 #: konsole.cpp:1257
 msgid "Really Quit?"
-msgstr "真的退出吗？"
+msgstr "确定要退出吗？"
 
 #: konsole.cpp:1290
-msgid ""
-"The application running in Konsole does not respond to the close request. Do "
-"you want Konsole to close anyway?"
-msgstr "运行于 Konsole 的应用程序没有响应关闭请求。您还是想要关闭 Konsole 吗？"
+msgid "The application running in Konsole does not respond to the close request. Do you want Konsole to close anyway?"
+msgstr "Konsole 中正在运行的应用程序没有响应关闭请求，仍要关闭 Konsole 吗？"
 
 #: konsole.cpp:1292
 msgid "Application Does Not Respond"
-msgstr "应用程序没有响应"
+msgstr "应用程序无响应"
 
 #: konsole.cpp:1472
 msgid "Save Sessions Profile"
@@ -411,20 +407,17 @@ msgstr "保存会话配置"
 
 #: konsole.cpp:1473
 msgid "Enter name under which the profile should be saved:"
-msgstr "请输入配置将要被保存的名称："
+msgstr "请输入配置文件的名称："
 
 #: konsole.cpp:1889
 msgid ""
-"If you want to use the bitmap fonts distributed with Konsole, they must be "
-"installed.  After installation, you must restart Konsole to use them.  Do "
-"you want to install the fonts listed below into fonts:/Personal?"
-msgstr ""
-"如果您想要在 Konsole 中使用位图字体，则必须安装这些字体。安装后，您必须重新启"
-"动 Konsole 才能使用这些字体。您是否想要将下列字体安装到 fonts:/个人？"
+"If you want to use the bitmap fonts distributed with Konsole, they must be installed.  After installation, you must restart Konsole "
+"to use them.  Do you want to install the fonts listed below into fonts:/Personal?"
+msgstr "若要在 Konsole 中使用点阵字体，则必须先安装下列字体。安装后需要重新启动 Konsole。确定要将下列字体安装到 fonts:/个人 吗？"
 
 #: konsole.cpp:1891
 msgid "Install Bitmap Fonts?"
-msgstr "安装位图字体吗？"
+msgstr "安装点阵字体？"
 
 #: konsole.cpp:1892
 msgid "&Install"
@@ -436,43 +429,40 @@ msgstr "不安装"
 
 #: konsole.cpp:1905
 msgid "Could not install %1 into fonts:/Personal/"
-msgstr "无法将 %1 安装到 fonts:/Personal/"
+msgstr "无法将字体 %1 安装到 fonts:/个人/"
 
 #: konsole.cpp:1989
 msgid "Use the right mouse button to bring back the menu"
-msgstr "使用右键重新显示菜单"
+msgstr "使用鼠标右键重新显示菜单"
 
 #: konsole.cpp:2114
 msgid ""
-"You have chosen one or more Ctrl+<key> combinations to be used as shortcuts. "
-"As a result these key combinations will no longer be passed to the command "
-"shell or to applications that run inside Konsole. This can have the "
-"unintended consequence that functionality that would otherwise be bound to "
-"these key combinations is no longer accessible.\n"
+"You have chosen one or more Ctrl+<key> combinations to be used as shortcuts. As a result these key combinations will no longer be "
+"passed to the command shell or to applications that run inside Konsole. This can have the unintended consequence that functionality "
+"that would otherwise be bound to these key combinations is no longer accessible.\n"
 "\n"
-"You may wish to reconsider your choice of keys and use Alt+Ctrl+<key> or Ctrl"
-"+Shift+<key> instead.\n"
+"You may wish to reconsider your choice of keys and use Alt+Ctrl+<key> or Ctrl+Shift+<key> instead.\n"
 "\n"
 "You are currently using the following Ctrl+<key> combinations:"
 msgstr ""
-"您选择了将一个或多个 Ctrl+<按键>组合用作快捷键。结果是，这些按键组合将不再传"
-"送到命令 shell 或者在 Konsole 中运行的应用程序。这样可能导致意料之外的后果，"
-"而且绑定到这些按键组合的功能也将无法使用。\n"
+"您选择将一个（或多个） Ctrl+<按键> 组合用作快捷键。这样做将导致这些按键组合不再由 Shell 或者在 Konsole 中运行着的应用程序所感知。可"
+"能导致意料之外的后果，而且曾与这些按键组合绑定的功能也将无法使用。\n"
 "\n"
-"您可能需要重新考虑您的按键选择，比如使用 Alt+Ctrl+<按键> 或 Ctrl+Shift+<按键"
-">。\n"
+"您可能需要重新考虑按键组合，比如使用 Alt+Ctrl+<按键> 或 Ctrl+Shift+<按键>。\n"
 "\n"
-"您目前正在使用下列 Ctrl+<按键> 组合："
+"目前使用中的 Ctrl+<按键> 组合如下："
 
 #: konsole.cpp:2124
 msgid "Choice of Shortcut Keys"
-msgstr "快捷键选择"
+msgstr "选择快捷键"
 
 #: konsole.cpp:2527
 msgid ""
 "_: abbreviation of number\n"
 "%1 No. %2"
-msgstr "第 %2 个 %1"
+msgstr ""
+"_: abbreviation of number\n"
+"第 %2 个 %1"
 
 #: konsole.cpp:2582
 msgid "Session List"
@@ -480,11 +470,11 @@ msgstr "会话列表"
 
 #: konsole.cpp:3089
 msgid "Are you sure that you want to close the current session?"
-msgstr "您真的想要关闭当前会话吗？"
+msgstr "确认关闭当前会话吗？"
 
 #: konsole.cpp:3090
 msgid "Close Confirmation"
-msgstr "关闭确认"
+msgstr "确认关闭"
 
 #: konsole.cpp:3470 konsole.cpp:3528 konsole.cpp:3549
 msgid "New "
@@ -496,18 +486,19 @@ msgstr "新建窗口(&W)"
 
 #: konsole.cpp:3558
 msgid "New Shell at Bookmark"
-msgstr "在书签新建 Shell"
+msgstr "在书签处新建 Shell"
 
 #: konsole.cpp:3561
 msgid "Shell at Bookmark"
 msgstr "书签处的 Shell"
 
+# 出处：TQString txt = i18n("Screen is a program controlling screens!", "Screen at %1").arg(socket);
 #: konsole.cpp:3572
 #, c-format
 msgid ""
 "_: Screen is a program controlling screens!\n"
 "Screen at %1"
-msgstr "在 %1 上运行 screen"
+msgstr "屏幕会话（端口号：%1）"
 
 #: konsole.cpp:3891
 msgid "Rename Session"
@@ -519,7 +510,7 @@ msgstr "会话名："
 
 #: konsole.cpp:3927 konsole_part.cpp:1004
 msgid "History Configuration"
-msgstr "历史配置"
+msgstr "历史记录配置"
 
 #: konsole.cpp:3935 konsole_part.cpp:1012
 msgid "&Enable"
@@ -527,7 +518,7 @@ msgstr "启用(&E)"
 
 #: konsole.cpp:3938
 msgid "&Number of lines: "
-msgstr "行数(&N)： "
+msgstr "行数(&N)："
 
 #: konsole.cpp:3942 konsole_part.cpp:1019
 msgid ""
@@ -537,7 +528,7 @@ msgstr "无限制"
 
 #: konsole.cpp:3946 konsole_part.cpp:1021
 msgid "&Set Unlimited"
-msgstr "设置无限制(&S)"
+msgstr "设为无限制(&S)"
 
 #: konsole.cpp:4074
 #, c-format
@@ -549,8 +540,8 @@ msgid ""
 "End of history reached.\n"
 "Continue from the beginning?"
 msgstr ""
-"已经到达历史记录的结尾处。\n"
-"从开始处继续？"
+"已经到达历史记录中的最后一处搜索结果。\n"
+"从头部开始重新搜索？"
 
 #: konsole.cpp:4132 konsole.cpp:4140 konsole.cpp:4149
 msgid "Find"
@@ -561,16 +552,16 @@ msgid ""
 "Beginning of history reached.\n"
 "Continue from the end?"
 msgstr ""
-"已经到达历史记录的开始处。\n"
-"从结尾处继续？"
+"已经到达历史记录中的第一处搜索结果。\n"
+"从尾部开始重新搜索？"
 
 #: konsole.cpp:4148
 msgid "Search string '%1' not found."
-msgstr "字符串“%1”没有找到。"
+msgstr "没有找到“%1”。"
 
 #: konsole.cpp:4165
 msgid "Save History"
-msgstr "保存历史"
+msgstr "保存历史记录"
 
 #: konsole.cpp:4171
 msgid "This is not a local file.\n"
@@ -581,8 +572,8 @@ msgid ""
 "A file with this name already exists.\n"
 "Do you want to overwrite it?"
 msgstr ""
-"已经存在这个名字的文件。\n"
-"您想覆盖它吗？"
+"目标路径已包含重名文件。\n"
+"确定要进行覆盖吗？"
 
 #: konsole.cpp:4181
 msgid "File Exists"
@@ -602,15 +593,15 @@ msgstr "无法保存历史。"
 
 #: konsole.cpp:4207
 msgid "<p>The current session already has a ZModem file transfer in progress."
-msgstr "<p>当前会话已经有一个 ZModem 文件传送在进行。"
+msgstr "<p>当前会话已存在 ZModem 文件传输进程。"
 
 #: konsole.cpp:4216
 msgid ""
 "<p>No suitable ZModem software was found on the system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgstr ""
-"<p>系统中未发现有合适的 ZModem 软件。\n"
-"<p>您可以安装“rzsz”或者“lrzsz”软件包。\n"
+"<p>未在系统中找到合适的 ZModem 软件。\n"
+"<p>您可以尝试安装“rzsz”或者“lrzsz”软件包。\n"
 
 #: konsole.cpp:4223
 msgid "Select Files to Upload"
@@ -618,20 +609,19 @@ msgstr "选择要上传的文件"
 
 #: konsole.cpp:4243
 msgid ""
-"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem "
-"software was found on the system.\n"
+"<p>A ZModem file transfer attempt has been detected, but no suitable ZModem software was found on the system.\n"
 "<p>You may wish to install the 'rzsz' or 'lrzsz' package.\n"
 msgstr ""
-"<p>检测到一个 ZModem 文件传送尝试，但系统中未发现合适的 ZModem 软件。\n"
-"<p>您可以安装‘rzsz’或者‘lrzsz’软件包。\n"
+"<p>检测到 ZModem 文件传输，但未在系统中找到相关软件。\n"
+"<p>您可以尝试安装“rzsz”或“lrzsz”软件包。\n"
 
 #: konsole.cpp:4250
 msgid ""
 "A ZModem file transfer attempt has been detected.\n"
 "Please specify the folder you want to store the file(s):"
 msgstr ""
-"检测到一个 ZModem 文件传送尝试。\n"
-"请指定您要存放此文件的文件夹："
+"检测到 ZModem 文件传输。\n"
+"请指定用于存放此文件的文件夹："
 
 #: konsole.cpp:4253
 msgid "&Download"
@@ -639,7 +629,7 @@ msgstr "下载(&D)"
 
 #: konsole.cpp:4254 konsole.cpp:4255
 msgid "Start downloading file to specified folder."
-msgstr "开始将文件下载到指定的文件夹。"
+msgstr "将文件下载到指定文件夹。"
 
 #: konsole.cpp:4271
 #, c-format
@@ -648,7 +638,7 @@ msgstr "打印 %1"
 
 #: konsole.cpp:4298
 msgid "Size Configuration"
-msgstr "大小配置"
+msgstr "窗口大小配置"
 
 #: konsole.cpp:4312
 msgid "Number of columns:"
@@ -660,11 +650,11 @@ msgstr "行数："
 
 #: konsole.cpp:4343
 msgid "As &regular expression"
-msgstr "作为正规表达式(&R)"
+msgstr "匹配正则表达式(&R)"
 
 #: konsole.cpp:4346
 msgid "&Edit..."
-msgstr "编辑(&E)..."
+msgstr "编辑(&E)…"
 
 #: konsole_part.cpp:100 main.cpp:165
 msgid "Konsole"
@@ -672,7 +662,7 @@ msgstr "Konsole"
 
 #: konsole_part.cpp:410
 msgid "&History..."
-msgstr "历史(&H)..."
+msgstr "历史记录(&H)…"
 
 #: konsole_part.cpp:416
 msgid "Li&ne Spacing"
@@ -728,11 +718,11 @@ msgstr "隐藏边框(&A)"
 
 #: konsole_part.cpp:446
 msgid "Me&ta key as Alt key"
-msgstr "Meta 键作 Alt 键使用(&T)"
+msgstr "将 Me&ta 键作为 Alt 键使用"
 
 #: konsole_part.cpp:451
 msgid "Wor&d Connectors..."
-msgstr "字连接符(&D)..."
+msgstr "连字符(&D)…"
 
 #: konsole_part.cpp:457
 msgid "&Use Konsole's Settings"
@@ -740,22 +730,20 @@ msgstr "使用 Konsole 的设置(&U)"
 
 #: konsole_part.cpp:496
 msgid "&Close Terminal Emulator"
-msgstr "关闭终端模拟器(&C)"
+msgstr "关闭终端仿真器(&C)"
 
 #: konsole_part.cpp:954
 msgid "Word Connectors"
-msgstr "字分隔符"
+msgstr "连字符"
 
 #: konsole_part.cpp:955
-msgid ""
-"Characters other than alphanumerics considered part of a word when double "
-"clicking:"
-msgstr "当双击时，非字母表字符被当作词的一部分："
+msgid "Characters other than alphanumerics considered part of a word when double clicking:"
+msgstr "当双击时，字母以外的字符将当作词的一部分："
 
 #: kwrited.cpp:85
 #, c-format
 msgid "KWrited - Listening on Device %1"
-msgstr "KWrited - 在设备 %1 上监听"
+msgstr "KWrited：正在监听设备 %1"
 
 #: kwrited.cpp:118
 msgid "Clear Messages"
@@ -763,7 +751,7 @@ msgstr "清除消息"
 
 #: main.cpp:61
 msgid "X terminal for use with TDE."
-msgstr "TDE 使用的 X 终端。"
+msgstr "与 TDE 配合使用的 X 终端。"
 
 #: main.cpp:66
 msgid "Set window class"
@@ -771,7 +759,7 @@ msgstr "设置窗口类"
 
 #: main.cpp:67
 msgid "Start login shell"
-msgstr "启动登录 shell"
+msgstr "启动登录 Shell"
 
 #: main.cpp:68
 msgid "Set the window title"
@@ -781,17 +769,15 @@ msgstr "设置窗口标题"
 msgid ""
 "Specify terminal type as set in the TERM\n"
 "environment variable"
-msgstr ""
-"设置TERM环境变量\n"
-"里的终端类型"
+msgstr "指定 TERM 环境变量中设置的终端类型"
 
 #: main.cpp:70
 msgid "Do not close Konsole when command exits"
-msgstr "命令退出后不关闭 Konsole"
+msgstr "命令结束后不关闭 Konsole"
 
 #: main.cpp:71
 msgid "Do not save lines in history"
-msgstr "不在历史记录里保存行"
+msgstr "不保存历史记录"
 
 #: main.cpp:72
 msgid "Do not display menubar"
@@ -811,51 +797,52 @@ msgstr "不显示滚动条"
 
 #: main.cpp:77
 msgid "Do not use Xft (anti-aliasing)"
-msgstr "不使用 Xft(平滑)"
+msgstr "不使用 Xft（抗锯齿）"
 
 #: main.cpp:78
 msgid "Terminal size in columns x lines"
-msgstr "列 x 行表示的终端大小"
+msgstr "终端窗口大小（列 × 行）"
 
 #: main.cpp:79
 msgid "Terminal size is fixed"
-msgstr "终端大小固定"
+msgstr "终端窗口大小已固定"
 
 #: main.cpp:80
 msgid "Start with given session type"
-msgstr "用给定的会话类型启动"
+msgstr "启动指定的会话类型"
 
 #: main.cpp:81
 msgid "List available session types"
 msgstr "列出可用的会话类型"
 
+# keytab 定义 -> https://mirror.git.trinitydesktop.org/gitea/TDE/tdebase/src/branch/master/konsole/other/README.KeyTab
 #: main.cpp:82
 msgid "Set keytab to 'name'"
-msgstr "将 keytab 设置为“name”"
+msgstr "将键盘响应风格设为“name”"
 
 #: main.cpp:83
 msgid "List available keytabs"
-msgstr "列出可用的 keytab"
+msgstr "列出所有可用的键盘响应风格"
 
 #: main.cpp:84
 msgid "Start with given session profile"
-msgstr "用给定的会话配置启动"
+msgstr "启动指定配置的会话"
 
 #: main.cpp:85
 msgid "List available session profiles"
-msgstr "列出可用的会话配置"
+msgstr "列出所有可用的会话配置"
 
 #: main.cpp:86
 msgid "Set schema to 'name' or use 'file'"
-msgstr "将配色方案设置为“name”或使用“file”"
+msgstr "使用名为“name”的配色方案或本地配色方案“file”"
 
 #: main.cpp:88
 msgid "List available schemata"
-msgstr "列出可用的方案"
+msgstr "列出可用的配色方案"
 
 #: main.cpp:89
 msgid "Enable extended DCOP TQt functions"
-msgstr "启用扩展的 DCOP TQt 函数"
+msgstr "启用扩展 DCOP TQt 函数"
 
 #: main.cpp:90
 msgid "Change working directory to 'dir'"
@@ -863,7 +850,7 @@ msgstr "将工作目录更改为“dir”"
 
 #: main.cpp:91
 msgid "Execute 'command' instead of shell"
-msgstr "执行“command”而不是 shell"
+msgstr "执行尖括号中的命令，而非作为 Shell 脚本运行"
 
 #: main.cpp:93
 msgid "Arguments for 'command'"
@@ -871,7 +858,7 @@ msgstr "“command”的参数"
 
 #: main.cpp:168
 msgid "Maintainer, Trinity bugfixes"
-msgstr "维护者，修复了众多 Trinity Bug"
+msgstr "现任维护者，修复了众多 Trinity 中的问题"
 
 #: main.cpp:169
 msgid "Previous Maintainer"
@@ -883,29 +870,29 @@ msgstr "作者"
 
 #: main.cpp:172 main.cpp:175 main.cpp:178
 msgid "bug fixing and improvements"
-msgstr "错误修正和改进"
+msgstr "修复问题与改进"
 
 #: main.cpp:181 main.cpp:217 main.cpp:220 main.cpp:223 main.cpp:226
 msgid "bug fixing"
-msgstr "错误修正"
+msgstr "修复问题"
 
 #: main.cpp:184
 msgid "Solaris support and work on history"
-msgstr "Solaris 支持和历史"
+msgstr "Solaris 支持和历史记录特性"
 
 #: main.cpp:187
 msgid "faster startup, bug fixing"
-msgstr "更快启动、错误修补"
+msgstr "改善启动速度，修复问题"
 
 #: main.cpp:190
 msgid "decent marking"
-msgstr "大方的记号"
+msgstr "选区与标记特性 (decent marking)"
 
 #: main.cpp:193
 msgid ""
 "partification\n"
 "Toolbar and session names"
-msgstr "工具栏和会话名"
+msgstr "工具栏和会话名特性"
 
 #: main.cpp:197
 msgid ""
@@ -915,19 +902,19 @@ msgstr "整体改进"
 
 #: main.cpp:201
 msgid "transparency"
-msgstr "透明"
+msgstr "透明特性"
 
 #: main.cpp:204
 msgid ""
 "most of main.C donated via kvt\n"
 "overall improvements"
 msgstr ""
-"大多数的 main.C 由 kvt 贡献\n"
-"整体的改进"
+"1. 通过 kvt 贡献了 main.C 文件的大部分内容\n"
+"2. 整体的改进"
 
 #: main.cpp:208
 msgid "schema and selection improvements"
-msgstr "方案和选择改进"
+msgstr "配色方案支持和选区的改进"
 
 #: main.cpp:211
 msgid "SGI Port"
@@ -943,21 +930,22 @@ msgid ""
 "The above list only reflects the contributors\n"
 "I managed to keep track of."
 msgstr ""
-"感谢很多其他的人。\n"
-"上面的列表只是我能够保留记录的一部分贡献者。"
+"上面所列出的仅是有记录在案的一部分贡献者，\n"
+"感谢其他未留名的贡献者们。"
 
 #: main.cpp:285
 msgid "You can't use BOTH -ls and -e.\n"
-msgstr "你不能同时使用 -ls 和 -e。\n"
+msgstr "不能同时使用 -ls 和 -e。\n"
 
 #: main.cpp:412
 msgid "expected --vt_sz <#columns>x<#lines> e.g. 80x40\n"
-msgstr "期望 --vt_sz <#列>x<#行> 例如 80x40\n"
+msgstr "预期为 --vt_sz <#列>x<#行> 例如 80×40\n"
 
 #: printsettings.cpp:32
 msgid "Printer &friendly mode (black text, no background)"
-msgstr "打印机友好模式(黑字，无背景)(&F)"
+msgstr "打印机友好模式（黑字，无背景）(&F)"
 
+# 出处：打印 Shell 历史记录操作过程中的一个选项
 #: printsettings.cpp:34
 msgid "&Pixel for pixel"
 msgstr "像素单位(&P)"
@@ -976,28 +964,25 @@ msgstr "Konsole 默认"
 
 #: session.cpp:137
 msgid ""
-"Konsole is unable to open a PTY (pseudo teletype).  It is likely that this "
-"is due to an incorrect configuration of the PTY devices.  Konsole needs to "
-"have read/write access to the PTY devices."
-msgstr ""
-"Konsle 无法打开 PTY(伪终端)，很可能是因为 PTY 设备配置不当。Konsole 需要获得"
-"对 PTY 设备的读/写权限。"
+"Konsole is unable to open a PTY (pseudo teletype).  It is likely that this is due to an incorrect configuration of the PTY "
+"devices.  Konsole needs to have read/write access to the PTY devices."
+msgstr "Konsole 需要获得对 PTY 设备的读/写权限才能打开 PTY（伪终端），很可能是因为 PTY 设备配置不当。"
 
 #: session.cpp:138
 msgid "A Fatal Error Has Occurred"
-msgstr "发生了严重错误"
+msgstr "发生致命错误"
 
 #: session.cpp:257
 msgid "Silence in session '%1'"
-msgstr "会话“%1”中的沉默"
+msgstr "会话“%1”中无活动"
 
 #: session.cpp:266
 msgid "Bell in session '%1'"
-msgstr "会话“%1”中的响铃"
+msgstr "来自会话“%1”中的响铃"
 
 #: session.cpp:274
 msgid "Activity in session '%1'"
-msgstr "会话“%1”中的活动"
+msgstr "会话“%1”中有活动"
 
 #: session.cpp:373
 msgid "<Finished>"
@@ -1009,19 +994,19 @@ msgstr "会话“%1”以状态 %2 退出。"
 
 #: session.cpp:384
 msgid "Session '%1' exited with signal %2 and dumped core."
-msgstr "会话“%1”以信号 %2 及转存核心退出。"
+msgstr "会话“%1”已崩溃并吐核 (dumped core)，信号 %2。"
 
 #: session.cpp:386
 msgid "Session '%1' exited with signal %2."
-msgstr "会话“%1”以信号 %2 退出。"
+msgstr "会话“%1”已结束，信号 %2。"
 
 #: session.cpp:389
 msgid "Session '%1' exited unexpectedly."
-msgstr "会话“%1”意外退出。"
+msgstr "会话“%1”意外结束。"
 
 #: session.cpp:655
 msgid "ZModem Progress"
-msgstr "ZModem 进度"
+msgstr "ZModem 传输进度"
 
 #: zmodem_dialog.cpp:28
 msgid "&Stop"
@@ -1029,11 +1014,11 @@ msgstr "停止(&S)"
 
 #: ../other/BlackOnLightColor.schema:5
 msgid "Black on Light Color"
-msgstr "浅色背景黑字"
+msgstr "浅绿底黑字"
 
 #: ../other/BlackOnLightYellow.schema:5
 msgid "Black on Light Yellow"
-msgstr "浅黄背景黑字"
+msgstr "浅黄底黑字"
 
 #: ../other/BlackOnWhite.schema:5
 msgid "Black on White"
@@ -1045,7 +1030,7 @@ msgstr "大理石"
 
 #: ../other/Example.Schema:5
 msgid "Ugly 1"
-msgstr "Ugly 1"
+msgstr "丑陋 1"
 
 #: ../other/GreenOnBlack.schema:5
 msgid "Green on Black"
@@ -1053,23 +1038,23 @@ msgstr "黑底绿字"
 
 #: ../other/GreenTint.schema:3
 msgid "Green Tint"
-msgstr "绿色透明"
+msgstr "绿色调"
 
 #: ../other/GreenTint_MC.schema:3
 msgid "Green Tint with Transparent MC"
-msgstr "绿色透明的 MC"
+msgstr "Midnight Commander 配色（绿色调，带透明）"
 
 #: ../other/LightPaper.schema:5
 msgid "Paper, Light"
-msgstr "浅色纸张"
+msgstr "纸质纹理（浅色）"
 
 #: ../other/LightPicture.schema:5
 msgid "Paper"
-msgstr "纸白"
+msgstr "纸质纹理"
 
 #: ../other/Linux.schema:3
 msgid "Linux Colors"
-msgstr "Linux 颜色"
+msgstr "Linux 配色"
 
 #: ../other/README.default.Schema:5
 msgid "Konsole Defaults"
@@ -1077,19 +1062,19 @@ msgstr "Konsole 默认"
 
 #: ../other/Transparent.schema:3
 msgid "Transparent Konsole"
-msgstr "透明控制台"
+msgstr "Konsole 配色（透明）"
 
 #: ../other/Transparent_MC.schema:3
 msgid "Transparent for MC"
-msgstr "MC 透明"
+msgstr "Midnight Commander 配色（透明）"
 
 #: ../other/Transparent_darkbg.schema:3
 msgid "Transparent, Dark Background"
-msgstr "透明，深色背景"
+msgstr "深色背景（透明）"
 
 #: ../other/Transparent_lightbg.schema:3
 msgid "Transparent, Light Background"
-msgstr "透明，浅色背景"
+msgstr "浅色背景（透明）"
 
 #: ../other/WhiteOnBlack.schema:5
 msgid "White on Black"
@@ -1097,23 +1082,23 @@ msgstr "黑底白字"
 
 #: ../other/XTerm.schema:9
 msgid "XTerm Colors"
-msgstr "XTerm 颜色"
+msgstr "XTerm 配色"
 
 #: ../other/syscolor.schema:5
 msgid "System Colors"
-msgstr "系统颜色"
+msgstr "系统配色"
 
 #: ../other/vim.schema:5
 msgid "VIM Colors"
-msgstr "VIM 颜色"
+msgstr "VIM 配色"
 
 #: ../other/README.default.Keytab:19
 msgid "XTerm (XFree 4.x.x)"
-msgstr "XTerm（XFree 4.x.x）"
+msgstr "XTerm (XFree 4.x.x)"
 
 #: ../other/linux.keytab:6
 msgid "linux console"
-msgstr "Linux控制台"
+msgstr "linux 控制台"
 
 #: ../other/solaris.keytab:4
 msgid "Solaris"
@@ -1121,7 +1106,7 @@ msgstr "Solaris"
 
 #: ../other/vt100.keytab:5
 msgid "vt100 (historical)"
-msgstr "vt100 (历史性的)"
+msgstr "vt100（仿古体验）"
 
 #: ../other/vt420pc.keytab:20
 msgid "VT420PC"
@@ -1129,50 +1114,39 @@ msgstr "VT420PC"
 
 #: ../other/x11r5.keytab:3
 msgid "XTerm (XFree 3.x.x)"
-msgstr "XTerm（XFree 3.x.x）"
+msgstr "XTerm (XFree 3.x.x)"
 
 #: ../tips:4
-msgid ""
-"<p>...that right-clicking on any tab allows for the changing of the tab text "
-"color?\n"
-msgstr "<p>……用鼠标右键单击任何标签，都可更改标签文本的颜色。\n"
+msgid "<p>...that right-clicking on any tab allows for the changing of the tab text color?\n"
+msgstr "<p>…用鼠标右键单击任何标签，都可以更改该标签的文本颜色。\n"
 
 #: ../tips:10
-msgid ""
-"<p>...that the tab text color can be changed with the code \\e[28;COLORt "
-"(COLOR: 0-16,777,215)?\n"
-msgstr ""
-"<p>……您可以使用下列代码更改标签文本颜色：\\e[28;COLORt (COLOR: "
-"0-16,777,215)。\n"
+msgid "<p>...that the tab text color can be changed with the code \\e[28;COLORt (COLOR: 0-16,777,215)?\n"
+msgstr "<p>…可以使用下列代码更改标签文本颜色：\\e[28;COLORt (COLOR: 0-16,777,215)。\n"
 
 #: ../tips:16
 msgid "<p>...that the code \\e[8;ROW;COLUMNt will resize Konsole?\n"
-msgstr "<p>……代码 \\e[8;行;列t 将会更改 Konsole 的大小。\n"
+msgstr "<p>…代码 \\e[8;ROW;COLUMNt 将会更改 Konsole 的窗口尺寸。\n"
 
 #: ../tips:22
-msgid ""
-"<p>...that you can start a new standard session by pressing the \"New\" "
-"button in the tabbar?\n"
-msgstr "<p>……按下工具栏里的“新建”按钮，可以启动新的标准会话。\n"
+msgid "<p>...that you can start a new standard session by pressing the \"New\" button in the tabbar?\n"
+msgstr "<p>…按下工具栏里的“新建”按钮，即可启动新的标准会话。\n"
 
 #: ../tips:28
-msgid ""
-"<p>...that pressing and holding the \"New\" button on the tabbar will "
-"display a menu of sessions to select?\n"
-msgstr "<p>……按住标签栏里的“新建”按钮，就可以选择“新建”的会话类型。\n"
+msgid "<p>...that pressing and holding the \"New\" button on the tabbar will display a menu of sessions to select?\n"
+msgstr "<p>…按住标签栏里的“新建”按钮，可以选择“新建”的会话类型。\n"
 
 #: ../tips:34
 msgid "<p>...that pressing Ctrl+Alt+N will start a new standard session?\n"
-msgstr "<p>……按下 Ctrl+Alt+N 将启动新的标准会话。\n"
+msgstr "<p>…按下 Ctrl+Alt+N 组合键可以启动新的标准会话。\n"
 
 #: ../tips:40
 msgid ""
-"<p>...that you can cycle through the Konsole sessions by holding down the "
-"Shift key and\n"
+"<p>...that you can cycle through the Konsole sessions by holding down the Shift key and\n"
 "pressing the Left or Right Arrow keys?\n"
 msgstr ""
-"<p>……按住Shift键，再按向左或向右方向键，\n"
-"就可以在Konsole的各个会话间切换。\n"
+"<p>…按住 Shift 键，再按向左或向右方向键，\n"
+"就可以在 Konsole 的各个会话间切换。\n"
 
 #: ../tips:47
 msgid ""
@@ -1181,45 +1155,39 @@ msgid ""
 "and the Linux Colors schema and apply the full-screen mode. You might also \n"
 "want to set the TDE panel to auto-hide.\n"
 msgstr ""
-"<p>……实现一个“Linux控制台”式的终端\n"
-"<p>隐藏 Konsole 菜单栏、标签栏、滚动条，选择Linux字体\n"
-"和Linux颜色方案，用全屏模式。\n"
-"有可能的话，还要将面版设置成自动隐藏。\n"
+"<p>…如何获得一个“Linux 控制台”样式的终端？\n"
+"<p>隐藏 Konsole 菜单栏、标签栏、滚动条，选择 Linux 字体\n"
+"和 Linux 配色方案，再用上全屏模式。\n"
+"想要效果更好的话，还可以将 TDE 面板设为自动隐藏。\n"
 
 #: ../tips:56
 msgid ""
-"<p>...that you can rename your Konsole sessions by clicking with the right "
-"mouse\n"
-"button and selecting \"Rename session\"? The change will be reflected in "
-"the\n"
+"<p>...that you can rename your Konsole sessions by clicking with the right mouse\n"
+"button and selecting \"Rename session\"? The change will be reflected in the\n"
 "Konsole tabbar, making it easier to remember the content of the session.\n"
 msgstr ""
-"<p>……右击并选择“重命名会话”，可以将当前会话重新命名。\n"
-"变化将反映在 Konsole 的标签栏上，这样比较容易记住会话的内容。\n"
+"<p>…右击并选择“重命名会话”，可以将当前会话重新命名。\n"
+"更改会即刻显示在 Konsole 的标签栏上，这样能更容易记住会话的内容。\n"
 
 #: ../tips:64
-msgid ""
-"<p>...that you can rename a Konsole session by double-clicking its tab?\n"
-msgstr ""
-"<p>……双击 Konsole 标签栏里的会话按钮可以将这个 Konsole 会话重新命名。\n"
+msgid "<p>...that you can rename a Konsole session by double-clicking its tab?\n"
+msgstr "<p>…可以通过双击指定的 Konsole 会话在标签栏里的标签，对其进行重命名。\n"
 
 #: ../tips:70
 msgid "<p>...that you can activate the menu with the Ctrl+Alt+M shortcut?\n"
-msgstr "<p>……用Ctrl+Alt+M快捷键激活菜单。\n"
+msgstr "<p>…使用 Ctrl+Alt+M 组合键可以激活菜单。\n"
 
 #: ../tips:76
-msgid ""
-"<p>...that you can rename your current Konsole session with the Ctrl+Alt+S "
-"shortcut?\n"
-msgstr "<p>……用Ctrl+Alt+S快捷键可以将当前Konsole会话重新命名\n"
+msgid "<p>...that you can rename your current Konsole session with the Ctrl+Alt+S shortcut?\n"
+msgstr "<p>…用 Ctrl+Alt+S 组合键可以重命名当前的 Konsole 会话\n"
 
 #: ../tips:82
 msgid ""
 "<p>...that you can create your own session types by using the session \n"
 "editor which you can find under \"Settings->Configure Konsole...\"?\n"
 msgstr ""
-"<p>……用“设置/配置 Konsole...”中的会话编辑器，\n"
-"可以创建自己的会话类型。\n"
+"<p>…用“设置—配置 Konsole…”中的会话编辑器，\n"
+"可以创建个性化的会话类型。\n"
 
 #: ../tips:89
 msgid ""
@@ -1227,168 +1195,143 @@ msgid ""
 "which you can find under \"Settings->Configure Konsole...\"?\n"
 "</p>\n"
 msgstr ""
-"<p>……用“设置/配置 Konsole...”中的方案编辑器，\n"
-"可以创建自己的配色方案。</p>\n"
+"<p>…用“设置—配置 Konsole…”中的方案编辑器，\n"
+"可以创建个性化的配色方案。</p>\n"
 
 #: ../tips:97
 msgid ""
-"<p>...that you can move a session by holding down the middle mouse button "
-"over the tab?\n"
+"<p>...that you can move a session by holding down the middle mouse button over the tab?\n"
 "</p>\n"
 msgstr ""
-"<p>……在标签上按下鼠标中键即可移动会话。\n"
+"<p>…在标签上按住鼠标中键即可移动会话。\n"
 "</p>\n"
 
 #: ../tips:104
 msgid ""
-"<p>...that you can reorder the session tabs with \"View->Move Session Left/"
-"Right\" menu\n"
-"commands or by holding down the Shift and Ctrl keys and pressing the Left or "
-"Right \n"
+"<p>...that you can reorder the session tabs with \"View->Move Session Left/Right\" menu\n"
+"commands or by holding down the Shift and Ctrl keys and pressing the Left or Right \n"
 "Arrow keys?\n"
 "</p>\n"
 msgstr ""
-"<p>……用“查看/菜单命令”或是按住Shift和Ctrl键同时按向左或向右方向键，\n"
-"可以调整会话按钮在工具栏里的位置。\n"
+"<p>…在菜单栏单击“查看—将会话左移/右移”\n"
+"或是按住 Shift 和 Ctrl 键，同时按下向左或向右方向键，\n"
+"都可以调整会话标签在工具栏里的位置。\n"
 "</p>\n"
 
 #: ../tips:113
 msgid ""
-"<p>...that you can scroll pagewise in the history by holding down the Shift "
-"key \n"
+"<p>...that you can scroll pagewise in the history by holding down the Shift key \n"
 "and pressing the Page Up or Page Down keys?\n"
 msgstr ""
-"<p>……按住Shift键，再按Page Up或Page Down键，\n"
+"<p>…按住 Shift 键，再按 Page Up 或 Page Down 键，\n"
 "可以按页面大小卷动以查看屏幕上以前的记录。\n"
 
 #: ../tips:120
 msgid ""
-"<p>...that you can scroll linewise in the history by holding down the Shift "
-"key \n"
+"<p>...that you can scroll linewise in the history by holding down the Shift key \n"
 "and pressing the Up or Down Arrow keys?\n"
 msgstr ""
-"<p>……按住 Shift 键，再按向上或向下方向键，\n"
-"可以按行卷动以查看屏幕上以前的记录。\n"
+"<p>…按住 Shift 键，再按向上或向下方向键，\n"
+"可以按行卷动以查看屏幕上的历史记录。\n"
 
 #: ../tips:127
 msgid ""
 "<p>...that you can insert the clipboard by holding down the Shift key and \n"
 "pressing the Insert key?\n"
-msgstr "<p>……按住 Shift 键再按 Insert 键，可以插入剪贴板里的东西。\n"
+msgstr "<p>…按住 Shift 键再按 Insert 键，可以插入剪贴板内容。\n"
 
 #: ../tips:134
 msgid ""
 "<p>...that you can insert the X selection by holding down the Shift and\n"
 "Ctrl keys and pressing the Insert key?\n"
-msgstr "<p>……按住 Shift 和 Ctrl 键再按 Insert 键，可以插入 X 选择区。\n"
+msgstr "<p>…按住 Shift 和 Ctrl 键再按 Insert 键，可以插入 X 选区。\n"
 
 #: ../tips:141
 msgid ""
 "<p>...that pressing Ctrl while pasting the selection with the middle mouse\n"
 "button will append a carriage return after pasting the selection buffer?\n"
 msgstr ""
-"<p>……在用鼠标中键粘贴选择的内容时，按住 Ctrl 除了可以完成粘贴外，\n"
-"还可以将缓冲里选择的内容同时送出。\n"
+"<p>…在用鼠标中键粘贴剪贴板内容时，按住 Ctrl 除了可以完成粘贴，\n"
+"还可以在粘贴完成之后自动执行“回车”操作。\n"
 
 #: ../tips:148
-msgid ""
-"<p>...that you can turn off the terminal size hint under \"Settings-"
-">Configure Konsole...\"?\n"
-msgstr "<p>……在“设置/配置 Konsole...”中可以关闭终端尺寸提示。\n"
+msgid "<p>...that you can turn off the terminal size hint under \"Settings->Configure Konsole...\"?\n"
+msgstr "<p>…在“设置—配置 Konsole…”中可以关闭终端窗口大小提示。\n"
 
 #: ../tips:154
-msgid ""
-"<p>...that pressing Ctrl while selecting text will let Konsole ignore line "
-"breaks?\n"
-msgstr "<p>……选择文本时按住 Ctrl，Konsole 就会忽略行之间的间隔。\n"
+msgid "<p>...that pressing Ctrl while selecting text will let Konsole ignore line breaks?\n"
+msgstr "<p>…选择文本时按住 Ctrl，Konsole 就会忽略行之间的间隔。\n"
 
 #: ../tips:160
-msgid ""
-"<p>...that pressing the Ctrl and Alt keys while selecting text will let "
-"Konsole select columns?\n"
-msgstr "<p>……选择文本时按住 Ctrl 和 Alt，Konsole 就会选择列。\n"
+msgid "<p>...that pressing the Ctrl and Alt keys while selecting text will let Konsole select columns?\n"
+msgstr "<p>…选择文本时按住 Ctrl 和 Alt，Konsole 就会选择列。\n"
 
 #: ../tips:166
 msgid ""
 "<p>...that when a program evaluates the right mouse button you can still\n"
 "get the right mouse button pop-up menu while pressing the Shift key?\n"
 msgstr ""
-"<p>……当已经有程序定义了鼠标右键动作，\n"
-"按右键的同时再按Shift键一样可以弹出鼠标右键菜单。\n"
+"<p>…即使程序已经定义了鼠标右键动作，仍可以通过\n"
+"在按右键的同时按住 Shift 键以弹出右键菜单。\n"
 
 #: ../tips:173
 msgid ""
-"<p>...that when a program evaluates the left mouse button you can still "
-"select\n"
+"<p>...that when a program evaluates the left mouse button you can still select\n"
 "text while pressing the Shift key?\n"
 msgstr ""
-"<p>……当已经有程序定义了鼠标左键动作，\n"
-"按左键的同时再按Shift键一样可以选择文本。\n"
+"<p>…即使程序已经定义了鼠标左键动作，仍可以通过\n"
+"在按左键的同时按住 Shift 键以选择文本。\n"
 
 #: ../tips:180
 msgid ""
-"<p>...that you can let Konsole set the current directory as the window "
-"title?\n"
-"For Bash, put 'export PS1=$PS1\"\\[\\e[0m\\H:\\w\\a\\]\"' in your ~/."
-"bashrc .\n"
+"<p>...that you can let Konsole set the current directory as the window title?\n"
+"For Bash, put 'export PS1=$PS1\"\\[\\e[0m\\H:\\w\\a\\]\"' in your ~/.bashrc .\n"
 msgstr ""
-"<p>……您可以让 Konsole 把当前目录的名称设置为窗口标题。\n"
-"对于 Bash，请将 'export PS1=$PS1\"\\[\\e]0;\\H:\\w\\a\\]\"' 添加到 ~/.bashrc "
-"中。\n"
+"<p>…如何让 Konsole 使用当前路径作为窗口标题？\n"
+"对于 Bash，将“export PS1=$PS1\"\\[\\e[0m\\H:\\w\\a\\]\"”添加到 ~/.bashrc 中。\n"
 
 #: ../tips:187
 msgid ""
-"<p>...that you can let Konsole set the current directory as the session "
-"name?\n"
-"For Bash, put 'export PS1=$PS1\"\\[\\e[30m\\H:\\w\\a\\]\"' in your ~/."
-"bashrc .\n"
+"<p>...that you can let Konsole set the current directory as the session name?\n"
+"For Bash, put 'export PS1=$PS1\"\\[\\e[30m\\H:\\w\\a\\]\"' in your ~/.bashrc .\n"
 msgstr ""
-"<p>……您可以让 Konsole 把当前目录的名称设置为会话名称。\n"
-"对于 Bash，请将 “export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"”添加到 ~/.bashrc "
-"中。\n"
+"<p>…如何让 Konsole 使用当前路径作为会话名称？\n"
+"对于 Bash，将 “export PS1=$PS1\"\\[\\e]30;\\H:\\w\\a\\]\"”添加到 ~/.bashrc 中。\n"
 
 #: ../tips:194
 msgid ""
-"<p>...that if you let your shell pass the current directory to Konsole "
-"within the prompt\n"
-"variable, e.g. for Bash with 'export PS1=$PS1\"\\[\\e[31m\\w\\a\\]\"' in "
-"your ~/.bashrc, then\n"
-"Konsole can bookmark it, and session management will remember your current "
-"working directory\n"
+"<p>...that if you let your shell pass the current directory to Konsole within the prompt\n"
+"variable, e.g. for Bash with 'export PS1=$PS1\"\\[\\e[31m\\w\\a\\]\"' in your ~/.bashrc, then\n"
+"Konsole can bookmark it, and session management will remember your current working directory\n"
 "on non-Linux systems too?\n"
 msgstr ""
-"<p>……如果您想要 shell 将当前目录在提示变量中传递给 Konsole，\n"
-"例如，对于 Bash，在 ~/.bashrc 中有“export PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"”命"
-"令的话，那么 Konsole 就可以将其加入书签，会话管理也会在非 Linux 系统中记住您"
-"的工作目录。\n"
+"<p>…想要让 Shell 将当前目录通过提示符变量传递给 Konsole？\n"
+"对于 Bash，如果在 ~/.bashrc 中有“export PS1=$PS1\"\\[\\e]31;\\w\\a\\]\"”命令的话，那么 Konsole 就可以将当前目录加入书签，会话管理也"
+"会在非 Linux 系统中记住当前的工作目录。\n"
 
 #: ../tips:203
 msgid ""
-"<p>...that working with remote hosts in Konsole can be made much easier by "
-"setting the\n"
-"prompt to correctly show your hostname and present path? Try setting your "
-"prompt in your\n"
-"~/.bashrc with: \"export PS1='\\[\\e[0m\\h:\\w> '\" You can then just select "
-"your prompt and\n"
-"press middle-mouse to paste it as the source or destination on the command "
-"line.\n"
+"<p>...that working with remote hosts in Konsole can be made much easier by setting the\n"
+"prompt to correctly show your hostname and present path? Try setting your prompt in your\n"
+"~/.bashrc with: \"export PS1='\\[\\e[0m\\h:\\w> '\" You can then just select your prompt and\n"
+"press middle-mouse to paste it as the source or destination on the command line.\n"
 msgstr ""
-"<p>......通过设置提示符以正确显示主机名和当前路径，\n"
-"您可以更好地在 Konsole 中处理远程主机事务。尝试在 ~/.bashrc 中输入这个来设置"
-"提示符：\n"
-"\"export PS1='\\[\\e[0m\\h:\\w> '\"。之后你就可以选择提示符并在命令行上\n"
-"点击鼠标中键来粘贴它作为来源或目标。\n"
+"<p>…通过让提示符准确显示主机名和当前路径，可以助您更轻松地\n"
+"在 Konsole 中处理远程主机事务。尝试在 ~/.bashrc 中输入以下内容来设置提示符：\n"
+"“export PS1='\\[\\e[0m\\h:\\w> '”。之后就可以选择提示符并在命令行上\n"
+"按下鼠标中键来将其作为源文件或目标文件粘贴到命令行中。\n"
 
 #: ../tips:212
 msgid ""
-"<p>...that you can temporarily set the prompt for Konsole by setting the "
-"'PS1=' variable\n"
-"without having to edit your ~/.bashrc. Try entering the following on the "
-"command line to\n"
+"<p>...that you can temporarily set the prompt for Konsole by setting the 'PS1=' variable\n"
+"without having to edit your ~/.bashrc. Try entering the following on the command line to\n"
 "set your prompt. It will also include the current time before the path:\n"
-"PS1='\\[\\e[0;37m\\]\\A\\[\\e[1;34m\\] \\[\\e[1;34m\\]\\h:\\w> \\[\\e[0m"
-"\\]'\n"
+"PS1='\\[\\e[0;37m\\]\\A\\[\\e[1;34m\\] \\[\\e[1;34m\\]\\h:\\w> \\[\\e[0m\\]'\n"
 msgstr ""
+"<p>…可以通过编辑“PS1=”变量来为 Konsole 设置提示符，\n"
+"而无需编辑 ~/.bashrc 文件。在命令行中尝试输入下列内容：\n"
+"PS1='\\[\\e[0;37m\\]\\A\\[\\e[1;34m\\] \\[\\e[1;34m\\]\\h:\\w> \\[\\e[0m\\]'\n"
+"在此设置中，路径前将会包含当前时间。\n"
 
 #: ../tips:221
 msgid ""
@@ -1396,8 +1339,8 @@ msgid ""
 "<p>When you don't release the mouse button after the second click you\n"
 "can extend your selection by additional words when moving the mouse.\n"
 msgstr ""
-"<p>……双击可以选择整个单词。\n"
-"<p>第二次点击后，移动鼠标而不松开鼠标键，就可以选择更多的单词。\n"
+"<p>…双击可以选择整个单词。\n"
+"<p>第二次点击后，不松开鼠标键而移动鼠标，就可以选择更多的单词。\n"
 
 #: ../tips:229
 msgid ""
@@ -1405,44 +1348,34 @@ msgid ""
 "<p>When you don't release the mouse button after the third click you\n"
 "can extend your selection by additional lines when moving the mouse.\n"
 msgstr ""
-"<p>……三次点击鼠标可以选择整行。\n"
-"<p>第三次点击后，移动鼠标而不松开鼠标键，就可以选择更多的行。\n"
+"<p>…连续三次点击鼠标可以选择整行。\n"
+"<p>第三次点击后，不松开鼠标键而移动鼠标，就可以选择更多的行。\n"
 
 #: ../tips:238
 msgid ""
-"<p>...that if you drag &amp; drop a URL into a Konsole window you are "
-"presented with a\n"
-"menu giving the option to copy or move the specified file into the current "
-"working directory,\n"
+"<p>...that if you drag &amp; drop a URL into a Konsole window you are presented with a\n"
+"menu giving the option to copy or move the specified file into the current working directory,\n"
 "as well as just pasting the URL as text.\n"
 "<p>This works with any type of URL which TDE supports.\n"
 msgstr ""
-"<p>……如果您将 URL 拖放到 Konsole 窗口中，您将会看到一个菜单，其中的选项包括将"
-"文件复制/移动到当前工作目录中，以及将 URL 粘贴为文本。\n"
-"<p>只要 TDE 支持，任何类型的 URL 均可如此对待。\n"
+"<p>…如果把 URL 拖放到 Konsole 窗口中，将会看到一个菜单，其中的选项包括将文件复制、移动到当前工作目录中，以及将 URL 粘贴为文本。\n"
+"<p>只要 TDE 支持，任何类型的 URL 均可如此操作。\n"
 
 #: ../tips:248
 msgid ""
-"<p>...that the \"Settings->Configure Shortcuts...\" dialog allows you to "
-"define keyboard shortcuts for actions\n"
-"not shown in the menu, like activating menu, changing font and for listing "
-"and switching sessions?\n"
-msgstr ""
-"<p>……“设置/配置快捷键...”对话框允许您为没有显示在菜单中的操作定义快捷键，比如"
-"激活菜单、更改字体以及列出并切换会话。\n"
+"<p>...that the \"Settings->Configure Shortcuts...\" dialog allows you to define keyboard shortcuts for actions\n"
+"not shown in the menu, like activating menu, changing font and for listing and switching sessions?\n"
+msgstr "<p>…“设置—配置快捷键…”对话框允许您为没有显示在菜单中的操作定义快捷键，比如激活菜单、更改字体以及列出所有会话和切换会话。\n"
 
 #: ../tips:256
 msgid ""
-"<p>...that right-clicking over the \"New\" button in the left corner of the "
-"tabbar or in an empty tabbar space displays a menu where you can set several "
-"tab options?\n"
-msgstr ""
-"<p>……右键单击标签栏左侧的“新建”按钮或标签栏的空白区域，将显示一个菜单，您可从"
-"中设置标签选项。\n"
+"<p>...that right-clicking over the \"New\" button in the left corner of the tabbar or in an empty tabbar space displays a menu "
+"where you can set several tab options?\n"
+msgstr "<p>…右键单击标签栏左侧的“新建”按钮或标签栏的空白区域，将显示标签选项设置菜单\n"
 
 #, fuzzy
 #~ msgid "&Edit"
-#~ msgstr "编辑(&E)..."
+#~ msgstr "编辑(&E)…"
 
 #, fuzzy
 #~ msgid "Default"
