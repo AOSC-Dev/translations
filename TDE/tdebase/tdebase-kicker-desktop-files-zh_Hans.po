@@ -1,20 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
 # This file is put in the public domain.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Wantao Liu <vantao@aosc.io>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-06-19 16:24+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2023-09-03 21:23+0800\n"
+"Last-Translator: Wantao Liu <vantao@aosc.io>\n"
+"Language-Team: \n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Name
 #: applets/clock/clockapplet.desktop:4
@@ -24,7 +25,7 @@ msgstr "时钟"
 #. Comment
 #: applets/clock/clockapplet.desktop:6
 msgid "An analog and digital clock"
-msgstr "模拟和数字时钟面板小程序"
+msgstr "在主面板上显示模拟或数码管等样式的自定义时钟面板"
 
 #. Name
 #: applets/launcher/quicklauncher.desktop:3
@@ -34,7 +35,7 @@ msgstr "快速启动"
 #. Comment
 #: applets/launcher/quicklauncher.desktop:5
 msgid "Directly access your frequently used applications"
-msgstr "直接访问您最经常使用的应用程序"
+msgstr "轻松访问您最常用的应用程序"
 
 #. Name
 #: applets/lockout/lockout.desktop:3
@@ -54,7 +55,7 @@ msgstr "存储介质"
 #. Comment
 #: applets/media/mediaapplet.desktop:5
 msgid "Directly access your storage media"
-msgstr "直接访问您的存储介质"
+msgstr "轻松访问存储介质"
 
 #. Name
 #: applets/menu/menuapplet.desktop:4
@@ -69,22 +70,22 @@ msgstr "嵌入独立菜单栏的小程序"
 #. Name
 #: applets/minipager/minipagerapplet.desktop:4
 msgid "Desktop Preview & Pager"
-msgstr "桌面预览器和页面切换器"
+msgstr "虚拟桌面预览与切换器"
 
 #. Comment
 #: applets/minipager/minipagerapplet.desktop:6
 msgid "Preview, manage and switch to multiple virtual desktops"
-msgstr "预览、管理及切换多个虚拟桌面"
+msgstr "预览、管理以及在多个虚拟桌面之间进行切换"
 
 #. Name
 #: applets/naughty/naughtyapplet.desktop:3
 msgid "Runaway Process Catcher"
-msgstr "落跑进程捕捉器"
+msgstr "失控进程捕消器"
 
 #. Comment
 #: applets/naughty/naughtyapplet.desktop:5
 msgid "Detect and end broken processes which consume too much CPU time"
-msgstr "检测并结束占用太多 CPU 时间的进程"
+msgstr "监测并终止消耗过多 CPU 时间的失控进程"
 
 #. Name
 #: applets/run/runapplet.desktop:3
@@ -94,7 +95,7 @@ msgstr "运行命令"
 #. Comment
 #: applets/run/runapplet.desktop:5
 msgid "Launch single commands without a terminal window"
-msgstr "调用单条命令而无须使用终端窗口"
+msgstr "无需终端窗口即可执行单个命令"
 
 #. Name
 #: applets/swallow/swallowapplet.desktop:3
@@ -119,12 +120,12 @@ msgstr "系统托盘小程序"
 #. Name
 #: applets/taskbar/taskbarapplet.desktop:3
 msgid "Taskbar"
-msgstr "任务条"
+msgstr "任务栏"
 
 #. Comment
 #: applets/taskbar/taskbarapplet.desktop:5
 msgid "The default task bar for window management"
-msgstr "窗口管理的默认任务栏"
+msgstr "用于窗口管理的系统默认任务栏"
 
 #. Name
 #: applets/trash/trashapplet.desktop:3
@@ -134,27 +135,28 @@ msgstr "回收站"
 #. Comment
 #: applets/trash/trashapplet.desktop:5
 msgid "Displays the trashcan and allows files to be dropped onto it"
-msgstr "显示回收站，并允许您将文件拖至其上"
+msgstr "显示允许通过拖拽以执行删除的垃圾桶"
 
 #. Name
 #: extensions/dockbar/dockbarextension.desktop:2
 msgid "Dock Application Bar"
-msgstr "停靠应用程序栏"
+msgstr "应用程序停靠栏"
 
 #. Comment
 #: extensions/dockbar/dockbarextension.desktop:4
 msgid "Dock application bar extension."
-msgstr "停靠应用程序栏扩展。"
+msgstr "停靠应用程序的拓展任务栏"
 
 #. Name
 #: extensions/kasbar/kasbarextension.desktop:2
 msgid "KasBar"
-msgstr ""
+msgstr "KasBar"
 
 #. Comment
 #: extensions/kasbar/kasbarextension.desktop:4
+#, fuzzy
 msgid "An alternative taskbar panel applet."
-msgstr "备选的任务栏面板小程序。"
+msgstr "新颖的任务栏面板小程序"
 
 #. Name
 #: extensions/sidebar/sidebarextension.desktop:2
@@ -163,23 +165,24 @@ msgstr "通用侧边栏"
 
 #. Comment
 #: extensions/sidebar/sidebarextension.desktop:4
+#, fuzzy
 msgid "Wrapper around Konqueror's navigation panel"
-msgstr "Konqueror 导航面板的转换器"
+msgstr "将 Konqueror 导航面板打包到桌面上"
 
 #. Name
 #: extensions/taskbar/taskbarextension.desktop:2
 msgid "External Taskbar"
-msgstr "外部任务栏"
+msgstr "外置任务栏"
 
 #. Comment
 #: extensions/taskbar/taskbarextension.desktop:4
 msgid "External taskbar panel extension"
-msgstr "外部任务栏面板扩展"
+msgstr "将任务栏面板外置于主面板之外"
 
 #. Name
 #: kicker/buttons/bookmarks.desktop:2
 msgid "Bookmarks Menu"
-msgstr "书签菜单"
+msgstr "书签"
 
 #. Comment
 #: kicker/buttons/bookmarks.desktop:4
@@ -189,12 +192,12 @@ msgstr "您的 Konqueror 书签"
 #. Name
 #: kicker/buttons/browser.desktop:2
 msgid "Quick File Browser"
-msgstr "快速文件浏览器"
+msgstr "快捷文件浏览器"
 
 #. Comment
 #: kicker/buttons/browser.desktop:4
 msgid "A menu that lists files in a given folder"
-msgstr "列出给定文件夹中文件的菜单"
+msgstr "列出指定文件夹中文件的菜单"
 
 #. Name
 #: kicker/buttons/desktop.desktop:2
@@ -204,7 +207,7 @@ msgstr "显示桌面"
 #. Comment
 #: kicker/buttons/desktop.desktop:4
 msgid "A button that gives quick access to the desktop when pressed"
-msgstr "按下可快速访问桌面的按钮"
+msgstr "添加快速访问桌面的按钮"
 
 #. Name
 #: kicker/buttons/exec.desktop:2
@@ -214,7 +217,7 @@ msgstr "非 TDE 应用程序启动器"
 #. Comment
 #: kicker/buttons/exec.desktop:4
 msgid "A launcher for programs not in the TDE Menu"
-msgstr "启动不在 TDE 菜单中的程序"
+msgstr "为非 TDE 应用程序制作个性化启动按钮"
 
 #. Name
 #: kicker/buttons/kmenu.desktop:2
@@ -224,7 +227,7 @@ msgstr "TDE 菜单"
 #. Comment
 #: kicker/buttons/kmenu.desktop:4
 msgid "Applications and common actions"
-msgstr "应用程序和公共操作"
+msgstr "应用程序和常用操作"
 
 #. Name
 #: kicker/buttons/windowlist.desktop:2
@@ -234,7 +237,7 @@ msgstr "窗口列表菜单"
 #. Comment
 #: kicker/buttons/windowlist.desktop:4
 msgid "A menu that lists all open windows"
-msgstr "列出打开的全部窗口的菜单"
+msgstr "列出全部已打开窗口的菜单"
 
 #. Name
 #: kicker/core/childpanelextension.desktop:2
@@ -244,12 +247,12 @@ msgstr "面板"
 #. Comment
 #: kicker/core/childpanelextension.desktop:4
 msgid "Child panel extension."
-msgstr "子面板扩展。"
+msgstr "在屏幕四周拓展子面板，以放置更多的小程序或应用程序"
 
 #. Comment
 #: kicker/interfaces/kickoffsearchplugin.desktop:5
 msgid "A search plugin for Kickoff"
-msgstr ""
+msgstr "Kickoff 搜索插件"
 
 #. Name
 #: kicker/kcmkicker.desktop:10
@@ -269,7 +272,7 @@ msgstr "查找"
 #. Comment
 #: menuext/find/find.desktop:4
 msgid "Menu for starting a file or web search"
-msgstr "启动文件或 Web 搜索的菜单"
+msgstr "启动文件/Web搜索的菜单"
 
 #. Name
 #: menuext/find/kfind.desktop:11
@@ -289,7 +292,7 @@ msgstr "Kate 会话菜单"
 #. Comment
 #: menuext/kate/katesessionmenu.desktop:4
 msgid "Allows you to open Kate with a specified session, or create a new one"
-msgstr "允许您用指定会话打开 Kate，或创建新会话"
+msgstr "允许您用指定会话或创建新会话以打开 Kate"
 
 #. Name
 #: menuext/konq-profiles/konquerormenu.desktop:2
@@ -314,12 +317,12 @@ msgstr "以会话或书签启动终端模拟器的菜单"
 #. Name
 #: menuext/prefmenu/prefmenu.desktop:2
 msgid "Trinity Control Center"
-msgstr "控制中心"
+msgstr "Trinity 控制中心"
 
 #. Comment
 #: menuext/prefmenu/prefmenu.desktop:4
 msgid "Trinity Control Center modules menu"
-msgstr "控制中心模块菜单"
+msgstr "Trinity 控制中心模块菜单"
 
 #. Name
 #: menuext/recentdocs/recentdocs.desktop:2
@@ -329,7 +332,7 @@ msgstr "最近文档"
 #. Comment
 #: menuext/recentdocs/recentdocs.desktop:4
 msgid "Menu of documents you have used recently"
-msgstr "您最近使用过的文档的菜单"
+msgstr "您最近使用过的文档列表"
 
 #. Name
 #: menuext/remote/remotemenu.desktop:2
@@ -349,7 +352,7 @@ msgstr "系统菜单"
 #. Comment
 #: menuext/system/systemmenu.desktop:4
 msgid "Menu of important system places"
-msgstr "重要系统位置的菜单"
+msgstr "重要系统位置菜单"
 
 #. Name
 #: menuext/tdeprint/printmenu.desktop:2
@@ -364,9 +367,9 @@ msgstr "打印系统菜单"
 #. Name
 #: menuext/tom/tom.desktop:2
 msgid "TOM"
-msgstr "任务菜单"
+msgstr "任务导向菜单"
 
 #. Comment
 #: menuext/tom/tom.desktop:4
 msgid "A task oriented menu system"
-msgstr "面向任务的菜单系统"
+msgstr "任务导向的菜单系统"
