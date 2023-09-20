@@ -12,9 +12,17 @@
 |tdebase/konsole|Completed|Aug 22, 2023|
 |tdebase/konsole - events|Completed|Aug 22, 2023|
 |tdebase/konsole - desktop files|Completed|Aug 22, 2023|
-|tdebase/kicker|In Progress|/|
-|tdebase/kickermenu_kate|In Progress|/|
-|tdebase/kicker - desktop files|In Progress|/|
+|tdebase/kicker|Completed|Sep 20, 2023|
+|tdebase/kickermenu_kate|Completed|Sep 20, 2023|
+|tdebase/kicker - desktop files|Completed|Sep 20, 2023|
+
+## Parallel Projects
+
+### Improving [i18n of TDE](https://mirror.git.trinitydesktop.org/gitea/TDE/tde-i18n)
+
+|Specifics of Improvement|Status|Related Page|
+|:-|:--:|:--:|
+|Replace three dot ellipsis with equally spaced ellipsis|In Progress|[tde-i18n Repository](https://mirror.git.trinitydesktop.org/gitea/TDE/tde-i18n)|
 
 ## Other Information
 
