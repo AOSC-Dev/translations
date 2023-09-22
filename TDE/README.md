@@ -6,15 +6,20 @@
 |:-|:--:|:--:|
 |libraries/libkdcraw|Completed|Jul 20, 2023|
 |tdebase/kdesktop|Completed|Aug 4, 2023|
-|tdebase/kdesktop - icons|Completed|Aug 22, 2023|
 |tdebase/kdesktop - desktop files|Completed|Aug 4, 2023|
 |tdebase/khotkeys - data|Completed|Aug 4, 2023|
+|tdebase/kdesktop - icons|Completed|Aug 22, 2023|
 |tdebase/konsole|Completed|Aug 22, 2023|
-|tdebase/konsole - events|Completed|Aug 22, 2023|
 |tdebase/konsole - desktop files|Completed|Aug 22, 2023|
+|tdebase/konsole - events|Completed|Aug 22, 2023|
 |tdebase/kicker|Completed|Sep 20, 2023|
-|tdebase/kickermenu_kate|Completed|Sep 20, 2023|
 |tdebase/kicker - desktop files|Completed|Sep 20, 2023|
+|tdebase/kickermenu_kate|Completed|Sep 20, 2023|
+|tdebase/kcmaccess|In Progress|/|
+|tdebase/kcmarts - desktop files|In Progress|/|
+|tdebase/kcmbackground - desktop files|In Progress|/|
+|tdebase/kcmbell - desktop files|In Progress|/|
+|tdebase/kcmcgi - desktop files|In Progress|/|
 
 ## Parallel Projects
 
