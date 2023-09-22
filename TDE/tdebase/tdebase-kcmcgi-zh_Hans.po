@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Wang Jian <lark@linux.net.cn>, 2002
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmcgi\n"
+"POT-Creation-Date: 2020-05-11 04:02+0200\n"
+"PO-Revision-Date: 2003-12-27 23:31+0800\n"
+"Last-Translator: Wang Jian <lark@linux.net.cn>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Instead of a literal translation, add your name to the end of the list (separated by a comma).
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "Wang Jian"
+
+#. Instead of a literal translation, add your email to the end of the list (separated by a comma).
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "lark@linux.net.cn"
+
+#: kcmcgi.cpp:51
+msgid "Paths to Local CGI Programs"
+msgstr "本地CGI程序的路径"
+
+#: kcmcgi.cpp:59
+msgid "Add..."
+msgstr "添加..."
+
+#: kcmcgi.cpp:71
+msgid "kcmcgi"
+msgstr "kcmcgi"
+
+#: kcmcgi.cpp:72
+msgid "CGI TDEIO Slave Control Module"
+msgstr "CGI TDEIO Slave 控制模块"
+
+#: kcmcgi.cpp:74
+msgid "(c) 2002 Cornelius Schumacher"
+msgstr "(C) 2002 Cornelius Schumacher"
+
+#: kcmcgi.cpp:147
+msgid ""
+"<h1>CGI Scripts</h1> The CGI TDEIO slave lets you execute local CGI programs "
+"without the need to run a web server. In this control module you can "
+"configure the paths that are searched for CGI scripts."
+msgstr ""
+"<h1>CGI 脚本</h1> CGI TDEIO 仆人让您不用运行 Web 服务器就可以执行本地 CGI 程"
+"序。在本控制模块中，您可以配置用于搜索 CGI 脚本的路径。"

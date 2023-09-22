@@ -1,0 +1,366 @@
+# translation of kcmaccess.po to zh_CN
+# Copyright (C) 2000-2003 Free Software Foundation, Inc.
+# Xie Yuheng <phycommusyee@263.net>, 2000.
+# Xiong Jiang <jxiong@offtopic.org>, 2003.
+# Liu Songhe <jackliu9999@263.net>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmaccess\n"
+"POT-Creation-Date: 2021-07-07 18:16+0000\n"
+"PO-Revision-Date: 2005-09-24 23:12+0800\n"
+"Last-Translator: Funda Wang <fundawang@en2china.com>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Instead of a literal translation, add your name to the end of the list (separated by a comma).
+msgid ""
+"_: NAME OF TRANSLATORS\n"
+"Your names"
+msgstr "开源软件国际化简体中文组(http://i18n.linux.net.cn)"
+
+#. Instead of a literal translation, add your email to the end of the list (separated by a comma).
+msgid ""
+"_: EMAIL OF TRANSLATORS\n"
+"Your emails"
+msgstr "i18n-translation@lists.linux.net.cn"
+
+#: kcmaccess.cpp:186
+msgid "AltGraph"
+msgstr "AltGraph"
+
+#: kcmaccess.cpp:188
+msgid "Hyper"
+msgstr "Hyper"
+
+#: kcmaccess.cpp:190
+msgid "Super"
+msgstr "Super"
+
+#: kcmaccess.cpp:204
+msgid "Press %1 while NumLock, CapsLock and ScrollLock are active"
+msgstr "NumLock、CapsLock 和 ScrollLock 亮时按 %1"
+
+#: kcmaccess.cpp:206
+msgid "Press %1 while CapsLock and ScrollLock are active"
+msgstr "CapsLock 和 ScrollLock 亮时按 %1"
+
+#: kcmaccess.cpp:208
+msgid "Press %1 while NumLock and ScrollLock are active"
+msgstr "NumLock 和 ScrollLock 亮时按 %1"
+
+#: kcmaccess.cpp:210
+msgid "Press %1 while ScrollLock is active"
+msgstr "ScrollLock 亮时按 %1"
+
+#: kcmaccess.cpp:213
+msgid "Press %1 while NumLock and CapsLock are active"
+msgstr "NumLock 和 CapsLock 亮时按 %1"
+
+#: kcmaccess.cpp:215
+msgid "Press %1 while CapsLock is active"
+msgstr "CapsLock 亮时按 %1"
+
+#: kcmaccess.cpp:217
+msgid "Press %1 while NumLock is active"
+msgstr "NumLock 亮时按 %1"
+
+#: kcmaccess.cpp:219
+#, c-format
+msgid "Press %1"
+msgstr "按 %1"
+
+#: kcmaccess.cpp:229 kcmaccess.cpp:566
+msgid "kaccess"
+msgstr "kaccess"
+
+#: kcmaccess.cpp:229 kcmaccess.cpp:567
+msgid "TDE Accessibility Tool"
+msgstr "TDE 辅助工具"
+
+#: kcmaccess.cpp:231
+msgid "(c) 2000, Matthias Hoelzer-Kluepfel"
+msgstr "(c) 2000，Matthias Hoelzer-Kluepfel"
+
+#: kcmaccess.cpp:233
+msgid "Author"
+msgstr "作者"
+
+#: kcmaccess.cpp:247
+msgid "Audible Bell"
+msgstr "响铃"
+
+#: kcmaccess.cpp:254
+msgid "Use &system bell"
+msgstr "使用系统铃声(&S)"
+
+#: kcmaccess.cpp:256
+msgid "Us&e customized bell"
+msgstr "使用自定义铃声(&E)"
+
+#: kcmaccess.cpp:258
+msgid ""
+"If this option is checked, the default system bell will be used. See the "
+"\"System Bell\" control module for how to customize the system bell. "
+"Normally, this is just a \"beep\"."
+msgstr ""
+"如果该选项被选中，将使用默认的系统铃声。请看“系统铃声”控制模块以了解系统铃声"
+"的设置方法。一般情况下，这仅仅是一声“哔”。"
+
+#: kcmaccess.cpp:261
+msgid ""
+"Check this option if you want to use a customized bell, playing a sound "
+"file. If you do this, you will probably want to turn off the system bell.<p> "
+"Please note that on slow machines this may cause a \"lag\" between the event "
+"causing the bell and the sound being played."
+msgstr ""
+"如果您想使用自定义铃声、播放一个声音文件，请选中这个选项。如果这样的话，您可"
+"能还想关掉系统铃声。<p>请注意在一些较慢的机器上，可能会导致铃声的播放和事件的"
+"发生之间存在一段延迟时间。"
+
+#: kcmaccess.cpp:268
+msgid "Sound &to play:"
+msgstr "要播放的声音(&T)："
+
+#: kcmaccess.cpp:273
+msgid ""
+"If the option \"Use customized bell\" is enabled, you can choose a sound "
+"file here. Click \"Browse...\" to choose a sound file using the file dialog."
+msgstr ""
+"如果选中了“使用自定义铃声”，您可以在这里指定一个声音文件。请点击“浏览...”在文"
+"件对话框中选择一个声音文件。"
+
+#: kcmaccess.cpp:290
+msgid "Visible Bell"
+msgstr "可见铃声"
+
+#: kcmaccess.cpp:296
+msgid "&Use visible bell"
+msgstr "使用可见铃声(&U)"
+
+#: kcmaccess.cpp:298
+msgid ""
+"This option will turn on the \"visible bell\", i.e. a visible notification "
+"shown every time that normally just a bell would occur. This is especially "
+"useful for deaf people."
+msgstr ""
+"该选项将打开“可见铃声”，比如用视觉提醒来代替通常情况下的铃声。这对于聋人来说"
+"特别有用。"
+
+#: kcmaccess.cpp:304
+msgid "I&nvert screen"
+msgstr "屏幕反转(&N)"
+
+#: kcmaccess.cpp:307
+msgid ""
+"All screen colors will be inverted for the amount of time specified below."
+msgstr "屏幕上所有的颜色都会翻转并持续下面所指定的时间长度。"
+
+#: kcmaccess.cpp:309
+msgid "F&lash screen"
+msgstr "屏幕闪烁(&L)"
+
+#: kcmaccess.cpp:311
+msgid ""
+"The screen will turn to a custom color for the amount of time specified "
+"below."
+msgstr "屏幕将会变成指定的颜色并持续下面所指定的时间长度。"
+
+#: kcmaccess.cpp:317
+msgid ""
+"Click here to choose the color used for the \"flash screen\" visible bell."
+msgstr "点击这里选择“屏幕闪烁”所使用的颜色。"
+
+#: kcmaccess.cpp:324
+msgid "Duration:"
+msgstr "持续时间："
+
+#: kcmaccess.cpp:325 kcmaccess.cpp:426 kcmaccess.cpp:458
+msgid " msec"
+msgstr " 毫秒"
+
+#: kcmaccess.cpp:327
+msgid ""
+"Here you can customize the duration of the \"visible bell\" effect being "
+"shown."
+msgstr "您可以在这里设定“可见铃声”效果持续的时间。"
+
+#: kcmaccess.cpp:344
+msgid "&Bell"
+msgstr "铃声(&B)"
+
+#: kcmaccess.cpp:352
+msgid "S&ticky Keys"
+msgstr "粘滞键(&T)"
+
+#: kcmaccess.cpp:358
+msgid "Use &sticky keys"
+msgstr "使用粘滞键(&S)"
+
+#: kcmaccess.cpp:363
+msgid "&Lock sticky keys"
+msgstr "锁定粘滞键(&L)"
+
+#: kcmaccess.cpp:368
+msgid "Turn sticky keys off when two keys are pressed simultaneously"
+msgstr "同时按下两个键时关闭粘滞键"
+
+#: kcmaccess.cpp:373
+msgid "Use system bell whenever a modifier gets latched, locked or unlocked"
+msgstr "按死、锁定或取消对修饰键的锁定时使用系统铃声"
+
+#: kcmaccess.cpp:376
+msgid "Locking Keys"
+msgstr "锁定键"
+
+#: kcmaccess.cpp:382
+msgid "Use system bell whenever a locking key gets activated or deactivated"
+msgstr "锁定键激活或取消激活时使用系统铃声"
+
+#: kcmaccess.cpp:385
+msgid ""
+"Use TDE's system notification mechanism whenever a modifier or locking key "
+"changes its state"
+msgstr "当修饰键或锁定键更改状态时使用 TDE 的系统通知机制"
+
+#: kcmaccess.cpp:390 kcmaccess.cpp:538
+msgid "Configure System Notification..."
+msgstr "更改系统通知..."
+
+#: kcmaccess.cpp:407
+msgid "&Modifier Keys"
+msgstr "修饰键(&M)"
+
+#: kcmaccess.cpp:414
+msgid "Slo&w Keys"
+msgstr "筛选键(&W)"
+
+#: kcmaccess.cpp:420
+msgid "&Use slow keys"
+msgstr "使用筛选键(&U)"
+
+#: kcmaccess.cpp:428
+msgid "Acceptance dela&y:"
+msgstr "接受延迟(&Y)："
+
+#: kcmaccess.cpp:433
+msgid "&Use system bell whenever a key is pressed"
+msgstr "按下键时使用系统铃声(&U)"
+
+#: kcmaccess.cpp:438
+msgid "&Use system bell whenever a key is accepted"
+msgstr "接受按键时使用系统铃声(&U)"
+
+#: kcmaccess.cpp:443
+msgid "&Use system bell whenever a key is rejected"
+msgstr "拒绝按键时使用系统铃声(&U)"
+
+#: kcmaccess.cpp:446
+msgid "Bounce Keys"
+msgstr "撞击键"
+
+#: kcmaccess.cpp:452
+msgid "Use bou&nce keys"
+msgstr "使用撞击键(&N)"
+
+#: kcmaccess.cpp:460
+msgid "D&ebounce time:"
+msgstr "弹回时间(&E)："
+
+#: kcmaccess.cpp:465
+msgid "Use the system bell whenever a key is rejected"
+msgstr "拒绝按键时使用系统铃声"
+
+#: kcmaccess.cpp:483
+msgid "&Keyboard Filters"
+msgstr "键盘过滤(&K)"
+
+#: kcmaccess.cpp:490 kcmaccess.cpp:554
+msgid "Activation Gestures"
+msgstr "激活手势"
+
+#: kcmaccess.cpp:496
+msgid "Use gestures for activating sticky keys and slow keys"
+msgstr "激活粘滞键和筛选键使用手势"
+
+#: kcmaccess.cpp:500
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"您在此激活开启下列特性的键盘手势：\n"
+"粘滞键：连续按五次 Shift 键\n"
+"筛选键：按住 Shift 键八秒"
+
+#: kcmaccess.cpp:504
+msgid ""
+"Here you can activate keyboard gestures that turn on the following "
+"features: \n"
+"Mouse Keys: %1\n"
+"Sticky keys: Press Shift key 5 consecutive times\n"
+"Slow keys: Hold down Shift for 8 seconds"
+msgstr ""
+"您在此激活开启下列特性的键盘手势：\n"
+"鼠标键：%1\n"
+"粘滞键：连续按五次 Shift 键\n"
+"筛选键：按住 Shift 键八秒"
+
+#: kcmaccess.cpp:509
+msgid "Turn sticky keys and slow keys off after a certain period of inactivity"
+msgstr "在一段时间不活动之后关闭粘滞键和筛选键"
+
+#: kcmaccess.cpp:515
+msgid " min"
+msgstr " 分钟"
+
+#: kcmaccess.cpp:517
+msgid "Timeout:"
+msgstr "超时："
+
+#: kcmaccess.cpp:520
+msgid "Notification"
+msgstr "通知"
+
+#: kcmaccess.cpp:526
+msgid ""
+"Use the system bell whenever a gesture is used to turn an accessibility "
+"feature on or off"
+msgstr "使用手势打开或关闭辅助特性时使用系统铃声"
+
+#: kcmaccess.cpp:529
+msgid ""
+"Show a confirmation dialog whenever a keyboard accessibility feature is "
+"turned on or off"
+msgstr "打开或关闭键盘辅助特性时显示确认对话框"
+
+#: kcmaccess.cpp:531
+msgid ""
+"If this option is checked, TDE will show a confirmation dialog whenever a "
+"keyboard accessibility feature is turned on or off.\n"
+"Be sure you know what you are doing if you uncheck it, as the keyboard "
+"accessibility settings will then always be applied without confirmation."
+msgstr ""
+"如果选中此选项，TDE 将会每次打开或关闭键盘辅助特性时显示确认对话框。\n"
+"如果您不选中此选项，键盘辅助功能设置将会被直接应用而无需确认，所以请小心使"
+"用。"
+
+#: kcmaccess.cpp:533
+msgid ""
+"Use TDE's system notification mechanism whenever a keyboard accessibility "
+"feature is turned on or off"
+msgstr "打开或关闭键盘辅助特性时使用 TDE 的系统通知机制"
+
+#: kcmaccess.cpp:586
+msgid "*.wav|WAV Files"
+msgstr "*.wav|波形文件"
+
+#~ msgid "Dela&y:"
+#~ msgstr "延迟(&Y)："
+
+#~ msgid "D&elay:"
+#~ msgstr "延时(&E)："
