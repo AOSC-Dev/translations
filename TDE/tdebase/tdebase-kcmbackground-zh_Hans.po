@@ -3,30 +3,32 @@
 # Xie Yuheng <phycommusyee@263.net>, 2000.
 # Funda Wang <fundawang@en2china.com>, 2002.
 # Xiong Jiang <jxiong@offtopic.org>, 2003
+# Wantao Liu <vantao@aosc.io>, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2022-07-17 18:15+0000\n"
-"PO-Revision-Date: 2005-09-24 23:14+0800\n"
-"Last-Translator: Dick Zhang <netwind2003@263.net>\n"
+"PO-Revision-Date: 2023-09-29 02:50+0800\n"
+"Last-Translator: Wantao Liu <vantao@aosc.io>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
-"Language: \n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Instead of a literal translation, add your name to the end of the list (separated by a comma).
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "TDE 简体中文翻译组"
+msgstr "Xie Yuheng, Funda Wang, Xiong Jiang, Wantao Liu"
 
 #. Instead of a literal translation, add your email to the end of the list (separated by a comma).
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "i18n-translation@lists.linux.net.cn"
+msgstr "phycommusyee@263.net, fundawang@en2china.com, jxiong@offtopic.org, vantao@aosc.io"
 
 #: bgadvanced.cpp:70
 msgid "Advanced Background Settings"
@@ -42,13 +44,13 @@ msgstr " KB"
 
 #: bgadvanced.cpp:261
 msgid "%1 min."
-msgstr "%1 分。"
+msgstr "%1 分钟。"
 
 #: bgadvanced.cpp:298
 msgid ""
-"Unable to remove the program: the program is global and can only be removed "
-"by the system administrator."
-msgstr "无法删除该程序：这是一个全局程序，只能由系统管理员来删除。"
+"Unable to remove the program: the program is global and can only be removed by the "
+"system administrator."
+msgstr "无法删除：该程序为全局程序，仅系统管理员有权删除。"
 
 #: bgadvanced.cpp:300
 msgid "Cannot Remove Program"
@@ -56,7 +58,7 @@ msgstr "无法删除程序"
 
 #: bgadvanced.cpp:304
 msgid "Are you sure you want to remove the program `%1'?"
-msgstr "您确定要删除程序“%1”吗？"
+msgstr "确定要删除程序“%1”吗？"
 
 #: bgadvanced.cpp:306
 msgid "Remove Background Program"
@@ -84,7 +86,7 @@ msgstr "预览命令(&P)："
 
 #: bgadvanced.cpp:423
 msgid "&Executable:"
-msgstr "可执行程序(&E)："
+msgstr "可执行文件(&E)："
 
 #: bgadvanced.cpp:429
 msgid "&Refresh time:"
@@ -92,7 +94,7 @@ msgstr "刷新时间(&R)："
 
 #: bgadvanced.cpp:434 bgwallpaper.cpp:107
 msgid " min"
-msgstr " 分"
+msgstr " 分钟"
 
 #: bgadvanced.cpp:441
 msgid "New Command"
@@ -107,16 +109,16 @@ msgid ""
 "You did not fill in the `Name' field.\n"
 "This is a required field."
 msgstr ""
-"您没有填写“名称”域。\n"
-"这是必须填写的。"
+"您没有填写“名称”字段。\n"
+"这是必填字段。"
 
 #: bgadvanced.cpp:479
 msgid ""
 "There is already a program with the name `%1'.\n"
 "Do you want to overwrite it?"
 msgstr ""
-"已经有一个程序名字叫做“%1”。\n"
-"您真的想覆盖它吗?"
+"已存在名称为“%1”的程序。\n"
+"是否要覆盖？"
 
 #: bgadvanced.cpp:480
 msgid "Overwrite"
@@ -127,60 +129,56 @@ msgid ""
 "You did not fill in the `Executable' field.\n"
 "This is a required field."
 msgstr ""
-"您没有填写“可执行程序”域。\n"
-"这是必须填写的。"
+"您没有填写“可执行程序”字段。\n"
+"这是必填字段。"
 
 #: bgadvanced.cpp:491
 msgid ""
 "You did not fill in the `Command' field.\n"
 "This is a required field."
 msgstr ""
-"您没有填写“命令”域。\n"
-"这是必须填写的。"
+"您没有填写“命令”字段。\n"
+"这是必填字段。"
 
 #: bgdialog.cpp:147
 msgid "Open file dialog"
 msgstr "打开文件对话框"
 
 #: bgdialog.cpp:414
-#, fuzzy
 msgid ""
-"<h1>Background</h1> This module allows you to control the appearance of the "
-"virtual desktops. TDE offers a variety of options for customization, "
-"including the ability to specify different settings for each virtual "
-"desktop, or a common background for all of them.<p> The appearance of the "
-"desktop results from the combination of its background colors and patterns, "
-"and optionally, wallpaper, which is based on the image from a graphic file."
-"<p> The background can be made up of a single color, or a pair of colors "
-"which can be blended in a variety of patterns. Wallpaper is also "
-"customizable, with options for tiling and stretching images. The wallpaper "
-"can be overlaid opaquely, or blended in different ways with the background "
-"colors and patterns.<p> TDE allows you to have the wallpaper change "
-"automatically at specified intervals of time. You can also replace the "
-"background with a program that updates the desktop dynamically. For example, "
-"the \"kworldclock\" program shows a day/night map of the world which is "
+"<h1>Background</h1> This module allows you to control the appearance of the virtual "
+"desktops. TDE offers a variety of options for customization, including the ability to "
+"specify different settings for each virtual desktop, or a common background for all of "
+"them.<p> The appearance of the desktop results from the combination of its background "
+"colors and patterns, and optionally, wallpaper, which is based on the image from a "
+"graphic file.<p> The background can be made up of a single color, or a pair of colors "
+"which can be blended in a variety of patterns. Wallpaper is also customizable, with "
+"options for tiling and stretching images. The wallpaper can be overlaid opaquely, or "
+"blended in different ways with the background colors and patterns.<p> TDE allows you to "
+"have the wallpaper change automatically at specified intervals of time. You can also "
+"replace the background with a program that updates the desktop dynamically. For "
+"example, the \"kworldclock\" program shows a day/night map of the world which is "
 "updated periodically."
 msgstr ""
-"<h1>背景</h1> 该模块允许您控制虚拟桌面的外观。TDE 提供许多选项用于定制，包括"
-"为每个虚拟桌面指定不同的设置，或者为它们指定一个公共的背景。<p>桌面的外观是由"
-"它的背景颜色和图案还有可选的基于图片文件的墙纸组合而成的。<p>背景可以是一种颜"
-"色或者用两种颜色以不同的方式混和。墙纸也是可定制的，可以平铺或缩放。墙纸可以"
-"不透明地放置在背景上面，或者以不同的方式与背景颜色和图案混和。<p>TDE 允许每隔"
-"一定的时间就自动更换墙纸。您还可以用一个能动态更新桌面的程序来替代背景。例"
-"如，“TDE 世界”程序可以显示一幅不断更新的白天和黑夜的世界地图。"
+"<h1>背景</h1> 该模块允许您控制虚拟桌面的外观。TDE 提供多种自定义选项，包括为每个虚拟桌面"
+"进行个性化设置，或者为它们设定相同背景。<p>桌面外观由背景颜色和纹样组合而成，也可以设为"
+"指定的图像（文件）。<p>背景可为纯色，或以不同方式混合的两种颜色。墙纸也可以自定义，并提"
+"供平铺或拉伸图像的选项。墙纸可以（不透明地）直接放置在背景上方，或者以多种方式与背景颜色"
+"和图案混合叠加。<p>TDE 能够以您指定的时间间隔来自动更换壁纸。您还可以用动态更新桌面的程"
+"序来替代背景，如使用“kworldclock”程序可以显示一幅随时间进行昼夜交替的世界地图。"
 
 #: bgdialog.cpp:473
 msgid "Desktop %1 Viewport %2"
-msgstr ""
+msgstr "桌面 %1 窗口 %2"
 
 #: bgdialog.cpp:480
 #, c-format
 msgid "Screen %1"
-msgstr "第%1个屏幕"
+msgstr "屏幕 %1"
 
 #: bgdialog.cpp:483
 msgid "Single Color"
-msgstr "单色"
+msgstr "纯色"
 
 #: bgdialog.cpp:484
 msgid "Horizontal Gradient"
@@ -192,11 +190,11 @@ msgstr "垂直渐变"
 
 #: bgdialog.cpp:486
 msgid "Pyramid Gradient"
-msgstr "棱锥混和"
+msgstr "棱锥渐变"
 
 #: bgdialog.cpp:487
 msgid "Pipecross Gradient"
-msgstr "十字管道渐变"
+msgstr "十字型渐变"
 
 #: bgdialog.cpp:488
 msgid "Elliptic Gradient"
@@ -212,31 +210,31 @@ msgstr "平铺"
 
 #: bgdialog.cpp:505
 msgid "Center Tiled"
-msgstr "居中平铺"
+msgstr "居中并平铺 (Center Tiled)"
 
 #: bgdialog.cpp:506
 msgid "Centered Maxpect"
-msgstr "居中放大"
+msgstr "居中并按比例最大化 (Centered Maxpect)"
 
 #: bgdialog.cpp:507
 msgid "Tiled Maxpect"
-msgstr "平铺放大"
+msgstr "平铺并按比例最大化 (Tiled Maxpect)"
 
 #: bgdialog.cpp:508
 msgid "Scaled"
-msgstr "缩放"
+msgstr "拉伸"
 
 #: bgdialog.cpp:509
 msgid "Centered Auto Fit"
-msgstr "居中自动调整"
+msgstr "自适应居中"
 
 #: bgdialog.cpp:510
 msgid "Scale & Crop"
-msgstr "缩放和裁剪"
+msgstr "缩放并裁剪"
 
 #: bgdialog.cpp:513
 msgid "No Blending"
-msgstr "不混和"
+msgstr "无"
 
 #: bgdialog.cpp:514
 msgid "Flat"
@@ -248,7 +246,7 @@ msgstr "棱锥"
 
 #: bgdialog.cpp:518
 msgid "Pipecross"
-msgstr "十字管道"
+msgstr "十字型"
 
 #: bgdialog.cpp:519
 msgid "Elliptic"
@@ -277,13 +275,13 @@ msgstr "选择壁纸"
 #: bgdialog.cpp:1297 bgdialog_ui.ui:300
 #, no-c-format
 msgid "Get New Wallpapers"
-msgstr "获得新壁纸"
+msgstr "获取新壁纸"
 
 #: bgmonitor.cpp:164
 msgid ""
-"This picture of a monitor contains a preview of what the current settings "
-"will look like on your desktop."
-msgstr "在这个监视器里，您可以预览您的设置在实际桌面中的显示效果。"
+"This picture of a monitor contains a preview of what the current settings will look "
+"like on your desktop."
+msgstr "您可以在该显示器中预览当前设置的显示效果。"
 
 #: bgwallpaper.cpp:99
 msgid "Setup Slide Show"
@@ -303,7 +301,7 @@ msgstr "TDE 背景控制模块"
 
 #: main.cpp:73
 msgid "(c) 2009,2010 Timothy Pearson"
-msgstr ""
+msgstr "(c) 2009,2010 Timothy Pearson"
 
 #: bgadvanced_ui.ui:27
 #, no-c-format
@@ -313,66 +311,60 @@ msgstr "背景程序"
 #: bgadvanced_ui.ui:44 bgwallpaper_ui.ui:113
 #, no-c-format
 msgid "&Add..."
-msgstr "添加(&A)..."
+msgstr "添加(&A)…"
 
 #: bgadvanced_ui.ui:47
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here if you want to add a program to the listbox. This button opens "
-"a dialog where you are asked to give details about the program you want to "
-"run. To successfully add a program, you must know if it is compatible, the "
-"name of the executable file and, if necessary, its options.</p>\n"
-"<p>You usually can get the available options to a suitable program by typing "
-"in a terminal emulator the name of the executable file plus --help (foobar --"
-"help).</p>\n"
+"<p>Click here if you want to add a program to the listbox. This button opens a dialog "
+"where you are asked to give details about the program you want to run. To successfully "
+"add a program, you must know if it is compatible, the name of the executable file and, "
+"if necessary, its options.</p>\n"
+"<p>You usually can get the available options to a suitable program by typing in a "
+"terminal emulator the name of the executable file plus --help (foobar --help).</p>\n"
 "</qt>"
 msgstr ""
 "<qt>\n"
-"<p>单击这里在列表中加入一个程序。这个按钮会打开一个对话框来询问您想要运行的程"
-"序的细节。如果要正确加入一个程序，您必须知道它是否与系统兼容，可执行文件的名"
-"字，如果需要，还有它的启动选项。</p>\n"
-"<p>您通常在一个终端中输入对应程序的名字加 --help (foobar --help)可以得到它的"
-"有效启动选项。</p>\n"
+"<p>如果要在列表框中添加程序，请单击此处。此按钮将打开一个对话框，要求您提供目标程序的详"
+"细信息。在此之前，您必须知道该程序是否兼容、可执行文件的名称以及需要的选项。</p>\n"
+"<p>通常，在终端模拟器中输入可执行文件的名称，再加上 --help （例：foobar --help），就能获"
+"得适合该程序的可用选项。</p>\n"
 "</qt>"
 
 #: bgadvanced_ui.ui:64
 #, no-c-format
 msgid ""
-"Click here to remove programs from this list. Please note that it does not "
-"remove the program from your system, it only removes it from the available "
-"options in the background drawing programs list."
-msgstr ""
-"单击这里从列表中删除程序。请注意这并不将程序从系统中真正删除，仅仅将它从背景"
-"绘制程序列表中删除这个选项。"
+"Click here to remove programs from this list. Please note that it does not remove the "
+"program from your system, it only removes it from the available options in the "
+"background drawing programs list."
+msgstr "单击这里从列表中删除程序，这并不会将程序从系统中真正删除。"
 
 #: bgadvanced_ui.ui:75
 #, no-c-format
 msgid "&Modify..."
-msgstr "修改(&M)..."
+msgstr "修改(&M)…"
 
 #: bgadvanced_ui.ui:78
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Click here to modify the programs options. You usually can get the "
-"available options to a suitable program by typing in a terminal emulator the "
-"name of the executable file plus --help. (example: kwebdesktop --help).</p>\n"
-"<p>One useful example is the program kwebdesktop. It draws a web page on the "
-"background of your desktop.  You can use this program by selecting it on the "
-"listbox on the right, but it will draw a predefined web page. To change the "
-"web page it renders, select the kwebdesktop program on the listbox, then "
-"click here. A dialog will appear, allowing you to change the web page by "
-"replacing the old address (URL) with a new one.</p>\n"
+"<p>Click here to modify the programs options. You usually can get the available options "
+"to a suitable program by typing in a terminal emulator the name of the executable file "
+"plus --help. (example: kwebdesktop --help).</p>\n"
+"<p>One useful example is the program kwebdesktop. It draws a web page on the background "
+"of your desktop.  You can use this program by selecting it on the listbox on the right, "
+"but it will draw a predefined web page. To change the web page it renders, select the "
+"kwebdesktop program on the listbox, then click here. A dialog will appear, allowing you "
+"to change the web page by replacing the old address (URL) with a new one.</p>\n"
 "</qt>"
 msgstr ""
 "<qt>\n"
-"<p>单击这里更改程序的选项。您通常在一个终端中输入对应程序的名字加--help "
-"(foobar --help)可以得到它的有效启动选项。(例如：kwebdesktop --help)。</p>\n"
-"<p>一个最有用的例子就是程序kwebdesktop。它在您的桌面上绘制一个网页。您可以在"
-"右边的列表中选择这个程序，但它将绘制一个提前定义的网页。要改变它绘制的网页，"
-"在列表中选择kwebdesktop程序，然后单击这里。然后出现一个对话框让您输入新的地址"
-"(URL)。</p>\n"
+"<p>单击此处修改程序选项。通常，在终端模拟器中输入可执行文件的名称，再加上 --help，就能获"
+"得适合该程序的可用选项。（例如：kwebdesktop --help）。</p>\n"
+"<p>以 kwebdesktop 程序为例：它能在桌面背景上绘制网页。在右侧列表框中选择该程序即可使用，"
+"它在初次运行时会绘制一个初始化网页。若要更改网页，请通过在列表框中选择 kwebdesktop 程序"
+"后单击此处，之后会出现对话框，您可以在其中输入自定义地址 (URL)。</p>\n"
 "</qt>"
 
 #: bgadvanced_ui.ui:104
@@ -394,88 +386,87 @@ msgstr "刷新"
 #, no-c-format
 msgid ""
 "<qt>\n"
-"<p>Select from this listbox the program you want to use to draw your desktop "
-"background.</p>\n"
+"<p>Select from this listbox the program you want to use to draw your desktop background."
+"</p>\n"
 "<p>The <b>Program</b> column shows the name of the program.<br>\n"
 "The <b>Comment</b> column brings a short description.<br>\n"
-"The <b>Refresh</b> column indicates the time interval between redraws of the "
-"desktop.</p>\n"
-"<p>The <b>K Web Desktop</b> program (kwebdesktop) is worth noting: it draws "
-"a specified page of the web in your desktop. You can modify it, and the "
-"webpage it draws by selecting it here, then clicking on the <b>Modify</b> "
-"button.<br>\n"
-"You can also add new compliant programs. To do that, click on the <b>Add</b> "
-"button.<br>\n"
-"You can also remove programs from this list clicking on the <b>Remove</b> "
-"button. Please note that it does not remove the program from your system, it "
-"only removes it from the available options in this listbox.</p>\n"
+"The <b>Refresh</b> column indicates the time interval between redraws of the desktop.</"
+"p>\n"
+"<p>The <b>K Web Desktop</b> program (kwebdesktop) is worth noting: it draws a specified "
+"page of the web in your desktop. You can modify it, and the webpage it draws by "
+"selecting it here, then clicking on the <b>Modify</b> button.<br>\n"
+"You can also add new compliant programs. To do that, click on the <b>Add</b> button."
+"<br>\n"
+"You can also remove programs from this list clicking on the <b>Remove</b> button. "
+"Please note that it does not remove the program from your system, it only removes it "
+"from the available options in this listbox.</p>\n"
 "</qt>"
 msgstr ""
 "<qt>\n"
-"<p>从列表中选择您想用来绘制背景图的程序。</p>\n"
-"<p><b>程序</b>列显示了程序的名字。<br>\n"
-"<b>描述</b>列是一个简短的说明。<br>\n"
-"<b>刷新</b>列表示桌面刷新的时间间隔。</p>\n"
-"<p><b>K 网页桌面</b>程序(kwebdesktop)：它在桌面上绘制指定的网页。您可以修改"
-"它，要在这里可以选择绘制的网页，单击<b>修改</b>按钮。<br>\n"
-"您可以增加新的兼容程序。要添加程序，单击<b>添加</b>按钮。<br>\n"
-"您也可以单击<b>移除</b>按钮从列表中删除程序。请注意这并不会从系统中将程序真正"
-"删除，仅仅从列表选项中删除。</p>\n"
+"<p>从列表框中选择用于绘制桌面背景的程序。</p>\n"
+"<p><b>程序</b>栏显示程序名称。<br>\n"
+"<b>描述</b>栏显示对程序的简要描述。<br>\n"
+"<b>刷新</b>栏表示桌面刷新的时间间隔。</p>\n"
+"<p><b>K Web Desktop</b> 程序 (kwebdesktop)：它在桌面上绘制指定的网页。您可以修改它及其绘"
+"制的网页，只需在此选中它后单击<b>修改</b>按钮。<br>\n"
+"您可以通过单击<b>添加</b>按钮来添加新的受兼容程序。<br>\n"
+"您也可以通过单击<b>移除</b>按钮从列表中删除程序。请注意：这并不会将其从系统中真正地删"
+"除，而只是从列表选项中删除。</p>\n"
 "</qt>"
 
 #: bgadvanced_ui.ui:164
 #, no-c-format
 msgid "Use the following program for drawing the background:"
-msgstr "使用下列程序绘制背景图："
+msgstr "使用下列程序绘制背景："
 
 #: bgadvanced_ui.ui:167
 #, no-c-format
 msgid ""
-"Check here if you want to allow a program to draw your desktop background. "
-"Below you can find the list of programs currently available for drawing the "
-"background. You may use one of the available programs, add new ones or "
-"modify the existing ones to fit your needs."
+"Check here if you want to allow a program to draw your desktop background. Below you "
+"can find the list of programs currently available for drawing the background. You may "
+"use one of the available programs, add new ones or modify the existing ones to fit your "
+"needs."
 msgstr ""
-"如果您想用一个程序绘制背景图选择这里。下面您可以看到当前可以绘制背景图的程序"
-"列表。您可以使用这些程序，可以增加或修改程序来满足您的需要。"
+"如果您想让指定程序绘制桌面背景，请在此处打勾。您可以从下列可用程序列表中做选择，也可以通"
+"过添加新程序或修改现有程序以满足需求。"
 
 #: bgadvanced_ui.ui:177
 #, no-c-format
 msgid "Background Icon Text"
-msgstr "背景图标文字"
+msgstr "背景图标标签"
 
 #: bgadvanced_ui.ui:199 bgadvanced_ui.ui:213
 #, no-c-format
 msgid "Click here to change the color of the desktop font."
-msgstr "单击这里改变桌面字体的颜色。"
+msgstr "单击此处更改桌面图标标签的字体颜色。"
 
 #: bgadvanced_ui.ui:207
 #, no-c-format
 msgid "&Text color:"
-msgstr "文字颜色(&T)："
+msgstr "字体颜色(&T)："
 
 #: bgadvanced_ui.ui:244
 #, no-c-format
 msgid ""
-"Click here to select the solid background color. Choose a different color "
-"from the background text color to assure readability."
-msgstr "单击这里选择桌面的填充色。选择与背景文字不同的颜色来增大可读性。"
+"Click here to select the solid background color. Choose a different color from the "
+"background text color to assure readability."
+msgstr "单击此处选择纯色背景。为了确保可读性，建议避免选择与图标标签字体相同的颜色。"
 
 #: bgadvanced_ui.ui:252
 #, no-c-format
 msgid "&Use solid color behind text:"
-msgstr "文字背景使用填充色(&U)："
+msgstr "标签背景使用填充色(&U)："
 
 #: bgadvanced_ui.ui:255
 #, no-c-format
 msgid ""
-"Check here if you want to use a solid background color. This is useful to "
-"ensure that the desktop text will be identifiable against all background "
-"colors and wallpapers, or in other words, that a background or wallpaper "
-"will not make a desktop text of a similar color difficult to read."
+"Check here if you want to use a solid background color. This is useful to ensure that "
+"the desktop text will be identifiable against all background colors and wallpapers, or "
+"in other words, that a background or wallpaper will not make a desktop text of a "
+"similar color difficult to read."
 msgstr ""
-"如果您想使用背景填充色单击这里。这有助于确定桌面文字相对于背景色和背景图是否"
-"容易辨认，或者说，背景图和背景色不能使桌面文字难于辨认。"
+"若要使用纯色背景，请勾选此项。此选项确保图标标签在任何背景颜色和壁纸中都具有可读性，换句"
+"话说，背景或壁纸不会使得类似颜色的图标标签难以阅读。"
 
 #: bgadvanced_ui.ui:263
 #, no-c-format
@@ -485,24 +476,22 @@ msgstr "启用阴影(&E)"
 #: bgadvanced_ui.ui:266
 #, no-c-format
 msgid ""
-"Check here to enable a shadow outline around the desktop font. This also "
-"improves the readability of the desktop text against backgrounds of a "
-"similar color."
+"Check here to enable a shadow outline around the desktop font. This also improves the "
+"readability of the desktop text against backgrounds of a similar color."
 msgstr ""
-"选中这里将启用桌面字体的轮廓阴影。同时这可以增加与背景图颜色相似的桌面文字的"
-"可读性。"
+"单击此处启用图标标签的字体轮廓阴影。此选项也提高了图标标签在类似颜色背景上的可读性。"
 
 #: bgadvanced_ui.ui:274
 #, no-c-format
 msgid "&Lines for icon text:"
-msgstr "图标文字行数(&L)："
+msgstr "标签文本最大行数(&L)："
 
 #: bgadvanced_ui.ui:280 bgadvanced_ui.ui:294
 #, no-c-format
 msgid ""
-"Choose here the maximum number of text lines below an icon on the desktop. "
-"Longer text will be truncated at the end of the last line."
-msgstr "在此选择桌面上图标下文本的最多行数。较长的文本将会在最后一行被截断。"
+"Choose here the maximum number of text lines below an icon on the desktop. Longer text "
+"will be truncated at the end of the last line."
+msgstr "在此选择桌面图标标签文本的最大行数，较长的文本将在最后一行的末尾截断。"
 
 #: bgadvanced_ui.ui:305
 #, no-c-format
@@ -512,42 +501,41 @@ msgstr "自动"
 #: bgadvanced_ui.ui:314 bgadvanced_ui.ui:328
 #, no-c-format
 msgid ""
-"Choose here the maximum width of text lines (in pixel) below an icon on the "
-"desktop. If set to 'Auto' a default width based on the current font is used."
+"Choose here the maximum width of text lines (in pixel) below an icon on the desktop. If "
+"set to 'Auto' a default width based on the current font is used."
 msgstr ""
-"在此选择桌面上图标下文本行的最大宽度(像素数)。如果设置为“自动”，将会使用基于"
-"当前字体的默认宽度。"
+"在此选择桌面图标标签文本的最大宽度（单位：像素）。若选择“自动”，则会设为当前字体的默认宽"
+"度。"
 
 #: bgadvanced_ui.ui:322
 #, no-c-format
 msgid "&Width for icon text:"
-msgstr "图标文字宽度(&W)："
+msgstr "标签文本最大宽度(&W)："
 
 #: bgadvanced_ui.ui:338
 #, no-c-format
 msgid "Memory Usage"
-msgstr "使用的内存"
+msgstr "内存使用"
 
 #: bgadvanced_ui.ui:352
 #, no-c-format
 msgid "Size of background cache:"
-msgstr "背景图缓存大小："
+msgstr "背景缓存大小："
 
 #: bgadvanced_ui.ui:355 bgadvanced_ui.ui:366
 #, no-c-format
 msgid ""
-"In this box you can enter how much memory TDE should use for caching the "
-"background(s). If you have different backgrounds for the different desktops "
-"caching can make switching desktops smoother at the expense of higher memory "
-"use."
+"In this box you can enter how much memory TDE should use for caching the background(s). "
+"If you have different backgrounds for the different desktops caching can make switching "
+"desktops smoother at the expense of higher memory use."
 msgstr ""
-"您可以在这里指定 TDE 使用多少的内存作为背景图缓存。如果您在不同桌面使用了不同"
-"的背景图，较大的缓存可以使桌面切换更平滑。"
+"您可以在此指定 TDE 应使用多少内存来缓存背景。若桌面之间使用不同的背景，则设置较大的缓存"
+"可以使得桌面切换更平滑，随之也会增加内存使用量。"
 
 #: bgadvanced_ui.ui:363
 #, no-c-format
 msgid " k"
-msgstr "k"
+msgstr " k"
 
 #: bgdialog_ui.ui:36
 #, no-c-format
@@ -557,12 +545,12 @@ msgstr "桌面设置(&D)："
 #: bgdialog_ui.ui:42 bgdialog_ui.ui:66
 #, no-c-format
 msgid ""
-"Choose the desktop you wish to configure the background for from this list. "
-"If you want the same background settings to be applied to all desktops "
-"select the \"All Desktops\" option."
+"Choose the desktop you wish to configure the background for from this list. If you want "
+"the same background settings to be applied to all desktops select the \"All Desktops\" "
+"option."
 msgstr ""
-"从列表中选择您希望配置背景图的桌面。选择“全部桌面”选项，则所有的桌面都将使用"
-"同一张背景图。"
+"从列表中选择要配置背景的桌面。如果希望所有桌面都采用相同的背景设置，请选择“所有桌面”选"
+"项。"
 
 #: bgdialog_ui.ui:48
 #, no-c-format
@@ -581,9 +569,8 @@ msgstr "在每个屏幕"
 
 #: bgdialog_ui.ui:95
 #, no-c-format
-msgid ""
-"Choose the screen you wish to configure the background for from this list."
-msgstr "从此列表中选择您想要配置背景的屏幕。"
+msgid "Choose the screen you wish to configure the background for from this list."
+msgstr "从列表中选择要配置背景的屏幕。"
 
 #: bgdialog_ui.ui:184
 #, no-c-format
@@ -593,7 +580,7 @@ msgstr "标识屏幕"
 #: bgdialog_ui.ui:187
 #, no-c-format
 msgid "Click this button to show the identifying number for each screen."
-msgstr "单击此按钮可显示每个屏幕的标识号。"
+msgstr "单击此按钮可令每个屏幕显示其标识号码。"
 
 #: bgdialog_ui.ui:242
 #, no-c-format
@@ -603,19 +590,16 @@ msgstr "高级选项"
 #: bgdialog_ui.ui:245
 #, no-c-format
 msgid ""
-"Click this button to set the icon text colors and shadow, set up a program "
-"to run for the background picture or control the size of the background "
-"cache."
+"Click this button to set the icon text colors and shadow, set up a program to run for "
+"the background picture or control the size of the background cache."
 msgstr ""
-"单击此按钮设置图标文字的颜色和阴影，为背景图设置一个运行程序或者控制背景图的"
-"缓存大小。"
+"单击此按钮可以设置图标标签文本的颜色和阴影，以及设置背景绘制程序或控制背景缓存的大小。"
 
 #: bgdialog_ui.ui:303
 #, no-c-format
 msgid ""
-"Click this button to give you a list of new wallpapers to download from the "
-"Internet."
-msgstr "单击此按钮将列出可从 Internet 上下列的新壁纸。"
+"Click this button to give you a list of new wallpapers to download from the Internet."
+msgstr "点击此按钮，您将看到可从互联网下载的新壁纸列表。"
 
 #: bgdialog_ui.ui:361
 #, no-c-format
@@ -628,71 +612,68 @@ msgid ""
 "<qt>You can choose here how a background picture is shown on the desktop:\n"
 "<ul>\n"
 "<li><em>Centered:</em> Center the picture on the desktop.</li>\n"
-" <li><em>Tiled:</em> Tile the picture beginning at the top left of the "
-"desktop, so the desktop is totally covered up.</li>\n"
-"<li><em>Center Tiled:</em> Center the picture on the desktop and then tile "
-"around it so that the background is totally covered up.</li>\n"
-"<li><em>Centered Maxpect:</em> Magnify the picture without distorting it "
-"until it fills either the width or height of the desktop, and then center it "
-"on the desktop.</li>\n"
-"<li><em>Scaled:</em> Magnify the picture, until the entire desktop is "
-"covered. This may result in some distortion of the picture.</li>\n"
-"<li><em>Centered Auto Fit:</em> If the picture fits the desktop this mode "
-"works like the Centered option. If the picture is larger than the desktop it "
-"is scaled down to fit while keeping the aspect ratio.</li>\n"
-"<li><em>Scale and Crop:</em> Magnify the picture without distorting it until "
-"it fills both the width and height of the desktop (cropping the picture if "
-"necessary), and then center it on the desktop.</li>\n"
+" <li><em>Tiled:</em> Tile the picture beginning at the top left of the desktop, so the "
+"desktop is totally covered up.</li>\n"
+"<li><em>Center Tiled:</em> Center the picture on the desktop and then tile around it so "
+"that the background is totally covered up.</li>\n"
+"<li><em>Centered Maxpect:</em> Magnify the picture without distorting it until it fills "
+"either the width or height of the desktop, and then center it on the desktop.</li>\n"
+"<li><em>Scaled:</em> Magnify the picture, until the entire desktop is covered. This may "
+"result in some distortion of the picture.</li>\n"
+"<li><em>Centered Auto Fit:</em> If the picture fits the desktop this mode works like "
+"the Centered option. If the picture is larger than the desktop it is scaled down to fit "
+"while keeping the aspect ratio.</li>\n"
+"<li><em>Scale and Crop:</em> Magnify the picture without distorting it until it fills "
+"both the width and height of the desktop (cropping the picture if necessary), and then "
+"center it on the desktop.</li>\n"
 "</ul></qt>"
 msgstr ""
 "<qt>您可以在此选择如何在桌面上显示背景图片：\n"
 "<ul>\n"
 "<li><em>居中：</em>在桌面上居中显示。</li>\n"
-"<li><em>平铺：</em>从桌面的左上角开始平铺显示，因此整个桌面被背景图覆盖。</"
-"li>\n"
-"<li><em>居中平铺：</em>先将背景图居中显示，然后在四周平铺显示，因此整个桌面被"
-"背景图覆盖。</li>\n"
-"<li><em>居中放大：</em>无扭曲地放大图片到填满桌面地最大宽度或高度，然后居中显"
-"示。</li>\n"
-"<li><em>缩放：</em>缩放图片，直到覆盖整个桌面。这可能导致图片扭曲。</li>\n"
-"<li><em>居中自动适应：</em>如果图片正好适合桌面，这个模式跟居中模式相同。如果"
-"图片比桌面大，它将保持纵横比被缩小至合适大小。</li>\n"
-"<li><em>缩放和裁剪：</em>放大图片而不破坏图片，直至图片大小能够同时适合桌面的"
-"宽度和高度(如果需要的话会裁剪图片)，并在桌面上居中。</li>\n"
+"<li><em>平铺：</em>从桌面的左上角开始平铺显示，因此整个桌面均会被覆盖。</li>\n"
+"<li><em>居中并平铺：</em>先将图片按原始大小居中显示，然后若四周有空白则再次进行平铺，因"
+"此整个桌面均会被覆盖。</li>\n"
+"<li><em>居中并按比例最大化：</em>按原始比例放大图片到其能够填满桌面的最大宽度或高度，然"
+"后居中显示。</li>\n"
+"<li><em>拉伸：</em>拉伸图片，直到覆盖整个桌面。这可能导致图片比例失调。</li>\n"
+"<li><em>自适应居中：</em>若图片尺寸大于桌面，它将保持纵横比然后缩小至合适大小，否则该模"
+"式与居中无异。</li>\n"
+"<li><em>缩放和裁剪：</em>在桌面上居中显示的同时，按原始比例放大图片直至其大小能够同时适"
+"合桌面的宽度和高度（若有超出部分，则裁剪）。</li>\n"
 "</ul></qt>"
 
 #: bgdialog_ui.ui:384
 #, no-c-format
 msgid "Cross-fading background"
-msgstr ""
+msgstr "交叉渐入渐出背景"
 
 #: bgdialog_ui.ui:387
 #, no-c-format
 msgid "Enables a smooth fading effect when changing background image."
-msgstr ""
+msgstr "启用后，背景图像切换时会有平滑的渐入渐出效果。"
 
 #: bgdialog_ui.ui:395
 #, no-c-format
 msgid ""
-"If you have selected to use a background picture you can choose various "
-"methods of blending the background colors with the picture. The default "
-"option of \"No Blending\" means that the picture simply obscures the "
-"background colors below."
+"If you have selected to use a background picture you can choose various methods of "
+"blending the background colors with the picture. The default option of \"No Blending\" "
+"means that the picture simply obscures the background colors below."
 msgstr ""
-"如果您选择了使用背景图，您可以选择不同地方法混合背景图和背景色。默认选项“无混"
-"合”意味着图片简单的遮住下面的背景色。"
+"如果您选择使用图片作为背景，则可以使用各种方法将背景颜色与图片混合。默认选项“无”表示图片"
+"会直接覆盖上方所设置的背景颜色。"
 
 #: bgdialog_ui.ui:414
 #, no-c-format
 msgid "Click to choose the primary background color."
-msgstr "点击选择主要的背景色。"
+msgstr "单击选择主背景色。"
 
 #: bgdialog_ui.ui:425
 #, no-c-format
 msgid ""
-"Click to choose the secondary background color. If no secondary color is "
-"required by the pattern selected this button will be disabled."
-msgstr "点击选择第二种背景色。如果图案不需要第二种背景色，此按钮将被禁用。"
+"Click to choose the secondary background color. If no secondary color is required by "
+"the pattern selected this button will be disabled."
+msgstr "单击选择次背景色。如果所选图案只需要一种颜色，此按钮将被禁用。"
 
 #: bgdialog_ui.ui:435
 #, no-c-format
@@ -712,12 +693,9 @@ msgstr "平衡："
 #: bgdialog_ui.ui:471 bgdialog_ui.ui:497
 #, no-c-format
 msgid ""
-"You can use this slider to control the degree of blending. You can "
-"experiment by moving the slider and looking at the effects in the preview "
-"image."
-msgstr ""
-"您可以通过这个滑块来控制混和度。您可以移动滑块并在上面的预览图像中观察它的效"
-"果。"
+"You can use this slider to control the degree of blending. You can experiment by moving "
+"the slider and looking at the effects in the preview image."
+msgstr "您可以通过这个滑块来控制混和程度，并在右上方预览效果。"
 
 #: bgdialog_ui.ui:507
 #, no-c-format
@@ -727,9 +705,9 @@ msgstr "反转"
 #: bgdialog_ui.ui:510
 #, no-c-format
 msgid ""
-"For some types of blending, you can reverse the role of the background and "
-"the picture by checking this option."
-msgstr "对于某些类型的背景混合，您可以选中这个选项使背景跟墙纸的层次对调。"
+"For some types of blending, you can reverse the role of the background and the picture "
+"by checking this option."
+msgstr "对于某些类型的背景混合，选中该选项将使得背景跟图片的层次反转。"
 
 #: bgdialog_ui.ui:584
 #, no-c-format
@@ -739,7 +717,7 @@ msgstr "背景"
 #: bgdialog_ui.ui:595
 #, no-c-format
 msgid "&No picture"
-msgstr "没有图片(&N)"
+msgstr "不使用图片(&N)"
 
 #: bgdialog_ui.ui:603
 #, no-c-format
@@ -754,18 +732,18 @@ msgstr "图片(&P)："
 #: bgdialog_ui.ui:639
 #, no-c-format
 msgid "Set&up..."
-msgstr "设置(&U)..."
+msgstr "设置(&U)…"
 
 #: bgdialog_ui.ui:642
 #, no-c-format
 msgid ""
-"Click this button to select a set of images to be used as background "
-"pictures. One picture at a time will be shown for a specified amount of "
-"time, after which another image from the set will be shown. Images can be "
-"shown at random or in the order you specify them."
+"Click this button to select a set of images to be used as background pictures. One "
+"picture at a time will be shown for a specified amount of time, after which another "
+"image from the set will be shown. Images can be shown at random or in the order you "
+"specify them."
 msgstr ""
-"单击此按钮选择一组图片作为背景图。一张图片将显示指定的一段时间，然后显示另一"
-"张。图片可以随机显示或者用您指定的顺序显示。"
+"单击此按钮可选择一组图片作为背景。每次显示其中一张图片，然后再显示该组图片中的另一张，且"
+"持续时间可以自定义。图片可以随机显示，也可以按照指定顺序显示。"
 
 #: bgwallpaper_ui.ui:27
 #, no-c-format
@@ -775,12 +753,12 @@ msgstr "显示下列图片："
 #: bgwallpaper_ui.ui:35
 #, no-c-format
 msgid "&Show pictures in random order"
-msgstr "随机显示图片(&S)"
+msgstr "图片以随机顺序显示(&S)"
 
 #: bgwallpaper_ui.ui:51
 #, no-c-format
 msgid "Change &picture after:"
-msgstr "在何时之后更换图片(&P)："
+msgstr "图片切换间隔(&P)："
 
 #: bgwallpaper_ui.ui:146
 #, no-c-format
