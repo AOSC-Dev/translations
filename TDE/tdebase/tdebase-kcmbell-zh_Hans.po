@@ -1,39 +1,41 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # Wang Jian <lark@linux.ustc.edu.cn>, 1998
+# Wantao Liu <vantao@aosc.io>, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmbell\n"
 "POT-Creation-Date: 2020-05-11 04:01+0200\n"
-"PO-Revision-Date: 2002-09-10 20:40+0800\n"
-"Last-Translator: Wang Jian <larkw@263.net>\n"
+"PO-Revision-Date: 2023-09-29 02:52+0800\n"
+"Last-Translator: Wantao Liu <vantao@aosc.io>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
-"Language: \n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Translator: Wang Jian <lark@linux.net.cn>\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Instead of a literal translation, add your name to the end of the list (separated by a comma).
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "Wang Jian"
+msgstr "Wang Jian, Wantao Liu"
 
 #. Instead of a literal translation, add your email to the end of the list (separated by a comma).
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "lark@linux.net.cn"
+msgstr "lark@linux.net.cn, vantao@aosc.io"
 
 #: bell.cpp:73
 msgid "Bell Settings"
-msgstr "铃声设定"
+msgstr "响铃设置"
 
 #: bell.cpp:82
 msgid "&Use system bell instead of system notification"
-msgstr "使用系统扬声器而不是系统通告(&U)"
+msgstr "使用系统响铃而非系统通知(&U)"
 
 #: bell.cpp:83
 msgid ""
@@ -41,8 +43,8 @@ msgid ""
 "system notification, see the \"System Notifications\" control module for the "
 "\"Something Special Happened in the Program\" event."
 msgstr ""
-"您可以使用标准的系统铃声(PC 喇叭)或更复杂的系统通告，请在“系统通告”控制模块中"
-"查看“程序发生特别事情”事件。"
+"您可以使用标准的系统响铃（蜂鸣器）或更复杂的系统通知方式，请在“系统通知”控制"
+"模块中查看程序中发生具体事件时对应的提示方式。"
 
 #: bell.cpp:91
 msgid ""
@@ -52,9 +54,9 @@ msgid ""
 "control module; for example, you can choose a sound file to be played "
 "instead of the standard bell."
 msgstr ""
-"<h1>系统铃声</h1>您可以在此自定义标准系统铃声。例如，当发生问题时您听到"
-"的“哔”声。注意，您可以使用“可用性”控制模块来更好地定制声音：例如您可以选择播"
-"放一个文件，而不是标准的铃声。"
+"<h1>系统响铃</h1>您可以在此自定义标准系统响铃，即每当出现问题时您所听到"
+"的“哔”声。请注意，您可以使用“辅助功能”控制模块进一步自定义该声音：例如，您可"
+"以选择播放一个音频文件来代替标准响铃。"
 
 #: bell.cpp:97
 msgid "&Volume:"
@@ -65,7 +67,8 @@ msgid ""
 "Here you can customize the volume of the system bell. For further "
 "customization of the bell, see the \"Accessibility\" control module."
 msgstr ""
-"在这里您可以定制系统铃声的音量。要更好地定制铃声，请看“可用性”控制模块。"
+"您可以在此自定义系统响铃的音量。若要进一步自定义响铃，请看“辅助功能”控制模"
+"块。"
 
 #: bell.cpp:106
 msgid "&Pitch:"
@@ -73,14 +76,15 @@ msgstr "音调(&P)："
 
 #: bell.cpp:108
 msgid " Hz"
-msgstr "赫兹"
+msgstr " 赫兹"
 
 #: bell.cpp:111
 msgid ""
 "Here you can customize the pitch of the system bell. For further "
 "customization of the bell, see the \"Accessibility\" control module."
 msgstr ""
-"在这里您可以定制系统铃声的音调。要更好地定制铃声，请看“可用性”控制模块。"
+"您可以在此自定义系统响铃的音调。若要进一步自定义响铃，请看“辅助功能”控制模"
+"块。"
 
 #: bell.cpp:115
 msgid "&Duration:"
@@ -88,14 +92,15 @@ msgstr "持续时间(&D)："
 
 #: bell.cpp:117
 msgid " msec"
-msgstr "毫秒"
+msgstr " 毫秒"
 
 #: bell.cpp:120
 msgid ""
 "Here you can customize the duration of the system bell. For further "
 "customization of the bell, see the \"Accessibility\" control module."
 msgstr ""
-"在这里您可以定制系统铃声的持续时间。要更好地定制铃声，请看“可用性”控制模块。"
+"您可以在此自定义系统响铃的持续时间。若要进一步自定义响铃，请看“辅助功能”控制"
+"模块。"
 
 #: bell.cpp:124
 msgid "&Test"
@@ -105,7 +110,7 @@ msgstr "测试(&T)"
 msgid ""
 "Click \"Test\" to hear how the system bell will sound using your changed "
 "settings."
-msgstr "单击“测试”来听改动设置后的系统铃声。"
+msgstr "单击“测试”以试听修改后的系统响铃。"
 
 #: bell.cpp:136
 msgid "kcmbell"
@@ -113,7 +118,7 @@ msgstr "kcmbell"
 
 #: bell.cpp:136
 msgid "TDE Bell Control Module"
-msgstr "TDE 铃声控制模块"
+msgstr "TDE 响铃控制模块"
 
 #: bell.cpp:138
 msgid "(c) 1997 - 2001 Christian Czezatke, Matthias Elter"
@@ -121,11 +126,11 @@ msgstr "(C) 1997 - 2001 Christian Czezatke，Matthias Elter"
 
 #: bell.cpp:140
 msgid "Original author"
-msgstr "最初作者"
+msgstr "原作者"
 
 #: bell.cpp:142
 msgid "Current maintainer"
-msgstr "现在的维护者"
+msgstr "现任维护者"
 
 #~ msgid "ms"
 #~ msgstr "毫秒"
