@@ -2,39 +2,40 @@
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # Wang Jian <lark@linux.net.cn>, 2000
 # Xiong Jiang <jxiong@offtopic.org>, 2003
+# Wantao Liu <vantao@aosc.io>, 2023
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2021-07-07 18:16+0000\n"
-"PO-Revision-Date: 2004-06-17 11:41+0800\n"
-"Last-Translator: Funda Wang <fundawang@linux.net.cn>\n"
+"PO-Revision-Date: 2023-09-29 02:50+0800\n"
+"Last-Translator: Wantao Liu <vantao@aosc.io>\n"
 "Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
-"Language: \n"
+"Language: zh\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0\n"
+"X-Generator: Poedit 3.2.2\n"
 
 #. Instead of a literal translation, add your name to the end of the list (separated by a comma).
 msgid ""
 "_: NAME OF TRANSLATORS\n"
 "Your names"
-msgstr "TDE 简体中文翻译组"
+msgstr "Wang Jian, Xiong Jiang, Wantao Liu"
 
 #. Instead of a literal translation, add your email to the end of the list (separated by a comma).
 msgid ""
 "_: EMAIL OF TRANSLATORS\n"
 "Your emails"
-msgstr "i18n-translation@lists.linux.net.cn"
+msgstr "lark@linux.net.cn, jxiong@offtopic.org, vantao@aosc.io"
 
 #: arts.cpp:109
 msgid ""
 "Unable to start the sound server to retrieve possible sound I/O methods.\n"
 "Only automatic detection will be available."
 msgstr ""
-"无法启动声音服务器获取可能的声音 I/O 方式。\n"
-"仅有自动检测是可用的。"
+"无法启动获取可用声音 I/O 方式的声音服务器。\n"
+"只能进行自动检测。"
 
 #: arts.cpp:146
 msgid ""
@@ -44,9 +45,9 @@ msgid ""
 "allows you to apply different effects to your system sounds and provides "
 "programmers with an easy way to achieve sound support."
 msgstr ""
-"<h1>声音系统</h1>您可以配置 aRts，TDE 的声音服务器。这个程序不仅允许您在听系"
-"统的声音的同时，欣赏 MP3 或玩有背景音乐的游戏，还允许您在系统声音上应用不同的"
-"效果，给程序员提供简单的方法获得音效支持。"
+"<h1>声音系统</h1>您可以在此配置 TDE 的声音服务器——aRts。该程序不仅可以让您在"
+"播放 MP3 文件或玩有背景音乐的游戏时听到系统声音，还可以为系统声音应用不同的效"
+"果，并帮助程序员更简便地实现声音支持。"
 
 #: arts.cpp:167
 msgid "&General"
@@ -65,10 +66,10 @@ msgid ""
 "you have a soundcard that supports multiple outputs, or you have multiple "
 "soundcards."
 msgstr ""
-"通常，声音服务器默认使用设备 </b>/dev/dsp</b> 来进行声音输出。大多数情况下，"
-"这都可以正常工作。但是，在某些使用 devfs 的系统中，那么您应该使用 <b>/dev/"
-"sound/dsp</b>。如果您的声卡支持多输出，或您有多个声卡的话，其它备选的可以是 "
-"<b>/dev/dsp0</b> 或者 <b>/dev/dsp1</b>。"
+"通常，声音服务器默认使用设备 </b>/dev/dsp</b> 进行声音输出。虽然在大多数情况"
+"下它都能够起效，但是对于某些使用 devfs 的系统，建议设为 <b>/dev/sound/dsp</"
+"b>。此外，如果您的声卡支持多输出，或者有多个声卡，则可以设为 <b>/dev/dsp0</"
+"b> 或者 <b>/dev/dsp1</b>。"
 
 #: arts.cpp:184
 msgid ""
@@ -80,11 +81,11 @@ msgid ""
 "possible, too, and may make sense in certain contexts (i.e. professional "
 "studio equipment)."
 msgstr ""
-"通常，声音服务器默认使用 44100 Hz 的采样率 (CD 音质)，这是几乎所有硬件都支持"
-"的。如果您正在使用某些 <b>Yamaha声卡</b>，您可能需要把采样率设为 48000 Hz，如"
-"果您正在使用 <b>旧型号的 SoundBlaster 声卡</b>，比如 SoundBlaster Pro，您可能"
-"需要把采样率设为 22050 Hz。其它的值，在某些特定的情况下，也是合理的 (例如，专"
-"业演播设备)。"
+"通常，声音服务器默认使用几乎所有硬件都支持的 44100 Hz 的采样率（CD 音质）。如"
+"果您正在使用某些特定的 <b>Yamaha 声卡</b>，可能需要把采样率设为 48000 Hz；如"
+"果您正在使用 <b>旧型号的 SoundBlaster 声卡</b>，比如 SoundBlaster Pro，可能需"
+"要把采样率设为 22050 Hz。在特定情况下，也可以设置为其他的数值（例如：专业演播"
+"设备）。"
 
 #: arts.cpp:186
 msgid ""
@@ -95,14 +96,14 @@ msgid ""
 "will override the choices made in the GUI. To see the possible choices, open "
 "a Konsole window, and type <b>artsd -h</b>."
 msgstr ""
-"这个配置模块用于配置您需要的几乎所有 aRts 声音服务器的特性。然而，有一些没有"
-"提供，所以您可以添加<b>命令行选项</b>，这些选项将直接传给<b>artsd</b>。命令行"
-"选项会取代 GUI 中的设置。如果要查看可能的选择，请打开一个 konsole 窗口，然后"
-"键入 <b>artsd -h</b>。"
+"该配置模块旨在涵盖您可以配置的 aRts 声音服务器的几乎所有方面。然而，也可能存"
+"在例外，所以您可以添加<b>命令行选项</b>，这些选项将直接传递给 <b>artsd</b>。"
+"命令行选项会覆盖 GUI 中的设置。若要查看可选项，请打开 Konsole 窗口，然后键入 "
+"<b>artsd -h</b>。"
 
 #: arts.cpp:195
 msgid "Autodetect"
-msgstr "自动侦测"
+msgstr "自动检测"
 
 #: arts.cpp:245
 msgid "kcmarts"
@@ -126,8 +127,8 @@ msgid ""
 "server.\n"
 "Do you want to save them?"
 msgstr ""
-"自从您上次启动声音服务器后设置发生了变化。\n"
-"您想要保存吗？"
+"自上次重启声音服务器后，设置已更改。\n"
+"要保存吗？"
 
 #: arts.cpp:436
 msgid "Save Sound Server Settings?"
@@ -135,7 +136,7 @@ msgstr "保存声音服务器设置吗？"
 
 #: arts.cpp:487
 msgid "%1 milliseconds (%2 fragments with %3 bytes)"
-msgstr "%1 毫秒 (%2 个片断共 %3 字节)"
+msgstr "%1 毫秒（包含 %3 字节，共 %2 个片断）"
 
 #: arts.cpp:494
 msgid "as large as possible"
@@ -145,11 +146,11 @@ msgstr "尽可能大"
 msgid ""
 "Impossible to start aRts with realtime priority because artswrapper is "
 "missing or disabled"
-msgstr "无法启动 aRts 的实时优先级，原因是 artswrapper 丢失或被禁用"
+msgstr "由于缺少或禁用了 artswrapper，无法以实时优先级启动 aRts"
 
 #: arts.cpp:597
 msgid "Restarting Sound System"
-msgstr "重新启动声音系统"
+msgstr "重启声音系统"
 
 #: arts.cpp:597
 msgid "Starting Sound System"
@@ -157,7 +158,7 @@ msgstr "启动声音系统"
 
 #: arts.cpp:598
 msgid "Restarting sound system."
-msgstr "重新启动声音系统。"
+msgstr "重启声音系统。"
 
 #: arts.cpp:598
 msgid "Starting sound system."
@@ -165,19 +166,19 @@ msgstr "启动声音系统。"
 
 #: arts.cpp:727
 msgid "No Audio Input/Output"
-msgstr "没有音频输入/输出"
+msgstr "无音频输入/输出"
 
 #: arts.cpp:728
 msgid "Advanced Linux Sound Architecture"
-msgstr "高级 Linux 声音架构"
+msgstr "高级 Linux 声音体系"
 
 #: arts.cpp:729
 msgid "Open Sound System"
-msgstr "开放声音系统"
+msgstr "开放式声音系统"
 
 #: arts.cpp:730
 msgid "Threaded Open Sound System"
-msgstr "线索化的声音系统"
+msgstr "线性 (Threaded) 开放式声音系统"
 
 #: arts.cpp:731
 msgid "Network Audio System"
@@ -222,13 +223,13 @@ msgid ""
 "If this option is enabled, the sound system will be loaded on TDE startup.\n"
 "Recommended if you want sound."
 msgstr ""
-"如果启用这个选项，TDE 启动时将会装入声音系统。\n"
-"如果您需要声音，建议启用。"
+"如果启用此选项，TDE 启动时将加载声音系统。\n"
+"如果您需要声音，建议启用此选项。"
 
 #: generaltab.ui:64
 #, no-c-format
 msgid "Networked Sound"
-msgstr "网络声音请求"
+msgstr "网络声音"
 
 #: generaltab.ui:75
 #, no-c-format
@@ -236,20 +237,20 @@ msgid ""
 "<i>Enable this option if you want to play sound on a remote computer or you "
 "want to be able to control sound on this system from another computer.</i>"
 msgstr ""
-"<i>如果您想要在远程计算机播放声音，或者您想要从其它的计算机上控制此系统的声"
-"音，请启用此选项。</i>"
+"<i>如果您希望在远程计算机上播放声音，或从另一台计算机控制本系统上的声音，请启"
+"用此选项。</i>"
 
 #: generaltab.ui:83
 #, no-c-format
 msgid "Enable &networked sound"
-msgstr "启用网络声音请求(&N)"
+msgstr "启用网络声音(&N)"
 
 #: generaltab.ui:86
 #, no-c-format
 msgid ""
 "This option allows sound requests coming in from over the network to be "
 "accepted, instead of just limiting the server to the local computer."
-msgstr "这个选项允许接受从网络上发来的声音请求，而不是仅允许本地计算机使用。"
+msgstr "该选项允许接受来自网络的声音请求，而不是仅允许本地计算机使用。"
 
 #: generaltab.ui:96
 #, no-c-format
@@ -262,13 +263,13 @@ msgid ""
 "<i>If your sound is skipping during playback, enable running with highest "
 "possible priority. Increasing your sound buffer might also help.</i>"
 msgstr ""
-"<i>如果您的声音在回放的时候出现了跳帧，可以试着指定尽可能高的优先级。而增加声"
-"音缓冲区也可能有所帮助。</i>"
+"<i>如果您的声音在回放时出现跳帧，请以尽可能最高的优先级运行。增加声音缓冲区也"
+"可能有所帮助。</i>"
 
 #: generaltab.ui:115
 #, no-c-format
 msgid "&Run with the highest possible priority (realtime priority)"
-msgstr "以尽可能高的优先级(实时优先级)运行(&R)"
+msgstr "以尽可能高的优先级（实时优先级）运行(&R)"
 
 #: generaltab.ui:121
 #, no-c-format
@@ -277,8 +278,8 @@ msgid ""
 "permissions, this option will enable a very high priority for processing "
 "sound requests."
 msgstr ""
-"在支持实时进程调度的系统上，如果您有足够的权限，这个选项将使音效请求的处理具"
-"有非常高的优先级。"
+"在支持实时调度的系统中，若权限足够，则该选项将提供极高的优先级用以处理声音请"
+"求。"
 
 #: generaltab.ui:152
 #, no-c-format
@@ -291,8 +292,8 @@ msgid ""
 "<p align=\"right\"><b>Huge</b> buffer, for <b>low-end</b> machines, <b>less "
 "skipping</b></p>"
 msgstr ""
-"<p align=\"right\"><b>大</b>缓存，对于<b>底端</b>的计算机，<b>跳帧较少</b></"
-"p>"
+"<p align=\"right\"><b>大</b>缓存，能够帮助<b>低端</b>的计算机<b>实现较少的跳"
+"帧</b></p>"
 
 #: generaltab.ui:173
 #, no-c-format
@@ -306,18 +307,18 @@ msgid ""
 "blocking programs that may wish to use it directly. If the TDE sound system "
 "sits idle it can give up this exclusive control.</i>"
 msgstr ""
-"<i>TDE 声音系统将完全接管您的音频硬件，并且将屏蔽将直接访问硬件的程序。如果 "
-"TDE 声音系统空闲一定时间，它才会放弃绝对控制。</i>"
+"<i>TDE 声音系统将完全接管您的音频硬件，并阻止企图直接访问硬件的程序。如果 "
+"TDE 声音系统在一定时间内处于空闲状态，将会解除接管。</i>"
 
 #: generaltab.ui:203
 #, no-c-format
 msgid "&Auto-suspend if idle after:"
-msgstr "自动挂起如果空闲(&A)："
+msgstr "空闲时自动挂起(&A)："
 
 #: generaltab.ui:209
 #, no-c-format
 msgid "The sound server will suspend itself if idle for this period of time."
-msgstr "如果空闲这么长的时间，声音服务器将会挂起。"
+msgstr "如果在指定时长内保持空闲，声音服务器将会自动挂起。"
 
 #: generaltab.ui:217
 #, no-c-format
@@ -351,13 +352,13 @@ msgid ""
 "you use applications like Internet telephony, voice recognition or similar, "
 "you probably want this."
 msgstr ""
-"使声音服务器同时记录和播放声音。如果您使用象 Internet 电话、语音识别或类似的"
-"程序，您可能需要使用这个选项。"
+"启用后，声音服务器将同时记录和播放声音。如果您使用 Internet 电话、语音识别或"
+"类似的程序，可能会需要此功能。"
 
 #: hardwaretab.ui:107
 #, no-c-format
 msgid "Use other custom &options:"
-msgstr "使用其它定制选项(&O)："
+msgstr "使用其它自定义选项(&O)："
 
 #: hardwaretab.ui:115
 #, no-c-format
@@ -372,12 +373,12 @@ msgstr "质量(&Q)："
 #: hardwaretab.ui:162
 #, no-c-format
 msgid "16 Bits (high)"
-msgstr "16位(高)"
+msgstr "16 位（高质量）"
 
 #: hardwaretab.ui:167
 #, no-c-format
 msgid "8 Bits (low)"
-msgstr "8位(低)"
+msgstr "8 位（低质量）"
 
 #: hardwaretab.ui:206
 #, no-c-format
@@ -397,7 +398,7 @@ msgstr "/dev/dsp"
 #: hardwaretab.ui:290
 #, no-c-format
 msgid "Select your MIDI Device"
-msgstr "选择您的 MIDI 设备"
+msgstr "选择 MIDI 设备"
 
 #: hardwaretab.ui:301
 #, no-c-format
@@ -407,7 +408,7 @@ msgstr "使用 MIDI 映射(&P)："
 #: hardwaretab.ui:309
 #, no-c-format
 msgid "Select the &MIDI device:"
-msgstr "选择 &MIDI 设备："
+msgstr "&MIDI 设备："
 
 #~ msgid "Test &MIDI"
 #~ msgstr "测试 &MIDI"
