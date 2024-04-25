@@ -39,7 +39,7 @@ msgstr "动态重定位 "
 #: aarch64-reloc-property.h:228
 #, c-format
 msgid "Invalid/unrecognized reloc reloc %d."
-msgstr ""
+msgstr "无效/无法识别的重定位类型 %d"
 
 #: aarch64.cc:511 arm.cc:7391 mips.cc:6685
 #, c-format
@@ -160,7 +160,7 @@ msgstr ""
 #: aarch64.cc:7369 arm.cc:10103 arm.cc:10718
 #, c-format
 msgid "unexpected opcode while processing relocation %s"
-msgstr ""
+msgstr "处理重定位 %s 时出现意外的操作码"
 
 #: aarch64.cc:7465
 #, fuzzy, c-format
