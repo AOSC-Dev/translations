@@ -1,0 +1,925 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-07-15 01:01+0000\n"
+"PO-Revision-Date: 2024-09-29 12:51\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/plasma-desktop/plasma-desktop.pot\n"
+"X-Crowdin-File-ID: 3099\n"
+"Language: zh_CN\n"
+
+#. Tag: title
+#: index.docbook:11
+#, no-c-format
+msgid "The &plasma; Handbook"
+msgstr "&plasma; 手册"
+
+#. Tag: author
+#: index.docbook:14
+#, no-c-format
+msgid "<personname> <firstname>Sebastian</firstname> <surname>Kügler</surname> </personname> <email>sebas@kde.org</email>"
+msgstr "<personname> <firstname>Sebastian</firstname> <surname>Kügler</surname> </personname> <email>sebas@kde.org</email>"
+
+#. Tag: author
+#: index.docbook:21
+#, no-c-format
+msgid "<firstname>Claus</firstname> <surname>Christensen</surname>"
+msgstr "<firstname>Claus</firstname> <surname>Christensen</surname>"
+
+#. Tag: trans_comment
+#: index.docbook:22
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "<othercredit role=\"translator\"><firstname>Yunhe</firstname><surname>Guo</surname><affiliation><address><email>i@guoyunhe.me</email></address></affiliation></othercredit><othercredit role=\"translator\"><firstname>Rongfeng</firstname><surname>Ge</surname><affiliation><address><email>stellarpurr@gmail.com</email></address></affiliation></othercredit>"
+
+#. Tag: holder
+#: index.docbook:27
+#, no-c-format
+msgid "Sebastian Kügler"
+msgstr "Sebastian Kügler"
+
+#. Tag: date
+#: index.docbook:32
+#, no-c-format
+msgid "2021-07-23"
+msgstr "2021-07-23"
+
+#. Tag: releaseinfo
+#: index.docbook:33
+#, no-c-format
+msgid "Plasma 5.20"
+msgstr "Plasma 5.20"
+
+#. Tag: para
+#: index.docbook:36
+#, no-c-format
+msgid "&plasma; is the core user interface to the desktop."
+msgstr "&plasma; 是桌面的用户核心操作界面。"
+
+#. Tag: keyword
+#: index.docbook:42
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:43
+#, no-c-format
+msgid "Plasma"
+msgstr "Plasma"
+
+#. Tag: keyword
+#: index.docbook:44
+#, no-c-format
+msgid "Plasmoid"
+msgstr "Plasma 小程序"
+
+#. Tag: keyword
+#: index.docbook:45
+#, no-c-format
+msgid "Widget"
+msgstr "挂件"
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "<keyword>Containments</keyword>"
+msgstr "<keyword>容器</keyword>"
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "Desktop"
+msgstr "桌面"
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "Runner"
+msgstr "运行器"
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "Kicker"
+msgstr "Kicker"
+
+#. Tag: title
+#: index.docbook:55
+#, no-c-format
+msgid "Introduction"
+msgstr "介绍"
+
+#. Tag: para
+#: index.docbook:57
+#, no-c-format
+msgid "&plasma; provides a modern and customizable environment for running your favorite applications and accessing your information wherever it may be. Other common attributes of the &plasma; Desktop include advanced window management and desktop effects, support for &kde; &plasma; Widgets, integrated search, hardware management and a high degree of customizability."
+msgstr "&plasma; 为运行应用程序和访问各种信息提供了一个现代化、可自定义的桌面环境。&plasma; 桌面还包含了强大的窗口管理功能、丰富的桌面特效、支持 &kde; &plasma; 挂件、集成搜索功能、硬件管理界面等，并提供高度的可定制性。"
+
+#. Tag: title
+#: index.docbook:67
+#, no-c-format
+msgid "Using &plasma;"
+msgstr "使用 &plasma;"
+
+#. Tag: title
+#: index.docbook:70
+#, no-c-format
+msgid "&plasma; Components"
+msgstr "&plasma; 组件"
+
+#. Tag: title
+#: index.docbook:73
+#, no-c-format
+msgid "&plasma; Widgets and Containments"
+msgstr "&plasma; 挂件和容器"
+
+#. Tag: para
+#: index.docbook:75
+#, no-c-format
+msgid "The essence of &plasma; revolves around two basic concepts:"
+msgstr "&plasma; 主要围绕以下两个基本概念："
+
+#. Tag: term
+#: index.docbook:81
+#, no-c-format
+msgid "&plasma; Widgets"
+msgstr "&plasma; 挂件"
+
+#. Tag: para
+#: index.docbook:83
+#, no-c-format
+msgid "Applets, or small applications that live on the desktop."
+msgstr "固定在桌面上的小程序。"
+
+#. Tag: term
+#: index.docbook:89
+#, no-c-format
+msgid "<term>Containments</term>"
+msgstr "<term>容器</term>"
+
+#. Tag: para
+#: index.docbook:91
+#, no-c-format
+msgid "Applets that act as the container for the &plasma; widgets"
+msgstr "作为 &plasma; 挂件容器的小程序"
+
+#. Tag: para
+#: index.docbook:98
+#, no-c-format
+msgid "On a default desktop, there are two main elements: the Panel and the Desktop itself. Both are containments in the &plasma; sense."
+msgstr "默认情况下，桌面主要由面板和桌面本身两个元素构成。两者在 &plasma; 意义上都属于容器。"
+
+#. Tag: title
+#: index.docbook:106
+#, no-c-format
+msgid "Default &plasma; Desktop"
+msgstr "&plasma; 的默认桌面"
+
+#. Tag: para
+#: index.docbook:108
+#, no-c-format
+msgid "The &plasma; Desktop can be configured in countless ways. The screenshot seen below shows a fairly standard desktop. Some distributions apply extensive customizations, so your desktop may look different."
+msgstr "&plasma; 桌面可以被充分自定义。以下屏幕截图展示了一个比较标准的桌面。有些发行版会对桌面进行大量自定义，所以您的桌面可能会与图中不同。"
+
+#. Tag: para
+#: index.docbook:110
+#, no-c-format
+msgid "Similarly, the graphical appearance of the interface elements can be styled. These screenshots uses the &plasma; default style, Breeze."
+msgstr "也可以调整界面元素的外观样式。以下屏幕截图使用了 &plasma; 的默认样式，Breeze 微风。"
+
+#. Tag: screeninfo
+#: index.docbook:114
+#, no-c-format
+msgid "A fairly standard &plasma; Desktop"
+msgstr "一个比较标准的 &plasma; 桌面"
+
+#. Tag: para
+#: index.docbook:146
+#, no-c-format
+msgid "The program starter. Usually this will be <link linkend=\"panel-launcher\">Application Launcher</link>."
+msgstr "程序启动器。通常为 <link linkend=\"panel-launcher\">应用程序启动器</link>。"
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid "A couple of icons giving easy access to often used applications"
+msgstr "用于快速访问常用应用程序的一些图标"
+
+#. Tag: para
+#: index.docbook:149
+#, no-c-format
+msgid "The <link linkend=\"panel-taskbar\">Task Manager</link>, which shows the titles of windows belonging to the applications currently running. No application had opened a window, when the screenshot was taken"
+msgstr "<link linkend=\"panel-taskbar\">任务栏</link>，会显示当前正在运行的应用程序的窗口标题。截取这张截图时，没有窗口被应用程序打开。"
+
+#. Tag: para
+#: index.docbook:150
+#, no-c-format
+msgid "The <link linkend=\"panel-system-tray\">System Tray</link>"
+msgstr "<link linkend=\"panel-system-tray\">系统托盘</link>"
+
+#. Tag: para
+#: index.docbook:151
+#, no-c-format
+msgid "The <link linkend=\"panel-digital-clock\">Digital Clock</link> widget"
+msgstr "<link linkend=\"panel-digital-clock\">数字时钟</link> 挂件"
+
+#. Tag: para
+#: index.docbook:152
+#, no-c-format
+msgid "The <link linkend=\"panel-toolbox\">Panel Toolbox</link>"
+msgstr "<link linkend=\"panel-toolbox\">面板工具箱</link>"
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid "The <link linkend=\"desktop\">Desktop</link> Toolbox"
+msgstr "<link linkend=\"desktop\">桌面</link> 工具箱"
+
+#. Tag: para
+#: index.docbook:154
+#, no-c-format
+msgid "A Folder View widget, showing the content of the Desktop folder"
+msgstr "文件夹视图挂件，正在显示桌面文件夹内容"
+
+#. Tag: title
+#: index.docbook:161
+#, no-c-format
+msgid "The Panel"
+msgstr "面板"
+
+#. Tag: para
+#: index.docbook:163
+#, no-c-format
+msgid "The default panel holds a few &plasma; widgets: starting from the left, there is the application launcher."
+msgstr "默认情况下，面板内有如下 &plasma; 挂件：位于最左侧的是应用程序启动器。"
+
+#. Tag: title
+#: index.docbook:167
+#, no-c-format
+msgid "Application Launcher"
+msgstr "应用程序启动器"
+
+#. Tag: screeninfo
+#: index.docbook:170
+#, no-c-format
+msgid "<screeninfo>Application launcher</screeninfo>"
+msgstr "<screeninfo>应用程序启动器</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:176
+#, no-c-format
+msgid "<phrase>Application launcher</phrase>"
+msgstr "<phrase>应用程序启动器</phrase>"
+
+#. Tag: para
+#: index.docbook:180
+#, no-c-format
+msgid "You can use it to start applications, open recently opened files and the usual logout/shutdown options. There is also a structure that allows you to browse through your applications. The layout has been optimized for the use case that is most common: starting an application. The default tab is the <guilabel>Favorites</guilabel> tab that holds the most-used entries. In the beginning, you'll probably find yourself using the <guilabel>Applications</guilabel> tab more often. Once you have found out what your most frequently started applications are, <mousebutton>right</mousebutton> click on the items and select the <guimenuitem>Add to Favorites</guimenuitem> to add them to your <guilabel>Favorites</guilabel> (or directly into the panel or on the desktop. Note that you need to <quote>unlock</quote> &plasma; by means of <mousebutton>right</mousebutton> clicking on the desktop for any kind of modification)."
+msgstr "您可以在此启动应用程序，打开最近使用的文件，或者进行常规的注销/关机操作。您也可以在分类中浏览您的应用程序。启动器的布局已根据最常用的使用场景优化：启动一个应用程序。默认选项卡是 <guilabel>常用程序</guilabel>，内有您经常使用的应用程序。可能您最初会更常使用 <guilabel>全部应用程序</guilabel> 选项卡，但在您发现您最常启动的应用程序时，<mousebutton>右击</mousebutton> 该程序，选择 <guimenuitem>添加到常用程序</guimenuitem> 以将其添加到您的 <guilabel>常用程序</guilabel> 中 (或者直接拖拽到面板或桌面上。请注意，您需要先在桌面 <mousebutton>右键</mousebutton> 点击并 <quote>解锁</quote> &plasma; 才能进行编辑)。"
+
+#. Tag: title
+#: index.docbook:196
+#, no-c-format
+msgid "Application Menu"
+msgstr "应用程序菜单"
+
+#. Tag: para
+#: index.docbook:198
+#, no-c-format
+msgid "If you prefer the traditional menu-style application launcher, change it by <mousebutton>right</mousebutton> clicking on the menu button and selecting <guimenuitem>Alternatives</guimenuitem>."
+msgstr "如果您更喜欢传统的菜单样式的应用程序启动器，您可 <mousebutton>右键</mousebutton> 点击菜单按钮并选择 <guimenuitem>显示替代部件...</guimenuitem> 以进行更改。"
+
+#. Tag: screeninfo
+#: index.docbook:204
+#, no-c-format
+msgid "<screeninfo>Application menu</screeninfo>"
+msgstr "<screeninfo>应用程序菜单</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:210
+#, no-c-format
+msgid "<phrase>Application menu</phrase>"
+msgstr "<phrase>应用程序菜单</phrase>"
+
+#. Tag: title
+#: index.docbook:217
+#, no-c-format
+msgid "Application Launcher Settings"
+msgstr "应用程序启动器设置"
+
+#. Tag: para
+#: index.docbook:219
+#, no-c-format
+msgid "If you want to configure the application launcher, change it by <mousebutton>right</mousebutton> clicking on the menu button and selecting <guimenuitem>Configure Application Launcher</guimenuitem>."
+msgstr "如果您想配置应用程序启动器，请 <mousebutton>右键</mousebutton> 点击菜单按钮并选择 <guimenuitem>配置 应用程序启动器...</guimenuitem>。"
+
+#. Tag: screeninfo
+#: index.docbook:224
+#, no-c-format
+msgid "<screeninfo>Application launcher settings</screeninfo>"
+msgstr "<screeninfo>应用程序启动器设置</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:230
+#, no-c-format
+msgid "<phrase>Application launcher settings</phrase>"
+msgstr "<phrase>应用程序启动器设置</phrase>"
+
+#. Tag: title
+#: index.docbook:237
+#, no-c-format
+msgid "Taskbar"
+msgstr "任务栏"
+
+#. Tag: para
+#: index.docbook:239
+#, no-c-format
+msgid "The taskbar is another widget on the panel. It shows an area for all open windows on all desktops by default. You can make it show all open windows on the current desktop only by checking <guimenuitem>Only show tasks from the current desktop</guimenuitem> when you right click on the task manager, between two windows. The size of the text on the taskbar items can be set in &systemsettings; under the <menuchoice><guimenu>Appearance</guimenu><guisubmenu>Fonts</guisubmenu> </menuchoice>. Right-clicking on the taskbar brings the Settings dialog where you can choose several options to customize your taskbar."
+msgstr "任务栏是面板上的另一个挂件。默认情况下，它会显示所有桌面上打开的所有窗口。您可以通过在窗口之间右键点击任务管理器，并选中 <guimenuitem>仅显示当前桌面的任务</guimenuitem>，以使其仅显示当前桌面上打开的所有窗口。任务栏项目的文本大小可在 &systemsettings; 中调整：通过 <menuchoice><guimenu>外观</guimenu><guisubmenu>字体</guisubmenu></menuchoice>。右键点击任务栏可以打开设置对话框，您可以在此自定义您的任务栏。"
+
+#. Tag: screeninfo
+#: index.docbook:251
+#, no-c-format
+msgid "Here is a screenshot of the taskbar settings dialog"
+msgstr "这是一张任务栏设置对话框的截图"
+
+#. Tag: phrase
+#: index.docbook:257
+#, no-c-format
+msgid "Taskbar settings dialog"
+msgstr "任务栏设置对话框"
+
+#. Tag: title
+#: index.docbook:265
+#, no-c-format
+msgid "System Tray"
+msgstr "系统托盘"
+
+#. Tag: para
+#: index.docbook:267
+#, no-c-format
+msgid "Another default panel item is the <application>System Tray</application>, which is used by traditional applications and widgets as a dock. Right clicking on the <application>System Tray</application> allows you to open the settings dialog, where you can set entries to display and their visibility."
+msgstr "面板上默认还有 <application>系统托盘</application>，作为传统应用程序和挂件的停靠拦。您可以右键点击 <application>系统托盘</application> 打开设置对话框，以调整要显示的项目和它们的可见性。"
+
+#. Tag: screeninfo
+#: index.docbook:274
+#, no-c-format
+msgid "<screeninfo>System Tray settings dialog</screeninfo>"
+msgstr "<screeninfo>系统托盘设置对话框</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:280
+#, no-c-format
+msgid "<phrase>System Tray settings dialog</phrase>"
+msgstr "<phrase>系统托盘设置对话框</phrase>"
+
+#. Tag: title
+#: index.docbook:287
+#, no-c-format
+msgid "Device Notifier"
+msgstr "设备通知器"
+
+#. Tag: para
+#: index.docbook:289
+#, no-c-format
+msgid "An icon located usually in the system tray is the <application>Device Notifier</application>. Plug in a &USB; disk and a dialog will open that allows you to open the device in &dolphin; or another associated application."
+msgstr "系统托盘中有时会有 <application>设备通知器</application> 图标。插入 U 盘时，会打开一个对话框，以便您在 &dolphin; 或其他相关应用程序中打开设备。"
+
+#. Tag: para
+#: index.docbook:307
+#, no-c-format
+msgid "The <application>Device Notifier</application> is used for handling pluggable devices such as &USB; pendrives (also called flash drives or thumb drives), digital cameras, external &USB; hard drives, &etc; It also comes into play when a medium such as a &CD; or DVD is loaded into an optical drive."
+msgstr "<application>设备通知器</application> 可用于处理热插拔设备，如 U 盘、数码相机、外部 USB 硬盘等。它也可以在光盘 (如 CD 或 DVD) 被放入光驱时发挥作用。"
+
+#. Tag: para
+#: index.docbook:309
+#, no-c-format
+msgid "When you plug in an external device, or load a new medium into a drive, the <guilabel>Notifier</guilabel> window pops up (you can also open it explicitly by clicking on its Panel icon.) It stays open while the cursor is over it, otherwise it hides itself after a few seconds."
+msgstr "当您插入外部设备，或加载新介质到驱动器时，<guilabel>通知器</guilabel> 窗口会弹出 (您也可以通过点击它在面板上的图标手动打开)。它会在鼠标光标经过时保持开启，移开几秒钟后自动隐藏。"
+
+#. Tag: para
+#: index.docbook:311
+#, no-c-format
+msgid "The <guilabel>Notifier</guilabel> window shows a list of all the devices it currently knows about. Moving the mouse cursor over a device will highlight how many possible actions are associated with that device."
+msgstr "<guilabel>通知器</guilabel> 窗口会列出它当前知道的所有设备。移动鼠标光标到设备上将会突出显示与此设备相关联的所有可能操作。"
+
+#. Tag: para
+#: index.docbook:326
+#, no-c-format
+msgid "Clicking anywhere in the shaded box around the device name (but not on the eject/unmount icon if present) expands the entry to show the list of possible actions for that device. The set of actions depends on the device; it is configurable from the <application>Device Notifier</application>'s context menu or from the &systemsettings; modules <ulink url=\"help:/kcontrol/solid-actions/index.html\">Device Actions</ulink> and <ulink url=\"help:/kcontrol/solid-device-automounter/index.html\">Removable Devices</ulink>. Simply select one with the mouse or keyboard to launch that action."
+msgstr "点击设备名称周围的阴影框中的任何位置 (但不是弹出/卸载图标，如果有的话) 会展开该项以列出这台设备的所有可能操作。具体操作取决于设备类型；可在 <application>设备通知器</application> 的右键菜单或 &systemsettings; 的 <ulink url=\"help:/kcontrol/solid-actions/index.html\">设备操作</ulink> 和 <ulink url=\"help:/kcontrol/solid-device-automounter/index.html\">可移动设备</ulink> 模块中进行配置。用鼠标或键盘选择即可启动相应操作。"
+
+#. Tag: para
+#: index.docbook:328
+#, no-c-format
+msgid "There is also a small icon to the right of each entry showing whether that device is currently accessible (or <emphasis>mounted</emphasis>) or not. Only when a device is not mounted is it safe to physically disconnect it from the computer. Clicking on the icon causes the device to be unmounted and/or the medium to be ejected if it is currently mounted, and will mount it if it is not. Note that unmounting/ejecting might fail if the device still has open files on it, &eg; if a large file copy hasn't finished. In most cases you can just wait a while and try again. When an unmounting has succeeded, a success icon will be shown on the <application>Device Notifier</application>'s icon."
+msgstr "每项右侧还有一个小图标，表示该设备目前是否可访问 (或 <emphasis>已挂载</emphasis>)。只有在设备未挂载时，它才能安全地与计算机断开。如果设备已挂载，点击该图标会卸载此设备并/或弹出相应介质，否则将会挂载此设备。请注意，如果设备仍然有打开的文件 (如一个大文件还没有复制完)，卸载/弹出可能会失败。在大多数情况下，您只需要等一段时间，然后重试。卸载成功时，一个成功图标会显示在 <application>设备通知器</application> 的图标上。"
+
+#. Tag: title
+#: index.docbook:333
+#, no-c-format
+msgid "Hidden Items"
+msgstr "隐藏项目"
+
+#. Tag: para
+#: index.docbook:335
+#, no-c-format
+msgid "The <application>System Tray</application> normally holds some more entries like &klipper;, &kmix; &etc;"
+msgstr "<application>系统托盘</application> 通常还有更多项目，如 &klipper;，&kmix; 等。"
+
+#. Tag: para
+#: index.docbook:338
+#, no-c-format
+msgid "Some of the default entries in the <application>System Tray</application> are hidden to save space in the bar. To display these entries click on the small white triangle <inlinemediaobject><imageobject><imagedata fileref=\"system-tray-up-arrow.png\" format=\"PNG\"/> </imageobject></inlinemediaobject>, then use the &LMB; to launch a widget or the &RMB; to open its settings dialog."
+msgstr "一些 <application>系统托盘</application> 中的默认项目被隐藏，以节省栏中空间。要显示这些项目，请点击小白色三角形 <inlinemediaobject><imageobject><imagedata fileref=\"system-tray-up-arrow.png\" format=\"PNG\"/></imageobject></inlinemediaobject>，然后 &LMB; 点击以打开相应控件，或 &RMB; 点击以打开相应设置对话框。"
+
+#. Tag: title
+#: index.docbook:346
+#, no-c-format
+msgid "Digital Clock"
+msgstr "数字时钟"
+
+#. Tag: para
+#: index.docbook:348
+#, no-c-format
+msgid "The right-most &plasma; widget in the default panel holds the <application>Digital Clock</application>. This clock can display the time in different timezones as well as have its size changed. The clock will adjust its font size to the area it is given by the surrounding containment (that is the panel in this case). If you choose to display the date, this date will be rendered using the <guimenuitem>Small font</guimenuitem> option from the &systemsettings; <guilabel>Font</guilabel> dialog. The time will take the rest of the space. So in the end, you'll choose yourself the amount of information displayed, and if that fits. If you want to display more information, make the panel larger or put the clock on the desktop where it can grow freely."
+msgstr "默认情况下，面板最右侧的 &plasma; 挂件是 <application>数字时钟</application>。它可以显示不同时区的时间，并自动调整尺寸。时钟会根据周围容器 (这种情况下是面板) 给予的空间调整字体大小。如果您选择显示日期，日期会以 &systemsettings; <guilabel>字体</guilabel> 对话框中设置的 <guimenuitem>小号字</guimenuitem> 显示。时间则会占用剩余的空间。所以您可以自由选择需要显示的信息，只要能放得下的话。如果您需要显示更多信息，请扩大面板，或者把时钟放在桌面上，使其能随意调整大小。"
+
+#. Tag: title
+#: index.docbook:364
+#, no-c-format
+msgid "Pager"
+msgstr "虚拟桌面切换器"
+
+#. Tag: para
+#: index.docbook:366
+#, no-c-format
+msgid "An optional item on your panel is the <application>Pager</application>. It allows you to switch between your virtual desktops. If you change the layout of the <application>Pager</application> through the <guimenuitem>Number of rows</guimenuitem> option, which will also affect the layout and animations that are shown in &kwin;’s <guimenuitem>Desktop Grid</guimenuitem> effect. For larger pagers, selecting <guimenuitem>Display windows icons</guimenuitem> typically makes sense."
+msgstr "面板上的一个可选项目是 <application>虚拟桌面切换器</application>。您可以使用它在虚拟桌面间切换。如果您在 <guimenuitem>行数</guimenuitem> 选项内更改了 <application>虚拟桌面切换器</application> 的布局，&kwin; <guimenuitem>虚拟桌面平铺网格</guimenuitem> 效果的布局和动画也会受到影响。对于比较大的虚拟桌面切换器，您可以选择 <guimenuitem>显示窗口图标</guimenuitem>。"
+
+#. Tag: title
+#: index.docbook:387
+#, no-c-format
+msgid "The Panel Toolbox"
+msgstr "面板工具箱"
+
+#. Tag: para
+#: index.docbook:389
+#, no-c-format
+msgid "If your desktop is unlocked (you can do that by <mousebutton>right</mousebutton> clicking on the desktop, or when no application has the focus, with <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>L</keycap>), a small &plasma; logo will appear in the bottom right corner in the panel. Click on this toolbox, and the panel controller opens."
+msgstr "如果您的桌面已经解锁 (可以通过在桌面上 <mousebutton>右键</mousebutton> 点击，或者在没有应用程序取得焦点时按 <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>L</keycap>)，一个小 &plasma; 图标会出现在面板的右下角。点击此工具箱就可以打开面板控制器。"
+
+#. Tag: screeninfo
+#: index.docbook:397
+#, no-c-format
+msgid "<screeninfo>Panel Settings</screeninfo>"
+msgstr "<screeninfo>面板设置</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:403
+#, no-c-format
+msgid "<phrase>Panel Settings</phrase>"
+msgstr "<phrase>面板设置</phrase>"
+
+#. Tag: para
+#: index.docbook:408
+#, no-c-format
+msgid "The panel controller allows you to reposition, resize and realign the panel. The &plasma; widgets living in this panel will adjust their size automatically. &plasma; widgets have basic knowledge about sizing, provided by the containment. They are programmed to take advantage of that size, and inform the applet about how much space they possibly need. In the end, the containment gives a possible size to the applets, the applets obey."
+msgstr "您可以使用面板控制器重新定位，调整大小，或重新对齐面板。面板内的 &plasma; 挂件将根据容器提供的信息自动调整大小。挂件会充分利用空间，并告知小程序它们可能会需要多少空间。之后，容器会给予小程序协商好的空间大小。"
+
+#. Tag: title
+#: index.docbook:418
+#, no-c-format
+msgid "Adding Applets"
+msgstr "添加小程序"
+
+#. Tag: para
+#: index.docbook:420
+#, no-c-format
+msgid "Unlock the desktop and you'll be able to add and remove &plasma; widgets from panel or desktop. You add &plasma; widgets by simply dragging them where you want them. <mousebutton>Right</mousebutton> click on an widget to remove it. <screenshot> <screeninfo>Add Widgets</screeninfo> <mediaobject> <imageobject> <imagedata fileref=\"add-widgets.png\" format=\"PNG\"/> </imageobject> <textobject> <phrase>Add Widgets</phrase> </textobject> </mediaobject> </screenshot> The <guibutton>Get New Widgets</guibutton> button allows you to add widgets you've previously downloaded and download new &plasma; widgets. Currently it supports native &plasmagik; packages and some &Mac; OS&nbsp;X dashboard widgets. Widgets you install this way can then be accessed just like regular, preinstalled widgets."
+msgstr "桌面解锁后，您可以添加或移除面板或桌面中的 &plasma; 挂件。拖动 &plasma; 挂件到您想要的位置即可轻松添加相应挂件。<mousebutton>右键</mousebutton> 点击挂件即可将其移除。<screenshot><screeninfo>添加挂件</screeninfo><mediaobject><imageobject><imagedata fileref=\"add-widgets.png\" format=\"PNG\"/></imageobject><textobject><phrase>添加挂件</phrase></textobject></mediaobject></screenshot> 您可以通过 <guibutton>获取新挂件</guibutton> 按钮添加您先前下载的挂件，或下载新的 &plasma; 挂件。目前只支持原生 &plasmagik; 软件包和一些 &Mac; OS&nbsp;X Dashboard 小组件。您通过这种方式安装的挂件的访问方式与普通的预装挂件类似。"
+
+#. Tag: title
+#: index.docbook:446
+#, no-c-format
+msgid "The Desktop"
+msgstr "桌面"
+
+#. Tag: para
+#: index.docbook:448
+#, no-c-format
+msgid "The desktop is in fact another containment. One that does not put size constraints on the applets. Applets can be moved and sized freely. On the unlocked desktop, &plasma; widgets will show a frame when you move the mouse over them. This applet handle allows you to move, resize, relocate and realign the panel. It also allows you to drag &plasma; widgets on the desktop. The buttons in the corner are used to resize, rotate configure and remove the applet. When rotated, a &plasma; widget will act magnetic towards 12 o'clock, so it is easy to get them back into sensible position. By default, most applets keep their aspect ratio when they are being resized. If you want to freely resize an applet, hold the &Ctrl; key pressed while resizing."
+msgstr "桌面实际上也是容器，但不会限制小程序的大小。小程序可在其中自由移动和调整大小。在已经解锁的桌面上，鼠标移到 &plasma; 挂件上时会显示一个框。您可以使用小程序的拖拽手柄移动小程序，调整大小，重新定位，或重新对齐面板。您也可以在桌面上直接拖动 &plasma; 挂件。角落处的按钮用于调整小程序的大小，旋转，或移除小程序。旋转时，&plasma; 挂件会自动向 12 点钟方向吸附，所以很容易将它们调整到合适的位置。默认情况下，大多数小程序会在缩放时保持宽高比。因此如果您想要自由调整小程序的大小，请在缩放时按住 &Ctrl; 键。"
+
+#. Tag: para
+#: index.docbook:461
+#, no-c-format
+msgid "Right clicking on the desktop also offers you to configure aspects such as the wallpaper and the layout used, and the mouse actions. It offers to download new wallpapers through &knewstuff;."
+msgstr "您可以右键点击桌面以配置壁纸，布局和鼠标操作等。它也提供了通过 &knewstuff; 下载新壁纸的功能。"
+
+#. Tag: para
+#: index.docbook:466
+#, no-c-format
+msgid "On the <guilabel>Tweaks</guilabel> page you can configure to hide the desktop Toolbox and adjust the widget handling."
+msgstr "在 <guilabel>调整</guilabel> 页面，您可以配置是否隐藏桌面工具箱，并调整挂件的处理方式。"
+
+#. Tag: screeninfo
+#: index.docbook:471
+#, no-c-format
+msgid "<screeninfo>Desktop Settings</screeninfo>"
+msgstr "<screeninfo>桌面设置</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:477
+#, no-c-format
+msgid "<phrase>Desktop Settings</phrase>"
+msgstr "<phrase>桌面设置</phrase>"
+
+#. Tag: para
+#: index.docbook:482
+#, no-c-format
+msgid "To change the &plasma; theme or download a new one through &knewstuff; open the <menuchoice><guimenu>Appearance</guimenu> <guimenuitem>Desktop Theme</guimenuitem></menuchoice> page in the &systemsettings;."
+msgstr "如果您想更改 &plasma; 主题，或通过 &knewstuff; 下载一个新主题，请打开 &systemsettings; 中的 <menuchoice><guimenu>外观</guimenu><guimenuitem>桌面主题</guimenuitem></menuchoice> 页面。"
+
+#. Tag: para
+#: index.docbook:486
+#, no-c-format
+msgid "With open applications, it quickly gets hard to see the &plasma; widgets on your desktop. The <emphasis role=\"bold\">Dashboard</emphasis> gets those &plasma; widgets in front of you, much like the <guilabel>Peek at Desktop</guilabel> functionality you are used to from traditional desktops."
+msgstr "打开应用程序时，很难在桌面上看到您的 &plasma; 挂件。<emphasis role=\"bold\">部件板</emphasis> 让您可以直接看到这些 &plasma; 挂件，就像传统桌面中的 <guilabel>暂时显示桌面</guilabel> 功能一样。"
+
+#. Tag: title
+#: index.docbook:496
+#, no-c-format
+msgid "<title>Folder View</title>"
+msgstr "<title>文件夹视图</title>"
+
+#. Tag: para
+#: index.docbook:497
+#, no-c-format
+msgid "The <guilabel>Folder View</guilabel> widget is used to display entries like folders or files from a folder, by default from <filename class=\"directory\">$<envar>HOME</envar>/Desktop</filename>."
+msgstr "<guilabel>文件夹视图</guilabel> 挂件用于显示文件夹内的文件和文件夹。默认情况下为 <filename class=\"directory\">$<envar>HOME</envar>/Desktop</filename>。"
+
+#. Tag: para
+#: index.docbook:500
+#, no-c-format
+msgid "You can choose to view either all files, or filter either by specific regular expressions (&eg;, all files with a certain extension) or by file type (&eg; just images)."
+msgstr "您可以选择显示所有文件，或者通过指定的正则表达式 (如所有具有特定扩展名的文件) 或文件类型 (如所有图片) 进行筛选。"
+
+#. Tag: para
+#: index.docbook:503
+#, no-c-format
+msgid "This widget also supports basic file management properties (moving, copying, cutting and pasting for example), and you can have as many as you want on your desktop."
+msgstr "这个挂件还支持基本的文件管理功能 (如移动、复制、粘贴、剪切)，并且桌面上的挂件数量不受限制。"
+
+#. Tag: screeninfo
+#: index.docbook:508
+#, no-c-format
+msgid "<screeninfo>Folder View</screeninfo>"
+msgstr "<screeninfo>文件夹视图</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:514
+#, no-c-format
+msgid "<phrase>Folder View</phrase>"
+msgstr "<phrase>文件夹视图</phrase>"
+
+#. Tag: para
+#: index.docbook:519
+#, no-c-format
+msgid "If you select the layout <guilabel>Folder View</guilabel> in the <guilabel>Desktop Settings</guilabel> you can use one Folder View as the whole desktop, effectively replicating the \"old style\" desktop paradigm."
+msgstr "如果您在 <guilabel>桌面设置</guilabel> 中选择了 <guilabel>文件夹视图</guilabel> 布局，文件夹视图将会作为整个桌面，很好地重现了“老式的”桌面概念。"
+
+#. Tag: title
+#: index.docbook:525
+#, no-c-format
+msgid "&krunner;"
+msgstr "&krunner;"
+
+#. Tag: para
+#: index.docbook:526
+#, no-c-format
+msgid "&krunner; is a versatile mini command-line. You can use it to start applications, open web pages, access bookmarks, search through your desktop data, calculate short equations, and many more. Pressing <keycombo action=\"simul\">&Alt;&Space;</keycombo> or <keycombo action=\"simul\">&Alt;<keysym>F2</keysym></keycombo> opens the &krunner; dialog. You just start typing and &krunner; will start searching matches as soon as you've entered more than two characters. You can open the settings dialog to learn about &krunner;’s functionality, provided by plugins. You can navigate through the matches using the tab and arrow keys."
+msgstr "&krunner; 是一个多功能的迷你命令行。您可以使用它启动应用程序、打开网页、访问书签、在您的桌面数据中搜索、计算短算式等等。按 <keycombo action=\"simul\">&Alt;&Space;</keycombo> 或 <keycombo action=\"simul\">&Alt;<keysym>F2</keysym></keycombo> 可以打开 &krunner; 对话框。您只需要输入，&krunner; 会在您输入两个以上字符时立即开始搜索。在设置对话框，您可以了解 &krunner; 由插件提供的功能。您可以使用 Tab 键和方向键在搜索结果中移动。"
+
+#. Tag: screeninfo
+#: index.docbook:539
+#, no-c-format
+msgid "<screeninfo>&krunner; dialog</screeninfo>"
+msgstr "<screeninfo>&krunner; 对话框</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:545
+#, no-c-format
+msgid "<phrase>&krunner; dialog</phrase>"
+msgstr "<phrase>&krunner; 对话框</phrase>"
+
+#. Tag: para
+#: index.docbook:550
+#, no-c-format
+msgid "Use the <inlinemediaobject><imageobject><imagedata fileref=\"krunner-configure.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> button to open the <guilabel>KRunner</guilabel> &systemsettings; module and configure where and what to search for in &krunner;."
+msgstr "使用 <inlinemediaobject><imageobject><imagedata fileref=\"krunner-configure.png\" format=\"PNG\"/></imageobject></inlinemediaobject> 按钮可以打开 <guilabel>KRunner</guilabel> 的 &systemsettings; 模块，并配置 &krunner; 搜索的位置和内容。"
+
+#. Tag: para
+#: index.docbook:555
+#, no-c-format
+msgid "&krunner; supports <quote>Desktop Actions</quote> which are additional actions an application can offer to perform common actions or jump directly to a certain task from Task Manager. Common examples are <guilabel>Open New Incognito Window</guilabel> to open your browser directly in private mode, <guilabel>Compose Email</guilabel> without launching the full-fledged email client first or the actions provided by &spectacle;:"
+msgstr "&krunner; 支持 <quote>桌面操作</quote>，即应用程序提供的，用于执行常见动作的操作，或者是任务管理器中的特定任务。常见的例子有：<guilabel>新建隐身窗口</guilabel>，直接在隐私模式下打开您的浏览器；<guilabel>撰写电子邮件</guilabel>，而无需先打开邮件客户端；和一些由 &spectacle; 提供的操作："
+
+#. Tag: screeninfo
+#: index.docbook:563
+#, no-c-format
+msgid "<screeninfo>&krunner; Desktop Actions</screeninfo>"
+msgstr "<screeninfo>&krunner; 桌面操作</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:569
+#, no-c-format
+msgid "<phrase>&krunner; Desktop Actions</phrase>"
+msgstr "<phrase>&krunner; 桌面操作</phrase>"
+
+#. Tag: para
+#: index.docbook:574
+#, no-c-format
+msgid "If you press the &Down; key in an empty &krunner; a history of the recent entities is shown. After invoking a search result, its query will move to the top, so repeatedly used commands never fall out of the list."
+msgstr "在空 &krunner; 中按 &Down; 键可以显示最近查询历史。调用一个搜索结果后，它将重新回到顶部，所以重复使用的命令会保留在列表中。"
+
+#. Tag: para
+#: index.docbook:578
+#, no-c-format
+msgid "Remove single entries from the list using the <inlinemediaobject><imageobject><imagedata fileref=\"remove.png\" format=\"PNG\"/> </imageobject></inlinemediaobject> button or clear the complete history in the &krunner; settings."
+msgstr "您可以通过 <inlinemediaobject><imageobject><imagedata fileref=\"remove.png\" format=\"PNG\"/></imageobject></inlinemediaobject> 按钮以从列表中移除某个搜索结果。在 &krunner; 设置中也可以清除所有历史记录。"
+
+#. Tag: para
+#: index.docbook:583
+#, no-c-format
+msgid "If you want to know what is going on on your system, pressing <keycombo action=\"simul\">&Ctrl;&Esc;</keycombo> gives you quick access to a list of windows and processes, with options to monitor their output and kill processes."
+msgstr "如果您想知道您的系统工作情况，请按 <keycombo action=\"simul\">&Ctrl;&Esc;</keycombo> 以快速访问窗口和进程列表。您也可以在此监控进程输出或终止进程。"
+
+#. Tag: title
+#: index.docbook:591
+#, no-c-format
+msgid "<title>Activities</title>"
+msgstr "<title>活动</title>"
+
+#. Tag: para
+#: index.docbook:593
+#, no-c-format
+msgid "The desktop toolbox, accessed via the upper left corner has a button for displaying your activities, of which &plasma; allows you to have more than one. Basically, that is multiple desktop containments hosting multiple sets of &plasma; widgets. Display the <quote>Activities</quote> bar, select one of the predefined activities or choose <guilabel>Create Activity</guilabel> to create a new containment, select your new containment and customize suiting your taste. &plasma;’s activities and &kwin;’s desktop grid are similar in that respect, but there is a fundamental difference. While virtual desktop are used to group and organize windows, &plasma;’s activities are used to group and organize &plasma; widgets. This way, you can switch between activities and have relevant &plasma; widgets supporting the task you are currently trying to accomplish. You can create a <quote>Free time</quote> activity, with comic strips, a puzzle and other &plasma; widgets, and a <quote>Work</quote> activity, with relevant <acronym>RSS</acronym> feeds, calculator and calendar, for example."
+msgstr "您可以使用左上角的按钮打开桌面工具箱，并管理您的活动。&plasma; 允许您同时拥有多个活动。基本上，活动是包含多组 &plasma; 挂件的桌面容器。在 <quote>活动</quote> 栏中，您可以选择一个预定义活动，或选择 <guilabel>创建活动</guilabel> 以创建一个新容器，并在其中进行自定义以符合您的使用习惯。&plasma; 的活动与 &kwin; 的虚拟桌面在这方面类似，但有一点不同。虚拟桌面用于分组并整理窗口，&plasma; 的活动则用于分组并整理 &plasma; 挂件。通过这种方式，您可以在活动之间切换，从而使相关的 &plasma; 挂件辅助您完成当前任务。比如，您可以创建一个有连环画、拼图和其他 &plasma; 挂件的 <quote>空间时间</quote> 活动，和有相关 <acronym>RSS</acronym> 订阅源、计算器和日历的 <quote>工作</quote> 活动。"
+
+#. Tag: para
+#: index.docbook:609
+#, no-c-format
+msgid "To delete an activity, press the <guibutton>Stop Activity</guibutton> button on <quote>Activities</quote> bar (press <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> then <keycombo action=\"simul\">&Alt;<keycap>A</keycap></keycombo> to open this bar) then click the red 'X' (or press <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> then <keycombo action=\"simul\">&Alt;<keycap>R</keycap></keycombo>) and confirm the deletion."
+msgstr "如需移除活动，请先按 <quote>活动</quote> 栏 (按 <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>，然后按 <keycombo action=\"simul\">&Alt;<keycap>A</keycap></keycombo> 以打开此栏) 中的 <guibutton>停止活动</guibutton> 按钮，然后点击红“X”(或按 <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>，然后按 <keycombo action=\"simul\">&Alt;<keycap>R</keycap></keycombo>)，并确认移除操作。"
+
+#. Tag: title
+#: index.docbook:622
+#, no-c-format
+msgid "Shortcuts"
+msgstr "快捷键"
+
+#. Tag: para
+#: index.docbook:624
+#, no-c-format
+msgid "Most of &plasma;’s functionality is also accessible through keyboard shortcuts. The various combinations should be pressed in sequence, that is for example <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>A</keycap> means: Press &Alt; and <keycap>D</keycap>, release and press <keycap>A</keycap>."
+msgstr "&plasma; 的大多数功能都支持键盘快捷键。您应按顺序按下这些按键组合，如 <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>A</keycap> 是指：先按下 &Alt; 和 <keycap>D</keycap>，然后释放并按 <keycap>A</keycap>。"
+
+#. Tag: para
+#: index.docbook:630
+#, no-c-format
+msgid "Currently, the following default shortcuts can be used:"
+msgstr "目前，您可以使用以下默认快捷键："
+
+#. Tag: term
+#: index.docbook:635
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>A</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>A</keycap>"
+
+#. Tag: para
+#: index.docbook:636
+#, no-c-format
+msgid "Add Widgets"
+msgstr "添加挂件"
+
+#. Tag: term
+#: index.docbook:640
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>R</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>R</keycap>"
+
+#. Tag: para
+#: index.docbook:641
+#, no-c-format
+msgid "Remove Widget"
+msgstr "移除挂件"
+
+#. Tag: term
+#: index.docbook:645
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>L</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>L</keycap>"
+
+#. Tag: para
+#: index.docbook:646
+#, no-c-format
+msgid "Lock/Unlock Widgets"
+msgstr "锁定/解锁挂件"
+
+#. Tag: keycombo
+#: index.docbook:650
+#, no-c-format
+msgid "&Meta;<keycap>=</keycap>"
+msgstr "&Meta;<keycap>=</keycap>"
+
+#. Tag: para
+#: index.docbook:651
+#, no-c-format
+msgid "Zoom out"
+msgstr "缩小"
+
+#. Tag: keycombo
+#: index.docbook:655
+#, no-c-format
+msgid "&Meta;<keycap>-</keycap>"
+msgstr "&Meta;<keycap>-</keycap>"
+
+#. Tag: para
+#: index.docbook:656
+#, no-c-format
+msgid "Zoom in"
+msgstr "放大"
+
+#. Tag: term
+#: index.docbook:660
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>N</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>N</keycap>"
+
+#. Tag: para
+#: index.docbook:661
+#, no-c-format
+msgid "Next Widget"
+msgstr "下一个挂件"
+
+#. Tag: term
+#: index.docbook:665
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>P</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>P</keycap>"
+
+#. Tag: para
+#: index.docbook:666
+#, no-c-format
+msgid "Previous Widget"
+msgstr "上一个挂件"
+
+#. Tag: term
+#: index.docbook:670
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>S</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>S</keycap>"
+
+#. Tag: para
+#: index.docbook:671
+#, no-c-format
+msgid "Widget settings"
+msgstr "挂件设置"
+
+#. Tag: term
+#: index.docbook:675
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>A</keycap></keycombo>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>A</keycap></keycombo>"
+
+#. Tag: para
+#: index.docbook:676
+#, no-c-format
+msgid "<para>Activities</para>"
+msgstr "<para>活动</para>"
+
+#. Tag: term
+#: index.docbook:680
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>R</keycap></keycombo>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>R</keycap></keycombo>"
+
+#. Tag: para
+#: index.docbook:681
+#, no-c-format
+msgid "Remove this Activity"
+msgstr "移除此活动"
+
+#. Tag: term
+#: index.docbook:685
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>S</keycap></keycombo>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>S</keycap></keycombo>"
+
+#. Tag: para
+#: index.docbook:686
+#, no-c-format
+msgid "<para>Desktop Settings</para>"
+msgstr "<para>桌面设置</para>"
+
+#. Tag: keycombo
+#: index.docbook:690 index.docbook:710
+#, no-c-format
+msgid "&Meta;&Tab;"
+msgstr "&Meta;&Tab;"
+
+#. Tag: para
+#: index.docbook:691
+#, no-c-format
+msgid "Next Activity"
+msgstr "下一个活动"
+
+#. Tag: keycombo
+#: index.docbook:695
+#, no-c-format
+msgid "&Meta;&Shift;&Tab;"
+msgstr "&Meta;&Shift;&Tab;"
+
+#. Tag: para
+#: index.docbook:696
+#, no-c-format
+msgid "Previous Activity"
+msgstr "上一个活动"
+
+#. Tag: keycombo
+#: index.docbook:700
+#, no-c-format
+msgid "&Ctrl;<keycap>F12</keycap>"
+msgstr "&Ctrl;<keycap>F12</keycap>"
+
+#. Tag: para
+#: index.docbook:701
+#, no-c-format
+msgid "Peek at Desktop"
+msgstr "暂时显示桌面"
+
+#. Tag: term
+#: index.docbook:705
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>T</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycap>T</keycap>"
+
+#. Tag: para
+#: index.docbook:706
+#, no-c-format
+msgid "Run the Associated Application"
+msgstr "运行关联应用程序"
+
+#. Tag: para
+#: index.docbook:711
+#, no-c-format
+msgid "Open the Activities panel"
+msgstr "打开活动面板"
+
+#. Tag: title
+#: index.docbook:721
+#, no-c-format
+msgid "Credits and License"
+msgstr "致谢与版权"
+
+#. Tag: para
+#: index.docbook:723
+#, no-c-format
+msgid "&plasma;"
+msgstr "&plasma;"
+
+#. Tag: para
+#: index.docbook:726
+#, no-c-format
+msgid "Program copyright 2008 &Aaron.J.Seigo; &Aaron.J.Seigo.mail;"
+msgstr "Program copyright 2008 &Aaron.J.Seigo; &Aaron.J.Seigo.mail;"
+
+#. Tag: para
+#: index.docbook:730
+#, no-c-format
+msgid "Documentation Copyright &copy; 2008&ndash;2010 Sebastian Kügler <email>sebas@kde.org</email>"
+msgstr "Documentation Copyright &copy; 2008&ndash;2010 Sebastian Kügler <email>sebas@kde.org</email>"
+
+#. Tag: trans_comment
+#: index.docbook:734
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para>本文档由 KDE 中国团队翻译。</para>"
+
+#. Tag: chapter
+#: index.docbook:734
+#, no-c-format
+msgid "&underFDL;"
+msgstr "&underFDL;"
+
