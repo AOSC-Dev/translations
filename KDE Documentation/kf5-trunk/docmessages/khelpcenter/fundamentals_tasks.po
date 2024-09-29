@@ -1,0 +1,1533 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-29 00:58+0000\n"
+"PO-Revision-Date: 2024-09-29 12:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/khelpcenter/fundamentals_tasks.pot\n"
+"X-Crowdin-File-ID: 3190\n"
+"Language: zh_CN\n"
+
+#. Tag: title
+#: tasks.docbook:2
+#, no-c-format
+msgid "Common Tasks"
+msgstr "常见任务"
+
+#. Tag: author
+#: tasks.docbook:8 tasks.docbook:134 tasks.docbook:660 tasks.docbook:777
+#: tasks.docbook:1002 tasks.docbook:1078
+#, no-c-format
+msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+msgstr "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+
+#. Tag: trans_comment
+#: tasks.docbook:9 tasks.docbook:135 tasks.docbook:661 tasks.docbook:778
+#: tasks.docbook:1003 tasks.docbook:1079
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "<othercredit role=\"translator\"><firstname>Rongfeng</firstname><surname>Ge</surname><affiliation><address><email>stellarpurr@gmail.com</email></address></affiliation></othercredit>"
+
+#. Tag: title
+#: tasks.docbook:12
+#, no-c-format
+msgid "Navigating Documents"
+msgstr "浏览文档"
+
+#. Tag: title
+#: tasks.docbook:18
+#, no-c-format
+msgid "Scrolling"
+msgstr "滚动"
+
+#. Tag: para
+#: tasks.docbook:20
+#, no-c-format
+msgid "You're probably familiar with the scrollbar that appears on the right side (and sometimes the bottom) of documents, allowing you to move within documents. However, there are several other ways you can navigate documents, some of which are faster and easier."
+msgstr "您可能对显示在文档右侧 (有时是底部) 的滚动条很熟悉，它可以让您在文档内移动。然而，还有其他几种方法可以浏览文档，其中一些方法更快、更方便。"
+
+#. Tag: para
+#: tasks.docbook:25
+#, no-c-format
+msgid "Several mice have a wheel in the middle. You can move it up and down to scroll within a document. If you press the &Shift; key while using the mouse wheel, the document will scroll faster."
+msgstr "有些鼠标中间有一个滚轮。您可以上下移动滚轮以滚动文档。如果您在使用鼠标滚轮时按住 &Shift; 键，文档将更快滚动。"
+
+#. Tag: para
+#: tasks.docbook:29
+#, no-c-format
+msgid "If you're using a portable computer like a laptop, you might also be able to scroll using the touchpad. Some computers allow you to scroll vertically by moving your finger up and down the rightmost side of the touchpad, and allow you to scroll horizontally by moving your finger across the bottommost side of the touchpad. Others let you scroll using two fingers: move both fingers up and down anywhere on the touchpad to scroll vertically, and move them left and right to scroll horizontally. Since this functionality emulates the mouse wheel functionality described above, you can also press the &Shift; key while you do this to scroll faster."
+msgstr "如果您正在使用的是笔记本等便携式计算机，您也可以通过触摸板进行滚动。一些电脑允许您通过上下滑动触摸板最右侧以垂直滚动，横向滑动触摸板最底部以水平滚动。还有一些电脑支持双指滚动：在触摸板上的任意位置，将两根手指上下移动以垂直滚动，左右移动以水平滚动。因为这一功能实际上模拟了鼠标滚轮的功能，如上所述，您也可以按住 &Shift; 键，以更快滚动。"
+
+#. Tag: para
+#: tasks.docbook:39
+#, no-c-format
+msgid "If you use the &plasma-workspaces;, you can control mouse wheel behavior in the <ulink url=\"help:/kcontrol/mouse/\">Mouse module in &systemsettings;</ulink>, and you can control touchpad scrolling behavior in the Touchpad module in &systemsettings;. Otherwise, look in the configuration area of your operating system or desktop environment."
+msgstr "如果您使用 &plasma-workspaces;，您可以在 <ulink url=\"help:/kcontrol/mouse/\">&systemsettings; 的鼠标模块</ulink> 中控制鼠标滚轮行为，并可以在 &systemsettings; 的触摸板模块中控制触摸板滚动行为。否则，请在您的操作系统或桌面环境的配置区域中查找相关设置。"
+
+#. Tag: para
+#: tasks.docbook:45
+#, no-c-format
+msgid "Additionally, the scrollbar has several options in its context menu. You can access these by right-clicking anywhere on the scrollbar. The following options are available:"
+msgstr "此外，滚动条的右键菜单中还有几个选项。您可以通过右键点击滚动条上的任意位置以访问这些选项。可用的选项包括："
+
+#. Tag: guimenuitem
+#: tasks.docbook:52
+#, no-c-format
+msgid "Scroll here"
+msgstr "滚动至此"
+
+#. Tag: para
+#: tasks.docbook:53
+#, no-c-format
+msgid "Scroll directly to the location represented by where you right-clicked on the scrollbar. This is the equivalent of simply clicking on that location on the scrollbar."
+msgstr "直接滚动到您在滚动条上右键点击的位置。这相当于直接在滚动条上点击该位置。"
+
+#. Tag: menuchoice
+#: tasks.docbook:59
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Home</keycap></keycombo></shortcut> <guimenuitem>Top</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Home</keycap></keycombo></shortcut> <guimenuitem>顶端</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:63
+#, no-c-format
+msgid "Go to the beginning of the document."
+msgstr "转到文档顶端。"
+
+#. Tag: menuchoice
+#: tasks.docbook:67
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>End</keycap></keycombo></shortcut> <guimenuitem>Bottom</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>End</keycap></keycombo></shortcut> <guimenuitem>底部</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:71
+#, no-c-format
+msgid "Go to the end of the document."
+msgstr "转到文档底部。"
+
+#. Tag: menuchoice
+#: tasks.docbook:75
+#, no-c-format
+msgid "<shortcut><keycap>PgUp</keycap></shortcut> <guimenuitem>Page up</guimenuitem>"
+msgstr "<shortcut><keycap>PgUp</keycap></shortcut> <guimenuitem>向上翻页</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:79
+#, no-c-format
+msgid "Navigate to the previous page in a document that represents a printed document, or one screen up in other types of documents."
+msgstr "在可打印文档中翻到文档的上一页，或在其他类型的文档中翻到上一屏。"
+
+#. Tag: menuchoice
+#: tasks.docbook:84
+#, no-c-format
+msgid "<shortcut><keycap>PgDn</keycap></shortcut> <guimenuitem>Page down</guimenuitem>"
+msgstr "<shortcut><keycap>PgDn</keycap></shortcut> <guimenuitem>向下翻页</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:88
+#, no-c-format
+msgid "Navigate to the next page in a document that represents a printed document, or one screen down in other types of documents."
+msgstr "在可打印文档中翻到文档的下一页，或在其他类型的文档中翻到下一屏。"
+
+#. Tag: guilabel
+#: tasks.docbook:94
+#, no-c-format
+msgid "Scroll up"
+msgstr "向上滚动"
+
+#. Tag: para
+#: tasks.docbook:95
+#, no-c-format
+msgid "Scroll up one unit (usually a line) in the document. This is the equivalent of clicking the up arrow at the top of the scrollbar."
+msgstr "向上滚动文档中的一个单位 (通常是一行)。这相当于点击滚动条顶部的向上箭头。"
+
+#. Tag: guilabel
+#: tasks.docbook:101
+#, no-c-format
+msgid "Scroll down"
+msgstr "向下滚动"
+
+#. Tag: para
+#: tasks.docbook:102
+#, no-c-format
+msgid "Scroll down one unit (usually a line) in the document. This is the equivalent of clicking the down arrow at the bottom of the scrollbar."
+msgstr "向下滚动文档中的一个单位 (通常是一行)。这相当于点击滚动条底部的向下箭头。"
+
+#. Tag: title
+#: tasks.docbook:112
+#, no-c-format
+msgid "Zooming"
+msgstr "缩放"
+
+#. Tag: para
+#: tasks.docbook:114
+#, no-c-format
+msgid "Many applications permit you to zoom. This makes the text or image you are viewing larger or smaller. You can generally find the zoom function in the <link linkend=\"menus-view\">View menu</link>, and sometimes in the status bar of the application."
+msgstr "您可以在许多应用程序中进行缩放。这会使您正在查看的文本或图像变大或变小。通常情况下，您可以在 <link linkend=\"menus-view\">视图菜单</link> 中找到缩放功能，有时也可以在应用程序的状态栏中找到。"
+
+#. Tag: para
+#: tasks.docbook:119
+#, no-c-format
+msgid "You can also zoom using the keyboard by pressing <keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo> to zoom in, or <keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo> to zoom out. If you can scroll with the mouse wheel or touchpad as described in <xref linkend=\"nav-scroll\"/>, you can also zoom by pressing &Ctrl; and scrolling that way."
+msgstr "您也可以通过键盘进行缩放。按 <keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo> 可以放大，<keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo> 可以缩小。如果您可以像在 <xref linkend=\"nav-scroll\"/> 中描述的那样，使用鼠标滚轮或触摸板进行滚动，您也可以通过按住 &Ctrl; 键并向相应方向滚动以进行缩放。"
+
+#. Tag: title
+#: tasks.docbook:138
+#, no-c-format
+msgid "Opening and Saving Files"
+msgstr "打开和保存文件"
+
+#. Tag: title
+#: tasks.docbook:141
+#, no-c-format
+msgid "Introduction"
+msgstr "介绍"
+
+#. Tag: para
+#: tasks.docbook:143
+#, no-c-format
+msgid "Many &kde; applications work with files. Most applications have a <guimenu>File</guimenu> menu with options that allow you to open and save files. For more information on that, see <xref linkend=\"menus-file\"/>. However, there are lots of different operations that require selecting a file. Regardless of the method, all &kde; applications generally use the same file selection window."
+msgstr "许多 &kde; 应用程序会处理文件。大多数应用程序都有一个 <guimenu>文件</guimenu> 菜单，内有打开和保存文件的选项。如需了解更多相关信息，请参见 <xref linkend=\"menus-file\"/>。但是，还有很多其他操作需要选择文件。无论方法如何，所有 &kde; 应用程序通常都使用相同的文件选择窗口。"
+
+#. Tag: screeninfo
+#: tasks.docbook:151
+#, no-c-format
+msgid "The File Open Window"
+msgstr "文件打开窗口"
+
+#. Tag: phrase
+#: tasks.docbook:154
+#, no-c-format
+msgid "The File Open window."
+msgstr "文件打开窗口。"
+
+#. Tag: para
+#: tasks.docbook:155
+#, no-c-format
+msgid "Opening a file in <ulink url=\"https://www.kde.org/applications/internet/konqueror/\">&konqueror;</ulink>."
+msgstr "在 <ulink url=\"https://www.kde.org/applications/internet/konqueror/\">&konqueror;</ulink> 中打开一个文件。"
+
+#. Tag: title
+#: tasks.docbook:164
+#, no-c-format
+msgid "The File Selection Window"
+msgstr "文件选择窗口"
+
+#. Tag: term
+#: tasks.docbook:172
+#, no-c-format
+msgid "The Toolbar"
+msgstr "工具栏"
+
+#. Tag: para
+#: tasks.docbook:174
+#, no-c-format
+msgid "This contains standard navigation tool buttons:"
+msgstr "内有常见的导航工具按钮："
+
+#. Tag: guibutton
+#: tasks.docbook:178
+#, no-c-format
+msgid "Back"
+msgstr "后退"
+
+#. Tag: para
+#: tasks.docbook:179
+#, no-c-format
+msgid "Causes the folder view to change to the previously displayed folder in its history. This button is disabled, if there is no previous item."
+msgstr "切换文件夹视图到其历史中的前一个文件夹。如果没有的话，此按钮会禁用。"
+
+#. Tag: guibutton
+#: tasks.docbook:185
+#, no-c-format
+msgid "Forward"
+msgstr "前进"
+
+#. Tag: para
+#: tasks.docbook:186
+#, no-c-format
+msgid "Causes the folder view to change to the next folder in its history. This button is disabled, if there is no next folder."
+msgstr "切换文件夹视图到其历史中的后一个文件夹。如果没有的话，此按钮会禁用。"
+
+#. Tag: guibutton
+#: tasks.docbook:191
+#, no-c-format
+msgid "Parent Folder"
+msgstr "上级文件夹"
+
+#. Tag: para
+#: tasks.docbook:192
+#, no-c-format
+msgid "This will cause the folder view to change to the immediate parent of the currently displayed folder, if possible."
+msgstr "尝试切换文件夹视图到当前文件夹的上一级文件夹。"
+
+#. Tag: term
+#: tasks.docbook:197
+#, no-c-format
+msgid "<guibutton>Reload</guibutton> (<keycap>F5</keycap>)"
+msgstr "<guibutton>刷新</guibutton> (<keycap>F5</keycap>)"
+
+#. Tag: para
+#: tasks.docbook:198
+#, no-c-format
+msgid "Reloads the folder view, displaying any changes that have been made since it was first loaded or last reloaded."
+msgstr "刷新文件夹视图，以显示首次加载或上次重新加载后的新更改。"
+
+#. Tag: guibutton
+#: tasks.docbook:203
+#, no-c-format
+msgid "Show Preview"
+msgstr "显示预览"
+
+#. Tag: para
+#: tasks.docbook:204
+#, no-c-format
+msgid "Displays a preview of each file inside the folder view."
+msgstr "在文件夹视图中显示每个文件的预览。"
+
+#. Tag: term
+#: tasks.docbook:209
+#, no-c-format
+msgid "Zoom Slider"
+msgstr "缩放滑动条"
+
+#. Tag: para
+#: tasks.docbook:210
+#, no-c-format
+msgid "This allows you to change the size of the icon or preview shown in the folder view."
+msgstr "允许您更改文件夹视图中显示的图标或预览的大小。"
+
+#. Tag: guibutton
+#: tasks.docbook:215
+#, no-c-format
+msgid "<guibutton>Options</guibutton>"
+msgstr "<guibutton>选项</guibutton>"
+
+#. Tag: menuchoice
+#: tasks.docbook:220
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu>"
+
+#. Tag: menuchoice
+#: tasks.docbook:227
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu> <guimenuitem>By Name</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu><guimenuitem>按名称</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:231
+#, no-c-format
+msgid "Sort files listed in the folder view alphabetically by name."
+msgstr "按名称字母顺序对文件夹视图中的文件排序。"
+
+#. Tag: menuchoice
+#: tasks.docbook:236
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu> <guimenuitem>By Size</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu><guimenuitem>按大小</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:240
+#, no-c-format
+msgid "Sort files listed in the folder view in order of their file size."
+msgstr "按文件大小顺序对文件夹视图中的文件排序。"
+
+#. Tag: menuchoice
+#: tasks.docbook:245
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu> <guimenuitem>By Date</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu><guimenuitem>按时间</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:249
+#, no-c-format
+msgid "Sort files listed in the folder view by the date they were last modified."
+msgstr "按修改时间顺序对文件夹视图中的文件排序。"
+
+#. Tag: menuchoice
+#: tasks.docbook:254
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu> <guimenuitem>By Type</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu><guimenuitem>按类型</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:258
+#, no-c-format
+msgid "Sort files listed in the folder view alphabetically by their file type."
+msgstr "按文件类型顺序对文件夹视图中的文件排序。"
+
+#. Tag: menuchoice
+#: tasks.docbook:263
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu> <guimenuitem>Descending</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu><guimenuitem>降序排列</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:267
+#, no-c-format
+msgid "When unchecked (the default), files in the folder view will be sorted in ascending order. (For instance, files sorted alphabetically will be sorted from A to Z, while files sorted numerically will be sorted from smallest to largest.) When checked, files in the folder will be sorted in descending order (in reverse)."
+msgstr "未勾选时 (默认)，文件夹视图中的文件将按升序排列 (比如，按字母顺序排序的文件将从 A 到 Z，按数字顺序排序的文件将从小到大)。勾选该选项时，文件将按降序排列 (顺序相反)。"
+
+#. Tag: menuchoice
+#: tasks.docbook:275
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>Sorting</guisubmenu> <guimenuitem>Folders First</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>排序</guisubmenu><guimenuitem>文件夹靠前</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:279
+#, no-c-format
+msgid "When enabled (the default), folders will appear before regular files."
+msgstr "启用时 (默认)，文件夹会显示在常规文件之前。"
+
+#. Tag: menuchoice
+#: tasks.docbook:288
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>View</guisubmenu>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>视图</guisubmenu>"
+
+#. Tag: menuchoice
+#: tasks.docbook:295
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>View</guisubmenu> <guimenuitem>Short View</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>视图</guisubmenu><guimenuitem>图标视图</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:299
+#, no-c-format
+msgid "Displays only the filenames."
+msgstr "仅显示文件名。"
+
+#. Tag: menuchoice
+#: tasks.docbook:303
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>View</guisubmenu> <guimenuitem>Detailed View</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>视图</guisubmenu><guimenuitem>详情视图</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:307
+#, no-c-format
+msgid "Displays <guilabel>Name</guilabel>, <guilabel>Date</guilabel> and <guilabel>Size</guilabel> of the files."
+msgstr "显示文件的 <guilabel>名称</guilabel>、<guilabel>日期</guilabel>、<guilabel>大小</guilabel>。"
+
+#. Tag: menuchoice
+#: tasks.docbook:312
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>View</guisubmenu> <guimenuitem>Tree View</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>视图</guisubmenu><guimenuitem>树状视图</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:316
+#, no-c-format
+msgid "Like Short View, but folders can be expanded to view their contents."
+msgstr "与图标视图类似，但文件夹可以展开以查看其内容。"
+
+#. Tag: menuchoice
+#: tasks.docbook:320
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guisubmenu>View</guisubmenu> <guimenuitem>Detailed Tree View</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guisubmenu>视图</guisubmenu><guimenuitem>树状详情视图</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:324
+#, no-c-format
+msgid "This also allows folders to be expanded, but displays the additional columns available in Detailed View."
+msgstr "您也可以展开文件夹，并会显示详情视图中可用的其他列。"
+
+#. Tag: menuchoice
+#: tasks.docbook:333
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Alt;<keycap>.</keycap></keycombo> </shortcut> <guimenu>Options</guimenu><guimenuitem>Show Hidden Files</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Alt;<keycap>.</keycap></keycombo></shortcut> <guimenu>选项</guimenu><guimenuitem>显示隐藏文件</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:339
+#, no-c-format
+msgid "Displays files or folders normally hidden by your operating system. The alternate shortcut for this action is <keycap>F8</keycap>."
+msgstr "显示您的操作系统一般会隐藏的文件和文件夹。备选快捷键是 <keycap>F8</keycap>。"
+
+#. Tag: menuchoice
+#: tasks.docbook:350
+#, no-c-format
+msgid "<shortcut><keycap>F9</keycap></shortcut> <guimenu>Options</guimenu><guimenuitem>Show Places Navigation Panel</guimenuitem>"
+msgstr "<shortcut><keycap>F9</keycap></shortcut> <guimenu>选项</guimenu><guimenuitem>显示位置面板</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:354
+#, no-c-format
+msgid "Displays the places panel which provides quick access to bookmarked locations and disks or other media."
+msgstr "显示位置面板，以便访问加入书签的位置、磁盘和其他媒体。"
+
+#. Tag: menuchoice
+#: tasks.docbook:359
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guimenuitem>Show Bookmarks</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guimenuitem>显示书签按钮</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:362
+#, no-c-format
+msgid "Displays an additional icon on the toolbar that provides access to <quote>bookmarks</quote>, a list of saved locations."
+msgstr "在工具栏上显示按钮以访问 <quote>书签</quote>，即已保存位置的列表。"
+
+#. Tag: menuchoice
+#: tasks.docbook:367
+#, no-c-format
+msgid "<guimenu>Options</guimenu><guimenuitem>Show Aside Preview</guimenuitem>"
+msgstr "<guimenu>选项</guimenu><guimenuitem>显示预览面板</guimenuitem>"
+
+#. Tag: para
+#: tasks.docbook:370
+#, no-c-format
+msgid "Displays a preview of the currently highlighted file to the right of the folder view."
+msgstr "在文件夹视图的右侧显示当前突出显示文件的预览。"
+
+#. Tag: guibutton
+#: tasks.docbook:379
+#, no-c-format
+msgid "Bookmarks"
+msgstr "书签"
+
+#. Tag: para
+#: tasks.docbook:380
+#, no-c-format
+msgid "Opens a submenu to edit or add bookmarks and to add a new bookmark folder."
+msgstr "打开子菜单以编辑或添加书签，并新建书签文件夹。"
+
+#. Tag: term
+#: tasks.docbook:390
+#, no-c-format
+msgid "Location Bar"
+msgstr "位置栏"
+
+#. Tag: para
+#: tasks.docbook:392
+#, no-c-format
+msgid "The location bar, which can be found on top of the folder view, displays the path to the current folder. The location bar has two modes:"
+msgstr "位置栏位于文件夹视图的顶部，会显示当前文件夹的路径。位置栏具有两种模式："
+
+#. Tag: term
+#: tasks.docbook:397
+#, no-c-format
+msgid "Bread Crumb Mode"
+msgstr "面包屑模式"
+
+#. Tag: para
+#: tasks.docbook:399
+#, no-c-format
+msgid "In the <quote>bread crumb</quote> mode, which is the default, each folder name in the path to the current folder is a button which can be clicked to quickly open that folder. Moreover, clicking the <quote>&gt;</quote> sign to the right of a folder opens a menu which permits to quickly open a subfolder of that folder."
+msgstr "在 <quote>面包屑</quote> 模式 (默认) 中，当前文件夹路径中的每个文件夹名称都可以点击，以快速打开相应文件夹。此外，点击文件夹右侧的 <quote>&gt;</quote> 符号可以展开菜单，便于打开该文件夹的子文件夹。"
+
+#. Tag: screeninfo
+#: tasks.docbook:406
+#, no-c-format
+msgid "Screenshot of the location bar in bread crumb mode"
+msgstr "面包屑模式中位置栏的截图"
+
+#. Tag: phrase
+#: tasks.docbook:412
+#, no-c-format
+msgid "<phrase>Location bar in bread crumb mode.</phrase>"
+msgstr "<phrase>面包屑模式中的位置栏。</phrase>"
+
+#. Tag: para
+#: tasks.docbook:414
+#, no-c-format
+msgid "<para>Location bar in bread crumb mode.</para>"
+msgstr "<para>面包屑模式中的位置栏。</para>"
+
+#. Tag: term
+#: tasks.docbook:422
+#, no-c-format
+msgid "Editable Mode"
+msgstr "可编辑模式"
+
+#. Tag: para
+#: tasks.docbook:424
+#, no-c-format
+msgid "When in bread crumb mode, clicking in the gray area to the right of the path with the &LMB; switches the location bar to the <quote>editable</quote> mode, in which the path can be edited using the keyboard. To switch back to bread crumb mode, click the check mark at the right of the location bar with the &LMB;."
+msgstr "面包屑模式中，&LMB; 点击路径右侧的灰色区域会将位置栏切换到 <quote>可编辑</quote> 模式，从而可以使用键盘编辑路径。如需回到面包屑模式，请 &LMB; 点击位置栏右侧的对号。"
+
+#. Tag: screeninfo
+#: tasks.docbook:431
+#, no-c-format
+msgid "Screenshot of the location bar in editable mode"
+msgstr "可编辑模式中位置栏的截图"
+
+#. Tag: phrase
+#: tasks.docbook:437
+#, no-c-format
+msgid "<phrase>Location bar in editable mode.</phrase>"
+msgstr "<phrase>可编辑模式中的位置栏。</phrase>"
+
+#. Tag: para
+#: tasks.docbook:439
+#, no-c-format
+msgid "<para>Location bar in editable mode.</para>"
+msgstr "<para>可编辑模式中的位置栏。</para>"
+
+#. Tag: para
+#: tasks.docbook:474
+#, no-c-format
+msgid "The context menu of the location bar offers action to switch between the modes and to copy and paste the path using the clipboard. Check the last option in this context menu to display either the full path starting with the root folder of the file system or to display the path starting with the current places entry."
+msgstr "您可在位置栏的右键菜单中切换模式，并通过剪贴板复制或粘贴路径。该菜单的最后一个选项控制显示以文件系统根文件夹开头的完整路径，还是显示以当前位置项开头的路径。"
+
+#. Tag: screeninfo
+#: tasks.docbook:481
+#, no-c-format
+msgid "<screeninfo>Location bar context menu</screeninfo>"
+msgstr "<screeninfo>位置栏右键菜单</screeninfo>"
+
+#. Tag: phrase
+#: tasks.docbook:487
+#, no-c-format
+msgid "<phrase>Location bar context menu</phrase>"
+msgstr "<phrase>位置栏右键菜单</phrase>"
+
+#. Tag: term
+#: tasks.docbook:496
+#, no-c-format
+msgid "The <guilabel>Places</guilabel> List"
+msgstr "<guilabel>常用位置</guilabel> 列表"
+
+#. Tag: para
+#: tasks.docbook:497
+#, no-c-format
+msgid "This provides the standard &kde; list of Places, shared with &dolphin; and other file management tools."
+msgstr "这是一般的 &kde; 常用位置列表，并与 &dolphin; 和其他文件管理工具共享。"
+
+#. Tag: term
+#: tasks.docbook:508
+#, no-c-format
+msgid "The Folder View"
+msgstr "文件夹视图"
+
+#. Tag: para
+#: tasks.docbook:510
+#, no-c-format
+msgid "The largest part of the file selection window is the area that lists all items in the current directory. To select a file, you can double-click on it, or choose one and hit <guibutton>Open</guibutton> or <guibutton>Save</guibutton>."
+msgstr "文件选择窗口中，最大的区域会列出当前目录中的所有项目。要选择一个文件，请双击相应文件，也可以选择一个文件并点击 <guibutton>打开</guibutton> 或 <guibutton>保存</guibutton>。"
+
+#. Tag: para
+#: tasks.docbook:515
+#, no-c-format
+msgid "You can also select multiple files at once. To select specific files, or to unselect specific files that are already selected, press and hold &Ctrl;, click on each file, then release &Ctrl;. To select a contiguous group of files, click the first file, press and hold &Shift;, click on the last file in the group, and release &Shift;."
+msgstr "您也可以同时选择多个文件。要选择某些文件，或取消选择已选中的某些文件，请按住 &Ctrl;，点击相应文件，然后松开 &Ctrl;。要选择连续的一组文件，请点击第一个文件，按住 &Shift;，点击该组中的最后一个文件，然后松开 &Shift;。"
+
+#. Tag: para
+#: tasks.docbook:521
+#, no-c-format
+msgid "The Folder View supports a limited set of file operations, which can be accessed by right-clicking on a file to access its context menu, or using keyboard shortcuts. The following items are available in the context menu:"
+msgstr "文件夹视图支持一些快捷文件操作。您可以右键点击文件以打开其右键菜单，或者使用键盘快捷键来进行相关操作。右键菜单中有以下选项："
+
+#. Tag: guimenuitem
+#: tasks.docbook:528
+#, no-c-format
+msgid "Create New..."
+msgstr "新建..."
+
+#. Tag: para
+#: tasks.docbook:529
+#, no-c-format
+msgid "Create a new file or folder."
+msgstr "新建文件或文件夹。"
+
+#. Tag: term
+#: tasks.docbook:533
+#, no-c-format
+msgid "<guimenuitem>Move to Trash...</guimenuitem> (<keycombo action=\"simul\"><keycap>Del</keycap></keycombo>)"
+msgstr "<guimenuitem>移动到回收站</guimenuitem> (<keycombo action=\"simul\"><keycap>Del</keycap></keycombo>)"
+
+#. Tag: para
+#: tasks.docbook:535
+#, no-c-format
+msgid "Move the currently selected item to the trash."
+msgstr "将当前选中的项目移动到回收站。"
+
+#. Tag: guisubmenu
+#: tasks.docbook:539
+#, no-c-format
+msgid "Sorting"
+msgstr "排序"
+
+#. Tag: para
+#: tasks.docbook:540
+#, no-c-format
+msgid "This submenu can also be accessed from the toolbar, and is described in <xref linkend=\"files-ui-toolbar-options-sorting\"/>."
+msgstr "该子菜单也可从工具栏访问，相关信息请参见 <xref linkend=\"files-ui-toolbar-options-sorting\"/>。"
+
+#. Tag: guisubmenu
+#: tasks.docbook:545
+#, no-c-format
+msgid "View"
+msgstr "视图模式"
+
+#. Tag: para
+#: tasks.docbook:546
+#, no-c-format
+msgid "This submenu can also be accessed from the toolbar, and is described in <xref linkend=\"files-ui-toolbar-options-view\"/>."
+msgstr "该子菜单也可从工具栏访问，相关信息请参见 <xref linkend=\"files-ui-toolbar-options-view\"/>。"
+
+#. Tag: guimenuitem
+#: tasks.docbook:551
+#, no-c-format
+msgid "Open File Manager"
+msgstr "打开文件管理器"
+
+#. Tag: para
+#: tasks.docbook:552
+#, no-c-format
+msgid "Opens the current folder in your default file manager application."
+msgstr "在您的默认文件管理器应用程序中打开当前文件夹。"
+
+#. Tag: term
+#: tasks.docbook:557
+#, no-c-format
+msgid "<guimenuitem>Properties</guimenuitem> (<keycombo action=\"simul\">&Alt;&Enter;</keycombo>)"
+msgstr "<guimenuitem>属性</guimenuitem> (<keycombo action=\"simul\">&Alt;&Enter;</keycombo>)"
+
+#. Tag: para
+#: tasks.docbook:559
+#, no-c-format
+msgid "Open the Properties window that allows you to view and modify various types of metadata related to the currently selected file."
+msgstr "打开属性窗口，您可以在此查看和修改与当前选中文件有关的各种元数据。"
+
+#. Tag: term
+#: tasks.docbook:568
+#, no-c-format
+msgid "The Preview Pane"
+msgstr "预览窗格"
+
+#. Tag: para
+#: tasks.docbook:569
+#, no-c-format
+msgid "If enabled, this displays a preview of the currently highlighted file."
+msgstr "如果启用，将会显示当前突出显示文件的预览。"
+
+#. Tag: term
+#: tasks.docbook:574
+#, no-c-format
+msgid "The <guilabel>Name</guilabel> Entry"
+msgstr "<guilabel>名称</guilabel> 项"
+
+#. Tag: para
+#: tasks.docbook:575
+#, no-c-format
+msgid "When a file is selected, a name will appear in this text box. You may also manually enter a file name or path in this text box."
+msgstr "选中一个文件时，该文本框中将会显示文件名。您也可以在此文本框中手动输入文件名或路径。"
+
+#. Tag: term
+#: tasks.docbook:580
+#, no-c-format
+msgid "The <guilabel>Filter</guilabel> Entry"
+msgstr "<guilabel>过滤器</guilabel> 项"
+
+#. Tag: para
+#: tasks.docbook:582
+#, no-c-format
+msgid "When opening a file, the <guilabel>Filter</guilabel> entry allows you to enter a filter for the files displayed in the folder view. The filter uses standard globs; patterns must be separated by white space. For instance, you can enter <userinput>*.cpp *.h *.moc</userinput> to display several different common &Qt; programming files."
+msgstr "打开文件时，您可以在 <guilabel>过滤器</guilabel> 项中对文件夹视图内显示的文件进行过滤。过滤器使用标准通配符；表达式需要用空格分隔。例如，您可以输入 <userinput>*.cpp *.h *.moc</userinput> 以显示常见的几种 &Qt; 程序文件。"
+
+#. Tag: para
+#: tasks.docbook:588
+#, no-c-format
+msgid "To display all files, enter a single asterisk (<userinput>*</userinput>)."
+msgstr "要显示所有文件，请输入一个星号 (<userinput>*</userinput>)。"
+
+#. Tag: para
+#: tasks.docbook:591
+#, no-c-format
+msgid "The filter entry saves the last 10 filters entered between sessions. To use one, press the arrow button on the right of the entry and select the desired filter string. You can disable the filter by pressing the <guibutton>Clear text</guibutton> button to the left of the autocompletion arrow button."
+msgstr "过滤器会保存最近 10 次会话中输入的过滤条件。如需使用其中之一，请按该项右侧的箭头按钮，并选择所需的过滤条件。您可以通过按自动补全箭头按钮左侧的 <guibutton>清除文本</guibutton> 按钮以禁用过滤器。"
+
+#. Tag: para
+#: tasks.docbook:597
+#, no-c-format
+msgid "When saving a file, the <guilabel>Filter</guilabel> entry will instead display a drop down box that allows you to select from all the file types the application supports. Select one to save a file in that format."
+msgstr "保存文件时，<guilabel>过滤器</guilabel> 项会转而显示一个下拉式菜单。您可以从中在相应应用程序支持的所有文件类型中进行选择，并将文件保存为您选择的格式。"
+
+#. Tag: guilabel
+#: tasks.docbook:604
+#, no-c-format
+msgid "Automatically select filename extension"
+msgstr "自动选择文件扩展名"
+
+#. Tag: para
+#: tasks.docbook:605
+#, no-c-format
+msgid "When saving a file, this check box will appear. When selected (the default), the application will automatically append the default file extension for the selected file type to the end of the file name, if it does not already appear in the <guilabel>Name</guilabel> entry. The file extension that will be used is listed in parenthesis at the end of the check box label."
+msgstr "保存文件时，此复选框会出现。当选中 (默认) 时，应用程序会自动将所选文件类型的默认文件扩展名附加到文件名末尾 (如果它未出现在 <guilabel>名称</guilabel> 项中)。复选框标签后的括号内列出了将使用的文件扩展名。"
+
+#. Tag: screeninfo
+#: tasks.docbook:613
+#, no-c-format
+msgid "The File Save Window"
+msgstr "文件保存窗口"
+
+#. Tag: phrase
+#: tasks.docbook:616
+#, no-c-format
+msgid "The File Save window."
+msgstr "文件保存窗口。"
+
+#. Tag: para
+#: tasks.docbook:617
+#, no-c-format
+msgid "Saving a file in <ulink url=\"https://www.kde.org/applications/internet/konqueror/\">&konqueror;</ulink>."
+msgstr "在 <ulink url=\"https://www.kde.org/applications/internet/konqueror/\">&konqueror;</ulink> 中保存一个文件。"
+
+#. Tag: term
+#: tasks.docbook:627
+#, no-c-format
+msgid "The <guibutton>Open</guibutton> or <guibutton>Save</guibutton> Button"
+msgstr "<guibutton>打开</guibutton> 或 <guibutton>保存</guibutton> 按钮"
+
+#. Tag: para
+#: tasks.docbook:628
+#, no-c-format
+msgid "Depending on the action being performed, an <guibutton>Open</guibutton> or <guibutton>Save</guibutton> button will be displayed. Clicking on this button will close the file selection window and perform the requested action."
+msgstr "根据正在执行的操作，会显示 <guibutton>打开</guibutton> 或 <guibutton>保存</guibutton> 按钮。点击此按钮将关闭文件选择窗口，并执行相应操作。"
+
+#. Tag: term
+#: tasks.docbook:635
+#, no-c-format
+msgid "The <guibutton>Cancel</guibutton> Button"
+msgstr "<guibutton>取消</guibutton> 按钮"
+
+#. Tag: para
+#: tasks.docbook:636
+#, no-c-format
+msgid "Clicking <guibutton>Cancel</guibutton> will close the file dialog without performing any action."
+msgstr "点击 <guibutton>取消</guibutton> 按钮会关闭文件对话框，而不执行任何操作。"
+
+#. Tag: title
+#: tasks.docbook:645 tasks.docbook:764 tasks.docbook:991
+#, no-c-format
+msgid "Thanks and Acknowledgments"
+msgstr "特别鸣谢"
+
+#. Tag: para
+#: tasks.docbook:647
+#, no-c-format
+msgid "Special thanks to Google Code-In 2011 participant Alexey Subach for writing parts of this section."
+msgstr "特别感谢 2011 年 Google Code-In 的参与者 Alexey Subach 编写了本章节的部分内容。"
+
+#. Tag: author
+#: tasks.docbook:658
+#, no-c-format
+msgid "&David.Sweet; &David.Sweet.mail;"
+msgstr "&David.Sweet; &David.Sweet.mail;"
+
+#. Tag: author
+#: tasks.docbook:659
+#, no-c-format
+msgid "<firstname>Salma</firstname> <surname>Sultana</surname>"
+msgstr "<firstname>Salma</firstname> <surname>Sultana</surname>"
+
+#. Tag: title
+#: tasks.docbook:664 tasks.docbook:676
+#, no-c-format
+msgid "Check Spelling"
+msgstr "检查拼写"
+
+#. Tag: para
+#: tasks.docbook:666
+#, no-c-format
+msgid "&sonnet; is the spelling checker used by &kde; applications such as &kate;, &kmail;, and &calligrawords;. It is a &GUI; frontend to various free spell checkers."
+msgstr "&sonnet; 是 &kde; 应用程序 (例如 &kate;、&kmail; 和 &calligrawords;) 中使用的拼写检查器。它是各种免费拼写检查器的 &GUI; 前端。"
+
+#. Tag: para
+#: tasks.docbook:669
+#, no-c-format
+msgid "To use &sonnet; you need to install a spell checker like <application>&GNU; Aspell</application>, <application>Enchant</application>, <application>Hspell</application>, <application>ISpell</application> or <application>Hunspell</application> and additionally the corresponding dictionaries for the languages that you wish to use."
+msgstr "要使用 &sonnet;，您需要先安装一个拼写检查器 (例如 <application>&GNU; Aspell</application>、<application>Enchant</application>、<application>Hspell</application>、<application>ISpell</application> 或 <application>Hunspell</application>)，和您需要语言的词典。"
+
+#. Tag: screeninfo
+#: tasks.docbook:679
+#, no-c-format
+msgid "The Check Spelling Window"
+msgstr "拼写检查窗口"
+
+#. Tag: phrase
+#: tasks.docbook:685
+#, no-c-format
+msgid "The Check spelling window."
+msgstr "拼写检查窗口。"
+
+#. Tag: para
+#: tasks.docbook:687
+#, no-c-format
+msgid "Correcting a misspelling."
+msgstr "更正一处拼写错误。"
+
+#. Tag: para
+#: tasks.docbook:691
+#, no-c-format
+msgid "To check spelling, go to <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Spelling...</guimenuitem></menuchoice>."
+msgstr "如需检查拼写，请转到 <menuchoice><guimenu>工具</guimenu><guimenuitem>拼写...</guimenuitem></menuchoice>。"
+
+#. Tag: para
+#: tasks.docbook:694
+#, no-c-format
+msgid "If a word is possibly misspelled in your document, it is displayed in the top line in the dialog. &sonnet; tries to appropriate word(s) for replacement. The best guess is displayed to the right of <guilabel>Replace with</guilabel>. To accept this replacement, click on <guibutton>Replace</guibutton>."
+msgstr "如果您的文档中有某个单词可能拼写错误，它会显示在对话框的顶行。&sonnet; 会尝试提供合适的单词以供替换。最佳猜测将显示在 <guilabel>替换为</guilabel> 的右侧。要接受替换，请点击 <guibutton>替换</guibutton>。"
+
+#. Tag: para
+#: tasks.docbook:699
+#, no-c-format
+msgid "&sonnet; also allows you to select a word from the list of suggestions and replace the misspelled word with that selected word. With the help of the <guibutton>Suggest</guibutton> button, you can add more suggestions from the dictionary to the suggestions list."
+msgstr "您还可以在 &sonnet; 的建议列表中选择一个单词，并用该单词替换拼写错误的单词。您还能使用 <guibutton>建议</guibutton> 按钮从词典中添加更多建议到建议列表。"
+
+#. Tag: para
+#: tasks.docbook:704
+#, no-c-format
+msgid "Click on <guibutton>Ignore</guibutton> to keep your original spelling."
+msgstr "点击 <guibutton>忽略</guibutton> 以保留您原来的拼写。"
+
+#. Tag: para
+#: tasks.docbook:706
+#, no-c-format
+msgid "Click on <guibutton>Finished</guibutton> to stop spellchecking and <emphasis>keep</emphasis> the changes made."
+msgstr "点击 <guibutton>完成</guibutton> 以停止拼写检查，并 <emphasis>保留</emphasis> 所做的更改。"
+
+#. Tag: para
+#: tasks.docbook:709
+#, no-c-format
+msgid "Click on <guibutton>Cancel</guibutton> to stop spellchecking and <emphasis>cancel</emphasis> the changes already made."
+msgstr "点击 <guibutton>取消</guibutton> 以停止拼写检查，并 <emphasis>取消</emphasis> 所做的更改。"
+
+#. Tag: para
+#: tasks.docbook:712
+#, no-c-format
+msgid "Click on <guibutton>Replace All</guibutton> to automatically replace the misspelled word(s) with the chosen replacement word, if they appear again in your document later."
+msgstr "点击 <guibutton>全部替换</guibutton> 以自动将拼写错误的单词替换为所选单词，如果它们再次在您的文档中出现。"
+
+#. Tag: para
+#: tasks.docbook:716
+#, no-c-format
+msgid "Click on <guibutton>Ignore All</guibutton> to ignore the spelling at that point and all the future occurrences of the word misspelled."
+msgstr "点击 <guibutton>全部忽略</guibutton> 以忽略该单词在此处和未来的所有拼写错误。"
+
+#. Tag: para
+#: tasks.docbook:719
+#, no-c-format
+msgid "Click on <guibutton>Add to Dictionary</guibutton> to add the misspelled word to your personal dictionary."
+msgstr "点击 <guibutton>添加到词典</guibutton> 以将拼写错误的单词添加到您的个人词典。"
+
+#. Tag: para
+#: tasks.docbook:722
+#, no-c-format
+msgid "The <guilabel>Personal Dictionary</guilabel> is a distinct dictionary from the system dictionary and the additions made by you will not be seen by others."
+msgstr "<guilabel>个人词典</guilabel> 是一个独立于系统词典的词典，您所添加的内容不会被别人看到。"
+
+#. Tag: para
+#: tasks.docbook:725
+#, no-c-format
+msgid "The drop down box <guilabel>Language</guilabel> at the bottom of this dialog allows you to switch to another dictionary temporarily."
+msgstr "您可以在该对话框底部的 <guilabel>语言</guilabel> 下拉式菜单中临时切换到其他词典。"
+
+#. Tag: title
+#: tasks.docbook:731
+#, no-c-format
+msgid "Automatic Spell Checking"
+msgstr "自动拼写检查"
+
+#. Tag: para
+#: tasks.docbook:735
+#, no-c-format
+msgid "In many applications, you can automatically check spelling as you type. To enable this feature, select <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Automatic Spell Checking</guimenuitem></menuchoice>."
+msgstr "许多应用程序可以在您输入时自动检查拼写。如需启用这一功能，请选择 <menuchoice><guimenu>工具</guimenu><guimenuitem>自动拼写检查</guimenuitem></menuchoice>。"
+
+#. Tag: para
+#: tasks.docbook:739
+#, no-c-format
+msgid "Potentially misspelled words will be underlined in red. To select a suggestion, right click on the word, select the <guisubmenu>Spelling</guisubmenu> submenu, and select the suggestion. You may also instruct &sonnet; to ignore this spelling for this document by selecting <guimenuitem>Ignore Word</guimenuitem>, or you may select <guimenuitem>Add to Dictionary</guimenuitem> to save it in your personal dictionary."
+msgstr "可能拼写错误的单词会以红色下划线标记。要选择一个建议，请右键点击该单词，选择 <guisubmenu>拼写</guisubmenu> 子菜单，然后选择相应建议。您也可以通过选择 <guimenuitem>忽略单词</guimenuitem> 以使 &sonnet; 在此文档中忽略该拼写错误，或选择 <guimenuitem>添加到词典</guimenuitem> 以将其保存到您的个人词典中。"
+
+#. Tag: title
+#: tasks.docbook:749
+#, no-c-format
+msgid "Configuring &sonnet;"
+msgstr "配置 &sonnet;"
+
+#. Tag: para
+#: tasks.docbook:751
+#, no-c-format
+msgid "To change your dictionary, go to <menuchoice><guimenu>Tools</guimenu> <guimenuitem>Change Dictionary...</guimenuitem></menuchoice>. A small window will appear at the bottom of the current document that will allow you to change your dictionary."
+msgstr "如需更改词典，请转到 <menuchoice><guimenu>工具</guimenu><guimenuitem>更改词典...</guimenuitem></menuchoice>。您可以在当前文档底部出现的小窗口中更改词典。"
+
+#. Tag: para
+#: tasks.docbook:757
+#, no-c-format
+msgid "For more information on configuring &sonnet;, see the <ulink url=\"help:/kcontrol/spellchecking\">Spell Checker &systemsettings; module documentation</ulink>"
+msgstr "如需了解更多关于配置 &sonnet; 的信息，请参见 <ulink url=\"help:/kcontrol/spellchecking\">拼写检查器 &systemsettings; 模块文档</ulink>"
+
+#. Tag: para
+#: tasks.docbook:766
+#, no-c-format
+msgid "Special thanks to Google Code-In 2011 Participant Salma Sultana for writing much of this section."
+msgstr "特别感谢 2011 年 Google Code-In 的参与者 Salma Sultana 编写了本章节的大部分内容。"
+
+#. Tag: title
+#: tasks.docbook:781
+#, no-c-format
+msgid "Find and Replace"
+msgstr "查找与替换"
+
+#. Tag: para
+#: tasks.docbook:789
+#, no-c-format
+msgid "The Find function of many &kde; applications lets you find specific text in a document, while the Replace function allows you to replace text that is found with different text you provide."
+msgstr "您可以使用许多 &kde; 应用程序的查找功能在文档内查找指定的文本，使用替换功能将找到的文本替换为您提供的其他文本。"
+
+#. Tag: para
+#: tasks.docbook:793
+#, no-c-format
+msgid "You can find both these functions in the <guimenu>Edit</guimenu> menu of many &kde; applications. For more information on this menu, see <xref linkend=\"menus-edit\"/>."
+msgstr "您可以在许多 &kde; 应用程序的 <guimenu>编辑</guimenu> 菜单中找到这两个功能。如需了解更多关于该菜单的信息，请参见 <xref linkend=\"menus-edit\"/>。"
+
+#. Tag: title
+#: tasks.docbook:798
+#, no-c-format
+msgid "The Find Function"
+msgstr "查找功能"
+
+#. Tag: para
+#: tasks.docbook:800
+#, no-c-format
+msgid "The Find function searches for text in a document and selects it."
+msgstr "查找功能会在文档内搜索文本，并将其选中。"
+
+#. Tag: screeninfo
+#: tasks.docbook:803
+#, no-c-format
+msgid "The Find Window"
+msgstr "查找窗口"
+
+#. Tag: phrase
+#: tasks.docbook:807
+#, no-c-format
+msgid "The Find window."
+msgstr "查找窗口。"
+
+#. Tag: para
+#: tasks.docbook:808
+#, no-c-format
+msgid "Searching for <userinput>income</userinput> in <ulink url=\"https://www.kde.org/applications/office/sheets/\">&calligrasheets;</ulink>."
+msgstr "在 <ulink url=\"https://www.kde.org/applications/office/sheets/\">&calligrasheets;</ulink> 中搜索 <userinput>income</userinput>。"
+
+#. Tag: para
+#: tasks.docbook:814
+#, no-c-format
+msgid "To use Find in many applications, go to <menuchoice><guimenu>Edit</guimenu> <guimenuitem>Find...</guimenuitem></menuchoice> or press <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>. Then, in the <guilabel>Text to find:</guilabel> text box, enter the text that you want to find."
+msgstr "如需在应用程序中使用查找功能，请转到 <menuchoice><guimenu>编辑</guimenu><guimenuitem>查找...</guimenuitem></menuchoice>，或按 <keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo>。然后，在 <guilabel>要查找的文本：</guilabel> 文本框中输入您想要查找的文本。"
+
+#. Tag: para
+#: tasks.docbook:820
+#, no-c-format
+msgid "If <guilabel>Regular expression</guilabel> is checked you will be able to search using regular expressions. Click on <guibutton>Edit</guibutton> to select from and enter commonly used regular expression characters, like <guilabel>White Space</guilabel> or <guilabel>Start of Line</guilabel>. If &kate; is installed, you can find <ulink url=\"help:/katepart/regular-expressions.html\">more information on writing regular expressions in its documentation</ulink>."
+msgstr "如果勾选了 <guilabel>正则表达式</guilabel>，您将可以使用正则表达式进行搜索。点击 <guibutton>编辑</guibutton> 以选用常用的正则表达式字符，例如 <guilabel>空格</guilabel> 和 <guilabel>行首</guilabel>。如果安装了 &kate;，您可以 <ulink url=\"help:/katepart/regular-expressions.html\">在其文档中找到关于编写正则表达式的更多信息</ulink>。"
+
+#. Tag: para
+#: tasks.docbook:829
+#, no-c-format
+msgid "You can limit the found results by configuring these options:"
+msgstr "您可以通过配置以下选项来限制查找结果："
+
+#. Tag: guilabel
+#: tasks.docbook:833
+#, no-c-format
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#. Tag: para
+#: tasks.docbook:834
+#, no-c-format
+msgid "Capital and lowercase characters are considered different. For example, if you search for <quote>This</quote>, results that contain <quote>this</quote> will not be returned."
+msgstr "区分大小写字符。例如，如果您搜索 <quote>This</quote>，结果将不包含 <quote>this</quote>。"
+
+#. Tag: guilabel
+#: tasks.docbook:840
+#, no-c-format
+msgid "Whole words only"
+msgstr "匹配整个单词"
+
+#. Tag: para
+#: tasks.docbook:841
+#, no-c-format
+msgid "By default, when the application searches for text, it will return results even in the middle of other text. For instance, if you search for <quote>is</quote> it will stop on every word that contains that, like <quote>th<emphasis>is</emphasis></quote> or <quote>h<emphasis>is</emphasis>tory</quote>. If you check this option, the application will only return results when the search text is a word by itself, that is, surrounded by whitespace."
+msgstr "默认情况下，应用程序搜索文本时，也会返回在其他文本中间有匹配的结果。例如，如果您搜索 <quote>is</quote>，它会查找所有包含该文本的单词，如 <quote>th<emphasis>is</emphasis></quote> 和 <quote>h<emphasis>is</emphasis>tory</quote>。如果您勾选该选项，应用程序将仅返回搜索文本单独成词的结果，即被空格包围。"
+
+#. Tag: guilabel
+#: tasks.docbook:851
+#, no-c-format
+msgid "From cursor"
+msgstr "从光标位置开始"
+
+#. Tag: para
+#: tasks.docbook:852
+#, no-c-format
+msgid "The search will start from the location of the cursor and stop at the end of the text."
+msgstr "搜索将从光标所在位置开始，并在文本末尾停止。"
+
+#. Tag: guilabel
+#: tasks.docbook:857
+#, no-c-format
+msgid "Find backwards"
+msgstr "反向查找"
+
+#. Tag: para
+#: tasks.docbook:858
+#, no-c-format
+msgid "By default, the application searches for the text starting at the beginning of the document, and move through it to the end. If you check this option, it will instead start at the end and work its way to the beginning."
+msgstr "默认情况下，应用程序会从文档开头开始搜索文本，并向下搜索到文档末尾。如果您勾选该选项，搜索将转而从文档末尾开始，向上搜索到文档开头。"
+
+#. Tag: guilabel
+#: tasks.docbook:865
+#, no-c-format
+msgid "Selected text"
+msgstr "选中的文本"
+
+#. Tag: para
+#: tasks.docbook:866
+#, no-c-format
+msgid "Select this option to search only in the text that is currently selected, not the entire document. It is disabled when no text is selected."
+msgstr "勾选该选项后，将仅在当前选中的文本中进行搜索，而不是整个文档。没有选中文本时，该选项会被禁用。"
+
+#. Tag: para
+#: tasks.docbook:876
+#, no-c-format
+msgid "Many applications show a search bar instead of the Find window. See <ulink url=\"help:/katepart/kate-part-find-replace.html#finding-text\">&katepart; documentation</ulink> for additional information on the search bar."
+msgstr "许多应用程序会显示一个搜索栏，而不是查找窗口。如需了解更多关于搜索栏的信息，请参见 <ulink url=\"help:/katepart/kate-part-find-replace.html#finding-text\">&katepart; 文档</ulink>。"
+
+#. Tag: screeninfo
+#: tasks.docbook:881
+#, no-c-format
+msgid "<screeninfo>The search bar in &kate;.</screeninfo>"
+msgstr "<screeninfo>&kate; 中的搜索栏。</screeninfo>"
+
+#. Tag: phrase
+#: tasks.docbook:884
+#, no-c-format
+msgid "<phrase>The search bar in &kate;.</phrase>"
+msgstr "<phrase>&kate; 中的搜索栏。</phrase>"
+
+#. Tag: para
+#: tasks.docbook:885
+#, no-c-format
+msgid "Searching for <userinput>software</userinput> in &kate;'s search bar."
+msgstr "在 &kate; 的搜索栏中搜索 <userinput>software</userinput>。"
+
+#. Tag: para
+#: tasks.docbook:890
+#, no-c-format
+msgid "The Find function only selects the first match that it finds. You can continue searching by selecting <menuchoice><guimenu>Edit</guimenu><guimenuitem>Find Next</guimenuitem></menuchoice> or by pressing <keycap>F3</keycap>."
+msgstr "查找功能只会选择找到的第一个匹配项。您可以通过选择 <menuchoice><guimenu>编辑</guimenu><guimenuitem>查找下一个</guimenuitem></menuchoice>，或按 <keycap>F3</keycap> 以继续搜索。"
+
+#. Tag: screeninfo
+#: tasks.docbook:895
+#, no-c-format
+msgid "Example of a Search"
+msgstr "搜索示例"
+
+#. Tag: phrase
+#: tasks.docbook:898
+#, no-c-format
+msgid "Example of a search."
+msgstr "搜索示例。"
+
+#. Tag: para
+#: tasks.docbook:899
+#, no-c-format
+msgid "&kate; displays a match for <userinput>KDE</userinput>."
+msgstr "&kate; 显示一个 <userinput>KDE</userinput> 的匹配项。"
+
+#. Tag: title
+#: tasks.docbook:907
+#, no-c-format
+msgid "The Replace Function"
+msgstr "替换功能"
+
+#. Tag: para
+#: tasks.docbook:909
+#, no-c-format
+msgid "The Replace function searches for text in a document and replaces it with other text. You can find it in many application at <menuchoice><guimenu>Edit</guimenu><guisubmenu>Replace...</guisubmenu></menuchoice> or by pressing <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo>."
+msgstr "替换功能会在文档内搜索文本并将其替换为其他文本。您可以在许多应用程序中通过 <menuchoice><guimenu>编辑</guimenu><guisubmenu>替换...</guisubmenu></menuchoice>，或按 <keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo> 使用该功能。"
+
+#. Tag: screeninfo
+#: tasks.docbook:916
+#, no-c-format
+msgid "The Replace Window"
+msgstr "替换窗口"
+
+#. Tag: phrase
+#: tasks.docbook:919
+#, no-c-format
+msgid "The Replace window."
+msgstr "替换窗口。"
+
+#. Tag: para
+#: tasks.docbook:920
+#, no-c-format
+msgid "Replacing <userinput>income</userinput> with <userinput>expense</userinput> in &calligrasheets;"
+msgstr "在 &calligrasheets; 中将 <userinput>income</userinput> 替换为 <userinput>expense</userinput>。"
+
+#. Tag: para
+#: tasks.docbook:925
+#, no-c-format
+msgid "The window of the Replace function is separated into 3 sections:"
+msgstr "替换功能的窗口分为以下三部分："
+
+#. Tag: guilabel
+#: tasks.docbook:929
+#, no-c-format
+msgid "Find"
+msgstr "查找"
+
+#. Tag: para
+#: tasks.docbook:930
+#, no-c-format
+msgid "Here you may enter the text you wish to search for. See <xref linkend=\"find-find\"/> for more information on the options provided here."
+msgstr "您可以在此输入您想要搜索的文本。如需了解更多关于此处提供的选项的信息，请参见 <xref linkend=\"find-find\"/>。"
+
+#. Tag: guilabel
+#: tasks.docbook:936
+#, no-c-format
+msgid "Replace"
+msgstr "替换"
+
+#. Tag: para
+#: tasks.docbook:938
+#, no-c-format
+msgid "Here you may enter the text you wish to replace the found text with."
+msgstr "您可以在此输入您想要替换的文本。"
+
+#. Tag: para
+#: tasks.docbook:940
+#, no-c-format
+msgid "You can reuse the found text in the replacement text by selecting the <guilabel>Use placeholders</guilabel> checkbox. Placeholders, sometimes known as backreferences, are a special character sequence that will be replaced with all or part of the found text. For instance, <quote>\\0</quote> represents the entire found string."
+msgstr "您可以通过勾选 <guilabel>使用占位符</guilabel> 复选框，在替换文本中重新使用查找结果。占位符 (有时称为反向引用) 是一种特殊的字符序列，可以被替换为查找结果的部分或全部。例如，<quote>\\0</quote> 代表找到的完整字符串。"
+
+#. Tag: para
+#: tasks.docbook:945
+#, no-c-format
+msgid "You may insert placeholders into the text box by clicking the <guibutton>Insert Placeholder</guibutton> button, then selecting an option from the menu like <guimenuitem>Complete Match</guimenuitem>. For example, if you are searching for <quote>message</quote>, and you want to replace it with <guilabel>messages</guilabel> insert the <guimenuitem>Complete Match</guimenuitem> placeholder and add an <quote>s</quote>. The replace field will then contain <quote>\\0s</quote>."
+msgstr "您可以通过点击 <guibutton>插入占位符</guibutton> 按钮，然后从菜单中选择一个选项 (如 <guimenuitem>补全匹配</guimenuitem>) 以将占位符插入到文本框中。例如，如果您正在搜索 <quote>message</quote>，并且想将其替换为 <guilabel>messages</guilabel>，您可以插入 <guimenuitem>补全匹配</guimenuitem> 占位符并附加一个 <quote>s</quote>。这样替换字段会是 <quote>\\0s</quote>。"
+
+#. Tag: para
+#: tasks.docbook:953
+#, no-c-format
+msgid "If &kate; is installed, you can learn more about placeholders in the <ulink url=\"help:/katepart/regular-expressions.html\">Regular Expressions appendix of its documentation</ulink>."
+msgstr "如果安装了 &kate;，您可以 <ulink url=\"help:/katepart/regular-expressions.html\">在其文档中的正则表达式附录部分</ulink> 了解关于占位符的更多信息。"
+
+#. Tag: guilabel
+#: tasks.docbook:960
+#, no-c-format
+msgid "<guilabel>Options</guilabel>"
+msgstr "<guilabel>选项</guilabel>"
+
+#. Tag: para
+#: tasks.docbook:961
+#, no-c-format
+msgid "This contains all the same options that the <link linkend=\"find-find\">Find</link> function does, with one addition:"
+msgstr "内有和 <link linkend=\"find-find\">查找</link> 功能中相同的所有选项，和一个额外的："
+
+#. Tag: para
+#: tasks.docbook:963
+#, no-c-format
+msgid "If the <guilabel>Prompt on replace</guilabel> option is checked a window will appear on every found word, allowing you to confirm whether you would like to replace the found text."
+msgstr "如果勾选了 <guilabel>替换时提示</guilabel> 选项，每找到一个结果时都会弹出一个窗口，使您可以确认是否要替换找到的文本。"
+
+#. Tag: para
+#: tasks.docbook:973
+#, no-c-format
+msgid "Many Applications show a search and replace bar instead of the Replace window. See <ulink url=\"help:/katepart/kate-part-find-replace.html#replacing-text\">&katepart; documentation</ulink> for additional information on the search and replace bar."
+msgstr "许多应用程序会显示一个搜索和替换栏，而不是替换窗口。如需了解更多关于搜索和替换栏的信息，请参见 <ulink url=\"help:/katepart/kate-part-find-replace.html#replacing-text\">&katepart; 文档</ulink>。"
+
+#. Tag: screeninfo
+#: tasks.docbook:979
+#, no-c-format
+msgid "<screeninfo>The search and replace bar.</screeninfo>"
+msgstr "<screeninfo>搜索和替换栏。</screeninfo>"
+
+#. Tag: phrase
+#: tasks.docbook:982
+#, no-c-format
+msgid "<phrase>The search and replace bar.</phrase>"
+msgstr "<phrase>搜索和替换栏。</phrase>"
+
+#. Tag: para
+#: tasks.docbook:983
+#, no-c-format
+msgid "Replacing <userinput>kmail</userinput> with <userinput>kate</userinput> in &kate;'s search and replace bar"
+msgstr "在 &kate; 的搜索和替换栏中将 <userinput>kmail</userinput> 替换为 <userinput>kate</userinput>。"
+
+#. Tag: para
+#: tasks.docbook:992
+#, no-c-format
+msgid "Thanks to an anonymous Google Code-In 2011 participant for writing much of this section."
+msgstr "感谢一位匿名的 2011 年 Google Code-In 参与者编写了本章节的大部分内容。"
+
+#. Tag: title
+#: tasks.docbook:1006
+#, no-c-format
+msgid "Choosing Fonts"
+msgstr "选择字体"
+
+#. Tag: para
+#: tasks.docbook:1008
+#, no-c-format
+msgid "The font selector appears in many different &kde; applications. It lets you select the font face, font style, and font size of the text that appears in your application."
+msgstr "字体选择器会在许多 &kde; 应用程序中出现。您可以在其中选择应用程序文本的字体、字体样式和字体大小。"
+
+#. Tag: screeninfo
+#: tasks.docbook:1013
+#, no-c-format
+msgid "The Font Selector"
+msgstr "字体选择器"
+
+#. Tag: phrase
+#: tasks.docbook:1016
+#, no-c-format
+msgid "The font selector."
+msgstr "字体选择器。"
+
+#. Tag: para
+#: tasks.docbook:1017
+#, no-c-format
+msgid "Selecting a font in <ulink url=\"help:/systemsettings\">&systemsettings;</ulink>."
+msgstr "在 <ulink url=\"help:/systemsettings\">&systemsettings;</ulink> 中选择字体。"
+
+#. Tag: guilabel
+#: tasks.docbook:1025
+#, no-c-format
+msgid "Font"
+msgstr "字体"
+
+#. Tag: para
+#: tasks.docbook:1026
+#, no-c-format
+msgid "This is the leftmost selection box, and lets you choose the font face from a list of fonts on your system."
+msgstr "这是最左侧的选择器，您可以在此从您的系统的字体列表中选择字体。"
+
+#. Tag: guilabel
+#: tasks.docbook:1031
+#, no-c-format
+msgid "Font style"
+msgstr "字体样式"
+
+#. Tag: para
+#: tasks.docbook:1033
+#, no-c-format
+msgid "This is the center selection box, and lets you choose the font style from the following choices:"
+msgstr "这是中间的选择器，您可以在此从以下选项中选择字体样式："
+
+#. Tag: para
+#: tasks.docbook:1037
+#, no-c-format
+msgid "<guilabel>Italic</guilabel> - this displays text in a cursive, or slanted fashion, and is commonly used for citations or to emphasize text."
+msgstr "<guilabel>斜体</guilabel> - 以草书、倾斜的样式显示文本，通常在引用或强调时使用。"
+
+#. Tag: para
+#: tasks.docbook:1041
+#, no-c-format
+msgid "<guilabel>Regular</guilabel> - the default. Text is displayed without any special appearance."
+msgstr "<guilabel>标准</guilabel> - 默认值。文本以无特殊修饰的样式显示。"
+
+#. Tag: para
+#: tasks.docbook:1044
+#, no-c-format
+msgid "<guilabel>Bold Italic</guilabel> - a combination of both <guilabel>Bold</guilabel> and <guilabel>Italic</guilabel>"
+msgstr "<guilabel>粗斜体</guilabel> - 结合了 <guilabel>粗体</guilabel> 和 <guilabel>斜体</guilabel> 的效果。"
+
+#. Tag: para
+#: tasks.docbook:1047
+#, no-c-format
+msgid "<guilabel>Bold</guilabel> - this displays text in a darker, thicker fashion, and is commonly used for titles of documents or to emphasize text."
+msgstr "<guilabel>粗体</guilabel> - 以更深、更粗的样式显示文本，通常在强调时或文档标题使用。"
+
+#. Tag: guilabel
+#: tasks.docbook:1056
+#, no-c-format
+msgid "Size"
+msgstr "大小"
+
+#. Tag: para
+#: tasks.docbook:1057
+#, no-c-format
+msgid "This is the rightmost selection box, and lets you select the size of your text. Font size is measured in <emphasis>points</emphasis>, a standard unit of measure in typography. For more information on this, see <ulink url=\"https://en.wikipedia.org/wiki/Point_(typography)\">the <quote>Point (typography)</quote> article on Wikipedia</ulink>."
+msgstr "这是最右侧的选择器，您可以在此选择字体大小。字体大小以 <emphasis>点</emphasis> 为单位，一种排版中的标准测量单位。如需了解更多相关信息，请参见 <ulink url=\"https://en.wikipedia.org/wiki/Point_(typography)\">维基百科上的 <quote>Point (typography)</quote> 条目</ulink>。"
+
+#. Tag: term
+#: tasks.docbook:1065
+#, no-c-format
+msgid "Preview"
+msgstr "示例"
+
+#. Tag: para
+#: tasks.docbook:1066
+#, no-c-format
+msgid "The bottom of the font selector displays a preview of text using the font settings that are currently selected. You may change this text if you wish."
+msgstr "字体选择器的底部会显示使用当前字体设置文本的预览。如果需要，您可以更改此文本。"
+
+#. Tag: title
+#: tasks.docbook:1082
+#, no-c-format
+msgid "Choosing Colors"
+msgstr "选择颜色"
+
+#. Tag: para
+#: tasks.docbook:1084
+#, no-c-format
+msgid "The color chooser appears in many &kde; applications, whenever you need to select a color. It lets you pick from a <guilabel>Basic colors</guilabel> consisting of many predefined colors or mix your own when you want a specific color."
+msgstr "当您需要选择颜色时，颜色选择器会在许多 &kde; 应用程序中出现。您可以在此选择一个预定义的 <guilabel>基本颜色</guilabel>，或在您需要特殊颜色时自行混合颜色。"
+
+#. Tag: screeninfo
+#: tasks.docbook:1089
+#, no-c-format
+msgid "The Color Selector"
+msgstr "颜色选择器"
+
+#. Tag: phrase
+#: tasks.docbook:1092
+#, no-c-format
+msgid "The color selector."
+msgstr "颜色选择器。"
+
+#. Tag: para
+#: tasks.docbook:1093
+#, no-c-format
+msgid "Selecting a color in <ulink url=\"help:/systemsettings\">&systemsettings;</ulink>."
+msgstr "在 <ulink url=\"help:/systemsettings\">&systemsettings;</ulink> 中选择颜色。"
+
+#. Tag: title
+#: tasks.docbook:1099
+#, no-c-format
+msgid "Using Basic Colors"
+msgstr "使用基本颜色"
+
+#. Tag: para
+#: tasks.docbook:1101
+#, no-c-format
+msgid "The basic colors group is a set of predefined colors. You can find it on the top side of the color chooser window."
+msgstr "基本颜色组是一组预定义的颜色。您可以在颜色选择器窗口的顶部看到这些颜色。"
+
+#. Tag: para
+#: tasks.docbook:1104
+#, no-c-format
+msgid "To select a color from the basic colors, simply click on it. The color will be displayed at the right of the palette, along with its &HTML; hexadecimal code"
+msgstr "您仅需点击即可从基本颜色中选取颜色。颜色和其 &HTML; 十六进制代码会显示在色板右侧。"
+
+#. Tag: title
+#: tasks.docbook:1110
+#, no-c-format
+msgid "Mixing Colors"
+msgstr "混合颜色"
+
+#. Tag: para
+#: tasks.docbook:1112
+#, no-c-format
+msgid "The color chooser also lets you mix your own colors. There are several ways to do this:"
+msgstr "通过以下几种方法，您也可以在颜色混合器中混合您自己的颜色："
+
+#. Tag: title
+#: tasks.docbook:1116
+#, no-c-format
+msgid "Using the Grid"
+msgstr "使用网格"
+
+#. Tag: para
+#: tasks.docbook:1118
+#, no-c-format
+msgid "The right side of the color chooser contains a large box, and a thinner box immediately to its right. You can use the left box to select the Hue and Saturation of the desired color based on the visual guide provided in the box. The right bar adjusts the Value. Adjust these to select the desired color, which is displayed in the middle of the window."
+msgstr "颜色选择器的右边有一个大方框，其右侧有一个细条。根据框内提供的视觉引导，您可以使用左侧方框选择所需颜色的色相和饱和度，右侧细条调整明度。调整这些参数以选择所需的颜色，颜色会显示在窗口中央。"
+
+#. Tag: para
+#: tasks.docbook:1124
+#, no-c-format
+msgid "For more information on Hue, Saturation, and Value, see <xref linkend=\"colors-mixing-hsv\"/>"
+msgstr "如需了解更多关于色相、饱和度和明度的信息，请参见 <xref linkend=\"colors-mixing-hsv\"/>。"
+
+#. Tag: title
+#: tasks.docbook:1130
+#, no-c-format
+msgid "Using the Screen Colors"
+msgstr "使用屏幕颜色"
+
+#. Tag: para
+#: tasks.docbook:1132
+#, no-c-format
+msgid "The eyedropper tool allows you to select a color from your screen. To use it, select the <guibutton>Pick Screen Color</guibutton> button below the basic colors, and then click anywhere on your screen to select that color."
+msgstr "您可以使用滴管工具从您的屏幕上选取颜色。选择基本颜色下方的 <guibutton>拾取屏幕颜色</guibutton> 按钮，然后点击屏幕上的任意位置即可选取该颜色。"
+
+#. Tag: title
+#: tasks.docbook:1140
+#, no-c-format
+msgid "Hue/Saturation/Value"
+msgstr "色相/饱和度/明度"
+
+#. Tag: para
+#: tasks.docbook:1142
+#, no-c-format
+msgid "The lower-right corner of the screen allows you to manually enter the coordinates of the desired color in the Hue/Saturation/Value (<acronym>HSV</acronym>) color space. For more information on this, see <ulink url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">the <quote>HSL and HSV</quote> article on Wikipedia</ulink>."
+msgstr "您可以在屏幕的右下角手动输入所需颜色在色相/饱和度/明度 (<acronym>HSV</acronym>) 色彩空间中的坐标。如需了解更多相关信息，请参见 <ulink url=\"https://en.wikipedia.org/wiki/HSL_and_HSV\">维基百科上的 <quote>HSL and HSV</quote> 条目</ulink>。"
+
+#. Tag: para
+#: tasks.docbook:1148 tasks.docbook:1162
+#, no-c-format
+msgid "These values are also updated when selecting a color by other methods, so they always accurately represent the currently selected color."
+msgstr "这些值在通过其他方法选择颜色时也会更新，所以它们可以始终准确地表示当前选择的颜色。"
+
+#. Tag: title
+#: tasks.docbook:1154
+#, no-c-format
+msgid "Red/Green/Blue"
+msgstr "红/绿/蓝"
+
+#. Tag: para
+#: tasks.docbook:1156
+#, no-c-format
+msgid "The lower-right corner of the screen also allows you to manually enter the coordinates of the desired color in the Red/Green/Blue (<acronym>RGB</acronym>) color model. For more information on this, see <ulink url=\"https://en.wikipedia.org/wiki/RGB_color_model\">the <quote>RGB color model</quote> article on Wikipedia</ulink>."
+msgstr "您也可以在屏幕的右下角手动输入所需颜色在红/绿/蓝 (<acronym>RGB</acronym>) 色彩模型中的坐标。如需了解更多相关信息，请参见 <ulink url=\"https://en.wikipedia.org/wiki/RGB_color_model\">维基百科上的 <quote>RGB color model</quote> 条目</ulink>。"
+
+#. Tag: title
+#: tasks.docbook:1168
+#, no-c-format
+msgid "&HTML; Hexadecimal Code"
+msgstr "&HTML; 十六进制代码"
+
+#. Tag: para
+#: tasks.docbook:1170
+#, no-c-format
+msgid "You may enter the &HTML; hexadecimal code representing the color in the lower-right corner of the screen. For more information on this, see <ulink url=\"https://en.wikipedia.org/wiki/Web_colors\">the <quote>Web colors</quote> article on Wikipedia</ulink>."
+msgstr "您还可以在屏幕的右下角输入颜色对应的 &HTML; 十六进制代码。如需了解更多相关信息，请参见 <ulink url=\"https://en.wikipedia.org/wiki/Web_colors\">维基百科上的 <quote>Web colors</quote> 条目</ulink>。"
+
+#. Tag: para
+#: tasks.docbook:1175
+#, no-c-format
+msgid "This value is also updated when selecting a color by other methods, so it always accurately represents the currently selected color."
+msgstr "该值在通过其他方法选择颜色时也会更新，所以它可以始终准确地表示当前选择的颜色。"
+
+#. Tag: title
+#: tasks.docbook:1182
+#, no-c-format
+msgid "Custom Colors"
+msgstr "自定义颜色"
+
+#. Tag: para
+#: tasks.docbook:1184
+#, no-c-format
+msgid "After selecting a color, you may add it to the Custom Colors group so you can use it later. To do so, click the <guibutton>Add to Custom Colors</guibutton> button."
+msgstr "选择一个颜色后，您可以通过点击 <guibutton>添加到自定义颜色</guibutton> 按钮将其添加到自定义颜色组，以便日后使用。"
+
