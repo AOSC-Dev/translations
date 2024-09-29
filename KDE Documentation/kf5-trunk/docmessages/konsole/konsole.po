@@ -1,0 +1,3247 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2023-05-15 00:57+0000\n"
+"PO-Revision-Date: 2024-09-29 12:48\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/konsole/konsole.pot\n"
+"X-Crowdin-File-ID: 3178\n"
+"Language: zh_CN\n"
+
+#. Tag: title
+#: index.docbook:13
+#, no-c-format
+msgid "The &konsole; Handbook"
+msgstr "&konsole; 手册"
+
+#. Tag: author
+#: index.docbook:15
+#, no-c-format
+msgid "&Jonathan.Singer; &Jonathan.Singer.mail;"
+msgstr "&Jonathan.Singer; &Jonathan.Singer.mail;"
+
+#. Tag: author
+#: index.docbook:16
+#, no-c-format
+msgid "<author>&Kurt.Hindenburg; &Kurt.Hindenburg.mail;</author>"
+msgstr "<author>&Kurt.Hindenburg; &Kurt.Hindenburg.mail;</author>"
+
+#. Tag: author
+#: index.docbook:17
+#, no-c-format
+msgid "&Ahmad.Samir; &Ahmad.Samir.mail;"
+msgstr "&Ahmad.Samir; &Ahmad.Samir.mail;"
+
+#. Tag: othercredit
+#: index.docbook:19
+#, no-c-format
+msgid "&Robert.Knight; &Robert.Knight.mail;"
+msgstr "&Robert.Knight; &Robert.Knight.mail;"
+
+#. Tag: othercredit
+#: index.docbook:23
+#, no-c-format
+msgid "<othercredit role=\"developer\">&Kurt.Hindenburg; &Kurt.Hindenburg.mail;</othercredit>"
+msgstr "<othercredit role=\"developer\">&Kurt.Hindenburg; &Kurt.Hindenburg.mail;</othercredit>"
+
+#. Tag: othercredit
+#: index.docbook:27
+#, no-c-format
+msgid "&Waldo.Bastian; &Waldo.Bastian.mail;"
+msgstr "&Waldo.Bastian; &Waldo.Bastian.mail;"
+
+#. Tag: othercredit
+#: index.docbook:31
+#, no-c-format
+msgid "&Mike.McBride; &Mike.McBride.mail;"
+msgstr "&Mike.McBride; &Mike.McBride.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:35
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "<author><firstname>Funda</firstname> <surname>Wang</surname></author><author><firstname>Yunhe</firstname> <surname>Guo</surname></author>"
+
+#. Tag: holder
+#: index.docbook:41
+#, no-c-format
+msgid "&Jonathan.Singer;"
+msgstr "&Jonathan.Singer;"
+
+#. Tag: holder
+#: index.docbook:45
+#, no-c-format
+msgid "&Kurt.Hindenburg;"
+msgstr "&Kurt.Hindenburg;"
+
+#. Tag: holder
+#: index.docbook:50
+#, no-c-format
+msgid "&Ahmad.Samir;"
+msgstr "&Ahmad.Samir;"
+
+#. Tag: date
+#: index.docbook:55
+#, no-c-format
+msgid "2023-04-25"
+msgstr "2023-04-25"
+
+#. Tag: releaseinfo
+#: index.docbook:56
+#, no-c-format
+msgid "KDE Gear 23.08"
+msgstr "KDE Gear 23.08"
+
+#. Tag: para
+#: index.docbook:58
+#, no-c-format
+msgid "&konsole; is &kde;'s terminal emulator."
+msgstr "&konsole; 是 &kde; 的终端模拟器。"
+
+#. Tag: keyword
+#: index.docbook:61
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:62
+#, no-c-format
+msgid "konsole"
+msgstr "konsole"
+
+#. Tag: keyword
+#: index.docbook:63
+#, no-c-format
+msgid "kdebase"
+msgstr "kdebase"
+
+#. Tag: keyword
+#: index.docbook:64
+#, no-c-format
+msgid "command"
+msgstr "命令"
+
+#. Tag: keyword
+#: index.docbook:65
+#, no-c-format
+msgid "line"
+msgstr "行"
+
+#. Tag: keyword
+#: index.docbook:66
+#, no-c-format
+msgid "terminal"
+msgstr "终端"
+
+#. Tag: keyword
+#: index.docbook:67
+#, no-c-format
+msgid "<keyword>cli</keyword>"
+msgstr "<keyword>cli</keyword>"
+
+#. Tag: title
+#: index.docbook:72 index.docbook:1641
+#, no-c-format
+msgid "Introduction"
+msgstr "介绍"
+
+#. Tag: title
+#: index.docbook:75
+#, no-c-format
+msgid "What is a terminal?"
+msgstr "什么是终端？"
+
+#. Tag: para
+#: index.docbook:77
+#, no-c-format
+msgid "&konsole; is an X terminal emulator, often referred to as a terminal or a shell. It emulates a command line interface in a text only window."
+msgstr "&konsole; 是一个 X 终端模拟器，通常称为终端或者 shell。它通过一个文本窗口来模拟命令行界面。"
+
+#. Tag: para
+#: index.docbook:81
+#, no-c-format
+msgid "&konsole; typically runs a command shell, an application that executes commands that you type. The shell the &konsole; runs depends on your account settings. Consult your operating system documentation to know what the shell is, how to configure it and how to use it."
+msgstr "&konsole; 一般运行一个命令 shell，它执行您输入的命令。&konsole; 运行的 shell 取决于您的账户设置。请查阅您的操作系统文档来了解什么是 shell，如何配置以及使用它。"
+
+#. Tag: title
+#: index.docbook:88
+#, no-c-format
+msgid "Scrollback"
+msgstr "回滚历史"
+
+#. Tag: para
+#: index.docbook:90
+#, no-c-format
+msgid "&konsole; uses the notion of scrollback to allow users to view previously displayed output. By default, scrollback is on and set to save 1000 lines of output in addition to what is currently displayed on the screen."
+msgstr "&konsole; 可以通过回滚历史功能来让用户查看之前显示的输出。默认情况下，回滚历史已经处于启用状态，并且设置为保存在当前屏幕显示的内容和之前 1000 行的历史输出。"
+
+#. Tag: para
+#: index.docbook:96
+#, no-c-format
+msgid "As lines of text scroll off the top of the screen, they can be reviewed by moving the scroll bar upwards, scrolling with a mouse wheel or through the use of the <keycombo action=\"simul\">&Shift;<keycap>Page Up</keycap></keycombo> (to move back), <keycombo action=\"simul\">&Shift;<keycap>Page Down</keycap></keycombo> (to move forward), <keycombo action=\"simul\">&Shift;<keycap>Up Arrow</keycap></keycombo> (to move up a line) and <keycombo action=\"simul\">&Shift;<keycap>Down Arrow</keycap></keycombo> (to move down a line) keys."
+msgstr "在文本行从上方滚动出屏幕之后，通过将滚动条上移可以再次查看它们。可以使用鼠标滚轮或者使用 <keycombo action=\"simul\">&Shift;<keycap>Page Up</keycap></keycombo> (向后滚动)，<keycombo action=\"simul\">&Shift;<keycap>Page Down</keycap></keycombo> (向前滚动)，<keycombo action=\"simul\">&Shift;<keycap>上箭头</keycap></keycombo> (向上滚动一行) 以及 <keycombo action=\"simul\">&Shift;<keycap>下箭头</keycap></keycombo> (向下滚动一行) 按键来完成。"
+
+#. Tag: para
+#: index.docbook:105
+#, no-c-format
+msgid "The amount of scrolling using <keycombo action=\"simul\">&Shift;<keycap>Page Up/Down</keycap></keycombo> can be switched between half and full page in the <guilabel>Scrolling</guilabel> tab of the profile configuration window (use <menuchoice><guimenu>Settings</guimenu><guimenuitem>Edit Current Profile...</guimenuitem></menuchoice> to open this window)."
+msgstr "使用 <keycombo action=\"simul\">&Shift;<keycap>Page Up/Down</keycap></keycombo> 滚动的距离可以在半页和一页之间切换，该设置位于配置方案窗口 (可用 <menuchoice><guimenu>设置</guimenu><guimenuitem>编辑当前配置方案...</guimenuitem></menuchoice> 打开该窗口) 中的 <guilabel>滚动</guilabel> 页面。"
+
+#. Tag: title
+#: index.docbook:114
+#, no-c-format
+msgid "Selection Mode"
+msgstr "选择模式"
+
+#. Tag: para
+#: index.docbook:115
+#, no-c-format
+msgid "&konsole; has a selection by keyboard mode. In this mode it is possible to move around the scrollback and select text without the mouse."
+msgstr "&konsole; 有通过键盘进行选择的模式。在此模式下，可以在回滚历史中移动，并且可以不通过鼠标选择文本。"
+
+#. Tag: para
+#: index.docbook:118
+#, no-c-format
+msgid "Enter and leave this mode by using the keyboard shortcut (<keycombo action=\"simul\">&Ctrl;&Shift;<keycap>D</keycap></keycombo> by default)."
+msgstr "您可通过使用快捷键 (默认为 <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>D</keycap></keycombo>) 进入或退出该模式。"
+
+#. Tag: para
+#: index.docbook:122
+#, no-c-format
+msgid "<keycap>Esc</keycap> also leaves the keyboard selection mode."
+msgstr "<keycap>Esc</keycap> 也会退出键盘选择模式。"
+
+#. Tag: para
+#: index.docbook:126
+#, no-c-format
+msgid "Moving the cursor: Arrows, <keycap>PageUp</keycap>, <keycap>PageDown</keycap>, <keycap>Home</keycap>, <keycap>End</keycap>."
+msgstr "移动光标：方向键，<keycap>PageUp</keycap>，<keycap>PageDown</keycap>，<keycap>Home</keycap> 和 <keycap>End</keycap>。"
+
+#. Tag: para
+#: index.docbook:130
+#, no-c-format
+msgid "Moving the cursor <application>vi</application> style: h,j,k,l, to move one character, <keycap>Ctrl</keycap>+b,f,u,d for page up/down or half page up/down."
+msgstr "移动光标 (<application>vi</application> 风格)：h, j, k, l 以移动单个字符；<keycap>Ctrl</keycap>+b, f, u, d 以向上/下翻一/半页。"
+
+#. Tag: para
+#: index.docbook:132
+#, no-c-format
+msgid "Select text by using <keycap>Ctrl</keycap> or <keycap>Shift</keycap> with arrows, or by using <keycap>V</keycap> to start selection, moving the cursor and then <keycap>V</keycap> again to end selection. <keycombo>&Shift;<keycap>V</keycap></keycombo> selects whole lines, instead of characters."
+msgstr "通过 <keycap>Ctrl</keycap> 或 <keycap>Shift</keycap> 和方向键选择文本，或者使用 <keycap>V</keycap> 开始选择，移动光标后再按 <keycap>V</keycap> 以结束选择。<keycombo>&Shift;<keycap>V</keycap></keycombo> 会选择整行，而不是字符。"
+
+#. Tag: title
+#: index.docbook:141
+#, no-c-format
+msgid "Profiles"
+msgstr "配置方案"
+
+#. Tag: para
+#: index.docbook:142
+#, no-c-format
+msgid "Profiles allow the user to quickly and easily automate the running of common commands. Examples could include:"
+msgstr "配置方案使用户能够迅速且简单地自动化运行各种命令。样例包括："
+
+#. Tag: para
+#: index.docbook:146
+#, no-c-format
+msgid "ssh into another machine"
+msgstr "ssh 到另一台计算机"
+
+#. Tag: para
+#: index.docbook:147
+#, no-c-format
+msgid "starting an irc session"
+msgstr "开始一个 irc 会话"
+
+#. Tag: para
+#: index.docbook:148
+#, no-c-format
+msgid "use tail to watch a file"
+msgstr "使用 tail 查看一个文件"
+
+#. Tag: para
+#: index.docbook:153
+#, no-c-format
+msgid "All new and changed profiles are saved in the user's local home folder in <filename>$<envar>XDG_DATA_HOME</envar>/konsole</filename>."
+msgstr "所有新的和修改过的配置方案都保存在用户的本地主文件夹中，位于 <filename>$<envar>XDG_DATA_HOME</envar>/konsole</filename>。"
+
+#. Tag: para
+#: index.docbook:155
+#, no-c-format
+msgid "Procedure to create a new profile:"
+msgstr "创建新配置方案的步骤："
+
+#. Tag: para
+#: index.docbook:158
+#, no-c-format
+msgid "Click on the menu entry <menuchoice><guimenu>Settings</guimenu><guimenuitem>Manage Profiles...</guimenuitem> </menuchoice>"
+msgstr "点击菜单项 <menuchoice><guimenu>设置</guimenu><guimenuitem>管理配置方案...</guimenuitem></menuchoice>"
+
+#. Tag: para
+#: index.docbook:161
+#, no-c-format
+msgid "Switch to the <guibutton>Profiles</guibutton> page."
+msgstr "切换到 <guibutton>配置方案</guibutton> 页面。"
+
+#. Tag: para
+#: index.docbook:163
+#, no-c-format
+msgid "Click on the button <guibutton>New Profile...</guibutton>."
+msgstr "点击按钮 <guibutton>新建配置方案...</guibutton>。"
+
+#. Tag: para
+#: index.docbook:165
+#, no-c-format
+msgid "Fill in the first entry with a name. This is the name that will show in the menu, and will be the default label instead of <guilabel>Shell</guilabel> when you start a session of this type."
+msgstr "在第一项中填入名称。这个名称将会出现在菜单中，并且在您新建一个该类型的会话时会替代 <guilabel>Shell</guilabel> 作为默认标签显示。"
+
+#. Tag: para
+#: index.docbook:170
+#, no-c-format
+msgid "Enter a command just as you normally would if you opened a new shell and were going to issue that command. For our first example above, you might type <userinput><command>ssh</command> <replaceable>administration</replaceable></userinput>."
+msgstr "就像您平时打开一个新的 shell 并且输入命令那样，按您通常的方式输入您的命令。拿我们的第一个例子来说，您可以输入 <userinput><command>ssh</command> <replaceable>administration</replaceable></userinput>。"
+
+#. Tag: para
+#: index.docbook:174
+#, no-c-format
+msgid "On the other tabs of the dialog, configure this session's appearance. You can configure a different font, color scheme, $<envar>TERM</envar> type and many other settings for each session."
+msgstr "在这个对话框的其他选项卡中可以配置此会话的外观。您可以为每个会话配置不同字体，配色方案，$<envar>TERM</envar> 类型，以及许多其他设置。"
+
+#. Tag: para
+#: index.docbook:178
+#, no-c-format
+msgid "Press the <guibutton>OK</guibutton> button. The new session is now available in the <guilabel>Manage Profiles...</guilabel> dialog."
+msgstr "点击 <guibutton>确定</guibutton> 按钮。现在，新会话会出现在 <guilabel>管理配置方案...</guilabel> 对话框中。"
+
+#. Tag: title
+#: index.docbook:189
+#, no-c-format
+msgid "Mouse Buttons"
+msgstr "鼠标按钮"
+
+#. Tag: para
+#: index.docbook:191
+#, no-c-format
+msgid "This section details the use of the mouse buttons for the common right handed mouse button order. For the left handed mouse button order, swap left and right in the text below."
+msgstr "本章节按照常见的右手持鼠标的按键顺序来介绍它们的功能。对于左手持鼠标的按键顺序，请在下文中互换左键和右键。"
+
+#. Tag: mousebutton
+#: index.docbook:199
+#, no-c-format
+msgid "Left"
+msgstr "左键"
+
+#. Tag: para
+#: index.docbook:201
+#, no-c-format
+msgid "All &LMB; clicks will be sent to a mouse-aware application running in &konsole;. If an application will react on mouse clicks, &konsole; indicates this by showing an arrow cursor. If not, an I-beam (bar) cursor is shown."
+msgstr "所有 &LMB; 点击都会被发送到 &konsole; 中正在运行的支持鼠标的应用程序。如果一个程序会对鼠标点击进行处理，&konsole; 会通过显示一个箭头光标来表示。否则，会显示一个 I 字型 (文字输入) 光标。"
+
+#. Tag: para
+#: index.docbook:207
+#, no-c-format
+msgid "Holding the &LMB; down and dragging the mouse over the screen with a mouse-unaware application running will mark a region of the text. While dragging the mouse, the marked text is displayed in reversed color for visual feedback. Select <guimenuitem>Copy</guimenuitem> from the <guimenu>Edit</guimenu> menu to copy the marked text to the clipboard for further use within &konsole; or another application. The selected text can also be dragged and dropped into compatible applications. Hold the &Ctrl; key and drag the selected text to the desired location."
+msgstr "在不支持鼠标的应用程序中，按住 &LMB; 并在屏幕上拖动鼠标可标记一块文字。拖动鼠标时，标记的文字会以反色显示，从而使其更醒目。从 <guimenu>编辑</guimenu> 菜单中选择 <guimenuitem>复制</guimenuitem> 可将标记的文字复制到剪贴板中，以在 &konsole; 或者其他程序中使用。选中的文字也可被拖拽到兼容的程序中。按住 &Ctrl; 键，然后将文字拖到想要的位置。"
+
+#. Tag: para
+#: index.docbook:216
+#, no-c-format
+msgid "Normally, new-line characters are inserted at the end of each line selected. This is best for cut and paste of source code, or the output of a particular command. For ordinary text, the line breaks are often not important. One might prefer, however, for the text to be a stream of characters that will be automatically re-formatted when pasted into another application. To select in text-stream mode, hold down the &Ctrl; key while selecting normally."
+msgstr "一般来说，在每个选中行的末尾会插入换行符。这很适用于剪切粘贴源代码或者某个命令输出的情况。对于普通的文本来说，换行往往并不重要。人们可能会更希望选中的文本能以一串连续的字符保存，并在粘贴到另一个应用程序中时自动重新格式化。您可在选择时按住 &Ctrl; 键以选择连续的字符。"
+
+#. Tag: para
+#: index.docbook:224
+#, no-c-format
+msgid "Pressing the &Ctrl; and &Alt; keys along with the &LMB; will select text in columns."
+msgstr "在使用 &LMB; 选择文本时同时按住 &Ctrl; 和 &Alt; 键可按列选择文本。"
+
+#. Tag: para
+#: index.docbook:228
+#, no-c-format
+msgid "Double-click with the &LMB; to select a word; triple-click to select an entire line."
+msgstr "双击 &LMB; 以选择整个词；三击可以选择整行。"
+
+#. Tag: para
+#: index.docbook:231
+#, no-c-format
+msgid "If the upper or lower edge of the text area is touched while marking, &konsole; scrolls up or down, eventually exposing text within the history buffer. The scrolling stops when the mouse stops moving."
+msgstr "如果在标记过程中碰到了文本区域的上下边缘，&konsole; 会向上或向下滚动，从而显示出回滚历史中的文本。鼠标停止移动时，滚动也会停止。"
+
+#. Tag: para
+#: index.docbook:236
+#, no-c-format
+msgid "After the mouse is released, &konsole; attempts to keep the text in the clipboard visible by holding the marked area reversed. The marked area reverts back to normal as soon as the contents of the clipboard change, the text within the marked area is altered or the &LMB; is clicked."
+msgstr "松开鼠标后，&konsole; 会将选中部分高亮以标记出剪贴板中的文本内容。当剪贴板中的内容更改，或者选中区域的文本更改，或者点击 &LMB; 后，标记区域会恢复正常显示。"
+
+#. Tag: para
+#: index.docbook:242
+#, no-c-format
+msgid "To mark text in a mouse-aware application (Midnight Commander, for example) the &Shift; key has to be pressed when clicking."
+msgstr "要在一个支持鼠标的应用程序中标记文字 (例如 Midnight Commander)，可在点击时按住 &Shift; 键。"
+
+#. Tag: mousebutton
+#: index.docbook:249
+#, no-c-format
+msgid "Middle"
+msgstr "中键"
+
+#. Tag: para
+#: index.docbook:251
+#, no-c-format
+msgid "Pressing the &MMB; pastes text currently in the clipboard. Holding down the &Ctrl; key as you press the &MMB; pastes the text and appends a new-line. That is convenient for executing pasted command quickly, but it can be dangerous so use it with caution."
+msgstr "点击 &MMB; 会粘贴当前剪贴板中的文本。按住 &Ctrl; 键再按 &MMB; 时，粘贴的文本会附加一个换行符。对于快速粘贴命令来说这很方便，但是也有一定的危险性，请谨慎使用。"
+
+#. Tag: para
+#: index.docbook:258
+#, no-c-format
+msgid "If you have a mouse with only two buttons, pressing both the &LMB; and &RMB; together emulates the &MMB; of a three button mouse."
+msgstr "如果您的鼠标只有两个按键，同时按下 &LMB; 与 &RMB; 会模拟三键鼠标的 &MMB; 键。"
+
+#. Tag: para
+#: index.docbook:261
+#, no-c-format
+msgid "If you have a <mousebutton>wheel</mousebutton> as the middle button, rolling it in a mouse-unaware program will move &konsole;'s scrollbar."
+msgstr "如果您的鼠标有一个 <mousebutton>滚轮</mousebutton> 作为中键，那么在不支持鼠标的应用程序中滚动它时会移动 &konsole; 的滚动条。"
+
+#. Tag: mousebutton
+#: index.docbook:268
+#, no-c-format
+msgid "Right"
+msgstr "右键"
+
+#. Tag: para
+#: index.docbook:270
+#, no-c-format
+msgid "These items appear in the menu when the &RMB; is pressed:"
+msgstr "当按下 &RMB; 时，菜单中会有这些项目："
+
+#. Tag: guimenuitem
+#: index.docbook:273
+#, no-c-format
+msgid "Copy"
+msgstr "复制"
+
+#. Tag: guimenuitem
+#: index.docbook:274
+#, no-c-format
+msgid "Paste"
+msgstr "粘贴"
+
+#. Tag: para
+#: index.docbook:275
+#, no-c-format
+msgid "With a text selection a submenu <guisubmenu>Search for</guisubmenu> with a list of the preferred Web Shortcuts and an option to configure web shortcuts."
+msgstr "选中文本时，子菜单 <guisubmenu>搜索</guisubmenu> 中列出了常见的网页搜索方式，以及一个配置网页搜索方式的选项。"
+
+#. Tag: guimenuitem
+#: index.docbook:276
+#, no-c-format
+msgid "Open File Manager"
+msgstr "打开文件管理器"
+
+#. Tag: guimenuitem
+#: index.docbook:277
+#, no-c-format
+msgid "Set Encoding"
+msgstr "设置编码"
+
+#. Tag: guimenuitem
+#: index.docbook:278
+#, no-c-format
+msgid "Clear Scrollback"
+msgstr "清除回滚历史"
+
+#. Tag: guimenuitem
+#: index.docbook:279
+#, no-c-format
+msgid "Adjust Scrollback..."
+msgstr "调整回滚历史..."
+
+#. Tag: para
+#: index.docbook:280
+#, no-c-format
+msgid "<guimenuitem>Show Menu Bar</guimenuitem>, only when the menubar is hidden"
+msgstr "<guimenuitem>显示菜单栏</guimenuitem>，当菜单栏隐藏时"
+
+#. Tag: guimenuitem
+#: index.docbook:281
+#, no-c-format
+msgid "Switch Profile"
+msgstr "切换配置方案"
+
+#. Tag: guimenuitem
+#: index.docbook:282
+#, no-c-format
+msgid "Edit Current Profile..."
+msgstr "编辑当前配置方案..."
+
+#. Tag: guimenuitem
+#: index.docbook:283
+#, no-c-format
+msgid "Close Tab"
+msgstr "关闭标签页"
+
+#. Tag: para
+#: index.docbook:286
+#, no-c-format
+msgid "In a mouse aware application, press the &Shift; key along with the &RMB; to get the popup menu."
+msgstr "在支持鼠标的应用程序中，同时按下 &Shift; 键与 &RMB; 以弹出右键菜单。"
+
+#. Tag: title
+#: index.docbook:297
+#, no-c-format
+msgid "Drag and Drop"
+msgstr "拖放"
+
+#. Tag: para
+#: index.docbook:298
+#, no-c-format
+msgid "If you drop a file, folder or &URL; on a &konsole; window, a context menu appears with these actions:"
+msgstr "如果您将一个文件、目录或 &URL; 拖放到 &konsole; 窗口中，会出现一个包含下列项目的右键菜单："
+
+#. Tag: screeninfo
+#: index.docbook:302
+#, no-c-format
+msgid "<screeninfo>Drag and Drop Context Menu</screeninfo>"
+msgstr "<screeninfo>拖放右键菜单</screeninfo>"
+
+#. Tag: phrase
+#: index.docbook:308
+#, no-c-format
+msgid "<phrase>Drag and Drop Context Menu</phrase>"
+msgstr "<phrase>拖放右键菜单</phrase>"
+
+#. Tag: menuchoice
+#: index.docbook:315
+#, no-c-format
+msgid "<shortcut>&Shift;</shortcut><guimenuitem>Move Here</guimenuitem>"
+msgstr "<shortcut>&Shift;</shortcut><guimenuitem>移动到此处</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:318
+#, no-c-format
+msgid "Move the dropped item into the current folder. This item only appears in the context menu, if you have the rights to delete the dropped file or folder."
+msgstr "将拖放的项目移动到当前目录。仅当您有权限删除拖放的文件或目录时，该项才会出现。"
+
+#. Tag: menuchoice
+#: index.docbook:324
+#, no-c-format
+msgid "<shortcut>&Ctrl;</shortcut><guimenuitem>Copy Here</guimenuitem>"
+msgstr "<shortcut>&Ctrl;</shortcut><guimenuitem>复制到此处</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:327
+#, no-c-format
+msgid "Copy the dropped item into the current folder."
+msgstr "复制拖放的项目到当前目录。"
+
+#. Tag: menuchoice
+#: index.docbook:331
+#, no-c-format
+msgid "<shortcut><keycombo>&Ctrl;&Shift;</keycombo></shortcut><guimenuitem>Link Here</guimenuitem>"
+msgstr "<shortcut><keycombo>&Ctrl;&Shift;</keycombo></shortcut><guimenuitem>链接到此处</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:334
+#, no-c-format
+msgid "Insert a symbolic link to the dropped item."
+msgstr "在此处建立一个到拖放项目的符号链接。"
+
+#. Tag: guimenuitem
+#: index.docbook:339
+#, no-c-format
+msgid "Paste Location"
+msgstr "粘贴位置"
+
+#. Tag: para
+#: index.docbook:341
+#, no-c-format
+msgid "Insert the full file path of the dropped item at the cursor."
+msgstr "将拖放项目的完整路径插入到光标处。"
+
+#. Tag: guimenuitem
+#: index.docbook:346
+#, no-c-format
+msgid "Change Directory To"
+msgstr "更换目录到"
+
+#. Tag: para
+#: index.docbook:348
+#, no-c-format
+msgid "If a folder is dropped, this action appears in the context menu and allows you to change the working folder of the &konsole; session."
+msgstr "如果您拖放了一个目录，右键菜单中的这个操作可以让您切换当前 &konsole; 会话的工作目录。"
+
+#. Tag: menuchoice
+#: index.docbook:353
+#, no-c-format
+msgid "<shortcut>&Esc;</shortcut><guimenuitem>Cancel</guimenuitem>"
+msgstr "<shortcut>&Esc;</shortcut><guimenuitem>取消</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:356
+#, no-c-format
+msgid "Break the drag and drop action."
+msgstr "取消拖放操作。"
+
+#. Tag: para
+#: index.docbook:361
+#, no-c-format
+msgid "If you press the shortcuts before releasing the &LMB; during drag and drop, no context menu appears and the actions will be executed immediately."
+msgstr "如果您拖放时在松开 &LMB; 前按下快捷键，那么不会有右键菜单出现，操作会被立即执行。"
+
+#. Tag: para
+#: index.docbook:365
+#, no-c-format
+msgid "If you want to use the &Ctrl; key for drag and drop or disable the context menu to insert &URL;s as text by default, enable the corresponding options on the <guilabel>Mouse</guilabel> tab in the profile settings dialog."
+msgstr "如果您想使用 &Ctrl; 键来进行拖放操作，或者禁用右键菜单从而默认以文本方式插入 &URL;，请在配置方案设置对话框的 <guilabel>鼠标</guilabel> 选项卡中启用相应选项。"
+
+#. Tag: title
+#: index.docbook:373
+#, no-c-format
+msgid "Semantic Shell Integration"
+msgstr "Shell 语义集成"
+
+#. Tag: para
+#: index.docbook:375
+#, no-c-format
+msgid "A shell program running in Konsole may emit escape sequences that partition the text displayed into three types: shell prompt, user input and command output. Using this semantic information enables various enhancements in Konsole."
+msgstr "Konsole 中运行的 shell 可以输出将显示的文本分为三种类型的转义序列：shell 提示，用户输入和命令输出。通过这些语义信息可以增强 Konsole 的功能。"
+
+#. Tag: para
+#: index.docbook:380
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Ctrl;&Shift;<keycap>PgUp</keycap></keycombo> and <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>PgDown</keycap></keycombo> scroll up/down to previous/next command prompt."
+msgstr "<keycombo action=\"simul\">&Ctrl;&Shift;<keycap>PgUp</keycap></keycombo> 和 <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>PgDown</keycap></keycombo> 滚动到上一个/下一个命令提示。"
+
+#. Tag: para
+#: index.docbook:385
+#, no-c-format
+msgid "Visual hints:"
+msgstr "视觉提示："
+
+#. Tag: para
+#: index.docbook:387
+#, no-c-format
+msgid "A line is displayed above each prompt, prompt colors are less intense, and output colors are more intense."
+msgstr "每个提示的上方都会显示一条线，提示的颜色更浅，输出的颜色更深。"
+
+#. Tag: para
+#: index.docbook:391
+#, no-c-format
+msgid "A red bar is displayed to the left of input and output lines of commands that resulted in error"
+msgstr "发生错误的命令的输入行和输出行的左侧会显示红色竖线。"
+
+#. Tag: para
+#: index.docbook:394
+#, no-c-format
+msgid "A red background for input and output lines of commands that resulted in error"
+msgstr "发生错误的命令的输入行和输出行的背景会变红。"
+
+#. Tag: para
+#: index.docbook:397
+#, no-c-format
+msgid "A gray bar is displayed to the left of the input and output lines of every other command."
+msgstr "相隔命令的输入行和输出行的左侧会显示灰色竖线。"
+
+#. Tag: para
+#: index.docbook:400
+#, no-c-format
+msgid "A gray background for the input and output lines of every other command."
+msgstr "相隔命令的输入行和输出行的背景会变灰。"
+
+#. Tag: para
+#: index.docbook:404
+#, no-c-format
+msgid "Each of those may be configured to never show, always show, or only when URL hints are shown. The configuration is in the <guilabel>Semantic Integration</guilabel> tab of the <guilabel>General</guilabel> page of the profile configuration window."
+msgstr "这些都可以被配置为从不显示，总是显示，或者仅当显示 URL 提示时显示。您可以在配置方案窗口中 <guilabel>常规</guilabel> 页面的 <guilabel>语义集成</guilabel> 标签页中更改相关设置。"
+
+#. Tag: para
+#: index.docbook:410
+#, no-c-format
+msgid "Context menu options <guimenuitem>Copy user input</guimenuitem>, <guimenuitem>Copy command output</guimenuitem>, and <guimenuitem>Copy except prompt</guimenuitem> may be used to filter selection when it is copied to the clipboard."
+msgstr "当复制到剪贴板时，右键菜单中的 <guimenuitem>复制用户输入</guimenuitem>，<guimenuitem>复制命令输出</guimenuitem> 和 <guimenuitem>复制 - 不包含提示</guimenuitem> 选项可用于过滤选中内容。"
+
+#. Tag: para
+#: index.docbook:417
+#, no-c-format
+msgid "When selection is empty, copy to clipboard action copies the current input line if it is not empty, or the last output if there is no current input."
+msgstr "当没有选中内容时，如果当前的用户输入行不是空的，那么复制到剪贴板操作会复制这一行，否则会复制最后的命令输出。"
+
+#. Tag: para
+#: index.docbook:420
+#, no-c-format
+msgid "Pressing Up/Down arrow when editing a long input, will instead place the cursor one line up/down by sending the appropriate number of Left/Right key events to the shell. Configurable in the profile settings."
+msgstr "当编辑长输入时，按上/下方向键转而会通过向 shell 发送适当数量的左/右方向键事件以将光标向上/下移动一行。您可在配置方案设置中更改这一选项。"
+
+#. Tag: para
+#: index.docbook:422
+#, no-c-format
+msgid "Clicking the mouse on text input will place the cursor in the clicked location. Configurable in the profile settings."
+msgstr "在输入文本时，点击鼠标可将光标移动到所点击位置。您可在配置方案设置中更改这一选项。"
+
+#. Tag: para
+#: index.docbook:423
+#, no-c-format
+msgid "Pressing the &Ctrl; key while triple clicking the mouse on the output of a command, selects the whole output of that command."
+msgstr "当按住 &Ctrl; 键三击命令输出时，会选择该命令的完整输出。"
+
+#. Tag: para
+#: index.docbook:427
+#, no-c-format
+msgid "Semantic shell integration needs to be setup in the shell. Pressing <keycombo>&Ctrl;&Alt;<keycap>]</keycap></keycombo> will paste the necessary commands needed in bash. For other shells, such as fish, zsh, python, etc. consult the relevant program's documentation."
+msgstr "Shell 语义集成需要在 shell 中配置。按 <keycombo>&Ctrl;&Alt;<keycap>]</keycap></keycombo> 会粘贴 bash 所需的相关命令。对于其他 shell，例如 fish、zsh、python 等，请查阅相关程序的文档。"
+
+#. Tag: title
+#: index.docbook:437
+#, no-c-format
+msgid "Complex Text Layout"
+msgstr "复杂文本布局"
+
+#. Tag: para
+#: index.docbook:439
+#, no-c-format
+msgid "In the <guilabel>Complex Text Layout</guilabel> page of the <guilabel>Edit Profile</guilabel> dialog, you will find options that control the rendering of text."
+msgstr "在 <guilabel>编辑配置方案</guilabel> 对话框的 <guilabel>复杂文本布局</guilabel> 页面中，您可以找到控制文本渲染的选项。"
+
+#. Tag: para
+#: index.docbook:446
+#, no-c-format
+msgid "<guilabel>Word mode</guilabel> - in this mode (some) strings are displayed in the screen as a whole, instead of a character at a time. This allows Qt to render text correctly when the shape of a character depends on the characters before or after it. This might result in incorrect position of some characters."
+msgstr "<guilabel>单词模式</guilabel> - 在此模式 (有些) 字符串将完整地显示在屏幕上，而不是逐字符显示。这使一个字符的形状受之前或之后的字符影响时，Qt 能够正确地显示文本。可能导致某些字符的位置不正确。"
+
+#. Tag: para
+#: index.docbook:449
+#, no-c-format
+msgid "Spaces always break strings, so they are always in the correct positions. This ensures that characters are never too far from their correct position."
+msgstr "空格总是会分隔字符串，所以它们都处于正确的位置。这确保了字符与它们正确的位置相距不远。"
+
+#. Tag: para
+#: index.docbook:453
+#, no-c-format
+msgid "<guilabel>Use the same attributes for each whole word</guilabel> - When this is enabled, words are rendered with the same attributes (text color, bold, italic, etc.). If an attribute changes mid-word, it will only take effect after the end of the word. When this is disabled, a new word starts when attributes change. This results in characters changing shape and position when moving the cursor or selecting text."
+msgstr "<guilabel>对整个单词使用相同的属性</guilabel> - 启用此选项时，显示的单词将具有相同的属性 (文本颜色、粗体、 斜体等)。如果属性在单词中间改变，那么只会在单词结尾生效。禁用此选项时，属性改变会分割单词。这将导致在移动光标或选择文本时，字符的形状和位置改变。"
+
+#. Tag: para
+#: index.docbook:457
+#, no-c-format
+msgid "<guilabel>ASCII characters</guilabel> - Group ASCII characters into words as described above. The most noticeable effect of this option is that enabling this shows programming ligatures (for fonts that support them). E.g. the string &lt;= may be displayed as ⩽."
+msgstr "<guilabel>ASCII 字符</guilabel> - 将 ASCII 字符分组为单词。启用此选项最明显的效果是会显示编程连字 (如果字体支持)。例如：字符串 &lt;= 会显示为 ⩽。"
+
+#. Tag: para
+#: index.docbook:463
+#, no-c-format
+msgid "<guilabel>Brahmic scripts characters</guilabel> - Group Brahmic characters as described above. Without this option (depending on the font) some words may not be connected as they should. With this enabled Brahmic characters may appear out of position. E.g. the third character in the second line might not appear directly under the third character in the first line."
+msgstr "<guilabel>婆罗米系文字字符</guilabel> - 将婆罗米系文字字符分组。如果禁用此选项 (取决于字体)，某些词可能无法正常连接。如果启用此选项，婆罗米系文字字符可能会显示错位。例如：第二行中的第三个字符可能不会出现在第一行中的第三个字符下面。"
+
+#. Tag: para
+#: index.docbook:468
+#, no-c-format
+msgid "<guilabel>Emoji Font:</guilabel> - This allows specifying the font to use for Unicode Emoji characters. If not set, the default profile font will be used, or some fallback font may be used by the system if the glyphs are missing from this font."
+msgstr "<guilabel>表情符号字体：</guilabel> - 指定 Unicode 表情符号使用的字体。如果未设置，将使用默认配置方案的字体。如果该字体中缺少某些字形，系统可能会使用备选字体。"
+
+#. Tag: para
+#: index.docbook:473
+#, no-c-format
+msgid "<guilabel>Bi-Directional text rendering</guilabel> - Reorder right to left characters so Arabic and Hebrew texts appear correctly."
+msgstr "<guilabel>双向文字渲染</guilabel> - 从右向左重新排列字符，用以正确显示阿拉伯语和希伯来语。"
+
+#. Tag: para
+#: index.docbook:478
+#, no-c-format
+msgid "<guilabel>force LTR line direction</guilabel> - Lines are always Left to right. Without this, each line's direction is determined by the first character with strong directionality."
+msgstr "<guilabel>强制从左向右</guilabel> - 总是从左向右排列字符。否则，每一行的方向都是由第一个具有很强方向性的字符决定的。"
+
+#. Tag: para
+#: index.docbook:483
+#, no-c-format
+msgid "<guilabel>Table characters BiDi mode override</guilabel> - Consider graphic table characters as strong LTR characters. This allows table containing RTL characters to display correctly, but might cause incorrect order if those characters are used in RTL texts."
+msgstr "<guilabel>表格字符双向模式覆盖</guilabel> - 将表格字符视为强从左向右字符。这使包含从右向左字符的表格可以正确显示，但如果在从右向左文本中使用这些字符，可能会导致错位。"
+
+#. Tag: para
+#: index.docbook:488
+#, no-c-format
+msgid "<guilabel>Override wcwidth</guilabel> - Problematic characters follow Unicode standard, rather than glibc's wcwidth(). Currently only soft hyphen (Unicode 0x00AD) which has wcwidth of 1 and Unicode width of 0 is affected by this option. Generally, this option should be disabled when mainly using those characters on the command line, and enabled when they are only displayed."
+msgstr "<guilabel>覆盖 wcwidth</guilabel> - 遇到有问题的字符时，遵循 Unicode 标准，而不是 glibc 的 wcwidth()。目前只有软连字符 (Unicode 0x00AD，wcwidth 为 1，Unicode 宽度为 0) 会受到此选项影响。通常而言，如果这些字符主要在命令行使用，应禁用此选项；仅当这些字符只会被显示时启用。"
+
+#. Tag: title
+#: index.docbook:501
+#, no-c-format
+msgid "Command Reference"
+msgstr "命令参考"
+
+#. Tag: title
+#: index.docbook:504
+#, no-c-format
+msgid "The Menubar"
+msgstr "菜单栏"
+
+#. Tag: para
+#: index.docbook:506
+#, no-c-format
+msgid "The menubar is at the top of the &konsole; window. If the menubar is hidden, <guimenuitem>Show Menu Bar</guimenuitem> can be reached by <mousebutton>right</mousebutton> clicking in the window (as long as no full screen application is running in that window such as vi, minicom, etc.). The default shortcut is listed after each menu item."
+msgstr "菜单栏位于 &konsole; 窗口顶部。如果菜单栏被隐藏了，那么可以通过在窗口中 <mousebutton>右键</mousebutton> 点击来 <guimenuitem>显示菜单栏</guimenuitem> (只要这时候窗口中没有运行全屏程序，例如 vi，minicom 等)。默认快捷键在每个菜单项后面显示。"
+
+#. Tag: para
+#: index.docbook:514
+#, no-c-format
+msgid "Alternatively you can use the shortcut <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>M</keycap></keycombo> to show or hide the menubar."
+msgstr "同时，您也可以使用快捷键 <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>M</keycap></keycombo> 来显示或隐藏菜单栏。"
+
+#. Tag: title
+#: index.docbook:519
+#, no-c-format
+msgid "File Menu"
+msgstr "文件菜单"
+
+#. Tag: menuchoice
+#: index.docbook:523
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>New Window</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>N</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>新建窗口</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:528
+#, no-c-format
+msgid "Opens a new separate &konsole; window with the default profile"
+msgstr "用默认配置方案打开一个新 &konsole; 窗口"
+
+#. Tag: menuchoice
+#: index.docbook:532
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>New Tab</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>T</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>新建标签页</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:536
+#, no-c-format
+msgid "Opens a new tab with the default profile"
+msgstr "用默认配置方案打开一个新标签页"
+
+#. Tag: para
+#: index.docbook:537
+#, no-c-format
+msgid "The first profile in the submenu will always be \"Default\" which is the built-in profile. All other profiles will be listed below that in alphabetical order. The user specified default profile will be in bold type."
+msgstr "子菜单中的第一个配置方案总会是内建的“默认”配置方案，其余的配置方案按字母顺序排列在下面。用户设置的默认配置方案以粗体表示。"
+
+#. Tag: menuchoice
+#: index.docbook:546
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Clone Tab</guimenuitem>"
+msgstr "<guimenu>文件</guimenu> <guimenuitem>克隆标签页</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:550
+#, no-c-format
+msgid "Attempts to clone the current tab in a new tab"
+msgstr "尝试在一个新标签页中克隆当前标签页"
+
+#. Tag: menuchoice
+#: index.docbook:555
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>S</keycap></keycombo></shortcut> <guimenu>File</guimenu> <guimenuitem>Save Output As...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>S</keycap></keycombo></shortcut> <guimenu>文件</guimenu> <guimenuitem>输出保存为...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:559
+#, no-c-format
+msgid "Saves the current scrollback as a text or html file"
+msgstr "将当前的回滚历史保存为文本文件或者 HTML 文件"
+
+#. Tag: menuchoice
+#: index.docbook:564
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>P</keycap></keycombo></shortcut> <guimenu>File</guimenu> <guimenuitem>Print Screen ...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>P</keycap></keycombo></shortcut> <guimenu>文件</guimenu> <guimenuitem>打印屏幕...</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:568
+#, no-c-format
+msgid "<action>Print the current screen.</action> By default the output is scaled to fit the size of the paper being printed on with black text color and no background. In the print dialog these options can be changed on the <guilabel>Output Options</guilabel> tab."
+msgstr "<action>打印当前屏幕。</action>默认情况下，输出会缩放到打印使用的纸张大小，文本为黑色，没有背景。您可以在打印对话框中的 <guilabel>输出选项</guilabel> 选项卡中更改这些设置。"
+
+#. Tag: menuchoice
+#: index.docbook:574
+#, no-c-format
+msgid "<guimenu>File</guimenu> <guimenuitem>Open File Manager</guimenuitem>"
+msgstr "<guimenu>文件</guimenu> <guimenuitem>打开文件管理器</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:577
+#, no-c-format
+msgid "<action>Opens &kde;'s file manager at the current directory</action>. By default, that is <ulink url=\"help:/dolphin/index.html\">&dolphin;</ulink>."
+msgstr "<action>在当前目录打开 &kde; 的文件管理器。</action>默认情况下，会使用 <ulink url=\"help:/dolphin/index.html\">&dolphin;</ulink>。"
+
+#. Tag: menuchoice
+#: index.docbook:584
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>W</keycap></keycombo></shortcut> <guimenu>File</guimenu> <guimenuitem>Close Session</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>W</keycap></keycombo></shortcut> <guimenu>文件</guimenu> <guimenuitem>关闭会话</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:589
+#, no-c-format
+msgid "Closes the current session"
+msgstr "关闭当前会话"
+
+#. Tag: menuchoice
+#: index.docbook:594
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Q</keycap></keycombo></shortcut> <guimenu>File</guimenu> <guimenuitem>Close Window</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Q</keycap></keycombo></shortcut> <guimenu>文件</guimenu> <guimenuitem>关闭窗口</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:599
+#, no-c-format
+msgid "Quits &konsole;"
+msgstr "退出 &konsole;"
+
+#. Tag: para
+#: index.docbook:600
+#, no-c-format
+msgid "&konsole; will display a confirmation dialog if there is more than one session open or if there are certain programs running in any session. These dialogs can be disabled by clicking on the <guibutton>Do not ask again</guibutton> checkbox."
+msgstr "如果打开了超过一个会话，或者有程序正在某个会话中运行，&konsole; 会显示一个确认对话框。通过勾选 <guibutton>不再询问</guibutton> 复选框可以禁用此对话框。"
+
+#. Tag: title
+#: index.docbook:613
+#, no-c-format
+msgid "Edit Menu"
+msgstr "编辑菜单"
+
+#. Tag: menuchoice
+#: index.docbook:617
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap></keycombo></shortcut> <guimenu>Edit</guimenu> <guimenuitem>Copy</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>C</keycap></keycombo></shortcut> <guimenu>编辑</guimenu> <guimenuitem>复制</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:621
+#, no-c-format
+msgid "Copies the selected text to the clipboard"
+msgstr "将选中文本复制到剪贴板"
+
+#. Tag: menuchoice
+#: index.docbook:625
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>V</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>V</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>粘贴</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:629
+#, no-c-format
+msgid "Pastes text from the clipboard at the cursor location"
+msgstr "将剪贴板中的文本粘贴到光标位置"
+
+#. Tag: menuchoice
+#: index.docbook:634
+#, no-c-format
+msgid "<guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem>"
+msgstr "<guimenu>编辑</guimenu><guimenuitem>全部选择</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:636
+#, no-c-format
+msgid "<action>Selects all</action> the text in current window"
+msgstr "<action>选择所有</action>当前窗口中的文本"
+
+#. Tag: menuchoice
+#: index.docbook:641
+#, no-c-format
+msgid "<guimenu>Edit</guimenu><guisubmenu>Copy Input To</guisubmenu><guimenuitem>All Tabs in Current Window</guimenuitem>"
+msgstr "<guimenu>编辑</guimenu><guisubmenu>输入复制到</guisubmenu><guimenuitem>当前窗口中的全部标签页</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:643
+#, no-c-format
+msgid "Allows input from the current session to be sent simultaneously to all sessions in current window"
+msgstr "将当前会话中的输入同时发送到当前窗口中的所有会话"
+
+#. Tag: menuchoice
+#: index.docbook:649
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>.</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guisubmenu>Copy Input To</guisubmenu><guimenuitem>Select Tabs...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>.</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guisubmenu>输入复制到</guisubmenu><guimenuitem>选择标签页...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:653
+#, no-c-format
+msgid "Allows input from the current session to be sent simultaneously to sessions picked by user"
+msgstr "将当前会话中的输入同时发送到用户选择的其他会话"
+
+#. Tag: menuchoice
+#: index.docbook:659
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>/</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guisubmenu>Copy Input To</guisubmenu><guimenuitem>None</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>/</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guisubmenu>输入复制到</guisubmenu><guimenuitem>无</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:663
+#, no-c-format
+msgid "Stop sending input from current session into other sessions"
+msgstr "不将当前会话中的输入发送到其他会话"
+
+#. Tag: menuchoice
+#: index.docbook:669
+#, no-c-format
+msgid "<guimenu>Edit</guimenu> <guisubmenu>Send Signal</guisubmenu>"
+msgstr "<guimenu>编辑</guimenu> <guisubmenu>发送信号</guisubmenu>"
+
+#. Tag: para
+#: index.docbook:671
+#, no-c-format
+msgid "<action>Send the specified signal to the shell process, or other process, that was launched when the new session was started</action>."
+msgstr "<action>将指定信号发送到新会话建立时创建的 shell 进程或者其他进程。</action>"
+
+#. Tag: para
+#: index.docbook:673
+#, no-c-format
+msgid "Currently available signals are:"
+msgstr "目前支持的信号有："
+
+#. Tag: errorcode
+#: index.docbook:679
+#, no-c-format
+msgid "STOP"
+msgstr "STOP"
+
+#. Tag: entry
+#: index.docbook:680
+#, no-c-format
+msgid "to stop process"
+msgstr "暂停进程"
+
+#. Tag: errorcode
+#: index.docbook:683
+#, no-c-format
+msgid "CONT"
+msgstr "CONT"
+
+#. Tag: entry
+#: index.docbook:684
+#, no-c-format
+msgid "continue if stopped"
+msgstr "恢复进程，如果已暂停"
+
+#. Tag: errorcode
+#: index.docbook:687
+#, no-c-format
+msgid "<errorcode>HUP</errorcode>"
+msgstr "<errorcode>HUP</errorcode>"
+
+#. Tag: entry
+#: index.docbook:688
+#, no-c-format
+msgid "hangup detected on controlling terminal, or death of controlling process"
+msgstr "在控制终端中检测到了挂起事件，或者控制进程已死亡"
+
+#. Tag: errorcode
+#: index.docbook:692
+#, no-c-format
+msgid "<errorcode>INT</errorcode>"
+msgstr "<errorcode>INT</errorcode>"
+
+#. Tag: entry
+#: index.docbook:693
+#, no-c-format
+msgid "interrupt from keyboard"
+msgstr "来自键盘的中断"
+
+#. Tag: errorcode
+#: index.docbook:696
+#, no-c-format
+msgid "TERM"
+msgstr "TERM"
+
+#. Tag: entry
+#: index.docbook:697
+#, no-c-format
+msgid "termination signal"
+msgstr "终止信号"
+
+#. Tag: errorcode
+#: index.docbook:700
+#, no-c-format
+msgid "KILL"
+msgstr "KILL"
+
+#. Tag: entry
+#: index.docbook:701
+#, no-c-format
+msgid "kill signal"
+msgstr "杀死信号"
+
+#. Tag: errorcode
+#: index.docbook:704
+#, no-c-format
+msgid "USR1"
+msgstr "USR1"
+
+#. Tag: entry
+#: index.docbook:705
+#, no-c-format
+msgid "user signal 1"
+msgstr "用户信号 1"
+
+#. Tag: errorcode
+#: index.docbook:708
+#, no-c-format
+msgid "USR2"
+msgstr "USR2"
+
+#. Tag: entry
+#: index.docbook:709
+#, no-c-format
+msgid "user signal 2"
+msgstr "用户信号 2"
+
+#. Tag: para
+#: index.docbook:715
+#, no-c-format
+msgid "Refer to your system manual pages for further details by giving the command <userinput><command>man</command> <option>7 signal</option></userinput>."
+msgstr "您可以使用命令 <userinput><command>man</command> <option>7 signal</option></userinput> 查阅系统的手册页，以了解更多详情。"
+
+#. Tag: menuchoice
+#: index.docbook:721
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>S</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Configure Tab Settings...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>S</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>配置标签页设置...</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:725
+#, no-c-format
+msgid "<action>Opens a dialog box allowing you to change the name format, the remote tab title format and the color of the current tab</action> (<link linkend=\"configure-tab-settings-dialog\">more info</link>)"
+msgstr "<action>打开对话框，更改名称格式，远程标签页标题格式以及当前标签页颜色</action> (<link linkend=\"configure-tab-settings-dialog\">更多信息</link>)"
+
+#. Tag: menuchoice
+#: index.docbook:732
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>ZModem Upload...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Alt;<keycap>U</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>ZModem 上传...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:736
+#, no-c-format
+msgid "Opens up a dialog to select a file to be uploaded if the required software is installed"
+msgstr "如果安装了必需的软件的话，可以在打开的对话框内选择一个文件进行上传"
+
+#. Tag: menuchoice
+#: index.docbook:742
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>查找...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:745
+#, no-c-format
+msgid "Opens a search bar at the bottom of &konsole;'s window"
+msgstr "在 &konsole; 窗口的底端打开搜索栏"
+
+#. Tag: para
+#: index.docbook:747
+#, no-c-format
+msgid "This allows for case sensitive, forward or backwards, and regular expressions searches."
+msgstr "可以进行区分大小写，向前或向后和正则表达式等模式的搜索。"
+
+#. Tag: menuchoice
+#: index.docbook:775
+#, no-c-format
+msgid "<shortcut><keycombo><keycap>F3</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Next</guimenuitem>"
+msgstr "<shortcut><keycombo><keycap>F3</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>查找下一个</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:779
+#, no-c-format
+msgid "<action>Moves to the next search instance </action>. If the search bar has the focus, you can use the shortcut &Enter; as well."
+msgstr "<action>移动到下一个搜索结果。</action>如果焦点在搜索栏，您也可以使用快捷键 &Enter;。"
+
+#. Tag: menuchoice
+#: index.docbook:784
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Previous</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>查找上一个</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:788
+#, no-c-format
+msgid "<action>Moves to the previous search instance </action>. If the search bar has the focus, you can use the shortcut <keycombo action=\"simul\">&Shift;&Enter;</keycombo> as well."
+msgstr "<action>移动到上一个搜索结果。</action>如果焦点在搜索栏，您也可以使用快捷键 <keycombo action=\"simul\">&Shift;&Enter;</keycombo>。"
+
+#. Tag: title
+#: index.docbook:797
+#, no-c-format
+msgid "View Menu"
+msgstr "视图菜单"
+
+#. Tag: menuchoice
+#: index.docbook:801
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>(</keycap></keycombo></shortcut> <guimenu>View</guimenu><guisubmenu>Split View</guisubmenu><guimenuitem>Split View Left/Right</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>(</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guisubmenu>拆分视图</guisubmenu><guimenuitem>拆分视图 (左右)</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:806
+#, no-c-format
+msgid "Splits all the tabs into left and right views"
+msgstr "将所有标签页拆分为左右视图"
+
+#. Tag: para
+#: index.docbook:807 index.docbook:819
+#, no-c-format
+msgid "Any output on one view is duplicated in the other view."
+msgstr "在一个视图中的所有输出都会在另一个视图中重新出现。"
+
+#. Tag: menuchoice
+#: index.docbook:813
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>)</keycap></keycombo></shortcut> <guimenu>View</guimenu><guisubmenu>Split View</guisubmenu><guimenuitem>Split View Top/Bottom</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>)</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guisubmenu>拆分视图</guisubmenu><guimenuitem>拆分视图 (上下)</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:818
+#, no-c-format
+msgid "Splits all the tabs into top and bottom views"
+msgstr "将所有标签页拆分为上下视图"
+
+#. Tag: menuchoice
+#: index.docbook:825
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>]</keycap></keycombo></shortcut> <guimenu>View</guimenu><guisubmenu>Split View</guisubmenu><guimenuitem>Expand View</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>]</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guisubmenu>拆分视图</guisubmenu><guimenuitem>扩大视图</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:829
+#, no-c-format
+msgid "Makes the current view larger"
+msgstr "扩大当前视图"
+
+#. Tag: menuchoice
+#: index.docbook:834
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>[</keycap></keycombo></shortcut> <guimenu>View</guimenu><guisubmenu>Split View</guisubmenu><guimenuitem>Shrink View</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>[</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guisubmenu>拆分视图</guisubmenu><guimenuitem>缩小视图</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:838
+#, no-c-format
+msgid "Makes the current view smaller"
+msgstr "缩小当前视图"
+
+#. Tag: menuchoice
+#: index.docbook:843
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>E</keycap></keycombo></shortcut> <guimenu>View</guimenu><guisubmenu>Split View</guisubmenu><guimenuitem>Toggle maximize current view</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>E</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guisubmenu>拆分视图</guisubmenu><guimenuitem>切换最大化当前视图</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:847
+#, no-c-format
+msgid "Toggles the current view between current size and the maximize size"
+msgstr "最大化或还原当前视图大小"
+
+#. Tag: menuchoice
+#: index.docbook:852
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>\\</keycap></keycombo></shortcut> <guimenu>View</guimenu><guisubmenu>Split View</guisubmenu><guimenuitem>Equal size to all views</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>\\</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guisubmenu>拆分视图</guisubmenu><guimenuitem>与所有视图相同的大小</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:856
+#, no-c-format
+msgid "Sets the same size for all views"
+msgstr "将所有视图设置为相同大小"
+
+#. Tag: menuchoice
+#: index.docbook:861
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Detach Current Tab</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>L</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>分离当前标签页</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:865
+#, no-c-format
+msgid "Opens the current tab in a separate window"
+msgstr "在一个新窗口中打开当前标签页"
+
+#. Tag: para
+#: index.docbook:867
+#, no-c-format
+msgid "Quitting the previous &konsole; window will not affect the newly created window."
+msgstr "关闭先前的 &konsole; 窗口不会影响新创建的窗口。"
+
+#. Tag: menuchoice
+#: index.docbook:874
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Detach Current View</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>H</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>分离当前视图</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:878
+#, no-c-format
+msgid "Opens the current split view in a separate window"
+msgstr "在一个新窗口中打开当前拆分视图"
+
+#. Tag: menuchoice
+#: index.docbook:884
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Save tab layout to file</guimenuitem>"
+msgstr "<guimenu>视图</guimenu><guimenuitem>保存标签页布局...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:887
+#, no-c-format
+msgid "Allows you to save the tab layout of the current view in a specialized &konsole; layout file which can then be loaded to restore one of your favorite layouts."
+msgstr "将当前视图的标签页布局保存到一个 &konsole; 专用的布局文件中，从而可以加载并还原您常用的布局。"
+
+#. Tag: menuchoice
+#: index.docbook:893
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Load tab layout from file</guimenuitem>"
+msgstr "<guimenu>视图</guimenu><guimenuitem>加载标签页布局...</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:896
+#, no-c-format
+msgid "<action>Allows you to load one of your favorite view layouts from the layout file that has been saved using the <menuchoice><guimenu>View</guimenu><guimenuitem>Save tab layout to file</guimenuitem></menuchoice> menu item earlier.</action> The default layouts (2x2, 2x1, and 1x2) can be loaded via toolbar."
+msgstr "<action>从先前通过 <menuchoice><guimenu>视图</guimenu><guimenuitem>保存标签页布局...</guimenuitem></menuchoice> 菜单项保存的布局文件中加载您常用的布局。</action>默认布局 (2x2、2x1 和 1x2) 可从工具栏中加载。"
+
+#. Tag: menuchoice
+#: index.docbook:903
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>One-shot monitors</guimenuitem>"
+msgstr "<guimenu>视图</guimenu><guimenuitem>单次监视器</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:905
+#, no-c-format
+msgid "The following monitors only notify once, and are then disabled."
+msgstr "以下监视器会在通知一次后禁用。"
+
+#. Tag: menuchoice
+#: index.docbook:910
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>R</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Monitor for Prompt</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>R</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>提示监视器</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:914
+#, no-c-format
+msgid "Toggles the monitoring of the current tab for a shell prompt."
+msgstr "打开/关闭当前标签页 shell 提示的监视。"
+
+#. Tag: para
+#: index.docbook:916
+#, no-c-format
+msgid "When a shell prompt is displayed, &konsole; will show a notification. This option is shown only when semantic integration is enabled in the shell."
+msgstr "遇到 shell 提示时，&konsole; 会显示一个通知。此选项仅会在语义集成在 shell 中启用时显示。"
+
+#. Tag: menuchoice
+#: index.docbook:922
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>I</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Monitor for Silence</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>I</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>静止监视器</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:926
+#, no-c-format
+msgid "Toggles the monitoring of the current tab for lack of activity"
+msgstr "打开/关闭当前标签页没有活动状态的监视。"
+
+#. Tag: para
+#: index.docbook:928
+#, no-c-format
+msgid "By default, after 10 seconds of inactivity, an info icon will appear on the session's tab. The type of alerts can be changed through <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Notifications</guimenuitem><guimenuitem>Silence in monitored session</guimenuitem></menuchoice>."
+msgstr "默认情况下，在 10 秒钟没有活动之后，一个信息图标会出现在这个会话的标签页上。您可以通过 <menuchoice><guimenu>设置</guimenu><guimenuitem>配置通知...</guimenuitem><guimenuitem>在监视的会话中检测到空闲</guimenuitem></menuchoice> 更改警告类型。"
+
+#. Tag: menuchoice
+#: index.docbook:937
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Monitor for Activity</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>A</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>活动监视器</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:941
+#, no-c-format
+msgid "Toggles the monitoring of the current tab for activity"
+msgstr "打开/关闭当前标签页活动状态的监视。"
+
+#. Tag: para
+#: index.docbook:943
+#, no-c-format
+msgid "Upon any activity, an info icon will appear on the session's tab. The type of alerts can be changed through <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Notifications</guimenuitem><guimenuitem>Activity in monitored session</guimenuitem></menuchoice>."
+msgstr "有任何活动时，一个信息图标会出现在这个会话的标签页上。您可以通过 <menuchoice><guimenu>设置</guimenu><guimenuitem>配置通知...</guimenuitem><guimenuitem>在监视的会话中检测到活动</guimenuitem></menuchoice> 更改警告类型。"
+
+#. Tag: menuchoice
+#: index.docbook:951
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Monitor for Process Finishing</guimenuitem>"
+msgstr "<guimenu>视图</guimenu><guimenuitem>进程结束监视器</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:954
+#, no-c-format
+msgid "<action>Toggles the monitoring of the current tab for the process finishing</action>."
+msgstr "<action>打开/关闭当前标签页进程结束的监视。</action>"
+
+#. Tag: para
+#: index.docbook:956
+#, no-c-format
+msgid "If checked, upon finishing the current process, &konsole; will show a notification <guilabel>The process '<replaceable>name of the process</replaceable>' has finished running in session '<replaceable>name of the session</replaceable>'</guilabel>."
+msgstr "如果选中，当前进程结束时，&konsole; 会显示通知 <guilabel>运行于会话“<replaceable>会话名称</replaceable>”中的进程“<replaceable>进程名称</replaceable>”已经运行完成</guilabel>。"
+
+#. Tag: menuchoice
+#: index.docbook:962
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Read-only</guimenuitem>"
+msgstr "<guimenu>视图</guimenu><guimenuitem>只读</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:964
+#, no-c-format
+msgid "Toggles the session to be read-only: no input is accepted, drag and drop is disabled."
+msgstr "切换会话是否为只读：不接受输入，禁用拖放。"
+
+#. Tag: menuchoice
+#: index.docbook:970
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Enlarge Font</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>+</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>放大字体</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:973
+#, no-c-format
+msgid "Increases the text font size"
+msgstr "增加文本字体大小"
+
+#. Tag: menuchoice
+#: index.docbook:977
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>0</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Reset Font Size</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>0</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>重置字体大小</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:980
+#, no-c-format
+msgid "Reset the text font size to the profile default"
+msgstr "将文本字体大小重置为配置方案默认值"
+
+#. Tag: menuchoice
+#: index.docbook:985
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Shrink Font</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>-</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>缩小字体</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:988
+#, no-c-format
+msgid "Decreases the text font size"
+msgstr "减小文本字体大小"
+
+#. Tag: menuchoice
+#: index.docbook:992
+#, no-c-format
+msgid "<guimenu>View</guimenu> <guimenuitem>Set Encoding</guimenuitem>"
+msgstr "<guimenu>视图</guimenu> <guimenuitem>设定编码</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:994
+#, no-c-format
+msgid "Sets the character encoding"
+msgstr "设置字符编码"
+
+#. Tag: menuchoice
+#: index.docbook:998
+#, no-c-format
+msgid "<guimenu>View</guimenu><guimenuitem>Clear Scrollback</guimenuitem>"
+msgstr "<guimenu>视图</guimenu><guimenuitem>清除回滚历史</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:999
+#, no-c-format
+msgid "Clears the text in the scrollback"
+msgstr "清除回滚历史中的文本"
+
+#. Tag: menuchoice
+#: index.docbook:1004
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>K</keycap></keycombo></shortcut> <guimenu>View</guimenu><guimenuitem>Clear Scrollback and Reset</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>K</keycap></keycombo></shortcut> <guimenu>视图</guimenu><guimenuitem>清除回滚历史并重置</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1008
+#, no-c-format
+msgid "Clears the text in the current tab and scrollback and resets the terminal"
+msgstr "清除当前标签页和回滚历史中的文本，并重置终端"
+
+#. Tag: menuchoice
+#: index.docbook:1013
+#, no-c-format
+msgid "<shortcut><keycap>F11</keycap></shortcut> <guimenu>View</guimenu><guimenuitem>Full Screen Mode</guimenuitem>"
+msgstr "<shortcut><keycap>F11</keycap></shortcut> <guimenu>视图</guimenu><guimenuitem>全屏模式</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1016
+#, no-c-format
+msgid "Toggles &konsole; filling the entire screen"
+msgstr "切换 &konsole; 是否占满整个屏幕"
+
+#. Tag: title
+#: index.docbook:1023
+#, no-c-format
+msgid "Bookmarks Menu"
+msgstr "书签菜单"
+
+#. Tag: menuchoice
+#: index.docbook:1028
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></keycombo></shortcut> <guimenu>Bookmarks</guimenu><guimenuitem>Add Bookmark</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>B</keycap></keycombo></shortcut> <guimenu>书签</guimenu><guimenuitem>添加书签</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1031
+#, no-c-format
+msgid "Adds the current location"
+msgstr "添加当前位置"
+
+#. Tag: menuchoice
+#: index.docbook:1035
+#, no-c-format
+msgid "<guimenu>Bookmarks</guimenu><guimenuitem>Bookmark Tabs as Folder...</guimenuitem>"
+msgstr "<guimenu>书签</guimenu><guimenuitem>将标签页添加为书签文件夹...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1036
+#, no-c-format
+msgid "Adds all tabs to a bookmark folder"
+msgstr "将所有标签页添加为一个书签文件夹"
+
+#. Tag: para
+#: index.docbook:1037 index.docbook:1045
+#, no-c-format
+msgid "A dialog will open for the bookmark folder name."
+msgstr "请在出现的对话框中提供书签文件夹名。"
+
+#. Tag: menuchoice
+#: index.docbook:1043
+#, no-c-format
+msgid "<guimenu>Bookmarks</guimenu><guimenuitem>New Bookmark Folder...</guimenuitem>"
+msgstr "<guimenu>书签</guimenu><guimenuitem>新建书签文件夹...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1044
+#, no-c-format
+msgid "Adds a new folder to the bookmark list"
+msgstr "在书签列表中新建一个文件夹"
+
+#. Tag: menuchoice
+#: index.docbook:1051
+#, no-c-format
+msgid "<guimenu>Bookmarks</guimenu><guimenuitem>Edit Bookmarks</guimenuitem>"
+msgstr "<guimenu>书签</guimenu><guimenuitem>编辑书签...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1052
+#, no-c-format
+msgid "Opens the bookmark editor"
+msgstr "打开书签编辑器"
+
+#. Tag: para
+#: index.docbook:1053
+#, no-c-format
+msgid "The keditbookmarks program must be installed for this menu item to appear."
+msgstr "必须安装 keditbookmarks 程序，此菜单项才会显示。"
+
+#. Tag: para
+#: index.docbook:1054
+#, no-c-format
+msgid "You can use the bookmark editor to manually add URLs. Currently, &konsole; accepts the following:"
+msgstr "您可以使用书签编辑器手动添加 URL。目前，&konsole; 接受："
+
+#. Tag: para
+#: index.docbook:1057
+#, no-c-format
+msgid "ssh://user@host:port"
+msgstr "ssh://user@host:port"
+
+#. Tag: para
+#: index.docbook:1058
+#, no-c-format
+msgid "telnet://user@host:port"
+msgstr "telnet://user@host:port"
+
+#. Tag: title
+#: index.docbook:1069
+#, no-c-format
+msgid "Plugins Menu"
+msgstr "插件菜单"
+
+#. Tag: para
+#: index.docbook:1071
+#, no-c-format
+msgid "Any installed plugins will be listed or \"No plugins available\""
+msgstr "会列出所有已安装的插件，否则为“没有可用的插件”。"
+
+#. Tag: title
+#: index.docbook:1079
+#, no-c-format
+msgid "Settings Menu"
+msgstr "设置菜单"
+
+#. Tag: menuchoice
+#: index.docbook:1083
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Edit Current Profile...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>编辑当前配置方案...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1085
+#, no-c-format
+msgid "Opens a dialog to configure current profile"
+msgstr "打开对话框以编辑当前配置方案"
+
+#. Tag: menuchoice
+#: index.docbook:1091
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Switch Profile </guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>切换配置方案</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1093
+#, no-c-format
+msgid "Switch current profile to a listed profile"
+msgstr "从列表中切换当前配置方案"
+
+#. Tag: menuchoice
+#: index.docbook:1099
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Manage Profiles...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>管理配置方案...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1101
+#, no-c-format
+msgid "Opens an editor for managing profiles"
+msgstr "打开编辑器以管理配置方案"
+
+#. Tag: menuchoice
+#: index.docbook:1107
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Window Color Scheme</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>窗口配色方案</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1109
+#, no-c-format
+msgid "Change &konsole;'s &GUI; to the specified scheme"
+msgstr "更改 &konsole; 的 &GUI; 的配色方案"
+
+#. Tag: menuchoice
+#: index.docbook:1115
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>M</keycap></keycombo></shortcut> <guimenu>Settings</guimenu><guimenuitem>Show Menu Bar</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>M</keycap></keycombo></shortcut> <guimenu>设置</guimenu><guimenuitem>显示菜单栏</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1120
+#, no-c-format
+msgid "Toggles the menubar being visible"
+msgstr "切换菜单栏是否可见"
+
+#. Tag: menuchoice
+#: index.docbook:1124
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Toolbars Shown</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>显示工具栏</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1125
+#, no-c-format
+msgid "Allows visibility toggling of the &konsole; toolbars"
+msgstr "切换 &konsole; 的工具栏是否可见"
+
+#. Tag: menuchoice
+#: index.docbook:1130
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Show Statusbar</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>显示状态栏</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1132
+#, no-c-format
+msgid "Toggles the statusbar being visible"
+msgstr "切换状态栏是否可见"
+
+#. Tag: menuchoice
+#: index.docbook:1136
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Language... </guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置语言...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1138
+#, no-c-format
+msgid "Opens window to choose an interface translation of &konsole;."
+msgstr "打开窗口以选择 &konsole; 界面的语言"
+
+#. Tag: menuchoice
+#: index.docbook:1144
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Keyboard Shortcuts...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置键盘快捷键...</guimenuitem>"
+
+#. Tag: para
+#: index.docbook:1146
+#, no-c-format
+msgid "<action>Opens the keyboard shortcut editor.</action> More on shortcuts configuration can be found in the <ulink url=\"help:/fundamentals/shortcuts.html\">&kde; Fundamentals</ulink>."
+msgstr "<action>打开键盘快捷键编辑器。</action>关于快捷键配置的更多信息可参见 <ulink url=\"help:/fundamentals/shortcuts.html\">&kde; 基础</ulink>。"
+
+#. Tag: para
+#: index.docbook:1149
+#, no-c-format
+msgid "Additionally &konsole; has a few special shortcuts with no corresponding menu item:"
+msgstr "另外，&konsole; 还有一些特别的快捷方式，它们没有对应的菜单项："
+
+#. Tag: entry
+#: index.docbook:1155
+#, no-c-format
+msgid "Shortcut"
+msgstr "快捷键"
+
+#. Tag: entry
+#: index.docbook:1156
+#, no-c-format
+msgid "Description"
+msgstr "说明"
+
+#. Tag: keycombo
+#: index.docbook:1161
+#, no-c-format
+msgid "&Shift;<keysym>Right</keysym>"
+msgstr "&Shift;<keysym>右方向键</keysym>"
+
+#. Tag: entry
+#: index.docbook:1162
+#, no-c-format
+msgid "Next Tab"
+msgstr "下一个标签页"
+
+#. Tag: keycombo
+#: index.docbook:1165
+#, no-c-format
+msgid "&Shift;<keysym>Left</keysym>"
+msgstr "&Shift;<keysym>左方向键</keysym>"
+
+#. Tag: entry
+#: index.docbook:1166
+#, no-c-format
+msgid "Previous Tab"
+msgstr "上一个标签页"
+
+#. Tag: keycombo
+#: index.docbook:1169
+#, no-c-format
+msgid "&Ctrl;&Alt;<keysym>Left</keysym>"
+msgstr "&Ctrl;&Alt;<keysym>左方向键</keysym>"
+
+#. Tag: entry
+#: index.docbook:1170
+#, no-c-format
+msgid "Move Tab Left"
+msgstr "左移标签页"
+
+#. Tag: keycombo
+#: index.docbook:1173
+#, no-c-format
+msgid "&Ctrl;&Alt;<keysym>Right</keysym>"
+msgstr "&Ctrl;&Alt;<keysym>右方向键</keysym>"
+
+#. Tag: entry
+#: index.docbook:1174
+#, no-c-format
+msgid "Move Tab Right"
+msgstr "右移标签页"
+
+#. Tag: keycombo
+#: index.docbook:1177
+#, no-c-format
+msgid "&Ctrl;&Shift;<keysym>Ins</keysym>"
+msgstr "&Ctrl;&Shift;<keysym>Ins</keysym>"
+
+#. Tag: entry
+#: index.docbook:1178
+#, no-c-format
+msgid "Paste Selection"
+msgstr "粘贴选中内容"
+
+#. Tag: menuchoice
+#: index.docbook:1188
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置工具栏...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1190
+#, no-c-format
+msgid "Opens <ulink url=\"help:/fundamentals/config.html#toolbars-items\">the toolbar configuration window</ulink>"
+msgstr "打开 <ulink url=\"help:/fundamentals/config.html#toolbars-items\">工具栏配置窗口</ulink>"
+
+#. Tag: menuchoice
+#: index.docbook:1195
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Notifications...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置通知...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1197
+#, no-c-format
+msgid "Opens the notifications editor"
+msgstr "打开通知编辑器"
+
+#. Tag: menuchoice
+#: index.docbook:1202
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure &konsole;...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置 &konsole;...</guimenuitem>"
+
+#. Tag: action
+#: index.docbook:1204
+#, no-c-format
+msgid "Opens the &konsole; settings editor"
+msgstr "打开 &konsole; 设置编辑器"
+
+#. Tag: para
+#: index.docbook:1205
+#, no-c-format
+msgid "This dialog has options influencing the appearance and behaviour of the &konsole; window."
+msgstr "此对话框用于配置 &konsole; 窗口的外观和行为。"
+
+#. Tag: para
+#: index.docbook:1210
+#, no-c-format
+msgid "The <guilabel>General</guilabel> page allows configuring the menubar visibility, remembering the &konsole; window size, running all &konsole; windows in a single process, enabling menu accelerators, showing window title on the titlebar, removing window titlebar and frame, and focusing terminals when the mouse pointer is moved over them. It is also possible to configure the search case sensitivity, usage of the regular expression, highlighting all matches, and the search direction (<guilabel>Search backwards</guilabel> is the default). The <guilabel>General</guilabel> page is also the place where you can <guibutton>Enable all \"Don't Ask Again\" messages</guibutton> again if they were switched off before."
+msgstr "<guilabel>常规</guilabel> 页面用于配置菜单栏的可见性，记住 &konsole; 窗口大小，在同一个进程内运行所有 &konsole; 窗口，启用菜单快捷键，在标题栏显示窗口标题，移除窗口标题栏和框架，和鼠标光标途径终端时获取焦点。您也可以配置搜索是否区分大小写，是否使用正则表达式，高亮全部匹配，和搜索方向 (默认为 <guilabel>反向查找</guilabel>)。<guilabel>常规</guilabel> 页面也是您重新 <guibutton>启用所有设置为“不再询问”的消息</guibutton> 的地方，如果您之前关闭过它们的话。"
+
+#. Tag: para
+#: index.docbook:1221
+#, no-c-format
+msgid "The <guilabel>Profiles</guilabel> page is meant for creating and handling <link linkend=\"profiles\">profiles</link>."
+msgstr "<guilabel>配置方案</guilabel> 页面用于创建和管理 <link linkend=\"profiles\">配置方案</link>。"
+
+#. Tag: para
+#: index.docbook:1226
+#, no-c-format
+msgid "Using the <guilabel>Tab Bar/Splitters</guilabel> page you can configure the visibility and placement of tab bar, define tabs behavior and fine-tune the tab buttons options. It is possible to configure if you want to <guilabel>Show 'New Tab' button</guilabel> and <guilabel>Expand individual tab widths to full window</guilabel> or configure <guilabel>Use user-defined stylesheet</guilabel>. The <guilabel>Behavior</guilabel> tab can be used to define the place for the new tabs (<guilabel>At the end</guilabel> or <guilabel>After current tab</guilabel>) and closing of tabs with a &MMB; click."
+msgstr "<guilabel>标签页栏和拆分视图</guilabel> 页面用于配置标签页栏的可见性和位置，定义标签页行为并调整标签页按钮选项。您可以配置 <guilabel>显示“新建标签页”按钮</guilabel>，<guilabel>扩展单个标签页宽度到全窗口</guilabel>，和 <guilabel>使用用户定义的样式表</guilabel>。<guilabel>行为</guilabel> 选项卡用于定义新标签页的位置 (<guilabel>在最后</guilabel> 或 <guilabel>在当前标签页之后</guilabel>) 以及 &MMB; 点击关闭标签页。"
+
+#. Tag: para
+#: index.docbook:1234
+#, no-c-format
+msgid "It is also possible to configure visibility of the split headers (<guilabel>When needed</guilabel> (default), <guilabel>Always</guilabel>, or <guilabel>Never</guilabel>) and define the drag handle size for splits (<guilabel>Small</guilabel> (default), <guilabel>Medium</guilabel>, or <guilabel>Large</guilabel>) using the <guilabel>Splits</guilabel> tab of this configuration page."
+msgstr "您也可以在此页面中的 <guilabel>拆分视图</guilabel> 选项卡配置拆分视图标题的可见性 (<guilabel>当需要时</guilabel> (默认)，<guilabel>总是</guilabel>，或 <guilabel>从不</guilabel>)，以及定义拆分视图拖动柄的大小 (<guilabel>小</guilabel> (默认)，<guilabel>中</guilabel>，或 <guilabel>大</guilabel>)。"
+
+#. Tag: para
+#: index.docbook:1239
+#, no-c-format
+msgid "The <guilabel>Temporary Files</guilabel> page is used to define the <link linkend=\"scrollback\">scrollback</link> file location."
+msgstr "<guilabel>临时文件</guilabel> 页面用于定义 <link linkend=\"scrollback\">回滚历史</link> 文件的保存位置。"
+
+#. Tag: para
+#: index.docbook:1244
+#, no-c-format
+msgid "The <guilabel>Thumbnails</guilabel> page can be used to define the thumbnail size and activation options (you can choose the activation control key from &Shift;, &Alt;, and &Ctrl;)."
+msgstr "<guilabel>缩略图</guilabel> 页面用于定义缩略图尺寸和激活选项 (您可以从 &Shift;, &Alt;, 和 &Ctrl; 中选择激活键)。"
+
+#. Tag: para
+#: index.docbook:1249
+#, no-c-format
+msgid "To use the thumbnails feature showing image thumbnails in popups when hovering image items with the mouse pointer, you should enable file underlining for your current profile: <menuchoice><guimenu>Settings</guimenu><guimenuitem>Edit Current Profile...</guimenuitem><guimenuitem>Mouse</guimenuitem><guimenuitem>Miscellaneous</guimenuitem><guimenuitem>Underline files</guimenuitem></menuchoice>."
+msgstr "要使用缩略图功能以在鼠标悬停于图像文件时弹出缩略图，您需要在当前配置方案中启用文件下划线：<menuchoice><guimenu>设置</guimenu><guimenuitem>编辑当前配置方案...</guimenuitem><guimenuitem>鼠标</guimenuitem><guimenuitem>杂项</guimenuitem><guimenuitem>文件加下划线</guimenuitem></menuchoice>。"
+
+#. Tag: title
+#: index.docbook:1262
+#, no-c-format
+msgid "Help Menu"
+msgstr "帮助菜单"
+
+#. Tag: para
+#: index.docbook:1263
+#, no-c-format
+msgid "&konsole; has the some of the common &kde; <guimenu>Help</guimenu> menu items, for more information read the section about the <ulink url=\"help:/fundamentals/menus.html#menus-help\">Help Menu</ulink> of the &kde; Fundamentals."
+msgstr "&konsole; 具有一些常见的 &kde; <guimenu>帮助</guimenu> 菜单项，详情请参见 &kde; 基础文档的 <ulink url=\"help:/fundamentals/menus.html#menus-help\">帮助菜单</ulink> 一节。"
+
+#. Tag: title
+#: index.docbook:1272
+#, no-c-format
+msgid "&konsole; Dialogs"
+msgstr "&konsole; 对话框"
+
+#. Tag: title
+#: index.docbook:1275
+#, no-c-format
+msgid "Configure Tab Settings Dialog"
+msgstr "配置标签页对话框"
+
+#. Tag: para
+#: index.docbook:1277
+#, no-c-format
+msgid "The name format, the remote tab title format, and the color of the current tab can be changed from this dialog. The dialog can be displayed via the menu, the shortcut <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>S</keycap></keycombo> or by double-clicking on the tab in the tab bar. These changes are temporary and can be made permanent by editing the current profile."
+msgstr "您可以在对话框中更改当前标签页的标题格式，远程标签页的标题格式，和标签页颜色。可以通过菜单、快捷键 <keycombo action=\"simul\">&Ctrl;&Alt;<keycap>S</keycap></keycombo>，或者双击标签栏中的一个标签页来打开这个对话框。这些更改是临时的；通过编辑当前配置方案可以永久保存相关更改。"
+
+#. Tag: para
+#: index.docbook:1284
+#, no-c-format
+msgid "&konsole; will substitute these tokens for local tabs:"
+msgstr "对于本地标签页，&konsole; 会替换这些变量："
+
+#. Tag: para
+#: index.docbook:1288
+#, no-c-format
+msgid "%n : program name"
+msgstr "%n : 程序名称"
+
+#. Tag: para
+#: index.docbook:1289
+#, no-c-format
+msgid "%d : current directory (short)"
+msgstr "%d : 当前目录 (短)"
+
+#. Tag: para
+#: index.docbook:1290
+#, no-c-format
+msgid "%D : current directory (long)"
+msgstr "%D : 当前目录 (长)"
+
+#. Tag: para
+#: index.docbook:1291
+#, no-c-format
+msgid "%h : local host (short)"
+msgstr "%h : 本地主机 (短)"
+
+#. Tag: para
+#: index.docbook:1292 index.docbook:1304
+#, no-c-format
+msgid "%u : user name"
+msgstr "%u : 用户名"
+
+#. Tag: para
+#: index.docbook:1293
+#, no-c-format
+msgid "%B : user's Bourne prompt sigil ($ = normal user, # = superuser)"
+msgstr "%B : 用户的 Bourne 提示符 sigil ($ 为普通用户，# 为超级用户)"
+
+#. Tag: para
+#: index.docbook:1294 index.docbook:1306
+#, no-c-format
+msgid "%w : window title set by shell"
+msgstr "%w : Shell 设置的窗口标题"
+
+#. Tag: para
+#: index.docbook:1295 index.docbook:1307
+#, no-c-format
+msgid "%# : session number"
+msgstr "%# : 会话编号"
+
+#. Tag: para
+#: index.docbook:1298
+#, no-c-format
+msgid "&konsole; will substitute these tokens for remote tabs:"
+msgstr "对于远程标签页，&konsole; 会替换这些变量："
+
+#. Tag: para
+#: index.docbook:1301
+#, no-c-format
+msgid "%c : current program"
+msgstr "%c : 当前程序"
+
+#. Tag: para
+#: index.docbook:1302
+#, no-c-format
+msgid "%h : remote host (short)"
+msgstr "%h : 远程主机 (短)"
+
+#. Tag: para
+#: index.docbook:1303
+#, no-c-format
+msgid "%H : remote host (long)"
+msgstr "%H : 远程主机 (长)"
+
+#. Tag: para
+#: index.docbook:1305
+#, no-c-format
+msgid "%U : user name@ (if given)"
+msgstr "%U : 用户名@ (如果给定)"
+
+#. Tag: para
+#: index.docbook:1311 index.docbook:1549 index.docbook:1842
+#, no-c-format
+msgid "Examples:"
+msgstr "例如："
+
+#. Tag: para
+#: index.docbook:1315
+#, no-c-format
+msgid "<userinput>%d : %n</userinput> with /usr/src as current directory and running <application>bash</application> will display <guibutton>src : bash</guibutton>"
+msgstr "<userinput>%d : %n</userinput> 如果 /usr/src 为当前目录，并且正在运行 <application>bash</application>，则会显示 <guibutton>src : bash</guibutton>"
+
+#. Tag: para
+#: index.docbook:1322
+#, no-c-format
+msgid "<userinput>%D : %n</userinput> with /usr/src as current directory and running <application>top</application> will display <guibutton>/usr/src : top</guibutton>"
+msgstr "<userinput>%D : %n</userinput> 如果 /usr/src 为当前目录，并且正在运行 <application>top</application>，则会显示 <guibutton>/usr/src : top</guibutton>"
+
+#. Tag: para
+#: index.docbook:1329
+#, no-c-format
+msgid "<userinput>%w (%#)</userinput> with ~ as current directory and running <application>vim</application> in the first tab will display <guibutton>[No Name] (~) - VIM(1)</guibutton>"
+msgstr "<userinput>%w (%#)</userinput> 如果 ~ 为当前目录，并且正在第一个标签页运行 <application>vim</application>，则会显示 <guibutton>[No Name] (~) - VIM(1)</guibutton>"
+
+#. Tag: title
+#: index.docbook:1343
+#, no-c-format
+msgid "Copy Input Dialog"
+msgstr "复制输入对话框"
+
+#. Tag: para
+#: index.docbook:1345
+#, no-c-format
+msgid "The text entered in one tab can simultaneously be sent to other tabs. This dialog allows you to select which tabs will get that input. The current tab will be greyed out."
+msgstr "在一个标签页中输入的文本可以同时发送到其他标签页。您可以在此对话框中选择哪些标签页应该接收这些输入。当前标签页会被标记为灰色。"
+
+#. Tag: title
+#: index.docbook:1367
+#, no-c-format
+msgid "Adjust Scrollback Dialog"
+msgstr "调整回滚历史对话框"
+
+#. Tag: para
+#: index.docbook:1369
+#, no-c-format
+msgid "The <link linkend=\"scrollback\">scrollback</link> options for the history size can be changed in this dialog. Any changes are for the current tab only and will not be saved to the profile."
+msgstr "<link linkend=\"scrollback\">回滚历史</link> 的行数大小可在此对话框中更改。所有更改仅对当前标签页有效，并且不会被保存到配置方案中。"
+
+#. Tag: title
+#: index.docbook:1382
+#, no-c-format
+msgid "Command-line Options"
+msgstr "命令行选项"
+
+#. Tag: para
+#: index.docbook:1384
+#, no-c-format
+msgid "When &konsole; is started from the command line, various options can be specified to modify its behavior."
+msgstr "当从命令行启动 &konsole; 时，可以指定这些选项以修改其行为。"
+
+#. Tag: option
+#: index.docbook:1389
+#, no-c-format
+msgid "--help"
+msgstr "--help"
+
+#. Tag: para
+#: index.docbook:1390
+#, no-c-format
+msgid "<action>List various options</action>."
+msgstr "<action>列出各种选项。</action>"
+
+#. Tag: term
+#: index.docbook:1394
+#, no-c-format
+msgid "<option>--profile</option> <parameter>file</parameter>"
+msgstr "<option>--profile</option> <parameter>file</parameter>"
+
+#. Tag: para
+#: index.docbook:1395
+#, no-c-format
+msgid "<action>Start &konsole;</action> using the specified profile instead of the default profile."
+msgstr "使用指定的配置方案 <action>启动 &konsole;</action>，而不是默认配置方案。"
+
+#. Tag: term
+#: index.docbook:1400
+#, no-c-format
+msgid "<option>--layout</option> <parameter>file</parameter>"
+msgstr "<option>--layout</option> <parameter>file</parameter>"
+
+#. Tag: para
+#: index.docbook:1401
+#, no-c-format
+msgid "<action>Start &konsole;</action> using a <link linkend=\"save-layout\">saved &JSON; layout file</link>."
+msgstr "使用 <link linkend=\"save-layout\">保存的 &JSON; 布局文件</link> <action>启动 &konsole;</action>。"
+
+#. Tag: option
+#: index.docbook:1405
+#, no-c-format
+msgid "--builtin-profile"
+msgstr "--builtin-profile"
+
+#. Tag: para
+#: index.docbook:1406
+#, no-c-format
+msgid "Use the built-in profile instead of the current default profile."
+msgstr "使用内建配置方案，而不是目前默认的配置方案。"
+
+#. Tag: term
+#: index.docbook:1410
+#, no-c-format
+msgid "<option>--workdir</option> <parameter>dir</parameter>"
+msgstr "<option>--workdir</option> <parameter>dir</parameter>"
+
+#. Tag: para
+#: index.docbook:1411
+#, no-c-format
+msgid "<action>Open with</action> <parameter>dir</parameter> as the initial working directory."
+msgstr "<action>使用</action> <parameter>dir</parameter> 作为初始工作目录。"
+
+#. Tag: option
+#: index.docbook:1416
+#, no-c-format
+msgid "--hold, --noclose"
+msgstr "--hold, --noclose"
+
+#. Tag: para
+#: index.docbook:1417
+#, no-c-format
+msgid "<action>Do not close</action> the initial session automatically when it ends."
+msgstr "初始会话结束时 <action>不自动关闭</action>。"
+
+#. Tag: option
+#: index.docbook:1422
+#, no-c-format
+msgid "--new-tab"
+msgstr "--new-tab"
+
+#. Tag: para
+#: index.docbook:1423
+#, no-c-format
+msgid "<action>Create a new tab</action> in an existing window rather than creating a new window."
+msgstr "在现有的窗口中 <action>新建标签页</action>，而不是新建一个窗口。"
+
+#. Tag: term
+#: index.docbook:1428
+#, no-c-format
+msgid "<option>--tabs-from-file </option><parameter>file</parameter>"
+msgstr "<option>--tabs-from-file </option><parameter>file</parameter>"
+
+#. Tag: para
+#: index.docbook:1429
+#, no-c-format
+msgid "<action>Create tabs</action> as specified in the given tabs configuration file."
+msgstr "根据给定的标签页配置文件 <action>建立标签页</action>。"
+
+#. Tag: para
+#: index.docbook:1431
+#, no-c-format
+msgid "The file has one tab per line in the following format:"
+msgstr "此文件每行表示一个标签页，格式为："
+
+#. Tag: para
+#: index.docbook:1432
+#, no-c-format
+msgid "Each line specifies a tab to open using up to 4 fields specifying how it is to open. Fields are delimited with <userinput>;;</userinput> and a field name must have a <userinput>:</userinput> appended. Empty lines or lines with <userinput>#</userinput> at the beginning are ignored, so you can use line beginning with <userinput>#</userinput> to add comments."
+msgstr "每行指定一个需要打开的标签页，最多用 4 个字段指定其打开方式。字段之间使用 <userinput>;;</userinput> 分隔，字段名后必须附有一个 <userinput>:</userinput>。空行和 <userinput>#</userinput> 开头的行会被忽略，所以您可以使用 <userinput>#</userinput> 开头的行添加注释。"
+
+#. Tag: member
+#: index.docbook:1439
+#, no-c-format
+msgid "<userinput>title:</userinput> a name for this tab, tab default if blank or not specified"
+msgstr "<userinput>title:</userinput> 标签页名称，如果未指定或者为空则会使用默认值"
+
+#. Tag: member
+#: index.docbook:1440
+#, no-c-format
+msgid "<userinput>workdir:</userinput> working directory, <filename class=\"directory\"> ~</filename> if blank or not specified"
+msgstr "<userinput>workdir:</userinput> 工作目录，如果未指定或者为空则会使用 <filename class=\"directory\">~</filename>"
+
+#. Tag: member
+#: index.docbook:1441
+#, no-c-format
+msgid "<userinput>profile:</userinput> a &konsole; profile to use, the default if blank or not specified"
+msgstr "<userinput>profile:</userinput> 要使用的 &konsole; 配置方案，如果未指定或者为空则会使用默认值"
+
+#. Tag: member
+#: index.docbook:1442
+#, no-c-format
+msgid "<userinput>command:</userinput> a command to run"
+msgstr "<userinput>command:</userinput> 要运行的命令"
+
+#. Tag: para
+#: index.docbook:1444
+#, no-c-format
+msgid "Each line should contain at least one of <userinput>command</userinput> or <userinput>profile</userinput> field."
+msgstr "每行应至少包含一个 <userinput>command</userinput> 或 <userinput>profile</userinput> 字段。"
+
+#. Tag: para
+#: index.docbook:1446
+#, no-c-format
+msgid "Example: <userinput>title: %n;; command: /usr/bin/top ;; profile: Shell</userinput>"
+msgstr "例如：<userinput>title: %n;; command: /usr/bin/top ;; profile: Shell</userinput>"
+
+#. Tag: option
+#: index.docbook:1452
+#, no-c-format
+msgid "--background-mode"
+msgstr "--background-mode"
+
+#. Tag: para
+#: index.docbook:1453
+#, no-c-format
+msgid "<action>Start &konsole;</action> in the background and bring to the front when <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F12</keycap></keycombo> (by default) is pressed."
+msgstr "在后台 <action>启动 &konsole;</action>，并在按下 <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F12</keycap></keycombo> (默认) 时将其移到前台。"
+
+#. Tag: option
+#: index.docbook:1458
+#, no-c-format
+msgid "--separate"
+msgstr "--separate"
+
+#. Tag: option
+#: index.docbook:1459
+#, no-c-format
+msgid "--nofork"
+msgstr "--nofork"
+
+#. Tag: para
+#: index.docbook:1460
+#, no-c-format
+msgid "<action>Run</action> the new instance of &konsole; in a separate process."
+msgstr "在一个独立进程中 <action>运行</action> &konsole; 的新实例。"
+
+#. Tag: option
+#: index.docbook:1465
+#, no-c-format
+msgid "--show-menubar"
+msgstr "--show-menubar"
+
+#. Tag: para
+#: index.docbook:1466
+#, no-c-format
+msgid "<action>Show</action> the menubar, overriding the default behavior."
+msgstr "<action>显示</action> 菜单栏，覆盖默认行为。"
+
+#. Tag: option
+#: index.docbook:1471
+#, no-c-format
+msgid "--hide-menubar"
+msgstr "--hide-menubar"
+
+#. Tag: para
+#: index.docbook:1472
+#, no-c-format
+msgid "<action>Hide</action> the menubar, overriding the default behavior."
+msgstr "<action>隐藏</action> 菜单栏，覆盖默认行为。"
+
+#. Tag: option
+#: index.docbook:1477
+#, no-c-format
+msgid "--show-tabbar"
+msgstr "--show-tabbar"
+
+#. Tag: para
+#: index.docbook:1478
+#, no-c-format
+msgid "<action>Show</action> the tabbar, overriding the default behavior."
+msgstr "<action>显示</action> 标签页栏，覆盖默认行为。"
+
+#. Tag: option
+#: index.docbook:1483
+#, no-c-format
+msgid "--hide-tabbar"
+msgstr "--hide-tabbar"
+
+#. Tag: para
+#: index.docbook:1484
+#, no-c-format
+msgid "<action>Hide</action> the tabbar, overriding the default behavior."
+msgstr "<action>隐藏</action> 标签页栏，覆盖默认行为。"
+
+#. Tag: option
+#: index.docbook:1489
+#, no-c-format
+msgid "--fullscreen"
+msgstr "--fullscreen"
+
+#. Tag: para
+#: index.docbook:1490
+#, no-c-format
+msgid "<action>Start &konsole; in fullscreen mode</action>."
+msgstr "<action>以全屏模式启动 &konsole;。</action>"
+
+#. Tag: option
+#: index.docbook:1494
+#, no-c-format
+msgid "--notransparency"
+msgstr "--notransparency"
+
+#. Tag: para
+#: index.docbook:1495
+#, no-c-format
+msgid "<action>Disable</action> transparent backgrounds, even if the system supports them."
+msgstr "<action>禁用</action> 背景透明，即使系统支持。"
+
+#. Tag: option
+#: index.docbook:1500
+#, no-c-format
+msgid "--list-profiles"
+msgstr "--list-profiles"
+
+#. Tag: para
+#: index.docbook:1501
+#, no-c-format
+msgid "<action>List</action> all available profiles."
+msgstr "<action>列出</action> 所有可用的配置方案。"
+
+#. Tag: option
+#: index.docbook:1506
+#, no-c-format
+msgid "--list-profile-properties"
+msgstr "--list-profile-properties"
+
+#. Tag: para
+#: index.docbook:1508
+#, no-c-format
+msgid "<action>List</action> all possible properties with name and type. See option <option>-p</option>."
+msgstr "<action>列出</action> 所有可用属性的名称和类型。参见选项 <option>-p</option>。"
+
+#. Tag: para
+#: index.docbook:1510
+#, no-c-format
+msgid "For more information, please visit <ulink url=\"https://api.kde.org/4.14-api/applications-apidocs/konsole/html/classKonsole_1_1Profile.html\">&konsole; API Reference</ulink>."
+msgstr "详情请参见 <ulink url=\"https://api.kde.org/4.14-api/applications-apidocs/konsole/html/classKonsole_1_1Profile.html\">&konsole; API 参考</ulink>。"
+
+#. Tag: term
+#: index.docbook:1519
+#, no-c-format
+msgid "<option>-p</option> <parameter>property=value</parameter>"
+msgstr "<option>-p</option> <parameter>property=value</parameter>"
+
+#. Tag: para
+#: index.docbook:1520
+#, no-c-format
+msgid "<action>Change</action> the value of a profile property."
+msgstr "<action>更改</action> 一个配置方案属性的值。"
+
+#. Tag: term
+#: index.docbook:1525
+#, no-c-format
+msgid "<option>-e</option> <parameter>command</parameter>"
+msgstr "<option>-e</option> <parameter>command</parameter>"
+
+#. Tag: para
+#: index.docbook:1526
+#, no-c-format
+msgid "<action>Execute</action> <parameter>command</parameter> instead of the normal shell."
+msgstr "<action>执行</action> <parameter>command</parameter>，而不是默认 shell。"
+
+#. Tag: para
+#: index.docbook:1528
+#, no-c-format
+msgid "This option will catch all following arguments passed to &konsole;, and execute it as <parameter>command</parameter>. So this option should always be used as the last option."
+msgstr "此选项会接收所有在它之后传递给 &konsole; 的参数，并作为 <parameter>command</parameter> 执行。因此，应始终最后指定该参数。"
+
+#. Tag: para
+#: index.docbook:1534
+#, no-c-format
+msgid "&konsole; also accepts generic &Qt; and &kf5-full; options, see man pages qt5options and kf5options."
+msgstr "&konsole; 也接受通用的 &Qt; 和 &kf5-full; 选项，参见 qt5options 和 kf5options 的 man 手册页。"
+
+#. Tag: title
+#: index.docbook:1539
+#, no-c-format
+msgid "Scripting &konsole;"
+msgstr "&konsole; 脚本编程"
+
+#. Tag: para
+#: index.docbook:1541
+#, no-c-format
+msgid "&konsole; does support numerous methods that can be used with &DBus;."
+msgstr "&konsole; 支持若干 &DBus; 下的操作。"
+
+#. Tag: para
+#: index.docbook:1543
+#, no-c-format
+msgid "There are two ways to use the &DBus; interface: &Qt;'s &GUI; <application>qdbusviewer</application> and the command line <application>qdbus</application>."
+msgstr "有两种使用 &DBus; 接口的方法：&Qt; 的 &GUI; 工具 <application>qdbusviewer</application>，和命令行工具 <application>qdbus</application>。"
+
+#. Tag: para
+#: index.docbook:1553
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> will display all services available."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> 会显示所有可用的服务。"
+
+#. Tag: para
+#: index.docbook:1559
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole</option> will display the &DBus; interface for &konsole;."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole</option> 会显示 &konsole; 的 &DBus; 接口。"
+
+#. Tag: para
+#: index.docbook:1566
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /Windows/1</option> will display methods for controlling window 1."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /Windows/1</option> 会显示可用于控制窗口 1 的方法。"
+
+#. Tag: para
+#: index.docbook:1574
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole $KONSOLE_DBUS_WINDOW</option> will display methods for controlling the current window."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole $KONSOLE_DBUS_WINDOW</option> 会显示可用于控制当前窗口的方法。"
+
+#. Tag: para
+#: index.docbook:1581
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /Sessions/1</option> will display methods for controlling session 1."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole /Sessions/1</option> 会显示可用于控制会话 1 的方法。"
+
+#. Tag: para
+#: index.docbook:1588
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole $KONSOLE_DBUS_SESSION</option> will display methods for controlling the current session."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> <option>org.kde.konsole $KONSOLE_DBUS_SESSION</option> 会显示可用于控制当前会话的方法。"
+
+#. Tag: para
+#: index.docbook:1595
+#, no-c-format
+msgid "<prompt>&percnt;</prompt> <command>qdbus</command> <option>$KONSOLE_DBUS_SERVICE $KONSOLE_DBUS_SESSION</option> will display methods for controlling the current &konsole;'s session."
+msgstr "<prompt>&percnt;</prompt> <command>qdbus</command> <option>$KONSOLE_DBUS_SERVICE $KONSOLE_DBUS_SESSION</option> 会显示可用于控制当前 &konsole; 会话的方法。"
+
+#. Tag: para
+#: index.docbook:1605
+#, no-c-format
+msgid "If any of the above commands outputs: Service 'org.kde.konsole' does not exist, change <option>org.kde.konsole</option> to one of the following:"
+msgstr "如果以上任何一个命令输出：Service 'org.kde.konsole' does not exist，请将 <option>org.kde.konsole</option> 更改为以下内容之一："
+
+#. Tag: para
+#: index.docbook:1612
+#, no-c-format
+msgid "<option>org.kde.konsole-`pidof -s konsole`</option> (will select first pid)"
+msgstr "<option>org.kde.konsole-`pidof -s konsole`</option> (会选择第一个 PID)"
+
+#. Tag: para
+#: index.docbook:1616
+#, no-c-format
+msgid "<option>$KONSOLE_DBUS_SERVICE</option> (this can be used from the current &konsole;)"
+msgstr "<option>$KONSOLE_DBUS_SERVICE</option> (可在当前 &konsole; 使用)"
+
+#. Tag: option
+#: index.docbook:1621
+#, no-c-format
+msgid "select one from the output of 'qdbus | grep konsole'"
+msgstr "从 'qdbus | grep konsole' 的输出中选择一个"
+
+#. Tag: para
+#: index.docbook:1627
+#, no-c-format
+msgid "For more information, please visit <ulink url=\"https://techbase.kde.org/Development/Tutorials/D-Bus/Introduction\">&DBus; tutorial</ulink>."
+msgstr "详情请参见 <ulink url=\"https://techbase.kde.org/Development/Tutorials/D-Bus/Introduction\">&DBus; 教程</ulink>。"
+
+#. Tag: title
+#: index.docbook:1635
+#, no-c-format
+msgid "Terminal Key Bindings"
+msgstr "终端按键绑定"
+
+#. Tag: title
+#: index.docbook:1638
+#, no-c-format
+msgid "How &konsole; Uses Key Bindings"
+msgstr "&konsole; 如何使用按键绑定"
+
+#. Tag: para
+#: index.docbook:1642
+#, no-c-format
+msgid "&konsole; uses *.keytab files to translate key combinations into control characters and escape sequences that are sent to the shell or to interactive programs (typically programs that use the Alternate Screen buffer, &eg; <application>vim</application>, <application>less</application>, <application>screen</application>) running in the shell."
+msgstr "&konsole; 使用 *.keytab 文件将按键组合转换为控制字符和转义序列，并发送到 shell 或在 shell 中运行的交互式程序 (通常是使用备用屏幕缓冲区的程序，例如：<application>vim</application>、<application>less</application>、<application>screen</application>)。"
+
+#. Tag: para
+#: index.docbook:1644
+#, no-c-format
+msgid "Users can customize the key bindings settings in &konsole; using the Key Bindings Editor. A key combination can be configured to send a specific control or escape sequence to the terminal."
+msgstr "用户可以使用按键绑定编辑器自定义 &konsole; 中的按键绑定设置。可以将按键组合配置为向终端发送指定的控制字符或转义序列。"
+
+#. Tag: para
+#: index.docbook:1646
+#, no-c-format
+msgid "You can open the Key Bindings Editor from the menu entry <menuchoice><guimenu>Settings</guimenu><guimenuitem>Edit Current Profile</guimenuitem></menuchoice>, and going to the <guilabel>Keyboard</guilabel> tab. Listed there are the Key Bindings schemas that come by default with &konsole;."
+msgstr "您可以从 <menuchoice><guimenu>设置</guimenu><guimenuitem>编辑当前配置方案</guimenuitem></menuchoice> 菜单项中的 <guilabel>键盘</guilabel> 选项卡打开按键绑定编辑器。其中列出了 &konsole; 自带的按键绑定方案。"
+
+#. Tag: title
+#: index.docbook:1650
+#, no-c-format
+msgid "Key Combinations and Modes"
+msgstr "按键组合和模式"
+
+#. Tag: para
+#: index.docbook:1652
+#, no-c-format
+msgid "Key combinations follow the pattern:"
+msgstr "按键组合遵循以下格式："
+
+#. Tag: programlisting
+#: index.docbook:1653
+#, no-c-format
+msgid "Key (+|-) Modes"
+msgstr "按键(+|-)模式"
+
+#. Tag: para
+#: index.docbook:1656
+#, no-c-format
+msgid "for example:"
+msgstr "例如："
+
+#. Tag: programlisting
+#: index.docbook:1657
+#, no-c-format
+msgid "Up+Shift+AppScreen\n"
+"Down+Shift-AppScreen\n"
+"Space+Ctrl"
+msgstr "Up+Shift+AppScreen\n"
+"Down+Shift-AppScreen\n"
+"Space+Ctrl"
+
+#. Tag: para
+#: index.docbook:1660
+#, no-c-format
+msgid "Key names are defined in the qnamespace.h header file, with the <quote>Qt::Key_</quote> prefix removed, for a list of key names check the <ulink url=\"https://doc.qt.io/qt-5/qt.html#Key-enum\">Qt::Key enumeration in the &Qt; documentation</ulink>."
+msgstr "按键名在 qnamespace.h 头文件中定义，但没有 <quote>Qt::Key_</quote> 前缀。按键名列表请查阅 <ulink url=\"https://doc.qt.io/qt-5/qt.html#Key-enum\">&Qt; 文档中的 Qt::Key 枚举</ulink>。"
+
+#. Tag: para
+#: index.docbook:1662
+#, no-c-format
+msgid "A <quote>+</quote> preceding a Mode name means that mode is <emphasis>set</emphasis>; for a modifier key, that means it's pressed, whereas for all other modes it means that particular mode is in effect (&ie; active). For example <quote>+Ctrl</quote> means the key combination will work only if the &Ctrl; key is pressed."
+msgstr "模式名称前面的 <quote>+</quote> 表示此模式为 <emphasis>set</emphasis> (按下修饰键，或启用相应的模式)。例如，<quote>+Ctrl</quote> 代表按键组合仅会在按下 &Ctrl; 键时生效。"
+
+#. Tag: para
+#: index.docbook:1664
+#, no-c-format
+msgid "A <quote>-</quote> preceding a Mode name means that mode is <emphasis>reset</emphasis>; basically this is the opposite of putting <quote>+</quote> before a Mode name, so for a modifier key that means the key isn't pressed, whereas for all other modes it means that particular mode is inactive. For example <quote>-Ctrl</quote> means the key combination will work only if the &Ctrl; key is <emphasis>not</emphasis> pressed."
+msgstr "模式名称前面的 <quote>-</quote> 表示此模式为 <emphasis>reset</emphasis>，即与模式名称前面为 <quote>+</quote> 时相反 (未按下修饰键，或未启用相应的模式)。例如，<quote>-Ctrl</quote> 代表按键组合仅会在 <emphasis>未</emphasis> 按下 &Ctrl; 键时生效。"
+
+#. Tag: para
+#: index.docbook:1667
+#, no-c-format
+msgid "If a Mode name isn't present in a key combination, its state is ignored."
+msgstr "如果按键组合中不存在模式名称，则忽略其状态。"
+
+#. Tag: para
+#: index.docbook:1670
+#, no-c-format
+msgid "The supported Key Bindings modes are listed below:"
+msgstr "下面列出了支持的按键绑定模式："
+
+#. Tag: term
+#: index.docbook:1675
+#, no-c-format
+msgid "Alt, Ctrl, Shift"
+msgstr "Alt, Ctrl, Shift"
+
+#. Tag: para
+#: index.docbook:1677
+#, no-c-format
+msgid "One or more of these Modes can be used in a key combination, if any of them is set, the key combination uses that modifier key, respectively; and vice versa if it's reset"
+msgstr "可以在按键组合中使用这些模式中的一个或多个。按键组合将会使用设置为 set 的相应修饰键，不会使用设置为 reset 的"
+
+#. Tag: term
+#: index.docbook:1682
+#, no-c-format
+msgid "AnyModifier"
+msgstr "AnyModifier"
+
+#. Tag: para
+#: index.docbook:1684
+#, no-c-format
+msgid "If this mode is set, the key combination uses any modifier key (any of the previous three modifier keys); and vice versa if it's reset"
+msgstr "如果此模式为 set，按键组合将会使用任何修饰键 (上面三个修饰键中的任何一个)；如果为 reset 则相反"
+
+#. Tag: term
+#: index.docbook:1689
+#, no-c-format
+msgid "Ansi"
+msgstr "Ansi"
+
+#. Tag: para
+#: index.docbook:1691
+#, no-c-format
+msgid "If this mode is set, &konsole; will send ANSI escape and control sequences"
+msgstr "如果此模式为 set，&konsole; 将会发送 ANSI 控制字符和转义序列"
+
+#. Tag: para
+#: index.docbook:1692
+#, no-c-format
+msgid "If this mode is reset &konsole; will send VT52 escape and control sequences"
+msgstr "如果此模式为 reset，&konsole; 将会发送 VT52 控制字符和转义序列"
+
+#. Tag: term
+#: index.docbook:1697
+#, no-c-format
+msgid "AppScreen"
+msgstr "AppScreen"
+
+#. Tag: para
+#: index.docbook:1699
+#, no-c-format
+msgid "If this mode is set, the key combination will only affect interactive programs that use the Alternate Screen buffer"
+msgstr "如果此模式为 set，按键组合将仅影响使用备用屏幕缓冲区的交互式程序"
+
+#. Tag: para
+#: index.docbook:1700
+#, no-c-format
+msgid "If this mode is reset the key combination will only affect the terminal when it's using the Normal Screen buffer"
+msgstr "如果此模式为 reset，按键组合将仅影响使用正常屏幕缓冲区时的终端"
+
+#. Tag: para
+#: index.docbook:1703
+#, no-c-format
+msgid "&konsole; makes use of two screen buffers:"
+msgstr "&konsole; 使用两个屏幕缓冲区："
+
+#. Tag: para
+#: index.docbook:1706
+#, no-c-format
+msgid "The Normal Screen buffer (default): allows you to scroll back to view previous lines of output, this is the default buffer you usually use to execute commands... &etc;"
+msgstr "正常屏幕缓冲区 (默认)：允许您向前滚动以查看先前的输出行。默认情况下，您的命令一般在此缓冲区执行"
+
+#. Tag: para
+#: index.docbook:1709
+#, no-c-format
+msgid "The Alternate Screen buffer: the terminal switches to this buffer when you run an interactive program (&eg; <application>less</application>, <application>vim</application>, <application>screen</application>, <application>tmux</application>... &etc;)"
+msgstr "备用屏幕缓冲区：当您运行交互式程序 (例如：<application>less</application>、<application>vim</application>、<application>screen</application>、<application>tmux</application> 等) 时，终端会切换到此缓冲区"
+
+#. Tag: term
+#: index.docbook:1718
+#, no-c-format
+msgid "KeyPad"
+msgstr "KeyPad"
+
+#. Tag: para
+#: index.docbook:1720
+#, no-c-format
+msgid "If this mode is set, the key combination uses a key on the Keypad (Number Pad). This mode is useful to distinguish between keys on the keyboard and keys on the Keypad. For example when Num Lock is <emphasis>on</emphasis> you can configure two separate key combinations, one using the key labelled <quote>1</quote> on the keyboard (usually under the <keycap>F1</keycap> key) and the other using the key labelled <quote>1</quote> on the Keypad. The same concept applies when Num Lock is <emphasis>off</emphasis> for the End, Home, Cursor Keys ...etc on the Keypad"
+msgstr "如果此模式为 set，按键组合将会使用小键盘 (数字小键盘) 上面的按键。此模式对于区分键盘上面的按键和小键盘上面的按键很有用。例如，当小键盘数字锁定 <emphasis>激活</emphasis> 时，您可以配置两个独立的按键组合：一个使用键盘上面的 <quote>1</quote> 键 (通常在 <keycap>F1</keycap> 键下面)，另一个使用小键盘上面的 <quote>1</quote> 键。小键盘数字锁定 <emphasis>禁用</emphasis> 时，同样的方法也适用于小键盘上面的 End、Home 和方向键等按键"
+
+#. Tag: term
+#: index.docbook:1725
+#, no-c-format
+msgid "AppCursorKeys"
+msgstr "AppCursorKeys"
+
+#. Tag: para
+#: index.docbook:1727
+#, no-c-format
+msgid "This mode implements the VT100 <ulink url=\"https://www.vt100.net/docs/vt100-ug/chapter3.html#DECCKM\">Cursor Keys Mode (DECCKM)</ulink>. It controls the escape sequences each Cursor Key (<keycap>Up</keycap>, <keycap>Down</keycap>, <keycap>Right</keycap>, <keycap>Left</keycap>) sends, depending on whether this mode is set or reset"
+msgstr "此模式会实现 VT100 <ulink url=\"https://www.vt100.net/docs/vt100-ug/chapter3.html#DECCKM\">方向键模式 (Cursor Keys Mode, DECCKM)</ulink>。这也将调整方向键 (<keycap>上</keycap>、<keycap>下</keycap>、<keycap>左</keycap>、<keycap>右</keycap>) 发送的转义序列，取决于此模式为 set 还是 reset"
+
+#. Tag: para
+#: index.docbook:1728
+#, no-c-format
+msgid "By default &konsole; follows the XTerm behavior of treating the <keycap>Home</keycap> and <keycap>End</keycap> keys as cursor keys with respect to DECCKM"
+msgstr "默认情况下，&konsole; 遵循 XTerm 行为，将 <keycap>Home</keycap> 和 <keycap>End</keycap> 键视为 DECCKM 的方向键"
+
+#. Tag: term
+#: index.docbook:1733
+#, no-c-format
+msgid "AppKeyPad"
+msgstr "AppKeyPad"
+
+#. Tag: para
+#: index.docbook:1735
+#, no-c-format
+msgid "If this mode is set, the key combination will only work when the Keypad is in Application Mode (DECKPAM)"
+msgstr "如果此模式为 set，按键组合将仅会在小键盘处于应用模式 (Application Mode, DECKPAM) 时生效"
+
+#. Tag: para
+#: index.docbook:1736
+#, no-c-format
+msgid "If this mode is reset, the key combination will only work when the Keypad is in Numeric Mode (DECKPNM)"
+msgstr "如果此模式为 reset，按键组合将仅会在小键盘处于数字模式 (Numeric Mode, DECKPNM) 时生效"
+
+#. Tag: term
+#: index.docbook:1741
+#, no-c-format
+msgid "NewLine"
+msgstr "NewLine"
+
+#. Tag: para
+#: index.docbook:1743
+#, no-c-format
+msgid "If this mode is set, the <keycap>Return</keycap> (Enter) key on the keyboard will send both Carriage Return \"\\r\" and New Line \"\\n\" control characters"
+msgstr "如果此模式为 set，键盘上面的 <keycap>Return</keycap> 键将会同时发送控制字符回车符“\\r”和换行符“\\n”"
+
+#. Tag: para
+#: index.docbook:1744
+#, no-c-format
+msgid "If this mode is reset, the <keycap>Return</keycap> key will send only a Carriage Return \"\\r\""
+msgstr "如果此模式为 reset，<keycap>Return</keycap> 键将仅发送回车符“\\r”"
+
+#. Tag: para
+#: index.docbook:1745
+#, no-c-format
+msgid "The same applies to the <keycap>Enter</keycap> key on the Keypad"
+msgstr "这同样也适用于小键盘上面的 <keycap>Enter</keycap> 键"
+
+#. Tag: para
+#: index.docbook:1746
+#, no-c-format
+msgid "This mode emulates the <ulink url=\"https://www.vt100.net/docs/vt100-ug/chapter3.html#LNM\">LNM - Line Feed/New Line Mode</ulink>"
+msgstr "此模式模拟 <ulink url=\"https://www.vt100.net/docs/vt100-ug/chapter3.html#LNM\">换行/新建行模式 (Line Feed/New Line Mode, LNM)</ulink>"
+
+#. Tag: para
+#: index.docbook:1752
+#, no-c-format
+msgid "Note that each combination of Key and Modes (set/reset) must be unique. For example, consider the following two rules:"
+msgstr "请注意，按键和模式 (set/reset) 的每个组合必须是唯一的。以以下两条规则为例："
+
+#. Tag: para
+#: index.docbook:1755
+#, no-c-format
+msgid "A+Shift : <quote>A</quote>"
+msgstr "A+Shift : <quote>A</quote>"
+
+#. Tag: para
+#: index.docbook:1756
+#, no-c-format
+msgid "a : <quote>a</quote>"
+msgstr "a : <quote>a</quote>"
+
+#. Tag: para
+#: index.docbook:1758
+#, no-c-format
+msgid "&konsole; will <emphasis>not</emphasis> accept the small letter <quote>a</quote> rule, you have to add a <quote>-Shift</quote> to that rule to make it work."
+msgstr "&konsole; <emphasis>不</emphasis> 会接受只有小写字母 <quote>a</quote> 的规则，您需要向该规则添加 <quote>-Shift</quote> 才能使其生效。"
+
+#. Tag: title
+#: index.docbook:1762
+#, no-c-format
+msgid "The Output Field"
+msgstr "输出字段"
+
+#. Tag: para
+#: index.docbook:1764
+#, no-c-format
+msgid "In the Output field you can add the escape sequences or control characters that you want &konsole; to send to the terminal when the associated key combination is pressed."
+msgstr "在输出字段中，您可以添加您希望 &konsole; 在按下关联的按键组合时发送到终端的控制字符或转义序列。"
+
+#. Tag: para
+#: index.docbook:1766
+#, no-c-format
+msgid "You can also use any of the following keywords, each of which has a special meaning in &konsole;:"
+msgstr "您还可以使用以下关键词，它们在 &konsole; 中都有特殊含义："
+
+#. Tag: para
+#: index.docbook:1769
+#, no-c-format
+msgid "scrollUpLine : scroll up one line in the shell history scrollback buffer"
+msgstr "scrollUpLine : 在 shell 的回滚历史缓冲区中向上滚动一行"
+
+#. Tag: para
+#: index.docbook:1770
+#, no-c-format
+msgid "scrollUpPage : scroll up one page in the shell history scrollback buffer"
+msgstr "scrollUpPage : 在 shell 的回滚历史缓冲区中向上滚动一页"
+
+#. Tag: para
+#: index.docbook:1771
+#, no-c-format
+msgid "scrollDownLine : scroll down one line in the shell history scrollback buffer"
+msgstr "scrollDownLine : 在 shell 的回滚历史缓冲区中向下滚动一行"
+
+#. Tag: para
+#: index.docbook:1772
+#, no-c-format
+msgid "scrollDownPage : scroll down one page in the shell history scrollback buffer"
+msgstr "scrollDownPage : 在 shell 的回滚历史缓冲区中向下滚动一页"
+
+#. Tag: para
+#: index.docbook:1773
+#, no-c-format
+msgid "scrollUpToTop : scroll up to the begining of the shell history scrollback buffer"
+msgstr "scrollUpToTop : 向上滚动到 shell 的回滚历史缓冲区的开头"
+
+#. Tag: para
+#: index.docbook:1774
+#, no-c-format
+msgid "scrollDownToBottom : scroll down to the end of the shell history scrollback buffer"
+msgstr "scrollDownToBottom : 向下滚动到 shell 的回滚历史缓冲区的末尾"
+
+#. Tag: para
+#: index.docbook:1777
+#, no-c-format
+msgid "You can also use strings with C-string syntax; you may use the following escapes sequences:"
+msgstr "您还可以使用带有 C 字符串语法的字符串；以下是您可以使用的转义序列："
+
+#. Tag: para
+#: index.docbook:1780
+#, no-c-format
+msgid "\\E : Escape"
+msgstr "\\E : 转义"
+
+#. Tag: para
+#: index.docbook:1781
+#, no-c-format
+msgid "\\\\ : Backslash"
+msgstr "\\\\ : 反斜线"
+
+#. Tag: para
+#: index.docbook:1782
+#, no-c-format
+msgid "\\\" : Double quote"
+msgstr "\\\" : 双引号"
+
+#. Tag: para
+#: index.docbook:1783
+#, no-c-format
+msgid "\\t : Tab"
+msgstr "\\t : 制表符"
+
+#. Tag: para
+#: index.docbook:1784
+#, no-c-format
+msgid "\\r : Carriage Return"
+msgstr "\\r : 回车符"
+
+#. Tag: para
+#: index.docbook:1785
+#, no-c-format
+msgid "\\n : New line"
+msgstr "\\n : 换行符"
+
+#. Tag: para
+#: index.docbook:1786
+#, no-c-format
+msgid "\\b : Backspace"
+msgstr "\\b : 退格"
+
+#. Tag: para
+#: index.docbook:1788
+#, no-c-format
+msgid "\\xHH : where HH are two hex digits"
+msgstr "\\xHH : 其中 HH 为两位十六进制数字"
+
+#. Tag: para
+#: index.docbook:1790
+#, no-c-format
+msgid "This can be used to send &ASCII; control characters, &eg; <quote>\\x00</quote> which is the NUL character"
+msgstr "这可以用于发送 &ASCII; 控制字符，例如 <quote>\\x00</quote> 为 NUL 字符"
+
+#. Tag: title
+#: index.docbook:1798
+#, no-c-format
+msgid "Other System Resources"
+msgstr "其他系统资源"
+
+#. Tag: para
+#: index.docbook:1799
+#, no-c-format
+msgid "There are other system resources that can affect terminal Key Bindings:"
+msgstr "还有其他可能会影响到终端按键绑定的系统资源："
+
+#. Tag: para
+#: index.docbook:1802
+#, no-c-format
+msgid "Consult the <ulink url=\"man:terminfo(5)\">terminfo</ulink> or <ulink url=\"man:termcap(5)\">termcap</ulink> database for the expected escape sequences and control characters that each key combination is supposed to send."
+msgstr "关于每个按键组合预期发送的控制字符和转义序列，请查阅 <ulink url=\"man:terminfo(5)\">terminfo</ulink> 或 <ulink url=\"man:termcap(5)\">termcap</ulink> 数据库。"
+
+#. Tag: para
+#: index.docbook:1805
+#, no-c-format
+msgid "It is likely that your system has other keyboard databases which have to be in sync too, (&eg; <ulink url=\"man:bash(1)\">/etc/inputrc and readline</ulink> for the <application>BASH shell</application>) as they affect the operations (interactions) bound to key combinations."
+msgstr "您的系统可能还有其他需要同步的键盘数据库 (例如 <ulink url=\"man:bash(1)\">/etc/inputrc 和 readline</ulink> 对于 <application>BASH shell</application>)，因为它们会影响到按键组合绑定的操作 (交互)。"
+
+#. Tag: title
+#: index.docbook:1811
+#, no-c-format
+msgid "Further Reading"
+msgstr "延伸阅读"
+
+#. Tag: para
+#: index.docbook:1812
+#, no-c-format
+msgid "For more information on escape sequences and control characters, check the following documentation:"
+msgstr "如需了解更多关于控制字符和转义序列的信息，请查看以下文档："
+
+#. Tag: ulink
+#: index.docbook:1815
+#, no-c-format
+msgid "The VT100 user guide"
+msgstr "VT100 用户指南"
+
+#. Tag: ulink
+#: index.docbook:1818
+#, no-c-format
+msgid "The VT102 user guide"
+msgstr "VT102 用户指南"
+
+#. Tag: para
+#: index.docbook:1821
+#, no-c-format
+msgid "The comprehensive and indispensable <ulink url=\"https://invisible-island.net/xterm/ctlseqs/ctlseqs.html\">XTerm Control Sequences</ulink> documentation"
+msgstr "全面且不可或缺的 <ulink url=\"https://invisible-island.net/xterm/ctlseqs/ctlseqs.html\">XTerm 控制序列</ulink> 文档"
+
+#. Tag: title
+#: index.docbook:1830
+#, no-c-format
+msgid "Using Style Sheet for the Tab Bar"
+msgstr "在标签页栏使用样式表"
+
+#. Tag: para
+#: index.docbook:1831
+#, no-c-format
+msgid "The default style sheet for the tab bar sets the minimum and maximum tab widths. The user can create a <filename role=\"extension\">.css</filename> file and have &konsole; use that as the style sheet for the tab bar. In the <filename role=\"extension\">.css</filename> file, the widget to use is <userinput>QTabBar::tab</userinput>."
+msgstr "标签页栏的默认样式表设置了标签页的最小和最大宽度。您可以创建一个 <filename role=\"extension\">.css</filename> 文件，并将其用作 &konsole; 标签页栏的样式表。在此 <filename role=\"extension\">.css</filename> 文件中，应指定 <userinput>QTabBar::tab</userinput> 控件。"
+
+#. Tag: para
+#: index.docbook:1837
+#, no-c-format
+msgid "For more information, consider reading <ulink url=\"https://doc.qt.io/qt-5/stylesheet.html\">&Qt; Style Sheets</ulink>"
+msgstr "如需了解更多信息，您可阅读 <ulink url=\"https://doc.qt.io/qt-5/stylesheet.html\">&Qt; 样式表</ulink>"
+
+#. Tag: para
+#: index.docbook:1850
+#, no-c-format
+msgid "Change the selected tab's background to a light gray"
+msgstr "将选中标签页的背景更改为浅灰色"
+
+#. Tag: programlisting
+#: index.docbook:1852
+#, no-c-format
+msgid "QTabBar::tab:selected {\n"
+"    background: #999999\n"
+"}"
+msgstr "QTabBar::tab:selected {\n"
+"    background: #999999\n"
+"}"
+
+#. Tag: para
+#: index.docbook:1856
+#, no-c-format
+msgid "Change the selected tab's text to red"
+msgstr "将选中标签页的文本更改为红色"
+
+#. Tag: programlisting
+#: index.docbook:1858
+#, no-c-format
+msgid "QTabBar::tab:selected {\n"
+"    color: red\n"
+"}"
+msgstr "QTabBar::tab:selected {\n"
+"    color: red\n"
+"}"
+
+#. Tag: para
+#: index.docbook:1861
+#, no-c-format
+msgid "All tabs will be at least 200 pixels in width"
+msgstr "所有标签页都至少有 200 像素宽"
+
+#. Tag: programlisting
+#: index.docbook:1863
+#, no-c-format
+msgid "QTabBar::tab {\n"
+"    min-width: 200px\n"
+"}"
+msgstr "QTabBar::tab {\n"
+"    min-width: 200px\n"
+"}"
+
+#. Tag: para
+#: index.docbook:1866
+#, no-c-format
+msgid "Only the selected tab will be at least 200 pixels in width"
+msgstr "仅选中标签页会有至少 200 像素宽"
+
+#. Tag: programlisting
+#: index.docbook:1868
+#, no-c-format
+msgid "QTabBar::tab::selected {\n"
+"    min-width: 200px\n"
+"}"
+msgstr "QTabBar::tab::selected {\n"
+"    min-width: 200px\n"
+"}"
+
+#. Tag: para
+#: index.docbook:1871
+#, no-c-format
+msgid "Any of these can be combined in one file"
+msgstr "这些都可以合并在一个文件中"
+
+#. Tag: programlisting
+#: index.docbook:1873
+#, no-c-format
+msgid "QTabBar::tab::selected {\n"
+"    background: #999999;\n"
+"    color: red;\n"
+"    min-width: 200px;\n"
+"}\n"
+"QTabBar::tab {\n"
+"    min-width: 100px\n"
+"}"
+msgstr "QTabBar::tab::selected {\n"
+"    background: #999999;\n"
+"    color: red;\n"
+"    min-width: 200px;\n"
+"}\n"
+"QTabBar::tab {\n"
+"    min-width: 100px\n"
+"}"
+
+#. Tag: title
+#: index.docbook:1883
+#, no-c-format
+msgid "Did You Know?, Common Issues and More"
+msgstr "您知道吗？，常见问题及其他"
+
+#. Tag: title
+#: index.docbook:1886
+#, no-c-format
+msgid "Did You Know?"
+msgstr "您知道吗？"
+
+#. Tag: para
+#: index.docbook:1890
+#, no-c-format
+msgid "Pressing &Ctrl; while selecting text will cause lines breaks to be converted to spaces when pasted."
+msgstr "选择文本时按住 &Ctrl; 键可将粘贴时出现的换行符转换为空格。"
+
+#. Tag: para
+#: index.docbook:1894
+#, no-c-format
+msgid "Pressing the <keycombo action=\"simul\">&Ctrl;&Alt;</keycombo> keys while selecting text will select columns."
+msgstr "选择文本时按住 <keycombo action=\"simul\">&Ctrl;&Alt;</keycombo> 键可按列选择。"
+
+#. Tag: para
+#: index.docbook:1898
+#, no-c-format
+msgid "The <keycombo action=\"simul\">&Ctrl;<mousebutton>Wheel</mousebutton></keycombo> combination will zoom text size, like in konqueror and firefox."
+msgstr "<keycombo action=\"simul\">&Ctrl;<mousebutton>滚轮</mousebutton></keycombo> 组合键可缩放文本大小，与 konqueror 和 firefox 类似。"
+
+#. Tag: para
+#: index.docbook:1902
+#, no-c-format
+msgid "When a program evaluates either mouse button, pressing the &Shift; key will allow the popup menu to appear."
+msgstr "如果有程序会处理鼠标操作，可按 &Shift; 键以打开弹出菜单。"
+
+#. Tag: para
+#: index.docbook:1906
+#, no-c-format
+msgid "The <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F10</keycap></keycombo> shortcut will activate the menu."
+msgstr "快捷键 <keycombo action=\"simul\">&Ctrl;&Shift;<keycap>F10</keycap></keycombo> 会打开菜单。"
+
+#. Tag: para
+#: index.docbook:1910
+#, no-c-format
+msgid "The <keycombo action=\"simul\">&Shift;<keycap>Insert</keycap></keycombo> keys will insert the clipboard."
+msgstr "快捷键 <keycombo action=\"simul\">&Shift;<keycap>Insert</keycap></keycombo> 会粘贴剪贴板中的内容。"
+
+#. Tag: para
+#: index.docbook:1914
+#, no-c-format
+msgid "Double-clicking will select a whole word. Continuing to hold the mouse button and moving the mouse will extend the selection."
+msgstr "双击会选择整个词。继续按住鼠标按键并拖动鼠标可扩大选区。"
+
+#. Tag: para
+#: index.docbook:1918
+#, no-c-format
+msgid "Triple-clicking will select a whole line. Continuing to hold the mouse button and moving the mouse will extend the selection."
+msgstr "三击会选择一整行。继续按住鼠标按键并拖动鼠标可扩大选区。"
+
+#. Tag: para
+#: index.docbook:1922
+#, no-c-format
+msgid "There is a hidden feature for the \"%d\" formatter in tab title. You can tell &konsole; to abbreviate a directory name into its first character. For example, \"/path/to/konsole/src\" can be abbreviated into \"konsole/s\". If you want to enable and control this hidden feature, open <filename>konsolerc</filename> in <userinput><command>qtpaths</command> <option>--paths GenericConfigLocation</option></userinput> and add following lines:"
+msgstr "标签页标题中的“%d”占位符有一个隐藏功能。您可以让 &konsole; 将一个目录名缩略为它的第一个字符。例如，“/path/to/konsole/src”可以缩略为“konsole/s”。如果您想启用并配置这个隐藏功能，请在 <userinput><command>qtpaths</command> <option>--paths GenericConfigLocation</option></userinput> 中的 <filename>konsolerc</filename> 文件中添加以下行："
+
+#. Tag: programlisting
+#: index.docbook:1926
+#, no-c-format
+msgid "[ProcessInfo]\n"
+"CommonDirNames=name1,name2,name3..."
+msgstr "[ProcessInfo]\n"
+"CommonDirNames=name1,name2,name3..."
+
+#. Tag: para
+#: index.docbook:1928
+#, no-c-format
+msgid "If you are using <application>Yakuake</application>, you need to edit <filename>yakuakerc</filename> in <userinput><command>qtpaths</command> <option>--paths GenericConfigLocation</option></userinput> instead."
+msgstr "如果您在使用 <application>Yakuake</application>，您需要转而编辑 <userinput><command>qtpaths</command> <option>--paths GenericConfigLocation</option></userinput> 位置中的 <filename>yakuakerc</filename> 文件。"
+
+#. Tag: title
+#: index.docbook:1939
+#, no-c-format
+msgid "Common Issues"
+msgstr "常见问题"
+
+#. Tag: para
+#: index.docbook:1943
+#, no-c-format
+msgid "Some fonts might be unavailable for usage in &konsole;, although they are available in other applications. That doesn't mean there is a bug in &konsole;. &konsole; requires monospaced fonts to provide the best visual result, so it asks &Qt; to only list monospaced fonts."
+msgstr "有些字体无法在 &konsole; 中使用，即使它们在其它应用程序中可用。这不代表 &konsole; 有问题。&konsole; 需要等宽字体以提供最好的显示效果，所以会让 &Qt; 仅列出等宽字体。"
+
+#. Tag: para
+#: index.docbook:1945
+#, no-c-format
+msgid "Starting with version 16.08 (August 2016), &konsole; can be configured to allow selecting any font with the caveat that the display may not be correct."
+msgstr "从版本 16.08 (2016 年 8 月) 开始，&konsole; 可以被配置为允许选择任何字体，但会警告可能造成显示问题。"
+
+#. Tag: para
+#: index.docbook:1948
+#, no-c-format
+msgid "Since KDE4 all the tabs use the same process ID. This has the side-effect that if one tab's process has issues, all the other tabs may experience issues as well."
+msgstr "从 KDE4 开始，所有标签页均使用相同进程 ID。潜在问题是，如果某一标签页的进程出现问题，所有其他标签页可能都会遇到问题。"
+
+#. Tag: para
+#: index.docbook:1951
+#, no-c-format
+msgid "This is most noticeable when a command that connects to an external device or system (ssh, nfs) has issues."
+msgstr "在连接到外部设备或系统的命令 (如 ssh 和 nfs) 出现问题时，这一点最为明显。"
+
+#. Tag: para
+#: index.docbook:1955
+#, no-c-format
+msgid "&konsole; treats arguments after the <option>-e</option> option as one command and runs it directly, instead of parsing it and possibly dividing it into sub-commands for execution. This is different from xterm."
+msgstr "&konsole; 将 <option>-e</option> 选项后的参数作为一个完整的命令直接执行，而不会进行解析并尝试将其分割为多个子命令执行。这不同于 xterm。"
+
+#. Tag: para
+#: index.docbook:1962
+#, no-c-format
+msgid "<command>konsole -e \"command1 ; command2\"</command> does not work"
+msgstr "<command>konsole -e \"command1 ; command2\"</command> 不能运行"
+
+#. Tag: para
+#: index.docbook:1966
+#, no-c-format
+msgid "<command>konsole -e $SHELL -c \"command1 ; command2\"</command> works"
+msgstr "<command>konsole -e $SHELL -c \"command1 ; command2\"</command> 可以运行"
+
+#. Tag: para
+#: index.docbook:1974
+#, no-c-format
+msgid "&konsole; doesn't provide convenience for running login shell, because developers don't like the idea of running login shell in a terminal emulator."
+msgstr "&konsole; 不会为运行登录式 shell 提供便利，因为开发者通常并不喜欢在终端模拟器中运行登录式 shell。"
+
+#. Tag: para
+#: index.docbook:1977
+#, no-c-format
+msgid "Of course, users still can run login shell in &konsole; if they really need to. Edit the profile in use and modify its command to the form of starting a login shell explicitly, such as \"<command>bash -l</command>\" and \"<command>zsh -l</command>\"."
+msgstr "当然，您还是可以在 &konsole; 中运行登录式 shell，如果您真的需要的话。请编辑需要使用的配置方案，将其命令更改为显式启动登录式 shell 的形式，例如“<command>bash -l</command>”和“<command>zsh -l</command>”。"
+
+#. Tag: para
+#: index.docbook:1982
+#, no-c-format
+msgid "The <option>--new-tab</option> option sometimes behaves strangely. It may create new window, or it may create new tab in another existing &konsole; window instead of the current &konsole; window."
+msgstr "<option>--new-tab</option> 选项有时候会有异常行为。它可能会新建一个窗口，也可能会在另一个已有 &konsole; 窗口中新建一个标签页，而不是当前 &konsole; 窗口。"
+
+#. Tag: para
+#: index.docbook:1985
+#, no-c-format
+msgid "Those behaviors feel strange, but they are not necessarily bugs. The <option>--new-tab</option> option tries to reuse existing &konsole; windows, but not all &konsole; windows are reusable. All &konsole; windows opened through &krunner; are reusable, while most &konsole; windows opened from command line are not."
+msgstr "这个行为看起来很奇怪，但不一定是错误。<option>--new-tab</option> 选项会尝试重用现有的 &konsole; 窗口，但不是所有 &konsole; 窗口都能被重用。所有通过 &krunner; 打开的 &konsole; 窗口都能被重用，但多数从命令行打开的 &konsole; 窗口不行。"
+
+#. Tag: title
+#: index.docbook:1997
+#, no-c-format
+msgid "Credits and Copyright"
+msgstr "致谢与版权"
+
+#. Tag: para
+#: index.docbook:1999
+#, no-c-format
+msgid "&konsole; is currently maintained by &Kurt.Hindenburg; &Kurt.Hindenburg.mail;"
+msgstr "&konsole; 目前由 &Kurt.Hindenburg; &Kurt.Hindenburg.mail; 维护"
+
+#. Tag: para
+#: index.docbook:2001
+#, no-c-format
+msgid "Previous &konsole; maintainers include: &Robert.Knight; &Robert.Knight.mail; and &Waldo.Bastian; &Waldo.Bastian.mail;"
+msgstr "之前的 &konsole; 维护者有：&Robert.Knight; &Robert.Knight.mail; 和 &Waldo.Bastian; &Waldo.Bastian.mail;"
+
+#. Tag: para
+#: index.docbook:2003
+#, no-c-format
+msgid "The application &konsole; Copyright &copy; 1997-2008 &Lars.Doelle; &Lars.Doelle.mail;"
+msgstr "The application &konsole; Copyright &copy; 1997-2008 &Lars.Doelle; &Lars.Doelle.mail;"
+
+#. Tag: para
+#: index.docbook:2006
+#, no-c-format
+msgid "This document was originally written by &Jonathan.Singer; &Jonathan.Singer.mail;"
+msgstr "本文档最初由 &Jonathan.Singer; &Jonathan.Singer.mail; 编写"
+
+#. Tag: para
+#: index.docbook:2009
+#, no-c-format
+msgid "This document was updated for &kde; 4.x by &Kurt.Hindenburg; &Kurt.Hindenburg.mail;"
+msgstr "本文档由 &Kurt.Hindenburg; &Kurt.Hindenburg.mail; 更新到 &kde; 4.x"
+
+#. Tag: para
+#: index.docbook:2012
+#, no-c-format
+msgid "This document was updated for &kde; 3.4 by &Kurt.Hindenburg; &Kurt.Hindenburg.mail;"
+msgstr "本文档由 &Kurt.Hindenburg; &Kurt.Hindenburg.mail; 更新到 &kde; 3.4"
+
+#. Tag: para
+#: index.docbook:2015
+#, no-c-format
+msgid "Originally converted to DocBook <acronym>SGML</acronym> by &Mike.McBride; and &Lauri.Watts;"
+msgstr "由 &Mike.McBride; 和 &Lauri.Watts; 转换为 DocBook <acronym>SGML</acronym>"
+
+#. Tag: trans_comment
+#: index.docbook:2018
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para><ulink url=\"http://i18n.linux.net.cn\">开源软件国际化之简体中文组</ulink></para>"
+
+#. Tag: chapter
+#: index.docbook:2018
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr "&underFDL; &underGPL;"
+
+#. Tag: title
+#: index.docbook:2025
+#, no-c-format
+msgid "Links"
+msgstr "链接"
+
+#. Tag: para
+#: index.docbook:2027
+#, no-c-format
+msgid "For more information please visit these websites:"
+msgstr "如需了解更多信息，请访问这些网站："
+
+#. Tag: para
+#: index.docbook:2029
+#, no-c-format
+msgid "<ulink url=\"https://userbase.kde.org/Konsole\">&konsole;'s homepage on &kde;'s UserBase</ulink>&nbsp;"
+msgstr "<ulink url=\"https://userbase.kde.org/Konsole\">&konsole; 在 &kde; 的 UserBase 的主页</ulink>&nbsp;"
+
+#. Tag: ulink
+#: index.docbook:2030
+#, no-c-format
+msgid "&konsole;'s homepage"
+msgstr "&konsole; 的主页"
+
+#. Tag: ulink
+#: index.docbook:2031
+#, no-c-format
+msgid "&konsole;'s mailing list"
+msgstr "&konsole; 的邮件列表"
+
+#. Tag: ulink
+#: index.docbook:2032
+#, no-c-format
+msgid "&kde; on FreeBSD"
+msgstr "FreeBSD 上的 &kde;"
+
+#. Tag: ulink
+#: index.docbook:2034
+#, no-c-format
+msgid "&kde; on &Solaris;"
+msgstr "&Solaris; 上的 &kde;"
+
