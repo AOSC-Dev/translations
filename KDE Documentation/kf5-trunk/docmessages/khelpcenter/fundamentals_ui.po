@@ -1,0 +1,2303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2022-09-26 01:01+0000\n"
+"PO-Revision-Date: 2024-09-29 12:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/khelpcenter/fundamentals_ui.pot\n"
+"X-Crowdin-File-ID: 3188\n"
+"Language: zh_CN\n"
+
+#. Tag: title
+#: ui.docbook:7
+#, no-c-format
+msgid "Finding Your Way Around"
+msgstr "找到您自己的风格"
+
+#. Tag: author
+#: ui.docbook:12
+#, no-c-format
+msgid "<firstname>Claus</firstname> <surname>Christensen</surname>"
+msgstr "<firstname>Claus</firstname> <surname>Christensen</surname>"
+
+#. Tag: author
+#: ui.docbook:13 ui.docbook:743 ui.docbook:1302
+#, no-c-format
+msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+msgstr "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+
+#. Tag: trans_comment
+#: ui.docbook:14 ui.docbook:744 ui.docbook:1303
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "<othercredit role=\"translator\"><firstname>Rongfeng</firstname><surname>Ge</surname><affiliation><address><email>stellarpurr@gmail.com</email></address></affiliation></othercredit>"
+
+#. Tag: title
+#: ui.docbook:18
+#, no-c-format
+msgid "A Visual Dictionary"
+msgstr "一个图文导览"
+
+#. Tag: para
+#: ui.docbook:20
+#, no-c-format
+msgid "The &plasma-workspaces; feature many different graphical user interface elements, commonly known as <quote>widgets</quote>. This guide will introduce you to their names and functions."
+msgstr "&plasma-workspaces; 有很多不同的图形用户界面元素，通常被称为 <quote>窗口部件</quote>。本指南将向您介绍它们的名称和功能。"
+
+#. Tag: title
+#: ui.docbook:25
+#, no-c-format
+msgid "The Big Picture"
+msgstr "总览"
+
+#. Tag: title
+#: ui.docbook:28
+#, no-c-format
+msgid "Windows"
+msgstr "窗口"
+
+#. Tag: screeninfo
+#: ui.docbook:31
+#, no-c-format
+msgid "A Window"
+msgstr "一个窗口"
+
+#. Tag: para
+#: ui.docbook:55
+#, no-c-format
+msgid "This is the window of the &kwrite;, a text editor. Click on part of the window to learn more about it."
+msgstr "这是文本编辑器 &kwrite; 的窗口。点击窗口的某一部分即可了解更多相关信息。"
+
+#. Tag: para
+#: ui.docbook:60
+#, no-c-format
+msgid "The <emphasis role=\"bold\">Window Menu</emphasis>"
+msgstr "<emphasis role=\"bold\">窗口菜单</emphasis>"
+
+#. Tag: para
+#: ui.docbook:64
+#, no-c-format
+msgid "The <emphasis role=\"bold\"><link linkend=\"visualdict-titlebar\">Titlebar</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-titlebar\">标题栏</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:68
+#, no-c-format
+msgid "Buttons to <emphasis>minimize</emphasis>, <emphasis>maximize</emphasis>, or <emphasis>close</emphasis> the window"
+msgstr "用于 <emphasis>最小化</emphasis>、<emphasis>最大化</emphasis> 和 <emphasis>关闭</emphasis> 窗口的按钮"
+
+#. Tag: para
+#: ui.docbook:73
+#, no-c-format
+msgid "The <emphasis role=\"bold\"><link linkend=\"visualdict-menubar\">Menubar</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-menubar\">菜单栏</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:77
+#, no-c-format
+msgid "The <emphasis role=\"bold\"><link linkend=\"visualdict-toolbar\">Toolbar</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-toolbar\">工具栏</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:81
+#, no-c-format
+msgid "A very large <emphasis role=\"bold\"><link linkend=\"visualdict-text-area\">Text Area</link></emphasis> that acts as this program's <emphasis role=\"bold\"><link linkend=\"visualdict-central-widget\">Central Widget</link></emphasis>"
+msgstr "一个很大的 <emphasis role=\"bold\"><link linkend=\"visualdict-text-area\">文本区域</link></emphasis>，作为该程序的 <emphasis role=\"bold\"><link linkend=\"visualdict-central-widget\">中央窗口部件</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:88
+#, no-c-format
+msgid "A vertical <emphasis role=\"bold\"><link linkend=\"visualdict-scrollbar\">Scrollbar</link></emphasis> (there is also a horizontal scrollbar below the text box)"
+msgstr "垂直 <emphasis role=\"bold\"><link linkend=\"visualdict-scrollbar\">滚动条</link></emphasis> (文本框下方还有一个水平滚动条)"
+
+#. Tag: para
+#: ui.docbook:93
+#, no-c-format
+msgid "The <emphasis role=\"bold\"><link linkend=\"visualdict-statusbar\">Statusbar</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-statusbar\">状态栏</link></emphasis>"
+
+#. Tag: screeninfo
+#: ui.docbook:100
+#, no-c-format
+msgid "Another Window"
+msgstr "另一个窗口"
+
+#. Tag: para
+#: ui.docbook:119
+#, no-c-format
+msgid "This is the another window, that of the &dolphin; file manager. Click on part of the window to learn more about it."
+msgstr "这是文件管理器 &dolphin; 的窗口。点击窗口的某一部分即可了解更多相关信息。"
+
+#. Tag: para
+#: ui.docbook:124
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-panel\">panel</link></emphasis> that contains a list of Places on the computer system"
+msgstr "包含计算机系统上常用位置列表的 <emphasis role=\"bold\"><link linkend=\"visualdict-panel\">面板</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:129
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-breadcrumb\">Breadcrumb</link></emphasis> of the path of the displayed folder"
+msgstr "展示文件夹路径的 <emphasis role=\"bold\"><link linkend=\"visualdict-breadcrumb\">面包屑导航</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:134
+#, no-c-format
+msgid "A folder <emphasis role=\"bold\"><link linkend=\"visualdict-icon\">Icon</link></emphasis>"
+msgstr "一个文件夹的 <emphasis role=\"bold\"><link linkend=\"visualdict-icon\">图标</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:138
+#, no-c-format
+msgid "A file <emphasis role=\"bold\"><link linkend=\"visualdict-icon\">Icon</link></emphasis>"
+msgstr "一个文件的 <emphasis role=\"bold\"><link linkend=\"visualdict-icon\">图标</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:142
+#, no-c-format
+msgid "A highlighted <emphasis role=\"bold\"><link linkend=\"visualdict-icon\">Icon</link></emphasis>"
+msgstr "一个突出显示的 <emphasis role=\"bold\"><link linkend=\"visualdict-icon\">图标</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:146
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-context-menu\">Context Menu</link></emphasis> listing actions that can be performed on a file"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-context-menu\">右键菜单</link></emphasis>，列出了可以对文件执行的操作"
+
+#. Tag: para
+#: ui.docbook:151
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-slider\">Slider</link></emphasis> that changes the size of the <link linkend=\"visualdict-icon\">Icons</link> displayed"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-slider\">滑动条</link></emphasis>，用于更改显示 <link linkend=\"visualdict-icon\">图标</link> 的大小"
+
+#. Tag: para
+#: ui.docbook:157
+#, no-c-format
+msgid "More <emphasis role=\"bold\"><link linkend=\"visualdict-panel\">Panels</link></emphasis>"
+msgstr "更多 <emphasis role=\"bold\"><link linkend=\"visualdict-panel\">面板</link></emphasis>"
+
+#. Tag: title
+#: ui.docbook:166
+#, no-c-format
+msgid "Elements of Graphical User Interface (&GUI;)"
+msgstr "图形用户界面 (&GUI;) 元素"
+
+#. Tag: screeninfo
+#: ui.docbook:169
+#, no-c-format
+msgid "Some &GUI; Elements"
+msgstr "一些 &GUI; 元素"
+
+#. Tag: para
+#: ui.docbook:186
+#, no-c-format
+msgid "This screenshot, from the &systemsettings; Formats panel, shows some &GUI; elements. Click on part of the window to learn more about it."
+msgstr "这张截图来自 &systemsettings; 的格式面板，展示了一些 &GUI; 元素。点击窗口的某一部分即可了解更多相关信息。"
+
+#. Tag: para
+#: ui.docbook:191
+#, no-c-format
+msgid "An <emphasis role=\"bold\"><link linkend=\"visualdict-icon-list\">Icon List</link></emphasis> (the second item is selected)"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-icon-list\">图标列表</link></emphasis> (已选择第二项)"
+
+#. Tag: para
+#: ui.docbook:196
+#, no-c-format
+msgid "An open <emphasis role=\"bold\"><link linkend=\"visualdict-drop-down-box\">Drop Down Box</link></emphasis>"
+msgstr "打开的 <emphasis role=\"bold\"><link linkend=\"visualdict-drop-down-box\">下拉式菜单</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:201
+#, no-c-format
+msgid "An item in the <link linkend=\"visualdict-drop-down-box\">Drop Down Box</link> that has been selected"
+msgstr "<link linkend=\"visualdict-drop-down-box\">下拉式菜单</link> 中被选中的项目"
+
+#. Tag: para
+#: ui.docbook:207
+#, no-c-format
+msgid "Some more <emphasis role=\"bold\"><link linkend=\"visualdict-button\">Buttons</link></emphasis>"
+msgstr "更多 <emphasis role=\"bold\"><link linkend=\"visualdict-button\">按钮</link></emphasis>"
+
+#. Tag: screeninfo
+#: ui.docbook:214
+#, no-c-format
+msgid "Some More &GUI; Elements"
+msgstr "更多 &GUI; 元素"
+
+#. Tag: para
+#: ui.docbook:230
+#, no-c-format
+msgid "This screenshot, from the &systemsettings; Custom Shortcuts panel, shows some more &GUI; elements."
+msgstr "这张截图来自 &systemsettings; 的自定义快捷键面板，展示了更多 &GUI; 元素。"
+
+#. Tag: para
+#: ui.docbook:235
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-tree-view\">Tree View</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-tree-view\">树状视图</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:239
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-check-box\">Check Box</link></emphasis> that has been selected"
+msgstr "一个已勾选的 <emphasis role=\"bold\"><link linkend=\"visualdict-check-box\">复选框</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:244
+#, no-c-format
+msgid "A pair of <emphasis role=\"bold\"><link linkend=\"visualdict-spin-box\">Spin Boxes</link></emphasis>"
+msgstr "两个 <emphasis role=\"bold\"><link linkend=\"visualdict-spin-box\">数值框</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:248
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-menu-button\">Menu Button</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-menu-button\">菜单按钮</link></emphasis>"
+
+#. Tag: screeninfo
+#: ui.docbook:255
+#, no-c-format
+msgid "Even More &GUI; Elements"
+msgstr "其他 &GUI; 元素"
+
+#. Tag: para
+#: ui.docbook:269
+#, no-c-format
+msgid "This screenshot, from the &systemsettings; Default Applications panel, shows even more &GUI; elements. Click on part of the window to learn more about it."
+msgstr "这张截图来自 &systemsettings; 的默认应用程序面板，展示了其他 &GUI; 元素。点击窗口的某一部分即可了解更多相关信息。"
+
+#. Tag: para
+#: ui.docbook:275
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-list-box\">List Box</link></emphasis>"
+msgstr "<emphasis role=\"bold\"><link linkend=\"visualdict-list-box\">选择菜单</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:279
+#, no-c-format
+msgid "A pair of <emphasis role=\"bold\"><link linkend=\"visualdict-radio-button\">Radio Buttons</link></emphasis>"
+msgstr "两个 <emphasis role=\"bold\"><link linkend=\"visualdict-radio-button\">单选按钮</link></emphasis>"
+
+#. Tag: para
+#: ui.docbook:283
+#, no-c-format
+msgid "A <emphasis role=\"bold\"><link linkend=\"visualdict-text-box\">Text Box</link></emphasis>"
+msgstr "一个 <emphasis role=\"bold\"><link linkend=\"visualdict-text-box\">文本框</link></emphasis>"
+
+#. Tag: screeninfo
+#: ui.docbook:290
+#, no-c-format
+msgid "Some Combo Boxes"
+msgstr "一些组合框"
+
+#. Tag: para
+#: ui.docbook:301
+#, no-c-format
+msgid "Finally, this screenshot, from the &systemsettings; Colors panel, shows five <emphasis role=\"bold\"><link linkend=\"visualdict-tab\">Tabs</link></emphasis>"
+msgstr "最后这张截图来自 &systemsettings; 的颜色面板，展示了五个 <emphasis role=\"bold\"><link linkend=\"visualdict-tab\">选项卡</link></emphasis>。"
+
+#. Tag: title
+#: ui.docbook:310
+#, no-c-format
+msgid "The Widgets"
+msgstr "窗口部件"
+
+#. Tag: entry
+#: ui.docbook:319
+#, no-c-format
+msgid "Name"
+msgstr "名称"
+
+#. Tag: entry
+#: ui.docbook:320 ui.docbook:1348 ui.docbook:1401 ui.docbook:1490
+#: ui.docbook:1567 ui.docbook:1627 ui.docbook:1725 ui.docbook:1758
+#: ui.docbook:1846 ui.docbook:1946
+#, no-c-format
+msgid "Description"
+msgstr "描述"
+
+#. Tag: entry
+#: ui.docbook:321
+#, no-c-format
+msgid "Screenshot"
+msgstr "截图"
+
+#. Tag: entry
+#: ui.docbook:330
+#, no-c-format
+msgid "Central Widget"
+msgstr "中央窗口部件"
+
+#. Tag: entry
+#: ui.docbook:331
+#, no-c-format
+msgid "The main area of the running application. This might be the document you are editing in a word processor or the board of a game like Chess."
+msgstr "当前应用程序的主区域。这可能是您在文字处理软件中编辑的文档，或在国际象棋等游戏中的棋盘。"
+
+#. Tag: entry
+#: ui.docbook:343
+#, no-c-format
+msgid "Button"
+msgstr "按钮"
+
+#. Tag: entry
+#: ui.docbook:344
+#, no-c-format
+msgid "These can be clicked with the &LMB; to perform an action."
+msgstr "您可以 &LMB; 点击这些按钮以执行相关操作。"
+
+#. Tag: entry
+#: ui.docbook:355
+#, no-c-format
+msgid "Breadcrumb"
+msgstr "面包屑导航"
+
+#. Tag: entry
+#: ui.docbook:356
+#, no-c-format
+msgid "Shows the path in a hierarchical system, such as a filesystem. Click on any part of the path to go up in the tree to that location. Click on the arrow to the right of part of the path to go to another child element of that path."
+msgstr "显示层级系统 (如文件系统) 中的路径。您可以点击路径中的某部分以转到相应位置，或点击路径中某部分右侧的箭头以转到该位置的其他子元素。"
+
+#. Tag: entry
+#: ui.docbook:370
+#, no-c-format
+msgid "Check Box"
+msgstr "复选框"
+
+#. Tag: entry
+#: ui.docbook:371
+#, no-c-format
+msgid "These can be clicked to select and unselect items. They are typically used in a list of several selections. Selected items typically display a check mark, whereas unselected items will have an empty box."
+msgstr "您可以点击这些复选框以选择或取消选择项目。它们一般用于具有多个选择的列表中。选中的项目通常会显示一个对号，而未选中的项目则会显示一个空框。"
+
+#. Tag: entry
+#: ui.docbook:384
+#, no-c-format
+msgid "Color Selector"
+msgstr "颜色选择器"
+
+#. Tag: entry
+#: ui.docbook:385
+#, no-c-format
+msgid "This allows a color to be selected for various purposes, such as changing the color of text. For more information, see <xref linkend=\"colors\"/>"
+msgstr "您可以在此为各种用途选择颜色，例如更改文本的颜色。如需了解更多信息，请参见 <xref linkend=\"colors\"/>。"
+
+#. Tag: entry
+#: ui.docbook:397
+#, no-c-format
+msgid "Combo Box"
+msgstr "组合框"
+
+#. Tag: entry
+#: ui.docbook:398
+#, no-c-format
+msgid "A combination of a <link linkend=\"visualdict-drop-down-box\">Drop Down Box</link> and a <link linkend=\"visualdict-text-box\">Text Box</link>. You can select an option from the list, or type in the text box. Some combo boxes may automatically complete entries for you, or open the list with a list of choices that match what you have typed."
+msgstr "结合了 <link linkend=\"visualdict-drop-down-box\">下拉式菜单</link> 和 <link linkend=\"visualdict-text-box\">文本框</link>。您可以从选单中选择一个选项，或在文本框内输入。一些组合框可以帮您自动补全，或在选单中列出与您输入内容相匹配的选项。"
+
+#. Tag: entry
+#: ui.docbook:414
+#, no-c-format
+msgid "Context Menu"
+msgstr "右键菜单"
+
+#. Tag: entry
+#: ui.docbook:415
+#, no-c-format
+msgid "Many user interface elements in the &plasma; Workspace and in Applications contain a context menu, which can be opened by clicking on something with the &RMB;. This menu contains options and actions that usually affect the user interface element that was right-clicked."
+msgstr "&plasma; 工作区和应用程序中的许多用户界面元素都有右键菜单，可以通过 &RMB; 点击某个元素打开。该菜单内的选项和操作通常会影响被右键点击的用户界面元素。"
+
+#. Tag: entry
+#: ui.docbook:429
+#, no-c-format
+msgid "Dialog Box"
+msgstr "对话框"
+
+#. Tag: entry
+#: ui.docbook:430
+#, no-c-format
+msgid "A small window that appears above a larger application window. It may contain a message, warning, or configuration panel, among others."
+msgstr "显示在应用程序窗口上方的一个小窗口。可能有消息、警告、配置面板等内容。"
+
+#. Tag: entry
+#: ui.docbook:442
+#, no-c-format
+msgid "Drop Down Box"
+msgstr "下拉式菜单"
+
+#. Tag: entry
+#: ui.docbook:443
+#, no-c-format
+msgid "This provides a list of items, from which you may select one."
+msgstr "内含一个项目列表，您可以选择其中之一。"
+
+#. Tag: entry
+#: ui.docbook:454
+#, no-c-format
+msgid "Icon"
+msgstr "图标"
+
+#. Tag: entry
+#: ui.docbook:455
+#, no-c-format
+msgid "A graphical representation of something, such as a file or action. They typically, but not always, also contain a text description, either beneath or to the right of the icon."
+msgstr "对某一事物的图形化表示，如文件或动作。图标通常 (但不总是) 附有文本描述，位于其下方或右侧。"
+
+#. Tag: entry
+#: ui.docbook:468
+#, no-c-format
+msgid "Icon List"
+msgstr "图标列表"
+
+#. Tag: entry
+#: ui.docbook:469
+#, no-c-format
+msgid "This provides a list of items represented by an <link linkend=\"visualdict-icon\">Icon</link> and a description. It is typically used in the left panel of configuration panels to allow selection from various types of configuration categories."
+msgstr "这是一个由 <link linkend=\"visualdict-icon\">图标</link> 和描述表示的项目的列表。它通常会出现在配置面板的左侧面板，从而可以从不同配置类别中进行选择。"
+
+#. Tag: entry
+#: ui.docbook:483
+#, no-c-format
+msgid "List Box"
+msgstr "选择菜单"
+
+#. Tag: entry
+#: ui.docbook:484
+#, no-c-format
+msgid "This is a list of items that typically allows multiple items to be selected. To select a group of contiguous items, press the &Shift; key and click the first and last items. To select multiple items that are not contiguous, press the &Ctrl; key and select the desired items."
+msgstr "内含一个项目列表，您通常可以选择其中的多个。要选择连续的一组项目，请按住 &Shift; 键，并点击第一个和最后一个项目。要选择不连续的多个项目，请按住 &Ctrl; 键，并选择所需的项目。"
+
+#. Tag: entry
+#: ui.docbook:498
+#, no-c-format
+msgid "Menu"
+msgstr "菜单"
+
+#. Tag: entry
+#: ui.docbook:499
+#, no-c-format
+msgid "A list of selections, that usually perform an action, set an option, or opens a window. These can be opened from <link linkend=\"visualdict-menubar\">menubars</link> or <link linkend=\"visualdict-menu-button\">menu buttons</link>."
+msgstr "一个选择列表，通常用于执行某个操作、设置选项或打开一个窗口。您可以通过 <link linkend=\"visualdict-menubar\">菜单栏</link> 或 <link linkend=\"visualdict-menu-button\">菜单按钮</link> 打开菜单。"
+
+#. Tag: entry
+#: ui.docbook:513
+#, no-c-format
+msgid "Menubar"
+msgstr "菜单栏"
+
+#. Tag: entry
+#: ui.docbook:514
+#, no-c-format
+msgid "These are located at the top of nearly every window and provide access to all the functions of the running application. For more information, see <xref linkend=\"menus\"/>."
+msgstr "菜单栏位于几乎所有窗口的顶部，您可以在此访问当前应用程序的所有功能。如需了解更多信息，请参见 <xref linkend=\"menus\"/>。"
+
+#. Tag: entry
+#: ui.docbook:527
+#, no-c-format
+msgid "Menu Button"
+msgstr "菜单按钮"
+
+#. Tag: entry
+#: ui.docbook:528
+#, no-c-format
+msgid "A special type of <link linkend=\"visualdict-button\">button</link> that opens a <link linkend=\"visualdict-menu\">menu</link>."
+msgstr "一种特殊的 <link linkend=\"visualdict-button\">按钮</link>，用于打开 <link linkend=\"visualdict-menu\">菜单</link>。"
+
+#. Tag: entry
+#: ui.docbook:540
+#, no-c-format
+msgid "Panel <emphasis>or</emphasis> Sidebar <emphasis>or</emphasis> Tool View"
+msgstr "面板 <emphasis>和</emphasis> 侧栏 <emphasis>和</emphasis> 工具视图"
+
+#. Tag: entry
+#: ui.docbook:541
+#, no-c-format
+msgid "These are located on the sides or bottom of the <link linkend=\"visualdict-central-widget\">central widget</link> and allow you to perform many different tasks in an application. A text editor might provide a list of open documents in one, while a word processor might allow you to select a clip art image."
+msgstr "这些位于 <link linkend=\"visualdict-central-widget\">中央窗口部件</link> 的侧边或底部，使您可以在应用程序中执行许多不同的任务。例如，文本编辑器可能会在其中显示打开的文档列表，而文字处理软件可能会允许您选择剪贴画图片。"
+
+#. Tag: entry
+#: ui.docbook:556
+#, no-c-format
+msgid "Progress Bar"
+msgstr "进度条"
+
+#. Tag: entry
+#: ui.docbook:557
+#, no-c-format
+msgid "A small bar that indicates that a long-running operation is being performed. The bar may indicate how much of the operation has completed, or it may simply bounce back and forth to indicate that the operation is in progress."
+msgstr "一个细条，表明正在执行一个耗时较长的操作。进度条可能会显示操作完成进度，也可能只是来回移动以表示操作正在进行。"
+
+#. Tag: entry
+#: ui.docbook:571
+#, no-c-format
+msgid "Radio Button"
+msgstr "单选按钮"
+
+#. Tag: entry
+#: ui.docbook:572
+#, no-c-format
+msgid "These are used in a list of options, and only permit one of the options in the list to be selected."
+msgstr "单选按钮用于选项列表，且只允许选择列表中的一个选项。"
+
+#. Tag: entry
+#: ui.docbook:584
+#, no-c-format
+msgid "Scrollbar"
+msgstr "滚动条"
+
+#. Tag: entry
+#: ui.docbook:585
+#, no-c-format
+msgid "Allows you to navigate a document."
+msgstr "允许您浏览文档。"
+
+#. Tag: entry
+#: ui.docbook:596
+#, no-c-format
+msgid "Slider"
+msgstr "滑动条"
+
+#. Tag: entry
+#: ui.docbook:597
+#, no-c-format
+msgid "Allows a numeric value to be selected by moving a small bar either horizontally or vertically across a line."
+msgstr "您可以通过在线上横向或纵向移动一个小滑块以选择数值。"
+
+#. Tag: entry
+#: ui.docbook:609
+#, no-c-format
+msgid "Spin Box"
+msgstr "数值框"
+
+#. Tag: entry
+#: ui.docbook:610
+#, no-c-format
+msgid "This permits a numerical value to be selected, either by using the up and down arrows to the right of the box to raise or lower the value, respectively, or by typing the value into the <link linkend=\"visualdict-text-box\">text box</link>."
+msgstr "您可以在此通过使用框右侧的上下箭头分别增加或减少相应值，或者在 <link linkend=\"visualdict-text-box\">文本框</link> 内输入相应值，以选择一个数值。"
+
+#. Tag: entry
+#: ui.docbook:624
+#, no-c-format
+msgid "Status Bar"
+msgstr "状态栏"
+
+#. Tag: entry
+#: ui.docbook:625
+#, no-c-format
+msgid "These are located at the bottom of many applications and display information about what the application is currently doing. For instance, a web browser might indicate the progress of loading a web page, while a word processor might display the current word count."
+msgstr "状态栏位于许多应用程序的底部，显示关于应用程序正在执行操作的信息。例如，网页浏览器可能会在其中显示网页加载进度，而文字处理软件可能会显示当前单词计数。"
+
+#. Tag: entry
+#: ui.docbook:639
+#, no-c-format
+msgid "<entry>Tab</entry>"
+msgstr "<entry>选项卡</entry>"
+
+#. Tag: entry
+#: ui.docbook:640
+#, no-c-format
+msgid "These appear at the top of an area of a window, and permit that area of the window to be changed to a variety of different selections."
+msgstr "选项卡位于窗口中某一区域的顶部，您可以在此切换该区域显示的内容。"
+
+#. Tag: entry
+#: ui.docbook:652
+#, no-c-format
+msgid "Text Area"
+msgstr "文本区域"
+
+#. Tag: entry
+#: ui.docbook:653
+#, no-c-format
+msgid "Allows a large amount of text to be typed in, typically multiple lines or paragraphs. Unlike a <link linkend=\"visualdict-text-box\">Text Box</link>, pressing &Enter; will usually result in a line break."
+msgstr "您可以在此输入大量文本，通常是多行或多段。与 <link linkend=\"visualdict-text-box\">文本框</link> 不同，按 &Enter; 一般会换行。"
+
+#. Tag: entry
+#: ui.docbook:667
+#, no-c-format
+msgid "Text Box"
+msgstr "文本框"
+
+#. Tag: entry
+#: ui.docbook:668
+#, no-c-format
+msgid "A single-line text entry that allows a small amount of text to be typed in. Typically, pressing &Enter; will perform the same action as clicking the <guibutton>OK</guibutton> button."
+msgstr "一个单行文本输入框，您可以在此输入少量文本。一般情况下，按 &Enter; 会执行与点击 <guibutton>确定</guibutton> 按钮相同的操作。"
+
+#. Tag: entry
+#: ui.docbook:681
+#, no-c-format
+msgid "Titlebar"
+msgstr "标题栏"
+
+#. Tag: entry
+#: ui.docbook:682
+#, no-c-format
+msgid "This is located at the top of every window. It contains the name of the application and usually information about what the application is doing, like the title of the web page being viewed in a web browser or the filename of a document open in a word processor."
+msgstr "标题栏位于所有窗口的顶部。内含应用程序的名称，通常还会显示关于应用程序正在执行操作的信息。例如，网页浏览器中正在查看的网页标题，或文字处理软件中打开的文档文件名。"
+
+#. Tag: entry
+#: ui.docbook:696
+#, no-c-format
+msgid "Toolbar"
+msgstr "工具栏"
+
+#. Tag: entry
+#: ui.docbook:697
+#, no-c-format
+msgid "These are located near the top of many applications, typically directly underneath the <link linkend=\"visualdict-menubar\">menu bar</link>. They provide access to many common functions of the running application, like <emphasis>Save</emphasis> or <emphasis>Print</emphasis>."
+msgstr "工具栏位于许多应用程序的顶部附近，通常直接在 <link linkend=\"visualdict-menubar\">菜单栏</link> 下方。您可以在此访问当前应用程序的许多常见功能，如 <emphasis>保存</emphasis> 和 <emphasis>打印</emphasis>。"
+
+#. Tag: entry
+#: ui.docbook:711
+#, no-c-format
+msgid "Tree View"
+msgstr "树状视图"
+
+#. Tag: entry
+#: ui.docbook:712
+#, no-c-format
+msgid "A Tree View allows you to select from a hierarchical list of options. A section, or category, of the Tree View may be unexpanded, in which case no options will appear beneath it and the arrow to the left of the title will be pointing right, toward the title. It may also be expanded, in which case several options will be listed below it, and the arrow to the left of the title will be pointing down, toward the options. To expand a portion of the tree view, click the arrow to the left of the title of the section you wish to expand, double-click on the title, or select the title using your keyboard's arrow keys and press the &Enter; or <keycap>+</keycap> key. To minimize a portion of the tree view, you may also click the arrow, double-click on the title, or press the &Enter; or <keycap>-</keycap> key."
+msgstr "您可以在树状视图的层级选项列表中进行选择。树状视图中的某部分或类别可能处于未展开状态，此时其下方不会显示任何选项，标题左侧的箭头也会指向右边的标题。它也可能处于展开状态，此时其下方将会列出多个选项，标题左侧的箭头也会指向下方的选项。如需展开树状视图的某一部分，您可以点击该部分标题左侧的箭头，双击标题，或者使用键盘的方向键选择标题，然后按 &Enter; 键或 <keycap>+</keycap> 键。如需最小化树状视图的某一部分，您可以也点击该箭头，双击标题，或者按 &Enter; 键或 <keycap>-</keycap> 键。"
+
+#. Tag: title
+#: ui.docbook:748
+#, no-c-format
+msgid "Common Menus"
+msgstr "常见菜单"
+
+#. Tag: para
+#: ui.docbook:750
+#, no-c-format
+msgid "Many &kde; applications contain these menus. However, most applications will have more menu entries than those listed here, and others may be missing some of the entries listed here."
+msgstr "许多 &kde; 应用程序包含这些菜单。然而，大多数应用程序的菜单项比这里列出的更多，某些应用程序可能缺少一些这里列出的菜单项。"
+
+#. Tag: screeninfo
+#: ui.docbook:755
+#, no-c-format
+msgid "A Menu Bar"
+msgstr "菜单栏"
+
+#. Tag: phrase
+#: ui.docbook:758
+#, no-c-format
+msgid "A menubar"
+msgstr "菜单栏"
+
+#. Tag: para
+#: ui.docbook:759
+#, no-c-format
+msgid "The menubar in <ulink url=\"https://www.kde.org/applications/graphics/gwenview/\">&gwenview;</ulink>."
+msgstr "<ulink url=\"https://www.kde.org/applications/graphics/gwenview/\">&gwenview;</ulink> 中的菜单栏。"
+
+#. Tag: para
+#: ui.docbook:765
+#, no-c-format
+msgid "Some applications, like &dolphin;, do not show a menubar by default. You can show it by pressing <keycombo>&Ctrl;<keycap>M</keycap></keycombo>. You can also use this to hide the menubar in applications that support doing so."
+msgstr "默认情况下，&dolphin; 等应用程序不会显示菜单栏。您可以通过按 <keycombo>&Ctrl;<keycap>M</keycap></keycombo> 以显示菜单栏。您也可以使用这个组合键在支持该功能的应用程序中隐藏菜单栏。"
+
+#. Tag: title
+#: ui.docbook:770
+#, no-c-format
+msgid "The File Menu"
+msgstr "“文件”菜单"
+
+#. Tag: para
+#: ui.docbook:771
+#, no-c-format
+msgid "The <guimenu>File</guimenu> menu allows you to perform operations on the currently open file and access common tasks in applications."
+msgstr "您可以在 <guimenu>文件</guimenu> 菜单中对当前打开的文件执行操作，并访问应用程序中的常见任务。"
+
+#. Tag: para
+#: ui.docbook:774
+#, no-c-format
+msgid "Common menu items include:"
+msgstr "常见的菜单项包括："
+
+#. Tag: menuchoice
+#: ui.docbook:779
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>New</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>N</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>新建</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:783
+#, no-c-format
+msgid "Creates a new file."
+msgstr "新建一个文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:789
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>New Window</guimenuitem>"
+msgstr "<guimenu>文件</guimenu><guimenuitem>新建窗口</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:792
+#, no-c-format
+msgid "Opens a new window."
+msgstr "打开一个新窗口。"
+
+#. Tag: menuchoice
+#: ui.docbook:798
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Open...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>O</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>打开...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:802
+#, no-c-format
+msgid "Opens an already existing file."
+msgstr "打开一个已有文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:808
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Save</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>S</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>保存</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:812
+#, no-c-format
+msgid "Saves the file. If the file already exists it will be overwritten."
+msgstr "保存文件。如果文件已存在，它将被覆盖。"
+
+#. Tag: menuchoice
+#: ui.docbook:818
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Save As...</guimenuitem>"
+msgstr "<guimenu>文件</guimenu><guimenuitem>另存为...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:821
+#, no-c-format
+msgid "Saves the file with a new filename."
+msgstr "以新文件名保存文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:828
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Save All</guimenuitem>"
+msgstr "<guimenu>文件</guimenu><guimenuitem>全部保存</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:831
+#, no-c-format
+msgid "Saves all open files."
+msgstr "保存所有打开的文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:837
+#, no-c-format
+msgid "<shortcut><keycap>F5</keycap></shortcut> <guimenu>File</guimenu><guimenuitem>Reload</guimenuitem>"
+msgstr "<shortcut><keycap>F5</keycap></shortcut> <guimenu>文件</guimenu><guimenuitem>重新加载</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:841
+#, no-c-format
+msgid "Reloads the current file."
+msgstr "重新加载当前文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:847
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Reload All</guimenuitem>"
+msgstr "<guimenu>文件</guimenu><guimenuitem>全部重新加载</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:850
+#, no-c-format
+msgid "Reloads all open files."
+msgstr "重新加载所有打开的文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:856
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Print...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>P</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>打印...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:860
+#, no-c-format
+msgid "Prints the file. Use <guilabel>Print to File (PDF)</guilabel> to generate a &PDF; file or select a range of pages to print only these pages to a new &PDF; file"
+msgstr "打印文件。使用 <guilabel>打印到文件 (PDF)</guilabel> 可以生成一个 &PDF; 文件，或者也可以选择页码范围以仅将这些页面打印到 &PDF; 文件"
+
+#. Tag: menuchoice
+#: ui.docbook:867
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Close</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>W</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>关闭</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:871
+#, no-c-format
+msgid "Closes the current file."
+msgstr "关闭当前文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:877
+#, no-c-format
+msgid "<guimenu>File</guimenu><guimenuitem>Close All</guimenuitem>"
+msgstr "<guimenu>文件</guimenu><guimenuitem>全部关闭</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:880
+#, no-c-format
+msgid "Closes all open files."
+msgstr "关闭所有打开的文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:886
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></shortcut> <guimenu>File</guimenu><guimenuitem>Quit</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Q</keycap></keycombo></shortcut> <guimenu>文件</guimenu><guimenuitem>退出</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:890
+#, no-c-format
+msgid "Exits the program."
+msgstr "退出程序。"
+
+#. Tag: title
+#: ui.docbook:899
+#, no-c-format
+msgid "The Edit Menu"
+msgstr "“编辑”菜单"
+
+#. Tag: para
+#: ui.docbook:900
+#, no-c-format
+msgid "The <guimenu>Edit</guimenu> menu allows you to modify the currently open file."
+msgstr "您可以在 <guimenu>编辑</guimenu> 菜单中修改当前打开的文件。"
+
+#. Tag: menuchoice
+#: ui.docbook:906
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>Z</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>撤销</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:910
+#, no-c-format
+msgid "Undo the last action you performed in the file."
+msgstr "撤销您在文件中执行的上一个操作。"
+
+#. Tag: menuchoice
+#: ui.docbook:916
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Redo</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>Z</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>重做</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:920
+#, no-c-format
+msgid "Redo the last action you performed in the file."
+msgstr "重做您在文件中执行的上一个操作。"
+
+#. Tag: menuchoice
+#: ui.docbook:926
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Cut</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>X</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>剪切</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:930
+#, no-c-format
+msgid "Removes the currently selected portion of the file, if any, and places a copy of it in the clipboard buffer."
+msgstr "删除当前您在文件中选定的内容 (如果有)，并将其副本放入剪贴板缓冲区。"
+
+#. Tag: menuchoice
+#: ui.docbook:937
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Copy</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>C</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>复制</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:941
+#, no-c-format
+msgid "Places a copy of the currently selected portion of the file, if any, in the clipboard buffer."
+msgstr "将当前您在文件中选定的内容 (如果有) 复制到剪贴板缓冲区。"
+
+#. Tag: menuchoice
+#: ui.docbook:948
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>V</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>粘贴</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:952
+#, no-c-format
+msgid "Copies the first item in the clipboard buffer to the current location in the file, if any."
+msgstr "将剪贴板缓冲区中的第一个项目 (如果有) 复制到文件中的当前位置。"
+
+#. Tag: menuchoice
+#: ui.docbook:959
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Select All</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>A</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>选择全部</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:963
+#, no-c-format
+msgid "Selects the entire contents of the currently open file."
+msgstr "选择当前打开的文件的全部内容。"
+
+#. Tag: menuchoice
+#: ui.docbook:969
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>F</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>查找...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:973
+#, no-c-format
+msgid "Allows you to search for text in the currently open file."
+msgstr "允许您在当前打开的文件中搜索文本。"
+
+#. Tag: menuchoice
+#: ui.docbook:979
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Replace...</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>R</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>替换...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:983
+#, no-c-format
+msgid "Allows you to search for text in the currently open file and replace it with something else."
+msgstr "允许您在当前打开的文件中搜索文本，并将其替换为其他内容。"
+
+#. Tag: menuchoice
+#: ui.docbook:990
+#, no-c-format
+msgid "<shortcut><keycap>F3</keycap></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Next</guimenuitem>"
+msgstr "<shortcut><keycap>F3</keycap></shortcut> <guimenu>编辑</guimenu><guimenuitem>查找下一个</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:994
+#, no-c-format
+msgid "Go to the next match of the last Find operation."
+msgstr "转到刚才查找操作的下一个匹配项。"
+
+#. Tag: menuchoice
+#: ui.docbook:1000
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo></shortcut> <guimenu>Edit</guimenu><guimenuitem>Find Previous</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F3</keycap></keycombo></shortcut> <guimenu>编辑</guimenu><guimenuitem>查找上一个</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1004
+#, no-c-format
+msgid "Go to the previous match of the last Find operation."
+msgstr "转到刚才查找操作的上一个匹配项。"
+
+#. Tag: title
+#: ui.docbook:1013
+#, no-c-format
+msgid "The View Menu"
+msgstr "“视图”菜单"
+
+#. Tag: para
+#: ui.docbook:1014
+#, no-c-format
+msgid "The <guimenu>View</guimenu> menu allows you to change the layout of the currently open file and/or the running application."
+msgstr "您可以在 <guimenu>视图</guimenu> 菜单中更改当前打开的文件和/或应用程序的布局。"
+
+#. Tag: para
+#: ui.docbook:1017
+#, no-c-format
+msgid "This menu has different options depending on the application you are using."
+msgstr "根据您正在使用的应用程序，该菜单的选项会有所不同。"
+
+#. Tag: title
+#: ui.docbook:1022
+#, no-c-format
+msgid "The Tools Menu"
+msgstr "“工具”菜单"
+
+#. Tag: para
+#: ui.docbook:1023
+#, no-c-format
+msgid "The <guimenu>Tools</guimenu> menu allows you to perform certain actions on the currently open file."
+msgstr "您可以在 <guimenu>工具</guimenu> 菜单中对当前打开的文件执行某些操作。"
+
+#. Tag: menuchoice
+#: ui.docbook:1029
+#, no-c-format
+msgid "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>O</keycap></keycombo></shortcut> <guimenu>Tools</guimenu><guimenuitem>Automatic Spell Checking</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;&Shift;<keycap>O</keycap></keycombo></shortcut> <guimenu>工具</guimenu><guimenuitem>自动拼写检查</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1033
+#, no-c-format
+msgid "Check for spelling errors as you type. For more information, see <xref linkend=\"spellcheck-auto\"/>."
+msgstr "在您输入时检查拼写错误。如需了解更多信息，请参见 <xref linkend=\"spellcheck-auto\"/>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1040
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Spelling...</guimenuitem>"
+msgstr "<guimenu>工具</guimenu><guimenuitem>拼写检查...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1043
+#, no-c-format
+msgid "This initiates the spellchecking program - a program designed to help the user catch and correct any spelling errors. For more information, see <xref linkend=\"spellcheck-check\"/>."
+msgstr "这会启动拼写检查程序——帮助用户发现并改正拼写错误的程序。如需了解更多信息，请参见 <xref linkend=\"spellcheck-check\"/>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1051
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Spelling (from cursor)...</guimenuitem>"
+msgstr "<guimenu>工具</guimenu><guimenuitem>拼写检查 (从光标位置开始)...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1054
+#, no-c-format
+msgid "This initiates the spellchecking program, but only checks the portion of the document from the current location of the cursor to the end. For more information, see <xref linkend=\"spellcheck-check\"/>."
+msgstr "这会启动拼写检查程序，但仅检查从当前光标位置到文档末尾的内容。如需了解更多信息，请参见 <xref linkend=\"spellcheck-check\"/>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1062
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Spellcheck Selection...</guimenuitem>"
+msgstr "<guimenu>工具</guimenu><guimenuitem>检查选中文本拼写...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1065
+#, no-c-format
+msgid "This initiates the spellchecking program, but only checks the currently selected text in the document. For more information, see <xref linkend=\"spellcheck-check\"/>."
+msgstr "这会启动拼写检查程序，但仅检查当前文档中选定的文本。如需了解更多信息，请参见 <xref linkend=\"spellcheck-check\"/>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1072
+#, no-c-format
+msgid "<guimenu>Tools</guimenu><guimenuitem>Change Dictionary...</guimenuitem>"
+msgstr "<guimenu>工具</guimenu><guimenuitem>更改词典...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1075
+#, no-c-format
+msgid "This allows you to change the dictionary used to check spellings. For more information, see <xref linkend=\"spellcheck-config\"/>."
+msgstr "您可以在此更改用于拼写检查的词典。如需了解更多信息，请参见 <xref linkend=\"spellcheck-config\"/>。"
+
+#. Tag: title
+#: ui.docbook:1086
+#, no-c-format
+msgid "The Settings Menu"
+msgstr "“设置”菜单"
+
+#. Tag: para
+#: ui.docbook:1087
+#, no-c-format
+msgid "The <guimenu>Settings</guimenu> allows you to customize the application."
+msgstr "您可以在 <guimenu>设置</guimenu> 菜单中自定义应用程序。"
+
+#. Tag: para
+#: ui.docbook:1089
+#, no-c-format
+msgid "This menu typically contains the following items:"
+msgstr "该菜单通常包括以下项目："
+
+#. Tag: menuchoice
+#: ui.docbook:1093
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> </shortcut> <guimenu>Settings</guimenu> <guimenuitem>Show Menubar</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo></shortcut> <guimenu>设置</guimenu><guimenuitem>显示菜单栏</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1100
+#, no-c-format
+msgid "<action>Toggle the Menubar display</action> on and off. Once hidden it can be made visible using the shortcut <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> again. If the menubar is hidden, the context menu opened with a right mouse button click anywhere in the view area has an extra entry <guimenuitem>Show Menubar</guimenuitem>."
+msgstr "<action>显示/隐藏菜单栏。</action>隐藏后，可以使用快捷键 <keycombo action=\"simul\">&Ctrl;<keycap>M</keycap></keycombo> 重新显示。如果隐藏了菜单栏，右键点击视图区域任意位置时，打开的右键菜单中将会有一个额外选项 <guimenuitem>显示菜单栏</guimenuitem>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1110
+#, no-c-format
+msgid "<guimenu>Settings</guimenu> <guimenuitem>Show Statusbar</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>显示状态栏</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1115
+#, no-c-format
+msgid "Toggles the display of the statusbar on and off. Some &kde; applications use statusbar at the bottom of their screen to display useful information."
+msgstr "显示/隐藏状态栏。一些 &kde; 应用程序会使用屏幕底部的状态栏显示实用信息。"
+
+#. Tag: menuchoice
+#: ui.docbook:1122
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guisubmenu>Toolbars Shown</guisubmenu>"
+msgstr "<guimenu>设置</guimenu><guisubmenu>显示工具栏</guisubmenu>"
+
+#. Tag: para
+#: ui.docbook:1125
+#, no-c-format
+msgid "Allows you to show and hide the various toolbars supported by the application."
+msgstr "显示/隐藏应用程序支持的各种工具栏。"
+
+#. Tag: menuchoice
+#: ui.docbook:1131
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Show Statusbar</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>显示状态栏</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1135
+#, no-c-format
+msgid "When checked, this displays a small bar at the bottom of the application containing information about the status. When unchecked the status bar is hidden."
+msgstr "勾选时，将在应用程序底部显示一个包含状态信息的细条。未勾选时，状态栏会隐藏。"
+
+#. Tag: menuchoice
+#: ui.docbook:1142
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Shortcuts...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置键盘快捷键...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1145
+#, no-c-format
+msgid "Allows you to enable, disable, and modify keyboard shortcuts. For more information, see <xref linkend=\"shortcuts\"/>."
+msgstr "您可以在此启用、禁用和修改键盘快捷键。如需了解更多信息，请参见 <xref linkend=\"shortcuts\"/>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1152
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置工具栏...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1155
+#, no-c-format
+msgid "Allows you to customize the contents, layout, text, and icons of toolbars. For more information, see <xref linkend=\"toolbars\"/>."
+msgstr "您可以在此自定义工具栏的内容、布局、文本和图标。如需了解更多信息，请参见 <xref linkend=\"toolbars\"/>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1162
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure Notifications...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置通知...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1164
+#, no-c-format
+msgid "This item displays a standard &kde; notifications configuration dialog, where you can change the notifications (sounds, visible messages, &etc;) used by the application."
+msgstr "该选项会显示标准的 &kde; 通知配置对话框，您可以在此更改应用程序使用的通知 (是否播放声音，是否显示等)。"
+
+#. Tag: para
+#: ui.docbook:1167
+#, no-c-format
+msgid "For more information how to configure notifications please read the documentation for the &systemsettings; module <ulink url=\"help:/kcontrol/kcmnotify/index.html\">Manage Notifications</ulink>."
+msgstr "如需了解更多关于如何配置通知的信息，请参见 &systemsettings; 模块 <ulink url=\"help:/kcontrol/kcmnotify/index.html\">管理通知</ulink> 的文档。"
+
+#. Tag: menuchoice
+#: ui.docbook:1174
+#, no-c-format
+msgid "<guimenu>Settings</guimenu><guimenuitem>Configure <replaceable>Application</replaceable>...</guimenuitem>"
+msgstr "<guimenu>设置</guimenu><guimenuitem>配置 <replaceable>应用程序</replaceable>...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1177
+#, no-c-format
+msgid "Opens the configuration panel for the currently running application."
+msgstr "打开当前应用程序的配置面板。"
+
+#. Tag: title
+#: ui.docbook:1186
+#, no-c-format
+msgid "The Help Menu"
+msgstr "“帮助”菜单"
+
+#. Tag: para
+#: ui.docbook:1187
+#, no-c-format
+msgid "The <guimenu>Help</guimenu> menu gives you access to the application's documentation and other useful resources."
+msgstr "您可以在 <guimenu>帮助</guimenu> 菜单中访问应用程序文档和其他有用的资源。"
+
+#. Tag: menuchoice
+#: ui.docbook:1195
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\"><keycap>F1</keycap></keycombo> </shortcut> <guimenu>Help</guimenu> <guimenuitem><replaceable>Application</replaceable> Handbook</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\"><keycap>F1</keycap></keycombo></shortcut> <guimenu>帮助</guimenu><guimenuitem><replaceable>应用程序</replaceable> 使用手册</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1203
+#, no-c-format
+msgid "<action>Invokes the KDE Help system</action> starting at the running application's handbook."
+msgstr "<action>调用 KDE 帮助系统</action>，打开当前应用程序的使用手册。"
+
+#. Tag: menuchoice
+#: ui.docbook:1208
+#, no-c-format
+msgid "<shortcut> <keycombo action=\"simul\">&Shift;<keycap>F1</keycap></keycombo> </shortcut> <guimenu>Help</guimenu> <guimenuitem>What's This?</guimenuitem>"
+msgstr "<shortcut><keycombo action=\"simul\">&Shift;<keycap>F1</keycap></keycombo></shortcut> <guimenu>帮助</guimenu><guimenuitem>这是什么？</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1216
+#, no-c-format
+msgid "<action>Changes the mouse cursor to a combination arrow and question mark.</action> Clicking on items within the application; will open a help window (if one exists for the particular item) explaining the item's function."
+msgstr "<action>将鼠标光标更改为箭头和问号的组合。</action>点击应用程序内的项目时将打开帮助窗口 (如果该项目有文档)，并解释此项目的功能。"
+
+#. Tag: menuchoice
+#: ui.docbook:1223
+#, no-c-format
+msgid "<guimenu>Help</guimenu> <guimenuitem>Tip of the Day</guimenuitem>"
+msgstr "<guimenu>帮助</guimenu><guimenuitem>每日提示</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1228
+#, no-c-format
+msgid "This command <action>opens the <guilabel>Tip of the Day</guilabel> dialog</action>. You can page through all the tips by using the buttons on the dialog and select to show the tips at startup."
+msgstr "这会 <action>打开 <guilabel>每日提示</guilabel> 对话框</action>。您可以使用对话框中的按钮浏览所有提示，并选择是否在应用程序启动时显示提示。"
+
+#. Tag: para
+#: ui.docbook:1231
+#, no-c-format
+msgid "Note: Not all applications provide these tips."
+msgstr "注意：并非所有应用程序都提供这些提示。"
+
+#. Tag: menuchoice
+#: ui.docbook:1237
+#, no-c-format
+msgid "<guimenu>Help</guimenu> <guimenuitem>Report Bug...</guimenuitem>"
+msgstr "<guimenu>帮助</guimenu><guimenuitem>报告程序缺陷...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1241
+#, no-c-format
+msgid "<action>Opens the Bug report dialog</action> where you can report a bug or request a <quote>wishlist</quote> feature."
+msgstr "<action>打开缺陷报告对话框</action>，您可以在此报告程序缺陷，或提交 <quote>需求 (Wishlist)</quote>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1249
+#, no-c-format
+msgid "<guimenu>Help</guimenu> <guimenuitem>Donate</guimenuitem>"
+msgstr "<guimenu>帮助</guimenu><guimenuitem>捐款</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1253
+#, no-c-format
+msgid "Opens the <ulink url=\"https://www.kde.org/community/donations\">Donations page</ulink> where you can support &kde; and its projects."
+msgstr "打开 <ulink url=\"https://www.kde.org/community/donations\">捐款页面</ulink>，您可以在此支持 &kde; 及其项目。"
+
+#. Tag: menuchoice
+#: ui.docbook:1258
+#, no-c-format
+msgid "<guimenu>Help</guimenu> <guimenuitem>Switch Application Language...</guimenuitem>"
+msgstr "<guimenu>帮助</guimenu><guimenuitem>配置语言...</guimenuitem>"
+
+#. Tag: para
+#: ui.docbook:1262
+#, no-c-format
+msgid "<action>Opens a dialog</action> where you can edit the <guilabel>Primary language</guilabel> and <guilabel>Fallback language</guilabel> for this application."
+msgstr "<action>打开一个对话框</action>，您可以在此配置该应用程序的 <guilabel>首选语言</guilabel> 和 <guilabel>备选语言</guilabel>。"
+
+#. Tag: menuchoice
+#: ui.docbook:1269
+#, no-c-format
+msgid "<guimenu>Help</guimenu> <guimenuitem>About <replaceable>Application</replaceable></guimenuitem>"
+msgstr "<guimenu>帮助</guimenu><guimenuitem>关于 <replaceable>应用程序</replaceable></guimenuitem>"
+
+#. Tag: action
+#: ui.docbook:1273
+#, no-c-format
+msgid "This will display version and author information for the running application."
+msgstr "这会显示当前应用程序的版本和作者信息。"
+
+#. Tag: menuchoice
+#: ui.docbook:1278
+#, no-c-format
+msgid "<guimenu>Help</guimenu> <guimenuitem>About KDE</guimenuitem>"
+msgstr "<guimenu>帮助</guimenu><guimenuitem>关于 KDE</guimenuitem>"
+
+#. Tag: action
+#: ui.docbook:1282
+#, no-c-format
+msgid "This displays the &kde; Development Platform version and other basic information."
+msgstr "这会显示 &kde; 开发平台的版本和其他基本信息。"
+
+#. Tag: title
+#: ui.docbook:1290
+#, no-c-format
+msgid "Thanks and Acknowledgments"
+msgstr "特别鸣谢"
+
+#. Tag: para
+#: ui.docbook:1292
+#, no-c-format
+msgid "Special thanks to an anonymous Google Code-In 2011 participant for writing much of this documentation."
+msgstr "特别感谢一位匿名的 2011 年 Google Code-In 参与者编写了本文档的大部分内容。"
+
+#. Tag: title
+#: ui.docbook:1307
+#, no-c-format
+msgid "Common Keyboard Shortcuts"
+msgstr "常见键盘快捷键"
+
+#. Tag: para
+#: ui.docbook:1309
+#, no-c-format
+msgid "The &plasma-workspaces; provide keyboard shortcuts that allow you to perform many tasks without touching your mouse. If you use your keyboard frequently, using these can save you lots of time."
+msgstr "您可以通过 &plasma-workspaces; 提供的键盘快捷键执行许多任务，而无需使用鼠标。如果您经常使用键盘，这些快捷键会为您节省大量时间。"
+
+#. Tag: para
+#: ui.docbook:1313
+#, no-c-format
+msgid "This list contains the most common shortcuts supported by the workspace itself and many applications available within. Every application also provides its own shortcuts, so be sure to check their manuals for a comprehensive listing."
+msgstr "该列表包括工作区本身和许多应用程序支持的最常见的快捷键。应用程序还会有自己的快捷键，所以请务必查看它们的手册以获取完整的列表。"
+
+#. Tag: para
+#: ui.docbook:1318
+#, no-c-format
+msgid "The <keysym>Meta</keysym> key described below is a generic name for the custom key found on many different keyboards. On keyboards designed for &Microsoft; &Windows;, this key is usually called the <keysym>Windows</keysym> key, and will have a picture of the &Windows; logo. On keyboards designed for &Mac; computers, this key is known as the <keysym>Command</keysym> key and will have a picture of the <trademark class=\"registered\">Apple</trademark> logo and/or the <keycap>⌘</keycap> symbol. On keyboards designed for &UNIX; systems, this key is really known as the <keysym>Meta</keysym> key and is typically labeled with a diamond: <keycap>◆</keycap>."
+msgstr "下面描述的 <keysym>Meta</keysym> 键是不同键盘上自定义键的通用名称。在为 &Microsoft; &Windows; 设计的键盘上，该按键通常被称为 <keysym>Windows</keysym> 键，并会印有 &Windows; 徽标。在为 &Mac; 电脑设计的键盘上，该按键被称为 <keysym>Command</keysym> 键，并会印有 <trademark class=\"registered\">Apple</trademark> 标志和/或 <keycap>⌘</keycap> 符号。在为 &UNIX; 系统设计的键盘上，该按键就名为 <keysym>Meta</keysym> 键，并通常标有菱形符号：<keycap>◆</keycap>。"
+
+#. Tag: title
+#: ui.docbook:1332
+#, no-c-format
+msgid "Working with Windows"
+msgstr "进行窗口操作"
+
+#. Tag: para
+#: ui.docbook:1334
+#, no-c-format
+msgid "These shortcuts allow you to perform all kinds of operations with windows, whether it be opening, closing, moving, or switching between them."
+msgstr "您可以使用这些快捷键执行各种窗口操作，无论是打开、关闭、移动还是在它们之间切换。"
+
+#. Tag: title
+#: ui.docbook:1338
+#, no-c-format
+msgid "Starting and Stopping Applications"
+msgstr "启动和停止应用程序"
+
+#. Tag: para
+#: ui.docbook:1340
+#, no-c-format
+msgid "These shortcuts make it easy to start and stop programs."
+msgstr "这些快捷键使启动和停止程序变得简单快捷。"
+
+#. Tag: entry
+#: ui.docbook:1347 ui.docbook:1400 ui.docbook:1489 ui.docbook:1566
+#: ui.docbook:1626 ui.docbook:1724 ui.docbook:1757 ui.docbook:1845
+#: ui.docbook:1945
+#, no-c-format
+msgid "Shortcut"
+msgstr "快捷键"
+
+#. Tag: keysym
+#: ui.docbook:1355
+#, no-c-format
+msgid "Meta"
+msgstr "Meta"
+
+#. Tag: entry
+#: ui.docbook:1356
+#, no-c-format
+msgid "Open the Application Launcher"
+msgstr "打开应用程序启动器"
+
+#. Tag: entry
+#: ui.docbook:1360
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>Space</keycap></keycombo> / <keycombo action=\"simul\">&Alt;<keycap>F2</keycap></keycombo>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>空格</keycap></keycombo> / <keycombo action=\"simul\">&Alt;<keycap>F2</keycap></keycombo>"
+
+#. Tag: ulink
+#: ui.docbook:1361
+#, no-c-format
+msgid "Run Command Interface"
+msgstr "运行命令界面"
+
+#. Tag: keycombo
+#: ui.docbook:1365
+#, no-c-format
+msgid "&Ctrl;<keycap>Esc</keycap>"
+msgstr "&Ctrl;<keycap>Esc</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1366
+#, no-c-format
+msgid "System Activity"
+msgstr "系统活动"
+
+#. Tag: keycombo
+#: ui.docbook:1370
+#, no-c-format
+msgid "&Alt;<keycap>F4</keycap>"
+msgstr "&Alt;<keycap>F4</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1371
+#, no-c-format
+msgid "Close"
+msgstr "关闭"
+
+#. Tag: keycombo
+#: ui.docbook:1375
+#, no-c-format
+msgid "&Ctrl;<keycap>Q</keycap>"
+msgstr "&Ctrl;<keycap>Q</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1376
+#, no-c-format
+msgid "Quit"
+msgstr "退出"
+
+#. Tag: keycombo
+#: ui.docbook:1380
+#, no-c-format
+msgid "&Ctrl;&Alt;&Esc;"
+msgstr "&Ctrl;&Alt;&Esc;"
+
+#. Tag: entry
+#: ui.docbook:1381
+#, no-c-format
+msgid "Force Quit"
+msgstr "强制退出"
+
+#. Tag: title
+#: ui.docbook:1390
+#, no-c-format
+msgid "Moving Around"
+msgstr "四处移动"
+
+#. Tag: para
+#: ui.docbook:1392
+#, no-c-format
+msgid "These shortcuts allow you to navigate between windows, activities, and desktops efficiently."
+msgstr "您可以使用这些快捷键在窗口、活动和桌面之间高效导航。"
+
+#. Tag: keycombo
+#: ui.docbook:1408
+#, no-c-format
+msgid "&Ctrl;<keycap>F10</keycap>"
+msgstr "&Ctrl;<keycap>F10</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1409
+#, no-c-format
+msgid "Present Windows"
+msgstr "平铺展示窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1413
+#, no-c-format
+msgid "&Ctrl;<keycap>F9</keycap>"
+msgstr "&Ctrl;<keycap>F9</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1414
+#, no-c-format
+msgid "Present Windows on current desktop"
+msgstr "平铺展示当前桌面上的窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1418
+#, no-c-format
+msgid "&Ctrl;<keycap>F7</keycap>"
+msgstr "&Ctrl;<keycap>F7</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1419
+#, no-c-format
+msgid "Present Windows of current application only"
+msgstr "平铺展示当前应用程序的窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1428 ui.docbook:1682
+#, no-c-format
+msgid "&Ctrl;<keycap>F12</keycap>"
+msgstr "&Ctrl;<keycap>F12</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1429 ui.docbook:1683
+#, no-c-format
+msgid "Show Desktop"
+msgstr "显示桌面"
+
+#. Tag: keycombo
+#: ui.docbook:1433
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>A</keycap>"
+msgstr "&Ctrl;&Alt;<keycap>A</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1434
+#, no-c-format
+msgid "Activate Window Demanding Attention"
+msgstr "激活请求注意的窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1438
+#, no-c-format
+msgid "&Alt;&Tab;"
+msgstr "&Alt;&Tab;"
+
+#. Tag: entry
+#: ui.docbook:1439
+#, no-c-format
+msgid "Walk through windows"
+msgstr "遍历窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1443
+#, no-c-format
+msgid "&Alt;&Shift;&Tab;"
+msgstr "&Alt;&Shift;&Tab;"
+
+#. Tag: entry
+#: ui.docbook:1444
+#, no-c-format
+msgid "Walk through windows (Reverse)"
+msgstr "遍历窗口 (反向)"
+
+#. Tag: keycombo
+#: ui.docbook:1448
+#, no-c-format
+msgid "&Alt;<keycap>F3</keycap>"
+msgstr "&Alt;<keycap>F3</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1449
+#, no-c-format
+msgid "Open the Window Operations menu"
+msgstr "打开窗口操作菜单"
+
+#. Tag: keycombo
+#: ui.docbook:1453
+#, no-c-format
+msgid "&Meta;&Alt;<keysym>Up</keysym>"
+msgstr "&Meta;&Alt;<keysym>上方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1454
+#, no-c-format
+msgid "Switch to Window Above"
+msgstr "切换到上边的窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1458
+#, no-c-format
+msgid "&Meta;&Alt;<keysym>Down</keysym>"
+msgstr "&Meta;&Alt;<keysym>下方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1459
+#, no-c-format
+msgid "Switch to Window Below"
+msgstr "切换到下边的窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1463
+#, no-c-format
+msgid "&Meta;&Alt;<keysym>Left</keysym>"
+msgstr "&Meta;&Alt;<keysym>左方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1464
+#, no-c-format
+msgid "Switch to Window to the Left"
+msgstr "切换到左边的窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1468
+#, no-c-format
+msgid "&Meta;&Alt;<keysym>Right</keysym>"
+msgstr "&Meta;&Alt;<keysym>右方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1469
+#, no-c-format
+msgid "Switch to Window to the Right"
+msgstr "切换到右边的窗口"
+
+#. Tag: title
+#: ui.docbook:1478
+#, no-c-format
+msgid "Panning and Zooming"
+msgstr "平移和缩放"
+
+#. Tag: para
+#: ui.docbook:1480
+#, no-c-format
+msgid "Need to get a closer look? The &plasma-workspaces; allow you to zoom in and out and move your entire desktop around, so you can zoom in even when the application you are using doesn't support it."
+msgstr "需要更仔细查看？您可以在 &plasma-workspaces; 中对整个桌面进行缩放和移动，即使您正在使用的应用程序不支持缩放功能。"
+
+#. Tag: keycombo
+#: ui.docbook:1504
+#, no-c-format
+msgid "&Meta;<keycap>=</keycap>"
+msgstr "&Meta;<keycap>=</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1505
+#, no-c-format
+msgid "Zoom In"
+msgstr "放大"
+
+#. Tag: keycombo
+#: ui.docbook:1509
+#, no-c-format
+msgid "&Meta;<keycap>-</keycap>"
+msgstr "&Meta;<keycap>-</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1510
+#, no-c-format
+msgid "Zoom Out"
+msgstr "缩小"
+
+#. Tag: keycombo
+#: ui.docbook:1514
+#, no-c-format
+msgid "&Meta;<keycap>0</keycap>"
+msgstr "&Meta;<keycap>0</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1515
+#, no-c-format
+msgid "Zoom Normal"
+msgstr "缩放到正常大小"
+
+#. Tag: keycombo
+#: ui.docbook:1519
+#, no-c-format
+msgid "&Meta;<keysym>Up</keysym>"
+msgstr "&Meta;<keysym>上方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1520
+#, no-c-format
+msgid "Pan Up"
+msgstr "向上平移"
+
+#. Tag: keycombo
+#: ui.docbook:1524
+#, no-c-format
+msgid "&Meta;<keysym>Down</keysym>"
+msgstr "&Meta;<keysym>下方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1525
+#, no-c-format
+msgid "Pan Down"
+msgstr "向下平移"
+
+#. Tag: keycombo
+#: ui.docbook:1529
+#, no-c-format
+msgid "&Meta;<keysym>Left</keysym>"
+msgstr "&Meta;<keysym>左方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1530
+#, no-c-format
+msgid "Pan left, move window to monitor to the left"
+msgstr "向左平移，将窗口移动到左侧的监视器"
+
+#. Tag: para
+#: ui.docbook:1530
+#, no-c-format
+msgid "In a multi-monitor environment"
+msgstr "在多监视器环境中"
+
+#. Tag: keycombo
+#: ui.docbook:1534
+#, no-c-format
+msgid "&Meta;<keysym>Right</keysym>"
+msgstr "&Meta;<keysym>右方向键</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1535
+#, no-c-format
+msgid "Pan right, move window to monitor to the right<footnoteref linkend=\"fn1\"/>"
+msgstr "向右平移，将窗口移动到右侧的监视器<footnoteref linkend=\"fn1\"/>"
+
+#. Tag: keycombo
+#: ui.docbook:1539
+#, no-c-format
+msgid "&Meta;<keysym>PgUp</keysym>"
+msgstr "&Meta;<keysym>PgUp</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1540
+#, no-c-format
+msgid "Maximize/Restore window"
+msgstr "最大化/恢复窗口"
+
+#. Tag: keycombo
+#: ui.docbook:1544
+#, no-c-format
+msgid "&Meta;<keysym>PgDn</keysym>"
+msgstr "&Meta;<keysym>PgDn</keysym>"
+
+#. Tag: entry
+#: ui.docbook:1545
+#, no-c-format
+msgid "Minimize window"
+msgstr "最小化窗口"
+
+#. Tag: title
+#: ui.docbook:1555
+#, no-c-format
+msgid "Working with Activities and Virtual Desktops"
+msgstr "进行活动和虚拟桌面操作"
+
+#. Tag: para
+#: ui.docbook:1557
+#, no-c-format
+msgid "These shortcuts allow you to switch between and manage <ulink url=\"help:/plasma-desktop/activities-interface.html\">Activities</ulink> and <ulink url=\"help:/kcontrol/desktop/\">virtual desktops</ulink>."
+msgstr "您可以使用这些快捷键在 <ulink url=\"help:/plasma-desktop/activities-interface.html\">活动</ulink> 和 <ulink url=\"help:/kcontrol/desktop/\">虚拟桌面</ulink> 之间切换并进行管理。"
+
+#. Tag: entry
+#: ui.docbook:1574
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Meta;<keycap>Q</keycap></keycombo> / <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>,<keycombo action=\"simul\">&Alt;<keycap>A</keycap></keycombo>"
+msgstr "<keycombo action=\"simul\">&Meta;<keycap>Q</keycap></keycombo> / <keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>A</keycap></keycombo>"
+
+#. Tag: entry
+#: ui.docbook:1577
+#, no-c-format
+msgid "Manage Activities"
+msgstr "管理活动"
+
+#. Tag: keycombo
+#: ui.docbook:1581
+#, no-c-format
+msgid "&Meta;&Tab;"
+msgstr "&Meta;&Tab;"
+
+#. Tag: entry
+#: ui.docbook:1582
+#, no-c-format
+msgid "Next Activity"
+msgstr "下一个活动"
+
+#. Tag: keycombo
+#: ui.docbook:1586
+#, no-c-format
+msgid "&Meta;&Shift;&Tab;"
+msgstr "&Meta;&Shift;&Tab;"
+
+#. Tag: entry
+#: ui.docbook:1587
+#, no-c-format
+msgid "Previous Activity"
+msgstr "上一个活动"
+
+#. Tag: keycombo
+#: ui.docbook:1591
+#, no-c-format
+msgid "&Ctrl;<keycap>F1</keycap>"
+msgstr "&Ctrl;<keycap>F1</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1592
+#, no-c-format
+msgid "Switch to Desktop 1"
+msgstr "切换到桌面 1"
+
+#. Tag: keycombo
+#: ui.docbook:1596
+#, no-c-format
+msgid "&Ctrl;<keycap>F2</keycap>"
+msgstr "&Ctrl;<keycap>F2</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1597
+#, no-c-format
+msgid "Switch to Desktop 2"
+msgstr "切换到桌面 2"
+
+#. Tag: keycombo
+#: ui.docbook:1601
+#, no-c-format
+msgid "&Ctrl;<keycap>F3</keycap>"
+msgstr "&Ctrl;<keycap>F3</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1602
+#, no-c-format
+msgid "Switch to Desktop 3"
+msgstr "切换到桌面 3"
+
+#. Tag: keycombo
+#: ui.docbook:1606
+#, no-c-format
+msgid "&Ctrl;<keycap>F4</keycap>"
+msgstr "&Ctrl;<keycap>F4</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1607
+#, no-c-format
+msgid "Switch to Desktop 4"
+msgstr "切换到桌面 4"
+
+#. Tag: title
+#: ui.docbook:1616
+#, no-c-format
+msgid "Working with the Desktop"
+msgstr "进行桌面操作"
+
+#. Tag: para
+#: ui.docbook:1618
+#, no-c-format
+msgid "These shortcuts allow you to work with the &plasma-desktop; and panels."
+msgstr "您可以使用这些快捷键进行 &plasma-desktop; 和面板操作。"
+
+#. Tag: keycombo
+#: ui.docbook:1634
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>A</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>A</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1638
+#, no-c-format
+msgid "Add Widgets"
+msgstr "添加挂件"
+
+#. Tag: keycombo
+#: ui.docbook:1642
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>R</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>R</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1646
+#, no-c-format
+msgid "Remove this <replaceable>Widget</replaceable>"
+msgstr "移除此 <replaceable>挂件</replaceable>"
+
+#. Tag: keycombo
+#: ui.docbook:1650
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>L</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>L</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1654
+#, no-c-format
+msgid "Lock/Unlock Widgets"
+msgstr "锁定/解锁挂件"
+
+#. Tag: keycombo
+#: ui.docbook:1674
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>S</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>S</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1678
+#, no-c-format
+msgid "<replaceable>Widget</replaceable> Settings"
+msgstr "<replaceable>挂件</replaceable> 设置"
+
+#. Tag: keycombo
+#: ui.docbook:1687
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>T</keycap>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo> <keycap>T</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1691
+#, no-c-format
+msgid "Run the Associated Application"
+msgstr "运行关联的应用程序"
+
+#. Tag: entry
+#: ui.docbook:1701
+#, no-c-format
+msgid "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>,<keycombo action=\"simul\">&Alt;<keycap>S</keycap></keycombo>"
+msgstr "<keycombo action=\"simul\">&Alt;<keycap>D</keycap></keycombo>, <keycombo action=\"simul\">&Alt;<keycap>S</keycap></keycombo>"
+
+#. Tag: entry
+#: ui.docbook:1703
+#, no-c-format
+msgid "Desktop Settings"
+msgstr "桌面设置"
+
+#. Tag: title
+#: ui.docbook:1713
+#, no-c-format
+msgid "Getting Help"
+msgstr "获取帮助"
+
+#. Tag: para
+#: ui.docbook:1715
+#, no-c-format
+msgid "Need some help? The manual for the current application is only a keypress away, and some programs even have additional help that explains the element in focus."
+msgstr "需要帮助？您仅需按一个按键即可打开当前应用程序的手册，一些程序还提供了对于焦点元素的额外帮助信息。"
+
+#. Tag: keycap
+#: ui.docbook:1732
+#, no-c-format
+msgid "<keycap>F1</keycap>"
+msgstr "<keycap>F1</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1733
+#, no-c-format
+msgid "Help"
+msgstr "帮助"
+
+#. Tag: keycombo
+#: ui.docbook:1737
+#, no-c-format
+msgid "&Shift;<keycap>F1</keycap>"
+msgstr "&Shift;<keycap>F1</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1738
+#, no-c-format
+msgid "What's This?"
+msgstr "这是什么？"
+
+#. Tag: title
+#: ui.docbook:1747
+#, no-c-format
+msgid "Working with Documents"
+msgstr "进行文档操作"
+
+#. Tag: para
+#: ui.docbook:1749
+#, no-c-format
+msgid "Whether it's a text document, spreadsheet, or web site, these shortcuts make performing many kinds of tasks with them easy."
+msgstr "无论是文本文档、电子表格还是网站，这些快捷键都能使执行各种任务变得简单快捷。"
+
+#. Tag: keycap
+#: ui.docbook:1765
+#, no-c-format
+msgid "<keycap>F5</keycap>"
+msgstr "<keycap>F5</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1766
+#, no-c-format
+msgid "Refresh"
+msgstr "刷新"
+
+#. Tag: keycombo
+#: ui.docbook:1770 ui.docbook:1873
+#, no-c-format
+msgid "&Ctrl;<keycap>A</keycap>"
+msgstr "&Ctrl;<keycap>A</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1771 ui.docbook:1874
+#, no-c-format
+msgid "Select All"
+msgstr "选择全部"
+
+#. Tag: keycombo
+#: ui.docbook:1775 ui.docbook:1853
+#, no-c-format
+msgid "&Ctrl;<keycap>Z</keycap>"
+msgstr "&Ctrl;<keycap>Z</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1776 ui.docbook:1854
+#, no-c-format
+msgid "Undo"
+msgstr "撤销"
+
+#. Tag: keycombo
+#: ui.docbook:1780
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>Z</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>Z</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1781
+#, no-c-format
+msgid "Redo"
+msgstr "重做"
+
+#. Tag: keycombo
+#: ui.docbook:1785 ui.docbook:1858
+#, no-c-format
+msgid "&Ctrl;<keycap>X</keycap>"
+msgstr "&Ctrl;<keycap>X</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1786 ui.docbook:1859
+#, no-c-format
+msgid "<entry>Cut</entry>"
+msgstr "<entry>剪切</entry>"
+
+#. Tag: keycombo
+#: ui.docbook:1790 ui.docbook:1863
+#, no-c-format
+msgid "&Ctrl;<keycap>C</keycap>"
+msgstr "&Ctrl;<keycap>C</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1791 ui.docbook:1864
+#, no-c-format
+msgid "Copy"
+msgstr "复制"
+
+#. Tag: keycombo
+#: ui.docbook:1795 ui.docbook:1868
+#, no-c-format
+msgid "&Ctrl;<keycap>V</keycap>"
+msgstr "&Ctrl;<keycap>V</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1796 ui.docbook:1869
+#, no-c-format
+msgid "Paste"
+msgstr "粘贴"
+
+#. Tag: keycombo
+#: ui.docbook:1800
+#, no-c-format
+msgid "&Ctrl;<keycap>N</keycap>"
+msgstr "&Ctrl;<keycap>N</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1801
+#, no-c-format
+msgid "<entry>New</entry>"
+msgstr "<entry>新建</entry>"
+
+#. Tag: keycombo
+#: ui.docbook:1805
+#, no-c-format
+msgid "&Ctrl;<keycap>P</keycap>"
+msgstr "&Ctrl;<keycap>P</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1806
+#, no-c-format
+msgid "Print"
+msgstr "打印"
+
+#. Tag: keycombo
+#: ui.docbook:1811
+#, no-c-format
+msgid "&Ctrl;<keycap>S</keycap>"
+msgstr "&Ctrl;<keycap>S</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1812
+#, no-c-format
+msgid "Save"
+msgstr "保存"
+
+#. Tag: keycombo
+#: ui.docbook:1817
+#, no-c-format
+msgid "&Ctrl;<keycap>F</keycap>"
+msgstr "&Ctrl;<keycap>F</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1818
+#, no-c-format
+msgid "Find"
+msgstr "查找"
+
+#. Tag: keycombo
+#: ui.docbook:1823
+#, no-c-format
+msgid "&Ctrl;<keycap>W</keycap>"
+msgstr "&Ctrl;<keycap>W</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1824
+#, no-c-format
+msgid "Close Document/Tab"
+msgstr "关闭文档/标签页"
+
+#. Tag: title
+#: ui.docbook:1833
+#, no-c-format
+msgid "Working with Files"
+msgstr "进行文件操作"
+
+#. Tag: para
+#: ui.docbook:1835
+#, no-c-format
+msgid "Whether you are in an Open/Save dialog or the &dolphin; file manager, these shortcuts save you time when performing operations on files. Note that some of the concepts used with files are the same as with documents, so several of the shortcuts are identical to their counterparts listed above."
+msgstr "无论是在打开/保存对话框中，还是 &dolphin; 文件管理器，这些快捷键都能在您进行文件操作时为您节省时间。请注意，文件操作使用的一些概念与文档操作类似，所以其中一些快捷键与上述快捷键相同。"
+
+#. Tag: keycombo
+#: ui.docbook:1878
+#, no-c-format
+msgid "&Ctrl;<keycap>L</keycap>"
+msgstr "&Ctrl;<keycap>L</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1879
+#, no-c-format
+msgid "Replace Location"
+msgstr "更改路径"
+
+#. Tag: keycombo
+#: ui.docbook:1883
+#, no-c-format
+msgid "&Ctrl;&Shift;<keycap>A</keycap>"
+msgstr "&Ctrl;&Shift;<keycap>A</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1884
+#, no-c-format
+msgid "Invert Selection"
+msgstr "反向选择"
+
+#. Tag: keycombo
+#: ui.docbook:1888
+#, no-c-format
+msgid "&Alt;<keycap>Left</keycap>"
+msgstr "&Alt;<keycap>左方向键</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1889
+#, no-c-format
+msgid "Back"
+msgstr "后退"
+
+#. Tag: keycombo
+#: ui.docbook:1893
+#, no-c-format
+msgid "&Alt;<keycap>Right</keycap>"
+msgstr "&Alt;<keycap>右方向键</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1894
+#, no-c-format
+msgid "Forward"
+msgstr "前进"
+
+#. Tag: keycombo
+#: ui.docbook:1898
+#, no-c-format
+msgid "&Alt;<keycap>Up</keycap>"
+msgstr "&Alt;<keycap>上方向键</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1899
+#, no-c-format
+msgid "Up (to folder that contains this one)"
+msgstr "上一级 (到包含该文件夹的上级文件夹)"
+
+#. Tag: keycombo
+#: ui.docbook:1903
+#, no-c-format
+msgid "&Alt;<keycap>Home</keycap>"
+msgstr "&Alt;<keycap>Home</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1904
+#, no-c-format
+msgid "Home Folder"
+msgstr "主文件夹"
+
+#. Tag: keycap
+#: ui.docbook:1908
+#, no-c-format
+msgid "Delete"
+msgstr "删除"
+
+#. Tag: entry
+#: ui.docbook:1909
+#, no-c-format
+msgid "Move to Trash"
+msgstr "移动到回收站"
+
+#. Tag: keycombo
+#: ui.docbook:1913
+#, no-c-format
+msgid "&Shift;<keycap>Delete</keycap>"
+msgstr "&Shift;<keycap>Delete</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1914
+#, no-c-format
+msgid "Delete Permanently"
+msgstr "彻底删除"
+
+#. Tag: title
+#: ui.docbook:1923
+#, no-c-format
+msgid "Changing Volume and Brightness"
+msgstr "调整音量和亮度"
+
+#. Tag: para
+#: ui.docbook:1925
+#, no-c-format
+msgid "In addition to the standard keys, many computer keyboards and laptops nowadays have special keys or buttons to change the speaker volume, as well as the brightness of your monitor if applicable. If present, you can use these keys in the &plasma-workspaces; to perform those tasks."
+msgstr "除了标准按键之外，如今许多电脑键盘和笔记本电脑还有用于调整扬声器音量的特殊按键或按钮，以及您的监视器的亮度 (如果适用)。如果有这些按键，您可以在 &plasma-workspaces; 中使用它们以执行这些任务。"
+
+#. Tag: para
+#: ui.docbook:1930
+#, no-c-format
+msgid "If you do not have such keys, see <xref linkend=\"kbd-modifying\"/> for information on how to assign keys for these tasks."
+msgstr "如果您没有这样的按键，请参见 <xref linkend=\"kbd-modifying\"/> 以了解如何为这些任务分配快捷键。"
+
+#. Tag: title
+#: ui.docbook:1936
+#, no-c-format
+msgid "Leaving Your Computer"
+msgstr "离开您的电脑"
+
+#. Tag: para
+#: ui.docbook:1938
+#, no-c-format
+msgid "All done? Use these shortcuts and put your computer away!"
+msgstr "全都完成了？使用这些快捷键，然后收起您的电脑吧！"
+
+#. Tag: keycombo
+#: ui.docbook:1958
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>L</keycap>"
+msgstr "&Ctrl;&Alt;<keycap>L</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1959
+#, no-c-format
+msgid "Lock Screen"
+msgstr "锁定屏幕"
+
+#. Tag: keycombo
+#: ui.docbook:1963
+#, no-c-format
+msgid "&Ctrl;&Alt;<keycap>Del</keycap>"
+msgstr "&Ctrl;&Alt;<keycap>Del</keycap>"
+
+#. Tag: entry
+#: ui.docbook:1964
+#, no-c-format
+msgid "Leave"
+msgstr "注销"
+
+#. Tag: title
+#: ui.docbook:1973
+#, no-c-format
+msgid "Modifying Shortcuts"
+msgstr "修改快捷键"
+
+#. Tag: para
+#: ui.docbook:1975
+#, no-c-format
+msgid "The shortcuts described in <link linkend=\"kbd-windows\">Working With Windows</link>, <link linkend=\"kbd-leaving\">Leaving Your Computer</link>, <link linkend=\"kbd-vol-bright\">Changing Volume and Brightness</link> and <link linkend=\"kbd-activities\">Working with Activities and Virtual Desktops</link> are called <emphasis>global shortcuts</emphasis>, since they work regardless of which window you have open on your screen. These can be modified in the <ulink url=\"help:/kcontrol/keys/\">Global Shortcuts panel of &systemsettings;</ulink>, where they are separated by &kde; component."
+msgstr "<link linkend=\"kbd-windows\">进行窗口操作</link>、<link linkend=\"kbd-leaving\">离开您的电脑</link>、<link linkend=\"kbd-vol-bright\">调整音量和亮度</link> 和 <link linkend=\"kbd-activities\">进行活动和虚拟桌面操作</link> 中描述的快捷键被称为 <emphasis>全局快捷键</emphasis>，因为它们在屏幕上打开任何窗口时都能生效。您可以在 <ulink url=\"help:/kcontrol/keys/\">&systemsettings; 的全局快捷键面板</ulink> 中修改这些快捷键，按 &kde; 组件分类。"
+
+#. Tag: para
+#: ui.docbook:1985
+#, no-c-format
+msgid "The shortcuts described <link linkend=\"kbd-desktop\">Working with the Desktop</link> are immutable and cannot be modified."
+msgstr "<link linkend=\"kbd-desktop\">进行桌面操作</link> 中描述的快捷键不可修改。"
+
+#. Tag: para
+#: ui.docbook:1988
+#, no-c-format
+msgid "The shortcuts described in <link linkend=\"kbd-docs\">Working with Documents</link> and <link linkend=\"kbd-help\">Getting Help</link> are set by individual programs. Most &kde; programs allow you to use the <link linkend=\"shortcuts\">common shortcut editing dialog</link> to modify these. The shortcuts described in <link linkend=\"kbd-files\">Working With Files</link> can be edited in the same manner when used inside a file manager like &dolphin; or &konqueror;, but cannot be modified in the case of Open/Save dialogs, &etc;"
+msgstr "<link linkend=\"kbd-docs\">进行文档操作</link> 和 <link linkend=\"kbd-help\">获取帮助</link> 中描述的快捷键是由各个程序设置的。在大多数 &kde; 程序中，您可以使用 <link linkend=\"shortcuts\">通用快捷键编辑对话框</link> 修改这些快捷键。<link linkend=\"kbd-files\">进行文件操作</link> 中描述的快捷键在 &dolphin; 或 &konqueror; 等文件管理器内使用时，可以通过相同的方式进行修改，但在打开/保存等对话框场景中无法修改。"
+
