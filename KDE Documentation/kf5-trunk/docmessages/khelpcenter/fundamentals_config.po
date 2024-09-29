@@ -1,0 +1,601 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2024-09-29 12:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/khelpcenter/fundamentals_config.pot\n"
+"X-Crowdin-File-ID: 3196\n"
+"Language: zh_CN\n"
+
+#. Tag: title
+#: config.docbook:2
+#, no-c-format
+msgid "Customizing &kde; software"
+msgstr "自定义 &kde; 软件"
+
+#. Tag: author
+#: config.docbook:7 config.docbook:226
+#, no-c-format
+msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+msgstr "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+
+#. Tag: trans_comment
+#: config.docbook:8 config.docbook:227
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "<othercredit role=\"translator\"><firstname>Rongfeng</firstname><surname>Ge</surname><affiliation><address><email>stellarpurr@gmail.com</email></address></affiliation></othercredit>"
+
+#. Tag: title
+#: config.docbook:11
+#, no-c-format
+msgid "Customizing Toolbars"
+msgstr "自定义工具栏"
+
+#. Tag: screeninfo
+#: config.docbook:17
+#, no-c-format
+msgid "The &gwenview; Toolbar"
+msgstr "&gwenview; 工具栏"
+
+#. Tag: phrase
+#: config.docbook:20
+#, no-c-format
+msgid "The &gwenview; toolbar."
+msgstr "&gwenview; 工具栏。"
+
+#. Tag: para
+#: config.docbook:21
+#, no-c-format
+msgid "The toolbar in <ulink url=\"https://kde.org/applications/graphics/gwenview/\">&gwenview;</ulink>."
+msgstr "<ulink url=\"https://kde.org/applications/graphics/gwenview/\">&gwenview;</ulink> 中的工具栏。"
+
+#. Tag: title
+#: config.docbook:28
+#, no-c-format
+msgid "Modifying Toolbar Items"
+msgstr "编辑工具栏项目"
+
+#. Tag: para
+#: config.docbook:30
+#, no-c-format
+msgid "To customize an application's toolbars, go to <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Toolbars...</guimenuitem></menuchoice> or right-click on a toolbar and select <guimenuitem>Configure Toolbars...</guimenuitem>."
+msgstr "要自定义应用程序的工具栏，请前往 <menuchoice><guimenu>设置</guimenu><guimenuitem>配置工具栏...</guimenuitem></menuchoice>，或右键点击工具栏并选择 <guimenuitem>配置工具栏...</guimenuitem>。"
+
+#. Tag: para
+#: config.docbook:35
+#, no-c-format
+msgid "On the left side of the toolbar configuration panel, the available items that you can put in your toolbar are shown. On the right, the ones that already appear on the toolbar are shown. At the top, you can select the toolbar you wish to modify or view."
+msgstr "工具栏配置面板的左侧会显示您可以添加到工具栏中的项目。右侧会显示已经在工具栏上的项目。您可以在顶部选择想要编辑或查看的工具栏。"
+
+#. Tag: para
+#: config.docbook:40
+#, no-c-format
+msgid "Above each side of the panel there is a <guilabel>Filter</guilabel> text box you can use to easily find items in the list."
+msgstr "面板的每侧上方都有一个 <guilabel>过滤</guilabel> 文本框，您可以使用它轻松查找列表中的项目。"
+
+#. Tag: screeninfo
+#: config.docbook:44
+#, no-c-format
+msgid "The Customize Toolbars Window"
+msgstr "自定义工具栏窗口"
+
+#. Tag: phrase
+#: config.docbook:47
+#, no-c-format
+msgid "The Customize Toolbars window."
+msgstr "自定义工具栏窗口。"
+
+#. Tag: para
+#: config.docbook:48
+#, no-c-format
+msgid "The Customize Toolbars window in &gwenview; with the <guibutton>Previous</guibutton> button selected."
+msgstr "&gwenview; 的自定义工具栏窗口，已选中 <guibutton>上一个</guibutton> 按钮。"
+
+#. Tag: title
+#: config.docbook:54
+#, no-c-format
+msgid "Adding an Item"
+msgstr "添加一个项目"
+
+#. Tag: para
+#: config.docbook:55
+#, no-c-format
+msgid "You can add an item to your toolbar by selecting it from the left side and clicking on the right arrow button."
+msgstr "您可以从左侧选择一个项目，并点击右箭头按钮以将其添加到工具栏。"
+
+#. Tag: title
+#: config.docbook:60
+#, no-c-format
+msgid "Removing an Item"
+msgstr "移除一个项目"
+
+#. Tag: para
+#: config.docbook:61
+#, no-c-format
+msgid "You can remove an item by selecting it and clicking the left arrow button."
+msgstr "您可以选择一个项目，并点击左箭头按钮以移除该项目。"
+
+#. Tag: title
+#: config.docbook:67
+#, no-c-format
+msgid "Changing the Position of Items"
+msgstr "更改项目的位置"
+
+#. Tag: para
+#: config.docbook:69
+#, no-c-format
+msgid "You can change the position of the items by moving them lower or higher in the list. To move items lower, press the down arrow button, while to move items higher press the up arrow button. You can also change items' position by dragging and dropping them."
+msgstr "您可以通过在列表中将项目向下或向上移动来更改它们的位置。要向下移动项目，请按向下箭头按钮；要向上移动项目，请按向上箭头按钮。您也可以通过拖放项目来更改它们的位置。"
+
+#. Tag: para
+#: config.docbook:74
+#, no-c-format
+msgid "On horizontal toolbars, the item that's on top will be the one on the left. On vertical toolbars, items are arranged as they appear in the toolbar."
+msgstr "在水平工具栏上，位于顶部的项目将显示在左侧。在垂直工具栏上，项目将按照它们在工具栏中的显示顺序排列。"
+
+#. Tag: title
+#: config.docbook:80
+#, no-c-format
+msgid "Adding a Separator"
+msgstr "添加分隔符"
+
+#. Tag: para
+#: config.docbook:81
+#, no-c-format
+msgid "You can add separator lines between items by adding a <guilabel>--- separator ---</guilabel> item to the toolbar."
+msgstr "您可以通过在工具栏中添加一个 <guilabel>--- 分隔符 ---</guilabel> 项目以在项目之间添加分隔线。"
+
+#. Tag: title
+#: config.docbook:86
+#, no-c-format
+msgid "Restoring Defaults"
+msgstr "恢复默认"
+
+#. Tag: para
+#: config.docbook:88
+#, no-c-format
+msgid "You can restore your toolbar to the way it was when you installed the application by pressing the <guibutton>Defaults</guibutton> button at the bottom of the window and then confirming your decision."
+msgstr "您可以通过按窗口底部的 <guibutton>默认</guibutton> 按钮，并进行二次确认，以将工具栏恢复到安装该应用程序时的状态。"
+
+#. Tag: title
+#: config.docbook:95
+#, no-c-format
+msgid "Changing Text and Icons"
+msgstr "更改文字和图标"
+
+#. Tag: para
+#: config.docbook:97
+#, no-c-format
+msgid "You can change the icon and text of individual toolbar items by selecting an item and clicking either the <guibutton>Change Icon...</guibutton> or <guibutton>Change Text...</guibutton> button."
+msgstr "您可以通过选择一个项目并点击 <guibutton>更改图标...</guibutton> 或 <guibutton>更改文字...</guibutton> 按钮以更改各个工具栏项目的图标或文字。"
+
+#. Tag: title
+#: config.docbook:107
+#, no-c-format
+msgid "Customizing Toolbar Appearance"
+msgstr "自定义工具栏外观"
+
+#. Tag: para
+#: config.docbook:109
+#, no-c-format
+msgid "You can change the appearance of toolbars by right-clicking on a toolbar to access it's context menu."
+msgstr "您可以通过右键点击工具栏以访问其右键菜单，从而更改工具栏的外观。"
+
+#. Tag: title
+#: config.docbook:113
+#, no-c-format
+msgid "Text Position"
+msgstr "文字位置"
+
+#. Tag: para
+#: config.docbook:115
+#, no-c-format
+msgid "You can change the appearance of text on toolbars in the <guisubmenu>Text Position</guisubmenu> submenu of a toolbar's context menu."
+msgstr "您可以在工具栏右键菜单的 <guisubmenu>文字位置</guisubmenu> 子菜单中更改工具栏文字的外观。"
+
+#. Tag: para
+#: config.docbook:118 config.docbook:179
+#, no-c-format
+msgid "You can choose from:"
+msgstr "包含以下选项："
+
+#. Tag: para
+#: config.docbook:121
+#, no-c-format
+msgid "<guimenuitem>Icons</guimenuitem> - only the icon for each toolbar item will appear."
+msgstr "<guimenuitem>仅图标</guimenuitem> - 仅显示每个工具栏项的图标。"
+
+#. Tag: para
+#: config.docbook:126
+#, no-c-format
+msgid "<guimenuitem>Text</guimenuitem> - only the text label for each toolbar item will appear."
+msgstr "<guimenuitem>仅文字</guimenuitem> - 仅显示每个工具栏项的文字标签。"
+
+#. Tag: para
+#: config.docbook:131
+#, no-c-format
+msgid "<guimenuitem>Text Alongside Icons</guimenuitem> - the text label will appear to the right of each toolbar item's icon"
+msgstr "<guimenuitem>文字在图标一侧</guimenuitem> - 文字标签会显示在每个工具栏项图标的右侧。"
+
+#. Tag: para
+#: config.docbook:137
+#, no-c-format
+msgid "<guimenuitem>Text Under Icons</guimenuitem> - the text label will appear underneath each toolbar item's icon"
+msgstr "<guimenuitem>文字在图标下方</guimenuitem> - 文字标签会显示在每个工具栏项图标的下方。"
+
+#. Tag: para
+#: config.docbook:144
+#, no-c-format
+msgid "You can also show or hide text for individual toolbar items by right-clicking on an item and checking or unchecking the item under <guilabel>Show Text</guilabel>."
+msgstr "您还可以通过右键点击某个项目，并在 <guilabel>显示文字</guilabel> 标签下勾选或取消勾选该项目，以显示或隐藏这个工具栏项目的文字。"
+
+#. Tag: title
+#: config.docbook:151
+#, no-c-format
+msgid "Icon Size"
+msgstr "图标大小"
+
+#. Tag: para
+#: config.docbook:153
+#, no-c-format
+msgid "You can change the size of toolbar items' icons by selecting <guisubmenu>Icon Size</guisubmenu> from the toolbar's context menu."
+msgstr "您可以通过在工具栏的右键菜单中选择 <guisubmenu>图标大小</guisubmenu> 以更改工具栏项目图标的大小。"
+
+#. Tag: para
+#: config.docbook:156
+#, no-c-format
+msgid "You can choose from the following options: (each lists the icon size in pixels)"
+msgstr "您可以从以下选项中进行选择：(选项列出了图标的大小，以像素为单位)"
+
+#. Tag: guimenuitem
+#: config.docbook:160
+#, no-c-format
+msgid "Small (16x16)"
+msgstr "小 (16x16)"
+
+#. Tag: para
+#: config.docbook:161
+#, no-c-format
+msgid "<guimenuitem>Medium (22x22)</guimenuitem> [the default value]"
+msgstr "<guimenuitem>中 (22x22)</guimenuitem> [默认值]"
+
+#. Tag: guimenuitem
+#: config.docbook:163
+#, no-c-format
+msgid "Large (32x32)"
+msgstr "大 (32x32)"
+
+#. Tag: guimenuitem
+#: config.docbook:164
+#, no-c-format
+msgid "Huge (48x48)"
+msgstr "超大 (48x48)"
+
+#. Tag: title
+#: config.docbook:170
+#, no-c-format
+msgid "Moving Toolbars"
+msgstr "移动工具栏"
+
+#. Tag: para
+#: config.docbook:172
+#, no-c-format
+msgid "In order to move toolbars, you must <quote>unlock</quote> them. To do so, uncheck <guimenuitem>Lock Toolbar Positions</guimenuitem> from a toolbar's context menu. To restore the lock, simply recheck this menu item."
+msgstr "要移动工具栏，您需要先 <quote>解锁</quote>。为此，请在工具栏的右键菜单中取消勾选 <guimenuitem>锁定工具栏位置</guimenuitem> 选项。要恢复锁定，只需重新勾选该菜单项即可。"
+
+#. Tag: para
+#: config.docbook:176
+#, no-c-format
+msgid "You can change a toolbar's position from the <guisubmenu>Orientation</guisubmenu> submenu of its context menu."
+msgstr "您可以从其右键菜单的 <guisubmenu>位置</guisubmenu> 子菜单中更改工具栏的位置。"
+
+#. Tag: para
+#: config.docbook:181
+#, no-c-format
+msgid "<guimenuitem>Top</guimenuitem> [the default in many applications]"
+msgstr "<guimenuitem>上方</guimenuitem> [许多应用程序中的默认设置]"
+
+#. Tag: guimenuitem
+#: config.docbook:183
+#, no-c-format
+msgid "Left"
+msgstr "左方"
+
+#. Tag: guimenuitem
+#: config.docbook:184
+#, no-c-format
+msgid "Right"
+msgstr "右方"
+
+#. Tag: guimenuitem
+#: config.docbook:185
+#, no-c-format
+msgid "Bottom"
+msgstr "下方"
+
+#. Tag: para
+#: config.docbook:188
+#, no-c-format
+msgid "You can also move a toolbar by clicking and holding onto the dotted line at the left of horizontal toolbars or the top of vertical toolbars and dragging it to your desired location."
+msgstr "您还可以通过点击并按住水平工具栏左侧或垂直工具栏顶部的虚线，然后将其拖动到您想要的位置以移动工具栏。"
+
+#. Tag: title
+#: config.docbook:195
+#, no-c-format
+msgid "Show/Hide Toolbars"
+msgstr "显示/隐藏工具栏"
+
+#. Tag: para
+#: config.docbook:197
+#, no-c-format
+msgid "If your application has only one toolbar, you can hide a toolbar by deselecting <guimenuitem>Show Toolbar</guimenuitem> from either the toolbar's context menu or the <guimenu>Settings</guimenu> menu. To restore the toolbar, select <guimenuitem>Show Toolbar</guimenuitem> from the <guimenu>Settings</guimenu> menu. Note that toolbars must be <quote>unlocked</quote> to hide them from their context menu; see <xref linkend=\"toolbars-appearance-move\"/> for more information."
+msgstr "如果应用程序只有一个工具栏，您可以通过在工具栏的右键菜单或 <guimenu>设置</guimenu> 菜单中取消勾选 <guimenuitem>显示工具栏</guimenuitem> 以隐藏工具栏。要恢复工具栏，请在 <guimenu>设置</guimenu> 菜单中选择 <guimenuitem>显示工具栏</guimenuitem>。请注意，必须 <quote>解锁</quote> 工具栏才能从其右键菜单中隐藏；详情请参见 <xref linkend=\"toolbars-appearance-move\"/>。"
+
+#. Tag: para
+#: config.docbook:205
+#, no-c-format
+msgid "If your application has more than one toolbar, a submenu called <guisubmenu>Toolbars Shown</guisubmenu> will appear in the context menu and <guimenu>Settings</guimenu> menu instead of the above menu entry. From that menu you may select individual toolbars to hide and show."
+msgstr "如果应用程序有多个工具栏，<guisubmenu>显示的工具栏</guisubmenu> 子菜单会出现在右键菜单和 <guimenu>设置</guimenu> 菜单中，并取代上述菜单项。在此菜单中，您可以选择要隐藏或显示哪些工具栏。"
+
+#. Tag: title
+#: config.docbook:214 config.docbook:382
+#, no-c-format
+msgid "Thanks and Acknowledgments"
+msgstr "特别鸣谢"
+
+#. Tag: para
+#: config.docbook:215
+#, no-c-format
+msgid "Thanks to an anonymous Google Code-In 2011 participant for writing much of this section."
+msgstr "感谢一位匿名的 2011 年 Google Code-In 参与者编写了本章节的大部分内容。"
+
+#. Tag: author
+#: config.docbook:225
+#, no-c-format
+msgid "<firstname>Alexey</firstname> <surname>Subach</surname>"
+msgstr "<firstname>Alexey</firstname> <surname>Subach</surname>"
+
+#. Tag: title
+#: config.docbook:237
+#, no-c-format
+msgid "Using and Customizing Shortcuts"
+msgstr "使用和自定义快捷键"
+
+#. Tag: title
+#: config.docbook:240
+#, no-c-format
+msgid "Introduction"
+msgstr "介绍"
+
+#. Tag: para
+#: config.docbook:242
+#, no-c-format
+msgid "Many &kde; applications allow you to configure keyboard shortcuts. To open the standard keyboard shortcuts configuration panel, go to <menuchoice><guimenu>Settings</guimenu><guimenuitem>Configure Shortcuts...</guimenuitem></menuchoice>."
+msgstr "许多 &kde; 应用程序允许您配置键盘快捷键。要打开键盘标准快捷键配置面板，请转到 <menuchoice><guimenu>设置</guimenu><guimenuitem>配置快捷键...</guimenuitem></menuchoice>。"
+
+#. Tag: para
+#: config.docbook:247
+#, no-c-format
+msgid "In the Configure Shortcuts window, you will see a list of all the shortcuts available in the current application. You can use the search box at the top to search for the shortcut you want."
+msgstr "在配置快捷键窗口中，您会看到当前应用程序中所有可用快捷键的列表。您可以使用顶部的搜索框来查找您想要的快捷键。"
+
+#. Tag: screeninfo
+#: config.docbook:252
+#, no-c-format
+msgid "The Customize Shortcuts Window"
+msgstr "自定义快捷键窗口"
+
+#. Tag: phrase
+#: config.docbook:255
+#, no-c-format
+msgid "The Customize Shortcuts window."
+msgstr "自定义快捷键窗口。"
+
+#. Tag: para
+#: config.docbook:256
+#, no-c-format
+msgid "Searching for shortcuts with <userinput>file</userinput> in <ulink url=\"https://kde.org/applications/system/dolphin/\">&dolphin;</ulink>."
+msgstr "在 <ulink url=\"https://kde.org/applications/system/dolphin/\">&dolphin;</ulink> 中搜索关于 <userinput>file</userinput> 的快捷键。"
+
+#. Tag: title
+#: config.docbook:265
+#, no-c-format
+msgid "Changing a Shortcut"
+msgstr "更改快捷键"
+
+#. Tag: para
+#: config.docbook:267
+#, no-c-format
+msgid "To change a shortcut, first click on the name of a shortcut you want to change. You will see a radio group where you can choose whether to set the shortcut to its default value, or select a new shortcut for the selected action. To set a new shortcut, choose <guilabel>Custom</guilabel> and click on the button next to it. Then just type the shortcut you would like to use, and your changes will be saved."
+msgstr "要更改快捷键，首先点击您想要更改的快捷键的名称。您将看到一个单选按钮组，可以选择将快捷键设置为默认值，或者为所选操作选择一个新的快捷键。要设置新的快捷键，请选择 <guilabel>自定义</guilabel> 并点击旁边的按钮。然后只需输入您想使用的快捷键，您的更改就会被保存。"
+
+#. Tag: screeninfo
+#: config.docbook:274
+#, no-c-format
+msgid "Setting a Shortcut"
+msgstr "设置一项快捷键"
+
+#. Tag: phrase
+#: config.docbook:277
+#, no-c-format
+msgid "The Customize Shortcuts window demonstrating how to set a shortcut."
+msgstr "自定义快捷键窗口，正在演示如何设置一项快捷键。"
+
+#. Tag: title
+#: config.docbook:285
+#, no-c-format
+msgid "Resetting Shortcuts"
+msgstr "重置快捷键"
+
+#. Tag: para
+#: config.docbook:286
+#, no-c-format
+msgid "There is a button at the bottom of the window, called <guibutton>Defaults</guibutton>. Clicking on this button will reset all your custom shortcuts to their default values."
+msgstr "窗口底部有一个名为 <guibutton>默认</guibutton> 的按钮。点击此按钮会把您所有自定义的快捷键重置为默认值。"
+
+#. Tag: para
+#: config.docbook:290
+#, no-c-format
+msgid "You can also reset an individual shortcut to its default value by selecting it, and choosing the <guilabel>Default</guilabel> radio button."
+msgstr "您也可以通过选择单个快捷键，并选择 <guilabel>默认</guilabel> 单选按钮，以将其重置为默认值。"
+
+#. Tag: title
+#: config.docbook:296
+#, no-c-format
+msgid "Removing a Shortcut"
+msgstr "移除快捷键"
+
+#. Tag: para
+#: config.docbook:298
+#, no-c-format
+msgid "To remove a shortcut, select it from the list, then click the remove icon (a black arrow with a cross) to the right of the button that allows you to select a shortcut."
+msgstr "要移除快捷键，请从列表中选择要移除的快捷键，然后点击设置快捷键按钮右侧的移除图标 (一个带有叉号的黑色箭头)。"
+
+#. Tag: title
+#: config.docbook:305
+#, no-c-format
+msgid "<title>Working with Schemes</title>"
+msgstr "<title>使用方案</title>"
+
+#. Tag: para
+#: config.docbook:307
+#, no-c-format
+msgid "Schemes are keyboard shortcuts configuration profiles, so you can create several profiles with different shortcuts and switch between these profiles easily."
+msgstr "方案是键盘快捷键的配置文件。所以您可以创建多个有不同快捷键的方案，并在这些方案之间轻松切换。"
+
+#. Tag: screeninfo
+#: config.docbook:312
+#, no-c-format
+msgid "<screeninfo>Working with Schemes</screeninfo>"
+msgstr "<screeninfo>使用方案</screeninfo>"
+
+#. Tag: phrase
+#: config.docbook:315
+#, no-c-format
+msgid "The Customize Shortcuts window displaying the scheme editing tools."
+msgstr "自定义快捷键窗口，正在展示方案编辑工具。"
+
+#. Tag: para
+#: config.docbook:317
+#, no-c-format
+msgid "Editing a scheme called <userinput>work</userinput>."
+msgstr "正在编辑一个名为 <userinput>work</userinput> 的方案。"
+
+#. Tag: para
+#: config.docbook:321
+#, no-c-format
+msgid "To see a menu allowing you to edit schemes, click on the <guibutton>Manage Schemes</guibutton> button at the bottom of the form. The following options will appear:"
+msgstr "请点击窗口底部的 <guibutton>管理方案</guibutton> 按钮以打开方案编辑菜单。内有以下选项："
+
+#. Tag: guilabel
+#: config.docbook:328
+#, no-c-format
+msgid "Current Scheme"
+msgstr "当前方案"
+
+#. Tag: para
+#: config.docbook:329
+#, no-c-format
+msgid "Allows you to switch between your schemes."
+msgstr "允许您在您的方案中切换。"
+
+#. Tag: guibutton
+#: config.docbook:333
+#, no-c-format
+msgid "New..."
+msgstr "新建..."
+
+#. Tag: para
+#: config.docbook:334
+#, no-c-format
+msgid "Creates a new scheme. This opens a window that lets you select a name for your new scheme."
+msgstr "新建一个方案。您可以在打开的窗口中为您的新方案命名。"
+
+#. Tag: guibutton
+#: config.docbook:339
+#, no-c-format
+msgid "Delete"
+msgstr "删除"
+
+#. Tag: para
+#: config.docbook:340
+#, no-c-format
+msgid "Deletes the current scheme."
+msgstr "删除当前方案。"
+
+#. Tag: guibutton
+#: config.docbook:344
+#, no-c-format
+msgid "More Actions"
+msgstr "更多操作"
+
+#. Tag: para
+#: config.docbook:346
+#, no-c-format
+msgid "Opens the following menu:"
+msgstr "打开以下菜单："
+
+#. Tag: guimenuitem
+#: config.docbook:350
+#, no-c-format
+msgid "Save Shortcuts to scheme"
+msgstr "保存快捷键方案"
+
+#. Tag: para
+#: config.docbook:351
+#, no-c-format
+msgid "Save the current shortcuts to the current scheme."
+msgstr "将当前快捷键保存到当前方案。"
+
+#. Tag: guimenuitem
+#: config.docbook:355
+#, no-c-format
+msgid "Export Scheme..."
+msgstr "导出方案…"
+
+#. Tag: para
+#: config.docbook:356
+#, no-c-format
+msgid "Exports the current scheme to a file ."
+msgstr "将当前方案导出为文件。"
+
+#. Tag: guimenuitem
+#: config.docbook:361
+#, no-c-format
+msgid "Import Scheme..."
+msgstr "导入方案…"
+
+#. Tag: para
+#: config.docbook:362
+#, no-c-format
+msgid "Imports a scheme from a file ."
+msgstr "从文件导入方案。"
+
+#. Tag: title
+#: config.docbook:374
+#, no-c-format
+msgid "Printing Shortcuts"
+msgstr "打印快捷键"
+
+#. Tag: para
+#: config.docbook:376
+#, no-c-format
+msgid "You can print out a list of shortcuts for easy reference by clicking the <guibutton>Print</guibutton> button at the bottom of the window."
+msgstr "您可以通过点击窗口底部的 <guibutton>打印</guibutton> 按钮，打印出快捷键列表以供参考。"
+
+#. Tag: para
+#: config.docbook:384
+#, no-c-format
+msgid "Special thanks to Google Code-In 2011 participant Alexey Subach for writing much of this section."
+msgstr "特别感谢 2011 年 Google Code-In 的参与者 Alexey Subach 编写了本章节的大部分内容。"
+
