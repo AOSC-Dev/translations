@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2024-09-29 12:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/khelpcenter/fundamentals.pot\n"
+"X-Crowdin-File-ID: 3194\n"
+"Language: zh_CN\n"
+
+#. Tag: !ENTITY
+#: index.docbook:6
+#, no-c-format
+msgid "<!ENTITY i18n-Meta \"<keysym>Meta</keysym>\">"
+msgstr "<!ENTITY i18n-Meta \"<keysym>Meta</keysym>\">"
+
+#. Tag: title
+#: index.docbook:15
+#, no-c-format
+msgid "&kde; Fundamentals"
+msgstr "&kde; 基础"
+
+#. Tag: author
+#: index.docbook:19
+#, no-c-format
+msgid "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+msgstr "&TC.Hollingsworth; &TC.Hollingsworth.mail;"
+
+#. Tag: trans_comment
+#: index.docbook:21
+#, no-c-format
+msgid "ROLES_OF_TRANSLATORS"
+msgstr "<othercredit role=\"translator\"><firstname>Yunhe</firstname><surname>Guo</surname><affiliation><address><email>i@guoyunhe.me</email></address></affiliation></othercredit><othercredit role=\"translator\"><firstname>Rongfeng</firstname><surname>Ge</surname><affiliation><address><email>stellarpurr@gmail.com</email></address></affiliation></othercredit>"
+
+#. Tag: holder
+#: index.docbook:26
+#, no-c-format
+msgid "&TC.Hollingsworth;"
+msgstr "&TC.Hollingsworth;"
+
+#. Tag: holder
+#: index.docbook:30
+#, no-c-format
+msgid "Alexey Subach"
+msgstr "Alexey Subach"
+
+#. Tag: holder
+#: index.docbook:34
+#, no-c-format
+msgid "Salma Sultana"
+msgstr "Salma Sultana"
+
+#. Tag: date
+#: index.docbook:38
+#, no-c-format
+msgid "2016-11-28"
+msgstr "2016-11-28"
+
+#. Tag: para
+#: index.docbook:41
+#, no-c-format
+msgid "This guide provides an introduction to the &plasma; workspace and applications and describes many common tasks that can be performed."
+msgstr "本指南介绍了 &plasma; 工作空间和应用程序，并描述了许多可以进行的常见任务。"
+
+#. Tag: keyword
+#: index.docbook:46
+#, no-c-format
+msgid "<keyword>KDE</keyword>"
+msgstr "<keyword>KDE</keyword>"
+
+#. Tag: keyword
+#: index.docbook:47
+#, no-c-format
+msgid "introduction"
+msgstr "介绍"
+
+#. Tag: keyword
+#: index.docbook:48
+#, no-c-format
+msgid "user interface"
+msgstr "用户界面"
+
+#. Tag: keyword
+#: index.docbook:49
+#, no-c-format
+msgid "menus"
+msgstr "菜单"
+
+#. Tag: keyword
+#: index.docbook:50
+#, no-c-format
+msgid "files"
+msgstr "文件"
+
+#. Tag: keyword
+#: index.docbook:51
+#, no-c-format
+msgid "open"
+msgstr "打开"
+
+#. Tag: keyword
+#: index.docbook:52
+#, no-c-format
+msgid "save"
+msgstr "保存"
+
+#. Tag: keyword
+#: index.docbook:53
+#, no-c-format
+msgid "spelling"
+msgstr "拼写"
+
+#. Tag: keyword
+#: index.docbook:54
+#, no-c-format
+msgid "spellcheck"
+msgstr "拼写检查"
+
+#. Tag: keyword
+#: index.docbook:55
+#, no-c-format
+msgid "find"
+msgstr "查找"
+
+#. Tag: keyword
+#: index.docbook:56
+#, no-c-format
+msgid "replace"
+msgstr "替换"
+
+#. Tag: keyword
+#: index.docbook:57
+#, no-c-format
+msgid "colors"
+msgstr "颜色"
+
+#. Tag: keyword
+#: index.docbook:58
+#, no-c-format
+msgid "configuration"
+msgstr "配置"
+
+#. Tag: keyword
+#: index.docbook:59
+#, no-c-format
+msgid "customization"
+msgstr "自定义"
+
+#. Tag: keyword
+#: index.docbook:60
+#, no-c-format
+msgid "toolbars"
+msgstr "工具栏"
+
+#. Tag: keyword
+#: index.docbook:61
+#, no-c-format
+msgid "installation"
+msgstr "安装"
+
+#. Tag: keyword
+#: index.docbook:62
+#, no-c-format
+msgid "compiling"
+msgstr "编译"
+
+#. Tag: title
+#: index.docbook:68
+#, no-c-format
+msgid "Introduction"
+msgstr "介绍"
+
+#. Tag: para
+#: index.docbook:69
+#, no-c-format
+msgid "Welcome to &kde;!"
+msgstr "欢迎使用 &kde;！"
+
+#. Tag: para
+#: index.docbook:71
+#, no-c-format
+msgid "This guide will introduce you to the many features of the &plasma; workspace and applications and describe many common tasks you can perform."
+msgstr "本指南将向您介绍 &plasma; 工作空间和应用程序的多项特性与功能，并向您描述您可以进行的一些常见任务。"
+
+#. Tag: para
+#: index.docbook:74
+#, no-c-format
+msgid "For more information on &kde;, visit the <ulink url=\"https://www.kde.org/\">KDE website</ulink>."
+msgstr "如需了解更多关于 &kde; 的信息，请访问 <ulink url=\"https://www.kde.org/\">KDE 网站</ulink>。"
+
+#. Tag: title
+#: index.docbook:89
+#, no-c-format
+msgid "Credits and License"
+msgstr "致谢与版权"
+
+#. Tag: para
+#: index.docbook:91
+#, no-c-format
+msgid "The original idea for this guide was proposed by Chusslove Illich and brought to fruition with input from &Burkhard.Lueck;, Yuri Chornoivan, and &TC.Hollingsworth;"
+msgstr "本指南的最初构想是由 Chusslove Illich 提出的，并在 &Burkhard.Lueck;、Yuri Chornoivan、&TC.Hollingsworth; 的参与下得以实现。"
+
+#. Tag: para
+#: index.docbook:95
+#, no-c-format
+msgid "Much of it was written by participants of <ulink url=\"http://code.google.com/opensource/gci/2011-12/index.html\">Google Code-In 2011</ulink>. Thanks to Google for sponsoring their excellent work!"
+msgstr "其中相当一部分内容是由 <ulink url=\"http://code.google.com/opensource/gci/2011-12/index.html\">Google Code-In 2011</ulink> 的参与者编写的。感谢 Google 对他们出色工作的赞助！"
+
+#. Tag: trans_comment
+#: index.docbook:99
+#, no-c-format
+msgid "CREDIT_FOR_TRANSLATORS"
+msgstr "<para>本文档由 KDE 中国团队翻译。</para>"
+
+#. Tag: chapter
+#: index.docbook:99
+#, no-c-format
+msgid "&underFDL; &underGPL;"
+msgstr "&underFDL; &underGPL;"
+
