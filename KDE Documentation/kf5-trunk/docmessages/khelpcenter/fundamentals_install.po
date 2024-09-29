@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdeorg\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2021-03-28 16:23+0000\n"
+"PO-Revision-Date: 2024-09-29 12:58\n"
+"Last-Translator: \n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: kdeorg\n"
+"X-Crowdin-Project-ID: 269464\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /kf5-trunk/docmessages/khelpcenter/fundamentals_install.pot\n"
+"X-Crowdin-File-ID: 3197\n"
+"Language: zh_CN\n"
+
+#. Tag: title
+#: install.docbook:2
+#, no-c-format
+msgid "Installing &plasma-desktop; and &kde; Applications"
+msgstr "安装 &plasma-desktop; 和 &kde; 应用程序"
+
+#. Tag: para
+#: install.docbook:4
+#, no-c-format
+msgid "You can install &kde; applications, including &plasma-desktop;, on a variety of different platforms, ranging from smartphones and tablets to computers running &Microsoft; &Windows;, &MacOS;, &UNIX;, &BSD; or &Linux;. Binary packages are available for many different platforms and distributions, or advanced users may build the source code."
+msgstr "从智能手机和平板电脑，到运行 &Microsoft; &Windows;、&MacOS;、&UNIX;、&BSD; 或 &Linux; 的计算机，您可以在各种平台上安装 &kde; 应用程序，包括 &plasma-desktop;。二进制包可用于许多平台和发行版，资深用户也可以从源代码构建。"
+
+#. Tag: title
+#: install.docbook:11
+#, no-c-format
+msgid "Installing Packages"
+msgstr "正在安装软件包"
+
+#. Tag: para
+#: install.docbook:13
+#, no-c-format
+msgid "Hundreds of developers worldwide have done a lot of work to make it easy to install &kde; onto a variety of different devices and platforms."
+msgstr "全世界数以百计的开发者已经做了大量工作，让我们很容易安装 &kde; 到各种不同的设备和平台上。"
+
+#. Tag: title
+#: install.docbook:17
+#, no-c-format
+msgid "&Linux;"
+msgstr "&Linux;"
+
+#. Tag: para
+#: install.docbook:19
+#, no-c-format
+msgid "Nearly every &Linux; distribution provides binary packages for individual applications and the &plasma-desktop; as a whole."
+msgstr "几乎所有 &Linux; 发行版都为各个应用程序和完整 &plasma-desktop; 提供了二进制包。"
+
+#. Tag: para
+#: install.docbook:22
+#, no-c-format
+msgid "To install an individual application, look for its name in your distribution's package collection. To install one of the &plasma-workspaces;, like &plasma-desktop;, look for a metapackage or package group, typically <literal>plasma-desktop</literal>."
+msgstr "如需安装单个应用程序，请在您的发行版的软件包集合中查找其名称。要安装 &plasma-workspaces; 的一部分，如 &plasma-desktop;，请查找一个元包 (metapackage) 或包组 (package group)，通常为 <literal>plasma-desktop</literal>。"
+
+#. Tag: para
+#: install.docbook:28
+#, no-c-format
+msgid "Some applications may be installed together with other applications in a combined package named after the &kde; package they are provided in. For instance, &konqueror; might be found in the <literal>kde-baseapps</literal> package."
+msgstr "有些应用程序可能会与其他应用程序在一个组合软件包中一起安装，该包会以它们所属的 &kde; 软件包命名。例如，&konqueror; 可能在 <literal>kde-baseapps</literal> 软件包中。"
+
+#. Tag: para
+#: install.docbook:34
+#, no-c-format
+msgid "If you have trouble locating &kde; packages for your distribution, please contact their support resources. Many distributions also have a team dedicated to packaging applications by &kde; that can provide assistance specific to them."
+msgstr "如果您在您的发行版中找不到 &kde; 软件包，请寻找有关支持资源。许多发行版还有一个专门负责打包 &kde; 应用程序的团队，可以为您提供相关帮助。"
+
+#. Tag: title
+#: install.docbook:43
+#, no-c-format
+msgid "&Microsoft; &Windows;"
+msgstr "&Microsoft; &Windows;"
+
+#. Tag: para
+#: install.docbook:45
+#, no-c-format
+msgid "The &kde; on Windows Initiative provides binary packages of &kde; applications for &Microsoft; &Windows;. They also provide a special installer application that permits you to install individual applications or groups and all necessary dependencies easily."
+msgstr "&kde; Windows 支持项目为 &Microsoft; &Windows; 提供了 &kde; 应用程序的二进制包。他们还提供了一个专用安装程序，允许您轻松安装单个应用程序或应用程序组，和所有必要的依赖项。"
+
+#. Tag: para
+#: install.docbook:50
+#, no-c-format
+msgid "For more information on the initiative and to download the installer, visit <ulink url=\"https://windows.kde.org/\">the KDE on Windows Initiative</ulink>."
+msgstr "如需了解有关该项目的更多信息并下载安装程序，请访问 <ulink url=\"https://windows.kde.org/\">KDE Windows 支持项目</ulink>。"
+
+#. Tag: title
+#: install.docbook:59
+#, no-c-format
+msgid "&MacOS;"
+msgstr "&MacOS;"
+
+#. Tag: para
+#: install.docbook:61
+#, no-c-format
+msgid "Individual &kde; applications can be installed through several different <quote>ports</quote> systems available for &MacOS;. Several different &kde; applications also provide their own binary builds for &MacOS;."
+msgstr "您可以通过几个适用于 &MacOS; 的 <quote>ports</quote> 系统安装单个 &kde; 应用程序。还有一些 &kde; 应用程序提供了自己的 &MacOS; 可执行文件。"
+
+#. Tag: para
+#: install.docbook:65
+#, no-c-format
+msgid "For more information, visit <ulink url=\"https://mac.kde.org/\">&kde; on &MacOS;X</ulink>."
+msgstr "如需了解更多信息，请访问 <ulink url=\"https://mac.kde.org/\">&MacOS;X 上的 &kde;</ulink>。"
+
+#. Tag: title
+#: install.docbook:71
+#, no-c-format
+msgid "&BSD;"
+msgstr "&BSD;"
+
+#. Tag: para
+#: install.docbook:73
+#, no-c-format
+msgid "Most &BSD; distributions allows you to install &kde; applications and the &plasma-desktop; through their <quote>ports</quote> system."
+msgstr "大多数 &BSD; 发行版允许您通过其 <quote>ports</quote> 系统安装 &kde; 应用程序和 &plasma-desktop;。"
+
+#. Tag: para
+#: install.docbook:77
+#, no-c-format
+msgid "For more information on installing ports, see your &BSD; distribution's documentation."
+msgstr "有关安装 ports 的更多信息，请参见您的 &BSD; 发行版的文档。"
+
+#. Tag: title
+#: install.docbook:85
+#, no-c-format
+msgid "Mobile Devices"
+msgstr "移动设备"
+
+#. Tag: para
+#: install.docbook:86
+#, no-c-format
+msgid "<productname>Plasma Mobile</productname> is an exciting initiative to bring a new &kde; experience to mobile devices like smartphones or tablets. Binary releases are provided for several different devices."
+msgstr "<productname>Plasma Mobile</productname> 是一个令人兴奋的项目，旨在为智能手机和平板电脑等移动设备带来全新的 &kde; 体验。现已为多种设备提供了二进制发布版本。"
+
+#. Tag: para
+#: install.docbook:90
+#, no-c-format
+msgid "For more information, visit <ulink url=\"https://www.plasma-mobile.org/\"><productname>Plasma Mobile</productname></ulink>."
+msgstr "如需了解更多信息，请访问 <ulink url=\"https://www.plasma-mobile.org/\"><productname>Plasma Mobile</productname></ulink>。"
+
+#. Tag: title
+#: install.docbook:96
+#, no-c-format
+msgid "Live Media"
+msgstr "Live 系统"
+
+#. Tag: para
+#: install.docbook:98
+#, no-c-format
+msgid "Several &Linux; and &BSD; distributions offer live media. This permits you to try out the &plasma-desktop; without installing anything to your system. All you have to do insert a CD or connect a USB drive and boot from it. If you like what you see, most offer an option to install it to your hard drive."
+msgstr "很多 &Linux; 和 &BSD; 发行版提供了 Live 系统。这使您可以在不向系统安装任何内容的情况下试用 &plasma-desktop;。您只需插入 CD 或连接 USB 驱动器并从中启动即可。之后如果您喜欢的话，大多数发行版都提供了将其安装到硬盘的选项。"
+
+#. Tag: para
+#: install.docbook:103
+#, no-c-format
+msgid "There is <ulink url=\"https://www.kde.org/download/distributions.php\">a list of distributions that offer the &kde; workspace and applications on live media</ulink> on the &kde; website."
+msgstr "&kde; 网站上有一个 <ulink url=\"https://www.kde.org/download/distributions.php\">提供 &kde; 工作区和应用程序 Live 系统的发行版列表</ulink>。"
+
+#. Tag: title
+#: install.docbook:108
+#, no-c-format
+msgid "Building from Source Code"
+msgstr "从源代码构建"
+
+#. Tag: para
+#: install.docbook:110
+#, no-c-format
+msgid "For detailed information on how to compile and install &plasma-desktop; and applications see <ulink url=\"https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source\">Build from source</ulink>."
+msgstr "有关如何编译并安装 &plasma-desktop; 和应用程序的更多信息，请参见 <ulink url=\"https://community.kde.org/Guidelines_and_HOWTOs/Build_from_source\">从源代码构建</ulink>。"
+
+#. Tag: para
+#: install.docbook:113
+#, no-c-format
+msgid "Since &kde; software uses <command>cmake</command> you should have no trouble compiling it. Should you run into problems please report them to the &kde; mailing lists."
+msgstr "由于 &kde; 软件使用 <command>cmake</command>，您应该不会遇到编译问题。如果遇到问题，请将其报告到 &kde; 邮件列表。"
+
+#. Tag: para
+#: install.docbook:117
+#, no-c-format
+msgid "The recommended tool to build Frameworks, &plasma-desktop; and all the other applications is <ulink url=\"https://commits.kde.org/kdesrc-build\">kdesrc-build</ulink>"
+msgstr "推荐用于构建框架，&plasma-desktop; 和所有其他应用程序的工具是 <ulink url=\"https://commits.kde.org/kdesrc-build\">kdesrc-build</ulink>。"
+
