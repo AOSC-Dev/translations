@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Inkscape 0.92.x\n"
 "Report-Msgid-Bugs-To: inkscape-translator@lists.inkscape.org\n"
 "POT-Creation-Date: 2024-10-19 16:42+0100\n"
-"PO-Revision-Date: 2025-09-22 22:58+0800\n"
+"PO-Revision-Date: 2025-09-24 19:03+0800\n"
 "Last-Translator: Shunyao Liu <shengxia23@hainnu.edu.cn>\n"
 "Language-Team: <https://chat.inkscape.org>\n"
 "Language: zh_CN\n"
@@ -18382,7 +18382,7 @@ msgstr ""
 "<b><i>自定义样式：</i></b> 要进一步自定义样式，可使用 XML 编辑器查找类或 ID，然后"
 "使用“样式”对话框应用新样式。\n"
 "<b><i>黑名单：</i></b> 允许隐藏某些线段或投影步骤。\n"
-"<b><i>多次测量实时路径效果（LPE）：</i></b> 在同一对象中，结合黑名单使用，可实现不"
+"<b><i>多次测量实时路径效果 (LPE)：</i></b> 在同一对象中，结合黑名单使用，可实现不"
 "同方向的标签和测量或附加投影。\n"
 "<b><i>设定默认值：</i></b> 对于每个实时路径效果，可在底部设置默认值。"
 
@@ -29226,7 +29226,7 @@ msgstr ""
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2892
 msgid "Live Path Effects (LPE)"
-msgstr "实时路径效果（LPE）"
+msgstr "实时路径效果 (LPE)"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2899
 msgid "Number of _Threads:"
@@ -38829,7 +38829,7 @@ msgstr "设置裁剪(_S)"
 
 #: ../share/ui/menus.ui:819
 msgid "_Set Inverse Clip (LPE)"
-msgstr "设置反向裁剪（动态路径效果）(_S)"
+msgstr "设置反向裁剪（实时路径效果）(_S)"
 
 #: ../share/ui/menus.ui:823
 msgid "_Release Clip"
@@ -38845,7 +38845,7 @@ msgstr "设置蒙版(_S)"
 
 #: ../share/ui/menus.ui:837
 msgid "_Set Inverse Mask (LPE)"
-msgstr "设置反向蒙版（动态路径效果）(_S)"
+msgstr "设置反向蒙版（实时路径效果）(_S)"
 
 #: ../share/ui/menus.ui:841
 msgid "_Release Mask"
@@ -39473,7 +39473,7 @@ msgstr "显示选定项目的测量信息"
 
 #: ../share/ui/toolbar-lpe.ui:163
 msgid "Open LPE dialog (to adapt parameters numerically)"
-msgstr "打开动态路径效果对话框（以数值方式调整参数）"
+msgstr "打开实时路径效果对话框（以数值方式调整参数）"
 
 #: ../share/ui/toolbar-marker.ui:12
 msgid "Edit marker on canvas."
@@ -39817,11 +39817,11 @@ msgstr "平滑度:"
 
 #: ../share/ui/toolbar-pencil.ui:196
 msgid "LPE based interactive simplify"
-msgstr "基于动态路径效果的交互式简化"
+msgstr "基于实时路径效果的交互式简化"
 
 #: ../share/ui/toolbar-pencil.ui:206
 msgid "LPE simplify flatten"
-msgstr "动态路径效果简化扁平化"
+msgstr "实时路径效果简化扁平化"
 
 #: ../share/ui/toolbar-pencil.ui:228
 msgid "Scale of the width of the power stroke shape."
@@ -49472,15 +49472,15 @@ msgstr "可搜索符号对话框"
 
 #: ../org.inkscape.Inkscape.appdata.xml.in:117
 msgid "New Live Path Effect (LPE) selection dialog"
-msgstr "新版动态路径效果（LPE）选择对话框"
+msgstr "新版实时路径效果 (LPE) 选择对话框"
 
 #: ../org.inkscape.Inkscape.appdata.xml.in:118
 msgid ""
 "New Corners (Fillet/chamfer) LPE, (lossless) Boolean Operation LPE "
 "(experimental), Offset LPE and Measure Segments LPE (and more!)"
 msgstr ""
-"新增圆角/倒角动态路径效果、（无损）布尔运算动态路径效果（实验性）、偏移动态路径效"
-"果和线段测量动态路径效果（及更多功能！）"
+"新增圆角/倒角实时路径效果、（无损）布尔运算实时路径效果（实验性）、偏移动态路径效"
+"果和线段测量实时路径效果（及更多功能！）"
 
 #: ../org.inkscape.Inkscape.appdata.xml.in:119
 msgid ""
