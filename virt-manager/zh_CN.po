@@ -34,7 +34,7 @@ msgstr ""
 "Project-Id-Version: virt-manager\n"
 "Report-Msgid-Bugs-To: https://github.com/virt-manager/virt-manager/issues\n"
 "POT-Creation-Date: 2025-08-25 23:23+0200\n"
-"PO-Revision-Date: 2025-09-22 13:39+0800\n"
+"PO-Revision-Date: 2025-09-25 21:12+0800\n"
 "Last-Translator: Shunyao Liu <shengxia23@hainnu.edu.cn>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/virt-manager/virt-manager/zh_CN/>\n"
@@ -76,7 +76,7 @@ msgstr "虚拟机配置界面"
 
 #: data/virt-manager.appdata.xml.in:28
 msgid "Graphical console connection for a virtual machine"
-msgstr "虚拟机图形化控制台连接"
+msgstr "虚拟机图形控制台连接"
 
 #: data/virt-manager.appdata.xml.in:36
 msgid "virtualization"
@@ -262,7 +262,7 @@ msgstr "缓存模式(_H)："
 
 #: ui/addstorage.ui:285
 msgid "Discard mod_e:"
-msgstr "丢弃模式(_E)："
+msgstr "丢弃 (discard) 模式(_E)："
 
 #: ui/addstorage.ui:316
 msgid "R_eadonly:"
@@ -377,7 +377,7 @@ msgstr "克隆(_L)"
 
 #: ui/console.ui:17 ui/console.ui:233
 msgid "<b>The console is currently unavailable</b>"
-msgstr "<b>终端当前不可用</b>"
+msgstr "<b>控制台当前不可用</b>"
 
 #: ui/console.ui:57 virtManager/addhardware.py:252
 msgid "Serial"
@@ -581,7 +581,7 @@ msgstr "选择如何安装操作系统"
 
 #: ui/createvm.ui:261
 msgid "_Local install media (ISO image or CDROM)"
-msgstr "本地安装介质(ISO 映像或者光驱)(_L)"
+msgstr "本地安装介质（ISO 映像或者光驱）(_L)"
 
 #: ui/createvm.ui:279
 msgid "Network _Install (HTTP, HTTPS, or FTP)"
@@ -681,7 +681,7 @@ msgid ""
 "<small>Kernel/initrd settings can be configured with 'Customize before "
 "install' on the final page.</small>"
 msgstr ""
-"<small>可在末页通过“安装前自定义”选项配置内核/初始 RAM 磁盘的设置。</small>"
+"<small>可在末页通过“安装前自定义”选项配置内核/初始化内存盘的设置。</small>"
 
 #: ui/createvm.ui:1171
 msgid "Provide the _application path:"
@@ -785,7 +785,7 @@ msgstr "CPU 数(_P)："
 
 #: ui/createvm.ui:1903
 msgid "(Insert host mem)"
-msgstr "(插入主机内存)"
+msgstr "（插入主机内存）"
 
 #: ui/createvm.ui:1987 virtManager/details/details.py:2342
 msgid "Memory"
@@ -988,11 +988,11 @@ msgstr "<b>网络 I/O</b>"
 
 #: ui/details.ui:1299
 msgid "Logical host CPUs:"
-msgstr "逻辑主机 CPU 数："
+msgstr "主机逻辑 CPU 数："
 
 #: ui/details.ui:1312
 msgid "vCPU a_llocation:"
-msgstr "vCPU 分配(_A)："
+msgstr "分配 vCPU 数(_A)："
 
 #: ui/details.ui:1329
 msgid "2"
@@ -1105,7 +1105,7 @@ msgstr "内核路径(_R)："
 
 #: ui/details.ui:2192
 msgid "_Initrd path:"
-msgstr "初始 RAM 磁盘路径(_I)："
+msgstr "初始化内存盘路径(_I)："
 
 #: ui/details.ui:2223 ui/details.ui:2268 ui/details.ui:2359
 msgid "Browse"
@@ -1165,7 +1165,7 @@ msgstr "链接状态(_S)："
 
 #: ui/details.ui:3093
 msgid "active"
-msgstr "活动"
+msgstr "已激活"
 
 #: ui/details.ui:3115 ui/hoststorage.ui:429 ui/snapshots.ui:216
 msgid "label"
@@ -1375,11 +1375,11 @@ msgstr "监听类型(_I)："
 
 #: ui/gfxdetails.ui:365
 msgid "OpenGL only works with 'virtio' graphics with '3D acceleration' enabled"
-msgstr "OpenGL 仅适用于启用了 '3D 加速' 的 'virtio' 显卡"
+msgstr "OpenGL 仅适用于启用了“3D 加速”的“virtio”显卡"
 
 #: ui/gfxdetails.ui:381
 msgid "OpenGL only works with 'Listen type' value 'none'"
-msgstr "OpenGL 仅适用于 '侦听类型' 值为 '无' 的情况"
+msgstr "OpenGL 仅适用于“侦听类型”值为“无”的情况"
 
 #: ui/host.ui:27 ui/manager.ui:26 ui/vmwindow.ui:25
 msgid "_File"
@@ -1717,7 +1717,7 @@ msgstr ""
 "默认情况下，已迁移虚拟机的配置已从源主机中移除，并持久保存于目标主机。目标主"
 "机被视为是虚拟机的新宿主机。\n"
 "\n"
-"如果选择 '临时迁移'，迁移将被视作临时移动：源主机保留虚拟机配置的副本，迁移至"
+"如果选择“临时迁移”，迁移将被视作临时移动：源主机保留虚拟机配置的副本，迁移至"
 "目标主机的运行实例仅为临时性存在，关机后即消失。"
 
 #: ui/migrate.ui:571
@@ -1761,7 +1761,7 @@ msgid ""
 "options."
 msgstr ""
 "找不到需要的操作系统？\n"
-"尝试选择最相似的发行版或版本，或者使用一个“通用(Generic)”条目。"
+"尝试选择最相似的发行版或版本，或者使用一个“通用 (Generic)”条目。"
 
 #: ui/oslist.ui:109
 msgid "Include end of life operating systems"
@@ -1844,7 +1844,7 @@ msgid ""
 "identical CPUs in order to migrate the VM."
 msgstr ""
 "新虚拟机的默认 CPU 设置。需在性能和迁移兼容性间权衡：\n"
-"若选择 '复制主机' 选项，服务器需具备\n"
+"若选择“复制主机”选项，服务器需具备\n"
 "相同的 CPU 型号方可迁移虚拟机。"
 
 #: ui/preferences.ui:498
@@ -2107,7 +2107,7 @@ msgstr "自动连接(_A)"
 
 #: ui/vmwindow.ui:262
 msgid "T_oolbar"
-msgstr "工具条(_O)"
+msgstr "工具栏(_O)"
 
 #: ui/vmwindow.ui:276
 msgid "Send _Key"
@@ -2166,7 +2166,7 @@ msgid ""
 "<small>XML editing is disabled in 'Preferences'. Only enable it if you know "
 "what you are doing.</small>"
 msgstr ""
-"<small>XML 编辑在 '首选项' 中被禁用。仅在具备相关知识时再启用它。</small>"
+"<small>XML 编辑在“首选项”中被禁用。仅在具备相关知识时再启用它。</small>"
 
 #: ui/xmleditor.ui:122
 msgid "_XML"
@@ -2175,7 +2175,7 @@ msgstr "XML(_X)"
 #: virtManager/about.py:20
 #, python-format
 msgid "Error launching 'About' dialog: %s"
-msgstr "启动 '关于' 对话框出错：%s"
+msgstr "启动“关于”对话框出错：%s"
 
 #: virtManager/addhardware.py:174 virtManager/details/details.py:556
 msgid "Hardware"
@@ -2267,7 +2267,7 @@ msgstr "智能卡"
 
 #: virtManager/addhardware.py:318 virtManager/addhardware.py:1026
 msgid "USB Redirection"
-msgstr "USB 重新定向"
+msgstr "USB 转发器"
 
 #: virtManager/addhardware.py:319 virtManager/addhardware.py:1028
 msgid "TPM"
@@ -2936,7 +2936,7 @@ msgstr "主机最大可用内存 %(maxmem)s"
 #, python-format
 msgid "Up to %(numcpus)d available"
 msgid_plural "Up to %(numcpus)d available"
-msgstr[0] "最多可用 %(numcpus)d"
+msgstr[0] "最多可分配 %(numcpus)d 个核心"
 
 #: virtManager/createvm.py:669
 msgid "No active connection to install on."
@@ -3164,7 +3164,7 @@ msgstr ""
 #: virtManager/delete.py:197
 #, python-format
 msgid "Error deleting virtual machine '%(vm)s': %(error)s"
-msgstr "删除 “%(vm)s” 虚拟机出错 ：%(error)s"
+msgstr "删除 '%(vm)s' 虚拟机出错 ：%(error)s"
 
 #: virtManager/delete.py:215
 msgid "Additionally, there were errors removing certain storage devices: \n"
@@ -3410,7 +3410,7 @@ msgstr "%(bus)s %(device)s %(index)d"
 #: virtManager/details/details.py:182
 #, python-format
 msgid "NIC %(mac)s"
-msgstr "NIC %(mac)s"
+msgstr "网络接口控制器 %(mac)s"
 
 #: virtManager/details/details.py:195
 #, python-format
@@ -3465,12 +3465,12 @@ msgstr "文件系统 %(path)s"
 #: virtManager/details/details.py:233
 #, python-format
 msgid "Controller %(controller)s %(index)s"
-msgstr "控制器 %(controller)s %(index)s"
+msgstr "%(controller)s 控制器 %(index)s"
 
 #: virtManager/details/details.py:237
 #, python-format
 msgid "Controller %(controller)s"
-msgstr "控制器 %(controller)s"
+msgstr "%(controller)s 控制器"
 
 #: virtManager/details/details.py:242
 #, python-format
@@ -3555,7 +3555,7 @@ msgstr "更改自动启动值出错：%s"
 
 #: virtManager/details/details.py:1460
 msgid "Cannot set initrd without specifying a kernel path"
-msgstr "未指定内核路径，无法设定初始 RAM 磁盘"
+msgstr "未指定内核路径，无法设定初始化内存盘"
 
 #: virtManager/details/details.py:1463
 msgid "Cannot set kernel arguments without specifying a kernel path"
@@ -3838,7 +3838,7 @@ msgid ""
 "since the last snapshot was created will be discarded."
 msgstr ""
 "确定要应用快照 '%(name)s' 吗？所有自最后一次快照创建以来的对磁盘的更改都会被"
-"丢弃。"
+"丢弃 (discard)。"
 
 #: virtManager/details/snapshots.py:775
 #, python-format
@@ -3847,7 +3847,7 @@ msgid ""
 "configuration changes since the last snapshot was created will be discarded."
 msgstr ""
 "确定要应用快照 '%(name)s' 吗？所有自最后一次快照创建以来对磁盘和配置的更改都"
-"会被丢弃。"
+"会被丢弃 (discard)。"
 
 #: virtManager/details/snapshots.py:787
 msgid "Saved state will be removed to avoid filesystem corruption"
@@ -4070,7 +4070,7 @@ msgstr "虚拟网络 '%s' 未激活。要现在启动该网络吗？"
 #: virtManager/device/netlist.py:217
 #, python-format
 msgid "Could not start virtual network '%(device)s': %(error)s"
-msgstr "无法启动虚拟网络 “%(device)s”：%(error)s"
+msgstr "无法启动虚拟网络 '%(device)s'：%(error)s"
 
 #: virtManager/device/tpmdetails.py:12
 msgid "TIS"
@@ -4631,7 +4631,7 @@ msgstr "未捕获的错误验证输入：%s"
 #: virtManager/migrate.py:391
 #, python-format
 msgid "Migrating VM '%s'"
-msgstr "迁移虚拟机“%s”"
+msgstr "迁移虚拟机 '%s'"
 
 #: virtManager/migrate.py:393
 #, python-format
@@ -5128,7 +5128,7 @@ msgstr ""
 #: virtinst/cli.py:329
 #, python-format
 msgid " (Use --check %s=off or --check all=off to override)"
-msgstr " (使用 --check %s=off 或 --check all=off 选项覆盖)"
+msgstr " （使用 --check %s=off 或 --check all=off 选项覆盖）"
 
 #: virtinst/cli.py:360
 #, python-format
@@ -5547,7 +5547,7 @@ msgid ""
 msgstr ""
 "配置客户机引导设置。示例：\n"
 "--boot hd,cdrom,menu=on\n"
-"--boot init=/sbin/init (针对容器)"
+"--boot init=/sbin/init （针对容器）"
 
 #: virtinst/cli.py:1065
 msgid ""
@@ -5566,7 +5566,7 @@ msgid ""
 "--disk=?"
 msgstr ""
 "指定存储的各种选项。示例：\n"
-"--disk size=10 (在默认位置创建 10GiB 镜像)\n"
+"--disk size=10 （在默认位置创建 10GiB 镜像）\n"
 "--disk /my/existing/disk,cache=none\n"
 "--disk device=cdrom,bus=scsi\n"
 "--disk=?"
@@ -5939,11 +5939,11 @@ msgstr "验证安装介质 '%(media)s' 失败：%(error)s"
 
 #: virtinst/install/installertreemedia.py:125
 msgid "location kernel/initrd may only be specified with a location URL/path"
-msgstr "位置内核/初始 RAM 磁盘只能使用位置 URL/路径指定"
+msgstr "位置内核/初始化内存盘只能使用位置 URL/路径指定"
 
 #: virtinst/install/installertreemedia.py:128
 msgid "location kernel/initrd must be specified as a pair"
-msgstr "位置内核/初始 RAM 磁盘必须成对指定"
+msgstr "位置内核/初始化内存盘必须成对指定"
 
 #: virtinst/install/installertreemedia.py:155
 #, python-format
@@ -6203,15 +6203,16 @@ msgstr "为新客户机使用新的磁盘镜像文件"
 msgid ""
 "Force to copy devices (eg, if 'hdc' is a readonly cdrom device, --force-"
 "copy=hdc)"
-msgstr "强制复制设备(例如：如果 'hdc' 是只读光驱设备，则使用 --force-copy=hdc)"
+msgstr ""
+"强制复制设备（例如：如果 'hdc' 是只读光驱设备，则使用 --force-copy=hdc）"
 
 #: virtinst/virtclone.py:109
 msgid ""
 "Skip copy of the device target. (eg, if 'vda' is a disk you don't want to "
 "copy and use the same path in the new VM, use --skip-copy=vda)"
 msgstr ""
-"跳过设备目标的复制。 （例如，如果 'vda' 是不希望复制的磁盘，且希望在新虚拟机"
-"中使用相同的路径，请使用 --skip-copy=vda 选项）"
+"跳过设备目标的复制。（例如，如果 'vda' 是不希望复制的磁盘，且希望在新虚拟机中"
+"使用相同的路径，请使用 --skip-copy=vda 选项）"
 
 #: virtinst/virtclone.py:119
 msgid "Do not use a sparse file for the clone's disk image"
@@ -6304,7 +6305,7 @@ msgstr "--memory 数值单位为 MiB"
 
 #: virtinst/virtinstall.py:318
 msgid "--disk storage must be specified (override with --disk none)"
-msgstr "--disk 存储必须被指定 (--disk none 选项会覆盖此参数)"
+msgstr "--disk 存储必须被指定（--disk none 选项会覆盖此参数）"
 
 #: virtinst/virtinstall.py:322
 #, python-format
@@ -6598,7 +6599,7 @@ msgstr "将附加参数添加到由 --location 引导的内核中"
 
 #: virtinst/virtinstall.py:1095
 msgid "Add given file to root of initrd from --location"
-msgstr "添加指定文件到由 --location 指定的初始 RAM 磁盘根中"
+msgstr "添加指定文件到由 --location 指定的初始化内存盘根中"
 
 #: virtinst/virtinstall.py:1098
 msgid "Perform an unattended installation"
@@ -6723,7 +6724,7 @@ msgstr "未更改指定配置。"
 #: virtinst/virtxml.py:170
 #, python-format
 msgid "Only one change operation may be specified (conflicting options %s)"
-msgstr "仅可以指定一个更改操作 (冲突选项 %s)"
+msgstr "仅可以指定一个更改操作（冲突选项 %s）"
 
 #: virtinst/virtxml.py:212
 #, python-format
@@ -6867,10 +6868,10 @@ msgid ""
 "--edit target=hda --disk ... (edit disk 'hda')\n"
 msgstr ""
 "编辑虚拟机 XML。示例：\n"
-"--edit --disk ...     (编辑第一个磁盘设备)\n"
-"--edit 2 --disk ...  (编辑第二个磁盘设备)\n"
-"--edit all --disk ... (编辑所有磁盘设备)\n"
-"--edit target=hda --disk ... (编辑磁盘 'hda')\n"
+"--edit --disk ...     （编辑第一个磁盘设备）\n"
+"--edit 2 --disk ...  （编辑第二个磁盘设备）\n"
+"--edit all --disk ... （编辑所有磁盘设备）\n"
+"--edit target=hda --disk ... （编辑磁盘 'hda'）\n"
 
 #: virtinst/virtxml.py:477
 msgid ""
@@ -6880,8 +6881,8 @@ msgid ""
 "--remove-device --disk /some/path"
 msgstr ""
 "删除指定设备。示例：\n"
-"--remove-device --disk 1 (删除第一个磁盘)\n"
-"--remove-device --disk all (删除所有磁盘)\n"
+"--remove-device --disk 1 （删除第一个磁盘）\n"
+"--remove-device --disk all （删除所有磁盘）\n"
 "--remove-device --disk /some/path"
 
 #: virtinst/virtxml.py:486
@@ -7098,7 +7099,7 @@ msgstr "%(objecttype)s 名称 '%(name)s' 不能包含 '%(char)s' 字符。"
 #~ msgstr "Sheepdog 文件系统"
 
 #~ msgid "Missing mandatory attribute 'type'"
-#~ msgstr "缺少必填属性 '类型'"
+#~ msgstr "缺少必填属性“类型”"
 
 #~ msgid "SEV launch security is not supported on this platform"
 #~ msgstr "此平台不支持 SEV 启动安全性设置"
@@ -7413,7 +7414,7 @@ msgstr "%(objecttype)s 名称 '%(name)s' 不能包含 '%(char)s' 字符。"
 #~ msgid ""
 #~ "Building a pool of this type will format the source device. Are you sure "
 #~ "you want to 'build' this pool?"
-#~ msgstr "构建一个这种类型的池将格式化源设备。确定要 '构建' 这个池吗？"
+#~ msgstr "构建一个这种类型的池将格式化源设备。确定要“构建”这个池吗？"
 
 #~ msgid "No network selected"
 #~ msgstr "未选择网络"
